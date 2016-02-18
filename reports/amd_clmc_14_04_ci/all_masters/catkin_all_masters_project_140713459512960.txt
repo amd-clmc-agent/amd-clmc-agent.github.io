@@ -1,0 +1,100 @@
+COMMAND:catkin_make -j install
+------------------------------
+WARNING: Package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits and underscores.
+WARNING: Package name "YAML_CPP" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits and underscores.
+-- The C compiler identification is GNU 4.8.4
+-- The CXX compiler identification is GNU 4.8.4
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Using CATKIN_DEVEL_PREFIX: /home/amd_clmc/team/workspace/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/indigo
+-- This workspace overlays: /opt/ros/indigo
+-- Found PythonInterp: /usr/bin/python (found version "2.7.6") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+-- Python version: 2.7
+-- Using Debian Python package layout
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/amd_clmc/team/workspace/build/test_results
+-- Looking for include file pthread.h
+-- Looking for include file pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found gtest sources under '/usr/src/gtest': gtests will be built
+-- catkin 0.5.90
+-- BUILD_SHARED_LIBS is on
+WARNING: Package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits and underscores.
+WARNING: Package name "YAML_CPP" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits and underscores.
+WARNING: Package "ompl" does not follow the version conventions. It should not contain leading zeros (unless the number is 0).
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- ~~  traversing 20 packages in topological order:
+-- ~~  - Eigen
+-- ~~  - YAML_CPP
+-- ~~  - capture_points
+-- ~~  - sl_config
+-- ~~  - snopt_cpp
+-- ~~  - utilities
+-- ~~  - lwpr
+-- ~~  - xenomai_ros
+-- ~~  - ati_ft_sensor
+-- ~~  - sl
+-- ~~  - hermes_communication_tools
+-- ~~  - hermes_core
+-- ~~  - athena
+-- ~~  - hermes_full
+-- ~~  - hermes_lower
+-- ~~  - floating_base_tools
+-- ~~  - biped_locomotion_lib
+-- ~~  - athena_user
+-- ~~  - hermes_full_user
+-- ~~  - hermes_lower_user
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- +++ processing catkin package: 'Eigen'
+-- ==> add_subdirectory(catkin/third_party/Eigen)
+WARNING: Package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits and underscores.
+-- +++ processing catkin package: 'YAML_CPP'
+-- ==> add_subdirectory(catkin/third_party/YAML_CPP)
+WARNING: Package name "YAML_CPP" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits and underscores.
+-- Boost version: 1.54.0
+-- Performing Test FLAG_WEXTRA
+-- Performing Test FLAG_WEXTRA - Success
+-- +++ processing catkin package: 'capture_points'
+-- ==> add_subdirectory(catkin/humanoids/capture_points)
+CMake Error at /home/amd_clmc/team/workspace/devel/share/catkin/cmake/catkinConfig.cmake:75 (find_package):
+  Could not find a package configuration file provided by "py_cpp_interface"
+  with any of the following names:
+
+    py_cpp_interfaceConfig.cmake
+    py_cpp_interface-config.cmake
+
+  Add the installation prefix of "py_cpp_interface" to CMAKE_PREFIX_PATH or
+  set "py_cpp_interface_DIR" to a directory containing one of the above
+  files.  If "py_cpp_interface" provides a separate development package or
+  SDK, be sure it has been installed.
+Call Stack (most recent call first):
+  catkin/humanoids/capture_points/CMakeLists.txt:15 (find_package)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/amd_clmc/team/workspace/build/CMakeFiles/CMakeOutput.log".
+See also "/home/amd_clmc/team/workspace/build/CMakeFiles/CMakeError.log".
+Base path: /home/amd_clmc/team/workspace
+Source space: /home/amd_clmc/team/workspace/src
+Build space: /home/amd_clmc/team/workspace/build
+Devel space: /home/amd_clmc/team/workspace/devel
+Install space: /home/amd_clmc/team/workspace/install
+####
+#### Running command: "cmake /home/amd_clmc/team/workspace/src -DCATKIN_DEVEL_PREFIX=/home/amd_clmc/team/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/amd_clmc/team/workspace/install -G Unix Makefiles" in "/home/amd_clmc/team/workspace/build"
+####
+Invoking "cmake" failed
