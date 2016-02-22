@@ -1,0 +1,1946 @@
+COMMAND:catkin_make -j install
+------------------------------
+-- The C compiler identification is GNU
+-- The CXX compiler identification is GNU
+-- Check for working C compiler: /usr/bin/gcc
+-- Check for working C compiler: /usr/bin/gcc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Using CATKIN_DEVEL_PREFIX: /home/amd_clmc/team/workspace/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/groovy
+-- This workspace overlays: /opt/ros/groovy
+-- Found PythonInterp: /usr/bin/python (found version "2.7.3")
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+-- Python version: 2.7
+-- Using Debian Python package layout
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/amd_clmc/team/workspace/build/test_results
+-- Looking for include files CMAKE_HAVE_PTHREAD_H
+-- Looking for include files CMAKE_HAVE_PTHREAD_H - found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE 
+-- Found gtest sources under '/usr/src/gtest': gtests will be built
+-- catkin 0.5.89
+-- BUILD_SHARED_LIBS is on
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- ~~  traversing 25 packages in topological order:
+-- ~~  - cdlbt
+-- ~~  - can_control_tools
+-- ~~  - conversions
+-- ~~  - quadprog
+-- ~~  - start_robot
+-- ~~  - amd_clmc_ros_messages
+-- ~~  - utilities
+-- ~~  - lwpr
+-- ~~  - roscpp_utilities
+-- ~~  - sl
+-- ~~  - arm
+-- ~~  - arm_test_task
+-- ~~  - arm_user
+-- ~~  - sl_ros_servo
+-- ~~  - python_ros_utils
+-- ~~  - task_recorder2_msgs
+-- ~~  - arm_robot_model
+-- ~~  - ros_servo_arm
+-- ~~  - usc_utilities
+-- ~~  - learnable_cost_function
+-- ~~  - constrained_inverse_kinematics
+-- ~~  - robot_info
+-- ~~  - jacobian_utilities
+-- ~~  - task_recorder2_utilities
+-- ~~  - gui_utilities
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- +++ processing catkin package: 'cdlbt'
+-- ==> add_subdirectory(catkin/ros/barrett-ros/cdlbt)
+-- MACHTYPE x86_64
+Detected MACHTYPE=x86_64
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:180 (message):
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+Call Stack (most recent call first):
+  catkin/ros/barrett-ros/cdlbt/CMakeLists.txt:8 (include)
+
+
+-- HOST_NAME=amd_clmc_12_04_ci
+-- HOST=amd_clmc_12_04_ci
+-- LAB=AMD
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_INCLUDE_PATH=
+-- CMAKE_LIBRARY_PATH=
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+-- LAB_LIBDIR=lib/x86_64
+-- LAB_INCLUDES=include
+-- LAB_BINDIR=bin/x86_64
+-- +++ processing catkin package: 'can_control_tools'
+-- ==> add_subdirectory(catkin/ros/barrett-ros/canControlTools)
+-- MACHTYPE x86_64
+Detected MACHTYPE=x86_64
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:180 (message):
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+Call Stack (most recent call first):
+  catkin/ros/barrett-ros/canControlTools/CMakeLists.txt:8 (include)
+
+
+-- HOST_NAME=amd_clmc_12_04_ci
+-- HOST=amd_clmc_12_04_ci
+-- LAB=AMD
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_INCLUDE_PATH=
+-- CMAKE_LIBRARY_PATH=
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+-- LAB_LIBDIR=lib/x86_64
+-- LAB_INCLUDES=include
+-- LAB_BINDIR=bin/x86_64
+-- Boost version: 1.46.1
+-- Found the following Boost libraries:
+--   thread
+-- +++ processing catkin package: 'conversions'
+-- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/usc_utils/conversions)
+-- checking for module 'eigen3'
+--   found eigen3, version 3.0.5
+-- Found Eigen: /usr/include/eigen3 
+-- Eigen found (include: /usr/include/eigen3)
+-- +++ processing catkin package: 'quadprog'
+-- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/usc_utils/quadprog)
+-- +++ processing catkin package: 'start_robot'
+-- ==> add_subdirectory(catkin/robots/start_robot)
+-- +++ processing catkin package: 'amd_clmc_ros_messages'
+-- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/amd_clmc_ros_messages)
+-- Using these message generators: gencpp;genlisp;genpy
+-- amd_clmc_ros_messages: 60 messages, 4 services
+-- +++ processing catkin package: 'utilities'
+-- ==> add_subdirectory(catkin/core-sl/catkin-utilities)
+-- MACHTYPE x86_64
+Detected MACHTYPE=x86_64
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:180 (message):
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+Call Stack (most recent call first):
+  catkin/core-sl/catkin-utilities/CMakeLists.txt:8 (include)
+
+
+-- HOST_NAME=amd_clmc_12_04_ci
+-- HOST=amd_clmc_12_04_ci
+-- LAB=AMD
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_INCLUDE_PATH=
+-- CMAKE_LIBRARY_PATH=
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+-- LAB_LIBDIR=lib/x86_64
+-- LAB_INCLUDES=include
+-- LAB_BINDIR=bin/x86_64
+-- +++ processing catkin package: 'lwpr'
+-- ==> add_subdirectory(catkin/core-sl/catkin-lwpr)
+-- MACHTYPE x86_64
+Detected MACHTYPE=x86_64
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:180 (message):
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+Call Stack (most recent call first):
+  catkin/core-sl/catkin-lwpr/CMakeLists.txt:5 (include)
+
+
+-- HOST_NAME=amd_clmc_12_04_ci
+-- HOST=amd_clmc_12_04_ci
+-- LAB=AMD
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_INCLUDE_PATH=
+-- CMAKE_LIBRARY_PATH=
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+-- LAB_LIBDIR=lib/x86_64
+-- LAB_INCLUDES=include
+-- LAB_BINDIR=bin/x86_64
+-- +++ processing catkin package: 'roscpp_utilities'
+-- ==> add_subdirectory(catkin/ros/roscpp_utilities)
+-- Eigen found (include: /usr/include/eigen3)
+-- +++ processing catkin package: 'sl'
+-- ==> add_subdirectory(catkin/core-sl/catkin-sl)
+-- MACHTYPE x86_64
+Detected MACHTYPE=x86_64
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:180 (message):
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+Call Stack (most recent call first):
+  catkin/core-sl/catkin-sl/CMakeLists.txt:8 (include)
+
+
+-- HOST_NAME=amd_clmc_12_04_ci
+-- HOST=amd_clmc_12_04_ci
+-- LAB=AMD
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_INCLUDE_PATH=
+-- CMAKE_LIBRARY_PATH=
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+-- LAB_LIBDIR=lib/x86_64
+-- LAB_INCLUDES=include
+-- LAB_BINDIR=bin/x86_64
+-- +++ processing catkin package: 'arm'
+-- ==> add_subdirectory(catkin/robots/arm)
+-- MACHTYPE x86_64
+Detected MACHTYPE=x86_64
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:180 (message):
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+Call Stack (most recent call first):
+  catkin/robots/arm/CMakeLists.txt:5 (include)
+
+
+-- HOST_NAME=amd_clmc_12_04_ci
+-- HOST=amd_clmc_12_04_ci
+-- LAB=AMD
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_INCLUDE_PATH=
+-- CMAKE_LIBRARY_PATH=
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+-- LAB_LIBDIR=lib/x86_64
+-- LAB_INCLUDES=include
+-- LAB_BINDIR=bin/x86_64
+-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+-- Looking for gethostbyname
+-- Looking for gethostbyname - found
+-- Looking for connect
+-- Looking for connect - found
+-- Looking for remove
+-- Looking for remove - found
+-- Looking for shmat
+-- Looking for shmat - found
+-- Looking for IceConnectionNumber in ICE
+-- Looking for IceConnectionNumber in ICE - found
+-- Found X11: /usr/lib/x86_64-linux-gnu/libX11.so
+-- copying file: /home/amd_clmc/team/workspace/src/cmake/sl/include/SL_dynamics.h to /home/amd_clmc/team/workspace/src/catkin/robots/arm/include/SL_dynamics.h
+-- copying file: /home/amd_clmc/team/workspace/src/cmake/sl/src/SL_dynamics.c to /home/amd_clmc/team/workspace/src/catkin/robots/arm/src/SL_dynamics.c
+-- copying file: /home/amd_clmc/team/workspace/src/cmake/sl/src/SL_forDynArt.c to /home/amd_clmc/team/workspace/src/catkin/robots/arm/src/SL_forDynArt.c
+-- copying file: /home/amd_clmc/team/workspace/src/cmake/sl/src/SL_forDynComp.c to /home/amd_clmc/team/workspace/src/catkin/robots/arm/src/SL_forDynComp.c
+-- copying file: /home/amd_clmc/team/workspace/src/cmake/sl/src/SL_invDynArt.c to /home/amd_clmc/team/workspace/src/catkin/robots/arm/src/SL_invDynArt.c
+-- copying file: /home/amd_clmc/team/workspace/src/cmake/sl/src/SL_invDynNE.c to /home/amd_clmc/team/workspace/src/catkin/robots/arm/src/SL_invDynNE.c
+-- copying file: /home/amd_clmc/team/workspace/src/cmake/sl/src/SL_kinematics.c to /home/amd_clmc/team/workspace/src/catkin/robots/arm/src/SL_kinematics.c
+-- copying file: /home/amd_clmc/team/workspace/src/cmake/sl/src/SL_parm_estimate.c to /home/amd_clmc/team/workspace/src/catkin/robots/arm/src/SL_parm_estimate.c
+-- +++ processing catkin package: 'arm_test_task'
+-- ==> add_subdirectory(catkin/robots/sl-arm-task-example)
+-- MACHTYPE x86_64
+Detected MACHTYPE=x86_64
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:180 (message):
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+Call Stack (most recent call first):
+  catkin/robots/sl-arm-task-example/CMakeLists.txt:8 (include)
+
+
+-- HOST_NAME=amd_clmc_12_04_ci
+-- HOST=amd_clmc_12_04_ci
+-- LAB=AMD
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_INCLUDE_PATH=
+-- CMAKE_LIBRARY_PATH=
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+-- LAB_LIBDIR=lib/x86_64
+-- LAB_INCLUDES=include
+-- LAB_BINDIR=bin/x86_64
+-- +++ processing catkin package: 'arm_user'
+-- ==> add_subdirectory(catkin/robots/armUser)
+-- MACHTYPE x86_64
+Detected MACHTYPE=x86_64
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:180 (message):
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+Call Stack (most recent call first):
+  catkin/robots/armUser/CMakeLists.txt:5 (include)
+
+
+-- HOST_NAME=amd_clmc_12_04_ci
+-- HOST=amd_clmc_12_04_ci
+-- LAB=AMD
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_INCLUDE_PATH=
+-- CMAKE_LIBRARY_PATH=
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+-- LAB_LIBDIR=lib/x86_64
+-- LAB_INCLUDES=include
+-- LAB_BINDIR=bin/x86_64
+-- +++ processing catkin package: 'sl_ros_servo'
+-- ==> add_subdirectory(catkin/ros/sl_ros_servo)
+-- MACHTYPE x86_64
+Detected MACHTYPE=x86_64
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:180 (message):
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+Call Stack (most recent call first):
+  catkin/ros/sl_ros_servo/CMakeLists.txt:5 (include)
+
+
+-- HOST_NAME=amd_clmc_12_04_ci
+-- HOST=amd_clmc_12_04_ci
+-- LAB=AMD
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_INCLUDE_PATH=
+-- CMAKE_LIBRARY_PATH=
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+-- LAB_LIBDIR=lib/x86_64
+-- LAB_INCLUDES=include
+-- LAB_BINDIR=bin/x86_64
+-- +++ processing catkin package: 'python_ros_utils'
+-- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/usc_utils/python_ros_utils)
+-- +++ processing catkin package: 'task_recorder2_msgs'
+-- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/learning/task_recorder2_msgs)
+-- Using these message generators: gencpp;genlisp;genpy
+-- task_recorder2_msgs: 9 messages, 5 services
+-- +++ processing catkin package: 'arm_robot_model'
+-- ==> add_subdirectory(catkin/robots/arm_robot_model)
+-- +++ processing catkin package: 'ros_servo_arm'
+-- ==> add_subdirectory(catkin/ros/ros_servo_arm)
+-- MACHTYPE x86_64
+Detected MACHTYPE=x86_64
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:180 (message):
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+Call Stack (most recent call first):
+  catkin/ros/ros_servo_arm/CMakeLists.txt:5 (include)
+
+
+-- HOST_NAME=amd_clmc_12_04_ci
+-- HOST=amd_clmc_12_04_ci
+-- LAB=AMD
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_INCLUDE_PATH=
+-- CMAKE_LIBRARY_PATH=
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+-- LAB_LIBDIR=lib/x86_64
+-- LAB_INCLUDES=include
+-- LAB_BINDIR=bin/x86_64
+-- +++ processing catkin package: 'usc_utilities'
+-- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/usc_utils/usc_utilities)
+-- Eigen found (include: /usr/include/eigen3)
+-- Using these message generators: gencpp;genlisp;genpy
+-- usc_utilities: 1 messages, 0 services
+-- +++ processing catkin package: 'learnable_cost_function'
+-- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/planning/learnable_cost_function)
+-- Eigen found (include: /usr/include/eigen3)
+-- +++ processing catkin package: 'constrained_inverse_kinematics'
+-- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/planning/constrained_inverse_kinematics)
+-- Using these message generators: gencpp;genlisp;genpy
+-- Eigen found (include: /usr/include/eigen3)
+-- Try OpenMP C flag = [-fopenmp]
+-- Performing Test OpenMP_FLAG_DETECTED
+-- Performing Test OpenMP_FLAG_DETECTED - Success
+-- Try OpenMP CXX flag = [-fopenmp]
+-- Performing Test OpenMP_FLAG_DETECTED
+-- Performing Test OpenMP_FLAG_DETECTED - Success
+Found OPENMP.
+-- constrained_inverse_kinematics: 1 messages, 0 services
+-- +++ processing catkin package: 'robot_info'
+-- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/usc_utils/robot_info)
+-- +++ processing catkin package: 'jacobian_utilities'
+-- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/usc_utils/jacobian_utilities)
+-- +++ processing catkin package: 'task_recorder2_utilities'
+-- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/learning/task_recorder2_utilities)
+-- Eigen found (include: /usr/include/eigen3)
+-- +++ processing catkin package: 'gui_utilities'
+-- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/usc_utils/gui_utilities)
+-- Looking for Q_WS_X11
+-- Looking for Q_WS_X11 - found
+-- Looking for Q_WS_WIN
+-- Looking for Q_WS_WIN - not found.
+-- Looking for Q_WS_QWS
+-- Looking for Q_WS_QWS - not found.
+-- Looking for Q_WS_MAC
+-- Looking for Q_WS_MAC - not found.
+-- Found Qt4: /usr/bin/qmake (found suitable version "4.8.1", required is "4.4.3")
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/amd_clmc/team/workspace/build
+Scanning dependencies of target geometry_msgs_generate_messages_py
+Scanning dependencies of target geometry_msgs_generate_messages_cpp
+Scanning dependencies of target quadprog
+Scanning dependencies of target geometry_msgs_generate_messages_lisp
+[  0%] [  0%] [  1%] Built target geometry_msgs_generate_messages_cpp
+Scanning dependencies of target visualization_msgs_generate_messages_py
+Scanning dependencies of target visualization_msgs_generate_messages_cpp
+Built target geometry_msgs_generate_messages_py
+[  1%] Scanning dependencies of target tf_generate_messages_lisp
+Built target geometry_msgs_generate_messages_lisp
+[  1%] Scanning dependencies of target sensor_msgs_generate_messages_cpp
+Scanning dependencies of target sensor_msgs_generate_messages_py
+Scanning dependencies of target visualization_msgs_generate_messages_lisp
+Scanning dependencies of target shape_msgs_generate_messages_py
+Scanning dependencies of target tf_generate_messages_cpp
+Scanning dependencies of target sensor_msgs_generate_messages_lisp
+Scanning dependencies of target shape_msgs_generate_messages_cpp
+Scanning dependencies of target tf_generate_messages_py
+Scanning dependencies of target shape_msgs_generate_messages_lisp
+Building CXX object catkin/ros/usc-clmc-catkin-pkg/usc_utils/quadprog/CMakeFiles/quadprog.dir/src/Array.cc.o
+[  1%] [  1%] Building CXX object catkin/ros/usc-clmc-catkin-pkg/usc_utils/quadprog/CMakeFiles/quadprog.dir/src/QuadProg++.cc.o
+[  1%] Built target tf_generate_messages_lisp
+Built target visualization_msgs_generate_messages_cpp
+Built target visualization_msgs_generate_messages_py
+[  1%] [  1%] [  1%] Built target shape_msgs_generate_messages_py
+[  1%] [  1%] [  1%] Built target shape_msgs_generate_messages_lisp
+[  1%] [  1%] Built target sensor_msgs_generate_messages_lisp
+Scanning dependencies of target amd_clmc_ros_messages_generate_messages_py
+Built target shape_msgs_generate_messages_cpp
+Built target visualization_msgs_generate_messages_lisp
+Built target tf_generate_messages_py
+[  1%] Built target sensor_msgs_generate_messages_py
+Built target tf_generate_messages_cpp
+Built target sensor_msgs_generate_messages_cpp
+Scanning dependencies of target amd_clmc_ros_messages_generate_messages_cpp
+Scanning dependencies of target amd_clmc_ros_messages_generate_messages_lisp
+Scanning dependencies of target test_conversions
+Scanning dependencies of target arm_task
+Scanning dependencies of target task_recorder2_msgs_generate_messages_lisp
+Scanning dependencies of target constrained_inverse_kinematics_generate_messages_lisp
+Scanning dependencies of target constrained_inverse_kinematics_generate_messages_cpp
+[  1%] Scanning dependencies of target constrained_inverse_kinematics_generate_messages_py
+Scanning dependencies of target roscpp_utilities
+Scanning dependencies of target arm_simulation
+[  1%] [  1%] Scanning dependencies of target task_recorder2_msgs_generate_messages_py
+Scanning dependencies of target usc_utilities_generate_messages_lisp
+Scanning dependencies of target usc_utilities_generate_messages_py
+[  1%] [  1%] [  1%] Scanning dependencies of target arm_openGL
+Scanning dependencies of target utility
+Scanning dependencies of target usc_utilities_generate_messages_cpp
+[  1%] Scanning dependencies of target task_recorder2_msgs_generate_messages_cpp
+[  1%] [  1%] [  1%] [  1%] [  2%] [  3%] [  3%] Scanning dependencies of target SLmotor
+[  3%] [  3%] [  4%] [  4%] [  4%] [  4%] [  4%] [  4%] [  4%] [  4%] [  4%] [  5%] [  5%] [  5%] [  5%] [  5%] [  6%] [  7%] [  7%] Scanning dependencies of target SLsimulation
+[  7%] [  7%] Scanning dependencies of target SLvision
+[  7%] [  8%] [  8%] [  8%] [  9%] [  9%] [  9%] [  9%] [  9%] [  9%] [  9%] [  9%] Scanning dependencies of target SLopenGL
+[  9%] [ 10%] Scanning dependencies of target SLtask
+[ 11%] [ 11%] Scanning dependencies of target SLcommon
+[ 11%] [ 11%] Scanning dependencies of target arm
+[ 12%] [ 12%] [ 12%] [ 12%] Generating Lisp code from amd_clmc_ros_messages/CartesianGains.msg
+[ 12%] [ 12%] [ 12%] Generating Python from MSG amd_clmc_ros_messages/CalibratePressureSensorsStatus
+[ 12%] [ 12%] [ 12%] [ 12%] [ 13%] [ 13%] [ 14%] [ 14%] [ 14%] [ 14%] [ 14%] [ 14%] [ 14%] [ 15%] [ 15%] [ 16%] [ 16%] [ 16%] [ 16%] [ 16%] [ 16%] [ 16%] [ 17%] [ 17%] [ 17%] Generating C++ code from amd_clmc_ros_messages/CartesianGains.msg
+[ 18%] [ 19%] [ 19%] [ 19%] [ 19%] [ 19%] [ 19%] [ 19%] [ 19%] [ 20%] [ 20%] [ 20%] [ 21%] [ 21%] [ 21%] [ 22%] [ 22%] [ 23%] [ 23%] [ 23%] [ 23%] [ 23%] Generating Lisp code from amd_clmc_ros_messages/CalibratePressureSensorsStatus.msg
+[ 24%] [ 24%] [ 25%] [ 25%] [ 25%] [ 26%] [ 27%] [ 27%] [ 27%] [ 28%] [ 29%] [ 29%] [ 29%] [ 29%] [ 29%] [ 29%] [ 29%] [ 29%] Generating C++ code from amd_clmc_ros_messages/CartesianTrajectory.msg
+[ 29%] [ 29%] [ 29%] [ 29%] [ 29%] [ 29%] [ 30%] [ 30%] [ 31%] [ 31%] [ 31%] Generating Lisp code from amd_clmc_ros_messages/CartesianTrajectory.msg
+[ 31%] [ 31%] Generating C++ code from amd_clmc_ros_messages/CalibratePressureSensorsStatus.msg
+[ 31%] [ 31%] [ 31%] [ 32%] [ 32%] [ 32%] [ 32%] [ 32%] [ 32%] [ 32%] [ 32%] [ 33%] [ 33%] Generating Lisp code from amd_clmc_ros_messages/CalibratePressureSensors.msg
+[ 33%] [ 33%] [ 33%] [ 33%] [ 33%] [ 33%] Generating C++ code from amd_clmc_ros_messages/CalibratePressureSensors.msg
+[ 33%] [ 33%] [ 33%] [ 33%] [ 33%] [ 33%] [ 33%] [ 33%] [ 33%] [ 33%] [ 33%] [ 33%] [ 33%] Generating Python from MSG amd_clmc_ros_messages/OfflineNetwork
+Generating C++ code from constrained_inverse_kinematics/InverseKinematicsRequest.msg
+[ 33%] [ 35%] [ 35%] [ 36%] Generating C++ code from amd_clmc_ros_messages/EnvironmentalObject.msg
+[ 36%] [ 37%] [ 38%] [ 38%] [ 38%] [ 38%] [ 38%] [ 38%] [ 39%] [ 39%] [ 40%] [ 40%] [ 40%] Generating C++ code from amd_clmc_ros_messages/TaskFrame.msg
+[ 42%] [ 42%] Generating C++ code from amd_clmc_ros_messages/FingerJointEncoderOffsets.msg
+[ 43%] Generating Python from MSG amd_clmc_ros_messages/EnvironmentalObject
+[ 43%] [ 43%] [ 44%] [ 44%] Generating Lisp code from amd_clmc_ros_messages/AccelerationFeedbackExperimentStatus.msg
+[ 44%] [ 44%] [ 45%] [ 47%] [ 47%] [ 47%] Generating C++ code from amd_clmc_ros_messages/ControllerStatus.msg
+[ 47%] Generating Lisp code from amd_clmc_ros_messages/GraspStatus.msg
+[ 47%] Generating Python from MSG amd_clmc_ros_messages/Grasp
+Generating C++ code from amd_clmc_ros_messages/LinearQuadraticRegulator.msg
+[ 47%] [ 48%] Generating C++ code from amd_clmc_ros_messages/Trajectory.msg
+[ 48%] [ 48%] [ 48%] [ 49%] Generating C++ code from amd_clmc_ros_messages/QueryControllerStatus.srv
+[ 49%] Generating Python from MSG amd_clmc_ros_messages/CalibrateAccelerometerSensorStatus
+[ 49%] [ 50%] [ 50%] Generating C++ code from amd_clmc_ros_messages/CalibrateBiotacSensorsStatus.msg
+Generating Lisp code from amd_clmc_ros_messages/Grasp.msg
+[ 50%] [ 50%] [ 50%] [ 50%] [ 50%] [ 50%] [ 51%] Generating Python from MSG amd_clmc_ros_messages/CalibrateAccelerometerSensor
+[ 51%] [ 52%] Generating C++ code from amd_clmc_ros_messages/CalibrateAccelerometerSensor.msg
+Generating Python from MSG amd_clmc_ros_messages/LinearQuadraticRegulator
+[ 52%] [ 52%] Generating Python from MSG amd_clmc_ros_messages/Sphere
+[ 52%] Building CXX object catkin/ros/usc-clmc-catkin-pkg/usc_utils/conversions/CMakeFiles/test_conversions.dir/test/test_conversions.cpp.o
+[ 52%] [ 52%] [ 52%] [ 52%] Generating Python from MSG amd_clmc_ros_messages/FingerJointEncoderOffsetsStatus
+Generating Python from MSG amd_clmc_ros_messages/CartesianGains
+Generating Python from MSG task_recorder2_msgs/Notification
+[ 52%] [ 52%] [ 52%] [ 53%] [ 54%] [ 55%] Generating C++ code from amd_clmc_ros_messages/DistanceFieldEval.msg
+[ 56%] [ 57%] Generating Python from MSG amd_clmc_ros_messages/GraspPoses
+Generating Python from MSG task_recorder2_msgs/BinaryLabel
+Generating C++ code from amd_clmc_ros_messages/OfflineNetwork.msg
+[ 57%] [ 57%] [ 57%] Generating Python from MSG amd_clmc_ros_messages/KeyPointBodyApprox
+Generating Python from MSG amd_clmc_ros_messages/Matrix32
+Generating Python from MSG amd_clmc_ros_messages/ObstaclePoints
+[ 57%] Generating Python code from SRV amd_clmc_ros_messages/ExperimentGeneratorParamsService
+[ 57%] Generating C++ code from amd_clmc_ros_messages/GraspStatus.msg
+Generating Python from MSG amd_clmc_ros_messages/DistanceFieldEval
+Generating Lisp code from amd_clmc_ros_messages/CollectData.msg
+[ 57%] [ 57%] Generating Python from MSG amd_clmc_ros_messages/CalibrateBiotacSensorsStatus
+[ 58%] [ 58%] [ 59%] Generating Lisp code from amd_clmc_ros_messages/GraspPoses.msg
+[ 60%] Generating C++ code from amd_clmc_ros_messages/GraspPoses.msg
+Generating Lisp code from amd_clmc_ros_messages/OnlineDataStatus.msg
+[ 62%] [ 62%] Generating Python from MSG amd_clmc_ros_messages/DistanceFieldQueries
+[ 62%] Generating Python code from SRV amd_clmc_ros_messages/QueryControllerStatus
+[ 62%] [ 62%] [ 62%] [ 62%] Generating Lisp code from amd_clmc_ros_messages/Trajectory.msg
+Generating Python from MSG amd_clmc_ros_messages/ResetBreakaway
+[ 63%] Generating C++ code from amd_clmc_ros_messages/KeyPointBodyApprox.msg
+Generating C++ code from amd_clmc_ros_messages/ExperimentGeneratorParamsService.srv
+Generating C++ code from amd_clmc_ros_messages/CalibrateForceTorqueSensor.msg
+[ 63%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/brent.c.o
+[ 63%] [ 63%] Generating C++ code from task_recorder2_msgs/TaskRecorderSpecification.msg
+Generating Python from MSG amd_clmc_ros_messages/Gains
+Generating Python from MSG amd_clmc_ros_messages/CalibrateBiotacSensors
+Generating Python from MSG amd_clmc_ros_messages/GraspStatus
+Generating Python from MSG amd_clmc_ros_messages/ExperimentParams
+[ 63%] [ 63%] Generating Lisp code from amd_clmc_ros_messages/KeyPointBodyApprox.msg
+[ 63%] [ 63%] Generating C++ code from amd_clmc_ros_messages/EndEffectorPosition.msg
+Generating Python from MSG amd_clmc_ros_messages/StrainGauge
+[ 63%] [ 63%] Building C object catkin/robots/arm/CMakeFiles/arm_simulation.dir/src/SL_user_simulation.c.o
+[ 63%] Generating Python code from SRV amd_clmc_ros_messages/OfflineParamsService
+[ 63%] [ 64%] [ 65%] [ 65%] [ 65%] Generating Lisp code from amd_clmc_ros_messages/ChordEllipsoid.msg
+Generating Python from MSG amd_clmc_ros_messages/TrajectoryPoint
+Generating Lisp code from amd_clmc_ros_messages/SwitchControllerStack.srv
+[ 65%] Generating Lisp code from amd_clmc_ros_messages/CalibrateAccelerometerSensor.msg
+[ 65%] Generating Python from MSG amd_clmc_ros_messages/ObjectMass
+[ 66%] [ 67%] [ 67%] [ 67%] [ 67%] Generating Lisp code from amd_clmc_ros_messages/Matrix32.msg
+Generating Python from MSG amd_clmc_ros_messages/OfflineDataStatus
+[ 68%] [ 69%] Generating C++ code from amd_clmc_ros_messages/ChordEllipsoid.msg
+Generating Python from MSG amd_clmc_ros_messages/ControllerStatus
+Generating Lisp code from amd_clmc_ros_messages/CalibrateAccelerometerSensorStatus.msg
+Generating Python from MSG amd_clmc_ros_messages/ChordEllipsoid
+Generating Lisp code from amd_clmc_ros_messages/DistanceFieldEval.msg
+[ 69%] Generating Python from MSG amd_clmc_ros_messages/CollectDataStatus
+[ 69%] [ 69%] [ 69%] [ 69%] Generating Python from MSG amd_clmc_ros_messages/ResetBreakawayStatus
+[ 69%] Generating Lisp code from amd_clmc_ros_messages/NetworkLayer.msg
+[ 69%] Generating C++ code from amd_clmc_ros_messages/LinearQuadraticRegulatorParams.msg
+Generating C++ code from amd_clmc_ros_messages/OfflineDataStatus.msg
+Generating Python from MSG amd_clmc_ros_messages/CalibratePressureSensors
+[ 69%] [ 69%] [ 69%] Generating Lisp code from amd_clmc_ros_messages/FingerJointEncoderOffsets.msg
+[ 69%] Generating Python from MSG amd_clmc_ros_messages/CartesianTrajectory
+[ 69%] [ 69%] [ 69%] Generating C++ code from amd_clmc_ros_messages/AccelerationFeedbackExperimentStatus.msg
+[ 69%] Generating Python from MSG amd_clmc_ros_messages/Trajectory
+Generating Lisp code from amd_clmc_ros_messages/Gains.msg
+Generating Lisp code from amd_clmc_ros_messages/SetVisualToolTracking.msg
+Generating Lisp code from amd_clmc_ros_messages/EnvironmentalObject.msg
+[ 69%] [ 69%] [ 69%] Generating C++ code from amd_clmc_ros_messages/CalibrateBiotacSensors.msg
+Generating Python from MSG amd_clmc_ros_messages/CalibrateForceTorqueSensor
+[ 69%] [ 69%] Generating Lisp code from amd_clmc_ros_messages/ExperimentGeneratorParamsService.srv
+Generating C++ code from amd_clmc_ros_messages/Sphere.msg
+Generating Python from MSG amd_clmc_ros_messages/AccelerationFeedbackExperimentStatus
+Building C object catkin/robots/arm/CMakeFiles/arm_task.dir/src/SL_user_task.c.o
+Generating C++ code from amd_clmc_ros_messages/AvgPressureSensors.msg
+Generating Lisp code from task_recorder2_msgs/DataSample.msg
+[ 70%] [ 70%] Generating C++ code from amd_clmc_ros_messages/ExperimentParams.msg
+[ 70%] [ 70%] [ 70%] Generating Python from MSG amd_clmc_ros_messages/Acceleration
+Generating Lisp code from amd_clmc_ros_messages/ExperimentParams.msg
+Generating C++ code from amd_clmc_ros_messages/UpdateStrainGagesCalibration.msg
+Generating Lisp code from amd_clmc_ros_messages/CalibrateBiotacSensorsStatus.msg
+Generating Lisp code from amd_clmc_ros_messages/Sphere.msg
+Generating Lisp code from amd_clmc_ros_messages/ObstaclePoints.msg
+Generating Lisp code from amd_clmc_ros_messages/LinearQuadraticRegulator.msg
+[ 70%] Generating C++ code from amd_clmc_ros_messages/IncreaseMaxFingerTorque.msg
+[ 70%] Generating Lisp code from amd_clmc_ros_messages/ObjectMass.msg
+Generating C++ code from amd_clmc_ros_messages/FingerForceControlGains.msg
+Generating Python from MSG amd_clmc_ros_messages/CartesianTrajectoryPoint
+Generating C++ code from amd_clmc_ros_messages/Grasp.msg
+Generating C++ code from amd_clmc_ros_messages/TrajectoryStatus.msg
+[ 70%] [ 70%] Generating Python from MSG amd_clmc_ros_messages/AffinePolicy
+[ 70%] [ 70%] [ 70%] Generating Lisp code from amd_clmc_ros_messages/TaskFrame.msg
+Generating C++ code from amd_clmc_ros_messages/CalibrateAccelerometerSensorStatus.msg
+Generating Lisp code from task_recorder2_msgs/TaskRecorderSpecification.msg
+Generating C++ code from amd_clmc_ros_messages/OfflineParams.msg
+Generating C++ code from amd_clmc_ros_messages/OfflineParamsService.srv
+[ 72%] [ 72%] Generating C++ code from amd_clmc_ros_messages/ObstaclePoints.msg
+Generating C++ code from task_recorder2_msgs/DataSampleLabel.msg
+Generating Python from MSG amd_clmc_ros_messages/AvgPressureSensors
+Generating C++ code from amd_clmc_ros_messages/Matrix32.msg
+Generating Lisp code from amd_clmc_ros_messages/FingerForceControlGains.msg
+Generating Python code from SRV task_recorder2_msgs/Accumulate
+Generating Python from MSG amd_clmc_ros_messages/FingerJointEncoderOffsets
+Generating Python from MSG amd_clmc_ros_messages/NetworkLayer
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/control.c.o
+[ 72%] Generating Python from MSG amd_clmc_ros_messages/OfflineParams
+[ 73%] Generating Lisp code from amd_clmc_ros_messages/OfflineParams.msg
+[ 73%] [ 73%] Generating Python from MSG amd_clmc_ros_messages/SetVisualToolTracking
+Generating Python from MSG usc_utilities/AccumulatedTrialStatistics
+Generating Python from MSG amd_clmc_ros_messages/OnlineDataStatus
+Generating C++ code from amd_clmc_ros_messages/FingerJointEncoderOffsetsStatus.msg
+Generating Lisp code from amd_clmc_ros_messages/LinearQuadraticRegulatorParams.msg
+[ 74%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLcommon.dir/src/SL_filters.c.o
+[ 74%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLopenGL.dir/src/SL_objects.c.o
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/numerics_package.c.o
+Generating Lisp code from amd_clmc_ros_messages/ResetBreakaway.msg
+Generating Lisp code from amd_clmc_ros_messages/CalibrateForceTorqueSensorStatus.msg
+Generating C++ code from task_recorder2_msgs/BinaryLabel.msg
+Generating Lisp code from amd_clmc_ros_messages/UpdateStrainGagesCalibrationStatus.msg
+Generating Python from MSG amd_clmc_ros_messages/Preshape
+Generating C++ code from amd_clmc_ros_messages/TrajectoryPoint.msg
+Generating Lisp code from amd_clmc_ros_messages/TrajectoryPoint.msg
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/hqr.c.o
+Generating Lisp code from amd_clmc_ros_messages/EndEffectorPosition.msg
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLtask.dir/src/SL_go_cart_task.c.o
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLvision.dir/src/SL_vision_proc.c.o
+Generating C++ code from amd_clmc_ros_messages/SwitchControllerStack.srv
+Generating Python from MSG amd_clmc_ros_messages/IncreaseMaxFingerTorque
+Generating Python code from SRV task_recorder2_msgs/DetectedEvents
+Generating C++ code from amd_clmc_ros_messages/CollectData.msg
+Generating Python from MSG amd_clmc_ros_messages/EndEffectorPosition
+Generating Lisp code from amd_clmc_ros_messages/IncreaseMaxFingerTorque.msg
+Building C object catkin/robots/arm/CMakeFiles/arm.dir/src/SL_kinematics.c.o
+Generating Lisp code from amd_clmc_ros_messages/OfflineNetwork.msg
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/kdtree.c.o
+Generating Lisp code from amd_clmc_ros_messages/AffinePolicy.msg
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/ldltinv.c.o
+Generating C++ code from amd_clmc_ros_messages/ResetBreakaway.msg
+Generating Python from MSG constrained_inverse_kinematics/InverseKinematicsRequest
+Generating C++ code from task_recorder2_msgs/DataSample.msg
+Generating Lisp code from amd_clmc_ros_messages/ControllerStatus.msg
+Generating Python from MSG task_recorder2_msgs/CostLabel
+Generating C++ code from amd_clmc_ros_messages/StrainGauge.msg
+[ 74%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/data_sets.c.o
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/elmhes.c.o
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/distributions.c.o
+Generating Python from MSG task_recorder2_msgs/DataSampleLabel
+Generating C++ code from amd_clmc_ros_messages/Gains.msg
+Generating Lisp code from constrained_inverse_kinematics/InverseKinematicsRequest.msg
+Generating Python from MSG amd_clmc_ros_messages/FingerForceControlGains
+Generating Python code from SRV amd_clmc_ros_messages/SwitchControllerStack
+Generating Lisp code from amd_clmc_ros_messages/BiotacData.msg
+Generating Lisp code from task_recorder2_msgs/DataSampleLabel.msg
+Generating C++ code from task_recorder2_msgs/AccumulatedTrialStatistics.msg
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/ludcmp.c.o
+Generating Python from MSG amd_clmc_ros_messages/LinearQuadraticRegulatorParams
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/svbksb.c.o
+Generating Python from MSG amd_clmc_ros_messages/BiotacData
+Generating Lisp code from amd_clmc_ros_messages/ResetBreakawayStatus.msg
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLmotor.dir/src/SL_motor_servo.c.o
+Generating C++ code from amd_clmc_ros_messages/TrackingPose.msg
+Generating Lisp code from task_recorder2_msgs/SetupDetector.srv
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLmotor.dir/src/SL_motor_servo_unix.c.o
+Generating Python from MSG amd_clmc_ros_messages/EndEffectorState
+Generating Lisp code from task_recorder2_msgs/Accumulate.srv
+Generating C++ code from amd_clmc_ros_messages/UpdateStrainGagesCalibrationStatus.msg
+Generating C++ code from amd_clmc_ros_messages/OnlineDataStatus.msg
+Generating Lisp code from amd_clmc_ros_messages/TrackingPose.msg
+Generating C++ code from amd_clmc_ros_messages/CartesianTrajectoryPoint.msg
+Generating C++ code from task_recorder2_msgs/Notification.msg
+Generating Lisp code from usc_utilities/AccumulatedTrialStatistics.msg
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLopenGL.dir/src/SL_openGL_servo_unix.c.o
+Generating Lisp code from amd_clmc_ros_messages/CollectDataStatus.msg
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/dlinmin.c.o
+Generating Lisp code from amd_clmc_ros_messages/QueryControllerStatus.srv
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLtask.dir/src/SL_traj_task.c.o
+Generating Lisp code from amd_clmc_ros_messages/AvgPressureSensors.msg
+Generating Python code from SRV task_recorder2_msgs/SetLabel
+Generating C++ code from amd_clmc_ros_messages/LinearQuadraticRegulatorStatus.msg
+Generating C++ code from task_recorder2_msgs/SetupDetector.srv
+Generating Lisp code from amd_clmc_ros_messages/UpdateStrainGagesCalibration.msg
+[ 75%] Generating C++ code from amd_clmc_ros_messages/NetworkLayer.msg
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLtask.dir/src/SL_sine_task.c.o
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLcommon.dir/src/SL_man.c.o
+Generating C++ code from task_recorder2_msgs/Description.msg
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLopenGL.dir/src/SL_openGL.c.o
+Generating Python from MSG amd_clmc_ros_messages/LinearQuadraticRegulatorStatus
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/df1dim.c.o
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/stability.c.o
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/statistics.c.o
+Generating Lisp code from task_recorder2_msgs/CostLabel.msg
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/frprmn.c.o
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLmotor.dir/src/SL_controller.c.o
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLopenGL.dir/src/SL_openGL_servo.c.o
+Generating Lisp code from task_recorder2_msgs/BinaryLabel.msg
+Generating Python from MSG amd_clmc_ros_messages/TrackingPose
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/linmin.c.o
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/parm_opt.c.o
+Generating C++ code from amd_clmc_ros_messages/ResetBreakawayStatus.msg
+Generating Python from MSG task_recorder2_msgs/DataSample
+Building C object catkin/robots/arm/CMakeFiles/arm.dir/src/SL_invDynArt.c.o
+Generating Python from MSG amd_clmc_ros_messages/UpdateStrainGagesCalibration
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/dbrent.c.o
+Generating Lisp code from task_recorder2_msgs/Description.msg
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLopenGL.dir/src/SL_openGL_oscilloscope.c.o
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLcommon.dir/src/SL_vx2unix_wrappers.c.o
+Generating Lisp code from amd_clmc_ros_messages/TrajectoryStatus.msg
+Generating Lisp code from amd_clmc_ros_messages/OfflineDataStatus.msg
+Generating Lisp code from task_recorder2_msgs/SetLabel.srv
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLcommon.dir/src/SL_terrains.c.o
+Generating Python from MSG amd_clmc_ros_messages/TrajectoryStatus
+Generating C++ code from amd_clmc_ros_messages/AffinePolicy.msg
+Generating Python code from SRV task_recorder2_msgs/SetLastTrialIds
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLtask.dir/src/SL_task_servo.c.o
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/lubksb.c.o
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLmotor.dir/src/SL_sensor_proc.c.o
+Generating Python from MSG task_recorder2_msgs/Description
+Generating C++ code from amd_clmc_ros_messages/ObjectMass.msg
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLtask.dir/src/SL_task_servo_unix.c.o
+Building C object catkin/robots/arm/CMakeFiles/arm.dir/src/SL_forDynComp.c.o
+Generating C++ code from amd_clmc_ros_messages/PressureSensors.msg
+Generating C++ code from amd_clmc_ros_messages/SetVisualToolTracking.msg
+Building C object catkin/robots/arm/CMakeFiles/arm_openGL.dir/src/SL_user_openGL.c.o
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLsimulation.dir/src/SL_simulation_servo.c.o
+Generating Lisp code from amd_clmc_ros_messages/EndEffectorState.msg
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/mnbrak.c.o
+Generating Lisp code from amd_clmc_ros_messages/PressureSensors.msg
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLcommon.dir/src/SL_common.c.o
+Generating Lisp code from amd_clmc_ros_messages/Acceleration.msg
+Generating C++ code from task_recorder2_msgs/tfMessageStamped.msg
+Generating C++ code from usc_utilities/AccumulatedTrialStatistics.msg
+Generating Lisp code from amd_clmc_ros_messages/OfflineParamsService.srv
+Generating Python from MSG amd_clmc_ros_messages/CollectData
+Generating Lisp code from task_recorder2_msgs/AccumulatedTrialStatistics.msg
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLvision.dir/src/SL_dbvision.c.o
+Generating Lisp code from task_recorder2_msgs/Notification.msg
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLvision.dir/src/SL_vision_servo.c.o
+Building C object catkin/robots/arm/CMakeFiles/arm.dir/src/SL_user_common.c.o
+Generating Lisp code from amd_clmc_ros_messages/FingerJointEncoderOffsetsStatus.msg
+Generating Lisp code from amd_clmc_ros_messages/StrainGauge.msg
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/j-fixed.c.o
+Generating Lisp code from amd_clmc_ros_messages/CalibrateForceTorqueSensor.msg
+Generating Lisp code from amd_clmc_ros_messages/CartesianTrajectoryPoint.msg
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLvision.dir/src/SL_serial_unix.c.o
+Generating C++ code from amd_clmc_ros_messages/Acceleration.msg
+Generating C++ code from amd_clmc_ros_messages/CalibrateForceTorqueSensorStatus.msg
+Generating Python from MSG amd_clmc_ros_messages/UpdateStrainGagesCalibrationStatus
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLsimulation.dir/src/SL_objects.c.o
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/utility.c.o
+Generating Lisp code from task_recorder2_msgs/tfMessageStamped.msg
+Generating Python from MSG amd_clmc_ros_messages/PressureSensors
+Generating Lisp code from amd_clmc_ros_messages/Preshape.msg
+Generating Python from MSG task_recorder2_msgs/TaskRecorderSpecification
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/balanc.c.o
+Generating Python from MSG amd_clmc_ros_messages/CalibrateForceTorqueSensorStatus
+Generating C++ code from task_recorder2_msgs/Accumulate.srv
+Generating Lisp code from amd_clmc_ros_messages/DistanceFieldQueries.msg
+Generating C++ code from amd_clmc_ros_messages/BiotacData.msg
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/lookup_table.c.o
+Generating Python from MSG task_recorder2_msgs/tfMessageStamped
+Generating Python from MSG amd_clmc_ros_messages/TaskFrame
+Generating C++ code from task_recorder2_msgs/DetectedEvents.srv
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/pythag.c.o
+Generating Lisp code from task_recorder2_msgs/SetLastTrialIds.srv
+Generating Lisp code from amd_clmc_ros_messages/LinearQuadraticRegulatorStatus.msg
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLsimulation.dir/src/SL_simulation_servo_unix.c.o
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLsimulation.dir/src/SL_userSimulation.c.o
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/powell.c.o
+Generating C++ code from task_recorder2_msgs/CostLabel.msg
+Generating C++ code from amd_clmc_ros_messages/CollectDataStatus.msg
+Building C object catkin/robots/arm/CMakeFiles/arm.dir/src/SL_forDynArt.c.o
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/choldc.c.o
+Generating C++ code from task_recorder2_msgs/SetLastTrialIds.srv
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLvision.dir/src/SL_vision_servo_unix.c.o
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/svdcmp.c.o
+Generating C++ code from amd_clmc_ros_messages/EndEffectorState.msg
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLtask.dir/src/SL_goto_task.c.o
+Generating C++ code from task_recorder2_msgs/SetLabel.srv
+Building CXX object catkin/ros/roscpp_utilities/CMakeFiles/roscpp_utilities.dir/src/param_server.cpp.o
+Generating Lisp code from task_recorder2_msgs/DetectedEvents.srv
+Building C object catkin/robots/arm/CMakeFiles/arm.dir/src/SL_user_commands.c.o
+Building C object catkin/robots/arm/CMakeFiles/arm.dir/src/SL_invDynNE.c.o
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/f1dim.c.o
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLopenGL.dir/src/SL_userGraphics.c.o
+Generating C++ code from amd_clmc_ros_messages/DistanceFieldQueries.msg
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/dfpmin.c.o
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLtask.dir/src/SL_objects.c.o
+Building C object catkin/robots/arm/CMakeFiles/arm.dir/src/SL_dynamics.c.o
+Generating Python code from SRV task_recorder2_msgs/SetupDetector
+Generating Python from MSG task_recorder2_msgs/AccumulatedTrialStatistics
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLcommon.dir/src/SL_collect_data.c.o
+Generating Lisp code from amd_clmc_ros_messages/CalibrateBiotacSensors.msg
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLcommon.dir/src/SL_unix_common.c.o
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLcommon.dir/src/SL_shared_memory.c.o
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLsimulation.dir/src/SL_integrate.c.o
+Generating C++ code from amd_clmc_ros_messages/Preshape.msg
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libquadprog.so
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLcommon.dir/src/SL_oscilloscope.c.o
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLtask.dir/src/SL_tasks.c.o
+Linking C shared library /home/amd_clmc/team/workspace/devel/lib/libarm_simulation.so
+Linking C shared library /home/amd_clmc/team/workspace/devel/lib/libarm_task.so
+[ 75%] [ 75%] Built target quadprog
+Linking C shared library /home/amd_clmc/team/workspace/devel/lib/libSLmotor.so
+Linking C shared library /home/amd_clmc/team/workspace/devel/lib/libSLvision.so
+Generating Python msg __init__.py for usc_utilities
+[ 76%] Linking C shared library /home/amd_clmc/team/workspace/devel/lib/libSLtask.so
+Linking C shared library /home/amd_clmc/team/workspace/devel/lib/libutility.so
+[ 76%] Built target constrained_inverse_kinematics_generate_messages_lisp
+Linking C shared library /home/amd_clmc/team/workspace/devel/lib/libSLsimulation.so
+Linking C shared library /home/amd_clmc/team/workspace/devel/lib/libarm_openGL.so
+Linking C shared library /home/amd_clmc/team/workspace/devel/lib/libSLcommon.so
+Linking C shared library /home/amd_clmc/team/workspace/devel/lib/libSLopenGL.so
+Generating Python msg __init__.py for constrained_inverse_kinematics
+[ 76%] Built target arm_task
+[ 76%] [ 76%] Built target constrained_inverse_kinematics_generate_messages_cpp
+Built target SLmotor
+[ 76%] Built target arm_simulation
+[ 76%] [ 76%] Built target utility
+[ 76%] [ 76%] [ 76%] Built target usc_utilities_generate_messages_lisp
+[ 76%] Built target task_recorder2_msgs_generate_messages_lisp
+[ 76%] Generating Python msg __init__.py for amd_clmc_ros_messages
+[ 76%] Built target SLtask
+Generating Python msg __init__.py for task_recorder2_msgs
+Scanning dependencies of target xlwpr
+[ 76%] Generating Python srv __init__.py for task_recorder2_msgs
+Built target amd_clmc_ros_messages_generate_messages_lisp
+Scanning dependencies of target xascii2clmcplot
+Scanning dependencies of target lwpr
+Generating Python srv __init__.py for amd_clmc_ros_messages
+[ 76%] Built target SLvision
+Scanning dependencies of target xlwprstat
+[ 76%] [ 76%] Built target SLopenGL
+Built target usc_utilities_generate_messages_cpp
+[ 77%] [ 77%] [ 77%] [ 77%] [ 77%] Built target SLcommon
+[ 77%] [ 77%] [ 78%] [ 78%] [ 78%] [ 78%] Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/xlwpr.dir/src/lwpr_test.c.o
+[ 78%] [ 78%] Built target arm_openGL
+Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/xlwpr.dir/src/lwpr_script.c.o
+Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/xascii2clmcplot.dir/src/ascii2mrdplot.c.o
+Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/xlwpr.dir/src/lwpr.c.o
+Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/xlwprstat.dir/src/lwpr_script.c.o
+Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/xlwprstat.dir/src/lwpr_stat.c.o
+[ 78%] Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/lwpr.dir/src/lwpr.c.o
+Built target SLsimulation
+Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/xlwprstat.dir/src/lwpr_main.c.o
+Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/xlwpr.dir/src/lwpr_main.c.o
+Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/lwpr.dir/src/lwpr_script.c.o
+Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/xlwprstat.dir/src/lwpr.c.o
+[ 78%] [ 78%] Built target usc_utilities_generate_messages_py
+Built target amd_clmc_ros_messages_generate_messages_cpp
+Scanning dependencies of target xarm
+[ 78%] Built target task_recorder2_msgs_generate_messages_cpp
+Scanning dependencies of target usc_utilities_generate_messages
+[ 78%] [ 78%] Building C object catkin/robots/arm/CMakeFiles/xarm.dir/src/SL_user_common.c.o
+[ 78%] Built target usc_utilities_generate_messages
+Building C object catkin/robots/arm/CMakeFiles/xarm.dir/src/SL_main.c.o
+Linking C executable xascii2clmcplot
+[ 78%] Built target constrained_inverse_kinematics_generate_messages_py
+Scanning dependencies of target constrained_inverse_kinematics_generate_messages
+Scanning dependencies of target xmotor
+Scanning dependencies of target xpest
+[ 78%] [ 78%] Built target constrained_inverse_kinematics_generate_messages
+Built target task_recorder2_msgs_generate_messages_py
+[ 79%] [ 79%] [ 79%] [ 80%] [ 80%] [ 80%] [ 80%] Building C object catkin/robots/arm/CMakeFiles/xmotor.dir/src/SL_dynamics.c.o
+[ 81%] [ 81%] [ 82%] [ 82%] [ 83%] Building C object catkin/robots/arm/CMakeFiles/xmotor.dir/src/SL_user_sensor_proc_unix.c.o
+Building C object catkin/robots/arm/CMakeFiles/xpest.dir/src/SL_dynamics.c.o
+[ 83%] [ 83%] Scanning dependencies of target task_recorder2_msgs_generate_messages
+Building C object catkin/robots/arm/CMakeFiles/xmotor.dir/src/SL_forDynComp.c.o
+[ 83%] [ 83%] [ 83%] [ 83%] Built target amd_clmc_ros_messages_generate_messages_py
+[ 83%] Building C object catkin/robots/arm/CMakeFiles/xmotor.dir/src/SL_forDynArt.c.o
+Building C object catkin/robots/arm/CMakeFiles/xpest.dir/src/SL_kinematics.c.o
+Building C object catkin/robots/arm/CMakeFiles/xpest.dir/src/SL_forDynComp.c.o
+Building C object catkin/robots/arm/CMakeFiles/xmotor.dir/src/SL_user_motor.c.o
+Building C object catkin/robots/arm/CMakeFiles/xpest.dir/src/SL_invDynNE.c.o
+[ 83%] Building C object catkin/robots/arm/CMakeFiles/xmotor.dir/src/SL_invDynArt.c.o
+Building C object catkin/robots/arm/CMakeFiles/xmotor.dir/src/SL_user_common.c.o
+Building C object catkin/robots/arm/CMakeFiles/xpest.dir/src/SL_invDynArt.c.o
+Building C object catkin/robots/arm/CMakeFiles/xpest.dir/src/SL_forDynArt.c.o
+Building C object catkin/robots/arm/CMakeFiles/xmotor.dir/src/SL_user_commands.c.o
+Building C object catkin/robots/arm/CMakeFiles/xmotor.dir/src/SL_invDynNE.c.o
+[ 83%] Building C object catkin/robots/arm/CMakeFiles/xpest.dir/src/SL_user_commands.c.o
+Built target task_recorder2_msgs_generate_messages
+Scanning dependencies of target amd_clmc_ros_messages_generate_messages
+Building C object catkin/robots/arm/CMakeFiles/xmotor.dir/src/SL_kinematics.c.o
+Building C object catkin/robots/arm/CMakeFiles/xpest.dir/src/SL_parm_estimate.c.o
+Building C object catkin/robots/arm/CMakeFiles/xpest.dir/src/SL_user_common.c.o
+Linking C executable xarm
+[ 83%] Built target amd_clmc_ros_messages_generate_messages
+[ 83%] Built target xascii2clmcplot
+[ 83%] Built target xarm
+Linking C shared library /home/amd_clmc/team/workspace/devel/lib/liblwpr.so
+Linking C executable xlwpr
+Linking C executable xlwprstat
+[ 83%] Built target lwpr
+Scanning dependencies of target sl_ros_servo
+[ 83%] [ 83%] [ 83%] Built target xlwpr
+[ 83%] Building CXX object catkin/ros/sl_ros_servo/CMakeFiles/sl_ros_servo.dir/src/SL_ros_servo_unix.cpp.o
+Building CXX object catkin/ros/sl_ros_servo/CMakeFiles/sl_ros_servo.dir/src/SL_ros_servo.cpp.o
+Building CXX object catkin/ros/sl_ros_servo/CMakeFiles/sl_ros_servo.dir/src/SL_ros_communicator.cpp.o
+[ 83%] Built target xlwprstat
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/conversions/test_conversions
+[ 83%] Built target test_conversions
+/home/amd_clmc/team/workspace/src/catkin/ros/sl_ros_servo/src/SL_ros_servo.cpp: In function 'void init_ros_servo()':
+/home/amd_clmc/team/workspace/src/catkin/ros/sl_ros_servo/src/SL_ros_servo.cpp:304:117: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+Linking C shared library /home/amd_clmc/team/workspace/devel/lib/libarm.so
+[ 84%] Built target arm
+Scanning dependencies of target sensor_calibration_task
+Scanning dependencies of target xopengl_arm
+Scanning dependencies of target arm_test_task
+Scanning dependencies of target arm_commands
+Scanning dependencies of target xsimulation_arm
+Scanning dependencies of target vision_calibration_task
+[ 84%] [ 85%] [ 85%] [ 85%] [ 85%] [ 85%] Building CXX object catkin/robots/armUser/CMakeFiles/sensor_calibration_task.dir/src/task/tasks/sensor_calibration_task.cpp.o
+Building C object catkin/robots/armUser/CMakeFiles/xopengl_arm.dir/src/opengl/initUserGraphics.c.o
+Building CXX object catkin/robots/sl-arm-task-example/CMakeFiles/arm_test_task.dir/src/arm_test_task.cpp.o
+Building C object catkin/robots/armUser/CMakeFiles/xsimulation_arm.dir/src/sim/initUserSimulation.c.o
+Building C object catkin/robots/armUser/CMakeFiles/vision_calibration_task.dir/src/task/tasks/vision_calibration_task.c.o
+Building C object catkin/robots/armUser/CMakeFiles/arm_commands.dir/src/commands/arm_commands.c.o
+Linking C executable /home/amd_clmc/team/workspace/devel/lib/arm_user/xsimulation
+Linking C executable /home/amd_clmc/team/workspace/devel/lib/arm_user/xopengl
+Linking C shared library /home/amd_clmc/team/workspace/devel/lib/libarm_commands.so
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libarm_test_task.so
+Linking C shared library /home/amd_clmc/team/workspace/devel/lib/libvision_calibration_task.so
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libsl_ros_servo.so
+[ 85%] Built target arm_commands
+[ 85%] Built target vision_calibration_task
+[ 85%] Built target xsimulation_arm
+[ 85%] Built target xopengl_arm
+[ 85%] Built target arm_test_task
+[ 85%] Built target sl_ros_servo
+/home/amd_clmc/team/workspace/src/catkin/robots/armUser/src/task/tasks/sensor_calibration_task.cpp: In member function 'int SL::SensorCalibrationTask::initialize()':
+/home/amd_clmc/team/workspace/src/catkin/robots/armUser/src/task/tasks/sensor_calibration_task.cpp:102:117: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+/home/amd_clmc/team/workspace/src/catkin/robots/armUser/src/task/tasks/sensor_calibration_task.cpp:102:117: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+/home/amd_clmc/team/workspace/src/catkin/robots/armUser/src/task/tasks/sensor_calibration_task.cpp:103:121: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+/home/amd_clmc/team/workspace/src/catkin/robots/armUser/src/task/tasks/sensor_calibration_task.cpp:103:121: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libsensor_calibration_task.so
+Scanning dependencies of target xros_arm
+[ 85%] [ 85%] [ 86%] [ 86%] [ 86%] [ 86%] [ 87%] [ 88%] [ 88%] [ 88%] [ 88%] [ 88%] [ 88%] Building CXX object catkin/ros/ros_servo_arm/CMakeFiles/xros_arm.dir/src/ros/SL_joint_state_publisher.cpp.o
+Building CXX object catkin/ros/ros_servo_arm/CMakeFiles/xros_arm.dir/src/SL_user_ros.cpp.o
+Building CXX object catkin/ros/ros_servo_arm/CMakeFiles/xros_arm.dir/src/ros/SL_tf_publisher.cpp.o
+Building CXX object catkin/ros/ros_servo_arm/CMakeFiles/xros_arm.dir/src/ros/SL_end_effector_state_publisher.cpp.o
+Building C object catkin/ros/ros_servo_arm/CMakeFiles/xros_arm.dir/__/__/robots/arm/src/SL_dynamics.c.o
+Building C object catkin/ros/ros_servo_arm/CMakeFiles/xros_arm.dir/__/__/robots/arm/src/SL_forDynArt.c.o
+Building C object catkin/ros/ros_servo_arm/CMakeFiles/xros_arm.dir/__/__/robots/arm/src/SL_invDynNE.c.o
+Building C object catkin/ros/ros_servo_arm/CMakeFiles/xros_arm.dir/__/__/robots/arm/src/SL_invDynArt.c.o
+Building CXX object catkin/ros/ros_servo_arm/CMakeFiles/xros_arm.dir/src/ros/SL_misc_sensor_publisher.cpp.o
+Building C object catkin/ros/ros_servo_arm/CMakeFiles/xros_arm.dir/__/__/robots/arm/src/SL_kinematics.c.o
+Building C object catkin/ros/ros_servo_arm/CMakeFiles/xros_arm.dir/__/__/robots/arm/src/SL_forDynComp.c.o
+Building C object catkin/ros/ros_servo_arm/CMakeFiles/xros_arm.dir/__/__/robots/arm/src/SL_user_common.c.o
+Building C object catkin/ros/ros_servo_arm/CMakeFiles/xros_arm.dir/__/__/robots/arm/src/SL_user_commands.c.o
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libroscpp_utilities.so
+[ 88%] Built target sensor_calibration_task
+Scanning dependencies of target xtask_arm
+[ 89%] Building C object catkin/robots/armUser/CMakeFiles/xtask_arm.dir/src/initUserTasks.c.o
+Linking C executable /home/amd_clmc/team/workspace/devel/lib/arm_user/xtask
+[ 89%] Built target roscpp_utilities
+[ 89%] Built target xtask_arm
+Scanning dependencies of target usc_utilities
+[ 90%] [ 90%] [ 90%] [ 91%] [ 91%] Building CXX object catkin/ros/usc-clmc-catkin-pkg/usc_utils/usc_utilities/CMakeFiles/usc_utilities.dir/src/accumulator.o
+Building CXX object catkin/ros/usc-clmc-catkin-pkg/usc_utils/usc_utilities/CMakeFiles/usc_utilities.dir/src/rviz_publisher.o
+Building CXX object catkin/ros/usc-clmc-catkin-pkg/usc_utils/usc_utilities/CMakeFiles/usc_utilities.dir/src/rviz_marker_manager.o
+Building CXX object catkin/ros/usc-clmc-catkin-pkg/usc_utils/usc_utilities/CMakeFiles/usc_utilities.dir/src/kdl_chain_wrapper.o
+Building CXX object catkin/ros/usc-clmc-catkin-pkg/usc_utils/usc_utilities/CMakeFiles/usc_utilities.dir/src/sl_config_file_handler.o
+Linking C executable xpest
+Linking C executable xmotor
+[ 93%] Built target xpest
+[ 94%] Built target xmotor
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/ros_servo_arm/xros
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libusc_utilities.so
+[ 94%] Built target usc_utilities
+Scanning dependencies of target learnable_cost_function
+Scanning dependencies of target task_recorder2_utilities
+[ 94%] [ 94%] Building CXX object catkin/ros/usc-clmc-catkin-pkg/planning/learnable_cost_function/CMakeFiles/learnable_cost_function.dir/src/feature_set.cpp.o
+Building CXX object catkin/ros/usc-clmc-catkin-pkg/planning/learnable_cost_function/CMakeFiles/learnable_cost_function.dir/src/linear_cost_function.cpp.o
+[ 95%] [ 95%] [ 95%] Building CXX object catkin/ros/usc-clmc-catkin-pkg/learning/task_recorder2_utilities/CMakeFiles/task_recorder2_utilities.dir/src/accumulator.cpp.o
+Building CXX object catkin/ros/usc-clmc-catkin-pkg/learning/task_recorder2_utilities/CMakeFiles/task_recorder2_utilities.dir/src/message_buffer.cpp.o
+Scanning dependencies of target robot_info
+Building CXX object catkin/ros/usc-clmc-catkin-pkg/learning/task_recorder2_utilities/CMakeFiles/task_recorder2_utilities.dir/src/message_ring_buffer.cpp.o
+[ 95%] [ 95%] [ 96%] [ 96%] [ 96%] Building CXX object catkin/ros/usc-clmc-catkin-pkg/usc_utils/robot_info/CMakeFiles/robot_info.dir/src/robot_info_init.o
+[ 96%] Building CXX object catkin/ros/usc-clmc-catkin-pkg/usc_utils/robot_info/CMakeFiles/robot_info.dir/src/forward_kinematics.o
+Building CXX object catkin/ros/usc-clmc-catkin-pkg/usc_utils/robot_info/CMakeFiles/robot_info.dir/src/robot_info.o
+Building CXX object catkin/ros/usc-clmc-catkin-pkg/usc_utils/robot_info/CMakeFiles/robot_info.dir/src/kdl_treefksolverjointposaxis.o
+Built target xros_arm
+Building CXX object catkin/ros/usc-clmc-catkin-pkg/usc_utils/robot_info/CMakeFiles/robot_info.dir/src/trajectory_timing_generator.o
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/liblearnable_cost_function.so
+[ 96%] Built target learnable_cost_function
+Scanning dependencies of target constrained_inverse_kinematics
+[ 97%] [ 97%] [ 97%] [ 97%] [ 97%] [ 98%] Building CXX object catkin/ros/usc-clmc-catkin-pkg/planning/constrained_inverse_kinematics/CMakeFiles/constrained_inverse_kinematics.dir/src/chain.cpp.o
+Building CXX object catkin/ros/usc-clmc-catkin-pkg/planning/constrained_inverse_kinematics/CMakeFiles/constrained_inverse_kinematics.dir/src/constrained_ik_solver.cpp.o
+Building CXX object catkin/ros/usc-clmc-catkin-pkg/planning/constrained_inverse_kinematics/CMakeFiles/constrained_inverse_kinematics.dir/src/constraints.cpp.o
+Building CXX object catkin/ros/usc-clmc-catkin-pkg/planning/constrained_inverse_kinematics/CMakeFiles/constrained_inverse_kinematics.dir/src/ik_wrapper.cpp.o
+Building CXX object catkin/ros/usc-clmc-catkin-pkg/planning/constrained_inverse_kinematics/CMakeFiles/constrained_inverse_kinematics.dir/src/cost_function_input.cpp.o
+Building CXX object catkin/ros/usc-clmc-catkin-pkg/planning/constrained_inverse_kinematics/CMakeFiles/constrained_inverse_kinematics.dir/src/fk_solver.cpp.o
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libtask_recorder2_utilities.so
+[ 98%] Built target task_recorder2_utilities
+[ 98%] Generating include/gui_utilities/moc_description_list.cxx
+Scanning dependencies of target gui_utilities
+[ 99%] [ 99%] [ 99%] Building CXX object catkin/ros/usc-clmc-catkin-pkg/usc_utils/gui_utilities/CMakeFiles/gui_utilities.dir/src/description_list.cpp.o
+Building CXX object catkin/ros/usc-clmc-catkin-pkg/usc_utils/gui_utilities/CMakeFiles/gui_utilities.dir/include/gui_utilities/moc_description_list.cxx.o
+Building CXX object catkin/ros/usc-clmc-catkin-pkg/usc_utils/gui_utilities/CMakeFiles/gui_utilities.dir/src/tab_map.cpp.o
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/librobot_info.so
+[ 99%] Built target robot_info
+Scanning dependencies of target jacobian_utilities
+[100%] Building CXX object catkin/ros/usc-clmc-catkin-pkg/usc_utils/jacobian_utilities/CMakeFiles/jacobian_utilities.dir/src/jacobian.cpp.o
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libgui_utilities.so
+[100%] Built target gui_utilities
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libconstrained_inverse_kinematics.so
+[100%] Built target constrained_inverse_kinematics
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libjacobian_utilities.so
+[100%] Built target jacobian_utilities
+Install the project...
+-- Install configuration: ""
+-- Installing: /home/amd_clmc/team/workspace/install/_setup_util.py
+-- Installing: /home/amd_clmc/team/workspace/install/env.sh
+-- Installing: /home/amd_clmc/team/workspace/install/setup.bash
+-- Installing: /home/amd_clmc/team/workspace/install/setup.sh
+-- Installing: /home/amd_clmc/team/workspace/install/setup.zsh
+-- Installing: /home/amd_clmc/team/workspace/install/.rosinstall
+-- Installing: /home/amd_clmc/team/workspace/install/etc/catkin/profile.d/05.catkin_make.bash
+-- Installing: /home/amd_clmc/team/workspace/install/etc/catkin/profile.d/05.catkin_make_isolated.bash
+-- Installing: /home/amd_clmc/team/workspace/install/lib/pkgconfig/cdlbt.pc
+-- Installing: /home/amd_clmc/team/workspace/install/share/cdlbt/cmake/cdlbt.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/cdlbt/cmake/cdlbtConfig.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/cdlbt/cmake/cdlbtConfig-version.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/cdlbt/package.xml
+-- Installing: /home/amd_clmc/team/workspace/install/lib/pkgconfig/can_control_tools.pc
+-- Installing: /home/amd_clmc/team/workspace/install/share/can_control_tools/cmake/canControlTools.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/can_control_tools/cmake/can_control_toolsConfig.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/can_control_tools/cmake/can_control_toolsConfig-version.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/can_control_tools/package.xml
+-- Installing: /home/amd_clmc/team/workspace/install/lib/pkgconfig/conversions.pc
+-- Installing: /home/amd_clmc/team/workspace/install/share/conversions/cmake/conversionsConfig.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/conversions/cmake/conversionsConfig-version.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/conversions/package.xml
+-- Installing: /home/amd_clmc/team/workspace/install/lib/pkgconfig/quadprog.pc
+-- Installing: /home/amd_clmc/team/workspace/install/share/quadprog/cmake/quadprogConfig.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/quadprog/cmake/quadprogConfig-version.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/quadprog/package.xml
+-- Installing: /home/amd_clmc/team/workspace/install/share/amd_clmc_ros_messages/msg/AccelerationFeedbackExperimentStatus.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/amd_clmc_ros_messages/msg/AffinePolicy.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/amd_clmc_ros_messages/msg/CartesianGains.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/amd_clmc_ros_messages/msg/CartesianTrajectory.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/amd_clmc_ros_messages/msg/CartesianTrajectoryPoint.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/amd_clmc_ros_messages/msg/ChordEllipsoid.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/amd_clmc_ros_messages/msg/CollectData.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/amd_clmc_ros_messages/msg/CollectDataStatus.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/amd_clmc_ros_messages/msg/ControllerStatus.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/amd_clmc_ros_messages/msg/DistanceFieldEval.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/amd_clmc_ros_messages/msg/DistanceFieldQueries.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/amd_clmc_ros_messages/msg/EndEffectorPosition.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/amd_clmc_ros_messages/msg/EndEffectorState.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/amd_clmc_ros_messages/msg/EnvironmentalObject.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/amd_clmc_ros_messages/msg/ExperimentParams.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/amd_clmc_ros_messages/msg/Gains.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/amd_clmc_ros_messages/msg/KeyPointBodyApprox.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/amd_clmc_ros_messages/msg/LinearQuadraticRegulator.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/amd_clmc_ros_messages/msg/LinearQuadraticRegulatorParams.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/amd_clmc_ros_messages/msg/LinearQuadraticRegulatorStatus.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/amd_clmc_ros_messages/msg/Matrix32.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/amd_clmc_ros_messages/msg/ObjectMass.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/amd_clmc_ros_messages/msg/ObstaclePoints.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/amd_clmc_ros_messages/msg/OnlineDataStatus.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/amd_clmc_ros_messages/msg/OfflineDataStatus.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/amd_clmc_ros_messages/msg/OfflineParams.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/amd_clmc_ros_messages/msg/OfflineNetwork.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/amd_clmc_ros_messages/msg/NetworkLayer.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/amd_clmc_ros_messages/msg/SetVisualToolTracking.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/amd_clmc_ros_messages/msg/Sphere.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/amd_clmc_ros_messages/msg/TaskFrame.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/amd_clmc_ros_messages/msg/TrackingPose.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/amd_clmc_ros_messages/msg/Trajectory.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/amd_clmc_ros_messages/msg/TrajectoryPoint.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/amd_clmc_ros_messages/msg/TrajectoryStatus.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/amd_clmc_ros_messages/msg/GraspPoses.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/amd_clmc_ros_messages/msg/Preshape.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/amd_clmc_ros_messages/msg/Acceleration.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/amd_clmc_ros_messages/msg/AvgPressureSensors.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/amd_clmc_ros_messages/msg/CalibrateAccelerometerSensor.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/amd_clmc_ros_messages/msg/CalibrateAccelerometerSensorStatus.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/amd_clmc_ros_messages/msg/CalibrateForceTorqueSensor.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/amd_clmc_ros_messages/msg/CalibrateForceTorqueSensorStatus.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/amd_clmc_ros_messages/msg/CalibratePressureSensors.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/amd_clmc_ros_messages/msg/CalibratePressureSensorsStatus.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/amd_clmc_ros_messages/msg/FingerForceControlGains.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/amd_clmc_ros_messages/msg/FingerJointEncoderOffsets.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/amd_clmc_ros_messages/msg/FingerJointEncoderOffsetsStatus.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/amd_clmc_ros_messages/msg/Grasp.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/amd_clmc_ros_messages/msg/GraspStatus.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/amd_clmc_ros_messages/msg/IncreaseMaxFingerTorque.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/amd_clmc_ros_messages/msg/PressureSensors.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/amd_clmc_ros_messages/msg/ResetBreakaway.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/amd_clmc_ros_messages/msg/ResetBreakawayStatus.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/amd_clmc_ros_messages/msg/StrainGauge.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/amd_clmc_ros_messages/msg/UpdateStrainGagesCalibration.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/amd_clmc_ros_messages/msg/UpdateStrainGagesCalibrationStatus.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/amd_clmc_ros_messages/msg/BiotacData.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/amd_clmc_ros_messages/msg/CalibrateBiotacSensors.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/amd_clmc_ros_messages/msg/CalibrateBiotacSensorsStatus.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/amd_clmc_ros_messages/srv/QueryControllerStatus.srv
+-- Installing: /home/amd_clmc/team/workspace/install/share/amd_clmc_ros_messages/srv/SwitchControllerStack.srv
+-- Installing: /home/amd_clmc/team/workspace/install/share/amd_clmc_ros_messages/srv/ExperimentGeneratorParamsService.srv
+-- Installing: /home/amd_clmc/team/workspace/install/share/amd_clmc_ros_messages/srv/OfflineParamsService.srv
+-- Installing: /home/amd_clmc/team/workspace/install/share/amd_clmc_ros_messages/cmake/amd_clmc_ros_messages-msg-paths.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/include/amd_clmc_ros_messages
+-- Installing: /home/amd_clmc/team/workspace/install/include/amd_clmc_ros_messages/LinearQuadraticRegulatorStatus.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/amd_clmc_ros_messages/EndEffectorState.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/amd_clmc_ros_messages/Sphere.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/amd_clmc_ros_messages/ExperimentGeneratorParamsService.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/amd_clmc_ros_messages/CalibrateForceTorqueSensorStatus.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/amd_clmc_ros_messages/CartesianTrajectoryPoint.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/amd_clmc_ros_messages/OfflineNetwork.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/amd_clmc_ros_messages/Trajectory.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/amd_clmc_ros_messages/QueryControllerStatus.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/amd_clmc_ros_messages/EnvironmentalObject.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/amd_clmc_ros_messages/TrajectoryStatus.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/amd_clmc_ros_messages/PressureSensors.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/amd_clmc_ros_messages/CollectData.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/amd_clmc_ros_messages/FingerJointEncoderOffsets.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/amd_clmc_ros_messages/LinearQuadraticRegulator.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/amd_clmc_ros_messages/AvgPressureSensors.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/amd_clmc_ros_messages/ResetBreakawayStatus.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/amd_clmc_ros_messages/Preshape.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/amd_clmc_ros_messages/SetVisualToolTracking.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/amd_clmc_ros_messages/OfflineParamsService.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/amd_clmc_ros_messages/CalibrateBiotacSensorsStatus.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/amd_clmc_ros_messages/LinearQuadraticRegulatorParams.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/amd_clmc_ros_messages/CalibratePressureSensorsStatus.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/amd_clmc_ros_messages/UpdateStrainGagesCalibrationStatus.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/amd_clmc_ros_messages/TaskFrame.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/amd_clmc_ros_messages/ExperimentParams.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/amd_clmc_ros_messages/SwitchControllerStackRequest.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/amd_clmc_ros_messages/TrajectoryPoint.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/amd_clmc_ros_messages/ObjectMass.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/amd_clmc_ros_messages/Matrix32.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/amd_clmc_ros_messages/CalibrateAccelerometerSensorStatus.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/amd_clmc_ros_messages/BiotacData.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/amd_clmc_ros_messages/CartesianGains.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/amd_clmc_ros_messages/ControllerStatus.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/amd_clmc_ros_messages/KeyPointBodyApprox.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/amd_clmc_ros_messages/Grasp.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/amd_clmc_ros_messages/OfflineParams.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/amd_clmc_ros_messages/ResetBreakaway.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/amd_clmc_ros_messages/GraspStatus.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/amd_clmc_ros_messages/OfflineDataStatus.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/amd_clmc_ros_messages/CalibrateAccelerometerSensor.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/amd_clmc_ros_messages/Gains.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/amd_clmc_ros_messages/GraspPoses.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/amd_clmc_ros_messages/CollectDataStatus.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/amd_clmc_ros_messages/ExperimentGeneratorParamsServiceRequest.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/amd_clmc_ros_messages/QueryControllerStatusRequest.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/amd_clmc_ros_messages/IncreaseMaxFingerTorque.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/amd_clmc_ros_messages/ExperimentGeneratorParamsServiceResponse.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/amd_clmc_ros_messages/ChordEllipsoid.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/amd_clmc_ros_messages/CalibrateForceTorqueSensor.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/amd_clmc_ros_messages/CalibrateBiotacSensors.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/amd_clmc_ros_messages/TrackingPose.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/amd_clmc_ros_messages/OfflineParamsServiceRequest.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/amd_clmc_ros_messages/FingerJointEncoderOffsetsStatus.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/amd_clmc_ros_messages/QueryControllerStatusResponse.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/amd_clmc_ros_messages/SwitchControllerStackResponse.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/amd_clmc_ros_messages/UpdateStrainGagesCalibration.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/amd_clmc_ros_messages/ObstaclePoints.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/amd_clmc_ros_messages/AffinePolicy.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/amd_clmc_ros_messages/Acceleration.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/amd_clmc_ros_messages/EndEffectorPosition.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/amd_clmc_ros_messages/DistanceFieldEval.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/amd_clmc_ros_messages/DistanceFieldQueries.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/amd_clmc_ros_messages/FingerForceControlGains.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/amd_clmc_ros_messages/NetworkLayer.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/amd_clmc_ros_messages/OnlineDataStatus.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/amd_clmc_ros_messages/SwitchControllerStack.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/amd_clmc_ros_messages/StrainGauge.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/amd_clmc_ros_messages/CartesianTrajectory.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/amd_clmc_ros_messages/OfflineParamsServiceResponse.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/amd_clmc_ros_messages/CalibratePressureSensors.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/amd_clmc_ros_messages/AccelerationFeedbackExperimentStatus.h
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/srv
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/srv/_package.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/srv/SwitchControllerStack.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/srv/amd_clmc_ros_messages-srv.asd
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/srv/_package_OfflineParamsService.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/srv/QueryControllerStatus.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/srv/ExperimentGeneratorParamsService.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/srv/_package_QueryControllerStatus.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/srv/_package_SwitchControllerStack.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/srv/OfflineParamsService.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/srv/_package_ExperimentGeneratorParamsService.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/StrainGauge.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/_package_CalibrateForceTorqueSensor.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/CollectData.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/_package.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/_package_SetVisualToolTracking.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/CalibratePressureSensors.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/GraspStatus.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/Acceleration.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/_package_OfflineDataStatus.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/ExperimentParams.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/_package_AccelerationFeedbackExperimentStatus.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/TrajectoryStatus.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/_package_CalibrateBiotacSensors.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/_package_Grasp.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/DistanceFieldQueries.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/_package_AffinePolicy.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/FingerJointEncoderOffsetsStatus.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/_package_TaskFrame.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/BiotacData.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/_package_Trajectory.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/_package_CalibrateAccelerometerSensor.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/_package_Matrix32.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/_package_OfflineNetwork.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/FingerForceControlGains.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/_package_CalibratePressureSensorsStatus.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/_package_FingerJointEncoderOffsets.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/_package_CartesianTrajectoryPoint.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/_package_CartesianTrajectory.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/Sphere.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/_package_PressureSensors.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/_package_LinearQuadraticRegulator.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/_package_EnvironmentalObject.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/_package_TrajectoryPoint.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/CollectDataStatus.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/_package_ControllerStatus.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/CalibratePressureSensorsStatus.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/_package_ObstaclePoints.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/OfflineNetwork.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/IncreaseMaxFingerTorque.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/Matrix32.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/_package_NetworkLayer.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/_package_CollectDataStatus.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/_package_StrainGauge.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/_package_Sphere.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/CalibrateBiotacSensors.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/CalibrateAccelerometerSensorStatus.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/ResetBreakawayStatus.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/Preshape.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/_package_CalibrateBiotacSensorsStatus.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/AvgPressureSensors.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/_package_GraspStatus.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/GraspPoses.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/AffinePolicy.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/Grasp.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/KeyPointBodyApprox.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/CalibrateBiotacSensorsStatus.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/CartesianTrajectory.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/_package_Acceleration.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/_package_EndEffectorState.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/EndEffectorPosition.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/EnvironmentalObject.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/_package_FingerJointEncoderOffsetsStatus.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/_package_Preshape.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/FingerJointEncoderOffsets.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/OnlineDataStatus.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/_package_ObjectMass.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/_package_EndEffectorPosition.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/ControllerStatus.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/LinearQuadraticRegulatorParams.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/_package_ChordEllipsoid.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/ObstaclePoints.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/_package_DistanceFieldEval.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/_package_TrajectoryStatus.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/_package_ExperimentParams.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/TaskFrame.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/CartesianTrajectoryPoint.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/_package_IncreaseMaxFingerTorque.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/_package_CalibratePressureSensors.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/TrackingPose.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/ChordEllipsoid.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/LinearQuadraticRegulator.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/_package_ResetBreakaway.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/Gains.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/EndEffectorState.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/_package_Gains.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/_package_UpdateStrainGagesCalibrationStatus.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/_package_FingerForceControlGains.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/NetworkLayer.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/_package_CalibrateForceTorqueSensorStatus.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/SetVisualToolTracking.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/_package_ResetBreakawayStatus.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/CartesianGains.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/_package_AvgPressureSensors.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/_package_DistanceFieldQueries.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/_package_LinearQuadraticRegulatorStatus.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/_package_UpdateStrainGagesCalibration.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/OfflineDataStatus.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/ResetBreakaway.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/TrajectoryPoint.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/CalibrateForceTorqueSensor.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/_package_TrackingPose.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/UpdateStrainGagesCalibration.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/amd_clmc_ros_messages-msg.asd
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/UpdateStrainGagesCalibrationStatus.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/LinearQuadraticRegulatorStatus.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/CalibrateAccelerometerSensor.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/OfflineParams.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/AccelerationFeedbackExperimentStatus.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/_package_CollectData.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/PressureSensors.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/_package_LinearQuadraticRegulatorParams.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/_package_OnlineDataStatus.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/DistanceFieldEval.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/Trajectory.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/ObjectMass.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/_package_CalibrateAccelerometerSensorStatus.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/_package_CartesianGains.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/_package_OfflineParams.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/_package_BiotacData.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/CalibrateForceTorqueSensorStatus.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/_package_GraspPoses.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/amd_clmc_ros_messages/msg/_package_KeyPointBodyApprox.lisp
+Listing /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/amd_clmc_ros_messages ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/amd_clmc_ros_messages/__init__.py ...
+Listing /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_Acceleration.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_AccelerationFeedbackExperimentStatus.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_AffinePolicy.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_AvgPressureSensors.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_BiotacData.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_CalibrateAccelerometerSensor.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_CalibrateAccelerometerSensorStatus.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_CalibrateBiotacSensors.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_CalibrateBiotacSensorsStatus.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_CalibrateForceTorqueSensor.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_CalibrateForceTorqueSensorStatus.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_CalibratePressureSensors.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_CalibratePressureSensorsStatus.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_CartesianGains.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_CartesianTrajectory.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_CartesianTrajectoryPoint.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_ChordEllipsoid.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_CollectData.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_CollectDataStatus.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_ControllerStatus.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_DistanceFieldEval.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_DistanceFieldQueries.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_EndEffectorPosition.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_EndEffectorState.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_EnvironmentalObject.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_ExperimentParams.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_FingerForceControlGains.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_FingerJointEncoderOffsets.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_FingerJointEncoderOffsetsStatus.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_Gains.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_Grasp.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_GraspPoses.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_GraspStatus.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_IncreaseMaxFingerTorque.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_KeyPointBodyApprox.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_LinearQuadraticRegulator.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_LinearQuadraticRegulatorParams.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_LinearQuadraticRegulatorStatus.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_Matrix32.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_NetworkLayer.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_ObjectMass.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_ObstaclePoints.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_OfflineDataStatus.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_OfflineNetwork.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_OfflineParams.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_OnlineDataStatus.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_Preshape.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_PressureSensors.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_ResetBreakaway.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_ResetBreakawayStatus.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_SetVisualToolTracking.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_Sphere.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_StrainGauge.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_TaskFrame.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_TrackingPose.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_Trajectory.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_TrajectoryPoint.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_TrajectoryStatus.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_UpdateStrainGagesCalibration.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_UpdateStrainGagesCalibrationStatus.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/__init__.py ...
+Listing /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/amd_clmc_ros_messages/srv ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/amd_clmc_ros_messages/srv/_ExperimentGeneratorParamsService.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/amd_clmc_ros_messages/srv/_OfflineParamsService.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/amd_clmc_ros_messages/srv/_QueryControllerStatus.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/amd_clmc_ros_messages/srv/_SwitchControllerStack.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/amd_clmc_ros_messages/srv/__init__.py ...
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/__init__.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/__init__.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/srv
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/srv/_SwitchControllerStack.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/srv/_QueryControllerStatus.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/srv/_SwitchControllerStack.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/srv/_OfflineParamsService.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/srv/__init__.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/srv/_QueryControllerStatus.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/srv/__init__.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/srv/_ExperimentGeneratorParamsService.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/srv/_OfflineParamsService.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/srv/_ExperimentGeneratorParamsService.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_StrainGauge.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_ChordEllipsoid.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_LinearQuadraticRegulator.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_OnlineDataStatus.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_OfflineParams.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_GraspPoses.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_OfflineNetwork.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_LinearQuadraticRegulatorStatus.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_Grasp.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_TrajectoryStatus.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_AccelerationFeedbackExperimentStatus.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_AvgPressureSensors.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_BiotacData.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_ResetBreakaway.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_ObstaclePoints.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_KeyPointBodyApprox.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_EnvironmentalObject.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_CartesianTrajectoryPoint.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_CollectDataStatus.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_Sphere.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_CollectData.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_ControllerStatus.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_FingerJointEncoderOffsetsStatus.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_ObjectMass.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_PressureSensors.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_CartesianGains.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_LinearQuadraticRegulatorParams.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_PressureSensors.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_CartesianTrajectory.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_TrajectoryPoint.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_CalibratePressureSensorsStatus.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_IncreaseMaxFingerTorque.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_OfflineDataStatus.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_CalibrateBiotacSensorsStatus.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_LinearQuadraticRegulatorStatus.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_BiotacData.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_AccelerationFeedbackExperimentStatus.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_CartesianTrajectoryPoint.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_AffinePolicy.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_FingerForceControlGains.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_CalibrateForceTorqueSensorStatus.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_OfflineDataStatus.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_EndEffectorPosition.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_GraspStatus.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_ResetBreakaway.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_CollectData.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_TrajectoryPoint.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_CalibrateAccelerometerSensor.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_TrackingPose.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/__init__.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_AffinePolicy.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_GraspStatus.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_Grasp.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_CalibratePressureSensors.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_Matrix32.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_Preshape.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_Acceleration.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_CalibrateBiotacSensors.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_CalibrateBiotacSensors.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_EnvironmentalObject.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_DistanceFieldQueries.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_SetVisualToolTracking.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_StrainGauge.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_LinearQuadraticRegulatorParams.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_DistanceFieldEval.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_FingerJointEncoderOffsets.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_TrackingPose.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_Gains.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_Matrix32.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_CartesianTrajectory.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_CalibrateAccelerometerSensorStatus.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/__init__.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_CalibrateAccelerometerSensor.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_FingerJointEncoderOffsets.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_AvgPressureSensors.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_DistanceFieldEval.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_EndEffectorState.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_EndEffectorPosition.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_CalibrateForceTorqueSensor.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_ControllerStatus.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_TaskFrame.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_NetworkLayer.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_ResetBreakawayStatus.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_Acceleration.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_CartesianGains.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_OfflineNetwork.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_CalibrateBiotacSensorsStatus.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_CalibrateForceTorqueSensorStatus.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_CalibrateForceTorqueSensor.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_Trajectory.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_IncreaseMaxFingerTorque.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_LinearQuadraticRegulator.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_FingerForceControlGains.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_NetworkLayer.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_CollectDataStatus.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_CalibratePressureSensors.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_ExperimentParams.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_OnlineDataStatus.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_ObstaclePoints.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_UpdateStrainGagesCalibration.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_ExperimentParams.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_KeyPointBodyApprox.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_Trajectory.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_ResetBreakawayStatus.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_Preshape.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_FingerJointEncoderOffsetsStatus.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_UpdateStrainGagesCalibration.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_ObjectMass.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_UpdateStrainGagesCalibrationStatus.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_TaskFrame.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_CalibratePressureSensorsStatus.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_GraspPoses.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_TrajectoryStatus.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_Gains.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_SetVisualToolTracking.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_ChordEllipsoid.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_CalibrateAccelerometerSensorStatus.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_EndEffectorState.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_DistanceFieldQueries.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_OfflineParams.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_Sphere.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/amd_clmc_ros_messages/msg/_UpdateStrainGagesCalibrationStatus.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/pkgconfig/amd_clmc_ros_messages.pc
+-- Installing: /home/amd_clmc/team/workspace/install/share/amd_clmc_ros_messages/cmake/amd_clmc_ros_messages-msg-extras.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/amd_clmc_ros_messages/cmake/amd_clmc_ros_messagesConfig.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/amd_clmc_ros_messages/cmake/amd_clmc_ros_messagesConfig-version.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/amd_clmc_ros_messages/package.xml
+-- Installing: /home/amd_clmc/team/workspace/install/lib/pkgconfig/utilities.pc
+-- Installing: /home/amd_clmc/team/workspace/install/share/utilities/cmake/utilities.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/utilities/cmake/utilitiesConfig.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/utilities/cmake/utilitiesConfig-version.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/utilities/package.xml
+-- Installing: /home/amd_clmc/team/workspace/install/include/utility.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/data_sets.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/nrutil.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/statistics.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/utility_macros.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/mdefs.h
+-- Installing: /home/amd_clmc/team/workspace/install/lib/x86_64/libutility.so
+-- Set runtime path of "/home/amd_clmc/team/workspace/install/lib/x86_64/libutility.so" to "/home/amd_clmc/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib"
+-- Installing: /home/amd_clmc/team/workspace/install/lib/pkgconfig/lwpr.pc
+-- Installing: /home/amd_clmc/team/workspace/install/share/lwpr/cmake/lwpr.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/lwpr/cmake/lwprConfig.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/lwpr/cmake/lwprConfig-version.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/lwpr/package.xml
+-- Installing: /home/amd_clmc/team/workspace/install/lib/x86_64/liblwpr.so
+-- Set runtime path of "/home/amd_clmc/team/workspace/install/lib/x86_64/liblwpr.so" to "/home/amd_clmc/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib:/home/amd_clmc/team/workspace/devel/lib"
+-- Installing: /home/amd_clmc/team/workspace/install/bin/x86_64/xlwpr
+-- Set runtime path of "/home/amd_clmc/team/workspace/install/bin/x86_64/xlwpr" to "/home/amd_clmc/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib:/home/amd_clmc/team/workspace/devel/lib"
+-- Installing: /home/amd_clmc/team/workspace/install/bin/x86_64/xlwprstat
+-- Set runtime path of "/home/amd_clmc/team/workspace/install/bin/x86_64/xlwprstat" to "/home/amd_clmc/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib:/home/amd_clmc/team/workspace/devel/lib"
+-- Installing: /home/amd_clmc/team/workspace/install/bin/x86_64/xascii2clmcplot
+-- Set runtime path of "/home/amd_clmc/team/workspace/install/bin/x86_64/xascii2clmcplot" to "/home/amd_clmc/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib:/home/amd_clmc/team/workspace/devel/lib"
+-- Installing: /home/amd_clmc/team/workspace/install/include/lwpr.h
+-- Installing: /home/amd_clmc/team/workspace/install/lib/pkgconfig/roscpp_utilities.pc
+-- Installing: /home/amd_clmc/team/workspace/install/share/roscpp_utilities/cmake/roscpp_utilitiesConfig.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/roscpp_utilities/cmake/roscpp_utilitiesConfig-version.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/roscpp_utilities/package.xml
+-- Installing: /home/amd_clmc/team/workspace/install/lib/pkgconfig/sl.pc
+-- Installing: /home/amd_clmc/team/workspace/install/share/sl/cmake/sl.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/sl/cmake/slConfig.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/sl/cmake/slConfig-version.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/sl/package.xml
+-- Installing: /home/amd_clmc/team/workspace/install/lib/x86_64/libSLcommon.so
+-- Set runtime path of "/home/amd_clmc/team/workspace/install/lib/x86_64/libSLcommon.so" to "/home/amd_clmc/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib"
+-- Installing: /home/amd_clmc/team/workspace/install/lib/x86_64/libSLtask.so
+-- Set runtime path of "/home/amd_clmc/team/workspace/install/lib/x86_64/libSLtask.so" to "/home/amd_clmc/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib"
+-- Installing: /home/amd_clmc/team/workspace/install/lib/x86_64/libSLmotor.so
+-- Set runtime path of "/home/amd_clmc/team/workspace/install/lib/x86_64/libSLmotor.so" to "/home/amd_clmc/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib"
+-- Installing: /home/amd_clmc/team/workspace/install/lib/x86_64/libSLsimulation.so
+-- Set runtime path of "/home/amd_clmc/team/workspace/install/lib/x86_64/libSLsimulation.so" to "/home/amd_clmc/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib"
+-- Installing: /home/amd_clmc/team/workspace/install/lib/x86_64/libSLopenGL.so
+-- Set runtime path of "/home/amd_clmc/team/workspace/install/lib/x86_64/libSLopenGL.so" to "/home/amd_clmc/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib"
+-- Installing: /home/amd_clmc/team/workspace/install/lib/x86_64/libSLvision.so
+-- Set runtime path of "/home/amd_clmc/team/workspace/install/lib/x86_64/libSLvision.so" to "/home/amd_clmc/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib"
+-- Installing: /home/amd_clmc/team/workspace/install/include/SL.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/SL_collect_data.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/SL_common.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/SL_controller.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/SL_dynamics.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/SL_filters.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/SL_integrate.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/SL_kinematics.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/SL_man.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/SL_motor_servo.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/SL_objects.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/SL_objects_defines.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/SL_openGL.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/SL_openGL_servo.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/SL_oscilloscope.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/SL_rt_mutex.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/SL_sensor_proc.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/SL_shared_memory.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/SL_simulation_servo.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/SL_system_headers.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/SL_task_servo.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/SL_tasks.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/SL_terrains.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/SL_unix_common.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/SL_userGraphics.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/SL_userSimulation.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/SL_user_common.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/SL_user_display_core.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/SL_user_idle_core.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/SL_user_main_core.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/SL_vision_servo.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/SL_serial_unix.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/SL_serial_xeno.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/SL_vx_wrappers.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/SL_xeno_common.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/SL_xeno_headers.h
+-- Installing: /home/amd_clmc/team/workspace/install/lib/x86_64/libarm.so
+-- Set runtime path of "/home/amd_clmc/team/workspace/install/lib/x86_64/libarm.so" to "/home/amd_clmc/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib"
+-- Installing: /home/amd_clmc/team/workspace/install/lib/x86_64/libarm_openGL.so
+-- Set runtime path of "/home/amd_clmc/team/workspace/install/lib/x86_64/libarm_openGL.so" to "/home/amd_clmc/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib"
+-- Installing: /home/amd_clmc/team/workspace/install/lib/x86_64/libarm_task.so
+-- Set runtime path of "/home/amd_clmc/team/workspace/install/lib/x86_64/libarm_task.so" to "/home/amd_clmc/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib"
+-- Installing: /home/amd_clmc/team/workspace/install/lib/x86_64/libarm_simulation.so
+-- Set runtime path of "/home/amd_clmc/team/workspace/install/lib/x86_64/libarm_simulation.so" to "/home/amd_clmc/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib"
+-- Installing: /home/amd_clmc/team/workspace/install/bin/arm/x86_64/xarm
+-- Set runtime path of "/home/amd_clmc/team/workspace/install/bin/arm/x86_64/xarm" to "/home/amd_clmc/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib:/home/amd_clmc/team/workspace/devel/lib"
+-- Installing: /home/amd_clmc/team/workspace/install/bin/arm/x86_64/xmotor
+-- Set runtime path of "/home/amd_clmc/team/workspace/install/bin/arm/x86_64/xmotor" to "/home/amd_clmc/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib:/home/amd_clmc/team/workspace/devel/lib"
+-- Installing: /home/amd_clmc/team/workspace/install/bin/arm/x86_64/xpest
+-- Set runtime path of "/home/amd_clmc/team/workspace/install/bin/arm/x86_64/xpest" to "/home/amd_clmc/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib:/home/amd_clmc/team/workspace/devel/lib"
+-- Installing: /home/amd_clmc/team/workspace/install/lib/pkgconfig/arm.pc
+-- Installing: /home/amd_clmc/team/workspace/install/share/arm/cmake/armConfig.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/arm/cmake/armConfig-version.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/arm/package.xml
+-- Installing: /home/amd_clmc/team/workspace/install/lib/x86_64/libarm_test_task.so
+-- Set runtime path of "/home/amd_clmc/team/workspace/install/lib/x86_64/libarm_test_task.so" to "/home/amd_clmc/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib:/home/amd_clmc/team/workspace/devel/lib"
+-- Installing: /home/amd_clmc/team/workspace/install/lib/pkgconfig/arm_test_task.pc
+-- Installing: /home/amd_clmc/team/workspace/install/share/arm_test_task/cmake/arm_test_taskConfig.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/arm_test_task/cmake/arm_test_taskConfig-version.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/arm_test_task/package.xml
+-- Installing: /home/amd_clmc/team/workspace/install/bin/arm/config/WhichDOFs.cf
+-- Installing: /home/amd_clmc/team/workspace/install/bin/arm/config/ServoParametersSim.cf
+-- Installing: /home/amd_clmc/team/workspace/install/bin/arm/config/LinkParameters_agt_old1.cf
+-- Installing: /home/amd_clmc/team/workspace/install/bin/arm/config/SensorOffset_usc.cf
+-- Installing: /home/amd_clmc/team/workspace/install/bin/arm/config/ConfigFilesSim.cf
+-- Installing: /home/amd_clmc/team/workspace/install/bin/arm/config/SensorFilter.cf
+-- Installing: /home/amd_clmc/team/workspace/install/bin/arm/config/ExtraSensorCalibration_usc.cf
+-- Installing: /home/amd_clmc/team/workspace/install/bin/arm/config/ServoParameters.cf
+-- Installing: /home/amd_clmc/team/workspace/install/bin/arm/config/LinkParameters_agt.cf
+-- Installing: /home/amd_clmc/team/workspace/install/bin/arm/config/StereoParameters.cf
+-- Installing: /home/amd_clmc/team/workspace/install/bin/arm/config/Gains.cf
+-- Installing: /home/amd_clmc/team/workspace/install/bin/arm/config/ExtraSensorCalibration_agt.cf
+-- Installing: /home/amd_clmc/team/workspace/install/bin/arm/config/SensorOffset_agt.cf
+-- Installing: /home/amd_clmc/team/workspace/install/bin/arm/config/GainsSim.cf
+-- Installing: /home/amd_clmc/team/workspace/install/bin/arm/config/ParameterPoolSensorCalibrationTask.cf
+-- Installing: /home/amd_clmc/team/workspace/install/bin/arm/config/ParameterPoolKinTask.cf
+-- Installing: /home/amd_clmc/team/workspace/install/bin/arm/config/Contacts.cf
+-- Installing: /home/amd_clmc/team/workspace/install/bin/arm/config/SensorCalibration.cf
+-- Installing: /home/amd_clmc/team/workspace/install/bin/arm/config/LinkParameters_usc.cf
+-- Installing: /home/amd_clmc/team/workspace/install/bin/arm/config/LinkParameters.cf
+-- Installing: /home/amd_clmc/team/workspace/install/bin/arm/config/ParameterPool.cf
+-- Installing: /home/amd_clmc/team/workspace/install/bin/arm/config/ConfigFiles.cf
+-- Installing: /home/amd_clmc/team/workspace/install/bin/arm/config/ExtraSensorCalibration.cf
+-- Installing: /home/amd_clmc/team/workspace/install/bin/arm/config/SensorOffset.cf
+-- Installing: /home/amd_clmc/team/workspace/install/bin/arm/config/Objects.cf
+-- Installing: /home/amd_clmc/team/workspace/install/bin/arm/config/LinkParameters_agt_old2.cf
+-- Installing: /home/amd_clmc/team/workspace/install/bin/arm/config/LinkParametersSim.cf
+-- Installing: /home/amd_clmc/team/workspace/install/bin/arm/config/butterworth_table_order_2
+-- Installing: /home/amd_clmc/team/workspace/install/bin/arm/prefs/knockPole.mrd
+-- Installing: /home/amd_clmc/team/workspace/install/bin/arm/prefs/.gitignore
+-- Installing: /home/amd_clmc/team/workspace/install/bin/arm/prefs/sine.traj
+-- Installing: /home/amd_clmc/team/workspace/install/bin/arm/prefs/param_est_left.sine
+-- Installing: /home/amd_clmc/team/workspace/install/bin/arm/prefs/vision_default.script
+-- Installing: /home/amd_clmc/team/workspace/install/bin/arm/prefs/invdyn.script
+-- Installing: /home/amd_clmc/team/workspace/install/bin/arm/prefs/JinvWeights
+-- Installing: /home/amd_clmc/team/workspace/install/bin/arm/prefs/vision_default.osc
+-- Installing: /home/amd_clmc/team/workspace/install/bin/arm/prefs/task_default.script
+-- Installing: /home/amd_clmc/team/workspace/install/bin/arm/prefs/param_est2.sine_old
+-- Installing: /home/amd_clmc/team/workspace/install/bin/arm/prefs/task_regrasping.script
+-- Installing: /home/amd_clmc/team/workspace/install/bin/arm/prefs/step.osc
+-- Installing: /home/amd_clmc/team/workspace/install/bin/arm/prefs/head.sine
+-- Installing: /home/amd_clmc/team/workspace/install/bin/arm/prefs/param_est.script
+-- Installing: /home/amd_clmc/team/workspace/install/bin/arm/prefs/one_dof.sine
+-- Installing: /home/amd_clmc/team/workspace/install/bin/arm/prefs/vision_calibration.pp
+-- Installing: /home/amd_clmc/team/workspace/install/bin/arm/prefs/ik_test.script
+-- Installing: /home/amd_clmc/team/workspace/install/bin/arm/prefs/vision_default.pp
+-- Installing: /home/amd_clmc/team/workspace/install/bin/arm/prefs/force_monitor.script
+-- Installing: /home/amd_clmc/team/workspace/install/bin/arm/prefs/sim_default.script
+-- Installing: /home/amd_clmc/team/workspace/install/bin/arm/prefs/fingers.sine
+-- Installing: /home/amd_clmc/team/workspace/install/bin/arm/prefs/one_dof.script
+-- Installing: /home/amd_clmc/team/workspace/install/bin/arm/prefs/invdyn.sine_old
+-- Installing: /home/amd_clmc/team/workspace/install/bin/arm/prefs/param_est_right.sine
+-- Installing: /home/amd_clmc/team/workspace/install/bin/arm/prefs/sim_default.osc
+-- Installing: /home/amd_clmc/team/workspace/install/bin/arm/prefs/arm_tracking.sine
+-- Installing: /home/amd_clmc/team/workspace/install/bin/arm/prefs/default.sine
+-- Installing: /home/amd_clmc/team/workspace/install/bin/arm/prefs/task_default.osc
+-- Installing: /home/amd_clmc/team/workspace/install/bin/arm/prefs/motor_default.osc
+-- Installing: /home/amd_clmc/team/workspace/install/bin/arm/prefs/motor_default.script
+-- Installing: /home/amd_clmc/team/workspace/install/bin/arm/prefs/test.osc
+-- Installing: /home/amd_clmc/team/workspace/install/bin/arm/prefs/default_script
+-- Installing: /home/amd_clmc/team/workspace/install/bin/arm/export_paths.sh
+-- Installing: /home/amd_clmc/team/workspace/install/lib/x86_64/libsensor_calibration_task.so
+-- Set runtime path of "/home/amd_clmc/team/workspace/install/lib/x86_64/libsensor_calibration_task.so" to "/home/amd_clmc/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib:/home/amd_clmc/team/workspace/devel/lib"
+-- Installing: /home/amd_clmc/team/workspace/install/lib/x86_64/libvision_calibration_task.so
+-- Set runtime path of "/home/amd_clmc/team/workspace/install/lib/x86_64/libvision_calibration_task.so" to "/home/amd_clmc/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib:/home/amd_clmc/team/workspace/devel/lib"
+-- Installing: /home/amd_clmc/team/workspace/install/lib/x86_64/libarm_commands.so
+-- Set runtime path of "/home/amd_clmc/team/workspace/install/lib/x86_64/libarm_commands.so" to "/home/amd_clmc/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib:/home/amd_clmc/team/workspace/devel/lib"
+-- Up-to-date: /home/amd_clmc/team/workspace/install/lib/x86_64/libsensor_calibration_task.so
+-- Up-to-date: /home/amd_clmc/team/workspace/install/lib/x86_64/libvision_calibration_task.so
+-- Up-to-date: /home/amd_clmc/team/workspace/install/lib/x86_64/libarm_commands.so
+-- Installing: /home/amd_clmc/team/workspace/install/bin/arm/x86_64/xopengl
+-- Set runtime path of "/home/amd_clmc/team/workspace/install/bin/arm/x86_64/xopengl" to "/home/amd_clmc/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib:/home/amd_clmc/team/workspace/devel/lib"
+-- Installing: /home/amd_clmc/team/workspace/install/bin/arm/x86_64/xsimulation
+-- Set runtime path of "/home/amd_clmc/team/workspace/install/bin/arm/x86_64/xsimulation" to "/home/amd_clmc/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib:/home/amd_clmc/team/workspace/devel/lib"
+-- Installing: /home/amd_clmc/team/workspace/install/bin/arm/x86_64/xtask
+-- Set runtime path of "/home/amd_clmc/team/workspace/install/bin/arm/x86_64/xtask" to "/home/amd_clmc/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib:/home/amd_clmc/team/workspace/devel/lib"
+-- Installing: /home/amd_clmc/team/workspace/install/lib/pkgconfig/arm_user.pc
+-- Installing: /home/amd_clmc/team/workspace/install/share/arm_user/cmake/arm_userConfig.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/arm_user/cmake/arm_userConfig-version.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/arm_user/package.xml
+-- Installing: /home/amd_clmc/team/workspace/install/lib/pkgconfig/sl_ros_servo.pc
+-- Installing: /home/amd_clmc/team/workspace/install/share/sl_ros_servo/cmake/sl_ros_servoConfig.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/sl_ros_servo/cmake/sl_ros_servoConfig-version.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/sl_ros_servo/package.xml
+-- Installing: /home/amd_clmc/team/workspace/install/include/SL_ros_servo.h
+-- Installing: /home/amd_clmc/team/workspace/install/lib/x86_64/libsl_ros_servo.so
+-- Set runtime path of "/home/amd_clmc/team/workspace/install/lib/x86_64/libsl_ros_servo.so" to "/home/amd_clmc/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib:/home/amd_clmc/team/workspace/devel/lib:/opt/ros/groovy/lib"
++ [ -n  ]
++ cd /home/amd_clmc/team/workspace/src/catkin/ros/usc-clmc-catkin-pkg/usc_utils/python_ros_utils
++ /usr/bin/env PYTHONPATH=/home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages:/home/amd_clmc/team/workspace/build/lib/python2.7/dist-packages:/opt/ros/groovy/lib/python2.7/dist-packages CATKIN_BINARY_DIR=/home/amd_clmc/team/workspace/build /usr/bin/python /home/amd_clmc/team/workspace/src/catkin/ros/usc-clmc-catkin-pkg/usc_utils/python_ros_utils/setup.py build --build-base /home/amd_clmc/team/workspace/build/catkin/ros/usc-clmc-catkin-pkg/usc_utils/python_ros_utils install --install-layout=deb --prefix=/home/amd_clmc/team/workspace/install --install-scripts=/home/amd_clmc/team/workspace/install/bin
+running build
+running build_py
+creating /home/amd_clmc/team/workspace/build/catkin/ros/usc-clmc-catkin-pkg/usc_utils/python_ros_utils/lib.linux-x86_64-2.7
+creating /home/amd_clmc/team/workspace/build/catkin/ros/usc-clmc-catkin-pkg/usc_utils/python_ros_utils/lib.linux-x86_64-2.7/python_ros_utils
+copying src/python_ros_utils/markers.py -> /home/amd_clmc/team/workspace/build/catkin/ros/usc-clmc-catkin-pkg/usc_utils/python_ros_utils/lib.linux-x86_64-2.7/python_ros_utils
+copying src/python_ros_utils/viz_manager.py -> /home/amd_clmc/team/workspace/build/catkin/ros/usc-clmc-catkin-pkg/usc_utils/python_ros_utils/lib.linux-x86_64-2.7/python_ros_utils
+copying src/python_ros_utils/store.py -> /home/amd_clmc/team/workspace/build/catkin/ros/usc-clmc-catkin-pkg/usc_utils/python_ros_utils/lib.linux-x86_64-2.7/python_ros_utils
+copying src/python_ros_utils/__init__.py -> /home/amd_clmc/team/workspace/build/catkin/ros/usc-clmc-catkin-pkg/usc_utils/python_ros_utils/lib.linux-x86_64-2.7/python_ros_utils
+copying src/python_ros_utils/geom.py -> /home/amd_clmc/team/workspace/build/catkin/ros/usc-clmc-catkin-pkg/usc_utils/python_ros_utils/lib.linux-x86_64-2.7/python_ros_utils
+copying src/python_ros_utils/ros_util.py -> /home/amd_clmc/team/workspace/build/catkin/ros/usc-clmc-catkin-pkg/usc_utils/python_ros_utils/lib.linux-x86_64-2.7/python_ros_utils
+running install
+running install_lib
+creating /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/python_ros_utils
+copying /home/amd_clmc/team/workspace/build/catkin/ros/usc-clmc-catkin-pkg/usc_utils/python_ros_utils/lib.linux-x86_64-2.7/python_ros_utils/markers.py -> /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/python_ros_utils
+copying /home/amd_clmc/team/workspace/build/catkin/ros/usc-clmc-catkin-pkg/usc_utils/python_ros_utils/lib.linux-x86_64-2.7/python_ros_utils/viz_manager.py -> /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/python_ros_utils
+copying /home/amd_clmc/team/workspace/build/catkin/ros/usc-clmc-catkin-pkg/usc_utils/python_ros_utils/lib.linux-x86_64-2.7/python_ros_utils/store.py -> /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/python_ros_utils
+copying /home/amd_clmc/team/workspace/build/catkin/ros/usc-clmc-catkin-pkg/usc_utils/python_ros_utils/lib.linux-x86_64-2.7/python_ros_utils/__init__.py -> /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/python_ros_utils
+copying /home/amd_clmc/team/workspace/build/catkin/ros/usc-clmc-catkin-pkg/usc_utils/python_ros_utils/lib.linux-x86_64-2.7/python_ros_utils/geom.py -> /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/python_ros_utils
+copying /home/amd_clmc/team/workspace/build/catkin/ros/usc-clmc-catkin-pkg/usc_utils/python_ros_utils/lib.linux-x86_64-2.7/python_ros_utils/ros_util.py -> /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/python_ros_utils
+byte-compiling /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/python_ros_utils/markers.py to markers.pyc
+byte-compiling /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/python_ros_utils/viz_manager.py to viz_manager.pyc
+byte-compiling /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/python_ros_utils/store.py to store.pyc
+byte-compiling /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/python_ros_utils/__init__.py to __init__.pyc
+byte-compiling /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/python_ros_utils/geom.py to geom.pyc
+byte-compiling /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/python_ros_utils/ros_util.py to ros_util.pyc
+running install_egg_info
+Writing /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/python_ros_utils-0.0.0.egg-info
+-- Installing: /home/amd_clmc/team/workspace/install/lib/pkgconfig/python_ros_utils.pc
+-- Installing: /home/amd_clmc/team/workspace/install/share/python_ros_utils/cmake/python_ros_utilsConfig.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/python_ros_utils/cmake/python_ros_utilsConfig-version.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/python_ros_utils/package.xml
+-- Installing: /home/amd_clmc/team/workspace/install/share/task_recorder2_msgs/msg/AccumulatedTrialStatistics.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/task_recorder2_msgs/msg/CostLabel.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/task_recorder2_msgs/msg/BinaryLabel.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/task_recorder2_msgs/msg/DataSampleLabel.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/task_recorder2_msgs/msg/DataSample.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/task_recorder2_msgs/msg/Description.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/task_recorder2_msgs/msg/Notification.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/task_recorder2_msgs/msg/TaskRecorderSpecification.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/task_recorder2_msgs/msg/tfMessageStamped.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/task_recorder2_msgs/srv/Accumulate.srv
+-- Installing: /home/amd_clmc/team/workspace/install/share/task_recorder2_msgs/srv/DetectedEvents.srv
+-- Installing: /home/amd_clmc/team/workspace/install/share/task_recorder2_msgs/srv/SetLabel.srv
+-- Installing: /home/amd_clmc/team/workspace/install/share/task_recorder2_msgs/srv/SetLastTrialIds.srv
+-- Installing: /home/amd_clmc/team/workspace/install/share/task_recorder2_msgs/srv/SetupDetector.srv
+-- Installing: /home/amd_clmc/team/workspace/install/share/task_recorder2_msgs/cmake/task_recorder2_msgs-msg-paths.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/include/task_recorder2_msgs
+-- Installing: /home/amd_clmc/team/workspace/install/include/task_recorder2_msgs/SetupDetector.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/task_recorder2_msgs/AccumulatedTrialStatistics.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/task_recorder2_msgs/DetectedEventsRequest.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/task_recorder2_msgs/DataSample.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/task_recorder2_msgs/TaskRecorderSpecification.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/task_recorder2_msgs/AccumulateRequest.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/task_recorder2_msgs/CostLabel.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/task_recorder2_msgs/SetLabelResponse.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/task_recorder2_msgs/DetectedEventsResponse.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/task_recorder2_msgs/tfMessageStamped.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/task_recorder2_msgs/SetLastTrialIds.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/task_recorder2_msgs/Description.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/task_recorder2_msgs/SetLabelRequest.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/task_recorder2_msgs/SetupDetectorRequest.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/task_recorder2_msgs/DetectedEvents.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/task_recorder2_msgs/SetLastTrialIdsRequest.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/task_recorder2_msgs/BinaryLabel.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/task_recorder2_msgs/SetLabel.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/task_recorder2_msgs/Accumulate.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/task_recorder2_msgs/Notification.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/task_recorder2_msgs/SetupDetectorResponse.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/task_recorder2_msgs/SetLastTrialIdsResponse.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/task_recorder2_msgs/AccumulateResponse.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/task_recorder2_msgs/DataSampleLabel.h
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/task_recorder2_msgs
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/task_recorder2_msgs/srv
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/task_recorder2_msgs/srv/_package.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/task_recorder2_msgs/srv/_package_DetectedEvents.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/task_recorder2_msgs/srv/_package_Accumulate.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/task_recorder2_msgs/srv/SetupDetector.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/task_recorder2_msgs/srv/_package_SetLabel.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/task_recorder2_msgs/srv/_package_SetupDetector.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/task_recorder2_msgs/srv/_package_SetLastTrialIds.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/task_recorder2_msgs/srv/task_recorder2_msgs-srv.asd
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/task_recorder2_msgs/srv/DetectedEvents.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/task_recorder2_msgs/srv/SetLabel.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/task_recorder2_msgs/srv/SetLastTrialIds.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/task_recorder2_msgs/srv/Accumulate.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/task_recorder2_msgs/msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/task_recorder2_msgs/msg/_package.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/task_recorder2_msgs/msg/DataSample.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/task_recorder2_msgs/msg/task_recorder2_msgs-msg.asd
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/task_recorder2_msgs/msg/BinaryLabel.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/task_recorder2_msgs/msg/_package_DataSample.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/task_recorder2_msgs/msg/_package_tfMessageStamped.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/task_recorder2_msgs/msg/tfMessageStamped.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/task_recorder2_msgs/msg/CostLabel.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/task_recorder2_msgs/msg/Description.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/task_recorder2_msgs/msg/_package_Notification.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/task_recorder2_msgs/msg/_package_CostLabel.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/task_recorder2_msgs/msg/AccumulatedTrialStatistics.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/task_recorder2_msgs/msg/DataSampleLabel.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/task_recorder2_msgs/msg/_package_Description.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/task_recorder2_msgs/msg/_package_AccumulatedTrialStatistics.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/task_recorder2_msgs/msg/_package_DataSampleLabel.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/task_recorder2_msgs/msg/TaskRecorderSpecification.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/task_recorder2_msgs/msg/Notification.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/task_recorder2_msgs/msg/_package_TaskRecorderSpecification.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/task_recorder2_msgs/msg/_package_BinaryLabel.lisp
+Listing /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/task_recorder2_msgs ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/task_recorder2_msgs/__init__.py ...
+Listing /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/task_recorder2_msgs/msg ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/task_recorder2_msgs/msg/_AccumulatedTrialStatistics.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/task_recorder2_msgs/msg/_BinaryLabel.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/task_recorder2_msgs/msg/_CostLabel.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/task_recorder2_msgs/msg/_DataSample.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/task_recorder2_msgs/msg/_DataSampleLabel.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/task_recorder2_msgs/msg/_Description.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/task_recorder2_msgs/msg/_Notification.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/task_recorder2_msgs/msg/_TaskRecorderSpecification.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/task_recorder2_msgs/msg/__init__.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/task_recorder2_msgs/msg/_tfMessageStamped.py ...
+Listing /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/task_recorder2_msgs/srv ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/task_recorder2_msgs/srv/_Accumulate.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/task_recorder2_msgs/srv/_DetectedEvents.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/task_recorder2_msgs/srv/_SetLabel.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/task_recorder2_msgs/srv/_SetLastTrialIds.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/task_recorder2_msgs/srv/_SetupDetector.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/task_recorder2_msgs/srv/__init__.py ...
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/task_recorder2_msgs
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/task_recorder2_msgs/__init__.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/task_recorder2_msgs/__init__.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/task_recorder2_msgs/srv
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/task_recorder2_msgs/srv/_SetupDetector.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/task_recorder2_msgs/srv/_DetectedEvents.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/task_recorder2_msgs/srv/__init__.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/task_recorder2_msgs/srv/_SetLabel.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/task_recorder2_msgs/srv/_SetupDetector.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/task_recorder2_msgs/srv/_SetLabel.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/task_recorder2_msgs/srv/__init__.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/task_recorder2_msgs/srv/_Accumulate.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/task_recorder2_msgs/srv/_DetectedEvents.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/task_recorder2_msgs/srv/_SetLastTrialIds.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/task_recorder2_msgs/srv/_SetLastTrialIds.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/task_recorder2_msgs/srv/_Accumulate.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/task_recorder2_msgs/msg
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/task_recorder2_msgs/msg/_tfMessageStamped.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/task_recorder2_msgs/msg/_DataSample.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/task_recorder2_msgs/msg/_AccumulatedTrialStatistics.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/task_recorder2_msgs/msg/_TaskRecorderSpecification.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/task_recorder2_msgs/msg/_Description.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/task_recorder2_msgs/msg/_BinaryLabel.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/task_recorder2_msgs/msg/_DataSampleLabel.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/task_recorder2_msgs/msg/_tfMessageStamped.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/task_recorder2_msgs/msg/__init__.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/task_recorder2_msgs/msg/_DataSampleLabel.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/task_recorder2_msgs/msg/_BinaryLabel.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/task_recorder2_msgs/msg/_DataSample.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/task_recorder2_msgs/msg/__init__.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/task_recorder2_msgs/msg/_AccumulatedTrialStatistics.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/task_recorder2_msgs/msg/_CostLabel.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/task_recorder2_msgs/msg/_Description.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/task_recorder2_msgs/msg/_CostLabel.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/task_recorder2_msgs/msg/_Notification.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/task_recorder2_msgs/msg/_TaskRecorderSpecification.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/task_recorder2_msgs/msg/_Notification.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/pkgconfig/task_recorder2_msgs.pc
+-- Installing: /home/amd_clmc/team/workspace/install/share/task_recorder2_msgs/cmake/task_recorder2_msgs-msg-extras.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/task_recorder2_msgs/cmake/task_recorder2_msgsConfig.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/task_recorder2_msgs/cmake/task_recorder2_msgsConfig-version.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/task_recorder2_msgs/package.xml
++ [ -n  ]
++ cd /home/amd_clmc/team/workspace/src/catkin/robots/arm_robot_model
++ /usr/bin/env PYTHONPATH=/home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages:/home/amd_clmc/team/workspace/build/lib/python2.7/dist-packages:/opt/ros/groovy/lib/python2.7/dist-packages CATKIN_BINARY_DIR=/home/amd_clmc/team/workspace/build /usr/bin/python /home/amd_clmc/team/workspace/src/catkin/robots/arm_robot_model/setup.py build --build-base /home/amd_clmc/team/workspace/build/catkin/robots/arm_robot_model install --install-layout=deb --prefix=/home/amd_clmc/team/workspace/install --install-scripts=/home/amd_clmc/team/workspace/install/bin
+running build
+running build_py
+creating /home/amd_clmc/team/workspace/build/catkin/robots/arm_robot_model/lib.linux-x86_64-2.7
+creating /home/amd_clmc/team/workspace/build/catkin/robots/arm_robot_model/lib.linux-x86_64-2.7/arm_robot_model
+copying src/arm_robot_model/__init__.py -> /home/amd_clmc/team/workspace/build/catkin/robots/arm_robot_model/lib.linux-x86_64-2.7/arm_robot_model
+running install
+running install_lib
+creating /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/arm_robot_model
+copying /home/amd_clmc/team/workspace/build/catkin/robots/arm_robot_model/lib.linux-x86_64-2.7/arm_robot_model/__init__.py -> /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/arm_robot_model
+byte-compiling /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/arm_robot_model/__init__.py to __init__.pyc
+running install_egg_info
+Writing /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/arm_robot_model-0.0.0.egg-info
+-- Installing: /home/amd_clmc/team/workspace/install/lib/pkgconfig/arm_robot_model.pc
+-- Installing: /home/amd_clmc/team/workspace/install/share/arm_robot_model/cmake/arm_robot_modelConfig.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/arm_robot_model/cmake/arm_robot_modelConfig-version.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/arm_robot_model/package.xml
+-- Installing: /home/amd_clmc/team/workspace/install/lib/arm_robot_model/check_urdf
+-- Installing: /home/amd_clmc/team/workspace/install/lib/arm_robot_model/check_urdf_visual
+-- Installing: /home/amd_clmc/team/workspace/install/lib/arm_robot_model/generate_openrave_ik
+-- Installing: /home/amd_clmc/team/workspace/install/lib/arm_robot_model/publish_xtion_frames
+-- Installing: /home/amd_clmc/team/workspace/install/lib/arm_robot_model/urdf_to_collada
+-- Installing: /home/amd_clmc/team/workspace/install/lib/pkgconfig/ros_servo_arm.pc
+-- Installing: /home/amd_clmc/team/workspace/install/share/ros_servo_arm/cmake/ros_servo_armConfig.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/ros_servo_arm/cmake/ros_servo_armConfig-version.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/ros_servo_arm/package.xml
+-- Installing: /home/amd_clmc/team/workspace/install/bin/arm/x86_64/xros
+-- Set runtime path of "/home/amd_clmc/team/workspace/install/bin/arm/x86_64/xros" to "/home/amd_clmc/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib:/home/amd_clmc/team/workspace/devel/lib:/opt/ros/groovy/lib"
+-- Installing: /home/amd_clmc/team/workspace/install/share/usc_utilities/msg/AccumulatedTrialStatistics.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/usc_utilities/cmake/usc_utilities-msg-paths.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/include/usc_utilities
+-- Installing: /home/amd_clmc/team/workspace/install/include/usc_utilities/AccumulatedTrialStatistics.h
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/usc_utilities
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/usc_utilities/msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/usc_utilities/msg/_package.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/usc_utilities/msg/AccumulatedTrialStatistics.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/usc_utilities/msg/usc_utilities-msg.asd
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/usc_utilities/msg/_package_AccumulatedTrialStatistics.lisp
+Listing /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/usc_utilities ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/usc_utilities/__init__.py ...
+Listing /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/usc_utilities/msg ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/usc_utilities/msg/_AccumulatedTrialStatistics.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/usc_utilities/msg/__init__.py ...
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/usc_utilities
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/usc_utilities/__init__.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/usc_utilities/__init__.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/usc_utilities/msg
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/usc_utilities/msg/_AccumulatedTrialStatistics.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/usc_utilities/msg/__init__.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/usc_utilities/msg/__init__.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/usc_utilities/msg/_AccumulatedTrialStatistics.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/pkgconfig/usc_utilities.pc
+-- Installing: /home/amd_clmc/team/workspace/install/share/usc_utilities/cmake/usc_utilities-msg-extras.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/usc_utilities/cmake/usc_utilitiesConfig.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/usc_utilities/cmake/usc_utilitiesConfig-version.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/usc_utilities/package.xml
+-- Installing: /home/amd_clmc/team/workspace/install/lib/pkgconfig/learnable_cost_function.pc
+-- Installing: /home/amd_clmc/team/workspace/install/share/learnable_cost_function/cmake/learnable_cost_functionConfig.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/learnable_cost_function/cmake/learnable_cost_functionConfig-version.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/learnable_cost_function/package.xml
+-- Installing: /home/amd_clmc/team/workspace/install/share/constrained_inverse_kinematics/msg/InverseKinematicsRequest.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/constrained_inverse_kinematics/cmake/constrained_inverse_kinematics-msg-paths.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/include/constrained_inverse_kinematics
+-- Installing: /home/amd_clmc/team/workspace/install/include/constrained_inverse_kinematics/InverseKinematicsRequest.h
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/constrained_inverse_kinematics
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/constrained_inverse_kinematics/msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/constrained_inverse_kinematics/msg/_package.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/constrained_inverse_kinematics/msg/constrained_inverse_kinematics-msg.asd
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/constrained_inverse_kinematics/msg/InverseKinematicsRequest.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/constrained_inverse_kinematics/msg/_package_InverseKinematicsRequest.lisp
+Listing /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/constrained_inverse_kinematics ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/constrained_inverse_kinematics/__init__.py ...
+Listing /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/constrained_inverse_kinematics/msg ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/constrained_inverse_kinematics/msg/_InverseKinematicsRequest.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/constrained_inverse_kinematics/msg/__init__.py ...
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/constrained_inverse_kinematics
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/constrained_inverse_kinematics/__init__.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/constrained_inverse_kinematics/__init__.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/constrained_inverse_kinematics/msg
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/constrained_inverse_kinematics/msg/__init__.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/constrained_inverse_kinematics/msg/__init__.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/constrained_inverse_kinematics/msg/_InverseKinematicsRequest.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/constrained_inverse_kinematics/msg/_InverseKinematicsRequest.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/pkgconfig/constrained_inverse_kinematics.pc
+-- Installing: /home/amd_clmc/team/workspace/install/share/constrained_inverse_kinematics/cmake/constrained_inverse_kinematics-msg-extras.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/constrained_inverse_kinematics/cmake/constrained_inverse_kinematicsConfig.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/constrained_inverse_kinematics/cmake/constrained_inverse_kinematicsConfig-version.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/constrained_inverse_kinematics/package.xml
+-- Installing: /home/amd_clmc/team/workspace/install/lib/pkgconfig/robot_info.pc
+-- Installing: /home/amd_clmc/team/workspace/install/share/robot_info/cmake/robot_infoConfig.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/robot_info/cmake/robot_infoConfig-version.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/robot_info/package.xml
+-- Installing: /home/amd_clmc/team/workspace/install/lib/pkgconfig/jacobian_utilities.pc
+-- Installing: /home/amd_clmc/team/workspace/install/share/jacobian_utilities/cmake/jacobian_utilitiesConfig.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/jacobian_utilities/cmake/jacobian_utilitiesConfig-version.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/jacobian_utilities/package.xml
+-- Installing: /home/amd_clmc/team/workspace/install/lib/pkgconfig/task_recorder2_utilities.pc
+-- Installing: /home/amd_clmc/team/workspace/install/share/task_recorder2_utilities/cmake/task_recorder2_utilitiesConfig.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/task_recorder2_utilities/cmake/task_recorder2_utilitiesConfig-version.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/task_recorder2_utilities/package.xml
+-- Installing: /home/amd_clmc/team/workspace/install/lib/pkgconfig/gui_utilities.pc
+-- Installing: /home/amd_clmc/team/workspace/install/share/gui_utilities/cmake/gui_utilitiesConfig.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/gui_utilities/cmake/gui_utilitiesConfig-version.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/gui_utilities/package.xml
+Base path: /home/amd_clmc/team/workspace
+Source space: /home/amd_clmc/team/workspace/src
+Build space: /home/amd_clmc/team/workspace/build
+Devel space: /home/amd_clmc/team/workspace/devel
+Install space: /home/amd_clmc/team/workspace/install
+####
+#### Running command: "cmake /home/amd_clmc/team/workspace/src -DCATKIN_DEVEL_PREFIX=/home/amd_clmc/team/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/amd_clmc/team/workspace/install" in "/home/amd_clmc/team/workspace/build"
+####
+####
+#### Running command: "make -j install" in "/home/amd_clmc/team/workspace/build"
+####
