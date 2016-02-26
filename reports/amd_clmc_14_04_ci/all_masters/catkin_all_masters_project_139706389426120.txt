@@ -1,0 +1,956 @@
+COMMAND:catkin_make -j install
+------------------------------
+-- The C compiler identification is GNU 4.8.4
+-- The CXX compiler identification is GNU 4.8.4
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Using CATKIN_DEVEL_PREFIX: /home/amd_clmc/team/workspace/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/indigo
+-- This workspace overlays: /opt/ros/indigo
+-- Found PythonInterp: /usr/bin/python (found version "2.7.6") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/amd_clmc/team/workspace/build/test_results
+-- Looking for include file pthread.h
+-- Looking for include file pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found gtest sources under '/usr/src/gtest': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.6.16
+-- BUILD_SHARED_LIBS is on
+WARNING: Package "ompl" does not follow the version conventions. It should not contain leading zeros (unless the number is 0).
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- ~~  traversing 17 packages in topological order:
+-- ~~  - apollo_moveit_config
+-- ~~  - catkin_gflags
+-- ~~  - catkin_glog
+-- ~~  - demo_robot_model
+-- ~~  - riemo
+-- ~~  - riemo_launch
+-- ~~  - riemo_scripts
+-- ~~  - riemo_controller_msgs
+-- ~~  - riemo_grasping_msgs
+-- ~~  - riemo_rt
+-- ~~  - riemo_kinematics
+-- ~~  - visualization_2d
+-- ~~  - riemo_ros
+-- ~~  - riemo_baxter_interface
+-- ~~  - riemo_programs
+-- ~~  - riemo_python
+-- ~~  - riemo_robots
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- +++ processing catkin package: 'apollo_moveit_config'
+-- ==> add_subdirectory(motion-optimization/riemo_ros_pkgs/apollo_moveit_config)
+-- +++ processing catkin package: 'catkin_gflags'
+-- ==> add_subdirectory(catkin/third_party/catkin-gflags)
+-- Found GFLAGS: /usr/include  
+-- Found gflags  (include: /usr/include, library: /usr/lib/x86_64-linux-gnu/libgflags.so)
+-- +++ processing catkin package: 'catkin_glog'
+-- ==> add_subdirectory(catkin/third_party/catkin-glog)
+-- Found GLOG: /usr/include  
+-- Found glog    (include: /usr/include, library: /usr/lib/x86_64-linux-gnu/libglog.so)
+-- +++ processing catkin package: 'demo_robot_model'
+-- ==> add_subdirectory(motion-optimization/riemo_ros_pkgs/demo_robot_model)
+-- +++ processing catkin package: 'riemo'
+-- ==> add_subdirectory(motion-optimization/riemo_catkin)
+------------------------------------------------------------------
+using catkin test functionality
+------------------------------------------------------------------
+cmake source dir: /home/amd_clmc/team/workspace/src
+cmake module path: /home/amd_clmc/team/workspace/src/motion-optimization/cmake/Modules
+--------------------------------------------------------------------
+Project source directory: /home/amd_clmc/team/workspace/src
+Building riemo
+Build type: 
+--------------------------------------------------------------------
+**** No build type set ****
+Eigen directory: /home/amd_clmc/team/workspace/src/motion-optimization/cmake/Modules/Eigen
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.26") 
+-- checking for module 'eigen3'
+--   found eigen3, version 3.2.0
+-- Found Eigen: /usr/include/eigen3  
+-- Eigen found (include: /usr/include/eigen3)
+Eigen include directories: /usr/include/eigen3
+-- Looking for sgemm_
+-- Looking for sgemm_ - found
+-- A library with BLAS API found.
+-- Looking for cheev_
+-- Looking for cheev_ - found
+-- A library with LAPACK API found.
+Lapack: TRUE
+Lapack linker flags: 
+Lapack libraries: /usr/lib/liblapack.so.3gf;/usr/lib/libblas.so.3gf
+Lapack 95 libraries: 
+-- +++ processing catkin package: 'riemo_launch'
+-- ==> add_subdirectory(motion-optimization/riemo_ros_pkgs/riemo_launch)
+-- +++ processing catkin package: 'riemo_scripts'
+-- ==> add_subdirectory(motion-optimization/riemo_ros_pkgs/riemo_scripts)
+-- +++ processing catkin package: 'riemo_controller_msgs'
+-- ==> add_subdirectory(motion-optimization/riemo_ros_pkgs/riemo_controller_msgs)
+-- Using these message generators: gencpp;genlisp;genpy
+-- riemo_controller_msgs: 17 messages, 2 services
+-- +++ processing catkin package: 'riemo_grasping_msgs'
+-- ==> add_subdirectory(motion-optimization/riemo_ros_pkgs/riemo_grasping_msgs)
+-- Using these message generators: gencpp;genlisp;genpy
+-- riemo_grasping_msgs: 5 messages, 3 services
+-- +++ processing catkin package: 'riemo_rt'
+-- ==> add_subdirectory(motion-optimization/riemo_ros_pkgs/riemo_rt)
+-- Eigen found (include: /usr/include/eigen3)
+-- Found LibXml2: /usr/lib/x86_64-linux-gnu/libxml2.so (found version "2.9.1") 
+-- +++ processing catkin package: 'riemo_kinematics'
+-- ==> add_subdirectory(motion-optimization/riemo_ros_pkgs/riemo_kinematics)
+-- Eigen found (include: /usr/include/eigen3)
+Eigen : /usr/include/eigen3
+Catkin :/home/amd_clmc/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_differential_geometry/include/home/amd_clmc/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_discrete_geometry/include/home/amd_clmc/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_learning/include/home/amd_clmc/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_optimization/include/home/amd_clmc/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_motion/include/home/amd_clmc/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_utilities/include/home/amd_clmc/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_workspace/include/home/amd_clmc/team/workspace/src/motion-optimization/riemo_catkin/riemo/external/include/opt/ros/indigo/include/usr/include/eigen3/usr/include
+Current include directories in riemo_kinematics cmakelists file:
+-- dir='/home/amd_clmc/team/workspace/src/motion-optimization/riemo_ros_pkgs/riemo_kinematics/include'
+-- dir='/usr/include/eigen3'
+-- dir='/home/amd_clmc/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_differential_geometry/include'
+-- dir='/home/amd_clmc/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_discrete_geometry/include'
+-- dir='/home/amd_clmc/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_learning/include'
+-- dir='/home/amd_clmc/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_optimization/include'
+-- dir='/home/amd_clmc/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_motion/include'
+-- dir='/home/amd_clmc/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_utilities/include'
+-- dir='/home/amd_clmc/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_workspace/include'
+-- dir='/home/amd_clmc/team/workspace/src/motion-optimization/riemo_catkin/riemo/external/include'
+-- dir='/opt/ros/indigo/include'
+-- dir='/usr/include/eigen3'
+-- dir='/usr/include'
+-- +++ processing catkin package: 'visualization_2d'
+-- ==> add_subdirectory(motion-optimization/riemo_ros_pkgs/visualization_2d)
+-- Using these message generators: gencpp;genlisp;genpy
+-- visualization_2d: 5 messages, 1 services
+-- +++ processing catkin package: 'riemo_ros'
+-- ==> add_subdirectory(motion-optimization/riemo_ros_pkgs/riemo_ros)
+-- Using these message generators: gencpp;genlisp;genpy
+-- Eigen found (include: /usr/include/eigen3)
+-- +++ processing catkin package: 'riemo_baxter_interface'
+-- ==> add_subdirectory(motion-optimization/riemo_ros_pkgs/riemo_baxter_interface)
+-- +++ processing catkin package: 'riemo_programs'
+-- ==> add_subdirectory(motion-optimization/riemo_ros_pkgs/riemo_programs)
+-- Using these message generators: gencpp;genlisp;genpy
+-- Eigen found (include: /usr/include/eigen3)
+-- +++ processing catkin package: 'riemo_python'
+-- ==> add_subdirectory(motion-optimization/riemo_ros_pkgs/riemo_python)
+-- +++ processing catkin package: 'riemo_robots'
+-- ==> add_subdirectory(motion-optimization/riemo_ros_pkgs/riemo_robots)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/amd_clmc/team/workspace/build
+Scanning dependencies of target _riemo_controller_msgs_generate_messages_check_deps_LinearQuadraticRegulatorParams
+Scanning dependencies of target _riemo_controller_msgs_generate_messages_check_deps_ExperimentParams
+Scanning dependencies of target _riemo_controller_msgs_generate_messages_check_deps_EnvironmentalObject
+Scanning dependencies of target geometry_msgs_generate_messages_py
+Scanning dependencies of target external
+Scanning dependencies of target _riemo_controller_msgs_generate_messages_check_deps_LinearQuadraticRegulatorStatus
+Scanning dependencies of target _riemo_controller_msgs_generate_messages_check_deps_Matrix32
+Scanning dependencies of target _riemo_controller_msgs_generate_messages_check_deps_LqrProblem
+Scanning dependencies of target _riemo_controller_msgs_generate_messages_check_deps_LinearQuadraticRegulator
+Scanning dependencies of target _riemo_controller_msgs_generate_messages_check_deps_SwitchControllerStack
+Scanning dependencies of target _riemo_controller_msgs_generate_messages_check_deps_AccelerationFeedbackExperimentStatus
+Scanning dependencies of target _riemo_controller_msgs_generate_messages_check_deps_EndEffectorPosition
+Scanning dependencies of target std_msgs_generate_messages_cpp
+Scanning dependencies of target _riemo_controller_msgs_generate_messages_check_deps_Sphere
+Scanning dependencies of target _riemo_controller_msgs_generate_messages_check_deps_AdaptiveControlExperimentData
+Scanning dependencies of target std_msgs_generate_messages_py
+Scanning dependencies of target _riemo_grasping_msgs_generate_messages_check_deps_LatestGraspProblemInfo
+Scanning dependencies of target _riemo_controller_msgs_generate_messages_check_deps_ObstaclePoints
+Scanning dependencies of target _riemo_controller_msgs_generate_messages_check_deps_AffinePolicy
+Scanning dependencies of target _riemo_controller_msgs_generate_messages_check_deps_DistanceFieldQueries
+Scanning dependencies of target geometry_msgs_generate_messages_lisp
+Scanning dependencies of target riemo_discrete_geometry
+Scanning dependencies of target _visualization_2d_generate_messages_check_deps_Trajectory2D
+Scanning dependencies of target _visualization_2d_generate_messages_check_deps_ValueField2D
+Scanning dependencies of target _visualization_2d_generate_messages_check_deps_Problem2DVis
+Scanning dependencies of target _visualization_2d_generate_messages_check_deps_Point2D
+Scanning dependencies of target _riemo_grasping_msgs_generate_messages_check_deps_RenderGraspProblemService
+Scanning dependencies of target _riemo_controller_msgs_generate_messages_check_deps_ChordEllipsoid
+Scanning dependencies of target _riemo_grasping_msgs_generate_messages_check_deps_GraspPose
+Scanning dependencies of target _riemo_controller_msgs_generate_messages_check_deps_KeyPointBodyApprox
+Scanning dependencies of target _riemo_grasping_msgs_generate_messages_check_deps_UpdateGraspProblem
+Scanning dependencies of target _riemo_grasping_msgs_generate_messages_check_deps_GraspProblemInfo
+Scanning dependencies of target _riemo_grasping_msgs_generate_messages_check_deps_MpiGraspPoses
+Scanning dependencies of target _visualization_2d_generate_messages_check_deps_Problem2D
+Scanning dependencies of target _riemo_controller_msgs_generate_messages_check_deps_ExperimentGeneratorParamsService
+Scanning dependencies of target _riemo_grasping_msgs_generate_messages_check_deps_GraspableObject
+Scanning dependencies of target _visualization_2d_generate_messages_check_deps_Num
+Scanning dependencies of target _riemo_controller_msgs_generate_messages_check_deps_DistanceFieldEval
+[  0%] Scanning dependencies of target geometry_msgs_generate_messages_cpp
+Scanning dependencies of target std_msgs_generate_messages_lisp
+Scanning dependencies of target _riemo_grasping_msgs_generate_messages_check_deps_Preshape
+[  0%] Built target std_msgs_generate_messages_py
+Built target geometry_msgs_generate_messages_py
+[  1%] [  1%] Built target geometry_msgs_generate_messages_lisp
+[  1%] [  1%] [  1%] [  1%] Built target geometry_msgs_generate_messages_cpp
+Built target std_msgs_generate_messages_lisp
+Built target std_msgs_generate_messages_cpp
+Scanning dependencies of target riemo_learning
+Building CXX object motion-optimization/riemo_catkin/riemo/external/CMakeFiles/external.dir/src/jsoncpp.o
+Building CXX object motion-optimization/riemo_catkin/riemo/riemo_discrete_geometry/CMakeFiles/riemo_discrete_geometry.dir/src/geometry.o
+Scanning dependencies of target riemo_utilities_test
+[  1%] Building CXX object motion-optimization/riemo_catkin/riemo/riemo_learning/CMakeFiles/riemo_learning.dir/src/learning.o
+Scanning dependencies of target riemo_utilities
+[  1%] [  1%] Scanning dependencies of target riemo_optimization
+Built target _riemo_controller_msgs_generate_messages_check_deps_Sphere
+[  1%] Built target _riemo_grasping_msgs_generate_messages_check_deps_LatestGraspProblemInfo
+[  1%] Building CXX object motion-optimization/riemo_catkin/riemo/riemo_utilities/CMakeFiles/riemo_utilities_test.dir/src/test_utils.o
+Built target _riemo_controller_msgs_generate_messages_check_deps_EnvironmentalObject
+[  1%] [  1%] [  1%] [  1%] [  1%] Built target _riemo_controller_msgs_generate_messages_check_deps_LinearQuadraticRegulatorParams
+[  1%] Built target _riemo_controller_msgs_generate_messages_check_deps_ObstaclePoints
+Built target _riemo_controller_msgs_generate_messages_check_deps_Matrix32
+Built target _riemo_controller_msgs_generate_messages_check_deps_LqrProblem
+[  1%] [  1%] Built target _riemo_controller_msgs_generate_messages_check_deps_ExperimentParams
+Built target _riemo_controller_msgs_generate_messages_check_deps_AccelerationFeedbackExperimentStatus
+Built target _riemo_controller_msgs_generate_messages_check_deps_LinearQuadraticRegulator
+Built target _riemo_grasping_msgs_generate_messages_check_deps_GraspProblemInfo
+[  1%] [  1%] [  2%] Built target _visualization_2d_generate_messages_check_deps_Problem2DVis
+Built target _riemo_controller_msgs_generate_messages_check_deps_AffinePolicy
+[  2%] [  2%] [  2%] [  2%] Built target _visualization_2d_generate_messages_check_deps_Trajectory2D
+[  2%] [  2%] Built target _visualization_2d_generate_messages_check_deps_ValueField2D
+[  4%] [  4%] Built target _riemo_controller_msgs_generate_messages_check_deps_ExperimentGeneratorParamsService
+[  4%] [  4%] [  4%] Built target _riemo_controller_msgs_generate_messages_check_deps_AdaptiveControlExperimentData
+[  4%] Built target _riemo_controller_msgs_generate_messages_check_deps_EndEffectorPosition
+[  4%] [  4%] Built target _riemo_controller_msgs_generate_messages_check_deps_SwitchControllerStack
+Built target _riemo_controller_msgs_generate_messages_check_deps_LinearQuadraticRegulatorStatus
+Built target _visualization_2d_generate_messages_check_deps_Problem2D
+Built target _visualization_2d_generate_messages_check_deps_Point2D
+[  4%] Built target _riemo_controller_msgs_generate_messages_check_deps_ChordEllipsoid
+[  5%] [  5%] Built target _riemo_controller_msgs_generate_messages_check_deps_DistanceFieldQueries
+[  5%] [  5%] Built target _visualization_2d_generate_messages_check_deps_Num
+Built target _riemo_controller_msgs_generate_messages_check_deps_DistanceFieldEval
+[  5%] Building CXX object motion-optimization/riemo_catkin/riemo/riemo_utilities/CMakeFiles/riemo_utilities.dir/src/timer.o
+Built target _riemo_grasping_msgs_generate_messages_check_deps_GraspableObject
+[  5%] Scanning dependencies of target riemo_differential_geometry
+Building CXX object motion-optimization/riemo_catkin/riemo/riemo_utilities/CMakeFiles/riemo_utilities.dir/src/threading_utils.o
+[  5%] Building CXX object motion-optimization/riemo_catkin/riemo/riemo_utilities/CMakeFiles/riemo_utilities.dir/src/command_line_arguments.o
+Built target _riemo_grasping_msgs_generate_messages_check_deps_MpiGraspPoses
+Building CXX object motion-optimization/riemo_catkin/riemo/riemo_optimization/CMakeFiles/riemo_optimization.dir/src/modular_optimization_components.o
+[  5%] [  5%] Built target _riemo_controller_msgs_generate_messages_check_deps_KeyPointBodyApprox
+Built target _riemo_grasping_msgs_generate_messages_check_deps_GraspPose
+Building CXX object motion-optimization/riemo_catkin/riemo/riemo_optimization/CMakeFiles/riemo_optimization.dir/src/objective_functions.o
+Built target _riemo_grasping_msgs_generate_messages_check_deps_RenderGraspProblemService
+Building CXX object motion-optimization/riemo_catkin/riemo/riemo_optimization/CMakeFiles/riemo_optimization.dir/src/optimization.o
+[  5%] Building CXX object motion-optimization/riemo_catkin/riemo/riemo_utilities/CMakeFiles/riemo_utilities.dir/src/eigen_utils.o
+Built target _riemo_grasping_msgs_generate_messages_check_deps_Preshape
+Scanning dependencies of target riemo_motion
+[  5%] Scanning dependencies of target visualization_2d_generate_messages_py
+Built target _riemo_grasping_msgs_generate_messages_check_deps_UpdateGraspProblem
+Scanning dependencies of target visualization_2d_generate_messages_cpp
+Scanning dependencies of target visualization_2d_generate_messages_lisp
+Scanning dependencies of target riemo_controller_msgs_generate_messages_py
+Scanning dependencies of target riemo_controller_msgs_generate_messages_cpp
+Scanning dependencies of target riemo_controller_msgs_generate_messages_lisp
+[  5%] Scanning dependencies of target riemo_grasping_msgs_generate_messages_lisp
+[  5%] [  6%] [  6%] [  6%] [  8%] [  8%] [  8%] [  8%] Scanning dependencies of target riemo_grasping_msgs_generate_messages_cpp
+Scanning dependencies of target riemo_grasping_msgs_generate_messages_py
+[  9%] [ 11%] [ 11%] [ 11%] [ 13%] [ 13%] [ 15%] [ 15%] [ 15%] [ 16%] [ 16%] [ 16%] [ 16%] [ 16%] [ 16%] Generating Python from MSG visualization_2d/Num
+[ 18%] [ 18%] [ 18%] [ 18%] [ 18%] [ 18%] [ 18%] [ 18%] [ 19%] [ 22%] [ 22%] [ 22%] [ 22%] [ 23%] [ 23%] [ 25%] [ 25%] [ 25%] [ 25%] [ 25%] [ 25%] [ 26%] [ 26%] [ 26%] [ 27%] Generating Python from MSG visualization_2d/ValueField2D
+Generating C++ code from visualization_2d/Trajectory2D.msg
+[ 29%] [ 29%] [ 29%] [ 29%] [ 30%] [ 30%] [ 30%] [ 31%] [ 33%] [ 33%] [ 34%] [ 36%] [ 36%] Generating C++ code from visualization_2d/Problem2D.msg
+[ 36%] [ 37%] [ 38%] [ 40%] [ 40%] [ 44%] [ 44%] [ 44%] [ 44%] [ 44%] [ 45%] [ 47%] [ 48%] [ 48%] [ 48%] [ 50%] Generating C++ code from visualization_2d/ValueField2D.msg
+Generating Python code from SRV visualization_2d/Problem2DVis
+[ 51%] [ 51%] [ 51%] [ 52%] [ 52%] [ 52%] [ 54%] Generating Lisp code from visualization_2d/Problem2DVis.srv
+[ 54%] Generating Python from MSG riemo_controller_msgs/LinearQuadraticRegulatorStatus
+[ 55%] [ 55%] Generating Lisp code from visualization_2d/Problem2D.msg
+[ 56%] [ 58%] [ 59%] [ 59%] [ 61%] [ 61%] [ 61%] [ 61%] [ 62%] Generating C++ code from visualization_2d/Problem2DVis.srv
+Generating Lisp code from visualization_2d/ValueField2D.msg
+Generating C++ code from visualization_2d/Num.msg
+[ 62%] Generating Python from MSG visualization_2d/Problem2D
+Generating C++ code from visualization_2d/Point2D.msg
+[ 63%] [ 65%] Generating Python from MSG visualization_2d/Trajectory2D
+Generating Python from MSG visualization_2d/Point2D
+[ 65%] Generating C++ code from riemo_controller_msgs/LinearQuadraticRegulator.msg
+Generating Lisp code from visualization_2d/Point2D.msg
+[ 65%] [ 66%] Generating Python from MSG riemo_controller_msgs/LqrProblem
+Generating Lisp code from visualization_2d/Trajectory2D.msg
+Generating Lisp code from riemo_grasping_msgs/LatestGraspProblemInfo.srv
+[ 66%] Building CXX object motion-optimization/riemo_catkin/riemo/riemo_differential_geometry/CMakeFiles/riemo_differential_geometry.dir/src/lapack_interface.o
+[ 66%] Building CXX object motion-optimization/riemo_catkin/riemo/riemo_differential_geometry/CMakeFiles/riemo_differential_geometry.dir/src/differentiable_functions.o
+Generating C++ code from riemo_controller_msgs/DistanceFieldQueries.msg
+Generating Lisp code from visualization_2d/Num.msg
+Building CXX object motion-optimization/riemo_catkin/riemo/riemo_differential_geometry/CMakeFiles/riemo_differential_geometry.dir/src/analytical_grid.o
+Generating C++ code from riemo_controller_msgs/LqrProblem.msg
+Generating Python from MSG riemo_grasping_msgs/MpiGraspPoses
+[ 66%] Generating Lisp code from riemo_controller_msgs/KeyPointBodyApprox.msg
+Generating C++ code from riemo_controller_msgs/LinearQuadraticRegulatorStatus.msg
+Generating Python from MSG riemo_controller_msgs/DistanceFieldEval
+Generating Python from MSG riemo_controller_msgs/AccelerationFeedbackExperimentStatus
+Generating C++ code from riemo_controller_msgs/AdaptiveControlExperimentData.msg
+[ 66%] Generating Lisp code from riemo_controller_msgs/LinearQuadraticRegulatorStatus.msg
+Generating Lisp code from riemo_controller_msgs/ExperimentParams.msg
+Generating Python from MSG riemo_controller_msgs/Matrix32
+Generating Lisp code from riemo_controller_msgs/AdaptiveControlExperimentData.msg
+Generating Lisp code from riemo_grasping_msgs/MpiGraspPoses.msg
+Generating Python from MSG riemo_controller_msgs/EnvironmentalObject
+Generating Python code from SRV riemo_controller_msgs/SwitchControllerStack
+Generating Python from MSG riemo_controller_msgs/ExperimentParams
+Generating C++ code from riemo_controller_msgs/ObstaclePoints.msg
+Generating C++ code from riemo_controller_msgs/ExperimentParams.msg
+Generating C++ code from riemo_controller_msgs/KeyPointBodyApprox.msg
+Generating Lisp code from riemo_controller_msgs/Sphere.msg
+Generating Python from MSG riemo_controller_msgs/DistanceFieldQueries
+Generating Lisp code from riemo_controller_msgs/LinearQuadraticRegulator.msg
+Generating Lisp code from riemo_grasping_msgs/UpdateGraspProblem.srv
+Generating Python from MSG riemo_controller_msgs/KeyPointBodyApprox
+Generating Lisp code from riemo_controller_msgs/DistanceFieldQueries.msg
+Building CXX object motion-optimization/riemo_catkin/riemo/riemo_motion/CMakeFiles/riemo_motion.dir/src/trajectory_function_network.o
+Generating Lisp code from riemo_controller_msgs/AffinePolicy.msg
+Generating Python from MSG riemo_controller_msgs/Sphere
+Generating Python from MSG riemo_grasping_msgs/Preshape
+Generating Python from MSG riemo_controller_msgs/ChordEllipsoid
+Generating Python from MSG riemo_grasping_msgs/GraspProblemInfo
+Generating Lisp code from riemo_grasping_msgs/RenderGraspProblemService.srv
+Generating Python from MSG riemo_controller_msgs/EndEffectorPosition
+Generating C++ code from riemo_controller_msgs/EndEffectorPosition.msg
+Generating C++ code from riemo_grasping_msgs/Preshape.msg
+Generating Lisp code from riemo_grasping_msgs/Preshape.msg
+Generating C++ code from riemo_controller_msgs/EnvironmentalObject.msg
+Generating Lisp code from riemo_controller_msgs/ChordEllipsoid.msg
+Generating Python from MSG riemo_grasping_msgs/GraspableObject
+Generating Python from MSG riemo_controller_msgs/LinearQuadraticRegulator
+Generating C++ code from riemo_grasping_msgs/GraspableObject.msg
+Generating C++ code from riemo_controller_msgs/Matrix32.msg
+Generating Lisp code from riemo_controller_msgs/DistanceFieldEval.msg
+Generating C++ code from riemo_grasping_msgs/UpdateGraspProblem.srv
+Generating C++ code from riemo_controller_msgs/AccelerationFeedbackExperimentStatus.msg
+Building CXX object motion-optimization/riemo_catkin/riemo/riemo_motion/CMakeFiles/riemo_motion.dir/src/motion_optimization.o
+Generating Lisp code from riemo_controller_msgs/AccelerationFeedbackExperimentStatus.msg
+Generating Lisp code from riemo_controller_msgs/EnvironmentalObject.msg
+Generating Python code from SRV riemo_controller_msgs/ExperimentGeneratorParamsService
+Generating Lisp code from riemo_controller_msgs/Matrix32.msg
+Generating Python from MSG riemo_controller_msgs/ObstaclePoints
+Generating Lisp code from riemo_controller_msgs/EndEffectorPosition.msg
+Generating Lisp code from riemo_controller_msgs/SwitchControllerStack.srv
+Building CXX object motion-optimization/riemo_catkin/riemo/riemo_differential_geometry/CMakeFiles/riemo_differential_geometry.dir/src/geometry.o
+Generating C++ code from riemo_controller_msgs/SwitchControllerStack.srv
+Generating Lisp code from riemo_grasping_msgs/GraspableObject.msg
+Generating C++ code from riemo_grasping_msgs/GraspPose.msg
+Generating Lisp code from riemo_grasping_msgs/GraspPose.msg
+Generating Lisp code from riemo_controller_msgs/ExperimentGeneratorParamsService.srv
+Generating C++ code from riemo_controller_msgs/LinearQuadraticRegulatorParams.msg
+Generating C++ code from riemo_controller_msgs/DistanceFieldEval.msg
+Generating C++ code from riemo_controller_msgs/ChordEllipsoid.msg
+Generating Python from MSG riemo_controller_msgs/AffinePolicy
+Generating Lisp code from riemo_controller_msgs/LinearQuadraticRegulatorParams.msg
+Generating Python from MSG riemo_controller_msgs/LinearQuadraticRegulatorParams
+Generating Lisp code from riemo_controller_msgs/ObstaclePoints.msg
+Generating Python from MSG riemo_controller_msgs/AdaptiveControlExperimentData
+Building CXX object motion-optimization/riemo_catkin/riemo/riemo_motion/CMakeFiles/riemo_motion.dir/src/behavior.o
+Generating Python from MSG riemo_grasping_msgs/GraspPose
+Generating C++ code from riemo_controller_msgs/AffinePolicy.msg
+Generating C++ code from riemo_controller_msgs/ExperimentGeneratorParamsService.srv
+Building CXX object motion-optimization/riemo_catkin/riemo/riemo_motion/CMakeFiles/riemo_motion.dir/src/optimal_control.o
+Generating Lisp code from riemo_grasping_msgs/GraspProblemInfo.msg
+Generating C++ code from riemo_grasping_msgs/GraspProblemInfo.msg
+Generating Python code from SRV riemo_grasping_msgs/RenderGraspProblemService
+Generating Lisp code from riemo_controller_msgs/LqrProblem.msg
+Generating C++ code from riemo_grasping_msgs/RenderGraspProblemService.srv
+Generating Python code from SRV riemo_grasping_msgs/LatestGraspProblemInfo
+Generating C++ code from riemo_grasping_msgs/LatestGraspProblemInfo.srv
+Generating C++ code from riemo_controller_msgs/Sphere.msg
+Generating C++ code from riemo_grasping_msgs/MpiGraspPoses.msg
+Generating Python code from SRV riemo_grasping_msgs/UpdateGraspProblem
+[ 66%] [ 66%] [ 68%] Built target visualization_2d_generate_messages_lisp
+[ 68%] Built target riemo_grasping_msgs_generate_messages_lisp
+Generating Python msg __init__.py for visualization_2d
+[ 68%] Generating Python srv __init__.py for visualization_2d
+[ 69%] [ 70%] [ 70%] [ 70%] Generating Python msg __init__.py for riemo_controller_msgs
+Built target riemo_controller_msgs_generate_messages_lisp
+Generating Python srv __init__.py for riemo_grasping_msgs
+Generating Python msg __init__.py for riemo_grasping_msgs
+Generating Python srv __init__.py for riemo_controller_msgs
+[ 70%] Built target visualization_2d_generate_messages_cpp
+[ 70%] Built target visualization_2d_generate_messages_py
+[ 70%] Built target riemo_grasping_msgs_generate_messages_py
+[ 70%] Scanning dependencies of target visualization_2d_generate_messages
+Built target riemo_controller_msgs_generate_messages_py
+[ 70%] Built target riemo_controller_msgs_generate_messages_cpp
+[ 70%] Built target riemo_grasping_msgs_generate_messages_cpp
+[ 70%] Built target visualization_2d_generate_messages
+Scanning dependencies of target riemo_controller_msgs_generate_messages
+Scanning dependencies of target riemo_grasping_msgs_generate_messages
+[ 70%] Built target riemo_controller_msgs_generate_messages
+[ 70%] Built target riemo_grasping_msgs_generate_messages
+Scanning dependencies of target riemo_rt
+[ 72%] [ 72%] Building CXX object motion-optimization/riemo_ros_pkgs/riemo_rt/CMakeFiles/riemo_rt.dir/src/adaptive_acceleration_controller.o
+Building CXX object motion-optimization/riemo_ros_pkgs/riemo_rt/CMakeFiles/riemo_rt.dir/src/time_varying_affine_policy.o
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libriemo_discrete_geometry.so
+[ 72%] Built target riemo_discrete_geometry
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libexternal.so
+[ 72%] Built target external
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libriemo_rt.so
+[ 72%] Built target riemo_rt
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libriemo_utilities_test.so
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libriemo_utilities.so
+[ 72%] Built target riemo_utilities_test
+[ 72%] Built target riemo_utilities
+Scanning dependencies of target riemo_differential_geometry_test
+[ 73%] Building CXX object motion-optimization/riemo_catkin/riemo/riemo_differential_geometry/CMakeFiles/riemo_differential_geometry_test.dir/src/test_utils.o
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libriemo_learning.so
+[ 73%] Built target riemo_learning
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libriemo_optimization.so
+[ 73%] Built target riemo_optimization
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libriemo_differential_geometry_test.so
+[ 73%] Built target riemo_differential_geometry_test
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libriemo_differential_geometry.so
+[ 73%] Built target riemo_differential_geometry
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libriemo_motion.so
+[ 73%] Built target riemo_motion
+Scanning dependencies of target riemo_workspace
+[ 75%] [ 75%] Building CXX object motion-optimization/riemo_catkin/riemo/riemo_workspace/CMakeFiles/riemo_workspace.dir/src/analytical_workspace.o
+Building CXX object motion-optimization/riemo_catkin/riemo/riemo_workspace/CMakeFiles/riemo_workspace.dir/src/grasping.o
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libriemo_workspace.so
+[ 75%] Built target riemo_workspace
+Scanning dependencies of target riemo_kinematics
+[ 75%] [ 76%] [ 76%] Building CXX object motion-optimization/riemo_ros_pkgs/riemo_kinematics/CMakeFiles/riemo_kinematics.dir/src/apollo_semantics.o
+[ 76%] [ 77%] [ 79%] Building CXX object motion-optimization/riemo_ros_pkgs/riemo_kinematics/CMakeFiles/riemo_kinematics.dir/src/eigen_kdl_interface.o
+Building CXX object motion-optimization/riemo_ros_pkgs/riemo_kinematics/CMakeFiles/riemo_kinematics.dir/src/kdl_kinematics_solver.o
+Building CXX object motion-optimization/riemo_ros_pkgs/riemo_kinematics/CMakeFiles/riemo_kinematics.dir/src/kinematic_maps.o
+Building CXX object motion-optimization/riemo_ros_pkgs/riemo_kinematics/CMakeFiles/riemo_kinematics.dir/src/riemo_robot.o
+Building CXX object motion-optimization/riemo_ros_pkgs/riemo_kinematics/CMakeFiles/riemo_kinematics.dir/src/kdl_riemo_robot.o
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libriemo_kinematics.so
+[ 79%] Built target riemo_kinematics
+Scanning dependencies of target riemo_ros
+[ 79%] [ 80%] [ 80%] [ 81%] [ 83%] [ 83%] [ 83%] [ 83%] [ 84%] [ 86%] [ 86%] [ 86%] [ 86%] Building CXX object motion-optimization/riemo_ros_pkgs/riemo_ros/CMakeFiles/riemo_ros.dir/src/continuous_full_body_trajectory.o
+[ 86%] [ 87%] Building CXX object motion-optimization/riemo_ros_pkgs/riemo_ros/CMakeFiles/riemo_ros.dir/src/grasp_tasks.o
+Building CXX object motion-optimization/riemo_ros_pkgs/riemo_ros/CMakeFiles/riemo_ros.dir/src/markov_motion_problem.o
+Building CXX object motion-optimization/riemo_ros_pkgs/riemo_ros/CMakeFiles/riemo_ros.dir/src/kinematic_chain_visualizer.o
+Building CXX object motion-optimization/riemo_ros_pkgs/riemo_ros/CMakeFiles/riemo_ros.dir/src/kinematic_simulator.o
+Building CXX object motion-optimization/riemo_ros_pkgs/riemo_ros/CMakeFiles/riemo_ros.dir/src/markov_motion_problem_3d.o
+Building CXX object motion-optimization/riemo_ros_pkgs/riemo_ros/CMakeFiles/riemo_ros.dir/src/lqr_controller_communication.o
+Building CXX object motion-optimization/riemo_ros_pkgs/riemo_ros/CMakeFiles/riemo_ros.dir/src/riemo_core.o
+Building CXX object motion-optimization/riemo_ros_pkgs/riemo_ros/CMakeFiles/riemo_ros.dir/src/riemannian_motion_problem.o
+Building CXX object motion-optimization/riemo_ros_pkgs/riemo_ros/CMakeFiles/riemo_ros.dir/src/riemo_problem.o
+Building CXX object motion-optimization/riemo_ros_pkgs/riemo_ros/CMakeFiles/riemo_ros.dir/src/ros_communication_utilities.o
+Building CXX object motion-optimization/riemo_ros_pkgs/riemo_ros/CMakeFiles/riemo_ros.dir/src/robot.o
+Building CXX object motion-optimization/riemo_ros_pkgs/riemo_ros/CMakeFiles/riemo_ros.dir/src/rviz_object_visualization.o
+Building CXX object motion-optimization/riemo_ros_pkgs/riemo_ros/CMakeFiles/riemo_ros.dir/src/trajectory_optimization.o
+Building CXX object motion-optimization/riemo_ros_pkgs/riemo_ros/CMakeFiles/riemo_ros.dir/src/task_state_system.o
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libriemo_ros.so
+[ 87%] Built target riemo_ros
+Scanning dependencies of target riemo_programs
+[ 87%] Building CXX object motion-optimization/riemo_ros_pkgs/riemo_programs/CMakeFiles/riemo_programs.dir/src/riemo_flags_handler.o
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libriemo_programs.so
+[ 87%] Built target riemo_programs
+Scanning dependencies of target acceleration_feedback_experiment_monitor
+Scanning dependencies of target closest_points_listener
+Scanning dependencies of target setup_grasp_problem_parameters
+[ 87%] Scanning dependencies of target test_grasp_problem_service
+Scanning dependencies of target rviz_object_visualization
+Building CXX object motion-optimization/riemo_ros_pkgs/riemo_programs/CMakeFiles/acceleration_feedback_experiment_monitor.dir/src/acceleration_feedback_experiment_monitor_main.o
+[ 88%] Building CXX object motion-optimization/riemo_ros_pkgs/riemo_programs/CMakeFiles/closest_points_listener.dir/src/closest_points_listener_main.o
+Scanning dependencies of target object_visualization_service
+[ 90%] [ 90%] Scanning dependencies of target grasp_problem_service
+[ 90%] Building CXX object motion-optimization/riemo_ros_pkgs/riemo_programs/CMakeFiles/setup_grasp_problem_parameters.dir/src/setup_grasp_problem_parameters_main.o
+Building CXX object motion-optimization/riemo_ros_pkgs/riemo_programs/CMakeFiles/rviz_object_visualization.dir/src/rviz_object_visualization_main.o
+Building CXX object motion-optimization/riemo_ros_pkgs/riemo_programs/CMakeFiles/test_grasp_problem_service.dir/test/test_grasp_problem_service_main.o
+Scanning dependencies of target activate_experiments
+[ 90%] Scanning dependencies of target markov_motion_problem_3d
+Scanning dependencies of target end_effector_monitor
+Building CXX object motion-optimization/riemo_ros_pkgs/riemo_programs/CMakeFiles/object_visualization_service.dir/src/object_visualization_service_main.o
+Scanning dependencies of target continuous_optimization
+[ 91%] Scanning dependencies of target lqr_activation
+Scanning dependencies of target experiment_controller
+[ 91%] Building CXX object motion-optimization/riemo_ros_pkgs/riemo_programs/CMakeFiles/grasp_problem_service.dir/src/grasp_problem_service_main.o
+Scanning dependencies of target key_point_body_approx_publisher
+Scanning dependencies of target markov_motion_problem
+Scanning dependencies of target motion_optimization
+Building CXX object motion-optimization/riemo_ros_pkgs/riemo_programs/CMakeFiles/activate_experiments.dir/src/activate_experiments_main.o
+Scanning dependencies of target riemo_continuous_optimization
+[ 91%] [ 91%] Building CXX object motion-optimization/riemo_ros_pkgs/riemo_programs/CMakeFiles/markov_motion_problem_3d.dir/src/markov_motion_problem_3d_main.o
+[ 93%] Building CXX object motion-optimization/riemo_ros_pkgs/riemo_programs/CMakeFiles/end_effector_monitor.dir/src/end_effector_monitor_main.o
+[ 94%] Scanning dependencies of target kinematic_simulator
+[ 94%] Building CXX object motion-optimization/riemo_ros_pkgs/riemo_programs/CMakeFiles/continuous_optimization.dir/src/continuous_optimization_main.o
+Building CXX object motion-optimization/riemo_ros_pkgs/riemo_programs/CMakeFiles/lqr_activation.dir/src/lqr_activation_main.o
+[ 95%] Building CXX object motion-optimization/riemo_ros_pkgs/riemo_programs/CMakeFiles/experiment_controller.dir/src/experiment_controller_main.o
+[ 97%] [ 97%] [ 97%] Building CXX object motion-optimization/riemo_ros_pkgs/riemo_programs/CMakeFiles/key_point_body_approx_publisher.dir/src/key_point_body_approx_publisher_main.o
+Scanning dependencies of target riemo_problem
+Scanning dependencies of target riemo_execute_lqr
+Building CXX object motion-optimization/riemo_ros_pkgs/riemo_programs/CMakeFiles/motion_optimization.dir/src/motion_optimization_main.o
+Building CXX object motion-optimization/riemo_ros_pkgs/riemo_programs/CMakeFiles/riemo_continuous_optimization.dir/src/riemo_continuous_optimization_main.o
+Building CXX object motion-optimization/riemo_ros_pkgs/riemo_programs/CMakeFiles/markov_motion_problem.dir/src/markov_motion_problem_main.o
+Scanning dependencies of target riemo_grasper
+Scanning dependencies of target riemo_move_basic
+Scanning dependencies of target riemo_grasp_task_chain
+[ 97%] Building CXX object motion-optimization/riemo_ros_pkgs/riemo_programs/CMakeFiles/kinematic_simulator.dir/src/kinematic_simulator_main.o
+[ 98%] [100%] Building CXX object motion-optimization/riemo_ros_pkgs/riemo_programs/CMakeFiles/riemo_execute_lqr.dir/src/riemo_execute_lqr_main.o
+Building CXX object motion-optimization/riemo_ros_pkgs/riemo_programs/CMakeFiles/riemo_problem.dir/src/riemo_problem_main.o
+[100%] [100%] [100%] Building CXX object motion-optimization/riemo_ros_pkgs/riemo_programs/CMakeFiles/riemo_move_basic.dir/src/riemo_move_basic_main.o
+Building CXX object motion-optimization/riemo_ros_pkgs/riemo_programs/CMakeFiles/riemo_grasp_task_chain.dir/src/riemo_grasp_task_chain_main.o
+Building CXX object motion-optimization/riemo_ros_pkgs/riemo_programs/CMakeFiles/riemo_grasper.dir/src/riemo_grasper_main.o
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/riemo_programs/rviz_object_visualization
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/riemo_programs/closest_points_listener
+[100%] Built target closest_points_listener
+[100%] Built target rviz_object_visualization
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/riemo_programs/test_grasp_problem_service
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/riemo_programs/acceleration_feedback_experiment_monitor
+[100%] Built target test_grasp_problem_service
+[100%] Built target acceleration_feedback_experiment_monitor
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/riemo_programs/object_visualization_service
+[100%] Built target object_visualization_service
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/riemo_programs/setup_grasp_problem_parameters
+[100%] Built target setup_grasp_problem_parameters
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/riemo_programs/grasp_problem_service
+[100%] Built target grasp_problem_service
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/riemo_programs/markov_motion_problem_3d
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/riemo_programs/activate_experiments
+[100%] Built target markov_motion_problem_3d
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/riemo_programs/end_effector_monitor
+[100%] Built target activate_experiments
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/riemo_programs/experiment_controller
+[100%] Built target end_effector_monitor
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/riemo_programs/markov_motion_problem
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/riemo_programs/kinematic_simulator
+[100%] Built target experiment_controller
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/riemo_programs/lqr_activation
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/riemo_programs/riemo_continuous_optimization
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/riemo_programs/continuous_optimization
+[100%] Built target kinematic_simulator
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/riemo_programs/key_point_body_approx_publisher
+[100%] Built target markov_motion_problem
+[100%] Built target lqr_activation
+[100%] Built target continuous_optimization
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/riemo_programs/motion_optimization
+[100%] Built target key_point_body_approx_publisher
+[100%] Built target riemo_continuous_optimization
+[100%] Built target motion_optimization
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/riemo_programs/riemo_problem
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/riemo_programs/riemo_grasper
+[100%] Built target riemo_problem
+[100%] Built target riemo_grasper
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/riemo_programs/riemo_grasp_task_chain
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/riemo_programs/riemo_move_basic
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/riemo_programs/riemo_execute_lqr
+[100%] Built target riemo_grasp_task_chain
+[100%] Built target riemo_move_basic
+[100%] Built target riemo_execute_lqr
+Install the project...
+-- Install configuration: ""
+-- Installing: /home/amd_clmc/team/workspace/install/_setup_util.py
+-- Installing: /home/amd_clmc/team/workspace/install/env.sh
+-- Installing: /home/amd_clmc/team/workspace/install/setup.bash
+-- Installing: /home/amd_clmc/team/workspace/install/setup.sh
+-- Installing: /home/amd_clmc/team/workspace/install/setup.zsh
+-- Installing: /home/amd_clmc/team/workspace/install/.rosinstall
+-- Installing: /home/amd_clmc/team/workspace/install/lib/pkgconfig/apollo_moveit_config.pc
+-- Installing: /home/amd_clmc/team/workspace/install/share/apollo_moveit_config/cmake/apollo_moveit_configConfig.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/apollo_moveit_config/cmake/apollo_moveit_configConfig-version.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/apollo_moveit_config/package.xml
+-- Installing: /home/amd_clmc/team/workspace/install/share/apollo_moveit_config/launch
+-- Installing: /home/amd_clmc/team/workspace/install/share/apollo_moveit_config/launch/apollo_robot_moveit_sensor_manager.launch.xml
+-- Installing: /home/amd_clmc/team/workspace/install/share/apollo_moveit_config/launch/warehouse.launch
+-- Installing: /home/amd_clmc/team/workspace/install/share/apollo_moveit_config/launch/move_group.launch
+-- Installing: /home/amd_clmc/team/workspace/install/share/apollo_moveit_config/launch/planning_context.launch
+-- Installing: /home/amd_clmc/team/workspace/install/share/apollo_moveit_config/launch/demo.launch
+-- Installing: /home/amd_clmc/team/workspace/install/share/apollo_moveit_config/launch/default_warehouse_db.launch
+-- Installing: /home/amd_clmc/team/workspace/install/share/apollo_moveit_config/launch/setup_assistant.launch
+-- Installing: /home/amd_clmc/team/workspace/install/share/apollo_moveit_config/launch/planning_pipeline.launch.xml
+-- Installing: /home/amd_clmc/team/workspace/install/share/apollo_moveit_config/launch/ompl_planning_pipeline.launch.xml
+-- Installing: /home/amd_clmc/team/workspace/install/share/apollo_moveit_config/launch/joystick_control.launch
+-- Installing: /home/amd_clmc/team/workspace/install/share/apollo_moveit_config/launch/trajectory_execution.launch.xml
+-- Installing: /home/amd_clmc/team/workspace/install/share/apollo_moveit_config/launch/run_benchmark_ompl.launch
+-- Installing: /home/amd_clmc/team/workspace/install/share/apollo_moveit_config/launch/moveit_rviz.launch
+-- Installing: /home/amd_clmc/team/workspace/install/share/apollo_moveit_config/launch/moveit.rviz
+-- Installing: /home/amd_clmc/team/workspace/install/share/apollo_moveit_config/launch/warehouse_settings.launch.xml
+-- Installing: /home/amd_clmc/team/workspace/install/share/apollo_moveit_config/launch/sensor_manager.launch.xml
+-- Installing: /home/amd_clmc/team/workspace/install/share/apollo_moveit_config/launch/apollo_robot_moveit_controller_manager.launch.xml
+-- Installing: /home/amd_clmc/team/workspace/install/share/apollo_moveit_config/launch/fake_moveit_controller_manager.launch.xml
+-- Installing: /home/amd_clmc/team/workspace/install/share/apollo_moveit_config/config
+-- Installing: /home/amd_clmc/team/workspace/install/share/apollo_moveit_config/config/sensors_kinect.yaml
+-- Installing: /home/amd_clmc/team/workspace/install/share/apollo_moveit_config/config/apollo_robot.srdf
+-- Installing: /home/amd_clmc/team/workspace/install/share/apollo_moveit_config/config/ompl_planning.yaml
+-- Installing: /home/amd_clmc/team/workspace/install/share/apollo_moveit_config/config/fake_controllers.yaml
+-- Installing: /home/amd_clmc/team/workspace/install/share/apollo_moveit_config/config/joint_limits.yaml
+-- Installing: /home/amd_clmc/team/workspace/install/share/apollo_moveit_config/config/kinematics.yaml
+-- Installing: /home/amd_clmc/team/workspace/install/lib/pkgconfig/catkin_gflags.pc
+-- Installing: /home/amd_clmc/team/workspace/install/share/catkin_gflags/cmake/catkin_gflagsConfig.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/catkin_gflags/cmake/catkin_gflagsConfig-version.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/catkin_gflags/package.xml
+-- Installing: /home/amd_clmc/team/workspace/install/lib/pkgconfig/catkin_glog.pc
+-- Installing: /home/amd_clmc/team/workspace/install/share/catkin_glog/cmake/catkin_glogConfig.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/catkin_glog/cmake/catkin_glogConfig-version.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/catkin_glog/package.xml
+-- Installing: /home/amd_clmc/team/workspace/install/lib/pkgconfig/demo_robot_model.pc
+-- Installing: /home/amd_clmc/team/workspace/install/share/demo_robot_model/cmake/demo_robot_modelConfig.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/demo_robot_model/cmake/demo_robot_modelConfig-version.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/demo_robot_model/package.xml
+-- Installing: /home/amd_clmc/team/workspace/install/lib/pkgconfig/riemo.pc
+-- Installing: /home/amd_clmc/team/workspace/install/share/riemo/cmake/riemoConfig.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/riemo/cmake/riemoConfig-version.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/riemo/package.xml
+-- Installing: /home/amd_clmc/team/workspace/install/share/riemo_controller_msgs/msg/AccelerationFeedbackExperimentStatus.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/riemo_controller_msgs/msg/AdaptiveControlExperimentData.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/riemo_controller_msgs/msg/AffinePolicy.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/riemo_controller_msgs/msg/ChordEllipsoid.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/riemo_controller_msgs/msg/DistanceFieldEval.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/riemo_controller_msgs/msg/DistanceFieldQueries.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/riemo_controller_msgs/msg/EnvironmentalObject.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/riemo_controller_msgs/msg/EndEffectorPosition.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/riemo_controller_msgs/msg/ExperimentParams.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/riemo_controller_msgs/msg/KeyPointBodyApprox.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/riemo_controller_msgs/msg/LinearQuadraticRegulator.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/riemo_controller_msgs/msg/LinearQuadraticRegulatorParams.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/riemo_controller_msgs/msg/LinearQuadraticRegulatorStatus.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/riemo_controller_msgs/msg/LqrProblem.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/riemo_controller_msgs/msg/Matrix32.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/riemo_controller_msgs/msg/ObstaclePoints.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/riemo_controller_msgs/msg/Sphere.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/riemo_controller_msgs/srv/SwitchControllerStack.srv
+-- Installing: /home/amd_clmc/team/workspace/install/share/riemo_controller_msgs/srv/ExperimentGeneratorParamsService.srv
+-- Installing: /home/amd_clmc/team/workspace/install/share/riemo_controller_msgs/cmake/riemo_controller_msgs-msg-paths.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/include/riemo_controller_msgs
+-- Installing: /home/amd_clmc/team/workspace/install/include/riemo_controller_msgs/LinearQuadraticRegulatorStatus.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/riemo_controller_msgs/Sphere.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/riemo_controller_msgs/ExperimentGeneratorParamsService.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/riemo_controller_msgs/EnvironmentalObject.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/riemo_controller_msgs/LinearQuadraticRegulator.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/riemo_controller_msgs/LinearQuadraticRegulatorParams.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/riemo_controller_msgs/ExperimentParams.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/riemo_controller_msgs/SwitchControllerStackRequest.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/riemo_controller_msgs/Matrix32.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/riemo_controller_msgs/KeyPointBodyApprox.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/riemo_controller_msgs/ExperimentGeneratorParamsServiceRequest.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/riemo_controller_msgs/ExperimentGeneratorParamsServiceResponse.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/riemo_controller_msgs/ChordEllipsoid.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/riemo_controller_msgs/SwitchControllerStackResponse.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/riemo_controller_msgs/ObstaclePoints.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/riemo_controller_msgs/AffinePolicy.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/riemo_controller_msgs/EndEffectorPosition.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/riemo_controller_msgs/DistanceFieldEval.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/riemo_controller_msgs/DistanceFieldQueries.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/riemo_controller_msgs/AdaptiveControlExperimentData.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/riemo_controller_msgs/SwitchControllerStack.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/riemo_controller_msgs/LqrProblem.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/riemo_controller_msgs/AccelerationFeedbackExperimentStatus.h
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/riemo_controller_msgs
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/riemo_controller_msgs/srv
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/riemo_controller_msgs/srv/riemo_controller_msgs-srv.asd
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/riemo_controller_msgs/srv/_package.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/riemo_controller_msgs/srv/SwitchControllerStack.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/riemo_controller_msgs/srv/ExperimentGeneratorParamsService.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/riemo_controller_msgs/srv/_package_SwitchControllerStack.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/riemo_controller_msgs/srv/_package_ExperimentGeneratorParamsService.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/riemo_controller_msgs/msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/riemo_controller_msgs/msg/_package.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/riemo_controller_msgs/msg/ExperimentParams.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/riemo_controller_msgs/msg/_package_AccelerationFeedbackExperimentStatus.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/riemo_controller_msgs/msg/DistanceFieldQueries.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/riemo_controller_msgs/msg/_package_AffinePolicy.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/riemo_controller_msgs/msg/_package_Matrix32.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/riemo_controller_msgs/msg/Sphere.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/riemo_controller_msgs/msg/_package_LinearQuadraticRegulator.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/riemo_controller_msgs/msg/_package_EnvironmentalObject.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/riemo_controller_msgs/msg/_package_ObstaclePoints.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/riemo_controller_msgs/msg/Matrix32.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/riemo_controller_msgs/msg/_package_Sphere.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/riemo_controller_msgs/msg/_package_LqrProblem.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/riemo_controller_msgs/msg/AffinePolicy.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/riemo_controller_msgs/msg/AdaptiveControlExperimentData.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/riemo_controller_msgs/msg/KeyPointBodyApprox.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/riemo_controller_msgs/msg/EndEffectorPosition.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/riemo_controller_msgs/msg/EnvironmentalObject.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/riemo_controller_msgs/msg/_package_EndEffectorPosition.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/riemo_controller_msgs/msg/LinearQuadraticRegulatorParams.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/riemo_controller_msgs/msg/_package_ChordEllipsoid.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/riemo_controller_msgs/msg/ObstaclePoints.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/riemo_controller_msgs/msg/_package_DistanceFieldEval.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/riemo_controller_msgs/msg/_package_ExperimentParams.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/riemo_controller_msgs/msg/ChordEllipsoid.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/riemo_controller_msgs/msg/LinearQuadraticRegulator.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/riemo_controller_msgs/msg/LqrProblem.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/riemo_controller_msgs/msg/_package_DistanceFieldQueries.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/riemo_controller_msgs/msg/_package_AdaptiveControlExperimentData.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/riemo_controller_msgs/msg/_package_LinearQuadraticRegulatorStatus.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/riemo_controller_msgs/msg/LinearQuadraticRegulatorStatus.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/riemo_controller_msgs/msg/AccelerationFeedbackExperimentStatus.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/riemo_controller_msgs/msg/_package_LinearQuadraticRegulatorParams.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/riemo_controller_msgs/msg/DistanceFieldEval.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/riemo_controller_msgs/msg/riemo_controller_msgs-msg.asd
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/riemo_controller_msgs/msg/_package_KeyPointBodyApprox.lisp
+Listing /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/riemo_controller_msgs ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/riemo_controller_msgs/__init__.py ...
+Listing /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/riemo_controller_msgs/msg ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/riemo_controller_msgs/msg/_AccelerationFeedbackExperimentStatus.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/riemo_controller_msgs/msg/_AdaptiveControlExperimentData.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/riemo_controller_msgs/msg/_AffinePolicy.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/riemo_controller_msgs/msg/_ChordEllipsoid.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/riemo_controller_msgs/msg/_DistanceFieldEval.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/riemo_controller_msgs/msg/_DistanceFieldQueries.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/riemo_controller_msgs/msg/_EndEffectorPosition.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/riemo_controller_msgs/msg/_EnvironmentalObject.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/riemo_controller_msgs/msg/_ExperimentParams.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/riemo_controller_msgs/msg/_KeyPointBodyApprox.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/riemo_controller_msgs/msg/_LinearQuadraticRegulator.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/riemo_controller_msgs/msg/_LinearQuadraticRegulatorParams.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/riemo_controller_msgs/msg/_LinearQuadraticRegulatorStatus.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/riemo_controller_msgs/msg/_LqrProblem.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/riemo_controller_msgs/msg/_Matrix32.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/riemo_controller_msgs/msg/_ObstaclePoints.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/riemo_controller_msgs/msg/_Sphere.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/riemo_controller_msgs/msg/__init__.py ...
+Listing /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/riemo_controller_msgs/srv ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/riemo_controller_msgs/srv/_ExperimentGeneratorParamsService.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/riemo_controller_msgs/srv/_SwitchControllerStack.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/riemo_controller_msgs/srv/__init__.py ...
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/riemo_controller_msgs
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/riemo_controller_msgs/__init__.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/riemo_controller_msgs/__init__.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/riemo_controller_msgs/srv
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/riemo_controller_msgs/srv/_SwitchControllerStack.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/riemo_controller_msgs/srv/_SwitchControllerStack.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/riemo_controller_msgs/srv/__init__.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/riemo_controller_msgs/srv/__init__.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/riemo_controller_msgs/srv/_ExperimentGeneratorParamsService.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/riemo_controller_msgs/srv/_ExperimentGeneratorParamsService.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/riemo_controller_msgs/msg
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/riemo_controller_msgs/msg/_ChordEllipsoid.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/riemo_controller_msgs/msg/_LinearQuadraticRegulator.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/riemo_controller_msgs/msg/_LinearQuadraticRegulatorStatus.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/riemo_controller_msgs/msg/_AccelerationFeedbackExperimentStatus.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/riemo_controller_msgs/msg/_ObstaclePoints.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/riemo_controller_msgs/msg/_KeyPointBodyApprox.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/riemo_controller_msgs/msg/_EnvironmentalObject.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/riemo_controller_msgs/msg/_Sphere.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/riemo_controller_msgs/msg/_LqrProblem.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/riemo_controller_msgs/msg/_LinearQuadraticRegulatorParams.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/riemo_controller_msgs/msg/_AdaptiveControlExperimentData.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/riemo_controller_msgs/msg/_LinearQuadraticRegulatorStatus.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/riemo_controller_msgs/msg/_AccelerationFeedbackExperimentStatus.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/riemo_controller_msgs/msg/_AffinePolicy.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/riemo_controller_msgs/msg/_EndEffectorPosition.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/riemo_controller_msgs/msg/__init__.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/riemo_controller_msgs/msg/_AffinePolicy.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/riemo_controller_msgs/msg/_Matrix32.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/riemo_controller_msgs/msg/_AdaptiveControlExperimentData.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/riemo_controller_msgs/msg/_EnvironmentalObject.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/riemo_controller_msgs/msg/_DistanceFieldQueries.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/riemo_controller_msgs/msg/_LinearQuadraticRegulatorParams.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/riemo_controller_msgs/msg/_DistanceFieldEval.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/riemo_controller_msgs/msg/_Matrix32.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/riemo_controller_msgs/msg/__init__.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/riemo_controller_msgs/msg/_DistanceFieldEval.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/riemo_controller_msgs/msg/_EndEffectorPosition.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/riemo_controller_msgs/msg/_LinearQuadraticRegulator.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/riemo_controller_msgs/msg/_ExperimentParams.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/riemo_controller_msgs/msg/_ObstaclePoints.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/riemo_controller_msgs/msg/_ExperimentParams.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/riemo_controller_msgs/msg/_KeyPointBodyApprox.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/riemo_controller_msgs/msg/_ChordEllipsoid.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/riemo_controller_msgs/msg/_DistanceFieldQueries.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/riemo_controller_msgs/msg/_Sphere.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/riemo_controller_msgs/msg/_LqrProblem.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/pkgconfig/riemo_controller_msgs.pc
+-- Installing: /home/amd_clmc/team/workspace/install/share/riemo_controller_msgs/cmake/riemo_controller_msgs-msg-extras.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/riemo_controller_msgs/cmake/riemo_controller_msgsConfig.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/riemo_controller_msgs/cmake/riemo_controller_msgsConfig-version.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/riemo_controller_msgs/package.xml
+-- Installing: /home/amd_clmc/team/workspace/install/share/riemo_grasping_msgs/msg/GraspPose.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/riemo_grasping_msgs/msg/GraspableObject.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/riemo_grasping_msgs/msg/GraspProblemInfo.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/riemo_grasping_msgs/msg/MpiGraspPoses.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/riemo_grasping_msgs/msg/Preshape.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/riemo_grasping_msgs/srv/LatestGraspProblemInfo.srv
+-- Installing: /home/amd_clmc/team/workspace/install/share/riemo_grasping_msgs/srv/RenderGraspProblemService.srv
+-- Installing: /home/amd_clmc/team/workspace/install/share/riemo_grasping_msgs/srv/UpdateGraspProblem.srv
+-- Installing: /home/amd_clmc/team/workspace/install/share/riemo_grasping_msgs/cmake/riemo_grasping_msgs-msg-paths.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/include/riemo_grasping_msgs
+-- Installing: /home/amd_clmc/team/workspace/install/include/riemo_grasping_msgs/RenderGraspProblemServiceResponse.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/riemo_grasping_msgs/UpdateGraspProblemResponse.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/riemo_grasping_msgs/Preshape.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/riemo_grasping_msgs/UpdateGraspProblem.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/riemo_grasping_msgs/GraspPose.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/riemo_grasping_msgs/UpdateGraspProblemRequest.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/riemo_grasping_msgs/RenderGraspProblemServiceRequest.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/riemo_grasping_msgs/LatestGraspProblemInfoRequest.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/riemo_grasping_msgs/LatestGraspProblemInfoResponse.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/riemo_grasping_msgs/GraspProblemInfo.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/riemo_grasping_msgs/LatestGraspProblemInfo.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/riemo_grasping_msgs/RenderGraspProblemService.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/riemo_grasping_msgs/MpiGraspPoses.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/riemo_grasping_msgs/GraspableObject.h
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/riemo_grasping_msgs
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/riemo_grasping_msgs/srv
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/riemo_grasping_msgs/srv/UpdateGraspProblem.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/riemo_grasping_msgs/srv/_package.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/riemo_grasping_msgs/srv/_package_LatestGraspProblemInfo.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/riemo_grasping_msgs/srv/_package_UpdateGraspProblem.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/riemo_grasping_msgs/srv/LatestGraspProblemInfo.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/riemo_grasping_msgs/srv/riemo_grasping_msgs-srv.asd
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/riemo_grasping_msgs/srv/_package_RenderGraspProblemService.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/riemo_grasping_msgs/srv/RenderGraspProblemService.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/riemo_grasping_msgs/msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/riemo_grasping_msgs/msg/_package.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/riemo_grasping_msgs/msg/riemo_grasping_msgs-msg.asd
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/riemo_grasping_msgs/msg/_package_GraspPose.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/riemo_grasping_msgs/msg/Preshape.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/riemo_grasping_msgs/msg/_package_Preshape.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/riemo_grasping_msgs/msg/MpiGraspPoses.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/riemo_grasping_msgs/msg/_package_MpiGraspPoses.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/riemo_grasping_msgs/msg/_package_GraspProblemInfo.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/riemo_grasping_msgs/msg/GraspPose.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/riemo_grasping_msgs/msg/GraspableObject.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/riemo_grasping_msgs/msg/_package_GraspableObject.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/riemo_grasping_msgs/msg/GraspProblemInfo.lisp
+Listing /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/riemo_grasping_msgs ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/riemo_grasping_msgs/__init__.py ...
+Listing /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/riemo_grasping_msgs/msg ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/riemo_grasping_msgs/msg/_GraspPose.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/riemo_grasping_msgs/msg/_GraspProblemInfo.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/riemo_grasping_msgs/msg/_GraspableObject.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/riemo_grasping_msgs/msg/_MpiGraspPoses.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/riemo_grasping_msgs/msg/_Preshape.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/riemo_grasping_msgs/msg/__init__.py ...
+Listing /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/riemo_grasping_msgs/srv ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/riemo_grasping_msgs/srv/_LatestGraspProblemInfo.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/riemo_grasping_msgs/srv/_RenderGraspProblemService.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/riemo_grasping_msgs/srv/_UpdateGraspProblem.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/riemo_grasping_msgs/srv/__init__.py ...
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/riemo_grasping_msgs
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/riemo_grasping_msgs/__init__.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/riemo_grasping_msgs/__init__.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/riemo_grasping_msgs/srv
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/riemo_grasping_msgs/srv/_RenderGraspProblemService.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/riemo_grasping_msgs/srv/_LatestGraspProblemInfo.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/riemo_grasping_msgs/srv/_LatestGraspProblemInfo.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/riemo_grasping_msgs/srv/_RenderGraspProblemService.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/riemo_grasping_msgs/srv/__init__.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/riemo_grasping_msgs/srv/__init__.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/riemo_grasping_msgs/srv/_UpdateGraspProblem.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/riemo_grasping_msgs/srv/_UpdateGraspProblem.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/riemo_grasping_msgs/msg
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/riemo_grasping_msgs/msg/_GraspPose.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/riemo_grasping_msgs/msg/_GraspableObject.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/riemo_grasping_msgs/msg/__init__.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/riemo_grasping_msgs/msg/_MpiGraspPoses.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/riemo_grasping_msgs/msg/_Preshape.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/riemo_grasping_msgs/msg/_GraspableObject.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/riemo_grasping_msgs/msg/__init__.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/riemo_grasping_msgs/msg/_MpiGraspPoses.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/riemo_grasping_msgs/msg/_GraspPose.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/riemo_grasping_msgs/msg/_GraspProblemInfo.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/riemo_grasping_msgs/msg/_Preshape.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/riemo_grasping_msgs/msg/_GraspProblemInfo.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/pkgconfig/riemo_grasping_msgs.pc
+-- Installing: /home/amd_clmc/team/workspace/install/share/riemo_grasping_msgs/cmake/riemo_grasping_msgs-msg-extras.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/riemo_grasping_msgs/cmake/riemo_grasping_msgsConfig.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/riemo_grasping_msgs/cmake/riemo_grasping_msgsConfig-version.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/riemo_grasping_msgs/package.xml
+-- Installing: /home/amd_clmc/team/workspace/install/lib/pkgconfig/riemo_rt.pc
+-- Installing: /home/amd_clmc/team/workspace/install/share/riemo_rt/cmake/riemo_rtConfig.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/riemo_rt/cmake/riemo_rtConfig-version.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/riemo_rt/package.xml
+-- Installing: /home/amd_clmc/team/workspace/install/lib/pkgconfig/riemo_kinematics.pc
+-- Installing: /home/amd_clmc/team/workspace/install/share/riemo_kinematics/cmake/riemo_kinematicsConfig.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/riemo_kinematics/cmake/riemo_kinematicsConfig-version.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/riemo_kinematics/package.xml
+-- Installing: /home/amd_clmc/team/workspace/install/share/visualization_2d/msg/Num.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/visualization_2d/msg/Point2D.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/visualization_2d/msg/Problem2D.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/visualization_2d/msg/Trajectory2D.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/visualization_2d/msg/ValueField2D.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/visualization_2d/srv/Problem2DVis.srv
+-- Installing: /home/amd_clmc/team/workspace/install/share/visualization_2d/cmake/visualization_2d-msg-paths.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/include/visualization_2d
+-- Installing: /home/amd_clmc/team/workspace/install/include/visualization_2d/Num.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/visualization_2d/Problem2DVisRequest.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/visualization_2d/Trajectory2D.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/visualization_2d/Point2D.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/visualization_2d/Problem2DVisResponse.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/visualization_2d/Problem2D.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/visualization_2d/Problem2DVis.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/visualization_2d/ValueField2D.h
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/visualization_2d
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/visualization_2d/srv
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/visualization_2d/srv/_package.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/visualization_2d/srv/Problem2DVis.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/visualization_2d/srv/visualization_2d-srv.asd
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/visualization_2d/srv/_package_Problem2DVis.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/visualization_2d/msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/visualization_2d/msg/_package.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/visualization_2d/msg/Point2D.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/visualization_2d/msg/Trajectory2D.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/visualization_2d/msg/_package_Num.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/visualization_2d/msg/_package_Problem2D.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/visualization_2d/msg/ValueField2D.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/visualization_2d/msg/Num.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/visualization_2d/msg/_package_Point2D.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/visualization_2d/msg/Problem2D.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/visualization_2d/msg/visualization_2d-msg.asd
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/visualization_2d/msg/_package_ValueField2D.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/visualization_2d/msg/_package_Trajectory2D.lisp
+Listing /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/visualization_2d ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/visualization_2d/__init__.py ...
+Listing /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/visualization_2d/msg ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/visualization_2d/msg/_Num.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/visualization_2d/msg/_Point2D.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/visualization_2d/msg/_Problem2D.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/visualization_2d/msg/_Trajectory2D.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/visualization_2d/msg/_ValueField2D.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/visualization_2d/msg/__init__.py ...
+Listing /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/visualization_2d/srv ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/visualization_2d/srv/_Problem2DVis.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/visualization_2d/srv/__init__.py ...
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/visualization_2d
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/visualization_2d/__init__.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/visualization_2d/__init__.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/visualization_2d/srv
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/visualization_2d/srv/_Problem2DVis.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/visualization_2d/srv/__init__.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/visualization_2d/srv/__init__.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/visualization_2d/srv/_Problem2DVis.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/visualization_2d/msg
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/visualization_2d/msg/_Trajectory2D.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/visualization_2d/msg/_ValueField2D.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/visualization_2d/msg/__init__.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/visualization_2d/msg/_Num.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/visualization_2d/msg/_Trajectory2D.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/visualization_2d/msg/_Problem2D.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/visualization_2d/msg/_Problem2D.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/visualization_2d/msg/_ValueField2D.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/visualization_2d/msg/_Point2D.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/visualization_2d/msg/__init__.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/visualization_2d/msg/_Point2D.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/visualization_2d/msg/_Num.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/pkgconfig/visualization_2d.pc
+-- Installing: /home/amd_clmc/team/workspace/install/share/visualization_2d/cmake/visualization_2d-msg-extras.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/visualization_2d/cmake/visualization_2dConfig.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/visualization_2d/cmake/visualization_2dConfig-version.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/visualization_2d/package.xml
+-- Installing: /home/amd_clmc/team/workspace/install/lib/pkgconfig/riemo_ros.pc
+-- Installing: /home/amd_clmc/team/workspace/install/share/riemo_ros/cmake/riemo_rosConfig.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/riemo_ros/cmake/riemo_rosConfig-version.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/riemo_ros/package.xml
+-- Installing: /home/amd_clmc/team/workspace/install/lib/pkgconfig/riemo_programs.pc
+-- Installing: /home/amd_clmc/team/workspace/install/share/riemo_programs/cmake/riemo_programsConfig.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/riemo_programs/cmake/riemo_programsConfig-version.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/riemo_programs/package.xml
+-- Installing: /home/amd_clmc/team/workspace/install/lib/pkgconfig/riemo_robots.pc
+-- Installing: /home/amd_clmc/team/workspace/install/share/riemo_robots/cmake/riemo_robotsConfig.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/riemo_robots/cmake/riemo_robotsConfig-version.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/riemo_robots/package.xml
+Base path: /home/amd_clmc/team/workspace
+Source space: /home/amd_clmc/team/workspace/src
+Build space: /home/amd_clmc/team/workspace/build
+Devel space: /home/amd_clmc/team/workspace/devel
+Install space: /home/amd_clmc/team/workspace/install
+####
+#### Running command: "cmake /home/amd_clmc/team/workspace/src -DCATKIN_DEVEL_PREFIX=/home/amd_clmc/team/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/amd_clmc/team/workspace/install -G Unix Makefiles" in "/home/amd_clmc/team/workspace/build"
+####
+####
+#### Running command: "make -j install" in "/home/amd_clmc/team/workspace/build"
+####
