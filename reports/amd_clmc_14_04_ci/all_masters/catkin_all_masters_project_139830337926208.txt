@@ -1,0 +1,806 @@
+COMMAND:catkin_make -j install
+------------------------------
+-- The C compiler identification is GNU 4.8.4
+-- The CXX compiler identification is GNU 4.8.4
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Using CATKIN_DEVEL_PREFIX: /home/amd_clmc/team/workspace/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/indigo
+-- This workspace overlays: /opt/ros/indigo
+-- Found PythonInterp: /usr/bin/python (found version "2.7.6") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/amd_clmc/team/workspace/build/test_results
+-- Looking for include file pthread.h
+-- Looking for include file pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found gtest sources under '/usr/src/gtest': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.6.16
+-- BUILD_SHARED_LIBS is on
+WARNING: Package "ompl" does not follow the version conventions. It should not contain leading zeros (unless the number is 0).
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- ~~  traversing 2 packages in topological order:
+-- ~~  - rgbd_capture
+-- ~~  - rgbd_intrinsic_calibration
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- +++ processing catkin package: 'rgbd_capture'
+-- ==> add_subdirectory(catkin/ros/rgbd_capture)
+-- Boost version: 1.54.0
+-- +++ processing catkin package: 'rgbd_intrinsic_calibration'
+-- ==> add_subdirectory(catkin/core-calibration/rgbd_intrinsic_calibration)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/amd_clmc/team/workspace/build
+Scanning dependencies of target rgbd_capture
+[ 18%] [ 18%] [ 18%] Building CXX object catkin/ros/rgbd_capture/CMakeFiles/rgbd_capture.dir/src/kinect.cc.o
+Building CXX object catkin/ros/rgbd_capture/CMakeFiles/rgbd_capture.dir/src/rgbd_capture.cpp.o
+Building C object catkin/ros/rgbd_capture/CMakeFiles/rgbd_capture.dir/src/rainbow.c.o
+In file included from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:47:0:
+/home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/utils.h: In function 'void operator>>(const YAML::Node&, Matrix&)':
+/home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/utils.h:50:16: error: no match for 'operator>>' (operand types are 'const YAML::Node' and 'int')
+   node["rows"] >> cam_mat.rows;
+                ^
+/home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/utils.h:50:16: note: candidate is:
+/home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/utils.h:48:6: note: void operator>>(const YAML::Node&, Matrix&)
+ void operator >> (const YAML::Node& node, Matrix& cam_mat) 
+      ^
+/home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/utils.h:48:6: note:   no known conversion for argument 2 from 'int' to 'Matrix&'
+/home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/utils.h:51:16: error: no match for 'operator>>' (operand types are 'const YAML::Node' and 'int')
+   node["cols"] >> cam_mat.cols;
+                ^
+/home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/utils.h:51:16: note: candidate is:
+/home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/utils.h:48:6: note: void operator>>(const YAML::Node&, Matrix&)
+ void operator >> (const YAML::Node& node, Matrix& cam_mat) 
+      ^
+/home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/utils.h:48:6: note:   no known conversion for argument 2 from 'int' to 'Matrix&'
+/home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/utils.h:52:16: error: no match for 'operator>>' (operand types are 'const YAML::Node' and 'std::vector<float>')
+   node["data"] >> cam_mat.data;
+                ^
+/home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/utils.h:52:16: note: candidates are:
+/home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/utils.h:48:6: note: void operator>>(const YAML::Node&, Matrix&)
+ void operator >> (const YAML::Node& node, Matrix& cam_mat) 
+      ^
+/home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/utils.h:48:6: note:   no known conversion for argument 2 from 'std::vector<float>' to 'Matrix&'
+In file included from /usr/include/opencv2/contrib/retina.hpp:76:0,
+                 from /usr/include/opencv2/contrib/contrib.hpp:979,
+                 from /usr/include/opencv2/opencv.hpp:59,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/rgbd_capture.h:65,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:46:
+/usr/include/c++/4.8/valarray:1176:1: note: template<class _Tp> std::_Expr<std::_BinClos<std::__shift_right, std::_Constant, std::_ValArray, _Tp, _Tp>, typename std::__fun<std::__shift_right, _Tp>::result_type> std::operator>>(const _Tp&, const std::valarray<_Tp>&)
+ _DEFINE_BINARY_OPERATOR(>>, __shift_right)
+ ^
+/usr/include/c++/4.8/valarray:1176:1: note:   template argument deduction/substitution failed:
+In file included from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:47:0:
+/home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/utils.h:52:27: note:   'std::vector<float>' is not derived from 'const std::valarray<_Tp>'
+   node["data"] >> cam_mat.data;
+                           ^
+In file included from /usr/include/opencv2/contrib/retina.hpp:76:0,
+                 from /usr/include/opencv2/contrib/contrib.hpp:979,
+                 from /usr/include/opencv2/opencv.hpp:59,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/rgbd_capture.h:65,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:46:
+/usr/include/c++/4.8/valarray:1176:1: note: template<class _Tp> std::_Expr<std::_BinClos<std::__shift_right, std::_ValArray, std::_Constant, _Tp, _Tp>, typename std::__fun<std::__shift_right, _Tp>::result_type> std::operator>>(const std::valarray<_Tp>&, const _Tp&)
+ _DEFINE_BINARY_OPERATOR(>>, __shift_right)
+ ^
+/usr/include/c++/4.8/valarray:1176:1: note:   template argument deduction/substitution failed:
+In file included from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:47:0:
+/home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/utils.h:52:27: note:   'const YAML::Node' is not derived from 'const std::valarray<_Tp>'
+   node["data"] >> cam_mat.data;
+                           ^
+In file included from /usr/include/opencv2/contrib/retina.hpp:76:0,
+                 from /usr/include/opencv2/contrib/contrib.hpp:979,
+                 from /usr/include/opencv2/opencv.hpp:59,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/rgbd_capture.h:65,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:46:
+/usr/include/c++/4.8/valarray:1176:1: note: template<class _Tp> std::_Expr<std::_BinClos<std::__shift_right, std::_ValArray, std::_ValArray, _Tp, _Tp>, typename std::__fun<std::__shift_right, _Tp>::result_type> std::operator>>(const std::valarray<_Tp>&, const std::valarray<_Tp>&)
+ _DEFINE_BINARY_OPERATOR(>>, __shift_right)
+ ^
+/usr/include/c++/4.8/valarray:1176:1: note:   template argument deduction/substitution failed:
+In file included from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:47:0:
+/home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/utils.h:52:27: note:   'const YAML::Node' is not derived from 'const std::valarray<_Tp>'
+   node["data"] >> cam_mat.data;
+                           ^
+In file included from /usr/include/c++/4.8/valarray:587:0,
+                 from /usr/include/opencv2/contrib/retina.hpp:76,
+                 from /usr/include/opencv2/contrib/contrib.hpp:979,
+                 from /usr/include/opencv2/opencv.hpp:59,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/rgbd_capture.h:65,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:46:
+/usr/include/c++/4.8/bits/valarray_after.h:411:5: note: template<class _Dom> std::_Expr<std::_BinClos<std::__shift_right, std::_ValArray, std::_Expr, typename _Dom::value_type, _Dom>, typename std::__fun<std::__shift_right, typename _Dom1::value_type>::result_type> std::operator>>(const std::valarray<typename _Dom::value_type>&, const std::_Expr<_Dom1, typename _Dom1::value_type>&)
+     _DEFINE_EXPR_BINARY_OPERATOR(>>, __shift_right)
+     ^
+/usr/include/c++/4.8/bits/valarray_after.h:411:5: note:   template argument deduction/substitution failed:
+In file included from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:47:0:
+/home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/utils.h:52:27: note:   'const YAML::Node' is not derived from 'const std::valarray<typename _Dom::value_type>'
+   node["data"] >> cam_mat.data;
+                           ^
+In file included from /usr/include/c++/4.8/valarray:587:0,
+                 from /usr/include/opencv2/contrib/retina.hpp:76,
+                 from /usr/include/opencv2/contrib/contrib.hpp:979,
+                 from /usr/include/opencv2/opencv.hpp:59,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/rgbd_capture.h:65,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:46:
+/usr/include/c++/4.8/bits/valarray_after.h:411:5: note: template<class _Dom> std::_Expr<std::_BinClos<std::__shift_right, std::_Expr, std::_ValArray, _Dom, typename _Dom::value_type>, typename std::__fun<std::__shift_right, typename _Dom1::value_type>::result_type> std::operator>>(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const std::valarray<typename _Dom::value_type>&)
+     _DEFINE_EXPR_BINARY_OPERATOR(>>, __shift_right)
+     ^
+/usr/include/c++/4.8/bits/valarray_after.h:411:5: note:   template argument deduction/substitution failed:
+In file included from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:47:0:
+/home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/utils.h:52:27: note:   'const YAML::Node' is not derived from 'const std::_Expr<_Dom1, typename _Dom1::value_type>'
+   node["data"] >> cam_mat.data;
+                           ^
+In file included from /usr/include/c++/4.8/valarray:587:0,
+                 from /usr/include/opencv2/contrib/retina.hpp:76,
+                 from /usr/include/opencv2/contrib/contrib.hpp:979,
+                 from /usr/include/opencv2/opencv.hpp:59,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/rgbd_capture.h:65,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:46:
+/usr/include/c++/4.8/bits/valarray_after.h:411:5: note: template<class _Dom> std::_Expr<std::_BinClos<std::__shift_right, std::_Constant, std::_Expr, typename _Dom::value_type, _Dom>, typename std::__fun<std::__shift_right, typename _Dom1::value_type>::result_type> std::operator>>(const typename _Dom::value_type&, const std::_Expr<_Dom1, typename _Dom1::value_type>&)
+     _DEFINE_EXPR_BINARY_OPERATOR(>>, __shift_right)
+     ^
+/usr/include/c++/4.8/bits/valarray_after.h:411:5: note:   template argument deduction/substitution failed:
+In file included from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:47:0:
+/home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/utils.h:52:27: note:   'std::vector<float>' is not derived from 'const std::_Expr<_Dom1, typename _Dom1::value_type>'
+   node["data"] >> cam_mat.data;
+                           ^
+In file included from /usr/include/c++/4.8/valarray:587:0,
+                 from /usr/include/opencv2/contrib/retina.hpp:76,
+                 from /usr/include/opencv2/contrib/contrib.hpp:979,
+                 from /usr/include/opencv2/opencv.hpp:59,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/rgbd_capture.h:65,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:46:
+/usr/include/c++/4.8/bits/valarray_after.h:411:5: note: template<class _Dom> std::_Expr<std::_BinClos<std::__shift_right, std::_Expr, std::_Constant, _Dom, typename _Dom::value_type>, typename std::__fun<std::__shift_right, typename _Dom1::value_type>::result_type> std::operator>>(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const typename _Dom::value_type&)
+     _DEFINE_EXPR_BINARY_OPERATOR(>>, __shift_right)
+     ^
+/usr/include/c++/4.8/bits/valarray_after.h:411:5: note:   template argument deduction/substitution failed:
+In file included from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:47:0:
+/home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/utils.h:52:27: note:   'const YAML::Node' is not derived from 'const std::_Expr<_Dom1, typename _Dom1::value_type>'
+   node["data"] >> cam_mat.data;
+                           ^
+In file included from /usr/include/c++/4.8/valarray:587:0,
+                 from /usr/include/opencv2/contrib/retina.hpp:76,
+                 from /usr/include/opencv2/contrib/contrib.hpp:979,
+                 from /usr/include/opencv2/opencv.hpp:59,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/rgbd_capture.h:65,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:46:
+/usr/include/c++/4.8/bits/valarray_after.h:411:5: note: template<class _Dom1, class _Dom2> std::_Expr<std::_BinClos<std::__shift_right, std::_Expr, std::_Expr, _Dom1, _Dom2>, typename std::__fun<std::__shift_right, typename _Dom1::value_type>::result_type> std::operator>>(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const std::_Expr<_Dom2, typename _Dom2::value_type>&)
+     _DEFINE_EXPR_BINARY_OPERATOR(>>, __shift_right)
+     ^
+/usr/include/c++/4.8/bits/valarray_after.h:411:5: note:   template argument deduction/substitution failed:
+In file included from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:47:0:
+/home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/utils.h:52:27: note:   'const YAML::Node' is not derived from 'const std::_Expr<_Dom1, typename _Dom1::value_type>'
+   node["data"] >> cam_mat.data;
+                           ^
+In file included from /usr/include/boost/detail/container_fwd.hpp:96:0,
+                 from /usr/include/boost/functional/hash/extensions.hpp:17,
+                 from /usr/include/boost/functional/hash/hash.hpp:529,
+                 from /usr/include/boost/functional/hash.hpp:6,
+                 from /usr/include/boost/unordered/unordered_map.hpp:20,
+                 from /usr/include/boost/unordered_map.hpp:16,
+                 from /opt/ros/indigo/include/tf/tf.h:44,
+                 from /opt/ros/indigo/include/tf/transform_listener.h:38,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/rgbd_capture.h:63,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:46:
+/usr/include/c++/4.8/bitset:1453:5: note: template<class _CharT, class _Traits, long unsigned int _Nb> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::bitset<_Nb>&)
+     operator>>(std::basic_istream<_CharT, _Traits>& __is, bitset<_Nb>& __x)
+     ^
+/usr/include/c++/4.8/bitset:1453:5: note:   template argument deduction/substitution failed:
+In file included from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:47:0:
+/home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/utils.h:52:27: note:   types 'std::basic_istream<_CharT, _Traits>' and 'const YAML::Node' have incompatible cv-qualifiers
+   node["data"] >> cam_mat.data;
+                           ^
+In file included from /usr/include/boost/config/no_tr1/complex.hpp:21:0,
+                 from /usr/include/boost/math/policies/error_handling.hpp:15,
+                 from /usr/include/boost/math/special_functions/round.hpp:14,
+                 from /opt/ros/indigo/include/ros/time.h:58,
+                 from /opt/ros/indigo/include/ros/ros.h:38,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/rgbd_capture.h:54,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:46:
+/usr/include/c++/4.8/complex:491:5: note: template<class _Tp, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::complex<_Tp>&)
+     operator>>(basic_istream<_CharT, _Traits>& __is, complex<_Tp>& __x)
+     ^
+/usr/include/c++/4.8/complex:491:5: note:   template argument deduction/substitution failed:
+In file included from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:47:0:
+/home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/utils.h:52:27: note:   types 'std::basic_istream<_CharT, _Traits>' and 'const YAML::Node' have incompatible cv-qualifiers
+   node["data"] >> cam_mat.data;
+                           ^
+In file included from /usr/include/boost/math/policies/error_handling.hpp:12:0,
+                 from /usr/include/boost/math/special_functions/round.hpp:14,
+                 from /opt/ros/indigo/include/ros/time.h:58,
+                 from /opt/ros/indigo/include/ros/ros.h:38,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/rgbd_capture.h:54,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:46:
+/usr/include/c++/4.8/iomanip:227:5: note: template<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::_Setw)
+     operator>>(basic_istream<_CharT, _Traits>& __is, _Setw __f)
+     ^
+/usr/include/c++/4.8/iomanip:227:5: note:   template argument deduction/substitution failed:
+In file included from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:47:0:
+/home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/utils.h:52:27: note:   types 'std::basic_istream<_CharT, _Traits>' and 'const YAML::Node' have incompatible cv-qualifiers
+   node["data"] >> cam_mat.data;
+                           ^
+In file included from /usr/include/boost/math/policies/error_handling.hpp:12:0,
+                 from /usr/include/boost/math/special_functions/round.hpp:14,
+                 from /opt/ros/indigo/include/ros/time.h:58,
+                 from /opt/ros/indigo/include/ros/ros.h:38,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/rgbd_capture.h:54,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:46:
+/usr/include/c++/4.8/iomanip:197:5: note: template<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::_Setprecision)
+     operator>>(basic_istream<_CharT, _Traits>& __is, _Setprecision __f)
+     ^
+/usr/include/c++/4.8/iomanip:197:5: note:   template argument deduction/substitution failed:
+In file included from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:47:0:
+/home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/utils.h:52:27: note:   types 'std::basic_istream<_CharT, _Traits>' and 'const YAML::Node' have incompatible cv-qualifiers
+   node["data"] >> cam_mat.data;
+                           ^
+In file included from /usr/include/boost/math/policies/error_handling.hpp:12:0,
+                 from /usr/include/boost/math/special_functions/round.hpp:14,
+                 from /opt/ros/indigo/include/ros/time.h:58,
+                 from /opt/ros/indigo/include/ros/ros.h:38,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/rgbd_capture.h:54,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:46:
+/usr/include/c++/4.8/iomanip:167:5: note: template<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::_Setfill<_CharT>)
+     operator>>(basic_istream<_CharT, _Traits>& __is, _Setfill<_CharT> __f)
+     ^
+/usr/include/c++/4.8/iomanip:167:5: note:   template argument deduction/substitution failed:
+In file included from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:47:0:
+/home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/utils.h:52:27: note:   types 'std::basic_istream<_CharT, _Traits>' and 'const YAML::Node' have incompatible cv-qualifiers
+   node["data"] >> cam_mat.data;
+                           ^
+In file included from /usr/include/boost/math/policies/error_handling.hpp:12:0,
+                 from /usr/include/boost/math/special_functions/round.hpp:14,
+                 from /opt/ros/indigo/include/ros/time.h:58,
+                 from /opt/ros/indigo/include/ros/ros.h:38,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/rgbd_capture.h:54,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:46:
+/usr/include/c++/4.8/iomanip:129:5: note: template<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::_Setbase)
+     operator>>(basic_istream<_CharT, _Traits>& __is, _Setbase __f)
+     ^
+/usr/include/c++/4.8/iomanip:129:5: note:   template argument deduction/substitution failed:
+In file included from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:47:0:
+/home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/utils.h:52:27: note:   types 'std::basic_istream<_CharT, _Traits>' and 'const YAML::Node' have incompatible cv-qualifiers
+   node["data"] >> cam_mat.data;
+                           ^
+In file included from /usr/include/boost/math/policies/error_handling.hpp:12:0,
+                 from /usr/include/boost/math/special_functions/round.hpp:14,
+                 from /opt/ros/indigo/include/ros/time.h:58,
+                 from /opt/ros/indigo/include/ros/ros.h:38,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/rgbd_capture.h:54,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:46:
+/usr/include/c++/4.8/iomanip:98:5: note: template<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::_Setiosflags)
+     operator>>(basic_istream<_CharT, _Traits>& __is, _Setiosflags __f)
+     ^
+/usr/include/c++/4.8/iomanip:98:5: note:   template argument deduction/substitution failed:
+In file included from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:47:0:
+/home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/utils.h:52:27: note:   types 'std::basic_istream<_CharT, _Traits>' and 'const YAML::Node' have incompatible cv-qualifiers
+   node["data"] >> cam_mat.data;
+                           ^
+In file included from /usr/include/boost/math/policies/error_handling.hpp:12:0,
+                 from /usr/include/boost/math/special_functions/round.hpp:14,
+                 from /opt/ros/indigo/include/ros/time.h:58,
+                 from /opt/ros/indigo/include/ros/ros.h:38,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/rgbd_capture.h:54,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:46:
+/usr/include/c++/4.8/iomanip:68:5: note: template<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::_Resetiosflags)
+     operator>>(basic_istream<_CharT, _Traits>& __is, _Resetiosflags __f)
+     ^
+/usr/include/c++/4.8/iomanip:68:5: note:   template argument deduction/substitution failed:
+In file included from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:47:0:
+/home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/utils.h:52:27: note:   types 'std::basic_istream<_CharT, _Traits>' and 'const YAML::Node' have incompatible cv-qualifiers
+   node["data"] >> cam_mat.data;
+                           ^
+In file included from /usr/include/c++/4.8/iterator:65:0,
+                 from /usr/include/boost/iterator.hpp:17,
+                 from /usr/include/boost/operators.hpp:86,
+                 from /usr/include/boost/system/error_code.hpp:17,
+                 from /usr/include/boost/system/system_error.hpp:14,
+                 from /usr/include/boost/thread/exceptions.hpp:22,
+                 from /usr/include/boost/thread/pthread/mutex.hpp:12,
+                 from /usr/include/boost/thread/mutex.hpp:16,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/rgbd_capture.h:51,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:46:
+/usr/include/c++/4.8/istream:779:5: note: template<class _Traits> std::basic_istream<char, _Traits>& std::operator>>(std::basic_istream<char, _Traits>&, signed char*)
+     operator>>(basic_istream<char, _Traits>& __in, signed char* __s)
+     ^
+/usr/include/c++/4.8/istream:779:5: note:   template argument deduction/substitution failed:
+In file included from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:47:0:
+/home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/utils.h:52:27: note:   types 'std::basic_istream<char, _Traits>' and 'const YAML::Node' have incompatible cv-qualifiers
+   node["data"] >> cam_mat.data;
+                           ^
+In file included from /usr/include/c++/4.8/iterator:65:0,
+                 from /usr/include/boost/iterator.hpp:17,
+                 from /usr/include/boost/operators.hpp:86,
+                 from /usr/include/boost/system/error_code.hpp:17,
+                 from /usr/include/boost/system/system_error.hpp:14,
+                 from /usr/include/boost/thread/exceptions.hpp:22,
+                 from /usr/include/boost/thread/pthread/mutex.hpp:12,
+                 from /usr/include/boost/thread/mutex.hpp:16,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/rgbd_capture.h:51,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:46:
+/usr/include/c++/4.8/istream:774:5: note: template<class _Traits> std::basic_istream<char, _Traits>& std::operator>>(std::basic_istream<char, _Traits>&, unsigned char*)
+     operator>>(basic_istream<char, _Traits>& __in, unsigned char* __s)
+     ^
+/usr/include/c++/4.8/istream:774:5: note:   template argument deduction/substitution failed:
+In file included from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:47:0:
+/home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/utils.h:52:27: note:   types 'std::basic_istream<char, _Traits>' and 'const YAML::Node' have incompatible cv-qualifiers
+   node["data"] >> cam_mat.data;
+                           ^
+In file included from /usr/include/c++/4.8/iterator:65:0,
+                 from /usr/include/boost/iterator.hpp:17,
+                 from /usr/include/boost/operators.hpp:86,
+                 from /usr/include/boost/system/error_code.hpp:17,
+                 from /usr/include/boost/system/system_error.hpp:14,
+                 from /usr/include/boost/thread/exceptions.hpp:22,
+                 from /usr/include/boost/thread/pthread/mutex.hpp:12,
+                 from /usr/include/boost/thread/mutex.hpp:16,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/rgbd_capture.h:51,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:46:
+/usr/include/c++/4.8/istream:732:5: note: template<class _Traits> std::basic_istream<char, _Traits>& std::operator>>(std::basic_istream<char, _Traits>&, signed char&)
+     operator>>(basic_istream<char, _Traits>& __in, signed char& __c)
+     ^
+/usr/include/c++/4.8/istream:732:5: note:   template argument deduction/substitution failed:
+In file included from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:47:0:
+/home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/utils.h:52:27: note:   types 'std::basic_istream<char, _Traits>' and 'const YAML::Node' have incompatible cv-qualifiers
+   node["data"] >> cam_mat.data;
+                           ^
+In file included from /usr/include/c++/4.8/iterator:65:0,
+                 from /usr/include/boost/iterator.hpp:17,
+                 from /usr/include/boost/operators.hpp:86,
+                 from /usr/include/boost/system/error_code.hpp:17,
+                 from /usr/include/boost/system/system_error.hpp:14,
+                 from /usr/include/boost/thread/exceptions.hpp:22,
+                 from /usr/include/boost/thread/pthread/mutex.hpp:12,
+                 from /usr/include/boost/thread/mutex.hpp:16,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/rgbd_capture.h:51,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:46:
+/usr/include/c++/4.8/istream:727:5: note: template<class _Traits> std::basic_istream<char, _Traits>& std::operator>>(std::basic_istream<char, _Traits>&, unsigned char&)
+     operator>>(basic_istream<char, _Traits>& __in, unsigned char& __c)
+     ^
+/usr/include/c++/4.8/istream:727:5: note:   template argument deduction/substitution failed:
+In file included from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:47:0:
+/home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/utils.h:52:27: note:   types 'std::basic_istream<char, _Traits>' and 'const YAML::Node' have incompatible cv-qualifiers
+   node["data"] >> cam_mat.data;
+                           ^
+In file included from /usr/include/c++/4.8/istream:882:0,
+                 from /usr/include/c++/4.8/iterator:65,
+                 from /usr/include/boost/iterator.hpp:17,
+                 from /usr/include/boost/operators.hpp:86,
+                 from /usr/include/boost/system/error_code.hpp:17,
+                 from /usr/include/boost/system/system_error.hpp:14,
+                 from /usr/include/boost/thread/exceptions.hpp:22,
+                 from /usr/include/boost/thread/pthread/mutex.hpp:12,
+                 from /usr/include/boost/thread/mutex.hpp:16,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/rgbd_capture.h:51,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:46:
+/usr/include/c++/4.8/bits/istream.tcc:923:5: note: template<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, _CharT&)
+     operator>>(basic_istream<_CharT, _Traits>& __in, _CharT& __c)
+     ^
+/usr/include/c++/4.8/bits/istream.tcc:923:5: note:   template argument deduction/substitution failed:
+In file included from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:47:0:
+/home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/utils.h:52:27: note:   types 'std::basic_istream<_CharT, _Traits>' and 'const YAML::Node' have incompatible cv-qualifiers
+   node["data"] >> cam_mat.data;
+                           ^
+In file included from /usr/include/c++/4.8/istream:882:0,
+                 from /usr/include/c++/4.8/iterator:65,
+                 from /usr/include/boost/iterator.hpp:17,
+                 from /usr/include/boost/operators.hpp:86,
+                 from /usr/include/boost/system/error_code.hpp:17,
+                 from /usr/include/boost/system/system_error.hpp:14,
+                 from /usr/include/boost/thread/exceptions.hpp:22,
+                 from /usr/include/boost/thread/pthread/mutex.hpp:12,
+                 from /usr/include/boost/thread/mutex.hpp:16,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/rgbd_capture.h:51,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:46:
+/usr/include/c++/4.8/bits/istream.tcc:955:5: note: template<class _CharT2, class _Traits2> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, _CharT2*)
+     operator>>(basic_istream<_CharT, _Traits>& __in, _CharT* __s)
+     ^
+/usr/include/c++/4.8/bits/istream.tcc:955:5: note:   template argument deduction/substitution failed:
+In file included from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:47:0:
+/home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/utils.h:52:27: note:   types 'std::basic_istream<_CharT, _Traits>' and 'const YAML::Node' have incompatible cv-qualifiers
+   node["data"] >> cam_mat.data;
+                           ^
+In file included from /usr/include/c++/4.8/string:53:0,
+                 from /usr/include/boost/format.hpp:18,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/rgbd_capture.h:50,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:46:
+/usr/include/c++/4.8/bits/basic_string.tcc:996:5: note: template<class _CharT, class _Traits, class _Alloc> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::basic_string<_CharT, _Traits, _Alloc>&)
+     operator>>(basic_istream<_CharT, _Traits>& __in,
+     ^
+/usr/include/c++/4.8/bits/basic_string.tcc:996:5: note:   template argument deduction/substitution failed:
+In file included from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:47:0:
+/home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/utils.h:52:27: note:   types 'std::basic_istream<_CharT, _Traits>' and 'const YAML::Node' have incompatible cv-qualifiers
+   node["data"] >> cam_mat.data;
+                           ^
+/home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/utils.h: In function 'void operator>>(const YAML::Node&, std::vector<float>&)':
+/home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/utils.h:60:15: error: no match for 'operator>>' (operand types are 'const YAML::Node' and 'float')
+       node[i] >> val;
+               ^
+/home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/utils.h:60:15: note: candidates are:
+/home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/utils.h:48:6: note: void operator>>(const YAML::Node&, Matrix&)
+ void operator >> (const YAML::Node& node, Matrix& cam_mat) 
+      ^
+/home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/utils.h:48:6: note:   no known conversion for argument 2 from 'float' to 'Matrix&'
+/home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/utils.h:55:6: note: void operator>>(const YAML::Node&, std::vector<float>&)
+ void operator >> (const YAML::Node& node, std::vector<float>& data)
+      ^
+/home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/utils.h:55:6: note:   no known conversion for argument 2 from 'float' to 'std::vector<float>&'
+/home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp: In member function 'void RgbdCapture::initParameters()':
+/home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:214:12: error: 'class YAML::Parser' has no member named 'GetNextDocument'
+     parser.GetNextDocument(node);
+            ^
+/home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:215:10: error: 'Iterator' is not a member of 'YAML'
+     for (YAML::Iterator i = node.begin(); i != node.end(); ++i) {
+          ^
+/home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:215:25: error: expected ';' before 'i'
+     for (YAML::Iterator i = node.begin(); i != node.end(); ++i) {
+                         ^
+/home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:215:43: error: 'i' was not declared in this scope
+     for (YAML::Iterator i = node.begin(); i != node.end(); ++i) {
+                                           ^
+/home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:218:11: error: no match for 'operator>>' (operand types are 'const YAML::Node' and 'std::string {aka std::basic_string<char>}')
+       key >> out;
+           ^
+/home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:218:11: note: candidates are:
+In file included from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:47:0:
+/home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/utils.h:48:6: note: void operator>>(const YAML::Node&, Matrix&)
+ void operator >> (const YAML::Node& node, Matrix& cam_mat) 
+      ^
+/home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/utils.h:48:6: note:   no known conversion for argument 2 from 'std::string {aka std::basic_string<char>}' to 'Matrix&'
+/home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/utils.h:55:6: note: void operator>>(const YAML::Node&, std::vector<float>&)
+ void operator >> (const YAML::Node& node, std::vector<float>& data)
+      ^
+/home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/utils.h:55:6: note:   no known conversion for argument 2 from 'std::string {aka std::basic_string<char>}' to 'std::vector<float>&'
+In file included from /usr/include/opencv2/contrib/retina.hpp:76:0,
+                 from /usr/include/opencv2/contrib/contrib.hpp:979,
+                 from /usr/include/opencv2/opencv.hpp:59,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/rgbd_capture.h:65,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:46:
+/usr/include/c++/4.8/valarray:1176:1: note: template<class _Tp> std::_Expr<std::_BinClos<std::__shift_right, std::_Constant, std::_ValArray, _Tp, _Tp>, typename std::__fun<std::__shift_right, _Tp>::result_type> std::operator>>(const _Tp&, const std::valarray<_Tp>&)
+ _DEFINE_BINARY_OPERATOR(>>, __shift_right)
+ ^
+/usr/include/c++/4.8/valarray:1176:1: note:   template argument deduction/substitution failed:
+/home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:218:14: note:   'std::string {aka std::basic_string<char>}' is not derived from 'const std::valarray<_Tp>'
+       key >> out;
+              ^
+In file included from /usr/include/opencv2/contrib/retina.hpp:76:0,
+                 from /usr/include/opencv2/contrib/contrib.hpp:979,
+                 from /usr/include/opencv2/opencv.hpp:59,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/rgbd_capture.h:65,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:46:
+/usr/include/c++/4.8/valarray:1176:1: note: template<class _Tp> std::_Expr<std::_BinClos<std::__shift_right, std::_ValArray, std::_Constant, _Tp, _Tp>, typename std::__fun<std::__shift_right, _Tp>::result_type> std::operator>>(const std::valarray<_Tp>&, const _Tp&)
+ _DEFINE_BINARY_OPERATOR(>>, __shift_right)
+ ^
+/usr/include/c++/4.8/valarray:1176:1: note:   template argument deduction/substitution failed:
+/home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:218:14: note:   'const YAML::Node' is not derived from 'const std::valarray<_Tp>'
+       key >> out;
+              ^
+In file included from /usr/include/opencv2/contrib/retina.hpp:76:0,
+                 from /usr/include/opencv2/contrib/contrib.hpp:979,
+                 from /usr/include/opencv2/opencv.hpp:59,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/rgbd_capture.h:65,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:46:
+/usr/include/c++/4.8/valarray:1176:1: note: template<class _Tp> std::_Expr<std::_BinClos<std::__shift_right, std::_ValArray, std::_ValArray, _Tp, _Tp>, typename std::__fun<std::__shift_right, _Tp>::result_type> std::operator>>(const std::valarray<_Tp>&, const std::valarray<_Tp>&)
+ _DEFINE_BINARY_OPERATOR(>>, __shift_right)
+ ^
+/usr/include/c++/4.8/valarray:1176:1: note:   template argument deduction/substitution failed:
+/home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:218:14: note:   'const YAML::Node' is not derived from 'const std::valarray<_Tp>'
+       key >> out;
+              ^
+In file included from /usr/include/c++/4.8/valarray:587:0,
+                 from /usr/include/opencv2/contrib/retina.hpp:76,
+                 from /usr/include/opencv2/contrib/contrib.hpp:979,
+                 from /usr/include/opencv2/opencv.hpp:59,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/rgbd_capture.h:65,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:46:
+/usr/include/c++/4.8/bits/valarray_after.h:411:5: note: template<class _Dom> std::_Expr<std::_BinClos<std::__shift_right, std::_ValArray, std::_Expr, typename _Dom::value_type, _Dom>, typename std::__fun<std::__shift_right, typename _Dom1::value_type>::result_type> std::operator>>(const std::valarray<typename _Dom::value_type>&, const std::_Expr<_Dom1, typename _Dom1::value_type>&)
+     _DEFINE_EXPR_BINARY_OPERATOR(>>, __shift_right)
+     ^
+/usr/include/c++/4.8/bits/valarray_after.h:411:5: note:   template argument deduction/substitution failed:
+/home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:218:14: note:   'const YAML::Node' is not derived from 'const std::valarray<typename _Dom::value_type>'
+       key >> out;
+              ^
+In file included from /usr/include/c++/4.8/valarray:587:0,
+                 from /usr/include/opencv2/contrib/retina.hpp:76,
+                 from /usr/include/opencv2/contrib/contrib.hpp:979,
+                 from /usr/include/opencv2/opencv.hpp:59,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/rgbd_capture.h:65,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:46:
+/usr/include/c++/4.8/bits/valarray_after.h:411:5: note: template<class _Dom> std::_Expr<std::_BinClos<std::__shift_right, std::_Expr, std::_ValArray, _Dom, typename _Dom::value_type>, typename std::__fun<std::__shift_right, typename _Dom1::value_type>::result_type> std::operator>>(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const std::valarray<typename _Dom::value_type>&)
+     _DEFINE_EXPR_BINARY_OPERATOR(>>, __shift_right)
+     ^
+/usr/include/c++/4.8/bits/valarray_after.h:411:5: note:   template argument deduction/substitution failed:
+/home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:218:14: note:   'const YAML::Node' is not derived from 'const std::_Expr<_Dom1, typename _Dom1::value_type>'
+       key >> out;
+              ^
+In file included from /usr/include/c++/4.8/valarray:587:0,
+                 from /usr/include/opencv2/contrib/retina.hpp:76,
+                 from /usr/include/opencv2/contrib/contrib.hpp:979,
+                 from /usr/include/opencv2/opencv.hpp:59,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/rgbd_capture.h:65,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:46:
+/usr/include/c++/4.8/bits/valarray_after.h:411:5: note: template<class _Dom> std::_Expr<std::_BinClos<std::__shift_right, std::_Constant, std::_Expr, typename _Dom::value_type, _Dom>, typename std::__fun<std::__shift_right, typename _Dom1::value_type>::result_type> std::operator>>(const typename _Dom::value_type&, const std::_Expr<_Dom1, typename _Dom1::value_type>&)
+     _DEFINE_EXPR_BINARY_OPERATOR(>>, __shift_right)
+     ^
+/usr/include/c++/4.8/bits/valarray_after.h:411:5: note:   template argument deduction/substitution failed:
+/home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:218:14: note:   'std::string {aka std::basic_string<char>}' is not derived from 'const std::_Expr<_Dom1, typename _Dom1::value_type>'
+       key >> out;
+              ^
+In file included from /usr/include/c++/4.8/valarray:587:0,
+                 from /usr/include/opencv2/contrib/retina.hpp:76,
+                 from /usr/include/opencv2/contrib/contrib.hpp:979,
+                 from /usr/include/opencv2/opencv.hpp:59,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/rgbd_capture.h:65,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:46:
+/usr/include/c++/4.8/bits/valarray_after.h:411:5: note: template<class _Dom> std::_Expr<std::_BinClos<std::__shift_right, std::_Expr, std::_Constant, _Dom, typename _Dom::value_type>, typename std::__fun<std::__shift_right, typename _Dom1::value_type>::result_type> std::operator>>(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const typename _Dom::value_type&)
+     _DEFINE_EXPR_BINARY_OPERATOR(>>, __shift_right)
+     ^
+/usr/include/c++/4.8/bits/valarray_after.h:411:5: note:   template argument deduction/substitution failed:
+/home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:218:14: note:   'const YAML::Node' is not derived from 'const std::_Expr<_Dom1, typename _Dom1::value_type>'
+       key >> out;
+              ^
+In file included from /usr/include/c++/4.8/valarray:587:0,
+                 from /usr/include/opencv2/contrib/retina.hpp:76,
+                 from /usr/include/opencv2/contrib/contrib.hpp:979,
+                 from /usr/include/opencv2/opencv.hpp:59,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/rgbd_capture.h:65,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:46:
+/usr/include/c++/4.8/bits/valarray_after.h:411:5: note: template<class _Dom1, class _Dom2> std::_Expr<std::_BinClos<std::__shift_right, std::_Expr, std::_Expr, _Dom1, _Dom2>, typename std::__fun<std::__shift_right, typename _Dom1::value_type>::result_type> std::operator>>(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const std::_Expr<_Dom2, typename _Dom2::value_type>&)
+     _DEFINE_EXPR_BINARY_OPERATOR(>>, __shift_right)
+     ^
+/usr/include/c++/4.8/bits/valarray_after.h:411:5: note:   template argument deduction/substitution failed:
+/home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:218:14: note:   'const YAML::Node' is not derived from 'const std::_Expr<_Dom1, typename _Dom1::value_type>'
+       key >> out;
+              ^
+In file included from /usr/include/boost/detail/container_fwd.hpp:96:0,
+                 from /usr/include/boost/functional/hash/extensions.hpp:17,
+                 from /usr/include/boost/functional/hash/hash.hpp:529,
+                 from /usr/include/boost/functional/hash.hpp:6,
+                 from /usr/include/boost/unordered/unordered_map.hpp:20,
+                 from /usr/include/boost/unordered_map.hpp:16,
+                 from /opt/ros/indigo/include/tf/tf.h:44,
+                 from /opt/ros/indigo/include/tf/transform_listener.h:38,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/rgbd_capture.h:63,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:46:
+/usr/include/c++/4.8/bitset:1453:5: note: template<class _CharT, class _Traits, long unsigned int _Nb> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::bitset<_Nb>&)
+     operator>>(std::basic_istream<_CharT, _Traits>& __is, bitset<_Nb>& __x)
+     ^
+/usr/include/c++/4.8/bitset:1453:5: note:   template argument deduction/substitution failed:
+/home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:218:14: note:   types 'std::basic_istream<_CharT, _Traits>' and 'const YAML::Node' have incompatible cv-qualifiers
+       key >> out;
+              ^
+In file included from /usr/include/boost/config/no_tr1/complex.hpp:21:0,
+                 from /usr/include/boost/math/policies/error_handling.hpp:15,
+                 from /usr/include/boost/math/special_functions/round.hpp:14,
+                 from /opt/ros/indigo/include/ros/time.h:58,
+                 from /opt/ros/indigo/include/ros/ros.h:38,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/rgbd_capture.h:54,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:46:
+/usr/include/c++/4.8/complex:491:5: note: template<class _Tp, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::complex<_Tp>&)
+     operator>>(basic_istream<_CharT, _Traits>& __is, complex<_Tp>& __x)
+     ^
+/usr/include/c++/4.8/complex:491:5: note:   template argument deduction/substitution failed:
+/home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:218:14: note:   types 'std::basic_istream<_CharT, _Traits>' and 'const YAML::Node' have incompatible cv-qualifiers
+       key >> out;
+              ^
+In file included from /usr/include/boost/math/policies/error_handling.hpp:12:0,
+                 from /usr/include/boost/math/special_functions/round.hpp:14,
+                 from /opt/ros/indigo/include/ros/time.h:58,
+                 from /opt/ros/indigo/include/ros/ros.h:38,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/rgbd_capture.h:54,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:46:
+/usr/include/c++/4.8/iomanip:227:5: note: template<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::_Setw)
+     operator>>(basic_istream<_CharT, _Traits>& __is, _Setw __f)
+     ^
+/usr/include/c++/4.8/iomanip:227:5: note:   template argument deduction/substitution failed:
+/home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:218:14: note:   types 'std::basic_istream<_CharT, _Traits>' and 'const YAML::Node' have incompatible cv-qualifiers
+       key >> out;
+              ^
+In file included from /usr/include/boost/math/policies/error_handling.hpp:12:0,
+                 from /usr/include/boost/math/special_functions/round.hpp:14,
+                 from /opt/ros/indigo/include/ros/time.h:58,
+                 from /opt/ros/indigo/include/ros/ros.h:38,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/rgbd_capture.h:54,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:46:
+/usr/include/c++/4.8/iomanip:197:5: note: template<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::_Setprecision)
+     operator>>(basic_istream<_CharT, _Traits>& __is, _Setprecision __f)
+     ^
+/usr/include/c++/4.8/iomanip:197:5: note:   template argument deduction/substitution failed:
+/home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:218:14: note:   types 'std::basic_istream<_CharT, _Traits>' and 'const YAML::Node' have incompatible cv-qualifiers
+       key >> out;
+              ^
+In file included from /usr/include/boost/math/policies/error_handling.hpp:12:0,
+                 from /usr/include/boost/math/special_functions/round.hpp:14,
+                 from /opt/ros/indigo/include/ros/time.h:58,
+                 from /opt/ros/indigo/include/ros/ros.h:38,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/rgbd_capture.h:54,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:46:
+/usr/include/c++/4.8/iomanip:167:5: note: template<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::_Setfill<_CharT>)
+     operator>>(basic_istream<_CharT, _Traits>& __is, _Setfill<_CharT> __f)
+     ^
+/usr/include/c++/4.8/iomanip:167:5: note:   template argument deduction/substitution failed:
+/home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:218:14: note:   types 'std::basic_istream<_CharT, _Traits>' and 'const YAML::Node' have incompatible cv-qualifiers
+       key >> out;
+              ^
+In file included from /usr/include/boost/math/policies/error_handling.hpp:12:0,
+                 from /usr/include/boost/math/special_functions/round.hpp:14,
+                 from /opt/ros/indigo/include/ros/time.h:58,
+                 from /opt/ros/indigo/include/ros/ros.h:38,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/rgbd_capture.h:54,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:46:
+/usr/include/c++/4.8/iomanip:129:5: note: template<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::_Setbase)
+     operator>>(basic_istream<_CharT, _Traits>& __is, _Setbase __f)
+     ^
+/usr/include/c++/4.8/iomanip:129:5: note:   template argument deduction/substitution failed:
+/home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:218:14: note:   types 'std::basic_istream<_CharT, _Traits>' and 'const YAML::Node' have incompatible cv-qualifiers
+       key >> out;
+              ^
+In file included from /usr/include/boost/math/policies/error_handling.hpp:12:0,
+                 from /usr/include/boost/math/special_functions/round.hpp:14,
+                 from /opt/ros/indigo/include/ros/time.h:58,
+                 from /opt/ros/indigo/include/ros/ros.h:38,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/rgbd_capture.h:54,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:46:
+/usr/include/c++/4.8/iomanip:98:5: note: template<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::_Setiosflags)
+     operator>>(basic_istream<_CharT, _Traits>& __is, _Setiosflags __f)
+     ^
+/usr/include/c++/4.8/iomanip:98:5: note:   template argument deduction/substitution failed:
+/home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:218:14: note:   types 'std::basic_istream<_CharT, _Traits>' and 'const YAML::Node' have incompatible cv-qualifiers
+       key >> out;
+              ^
+In file included from /usr/include/boost/math/policies/error_handling.hpp:12:0,
+                 from /usr/include/boost/math/special_functions/round.hpp:14,
+                 from /opt/ros/indigo/include/ros/time.h:58,
+                 from /opt/ros/indigo/include/ros/ros.h:38,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/rgbd_capture.h:54,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:46:
+/usr/include/c++/4.8/iomanip:68:5: note: template<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::_Resetiosflags)
+     operator>>(basic_istream<_CharT, _Traits>& __is, _Resetiosflags __f)
+     ^
+/usr/include/c++/4.8/iomanip:68:5: note:   template argument deduction/substitution failed:
+/home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:218:14: note:   types 'std::basic_istream<_CharT, _Traits>' and 'const YAML::Node' have incompatible cv-qualifiers
+       key >> out;
+              ^
+In file included from /usr/include/c++/4.8/iterator:65:0,
+                 from /usr/include/boost/iterator.hpp:17,
+                 from /usr/include/boost/operators.hpp:86,
+                 from /usr/include/boost/system/error_code.hpp:17,
+                 from /usr/include/boost/system/system_error.hpp:14,
+                 from /usr/include/boost/thread/exceptions.hpp:22,
+                 from /usr/include/boost/thread/pthread/mutex.hpp:12,
+                 from /usr/include/boost/thread/mutex.hpp:16,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/rgbd_capture.h:51,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:46:
+/usr/include/c++/4.8/istream:779:5: note: template<class _Traits> std::basic_istream<char, _Traits>& std::operator>>(std::basic_istream<char, _Traits>&, signed char*)
+     operator>>(basic_istream<char, _Traits>& __in, signed char* __s)
+     ^
+/usr/include/c++/4.8/istream:779:5: note:   template argument deduction/substitution failed:
+/home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:218:14: note:   types 'std::basic_istream<char, _Traits>' and 'const YAML::Node' have incompatible cv-qualifiers
+       key >> out;
+              ^
+In file included from /usr/include/c++/4.8/iterator:65:0,
+                 from /usr/include/boost/iterator.hpp:17,
+                 from /usr/include/boost/operators.hpp:86,
+                 from /usr/include/boost/system/error_code.hpp:17,
+                 from /usr/include/boost/system/system_error.hpp:14,
+                 from /usr/include/boost/thread/exceptions.hpp:22,
+                 from /usr/include/boost/thread/pthread/mutex.hpp:12,
+                 from /usr/include/boost/thread/mutex.hpp:16,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/rgbd_capture.h:51,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:46:
+/usr/include/c++/4.8/istream:774:5: note: template<class _Traits> std::basic_istream<char, _Traits>& std::operator>>(std::basic_istream<char, _Traits>&, unsigned char*)
+     operator>>(basic_istream<char, _Traits>& __in, unsigned char* __s)
+     ^
+/usr/include/c++/4.8/istream:774:5: note:   template argument deduction/substitution failed:
+/home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:218:14: note:   types 'std::basic_istream<char, _Traits>' and 'const YAML::Node' have incompatible cv-qualifiers
+       key >> out;
+              ^
+In file included from /usr/include/c++/4.8/iterator:65:0,
+                 from /usr/include/boost/iterator.hpp:17,
+                 from /usr/include/boost/operators.hpp:86,
+                 from /usr/include/boost/system/error_code.hpp:17,
+                 from /usr/include/boost/system/system_error.hpp:14,
+                 from /usr/include/boost/thread/exceptions.hpp:22,
+                 from /usr/include/boost/thread/pthread/mutex.hpp:12,
+                 from /usr/include/boost/thread/mutex.hpp:16,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/rgbd_capture.h:51,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:46:
+/usr/include/c++/4.8/istream:732:5: note: template<class _Traits> std::basic_istream<char, _Traits>& std::operator>>(std::basic_istream<char, _Traits>&, signed char&)
+     operator>>(basic_istream<char, _Traits>& __in, signed char& __c)
+     ^
+/usr/include/c++/4.8/istream:732:5: note:   template argument deduction/substitution failed:
+/home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:218:14: note:   types 'std::basic_istream<char, _Traits>' and 'const YAML::Node' have incompatible cv-qualifiers
+       key >> out;
+              ^
+In file included from /usr/include/c++/4.8/iterator:65:0,
+                 from /usr/include/boost/iterator.hpp:17,
+                 from /usr/include/boost/operators.hpp:86,
+                 from /usr/include/boost/system/error_code.hpp:17,
+                 from /usr/include/boost/system/system_error.hpp:14,
+                 from /usr/include/boost/thread/exceptions.hpp:22,
+                 from /usr/include/boost/thread/pthread/mutex.hpp:12,
+                 from /usr/include/boost/thread/mutex.hpp:16,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/rgbd_capture.h:51,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:46:
+/usr/include/c++/4.8/istream:727:5: note: template<class _Traits> std::basic_istream<char, _Traits>& std::operator>>(std::basic_istream<char, _Traits>&, unsigned char&)
+     operator>>(basic_istream<char, _Traits>& __in, unsigned char& __c)
+     ^
+/usr/include/c++/4.8/istream:727:5: note:   template argument deduction/substitution failed:
+/home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:218:14: note:   types 'std::basic_istream<char, _Traits>' and 'const YAML::Node' have incompatible cv-qualifiers
+       key >> out;
+              ^
+In file included from /usr/include/c++/4.8/istream:882:0,
+                 from /usr/include/c++/4.8/iterator:65,
+                 from /usr/include/boost/iterator.hpp:17,
+                 from /usr/include/boost/operators.hpp:86,
+                 from /usr/include/boost/system/error_code.hpp:17,
+                 from /usr/include/boost/system/system_error.hpp:14,
+                 from /usr/include/boost/thread/exceptions.hpp:22,
+                 from /usr/include/boost/thread/pthread/mutex.hpp:12,
+                 from /usr/include/boost/thread/mutex.hpp:16,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/rgbd_capture.h:51,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:46:
+/usr/include/c++/4.8/bits/istream.tcc:923:5: note: template<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, _CharT&)
+     operator>>(basic_istream<_CharT, _Traits>& __in, _CharT& __c)
+     ^
+/usr/include/c++/4.8/bits/istream.tcc:923:5: note:   template argument deduction/substitution failed:
+/home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:218:14: note:   types 'std::basic_istream<_CharT, _Traits>' and 'const YAML::Node' have incompatible cv-qualifiers
+       key >> out;
+              ^
+In file included from /usr/include/c++/4.8/istream:882:0,
+                 from /usr/include/c++/4.8/iterator:65,
+                 from /usr/include/boost/iterator.hpp:17,
+                 from /usr/include/boost/operators.hpp:86,
+                 from /usr/include/boost/system/error_code.hpp:17,
+                 from /usr/include/boost/system/system_error.hpp:14,
+                 from /usr/include/boost/thread/exceptions.hpp:22,
+                 from /usr/include/boost/thread/pthread/mutex.hpp:12,
+                 from /usr/include/boost/thread/mutex.hpp:16,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/rgbd_capture.h:51,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:46:
+/usr/include/c++/4.8/bits/istream.tcc:955:5: note: template<class _CharT2, class _Traits2> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, _CharT2*)
+     operator>>(basic_istream<_CharT, _Traits>& __in, _CharT* __s)
+     ^
+/usr/include/c++/4.8/bits/istream.tcc:955:5: note:   template argument deduction/substitution failed:
+/home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:218:14: note:   types 'std::basic_istream<_CharT, _Traits>' and 'const YAML::Node' have incompatible cv-qualifiers
+       key >> out;
+              ^
+In file included from /usr/include/c++/4.8/string:53:0,
+                 from /usr/include/boost/format.hpp:18,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/include/rgbd_capture/rgbd_capture.h:50,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:46:
+/usr/include/c++/4.8/bits/basic_string.tcc:996:5: note: template<class _CharT, class _Traits, class _Alloc> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::basic_string<_CharT, _Traits, _Alloc>&)
+     operator>>(basic_istream<_CharT, _Traits>& __in,
+     ^
+/usr/include/c++/4.8/bits/basic_string.tcc:996:5: note:   template argument deduction/substitution failed:
+/home/amd_clmc/team/workspace/src/catkin/ros/rgbd_capture/src/rgbd_capture.cpp:218:14: note:   types 'std::basic_istream<_CharT, _Traits>' and 'const YAML::Node' have incompatible cv-qualifiers
+       key >> out;
+              ^
+make[2]: *** [catkin/ros/rgbd_capture/CMakeFiles/rgbd_capture.dir/src/rgbd_capture.cpp.o] Error 1
+make[1]: *** [catkin/ros/rgbd_capture/CMakeFiles/rgbd_capture.dir/all] Error 2
+make: *** [all] Error 2
+Base path: /home/amd_clmc/team/workspace
+Source space: /home/amd_clmc/team/workspace/src
+Build space: /home/amd_clmc/team/workspace/build
+Devel space: /home/amd_clmc/team/workspace/devel
+Install space: /home/amd_clmc/team/workspace/install
+####
+#### Running command: "cmake /home/amd_clmc/team/workspace/src -DCATKIN_DEVEL_PREFIX=/home/amd_clmc/team/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/amd_clmc/team/workspace/install -G Unix Makefiles" in "/home/amd_clmc/team/workspace/build"
+####
+####
+#### Running command: "make -j install" in "/home/amd_clmc/team/workspace/build"
+####
+Invoking "make -j install" failed
