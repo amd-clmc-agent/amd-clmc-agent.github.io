@@ -1,0 +1,58 @@
+demo run with success.
+
+log:
+
+------ setting parameters -----
+
+------ CPP DEMO START ------
+
+This demo shows how to run a demo that requires complex setup, in this case turning on ROS
+and putting data in ros parameter server.
+The executable related to this file is not started directly, but via a related executable sh script 'ci_example_ros_demo' 
+which does all the setup work
+For equivalent unit-tests implementation, see /tests/ci_example_rostest.cpp
+
+computed force: 0.01
+
+------ DEMO END ------
+
+
+------ PYTHON DEMO START ------
+
+Traceback (most recent call last):
+  File "./ci_example_python_ros.py", line 5, in <module>
+    from ci_example.pid import get_ros_params_pid
+ImportError: No module named ci_example.pid
+
+------ DEMO END ------
+
+... logging to /root/.ros/log/70b82186-ed00-11e5-9d67-0242ac110002/roslaunch-amd_clmc_12_04_ci-22631.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://amd_clmc_12_04_ci:52785/[0m
+ros_comm version 1.9.55
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro
+ * /rosversion
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [22645][0m
+[1mROS_MASTER_URI=http://amd_clmc_12_04_ci:11311/[0m
+]2;roscore http://amd_clmc_12_04_ci:11311/
+[1msetting /run_id to 70b82186-ed00-11e5-9d67-0242ac110002[0m
+[1mprocess[rosout-1]: started with pid [22658][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
