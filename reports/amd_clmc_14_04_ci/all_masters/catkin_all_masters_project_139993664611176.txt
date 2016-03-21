@@ -1,0 +1,392 @@
+COMMAND:catkin_make -j install
+------------------------------
+-- The C compiler identification is GNU 4.8.4
+-- The CXX compiler identification is GNU 4.8.4
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Using CATKIN_DEVEL_PREFIX: /home/amd_clmc/team/workspace/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/indigo
+-- This workspace overlays: /opt/ros/indigo
+-- Found PythonInterp: /usr/bin/python (found version "2.7.6") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+-- Python version: 2.7
+-- Using Debian Python package layout
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/amd_clmc/team/workspace/build/test_results
+-- Looking for include file pthread.h
+-- Looking for include file pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found gtest sources under '/usr/src/gtest': gtests will be built
+-- catkin 0.5.90
+-- BUILD_SHARED_LIBS is on
+WARNING: Package "ompl" does not follow the version conventions. It should not contain leading zeros (unless the number is 0).
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- ~~  traversing 6 packages in topological order:
+-- ~~  - fl
+-- ~~  - osr
+-- ~~  - dbot
+-- ~~  - opi
+-- ~~  - dbot_ros
+-- ~~  - robot_state_pub
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- +++ processing catkin package: 'fl'
+-- ==> add_subdirectory(catkin/core-perception/fl)
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.26") 
+-- checking for module 'eigen3'
+--   found eigen3, version 3.2.0
+-- Found Eigen: /usr/include/eigen3  
+-- Eigen found (include: /usr/include/eigen3)
+-- Boost version: 1.54.0
+-- Found Doxygen: /usr/bin/doxygen (found suitable version "1.8.6", minimum required is "1.8.4") 
+-- +++ processing catkin package: 'osr'
+-- ==> add_subdirectory(catkin/utils/osr)
+-- Eigen found (include: /usr/include/eigen3)
+-- Using catkin
+-- +++ processing catkin package: 'dbot'
+-- ==> add_subdirectory(catkin/core-perception/dbot)
+-- Eigen found (include: /usr/include/eigen3)
+-- Boost version: 1.54.0
+-- Found the following Boost libraries:
+--   system
+--   filesystem
+-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+-- Looking for gethostbyname
+-- Looking for gethostbyname - found
+-- Looking for connect
+-- Looking for connect - found
+-- Looking for remove
+-- Looking for remove - found
+-- Looking for shmat
+-- Looking for shmat - found
+-- Looking for IceConnectionNumber in ICE
+-- Looking for IceConnectionNumber in ICE - found
+-- Found X11: /usr/lib/x86_64-linux-gnu/libX11.so
+-- Using catkin
+-- +++ processing catkin package: 'opi'
+-- ==> add_subdirectory(catkin/core-perception/opi)
+-- Eigen found (include: /usr/include/eigen3)
+-- Using these message generators: gencpp;genlisp;genpy
+-- +++ processing catkin package: 'dbot_ros'
+-- ==> add_subdirectory(catkin/ros/dbot_ros)
+-- Using these message generators: gencpp;genlisp;genpy
+-- dbot_ros: 1 messages, 0 services
+-- Boost version: 1.54.0
+-- Eigen found (include: /usr/include/eigen3)
+-- Found eigen: /usr/include/eigen3  
+-- Boost version: 1.54.0
+-- Found the following Boost libraries:
+--   system
+--   filesystem
+--   thread
+--   date_time
+--   iostreams
+--   serialization
+-- checking for module 'openni-dev'
+--   package 'openni-dev' not found
+-- Found openni: /usr/lib/libOpenNI.so  
+-- Found libusb-1.0: /usr/include  
+-- checking for module 'flann'
+--   found flann, version 1.8.4
+-- Found Flann: /usr/lib/x86_64-linux-gnu/libflann_cpp_s.a  
+-- checking for module 'openni-dev'
+--   package 'openni-dev' not found
+-- Found qhull: /usr/lib/x86_64-linux-gnu/libqhull.so  
+-- checking for module 'openni-dev'
+--   package 'openni-dev' not found
+-- looking for PCL_COMMON
+-- Found PCL_COMMON: /usr/lib/libpcl_common.so  
+-- looking for PCL_OCTREE
+-- Found PCL_OCTREE: /usr/lib/libpcl_octree.so  
+-- looking for PCL_IO
+-- Found PCL_IO: /usr/lib/libpcl_io.so  
+-- looking for PCL_KDTREE
+-- Found PCL_KDTREE: /usr/lib/libpcl_kdtree.so  
+-- looking for PCL_SEARCH
+-- Found PCL_SEARCH: /usr/lib/libpcl_search.so  
+-- looking for PCL_SAMPLE_CONSENSUS
+-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/libpcl_sample_consensus.so  
+-- looking for PCL_FILTERS
+-- Found PCL_FILTERS: /usr/lib/libpcl_filters.so  
+-- looking for PCL_FEATURES
+-- Found PCL_FEATURES: /usr/lib/libpcl_features.so  
+-- looking for PCL_KEYPOINTS
+-- Found PCL_KEYPOINTS: /usr/lib/libpcl_keypoints.so  
+-- looking for PCL_GEOMETRY
+-- Found PCL_GEOMETRY: /usr/include/pcl-1.7  
+-- looking for PCL_SEGMENTATION
+-- Found PCL_SEGMENTATION: /usr/lib/libpcl_segmentation.so  
+-- looking for PCL_VISUALIZATION
+-- Found PCL_VISUALIZATION: /usr/lib/libpcl_visualization.so  
+-- looking for PCL_OUTOFCORE
+-- Found PCL_OUTOFCORE: /usr/lib/libpcl_outofcore.so  
+-- looking for PCL_REGISTRATION
+-- Found PCL_REGISTRATION: /usr/lib/libpcl_registration.so  
+-- looking for PCL_RECOGNITION
+-- Found PCL_RECOGNITION: /usr/lib/libpcl_recognition.so  
+-- looking for PCL_SURFACE
+-- Found PCL_SURFACE: /usr/lib/libpcl_surface.so  
+-- looking for PCL_PEOPLE
+-- Found PCL_PEOPLE: /usr/lib/libpcl_people.so  
+-- looking for PCL_TRACKING
+-- Found PCL_TRACKING: /usr/lib/libpcl_tracking.so  
+-- looking for PCL_APPS
+-- Found PCL_APPS: /usr/lib/libpcl_apps.so  
+-- Found PCL: /usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_thread.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_serialization.so;/usr/lib/x86_64-linux-gnu/libpthread.so;optimized;/usr/lib/libpcl_common.so;debug;/usr/lib/libpcl_common.so;optimized;/usr/lib/libpcl_octree.so;debug;/usr/lib/libpcl_octree.so;/usr/lib/libOpenNI.so;vtkCommon;vtkRendering;vtkHybrid;vtkCharts;optimized;/usr/lib/libpcl_io.so;debug;/usr/lib/libpcl_io.so;optimized;/usr/lib/x86_64-linux-gnu/libflann_cpp_s.a;debug;/usr/lib/x86_64-linux-gnu/libflann_cpp_s.a;optimized;/usr/lib/libpcl_kdtree.so;debug;/usr/lib/libpcl_kdtree.so;optimized;/usr/lib/libpcl_search.so;debug;/usr/lib/libpcl_search.so;optimized;/usr/lib/libpcl_sample_consensus.so;debug;/usr/lib/libpcl_sample_consensus.so;optimized;/usr/lib/libpcl_filters.so;debug;/usr/lib/libpcl_filters.so;optimized;/usr/lib/libpcl_features.so;debug;/usr/lib/libpcl_features.so;optimized;/usr/lib/libpcl_keypoints.so;debug;/usr/lib/libpcl_keypoints.so;optimized;/usr/lib/libpcl_segmentation.so;debug;/usr/lib/libpcl_segmentation.so;optimized;/usr/lib/libpcl_visualization.so;debug;/usr/lib/libpcl_visualization.so;optimized;/usr/lib/libpcl_outofcore.so;debug;/usr/lib/libpcl_outofcore.so;optimized;/usr/lib/libpcl_registration.so;debug;/usr/lib/libpcl_registration.so;optimized;/usr/lib/libpcl_recognition.so;debug;/usr/lib/libpcl_recognition.so;optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so;optimized;/usr/lib/libpcl_surface.so;debug;/usr/lib/libpcl_surface.so;optimized;/usr/lib/libpcl_people.so;debug;/usr/lib/libpcl_people.so;optimized;/usr/lib/libpcl_tracking.so;debug;/usr/lib/libpcl_tracking.so;optimized;/usr/lib/libpcl_apps.so;debug;/usr/lib/libpcl_apps.so;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_thread.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_serialization.so;/usr/lib/x86_64-linux-gnu/libpthread.so;optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so;/usr/lib/libOpenNI.so;optimized;/usr/lib/x86_64-linux-gnu/libflann_cpp_s.a;debug;/usr/lib/x86_64-linux-gnu/libflann_cpp_s.a;vtkCommon;vtkRendering;vtkHybrid;vtkCharts (Required is at least version "1.3") 
+-- +++ processing catkin package: 'robot_state_pub'
+-- ==> add_subdirectory(catkin/ros/robot_state_pub)
+-- Eigen found (include: /usr/include/eigen3)
+-- Using these message generators: gencpp;genlisp;genpy
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/amd_clmc/team/workspace/build
+Scanning dependencies of target fl
+Scanning dependencies of target osr
+Scanning dependencies of target std_msgs_generate_messages_cpp
+Scanning dependencies of target gtest
+Scanning dependencies of target std_msgs_generate_messages_lisp
+Scanning dependencies of target std_msgs_generate_messages_py
+Scanning dependencies of target geometry_msgs_generate_messages_py
+Scanning dependencies of target geometry_msgs_generate_messages_cpp
+Scanning dependencies of target _dbot_ros_generate_messages_check_deps_ObjectState
+Scanning dependencies of target geometry_msgs_generate_messages_lisp
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libfl.so
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libosr.so
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] [  0%] Built target std_msgs_generate_messages_lisp
+[  0%] [  0%] [  0%] [  0%] Built target geometry_msgs_generate_messages_lisp
+Built target geometry_msgs_generate_messages_cpp
+Built target std_msgs_generate_messages_py
+Built target geometry_msgs_generate_messages_py
+Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[  0%] Built target fl
+[  0%] Built target osr
+Scanning dependencies of target robot_state_pub_solver
+[  0%] Built target _dbot_ros_generate_messages_check_deps_ObjectState
+Scanning dependencies of target opi
+Scanning dependencies of target dbot_ros_generate_messages_py
+Scanning dependencies of target dbot_ros_generate_messages_lisp
+Scanning dependencies of target dbot_ros_generate_messages_cpp
+[  3%] [  6%] [ 10%] [ 13%] [ 13%] Building CXX object catkin/ros/robot_state_pub/CMakeFiles/robot_state_pub_solver.dir/src/robot_state_publisher.cpp.o
+[ 13%] Generating Lisp code from dbot_ros/ObjectState.msg
+Building CXX object catkin/ros/robot_state_pub/CMakeFiles/robot_state_pub_solver.dir/src/treefksolverposfull_recursive.cpp.o
+Generating Python from MSG dbot_ros/ObjectState
+Generating C++ code from dbot_ros/ObjectState.msg
+Building CXX object catkin/core-perception/opi/CMakeFiles/opi.dir/src/interactive_marker_initializer.cpp.o
+[ 13%] Built target dbot_ros_generate_messages_lisp
+[ 13%] Generating Python msg __init__.py for dbot_ros
+Scanning dependencies of target dbot
+[ 17%] [ 24%] [ 24%] [ 27%] [ 31%] [ 31%] [ 31%] [ 37%] [ 37%] [ 37%] [ 41%] [ 44%] [ 44%] [ 44%] Built target dbot_ros_generate_messages_py
+Built target dbot_ros_generate_messages_cpp
+Building CXX object catkin/core-perception/dbot/CMakeFiles/dbot.dir/src/dbot/util/camera_data.cpp.o
+[ 48%] Building CXX object catkin/core-perception/dbot/CMakeFiles/dbot.dir/src/dbot/util/object_resource_identifier.cpp.o
+[ 51%] [ 55%] [ 55%] [ 58%] Building CXX object catkin/core-perception/dbot/CMakeFiles/dbot.dir/src/dbot/util/object_model.cpp.o
+Building CXX object catkin/core-perception/dbot/CMakeFiles/dbot.dir/src/dbot/util/simple_camera_data_provider.cpp.o
+Building CXX object catkin/core-perception/dbot/CMakeFiles/dbot.dir/src/dbot/util/virtual_camera_data_provider.cpp.o
+Building CXX object catkin/core-perception/dbot/CMakeFiles/dbot.dir/src/dbot/util/object_file_reader.cpp.o
+Building CXX object catkin/core-perception/dbot/CMakeFiles/dbot.dir/src/dbot/util/simple_wavefront_object_loader.cpp.o
+Building CXX object catkin/core-perception/dbot/CMakeFiles/dbot.dir/src/dbot/util/default_shader_provider.cpp.o
+Building CXX object catkin/core-perception/dbot/CMakeFiles/dbot.dir/src/dbot/util/file_shader_provider.cpp.o
+Building CXX object catkin/core-perception/dbot/CMakeFiles/dbot.dir/src/dbot/util/rigid_body_renderer.cpp.o
+Building CXX object catkin/core-perception/dbot/CMakeFiles/dbot.dir/src/dbot/tracker/object_tracker.cpp.o
+Building CXX object catkin/core-perception/dbot/CMakeFiles/dbot.dir/src/dbot/util/simple_shader_provider.cpp.o
+Building CXX object catkin/core-perception/dbot/CMakeFiles/dbot.dir/src/dbot/tracker/rms_gaussian_filter_object_tracker.cpp.o
+Building CXX object catkin/core-perception/dbot/CMakeFiles/dbot.dir/src/dbot/tracker/rbc_particle_filter_object_tracker.cpp.o
+Scanning dependencies of target dbot_ros_generate_messages
+Building CXX object catkin/core-perception/dbot/CMakeFiles/dbot.dir/src/dbot/tracker/builder/rbc_particle_filter_tracker_builder.cpp.o
+Building CXX object catkin/core-perception/dbot/CMakeFiles/dbot.dir/src/dbot/tracker/builder/rms_gaussian_filter_tracker_builder.cpp.o
+Building CXX object catkin/core-perception/dbot/CMakeFiles/dbot.dir/src/dbot/tracker/builder/rb_observation_model_builder.cpp.o
+[ 58%] Built target dbot_ros_generate_messages
+Linking CXX shared library libgtest.so
+[ 58%] Built target gtest
+Scanning dependencies of target gtest_main
+[ 62%] Building CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+Linking CXX shared library libgtest_main.so
+[ 62%] Built target gtest_main
+Scanning dependencies of target composed_vector_test
+Scanning dependencies of target pose_velocity_vector_test
+Scanning dependencies of target euler_vector_test
+[ 62%] Building CXX object catkin/utils/osr/test/CMakeFiles/composed_vector_test.dir/composed_vector_test.cpp.o
+Scanning dependencies of target pose_vector_test
+[ 65%] [ 68%] Building CXX object catkin/utils/osr/test/CMakeFiles/euler_vector_test.dir/euler_vector_test.cpp.o
+Building CXX object catkin/utils/osr/test/CMakeFiles/pose_velocity_vector_test.dir/pose_velocity_vector_test.cpp.o
+[ 68%] Building CXX object catkin/utils/osr/test/CMakeFiles/pose_vector_test.dir/pose_vector_test.cpp.o
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/osr/euler_vector_test
+[ 68%] Built target euler_vector_test
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/librobot_state_pub_solver.so
+[ 68%] Built target robot_state_pub_solver
+Scanning dependencies of target robot_state_pub
+Scanning dependencies of target state_publisher
+[ 68%] [ 68%] Building CXX object catkin/ros/robot_state_pub/CMakeFiles/robot_state_pub.dir/src/joint_state_listener.cpp.o
+Building CXX object catkin/ros/robot_state_pub/CMakeFiles/state_publisher.dir/src/joint_state_listener.cpp.o
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/osr/pose_vector_test
+[ 68%] Built target pose_vector_test
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/osr/pose_velocity_vector_test
+[ 68%] Built target pose_velocity_vector_test
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/osr/composed_vector_test
+[ 68%] Built target composed_vector_test
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libopi.so
+[ 68%] Built target opi
+Scanning dependencies of target interactive_markers_initializer_node
+[ 72%] Building CXX object catkin/core-perception/opi/CMakeFiles/interactive_markers_initializer_node.dir/src/interactive_markers_initializer_node_main.cpp.o
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/robot_state_pub/state_publisher
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/robot_state_pub/robot_state_pub
+[ 72%] Built target state_publisher
+[ 72%] Built target robot_state_pub
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/opi/interactive_markers_initializer_node
+[ 72%] Built target interactive_markers_initializer_node
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libdbot.so
+[ 72%] Built target dbot
+Scanning dependencies of target dbot_ros
+[ 79%] [ 79%] [ 79%] [ 82%] [ 82%] Building CXX object catkin/ros/dbot_ros/CMakeFiles/dbot_ros.dir/src/dbot_ros/utils/data_set_camera_data_provider.cpp.o
+Building CXX object catkin/ros/dbot_ros/CMakeFiles/dbot_ros.dir/src/dbot_ros/object_tracker_node.cpp.o
+Building CXX object catkin/ros/dbot_ros/CMakeFiles/dbot_ros.dir/src/dbot_ros/object_tracker_publisher.cpp.o
+[ 86%] Building CXX object catkin/ros/dbot_ros/CMakeFiles/dbot_ros.dir/src/dbot_ros/utils/ros_camera_data_provider.cpp.o
+[ 89%] [ 93%] Building CXX object catkin/ros/dbot_ros/CMakeFiles/dbot_ros.dir/src/dbot_ros/utils/cloud_visualizer.cpp.o
+Building CXX object catkin/ros/dbot_ros/CMakeFiles/dbot_ros.dir/src/dbot_ros/utils/pcl_interface.cpp.o
+Building CXX object catkin/ros/dbot_ros/CMakeFiles/dbot_ros.dir/src/dbot_ros/utils/ros_interface.cpp.o
+Building CXX object catkin/ros/dbot_ros/CMakeFiles/dbot_ros.dir/src/dbot_ros/utils/tracking_dataset.cpp.o
+/home/amd_clmc/team/workspace/src/catkin/ros/dbot_ros/src/dbot_ros/utils/ros_interface.cpp: In function 'void ri::PublishPoints(std_msgs::Header, const ros::Publisher&, std::vector<Eigen::Matrix<float, 3, 1> >, std::vector<float>, Eigen::Matrix3f, Eigen::Vector3f)':
+/home/amd_clmc/team/workspace/src/catkin/ros/dbot_ros/src/dbot_ros/utils/ros_interface.cpp:209:24: error: no match for 'operator=' (operand types are 'pcl::PCLHeader' and 'const Header {aka const std_msgs::Header_<std::allocator<void> >}')
+     point_cloud.header = header;
+                        ^
+/home/amd_clmc/team/workspace/src/catkin/ros/dbot_ros/src/dbot_ros/utils/ros_interface.cpp:209:24: note: candidates are:
+In file included from /usr/include/pcl-1.7/pcl/PCLPointCloud2.h:14:0,
+                 from /usr/include/pcl-1.7/pcl/conversions.h:48,
+                 from /usr/include/pcl-1.7/pcl/ros/conversions.h:48,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/dbot_ros/include/dbot_ros/utils/ros_interface.hpp:34,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/dbot_ros/src/dbot_ros/utils/ros_interface.cpp:21:
+/usr/include/pcl-1.7/pcl/PCLHeader.h:16:10: note: pcl::PCLHeader& pcl::PCLHeader::operator=(const pcl::PCLHeader&)
+   struct PCLHeader
+          ^
+/usr/include/pcl-1.7/pcl/PCLHeader.h:16:10: note:   no known conversion for argument 1 from 'const Header {aka const std_msgs::Header_<std::allocator<void> >}' to 'const pcl::PCLHeader&'
+/usr/include/pcl-1.7/pcl/PCLHeader.h:16:10: note: pcl::PCLHeader& pcl::PCLHeader::operator=(pcl::PCLHeader&&)
+/usr/include/pcl-1.7/pcl/PCLHeader.h:16:10: note:   no known conversion for argument 1 from 'const Header {aka const std_msgs::Header_<std::allocator<void> >}' to 'pcl::PCLHeader&&'
+/home/amd_clmc/team/workspace/src/catkin/ros/dbot_ros/src/dbot_ros/utils/ros_interface.cpp:229:44: error: no matching function for call to 'toROSMsg(pcl::PointCloud<pcl::PointXYZRGB>&, sensor_msgs::PointCloud2&)'
+     pcl::toROSMsg(point_cloud, point_cloud2);
+                                            ^
+/home/amd_clmc/team/workspace/src/catkin/ros/dbot_ros/src/dbot_ros/utils/ros_interface.cpp:229:44: note: candidates are:
+In file included from /home/amd_clmc/team/workspace/src/catkin/ros/dbot_ros/include/dbot_ros/utils/ros_interface.hpp:34:0,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/dbot_ros/src/dbot_ros/utils/ros_interface.cpp:21:
+/usr/include/pcl-1.7/pcl/ros/conversions.h:98:3: note: template<class PointT> void pcl::toROSMsg(const pcl::PointCloud<PointT>&, pcl::PCLPointCloud2&)
+   toROSMsg (const pcl::PointCloud<PointT>& cloud, pcl::PCLPointCloud2& msg)
+   ^
+/usr/include/pcl-1.7/pcl/ros/conversions.h:98:3: note:   template argument deduction/substitution failed:
+/home/amd_clmc/team/workspace/src/catkin/ros/dbot_ros/src/dbot_ros/utils/ros_interface.cpp:229:44: note:   cannot convert 'point_cloud2' (type 'sensor_msgs::PointCloud2') to type 'pcl::PCLPointCloud2&'
+     pcl::toROSMsg(point_cloud, point_cloud2);
+                                            ^
+In file included from /home/amd_clmc/team/workspace/src/catkin/ros/dbot_ros/include/dbot_ros/utils/ros_interface.hpp:34:0,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/dbot_ros/src/dbot_ros/utils/ros_interface.cpp:21:
+/usr/include/pcl-1.7/pcl/ros/conversions.h:113:3: note: template<class CloudT> void pcl::toROSMsg(const CloudT&, pcl::PCLImage&)
+   toROSMsg (const CloudT& cloud, pcl::PCLImage& msg)
+   ^
+/usr/include/pcl-1.7/pcl/ros/conversions.h:113:3: note:   template argument deduction/substitution failed:
+/home/amd_clmc/team/workspace/src/catkin/ros/dbot_ros/src/dbot_ros/utils/ros_interface.cpp:229:44: note:   cannot convert 'point_cloud2' (type 'sensor_msgs::PointCloud2') to type 'pcl::PCLImage&'
+     pcl::toROSMsg(point_cloud, point_cloud2);
+                                            ^
+In file included from /home/amd_clmc/team/workspace/src/catkin/ros/dbot_ros/include/dbot_ros/utils/ros_interface.hpp:34:0,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/dbot_ros/src/dbot_ros/utils/ros_interface.cpp:21:
+/usr/include/pcl-1.7/pcl/ros/conversions.h:127:3: note: void pcl::toROSMsg(const pcl::PCLPointCloud2&, pcl::PCLImage&)
+   toROSMsg (const pcl::PCLPointCloud2& cloud, pcl::PCLImage& msg)
+   ^
+/usr/include/pcl-1.7/pcl/ros/conversions.h:127:3: note:   no known conversion for argument 1 from 'pcl::PointCloud<pcl::PointXYZRGB>' to 'const pcl::PCLPointCloud2&'
+make[2]: *** [catkin/ros/dbot_ros/CMakeFiles/dbot_ros.dir/src/dbot_ros/utils/ros_interface.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+/home/amd_clmc/team/workspace/src/catkin/ros/dbot_ros/src/dbot_ros/utils/tracking_dataset.cpp: In member function 'pcl::PointCloud<pcl::PointXYZ>::ConstPtr TrackingDataset::GetPointCloud(const size_t&)':
+/home/amd_clmc/team/workspace/src/catkin/ros/dbot_ros/src/dbot_ros/utils/tracking_dataset.cpp:157:25: error: no match for 'operator=' (operand types are 'pcl::PCLHeader' and 'const _header_type {aka const std_msgs::Header_<std::allocator<void> >}')
+     point_cloud->header = data_[index].image_->header;
+                         ^
+/home/amd_clmc/team/workspace/src/catkin/ros/dbot_ros/src/dbot_ros/utils/tracking_dataset.cpp:157:25: note: candidates are:
+In file included from /usr/include/pcl-1.7/pcl/PCLPointCloud2.h:14:0,
+                 from /usr/include/pcl-1.7/pcl/conversions.h:48,
+                 from /usr/include/pcl-1.7/pcl/ros/conversions.h:48,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/dbot_ros/include/dbot_ros/utils/ros_interface.hpp:34,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/dbot_ros/src/dbot_ros/utils/tracking_dataset.cpp:34:
+/usr/include/pcl-1.7/pcl/PCLHeader.h:16:10: note: pcl::PCLHeader& pcl::PCLHeader::operator=(const pcl::PCLHeader&)
+   struct PCLHeader
+          ^
+/usr/include/pcl-1.7/pcl/PCLHeader.h:16:10: note:   no known conversion for argument 1 from 'const _header_type {aka const std_msgs::Header_<std::allocator<void> >}' to 'const pcl::PCLHeader&'
+/usr/include/pcl-1.7/pcl/PCLHeader.h:16:10: note: pcl::PCLHeader& pcl::PCLHeader::operator=(pcl::PCLHeader&&)
+/usr/include/pcl-1.7/pcl/PCLHeader.h:16:10: note:   no known conversion for argument 1 from 'const _header_type {aka const std_msgs::Header_<std::allocator<void> >}' to 'pcl::PCLHeader&&'
+/home/amd_clmc/team/workspace/src/catkin/ros/dbot_ros/src/dbot_ros/utils/pcl_interface.cpp:70:14: error: 'vector' has not been declared
+              vector<T>& observations,
+              ^
+/home/amd_clmc/team/workspace/src/catkin/ros/dbot_ros/src/dbot_ros/utils/pcl_interface.cpp:70:20: error: expected ',' or '...' before '<' token
+              vector<T>& observations,
+                    ^
+/home/amd_clmc/team/workspace/src/catkin/ros/dbot_ros/src/dbot_ros/utils/pcl_interface.cpp: In function 'void pi::Ros2Std(const PointCloud2&, const size_t&, int)':
+/home/amd_clmc/team/workspace/src/catkin/ros/dbot_ros/src/dbot_ros/utils/pcl_interface.cpp:76:5: error: 'fromROSMsg' is not a member of 'pcl'
+     pcl::fromROSMsg(ros_cloud, *point_cloud);
+     ^
+/home/amd_clmc/team/workspace/src/catkin/ros/dbot_ros/src/dbot_ros/utils/pcl_interface.cpp:77:5: error: 'n_rows' was not declared in this scope
+     n_rows = point_cloud->height / n_downsampling;
+     ^
+/home/amd_clmc/team/workspace/src/catkin/ros/dbot_ros/src/dbot_ros/utils/pcl_interface.cpp:78:5: error: 'n_cols' was not declared in this scope
+     n_cols = point_cloud->width / n_downsampling;
+     ^
+/home/amd_clmc/team/workspace/src/catkin/ros/dbot_ros/src/dbot_ros/utils/pcl_interface.cpp:79:5: error: 'observations' was not declared in this scope
+     observations.resize(n_rows * n_cols);
+     ^
+/home/amd_clmc/team/workspace/src/catkin/ros/dbot_ros/src/dbot_ros/utils/pcl_interface.cpp: In instantiation of 'void pi::PointsOnPlane(const pcl::PointCloud<PointT>&, pcl::PointCloud<PointT>&, Eigen::Matrix<Scalar, 4, 1>&, const bool&, const float&, const float&, const float&, const float&, const float&, const float&, const float&, const float&, const float&) [with PointT = pcl::PointXYZ; MatrixT = double]':
+/home/amd_clmc/team/workspace/src/catkin/ros/dbot_ros/src/dbot_ros/utils/pcl_interface.cpp:770:27:   required from here
+/home/amd_clmc/team/workspace/src/catkin/ros/dbot_ros/src/dbot_ros/utils/pcl_interface.cpp:167:67: error: 'isfinite' was not declared in this scope
+         if (isfinite(input_cloud.points[i].getVector3fMap().norm()))
+                                                                   ^
+/home/amd_clmc/team/workspace/src/catkin/ros/dbot_ros/src/dbot_ros/utils/pcl_interface.cpp:167:67: note: suggested alternatives:
+In file included from /usr/include/pcl-1.7/pcl/pcl_macros.h:110:0,
+                 from /usr/include/pcl-1.7/pcl/point_types.h:42,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/dbot_ros/src/dbot_ros/utils/pcl_interface.cpp:21:
+/usr/include/c++/4.8/cmath:596:5: note:   'std::isfinite'
+     isfinite(_Tp __x)
+     ^
+In file included from /usr/include/boost/lexical_cast.hpp:168:0,
+                 from /usr/include/boost/date_time/string_parse_tree.hpp:13,
+                 from /usr/include/boost/date_time/period_parser.hpp:14,
+                 from /usr/include/boost/date_time/date_facet.hpp:23,
+                 from /usr/include/boost/date_time/gregorian/gregorian_io.hpp:16,
+                 from /usr/include/boost/date_time/gregorian/gregorian.hpp:31,
+                 from /usr/include/boost/date_time/posix_time/time_formatters.hpp:12,
+                 from /usr/include/boost/date_time/posix_time/posix_time.hpp:24,
+                 from /usr/include/pcl-1.7/pcl/io/boost.h:66,
+                 from /usr/include/pcl-1.7/pcl/io/file_io.h:43,
+                 from /usr/include/pcl-1.7/pcl/io/pcd_io.h:44,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/dbot_ros/src/dbot_ros/utils/pcl_interface.cpp:24:
+/usr/include/boost/math/special_functions/fpclassify.hpp:336:14: note:   'boost::math::isfinite'
+ inline bool (isfinite)(T x)
+              ^
+In file included from /usr/include/eigen3/Eigen/Core:259:0,
+                 from /usr/include/pcl-1.7/pcl/impl/point_types.hpp:46,
+                 from /usr/include/pcl-1.7/pcl/point_types.h:311,
+                 from /home/amd_clmc/team/workspace/src/catkin/ros/dbot_ros/src/dbot_ros/utils/pcl_interface.cpp:21:
+/usr/include/eigen3/Eigen/src/Core/MathFunctions.h:630:28: note:   'Eigen::numext::isfinite'
+ template<typename T> bool (isfinite)(const T& x)
+                            ^
+make[2]: *** [catkin/ros/dbot_ros/CMakeFiles/dbot_ros.dir/src/dbot_ros/utils/tracking_dataset.cpp.o] Error 1
+make[2]: *** [catkin/ros/dbot_ros/CMakeFiles/dbot_ros.dir/src/dbot_ros/utils/pcl_interface.cpp.o] Error 1
+make[1]: *** [catkin/ros/dbot_ros/CMakeFiles/dbot_ros.dir/all] Error 2
+make: *** [all] Error 2
+Base path: /home/amd_clmc/team/workspace
+Source space: /home/amd_clmc/team/workspace/src
+Build space: /home/amd_clmc/team/workspace/build
+Devel space: /home/amd_clmc/team/workspace/devel
+Install space: /home/amd_clmc/team/workspace/install
+####
+#### Running command: "cmake /home/amd_clmc/team/workspace/src -DCATKIN_DEVEL_PREFIX=/home/amd_clmc/team/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/amd_clmc/team/workspace/install -G Unix Makefiles" in "/home/amd_clmc/team/workspace/build"
+####
+####
+#### Running command: "make -j install" in "/home/amd_clmc/team/workspace/build"
+####
+Invoking "make -j install" failed
