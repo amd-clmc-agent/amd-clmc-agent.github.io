@@ -1,0 +1,10 @@
+failed to run demo (exception thrown). command: 
+
+sh /Network/Servers/bleyl/Volumes/bleyl/vberenz/Software/team/workspace/devel/setup.sh && cd /Network/Servers/bleyl/Volumes/bleyl/vberenz/Software/team/workspace/src/catkin/examples/ci_example/ci_example_python/demos/ && chmod +x ci_example_python_demo && ./ci_example_python_demo
+
+error message:
+
+Traceback (most recent call last):
+  File "./ci_example_python_demo", line 17, in <module>
+    from ci_example.pid import PID, get_default_pid, get_config_file_pid
+ImportError: No module named ci_example.pid

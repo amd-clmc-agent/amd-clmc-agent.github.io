@@ -1,0 +1,45 @@
+demo run with success.
+
+log:
+
+------ setting parameters -----
+
+------ PYTHON DEMO START ------
+
+python: can't open file './src/ci_example_python_ros.py': [Errno 2] No such file or directory
+
+------ DEMO END ------
+
+pkill: 20339 - Operation not permitted
+pkill: 20631 - Operation not permitted
+pkill: 21112 - Operation not permitted
+... logging to /Network/Servers/bleyl/Volumes/bleyl/vberenz/.ros/log/565fa10a-f00d-11e5-80c6-b8ca3aad4e6c/roslaunch-bleyl-30023.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://bleyl:34757/[0m
+ros_comm version 1.9.55
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro
+ * /rosversion
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [30039][0m
+[1mROS_MASTER_URI=http://bleyl:11311/[0m
+]2;roscore http://bleyl:11311/
+[1msetting /run_id to 565fa10a-f00d-11e5-80c6-b8ca3aad4e6c[0m
+[1mprocess[rosout-1]: started with pid [30052][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m

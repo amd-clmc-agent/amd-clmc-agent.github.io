@@ -1,0 +1,21 @@
+demo run with success.
+
+log:
+
+#!/bin/bash
+source /home/amd_clmc/team/workspace/devel/setup.bash
+cd /home/amd_clmc/team/workspace/src/catkin/examples/ci_example/ci_example_python/demos/
+chmod +x ci_example_demo_that_fails
+./ci_example_demo_that_fails /home/amd_clmc/team/workspace/devel
+
+
+basic pid usage:
+PID controller: kp:1 kd:1 ki:1
+force: -1.101
+pid using default gains:
+PID controller: kp:1 kd:1 ki:1
+force: -1.101
+pid using gains read from config file:
+reading pid gains from:  /home/amd_clmc/team/workspace/src/catkin/examples/ci_example/ci_example_python/config/test_pid_gains.yaml
+PID controller: kp:1.0 kd:1.0 ki:1.0
+force: -1.101

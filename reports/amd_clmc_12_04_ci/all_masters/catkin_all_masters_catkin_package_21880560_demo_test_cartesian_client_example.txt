@@ -1,0 +1,15 @@
+demo run with success.
+
+log:
+
+#!/bin/bash
+source /home/amd_clmc/team/workspace/devel/setup.bash
+cd /home/amd_clmc/team/workspace/devel/lib/controller_manager_examples_arm/
+chmod +x test_cartesian_client_example
+./test_cartesian_client_example /home/amd_clmc/team/workspace/devel
+
+
+./capture_points_demo: line 6: ../../devel/setup.bash: No such file or directory
+----- DEMO START -----
+./capture_points_demo: line 8: ./capture_points_main: No such file or directory
+------ DEMO END ------

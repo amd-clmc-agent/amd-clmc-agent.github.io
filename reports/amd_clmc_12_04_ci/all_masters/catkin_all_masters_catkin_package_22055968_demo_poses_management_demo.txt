@@ -1,0 +1,29 @@
+demo run with success.
+
+log:
+
+#!/bin/bash
+source /home/amd_clmc/team/workspace/devel/setup.bash
+cd /home/amd_clmc/team/workspace/devel/lib/visual_servoing/
+chmod +x poses_management_demo
+./poses_management_demo /home/amd_clmc/team/workspace/devel
+
+
+
+---------------- visual servoing iteration ----------------
+get object		position: 1 0 0 	orientation: 0 0 0 
+mapped object		position: 0 0 0 	orientation: 0 0 0 
+grasping pose selected		position: 0 -0.01 0.1 	orientation: -0.707107 4.32978e-17 0.707107 
+-----------------------------------------------------------
+
+front pose in task space		position: 0 -0.01 0.1 	orientation: -0.707107 4.32978e-17 0.707107 
+
+---------------- visual servoing iteration ----------------
+get object		position: 1 0 0 	orientation: 0 0 0 
+mapped object		position: 0 0 0 	orientation: 0 0 0 
+grasping pose selected		position: 0 -0.01 0.1 	orientation: -0.5 0.5 0.5 
+-----------------------------------------------------------
+
+back pose in task space		position: 0 -0.01 0.1 	orientation: -0.5 0.5 0.5 
+
+
