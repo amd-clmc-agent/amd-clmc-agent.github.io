@@ -1,0 +1,431 @@
+COMMAND:catkin_make -j install
+------------------------------
+WARNING: Package name "footsteps_planner_MIQCQP" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits and underscores.
+WARNING: Package name "footsteps_planner_MIQCQP_sl" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits and underscores.
+WARNING: Package name "YAML_CPP" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits and underscores.
+WARNING: Package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits and underscores.
+-- The C compiler identification is GNU 4.8.4
+-- The CXX compiler identification is GNU 4.8.4
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Using CATKIN_DEVEL_PREFIX: /home/amd_clmc/team/workspace/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/indigo
+-- This workspace overlays: /opt/ros/indigo
+-- Found PythonInterp: /usr/bin/python (found version "2.7.6") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+-- Python version: 2.7
+-- Using Debian Python package layout
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/amd_clmc/team/workspace/build/test_results
+-- Looking for include file pthread.h
+-- Looking for include file pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found gtest sources under '/usr/src/gtest': gtests will be built
+-- catkin 0.5.90
+-- BUILD_SHARED_LIBS is on
+WARNING: Package name "footsteps_planner_MIQCQP" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits and underscores.
+WARNING: Package name "footsteps_planner_MIQCQP_sl" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits and underscores.
+WARNING: Package name "YAML_CPP" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits and underscores.
+WARNING: Package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits and underscores.
+WARNING: Package "ompl" does not follow the version conventions. It should not contain leading zeros (unless the number is 0).
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- ~~  traversing 50 packages in topological order:
+-- ~~  - Eigen
+-- ~~  - YAML_CPP
+-- ~~  - kalman_filters
+-- ~~  - py_cpp_interface
+-- ~~  - robot_math
+-- ~~  - robot_properties_athena
+-- ~~  - robot_properties_hermes_full
+-- ~~  - robot_properties_hermes_lower
+-- ~~  - sl_config
+-- ~~  - snopt_cpp
+-- ~~  - utilities
+-- ~~  - io_tools
+-- ~~  - floating_base_tools_athena
+-- ~~  - floating_base_tools_hermes_full
+-- ~~  - floating_base_tools_hermes_lower
+-- ~~  - lwpr
+-- ~~  - standard_filters
+-- ~~  - xenomai_ros
+-- ~~  - ati_ft_sensor
+-- ~~  - sl
+-- ~~  - hermes_communication_tools
+-- ~~  - hermes_core
+-- ~~  - athena
+-- ~~  - hermes_full
+-- ~~  - hermes_lower
+-- ~~  - io_tools_sl
+-- ~~  - floating_base_tools_sl_athena
+-- ~~  - biped_locomotion_athena
+-- ~~  - floating_base_tools_sl_hermes_full
+-- ~~  - biped_locomotion_hermes_full
+-- ~~  - floating_base_tools_sl_hermes_lower
+-- ~~  - biped_locomotion_hermes_lower
+-- ~~  - base_state_estimators_hermes_lower
+-- ~~  - footsteps_planner_MIQCQP
+-- ~~  - footsteps_planner_MIQCQP_sl
+-- ~~  - lqr_hermes_lower
+-- ~~  - noise_simulator_hermes_lower
+-- ~~  - joint_state_estimators_hermes_lower
+-- ~~  - testing_tests
+-- ~~  - visualization_tools_athena
+-- ~~  - humanoid_tests_athena
+-- ~~  - athena_user
+-- ~~  - visualization_tools_hermes_full
+-- ~~  - hermes_full_user
+-- ~~  - visualization_tools_hermes_lower
+-- ~~  - humanoid_tests_hermes_lower
+-- ~~  - walking_tools_hermes_lower
+-- ~~  - example_tasks_hermes_lower
+-- ~~  - julia_sl_interface_hermes_lower
+-- ~~  - hermes_lower_user
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- +++ processing catkin package: 'Eigen'
+-- ==> add_subdirectory(catkin/third_party/Eigen)
+WARNING: Package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits and underscores.
+-- +++ processing catkin package: 'YAML_CPP'
+-- ==> add_subdirectory(catkin/third_party/YAML_CPP)
+WARNING: Package name "YAML_CPP" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits and underscores.
+-- Boost version: 1.54.0
+-- Performing Test FLAG_WEXTRA
+-- Performing Test FLAG_WEXTRA - Success
+-- +++ processing catkin package: 'kalman_filters'
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control/filtering_tools/kalman_filters)
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.26") 
+-- checking for module 'eigen3'
+--   found eigen3, version 3.2.0
+-- Found Eigen: /usr/include/eigen3  
+-- Eigen found (include: /usr/include/eigen3)
+-- +++ processing catkin package: 'py_cpp_interface'
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control/py_cpp_interface)
+-- Eigen found (include: /usr/include/eigen3)
+-- Boost version: 1.54.0
+-- Found the following Boost libraries:
+--   system
+--   thread
+--   python
+-- PYTHON_BIN_LOCATION: /usr/bin/python
+
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython2.7.so 
+-- Found NumPy: version "1.8.2" /usr/lib/python2.7/dist-packages/numpy/core/include
+-- +++ processing catkin package: 'robot_math'
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control/robot_math)
+-- +++ processing catkin package: 'robot_properties_athena'
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control/robot_properties/robot_properties_athena)
+-- +++ processing catkin package: 'robot_properties_hermes_full'
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control/robot_properties/robot_properties_hermes_full)
+-- +++ processing catkin package: 'robot_properties_hermes_lower'
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control/robot_properties/robot_properties_hermes_lower)
+-- +++ processing catkin package: 'sl_config'
+-- ==> add_subdirectory(catkin/core-sl/sl_config)
+-- MACHTYPE=x86_64
+-- +++ processing catkin package: 'snopt_cpp'
+-- ==> add_subdirectory(catkin/third_party/snopt_cpp)
+-- +++ processing catkin package: 'utilities'
+-- ==> add_subdirectory(catkin/core-sl/locomotion-utilities)
+-- MACHTYPE=x86_64
+-- +++ processing catkin package: 'io_tools'
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control/io_tools)
+-- +++ processing catkin package: 'floating_base_tools_athena'
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control/floating_base_tools_common/floating_base_tools_athena)
+-- +++ processing catkin package: 'floating_base_tools_hermes_full'
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control/floating_base_tools_common/floating_base_tools_hermes_full)
+-- +++ processing catkin package: 'floating_base_tools_hermes_lower'
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control/floating_base_tools_common/floating_base_tools_hermes_lower)
+-- +++ processing catkin package: 'lwpr'
+-- ==> add_subdirectory(catkin/core-sl/locomotion-lwpr)
+-- MACHTYPE=x86_64
+-- +++ processing catkin package: 'standard_filters'
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control/filtering_tools/standard_filters)
+-- +++ processing catkin package: 'xenomai_ros'
+-- ==> add_subdirectory(catkin/ros/xenomai-ros)
+-- +++ processing catkin package: 'ati_ft_sensor'
+-- ==> add_subdirectory(catkin/humanoids/humanoid_hardware/ati_ft_sensor)
+-- xenomai NOT found. (/usr/local;/usr)
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+-- Boost version: 1.54.0
+-- Found the following Boost libraries:
+--   system
+--   filesystem
+--   thread
+-- Found Doxygen: /usr/bin/doxygen (found version "1.8.6") 
+-- +++ processing catkin package: 'sl'
+-- ==> add_subdirectory(catkin/core-sl/locomotion-sl)
+-- MACHTYPE=x86_64
+-- checking for module 'libedit'
+--   found libedit, version 3.1
+-- Found libedit: /usr/lib/x86_64-linux-gnu/libedit.so
+-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+-- Looking for gethostbyname
+-- Looking for gethostbyname - found
+-- Looking for connect
+-- Looking for connect - found
+-- Looking for remove
+-- Looking for remove - found
+-- Looking for shmat
+-- Looking for shmat - found
+-- Looking for IceConnectionNumber in ICE
+-- Looking for IceConnectionNumber in ICE - found
+-- Found X11: /usr/lib/x86_64-linux-gnu/libX11.so
+-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libGL.so  
+-- Found GLUT: /usr/lib/x86_64-linux-gnu/libglut.so  
+-- Found LibRt: /usr/lib/x86_64-linux-gnu/librt.so  
+-- GLUT_LIBRARIES=/usr/lib/x86_64-linux-gnu/libglut.so;/usr/lib/x86_64-linux-gnu/libXmu.so;/usr/lib/x86_64-linux-gnu/libXi.so
+-- GLUT_INCLUDE_DIR=/usr/include
+-- GLUT_FOUND: TRUE
+-- Libedit_INCLUDE_DIRS=/usr/include
+-- Libedit_LIBRARIES=/usr/lib/x86_64-linux-gnu/libedit.so
+-- xenomai NOT found. (/usr/local;/usr)
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+-- SLros dependencies found; compiling ROS servo.
+-- +++ processing catkin package: 'hermes_communication_tools'
+-- ==> add_subdirectory(catkin/humanoids/humanoid_hardware/cb_communication)
+-- MACHTYPE=x86_64
+-- xenomai NOT found. (/usr/local;/usr)
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+-- Boost version: 1.54.0
+-- Found the following Boost libraries:
+--   system
+--   filesystem
+--   thread
+-- +++ processing catkin package: 'hermes_core'
+-- ==> add_subdirectory(catkin/robots/hermesCore)
+-- +++ processing catkin package: 'athena'
+-- ==> add_subdirectory(catkin/robots/athena)
+-- MACHTYPE=x86_64
+-- Boost version: 1.54.0
+-- Found the following Boost libraries:
+--   thread
+-- xenomai NOT found. (/usr/local;/usr)
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+-- athena: compiling on amd_clmc_14_04_ci; simulation only.
+-- +++ processing catkin package: 'hermes_full'
+-- ==> add_subdirectory(catkin/robots/hermesFull)
+-- MACHTYPE=x86_64
+-- Boost version: 1.54.0
+-- Found the following Boost libraries:
+--   thread
+-- xenomai NOT found. (/usr/local;/usr)
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+-- hermes_full: compiling on amd_clmc_14_04_ci; simulation only.
+-- +++ processing catkin package: 'hermes_lower'
+-- ==> add_subdirectory(catkin/robots/hermesLower)
+-- MACHTYPE=x86_64
+-- Boost version: 1.54.0
+-- Found the following Boost libraries:
+--   thread
+-- xenomai NOT found. (/usr/local;/usr)
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+-- hermes_lower: compiling on amd_clmc_14_04_ci; simulation only.
+-- +++ processing catkin package: 'io_tools_sl'
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control/io_tools_sl)
+-- +++ processing catkin package: 'floating_base_tools_sl_athena'
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control/floating_base_tools_sl/floating_base_tools_sl_athena)
+-- MACHTYPE=x86_64
+-- Boost version: 1.54.0
+-- Found the following Boost libraries:
+--   thread
+--   system
+--   filesystem
+-- +++ processing catkin package: 'biped_locomotion_athena'
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control/biped_locomotion/biped_locomotion_athena)
+-- Boost version: 1.54.0
+-- Found the following Boost libraries:
+--   system
+-- xenomai NOT found. (/usr/local;/usr)
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+-- +++ processing catkin package: 'floating_base_tools_sl_hermes_full'
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control/floating_base_tools_sl/floating_base_tools_sl_hermes_full)
+-- MACHTYPE=x86_64
+-- Boost version: 1.54.0
+-- Found the following Boost libraries:
+--   thread
+--   system
+--   filesystem
+-- +++ processing catkin package: 'biped_locomotion_hermes_full'
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control/biped_locomotion/biped_locomotion_hermes_full)
+-- Boost version: 1.54.0
+-- Found the following Boost libraries:
+--   system
+-- xenomai NOT found. (/usr/local;/usr)
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+-- +++ processing catkin package: 'floating_base_tools_sl_hermes_lower'
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control/floating_base_tools_sl/floating_base_tools_sl_hermes_lower)
+-- MACHTYPE=x86_64
+-- Boost version: 1.54.0
+-- Found the following Boost libraries:
+--   thread
+--   system
+--   filesystem
+-- +++ processing catkin package: 'biped_locomotion_hermes_lower'
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control/biped_locomotion/biped_locomotion_hermes_lower)
+-- Boost version: 1.54.0
+-- Found the following Boost libraries:
+--   system
+-- xenomai NOT found. (/usr/local;/usr)
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+-- +++ processing catkin package: 'base_state_estimators_hermes_lower'
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control/filtering_tools/base_state_estimators/base_state_estimators_hermes_lower)
+-- +++ processing catkin package: 'footsteps_planner_MIQCQP'
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control/contacts_planning/footsteps_planner_MIQCQP)
+-- Boost version: 1.54.0
+-- Found the following Boost libraries:
+--   system
+--   program_options
+--   filesystem
+-- +++ processing catkin package: 'footsteps_planner_MIQCQP_sl'
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control/contacts_planning_sl/footsteps_planner_MIQCQP_sl)
+-- Boost version: 1.54.0
+-- Found the following Boost libraries:
+--   system
+--   program_options
+--   filesystem
+-- +++ processing catkin package: 'lqr_hermes_lower'
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control/lqr/lqr_hermes_lower)
+-- xenomai NOT found. (/usr/local;/usr)
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+-- Boost version: 1.54.0
+-- Found the following Boost libraries:
+--   system
+--   thread
+-- building lqr_hermes_lower
+-- +++ processing catkin package: 'noise_simulator_hermes_lower'
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control/filtering_tools/noise_simulator/noise_simulator_hermes_lower)
+-- +++ processing catkin package: 'joint_state_estimators_hermes_lower'
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control/filtering_tools/joint_state_estimators/joint_state_estimators_hermes_lower)
+-- xenomai NOT found. (/usr/local;/usr)
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+-- +++ processing catkin package: 'testing_tests'
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control/testing_tests)
+-- Boost version: 1.54.0
+-- Found the following Boost libraries:
+--   thread
+--   system
+--   filesystem
+--   regex
+warning : testing_tests package : compiling tests only for athena and hermes_lower, hermes_full ignored
+-- MACHTYPE=x86_64
+CMake Warning at catkin/humanoids/humanoid_control/testing_tests/CMakeLists.txt:36 (message):
+  building testing_tests_athena
+
+
+CMake Warning at catkin/humanoids/humanoid_control/testing_tests/CMakeLists.txt:36 (message):
+  building testing_tests_hermes_lower
+
+
+-- +++ processing catkin package: 'visualization_tools_athena'
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control/visualization_tools/visualization_tools_athena)
+-- MACHTYPE=x86_64
+-- Boost version: 1.54.0
+-- Found the following Boost libraries:
+--   thread
+--   system
+--   filesystem
+-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.8") 
+-- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.2.50") 
+-- +++ processing catkin package: 'humanoid_tests_athena'
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control/humanoid_tests/humanoid_tests_athena)
+warning : testing_tests package : compiling tests only for athena and hermes_lower, hermes_full ignored
+-- MACHTYPE=x86_64
+-- Boost version: 1.54.0
+-- Found the following Boost libraries:
+--   thread
+--   system
+--   filesystem
+--   regex
+CMake Warning at catkin/humanoids/humanoid_control/humanoid_tests/template/CMakeLists.txt:65 (message):
+  building humanoid_tests_athena
+Call Stack (most recent call first):
+  catkin/humanoids/humanoid_control/humanoid_tests/humanoid_tests_athena/CMakeLists.txt:2 (include)
+
+
+-- +++ processing catkin package: 'athena_user'
+-- ==> add_subdirectory(catkin/robots/athenaUser)
+-- MACHTYPE=x86_64
+warning : testing_tests package : compiling tests only for athena and hermes_lower, hermes_full ignored
+-- Boost version: 1.54.0
+-- Found the following Boost libraries:
+--   regex
+--   filesystem
+--   system
+--   thread
+-- xenomai NOT found. (/usr/local;/usr)
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+-- +++ processing catkin package: 'visualization_tools_hermes_full'
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control/visualization_tools/visualization_tools_hermes_full)
+-- MACHTYPE=x86_64
+-- Boost version: 1.54.0
+-- Found the following Boost libraries:
+--   thread
+--   system
+--   filesystem
+-- +++ processing catkin package: 'hermes_full_user'
+-- ==> add_subdirectory(catkin/robots/hermesFullUser)
+-- MACHTYPE=x86_64
+-- Boost version: 1.54.0
+-- Found the following Boost libraries:
+--   regex
+--   filesystem
+--   system
+--   thread
+-- xenomai NOT found. (/usr/local;/usr)
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+-- +++ processing catkin package: 'visualization_tools_hermes_lower'
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control/visualization_tools/visualization_tools_hermes_lower)
+-- MACHTYPE=x86_64
+-- Boost version: 1.54.0
+-- Found the following Boost libraries:
+--   thread
+--   system
+--   filesystem
+-- +++ processing catkin package: 'humanoid_tests_hermes_lower'
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control/humanoid_tests/humanoid_tests_hermes_lower)
+warning : testing_tests package : compiling tests only for athena and hermes_lower, hermes_full ignored
+-- MACHTYPE=x86_64
+-- Boost version: 1.54.0
+-- Found the following Boost libraries:
+--   thread
+--   system
+--   filesystem
+--   regex
+CMake Warning at catkin/humanoids/humanoid_control/humanoid_tests/template/CMakeLists.txt:65 (message):
+  building humanoid_tests_hermes_lower
+Call Stack (most recent call first):
+  catkin/humanoids/humanoid_control/humanoid_tests/humanoid_tests_hermes_lower/CMakeLists.txt:2 (include)
+
+
+-- +++ processing catkin package: 'walking_tools_hermes_lower'
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control/walking_tools/walking_tools_hermes_lower)
+CMake Error at catkin/humanoids/humanoid_control/walking_tools/template/CMakeLists.txt:43 (message):
+  LIBSLICOT NOT FOUND
+Call Stack (most recent call first):
+  catkin/humanoids/humanoid_control/walking_tools/walking_tools_hermes_lower/CMakeLists.txt:2 (include)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/amd_clmc/team/workspace/build/CMakeFiles/CMakeOutput.log".
+See also "/home/amd_clmc/team/workspace/build/CMakeFiles/CMakeError.log".
+Base path: /home/amd_clmc/team/workspace
+Source space: /home/amd_clmc/team/workspace/src
+Build space: /home/amd_clmc/team/workspace/build
+Devel space: /home/amd_clmc/team/workspace/devel
+Install space: /home/amd_clmc/team/workspace/install
+####
+#### Running command: "cmake /home/amd_clmc/team/workspace/src -DCATKIN_DEVEL_PREFIX=/home/amd_clmc/team/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/amd_clmc/team/workspace/install -G Unix Makefiles" in "/home/amd_clmc/team/workspace/build"
+####
+Invoking "cmake" failed
