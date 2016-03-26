@@ -1,0 +1,330 @@
+COMMAND:catkin_make -j install
+------------------------------
+-- The C compiler identification is GNU
+-- The CXX compiler identification is GNU
+-- Check for working C compiler: /usr/bin/gcc
+-- Check for working C compiler: /usr/bin/gcc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Using CATKIN_DEVEL_PREFIX: /home/amd_clmc/team/workspace/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/groovy
+-- This workspace overlays: /opt/ros/groovy
+-- Found PythonInterp: /usr/bin/python (found version "2.7.3")
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+-- Python version: 2.7
+-- Using Debian Python package layout
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/amd_clmc/team/workspace/build/test_results
+-- Looking for include files CMAKE_HAVE_PTHREAD_H
+-- Looking for include files CMAKE_HAVE_PTHREAD_H - found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE 
+-- Found gtest sources under '/usr/src/gtest': gtests will be built
+-- catkin 0.5.89
+-- BUILD_SHARED_LIBS is on
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- ~~  traversing 2 packages in topological order:
+-- ~~  - rgbd_capture
+-- ~~  - ar_track_alvar
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- +++ processing catkin package: 'rgbd_capture'
+-- ==> add_subdirectory(catkin/ros/rgbd_capture)
+-- Boost version: 1.46.1
+-- +++ processing catkin package: 'ar_track_alvar'
+-- ==> add_subdirectory(catkin/perception/ar_track_alvar)
+-- Using these message generators: gencpp;genlisp;genpy
+-- checking for module 'eigen3'
+--   found eigen3, version 3.0.5
+-- Found Eigen: /usr/include/eigen3 
+-- Eigen found (include: /usr/include/eigen3)
+-- checking for module 'tinyxml'
+--   found tinyxml, version 2.6.2
+-- ar_track_alvar: 2 messages, 0 services
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/amd_clmc/team/workspace/build
+Scanning dependencies of target visualization_msgs_generate_messages_cpp
+Scanning dependencies of target std_msgs_generate_messages_cpp
+Scanning dependencies of target sensor_msgs_generate_messages_cpp
+Scanning dependencies of target std_msgs_generate_messages_lisp
+Scanning dependencies of target geometry_msgs_generate_messages_cpp
+[  0%] Scanning dependencies of target sensor_msgs_generate_messages_lisp
+Scanning dependencies of target std_msgs_generate_messages_py
+Scanning dependencies of target geometry_msgs_generate_messages_py
+Built target visualization_msgs_generate_messages_cpp
+Scanning dependencies of target visualization_msgs_generate_messages_lisp
+Scanning dependencies of target geometry_msgs_generate_messages_lisp
+Scanning dependencies of target sensor_msgs_generate_messages_py
+Scanning dependencies of target visualization_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] [  0%] [  0%] Built target std_msgs_generate_messages_cpp
+Built target geometry_msgs_generate_messages_cpp
+Built target std_msgs_generate_messages_lisp
+[  0%] [  0%] [  0%] [  0%] [  0%] Built target geometry_msgs_generate_messages_py
+Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_py
+Built target visualization_msgs_generate_messages_lisp
+Built target visualization_msgs_generate_messages_py
+Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_py
+Scanning dependencies of target ar_track_alvar_generate_messages_cpp
+Scanning dependencies of target ar_track_alvar_generate_messages_lisp
+Scanning dependencies of target ar_track_alvar_generate_messages_py
+[  3%] [  3%] [  7%] [  7%] Generating C++ code from ar_track_alvar/AlvarMarkers.msg
+[ 11%] [ 11%] Generating C++ code from ar_track_alvar/AlvarMarker.msg
+Generating Lisp code from ar_track_alvar/AlvarMarkers.msg
+Generating Lisp code from ar_track_alvar/AlvarMarker.msg
+Generating Python from MSG ar_track_alvar/AlvarMarker
+Generating Python from MSG ar_track_alvar/AlvarMarkers
+Scanning dependencies of target rgbd_capture
+Scanning dependencies of target medianFilter
+[ 13%] [ 15%] [ 16%] [ 18%] Building CXX object catkin/ros/rgbd_capture/CMakeFiles/rgbd_capture.dir/src/rgbd_capture.cpp.o
+Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/medianFilter.dir/src/medianFilter.cpp.o
+Building CXX object catkin/ros/rgbd_capture/CMakeFiles/rgbd_capture.dir/src/kinect.cc.o
+Building C object catkin/ros/rgbd_capture/CMakeFiles/rgbd_capture.dir/src/rainbow.c.o
+Scanning dependencies of target kinect_filtering
+[ 20%] Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/kinect_filtering.dir/src/kinect_filtering.cpp.o
+[ 20%] Built target ar_track_alvar_generate_messages_lisp
+[ 22%] Generating Python msg __init__.py for ar_track_alvar
+[ 22%] Built target ar_track_alvar_generate_messages_cpp
+Scanning dependencies of target ar_track_alvar_gencpp
+[ 22%] Built target ar_track_alvar_generate_messages_py
+[ 22%] Built target ar_track_alvar_gencpp
+Scanning dependencies of target ar_track_alvar_generate_messages
+[ 22%] Built target ar_track_alvar_generate_messages
+Scanning dependencies of target ar_track_alvar
+[ 28%] [ 28%] [ 28%] [ 30%] [ 32%] Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CaptureDevice.cpp.o
+Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Camera.cpp.o
+[ 33%] [ 35%] [ 37%] [ 39%] [ 41%] Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Pose.cpp.o
+[ 49%] [ 49%] [ 49%] [ 50%] [ 50%] Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Marker.cpp.o
+[ 52%] [ 56%] [ 56%] [ 58%] [ 60%] [ 64%] [ 64%] [ 66%] Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Bitset.cpp.o
+[ 67%] [ 69%] [ 71%] [ 73%] [ 75%] [ 77%] [ 79%] Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Plugin.cpp.o
+Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Rotation.cpp.o
+Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Mutex_unix.cpp.o
+Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CvTestbed.cpp.o
+Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Mutex.cpp.o
+Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/ConnectedComponents.cpp.o
+Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Line.cpp.o
+Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Threads.cpp.o
+Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CaptureFactory.cpp.o
+Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MarkerDetector.cpp.o
+Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CaptureFactory_unix.cpp.o
+Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Filter.cpp.o
+Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MultiMarkerBundle.cpp.o
+Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Threads_unix.cpp.o
+Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Kalman.cpp.o
+Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Plugin_unix.cpp.o
+Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MultiMarker.cpp.o
+Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Draw.cpp.o
+Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/kinect_filtering.cpp.o
+Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/FileFormatUtils.cpp.o
+Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MultiMarkerInitializer.cpp.o
+Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Optimization.cpp.o
+Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator_unix.cpp.o
+Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator.cpp.o
+Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Util.cpp.o
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libmedianFilter.so
+[ 79%] Built target medianFilter
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/librgbd_capture.so
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libkinect_filtering.so
+[ 79%] Built target rgbd_capture
+Scanning dependencies of target test_capture
+Scanning dependencies of target test_timing
+Scanning dependencies of target fake_node
+Scanning dependencies of target rgbd_capture_node
+[ 81%] [ 83%] [ 84%] Building CXX object catkin/ros/rgbd_capture/CMakeFiles/test_capture.dir/src/capture-test_cv2.cc.o
+Building CXX object catkin/ros/rgbd_capture/CMakeFiles/test_timing.dir/src/timing_test.cc.o
+Building CXX object catkin/ros/rgbd_capture/CMakeFiles/fake_node.dir/src/fake_node.cpp.o
+[ 86%] Building CXX object catkin/ros/rgbd_capture/CMakeFiles/rgbd_capture_node.dir/src/rgbd_capture_node.cpp.o
+[ 86%] Built target kinect_filtering
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/rgbd_capture/test_timing
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/rgbd_capture/test_capture
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libar_track_alvar.so
+[ 86%] Built target test_timing
+[ 86%] Built target test_capture
+[ 86%] Built target ar_track_alvar
+Scanning dependencies of target createMarker
+Scanning dependencies of target trainMarkerBundle
+Scanning dependencies of target CubeCalibrationMarkers
+Scanning dependencies of target findMarkerBundlesNoKinect
+Scanning dependencies of target findMarkerBundles
+[ 88%] Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/createMarker.dir/src/SampleMarkerCreator.cpp.o
+Scanning dependencies of target individualMarkersNoKinect
+Scanning dependencies of target individualMarkers
+[ 90%] [ 92%] Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/trainMarkerBundle.dir/nodes/TrainMarkerBundle.cpp.o
+[ 96%] [ 96%] Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/CubeCalibrationMarkers.dir/nodes/CubeCalibrationMarkers.cpp.o
+Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/findMarkerBundles.dir/nodes/FindMarkerBundles.cpp.o
+Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/findMarkerBundlesNoKinect.dir/nodes/FindMarkerBundlesNoKinect.cpp.o
+[ 98%] [100%] Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/individualMarkers.dir/nodes/IndividualMarkers.cpp.o
+Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/individualMarkersNoKinect.dir/nodes/IndividualMarkersNoKinect.cpp.o
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/rgbd_capture/rgbd_capture_node
+[100%] Built target rgbd_capture_node
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/rgbd_capture/fake_node
+[100%] Built target fake_node
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/ar_track_alvar/createMarker
+[100%] Built target createMarker
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/ar_track_alvar/individualMarkersNoKinect
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/ar_track_alvar/findMarkerBundlesNoKinect
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/ar_track_alvar/trainMarkerBundle
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/ar_track_alvar/individualMarkers
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/ar_track_alvar/CubeCalibrationMarkers
+[100%] Built target individualMarkersNoKinect
+[100%] Built target trainMarkerBundle
+[100%] Built target findMarkerBundlesNoKinect
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/ar_track_alvar/findMarkerBundles
+[100%] Built target individualMarkers
+[100%] Built target CubeCalibrationMarkers
+[100%] Built target findMarkerBundles
+Install the project...
+-- Install configuration: ""
+-- Installing: /home/amd_clmc/team/workspace/install/_setup_util.py
+-- Installing: /home/amd_clmc/team/workspace/install/env.sh
+-- Installing: /home/amd_clmc/team/workspace/install/setup.bash
+-- Installing: /home/amd_clmc/team/workspace/install/setup.sh
+-- Installing: /home/amd_clmc/team/workspace/install/setup.zsh
+-- Installing: /home/amd_clmc/team/workspace/install/.rosinstall
+-- Installing: /home/amd_clmc/team/workspace/install/etc/catkin/profile.d/05.catkin_make.bash
+-- Installing: /home/amd_clmc/team/workspace/install/etc/catkin/profile.d/05.catkin_make_isolated.bash
+-- Installing: /home/amd_clmc/team/workspace/install/lib/pkgconfig/rgbd_capture.pc
+-- Installing: /home/amd_clmc/team/workspace/install/share/rgbd_capture/cmake/rgbd_captureConfig.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/rgbd_capture/cmake/rgbd_captureConfig-version.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/rgbd_capture/package.xml
+-- Installing: /home/amd_clmc/team/workspace/install/share/ar_track_alvar/msg/AlvarMarker.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/ar_track_alvar/msg/AlvarMarkers.msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/ar_track_alvar/cmake/ar_track_alvar-msg-paths.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/include/ar_track_alvar
+-- Installing: /home/amd_clmc/team/workspace/install/include/ar_track_alvar/AlvarMarker.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/ar_track_alvar/AlvarMarkers.h
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/ar_track_alvar
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/ar_track_alvar/msg
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/ar_track_alvar/msg/_package.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/ar_track_alvar/msg/_package_AlvarMarker.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/ar_track_alvar/msg/_package_AlvarMarkers.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/ar_track_alvar/msg/AlvarMarkers.lisp
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/ar_track_alvar/msg/ar_track_alvar-msg.asd
+-- Installing: /home/amd_clmc/team/workspace/install/share/common-lisp/ros/ar_track_alvar/msg/AlvarMarker.lisp
+Listing /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/ar_track_alvar ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/ar_track_alvar/__init__.py ...
+Listing /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/ar_track_alvar/msg ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/ar_track_alvar/msg/_AlvarMarker.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/ar_track_alvar/msg/_AlvarMarkers.py ...
+Compiling /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/ar_track_alvar/msg/__init__.py ...
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/ar_track_alvar
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/ar_track_alvar/__init__.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/ar_track_alvar/__init__.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/ar_track_alvar/msg
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/ar_track_alvar/msg/_AlvarMarkers.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/ar_track_alvar/msg/_AlvarMarker.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/ar_track_alvar/msg/__init__.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/ar_track_alvar/msg/_AlvarMarker.py
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/ar_track_alvar/msg/__init__.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/ar_track_alvar/msg/_AlvarMarkers.pyc
+-- Installing: /home/amd_clmc/team/workspace/install/lib/pkgconfig/ar_track_alvar.pc
+-- Installing: /home/amd_clmc/team/workspace/install/share/ar_track_alvar/cmake/ar_track_alvar-msg-extras.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/ar_track_alvar/cmake/ar_track_alvarConfig.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/ar_track_alvar/cmake/ar_track_alvarConfig-version.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/ar_track_alvar/package.xml
+-- Installing: /home/amd_clmc/team/workspace/install/lib/libar_track_alvar.so
+-- Removed runtime path from "/home/amd_clmc/team/workspace/install/lib/libar_track_alvar.so"
+-- Installing: /home/amd_clmc/team/workspace/install/lib/ar_track_alvar/individualMarkers
+-- Removed runtime path from "/home/amd_clmc/team/workspace/install/lib/ar_track_alvar/individualMarkers"
+-- Installing: /home/amd_clmc/team/workspace/install/lib/ar_track_alvar/individualMarkersNoKinect
+-- Removed runtime path from "/home/amd_clmc/team/workspace/install/lib/ar_track_alvar/individualMarkersNoKinect"
+-- Installing: /home/amd_clmc/team/workspace/install/lib/ar_track_alvar/trainMarkerBundle
+-- Removed runtime path from "/home/amd_clmc/team/workspace/install/lib/ar_track_alvar/trainMarkerBundle"
+-- Installing: /home/amd_clmc/team/workspace/install/lib/ar_track_alvar/findMarkerBundles
+-- Removed runtime path from "/home/amd_clmc/team/workspace/install/lib/ar_track_alvar/findMarkerBundles"
+-- Installing: /home/amd_clmc/team/workspace/install/lib/ar_track_alvar/findMarkerBundlesNoKinect
+-- Removed runtime path from "/home/amd_clmc/team/workspace/install/lib/ar_track_alvar/findMarkerBundlesNoKinect"
+-- Installing: /home/amd_clmc/team/workspace/install/lib/ar_track_alvar/createMarker
+-- Removed runtime path from "/home/amd_clmc/team/workspace/install/lib/ar_track_alvar/createMarker"
+-- Up-to-date: /home/amd_clmc/team/workspace/install/lib/libar_track_alvar.so
+-- Installing: /home/amd_clmc/team/workspace/install/lib/libkinect_filtering.so
+-- Removed runtime path from "/home/amd_clmc/team/workspace/install/lib/libkinect_filtering.so"
+-- Installing: /home/amd_clmc/team/workspace/install/lib/libmedianFilter.so
+-- Removed runtime path from "/home/amd_clmc/team/workspace/install/lib/libmedianFilter.so"
+-- Installing: /home/amd_clmc/team/workspace/install/include/ar_track_alvar
+-- Installing: /home/amd_clmc/team/workspace/install/include/ar_track_alvar/Marker.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/ar_track_alvar/Line.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/ar_track_alvar/AlvarException.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/ar_track_alvar/Bitset.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/ar_track_alvar/Timer_private.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/ar_track_alvar/SfM.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/ar_track_alvar/Platform.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/ar_track_alvar/Tracker.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/ar_track_alvar/IntegralImage.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/ar_track_alvar/CaptureDevice.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/ar_track_alvar/TrackerPsa.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/ar_track_alvar/FernImageDetector.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/ar_track_alvar/FernPoseEstimator.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/ar_track_alvar/UnscentedKalman.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/ar_track_alvar/Container3d.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/ar_track_alvar/DirectoryIterator.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/ar_track_alvar/TrackerStat.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/ar_track_alvar/filter
+-- Installing: /home/amd_clmc/team/workspace/install/include/ar_track_alvar/filter/kinect_filtering.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/ar_track_alvar/filter/medianFilter.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/ar_track_alvar/Ransac.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/ar_track_alvar/Pose.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/ar_track_alvar/Timer.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/ar_track_alvar/Shared.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/ar_track_alvar/Draw.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/ar_track_alvar/MultiMarkerFiltered.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/ar_track_alvar/Mutex_private.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/ar_track_alvar/Optimization.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/ar_track_alvar/DirectoryIterator_private.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/ar_track_alvar/TrackerFeatures.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/ar_track_alvar/Uncopyable.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/ar_track_alvar/TrackerOrientation.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/ar_track_alvar/MultiMarkerBundle.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/ar_track_alvar/Rotation.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/ar_track_alvar/Util.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/ar_track_alvar/TrifocalTensor.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/ar_track_alvar/CapturePlugin.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/ar_track_alvar/GlutViewer.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/ar_track_alvar/CaptureFactory_private.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/ar_track_alvar/Plugin.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/ar_track_alvar/FileFormatUtils.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/ar_track_alvar/MarkerDetector.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/ar_track_alvar/CaptureFactory.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/ar_track_alvar/Alvar.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/ar_track_alvar/Plugin_private.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/ar_track_alvar/Kalman.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/ar_track_alvar/Mutex.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/ar_track_alvar/MultiMarker.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/ar_track_alvar/ConnectedComponents.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/ar_track_alvar/Threads.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/ar_track_alvar/Lock.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/ar_track_alvar/MultiMarkerInitializer.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/ar_track_alvar/Threads_private.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/ar_track_alvar/Capture.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/ar_track_alvar/Filter.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/ar_track_alvar/CvTestbed.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/ar_track_alvar/Camera.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/ar_track_alvar/EC.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/ar_track_alvar/FileFormat.h
+-- Installing: /home/amd_clmc/team/workspace/install/share/ar_track_alvar/launch
+-- Installing: /home/amd_clmc/team/workspace/install/share/ar_track_alvar/launch/pr2_train.launch
+-- Installing: /home/amd_clmc/team/workspace/install/share/ar_track_alvar/launch/pr2_bundle.launch
+-- Installing: /home/amd_clmc/team/workspace/install/share/ar_track_alvar/launch/pr2_indiv.launch
+-- Installing: /home/amd_clmc/team/workspace/install/share/ar_track_alvar/launch/pr2_bundle_no_kinect.launch
+-- Installing: /home/amd_clmc/team/workspace/install/share/ar_track_alvar/launch/pr2_indiv_no_kinect.launch
+Base path: /home/amd_clmc/team/workspace
+Source space: /home/amd_clmc/team/workspace/src
+Build space: /home/amd_clmc/team/workspace/build
+Devel space: /home/amd_clmc/team/workspace/devel
+Install space: /home/amd_clmc/team/workspace/install
+####
+#### Running command: "cmake /home/amd_clmc/team/workspace/src -DCATKIN_DEVEL_PREFIX=/home/amd_clmc/team/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/amd_clmc/team/workspace/install" in "/home/amd_clmc/team/workspace/build"
+####
+####
+#### Running command: "make -j install" in "/home/amd_clmc/team/workspace/build"
+####
