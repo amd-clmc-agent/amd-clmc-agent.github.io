@@ -1,0 +1,913 @@
+COMMAND:catkin_make -j install
+------------------------------
+-- The C compiler identification is GNU
+-- The CXX compiler identification is GNU
+-- Check for working C compiler: /usr/bin/gcc
+-- Check for working C compiler: /usr/bin/gcc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Using CATKIN_DEVEL_PREFIX: /home/amd_clmc/team/workspace/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/groovy
+-- This workspace overlays: /opt/ros/groovy
+-- Found PythonInterp: /usr/bin/python (found version "2.7.3")
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+-- Python version: 2.7
+-- Using Debian Python package layout
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/amd_clmc/team/workspace/build/test_results
+-- Looking for include files CMAKE_HAVE_PTHREAD_H
+-- Looking for include files CMAKE_HAVE_PTHREAD_H - found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE 
+-- Found gtest sources under '/usr/src/gtest': gtests will be built
+-- catkin 0.5.89
+-- BUILD_SHARED_LIBS is on
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- ~~  traversing 31 packages in topological order:
+-- ~~  - apollo_robot_model
+-- ~~  - apollo_moveit_config
+-- ~~  - catkin_gflags
+-- ~~  - catkin_glog
+-- ~~  - demo_robot_model
+-- ~~  - riemo
+-- ~~  - riemo_launch
+-- ~~  - riemo_scripts
+-- ~~  - sab_data
+-- ~~  - amd_clmc_ros_messages
+-- ~~  - riemo_controller_msgs
+-- ~~  - riemo_grasping_msgs
+-- ~~  - riemo_rt
+-- ~~  - dbot_ros_msgs
+-- ~~  - rieef_msgs
+-- ~~  - visualization_2d
+-- ~~  - ellipsoid_msgs
+-- ~~  - octomap_to_ellipsoids
+-- ~~  - riemo_python
+-- ~~  - riemo_kinematics
+-- ~~  - riemo_robots
+-- ~~  - riemo_ros
+-- ~~  - riemo_baxter_interface
+-- ~~  - riemo_programs
+-- ~~  - visualization_3d
+-- ~~  - geodesic_flow
+-- ~~  - sampling_based_planning
+-- ~~  - signed_distance_field
+-- ~~  - rieef_programs
+-- ~~  - rieef_demos
+-- ~~  - sab_planning_behaviors
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- +++ processing catkin package: 'apollo_robot_model'
+-- ==> add_subdirectory(catkin/robots/apollo-robot-model)
+-- +++ processing catkin package: 'apollo_moveit_config'
+-- ==> add_subdirectory(motion-optimization/riemo_ros_pkgs/apollo_moveit_config)
+-- +++ processing catkin package: 'catkin_gflags'
+-- ==> add_subdirectory(catkin/third_party/catkin-gflags)
+-- Found GFLAGS: /usr/local/include 
+-- Found gflags  (include: /usr/local/include, library: /usr/local/lib/libgflags.a)
+-- +++ processing catkin package: 'catkin_glog'
+-- ==> add_subdirectory(catkin/third_party/catkin-glog)
+-- Found GLOG: /usr/local/include 
+-- Found glog    (include: /usr/local/include, library: /usr/local/lib/libglog.so)
+-- +++ processing catkin package: 'demo_robot_model'
+-- ==> add_subdirectory(motion-optimization/riemo_ros_pkgs/demo_robot_model)
+-- +++ processing catkin package: 'riemo'
+-- ==> add_subdirectory(motion-optimization/riemo_catkin)
+------------------------------------------------------------------
+using catkin test functionality
+------------------------------------------------------------------
+cmake source dir: /home/amd_clmc/team/workspace/src
+cmake module path: /home/amd_clmc/team/workspace/src/motion-optimization/cmake/Modules
+--------------------------------------------------------------------
+Project source directory: /home/amd_clmc/team/workspace/src
+Building riemo
+Build type: 
+--------------------------------------------------------------------
+**** No build type set ****
+Eigen directory: /home/amd_clmc/team/workspace/src/motion-optimization/cmake/Modules/Eigen
+-- checking for module 'eigen3'
+--   found eigen3, version 3.0.5
+-- Found Eigen: /usr/include/eigen3 
+-- Eigen found (include: /usr/include/eigen3)
+Eigen include directories: /usr/include/eigen3
+-- Looking for dgemm_
+-- Looking for dgemm_ - found
+-- A library with BLAS API found.
+-- Looking for cheev_
+-- Looking for cheev_ - found
+-- A library with LAPACK API found.
+Lapack: TRUE
+Lapack linker flags: 
+Lapack libraries: /usr/lib/liblapack.so;/usr/lib/libf77blas.so.3gf;/usr/lib/libatlas.so.3gf
+Lapack 95 libraries: 
+-- +++ processing catkin package: 'riemo_launch'
+-- ==> add_subdirectory(motion-optimization/riemo_ros_pkgs/riemo_launch)
+-- +++ processing catkin package: 'riemo_scripts'
+-- ==> add_subdirectory(motion-optimization/riemo_ros_pkgs/riemo_scripts)
+-- +++ processing catkin package: 'sab_data'
+-- ==> add_subdirectory(catkin/ros/sab_data/sab_data)
+-- +++ processing catkin package: 'amd_clmc_ros_messages'
+-- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/amd_clmc_ros_messages)
+-- Using these message generators: gencpp;genlisp;genpy
+-- amd_clmc_ros_messages: 63 messages, 6 services
+-- +++ processing catkin package: 'riemo_controller_msgs'
+-- ==> add_subdirectory(motion-optimization/riemo_ros_pkgs/riemo_controller_msgs)
+-- Using these message generators: gencpp;genlisp;genpy
+-- riemo_controller_msgs: 17 messages, 2 services
+-- +++ processing catkin package: 'riemo_grasping_msgs'
+-- ==> add_subdirectory(motion-optimization/riemo_ros_pkgs/riemo_grasping_msgs)
+-- Using these message generators: gencpp;genlisp;genpy
+-- riemo_grasping_msgs: 5 messages, 3 services
+-- +++ processing catkin package: 'riemo_rt'
+-- ==> add_subdirectory(motion-optimization/riemo_ros_pkgs/riemo_rt)
+-- Eigen found (include: /usr/include/eigen3)
+-- Found LibXml2: /usr/lib/x86_64-linux-gnu/libxml2.so 
+-- +++ processing catkin package: 'dbot_ros_msgs'
+-- ==> add_subdirectory(catkin/ros/dbot_ros_msgs)
+-- Using these message generators: gencpp;genlisp;genpy
+-- dbot_ros_msgs: 2 messages, 0 services
+-- +++ processing catkin package: 'rieef_msgs'
+-- ==> add_subdirectory(catkin/manipulation/riemo_electrical_fields/rieef_msgs)
+-- Using these message generators: gencpp;genlisp;genpy
+-- rieef_msgs: 0 messages, 1 services
+-- +++ processing catkin package: 'visualization_2d'
+-- ==> add_subdirectory(motion-optimization/riemo_ros_pkgs/visualization_2d)
+-- Using these message generators: gencpp;genlisp;genpy
+-- visualization_2d: 5 messages, 1 services
+-- +++ processing catkin package: 'ellipsoid_msgs'
+-- ==> add_subdirectory(catkin/manipulation/riemo_electrical_fields/ellipsoid_msgs)
+-- Using these message generators: gencpp;genlisp;genpy
+-- ellipsoid_msgs: 2 messages, 0 services
+-- Eigen found (include: /usr/include/eigen3)
+-- +++ processing catkin package: 'octomap_to_ellipsoids'
+-- ==> add_subdirectory(catkin/manipulation/riemo_electrical_fields/octomap_to_ellipsoids)
+-- Using these message generators: gencpp;genlisp;genpy
+-- Eigen found (include: /usr/include/eigen3)
+-- Found eigen: /usr/include/eigen3 
+-- Boost version: 1.46.1
+-- Found the following Boost libraries:
+--   system
+--   filesystem
+--   thread
+--   date_time
+--   iostreams
+-- checking for module 'openni-dev'
+--   package 'openni-dev' not found
+-- Could NOT find openni (missing:  OPENNI_INCLUDE_DIRS) 
+** WARNING ** io features related to openni will be disabled
+-- Found libusb-1.0: /usr/include 
+-- checking for module 'flann'
+--   found flann, version 1.7.1
+-- Found Flann: /opt/ros/groovy/lib/libflann_cpp_s.a 
+-- checking for module 'openni-dev'
+--   package 'openni-dev' not found
+-- Could NOT find openni (missing:  OPENNI_INCLUDE_DIRS) 
+** WARNING ** visualization features related to openni will be disabled
+-- Found qhull: /usr/lib/libqhull.so 
+-- looking for PCL_COMMON
+-- Found PCL_COMMON: /opt/ros/groovy/lib/libpcl_common.so 
+-- looking for PCL_OCTREE
+-- Found PCL_OCTREE: /opt/ros/groovy/lib/libpcl_octree.so 
+-- looking for PCL_IO
+-- Found PCL_IO: /opt/ros/groovy/lib/libpcl_io.so 
+-- looking for PCL_KDTREE
+-- Found PCL_KDTREE: /opt/ros/groovy/lib/libpcl_kdtree.so 
+-- looking for PCL_SEARCH
+-- Found PCL_SEARCH: /opt/ros/groovy/lib/libpcl_search.so 
+-- looking for PCL_SAMPLE_CONSENSUS
+-- Found PCL_SAMPLE_CONSENSUS: /opt/ros/groovy/lib/libpcl_sample_consensus.so 
+-- looking for PCL_FILTERS
+-- Found PCL_FILTERS: /opt/ros/groovy/lib/libpcl_filters.so 
+-- looking for PCL_GEOMETRY
+-- Found PCL_GEOMETRY: /opt/ros/groovy/include/pcl-1.6 
+-- looking for PCL_SEGMENTATION
+-- Found PCL_SEGMENTATION: /opt/ros/groovy/lib/libpcl_segmentation.so 
+-- looking for PCL_VISUALIZATION
+-- Found PCL_VISUALIZATION: /opt/ros/groovy/lib/libpcl_visualization.so 
+-- looking for PCL_FEATURES
+-- Found PCL_FEATURES: /opt/ros/groovy/lib/libpcl_features.so 
+-- looking for PCL_SURFACE
+-- Found PCL_SURFACE: /opt/ros/groovy/lib/libpcl_surface.so 
+-- looking for PCL_REGISTRATION
+-- Found PCL_REGISTRATION: /opt/ros/groovy/lib/libpcl_registration.so 
+-- looking for PCL_KEYPOINTS
+-- Found PCL_KEYPOINTS: /opt/ros/groovy/lib/libpcl_keypoints.so 
+-- looking for PCL_TRACKING
+-- Found PCL_TRACKING: /opt/ros/groovy/lib/libpcl_tracking.so 
+-- Found PCL: /usr/lib/libboost_system-mt.so;/usr/lib/libboost_filesystem-mt.so;/usr/lib/libboost_thread-mt.so;pthread;/usr/lib/libboost_date_time-mt.so;/usr/lib/libboost_iostreams-mt.so;optimized;/opt/ros/groovy/lib/libpcl_common.so;debug;/opt/ros/groovy/lib/libpcl_common.so;optimized;/opt/ros/groovy/lib/libpcl_octree.so;debug;/opt/ros/groovy/lib/libpcl_octree.so;vtkCommon;vtkRendering;vtkHybrid;optimized;/opt/ros/groovy/lib/libpcl_io.so;debug;/opt/ros/groovy/lib/libpcl_io.so;optimized;/opt/ros/groovy/lib/libflann_cpp_s.a;debug;/opt/ros/groovy/lib/libflann_cpp_s-gd.a;optimized;/opt/ros/groovy/lib/libpcl_kdtree.so;debug;/opt/ros/groovy/lib/libpcl_kdtree.so;optimized;/opt/ros/groovy/lib/libpcl_search.so;debug;/opt/ros/groovy/lib/libpcl_search.so;optimized;/opt/ros/groovy/lib/libpcl_sample_consensus.so;debug;/opt/ros/groovy/lib/libpcl_sample_consensus.so;optimized;/opt/ros/groovy/lib/libpcl_filters.so;debug;/opt/ros/groovy/lib/libpcl_filters.so;optimized;/opt/ros/groovy/lib/libpcl_segmentation.so;debug;/opt/ros/groovy/lib/libpcl_segmentation.so;optimized;/opt/ros/groovy/lib/libpcl_visualization.so;debug;/opt/ros/groovy/lib/libpcl_visualization.so;optimized;/opt/ros/groovy/lib/libpcl_features.so;debug;/opt/ros/groovy/lib/libpcl_features.so;optimized;/usr/lib/libqhull.so;debug;/usr/lib/libqhull.so;optimized;/opt/ros/groovy/lib/libpcl_surface.so;debug;/opt/ros/groovy/lib/libpcl_surface.so;optimized;/opt/ros/groovy/lib/libpcl_registration.so;debug;/opt/ros/groovy/lib/libpcl_registration.so;optimized;/opt/ros/groovy/lib/libpcl_keypoints.so;debug;/opt/ros/groovy/lib/libpcl_keypoints.so;optimized;/opt/ros/groovy/lib/libpcl_tracking.so;debug;/opt/ros/groovy/lib/libpcl_tracking.so 
+CMAKE_PREFIX_PATH : /home/amd_clmc/team/workspace/devel/opt/ros/groovy
+octomap include_dirs: /opt/ros/groovy/include
+octomap libraries: /opt/ros/groovy/lib
+Eigen include_dirs: /usr/include/eigen3
+Eigen libraries: 
+Eigen version : 
+PCL include_dirs: /opt/ros/groovy/include/pcl-1.6/usr/include/eigen3/usr/include/usr/include/vtk-5.8/opt/ros/groovy/include/usr/include/qhull
+PCL libraries: /usr/lib/libboost_system-mt.so/usr/lib/libboost_filesystem-mt.so/usr/lib/libboost_thread-mt.sopthread/usr/lib/libboost_date_time-mt.so/usr/lib/libboost_iostreams-mt.sooptimized/opt/ros/groovy/lib/libpcl_common.sodebug/opt/ros/groovy/lib/libpcl_common.sooptimized/opt/ros/groovy/lib/libpcl_octree.sodebug/opt/ros/groovy/lib/libpcl_octree.sovtkCommonvtkRenderingvtkHybridoptimized/opt/ros/groovy/lib/libpcl_io.sodebug/opt/ros/groovy/lib/libpcl_io.sooptimized/opt/ros/groovy/lib/libflann_cpp_s.adebug/opt/ros/groovy/lib/libflann_cpp_s-gd.aoptimized/opt/ros/groovy/lib/libpcl_kdtree.sodebug/opt/ros/groovy/lib/libpcl_kdtree.sooptimized/opt/ros/groovy/lib/libpcl_search.sodebug/opt/ros/groovy/lib/libpcl_search.sooptimized/opt/ros/groovy/lib/libpcl_sample_consensus.sodebug/opt/ros/groovy/lib/libpcl_sample_consensus.sooptimized/opt/ros/groovy/lib/libpcl_filters.sodebug/opt/ros/groovy/lib/libpcl_filters.sooptimized/opt/ros/groovy/lib/libpcl_segmentation.sodebug/opt/ros/groovy/lib/libpcl_segmentation.sooptimized/opt/ros/groovy/lib/libpcl_visualization.sodebug/opt/ros/groovy/lib/libpcl_visualization.sooptimized/opt/ros/groovy/lib/libpcl_features.sodebug/opt/ros/groovy/lib/libpcl_features.sooptimized/usr/lib/libqhull.sodebug/usr/lib/libqhull.sooptimized/opt/ros/groovy/lib/libpcl_surface.sodebug/opt/ros/groovy/lib/libpcl_surface.sooptimized/opt/ros/groovy/lib/libpcl_registration.sodebug/opt/ros/groovy/lib/libpcl_registration.sooptimized/opt/ros/groovy/lib/libpcl_keypoints.sodebug/opt/ros/groovy/lib/libpcl_keypoints.sooptimized/opt/ros/groovy/lib/libpcl_tracking.sodebug/opt/ros/groovy/lib/libpcl_tracking.so
+-- +++ processing catkin package: 'riemo_python'
+-- ==> add_subdirectory(motion-optimization/riemo_ros_pkgs/riemo_python)
+-- +++ processing catkin package: 'riemo_kinematics'
+-- ==> add_subdirectory(motion-optimization/riemo_ros_pkgs/riemo_kinematics)
+-- Eigen found (include: /usr/include/eigen3)
+Eigen : /usr/include/eigen3
+Catkin :/home/amd_clmc/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_differential_geometry/include/home/amd_clmc/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_discrete_geometry/include/home/amd_clmc/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_learning/include/home/amd_clmc/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_optimization/include/home/amd_clmc/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_motion/include/home/amd_clmc/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_utilities/include/home/amd_clmc/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_workspace/include/home/amd_clmc/team/workspace/src/motion-optimization/riemo_catkin/riemo/external/include/opt/ros/groovy/include/usr/include
+Current include directories in riemo_kinematics cmakelists file:
+-- dir='/home/amd_clmc/team/workspace/src/motion-optimization/riemo_ros_pkgs/riemo_kinematics/include'
+-- dir='/usr/include/eigen3'
+-- dir='/home/amd_clmc/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_differential_geometry/include'
+-- dir='/home/amd_clmc/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_discrete_geometry/include'
+-- dir='/home/amd_clmc/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_learning/include'
+-- dir='/home/amd_clmc/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_optimization/include'
+-- dir='/home/amd_clmc/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_motion/include'
+-- dir='/home/amd_clmc/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_utilities/include'
+-- dir='/home/amd_clmc/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_workspace/include'
+-- dir='/home/amd_clmc/team/workspace/src/motion-optimization/riemo_catkin/riemo/external/include'
+-- dir='/opt/ros/groovy/include'
+-- dir='/usr/include'
+-- +++ processing catkin package: 'riemo_robots'
+-- ==> add_subdirectory(motion-optimization/riemo_ros_pkgs/riemo_robots)
+-- +++ processing catkin package: 'riemo_ros'
+-- ==> add_subdirectory(motion-optimization/riemo_ros_pkgs/riemo_ros)
+-- Using these message generators: gencpp;genlisp;genpy
+-- Eigen found (include: /usr/include/eigen3)
+-- +++ processing catkin package: 'riemo_baxter_interface'
+-- ==> add_subdirectory(motion-optimization/riemo_ros_pkgs/riemo_baxter_interface)
+-- +++ processing catkin package: 'riemo_programs'
+-- ==> add_subdirectory(motion-optimization/riemo_ros_pkgs/riemo_programs)
+-- Using these message generators: gencpp;genlisp;genpy
+-- Eigen found (include: /usr/include/eigen3)
+-- +++ processing catkin package: 'visualization_3d'
+-- ==> add_subdirectory(catkin/manipulation/riemo_electrical_fields/visualization_3d)
+CMAKE_MODULE_PATH /home/amd_clmc/team/workspace/src/motion-optimization/cmake/Modules;/home/amd_clmc/team/workspace/src/catkin/manipulation/riemo_electrical_fields/visualization_3d/../cmake/Modules
+-- Eigen found (include: /usr/include/eigen3)
+Eigen include_dirs: /usr/include/eigen3
+Eigen libraries: 
+Eigen version : 
+-- checking for module 'libglog'
+--   found libglog, version 0.3.3
+-- Found Glog: glog (found version "0.3.3")
+-- Found gflags: /usr/local/lib/libgflags.a
+-- Found headers: /usr/local/include
+-- +++ processing catkin package: 'geodesic_flow'
+-- ==> add_subdirectory(catkin/manipulation/riemo_electrical_fields/geodesic_flow)
+-- Using these message generators: gencpp;genlisp;genpy
+CMAKE_MODULE_PATH /home/amd_clmc/team/workspace/src/motion-optimization/cmake/Modules;/home/amd_clmc/team/workspace/src/catkin/manipulation/riemo_electrical_fields/geodesic_flow/../cmake/Modules
+-- Eigen found (include: /usr/include/eigen3)
+-- Eigen found (include: /usr/include/eigen3)
+Eigen include_dirs: /usr/include/eigen3
+Eigen libraries: 
+Eigen version : 
+-- Found OMPL: /opt/ros/groovy/lib/libompl.so 
+OMPL include_dirs: /opt/ros/groovy/include
+OMPL libraries: /opt/ros/groovy/lib/libompl.so
+OMPL version : 0.12.2
+OMPL library_dirs : 
+LIBXML2 include_dirs: /usr/include/libxml2
+LIBXML2 libraries: /usr/lib/x86_64-linux-gnu/libxml2.so
+LIBXML2 version : 
+LIBXML2 library_dirs : 
+GLOG include_dirs: /usr/local/include
+GLOG libraries: glog
+GLOG version : 0.3.3
+GLOG library_dirs : /usr/local/lib
+-- Found gflags: /usr/local/lib/libgflags.a
+-- Found headers: /usr/local/include
+GFLAGS include_dirs: 
+GFLAGS libraries: 
+GFLAGS version : 
+GFLAGS library_dirs : 
+-- checking for module 'einspline'
+--   package 'einspline' not found
+-- Could NOT find EINSPLINE (missing:  EINSPLINE_LIBRARIES) 
+einspline include_dirs: 
+einspline libraries: 
+einspline version : 
+einspline library_dirs : 
+catkin_INCLUDE_DIRS : /home/amd_clmc/team/workspace/devel/include/home/amd_clmc/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_differential_geometry/include/home/amd_clmc/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_discrete_geometry/include/home/amd_clmc/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_learning/include/home/amd_clmc/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_optimization/include/home/amd_clmc/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_motion/include/home/amd_clmc/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_utilities/include/home/amd_clmc/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_workspace/include/home/amd_clmc/team/workspace/src/motion-optimization/riemo_catkin/riemo/external/include/home/amd_clmc/team/workspace/src/motion-optimization/riemo_ros_pkgs/riemo_kinematics/include/home/amd_clmc/team/workspace/src/catkin/manipulation/riemo_electrical_fields/visualization_3d/include/opt/ros/groovy/include/usr/include/usr/include/eigen3
+/home/amd_clmc/team/workspace/src/catkin/manipulation/riemo_electrical_fields/geodesic_flow/include/geodesic_flow/analytical_collision_checker.hpp/home/amd_clmc/team/workspace/src/catkin/manipulation/riemo_electrical_fields/geodesic_flow/include/geodesic_flow/utils.hpp/home/amd_clmc/team/workspace/src/catkin/manipulation/riemo_electrical_fields/geodesic_flow/include/geodesic_flow/mesh_importer.hpp/home/amd_clmc/team/workspace/src/catkin/manipulation/riemo_electrical_fields/geodesic_flow/include/geodesic_flow/geodesic_flow.hpp/home/amd_clmc/team/workspace/src/catkin/manipulation/riemo_electrical_fields/geodesic_flow/include/geodesic_flow/class_foward.hpp/home/amd_clmc/team/workspace/src/catkin/manipulation/riemo_electrical_fields/geodesic_flow/include/geodesic_flow/analytical_voxel_grid.hpp/home/amd_clmc/team/workspace/src/catkin/manipulation/riemo_electrical_fields/geodesic_flow/include/geodesic_flow/potential_fields/contours.hpp/home/amd_clmc/team/workspace/src/catkin/manipulation/riemo_electrical_fields/geodesic_flow/include/geodesic_flow/potential_fields/charged_surface.hpp/home/amd_clmc/team/workspace/src/catkin/manipulation/riemo_electrical_fields/geodesic_flow/include/geodesic_flow/potential_fields/regressed_coordinates.hpp/home/amd_clmc/team/workspace/src/catkin/manipulation/riemo_electrical_fields/geodesic_flow/include/geodesic_flow/voxel_grid/DistancePropagation.hpp/home/amd_clmc/team/workspace/src/catkin/manipulation/riemo_electrical_fields/geodesic_flow/include/geodesic_flow/voxel_grid/ThreeDGrid.hpp/home/amd_clmc/team/workspace/src/catkin/manipulation/riemo_electrical_fields/geodesic_flow/include/geodesic_flow/voxel_grid/BaseGrid.hpp/home/amd_clmc/team/workspace/src/catkin/manipulation/riemo_electrical_fields/geodesic_flow/include/geodesic_flow/ompl_motion_planner.hpp
+/home/amd_clmc/team/workspace/src/catkin/manipulation/riemo_electrical_fields/geodesic_flow/include/geodesic_flow/voxel_grid/DistancePropagation.hpp/home/amd_clmc/team/workspace/src/catkin/manipulation/riemo_electrical_fields/geodesic_flow/include/geodesic_flow/voxel_grid/ThreeDGrid.hpp/home/amd_clmc/team/workspace/src/catkin/manipulation/riemo_electrical_fields/geodesic_flow/include/geodesic_flow/voxel_grid/BaseGrid.hpp
+-- +++ processing catkin package: 'sampling_based_planning'
+-- ==> add_subdirectory(catkin/manipulation/riemo_electrical_fields/sampling_based_planning)
+-- Eigen found (include: /usr/include/eigen3)
+Eigen include_dirs: /usr/include/eigen3
+Eigen libraries: 
+Eigen version : 
+OMPL include_dirs: /opt/ros/groovy/include
+OMPL libraries: /opt/ros/groovy/lib/libompl.so
+OMPL version : 0.12.2
+OMPL library_dirs : 
+catkin_INCLUDE_DIRS : /home/amd_clmc/team/workspace/devel/include/home/amd_clmc/team/workspace/src/motion-optimization/riemo_ros_pkgs/riemo_ros/include/home/amd_clmc/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_differential_geometry/include/home/amd_clmc/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_discrete_geometry/include/home/amd_clmc/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_learning/include/home/amd_clmc/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_optimization/include/home/amd_clmc/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_motion/include/home/amd_clmc/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_utilities/include/home/amd_clmc/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_workspace/include/home/amd_clmc/team/workspace/src/motion-optimization/riemo_catkin/riemo/external/include/home/amd_clmc/team/workspace/src/motion-optimization/riemo_ros_pkgs/riemo_kinematics/include/home/amd_clmc/team/workspace/src/motion-optimization/riemo_ros_pkgs/riemo_rt/include/home/amd_clmc/team/workspace/src/motion-optimization/riemo_ros_pkgs/riemo_programs/include/home/amd_clmc/team/workspace/src/catkin/manipulation/riemo_electrical_fields/visualization_3d/include/opt/ros/groovy/include/usr/include/usr/include/eigen3
+ *** CMAKE_CXX_FLAGS: -std=c++11  -g 
+-- +++ processing catkin package: 'signed_distance_field'
+-- ==> add_subdirectory(catkin/manipulation/riemo_electrical_fields/signed_distance_field)
+-- Using these message generators: gencpp;genlisp;genpy
+-- Eigen found (include: /usr/include/eigen3)
+Eigen include_dirs: /usr/include/eigen3
+Eigen libraries: 
+Eigen version : 
+-- checking for module 'openni-dev'
+--   package 'openni-dev' not found
+-- Could NOT find openni (missing:  OPENNI_INCLUDE_DIRS) 
+** WARNING ** io features related to openni will be disabled
+-- checking for module 'openni-dev'
+--   package 'openni-dev' not found
+-- Could NOT find openni (missing:  OPENNI_INCLUDE_DIRS) 
+** WARNING ** visualization features related to openni will be disabled
+-- looking for PCL_COMMON
+-- looking for PCL_OCTREE
+-- looking for PCL_IO
+-- looking for PCL_KDTREE
+-- looking for PCL_SEARCH
+-- looking for PCL_SAMPLE_CONSENSUS
+-- looking for PCL_FILTERS
+-- looking for PCL_GEOMETRY
+-- looking for PCL_SEGMENTATION
+-- looking for PCL_VISUALIZATION
+-- looking for PCL_FEATURES
+-- looking for PCL_SURFACE
+-- looking for PCL_REGISTRATION
+-- looking for PCL_KEYPOINTS
+-- looking for PCL_TRACKING
+-- Found PCL: /usr/lib/libboost_system-mt.so;/usr/lib/libboost_filesystem-mt.so;/usr/lib/libboost_thread-mt.so;/usr/lib/libboost_date_time-mt.so;/usr/lib/libboost_iostreams-mt.so;optimized;/opt/ros/groovy/lib/libpcl_common.so;debug;/opt/ros/groovy/lib/libpcl_common.so;optimized;/opt/ros/groovy/lib/libpcl_octree.so;debug;/opt/ros/groovy/lib/libpcl_octree.so;vtkCommon;vtkRendering;vtkHybrid;optimized;/opt/ros/groovy/lib/libpcl_io.so;debug;/opt/ros/groovy/lib/libpcl_io.so;optimized;/opt/ros/groovy/lib/libflann_cpp_s.a;debug;/opt/ros/groovy/lib/libflann_cpp_s-gd.a;optimized;/opt/ros/groovy/lib/libpcl_kdtree.so;debug;/opt/ros/groovy/lib/libpcl_kdtree.so;optimized;/opt/ros/groovy/lib/libpcl_search.so;debug;/opt/ros/groovy/lib/libpcl_search.so;optimized;/opt/ros/groovy/lib/libpcl_sample_consensus.so;debug;/opt/ros/groovy/lib/libpcl_sample_consensus.so;optimized;/opt/ros/groovy/lib/libpcl_filters.so;debug;/opt/ros/groovy/lib/libpcl_filters.so;optimized;/opt/ros/groovy/lib/libpcl_segmentation.so;debug;/opt/ros/groovy/lib/libpcl_segmentation.so;optimized;/opt/ros/groovy/lib/libpcl_visualization.so;debug;/opt/ros/groovy/lib/libpcl_visualization.so;optimized;/opt/ros/groovy/lib/libpcl_features.so;debug;/opt/ros/groovy/lib/libpcl_features.so;optimized;/usr/lib/libqhull.so;debug;/usr/lib/libqhull.so;optimized;/opt/ros/groovy/lib/libpcl_surface.so;debug;/opt/ros/groovy/lib/libpcl_surface.so;optimized;/opt/ros/groovy/lib/libpcl_registration.so;debug;/opt/ros/groovy/lib/libpcl_registration.so;optimized;/opt/ros/groovy/lib/libpcl_keypoints.so;debug;/opt/ros/groovy/lib/libpcl_keypoints.so;optimized;/opt/ros/groovy/lib/libpcl_tracking.so;debug;/opt/ros/groovy/lib/libpcl_tracking.so 
+PCL include_dirs: /opt/ros/groovy/include/pcl-1.6/usr/include/eigen3/usr/include/usr/include/vtk-5.8/opt/ros/groovy/include/usr/include/qhull
+PCL libraries: /usr/lib/libboost_system-mt.so/usr/lib/libboost_filesystem-mt.so/usr/lib/libboost_thread-mt.so/usr/lib/libboost_date_time-mt.so/usr/lib/libboost_iostreams-mt.sooptimized/opt/ros/groovy/lib/libpcl_common.sodebug/opt/ros/groovy/lib/libpcl_common.sooptimized/opt/ros/groovy/lib/libpcl_octree.sodebug/opt/ros/groovy/lib/libpcl_octree.sovtkCommonvtkRenderingvtkHybridoptimized/opt/ros/groovy/lib/libpcl_io.sodebug/opt/ros/groovy/lib/libpcl_io.sooptimized/opt/ros/groovy/lib/libflann_cpp_s.adebug/opt/ros/groovy/lib/libflann_cpp_s-gd.aoptimized/opt/ros/groovy/lib/libpcl_kdtree.sodebug/opt/ros/groovy/lib/libpcl_kdtree.sooptimized/opt/ros/groovy/lib/libpcl_search.sodebug/opt/ros/groovy/lib/libpcl_search.sooptimized/opt/ros/groovy/lib/libpcl_sample_consensus.sodebug/opt/ros/groovy/lib/libpcl_sample_consensus.sooptimized/opt/ros/groovy/lib/libpcl_filters.sodebug/opt/ros/groovy/lib/libpcl_filters.sooptimized/opt/ros/groovy/lib/libpcl_segmentation.sodebug/opt/ros/groovy/lib/libpcl_segmentation.sooptimized/opt/ros/groovy/lib/libpcl_visualization.sodebug/opt/ros/groovy/lib/libpcl_visualization.sooptimized/opt/ros/groovy/lib/libpcl_features.sodebug/opt/ros/groovy/lib/libpcl_features.sooptimized/usr/lib/libqhull.sodebug/usr/lib/libqhull.sooptimized/opt/ros/groovy/lib/libpcl_surface.sodebug/opt/ros/groovy/lib/libpcl_surface.sooptimized/opt/ros/groovy/lib/libpcl_registration.sodebug/opt/ros/groovy/lib/libpcl_registration.sooptimized/opt/ros/groovy/lib/libpcl_keypoints.sodebug/opt/ros/groovy/lib/libpcl_keypoints.sooptimized/opt/ros/groovy/lib/libpcl_tracking.sodebug/opt/ros/groovy/lib/libpcl_tracking.so
+PCL version : 1.6.0
+catkin_INCLUDE_DIRS : /home/amd_clmc/team/workspace/devel/include/home/amd_clmc/team/workspace/src/catkin/manipulation/riemo_electrical_fields/visualization_3d/include/home/amd_clmc/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_differential_geometry/include/home/amd_clmc/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_discrete_geometry/include/home/amd_clmc/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_learning/include/home/amd_clmc/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_optimization/include/home/amd_clmc/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_motion/include/home/amd_clmc/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_utilities/include/home/amd_clmc/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_workspace/include/home/amd_clmc/team/workspace/src/motion-optimization/riemo_catkin/riemo/external/include/home/amd_clmc/team/workspace/src/motion-optimization/riemo_ros_pkgs/riemo_kinematics/include/home/amd_clmc/team/workspace/src/motion-optimization/riemo_ros_pkgs/riemo_ros/include/home/amd_clmc/team/workspace/src/motion-optimization/riemo_ros_pkgs/riemo_rt/include/home/amd_clmc/team/workspace/src/motion-optimization/riemo_ros_pkgs/riemo_programs/include/home/amd_clmc/team/workspace/src/catkin/manipulation/riemo_electrical_fields/geodesic_flow/include/opt/ros/groovy/include/usr/include/usr/include/eigen3
+-- +++ processing catkin package: 'rieef_programs'
+-- ==> add_subdirectory(catkin/manipulation/riemo_electrical_fields/rieef_programs)
+-- Using these message generators: gencpp;genlisp;genpy
+-- Eigen found (include: /usr/include/eigen3)
+Eigen include_dirs: /usr/include/eigen3
+Eigen libraries: 
+Eigen version : 
+catkin_INCLUDE_DIRS : /home/amd_clmc/team/workspace/devel/include/home/amd_clmc/team/workspace/src/motion-optimization/riemo_ros_pkgs/riemo_ros/include/home/amd_clmc/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_differential_geometry/include/home/amd_clmc/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_discrete_geometry/include/home/amd_clmc/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_learning/include/home/amd_clmc/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_optimization/include/home/amd_clmc/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_motion/include/home/amd_clmc/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_utilities/include/home/amd_clmc/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_workspace/include/home/amd_clmc/team/workspace/src/motion-optimization/riemo_catkin/riemo/external/include/home/amd_clmc/team/workspace/src/motion-optimization/riemo_ros_pkgs/riemo_kinematics/include/home/amd_clmc/team/workspace/src/motion-optimization/riemo_ros_pkgs/riemo_rt/include/home/amd_clmc/team/workspace/src/motion-optimization/riemo_ros_pkgs/riemo_programs/include/home/amd_clmc/team/workspace/src/catkin/manipulation/riemo_electrical_fields/sampling_based_planning/include/home/amd_clmc/team/workspace/src/catkin/manipulation/riemo_electrical_fields/geodesic_flow/include/home/amd_clmc/team/workspace/src/catkin/manipulation/riemo_electrical_fields/visualization_3d/include/home/amd_clmc/team/workspace/src/catkin/manipulation/riemo_electrical_fields/signed_distance_field/include/opt/ros/groovy/include/usr/include/usr/include/eigen3
+*** CMAKE_CXX_FLAGS : -std=c++11  -O3 ***
+-- +++ processing catkin package: 'rieef_demos'
+-- ==> add_subdirectory(catkin/manipulation/riemo_electrical_fields/rieef_demos)
+-- Using these message generators: gencpp;genlisp;genpy
+-- Eigen found (include: /usr/include/eigen3)
+Eigen include_dirs: /usr/include/eigen3
+Eigen libraries: 
+Eigen version : 
+-- +++ processing catkin package: 'sab_planning_behaviors'
+-- ==> add_subdirectory(catkin/manipulation/sab_planning_behaviors/sab_planning_behaviors)
+-- Using these message generators: gencpp;genlisp;genpy
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/amd_clmc/team/workspace/build
+Scanning dependencies of target external
+Scanning dependencies of target sensor_msgs_generate_messages_cpp
+Scanning dependencies of target std_msgs_generate_messages_cpp
+Scanning dependencies of target geometry_msgs_generate_messages_lisp
+Scanning dependencies of target moveit_msgs_generate_messages_py
+Scanning dependencies of target tf_generate_messages_py
+Scanning dependencies of target tf_generate_messages_lisp
+Scanning dependencies of target trajectory_msgs_generate_messages_cpp
+Scanning dependencies of target manipulation_msgs_generate_messages_cpp
+Scanning dependencies of target roscpp_generate_messages_lisp
+Scanning dependencies of target geometry_msgs_generate_messages_cpp
+Scanning dependencies of target manipulation_msgs_generate_messages_py
+Scanning dependencies of target household_objects_database_msgs_generate_messages_py
+Scanning dependencies of target tf_generate_messages_cpp
+Scanning dependencies of target octomap_msgs_generate_messages_cpp
+Scanning dependencies of target household_objects_database_msgs_generate_messages_cpp
+Scanning dependencies of target visualization_msgs_generate_messages_py
+Scanning dependencies of target moveit_msgs_generate_messages_lisp
+Scanning dependencies of target std_msgs_generate_messages_py
+Scanning dependencies of target octomap_msgs_generate_messages_lisp
+Scanning dependencies of target visualization_msgs_generate_messages_cpp
+Scanning dependencies of target rosgraph_msgs_generate_messages_lisp
+Scanning dependencies of target visualization_msgs_generate_messages_lisp
+Scanning dependencies of target geometry_msgs_generate_messages_py
+Scanning dependencies of target actionlib_msgs_generate_messages_cpp
+Scanning dependencies of target sensor_msgs_generate_messages_lisp
+Scanning dependencies of target roscpp_generate_messages_cpp
+Scanning dependencies of target rosgraph_msgs_generate_messages_cpp
+Scanning dependencies of target std_msgs_generate_messages_lisp
+Scanning dependencies of target trajectory_msgs_generate_messages_lisp
+Scanning dependencies of target trajectory_msgs_generate_messages_py
+[  0%] [  0%] Scanning dependencies of target roscpp_generate_messages_py
+Scanning dependencies of target moveit_msgs_generate_messages_cpp
+Scanning dependencies of target octomap_msgs_generate_messages_py
+Scanning dependencies of target object_recognition_msgs_generate_messages_py
+Scanning dependencies of target shape_msgs_generate_messages_py
+Scanning dependencies of target shape_msgs_generate_messages_lisp
+Scanning dependencies of target actionlib_msgs_generate_messages_py
+Scanning dependencies of target rosgraph_msgs_generate_messages_py
+Scanning dependencies of target sensor_msgs_generate_messages_py
+Scanning dependencies of target manipulation_msgs_generate_messages_lisp
+[  0%] [  0%] [  0%] Scanning dependencies of target actionlib_msgs_generate_messages_lisp
+Scanning dependencies of target shape_msgs_generate_messages_cpp
+Scanning dependencies of target household_objects_database_msgs_generate_messages_lisp
+Scanning dependencies of target object_recognition_msgs_generate_messages_lisp
+Scanning dependencies of target object_recognition_msgs_generate_messages_cpp
+[  0%] [  0%] [  0%] [  0%] Built target sensor_msgs_generate_messages_cpp
+Built target geometry_msgs_generate_messages_lisp
+Built target moveit_msgs_generate_messages_py
+Built target std_msgs_generate_messages_cpp
+Built target tf_generate_messages_py
+Built target tf_generate_messages_lisp
+Built target trajectory_msgs_generate_messages_cpp
+Built target roscpp_generate_messages_lisp
+[  0%] Scanning dependencies of target riemo_discrete_geometry
+Building CXX object motion-optimization/riemo_catkin/riemo/external/CMakeFiles/external.dir/src/jsoncpp.o
+[  0%] [  0%] [  0%] [  0%] [  0%] [  0%] Built target manipulation_msgs_generate_messages_cpp
+Built target manipulation_msgs_generate_messages_py
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_lisp
+Built target geometry_msgs_generate_messages_py
+[  0%] [  0%] Built target shape_msgs_generate_messages_py
+Built target moveit_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_cpp
+Built target household_objects_database_msgs_generate_messages_cpp
+Built target rosgraph_msgs_generate_messages_py
+Built target object_recognition_msgs_generate_messages_py
+Built target tf_generate_messages_cpp
+[  0%] [  0%] [  0%] Built target household_objects_database_msgs_generate_messages_py
+Built target sensor_msgs_generate_messages_py
+Built target visualization_msgs_generate_messages_py
+[  0%] [  0%] [  0%] Built target octomap_msgs_generate_messages_cpp
+[  0%] [  0%] [  0%] Built target octomap_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_py
+Built target roscpp_generate_messages_py
+[  0%] Built target object_recognition_msgs_generate_messages_lisp
+Built target rosgraph_msgs_generate_messages_cpp
+Built target sensor_msgs_generate_messages_lisp
+[  0%] [  0%] [  0%] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] [  0%] [  0%] [  0%] [  0%] [  0%] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+Built target visualization_msgs_generate_messages_cpp
+Built target visualization_msgs_generate_messages_lisp
+Built target octomap_msgs_generate_messages_lisp
+Built target trajectory_msgs_generate_messages_lisp
+Built target moveit_msgs_generate_messages_cpp
+Built target manipulation_msgs_generate_messages_lisp
+Built target actionlib_msgs_generate_messages_lisp
+Built target household_objects_database_msgs_generate_messages_lisp
+Built target trajectory_msgs_generate_messages_py
+Built target shape_msgs_generate_messages_cpp
+[  0%] Scanning dependencies of target amd_clmc_ros_messages_generate_messages_cpp
+Scanning dependencies of target visualization_2d_generate_messages_cpp
+[  0%] cc1plus: error: unrecognized command line option '-std=c++11'
+[  0%] Built target actionlib_msgs_generate_messages_py
+Built target object_recognition_msgs_generate_messages_cpp
+Scanning dependencies of target rieef_msgs_generate_messages_cpp
+Scanning dependencies of target amd_clmc_ros_messages_generate_messages_lisp
+Scanning dependencies of target ellipsoid_msgs_generate_messages_lisp
+Scanning dependencies of target riemo_grasping_msgs_generate_messages_cpp
+Scanning dependencies of target dbot_ros_msgs_generate_messages_cpp
+Scanning dependencies of target riemo_controller_msgs_generate_messages_cpp
+Scanning dependencies of target riemo_grasping_msgs_generate_messages_lisp
+make[2]: *** [motion-optimization/riemo_catkin/riemo/external/CMakeFiles/external.dir/src/jsoncpp.o] Error 1
+Built target shape_msgs_generate_messages_lisp
+make[1]: *** [motion-optimization/riemo_catkin/riemo/external/CMakeFiles/external.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+Scanning dependencies of target riemo_controller_msgs_generate_messages_lisp
+Scanning dependencies of target riemo_controller_msgs_generate_messages_py
+Scanning dependencies of target visualization_2d_generate_messages_lisp
+Scanning dependencies of target amd_clmc_ros_messages_generate_messages_py
+Scanning dependencies of target ellipsoid_msgs_generate_messages_cpp
+Scanning dependencies of target riemo_grasping_msgs_generate_messages_py
+Scanning dependencies of target dbot_ros_msgs_generate_messages_py
+Scanning dependencies of target rieef_msgs_generate_messages_lisp
+Scanning dependencies of target rieef_msgs_generate_messages_py
+Scanning dependencies of target dbot_ros_msgs_generate_messages_lisp
+Scanning dependencies of target riemo_learning
+[  0%] Scanning dependencies of target riemo_utilities_test
+[  0%] [  0%] [  0%] [  0%] [  1%] [  1%] [  2%] [  2%] [  2%] [  2%] [  3%] [  3%] [  3%] [  3%] [  3%] [  3%] [  3%] [  3%] [  3%] [  3%] Scanning dependencies of target riemo_utilities
+[  3%] [  3%] [  3%] [  4%] [  4%] [  4%] [  4%] [  5%] [  6%] [  6%] [  8%] [  8%] [  9%] Scanning dependencies of target visualization_2d_generate_messages_py
+[  9%] [  9%] [  9%] [ 10%] [ 10%] [ 10%] [ 10%] [ 10%] [ 10%] [ 10%] [ 10%] [ 10%] [ 10%] [ 10%] [ 10%] [ 10%] [ 10%] [ 10%] [ 11%] [ 12%] [ 12%] [ 12%] [ 12%] [ 12%] [ 12%] [ 12%] Scanning dependencies of target riemo_optimization
+[ 15%] [ 15%] [ 15%] [ 15%] [ 16%] [ 16%] [ 16%] [ 16%] [ 16%] [ 16%] [ 16%] [ 16%] [ 16%] [ 16%] [ 16%] [ 16%] [ 16%] [ 16%] [ 16%] [ 16%] [ 16%] [ 16%] [ 16%] [ 16%] [ 16%] [ 16%] [ 16%] [ 17%] [ 17%] [ 17%] [ 17%] [ 17%] [ 18%] [ 19%] [ 20%] [ 20%] [ 20%] [ 20%] [ 20%] [ 22%] [ 22%] [ 22%] [ 23%] [ 23%] [ 23%] [ 23%] Scanning dependencies of target riemo_motion
+[ 23%] [ 23%] [ 24%] [ 24%] [ 24%] [ 24%] [ 24%] [ 24%] [ 24%] [ 24%] [ 25%] [ 25%] [ 25%] [ 25%] Generating Python from MSG amd_clmc_ros_messages/OfflineNetwork
+Generating C++ code from amd_clmc_ros_messages/ResetBreakaway.msg
+[ 25%] [ 25%] [ 25%] [ 25%] [ 25%] [ 26%] [ 26%] [ 26%] [ 26%] [ 26%] [ 26%] [ 26%] [ 26%] [ 27%] [ 27%] [ 27%] [ 27%] [ 27%] [ 27%] [ 27%] [ 27%] [ 27%] Scanning dependencies of target riemo_differential_geometry
+[ 29%] [ 29%] [ 29%] [ 29%] [ 29%] [ 29%] [ 29%] [ 29%] [ 30%] [ 31%] [ 31%] [ 31%] [ 32%] [ 32%] [ 32%] [ 32%] [ 32%] [ 32%] [ 32%] [ 32%] [ 32%] [ 32%] [ 33%] [ 33%] Generating Lisp code from amd_clmc_ros_messages/CartesianTrajectory.msg
+[ 34%] [ 36%] [ 36%] [ 36%] [ 37%] [ 37%] [ 37%] [ 37%] [ 37%] [ 37%] [ 37%] [ 37%] [ 37%] [ 37%] [ 37%] [ 37%] [ 37%] Generating C++ code from visualization_2d/Num.msg
+[ 37%] [ 37%] [ 37%] [ 37%] [ 38%] [ 38%] [ 38%] Generating Lisp code from amd_clmc_ros_messages/LinearQuadraticRegulator.msg
+[ 38%] [ 39%] [ 40%] [ 41%] [ 41%] Generating C++ code from amd_clmc_ros_messages/LqrControllerParams.msg
+[ 41%] [ 41%] [ 41%] [ 41%] [ 43%] [ 43%] [ 44%] [ 44%] Generating C++ code from amd_clmc_ros_messages/CalibratePressureSensors.msg
+[ 45%] Generating C++ code from amd_clmc_ros_messages/CollectDataStatus.msg
+[ 46%] [ 46%] [ 47%] [ 47%] [ 47%] Generating C++ code from amd_clmc_ros_messages/Grasp.msg
+[ 48%] [ 48%] [ 48%] [ 48%] [ 50%] Generating Lisp code from amd_clmc_ros_messages/CalibrateBiotacSensorsStatus.msg
+[ 50%] Generating Lisp code from riemo_grasping_msgs/GraspableObject.msg
+[ 50%] [ 50%] [ 50%] [ 50%] Generating Lisp code from amd_clmc_ros_messages/GraspPoses.msg
+[ 50%] [ 50%] [ 50%] [ 50%] [ 50%] [ 50%] [ 50%] [ 50%] [ 50%] [ 50%] [ 51%] Generating C++ code from amd_clmc_ros_messages/ControllerStatus.msg
+[ 52%] [ 53%] [ 53%] [ 53%] Generating Lisp code from riemo_grasping_msgs/GraspProblemInfo.msg
+Generating C++ code from amd_clmc_ros_messages/OnlineDataStatus.msg
+Generating C++ code from amd_clmc_ros_messages/FingerJointEncoderOffsets.msg
+[ 54%] [ 54%] Generating C++ code from visualization_2d/ValueField2D.msg
+Generating C++ code from riemo_grasping_msgs/GraspableObject.msg
+[ 54%] [ 54%] [ 54%] Generating C++ code from amd_clmc_ros_messages/CalibrateAccelerometerSensor.msg
+Generating Lisp code from amd_clmc_ros_messages/Grasp.msg
+[ 54%] [ 54%] [ 55%] [ 55%] Generating Lisp code from riemo_controller_msgs/SwitchControllerStack.srv
+Generating C++ code from amd_clmc_ros_messages/DriftingControllerParams.msg
+[ 55%] [ 56%] [ 56%] [ 56%] [ 56%] [ 56%] [ 56%] [ 56%] [ 56%] Generating C++ code from riemo_grasping_msgs/RenderGraspProblemService.srv
+Generating Python from MSG dbot_ros_msgs/ObjectsState
+Generating C++ code from amd_clmc_ros_messages/LinearQuadraticRegulator.msg
+[ 56%] [ 56%] [ 56%] [ 58%] [ 58%] [ 58%] [ 58%] [ 59%] [ 59%] [ 59%] [ 59%] [ 59%] [ 59%] Generating Lisp code from amd_clmc_ros_messages/CalibratePressureSensorsStatus.msg
+[ 59%] [ 59%] [ 59%] [ 60%] [ 60%] [ 60%] [ 60%] [ 60%] Generating Lisp code from riemo_controller_msgs/EndEffectorPosition.msg
+[ 60%] [ 60%] [ 60%] Generating C++ code from amd_clmc_ros_messages/DistanceFieldEval.msg
+Generating Lisp code from riemo_controller_msgs/LinearQuadraticRegulatorStatus.msg
+[ 61%] [ 61%] Generating Python from MSG riemo_controller_msgs/DistanceFieldQueries
+Generating Python from MSG amd_clmc_ros_messages/ChordEllipsoid
+[ 61%] [ 62%] Generating C++ code from amd_clmc_ros_messages/ChordEllipsoid.msg
+Generating Lisp code from amd_clmc_ros_messages/CartesianGains.msg
+[ 62%] [ 62%] Generating Python code from SRV riemo_grasping_msgs/UpdateGraspProblem
+[ 62%] Generating Lisp code from amd_clmc_ros_messages/GraspStatus.msg
+[ 62%] [ 62%] Generating C++ code from amd_clmc_ros_messages/AvgPressureSensors.msg
+[ 63%] [ 63%] [ 63%] Generating C++ code from amd_clmc_ros_messages/CartesianTrajectory.msg
+Generating C++ code from visualization_2d/Point2D.msg
+[ 63%] Generating C++ code from riemo_controller_msgs/DistanceFieldEval.msg
+Generating C++ code from riemo_controller_msgs/KeyPointBodyApprox.msg
+[ 63%] [ 63%] [ 63%] Generating C++ code from amd_clmc_ros_messages/EnvironmentalObject.msg
+[ 63%] Generating C++ code from amd_clmc_ros_messages/TrackingPose.msg
+[ 63%] [ 63%] Generating C++ code from amd_clmc_ros_messages/CalibratePressureSensorsStatus.msg
+Generating Lisp code from amd_clmc_ros_messages/ExperimentParams.msg
+[ 63%] [ 65%] Generating Lisp code from amd_clmc_ros_messages/QueryControllerStatus.srv
+Generating Lisp code from amd_clmc_ros_messages/EndEffectorState.msg
+Generating C++ code from amd_clmc_ros_messages/ExperimentParams.msg
+Generating Lisp code from riemo_grasping_msgs/GraspPose.msg
+Generating Lisp code from riemo_controller_msgs/ObstaclePoints.msg
+Generating C++ code from amd_clmc_ros_messages/SetVisualToolTracking.msg
+Generating C++ code from dbot_ros_msgs/ObjectState.msg
+Generating Lisp code from amd_clmc_ros_messages/PressureSensors.msg
+[ 65%] [ 65%] [ 65%] [ 65%] [ 65%] Generating C++ code from amd_clmc_ros_messages/ExperimentGeneratorParamsService.srv
+Generating Python from MSG riemo_controller_msgs/ChordEllipsoid
+[ 65%] [ 65%] [ 65%] Generating C++ code from amd_clmc_ros_messages/Sphere.msg
+Generating Lisp code from riemo_grasping_msgs/LatestGraspProblemInfo.srv
+Generating Lisp code from amd_clmc_ros_messages/ControllerStatus.msg
+Generating C++ code from amd_clmc_ros_messages/GraspPoses.msg
+Generating C++ code from amd_clmc_ros_messages/CalibrateAccelerometerSensorStatus.msg
+[ 65%] Generating Lisp code from ellipsoid_msgs/Ellipsoid.msg
+[ 65%] [ 65%] Generating C++ code from rieef_msgs/FreezeOctomap.srv
+Generating Lisp code from amd_clmc_ros_messages/SwitchControllerStack.srv
+Generating C++ code from amd_clmc_ros_messages/ObjectMass.msg
+[ 65%] Generating C++ code from amd_clmc_ros_messages/SwitchControllerStack.srv
+Generating Python from MSG amd_clmc_ros_messages/OfflineDataStatus
+Generating C++ code from riemo_controller_msgs/AdaptiveControlExperimentData.msg
+Generating Python from MSG amd_clmc_ros_messages/FingerJointEncoderOffsetsStatus
+[ 65%] Generating C++ code from amd_clmc_ros_messages/EndEffectorState.msg
+Generating Python from MSG riemo_controller_msgs/LinearQuadraticRegulator
+Generating C++ code from visualization_2d/Trajectory2D.msg
+Generating C++ code from riemo_controller_msgs/LinearQuadraticRegulator.msg
+[ 65%] [ 65%] Generating C++ code from amd_clmc_ros_messages/TaskFrame.msg
+Generating C++ code from amd_clmc_ros_messages/ObstaclePoints.msg
+Generating C++ code from amd_clmc_ros_messages/OfflineDataStatus.msg
+Generating C++ code from amd_clmc_ros_messages/AccelerationFeedbackExperimentStatus.msg
+Generating C++ code from amd_clmc_ros_messages/UpdateStrainGagesCalibrationStatus.msg
+Generating Python from MSG amd_clmc_ros_messages/EnvironmentalObject
+Generating Lisp code from amd_clmc_ros_messages/DriftingControllerParams.msg
+Generating Lisp code from amd_clmc_ros_messages/ChordEllipsoid.msg
+Generating C++ code from amd_clmc_ros_messages/CartesianGains.msg
+Generating C++ code from amd_clmc_ros_messages/Matrix32.msg
+Generating C++ code from amd_clmc_ros_messages/NetworkLayer.msg
+Generating Lisp code from amd_clmc_ros_messages/TaskFrame.msg
+Generating C++ code from amd_clmc_ros_messages/CalibrateForceTorqueSensor.msg
+Building CXX object motion-optimization/riemo_catkin/riemo/riemo_discrete_geometry/CMakeFiles/riemo_discrete_geometry.dir/src/geometry.o
+Generating Python from MSG amd_clmc_ros_messages/PressureSensors
+[ 65%] Generating C++ code from riemo_controller_msgs/Matrix32.msg
+Generating Lisp code from riemo_controller_msgs/AccelerationFeedbackExperimentStatus.msg
+Generating Python code from SRV riemo_controller_msgs/ExperimentGeneratorParamsService
+Generating Lisp code from visualization_2d/Point2D.msg
+Generating C++ code from amd_clmc_ros_messages/LinearQuadraticRegulatorStatus.msg
+Generating Python from MSG amd_clmc_ros_messages/CalibrateBiotacSensors
+Generating C++ code from amd_clmc_ros_messages/Trajectory.msg
+Generating C++ code from riemo_controller_msgs/ObstaclePoints.msg
+Generating C++ code from riemo_controller_msgs/ExperimentParams.msg
+Generating Lisp code from amd_clmc_ros_messages/CollectData.msg
+Generating C++ code from amd_clmc_ros_messages/IncreaseMaxFingerTorque.msg
+[ 65%] Generating Lisp code from amd_clmc_ros_messages/CalibrateForceTorqueSensorStatus.msg
+Generating Lisp code from amd_clmc_ros_messages/AccelerationFeedbackExperimentStatus.msg
+Generating C++ code from visualization_2d/Problem2D.msg
+Generating C++ code from amd_clmc_ros_messages/OfflineParamsService.srv
+Generating Lisp code from riemo_controller_msgs/AdaptiveControlExperimentData.msg
+Generating Lisp code from amd_clmc_ros_messages/CalibrateAccelerometerSensorStatus.msg
+Generating C++ code from riemo_controller_msgs/ChordEllipsoid.msg
+[ 65%] Generating C++ code from riemo_controller_msgs/LqrProblem.msg
+Generating Python from MSG amd_clmc_ros_messages/UpdateStrainGagesCalibration
+Generating Lisp code from amd_clmc_ros_messages/ExperimentGeneratorParamsService.srv
+[ 65%] [ 66%] Generating Lisp code from amd_clmc_ros_messages/Sphere.msg
+Generating Python from MSG amd_clmc_ros_messages/DistanceFieldQueries
+Generating Python from MSG riemo_grasping_msgs/GraspPose
+Generating C++ code from amd_clmc_ros_messages/CollectData.msg
+[ 66%] Generating Lisp code from riemo_controller_msgs/Matrix32.msg
+Generating Lisp code from amd_clmc_ros_messages/NetworkLayer.msg
+Generating C++ code from amd_clmc_ros_messages/EndEffectorPosition.msg
+[ 66%] Generating C++ code from riemo_controller_msgs/AccelerationFeedbackExperimentStatus.msg
+Generating C++ code from amd_clmc_ros_messages/CalibrateForceTorqueSensorStatus.msg
+Generating C++ code from riemo_grasping_msgs/GraspPose.msg
+Generating C++ code from amd_clmc_ros_messages/TrajectoryPoint.msg
+Generating Python from MSG amd_clmc_ros_messages/TrajectoryPoint
+Generating C++ code from amd_clmc_ros_messages/FingerForceControlGains.msg
+Generating C++ code from amd_clmc_ros_messages/CalibrateBiotacSensorsStatus.msg
+Generating Python from MSG amd_clmc_ros_messages/Preshape
+Generating Lisp code from amd_clmc_ros_messages/OfflineDataStatus.msg
+Generating Lisp code from amd_clmc_ros_messages/LinearQuadraticRegulatorStatus.msg
+Generating Python from MSG amd_clmc_ros_messages/SetVisualToolTracking
+Generating Python from MSG riemo_controller_msgs/LinearQuadraticRegulatorParams
+Generating C++ code from amd_clmc_ros_messages/OfflineParams.msg
+[ 67%] Generating Lisp code from amd_clmc_ros_messages/EnvironmentalObject.msg
+Generating C++ code from amd_clmc_ros_messages/ResetBreakawayStatus.msg
+[ 68%] Generating Lisp code from amd_clmc_ros_messages/Gains.msg
+[ 68%] Generating Lisp code from riemo_controller_msgs/Sphere.msg
+Generating Python from MSG amd_clmc_ros_messages/CollectData
+[ 68%] Generating Lisp code from amd_clmc_ros_messages/TrajectoryPoint.msg
+Building CXX object motion-optimization/riemo_catkin/riemo/riemo_utilities/CMakeFiles/riemo_utilities.dir/src/timer.o
+Generating Python from MSG riemo_controller_msgs/DistanceFieldEval
+Generating C++ code from riemo_controller_msgs/SwitchControllerStack.srv
+Generating C++ code from amd_clmc_ros_messages/KeyPointBodyApprox.msg
+Generating Lisp code from riemo_controller_msgs/DistanceFieldQueries.msg
+Generating Python from MSG amd_clmc_ros_messages/GraspPoses
+Generating Python code from SRV riemo_grasping_msgs/RenderGraspProblemService
+Generating Lisp code from amd_clmc_ros_messages/LinearQuadraticRegulatorParams.msg
+Generating Lisp code from riemo_grasping_msgs/MpiGraspPoses.msg
+Generating Python from MSG riemo_controller_msgs/AccelerationFeedbackExperimentStatus
+Generating Lisp code from riemo_controller_msgs/ExperimentParams.msg
+Generating C++ code from amd_clmc_ros_messages/OfflineNetwork.msg
+Generating Python from MSG amd_clmc_ros_messages/KeyPointBodyApprox
+Generating Lisp code from riemo_controller_msgs/EnvironmentalObject.msg
+Generating Lisp code from amd_clmc_ros_messages/CartesianTrajectoryPoint.msg
+Generating Python from MSG amd_clmc_ros_messages/BiotacData
+Generating Lisp code from amd_clmc_ros_messages/ResetBreakawayStatus.msg
+Generating Lisp code from amd_clmc_ros_messages/SetVisualToolTracking.msg
+Generating C++ code from amd_clmc_ros_messages/PressureSensors.msg
+Generating C++ code from visualization_2d/Problem2DVis.srv
+Generating Lisp code from riemo_controller_msgs/AffinePolicy.msg
+Generating Python from MSG amd_clmc_ros_messages/CartesianGains
+[ 69%] Generating C++ code from amd_clmc_ros_messages/BiotacData.msg
+Generating Lisp code from riemo_grasping_msgs/Preshape.msg
+Generating C++ code from amd_clmc_ros_messages/LinearQuadraticRegulatorParams.msg
+Generating C++ code from riemo_grasping_msgs/Preshape.msg
+Generating C++ code from riemo_controller_msgs/LinearQuadraticRegulatorParams.msg
+Generating C++ code from amd_clmc_ros_messages/FingerJointEncoderOffsetsStatus.msg
+Generating Lisp code from riemo_controller_msgs/ChordEllipsoid.msg
+Generating Python from MSG amd_clmc_ros_messages/OnlineDataStatus
+Generating Python from MSG amd_clmc_ros_messages/TrackingPose
+Generating Lisp code from amd_clmc_ros_messages/FingerJointEncoderOffsetsStatus.msg
+Generating C++ code from riemo_controller_msgs/LinearQuadraticRegulatorStatus.msg
+Generating Lisp code from amd_clmc_ros_messages/LqrControllerParams.msg
+Generating Lisp code from rieef_msgs/FreezeOctomap.srv
+Generating Lisp code from riemo_controller_msgs/LinearQuadraticRegulator.msg
+Generating Python from MSG amd_clmc_ros_messages/OfflineParams
+Generating Lisp code from amd_clmc_ros_messages/CollectDataStatus.msg
+[ 69%] Building CXX object motion-optimization/riemo_catkin/riemo/riemo_learning/CMakeFiles/riemo_learning.dir/src/learning.o
+Generating Python from MSG amd_clmc_ros_messages/LqrControllerParams
+Generating Lisp code from riemo_grasping_msgs/RenderGraspProblemService.srv
+Generating Python from MSG amd_clmc_ros_messages/CalibratePressureSensors
+Generating Lisp code from amd_clmc_ros_messages/UpdateStrainGagesCalibrationStatus.msg
+Generating Python from MSG amd_clmc_ros_messages/Acceleration
+Generating Lisp code from riemo_controller_msgs/KeyPointBodyApprox.msg
+Generating C++ code from riemo_controller_msgs/Sphere.msg
+Generating Python from MSG amd_clmc_ros_messages/DistanceFieldEval
+Generating Python from MSG amd_clmc_ros_messages/FingerJointEncoderOffsets
+Generating C++ code from riemo_controller_msgs/ExperimentGeneratorParamsService.srv
+Generating Lisp code from amd_clmc_ros_messages/Acceleration.msg
+Generating Lisp code from riemo_controller_msgs/ExperimentGeneratorParamsService.srv
+Generating C++ code from amd_clmc_ros_messages/DistanceFieldQueries.msg
+Generating C++ code from riemo_grasping_msgs/LatestGraspProblemInfo.srv
+Generating Lisp code from riemo_grasping_msgs/UpdateGraspProblem.srv
+Generating Python from MSG riemo_controller_msgs/Sphere
+Generating Python code from SRV riemo_grasping_msgs/LatestGraspProblemInfo
+Generating Lisp code from amd_clmc_ros_messages/KeyPointBodyApprox.msg
+Generating Lisp code from visualization_2d/ValueField2D.msg
+Generating Lisp code from visualization_2d/Num.msg
+Generating Python from MSG amd_clmc_ros_messages/DriftingControllerDataStatus
+Generating Python from MSG riemo_controller_msgs/EnvironmentalObject
+Generating Python code from SRV visualization_2d/Problem2DVis
+Generating Python code from SRV riemo_controller_msgs/SwitchControllerStack
+Generating Python from MSG amd_clmc_ros_messages/EndEffectorPosition
+Generating Lisp code from riemo_controller_msgs/LinearQuadraticRegulatorParams.msg
+Generating Lisp code from amd_clmc_ros_messages/Preshape.msg
+Generating Lisp code from ellipsoid_msgs/EllipsoidArray.msg
+Generating C++ code from amd_clmc_ros_messages/QueryControllerStatus.srv
+Generating C++ code from amd_clmc_ros_messages/Acceleration.msg
+Generating C++ code from amd_clmc_ros_messages/DriftingControllerDataStatus.msg
+Generating Lisp code from amd_clmc_ros_messages/OnlineDataStatus.msg
+Generating C++ code from riemo_controller_msgs/AffinePolicy.msg
+Generating Lisp code from amd_clmc_ros_messages/OfflineNetwork.msg
+Generating Lisp code from amd_clmc_ros_messages/Trajectory.msg
+Generating Lisp code from amd_clmc_ros_messages/Matrix32.msg
+Generating Lisp code from riemo_controller_msgs/DistanceFieldEval.msg
+[ 69%] Generating Lisp code from dbot_ros_msgs/ObjectState.msg
+Generating Python from MSG riemo_grasping_msgs/Preshape
+Generating C++ code from amd_clmc_ros_messages/DriftingControllerParamsService.srv
+Generating Lisp code from amd_clmc_ros_messages/DistanceFieldEval.msg
+Generating Python from MSG amd_clmc_ros_messages/ObjectMass
+[ 69%] Generating Python code from SRV amd_clmc_ros_messages/OfflineParamsService
+Building CXX object motion-optimization/riemo_catkin/riemo/riemo_utilities/CMakeFiles/riemo_utilities.dir/src/command_line_arguments.o
+Generating C++ code from amd_clmc_ros_messages/AffinePolicy.msg
+Generating Python from MSG amd_clmc_ros_messages/CalibrateAccelerometerSensor
+Generating Python from MSG amd_clmc_ros_messages/StrainGauge
+Generating C++ code from amd_clmc_ros_messages/CalibrateBiotacSensors.msg
+Generating Lisp code from amd_clmc_ros_messages/DriftingControllerDataStatus.msg
+Generating C++ code from riemo_grasping_msgs/GraspProblemInfo.msg
+Generating Python from MSG amd_clmc_ros_messages/FingerForceControlGains
+Generating Python from MSG amd_clmc_ros_messages/EndEffectorState
+Generating Python from MSG riemo_controller_msgs/Matrix32
+[ 70%] Generating Python from MSG amd_clmc_ros_messages/AffinePolicy
+Generating Lisp code from amd_clmc_ros_messages/FingerJointEncoderOffsets.msg
+Generating Python from MSG amd_clmc_ros_messages/ControllerStatus
+Generating C++ code from riemo_controller_msgs/EndEffectorPosition.msg
+Generating Lisp code from amd_clmc_ros_messages/CalibratePressureSensors.msg
+Generating Lisp code from riemo_controller_msgs/LqrProblem.msg
+Generating Lisp code from amd_clmc_ros_messages/FingerForceControlGains.msg
+Generating Lisp code from dbot_ros_msgs/ObjectsState.msg
+Generating C++ code from amd_clmc_ros_messages/TrajectoryStatus.msg
+Generating C++ code from amd_clmc_ros_messages/UpdateStrainGagesCalibration.msg
+Generating C++ code from amd_clmc_ros_messages/Gains.msg
+Generating C++ code from amd_clmc_ros_messages/Preshape.msg
+Generating C++ code from riemo_controller_msgs/DistanceFieldQueries.msg
+Generating Python from MSG riemo_grasping_msgs/GraspProblemInfo
+Generating C++ code from riemo_controller_msgs/EnvironmentalObject.msg
+Generating Python from MSG dbot_ros_msgs/ObjectState
+Generating Python from MSG amd_clmc_ros_messages/Trajectory
+Generating Python from MSG amd_clmc_ros_messages/Grasp
+Generating Lisp code from amd_clmc_ros_messages/CalibrateForceTorqueSensor.msg
+Generating Python from MSG riemo_controller_msgs/LqrProblem
+Generating Lisp code from amd_clmc_ros_messages/CalibrateAccelerometerSensor.msg
+Generating Lisp code from amd_clmc_ros_messages/LqrControllerParamsService.srv
+Generating Python from MSG riemo_grasping_msgs/GraspableObject
+Generating Lisp code from amd_clmc_ros_messages/AffinePolicy.msg
+Generating Python from MSG riemo_controller_msgs/ObstaclePoints
+Generating Lisp code from amd_clmc_ros_messages/TrajectoryStatus.msg
+Generating Python code from SRV rieef_msgs/FreezeOctomap
+Generating Python from MSG riemo_controller_msgs/LinearQuadraticRegulatorStatus
+Generating Lisp code from amd_clmc_ros_messages/TrackingPose.msg
+Building CXX object motion-optimization/riemo_catkin/riemo/riemo_utilities/CMakeFiles/riemo_utilities.dir/src/threading_utils.o
+Generating Python from MSG amd_clmc_ros_messages/CalibrateBiotacSensorsStatus
+Generating Lisp code from visualization_2d/Problem2D.msg
+Generating Python from MSG amd_clmc_ros_messages/Matrix32
+Generating C++ code from amd_clmc_ros_messages/GraspStatus.msg
+Generating Lisp code from amd_clmc_ros_messages/StrainGauge.msg
+Generating Python from MSG riemo_controller_msgs/KeyPointBodyApprox
+[ 70%] Generating Python code from SRV amd_clmc_ros_messages/LqrControllerParamsService
+Generating Python from MSG riemo_controller_msgs/AdaptiveControlExperimentData
+Generating Python from MSG amd_clmc_ros_messages/CalibrateAccelerometerSensorStatus
+Generating Lisp code from amd_clmc_ros_messages/DriftingControllerParamsService.srv
+Generating Lisp code from visualization_2d/Problem2DVis.srv
+Generating Lisp code from amd_clmc_ros_messages/CalibrateBiotacSensors.msg
+Generating Python from MSG amd_clmc_ros_messages/CollectDataStatus
+Generating Python from MSG amd_clmc_ros_messages/UpdateStrainGagesCalibrationStatus
+Generating C++ code from ellipsoid_msgs/Ellipsoid.msg
+Generating Python from MSG amd_clmc_ros_messages/CalibrateForceTorqueSensorStatus
+Generating Lisp code from amd_clmc_ros_messages/EndEffectorPosition.msg
+Generating Python from MSG riemo_controller_msgs/AffinePolicy
+Generating C++ code from ellipsoid_msgs/EllipsoidArray.msg
+Generating Python from MSG amd_clmc_ros_messages/IncreaseMaxFingerTorque
+Generating Python from MSG amd_clmc_ros_messages/CartesianTrajectory
+Generating Python code from SRV amd_clmc_ros_messages/QueryControllerStatus
+Generating Python from MSG riemo_controller_msgs/EndEffectorPosition
+Generating Lisp code from amd_clmc_ros_messages/OfflineParams.msg
+Generating C++ code from riemo_grasping_msgs/UpdateGraspProblem.srv
+Generating Python from MSG riemo_grasping_msgs/MpiGraspPoses
+Generating Python from MSG amd_clmc_ros_messages/ResetBreakawayStatus
+Building CXX object motion-optimization/riemo_catkin/riemo/riemo_utilities/CMakeFiles/riemo_utilities.dir/src/eigen_utils.o
+Generating Python from MSG amd_clmc_ros_messages/LinearQuadraticRegulatorParams
+Generating Python from MSG amd_clmc_ros_messages/TrajectoryStatus
+Generating C++ code from amd_clmc_ros_messages/LqrControllerParamsService.srv
+Generating Lisp code from amd_clmc_ros_messages/AvgPressureSensors.msg
+Generating Lisp code from amd_clmc_ros_messages/ObjectMass.msg
+Generating Python from MSG visualization_2d/Problem2D
+Generating Lisp code from amd_clmc_ros_messages/DistanceFieldQueries.msg
+Generating C++ code from riemo_grasping_msgs/MpiGraspPoses.msg
+Generating C++ code from amd_clmc_ros_messages/CartesianTrajectoryPoint.msg
+Generating Python from MSG amd_clmc_ros_messages/AccelerationFeedbackExperimentStatus
+Generating Lisp code from amd_clmc_ros_messages/BiotacData.msg
+Generating Python from MSG amd_clmc_ros_messages/TaskFrame
+Generating Python from MSG amd_clmc_ros_messages/CalibrateForceTorqueSensor
+Generating Lisp code from amd_clmc_ros_messages/IncreaseMaxFingerTorque.msg
+Generating Lisp code from amd_clmc_ros_messages/OfflineParamsService.srv
+Generating C++ code from amd_clmc_ros_messages/StrainGauge.msg
+Generating Python from MSG amd_clmc_ros_messages/ResetBreakaway
+Generating Python from MSG amd_clmc_ros_messages/Sphere
+Generating Python from MSG amd_clmc_ros_messages/AvgPressureSensors
+Generating Lisp code from visualization_2d/Trajectory2D.msg
+Generating Python from MSG amd_clmc_ros_messages/LinearQuadraticRegulator
+cc1plus: error: unrecognized command line option '-std=c++11'
+Generating Python from MSG amd_clmc_ros_messages/LinearQuadraticRegulatorStatus
+Generating Python from MSG amd_clmc_ros_messages/GraspStatus
+Generating Lisp code from amd_clmc_ros_messages/ObstaclePoints.msg
+make[2]: *** [motion-optimization/riemo_catkin/riemo/riemo_discrete_geometry/CMakeFiles/riemo_discrete_geometry.dir/src/geometry.o] Error 1
+make[1]: *** [motion-optimization/riemo_catkin/riemo/riemo_discrete_geometry/CMakeFiles/riemo_discrete_geometry.dir/all] Error 2
+Generating C++ code from dbot_ros_msgs/ObjectsState.msg
+Generating Lisp code from amd_clmc_ros_messages/ResetBreakaway.msg
+Generating Python from MSG riemo_controller_msgs/ExperimentParams
+Generating Lisp code from amd_clmc_ros_messages/UpdateStrainGagesCalibration.msg
+Generating Python from MSG visualization_2d/Point2D
+Generating Python from MSG visualization_2d/ValueField2D
+Generating Python code from SRV amd_clmc_ros_messages/ExperimentGeneratorParamsService
+Generating Python from MSG amd_clmc_ros_messages/CalibratePressureSensorsStatus
+Generating Python from MSG amd_clmc_ros_messages/ObstaclePoints
+Generating Python from MSG amd_clmc_ros_messages/DriftingControllerParams
+Generating Python from MSG amd_clmc_ros_messages/Gains
+Generating Python from MSG amd_clmc_ros_messages/ExperimentParams
+Generating Python from MSG amd_clmc_ros_messages/CartesianTrajectoryPoint
+cc1plus: error: unrecognized command line option '-std=c++11'
+Generating Python from MSG visualization_2d/Num
+Building CXX object motion-optimization/riemo_catkin/riemo/riemo_utilities/CMakeFiles/riemo_utilities_test.dir/src/test_utils.o
+Generating Python code from SRV amd_clmc_ros_messages/SwitchControllerStack
+Building CXX object motion-optimization/riemo_catkin/riemo/riemo_optimization/CMakeFiles/riemo_optimization.dir/src/optimization.o
+Building CXX object motion-optimization/riemo_catkin/riemo/riemo_optimization/CMakeFiles/riemo_optimization.dir/src/objective_functions.o
+Building CXX object motion-optimization/riemo_catkin/riemo/riemo_optimization/CMakeFiles/riemo_optimization.dir/src/modular_optimization_components.o
+Generating Python from MSG visualization_2d/Trajectory2D
+Generating Python code from SRV amd_clmc_ros_messages/DriftingControllerParamsService
+cc1plus: error: unrecognized command line option '-std=c++11'
+cc1plus: error: unrecognized command line option '-std=c++11'
+make[2]: *** [motion-optimization/riemo_catkin/riemo/riemo_utilities/CMakeFiles/riemo_utilities.dir/src/timer.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+Generating Python from MSG amd_clmc_ros_messages/NetworkLayer
+make[2]: *** [motion-optimization/riemo_catkin/riemo/riemo_utilities/CMakeFiles/riemo_utilities.dir/src/command_line_arguments.o] Error 1
+make[2]: *** [motion-optimization/riemo_catkin/riemo/riemo_learning/CMakeFiles/riemo_learning.dir/src/learning.o] Error 1
+make[1]: *** [motion-optimization/riemo_catkin/riemo/riemo_learning/CMakeFiles/riemo_learning.dir/all] Error 2
+[ 70%] cc1plus: error: unrecognized command line option '-std=c++11'
+[ 70%] [ 70%] cc1plus: error: unrecognized command line option '-std=c++11'
+[ 70%] cc1plus: error: unrecognized command line option '-std=c++11'
+make[2]: *** [motion-optimization/riemo_catkin/riemo/riemo_utilities/CMakeFiles/riemo_utilities_test.dir/src/test_utils.o] Error 1
+make[1]: *** [motion-optimization/riemo_catkin/riemo/riemo_utilities/CMakeFiles/riemo_utilities_test.dir/all] Error 2
+[ 70%] cc1plus: error: unrecognized command line option '-std=c++11'
+make[2]: *** [motion-optimization/riemo_catkin/riemo/riemo_utilities/CMakeFiles/riemo_utilities.dir/src/threading_utils.o] Error 1
+cc1plus: error: unrecognized command line option '-std=c++11'
+make[2]: *** [motion-optimization/riemo_catkin/riemo/riemo_optimization/CMakeFiles/riemo_optimization.dir/src/objective_functions.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+[ 72%] Building CXX object motion-optimization/riemo_catkin/riemo/riemo_motion/CMakeFiles/riemo_motion.dir/src/optimal_control.o
+make[2]: *** [motion-optimization/riemo_catkin/riemo/riemo_utilities/CMakeFiles/riemo_utilities.dir/src/eigen_utils.o] Error 1
+make[1]: *** [motion-optimization/riemo_catkin/riemo/riemo_utilities/CMakeFiles/riemo_utilities.dir/all] Error 2
+make[2]: *** [motion-optimization/riemo_catkin/riemo/riemo_optimization/CMakeFiles/riemo_optimization.dir/src/modular_optimization_components.o] Error 1
+cc1plus: error: unrecognized command line option '-std=c++11'
+[ 72%] [ 72%] make[2]: *** [motion-optimization/riemo_catkin/riemo/riemo_optimization/CMakeFiles/riemo_optimization.dir/src/optimization.o] Error 1
+make[1]: *** [motion-optimization/riemo_catkin/riemo/riemo_optimization/CMakeFiles/riemo_optimization.dir/all] Error 2
+Building CXX object motion-optimization/riemo_catkin/riemo/riemo_motion/CMakeFiles/riemo_motion.dir/src/trajectory_function_network.o
+Building CXX object motion-optimization/riemo_catkin/riemo/riemo_motion/CMakeFiles/riemo_motion.dir/src/motion_optimization.o
+Building CXX object motion-optimization/riemo_catkin/riemo/riemo_differential_geometry/CMakeFiles/riemo_differential_geometry.dir/src/geometry.o
+Building CXX object motion-optimization/riemo_catkin/riemo/riemo_differential_geometry/CMakeFiles/riemo_differential_geometry.dir/src/differentiable_functions.o
+cc1plus: error: unrecognized command line option '-std=c++11'
+Building CXX object motion-optimization/riemo_catkin/riemo/riemo_differential_geometry/CMakeFiles/riemo_differential_geometry.dir/src/lapack_interface.o
+make[2]: *** [motion-optimization/riemo_catkin/riemo/riemo_motion/CMakeFiles/riemo_motion.dir/src/optimal_control.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+Building CXX object motion-optimization/riemo_catkin/riemo/riemo_differential_geometry/CMakeFiles/riemo_differential_geometry.dir/src/analytical_grid.o
+cc1plus: error: unrecognized command line option '-std=c++11'
+Building CXX object motion-optimization/riemo_catkin/riemo/riemo_motion/CMakeFiles/riemo_motion.dir/src/behavior.o
+make[2]: *** [motion-optimization/riemo_catkin/riemo/riemo_motion/CMakeFiles/riemo_motion.dir/src/trajectory_function_network.o] Error 1
+cc1plus: error: unrecognized command line option '-std=c++11'
+make[2]: *** [motion-optimization/riemo_catkin/riemo/riemo_differential_geometry/CMakeFiles/riemo_differential_geometry.dir/src/geometry.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+cc1plus: error: unrecognized command line option '-std=c++11'
+make[2]: *** [motion-optimization/riemo_catkin/riemo/riemo_motion/CMakeFiles/riemo_motion.dir/src/motion_optimization.o] Error 1
+cc1plus: error: unrecognized command line option '-std=c++11'
+cc1plus: error: unrecognized command line option '-std=c++11'
+make[2]: *** [motion-optimization/riemo_catkin/riemo/riemo_differential_geometry/CMakeFiles/riemo_differential_geometry.dir/src/differentiable_functions.o] Error 1
+cc1plus: error: unrecognized command line option '-std=c++11'
+make[2]: *** [motion-optimization/riemo_catkin/riemo/riemo_differential_geometry/CMakeFiles/riemo_differential_geometry.dir/src/analytical_grid.o] Error 1
+make[2]: *** [motion-optimization/riemo_catkin/riemo/riemo_differential_geometry/CMakeFiles/riemo_differential_geometry.dir/src/lapack_interface.o] Error 1
+make[1]: *** [motion-optimization/riemo_catkin/riemo/riemo_differential_geometry/CMakeFiles/riemo_differential_geometry.dir/all] Error 2
+cc1plus: error: unrecognized command line option '-std=c++11'
+make[2]: *** [motion-optimization/riemo_catkin/riemo/riemo_motion/CMakeFiles/riemo_motion.dir/src/behavior.o] Error 1
+make[1]: *** [motion-optimization/riemo_catkin/riemo/riemo_motion/CMakeFiles/riemo_motion.dir/all] Error 2
+[ 72%] Built target rieef_msgs_generate_messages_lisp
+[ 72%] Generating Python srv __init__.py for rieef_msgs
+[ 72%] [ 72%] Built target rieef_msgs_generate_messages_cpp
+Generating Python msg __init__.py for dbot_ros_msgs
+[ 72%] [ 72%] Built target visualization_2d_generate_messages_cpp
+[ 72%] Built target ellipsoid_msgs_generate_messages_lisp
+Built target dbot_ros_msgs_generate_messages_cpp
+[ 72%] Built target dbot_ros_msgs_generate_messages_lisp
+[ 72%] Built target visualization_2d_generate_messages_lisp
+[ 72%] [ 73%] [ 73%] Built target riemo_controller_msgs_generate_messages_lisp
+[ 73%] [ 73%] Built target riemo_grasping_msgs_generate_messages_lisp
+[ 73%] [ 73%] [ 74%] Generating Python msg __init__.py for riemo_controller_msgs
+Generating Python srv __init__.py for riemo_controller_msgs
+Generating Python srv __init__.py for riemo_grasping_msgs
+Generating Python msg __init__.py for riemo_grasping_msgs
+Generating Python msg __init__.py for visualization_2d
+Generating Python srv __init__.py for visualization_2d
+[ 74%] [ 74%] Built target amd_clmc_ros_messages_generate_messages_lisp
+[ 75%] Generating Python msg __init__.py for amd_clmc_ros_messages
+Generating Python srv __init__.py for amd_clmc_ros_messages
+[ 75%] Built target rieef_msgs_generate_messages_py
+[ 75%] Built target ellipsoid_msgs_generate_messages_cpp
+[ 75%] Built target riemo_controller_msgs_generate_messages_cpp
+[ 75%] Built target dbot_ros_msgs_generate_messages_py
+[ 75%] [ 75%] [ 75%] Built target riemo_grasping_msgs_generate_messages_py
+Built target visualization_2d_generate_messages_py
+Built target riemo_controller_msgs_generate_messages_py
+[ 75%] Built target amd_clmc_ros_messages_generate_messages_py
+[ 75%] Built target amd_clmc_ros_messages_generate_messages_cpp
+[ 75%] Built target riemo_grasping_msgs_generate_messages_cpp
+make: *** [all] Error 2
+Base path: /home/amd_clmc/team/workspace
+Source space: /home/amd_clmc/team/workspace/src
+Build space: /home/amd_clmc/team/workspace/build
+Devel space: /home/amd_clmc/team/workspace/devel
+Install space: /home/amd_clmc/team/workspace/install
+####
+#### Running command: "cmake /home/amd_clmc/team/workspace/src -DCATKIN_DEVEL_PREFIX=/home/amd_clmc/team/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/amd_clmc/team/workspace/install" in "/home/amd_clmc/team/workspace/build"
+####
+####
+#### Running command: "make -j install" in "/home/amd_clmc/team/workspace/build"
+####
+Invoking "make" failed
