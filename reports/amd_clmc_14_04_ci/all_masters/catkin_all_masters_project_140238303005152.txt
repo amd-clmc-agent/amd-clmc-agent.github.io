@@ -1,0 +1,85 @@
+COMMAND:catkin_make -j install
+------------------------------
+-- The C compiler identification is GNU 4.8.4
+-- The CXX compiler identification is GNU 4.8.4
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Using CATKIN_DEVEL_PREFIX: /home/amd_clmc/team/workspace/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/indigo
+-- This workspace overlays: /opt/ros/indigo
+-- Found PythonInterp: /usr/bin/python (found version "2.7.6") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+-- Python version: 2.7
+-- Using Debian Python package layout
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/amd_clmc/team/workspace/build/test_results
+-- Looking for include file pthread.h
+-- Looking for include file pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found gtest sources under '/usr/src/gtest': gtests will be built
+-- catkin 0.5.90
+-- BUILD_SHARED_LIBS is on
+WARNING: Package "ompl" does not follow the version conventions. It should not contain leading zeros (unless the number is 0).
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- ~~  traversing 11 packages in topological order:
+-- ~~  - apollo_robot_model
+-- ~~  - bagutils
+-- ~~  - dbrt_apollo
+-- ~~  - fl
+-- ~~  - osr
+-- ~~  - dbot
+-- ~~  - dbot_ros_msgs
+-- ~~  - opi
+-- ~~  - dbot_ros
+-- ~~  - robot_state_pub
+-- ~~  - dbrt
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- +++ processing catkin package: 'apollo_robot_model'
+-- ==> add_subdirectory(catkin/robots/apollo-robot-model)
+-- +++ processing catkin package: 'bagutils'
+-- ==> add_subdirectory(catkin/ros/bagutils)
+Traceback (most recent call last):
+  File "/home/amd_clmc/team/workspace/src/catkin/third_party/catkin/cmake/interrogate_setup_dot_py.py", line 250, in <module>
+    main()
+  File "/home/amd_clmc/team/workspace/src/catkin/third_party/catkin/cmake/interrogate_setup_dot_py.py", line 241, in main
+    exec(fh.read())
+  File "<string>", line 6, in <module>
+ImportError: No module named Xlib
+CMake Error at catkin/third_party/catkin/cmake/safe_execute_process.cmake:11 (message):
+  
+  execute_process(/home/amd_clmc/team/workspace/build/catkin_generated/env_cached.sh
+  "/usr/bin/python"
+  "/home/amd_clmc/team/workspace/src/catkin/third_party/catkin/cmake/interrogate_setup_dot_py.py"
+  "bagutils" "/home/amd_clmc/team/workspace/src/catkin/ros/bagutils/setup.py"
+  "/home/amd_clmc/team/workspace/build/catkin/ros/bagutils/catkin_generated/setup_py_interrogation.cmake")
+  returned error code 1
+Call Stack (most recent call first):
+  catkin/third_party/catkin/cmake/catkin_python_setup.cmake:69 (safe_execute_process)
+  catkin/ros/bagutils/CMakeLists.txt:4 (catkin_python_setup)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/amd_clmc/team/workspace/build/CMakeFiles/CMakeOutput.log".
+See also "/home/amd_clmc/team/workspace/build/CMakeFiles/CMakeError.log".
+Base path: /home/amd_clmc/team/workspace
+Source space: /home/amd_clmc/team/workspace/src
+Build space: /home/amd_clmc/team/workspace/build
+Devel space: /home/amd_clmc/team/workspace/devel
+Install space: /home/amd_clmc/team/workspace/install
+####
+#### Running command: "cmake /home/amd_clmc/team/workspace/src -DCATKIN_DEVEL_PREFIX=/home/amd_clmc/team/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/amd_clmc/team/workspace/install -G Unix Makefiles" in "/home/amd_clmc/team/workspace/build"
+####
+Invoking "cmake" failed
