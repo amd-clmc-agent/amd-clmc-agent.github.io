@@ -40,7 +40,7 @@ S'COMMAND:catkin_make -j install\n------------------------------\n-- The C compi
 p20
 sS'id'
 p21
-S'project_35588360'
+S'project_32594184'
 p22
 sS'build_success'
 p23
