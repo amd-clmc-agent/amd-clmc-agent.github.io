@@ -1,0 +1,94 @@
+demo run with success.
+
+log:
+
+#!/bin/bash
+source /home/amd_clmc/team/workspace/devel/setup.bash
+cd /home/amd_clmc/team/workspace/src/catkin/sensors/imu-ros-rt/demos/
+chmod +x imu_check
+./imu_check /home/amd_clmc/team/workspace/devel
+
+
+./imu_check: line 9: /home/vincent/Software/workspace/devel/setup.bash: No such file or directory
+
+------ CPP DEMO START ------
+
+Traceback (most recent call last):
+  File "./fake_imu_publishers", line 11, in <module>
+    import amd_clmc_ros_messages.msg as msg
+ImportError: No module named amd_clmc_ros_messages.msg
+fake_tty0	|	0.000000	0.000000	0.000000	|	0.000000	0.000000	0.000000
+fake_tty1	|	0.000000	0.000000	0.000000	|	0.000000	0.000000	0.000000
+fake_tty0	|	0.119863	0.828332	0.725246	|	0.391939	0.709084	0.881600
+fake_tty1	|	0.917745	0.599115	0.003991	|	0.018137	0.446879	0.353277
+fake_tty0	|	0.907373	0.150229	0.133973	|	0.771749	0.813984	0.478346
+fake_tty1	|	0.594705	0.553261	0.590924	|	0.334178	0.184365	0.309656
+fake_tty0	|	0.738286	0.962350	0.476033	|	0.734606	0.910330	0.603593
+fake_tty1	|	0.726161	0.944940	0.375757	|	0.075677	0.669435	0.186233
+fake_tty0	|	0.907364	0.792347	0.444454	|	0.008449	0.229929	0.326927
+fake_tty1	|	0.213339	0.437090	0.819276	|	0.025200	0.757079	0.886225
+fake_tty0	|	0.263605	0.972374	0.591918	|	0.759739	0.503747	0.900201
+fake_tty1	|	0.833746	0.526052	0.326407	|	0.208204	0.072252	0.672466
+fake_tty0	|	0.867750	0.028679	0.639135	|	0.123345	0.293420	0.269511
+fake_tty1	|	0.850103	0.955469	0.155507	|	0.854407	0.527597	0.864468
+fake_tty0	|	0.515366	0.239313	0.674294	|	0.198577	0.337330	0.652042
+fake_tty1	|	0.871772	0.698890	0.060201	|	0.122332	0.040220	0.449765
+fake_tty0	|	0.382007	0.967557	0.167033	|	0.072486	0.024301	0.850871
+fake_tty1	|	0.761830	0.593169	0.029791	|	0.566702	0.086738	0.131597
+fake_tty0	|	0.644497	0.221504	0.218407	|	0.548195	0.663751	0.741792
+fake_tty1	|	0.649638	0.103463	0.863283	|	0.960593	0.772554	0.910483
+fake_tty0	|	0.542799	0.150256	0.875988	|	0.790905	0.870293	0.723665
+fake_tty1	|	0.518351	0.022878	0.374713	|	0.270709	0.472337	0.528295
+fake_tty0	|	0.970623	0.178179	0.750165	|	0.616391	0.502808	0.947342
+fake_tty1	|	0.841059	0.475854	0.802788	|	0.867952	0.402700	0.358756
+fake_tty0	|	0.219616	0.304259	0.321453	|	0.088696	0.370622	0.394024
+fake_tty1	|	0.379446	0.738945	0.662438	|	0.758261	0.263461	0.943552
+fake_tty0	|	0.361009	0.998252	0.914203	|	0.236967	0.917474	0.112199
+fake_tty1	|	0.409660	0.257584	0.562518	|	0.464027	0.932287	0.680592
+fake_tty0	|	0.251441	0.521148	0.239395	|	0.052809	0.799167	0.720001
+fake_tty1	|	0.399650	0.613517	0.769804	|	0.094323	0.448673	0.075371
+fake_tty0	|	0.739282	0.839294	0.033829	|	0.097733	0.758904	0.309865
+fake_tty1	|	0.706908	0.959923	0.955617	|	0.674489	0.756460	0.048847
+fake_tty0	|	0.307775	0.955608	0.583152	|	0.250670	0.172736	0.362612
+fake_tty1	|	0.158067	0.720234	0.164131	|	0.016958	0.650924	0.208888
+fake_tty0	|	0.495319	0.740927	0.237905	|	0.671406	0.644586	0.651580
+fake_tty1	|	0.266583	0.927943	0.497970	|	0.479983	0.453978	0.660077
+fake_tty0	|	0.582195	0.278908	0.816069	|	0.977307	0.585351	0.880420
+fake_tty1	|	0.980920	0.777251	0.589136	|	0.486680	0.354241	0.439849
+fake_tty0	|	0.262003	0.400277	0.862388	|	0.019650	0.785171	0.582195
+fake_tty1	|	0.947836	0.470363	0.870643	|	0.921124	0.382925	0.133562
+ERROR >> Writing to device failed with error: Operation not permitted
+ERROR >> Failed to stop continuous mode.
+
+------ DEMO END ------
+
+... logging to /root/.ros/log/8d1dedfc-1cfc-11e6-9f99-0242ac110002/roslaunch-amd-clmc-12-04-ci-10480.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://amd-clmc-12-04-ci:58270/[0m
+ros_comm version 1.9.55
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro
+ * /rosversion
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [10494][0m
+[1mROS_MASTER_URI=http://amd-clmc-12-04-ci:11311/[0m
+]2;roscore http://amd-clmc-12-04-ci:11311/
+[1msetting /run_id to 8d1dedfc-1cfc-11e6-9f99-0242ac110002[0m
+[1mprocess[rosout-1]: started with pid [10507][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
