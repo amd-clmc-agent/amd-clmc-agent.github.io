@@ -1,0 +1,1141 @@
+COMMAND:catkin_make -j install
+------------------------------
+WARNING: Package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits and underscores.
+WARNING: Package name "YAML_CPP" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits and underscores.
+WARNING: Package name "footsteps_planner_MIQCQP_sl" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits and underscores.
+WARNING: Package name "footsteps_planner_MIQCQP" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits and underscores.
+-- The C compiler identification is GNU 4.8.4
+-- The CXX compiler identification is GNU 4.8.4
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Using CATKIN_DEVEL_PREFIX: /home/amd_clmc/team/workspace/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/indigo
+-- This workspace overlays: /opt/ros/indigo
+-- Found PythonInterp: /usr/bin/python (found version "2.7.6") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+-- Python version: 2.7
+-- Using Debian Python package layout
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/amd_clmc/team/workspace/build/test_results
+-- Looking for include file pthread.h
+-- Looking for include file pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found gtest sources under '/usr/src/gtest': gtests will be built
+-- catkin 0.5.90
+-- BUILD_SHARED_LIBS is on
+WARNING: Package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits and underscores.
+WARNING: Package name "YAML_CPP" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits and underscores.
+WARNING: Package name "footsteps_planner_MIQCQP_sl" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits and underscores.
+WARNING: Package name "footsteps_planner_MIQCQP" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits and underscores.
+WARNING: Package "ompl" does not follow the version conventions. It should not contain leading zeros (unless the number is 0).
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- ~~  traversing 58 packages in topological order:
+-- ~~  - Eigen
+-- ~~  - YAML_CPP
+-- ~~  - kalman_filters
+-- ~~  - nonlinear_mpc
+-- ~~  - py_cpp_interface
+-- ~~  - robot_math
+-- ~~  - robot_properties_athena
+-- ~~  - robot_properties_hermes_full
+-- ~~  - robot_properties_hermes_lower
+-- ~~  - sl_config
+-- ~~  - snopt_cpp
+-- ~~  - utilities
+-- ~~  - io_tools
+-- ~~  - floating_base_tools_athena
+-- ~~  - floating_base_tools_hermes_full
+-- ~~  - floating_base_tools_hermes_lower
+-- ~~  - lwpr
+-- ~~  - standard_filters
+-- ~~  - xenomai_ros
+-- ~~  - ati_ft_sensor
+-- ~~  - sl
+-- ~~  - hermes_communication_tools
+-- ~~  - hermes_core
+-- ~~  - athena
+-- ~~  - hermes_full
+-- ~~  - hermes_lower
+-- ~~  - io_tools_sl
+-- ~~  - floating_base_tools_sl_athena
+-- ~~  - biped_locomotion_athena
+-- ~~  - base_state_estimators_athena
+-- ~~  - floating_base_tools_sl_hermes_full
+-- ~~  - biped_locomotion_hermes_full
+-- ~~  - floating_base_tools_sl_hermes_lower
+-- ~~  - biped_locomotion_hermes_lower
+-- ~~  - base_state_estimators_hermes_lower
+-- ~~  - capture_points
+-- ~~  - footsteps_planner_MIQCQP
+-- ~~  - footsteps_planner_MIQCQP_sl
+-- ~~  - lqr_hermes_lower
+-- ~~  - noise_simulator_athena
+-- ~~  - noise_simulator_hermes_lower
+-- ~~  - joint_state_estimators_hermes_lower
+-- ~~  - optoforce_sensor
+-- ~~  - testing_tests
+-- ~~  - vicon_bridge
+-- ~~  - visualization_tools_athena
+-- ~~  - humanoid_tests_athena
+-- ~~  - visualization_tools_hermes_full
+-- ~~  - hermes_full_user
+-- ~~  - visualization_tools_hermes_lower
+-- ~~  - humanoid_tests_hermes_lower
+-- ~~  - walking_tools_athena
+-- ~~  - example_tasks_athena
+-- ~~  - athena_user
+-- ~~  - walking_tools_hermes_lower
+-- ~~  - example_tasks_hermes_lower
+-- ~~  - julia_sl_interface_hermes_lower
+-- ~~  - hermes_lower_user
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- +++ processing catkin package: 'Eigen'
+-- ==> add_subdirectory(catkin/third_party/Eigen)
+WARNING: Package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits and underscores.
+-- +++ processing catkin package: 'YAML_CPP'
+-- ==> add_subdirectory(catkin/third_party/YAML_CPP)
+WARNING: Package name "YAML_CPP" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits and underscores.
+-- Boost version: 1.54.0
+-- Performing Test FLAG_WEXTRA
+-- Performing Test FLAG_WEXTRA - Success
+-- +++ processing catkin package: 'kalman_filters'
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control/filtering_tools/kalman_filters)
+-- +++ processing catkin package: 'nonlinear_mpc'
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control/nonlinear_mpc)
+-- +++ processing catkin package: 'py_cpp_interface'
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control/py_cpp_interface)
+-- Boost version: 1.54.0
+-- Found the following Boost libraries:
+--   system
+--   thread
+--   python
+-- PYTHON_BIN_LOCATION: /usr/bin/python
+
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython2.7.so 
+-- Found NumPy: version "1.8.2" /usr/lib/python2.7/dist-packages/numpy/core/include
+-- +++ processing catkin package: 'robot_math'
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control/robot_math)
+-- SLICOT: Cound not find library slicot.
+-- +++ processing catkin package: 'robot_properties_athena'
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control/robot_properties/robot_properties_athena)
+-- +++ processing catkin package: 'robot_properties_hermes_full'
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control/robot_properties/robot_properties_hermes_full)
+-- +++ processing catkin package: 'robot_properties_hermes_lower'
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control/robot_properties/robot_properties_hermes_lower)
+-- +++ processing catkin package: 'sl_config'
+-- ==> add_subdirectory(catkin/core-sl/sl_config)
+-- MACHTYPE=x86_64
+-- +++ processing catkin package: 'snopt_cpp'
+-- ==> add_subdirectory(catkin/third_party/snopt_cpp)
+-- +++ processing catkin package: 'utilities'
+-- ==> add_subdirectory(catkin/core-sl/locomotion-utilities)
+-- MACHTYPE=x86_64
+-- +++ processing catkin package: 'io_tools'
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control/io_tools)
+-- +++ processing catkin package: 'floating_base_tools_athena'
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control/floating_base_tools_common/floating_base_tools_athena)
+-- +++ processing catkin package: 'floating_base_tools_hermes_full'
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control/floating_base_tools_common/floating_base_tools_hermes_full)
+-- +++ processing catkin package: 'floating_base_tools_hermes_lower'
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control/floating_base_tools_common/floating_base_tools_hermes_lower)
+-- +++ processing catkin package: 'lwpr'
+-- ==> add_subdirectory(catkin/core-sl/locomotion-lwpr)
+-- MACHTYPE=x86_64
+-- +++ processing catkin package: 'standard_filters'
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control/filtering_tools/standard_filters)
+-- +++ processing catkin package: 'xenomai_ros'
+-- ==> add_subdirectory(catkin/ros/xenomai-ros)
+-- +++ processing catkin package: 'ati_ft_sensor'
+-- ==> add_subdirectory(catkin/humanoids/humanoid_hardware/ati_ft_sensor)
+-- xenomai NOT found. (/usr/local;/usr)
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+-- Boost version: 1.54.0
+-- Found the following Boost libraries:
+--   system
+--   filesystem
+--   thread
+-- Found Doxygen: /usr/bin/doxygen (found version "1.8.6") 
+-- +++ processing catkin package: 'sl'
+-- ==> add_subdirectory(catkin/core-sl/locomotion-sl)
+-- MACHTYPE=x86_64
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.26") 
+-- checking for module 'libedit'
+--   found libedit, version 3.1
+-- Found libedit: /usr/lib/x86_64-linux-gnu/libedit.so
+-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+-- Looking for gethostbyname
+-- Looking for gethostbyname - found
+-- Looking for connect
+-- Looking for connect - found
+-- Looking for remove
+-- Looking for remove - found
+-- Looking for shmat
+-- Looking for shmat - found
+-- Looking for IceConnectionNumber in ICE
+-- Looking for IceConnectionNumber in ICE - found
+-- Found X11: /usr/lib/x86_64-linux-gnu/libX11.so
+-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libGL.so  
+-- Found GLUT: /usr/lib/x86_64-linux-gnu/libglut.so  
+-- Found LibRt: /usr/lib/x86_64-linux-gnu/librt.so  
+-- GLUT_LIBRARIES=/usr/lib/x86_64-linux-gnu/libglut.so;/usr/lib/x86_64-linux-gnu/libXmu.so;/usr/lib/x86_64-linux-gnu/libXi.so
+-- GLUT_INCLUDE_DIR=/usr/include
+-- GLUT_FOUND: TRUE
+-- Libedit_INCLUDE_DIRS=/usr/include
+-- Libedit_LIBRARIES=/usr/lib/x86_64-linux-gnu/libedit.so
+-- xenomai NOT found. (/usr/local;/usr)
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+-- SLros dependencies found; compiling ROS servo.
+-- +++ processing catkin package: 'hermes_communication_tools'
+-- ==> add_subdirectory(catkin/humanoids/humanoid_hardware/cb_communication)
+-- MACHTYPE=x86_64
+-- xenomai NOT found. (/usr/local;/usr)
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+-- Boost version: 1.54.0
+-- Found the following Boost libraries:
+--   system
+--   filesystem
+--   thread
+-- +++ processing catkin package: 'hermes_core'
+-- ==> add_subdirectory(catkin/robots/hermesCore)
+-- +++ processing catkin package: 'athena'
+-- ==> add_subdirectory(catkin/robots/athena)
+-- MACHTYPE=x86_64
+-- Boost version: 1.54.0
+-- Found the following Boost libraries:
+--   thread
+-- xenomai NOT found. (/usr/local;/usr)
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+-- athena: compiling on amd-clmc-14-04-ci; simulation only.
+-- +++ processing catkin package: 'hermes_full'
+-- ==> add_subdirectory(catkin/robots/hermesFull)
+-- MACHTYPE=x86_64
+-- Boost version: 1.54.0
+-- Found the following Boost libraries:
+--   thread
+-- xenomai NOT found. (/usr/local;/usr)
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+-- hermes_full: compiling on amd-clmc-14-04-ci; simulation only.
+-- +++ processing catkin package: 'hermes_lower'
+-- ==> add_subdirectory(catkin/robots/hermesLower)
+-- MACHTYPE=x86_64
+-- Boost version: 1.54.0
+-- Found the following Boost libraries:
+--   thread
+-- xenomai NOT found. (/usr/local;/usr)
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+-- hermes_lower: compiling on amd-clmc-14-04-ci; simulation only.
+-- +++ processing catkin package: 'io_tools_sl'
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control/io_tools_sl)
+-- +++ processing catkin package: 'floating_base_tools_sl_athena'
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control/floating_base_tools_sl/floating_base_tools_sl_athena)
+-- MACHTYPE=x86_64
+-- Boost version: 1.54.0
+-- Found the following Boost libraries:
+--   thread
+--   system
+--   filesystem
+-- +++ processing catkin package: 'biped_locomotion_athena'
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control/biped_locomotion/biped_locomotion_athena)
+-- Boost version: 1.54.0
+-- Found the following Boost libraries:
+--   system
+-- xenomai NOT found. (/usr/local;/usr)
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+-- +++ processing catkin package: 'base_state_estimators_athena'
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control/filtering_tools/base_state_estimators/base_state_estimators_athena)
+-- +++ processing catkin package: 'floating_base_tools_sl_hermes_full'
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control/floating_base_tools_sl/floating_base_tools_sl_hermes_full)
+-- MACHTYPE=x86_64
+-- Boost version: 1.54.0
+-- Found the following Boost libraries:
+--   thread
+--   system
+--   filesystem
+-- +++ processing catkin package: 'biped_locomotion_hermes_full'
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control/biped_locomotion/biped_locomotion_hermes_full)
+-- Boost version: 1.54.0
+-- Found the following Boost libraries:
+--   system
+-- xenomai NOT found. (/usr/local;/usr)
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+-- +++ processing catkin package: 'floating_base_tools_sl_hermes_lower'
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control/floating_base_tools_sl/floating_base_tools_sl_hermes_lower)
+-- MACHTYPE=x86_64
+-- Boost version: 1.54.0
+-- Found the following Boost libraries:
+--   thread
+--   system
+--   filesystem
+-- +++ processing catkin package: 'biped_locomotion_hermes_lower'
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control/biped_locomotion/biped_locomotion_hermes_lower)
+-- Boost version: 1.54.0
+-- Found the following Boost libraries:
+--   system
+-- xenomai NOT found. (/usr/local;/usr)
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+-- +++ processing catkin package: 'base_state_estimators_hermes_lower'
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control/filtering_tools/base_state_estimators/base_state_estimators_hermes_lower)
+-- +++ processing catkin package: 'capture_points'
+-- ==> add_subdirectory(catkin/humanoids/capture_points)
+-- +++ processing catkin package: 'footsteps_planner_MIQCQP'
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control/contacts_planning/footsteps_planner_MIQCQP)
+-- Boost version: 1.54.0
+-- Found the following Boost libraries:
+--   system
+--   program_options
+--   filesystem
+-- +++ processing catkin package: 'footsteps_planner_MIQCQP_sl'
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control/contacts_planning_sl/footsteps_planner_MIQCQP_sl)
+-- Boost version: 1.54.0
+-- Found the following Boost libraries:
+--   system
+--   program_options
+--   filesystem
+-- +++ processing catkin package: 'lqr_hermes_lower'
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control/lqr/lqr_hermes_lower)
+-- xenomai NOT found. (/usr/local;/usr)
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+-- Boost version: 1.54.0
+-- Found the following Boost libraries:
+--   system
+--   thread
+-- building lqr_hermes_lower
+-- +++ processing catkin package: 'noise_simulator_athena'
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control/filtering_tools/noise_simulator/noise_simulator_athena)
+-- +++ processing catkin package: 'noise_simulator_hermes_lower'
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control/filtering_tools/noise_simulator/noise_simulator_hermes_lower)
+-- +++ processing catkin package: 'joint_state_estimators_hermes_lower'
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control/filtering_tools/joint_state_estimators/joint_state_estimators_hermes_lower)
+-- xenomai NOT found. (/usr/local;/usr)
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+-- +++ processing catkin package: 'optoforce_sensor'
+-- ==> add_subdirectory(catkin/humanoids/humanoid_hardware/optoforceSensorLib)
+-- xenomai NOT found. (/usr/local;/usr)
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+-- Boost version: 1.54.0
+-- Found the following Boost libraries:
+--   system
+--   filesystem
+--   thread
+-- +++ processing catkin package: 'testing_tests'
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control/testing_tests)
+-- Boost version: 1.54.0
+-- Found the following Boost libraries:
+--   thread
+--   system
+--   filesystem
+--   regex
+warning : testing_tests package : compiling tests only for athena and hermes_lower, hermes_full ignored
+-- MACHTYPE=x86_64
+CMake Warning at catkin/humanoids/humanoid_control/testing_tests/CMakeLists.txt:36 (message):
+  building testing_tests_athena
+
+
+CMake Warning at catkin/humanoids/humanoid_control/testing_tests/CMakeLists.txt:36 (message):
+  building testing_tests_hermes_lower
+
+
+-- +++ processing catkin package: 'vicon_bridge'
+-- ==> add_subdirectory(catkin/perception/vicon_bridge)
+-- Using these message generators: gencpp;genlisp;genpy
+-- Boost version: 1.54.0
+-- Found the following Boost libraries:
+--   thread
+-- vicon_bridge: 3 messages, 2 services
+-- +++ processing catkin package: 'visualization_tools_athena'
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control/visualization_tools/visualization_tools_athena)
+-- MACHTYPE=x86_64
+-- Boost version: 1.54.0
+-- Found the following Boost libraries:
+--   thread
+--   system
+--   filesystem
+-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.8") 
+-- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.2.50") 
+-- +++ processing catkin package: 'humanoid_tests_athena'
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control/humanoid_tests/humanoid_tests_athena)
+warning : testing_tests package : compiling tests only for athena and hermes_lower, hermes_full ignored
+-- MACHTYPE=x86_64
+-- Boost version: 1.54.0
+-- Found the following Boost libraries:
+--   thread
+--   system
+--   filesystem
+--   regex
+CMake Warning at catkin/humanoids/humanoid_control/humanoid_tests/template/CMakeLists.txt:65 (message):
+  building humanoid_tests_athena
+Call Stack (most recent call first):
+  catkin/humanoids/humanoid_control/humanoid_tests/humanoid_tests_athena/CMakeLists.txt:2 (include)
+
+
+-- +++ processing catkin package: 'visualization_tools_hermes_full'
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control/visualization_tools/visualization_tools_hermes_full)
+-- MACHTYPE=x86_64
+-- Boost version: 1.54.0
+-- Found the following Boost libraries:
+--   thread
+--   system
+--   filesystem
+-- +++ processing catkin package: 'hermes_full_user'
+-- ==> add_subdirectory(catkin/robots/hermesFullUser)
+-- MACHTYPE=x86_64
+-- Boost version: 1.54.0
+-- Found the following Boost libraries:
+--   regex
+--   filesystem
+--   system
+--   thread
+-- xenomai NOT found. (/usr/local;/usr)
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+-- +++ processing catkin package: 'visualization_tools_hermes_lower'
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control/visualization_tools/visualization_tools_hermes_lower)
+-- MACHTYPE=x86_64
+-- Boost version: 1.54.0
+-- Found the following Boost libraries:
+--   thread
+--   system
+--   filesystem
+-- +++ processing catkin package: 'humanoid_tests_hermes_lower'
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control/humanoid_tests/humanoid_tests_hermes_lower)
+warning : testing_tests package : compiling tests only for athena and hermes_lower, hermes_full ignored
+-- MACHTYPE=x86_64
+-- Boost version: 1.54.0
+-- Found the following Boost libraries:
+--   thread
+--   system
+--   filesystem
+--   regex
+CMake Warning at catkin/humanoids/humanoid_control/humanoid_tests/template/CMakeLists.txt:65 (message):
+  building humanoid_tests_hermes_lower
+Call Stack (most recent call first):
+  catkin/humanoids/humanoid_control/humanoid_tests/humanoid_tests_hermes_lower/CMakeLists.txt:2 (include)
+
+
+-- +++ processing catkin package: 'walking_tools_athena'
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control/walking_tools/walking_tools_athena)
+-- +++ processing catkin package: 'example_tasks_athena'
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control/example_tasks/example_tasks_athena)
+-- xenomai NOT found. (/usr/local;/usr)
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+-- Boost version: 1.54.0
+-- Found the following Boost libraries:
+--   thread
+--   system
+--   filesystem
+CMake Warning at catkin/humanoids/humanoid_control/example_tasks/template/CMakeLists.txt:118 (message):
+  
+  ;EIGEN_STACK_ALLOCATION_LIMIT=0;EIGEN_NO_DEBUG;RTEIG_NO_ASSERTS;INIT_USER_TASKS_athena
+Call Stack (most recent call first):
+  catkin/humanoids/humanoid_control/example_tasks/example_tasks_athena/CMakeLists.txt:4 (include)
+
+
+-- +++ processing catkin package: 'athena_user'
+-- ==> add_subdirectory(catkin/robots/athenaUser)
+-- MACHTYPE=x86_64
+warning : testing_tests package : compiling tests only for athena and hermes_lower, hermes_full ignored
+-- Boost version: 1.54.0
+-- Found the following Boost libraries:
+--   regex
+--   filesystem
+--   system
+--   thread
+-- xenomai NOT found. (/usr/local;/usr)
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+-- +++ processing catkin package: 'walking_tools_hermes_lower'
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control/walking_tools/walking_tools_hermes_lower)
+-- +++ processing catkin package: 'example_tasks_hermes_lower'
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control/example_tasks/example_tasks_hermes_lower)
+-- xenomai NOT found. (/usr/local;/usr)
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+-- Boost version: 1.54.0
+-- Found the following Boost libraries:
+--   thread
+--   system
+--   filesystem
+CMake Warning at catkin/humanoids/humanoid_control/example_tasks/template/CMakeLists.txt:118 (message):
+  
+  ;EIGEN_STACK_ALLOCATION_LIMIT=0;EIGEN_NO_DEBUG;RTEIG_NO_ASSERTS;INIT_USER_TASKS_hermes_lower
+Call Stack (most recent call first):
+  catkin/humanoids/humanoid_control/example_tasks/example_tasks_hermes_lower/CMakeLists.txt:6 (include)
+
+
+-- +++ processing catkin package: 'julia_sl_interface_hermes_lower'
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control/julia_sl_interface/julia_sl_interface_hermes_lower)
+-- +++ processing catkin package: 'hermes_lower_user'
+-- ==> add_subdirectory(catkin/robots/hermesLowerUser)
+-- MACHTYPE=x86_64
+warning : testing_tests package : compiling tests only for athena and hermes_lower, hermes_full ignored
+-- Boost version: 1.54.0
+-- Found the following Boost libraries:
+--   regex
+--   filesystem
+--   system
+--   thread
+-- xenomai NOT found. (/usr/local;/usr)
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+julia interface not found, not compiling in julia tasks
+If you want the julia interface, you need the julia_sl_interface package, and you must set an environment flag called JULIA_PATH, pointing to a directory containing a (properly compiled) julia repository. E.g.:
+juliaDir=~/julia; mkdir -p $juliaDir; cd $juliaDir; git clone https://github.com/JuliaLang/julia.git .; git checkout v0.4.2; make -j 8; echo JULIA_PATH="$juliaDir" >> ~/.bashrc; echo "export PATH=\$PATH:" $juliaDir >> ~/.bashrc; source ~/.bashrc
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/amd_clmc/team/workspace/build
+Scanning dependencies of target kalman_filters
+Scanning dependencies of target hello_world
+Scanning dependencies of target snopt_extern
+Scanning dependencies of target _vicon_bridge_generate_messages_check_deps_Markers
+Scanning dependencies of target _vicon_bridge_generate_messages_check_deps_viconGrabPose
+Scanning dependencies of target geometry_msgs_generate_messages_lisp
+Scanning dependencies of target _vicon_bridge_generate_messages_check_deps_viconCalibrateSegment
+Scanning dependencies of target _vicon_bridge_generate_messages_check_deps_TfDistortInfo
+Scanning dependencies of target _vicon_bridge_generate_messages_check_deps_Marker
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libkalman_filters.so
+Scanning dependencies of target geometry_msgs_generate_messages_py
+Scanning dependencies of target gtest
+[  0%] Scanning dependencies of target vicon_bridge_gencfg
+Scanning dependencies of target geometry_msgs_generate_messages_cpp
+Scanning dependencies of target msvc_bridge
+Scanning dependencies of target testclient
+[  0%] [  0%] Built target geometry_msgs_generate_messages_lisp
+Creating directories for 'snopt_extern'
+[  0%] [  0%] Built target geometry_msgs_generate_messages_py
+[  0%] [  1%] Building CXX object catkin/humanoids/humanoid_control/py_cpp_interface/CMakeFiles/hello_world.dir/src/hello_world.cpp.o
+[  1%] Built target geometry_msgs_generate_messages_cpp
+[  1%] Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+Generating dynamic reconfigure files from cfg/tf_distort.cfg: /home/amd_clmc/team/workspace/devel/include/vicon_bridge/tf_distortConfig.h /home/amd_clmc/team/workspace/devel/lib/python2.7/dist-packages/vicon_bridge/cfg/tf_distortConfig.py
+Building CXX object catkin/perception/vicon_bridge/CMakeFiles/msvc_bridge.dir/src/msvc_bridge.cpp.o
+Building CXX object catkin/perception/vicon_bridge/CMakeFiles/testclient.dir/src/ViconDataStreamSDK_CPPTest.cpp.o
+Scanning dependencies of target utility
+[  1%] Built target kalman_filters
+[  1%] [  1%] [  2%] Scanning dependencies of target SLmotor
+[  2%] [  2%] [  2%] [  2%] [  3%] [  3%] [  3%] [  3%] [  4%] [  4%] Building C object catkin/core-sl/locomotion-utilities/CMakeFiles/utility.dir/src/brent.c.o
+[  5%] [  5%] [  5%] Building C object catkin/core-sl/locomotion-utilities/CMakeFiles/utility.dir/src/choldc.c.o
+[  5%] [  6%] [  6%] [  6%] [  6%] [  6%] [  6%] [  6%] Building C object catkin/core-sl/locomotion-utilities/CMakeFiles/utility.dir/src/balanc.c.o
+[  7%] [  7%] [  7%] Scanning dependencies of target robot_math
+[  7%] [  7%] [  7%] [  7%] Scanning dependencies of target SLsimulation
+Building C object catkin/core-sl/locomotion-utilities/CMakeFiles/utility.dir/src/frprmn.c.o
+Scanning dependencies of target yaml-cpp
+Scanning dependencies of target data_collection
+Building C object catkin/core-sl/locomotion-utilities/CMakeFiles/utility.dir/src/linmin.c.o
+Building C object catkin/core-sl/locomotion-utilities/CMakeFiles/utility.dir/src/distributions.c.o
+Building C object catkin/core-sl/locomotion-utilities/CMakeFiles/utility.dir/src/dfpmin.c.o
+Scanning dependencies of target py_converter_test
+Building C object catkin/core-sl/locomotion-utilities/CMakeFiles/utility.dir/src/f1dim.c.o
+Building C object catkin/core-sl/locomotion-utilities/CMakeFiles/utility.dir/src/lubksb.c.o
+[  8%] Building C object catkin/core-sl/locomotion-utilities/CMakeFiles/utility.dir/src/control.c.o
+Scanning dependencies of target PyShell
+Building C object catkin/core-sl/locomotion-utilities/CMakeFiles/utility.dir/src/svbksb.c.o
+Building C object catkin/core-sl/locomotion-utilities/CMakeFiles/utility.dir/src/ldltinv.c.o
+[  8%] Scanning dependencies of target SLopenGL
+Scanning dependencies of target SLros
+Building C object catkin/core-sl/locomotion-utilities/CMakeFiles/utility.dir/src/kdtree.c.o
+Building C object catkin/core-sl/locomotion-utilities/CMakeFiles/utility.dir/src/elmhes.c.o
+Building C object catkin/core-sl/locomotion-utilities/CMakeFiles/utility.dir/src/ludcmp.c.o
+Building C object catkin/core-sl/locomotion-utilities/CMakeFiles/utility.dir/src/df1dim.c.o
+Building C object catkin/core-sl/locomotion-utilities/CMakeFiles/utility.dir/src/parm_opt.c.o
+Building C object catkin/core-sl/locomotion-utilities/CMakeFiles/utility.dir/src/svdcmp.c.o
+Building C object catkin/core-sl/locomotion-utilities/CMakeFiles/utility.dir/src/stability.c.o
+[  8%] Building C object catkin/core-sl/locomotion-utilities/CMakeFiles/utility.dir/src/pythag.c.o
+Scanning dependencies of target SLtask
+Building C object catkin/core-sl/locomotion-utilities/CMakeFiles/utility.dir/src/data_sets.c.o
+Building C object catkin/core-sl/locomotion-utilities/CMakeFiles/utility.dir/src/numerics_package.c.o
+Building C object catkin/core-sl/locomotion-utilities/CMakeFiles/utility.dir/src/hqr.c.o
+[  8%] Building C object catkin/core-sl/locomotion-utilities/CMakeFiles/utility.dir/src/statistics.c.o
+[  8%] Building C object catkin/core-sl/locomotion-utilities/CMakeFiles/utility.dir/src/dbrent.c.o
+Building C object catkin/core-sl/locomotion-utilities/CMakeFiles/utility.dir/src/powell.c.o
+[  8%] Building C object catkin/core-sl/locomotion-utilities/CMakeFiles/utility.dir/src/lookup_table.c.o
+Building C object catkin/core-sl/locomotion-utilities/CMakeFiles/utility.dir/src/j-fixed.c.o
+[  8%] Scanning dependencies of target kalman_filter_test
+[  8%] Building C object catkin/core-sl/locomotion-utilities/CMakeFiles/utility.dir/src/dlinmin.c.o
+[  8%] Building C object catkin/core-sl/locomotion-utilities/CMakeFiles/utility.dir/src/utility.c.o
+[  8%] [  8%] Building C object catkin/core-sl/locomotion-utilities/CMakeFiles/utility.dir/src/mnbrak.c.o
+Building C object catkin/core-sl/locomotion-sl/CMakeFiles/SLmotor.dir/src/SL_motor_servo.c.o
+[  8%] [  8%] [  8%] [  8%] [  8%] [  8%] [  8%] [  8%] [  8%] Building CXX object catkin/humanoids/humanoid_control/io_tools/CMakeFiles/data_collection.dir/src/data_collection/data_collector.cpp.o
+[  8%] [  9%] Building C object catkin/core-sl/locomotion-sl/CMakeFiles/SLmotor.dir/src/SL_motor_servo_unix.c.o
+Building C object catkin/core-sl/locomotion-sl/CMakeFiles/SLmotor.dir/src/SL_sensor_proc.c.o
+[  9%] [  9%] [  9%] [  9%] [ 10%] [ 10%] [ 10%] [ 11%] [ 11%] [ 11%] [ 11%] [ 11%] [ 11%] [ 11%] Building C object catkin/core-sl/locomotion-sl/CMakeFiles/SLmotor.dir/src/SL_controller.c.o
+[ 11%] [ 11%] [ 11%] [ 11%] [ 11%] Building CXX object catkin/humanoids/humanoid_control/robot_math/CMakeFiles/robot_math.dir/src/robot_math/rt_stop_watch.cpp.o
+[ 11%] [ 12%] [ 12%] [ 13%] [ 13%] [ 13%] [ 13%] Built target _vicon_bridge_generate_messages_check_deps_viconCalibrateSegment
+[ 14%] Built target _vicon_bridge_generate_messages_check_deps_Markers
+[ 14%] [ 14%] [ 14%] Scanning dependencies of target geometry_utils
+[ 14%] [ 14%] [ 14%] [ 15%] [ 15%] [ 15%] Building C object catkin/core-sl/locomotion-sl/CMakeFiles/SLopenGL.dir/src/SL_openGL_servo_unix.c.o
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/node_data.cpp.o
+[ 15%] [ 15%] Building C object catkin/core-sl/locomotion-sl/CMakeFiles/SLsimulation.dir/src/SL_objects.c.o
+Built target _vicon_bridge_generate_messages_check_deps_Marker
+Building C object catkin/core-sl/locomotion-sl/CMakeFiles/SLsimulation.dir/src/SL_integrate.c.o
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/stream.cpp.o
+[ 15%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/nodebuilder.cpp.o
+[ 16%] Building C object catkin/core-sl/locomotion-sl/CMakeFiles/SLsimulation.dir/src/SL_simulation_servo.c.o
+[ 16%] [ 16%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/singledocparser.cpp.o
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emit.cpp.o
+Building C object catkin/core-sl/locomotion-sl/CMakeFiles/SLsimulation.dir/src/SL_userSimulation.c.o
+Built target _vicon_bridge_generate_messages_check_deps_viconGrabPose
+Building C object catkin/core-sl/locomotion-sl/CMakeFiles/SLsimulation.dir/src/SL_simulation_servo_unix.c.o
+[ 17%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/scantag.cpp.o
+[ 17%] Building C object catkin/core-sl/locomotion-sl/CMakeFiles/SLopenGL.dir/src/SL_openGL_servo.c.o
+Built target _vicon_bridge_generate_messages_check_deps_TfDistortInfo
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/node.cpp.o
+Building C object catkin/core-sl/locomotion-sl/CMakeFiles/SLtask.dir/src/SL_sine_task.c.o
+Building CXX object catkin/core-sl/locomotion-sl/CMakeFiles/SLros.dir/src/SL_ros_servo.cpp.o
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/tag.cpp.o
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emitfromevents.cpp.o
+Building CXX object catkin/humanoids/humanoid_control/robot_math/CMakeFiles/robot_math.dir/src/robot_math/lqr.cpp.o
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emitterstate.cpp.o
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/exp.cpp.o
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emitterutils.cpp.o
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/simplekey.cpp.o
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emitter.cpp.o
+Building C object catkin/core-sl/locomotion-sl/CMakeFiles/SLtask.dir/src/SL_tasks.c.o
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/nodeevents.cpp.o
+Building C object catkin/core-sl/locomotion-sl/CMakeFiles/SLopenGL.dir/src/SL_openGL_oscilloscope.c.o
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/parse.cpp.o
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/scanscalar.cpp.o
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilderadapter.cpp.o
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/memory.cpp.o
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/binary.cpp.o
+Building C object catkin/core-sl/locomotion-sl/CMakeFiles/SLopenGL.dir/src/SL_openGL.c.o
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/null.cpp.o
+Building C object catkin/core-sl/locomotion-sl/CMakeFiles/SLtask.dir/src/SL_goto_task.c.o
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/directives.cpp.o
+Building CXX object catkin/humanoids/humanoid_control/py_cpp_interface/CMakeFiles/py_converter_test.dir/tests/converter_test.cpp.o
+[ 17%] Building C object catkin/core-sl/locomotion-sl/CMakeFiles/SLtask.dir/src/SL_objects.c.o
+Building C object catkin/core-sl/locomotion-sl/CMakeFiles/SLtask.dir/src/SL_traj_task.c.o
+Building C object catkin/core-sl/locomotion-sl/CMakeFiles/SLtask.dir/src/SL_task_servo.c.o
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/regex.cpp.o
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/scantoken.cpp.o
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/ostream_wrapper.cpp.o
+[ 17%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilder.cpp.o
+Building C object catkin/core-sl/locomotion-sl/CMakeFiles/SLtask.dir/src/SL_go_cart_task.c.o
+Scanning dependencies of target vicon_bridge_generate_messages_cpp
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/scanner.cpp.o
+[ 17%] Building CXX object catkin/core-sl/locomotion-sl/CMakeFiles/SLros.dir/src/SL_ros_servo_unix.cpp.o
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/parser.cpp.o
+Building CXX object catkin/humanoids/humanoid_control/py_cpp_interface/CMakeFiles/PyShell.dir/src/PyShell.cpp.o
+Building C object catkin/core-sl/locomotion-sl/CMakeFiles/SLtask.dir/src/SL_task_servo_unix.c.o
+Building C object catkin/core-sl/locomotion-sl/CMakeFiles/SLopenGL.dir/src/SL_objects.c.o
+[ 18%] Building CXX object catkin/humanoids/humanoid_control/filtering_tools/kalman_filters/CMakeFiles/kalman_filter_test.dir/src/test.cpp.o
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/convert.cpp.o
+[ 18%] Building CXX object catkin/core-sl/locomotion-sl/CMakeFiles/SLros.dir/src/SL_ros_communicator.cpp.o
+Building C object catkin/core-sl/locomotion-sl/CMakeFiles/SLopenGL.dir/src/SL_userGraphics.c.o
+Building CXX object catkin/humanoids/humanoid_control/robot_math/CMakeFiles/geometry_utils.dir/src/geometry_utils/AffineTransformation.cpp.o
+[ 18%] Building CXX object catkin/humanoids/humanoid_control/robot_math/CMakeFiles/geometry_utils.dir/src/geometry_utils/spatial_quantities.cpp.o
+[ 20%] Scanning dependencies of target vicon_bridge_generate_messages_py
+Scanning dependencies of target vicon_bridge_generate_messages_lisp
+[ 20%] [ 21%] [ 21%] Building CXX object catkin/humanoids/humanoid_control/robot_math/CMakeFiles/geometry_utils.dir/src/geometry_utils/Transformations.cpp.o
+[ 21%] [ 21%] Building CXX object catkin/humanoids/humanoid_control/robot_math/CMakeFiles/geometry_utils.dir/src/geometry_utils/sq_twist.cpp.o
+[ 21%] [ 21%] Building CXX object catkin/humanoids/humanoid_control/robot_math/CMakeFiles/geometry_utils.dir/src/geometry_utils/Quaternion.cpp.o
+Building CXX object catkin/humanoids/humanoid_control/robot_math/CMakeFiles/geometry_utils.dir/src/geometry_utils/RotationMatrix.cpp.o
+Building CXX object catkin/humanoids/humanoid_control/robot_math/CMakeFiles/geometry_utils.dir/src/geometry_utils/SpatialAlgebra.cpp.o
+Building CXX object catkin/humanoids/humanoid_control/robot_math/CMakeFiles/geometry_utils.dir/src/geometry_utils/sq_pose.cpp.o
+Generating C++ code from vicon_bridge/Marker.msg
+Generating C++ code from vicon_bridge/TfDistortInfo.msg
+Generating C++ code from vicon_bridge/Markers.msg
+[ 21%] Performing download step for 'snopt_extern'
+[ 22%] [ 22%] Generating C++ code from vicon_bridge/viconGrabPose.srv
+[ 22%] [ 23%] [ 23%] [ 23%] Generating C++ code from vicon_bridge/viconCalibrateSegment.srv
+[ 23%] [ 23%] [ 23%] Generating Lisp code from vicon_bridge/TfDistortInfo.msg
+Generating Python from MSG vicon_bridge/Marker
+Generating Lisp code from vicon_bridge/Markers.msg
+Generating Lisp code from vicon_bridge/Marker.msg
+Generating Python from MSG vicon_bridge/Markers
+Generating Python code from SRV vicon_bridge/viconGrabPose
+Generating Lisp code from vicon_bridge/viconGrabPose.srv
+Generating Python from MSG vicon_bridge/TfDistortInfo
+Generating Python code from SRV vicon_bridge/viconCalibrateSegment
+Generating Lisp code from vicon_bridge/viconCalibrateSegment.srv
+/home/amd_clmc/team/workspace/src/catkin/humanoids/humanoid_control/robot_math/src/geometry_utils/sq_twist.cpp:15:9: warning: #pragma once in main file [enabled by default]
+ #pragma once
+         ^
+[ 23%] [ 24%] No patch step for 'snopt_extern'
+No update step for 'snopt_extern'
+[ 24%] Performing configure step for 'snopt_extern'
+[ 24%] [ 24%] Generating Python msg __init__.py for vicon_bridge
+Generating Python srv __init__.py for vicon_bridge
+[ 24%] Built target vicon_bridge_generate_messages_lisp
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking how to print strings... printf
+checking for gcc... gcc
+[ 24%] Built target vicon_bridge_generate_messages_cpp
+Scanning dependencies of target vicon_bridge_gencpp
+[ 24%] Built target vicon_bridge_gencpp
+Scanning dependencies of target calibrate
+checking whether the C compiler works... [ 24%] Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libmsvc_bridge.so
+Building CXX object catkin/perception/vicon_bridge/CMakeFiles/calibrate.dir/src/calibrate_segment.cpp.o
+[ 24%] Built target vicon_bridge_generate_messages_py
+Scanning dependencies of target vicon_bridge_generate_messages
+[ 24%] Built target vicon_bridge_generate_messages
+yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... [ 24%] Built target msvc_bridge
+Scanning dependencies of target vicon_bridge
+[ 24%] Building CXX object catkin/perception/vicon_bridge/CMakeFiles/vicon_bridge.dir/src/vicon_bridge.cpp.o
+
+checking whether we are cross compiling... Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/vicon_bridge/testclient
+Generating reconfiguration files for tf_distort in vicon_bridge
+Wrote header file in /home/amd_clmc/team/workspace/devel/include/vicon_bridge/tf_distortConfig.h
+Linking C shared library /home/amd_clmc/team/workspace/devel/lib/libSLmotor.so
+[ 24%] Built target vicon_bridge_gencfg
+Linking C shared library /home/amd_clmc/team/workspace/devel/lib/libutility.so
+no
+checking for suffix of object files... Scanning dependencies of target tf_distort
+Linking C shared library /home/amd_clmc/team/workspace/devel/lib/libSLsimulation.so
+[ 24%] Built target testclient
+[ 24%] Built target SLmotor
+Linking C shared library /home/amd_clmc/team/workspace/devel/lib/libSLtask.so
+[ 24%] o
+checking whether we are using the GNU C compiler... Building CXX object catkin/perception/vicon_bridge/CMakeFiles/tf_distort.dir/src/tf_distort.cpp.o
+[ 24%] Built target utility
+Scanning dependencies of target lwpr
+yes
+checking whether gcc accepts -g... [ 24%] [ 24%] Scanning dependencies of target SLcommon
+Built target SLtask
+[ 24%] Scanning dependencies of target configuration_file_loading
+[ 24%] Built target SLsimulation
+Building C object catkin/core-sl/locomotion-lwpr/CMakeFiles/lwpr.dir/src/lwpr.c.o
+[ 24%] [ 25%] [ 25%] [ 25%] [ 25%] [ 25%] Building C object catkin/core-sl/locomotion-lwpr/CMakeFiles/lwpr.dir/src/lwpr_script.c.o
+[ 25%] [ 25%] [ 25%] [ 25%] Building C object catkin/core-sl/locomotion-sl/CMakeFiles/SLcommon.dir/src/SL_oscilloscope.c.o
+Building C object catkin/core-sl/locomotion-sl/CMakeFiles/SLcommon.dir/src/SL_man.c.o
+Building C object catkin/core-sl/locomotion-sl/CMakeFiles/SLcommon.dir/src/SL_unix_common.c.o
+Building C object catkin/core-sl/locomotion-sl/CMakeFiles/SLcommon.dir/src/SL_shared_memory.c.o
+Building C object catkin/core-sl/locomotion-sl/CMakeFiles/SLcommon.dir/src/SL_common.c.o
+Building C object catkin/core-sl/locomotion-sl/CMakeFiles/SLcommon.dir/src/SL_filters.c.o
+Building C object catkin/core-sl/locomotion-sl/CMakeFiles/SLcommon.dir/src/SL_collect_data.c.o
+Building C object catkin/core-sl/locomotion-sl/CMakeFiles/SLcommon.dir/src/SL_vx2unix_wrappers.c.o
+Building CXX object catkin/humanoids/humanoid_control/io_tools/CMakeFiles/configuration_file_loading.dir/src/configuration_file_loading/ConfigurationFileReader.cpp.o
+Building C object catkin/core-sl/locomotion-sl/CMakeFiles/SLcommon.dir/src/SL_terrains.c.o
+yes
+checking for gcc option to accept ISO C89... none needed
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... Linking C shared library /home/amd_clmc/team/workspace/devel/lib/libSLopenGL.so
+BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 3458764513820540925
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... [ 25%] Built target SLopenGL
+@
+checking for strip... strip
+checking for ranlib... ranlib
+checking for gawk... no
+checking for mawk... mawk
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking how to run the C preprocessor... gcc -E
+Linking C shared library /home/amd_clmc/team/workspace/devel/lib/libSLcommon.so
+checking for ANSI C header files... Linking C shared library /home/amd_clmc/team/workspace/devel/lib/liblwpr.so
+[ 25%] Built target SLcommon
+[ 25%] [ 25%] [ 25%] [ 25%] [ 25%] Generating src/SL_kinematics.c
+Scanning dependencies of target xhermes_full
+Generating src/SL_dynamics.c
+Generating src/SL_dynamics.c
+Generating src/SL_kinematics.c
+[ 25%] Generating src/SL_kinematics.c
+Scanning dependencies of target xathena
+Scanning dependencies of target xhermes_lower
+Generating src/SL_dynamics.c
+[ 25%] [ 25%] [ 26%] Building C object catkin/robots/hermesFull/CMakeFiles/xhermes_full.dir/src/SL_user_common.c.o
+[ 26%] [ 26%] Built target lwpr
+[ 26%] [ 26%] Building C object catkin/robots/hermesFull/CMakeFiles/xhermes_full.dir/__/hermesCore/src/SL_main.c.o
+Building C object catkin/robots/athena/CMakeFiles/xathena.dir/__/hermesCore/src/SL_main.c.o
+Building C object catkin/robots/hermesLower/CMakeFiles/xhermes_lower.dir/__/hermesCore/src/SL_main.c.o
+Scanning dependencies of target xascii2mrplot
+Building C object catkin/robots/hermesLower/CMakeFiles/xhermes_lower.dir/src/SL_user_common.c.o
+Building C object catkin/robots/athena/CMakeFiles/xathena.dir/src/SL_user_common.c.o
+Scanning dependencies of target xlwprstat
+Scanning dependencies of target xlwpr
+[ 26%] [ 26%] [ 26%] Building C object catkin/core-sl/locomotion-lwpr/CMakeFiles/xascii2mrplot.dir/src/ascii2mrdplot.c.o
+[ 27%] Scanning dependencies of target athena
+Building C object catkin/core-sl/locomotion-lwpr/CMakeFiles/xlwprstat.dir/src/lwpr_stat.c.o
+[ 27%] Scanning dependencies of target SLvision
+Building C object catkin/core-sl/locomotion-lwpr/CMakeFiles/xlwpr.dir/src/lwpr_test.c.o
+[ 27%] Building C object catkin/core-sl/locomotion-lwpr/CMakeFiles/xlwprstat.dir/src/lwpr_main.c.o
+Scanning dependencies of target hermes_lower
+[ 27%] [ 28%] [ 28%] [ 28%] [ 28%] [ 28%] Scanning dependencies of target hermes_full
+Building C object catkin/core-sl/locomotion-lwpr/CMakeFiles/xlwpr.dir/src/lwpr_main.c.o
+[ 29%] [ 29%] [ 29%] [ 29%] [ 29%] [ 29%] [ 30%] Building C object catkin/robots/athena/CMakeFiles/athena.dir/src/SL_dynamics.c.o
+[ 30%] Building C object catkin/core-sl/locomotion-sl/CMakeFiles/SLvision.dir/src/SL_vision_servo_unix.c.o
+Building CXX object catkin/robots/athena/CMakeFiles/athena.dir/src/SL_forDynComp.cpp.o
+[ 30%] [ 30%] [ 31%] [ 31%] Building C object catkin/core-sl/locomotion-sl/CMakeFiles/SLvision.dir/src/SL_dbvision.c.o
+Building C object catkin/core-sl/locomotion-sl/CMakeFiles/SLvision.dir/src/SL_vision_proc.c.o
+Building CXX object catkin/robots/athena/CMakeFiles/athena.dir/src/SL_forDynArt.cpp.o
+Building CXX object catkin/robots/athena/CMakeFiles/athena.dir/src/SL_invDynArt.cpp.o
+[ 31%] [ 32%] [ 32%] [ 32%] [ 32%] Building C object catkin/core-sl/locomotion-sl/CMakeFiles/SLvision.dir/src/SL_serial_unix.c.o
+[ 32%] [ 33%] [ 33%] Building C object catkin/robots/athena/CMakeFiles/athena.dir/__/hermesCore/src/SL_user_commands.c.o
+Building CXX object catkin/robots/athena/CMakeFiles/athena.dir/src/SL_invDynNE.cpp.o
+Building C object catkin/robots/hermesLower/CMakeFiles/hermes_lower.dir/src/SL_user_common.c.o
+Building CXX object catkin/robots/hermesLower/CMakeFiles/hermes_lower.dir/src/SL_forDynComp.cpp.o
+Building CXX object catkin/robots/hermesLower/CMakeFiles/hermes_lower.dir/src/SL_forDynArt.cpp.o
+Building C object catkin/core-sl/locomotion-sl/CMakeFiles/SLvision.dir/src/SL_vision_servo.c.o
+[ 33%] Building C object catkin/robots/athena/CMakeFiles/athena.dir/src/SL_kinematics.c.o
+Building C object catkin/robots/hermesLower/CMakeFiles/hermes_lower.dir/src/SL_dynamics.c.o
+Building CXX object catkin/robots/hermesFull/CMakeFiles/hermes_full.dir/src/SL_forDynArt.cpp.o
+Building CXX object catkin/robots/hermesFull/CMakeFiles/hermes_full.dir/src/SL_invDynArt.cpp.o
+[ 33%] Building C object catkin/robots/hermesLower/CMakeFiles/hermes_lower.dir/src/SL_kinematics.c.o
+Building CXX object catkin/robots/hermesFull/CMakeFiles/hermes_full.dir/src/SL_forDynComp.cpp.o
+Building CXX object catkin/robots/hermesLower/CMakeFiles/hermes_lower.dir/src/SL_invDynNE.cpp.o
+[ 34%] [ 34%] Building C object catkin/robots/athena/CMakeFiles/athena.dir/src/SL_user_common.c.o
+Building CXX object catkin/robots/hermesLower/CMakeFiles/hermes_lower.dir/__/hermesCore/src/raw_data_access.cpp.o
+Building CXX object catkin/robots/hermesLower/CMakeFiles/hermes_lower.dir/src/SL_invDynArt.cpp.o
+Building C object catkin/robots/hermesFull/CMakeFiles/hermes_full.dir/src/SL_dynamics.c.o
+Building C object catkin/robots/hermesLower/CMakeFiles/hermes_lower.dir/__/hermesCore/src/SL_user_commands.c.o
+Building CXX object catkin/robots/athena/CMakeFiles/athena.dir/__/hermesCore/src/raw_data_access.cpp.o
+Building CXX object catkin/robots/hermesFull/CMakeFiles/hermes_full.dir/src/SL_invDynNE.cpp.o
+[ 34%] Building CXX object catkin/robots/hermesFull/CMakeFiles/hermes_full.dir/__/hermesCore/src/raw_data_access.cpp.o
+Building C object catkin/robots/hermesFull/CMakeFiles/hermes_full.dir/src/SL_kinematics.c.o
+Building C object catkin/robots/hermesFull/CMakeFiles/hermes_full.dir/src/SL_user_common.c.o
+Building C object catkin/robots/hermesFull/CMakeFiles/hermes_full.dir/__/hermesCore/src/SL_user_commands.c.o
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/librobot_math.so
+Linking C executable /home/amd_clmc/team/workspace/src/catkin/core-sl/locomotion-lwpr/x86_64/xascii2mrplot
+[ 34%] Built target robot_math
+[ 34%] Built target xascii2mrplot
+Linking C executable /home/amd_clmc/team/workspace/src/catkin/core-sl/locomotion-lwpr/x86_64/xlwprstat
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libdata_collection.so
+Linking C executable /home/amd_clmc/team/workspace/src/catkin/core-sl/locomotion-lwpr/x86_64/xlwpr
+[ 34%] Built target xlwprstat
+[ 34%] [ 34%] Built target xlwpr
+Built target data_collection
+/home/amd_clmc/team/workspace/src/catkin/robots/hermesCore/src/SL_main.c: In function 'main':
+/home/amd_clmc/team/workspace/src/catkin/robots/hermesCore/src/SL_main.c:64:7: warning: format not a string literal and no format arguments [-Wformat-security]
+       sprintf(argv_array[c++],argv[i]);
+       ^
+Linking C executable /home/amd_clmc/team/workspace/src/catkin/robots/hermesFull/x86_64/xhermes
+/home/amd_clmc/team/workspace/src/catkin/robots/hermesCore/src/SL_main.c: In function 'main':
+/home/amd_clmc/team/workspace/src/catkin/robots/hermesCore/src/SL_main.c:64:7: warning: format not a string literal and no format arguments [-Wformat-security]
+       sprintf(argv_array[c++],argv[i]);
+       ^
+/home/amd_clmc/team/workspace/src/catkin/robots/hermesCore/src/SL_main.c: In function 'main':
+/home/amd_clmc/team/workspace/src/catkin/robots/hermesCore/src/SL_main.c:64:7: warning: format not a string literal and no format arguments [-Wformat-security]
+       sprintf(argv_array[c++],argv[i]);
+       ^
+Linking C executable /home/amd_clmc/team/workspace/src/catkin/robots/hermesLower/x86_64/xhermes
+Linking C executable /home/amd_clmc/team/workspace/src/catkin/robots/athena/x86_64/xathena
+[ 34%] Built target xhermes_full
+Scanning dependencies of target install_machtype_xhermes_full
+[ 34%] [ 34%] Built target xhermes_lower
+Built target xathena
+[ 34%] Scanning dependencies of target install_machtype_xhermes_lower
+Scanning dependencies of target install_machtype_xathena
+Generating /home/amd_clmc/team/workspace/src/catkin/robots/hermesFullUser/x86_64/xhermes
+[ 34%] [ 35%] [ 35%] Built target install_machtype_xhermes_full
+Generating /home/amd_clmc/team/workspace/src/catkin/robots/athenaUser/x86_64/xathena
+Generating /home/amd_clmc/team/workspace/src/catkin/robots/hermesLowerUser/x86_64/xhermes
+Linking C shared library /home/amd_clmc/team/workspace/devel/lib/libSLvision.so
+yes
+checking for sys/types.h... [ 35%] [ 35%] Built target install_machtype_xhermes_lower
+Built target install_machtype_xathena
+[ 35%] Built target SLvision
+yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... Linking CXX shared library libgtest.so
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libconfiguration_file_loading.so
+[ 35%] Built target gtest
+[ 35%] Built target configuration_file_loading
+Scanning dependencies of target data_collectionSL
+yes
+checking for memory.h... [ 35%] Building CXX object catkin/humanoids/humanoid_control/io_tools_sl/CMakeFiles/data_collectionSL.dir/src/data_collection_sl/sl_data_collector.cpp.o
+yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libgeometry_utils.so
+[ 35%] Built target geometry_utils
+yes
+checking for unistd.h... Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/kalman_filters/kalman_filter_test
+yes
+checking for dlfcn.h... [ 35%] Built target kalman_filter_test
+yes
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libhermes_lower.so
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... [ 35%] Built target hermes_lower
+[ 35%] Generating src/SL_parm_estimate.c
+no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... Scanning dependencies of target hermes_lower_task
+Scanning dependencies of target hermes_lower_openGL
+Scanning dependencies of target hermes_lower_simulation
+Scanning dependencies of target xmotor_hermes_lower
+Scanning dependencies of target xvision_hermes_lower
+Scanning dependencies of target visualization_tools_opengl_hermes_lower
+[ 36%] Scanning dependencies of target xpest_hermes_lower
+[ 36%] [ 36%] yes
+checking if gcc static flag -static works... [ 36%] Building CXX object catkin/robots/hermesLower/CMakeFiles/hermes_lower_task.dir/__/hermesCore/src/SL_user_task.cpp.o
+[ 36%] [ 36%] Building C object catkin/robots/hermesLower/CMakeFiles/xmotor_hermes_lower.dir/__/hermesCore/src/SL_user_motor.c.o
+Building C object catkin/robots/hermesLower/CMakeFiles/hermes_lower_simulation.dir/__/hermesCore/src/SL_user_simulation.c.o
+[ 36%] [ 37%] [ 37%] [ 37%] Scanning dependencies of target testing_tests_hermes_lower
+[ 37%] [ 37%] Building C object catkin/humanoids/humanoid_control/visualization_tools/visualization_tools_hermes_lower/CMakeFiles/visualization_tools_opengl_hermes_lower.dir/__/template/src/visualization_tools/visualizationTools.c.o
+Building CXX object catkin/robots/hermesLower/CMakeFiles/xmotor_hermes_lower.dir/__/hermesCore/src/SL_user_sensor_proc_unix.cpp.o
+Building C object catkin/robots/hermesLower/CMakeFiles/xpest_hermes_lower.dir/src/SL_parm_estimate.c.o
+Building C object catkin/humanoids/humanoid_control/visualization_tools/visualization_tools_hermes_lower/CMakeFiles/visualization_tools_opengl_hermes_lower.dir/__/template/src/visualization_tools/opengl/DisplayKinematicsOpengl.c.o
+Building C object catkin/humanoids/humanoid_control/visualization_tools/visualization_tools_hermes_lower/CMakeFiles/visualization_tools_opengl_hermes_lower.dir/__/template/src/visualization_tools/opengl/DrawFrameOpengl.c.o
+Building C object catkin/humanoids/humanoid_control/visualization_tools/visualization_tools_hermes_lower/CMakeFiles/visualization_tools_opengl_hermes_lower.dir/__/template/src/visualization_tools/opengl/DrawBallsOpengl.c.o
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libdata_collectionSL.so
+Building C object catkin/robots/hermesLower/CMakeFiles/hermes_lower_openGL.dir/src/SL_user_openGL.c.o
+Building C object catkin/robots/hermesLower/CMakeFiles/xvision_hermes_lower.dir/__/hermesCore/src/SL_user_vision.c.o
+[ 37%] Building C object catkin/humanoids/humanoid_control/visualization_tools/visualization_tools_hermes_lower/CMakeFiles/visualization_tools_opengl_hermes_lower.dir/__/template/src/visualization_tools/opengl/DrawPhantomOpengl.c.o
+Building CXX object catkin/humanoids/humanoid_control/testing_tests/CMakeFiles/testing_tests_hermes_lower.dir/src/testable.cpp.o
+yes
+checking if gcc supports -c -o file.o... Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libyaml-cpp.so
+[ 37%] Built target data_collectionSL
+yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... [ 37%] Built target yaml-cpp
+no
+checking dynamic linker characteristics... Scanning dependencies of target parse
+Scanning dependencies of target read
+Scanning dependencies of target sandbox
+[ 38%] [ 38%] [ 38%] Scanning dependencies of target run-tests
+Building CXX object catkin/third_party/YAML_CPP/util/CMakeFiles/read.dir/read.cpp.o
+Building CXX object catkin/third_party/YAML_CPP/util/CMakeFiles/sandbox.dir/sandbox.cpp.o
+Building CXX object catkin/third_party/YAML_CPP/util/CMakeFiles/parse.dir/parse.cpp.o
+[ 38%] [ 38%] [ 38%] [ 40%] [ 40%] [ 40%] [ 40%] Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/spectests.cpp.o
+Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/main.cpp.o
+Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/tests.cpp.o
+Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/new-api/spectests.cpp.o
+Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/new-api/parsertests.cpp.o
+Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/emittertests.cpp.o
+Scanning dependencies of target lqr_example_app
+Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/new-api/nodetests.cpp.o
+Scanning dependencies of target eiquadprog_tester_app
+[ 40%] GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking for a BSD-compatible install... Scanning dependencies of target yaml_example
+Building CXX object catkin/humanoids/humanoid_control/robot_math/CMakeFiles/lqr_example_app.dir/tests/robot_math/lqr_example_app.cpp.o
+/usr/bin/install -c
+checking for gfortran... no
+checking for nagfor... no
+checking for ifort... no
+[ 40%] [ 40%] checking whether we are using the GNU Fortran compiler... Building CXX object catkin/humanoids/humanoid_control/robot_math/CMakeFiles/eiquadprog_tester_app.dir/src/robot_math/EigenQpSolver.cpp.o
+Building CXX object catkin/humanoids/humanoid_control/robot_math/CMakeFiles/eiquadprog_tester_app.dir/tests/robot_math/eiquadprog_tester_app.cpp.o
+[ 40%] [ 41%] [ 41%] no
+checking whether  accepts -g... Building CXX object catkin/humanoids/humanoid_control/io_tools/CMakeFiles/yaml_example.dir/examples/io_tools/yaml_parameterizable_object.cpp.o
+Building CXX object catkin/humanoids/humanoid_control/io_tools/CMakeFiles/yaml_example.dir/examples/io_tools/yaml_example.cpp.o
+Building CXX object catkin/humanoids/humanoid_control/io_tools/CMakeFiles/yaml_example.dir/examples/io_tools/yaml_constructable_object.cpp.o
+no
+checking for gcc... (cached) gcc
+Linking C shared library /home/amd_clmc/team/workspace/devel/lib/libvisualization_tools_opengl_hermes_lower.so
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking for g++... g++
+Linking C shared library /home/amd_clmc/team/workspace/devel/lib/libhermes_lower_simulation.so
+Linking C executable /home/amd_clmc/team/workspace/src/catkin/robots/hermesLower/x86_64/xvision
+checking whether we are using the GNU C++ compiler... [ 41%] Built target visualization_tools_opengl_hermes_lower
+[ 41%] Built target hermes_lower_simulation
+yes
+checking whether g++ accepts -g... [ 41%] Built target xvision_hermes_lower
+Scanning dependencies of target install_machtype_xvision_hermes_lower
+Scanning dependencies of target floating_base_tools_hermes_full
+[ 41%] Scanning dependencies of target xsimulation_hermes_lower
+[ 42%] Scanning dependencies of target floating_base_tools_athena
+Generating /home/amd_clmc/team/workspace/src/catkin/robots/hermesLowerUser/x86_64/xvision
+Scanning dependencies of target floating_base_tools_hermes_lower
+yes
+Building C object catkin/robots/hermesLowerUser/CMakeFiles/xsimulation_hermes_lower.dir/src/sim/initUserSimulation.c.o
+[ 42%] Built target install_machtype_xvision_hermes_lower
+checking how to run the C++ preprocessor... [ 42%] [ 42%] [ 42%] [ 42%] [ 42%] [ 42%] [ 42%] [ 42%] [ 43%] [ 43%] [ 44%] [ 45%] [ 45%] [ 45%] [ 46%] Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_common/floating_base_tools_hermes_full/CMakeFiles/floating_base_tools_hermes_full.dir/__/template/src/floating_base_tools/robot_command_interface.cpp.o
+[ 46%] [ 46%] [ 46%] [ 46%] [ 46%] [ 46%] [ 46%] [ 47%] [ 47%] [ 47%] [ 47%] [ 47%] Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_common/floating_base_tools_athena/CMakeFiles/floating_base_tools_athena.dir/__/template/src/floating_base_tools/contact_helper.cpp.o
+[ 48%] [ 48%] [ 48%] [ 48%] Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_common/floating_base_tools_athena/CMakeFiles/floating_base_tools_athena.dir/__/template/src/floating_base_tools/robot_state_representation.cpp.o
+[ 49%] [ 49%] [ 49%] Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_common/floating_base_tools_athena/CMakeFiles/floating_base_tools_athena.dir/__/template/src/floating_base_tools/momentum_lqr.cpp.o
+[ 49%] Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_common/floating_base_tools_athena/CMakeFiles/floating_base_tools_athena.dir/__/template/src/floating_base_tools/robot_command_interface.cpp.o
+Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_common/floating_base_tools_athena/CMakeFiles/floating_base_tools_athena.dir/__/template/src/floating_base_tools/robot_interface.cpp.o
+[ 49%] [ 49%] [ 49%] [ 49%] [ 49%] [ 49%] [ 49%] [ 49%] Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_common/floating_base_tools_hermes_full/CMakeFiles/floating_base_tools_hermes_full.dir/__/template/src/floating_base_tools/robot_interface.cpp.o
+[ 50%] Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_common/floating_base_tools_hermes_full/CMakeFiles/floating_base_tools_hermes_full.dir/__/template/src/floating_base_tools/optimal_inverse_dynamics.cpp.o
+Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_common/floating_base_tools_hermes_lower/CMakeFiles/floating_base_tools_hermes_lower.dir/__/template/src/floating_base_tools/optimal_inverse_dynamics.cpp.o
+Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_common/floating_base_tools_hermes_full/CMakeFiles/floating_base_tools_hermes_full.dir/__/template/src/floating_base_tools/momentum_lqr.cpp.o
+Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_common/floating_base_tools_hermes_full/CMakeFiles/floating_base_tools_hermes_full.dir/__/template/src/floating_base_tools/recursive_newton_euler.cpp.o
+Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_common/floating_base_tools_hermes_full/CMakeFiles/floating_base_tools_hermes_full.dir/__/template/src/floating_base_tools/inverse_kinematics.cpp.o
+Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_common/floating_base_tools_athena/CMakeFiles/floating_base_tools_athena.dir/__/template/src/floating_base_tools/InverseKinematicsBase.cpp.o
+[ 50%] Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_common/floating_base_tools_athena/CMakeFiles/floating_base_tools_athena.dir/__/template/src/floating_base_tools/recursive_newton_euler.cpp.o
+Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_common/floating_base_tools_hermes_full/CMakeFiles/floating_base_tools_hermes_full.dir/__/template/src/floating_base_tools/robot_state_representation.cpp.o
+Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_common/floating_base_tools_hermes_full/CMakeFiles/floating_base_tools_hermes_full.dir/__/template/src/floating_base_tools/kinematics.cpp.o
+Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_common/floating_base_tools_athena/CMakeFiles/floating_base_tools_athena.dir/__/template/src/floating_base_tools/inverse_kinematics.cpp.o
+Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_common/floating_base_tools_hermes_lower/CMakeFiles/floating_base_tools_hermes_lower.dir/__/template/src/floating_base_tools/inverse_kinematics.cpp.o
+Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_common/floating_base_tools_hermes_full/CMakeFiles/floating_base_tools_hermes_full.dir/__/template/src/floating_base_tools/sensors.cpp.o
+Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_common/floating_base_tools_hermes_lower/CMakeFiles/floating_base_tools_hermes_lower.dir/__/template/src/floating_base_tools/robot_state_representation.cpp.o
+Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_common/floating_base_tools_athena/CMakeFiles/floating_base_tools_athena.dir/__/template/src/floating_base_tools/optimal_inverse_dynamics.cpp.o
+Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_common/floating_base_tools_athena/CMakeFiles/floating_base_tools_athena.dir/__/template/src/floating_base_tools/momentum_computation.cpp.o
+Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_common/floating_base_tools_hermes_full/CMakeFiles/floating_base_tools_hermes_full.dir/__/template/src/floating_base_tools/contact_helper.cpp.o
+Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_common/floating_base_tools_hermes_lower/CMakeFiles/floating_base_tools_hermes_lower.dir/__/template/src/floating_base_tools/composite_rigid_body.cpp.o
+Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_common/floating_base_tools_athena/CMakeFiles/floating_base_tools_athena.dir/__/template/src/floating_base_tools/composite_rigid_body.cpp.o
+Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_common/floating_base_tools_hermes_lower/CMakeFiles/floating_base_tools_hermes_lower.dir/__/template/src/floating_base_tools/recursive_newton_euler.cpp.o
+Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_common/floating_base_tools_hermes_lower/CMakeFiles/floating_base_tools_hermes_lower.dir/__/template/src/floating_base_tools/sensors.cpp.o
+Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_common/floating_base_tools_athena/CMakeFiles/floating_base_tools_athena.dir/__/template/src/floating_base_tools/sensors.cpp.o
+Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_common/floating_base_tools_hermes_lower/CMakeFiles/floating_base_tools_hermes_lower.dir/__/template/src/floating_base_tools/momentum_lqr.cpp.o
+Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_common/floating_base_tools_hermes_full/CMakeFiles/floating_base_tools_hermes_full.dir/__/template/src/floating_base_tools/robot_properties.cpp.o
+Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_common/floating_base_tools_hermes_full/CMakeFiles/floating_base_tools_hermes_full.dir/__/template/src/floating_base_tools/InverseKinematicsOnline.cpp.o
+Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_common/floating_base_tools_hermes_lower/CMakeFiles/floating_base_tools_hermes_lower.dir/__/template/src/floating_base_tools/InverseKinematicsOnline.cpp.o
+Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_common/floating_base_tools_hermes_lower/CMakeFiles/floating_base_tools_hermes_lower.dir/__/template/src/floating_base_tools/robot_interface.cpp.o
+Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_common/floating_base_tools_hermes_lower/CMakeFiles/floating_base_tools_hermes_lower.dir/__/template/src/floating_base_tools/kinematics.cpp.o
+Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_common/floating_base_tools_hermes_lower/CMakeFiles/floating_base_tools_hermes_lower.dir/__/template/src/floating_base_tools/robot_command_interface.cpp.o
+Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_common/floating_base_tools_hermes_lower/CMakeFiles/floating_base_tools_hermes_lower.dir/__/template/src/floating_base_tools/InverseKinematicsBase.cpp.o
+Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_common/floating_base_tools_hermes_lower/CMakeFiles/floating_base_tools_hermes_lower.dir/__/template/src/floating_base_tools/contact_helper.cpp.o
+Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_common/floating_base_tools_athena/CMakeFiles/floating_base_tools_athena.dir/__/template/src/floating_base_tools/kinematics.cpp.o
+Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_common/floating_base_tools_hermes_full/CMakeFiles/floating_base_tools_hermes_full.dir/__/template/src/floating_base_tools/momentum_computation.cpp.o
+Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_common/floating_base_tools_hermes_lower/CMakeFiles/floating_base_tools_hermes_lower.dir/__/template/src/floating_base_tools/momentum_computation.cpp.o
+Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_common/floating_base_tools_hermes_full/CMakeFiles/floating_base_tools_hermes_full.dir/__/template/src/floating_base_tools/composite_rigid_body.cpp.o
+Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_common/floating_base_tools_hermes_lower/CMakeFiles/floating_base_tools_hermes_lower.dir/__/template/src/floating_base_tools/robot_properties.cpp.o
+Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_common/floating_base_tools_athena/CMakeFiles/floating_base_tools_athena.dir/__/template/src/floating_base_tools/InverseKinematicsOnline.cpp.o
+Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_common/floating_base_tools_athena/CMakeFiles/floating_base_tools_athena.dir/__/template/src/floating_base_tools/robot_properties.cpp.o
+Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_common/floating_base_tools_hermes_full/CMakeFiles/floating_base_tools_hermes_full.dir/__/template/src/floating_base_tools/InverseKinematicsBase.cpp.o
+Linking C shared library /home/amd_clmc/team/workspace/devel/lib/libhermes_lower_openGL.so
+/home/amd_clmc/team/workspace/src/catkin/robots/hermesCore/src/SL_user_task.cpp: In function 'void drawPhantomFromCurrentState()':
+/home/amd_clmc/team/workspace/src/catkin/robots/hermesCore/src/SL_user_task.cpp:389:69: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+   sendUserGraphics("phantom",b, (N_CART+N_QUAT+N_DOFS)*sizeof(float));
+                                                                     ^
+/home/amd_clmc/team/workspace/src/catkin/robots/hermesCore/src/SL_user_task.cpp: In function 'void drawPhantomFromDesiredState()':
+/home/amd_clmc/team/workspace/src/catkin/robots/hermesCore/src/SL_user_task.cpp:423:69: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+   sendUserGraphics("phantom",b, (N_CART+N_QUAT+N_DOFS)*sizeof(float));
+                                                                     ^
+[ 50%] Built target hermes_lower_openGL
+Scanning dependencies of target xopengl_hermes_lower
+Linking C executable /home/amd_clmc/team/workspace/src/catkin/robots/hermesLower/x86_64/xpest
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libhermes_lower_task.so
+[ 50%] Building C object catkin/robots/hermesLowerUser/CMakeFiles/xopengl_hermes_lower.dir/src/opengl/initUserGraphics.c.o
+Linking CXX executable /home/amd_clmc/team/workspace/src/catkin/robots/hermesLower/x86_64/xmotor
+[ 50%] Built target xpest_hermes_lower
+[ 50%] Built target hermes_lower_task
+g++ -E
+[ 50%] Built target xmotor_hermes_lower
+Scanning dependencies of target install_machtype_xmotor_hermes_lower
+[ 51%] Generating /home/amd_clmc/team/workspace/src/catkin/robots/hermesLowerUser/x86_64/xmotor
+[ 51%] Built target install_machtype_xmotor_hermes_lower
+Linking C executable /home/amd_clmc/team/workspace/src/catkin/robots/hermesLowerUser/x86_64/xsimulation
+Linking C executable /home/amd_clmc/team/workspace/src/catkin/robots/hermesLowerUser/x86_64/xopengl
+checking for ld used by g++... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+[ 51%] Built target xsimulation_hermes_lower
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+[ 51%] Built target xopengl_hermes_lower
+checking for g++ option to produce PIC... -fPIC -DPIC
+checking if g++ PIC flag -fPIC -DPIC works... yes
+checking if g++ static flag -static works... Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libtesting_tests_hermes_lower.so
+yes
+checking if g++ supports -c -o file.o... [ 51%] Built target testing_tests_hermes_lower
+yes
+checking if g++ supports -c -o file.o... (cached) yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking how to get verbose linking output from ... configure: WARNING: compilation failed
+
+checking for Fortran libraries of ... 
+checking Fortran 90 module output flag... unknown
+configure: error: unable to find compiler flag to write module information to
+make[2]: *** [catkin/third_party/snopt_cpp/snopt_extern/snopt7/src/snopt_extern-stamp/snopt_extern-configure] Error 1
+make[1]: *** [catkin/third_party/snopt_cpp/CMakeFiles/snopt_extern.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libathena.so
+[ 51%] Built target athena
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libhermes_full.so
+[ 51%] Built target hermes_full
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libSLros.so
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/vicon_bridge/calibrate
+[ 51%] Built target SLros
+[ 51%] Built target calibrate
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/YAML_CPP/sandbox
+[ 51%] Built target sandbox
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/YAML_CPP/parse
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/YAML_CPP/read
+[ 51%] [ 51%] Built target parse
+Built target read
+In file included from /usr/include/python2.7/numpy/ndarraytypes.h:1761:0,
+                 from /usr/include/python2.7/numpy/ndarrayobject.h:17,
+                 from /usr/include/python2.7/numpy/arrayobject.h:4,
+                 from /home/amd_clmc/team/workspace/src/catkin/humanoids/humanoid_control/py_cpp_interface/include/py_cpp_interface/eigen_converters.h:20,
+                 from /home/amd_clmc/team/workspace/src/catkin/humanoids/humanoid_control/py_cpp_interface/tests/converter_test.cpp:21:
+/usr/include/python2.7/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+ #warning "Using deprecated NumPy API, disable it by " \
+  ^
+In file included from /usr/include/python2.7/numpy/ndarraytypes.h:1761:0,
+                 from /usr/include/python2.7/numpy/ndarrayobject.h:17,
+                 from /usr/include/python2.7/numpy/arrayobject.h:4,
+                 from /home/amd_clmc/team/workspace/src/catkin/humanoids/humanoid_control/py_cpp_interface/include/py_cpp_interface/eigen_converters.h:20,
+                 from /home/amd_clmc/team/workspace/src/catkin/humanoids/humanoid_control/py_cpp_interface/include/py_cpp_interface/PyShell.h:24,
+                 from /home/amd_clmc/team/workspace/src/catkin/humanoids/humanoid_control/py_cpp_interface/src/PyShell.cpp:15:
+/usr/include/python2.7/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+ #warning "Using deprecated NumPy API, disable it by " \
+  ^
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/hello_world.so
+[ 51%] Built target hello_world
+/home/amd_clmc/team/workspace/src/catkin/humanoids/humanoid_control/py_cpp_interface/src/PyShell.cpp: In member function 'void py_cpp_interface::PyShell::initialize()':
+/home/amd_clmc/team/workspace/src/catkin/humanoids/humanoid_control/py_cpp_interface/src/PyShell.cpp:42:31: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+   char *argv[] = { "Py Shell" };
+                               ^
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/io_tools/yaml_example
+[ 51%] Built target yaml_example
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/robot_math/lqr_example_app
+CMakeFiles/lqr_example_app.dir/tests/robot_math/lqr_example_app.cpp.o: In function `void robot_math::LqrUtils::continuous_algebraic_riccati_equations<19, 19>(Eigen::Matrix<double, -1, -1, 0, 19, 19> const&, Eigen::Matrix<double, -1, -1, 0, 19, 19> const&, Eigen::Matrix<double, -1, -1, 0, 19, 19>&, Eigen::Matrix<double, -1, -1, 0, 19, 19>&, Eigen::Matrix<double, -1, -1, 0, 19, 19>&)':
+lqr_example_app.cpp:(.text._ZN10robot_math8LqrUtils38continuous_algebraic_riccati_equationsILi19ELi19EEEvRKN5Eigen6MatrixIdLin1ELin1ELi0EXT_EXT_EEERKNS3_IdLin1ELin1ELi0EXT_EXT0_EEERS4_RNS3_IdLin1ELin1ELi0EXT0_EXT0_EEESA_[_ZN10robot_math8LqrUtils38continuous_algebraic_riccati_equationsILi19ELi19EEEvRKN5Eigen6MatrixIdLin1ELin1ELi0EXT_EXT_EEERKNS3_IdLin1ELin1ELi0EXT_EXT0_EEERS4_RNS3_IdLin1ELin1ELi0EXT0_EXT0_EEESA_]+0x340): undefined reference to `sb02od_'
+CMakeFiles/lqr_example_app.dir/tests/robot_math/lqr_example_app.cpp.o: In function `void robot_math::LqrUtils::inf_hor_cont_time_feedback<19, 19>(Eigen::Matrix<double, -1, -1, 0, 19, 19> const&, Eigen::Matrix<double, -1, -1, 0, 19, 19>&, Eigen::Matrix<double, -1, -1, 0, 19, 19>&, Eigen::Matrix<double, -1, -1, 0, 19, 19>&)':
+lqr_example_app.cpp:(.text._ZN10robot_math8LqrUtils26inf_hor_cont_time_feedbackILi19ELi19EEEvRKN5Eigen6MatrixIdLin1ELin1ELi0EXT_EXT0_EEERNS3_IdLin1ELin1ELi0EXT0_EXT0_EEERNS3_IdLin1ELin1ELi0EXT_EXT_EEERNS3_IdLin1ELin1ELi0EXT0_EXT_EEE[_ZN10robot_math8LqrUtils26inf_hor_cont_time_feedbackILi19ELi19EEEvRKN5Eigen6MatrixIdLin1ELin1ELi0EXT_EXT0_EEERNS3_IdLin1ELin1ELi0EXT0_EXT0_EEERNS3_IdLin1ELin1ELi0EXT_EXT_EEERNS3_IdLin1ELin1ELi0EXT0_EXT_EEE]+0x1ba): undefined reference to `sb02nd_'
+collect2: error: ld returned 1 exit status
+make[2]: *** [/home/amd_clmc/team/workspace/devel/lib/robot_math/lqr_example_app] Error 1
+make[1]: *** [catkin/humanoids/humanoid_control/robot_math/CMakeFiles/lqr_example_app.dir/all] Error 2
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libPyShell.so
+[ 51%] Built target PyShell
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/py_converter_test.so
+Copying library files to python module directory
+'/home/amd_clmc/team/workspace/devel/lib/py_converter_test.so' -> 'src/py_py_cpp_interface/py_converter_test.so'
+[ 51%] Built target py_converter_test
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/YAML_CPP/run-tests
+[ 51%] Built target run-tests
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/vicon_bridge/vicon_bridge
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/vicon_bridge/tf_distort
+[ 51%] Built target vicon_bridge
+[ 51%] Built target tf_distort
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/robot_math/eiquadprog_tester_app
+[ 51%] Built target eiquadprog_tester_app
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libfloating_base_tools_hermes_lower.so
+[ 51%] Built target floating_base_tools_hermes_lower
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libfloating_base_tools_athena.so
+[ 51%] Built target floating_base_tools_athena
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libfloating_base_tools_hermes_full.so
+[ 51%] Built target floating_base_tools_hermes_full
+make: *** [all] Error 2
+Base path: /home/amd_clmc/team/workspace
+Source space: /home/amd_clmc/team/workspace/src
+Build space: /home/amd_clmc/team/workspace/build
+Devel space: /home/amd_clmc/team/workspace/devel
+Install space: /home/amd_clmc/team/workspace/install
+####
+#### Running command: "cmake /home/amd_clmc/team/workspace/src -DCATKIN_DEVEL_PREFIX=/home/amd_clmc/team/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/amd_clmc/team/workspace/install -G Unix Makefiles" in "/home/amd_clmc/team/workspace/build"
+####
+####
+#### Running command: "make -j install" in "/home/amd_clmc/team/workspace/build"
+####
+Invoking "make -j install" failed
