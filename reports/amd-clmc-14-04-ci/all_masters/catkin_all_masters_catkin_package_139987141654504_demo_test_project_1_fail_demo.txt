@@ -1,0 +1,18 @@
+failed to run demo (exception thrown). command: 
+
+/bin/bash /home/amd_clmc/team/workspace/tmp_run_demo.sh
+
+error message:
+
+error detected
+
+failed to run command '/bin/bash /home/amd_clmc/team/workspace/tmp_run_demo.sh
+
+Command '/bin/bash /home/amd_clmc/team/workspace/tmp_run_demo.sh' returned non-zero exit status 1
+
+content of sh script:
+#!/bin/bash
+source /home/amd_clmc/team/workspace/devel/setup.bash
+cd /home/amd_clmc/team/workspace/devel/lib/project_management_test_1/
+chmod +x test_project_1_fail_demo
+./test_project_1_fail_demo /home/amd_clmc/team/workspace/devel
