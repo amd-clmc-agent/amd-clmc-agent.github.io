@@ -1,0 +1,81 @@
+demo run with success.
+
+log:
+
+#!/bin/bash
+source /home/amd_clmc/team/workspace/devel/setup.bash
+cd /home/amd_clmc/team/workspace/devel/lib/rgbd_intrinsic_calibration/
+chmod +x rgbd_intrinsic_calibration_demo
+./rgbd_intrinsic_calibration_demo /home/amd_clmc/team/workspace/devel
+
+
+Images loaded from /home/amd_clmc/team/workspace/src/catkin/core-calibration/rgbd_intrinsic_calibration/demo_images/rgb
+Images loaded from /home/amd_clmc/team/workspace/src/catkin/core-calibration/rgbd_intrinsic_calibration/demo_images/ir
+RMS error reported by calibrateCamera: 0.0835973
+Number of object points 2
+Camera Matrix 
+[540.3219686633835, 0, 318.6697933124223;
+  0, 539.1969706302822, 237.7801887763366;
+  0, 0, 1]
+Distortion Parameters [0;
+  0;
+  0;
+  0;
+  0;
+  0;
+  0;
+  0]
+Calibration succeeded. avg reprojection error = 0.96
+RMS error reported by calibrateCamera: 0.0695278
+Number of object points 2
+Camera Matrix 
+[578.8412442968074, 0, 313.7905515349412;
+  0, 579.3451414085066, 244.3208735933626;
+  0, 0, 1]
+Distortion Parameters [0;
+  0;
+  0;
+  0;
+  0;
+  0;
+  0;
+  0]
+Calibration succeeded. avg reprojection error = 0.36
+Reprojection error reported by stereoCalibrate: 0.266463
+Rotation Matrix R 
+[0.999973796585277, 0.005787104508934761, 0.004349202711983084;
+  -0.005802894239097801, 0.9999765865276841, 0.003626680974529067;
+  -0.004328112900225642, -0.003651823906465439, 0.9999839656818899]
+Translation Vector T 
+[0.02822033886159103;
+  0.003209068375538391;
+  0.00811332206939781]
+Essential Matrix E 
+[3.319153966257975e-05, -0.008124851060967421, 0.003179592489525908;
+  0.008235250285330436, 0.0001500083508335658, -0.02818459988535313;
+  -0.003372743928794186, 0.02820110691140279, 8.838927716226473e-05]
+Fundamental Matrix F 
+[-2.038429483768212e-06, 0.0005000217369399042, -0.2237553755607129;
+  -0.0005053208241258894, -9.223824085857801e-06, 1.097671195175535;
+  0.2439978422044201, -1.159262230536643, 1]
+Rectification Transform R1 
+[0.9535367469633312, 0.113164195638642, 0.2792159325970625;
+  -0.1137524244605395, 0.9934083448939418, -0.01415083829419061;
+  -0.2789768057024408, -0.01826814496707979, 0.9601240632124185]
+Rectification Transform R2 
+[0.9553810207626066, 0.1086409002866955, 0.2746711851496192;
+  -0.1080620307109245, 0.9939938584677304, -0.01728603040217306;
+  -0.2748994410420496, -0.01316678067448264, 0.9613828234379054]
+Projection Matrix P1 
+[539.1969706302822, 0, 104.1097726821899, 0;
+  0, 539.1969706302822, 254.6263217926025, 0;
+  0, 0, 1, 0]
+Projection Matrix P2 
+[539.1969706302822, 0, 104.1097726821899, 15.92696619845337;
+  0, 539.1969706302822, 254.6263217926025, 0;
+  0, 0, 1, 0]
+Disparity to depth mapping matrix Q 
+[1, 0, 0, -104.1097726821899;
+  0, 1, 0, -254.6263217926025;
+  0, 0, 0, 539.1969706302822;
+  0, 0, -33.85434262318221, 0]
