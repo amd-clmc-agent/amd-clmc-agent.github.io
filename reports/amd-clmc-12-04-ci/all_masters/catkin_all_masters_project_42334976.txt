@@ -1,0 +1,190 @@
+COMMAND:catkin_make -j install
+------------------------------
+WARNING: Package name "YAML_CPP" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits and underscores.
+-- The C compiler identification is GNU
+-- The CXX compiler identification is GNU
+-- Check for working C compiler: /usr/bin/gcc
+-- Check for working C compiler: /usr/bin/gcc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Using CATKIN_DEVEL_PREFIX: /home/amd_clmc/team/workspace/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/groovy
+-- This workspace overlays: /opt/ros/groovy
+-- Found PythonInterp: /usr/bin/python (found version "2.7.3")
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+-- Python version: 2.7
+-- Using Debian Python package layout
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/amd_clmc/team/workspace/build/test_results
+-- Looking for include files CMAKE_HAVE_PTHREAD_H
+-- Looking for include files CMAKE_HAVE_PTHREAD_H - found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE 
+-- Found gtest sources under '/usr/src/gtest': gtests will be built
+-- catkin 0.5.89
+-- BUILD_SHARED_LIBS is on
+WARNING: Package name "YAML_CPP" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits and underscores.
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- ~~  traversing 3 packages in topological order:
+-- ~~  - YAML_CPP
+-- ~~  - amd_clmc_dmp
+-- ~~  - robot_math
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- +++ processing catkin package: 'YAML_CPP'
+-- ==> add_subdirectory(catkin/third_party/YAML_CPP)
+WARNING: Package name "YAML_CPP" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits and underscores.
+-- Boost version: 1.46.1
+-- Performing Test FLAG_WEXTRA
+-- Performing Test FLAG_WEXTRA - Success
+-- +++ processing catkin package: 'amd_clmc_dmp'
+-- ==> add_subdirectory(catkin/control/amd_clmc_dmp)
+-- checking for module 'eigen3'
+--   found eigen3, version 3.0.5
+-- Found Eigen: /usr/include/eigen3 
+-- Eigen found (include: /usr/include/eigen3)
+-- Boost version: 1.46.1
+-- Found the following Boost libraries:
+--   thread
+--   system
+--   filesystem
+-- +++ processing catkin package: 'robot_math'
+-- ==> add_subdirectory(catkin/utilities/amd_clmc_utilities/robot_math)
+-- Eigen found (include: /usr/include/eigen3)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/amd_clmc/team/workspace/build
+Scanning dependencies of target robot_math
+[  1%] Building CXX object catkin/utilities/amd_clmc_utilities/robot_math/CMakeFiles/robot_math.dir/src/robot_math/rt_stop_watch.cpp.o
+Scanning dependencies of target yaml-cpp
+[  2%] [  3%] [  4%] [  5%] [  7%] [  8%] [  9%] [ 10%] [ 11%] [ 13%] [ 14%] [ 15%] [ 17%] [ 17%] [ 20%] [ 20%] [ 21%] [ 25%] [ 25%] [ 26%] [ 26%] [ 27%] [ 28%] [ 29%] [ 30%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/node.cpp.o
+[ 33%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emitter.cpp.o
+[ 33%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/singledocparser.cpp.o
+[ 35%] [ 35%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/parse.cpp.o
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/scantoken.cpp.o
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/nodebuilder.cpp.o
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/scantag.cpp.o
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/binary.cpp.o
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/null.cpp.o
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emitfromevents.cpp.o
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emitterstate.cpp.o
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/stream.cpp.o
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/directives.cpp.o
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/convert.cpp.o
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/regex.cpp.o
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emitterutils.cpp.o
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/nodeevents.cpp.o
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilderadapter.cpp.o
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilder.cpp.o
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/tag.cpp.o
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/ostream_wrapper.cpp.o
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/node_data.cpp.o
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/scanscalar.cpp.o
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/memory.cpp.o
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/parser.cpp.o
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/scanner.cpp.o
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/simplekey.cpp.o
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/exp.cpp.o
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emit.cpp.o
+Scanning dependencies of target geometry_utils
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/librobot_math.so
+[ 36%] [ 38%] [ 39%] [ 40%] [ 41%] Building CXX object catkin/utilities/amd_clmc_utilities/robot_math/CMakeFiles/geometry_utils.dir/src/geometry_utils/Quaternion.cpp.o
+[ 42%] Building CXX object catkin/utilities/amd_clmc_utilities/robot_math/CMakeFiles/geometry_utils.dir/src/geometry_utils/RotationMatrix.cpp.o
+[ 44%] Building CXX object catkin/utilities/amd_clmc_utilities/robot_math/CMakeFiles/geometry_utils.dir/src/geometry_utils/spatial_quantities.cpp.o
+Building CXX object catkin/utilities/amd_clmc_utilities/robot_math/CMakeFiles/geometry_utils.dir/src/geometry_utils/AffineTransformation.cpp.o
+Building CXX object catkin/utilities/amd_clmc_utilities/robot_math/CMakeFiles/geometry_utils.dir/src/geometry_utils/Transformations.cpp.o
+Building CXX object catkin/utilities/amd_clmc_utilities/robot_math/CMakeFiles/geometry_utils.dir/src/geometry_utils/sq_pose.cpp.o
+[ 45%] Building CXX object catkin/utilities/amd_clmc_utilities/robot_math/CMakeFiles/geometry_utils.dir/src/geometry_utils/sq_twist.cpp.o
+Building CXX object catkin/utilities/amd_clmc_utilities/robot_math/CMakeFiles/geometry_utils.dir/src/geometry_utils/SpatialAlgebra.cpp.o
+/home/amd_clmc/team/workspace/src/catkin/utilities/amd_clmc_utilities/robot_math/src/geometry_utils/sq_twist.cpp:15:9: warning: #pragma once in main file [enabled by default]
+[ 45%] Built target robot_math
+Scanning dependencies of target amd_clmc_dmp
+[ 46%] [ 47%] [ 48%] Building CXX object catkin/control/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp.dir/src/utility/utility.cpp.o
+[ 50%] Building CXX object catkin/control/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp.dir/src/utility/NormalDistributionRandomVectorGenerator.cpp.o
+[ 51%] Building CXX object catkin/control/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp.dir/src/utility/DataIO.cpp.o
+Building CXX object catkin/control/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp.dir/src/utility/RealTimeAssertor.cpp.o
+[ 52%] [ 53%] Building CXX object catkin/control/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp.dir/src/dmp_state/DMPState.cpp.o
+Building CXX object catkin/control/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp.dir/src/dmp_param/TauSystem.cpp.o
+Building CXX object catkin/control/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp.dir/src/dmp_param/GoalSystem.cpp.o
+[ 54%] [ 55%] [ 57%] Building CXX object catkin/control/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp.dir/src/dmp_base/FunctionApproximator.cpp.o
+Building CXX object catkin/control/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp.dir/src/dmp_base/CanonicalSystem.cpp.o
+Building CXX object catkin/control/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp.dir/src/dmp_base/TransformationSystem.cpp.o
+[ 58%] [ 59%] [ 60%] [ 61%] Building CXX object catkin/control/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp.dir/src/dmp_base/LearningSystem.cpp.o
+Building CXX object catkin/control/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp.dir/src/dmp_base/DMPDataIO.cpp.o
+[ 63%] Building CXX object catkin/control/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp.dir/src/dmp_base/LoggedDMPVariables.cpp.o
+Building CXX object catkin/control/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp.dir/src/dmp_discrete/CanonicalSystemDiscrete.cpp.o
+Building CXX object catkin/control/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp.dir/src/dmp_base/DMP.cpp.o
+[ 64%] Building CXX object catkin/control/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp.dir/src/dmp_discrete/TransformSystemDiscrete.cpp.o
+[ 65%] [ 66%] [ 67%] [ 69%] [ 70%] [ 71%] Building CXX object catkin/control/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp.dir/src/dmp_discrete/FuncApproximatorDiscrete.cpp.o
+Building CXX object catkin/control/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp.dir/src/dmp_discrete/LearningSystemDiscrete.cpp.o
+Building CXX object catkin/control/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp.dir/src/dmp_discrete/LoggedDMPDiscreteVariables.cpp.o
+[ 72%] Building CXX object catkin/control/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp.dir/src/dmp_discrete/DMPDiscrete.cpp.o
+[ 73%] Building CXX object catkin/control/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp.dir/src/dmp_discrete/DMPDataIODiscrete.cpp.o
+[ 75%] Building CXX object catkin/control/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp.dir/src/dmp_1D/DMPDiscrete1D.cpp.o
+[ 76%] [ 77%] Building CXX object catkin/control/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp.dir/src/cart_dmp/CartesianCoordTransformer.cpp.o
+Building CXX object catkin/control/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp.dir/src/dmp_coupling/learn_obs_avoid/TransformCouplingLearnObsAvoid.cpp.o
+Building CXX object catkin/control/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp.dir/src/cart_dmp/CartesianCoordDMP.cpp.o
+Building CXX object catkin/control/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp.dir/src/dmp_coupling/learn_obs_avoid/ReinforcementLearningObsAvoid.cpp.o
+Building CXX object catkin/control/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp.dir/src/dmp_coupling/learn_obs_avoid/LearnObsAvoidDataIO.cpp.o
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libyaml-cpp.so
+[ 77%] Built target yaml-cpp
+Scanning dependencies of target read
+Scanning dependencies of target sandbox
+Scanning dependencies of target parse
+Scanning dependencies of target run-tests
+[ 78%] [ 79%] [ 80%] [ 82%] [ 83%] Building CXX object catkin/third_party/YAML_CPP/util/CMakeFiles/parse.dir/parse.cpp.o
+Building CXX object catkin/third_party/YAML_CPP/util/CMakeFiles/read.dir/read.cpp.o
+Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/spectests.cpp.o
+[ 84%] [ 85%] Building CXX object catkin/third_party/YAML_CPP/util/CMakeFiles/sandbox.dir/sandbox.cpp.o
+[ 86%] [ 88%] Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/new-api/spectests.cpp.o
+[ 89%] Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/emittertests.cpp.o
+Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/new-api/nodetests.cpp.o
+Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/main.cpp.o
+Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/tests.cpp.o
+Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/new-api/parsertests.cpp.o
+Scanning dependencies of target eiquadprog_tester_app
+[ 90%] [ 91%] Building CXX object catkin/utilities/amd_clmc_utilities/robot_math/CMakeFiles/eiquadprog_tester_app.dir/tests/robot_math/eiquadprog_tester_app.cpp.o
+Building CXX object catkin/utilities/amd_clmc_utilities/robot_math/CMakeFiles/eiquadprog_tester_app.dir/src/robot_math/EigenQpSolver.cpp.o
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/YAML_CPP/read
+[ 91%] Built target read
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/YAML_CPP/sandbox
+[ 91%] Built target sandbox
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/YAML_CPP/parse
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libgeometry_utils.so
+[ 91%] Built target parse
+[ 91%] Built target geometry_utils
+In file included from /home/amd_clmc/team/workspace/src/catkin/third_party/YAML_CPP/include/yaml-cpp/yaml_eigen.h:20:0,
+                 from /home/amd_clmc/team/workspace/src/catkin/utilities/amd_clmc_utilities/robot_math/tests/robot_math/eiquadprog_tester_app.cpp:16:
+/home/amd_clmc/team/workspace/src/catkin/utilities/amd_clmc_utilities/robot_math/include/robot_math/movable_eigen_matrix.h:31:21: error: 'Ref' is not a member of 'Eigen'
+/home/amd_clmc/team/workspace/src/catkin/utilities/amd_clmc_utilities/robot_math/include/robot_math/movable_eigen_matrix.h:31:21: error: 'Ref' is not a member of 'Eigen'
+/home/amd_clmc/team/workspace/src/catkin/utilities/amd_clmc_utilities/robot_math/include/robot_math/movable_eigen_matrix.h:31:58: error: wrong number of template arguments (3, should be 1)
+/home/amd_clmc/team/workspace/src/catkin/utilities/amd_clmc_utilities/robot_math/include/robot_math/movable_eigen_matrix.h:29:8: error: provided for 'template<class T> struct robot_math::is_Eigen_Ref'
+/home/amd_clmc/team/workspace/src/catkin/utilities/amd_clmc_utilities/robot_math/include/robot_math/movable_eigen_matrix.h:31:68: error: expected unqualified-id before '>' token
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/YAML_CPP/run-tests
+[ 91%] Built target run-tests
+make[2]: *** [catkin/utilities/amd_clmc_utilities/robot_math/CMakeFiles/eiquadprog_tester_app.dir/tests/robot_math/eiquadprog_tester_app.cpp.o] Error 1
+make[1]: *** [catkin/utilities/amd_clmc_utilities/robot_math/CMakeFiles/eiquadprog_tester_app.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libamd_clmc_dmp.so
+[ 91%] Built target amd_clmc_dmp
+make: *** [all] Error 2
+Base path: /home/amd_clmc/team/workspace
+Source space: /home/amd_clmc/team/workspace/src
+Build space: /home/amd_clmc/team/workspace/build
+Devel space: /home/amd_clmc/team/workspace/devel
+Install space: /home/amd_clmc/team/workspace/install
+Creating symlink "/home/amd_clmc/team/workspace/src/CMakeLists.txt" pointing to "/opt/ros/groovy/share/catkin/cmake/toplevel.cmake"
+####
+#### Running command: "cmake /home/amd_clmc/team/workspace/src -DCATKIN_DEVEL_PREFIX=/home/amd_clmc/team/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/amd_clmc/team/workspace/install" in "/home/amd_clmc/team/workspace/build"
+####
+####
+#### Running command: "make -j install" in "/home/amd_clmc/team/workspace/build"
+####
+Invoking "make" failed
