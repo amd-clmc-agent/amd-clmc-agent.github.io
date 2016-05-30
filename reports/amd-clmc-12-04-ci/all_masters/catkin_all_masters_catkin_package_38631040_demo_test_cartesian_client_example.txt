@@ -1,0 +1,18 @@
+failed to run demo (exception thrown). command: 
+
+/bin/bash /home/amd_clmc/team/workspace/tmp_run_demo.sh
+
+error message:
+
+error detected
+
+failed to run command '/bin/bash /home/amd_clmc/team/workspace/tmp_run_demo.sh
+
+Command '/bin/bash /home/amd_clmc/team/workspace/tmp_run_demo.sh' returned non-zero exit status 255
+
+content of sh script:
+#!/bin/bash
+source /home/amd_clmc/team/workspace/devel/setup.bash
+cd /home/amd_clmc/team/workspace/devel/lib/controller_manager_examples_arm/
+chmod +x test_cartesian_client_example
+./test_cartesian_client_example /home/amd_clmc/team/workspace/devel
