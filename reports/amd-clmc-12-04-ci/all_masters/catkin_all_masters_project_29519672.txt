@@ -1,0 +1,227 @@
+COMMAND:catkin_make -j install
+------------------------------
+-- The C compiler identification is GNU
+-- The CXX compiler identification is GNU
+-- Check for working C compiler: /usr/bin/gcc
+-- Check for working C compiler: /usr/bin/gcc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Using CATKIN_DEVEL_PREFIX: /home/amd_clmc/team/workspace/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/groovy
+-- This workspace overlays: /opt/ros/groovy
+-- Found PythonInterp: /usr/bin/python (found version "2.7.3")
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+-- Python version: 2.7
+-- Using Debian Python package layout
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/amd_clmc/team/workspace/build/test_results
+-- Looking for include files CMAKE_HAVE_PTHREAD_H
+-- Looking for include files CMAKE_HAVE_PTHREAD_H - found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE 
+-- Found gtest sources under '/usr/src/gtest': gtests will be built
+-- catkin 0.5.89
+-- BUILD_SHARED_LIBS is on
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- ~~  traversing 8 packages in topological order:
+-- ~~  - amd_clmc_dmp
+-- ~~  - utilities
+-- ~~  - lwpr
+-- ~~  - sl
+-- ~~  - master
+-- ~~  - master_dmp_sl_task_example
+-- ~~  - master_test_task
+-- ~~  - master_user
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- +++ processing catkin package: 'amd_clmc_dmp'
+-- ==> add_subdirectory(catkin/control/amd_clmc_dmp)
+-- checking for module 'eigen3'
+--   found eigen3, version 3.0.5
+-- Found Eigen: /usr/include/eigen3 
+-- Eigen found (include: /usr/include/eigen3)
+-- Boost version: 1.46.1
+-- Found the following Boost libraries:
+--   thread
+--   system
+--   filesystem
+-- +++ processing catkin package: 'utilities'
+-- ==> add_subdirectory(catkin/core-sl/catkin-utilities)
+-- MACHTYPE x86_64
+Detected MACHTYPE=x86_64
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:182 (message):
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+Call Stack (most recent call first):
+  catkin/core-sl/catkin-utilities/CMakeLists.txt:8 (include)
+
+
+-- HOST_NAME=amd-clmc-12-04-ci
+-- HOST=amd-clmc-12-04-ci
+-- LAB=AMD
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_INCLUDE_PATH=
+-- CMAKE_LIBRARY_PATH=
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+-- LAB_LIBDIR=lib/x86_64
+-- LAB_INCLUDES=include
+-- LAB_BINDIR=bin/x86_64
+-- +++ processing catkin package: 'lwpr'
+-- ==> add_subdirectory(catkin/core-sl/catkin-lwpr)
+-- MACHTYPE x86_64
+Detected MACHTYPE=x86_64
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:182 (message):
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+Call Stack (most recent call first):
+  catkin/core-sl/catkin-lwpr/CMakeLists.txt:5 (include)
+
+
+-- HOST_NAME=amd-clmc-12-04-ci
+-- HOST=amd-clmc-12-04-ci
+-- LAB=AMD
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_INCLUDE_PATH=
+-- CMAKE_LIBRARY_PATH=
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+-- LAB_LIBDIR=lib/x86_64
+-- LAB_INCLUDES=include
+-- LAB_BINDIR=bin/x86_64
+-- +++ processing catkin package: 'sl'
+-- ==> add_subdirectory(catkin/core-sl/catkin-sl)
+-- MACHTYPE x86_64
+Detected MACHTYPE=x86_64
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:182 (message):
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+Call Stack (most recent call first):
+  catkin/core-sl/catkin-sl/CMakeLists.txt:8 (include)
+
+
+-- HOST_NAME=amd-clmc-12-04-ci
+-- HOST=amd-clmc-12-04-ci
+-- LAB=AMD
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_INCLUDE_PATH=
+-- CMAKE_LIBRARY_PATH=
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+-- LAB_LIBDIR=lib/x86_64
+-- LAB_INCLUDES=include
+-- LAB_BINDIR=bin/x86_64
+-- +++ processing catkin package: 'master'
+-- ==> add_subdirectory(catkin/robots/catkin-master)
+-- MACHTYPE x86_64
+Detected MACHTYPE=x86_64
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:182 (message):
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+Call Stack (most recent call first):
+  catkin/robots/catkin-master/CMakeLists.txt:8 (include)
+
+
+-- HOST_NAME=amd-clmc-12-04-ci
+-- HOST=amd-clmc-12-04-ci
+-- LAB=AMD
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_INCLUDE_PATH=
+-- CMAKE_LIBRARY_PATH=
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+-- LAB_LIBDIR=lib/x86_64
+-- LAB_INCLUDES=include
+-- LAB_BINDIR=bin/x86_64
+-- +++ processing catkin package: 'master_dmp_sl_task_example'
+-- ==> add_subdirectory(catkin/control/master_dmp_sl_task_example)
+-- MACHTYPE x86_64
+Detected MACHTYPE=x86_64
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:182 (message):
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+Call Stack (most recent call first):
+  catkin/control/master_dmp_sl_task_example/CMakeLists.txt:15 (include)
+
+
+-- HOST_NAME=amd-clmc-12-04-ci
+-- HOST=amd-clmc-12-04-ci
+-- LAB=AMD
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_INCLUDE_PATH=
+-- CMAKE_LIBRARY_PATH=
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+-- LAB_LIBDIR=lib/x86_64
+-- LAB_INCLUDES=include
+-- LAB_BINDIR=bin/x86_64
+-- +++ processing catkin package: 'master_test_task'
+-- ==> add_subdirectory(catkin/robots/catkin-sl-master-task-example)
+-- MACHTYPE x86_64
+Detected MACHTYPE=x86_64
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:182 (message):
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+Call Stack (most recent call first):
+  catkin/robots/catkin-sl-master-task-example/CMakeLists.txt:8 (include)
+
+
+-- HOST_NAME=amd-clmc-12-04-ci
+-- HOST=amd-clmc-12-04-ci
+-- LAB=AMD
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_INCLUDE_PATH=
+-- CMAKE_LIBRARY_PATH=
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+-- LAB_LIBDIR=lib/x86_64
+-- LAB_INCLUDES=include
+-- LAB_BINDIR=bin/x86_64
+-- +++ processing catkin package: 'master_user'
+-- ==> add_subdirectory(catkin/robots/catkin-masterUser)
+-- MACHTYPE x86_64
+Detected MACHTYPE=x86_64
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:182 (message):
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+Call Stack (most recent call first):
+  catkin/robots/catkin-masterUser/CMakeLists.txt:8 (include)
+
+
+-- HOST_NAME=amd-clmc-12-04-ci
+-- HOST=amd-clmc-12-04-ci
+-- LAB=AMD
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_INCLUDE_PATH=
+-- CMAKE_LIBRARY_PATH=
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+-- LAB_LIBDIR=lib/x86_64
+-- LAB_INCLUDES=include
+-- LAB_BINDIR=bin/x86_64
+The following tasks will *not* be built as they rely on rfwr and seem deprecated:
+             forcefield_B_task
+Building tasks:
+             haptic_task
+             gravityComp_task
+             vision_calibration_task
+-- Configuring done
+CMake Error at catkin/control/amd_clmc_dmp/CMakeLists.txt:44 (add_library):
+  Cannot find source file:
+
+    src/paths.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+
+
+-- Build files have been written to: /home/amd_clmc/team/workspace/build
+Base path: /home/amd_clmc/team/workspace
+Source space: /home/amd_clmc/team/workspace/src
+Build space: /home/amd_clmc/team/workspace/build
+Devel space: /home/amd_clmc/team/workspace/devel
+Install space: /home/amd_clmc/team/workspace/install
+####
+#### Running command: "cmake /home/amd_clmc/team/workspace/src -DCATKIN_DEVEL_PREFIX=/home/amd_clmc/team/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/amd_clmc/team/workspace/install" in "/home/amd_clmc/team/workspace/build"
+####
+Invoking "cmake" failed

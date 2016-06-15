@@ -1,0 +1,30 @@
+failed to run unit-tests:
+[  0%] Built target gtest
+[  0%] Built target gtest_main
+Scanning dependencies of target particle_filter_fixture_test
+[  0%] Building CXX object catkin/core-perception/fl/test/CMakeFiles/particle_filter_fixture_test.dir/particle_filter/particle_filter_fixture_test.cpp.o
+/home/amd_clmc/team/workspace/src/catkin/core-perception/fl/test/particle_filter/particle_filter_fixture_test.cpp: In member function 'ParticleFilterTest::ProcessModel ParticleFilterTest::create_process_model()':
+/home/amd_clmc/team/workspace/src/catkin/core-perception/fl/test/particle_filter/particle_filter_fixture_test.cpp:109:57: error: no matching function for call to 'fl::LinearStateTransitionModel<Eigen::Matrix<double, 3, 1>, Eigen::Matrix<double, 3, 1>, Eigen::Matrix<double, 3, 1> >::noise_covariance(const Type)'
+/home/amd_clmc/team/workspace/src/catkin/core-perception/fl/test/particle_filter/particle_filter_fixture_test.cpp:109:57: note: candidate is:
+/home/amd_clmc/team/workspace/src/catkin/core-perception/fl/include/fl/model/process/linear_state_transition_model.hpp:162:36: note: const NoiseCovariance& fl::LinearStateTransitionModel<State_, Noise_, Input_>::noise_covariance() const [with State_ = Eigen::Matrix<double, 3, 1>, Noise_ = Eigen::Matrix<double, 3, 1>, Input_ = Eigen::Matrix<double, 3, 1>, fl::LinearStateTransitionModel<State_, Noise_, Input_>::NoiseCovariance = Eigen::Matrix<double, 3, 3>]
+/home/amd_clmc/team/workspace/src/catkin/core-perception/fl/include/fl/model/process/linear_state_transition_model.hpp:162:36: note:   candidate expects 0 arguments, 1 provided
+At global scope:
+cc1plus: warning: unrecognized command line option "-Wno-deprecated-register" [enabled by default]
+cc1plus: warning: unrecognized command line option "-Wno-unused-local-typedefs" [enabled by default]
+make[3]: *** [catkin/core-perception/fl/test/CMakeFiles/particle_filter_fixture_test.dir/particle_filter/particle_filter_fixture_test.cpp.o] Error 1
+make[2]: *** [catkin/core-perception/fl/test/CMakeFiles/particle_filter_fixture_test.dir/all] Error 2
+make[1]: *** [catkin/core-perception/fl/test/CMakeFiles/run_tests_fl.dir/rule] Error 2
+make: *** [run_tests_fl] Error 2
+Base path: /home/amd_clmc/team/workspace
+Source space: /home/amd_clmc/team/workspace/src
+Build space: /home/amd_clmc/team/workspace/build
+Devel space: /home/amd_clmc/team/workspace/devel
+Install space: /home/amd_clmc/team/workspace/install
+####
+#### Running command: "make cmake_check_build_system" in "/home/amd_clmc/team/workspace/build"
+####
+Forcing "-j1" for running unit tests.
+####
+#### Running command: "make -j run_tests_fl -j1" in "/home/amd_clmc/team/workspace/build"
+####
+Invoking "make" failed
