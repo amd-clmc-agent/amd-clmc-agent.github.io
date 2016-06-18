@@ -1,0 +1,678 @@
+COMMAND:catkin_make -j install
+------------------------------
+-- The C compiler identification is GNU
+-- The CXX compiler identification is GNU
+-- Check for working C compiler: /usr/bin/gcc
+-- Check for working C compiler: /usr/bin/gcc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Using CATKIN_DEVEL_PREFIX: /home/amd_clmc/team/workspace/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/groovy
+-- This workspace overlays: /opt/ros/groovy
+-- Found PythonInterp: /usr/bin/python (found version "2.7.3")
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+-- Python version: 2.7
+-- Using Debian Python package layout
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/amd_clmc/team/workspace/build/test_results
+-- Looking for include files CMAKE_HAVE_PTHREAD_H
+-- Looking for include files CMAKE_HAVE_PTHREAD_H - found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE 
+-- Found gtest sources under '/usr/src/gtest': gtests will be built
+-- catkin 0.5.89
+-- BUILD_SHARED_LIBS is on
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- ~~  traversing 8 packages in topological order:
+-- ~~  - amd_clmc_dmp
+-- ~~  - utilities
+-- ~~  - lwpr
+-- ~~  - sl
+-- ~~  - master
+-- ~~  - master_dmp_sl_task_example
+-- ~~  - master_test_task
+-- ~~  - master_user
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- +++ processing catkin package: 'amd_clmc_dmp'
+-- ==> add_subdirectory(catkin/control/amd_clmc_dmp)
+-- checking for module 'eigen3'
+--   found eigen3, version 3.0.5
+-- Found Eigen: /usr/include/eigen3 
+-- Eigen found (include: /usr/include/eigen3)
+-- Boost version: 1.46.1
+-- Found the following Boost libraries:
+--   thread
+--   system
+--   filesystem
+-- +++ processing catkin package: 'utilities'
+-- ==> add_subdirectory(catkin/core-sl/catkin-utilities)
+-- MACHTYPE x86_64
+Detected MACHTYPE=x86_64
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:182 (message):
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+Call Stack (most recent call first):
+  catkin/core-sl/catkin-utilities/CMakeLists.txt:8 (include)
+
+
+-- HOST_NAME=amd-clmc-12-04-ci
+-- HOST=amd-clmc-12-04-ci
+-- LAB=AMD
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_INCLUDE_PATH=
+-- CMAKE_LIBRARY_PATH=
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+-- LAB_LIBDIR=lib/x86_64
+-- LAB_INCLUDES=include
+-- LAB_BINDIR=bin/x86_64
+-- +++ processing catkin package: 'lwpr'
+-- ==> add_subdirectory(catkin/core-sl/catkin-lwpr)
+-- MACHTYPE x86_64
+Detected MACHTYPE=x86_64
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:182 (message):
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+Call Stack (most recent call first):
+  catkin/core-sl/catkin-lwpr/CMakeLists.txt:5 (include)
+
+
+-- HOST_NAME=amd-clmc-12-04-ci
+-- HOST=amd-clmc-12-04-ci
+-- LAB=AMD
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_INCLUDE_PATH=
+-- CMAKE_LIBRARY_PATH=
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+-- LAB_LIBDIR=lib/x86_64
+-- LAB_INCLUDES=include
+-- LAB_BINDIR=bin/x86_64
+-- +++ processing catkin package: 'sl'
+-- ==> add_subdirectory(catkin/core-sl/catkin-sl)
+-- MACHTYPE x86_64
+Detected MACHTYPE=x86_64
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:182 (message):
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+Call Stack (most recent call first):
+  catkin/core-sl/catkin-sl/CMakeLists.txt:8 (include)
+
+
+-- HOST_NAME=amd-clmc-12-04-ci
+-- HOST=amd-clmc-12-04-ci
+-- LAB=AMD
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_INCLUDE_PATH=
+-- CMAKE_LIBRARY_PATH=
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+-- LAB_LIBDIR=lib/x86_64
+-- LAB_INCLUDES=include
+-- LAB_BINDIR=bin/x86_64
+-- +++ processing catkin package: 'master'
+-- ==> add_subdirectory(catkin/robots/catkin-master)
+-- MACHTYPE x86_64
+Detected MACHTYPE=x86_64
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:182 (message):
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+Call Stack (most recent call first):
+  catkin/robots/catkin-master/CMakeLists.txt:8 (include)
+
+
+-- HOST_NAME=amd-clmc-12-04-ci
+-- HOST=amd-clmc-12-04-ci
+-- LAB=AMD
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_INCLUDE_PATH=
+-- CMAKE_LIBRARY_PATH=
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+-- LAB_LIBDIR=lib/x86_64
+-- LAB_INCLUDES=include
+-- LAB_BINDIR=bin/x86_64
+-- +++ processing catkin package: 'master_dmp_sl_task_example'
+-- ==> add_subdirectory(catkin/control/master_dmp_sl_task_example)
+-- MACHTYPE x86_64
+Detected MACHTYPE=x86_64
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:182 (message):
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+Call Stack (most recent call first):
+  catkin/control/master_dmp_sl_task_example/CMakeLists.txt:15 (include)
+
+
+-- HOST_NAME=amd-clmc-12-04-ci
+-- HOST=amd-clmc-12-04-ci
+-- LAB=AMD
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_INCLUDE_PATH=
+-- CMAKE_LIBRARY_PATH=
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+-- LAB_LIBDIR=lib/x86_64
+-- LAB_INCLUDES=include
+-- LAB_BINDIR=bin/x86_64
+-- +++ processing catkin package: 'master_test_task'
+-- ==> add_subdirectory(catkin/robots/catkin-sl-master-task-example)
+-- MACHTYPE x86_64
+Detected MACHTYPE=x86_64
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:182 (message):
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+Call Stack (most recent call first):
+  catkin/robots/catkin-sl-master-task-example/CMakeLists.txt:8 (include)
+
+
+-- HOST_NAME=amd-clmc-12-04-ci
+-- HOST=amd-clmc-12-04-ci
+-- LAB=AMD
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_INCLUDE_PATH=
+-- CMAKE_LIBRARY_PATH=
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+-- LAB_LIBDIR=lib/x86_64
+-- LAB_INCLUDES=include
+-- LAB_BINDIR=bin/x86_64
+-- +++ processing catkin package: 'master_user'
+-- ==> add_subdirectory(catkin/robots/catkin-masterUser)
+-- MACHTYPE x86_64
+Detected MACHTYPE=x86_64
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:182 (message):
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+Call Stack (most recent call first):
+  catkin/robots/catkin-masterUser/CMakeLists.txt:8 (include)
+
+
+-- HOST_NAME=amd-clmc-12-04-ci
+-- HOST=amd-clmc-12-04-ci
+-- LAB=AMD
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_INCLUDE_PATH=
+-- CMAKE_LIBRARY_PATH=
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+-- LAB_LIBDIR=lib/x86_64
+-- LAB_INCLUDES=include
+-- LAB_BINDIR=bin/x86_64
+The following tasks will *not* be built as they rely on rfwr and seem deprecated:
+             forcefield_B_task
+Building tasks:
+             haptic_task
+             gravityComp_task
+             vision_calibration_task
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/amd_clmc/team/workspace/build
+Scanning dependencies of target master_task
+Scanning dependencies of target master_simulation
+Scanning dependencies of target master_openGL
+[  0%] [  1%] Scanning dependencies of target utility
+[  1%] Building C object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/master_task.dir/src/SL_user_task.c.o
+Building C object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/master_simulation.dir/src/SL_user_simulation.c.o
+Building C object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/master_openGL.dir/src/SL_user_openGL.c.o
+[  2%] [  2%] [  2%] [  2%] [  3%] [  3%] [  6%] [  6%] [  6%] [  7%] Scanning dependencies of target SLmotor
+[  8%] [  9%] [ 10%] [ 11%] [ 11%] [ 14%] [ 14%] [ 14%] [ 14%] Scanning dependencies of target SLsimulation
+[ 15%] [ 15%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/control.c.o
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/dfpmin.c.o
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/dlinmin.c.o
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/distributions.c.o
+[ 15%] [ 15%] [ 15%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/brent.c.o
+[ 16%] [ 17%] [ 18%] [ 18%] [ 18%] [ 19%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/ldltinv.c.o
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/f1dim.c.o
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/df1dim.c.o
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/dbrent.c.o
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/frprmn.c.o
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/mnbrak.c.o
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/svdcmp.c.o
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/numerics_package.c.o
+[ 20%] Scanning dependencies of target SLvision
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/parm_opt.c.o
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/linmin.c.o
+[ 21%] [ 21%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/pythag.c.o
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/ludcmp.c.o
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/choldc.c.o
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/stability.c.o
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/lubksb.c.o
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/kdtree.c.o
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/hqr.c.o
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/powell.c.o
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/lookup_table.c.o
+[ 22%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/data_sets.c.o
+[ 23%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/j-fixed.c.o
+Scanning dependencies of target SLcommon
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/balanc.c.o
+[ 24%] [ 24%] Scanning dependencies of target SLopenGL
+[ 24%] Scanning dependencies of target SLtask
+[ 25%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/utility.c.o
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/statistics.c.o
+[ 25%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/svbksb.c.o
+Scanning dependencies of target master
+[ 26%] [ 27%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLmotor.dir/src/SL_controller.c.o
+[ 27%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLmotor.dir/src/SL_motor_servo_unix.c.o
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/elmhes.c.o
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLvision.dir/src/SL_vision_servo.c.o
+[ 29%] [ 29%] [ 29%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLmotor.dir/src/SL_motor_servo.c.o
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLsimulation.dir/src/SL_simulation_servo.c.o
+[ 31%] [ 31%] [ 31%] [ 31%] [ 31%] [ 31%] [ 32%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLsimulation.dir/src/SL_simulation_servo_unix.c.o
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLsimulation.dir/src/SL_objects.c.o
+[ 33%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLsimulation.dir/src/SL_integrate.c.o
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLmotor.dir/src/SL_sensor_proc.c.o
+[ 35%] [ 35%] [ 36%] [ 36%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLcommon.dir/src/SL_collect_data.c.o
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLsimulation.dir/src/SL_userSimulation.c.o
+[ 36%] [ 36%] [ 38%] [ 38%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLvision.dir/src/SL_vision_proc.c.o
+[ 39%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLcommon.dir/src/SL_terrains.c.o
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLvision.dir/src/SL_vision_servo_unix.c.o
+[ 40%] [ 41%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLcommon.dir/src/SL_common.c.o
+[ 42%] [ 43%] [ 43%] [ 43%] [ 43%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLvision.dir/src/SL_dbvision.c.o
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLcommon.dir/src/SL_filters.c.o
+[ 43%] [ 44%] [ 45%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLvision.dir/src/SL_serial_unix.c.o
+[ 46%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLtask.dir/src/SL_task_servo.c.o
+[ 46%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLcommon.dir/src/SL_unix_common.c.o
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLcommon.dir/src/SL_vx2unix_wrappers.c.o
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLopenGL.dir/src/SL_userGraphics.c.o
+[ 47%] Building C object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/master.dir/src/SL_user_commands.c.o
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLtask.dir/src/SL_objects.c.o
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLcommon.dir/src/SL_man.c.o
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLcommon.dir/src/SL_shared_memory.c.o
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLtask.dir/src/SL_tasks.c.o
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLopenGL.dir/src/SL_openGL_servo_unix.c.o
+Building CXX object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/master.dir/__/sl/src/SL_forDynComp.cpp.o
+Building CXX object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/master.dir/__/sl/src/SL_invDynNE.cpp.o
+Building C object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/master.dir/__/sl/src/SL_dynamics.c.o
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLcommon.dir/src/SL_oscilloscope.c.o
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLtask.dir/src/SL_goto_task.c.o
+Building CXX object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/master.dir/__/sl/src/SL_forDynArt.cpp.o
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLtask.dir/src/SL_traj_task.c.o
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLopenGL.dir/src/SL_objects.c.o
+Building C object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/master.dir/__/sl/src/SL_kinematics.c.o
+Building CXX object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/master.dir/__/sl/src/SL_invDynArt.cpp.o
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLtask.dir/src/SL_go_cart_task.c.o
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLopenGL.dir/src/SL_openGL.c.o
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLtask.dir/src/SL_sine_task.c.o
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLopenGL.dir/src/SL_openGL_servo.c.o
+Building C object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/master.dir/src/SL_user_common.c.o
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLopenGL.dir/src/SL_openGL_oscilloscope.c.o
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLtask.dir/src/SL_task_servo_unix.c.o
+Linking C shared library /home/amd_clmc/team/workspace/devel/lib/libmaster_simulation.so
+Linking C shared library /home/amd_clmc/team/workspace/devel/lib/libmaster_task.so
+[ 47%] Linking C shared library /home/amd_clmc/team/workspace/devel/lib/libmaster_openGL.so
+Built target master_task
+[ 47%] Built target master_simulation
+Linking C shared library /home/amd_clmc/team/workspace/devel/lib/libSLvision.so
+Linking C shared library /home/amd_clmc/team/workspace/devel/lib/libSLmotor.so
+[ 47%] Built target master_openGL
+[ 47%] Built target SLvision
+[ 47%] Built target SLmotor
+Linking C shared library /home/amd_clmc/team/workspace/devel/lib/libSLsimulation.so
+[ 47%] Built target SLsimulation
+Linking C shared library /home/amd_clmc/team/workspace/devel/lib/libSLcommon.so
+Scanning dependencies of target amd_clmc_dmp
+[ 47%] Built target SLcommon
+[ 47%] [ 48%] [ 49%] [ 49%] Building CXX object catkin/control/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp.dir/src/paths.cpp.o
+[ 50%] Building CXX object catkin/control/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp.dir/src/utility/utility.cpp.o
+[ 50%] Linking C shared library /home/amd_clmc/team/workspace/devel/lib/libSLopenGL.so
+[ 51%] [ 51%] [ 52%] [ 53%] Building CXX object catkin/control/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp.dir/src/dmp_param/TauSystem.cpp.o
+[ 53%] Building CXX object catkin/control/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp.dir/src/utility/DataIO.cpp.o
+[ 53%] [ 54%] [ 55%] [ 56%] [ 57%] [ 57%] Building CXX object catkin/control/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp.dir/src/dmp_base/DMP.cpp.o
+[ 58%] Building CXX object catkin/control/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp.dir/src/utility/RealTimeAssertor.cpp.o
+Building CXX object catkin/control/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp.dir/src/utility/NormalDistributionRandomVectorGenerator.cpp.o
+[ 60%] [ 60%] [ 61%] Building CXX object catkin/control/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp.dir/src/dmp_param/GoalSystem.cpp.o
+[ 61%] [ 61%] Building CXX object catkin/control/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp.dir/src/dmp_base/FunctionApproximator.cpp.o
+[ 61%] Building CXX object catkin/control/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp.dir/src/dmp_state/DMPState.cpp.o
+Building CXX object catkin/control/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp.dir/src/dmp_discrete/LoggedDMPDiscreteVariables.cpp.o
+[ 64%] [ 64%] [ 64%] Building CXX object catkin/control/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp.dir/src/dmp_discrete/LearningSystemDiscrete.cpp.o
+Building CXX object catkin/control/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp.dir/src/dmp_base/CanonicalSystem.cpp.o
+[ 64%] Building CXX object catkin/control/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp.dir/src/dmp_base/LearningSystem.cpp.o
+Building CXX object catkin/control/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp.dir/src/dmp_base/TransformationSystem.cpp.o
+Building CXX object catkin/control/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp.dir/src/dmp_discrete/TransformSystemDiscrete.cpp.o
+Building CXX object catkin/control/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp.dir/src/dmp_discrete/DMPDataIODiscrete.cpp.o
+Building CXX object catkin/control/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp.dir/src/dmp_discrete/FuncApproximatorDiscrete.cpp.o
+Building CXX object catkin/control/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp.dir/src/dmp_1D/DMPDiscrete1D.cpp.o
+Building CXX object catkin/control/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp.dir/src/cart_dmp/CartesianCoordDMP.cpp.o
+Building CXX object catkin/control/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp.dir/src/dmp_base/LoggedDMPVariables.cpp.o
+Linking C shared library /home/amd_clmc/team/workspace/devel/lib/libSLtask.so
+Building CXX object catkin/control/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp.dir/src/dmp_discrete/CanonicalSystemDiscrete.cpp.o
+Building CXX object catkin/control/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp.dir/src/cart_dmp/CartesianCoordTransformer.cpp.o
+Building CXX object catkin/control/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp.dir/src/dmp_coupling/learn_obs_avoid/TransformCouplingLearnObsAvoid.cpp.o
+Building CXX object catkin/control/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp.dir/src/dmp_base/DMPDataIO.cpp.o
+Building CXX object catkin/control/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp.dir/src/dmp_discrete/DMPDiscrete.cpp.o
+Building CXX object catkin/control/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp.dir/src/dmp_coupling/learn_obs_avoid/ReinforcementLearningObsAvoid.cpp.o
+Building CXX object catkin/control/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp.dir/src/dmp_coupling/learn_obs_avoid/LearnObsAvoidDataIO.cpp.o
+Linking C shared library /home/amd_clmc/team/workspace/devel/lib/libutility.so
+[ 64%] Built target SLopenGL
+[ 64%] Built target SLtask
+[ 64%] Built target utility
+Scanning dependencies of target xascii2clmcplot
+Scanning dependencies of target lwpr
+Scanning dependencies of target xlwpr
+Scanning dependencies of target xlwprstat
+Scanning dependencies of target xmaster
+[ 65%] [ 65%] [ 66%] [ 66%] [ 67%] [ 67%] [ 70%] [ 70%] [ 70%] [ 71%] Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/xascii2clmcplot.dir/src/ascii2mrdplot.c.o
+[ 71%] [ 72%] Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/lwpr.dir/src/lwpr.c.o
+[ 72%] Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/xlwpr.dir/src/lwpr.c.o
+Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/xlwprstat.dir/src/lwpr.c.o
+Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/xlwprstat.dir/src/lwpr_stat.c.o
+Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/xlwpr.dir/src/lwpr_script.c.o
+Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/xlwpr.dir/src/lwpr_main.c.o
+Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/xlwprstat.dir/src/lwpr_script.c.o
+Building C object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/xmaster.dir/src/SL_main.c.o
+Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/xlwprstat.dir/src/lwpr_main.c.o
+Building C object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/xmaster.dir/src/SL_user_common.c.o
+Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/lwpr.dir/src/lwpr_script.c.o
+Scanning dependencies of target xpest
+Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/xlwpr.dir/src/lwpr_test.c.o
+Scanning dependencies of target xmotor
+[ 73%] [ 74%] [ 74%] [ 74%] [ 75%] [ 75%] Building C object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/xpest.dir/__/sl/src/SL_parm_estimate.c.o
+[ 76%] Building C object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/xpest.dir/__/sl/src/SL_dynamics.c.o
+[ 78%] [ 78%] [ 78%] [ 78%] [ 79%] [ 80%] [ 81%] Building CXX object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/xpest.dir/__/sl/src/SL_invDynNE.cpp.o
+[ 81%] [ 82%] [ 82%] [ 83%] Building C object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/xpest.dir/src/SL_user_common.c.o
+Building CXX object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/xpest.dir/__/sl/src/SL_forDynComp.cpp.o
+[ 84%] Building CXX object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/xpest.dir/__/sl/src/SL_invDynArt.cpp.o
+Building C object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/xmotor.dir/src/SL_user_motor.c.o
+Building C object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/xmotor.dir/src/SL_user_commands.c.o
+Building C object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/xpest.dir/src/SL_user_commands.c.o
+Building C object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/xmotor.dir/src/SL_user_common.c.o
+Building CXX object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/xmotor.dir/__/sl/src/SL_forDynComp.cpp.o
+Building CXX object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/xpest.dir/__/sl/src/SL_forDynArt.cpp.o
+Building C object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/xmotor.dir/__/sl/src/SL_dynamics.c.o
+Building C object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/xmotor.dir/__/sl/src/SL_kinematics.c.o
+Building CXX object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/xmotor.dir/__/sl/src/SL_invDynNE.cpp.o
+Building CXX object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/xmotor.dir/__/sl/src/SL_forDynArt.cpp.o
+Building C object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/xmotor.dir/src/SL_user_sensor_proc_unix.c.o
+Building C object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/xpest.dir/__/sl/src/SL_kinematics.c.o
+Building CXX object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/xmotor.dir/__/sl/src/SL_invDynArt.cpp.o
+Linking C executable xascii2clmcplot
+Linking C executable xmaster
+Linking C executable xlwprstat
+Linking C executable xlwpr
+Linking C shared library /home/amd_clmc/team/workspace/devel/lib/liblwpr.so
+[ 84%] Built target xascii2clmcplot
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libmaster.so
+[ 84%] Built target xmaster
+[ 84%] Built target lwpr
+[ 84%] Built target xlwprstat
+[ 84%] Built target master
+Scanning dependencies of target xvision
+[ 84%] Scanning dependencies of target master_test_task
+Scanning dependencies of target vision_calibration_task
+Scanning dependencies of target xsimulation_master
+Scanning dependencies of target gravityComp_task
+[ 84%] Scanning dependencies of target haptic_task
+[ 84%] Built target xlwpr
+Building C object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/xvision.dir/__/sl/src/SL_kinematics.c.o
+[ 87%] [ 87%] [ 87%] [ 87%] [ 88%] [ 89%] Scanning dependencies of target xopengl_master
+[ 89%] [ 89%] Building CXX object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/xvision.dir/__/sl/src/SL_invDynArt.cpp.o
+[ 91%] [ 91%] Building CXX object catkin/robots/catkin-sl-master-task-example/CMakeFiles/master_test_task.dir/src/master_test_task.cpp.o
+[ 92%] Building C object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/xvision.dir/src/SL_user_commands.c.o
+[ 93%] [ 93%] Building C object catkin/robots/catkin-masterUser/tmp_catkin_master_user/CMakeFiles/gravityComp_task.dir/src/gravityComp_task.c.o
+Building C object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/xvision.dir/src/SL_user_common.c.o
+Building C object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/xvision.dir/src/SL_user_vision.c.o
+Building CXX object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/xvision.dir/__/sl/src/SL_forDynComp.cpp.o
+Building C object catkin/robots/catkin-masterUser/tmp_catkin_master_user/CMakeFiles/vision_calibration_task.dir/src/vision_calibration_task.c.o
+Building CXX object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/xvision.dir/__/sl/src/SL_forDynArt.cpp.o
+Building CXX object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/xvision.dir/__/sl/src/SL_invDynNE.cpp.o
+Building C object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/xvision.dir/__/sl/src/SL_dynamics.c.o
+Building C object catkin/robots/catkin-masterUser/tmp_catkin_master_user/CMakeFiles/xsimulation_master.dir/src/initUserSimulation.c.o
+Building C object catkin/robots/catkin-masterUser/tmp_catkin_master_user/CMakeFiles/haptic_task.dir/src/haptic_task.c.o
+Building C object catkin/robots/catkin-masterUser/tmp_catkin_master_user/CMakeFiles/xopengl_master.dir/src/initUserGraphics.c.o
+Linking C shared library /home/amd_clmc/team/workspace/devel/lib/libgravityComp_task.so
+Linking C shared library /home/amd_clmc/team/workspace/devel/lib/libvision_calibration_task.so
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libmaster_test_task.so
+Linking C executable /home/amd_clmc/team/workspace/devel/lib/master_user/xsimulation
+Linking C shared library /home/amd_clmc/team/workspace/devel/lib/libhaptic_task.so
+Linking C executable /home/amd_clmc/team/workspace/devel/lib/master_user/xopengl
+Linking CXX executable xmotor
+[ 93%] Built target gravityComp_task
+Linking CXX executable xpest
+[ 93%] Built target vision_calibration_task
+[ 93%] Built target master_test_task
+[ 93%] Built target haptic_task
+[ 93%] Built target xsimulation_master
+[ 93%] Built target xopengl_master
+[ 93%] Built target xmotor
+[ 93%] Built target xpest
+Linking CXX executable xvision
+[ 93%] Built target xvision
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libamd_clmc_dmp.so
+[ 93%] Built target amd_clmc_dmp
+Scanning dependencies of target amd_clmc_dmp_1D_demo
+Scanning dependencies of target amd_clmc_dmp_cart_dmp_multi_traj_training_demo
+Scanning dependencies of target amd_clmc_dmp_dc_loa_so_reinforcement_learning_demo
+Scanning dependencies of target amd_clmc_dmp_dc_loa_so_sb_multi_demo_stability_demo
+Scanning dependencies of target amd_clmc_dmp_cart_dmp_single_traj_training_demo
+Scanning dependencies of target master_dmp_sl_task_example
+[ 93%] [ 94%] [ 95%] Scanning dependencies of target amd_clmc_dmp_dc_loa_so_sb_multi_demo_demo
+Scanning dependencies of target amd_clmc_dmp_dc_loa_so_sb_single_demo_demo
+[ 95%] [ 95%] Building CXX object catkin/control/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp_1D_demo.dir/src/dmp_test/dmp_1D/dmp_1D_test.cpp.o
+[ 96%] Building CXX object catkin/control/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp_dc_loa_so_reinforcement_learning_demo.dir/src/dmp_test/dmp_coupling/learn_obs_avoid/static_obs/dc_loa_so_reinforcement_learning_test.cpp.o
+Building CXX object catkin/control/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp_cart_dmp_multi_traj_training_demo.dir/src/dmp_test/cart_dmp/cart_dmp_multi_traj_training_test.cpp.o
+Building CXX object catkin/control/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp_dc_loa_so_sb_multi_demo_stability_demo.dir/src/dmp_test/dmp_coupling/learn_obs_avoid/experimental/dc_loa_so_sb_multi_demo_stability_test.cpp.o
+Building CXX object catkin/control/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp_cart_dmp_single_traj_training_demo.dir/src/dmp_test/cart_dmp/cart_dmp_single_traj_training_test.cpp.o
+Building CXX object catkin/control/master_dmp_sl_task_example/CMakeFiles/master_dmp_sl_task_example.dir/src/master_dmp_sl_task_example.cpp.o
+[ 98%] [ 98%] Building CXX object catkin/control/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp_dc_loa_so_sb_single_demo_demo.dir/src/dmp_test/dmp_coupling/learn_obs_avoid/static_obs/single_baseline/dc_loa_so_sb_single_demo_test.cpp.o
+Building CXX object catkin/control/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp_dc_loa_so_sb_multi_demo_demo.dir/src/dmp_test/dmp_coupling/learn_obs_avoid/static_obs/single_baseline/dc_loa_so_sb_multi_demo_test.cpp.o
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libmaster_dmp_sl_task_example.so
+[ 98%] Built target master_dmp_sl_task_example
+Scanning dependencies of target xtask_master
+[100%] Building C object catkin/robots/catkin-masterUser/tmp_catkin_master_user/CMakeFiles/xtask_master.dir/src/initUserTasks.c.o
+Linking C executable /home/amd_clmc/team/workspace/devel/lib/master_user/xtask
+[100%] Built target xtask_master
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/amd_clmc_dmp/amd_clmc_dmp_cart_dmp_multi_traj_training_demo
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/amd_clmc_dmp/amd_clmc_dmp_cart_dmp_single_traj_training_demo
+[100%] Built target amd_clmc_dmp_cart_dmp_multi_traj_training_demo
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/amd_clmc_dmp/amd_clmc_dmp_dc_loa_so_reinforcement_learning_demo
+[100%] Built target amd_clmc_dmp_cart_dmp_single_traj_training_demo
+[100%] Built target amd_clmc_dmp_dc_loa_so_reinforcement_learning_demo
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/amd_clmc_dmp/amd_clmc_dmp_dc_loa_so_sb_multi_demo_demo
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/amd_clmc_dmp/amd_clmc_dmp_1D_demo
+[100%] Built target amd_clmc_dmp_dc_loa_so_sb_multi_demo_demo
+[100%] Built target amd_clmc_dmp_1D_demo
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/amd_clmc_dmp/amd_clmc_dmp_dc_loa_so_sb_multi_demo_stability_demo
+[100%] Built target amd_clmc_dmp_dc_loa_so_sb_multi_demo_stability_demo
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/amd_clmc_dmp/amd_clmc_dmp_dc_loa_so_sb_single_demo_demo
+[100%] Built target amd_clmc_dmp_dc_loa_so_sb_single_demo_demo
+Install the project...
+-- Install configuration: ""
+-- Installing: /home/amd_clmc/team/workspace/install/_setup_util.py
+-- Installing: /home/amd_clmc/team/workspace/install/env.sh
+-- Installing: /home/amd_clmc/team/workspace/install/setup.bash
+-- Installing: /home/amd_clmc/team/workspace/install/setup.sh
+-- Installing: /home/amd_clmc/team/workspace/install/setup.zsh
+-- Installing: /home/amd_clmc/team/workspace/install/.rosinstall
+-- Installing: /home/amd_clmc/team/workspace/install/etc/catkin/profile.d/05.catkin_make.bash
+-- Installing: /home/amd_clmc/team/workspace/install/etc/catkin/profile.d/05.catkin_make_isolated.bash
+-- Installing: /home/amd_clmc/team/workspace/install/lib/pkgconfig/amd_clmc_dmp.pc
+-- Installing: /home/amd_clmc/team/workspace/install/share/amd_clmc_dmp/cmake/amd_clmc_dmpConfig.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/amd_clmc_dmp/cmake/amd_clmc_dmpConfig-version.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/amd_clmc_dmp/package.xml
+-- Installing: /home/amd_clmc/team/workspace/install/lib/pkgconfig/utilities.pc
+-- Installing: /home/amd_clmc/team/workspace/install/share/utilities/cmake/utilities.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/utilities/cmake/utilitiesConfig.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/utilities/cmake/utilitiesConfig-version.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/utilities/package.xml
+-- Installing: /home/amd_clmc/team/workspace/install/include/utility.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/data_sets.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/nrutil.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/statistics.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/utility_macros.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/mdefs.h
+-- Installing: /home/amd_clmc/team/workspace/install/lib/x86_64/libutility.so
+-- Set runtime path of "/home/amd_clmc/team/workspace/install/lib/x86_64/libutility.so" to "/home/amd_clmc/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib"
+-- Installing: /home/amd_clmc/team/workspace/install/lib/pkgconfig/lwpr.pc
+-- Installing: /home/amd_clmc/team/workspace/install/share/lwpr/cmake/lwpr.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/lwpr/cmake/lwprConfig.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/lwpr/cmake/lwprConfig-version.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/lwpr/package.xml
+-- Installing: /home/amd_clmc/team/workspace/install/lib/x86_64/liblwpr.so
+-- Set runtime path of "/home/amd_clmc/team/workspace/install/lib/x86_64/liblwpr.so" to "/home/amd_clmc/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib:/home/amd_clmc/team/workspace/devel/lib"
+-- Installing: /home/amd_clmc/team/workspace/install/bin/x86_64/xlwpr
+-- Set runtime path of "/home/amd_clmc/team/workspace/install/bin/x86_64/xlwpr" to "/home/amd_clmc/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib:/home/amd_clmc/team/workspace/devel/lib"
+-- Installing: /home/amd_clmc/team/workspace/install/bin/x86_64/xlwprstat
+-- Set runtime path of "/home/amd_clmc/team/workspace/install/bin/x86_64/xlwprstat" to "/home/amd_clmc/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib:/home/amd_clmc/team/workspace/devel/lib"
+-- Installing: /home/amd_clmc/team/workspace/install/bin/x86_64/xascii2clmcplot
+-- Set runtime path of "/home/amd_clmc/team/workspace/install/bin/x86_64/xascii2clmcplot" to "/home/amd_clmc/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib:/home/amd_clmc/team/workspace/devel/lib"
+-- Installing: /home/amd_clmc/team/workspace/install/include/lwpr.h
+-- Installing: /home/amd_clmc/team/workspace/install/lib/pkgconfig/sl.pc
+-- Installing: /home/amd_clmc/team/workspace/install/share/sl/cmake/sl.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/sl/cmake/slConfig.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/sl/cmake/slConfig-version.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/sl/package.xml
+-- Installing: /home/amd_clmc/team/workspace/install/lib/x86_64/libSLcommon.so
+-- Set runtime path of "/home/amd_clmc/team/workspace/install/lib/x86_64/libSLcommon.so" to "/home/amd_clmc/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib"
+-- Installing: /home/amd_clmc/team/workspace/install/lib/x86_64/libSLtask.so
+-- Set runtime path of "/home/amd_clmc/team/workspace/install/lib/x86_64/libSLtask.so" to "/home/amd_clmc/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib"
+-- Installing: /home/amd_clmc/team/workspace/install/lib/x86_64/libSLmotor.so
+-- Set runtime path of "/home/amd_clmc/team/workspace/install/lib/x86_64/libSLmotor.so" to "/home/amd_clmc/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib"
+-- Installing: /home/amd_clmc/team/workspace/install/lib/x86_64/libSLsimulation.so
+-- Set runtime path of "/home/amd_clmc/team/workspace/install/lib/x86_64/libSLsimulation.so" to "/home/amd_clmc/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib"
+-- Installing: /home/amd_clmc/team/workspace/install/lib/x86_64/libSLopenGL.so
+-- Set runtime path of "/home/amd_clmc/team/workspace/install/lib/x86_64/libSLopenGL.so" to "/home/amd_clmc/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib"
+-- Installing: /home/amd_clmc/team/workspace/install/lib/x86_64/libSLvision.so
+-- Set runtime path of "/home/amd_clmc/team/workspace/install/lib/x86_64/libSLvision.so" to "/home/amd_clmc/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib"
+-- Installing: /home/amd_clmc/team/workspace/install/include/SL.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/SL_collect_data.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/SL_common.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/SL_controller.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/SL_dynamics.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/SL_filters.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/SL_integrate.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/SL_kinematics.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/SL_man.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/SL_motor_servo.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/SL_objects.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/SL_objects_defines.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/SL_openGL.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/SL_openGL_servo.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/SL_oscilloscope.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/SL_rt_mutex.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/SL_sensor_proc.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/SL_shared_memory.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/SL_simulation_servo.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/SL_system_headers.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/SL_task_servo.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/SL_tasks.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/SL_terrains.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/SL_unix_common.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/SL_userGraphics.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/SL_userSimulation.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/SL_user_common.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/SL_user_display_core.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/SL_user_idle_core.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/SL_user_main_core.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/SL_vision_servo.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/SL_serial_unix.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/SL_serial_xeno.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/SL_vx_wrappers.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/SL_xeno_common.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/SL_xeno_headers.h
+-- Installing: /home/amd_clmc/team/workspace/install/lib/pkgconfig/master.pc
+-- Installing: /home/amd_clmc/team/workspace/install/share/master/cmake/master.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/master/cmake/masterConfig.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/master/cmake/masterConfig-version.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/master/package.xml
+-- Installing: /home/amd_clmc/team/workspace/install/lib/x86_64/libmaster.so
+-- Set runtime path of "/home/amd_clmc/team/workspace/install/lib/x86_64/libmaster.so" to "/home/amd_clmc/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib"
+-- Installing: /home/amd_clmc/team/workspace/install/lib/x86_64/libmaster_openGL.so
+-- Set runtime path of "/home/amd_clmc/team/workspace/install/lib/x86_64/libmaster_openGL.so" to "/home/amd_clmc/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib"
+-- Installing: /home/amd_clmc/team/workspace/install/lib/x86_64/libmaster_task.so
+-- Set runtime path of "/home/amd_clmc/team/workspace/install/lib/x86_64/libmaster_task.so" to "/home/amd_clmc/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib"
+-- Installing: /home/amd_clmc/team/workspace/install/lib/x86_64/libmaster_simulation.so
+-- Set runtime path of "/home/amd_clmc/team/workspace/install/lib/x86_64/libmaster_simulation.so" to "/home/amd_clmc/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib"
+-- Installing: /home/amd_clmc/team/workspace/install/bin/master/x86_64/xmaster
+-- Set runtime path of "/home/amd_clmc/team/workspace/install/bin/master/x86_64/xmaster" to "/home/amd_clmc/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib:/home/amd_clmc/team/workspace/devel/lib"
+-- Installing: /home/amd_clmc/team/workspace/install/bin/master/x86_64/xmotor
+-- Set runtime path of "/home/amd_clmc/team/workspace/install/bin/master/x86_64/xmotor" to "/home/amd_clmc/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib:/home/amd_clmc/team/workspace/devel/lib"
+-- Installing: /home/amd_clmc/team/workspace/install/bin/master/x86_64/xpest
+-- Set runtime path of "/home/amd_clmc/team/workspace/install/bin/master/x86_64/xpest" to "/home/amd_clmc/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib:/home/amd_clmc/team/workspace/devel/lib"
+-- Installing: /home/amd_clmc/team/workspace/install/bin/master/x86_64/xvision
+-- Set runtime path of "/home/amd_clmc/team/workspace/install/bin/master/x86_64/xvision" to "/home/amd_clmc/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib:/home/amd_clmc/team/workspace/devel/lib"
+-- Installing: /home/amd_clmc/team/workspace/install/lib/pkgconfig/master_dmp_sl_task_example.pc
+-- Installing: /home/amd_clmc/team/workspace/install/share/master_dmp_sl_task_example/cmake/master_dmp_sl_task_exampleConfig.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/master_dmp_sl_task_example/cmake/master_dmp_sl_task_exampleConfig-version.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/master_dmp_sl_task_example/package.xml
+-- Installing: /home/amd_clmc/team/workspace/install/lib/x86_64/libmaster_dmp_sl_task_example.so
+-- Set runtime path of "/home/amd_clmc/team/workspace/install/lib/x86_64/libmaster_dmp_sl_task_example.so" to "/home/amd_clmc/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib:/home/amd_clmc/team/workspace/devel/lib"
+-- Installing: /home/amd_clmc/team/workspace/install/lib/x86_64/libmaster_test_task.so
+-- Set runtime path of "/home/amd_clmc/team/workspace/install/lib/x86_64/libmaster_test_task.so" to "/home/amd_clmc/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib:/home/amd_clmc/team/workspace/devel/lib"
+-- Installing: /home/amd_clmc/team/workspace/install/lib/pkgconfig/master_test_task.pc
+-- Installing: /home/amd_clmc/team/workspace/install/share/master_test_task/cmake/master_test_taskConfig.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/master_test_task/cmake/master_test_taskConfig-version.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/master_test_task/package.xml
+-- Installing: /home/amd_clmc/team/workspace/install/lib/pkgconfig/master_user.pc
+-- Installing: /home/amd_clmc/team/workspace/install/share/master_user/cmake/master_user.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/master_user/cmake/master_userConfig.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/master_user/cmake/master_userConfig-version.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/master_user/package.xml
+-- Installing: /home/amd_clmc/team/workspace/install/bin/master/config/ConfigFilesSim.cf
+-- Installing: /home/amd_clmc/team/workspace/install/bin/master/config/WhichDOFs.cf
+-- Installing: /home/amd_clmc/team/workspace/install/bin/master/config/ParameterPool.cf
+-- Installing: /home/amd_clmc/team/workspace/install/bin/master/config/LinkParameters.cf
+-- Installing: /home/amd_clmc/team/workspace/install/bin/master/config/ConfigFiles.cf
+-- Installing: /home/amd_clmc/team/workspace/install/bin/master/config/ServoParameters.cf
+-- Installing: /home/amd_clmc/team/workspace/install/bin/master/config/Translation.cf
+-- Installing: /home/amd_clmc/team/workspace/install/bin/master/config/xpest_parameters.cf
+-- Installing: /home/amd_clmc/team/workspace/install/bin/master/config/Contacts.cf
+-- Installing: /home/amd_clmc/team/workspace/install/bin/master/config/StereoParameters.cf
+-- Installing: /home/amd_clmc/team/workspace/install/bin/master/config/SensorOffset.cf
+-- Installing: /home/amd_clmc/team/workspace/install/bin/master/config/AjcRegisters.cf
+-- Installing: /home/amd_clmc/team/workspace/install/bin/master/config/SensorCalibration.cf
+-- Installing: /home/amd_clmc/team/workspace/install/bin/master/config/SensorFilter.cf
+-- Installing: /home/amd_clmc/team/workspace/install/bin/master/config/Ajc.cf
+-- Installing: /home/amd_clmc/team/workspace/install/bin/master/config/ServoParametersSim.cf
+-- Installing: /home/amd_clmc/team/workspace/install/bin/master/config/Gains.cf
+-- Installing: /home/amd_clmc/team/workspace/install/bin/master/config/LinkParametersSim.cf
+-- Installing: /home/amd_clmc/team/workspace/install/bin/master/config/Objects.cf
+-- Installing: /home/amd_clmc/team/workspace/install/bin/master/config/butterworth_table_order_2
+-- Installing: /home/amd_clmc/team/workspace/install/bin/master/prefs/invdyn2.sine
+-- Installing: /home/amd_clmc/team/workspace/install/bin/master/prefs/invdyn.script
+-- Installing: /home/amd_clmc/team/workspace/install/bin/master/prefs/motor_default.osc
+-- Installing: /home/amd_clmc/team/workspace/install/bin/master/prefs/task_default.osc
+-- Installing: /home/amd_clmc/team/workspace/install/bin/master/prefs/tracking_task.pp
+-- Installing: /home/amd_clmc/team/workspace/install/bin/master/prefs/task_default.script
+-- Installing: /home/amd_clmc/team/workspace/install/bin/master/prefs/sim_default.osc
+-- Installing: /home/amd_clmc/team/workspace/install/bin/master/prefs/motor_sample.script
+-- Installing: /home/amd_clmc/team/workspace/install/bin/master/prefs/default.sine
+-- Installing: /home/amd_clmc/team/workspace/install/bin/master/prefs/vision_default.script
+-- Installing: /home/amd_clmc/team/workspace/install/bin/master/prefs/force_B.script
+-- Installing: /home/amd_clmc/team/workspace/install/bin/master/prefs/vision_default.pp
+-- Installing: /home/amd_clmc/team/workspace/install/bin/master/prefs/vision_default.osc
+-- Installing: /home/amd_clmc/team/workspace/install/bin/master/prefs/sim_default.script
+-- Installing: /home/amd_clmc/team/workspace/install/bin/master/prefs/task_sample.script
+-- Installing: /home/amd_clmc/team/workspace/install/bin/master/prefs/sim_sample.script
+-- Installing: /home/amd_clmc/team/workspace/install/bin/master/prefs/one_dof.sine
+-- Installing: /home/amd_clmc/team/workspace/install/bin/master/prefs/motor_default.script
+-- Installing: /home/amd_clmc/team/workspace/install/bin/master/prefs/invdyn.sine
+-- Installing: /home/amd_clmc/team/workspace/install/bin/master/prefs/default_script
+-- Installing: /home/amd_clmc/team/workspace/install/bin/master/prefs/vision_calibration.pp
+-- Installing: /home/amd_clmc/team/workspace/install/bin/master/prefs/preferred_register_file
+-- Installing: /home/amd_clmc/team/workspace/install/bin/master/prefs/vision_sample.script
+-- Installing: /home/amd_clmc/team/workspace/install/bin/master/prefs/one_dof.script
+-- Installing: /home/amd_clmc/team/workspace/install/bin/master/export_paths.sh
+-- Installing: /home/amd_clmc/team/workspace/install/lib/x86_64/libhaptic_task.so
+-- Set runtime path of "/home/amd_clmc/team/workspace/install/lib/x86_64/libhaptic_task.so" to "/home/amd_clmc/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib:/home/amd_clmc/team/workspace/devel/lib"
+-- Installing: /home/amd_clmc/team/workspace/install/lib/x86_64/libgravityComp_task.so
+-- Set runtime path of "/home/amd_clmc/team/workspace/install/lib/x86_64/libgravityComp_task.so" to "/home/amd_clmc/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib:/home/amd_clmc/team/workspace/devel/lib"
+-- Installing: /home/amd_clmc/team/workspace/install/lib/x86_64/libvision_calibration_task.so
+-- Set runtime path of "/home/amd_clmc/team/workspace/install/lib/x86_64/libvision_calibration_task.so" to "/home/amd_clmc/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib:/home/amd_clmc/team/workspace/devel/lib"
+-- Installing: /home/amd_clmc/team/workspace/install/bin/master/x86_64/xopengl
+-- Set runtime path of "/home/amd_clmc/team/workspace/install/bin/master/x86_64/xopengl" to "/home/amd_clmc/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib:/home/amd_clmc/team/workspace/devel/lib"
+-- Installing: /home/amd_clmc/team/workspace/install/bin/master/x86_64/xsimulation
+-- Set runtime path of "/home/amd_clmc/team/workspace/install/bin/master/x86_64/xsimulation" to "/home/amd_clmc/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib:/home/amd_clmc/team/workspace/devel/lib"
+-- Installing: /home/amd_clmc/team/workspace/install/bin/master/x86_64/xtask
+-- Set runtime path of "/home/amd_clmc/team/workspace/install/bin/master/x86_64/xtask" to "/home/amd_clmc/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib:/home/amd_clmc/team/workspace/devel/lib"
+Base path: /home/amd_clmc/team/workspace
+Source space: /home/amd_clmc/team/workspace/src
+Build space: /home/amd_clmc/team/workspace/build
+Devel space: /home/amd_clmc/team/workspace/devel
+Install space: /home/amd_clmc/team/workspace/install
+####
+#### Running command: "cmake /home/amd_clmc/team/workspace/src -DCATKIN_DEVEL_PREFIX=/home/amd_clmc/team/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/amd_clmc/team/workspace/install" in "/home/amd_clmc/team/workspace/build"
+####
+####
+#### Running command: "make -j install" in "/home/amd_clmc/team/workspace/build"
+####
