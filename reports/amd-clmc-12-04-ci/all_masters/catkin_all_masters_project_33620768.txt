@@ -1,0 +1,135 @@
+COMMAND:catkin_make -j install
+------------------------------
+-- The C compiler identification is GNU
+-- The CXX compiler identification is GNU
+-- Check for working C compiler: /usr/bin/gcc
+-- Check for working C compiler: /usr/bin/gcc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Using CATKIN_DEVEL_PREFIX: /home/amd_clmc/team/workspace/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/groovy
+-- This workspace overlays: /opt/ros/groovy
+-- Found PythonInterp: /usr/bin/python (found version "2.7.3")
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+-- Python version: 2.7
+-- Using Debian Python package layout
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/amd_clmc/team/workspace/build/test_results
+-- Looking for include files CMAKE_HAVE_PTHREAD_H
+-- Looking for include files CMAKE_HAVE_PTHREAD_H - found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE 
+-- Found gtest sources under '/usr/src/gtest': gtests will be built
+-- catkin 0.5.89
+-- BUILD_SHARED_LIBS is on
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- ~~  traversing 3 packages in topological order:
+-- ~~  - state_filtering
+-- ~~  - robot_state_pub
+-- ~~  - arm_robot_model
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- +++ processing catkin package: 'state_filtering'
+-- ==> add_subdirectory(catkin/core-perception/state_filtering)
+-- Boost version: 1.46.1
+-- +++ processing catkin package: 'robot_state_pub'
+-- ==> add_subdirectory(catkin/ros/robot_state_pub)
+-- checking for module 'eigen3'
+--   found eigen3, version 3.0.5
+-- Found Eigen: /usr/include/eigen3 
+-- Eigen found (include: /usr/include/eigen3)
+-- +++ processing catkin package: 'arm_robot_model'
+-- ==> add_subdirectory(catkin/robots/arm_robot_model)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/amd_clmc/team/workspace/build
+Scanning dependencies of target state_filtering
+[ 16%] [ 33%] Building CXX object catkin/core-perception/state_filtering/CMakeFiles/state_filtering.dir/src/state_filtering/filter/kalman/KalmanFilterContext.cpp.o
+Building CXX object catkin/core-perception/state_filtering/CMakeFiles/state_filtering.dir/src/state_filtering/filter/kalman/KalmanFilter.cpp.o
+Scanning dependencies of target robot_state_pub_solver
+[ 66%] [ 66%] Building CXX object catkin/ros/robot_state_pub/CMakeFiles/robot_state_pub_solver.dir/src/robot_state_publisher.cpp.o
+Building CXX object catkin/ros/robot_state_pub/CMakeFiles/robot_state_pub_solver.dir/src/treefksolverposfull_recursive.cpp.o
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libstate_filtering.so
+[ 66%] Built target state_filtering
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/librobot_state_pub_solver.so
+[ 66%] Built target robot_state_pub_solver
+Scanning dependencies of target robot_state_pub
+Scanning dependencies of target state_publisher
+[ 83%] [100%] Building CXX object catkin/ros/robot_state_pub/CMakeFiles/robot_state_pub.dir/src/joint_state_listener.cpp.o
+Building CXX object catkin/ros/robot_state_pub/CMakeFiles/state_publisher.dir/src/joint_state_listener.cpp.o
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/robot_state_pub/robot_state_pub
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/robot_state_pub/state_publisher
+[100%] Built target robot_state_pub
+[100%] Built target state_publisher
+Install the project...
+-- Install configuration: ""
+-- Installing: /home/amd_clmc/team/workspace/install/_setup_util.py
+-- Installing: /home/amd_clmc/team/workspace/install/env.sh
+-- Installing: /home/amd_clmc/team/workspace/install/setup.bash
+-- Installing: /home/amd_clmc/team/workspace/install/setup.sh
+-- Installing: /home/amd_clmc/team/workspace/install/setup.zsh
+-- Installing: /home/amd_clmc/team/workspace/install/.rosinstall
+-- Installing: /home/amd_clmc/team/workspace/install/etc/catkin/profile.d/05.catkin_make.bash
+-- Installing: /home/amd_clmc/team/workspace/install/etc/catkin/profile.d/05.catkin_make_isolated.bash
+-- Installing: /home/amd_clmc/team/workspace/install/lib/pkgconfig/state_filtering.pc
+-- Installing: /home/amd_clmc/team/workspace/install/share/state_filtering/cmake/state_filteringConfig.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/state_filtering/cmake/state_filteringConfig-version.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/state_filtering/package.xml
+-- Installing: /home/amd_clmc/team/workspace/install/lib/pkgconfig/robot_state_pub.pc
+-- Installing: /home/amd_clmc/team/workspace/install/share/robot_state_pub/cmake/robot_state_pubConfig.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/robot_state_pub/cmake/robot_state_pubConfig-version.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/robot_state_pub/package.xml
+-- Installing: /home/amd_clmc/team/workspace/install/lib/librobot_state_pub_solver.so
+-- Removed runtime path from "/home/amd_clmc/team/workspace/install/lib/librobot_state_pub_solver.so"
+-- Installing: /home/amd_clmc/team/workspace/install/lib/robot_state_pub/robot_state_pub
+-- Removed runtime path from "/home/amd_clmc/team/workspace/install/lib/robot_state_pub/robot_state_pub"
+-- Installing: /home/amd_clmc/team/workspace/install/lib/robot_state_pub/state_publisher
+-- Removed runtime path from "/home/amd_clmc/team/workspace/install/lib/robot_state_pub/state_publisher"
+-- Installing: /home/amd_clmc/team/workspace/install/include/robot_state_pub
+-- Installing: /home/amd_clmc/team/workspace/install/include/robot_state_pub/robot_state_publisher.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/robot_state_pub/joint_state_listener.h
+-- Installing: /home/amd_clmc/team/workspace/install/include/robot_state_pub/treefksolverposfull_recursive.hpp
++ [ -n  ]
++ cd /home/amd_clmc/team/workspace/src/catkin/robots/arm_robot_model
++ /usr/bin/env PYTHONPATH=/home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages:/home/amd_clmc/team/workspace/build/lib/python2.7/dist-packages:/opt/ros/groovy/lib/python2.7/dist-packages CATKIN_BINARY_DIR=/home/amd_clmc/team/workspace/build /usr/bin/python /home/amd_clmc/team/workspace/src/catkin/robots/arm_robot_model/setup.py build --build-base /home/amd_clmc/team/workspace/build/catkin/robots/arm_robot_model install --install-layout=deb --prefix=/home/amd_clmc/team/workspace/install --install-scripts=/home/amd_clmc/team/workspace/install/bin
+running build
+running build_py
+creating /home/amd_clmc/team/workspace/build/catkin/robots/arm_robot_model/lib.linux-x86_64-2.7
+creating /home/amd_clmc/team/workspace/build/catkin/robots/arm_robot_model/lib.linux-x86_64-2.7/arm_robot_model
+copying src/arm_robot_model/__init__.py -> /home/amd_clmc/team/workspace/build/catkin/robots/arm_robot_model/lib.linux-x86_64-2.7/arm_robot_model
+running install
+running install_lib
+creating /home/amd_clmc/team/workspace/install/lib/python2.7
+creating /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages
+creating /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/arm_robot_model
+copying /home/amd_clmc/team/workspace/build/catkin/robots/arm_robot_model/lib.linux-x86_64-2.7/arm_robot_model/__init__.py -> /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/arm_robot_model
+byte-compiling /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/arm_robot_model/__init__.py to __init__.pyc
+running install_egg_info
+Writing /home/amd_clmc/team/workspace/install/lib/python2.7/dist-packages/arm_robot_model-0.0.0.egg-info
+-- Installing: /home/amd_clmc/team/workspace/install/lib/pkgconfig/arm_robot_model.pc
+-- Installing: /home/amd_clmc/team/workspace/install/share/arm_robot_model/cmake/arm_robot_modelConfig.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/arm_robot_model/cmake/arm_robot_modelConfig-version.cmake
+-- Installing: /home/amd_clmc/team/workspace/install/share/arm_robot_model/package.xml
+-- Installing: /home/amd_clmc/team/workspace/install/lib/arm_robot_model/check_urdf
+-- Installing: /home/amd_clmc/team/workspace/install/lib/arm_robot_model/check_urdf_visual
+-- Installing: /home/amd_clmc/team/workspace/install/lib/arm_robot_model/generate_openrave_ik
+-- Installing: /home/amd_clmc/team/workspace/install/lib/arm_robot_model/publish_xtion_frames
+-- Installing: /home/amd_clmc/team/workspace/install/lib/arm_robot_model/urdf_to_collada
+Base path: /home/amd_clmc/team/workspace
+Source space: /home/amd_clmc/team/workspace/src
+Build space: /home/amd_clmc/team/workspace/build
+Devel space: /home/amd_clmc/team/workspace/devel
+Install space: /home/amd_clmc/team/workspace/install
+####
+#### Running command: "cmake /home/amd_clmc/team/workspace/src -DCATKIN_DEVEL_PREFIX=/home/amd_clmc/team/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/amd_clmc/team/workspace/install" in "/home/amd_clmc/team/workspace/build"
+####
+####
+#### Running command: "make -j install" in "/home/amd_clmc/team/workspace/build"
+####
