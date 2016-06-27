@@ -1,0 +1,47 @@
+demo run with success.
+
+log:
+
+#!/bin/bash
+source /home/amd_clmc/team/workspace/devel/setup.bash
+cd /home/amd_clmc/team/workspace/devel/lib/amd_clmc_dmp/
+chmod +x amd_clmc_dmp_dc_loa_so_reinforcement_learning_demo
+./amd_clmc_dmp_dc_loa_so_reinforcement_learning_demo /home/amd_clmc/team/workspace/devel
+
+
+Unrolling CartesianCoordDMP movement primitive #4
+Unrolling CartesianCoordDMP movement primitive #6
+Unrolling CartesianCoordDMP movement primitive #1
+Unrolling CartesianCoordDMP movement primitive #10
+Unrolling CartesianCoordDMP movement primitive #7
+Unrolling CartesianCoordDMP movement primitive #3
+Unrolling CartesianCoordDMP movement primitive #8
+Unrolling CartesianCoordDMP movement primitive #5
+Unrolling CartesianCoordDMP movement primitive #9
+Unrolling CartesianCoordDMP movement primitive #2
+Computing BASELINE Forcing Term (w/o Obstacle) ...
+Done
+Building Feature Matrix from Demo Setting #1/7 ...
+Building Feature Matrix from Demo Setting #2/7 ...
+Building Feature Matrix from Demo Setting #3/7 ...
+Building Feature Matrix from Demo Setting #4/7 ...
+Building Feature Matrix from Demo Setting #5/7 ...
+Building Feature Matrix from Demo Setting #6/7 ...
+Building Feature Matrix from Demo Setting #7/7 ...
+Done
+Performing Moore-Penrose Inverse ...
+Done
+Logging Learning Obstacle Avoidance Data (w/o ILC)...
+Done
+mean_obs_ctr_position = 
+0.5
+0
+0
+covariance_obs_ctr_position = 
+  1   0   0
+  0 100   0
+  0   0 100
+obs_ctr_position = 
+ 0.507925  0.722801 -0.314066
+  11.3075  0.708566    13.149
+ -1.87887  -9.90896  -9.73576
