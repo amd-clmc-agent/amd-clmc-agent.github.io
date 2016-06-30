@@ -1,0 +1,2237 @@
+COMMAND:catkin_make -j install
+------------------------------
+WARNING: Package name "amd-clmc-eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits and underscores.
+-- The C compiler identification is GNU
+-- The CXX compiler identification is GNU
+-- Check for working C compiler: /usr/bin/gcc
+-- Check for working C compiler: /usr/bin/gcc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Using CATKIN_DEVEL_PREFIX: /home/amd_clmc/team/workspace/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/groovy
+-- This workspace overlays: /opt/ros/groovy
+-- Found PythonInterp: /usr/bin/python (found version "2.7.3")
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+-- Python version: 2.7
+-- Using Debian Python package layout
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/amd_clmc/team/workspace/build/test_results
+-- Looking for include files CMAKE_HAVE_PTHREAD_H
+-- Looking for include files CMAKE_HAVE_PTHREAD_H - found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE 
+-- Found gtest sources under '/usr/src/gtest': gtests will be built
+-- catkin 0.5.90
+-- BUILD_SHARED_LIBS is on
+WARNING: Package name "amd-clmc-eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits and underscores.
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- ~~  traversing 75 packages in topological order:
+-- ~~  - amd-clmc-eigen
+-- ~~  - apollo_robot_model
+-- ~~  - bagutils
+-- ~~  - catkin_gflags
+-- ~~  - catkin_glog
+-- ~~  - cdlbt
+-- ~~  - can_control_tools
+-- ~~  - conversions
+-- ~~  - dbrt_apollo
+-- ~~  - fl
+-- ~~  - osr
+-- ~~  - dbot
+-- ~~  - qp_oases
+-- ~~  - quadprog
+-- ~~  - robot_math
+-- ~~  - ros_realtime (metapackage)
+-- ~~  - allocators
+-- ~~  - rosatomic
+-- ~~  - lockfree
+-- ~~  - rt_timer
+-- ~~  - sab_data
+-- ~~  - splines
+-- ~~  - start_robot
+-- ~~  - amd_clmc_ros_messages
+-- ~~  - dbot_ros_msgs
+-- ~~  - riemo_grasping_msgs
+-- ~~  - utilities
+-- ~~  - lwpr
+-- ~~  - xenomai_ros
+-- ~~  - amd_clmc_log
+-- ~~  - facial_expressions
+-- ~~  - roscpp_utilities
+-- ~~  - rgbd_capture
+-- ~~  - rosrt
+-- ~~  - riemo_rt
+-- ~~  - ros_rt_test
+-- ~~  - sl
+-- ~~  - apollo
+-- ~~  - apollo_safe
+-- ~~  - apollo_sl_interface
+-- ~~  - apollo_test_task
+-- ~~  - sl_ros_servo
+-- ~~  - python_ros_utils
+-- ~~  - sl_conversions
+-- ~~  - sl_utilities
+-- ~~  - sl_controller_manager
+-- ~~  - controller_manager_task_apollo
+-- ~~  - sl_barrett_controllers
+-- ~~  - sl_controllers
+-- ~~  - task_recorder2_msgs
+-- ~~  - opi
+-- ~~  - dbot_ros
+-- ~~  - ar_track_alvar
+-- ~~  - table_object_finder
+-- ~~  - robot_state_pub
+-- ~~  - dbrt
+-- ~~  - ros_servo_apollo
+-- ~~  - usc_utilities
+-- ~~  - learnable_cost_function
+-- ~~  - constrained_inverse_kinematics
+-- ~~  - robot_info
+-- ~~  - jacobian_utilities
+-- ~~  - sl_barrett_controller_interface
+-- ~~  - sl_controller_interface
+-- ~~  - apollo_extrinsic_camera_calibration
+-- ~~  - apollo_verify_extrinsic_camera_calibration
+-- ~~  - head_look_at_behaviour
+-- ~~  - sl_controller_interface_test
+-- ~~  - strain_gauge_calibration
+-- ~~  - task_recorder2_utilities
+-- ~~  - gui_utilities
+-- ~~  - visual_servoing
+-- ~~  - apollo_visual_servoing_task
+-- ~~  - apollo_user
+-- ~~  - from_object_to_grasp
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- +++ processing catkin package: 'amd-clmc-eigen'
+-- ==> add_subdirectory(catkin/third_party/amd-clmc-eigen)
+WARNING: Package name "amd-clmc-eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits and underscores.
+-- +++ processing catkin package: 'apollo_robot_model'
+-- ==> add_subdirectory(catkin/robots/apollo-robot-model)
+-- +++ processing catkin package: 'bagutils'
+-- ==> add_subdirectory(catkin/ros/bagutils)
+-- +++ processing catkin package: 'catkin_gflags'
+-- ==> add_subdirectory(catkin/third_party/catkin-gflags)
+-- Found GFLAGS: /usr/local/include 
+-- Found gflags  (include: /usr/local/include, library: /usr/local/lib/libgflags.a)
+-- +++ processing catkin package: 'catkin_glog'
+-- ==> add_subdirectory(catkin/third_party/catkin-glog)
+-- Found GLOG: /usr/local/include 
+-- Found glog    (include: /usr/local/include, library: /usr/local/lib/libglog.so)
+-- +++ processing catkin package: 'cdlbt'
+-- ==> add_subdirectory(catkin/ros/barrett-ros/cdlbt)
+-- MACHTYPE x86_64
+Detected MACHTYPE=x86_64
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:182 (message):
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+Call Stack (most recent call first):
+  catkin/ros/barrett-ros/cdlbt/CMakeLists.txt:8 (include)
+
+
+-- HOST_NAME=amd-clmc-12-04-ci
+-- HOST=amd-clmc-12-04-ci
+-- LAB=AMD
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_INCLUDE_PATH=
+-- CMAKE_LIBRARY_PATH=
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+-- LAB_LIBDIR=lib/x86_64
+-- LAB_INCLUDES=include
+-- LAB_BINDIR=bin/x86_64
+-- +++ processing catkin package: 'can_control_tools'
+-- ==> add_subdirectory(catkin/ros/barrett-ros/canControlTools)
+-- MACHTYPE x86_64
+Detected MACHTYPE=x86_64
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:182 (message):
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+Call Stack (most recent call first):
+  catkin/ros/barrett-ros/canControlTools/CMakeLists.txt:8 (include)
+
+
+-- HOST_NAME=amd-clmc-12-04-ci
+-- HOST=amd-clmc-12-04-ci
+-- LAB=AMD
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_INCLUDE_PATH=
+-- CMAKE_LIBRARY_PATH=
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+-- LAB_LIBDIR=lib/x86_64
+-- LAB_INCLUDES=include
+-- LAB_BINDIR=bin/x86_64
+-- Boost version: 1.46.1
+-- Found the following Boost libraries:
+--   thread
+-- +++ processing catkin package: 'conversions'
+-- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/usc_utils/conversions)
+-- checking for module 'eigen3'
+--   found eigen3, version 3.0.5
+-- Found Eigen: /usr/include/eigen3 
+-- Eigen found (include: /usr/include/eigen3)
+-- +++ processing catkin package: 'dbrt_apollo'
+-- ==> add_subdirectory(catkin/ros/dbrt_apollo)
+-- +++ processing catkin package: 'fl'
+-- ==> add_subdirectory(catkin/core-perception/fl)
+-- Eigen found (include: /usr/include/eigen3)
+-- Found Doxygen: /usr/bin/doxygen (Required is at least version "1.8.4")
+CMake Warning at catkin/core-perception/fl/cmake/doxygen.cmake:41 (message):
+  
+
+  Doxygen version is too old!
+
+   (Found Doxygen 1.7.6.1. Required is at least 1.8.4)
+Call Stack (most recent call first):
+  catkin/core-perception/fl/CMakeLists.txt:96 (include)
+
+
+-- +++ processing catkin package: 'osr'
+-- ==> add_subdirectory(catkin/utils/osr)
+-- Eigen found (include: /usr/include/eigen3)
+-- Using catkin
+CMake Warning at catkin/utils/osr/cmake/doxygen.cmake:41 (message):
+  
+
+  Doxygen version is too old!
+
+   (Found Doxygen 1.7.6.1. Required is at least 1.8.4)
+Call Stack (most recent call first):
+  catkin/utils/osr/CMakeLists.txt:81 (include)
+
+
+-- +++ processing catkin package: 'dbot'
+-- ==> add_subdirectory(catkin/core-perception/dbot)
+-- Eigen found (include: /usr/include/eigen3)
+-- Boost version: 1.46.1
+-- Found the following Boost libraries:
+--   system
+--   filesystem
+-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+-- Looking for gethostbyname
+-- Looking for gethostbyname - found
+-- Looking for connect
+-- Looking for connect - found
+-- Looking for remove
+-- Looking for remove - found
+-- Looking for shmat
+-- Looking for shmat - found
+-- Looking for IceConnectionNumber in ICE
+-- Looking for IceConnectionNumber in ICE - found
+-- Found X11: /usr/lib/x86_64-linux-gnu/libX11.so
+CMake Warning at catkin/core-perception/dbot/CMakeLists.txt:84 (message):
+  No CUDA support.  Deactivating GPU implementation
+
+
+-- Using catkin
+-- +++ processing catkin package: 'qp_oases'
+-- ==> add_subdirectory(catkin/third_party/qp_oases)
+-- +++ processing catkin package: 'quadprog'
+-- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/usc_utils/quadprog)
+-- +++ processing catkin package: 'robot_math'
+-- ==> add_subdirectory(catkin/utils/robot_math)
+-- Eigen found (include: /usr/include/eigen3)
+-- +++ processing catkin metapackage: 'ros_realtime'
+-- ==> add_subdirectory(catkin/ros/ros_realtime/ros_realtime)
+-- +++ processing catkin package: 'allocators'
+-- ==> add_subdirectory(catkin/ros/ros_realtime/allocators)
+-- +++ processing catkin package: 'rosatomic'
+-- ==> add_subdirectory(catkin/ros/ros_realtime/rosatomic)
+-- +++ processing catkin package: 'lockfree'
+-- ==> add_subdirectory(catkin/ros/ros_realtime/lockfree)
+-- +++ processing catkin package: 'rt_timer'
+-- ==> add_subdirectory(catkin/ros/ros_realtime/rt_timer)
+-- +++ processing catkin package: 'sab_data'
+-- ==> add_subdirectory(catkin/ros/sab_data)
+-- +++ processing catkin package: 'splines'
+-- ==> add_subdirectory(catkin/controller_manager/core-sl-ros/splines)
+-- +++ processing catkin package: 'start_robot'
+-- ==> add_subdirectory(catkin/robots/start_robot)
+-- +++ processing catkin package: 'amd_clmc_ros_messages'
+-- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/amd_clmc_ros_messages)
+-- Using these message generators: gencpp;genlisp;genpy
+-- amd_clmc_ros_messages: 71 messages, 9 services
+-- +++ processing catkin package: 'dbot_ros_msgs'
+-- ==> add_subdirectory(catkin/ros/dbot_ros_msgs)
+-- Using these message generators: gencpp;genlisp;genpy
+-- dbot_ros_msgs: 3 messages, 3 services
+-- +++ processing catkin package: 'riemo_grasping_msgs'
+-- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/riemo_grasping_msgs)
+-- Using these message generators: gencpp;genlisp;genpy
+-- riemo_grasping_msgs: 5 messages, 3 services
+-- +++ processing catkin package: 'utilities'
+-- ==> add_subdirectory(catkin/core-sl/catkin-utilities)
+-- MACHTYPE x86_64
+Detected MACHTYPE=x86_64
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:182 (message):
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+Call Stack (most recent call first):
+  catkin/core-sl/catkin-utilities/CMakeLists.txt:8 (include)
+
+
+-- HOST_NAME=amd-clmc-12-04-ci
+-- HOST=amd-clmc-12-04-ci
+-- LAB=AMD
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_INCLUDE_PATH=
+-- CMAKE_LIBRARY_PATH=
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+-- LAB_LIBDIR=lib/x86_64
+-- LAB_INCLUDES=include
+-- LAB_BINDIR=bin/x86_64
+-- +++ processing catkin package: 'lwpr'
+-- ==> add_subdirectory(catkin/core-sl/catkin-lwpr)
+-- MACHTYPE x86_64
+Detected MACHTYPE=x86_64
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:182 (message):
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+Call Stack (most recent call first):
+  catkin/core-sl/catkin-lwpr/CMakeLists.txt:5 (include)
+
+
+-- HOST_NAME=amd-clmc-12-04-ci
+-- HOST=amd-clmc-12-04-ci
+-- LAB=AMD
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_INCLUDE_PATH=
+-- CMAKE_LIBRARY_PATH=
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+-- LAB_LIBDIR=lib/x86_64
+-- LAB_INCLUDES=include
+-- LAB_BINDIR=bin/x86_64
+-- +++ processing catkin package: 'xenomai_ros'
+-- ==> add_subdirectory(catkin/ros/xenomai-ros)
+-- +++ processing catkin package: 'amd_clmc_log'
+-- ==> add_subdirectory(catkin/utils/amd_clmc_log)
+-- MACHTYPE x86_64
+Detected MACHTYPE=x86_64
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:182 (message):
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+Call Stack (most recent call first):
+  catkin/utils/amd_clmc_log/CMakeLists.txt:8 (include)
+
+
+-- HOST_NAME=amd-clmc-12-04-ci
+-- HOST=amd-clmc-12-04-ci
+-- LAB=AMD
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_INCLUDE_PATH=
+-- CMAKE_LIBRARY_PATH=
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+-- LAB_LIBDIR=lib/x86_64
+-- LAB_INCLUDES=include
+-- LAB_BINDIR=bin/x86_64
+-- xenomai NOT found. (/usr/local;/usr)
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+-- Eigen found (include: /usr/include/eigen3)
+-- +++ processing catkin package: 'facial_expressions'
+-- ==> add_subdirectory(catkin/emotions/facial_expressions)
+-- MACHTYPE x86_64
+Detected MACHTYPE=x86_64
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:182 (message):
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+Call Stack (most recent call first):
+  catkin/emotions/facial_expressions/CMakeLists.txt:4 (include)
+
+
+-- HOST_NAME=amd-clmc-12-04-ci
+-- HOST=amd-clmc-12-04-ci
+-- LAB=AMD
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_INCLUDE_PATH=
+-- CMAKE_LIBRARY_PATH=
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+-- LAB_LIBDIR=lib/x86_64
+-- LAB_INCLUDES=include
+-- LAB_BINDIR=bin/x86_64
+-- +++ processing catkin package: 'roscpp_utilities'
+-- ==> add_subdirectory(catkin/ros/roscpp_utilities)
+-- Eigen found (include: /usr/include/eigen3)
+-- +++ processing catkin package: 'rgbd_capture'
+-- ==> add_subdirectory(catkin/ros/rgbd_capture)
+-- +++ processing catkin package: 'rosrt'
+-- ==> add_subdirectory(catkin/ros/ros_realtime/rosrt)
+-- xenomai NOT found. (/usr/local;/usr)
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+-- +++ processing catkin package: 'riemo_rt'
+-- ==> add_subdirectory(catkin/controller_manager/core-sl-ros/riemo_rt)
+-- MACHTYPE x86_64
+Detected MACHTYPE=x86_64
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:182 (message):
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+Call Stack (most recent call first):
+  catkin/controller_manager/core-sl-ros/riemo_rt/CMakeLists.txt:16 (include)
+
+
+-- HOST_NAME=amd-clmc-12-04-ci
+-- HOST=amd-clmc-12-04-ci
+-- LAB=AMD
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_INCLUDE_PATH=
+-- CMAKE_LIBRARY_PATH=
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+-- LAB_LIBDIR=lib/x86_64
+-- LAB_INCLUDES=include
+-- LAB_BINDIR=bin/x86_64
+-- xenomai NOT found. (/usr/local;/usr)
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+-- Eigen found (include: /usr/include/eigen3)
+-- Found LibXml2: /usr/lib/x86_64-linux-gnu/libxml2.so 
+-- +++ processing catkin package: 'ros_rt_test'
+-- ==> add_subdirectory(catkin/ros/ros_rt_basic_example)
+-- xenomai NOT found. (/usr/local;/usr)
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+-- +++ processing catkin package: 'sl'
+-- ==> add_subdirectory(catkin/core-sl/catkin-sl)
+-- MACHTYPE x86_64
+Detected MACHTYPE=x86_64
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:182 (message):
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+Call Stack (most recent call first):
+  catkin/core-sl/catkin-sl/CMakeLists.txt:8 (include)
+
+
+-- HOST_NAME=amd-clmc-12-04-ci
+-- HOST=amd-clmc-12-04-ci
+-- LAB=AMD
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_INCLUDE_PATH=
+-- CMAKE_LIBRARY_PATH=
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+-- LAB_LIBDIR=lib/x86_64
+-- LAB_INCLUDES=include
+-- LAB_BINDIR=bin/x86_64
+-- +++ processing catkin package: 'apollo'
+-- ==> add_subdirectory(catkin/robots/catkin-apollo)
+-- MACHTYPE x86_64
+Detected MACHTYPE=x86_64
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:182 (message):
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+Call Stack (most recent call first):
+  catkin/robots/catkin-apollo/CMakeLists.txt:9 (include)
+
+
+-- HOST_NAME=amd-clmc-12-04-ci
+-- HOST=amd-clmc-12-04-ci
+-- LAB=AMD
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_INCLUDE_PATH=
+-- CMAKE_LIBRARY_PATH=
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+-- LAB_LIBDIR=lib/x86_64
+-- LAB_INCLUDES=include
+-- LAB_BINDIR=bin/x86_64
+-- +++ processing catkin package: 'apollo_safe'
+-- ==> add_subdirectory(catkin/robots/catkin_sl_apollo_safe)
+-- MACHTYPE x86_64
+Detected MACHTYPE=x86_64
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:182 (message):
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+Call Stack (most recent call first):
+  catkin/robots/catkin_sl_apollo_safe/CMakeLists.txt:8 (include)
+
+
+-- HOST_NAME=amd-clmc-12-04-ci
+-- HOST=amd-clmc-12-04-ci
+-- LAB=AMD
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_INCLUDE_PATH=
+-- CMAKE_LIBRARY_PATH=
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+-- LAB_LIBDIR=lib/x86_64
+-- LAB_INCLUDES=include
+-- LAB_BINDIR=bin/x86_64
+-- +++ processing catkin package: 'apollo_sl_interface'
+-- ==> add_subdirectory(catkin/robots/apollo-sl-interface)
+-- MACHTYPE x86_64
+Detected MACHTYPE=x86_64
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:182 (message):
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+Call Stack (most recent call first):
+  catkin/robots/apollo-sl-interface/CMakeLists.txt:8 (include)
+
+
+-- HOST_NAME=amd-clmc-12-04-ci
+-- HOST=amd-clmc-12-04-ci
+-- LAB=AMD
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_INCLUDE_PATH=
+-- CMAKE_LIBRARY_PATH=
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+-- LAB_LIBDIR=lib/x86_64
+-- LAB_INCLUDES=include
+-- LAB_BINDIR=bin/x86_64
+-- xenomai NOT found. (/usr/local;/usr)
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+-- +++ processing catkin package: 'apollo_test_task'
+-- ==> add_subdirectory(catkin/robots/catkin-sl-apollo-task-example)
+-- MACHTYPE x86_64
+Detected MACHTYPE=x86_64
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:182 (message):
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+Call Stack (most recent call first):
+  catkin/robots/catkin-sl-apollo-task-example/CMakeLists.txt:8 (include)
+
+
+-- HOST_NAME=amd-clmc-12-04-ci
+-- HOST=amd-clmc-12-04-ci
+-- LAB=AMD
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_INCLUDE_PATH=
+-- CMAKE_LIBRARY_PATH=
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+-- LAB_LIBDIR=lib/x86_64
+-- LAB_INCLUDES=include
+-- LAB_BINDIR=bin/x86_64
+-- +++ processing catkin package: 'sl_ros_servo'
+-- ==> add_subdirectory(catkin/ros/sl_ros_servo)
+-- MACHTYPE x86_64
+Detected MACHTYPE=x86_64
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:182 (message):
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+Call Stack (most recent call first):
+  catkin/ros/sl_ros_servo/CMakeLists.txt:5 (include)
+
+
+-- HOST_NAME=amd-clmc-12-04-ci
+-- HOST=amd-clmc-12-04-ci
+-- LAB=AMD
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_INCLUDE_PATH=
+-- CMAKE_LIBRARY_PATH=
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+-- LAB_LIBDIR=lib/x86_64
+-- LAB_INCLUDES=include
+-- LAB_BINDIR=bin/x86_64
+-- +++ processing catkin package: 'python_ros_utils'
+-- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/usc_utils/python_ros_utils)
+-- +++ processing catkin package: 'sl_conversions'
+-- ==> add_subdirectory(catkin/controller_manager/core-sl-ros/sl_conversions)
+-- +++ processing catkin package: 'sl_utilities'
+-- ==> add_subdirectory(catkin/controller_manager/core-sl-ros/sl_utilities)
+-- xenomai NOT found. (/usr/local;/usr)
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+-- +++ processing catkin package: 'sl_controller_manager'
+-- ==> add_subdirectory(catkin/controller_manager/core-sl-ros/sl_controller_manager)
+-- MACHTYPE x86_64
+Detected MACHTYPE=x86_64
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:182 (message):
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+Call Stack (most recent call first):
+  catkin/controller_manager/core-sl-ros/sl_controller_manager/CMakeLists.txt:5 (include)
+
+
+-- HOST_NAME=amd-clmc-12-04-ci
+-- HOST=amd-clmc-12-04-ci
+-- LAB=AMD
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_INCLUDE_PATH=
+-- CMAKE_LIBRARY_PATH=
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+-- LAB_LIBDIR=lib/x86_64
+-- LAB_INCLUDES=include
+-- LAB_BINDIR=bin/x86_64
+-- xenomai NOT found. (/usr/local;/usr)
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+-- +++ processing catkin package: 'controller_manager_task_apollo'
+-- ==> add_subdirectory(catkin/controller_manager/controller_manager_apollo/controller_manager_task_apollo)
+-- MACHTYPE x86_64
+Detected MACHTYPE=x86_64
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:182 (message):
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+Call Stack (most recent call first):
+  catkin/controller_manager/controller_manager_apollo/controller_manager_task_apollo/CMakeLists.txt:5 (include)
+
+
+-- HOST_NAME=amd-clmc-12-04-ci
+-- HOST=amd-clmc-12-04-ci
+-- LAB=AMD
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_INCLUDE_PATH=
+-- CMAKE_LIBRARY_PATH=
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+-- LAB_LIBDIR=lib/x86_64
+-- LAB_INCLUDES=include
+-- LAB_BINDIR=bin/x86_64
+-- xenomai NOT found. (/usr/local;/usr)
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+-- +++ processing catkin package: 'sl_barrett_controllers'
+-- ==> add_subdirectory(catkin/controller_manager/sl_barrett_controllers/sl_barrett_controllers)
+-- xenomai NOT found. (/usr/local;/usr)
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+-- Eigen found (include: /usr/include/eigen3)
+-- +++ processing catkin package: 'sl_controllers'
+-- ==> add_subdirectory(catkin/controller_manager/core-sl-ros/sl_controllers)
+-- xenomai NOT found. (/usr/local;/usr)
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+-- Eigen found (include: /usr/include/eigen3)
+-- +++ processing catkin package: 'task_recorder2_msgs'
+-- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/learning/task_recorder2_msgs)
+-- Using these message generators: gencpp;genlisp;genpy
+-- task_recorder2_msgs: 9 messages, 5 services
+-- +++ processing catkin package: 'opi'
+-- ==> add_subdirectory(catkin/core-perception/opi)
+-- Eigen found (include: /usr/include/eigen3)
+-- Using these message generators: gencpp;genlisp;genpy
+-- +++ processing catkin package: 'dbot_ros'
+-- ==> add_subdirectory(catkin/ros/dbot_ros)
+-- Eigen found (include: /usr/include/eigen3)
+-- +++ processing catkin package: 'ar_track_alvar'
+-- ==> add_subdirectory(catkin/perception/ar_track_alvar)
+-- Using these message generators: gencpp;genlisp;genpy
+-- Eigen found (include: /usr/include/eigen3)
+-- checking for module 'tinyxml'
+--   found tinyxml, version 2.6.2
+-- ar_track_alvar: 2 messages, 0 services
+-- +++ processing catkin package: 'table_object_finder'
+-- ==> add_subdirectory(catkin/ros/table_object_finder)
+-- Eigen found (include: /usr/include/eigen3)
+-- Found eigen: /usr/include/eigen3 
+-- Boost version: 1.46.1
+-- Found the following Boost libraries:
+--   system
+--   filesystem
+--   thread
+--   date_time
+--   iostreams
+-- checking for module 'openni-dev'
+--   package 'openni-dev' not found
+-- Could NOT find openni (missing:  OPENNI_INCLUDE_DIRS) 
+** WARNING ** io features related to openni will be disabled
+-- Found libusb-1.0: /usr/include 
+-- checking for module 'flann'
+--   found flann, version 1.7.1
+-- Found Flann: /opt/ros/groovy/lib/libflann_cpp_s.a 
+-- checking for module 'openni-dev'
+--   package 'openni-dev' not found
+-- Could NOT find openni (missing:  OPENNI_INCLUDE_DIRS) 
+** WARNING ** visualization features related to openni will be disabled
+-- Found qhull: /usr/lib/libqhull.so 
+-- looking for PCL_COMMON
+-- Found PCL_COMMON: /opt/ros/groovy/lib/libpcl_common.so 
+-- looking for PCL_OCTREE
+-- Found PCL_OCTREE: /opt/ros/groovy/lib/libpcl_octree.so 
+-- looking for PCL_IO
+-- Found PCL_IO: /opt/ros/groovy/lib/libpcl_io.so 
+-- looking for PCL_KDTREE
+-- Found PCL_KDTREE: /opt/ros/groovy/lib/libpcl_kdtree.so 
+-- looking for PCL_SEARCH
+-- Found PCL_SEARCH: /opt/ros/groovy/lib/libpcl_search.so 
+-- looking for PCL_SAMPLE_CONSENSUS
+-- Found PCL_SAMPLE_CONSENSUS: /opt/ros/groovy/lib/libpcl_sample_consensus.so 
+-- looking for PCL_FILTERS
+-- Found PCL_FILTERS: /opt/ros/groovy/lib/libpcl_filters.so 
+-- looking for PCL_GEOMETRY
+-- Found PCL_GEOMETRY: /opt/ros/groovy/include/pcl-1.6 
+-- looking for PCL_SEGMENTATION
+-- Found PCL_SEGMENTATION: /opt/ros/groovy/lib/libpcl_segmentation.so 
+-- looking for PCL_VISUALIZATION
+-- Found PCL_VISUALIZATION: /opt/ros/groovy/lib/libpcl_visualization.so 
+-- looking for PCL_FEATURES
+-- Found PCL_FEATURES: /opt/ros/groovy/lib/libpcl_features.so 
+-- looking for PCL_SURFACE
+-- Found PCL_SURFACE: /opt/ros/groovy/lib/libpcl_surface.so 
+-- looking for PCL_REGISTRATION
+-- Found PCL_REGISTRATION: /opt/ros/groovy/lib/libpcl_registration.so 
+-- looking for PCL_KEYPOINTS
+-- Found PCL_KEYPOINTS: /opt/ros/groovy/lib/libpcl_keypoints.so 
+-- looking for PCL_TRACKING
+-- Found PCL_TRACKING: /opt/ros/groovy/lib/libpcl_tracking.so 
+-- Found PCL: /usr/lib/libboost_system-mt.so;/usr/lib/libboost_filesystem-mt.so;/usr/lib/libboost_thread-mt.so;pthread;/usr/lib/libboost_date_time-mt.so;/usr/lib/libboost_iostreams-mt.so;optimized;/opt/ros/groovy/lib/libpcl_common.so;debug;/opt/ros/groovy/lib/libpcl_common.so;optimized;/opt/ros/groovy/lib/libpcl_octree.so;debug;/opt/ros/groovy/lib/libpcl_octree.so;vtkCommon;vtkRendering;vtkHybrid;optimized;/opt/ros/groovy/lib/libpcl_io.so;debug;/opt/ros/groovy/lib/libpcl_io.so;optimized;/opt/ros/groovy/lib/libflann_cpp_s.a;debug;/opt/ros/groovy/lib/libflann_cpp_s-gd.a;optimized;/opt/ros/groovy/lib/libpcl_kdtree.so;debug;/opt/ros/groovy/lib/libpcl_kdtree.so;optimized;/opt/ros/groovy/lib/libpcl_search.so;debug;/opt/ros/groovy/lib/libpcl_search.so;optimized;/opt/ros/groovy/lib/libpcl_sample_consensus.so;debug;/opt/ros/groovy/lib/libpcl_sample_consensus.so;optimized;/opt/ros/groovy/lib/libpcl_filters.so;debug;/opt/ros/groovy/lib/libpcl_filters.so;optimized;/opt/ros/groovy/lib/libpcl_segmentation.so;debug;/opt/ros/groovy/lib/libpcl_segmentation.so;optimized;/opt/ros/groovy/lib/libpcl_visualization.so;debug;/opt/ros/groovy/lib/libpcl_visualization.so;optimized;/opt/ros/groovy/lib/libpcl_features.so;debug;/opt/ros/groovy/lib/libpcl_features.so;optimized;/usr/lib/libqhull.so;debug;/usr/lib/libqhull.so;optimized;/opt/ros/groovy/lib/libpcl_surface.so;debug;/opt/ros/groovy/lib/libpcl_surface.so;optimized;/opt/ros/groovy/lib/libpcl_registration.so;debug;/opt/ros/groovy/lib/libpcl_registration.so;optimized;/opt/ros/groovy/lib/libpcl_keypoints.so;debug;/opt/ros/groovy/lib/libpcl_keypoints.so;optimized;/opt/ros/groovy/lib/libpcl_tracking.so;debug;/opt/ros/groovy/lib/libpcl_tracking.so (Required is at least version "1.3")
+-- +++ processing catkin package: 'robot_state_pub'
+-- ==> add_subdirectory(catkin/ros/robot_state_pub)
+-- Eigen found (include: /usr/include/eigen3)
+-- +++ processing catkin package: 'dbrt'
+-- ==> add_subdirectory(catkin/core-perception/dbrt)
+CMake Warning at catkin/core-perception/dbrt/CMakeLists.txt:17 (message):
+  No CUDA support.  Deactivating GPU implementation
+
+
+-- Eigen found (include: /usr/include/eigen3)
+-- assimp.h exists. Therefore Assimp V2 must be installed and will be used.
+-- +++ processing catkin package: 'ros_servo_apollo'
+-- ==> add_subdirectory(catkin/ros/ros_servo_apollo)
+-- MACHTYPE x86_64
+Detected MACHTYPE=x86_64
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:182 (message):
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+Call Stack (most recent call first):
+  catkin/ros/ros_servo_apollo/CMakeLists.txt:5 (include)
+
+
+-- HOST_NAME=amd-clmc-12-04-ci
+-- HOST=amd-clmc-12-04-ci
+-- LAB=AMD
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_INCLUDE_PATH=
+-- CMAKE_LIBRARY_PATH=
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+-- LAB_LIBDIR=lib/x86_64
+-- LAB_INCLUDES=include
+-- LAB_BINDIR=bin/x86_64
+-- +++ processing catkin package: 'usc_utilities'
+-- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/usc_utils/usc_utilities)
+-- Eigen found (include: /usr/include/eigen3)
+-- Using these message generators: gencpp;genlisp;genpy
+-- usc_utilities: 1 messages, 0 services
+-- +++ processing catkin package: 'learnable_cost_function'
+-- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/planning/learnable_cost_function)
+-- Eigen found (include: /usr/include/eigen3)
+-- +++ processing catkin package: 'constrained_inverse_kinematics'
+-- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/planning/constrained_inverse_kinematics)
+-- Using these message generators: gencpp;genlisp;genpy
+-- Eigen found (include: /usr/include/eigen3)
+-- Try OpenMP C flag = [-fopenmp]
+-- Performing Test OpenMP_FLAG_DETECTED
+-- Performing Test OpenMP_FLAG_DETECTED - Success
+-- Try OpenMP CXX flag = [-fopenmp]
+-- Performing Test OpenMP_FLAG_DETECTED
+-- Performing Test OpenMP_FLAG_DETECTED - Success
+Found OPENMP.
+-- constrained_inverse_kinematics: 1 messages, 0 services
+-- +++ processing catkin package: 'robot_info'
+-- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/usc_utils/robot_info)
+-- +++ processing catkin package: 'jacobian_utilities'
+-- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/usc_utils/jacobian_utilities)
+-- +++ processing catkin package: 'sl_barrett_controller_interface'
+-- ==> add_subdirectory(catkin/controller_manager/sl_barrett_controllers/sl_barrett_controller_interface)
+-- xenomai NOT found. (/usr/local;/usr)
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+-- +++ processing catkin package: 'sl_controller_interface'
+-- ==> add_subdirectory(catkin/controller_manager/core-sl-ros/sl_controller_interface)
+-- +++ processing catkin package: 'apollo_extrinsic_camera_calibration'
+-- ==> add_subdirectory(catkin/calibration/apollo_extrinsic_camera_calibration)
+-- Using these message generators: gencpp;genlisp;genpy
+/usr/local/lib/python2.7/dist-packages/scipy/__init__.py:111: UserWarning: Numpy 1.6.2 or above is recommended for this version of scipy (detected version 1.6.1)
+  UserWarning)
+-- apollo_extrinsic_camera_calibration: 1 messages, 1 services
+-- +++ processing catkin package: 'apollo_verify_extrinsic_camera_calibration'
+-- ==> add_subdirectory(catkin/calibration/apollo_verify_extrinsic_camera_calibration)
+-- Using these message generators: gencpp;genlisp;genpy
+-- Eigen found (include: /usr/include/eigen3)
+-- checking for module 'openni-dev'
+--   package 'openni-dev' not found
+-- Could NOT find openni (missing:  OPENNI_INCLUDE_DIRS) 
+** WARNING ** io features related to openni will be disabled
+-- looking for PCL_COMMON
+-- looking for PCL_OCTREE
+-- looking for PCL_IO
+-- Found PCL: /usr/lib/libboost_system-mt.so;/usr/lib/libboost_filesystem-mt.so;/usr/lib/libboost_thread-mt.so;/usr/lib/libboost_date_time-mt.so;/usr/lib/libboost_iostreams-mt.so;optimized;/opt/ros/groovy/lib/libpcl_common.so;debug;/opt/ros/groovy/lib/libpcl_common.so;optimized;/opt/ros/groovy/lib/libpcl_octree.so;debug;/opt/ros/groovy/lib/libpcl_octree.so;vtkCommon;vtkRendering;vtkHybrid;optimized;/opt/ros/groovy/lib/libpcl_io.so;debug;/opt/ros/groovy/lib/libpcl_io.so (Required is at least version "1.3")
+-- apollo_verify_extrinsic_camera_calibration: 0 messages, 1 services
+-- +++ processing catkin package: 'head_look_at_behaviour'
+-- ==> add_subdirectory(catkin/ros/head_look_at_behaviour)
+-- +++ processing catkin package: 'sl_controller_interface_test'
+-- ==> add_subdirectory(catkin/controller_manager/controller_manager_examples_apollo)
+-- xenomai NOT found. (/usr/local;/usr)
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+-- +++ processing catkin package: 'strain_gauge_calibration'
+-- ==> add_subdirectory(catkin/controller_manager/core-sl-ros/strain_gauge_calibration)
+-- xenomai NOT found. (/usr/local;/usr)
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+-- +++ processing catkin package: 'task_recorder2_utilities'
+-- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/learning/task_recorder2_utilities)
+-- Eigen found (include: /usr/include/eigen3)
+-- +++ processing catkin package: 'gui_utilities'
+-- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/usc_utils/gui_utilities)
+-- Looking for Q_WS_X11
+-- Looking for Q_WS_X11 - found
+-- Looking for Q_WS_WIN
+-- Looking for Q_WS_WIN - not found.
+-- Looking for Q_WS_QWS
+-- Looking for Q_WS_QWS - not found.
+-- Looking for Q_WS_MAC
+-- Looking for Q_WS_MAC - not found.
+-- Found Qt4: /usr/bin/qmake (found suitable version "4.8.1", required is "4.4.3")
+-- +++ processing catkin package: 'visual_servoing'
+-- ==> add_subdirectory(catkin/manipulation/visual_servoing)
+-- MACHTYPE x86_64
+Detected MACHTYPE=x86_64
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:182 (message):
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+Call Stack (most recent call first):
+  catkin/manipulation/visual_servoing/CMakeLists.txt:8 (include)
+
+
+-- HOST_NAME=amd-clmc-12-04-ci
+-- HOST=amd-clmc-12-04-ci
+-- LAB=AMD
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_INCLUDE_PATH=
+-- CMAKE_LIBRARY_PATH=
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+-- LAB_LIBDIR=lib/x86_64
+-- LAB_INCLUDES=include
+-- LAB_BINDIR=bin/x86_64
+-- xenomai NOT found. (/usr/local;/usr)
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+-- +++ processing catkin package: 'apollo_visual_servoing_task'
+-- ==> add_subdirectory(catkin/manipulation/apollo_visual_servoing_task)
+-- MACHTYPE x86_64
+Detected MACHTYPE=x86_64
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:182 (message):
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+Call Stack (most recent call first):
+  catkin/manipulation/apollo_visual_servoing_task/CMakeLists.txt:8 (include)
+
+
+-- HOST_NAME=amd-clmc-12-04-ci
+-- HOST=amd-clmc-12-04-ci
+-- LAB=AMD
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_INCLUDE_PATH=
+-- CMAKE_LIBRARY_PATH=
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+-- LAB_LIBDIR=lib/x86_64
+-- LAB_INCLUDES=include
+-- LAB_BINDIR=bin/x86_64
+-- xenomai NOT found. (/usr/local;/usr)
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+-- +++ processing catkin package: 'apollo_user'
+-- ==> add_subdirectory(catkin/robots/catkin-apolloUser)
+-- MACHTYPE x86_64
+Detected MACHTYPE=x86_64
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:182 (message):
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+Call Stack (most recent call first):
+  catkin/robots/catkin-apolloUser/CMakeLists.txt:8 (include)
+
+
+-- HOST_NAME=amd-clmc-12-04-ci
+-- HOST=amd-clmc-12-04-ci
+-- LAB=AMD
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_INCLUDE_PATH=
+-- CMAKE_LIBRARY_PATH=
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+-- LAB_LIBDIR=lib/x86_64
+-- LAB_INCLUDES=include
+-- LAB_BINDIR=bin/x86_64
+-- xenomai NOT found. (/usr/local;/usr)
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+-- +++ processing catkin package: 'from_object_to_grasp'
+-- ==> add_subdirectory(catkin/manipulation/from-object-to-grasp)
+-- xenomai NOT found. (/usr/local;/usr)
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+-- Using these message generators: gencpp;genlisp;genpy
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/amd_clmc/team/workspace/build
+Scanning dependencies of target fl
+Scanning dependencies of target osr
+Scanning dependencies of target quadprog
+Scanning dependencies of target geometry_msgs_generate_messages_cpp
+Scanning dependencies of target geometry_msgs_generate_messages_lisp
+Scanning dependencies of target geometry_msgs_generate_messages_py
+Scanning dependencies of target rosgraph_msgs_generate_messages_lisp
+Scanning dependencies of target std_msgs_generate_messages_cpp
+Scanning dependencies of target std_msgs_generate_messages_py
+Scanning dependencies of target std_msgs_generate_messages_lisp
+Scanning dependencies of target gtest
+Scanning dependencies of target rosgraph_msgs_generate_messages_py
+Scanning dependencies of target qp_oases
+Scanning dependencies of target roscpp_generate_messages_lisp
+Scanning dependencies of target roscpp_generate_messages_py
+Scanning dependencies of target lockfree
+[  0%] Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libosr.so
+[  0%] Scanning dependencies of target rosgraph_msgs_generate_messages_cpp
+Scanning dependencies of target tf_generate_messages_lisp
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libfl.so
+Scanning dependencies of target sensor_msgs_generate_messages_cpp
+Scanning dependencies of target roscpp_generate_messages_cpp
+Scanning dependencies of target tf_generate_messages_py
+[  0%] Scanning dependencies of target sensor_msgs_generate_messages_py
+[  0%] Scanning dependencies of target sensor_msgs_generate_messages_lisp
+Scanning dependencies of target tf_generate_messages_cpp
+Built target geometry_msgs_generate_messages_cpp
+Scanning dependencies of target visualization_msgs_generate_messages_py
+Scanning dependencies of target visualization_msgs_generate_messages_cpp
+[  0%] Building CXX object catkin/ros/usc-clmc-catkin-pkg/usc_utils/quadprog/CMakeFiles/quadprog.dir/src/Array.cc.o
+[  0%] [  0%] Building CXX object catkin/ros/usc-clmc-catkin-pkg/usc_utils/quadprog/CMakeFiles/quadprog.dir/src/QuadProg++.cc.o
+[  0%] [  0%] [  0%] Built target std_msgs_generate_messages_cpp
+[  0%] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+Built target std_msgs_generate_messages_lisp
+[  0%] [  0%] Built target geometry_msgs_generate_messages_py
+[  0%] [  0%] Built target geometry_msgs_generate_messages_lisp
+Built target roscpp_generate_messages_lisp
+Built target rosgraph_msgs_generate_messages_py
+Built target std_msgs_generate_messages_py
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] [  0%] [  0%] [  0%] Built target roscpp_generate_messages_py
+[  0%] [  0%] [  1%] [  1%] [  1%] [  1%] [  1%] Built target sensor_msgs_generate_messages_cpp
+Built target rosgraph_msgs_generate_messages_cpp
+[  1%] Built target tf_generate_messages_lisp
+[  1%] Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+Scanning dependencies of target visualization_msgs_generate_messages_lisp
+[  2%] [  2%] Built target sensor_msgs_generate_messages_lisp
+[  2%] Built target tf_generate_messages_py
+[  2%] [  2%] [  2%] Scanning dependencies of target test_conversions
+Building CXX object catkin/third_party/qp_oases/CMakeFiles/qp_oases.dir/src/LAPACKReplacement.cpp.o
+Built target sensor_msgs_generate_messages_py
+[  2%] Scanning dependencies of target apollo_openGL
+Building CXX object catkin/ros/ros_realtime/lockfree/CMakeFiles/lockfree.dir/src/free_list.cpp.o
+Built target tf_generate_messages_cpp
+Building CXX object catkin/third_party/qp_oases/CMakeFiles/qp_oases.dir/src/SQProblem.cpp.o
+Building CXX object catkin/third_party/qp_oases/CMakeFiles/qp_oases.dir/src/Options.cpp.o
+Building CXX object catkin/third_party/qp_oases/CMakeFiles/qp_oases.dir/src/BLASReplacement.cpp.o
+Building CXX object catkin/third_party/qp_oases/CMakeFiles/qp_oases.dir/src/Matrices.cpp.o
+Built target visualization_msgs_generate_messages_cpp
+Scanning dependencies of target shape_msgs_generate_messages_lisp
+Building CXX object catkin/third_party/qp_oases/CMakeFiles/qp_oases.dir/src/MessageHandling.cpp.o
+Building CXX object catkin/third_party/qp_oases/CMakeFiles/qp_oases.dir/src/QProblemB.cpp.o
+[  2%] Building CXX object catkin/third_party/qp_oases/CMakeFiles/qp_oases.dir/src/Flipper.cpp.o
+Built target visualization_msgs_generate_messages_py
+Building CXX object catkin/third_party/qp_oases/CMakeFiles/qp_oases.dir/src/Bounds.cpp.o
+Scanning dependencies of target apollo_verify_extrinsic_camera_calibration_generate_messages_lisp
+Scanning dependencies of target topic_tools_generate_messages_lisp
+Scanning dependencies of target shape_msgs_generate_messages_py
+Scanning dependencies of target apollo_verify_extrinsic_camera_calibration_generate_messages_cpp
+Scanning dependencies of target topic_tools_generate_messages_py
+Scanning dependencies of target topic_tools_generate_messages_cpp
+Building CXX object catkin/third_party/qp_oases/CMakeFiles/qp_oases.dir/src/Utils.cpp.o
+Building CXX object catkin/third_party/qp_oases/CMakeFiles/qp_oases.dir/src/Constraints.cpp.o
+Scanning dependencies of target apollo_task
+Building CXX object catkin/third_party/qp_oases/CMakeFiles/qp_oases.dir/src/Indexlist.cpp.o
+Scanning dependencies of target shape_msgs_generate_messages_cpp
+Building CXX object catkin/third_party/qp_oases/CMakeFiles/qp_oases.dir/src/SubjectTo.cpp.o
+Scanning dependencies of target amd_clmc_ros_messages_generate_messages_py
+Scanning dependencies of target amd_clmc_ros_messages_generate_messages_lisp
+Scanning dependencies of target dbot_ros_msgs_generate_messages_lisp
+Building CXX object catkin/third_party/qp_oases/CMakeFiles/qp_oases.dir/src/QProblem.cpp.o
+Scanning dependencies of target amd_clmc_ros_messages_generate_messages_cpp
+Scanning dependencies of target task_recorder2_msgs_generate_messages_py
+Scanning dependencies of target dbot_ros_msgs_generate_messages_py
+Scanning dependencies of target utility
+Scanning dependencies of target apollo_verify_extrinsic_camera_calibration_generate_messages_py
+Scanning dependencies of target riemo_grasping_msgs_generate_messages_py
+Scanning dependencies of target riemo_grasping_msgs_generate_messages_lisp
+Scanning dependencies of target task_recorder2_msgs_generate_messages_lisp
+Scanning dependencies of target apollo_simulation
+Scanning dependencies of target riemo_grasping_msgs_generate_messages_cpp
+Scanning dependencies of target dbot_ros_msgs_generate_messages_cpp
+[  2%] [  2%] Scanning dependencies of target ar_track_alvar_generate_messages_cpp
+Scanning dependencies of target task_recorder2_msgs_generate_messages_cpp
+[  2%] [  2%] Scanning dependencies of target usc_utilities_generate_messages_cpp
+Scanning dependencies of target sample_task_cpp
+Building C object catkin/robots/catkin-apollo/tmp_catkin_apollo/CMakeFiles/apollo_openGL.dir/src/SL_user_openGL.c.o
+Built target visualization_msgs_generate_messages_lisp
+[  2%] [  2%] [  2%] [  3%] Scanning dependencies of target SLmotor
+[  3%] [  3%] [  3%] Building C object catkin/robots/catkin-apollo/tmp_catkin_apollo/CMakeFiles/apollo_task.dir/src/SL_user_task.c.o
+[  3%] [  3%] [  3%] [  3%] [  4%] [  4%] [  4%] Scanning dependencies of target SLvision
+Scanning dependencies of target roscpp_utilities
+[  4%] [  4%] [  4%] [  4%] Scanning dependencies of target SLsimulation
+[  4%] [  4%] [  5%] [  5%] [  5%] [  5%] [  5%] Scanning dependencies of target SLopenGL
+Scanning dependencies of target rgbd_capture
+[  5%] [  5%] [  5%] [  5%] [  5%] [  5%] [  5%] Scanning dependencies of target SLcommon
+[  6%] [  6%] [  6%] [  6%] [  6%] [  6%] [  6%] [  6%] [  7%] [  7%] [  7%] [  7%] [  7%] Scanning dependencies of target SLtask
+[  7%] [  7%] [  7%] [  7%] [  7%] [  7%] [  7%] [  7%] [  7%] [  7%] [  7%] [  9%] [  9%] [  9%] [  9%] [  9%] [  9%] [  9%] [  9%] [  9%] [  9%] [ 10%] [ 11%] Scanning dependencies of target apollo
+[ 11%] [ 11%] [ 11%] [ 11%] [ 11%] [ 11%] [ 12%] [ 13%] [ 13%] [ 13%] [ 13%] [ 13%] [ 13%] [ 13%] [ 13%] [ 13%] [ 13%] [ 13%] [ 13%] [ 13%] [ 13%] [ 14%] [ 14%] [ 14%] [ 15%] [ 15%] [ 15%] [ 15%] [ 15%] [ 15%] [ 15%] [ 15%] [ 15%] [ 17%] [ 17%] [ 17%] [ 18%] [ 18%] [ 18%] [ 18%] [ 18%] [ 18%] [ 18%] [ 18%] [ 18%] [ 18%] [ 18%] [ 18%] [ 18%] [ 18%] Generating Lisp code from dbot_ros_msgs/ObjectState.msg
+[ 18%] [ 18%] [ 18%] Generating Python from MSG dbot_ros_msgs/ObjectState
+Generating C++ code from riemo_grasping_msgs/GraspProblemInfo.msg
+[ 18%] Built target topic_tools_generate_messages_py
+[ 18%] [ 18%] Built target shape_msgs_generate_messages_lisp
+[ 18%] [ 19%] [ 19%] [ 19%] [ 19%] [ 19%] [ 19%] [ 19%] Generating Lisp code from task_recorder2_msgs/Description.msg
+[ 19%] [ 19%] [ 19%] [ 20%] [ 20%] [ 20%] [ 20%] [ 20%] [ 20%] [ 20%] Built target topic_tools_generate_messages_cpp
+Generating Python from MSG riemo_grasping_msgs/GraspPose
+[ 21%] [ 21%] Generating Lisp code from apollo_verify_extrinsic_camera_calibration/VerifyCalibration.srv
+[ 21%] [ 21%] [ 21%] [ 21%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/control.c.o
+[ 21%] Generating Lisp code from dbot_ros_msgs/FindObject.srv
+[ 21%] [ 21%] [ 22%] [ 22%] [ 22%] [ 22%] [ 22%] Built target topic_tools_generate_messages_lisp
+Generating Python from MSG amd_clmc_ros_messages/CalibratePressureSensors
+[ 22%] [ 23%] [ 23%] Generating Python code from SRV dbot_ros_msgs/RunObjectTracker
+[ 23%] [ 23%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/dfpmin.c.o
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/distributions.c.o
+[ 23%] [ 23%] [ 23%] [ 23%] [ 23%] [ 23%] [ 23%] [ 23%] [ 23%] [ 23%] Generating Python from MSG amd_clmc_ros_messages/ViconQuery
+[ 23%] [ 23%] Generating Lisp code from task_recorder2_msgs/tfMessageStamped.msg
+Generating Lisp code from amd_clmc_ros_messages/DMPCommand.msg
+Generating Python from MSG amd_clmc_ros_messages/AccelerationFeedbackExperimentStatus
+[ 23%] Generating C++ code from apollo_verify_extrinsic_camera_calibration/VerifyCalibration.srv
+[ 23%] [ 23%] Generating C++ code from amd_clmc_ros_messages/CalibratePressureSensors.msg
+[ 23%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/brent.c.o
+[ 23%] [ 23%] [ 23%] Generating Python from MSG riemo_grasping_msgs/GraspProblemInfo
+[ 23%] Generating C++ code from dbot_ros_msgs/ObjectOri.msg
+[ 23%] [ 23%] [ 23%] [ 23%] [ 25%] Scanning dependencies of target ar_track_alvar_generate_messages_lisp
+Built target shape_msgs_generate_messages_cpp
+[ 26%] [ 26%] [ 26%] [ 26%] [ 26%] [ 26%] [ 26%] [ 26%] [ 26%] Generating Lisp code from dbot_ros_msgs/TrackObject.srv
+[ 26%] [ 27%] Built target shape_msgs_generate_messages_py
+[ 27%] [ 27%] [ 27%] [ 27%] [ 27%] Generating Lisp code from riemo_grasping_msgs/Preshape.msg
+[ 27%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/elmhes.c.o
+[ 27%] Generating Lisp code from amd_clmc_ros_messages/LinearQuadraticRegulator.msg
+Generating Lisp code from amd_clmc_ros_messages/CartesianTrajectory.msg
+[ 27%] Generating Python code from SRV riemo_grasping_msgs/LatestGraspProblemInfo
+[ 27%] [ 27%] [ 27%] [ 27%] [ 27%] [ 28%] [ 28%] [ 28%] [ 28%] [ 28%] [ 28%] [ 28%] [ 28%] [ 28%] [ 28%] [ 28%] Generating Python code from SRV dbot_ros_msgs/FindObject
+[ 28%] Generating C++ code from dbot_ros_msgs/TrackObject.srv
+[ 28%] [ 28%] [ 28%] [ 28%] [ 28%] [ 29%] Generating Python from MSG amd_clmc_ros_messages/Grasp
+[ 29%] [ 30%] [ 30%] [ 30%] [ 30%] [ 30%] [ 30%] Generating Python code from SRV riemo_grasping_msgs/RenderGraspProblemService
+[ 30%] [ 31%] [ 31%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/ldltinv.c.o
+[ 31%] [ 31%] Scanning dependencies of target usc_utilities_generate_messages_py
+Generating Python code from SRV dbot_ros_msgs/TrackObject
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/dbrent.c.o
+Scanning dependencies of target ar_track_alvar_generate_messages_py
+[ 31%] [ 31%] Generating C++ code from amd_clmc_ros_messages/ViconQuery.msg
+[ 31%] Generating Python from MSG amd_clmc_ros_messages/DMPCommand
+[ 31%] Generating Lisp code from riemo_grasping_msgs/LatestGraspProblemInfo.srv
+[ 31%] [ 31%] [ 31%] [ 31%] [ 32%] [ 32%] [ 32%] [ 32%] [ 32%] Generating C++ code from amd_clmc_ros_messages/DriftingControllerParams.msg
+[ 32%] [ 32%] [ 32%] [ 34%] Generating Python from MSG riemo_grasping_msgs/GraspableObject
+[ 34%] Generating Lisp code from amd_clmc_ros_messages/EndEffectorPosition.msg
+Generating C++ code from usc_utilities/AccumulatedTrialStatistics.msg
+Generating C++ code from amd_clmc_ros_messages/LinearQuadraticRegulator.msg
+[ 34%] [ 34%] [ 34%] [ 34%] [ 34%] [ 34%] [ 34%] [ 34%] [ 34%] [ 34%] [ 34%] [ 34%] Generating Lisp code from riemo_grasping_msgs/RenderGraspProblemService.srv
+[ 34%] [ 34%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/lubksb.c.o
+[ 34%] [ 35%] Generating C++ code from dbot_ros_msgs/ObjectsState.msg
+[ 36%] [ 36%] Generating Lisp code from riemo_grasping_msgs/GraspableObject.msg
+[ 37%] [ 37%] [ 37%] [ 37%] [ 37%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/df1dim.c.o
+[ 37%] [ 37%] [ 37%] [ 37%] Generating Lisp code from riemo_grasping_msgs/GraspProblemInfo.msg
+Generating Lisp code from amd_clmc_ros_messages/ViconQuery.msg
+[ 37%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/j-fixed.c.o
+Generating Python from MSG amd_clmc_ros_messages/CartesianTrajectory
+[ 37%] [ 37%] [ 37%] [ 37%] Generating C++ code from amd_clmc_ros_messages/LinearQuadraticRegulatorParams.msg
+[ 37%] [ 37%] [ 37%] Generating C++ code from riemo_grasping_msgs/MpiGraspPoses.msg
+Building C object catkin/robots/catkin-apollo/tmp_catkin_apollo/CMakeFiles/apollo_simulation.dir/src/SL_user_simulation.c.o
+[ 37%] [ 37%] [ 37%] [ 37%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/stability.c.o
+[ 37%] [ 37%] [ 38%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/svdcmp.c.o
+[ 38%] Generating Lisp code from amd_clmc_ros_messages/CalibratePressureSensors.msg
+Generating Lisp code from task_recorder2_msgs/CostLabel.msg
+Generating Python from MSG dbot_ros_msgs/ObjectsState
+[ 38%] [ 38%] [ 38%] [ 38%] [ 38%] [ 38%] [ 38%] [ 38%] [ 38%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/svbksb.c.o
+Generating Lisp code from amd_clmc_ros_messages/AccelerationFeedbackExperimentStatus.msg
+Generating Lisp code from task_recorder2_msgs/Notification.msg
+Generating Lisp code from task_recorder2_msgs/SetupDetector.srv
+[ 38%] [ 38%] [ 38%] Generating Python code from SRV riemo_grasping_msgs/UpdateGraspProblem
+Generating Python from MSG riemo_grasping_msgs/Preshape
+[ 38%] [ 38%] Generating Lisp code from amd_clmc_ros_messages/Grasp.msg
+Generating Lisp code from task_recorder2_msgs/DataSampleLabel.msg
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLmotor.dir/src/SL_controller.c.o
+Generating Lisp code from task_recorder2_msgs/DataSample.msg
+Generating Python from MSG amd_clmc_ros_messages/EnvironmentalObject
+[ 38%] [ 38%] Generating C++ code from dbot_ros_msgs/FindObject.srv
+Generating C++ code from amd_clmc_ros_messages/CalibratePressureSensorsStatus.msg
+[ 38%] [ 38%] [ 38%] [ 38%] Built target fl
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/choldc.c.o
+Generating Python from MSG amd_clmc_ros_messages/CalibrateAccelerometerSensorStatus
+[ 38%] [ 38%] [ 38%] Generating C++ code from riemo_grasping_msgs/GraspableObject.msg
+[ 38%] Generating C++ code from amd_clmc_ros_messages/CartesianTrajectory.msg
+[ 38%] Generating Lisp code from amd_clmc_ros_messages/CalibrateBiotacSensorsStatus.msg
+Generating C++ code from amd_clmc_ros_messages/GraspPoses.msg
+[ 38%] Generating Python from MSG amd_clmc_ros_messages/DriftingControllerParams
+[ 38%] [ 38%] [ 38%] [ 38%] Generating Lisp code from amd_clmc_ros_messages/FingerJointEncoderOffsets.msg
+Generating C++ code from riemo_grasping_msgs/GraspPose.msg
+[ 38%] [ 39%] [ 39%] [ 39%] Generating Lisp code from dbot_ros_msgs/ObjectOri.msg
+[ 39%] Generating Lisp code from amd_clmc_ros_messages/GraspPoses.msg
+[ 39%] [ 39%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/f1dim.c.o
+[ 39%] [ 40%] [ 42%] [ 42%] [ 42%] Generating Python from MSG amd_clmc_ros_messages/FingerJointEncoderOffsets
+[ 42%] Scanning dependencies of target usc_utilities_generate_messages_lisp
+[ 42%] Generating Python from MSG amd_clmc_ros_messages/SpeedChange
+[ 42%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/lookup_table.c.o
+Generating Python from MSG amd_clmc_ros_messages/CalibratePressureSensorsStatus
+Building CXX object catkin/ros/usc-clmc-catkin-pkg/usc_utils/conversions/CMakeFiles/test_conversions.dir/test/test_conversions.cpp.o
+[ 42%] [ 42%] [ 42%] [ 42%] Building CXX object catkin/robots/catkin-apolloUser/tmp_catkin_apollo_user/CMakeFiles/sample_task_cpp.dir/src/sample_task_cpp.cpp.o
+[ 42%] Generating Python code from SRV amd_clmc_ros_messages/QueryControllerStatus
+[ 42%] Generating Python code from SRV task_recorder2_msgs/SetLabel
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/powell.c.o
+Generating Python from MSG amd_clmc_ros_messages/CalibrateBiotacSensorsStatus
+Generating Lisp code from amd_clmc_ros_messages/CalibrateAccelerometerSensor.msg
+Generating C++ code from amd_clmc_ros_messages/CollectData.msg
+Generating Lisp code from amd_clmc_ros_messages/LqrControllerParams.msg
+Generating Lisp code from amd_clmc_ros_messages/Sphere.msg
+[ 42%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/frprmn.c.o
+Generating Lisp code from task_recorder2_msgs/TaskRecorderSpecification.msg
+[ 42%] Generating Lisp code from amd_clmc_ros_messages/SpeedChange.msg
+Generating C++ code from amd_clmc_ros_messages/SpeedChange.msg
+Generating C++ code from task_recorder2_msgs/Notification.msg
+[ 43%] Generating Python from MSG amd_clmc_ros_messages/DistanceFieldQueries
+Generating Python from MSG amd_clmc_ros_messages/CalibrateAccelerometerSensor
+Generating C++ code from task_recorder2_msgs/DataSample.msg
+[ 43%] Generating C++ code from amd_clmc_ros_messages/DistanceFieldQueries.msg
+Generating Python from MSG amd_clmc_ros_messages/CartesianGains
+[ 44%] Generating C++ code from ar_track_alvar/AlvarMarkers.msg
+[ 44%] [ 45%] Generating Lisp code from riemo_grasping_msgs/MpiGraspPoses.msg
+[ 45%] [ 45%] Generating Python from MSG task_recorder2_msgs/Notification
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/dlinmin.c.o
+[ 45%] [ 45%] [ 45%] Generating C++ code from amd_clmc_ros_messages/DMPCommand.msg
+Generating Lisp code from amd_clmc_ros_messages/SetVisualToolTracking.msg
+[ 45%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/mnbrak.c.o
+Generating Lisp code from amd_clmc_ros_messages/ExperimentParams.msg
+[ 45%] [ 45%] Generating Python from MSG amd_clmc_ros_messages/DistanceFieldEval
+Generating Python code from SRV task_recorder2_msgs/SetLastTrialIds
+[ 45%] Generating Python from MSG amd_clmc_ros_messages/LinearQuadraticRegulatorParams
+[ 45%] Generating Python from MSG amd_clmc_ros_messages/ControllerStatus
+Generating C++ code from task_recorder2_msgs/DetectedEvents.srv
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/ludcmp.c.o
+[ 46%] Generating Python from MSG task_recorder2_msgs/CostLabel
+Generating C++ code from amd_clmc_ros_messages/NetworkLayer.msg
+Generating C++ code from amd_clmc_ros_messages/FingerJointEncoderOffsets.msg
+Generating Python from MSG task_recorder2_msgs/tfMessageStamped
+Generating Python code from SRV amd_clmc_ros_messages/ExperimentGeneratorParamsService
+[ 46%] Generating C++ code from amd_clmc_ros_messages/TrajectoryPoint.msg
+Generating C++ code from task_recorder2_msgs/SetupDetector.srv
+[ 46%] [ 46%] [ 46%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/data_sets.c.o
+Generating C++ code from amd_clmc_ros_messages/Sphere.msg
+Scanning dependencies of target constrained_inverse_kinematics_generate_messages_py
+Generating Python from MSG riemo_grasping_msgs/MpiGraspPoses
+Generating Lisp code from task_recorder2_msgs/SetLabel.srv
+[ 46%] Generating Lisp code from amd_clmc_ros_messages/CartesianGains.msg
+[ 46%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLmotor.dir/src/SL_motor_servo.c.o
+Generating Lisp code from task_recorder2_msgs/Accumulate.srv
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/numerics_package.c.o
+[ 46%] Generating Python from MSG amd_clmc_ros_messages/SetVisualToolTracking
+Generating C++ code from amd_clmc_ros_messages/ExperimentParams.msg
+[ 46%] Generating Lisp code from amd_clmc_ros_messages/CollectData.msg
+Built target osr
+Generating Python from MSG amd_clmc_ros_messages/LinearQuadraticRegulator
+[ 46%] Generating Lisp code from amd_clmc_ros_messages/AffinePolicy.msg
+Generating C++ code from amd_clmc_ros_messages/KeyPointBodyApprox.msg
+[ 46%] Generating Lisp code from amd_clmc_ros_messages/OfflineLearningControl.msg
+Generating C++ code from amd_clmc_ros_messages/Trajectory.msg
+Generating Lisp code from amd_clmc_ros_messages/CalibrateBiotacSensors.msg
+Generating C++ code from amd_clmc_ros_messages/ExperimentGeneratorParamsService.srv
+[ 46%] [ 46%] Generating Python from MSG amd_clmc_ros_messages/ExperimentParams
+[ 46%] [ 46%] Generating Python code from SRV amd_clmc_ros_messages/OfflineParamsService
+[ 46%] [ 46%] Generating Python from MSG dbot_ros_msgs/ObjectOri
+Generating Python from MSG amd_clmc_ros_messages/GraspPoses
+[ 46%] [ 46%] Generating C++ code from riemo_grasping_msgs/UpdateGraspProblem.srv
+[ 46%] Generating Python from MSG amd_clmc_ros_messages/Trajectory
+Generating C++ code from amd_clmc_ros_messages/SetPoses.srv
+Generating C++ code from amd_clmc_ros_messages/OnlineDataStatus.msg
+Generating C++ code from amd_clmc_ros_messages/SetVisualToolTracking.msg
+[ 46%] [ 46%] [ 46%] [ 46%] [ 47%] Generating Lisp code from amd_clmc_ros_messages/TrajectoryStatus.msg
+Generating Lisp code from amd_clmc_ros_messages/CalibrateAccelerometerSensorStatus.msg
+Generating C++ code from amd_clmc_ros_messages/TrajectoryStatus.msg
+Generating C++ code from amd_clmc_ros_messages/TaskFrame.msg
+Generating C++ code from amd_clmc_ros_messages/LqrControllerParams.msg
+Generating Lisp code from task_recorder2_msgs/BinaryLabel.msg
+Generating Python from MSG amd_clmc_ros_messages/UpdateStrainGagesCalibration
+Generating Lisp code from task_recorder2_msgs/AccumulatedTrialStatistics.msg
+Generating C++ code from amd_clmc_ros_messages/ResetBreakawayStatus.msg
+[ 48%] Generating Lisp code from dbot_ros_msgs/ObjectsState.msg
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLopenGL.dir/src/SL_openGL.c.o
+Generating C++ code from amd_clmc_ros_messages/OfflineLearningControl.msg
+Generating C++ code from task_recorder2_msgs/SetLastTrialIds.srv
+Generating C++ code from amd_clmc_ros_messages/Grasp.msg
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLvision.dir/src/SL_vision_proc.c.o
+Generating C++ code from dbot_ros_msgs/ObjectState.msg
+Generating Python from MSG amd_clmc_ros_messages/ResetBreakawayStatus
+[ 48%] [ 48%] [ 48%] Generating Lisp code from amd_clmc_ros_messages/DriftingControllerParams.msg
+Generating Python code from SRV amd_clmc_ros_messages/OfflineLearningControlService
+Generating Lisp code from amd_clmc_ros_messages/ControllerStatus.msg
+Generating Lisp code from amd_clmc_ros_messages/DriftingControllerDataStatus.msg
+Generating Python from MSG amd_clmc_ros_messages/CollectDataStatus
+Generating Lisp code from amd_clmc_ros_messages/DistanceFieldEval.msg
+Generating Python from MSG amd_clmc_ros_messages/AvgPressureSensors
+Generating Python from MSG task_recorder2_msgs/DataSampleLabel
+[ 48%] [ 48%] Generating Python code from SRV amd_clmc_ros_messages/DriftingControllerParamsService
+Generating Python from MSG amd_clmc_ros_messages/GraspStatus
+Generating Lisp code from amd_clmc_ros_messages/CalibrateForceTorqueSensorStatus.msg
+Generating Python from MSG amd_clmc_ros_messages/OfflineNetwork
+Generating Python from MSG amd_clmc_ros_messages/Matrix32
+Generating C++ code from amd_clmc_ros_messages/OfflineParams.msg
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/statistics.c.o
+[ 50%] Generating Lisp code from amd_clmc_ros_messages/EnvironmentalObject.msg
+[ 50%] Generating C++ code from amd_clmc_ros_messages/DriftingControllerDataStatus.msg
+Generating Python from MSG amd_clmc_ros_messages/ResetBreakaway
+[ 51%] [ 51%] Generating C++ code from amd_clmc_ros_messages/Matrix32.msg
+Generating Python from MSG amd_clmc_ros_messages/EndEffectorPosition
+Generating Python from MSG amd_clmc_ros_messages/Sphere
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLmotor.dir/src/SL_sensor_proc.c.o
+Generating C++ code from amd_clmc_ros_messages/QueryControllerStatus.srv
+Generating Lisp code from riemo_grasping_msgs/GraspPose.msg
+Generating Python from MSG amd_clmc_ros_messages/ObjectMass
+Generating C++ code from amd_clmc_ros_messages/DistanceFieldEval.msg
+Generating Lisp code from dbot_ros_msgs/RunObjectTracker.srv
+Generating Python from MSG amd_clmc_ros_messages/Imu
+Scanning dependencies of target constrained_inverse_kinematics_generate_messages_cpp
+Generating C++ code from amd_clmc_ros_messages/BiotacData.msg
+[ 51%] Generating C++ code from amd_clmc_ros_messages/DriftingControllerParamsService.srv
+Generating Lisp code from amd_clmc_ros_messages/DistanceFieldQueries.msg
+Generating Python from MSG amd_clmc_ros_messages/EndEffectorState
+Generating Python from MSG amd_clmc_ros_messages/KeyPointBodyApprox
+Generating Lisp code from amd_clmc_ros_messages/OfflineLearningControlService.srv
+[ 51%] [ 51%] [ 51%] Generating C++ code from amd_clmc_ros_messages/EndEffectorPosition.msg
+Generating C++ code from amd_clmc_ros_messages/FingerForceControlGains.msg
+Generating Python from MSG amd_clmc_ros_messages/PressureSensors
+[ 52%] [ 52%] [ 52%] Generating Lisp code from amd_clmc_ros_messages/BiotacData.msg
+Generating Lisp code from task_recorder2_msgs/DetectedEvents.srv
+Generating Python from MSG amd_clmc_ros_messages/CalibrateBiotacSensors
+Generating C++ code from task_recorder2_msgs/CostLabel.msg
+Generating Python from MSG task_recorder2_msgs/DataSample
+Generating Python from MSG amd_clmc_ros_messages/Preshape
+Generating Python from MSG amd_clmc_ros_messages/ObstaclePoints
+Generating C++ code from riemo_grasping_msgs/LatestGraspProblemInfo.srv
+Building CXX object catkin/ros/rgbd_capture/CMakeFiles/rgbd_capture.dir/src/rgbd_capture.cpp.o
+Generating Python from MSG task_recorder2_msgs/TaskRecorderSpecification
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLvision.dir/src/SL_serial_unix.c.o
+Generating Lisp code from amd_clmc_ros_messages/LqrControllerDataStatus.msg
+Generating C++ code from amd_clmc_ros_messages/LinearQuadraticRegulatorStatus.msg
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/parm_opt.c.o
+Generating Lisp code from amd_clmc_ros_messages/Imu.msg
+[ 52%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/linmin.c.o
+[ 52%] Generating Python code from SRV task_recorder2_msgs/SetupDetector
+[ 52%] Generating C++ code from amd_clmc_ros_messages/OfflineParamsService.srv
+Generating Lisp code from amd_clmc_ros_messages/CalibratePressureSensorsStatus.msg
+Generating Python code from SRV amd_clmc_ros_messages/LqrControllerParamsService
+Generating Python from MSG amd_clmc_ros_messages/TaskFrame
+Generating C++ code from dbot_ros_msgs/RunObjectTracker.srv
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/utility.c.o
+Generating Python from MSG amd_clmc_ros_messages/IncreaseMaxFingerTorque
+Generating C++ code from amd_clmc_ros_messages/EnvironmentalObject.msg
+Generating Lisp code from task_recorder2_msgs/SetLastTrialIds.srv
+Generating Lisp code from amd_clmc_ros_messages/CalibrateForceTorqueSensor.msg
+Generating Python from MSG amd_clmc_ros_messages/OfflineLearningControl
+Generating Python from MSG amd_clmc_ros_messages/UpdateStrainGagesCalibrationStatus
+[ 52%] Generating Lisp code from amd_clmc_ros_messages/ChordEllipsoid.msg
+Generating C++ code from riemo_grasping_msgs/RenderGraspProblemService.srv
+Generating C++ code from amd_clmc_ros_messages/FingerJointEncoderOffsetsStatus.msg
+Generating Lisp code from amd_clmc_ros_messages/EndEffectorState.msg
+Generating Python from MSG amd_clmc_ros_messages/FingerJointEncoderOffsetsStatus
+Generating Lisp code from amd_clmc_ros_messages/OfflineDataStatus.msg
+Generating Python from MSG amd_clmc_ros_messages/BiotacData
+Generating Python from MSG task_recorder2_msgs/BinaryLabel
+Generating C++ code from amd_clmc_ros_messages/ObstaclePoints.msg
+Building C object catkin/ros/rgbd_capture/CMakeFiles/rgbd_capture.dir/src/rainbow.c.o
+Generating C++ code from amd_clmc_ros_messages/PressureSensors.msg
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLvision.dir/src/SL_vision_servo_unix.c.o
+Generating Lisp code from amd_clmc_ros_messages/TaskFrame.msg
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLsimulation.dir/src/SL_simulation_servo_unix.c.o
+Building CXX object catkin/ros/rgbd_capture/CMakeFiles/rgbd_capture.dir/src/kinect.cc.o
+Generating Lisp code from amd_clmc_ros_messages/LinearQuadraticRegulatorStatus.msg
+[ 52%] Generating Python from MSG amd_clmc_ros_messages/CartesianTrajectoryPoint
+Generating C++ code from amd_clmc_ros_messages/AccelerationFeedbackExperimentStatus.msg
+Generating C++ code from amd_clmc_ros_messages/AffinePolicy.msg
+Generating Lisp code from amd_clmc_ros_messages/SetPoses.srv
+Generating C++ code from amd_clmc_ros_messages/CalibrateAccelerometerSensor.msg
+Generating C++ code from amd_clmc_ros_messages/SwitchControllerStack.srv
+[ 52%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLvision.dir/src/SL_dbvision.c.o
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLcommon.dir/src/SL_filters.c.o
+Generating Python from MSG amd_clmc_ros_messages/TrajectoryStatus
+Building C object catkin/robots/catkin-apollo/tmp_catkin_apollo/CMakeFiles/apollo.dir/__/sl/src/SL_kinematics.c.o
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLcommon.dir/src/SL_shared_memory.c.o
+Generating Lisp code from riemo_grasping_msgs/UpdateGraspProblem.srv
+Generating Lisp code from amd_clmc_ros_messages/ObjectMass.msg
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/pythag.c.o
+Generating Lisp code from amd_clmc_ros_messages/Matrix32.msg
+Generating C++ code from amd_clmc_ros_messages/ChordEllipsoid.msg
+Generating Python from MSG amd_clmc_ros_messages/TrackingPose
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLtask.dir/src/SL_objects.c.o
+Generating C++ code from task_recorder2_msgs/Description.msg
+Generating Python code from SRV task_recorder2_msgs/DetectedEvents
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/kdtree.c.o
+[ 52%] [ 52%] Generating C++ code from amd_clmc_ros_messages/OfflineDataStatus.msg
+Generating C++ code from amd_clmc_ros_messages/StrainGauge.msg
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/hqr.c.o
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLmotor.dir/src/SL_motor_servo_unix.c.o
+Generating Lisp code from amd_clmc_ros_messages/DriftingControllerParamsService.srv
+Generating Python from MSG task_recorder2_msgs/AccumulatedTrialStatistics
+Scanning dependencies of target constrained_inverse_kinematics_generate_messages_lisp
+Generating Lisp code from amd_clmc_ros_messages/UpdateStrainGagesCalibration.msg
+Generating C++ code from ar_track_alvar/AlvarMarker.msg
+Generating C++ code from amd_clmc_ros_messages/ScaledLqr.msg
+Generating C++ code from task_recorder2_msgs/DataSampleLabel.msg
+[ 53%] Generating C++ code from amd_clmc_ros_messages/IncreaseMaxFingerTorque.msg
+Generating Python code from SRV amd_clmc_ros_messages/SwitchControllerStack
+Generating Lisp code from amd_clmc_ros_messages/Trajectory.msg
+Generating Python code from SRV task_recorder2_msgs/Accumulate
+Generating Python from MSG usc_utilities/AccumulatedTrialStatistics
+Generating Lisp code from amd_clmc_ros_messages/StrainGauge.msg
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLopenGL.dir/src/SL_openGL_oscilloscope.c.o
+Generating Lisp code from amd_clmc_ros_messages/NetworkLayer.msg
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLcommon.dir/src/SL_common.c.o
+Generating Lisp code from amd_clmc_ros_messages/OfflineParams.msg
+Generating Lisp code from amd_clmc_ros_messages/LinearQuadraticRegulatorParams.msg
+Generating Lisp code from amd_clmc_ros_messages/ViconData.msg
+Generating C++ code from amd_clmc_ros_messages/ControllerStatus.msg
+[ 54%] [ 54%] Generating Python from MSG amd_clmc_ros_messages/DriftingControllerDataStatus
+Generating C++ code from task_recorder2_msgs/BinaryLabel.msg
+Generating Lisp code from amd_clmc_ros_messages/GraspStatus.msg
+Generating Lisp code from amd_clmc_ros_messages/ResetBreakawayStatus.msg
+Generating C++ code from riemo_grasping_msgs/Preshape.msg
+Generating C++ code from amd_clmc_ros_messages/Preshape.msg
+Generating Python from MSG amd_clmc_ros_messages/ViconData
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLcommon.dir/src/SL_unix_common.c.o
+Generating Python from MSG amd_clmc_ros_messages/Gains
+Generating C++ code from amd_clmc_ros_messages/EndEffectorState.msg
+Generating Python code from SRV amd_clmc_ros_messages/SetObjectOri
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLvision.dir/src/SL_vision_servo.c.o
+Generating C++ code from amd_clmc_ros_messages/CartesianGains.msg
+Generating C++ code from task_recorder2_msgs/tfMessageStamped.msg
+Generating Python code from SRV apollo_verify_extrinsic_camera_calibration/VerifyCalibration
+Generating C++ code from amd_clmc_ros_messages/AvgPressureSensors.msg
+Generating Lisp code from amd_clmc_ros_messages/SwitchControllerStack.srv
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLtask.dir/src/SL_sine_task.c.o
+Generating C++ code from amd_clmc_ros_messages/GraspStatus.msg
+Generating Python from MSG amd_clmc_ros_messages/OnlineDataStatus
+Generating C++ code from amd_clmc_ros_messages/UpdateStrainGagesCalibration.msg
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLtask.dir/src/SL_traj_task.c.o
+Generating C++ code from amd_clmc_ros_messages/CalibrateBiotacSensorsStatus.msg
+Generating Python from MSG amd_clmc_ros_messages/OfflineDataStatus
+Generating C++ code from amd_clmc_ros_messages/Gains.msg
+Generating C++ code from amd_clmc_ros_messages/Acceleration.msg
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLsimulation.dir/src/SL_userSimulation.c.o
+Building C object catkin/robots/catkin-apollo/tmp_catkin_apollo/CMakeFiles/apollo.dir/src/SL_user_common.c.o
+Generating C++ code from amd_clmc_ros_messages/CalibrateForceTorqueSensor.msg
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLsimulation.dir/src/SL_integrate.c.o
+Generating Lisp code from amd_clmc_ros_messages/UpdateStrainGagesCalibrationStatus.msg
+Generating Lisp code from amd_clmc_ros_messages/KeyPointBodyApprox.msg
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLcommon.dir/src/SL_collect_data.c.o
+Generating Python from MSG amd_clmc_ros_messages/AffinePolicy
+Generating C++ code from task_recorder2_msgs/TaskRecorderSpecification.msg
+Generating Lisp code from amd_clmc_ros_messages/IncreaseMaxFingerTorque.msg
+Generating C++ code from amd_clmc_ros_messages/OfflineNetwork.msg
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLtask.dir/src/SL_tasks.c.o
+Generating Lisp code from amd_clmc_ros_messages/ObstaclePoints.msg
+Generating Lisp code from amd_clmc_ros_messages/Preshape.msg
+Generating C++ code from amd_clmc_ros_messages/ResetBreakaway.msg
+Generating Lisp code from amd_clmc_ros_messages/TrackingPose.msg
+Generating C++ code from amd_clmc_ros_messages/LqrControllerParamsService.srv
+Generating Lisp code from amd_clmc_ros_messages/FingerJointEncoderOffsetsStatus.msg
+Generating Lisp code from amd_clmc_ros_messages/Gains.msg
+[ 54%] Building C object catkin/robots/catkin-apollo/tmp_catkin_apollo/CMakeFiles/apollo.dir/__/sl/src/SL_dynamics.c.o
+Generating Python from MSG amd_clmc_ros_messages/FingerForceControlGains
+Generating C++ code from amd_clmc_ros_messages/CollectDataStatus.msg
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLtask.dir/src/SL_task_servo.c.o
+Generating C++ code from task_recorder2_msgs/SetLabel.srv
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLtask.dir/src/SL_go_cart_task.c.o
+Generating Python from MSG amd_clmc_ros_messages/LinearQuadraticRegulatorStatus
+Generating Lisp code from amd_clmc_ros_messages/ScaledLqr.msg
+Generating C++ code from amd_clmc_ros_messages/ViconData.msg
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLopenGL.dir/src/SL_objects.c.o
+Generating Lisp code from amd_clmc_ros_messages/OnlineDataStatus.msg
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLcommon.dir/src/SL_oscilloscope.c.o
+Generating Python from MSG amd_clmc_ros_messages/CollectData
+[ 54%] Generating C++ code from amd_clmc_ros_messages/SetObjectOri.srv
+Generating Python from MSG task_recorder2_msgs/Description
+Generating C++ code from task_recorder2_msgs/AccumulatedTrialStatistics.msg
+Generating C++ code from task_recorder2_msgs/Accumulate.srv
+Generating C++ code from amd_clmc_ros_messages/CalibrateAccelerometerSensorStatus.msg
+Building CXX object catkin/robots/catkin-apollo/tmp_catkin_apollo/CMakeFiles/apollo.dir/__/sl/src/SL_invDynNE.cpp.o
+Generating Python code from SRV amd_clmc_ros_messages/SetPoses
+Generating C++ code from amd_clmc_ros_messages/CalibrateForceTorqueSensorStatus.msg
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLtask.dir/src/SL_goto_task.c.o
+Generating C++ code from amd_clmc_ros_messages/TrackingPose.msg
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLcommon.dir/src/SL_man.c.o
+Generating Lisp code from amd_clmc_ros_messages/QueryControllerStatus.srv
+Generating Lisp code from amd_clmc_ros_messages/CartesianTrajectoryPoint.msg
+Generating Python from MSG amd_clmc_ros_messages/TrajectoryPoint
+Generating C++ code from amd_clmc_ros_messages/UpdateStrainGagesCalibrationStatus.msg
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLopenGL.dir/src/SL_openGL_servo.c.o
+Building CXX object catkin/robots/catkin-apollo/tmp_catkin_apollo/CMakeFiles/apollo.dir/__/sl/src/SL_invDynArt.cpp.o
+Generating Python from MSG amd_clmc_ros_messages/StrainGauge
+[ 55%] Generating Lisp code from amd_clmc_ros_messages/ExperimentGeneratorParamsService.srv
+Generating C++ code from amd_clmc_ros_messages/OfflineLearningControlService.srv
+[ 55%] Generating Lisp code from amd_clmc_ros_messages/OfflineNetwork.msg
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLopenGL.dir/src/SL_userGraphics.c.o
+Generating C++ code from amd_clmc_ros_messages/CalibrateBiotacSensors.msg
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLcommon.dir/src/SL_vx2unix_wrappers.c.o
+Generating Lisp code from amd_clmc_ros_messages/PressureSensors.msg
+Generating Lisp code from amd_clmc_ros_messages/ResetBreakaway.msg
+Building CXX object catkin/robots/catkin-apollo/tmp_catkin_apollo/CMakeFiles/apollo.dir/__/sl/src/SL_forDynComp.cpp.o
+Generating Lisp code from amd_clmc_ros_messages/SetObjectOri.srv
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLopenGL.dir/src/SL_openGL_servo_unix.c.o
+Generating Lisp code from amd_clmc_ros_messages/OfflineParamsService.srv
+Building C object catkin/robots/catkin-apollo/tmp_catkin_apollo/CMakeFiles/apollo.dir/src/SL_user_commands.c.o
+Generating Python from MSG amd_clmc_ros_messages/CalibrateForceTorqueSensor
+Generating C++ code from amd_clmc_ros_messages/ObjectMass.msg
+Generating C++ code from amd_clmc_ros_messages/LqrControllerDataStatus.msg
+Generating Lisp code from amd_clmc_ros_messages/Acceleration.msg
+Generating Python from MSG amd_clmc_ros_messages/ChordEllipsoid
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/balanc.c.o
+Generating Lisp code from amd_clmc_ros_messages/AvgPressureSensors.msg
+Generating Lisp code from amd_clmc_ros_messages/TrajectoryPoint.msg
+Generating C++ code from amd_clmc_ros_messages/Imu.msg
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLtask.dir/src/SL_task_servo_unix.c.o
+Generating Lisp code from ar_track_alvar/AlvarMarkers.msg
+Generating Python from MSG amd_clmc_ros_messages/LqrControllerDataStatus
+Generating Python from MSG amd_clmc_ros_messages/LqrControllerParams
+Generating Python from MSG ar_track_alvar/AlvarMarker
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLsimulation.dir/src/SL_objects.c.o
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLcommon.dir/src/SL_terrains.c.o
+Generating Python from MSG amd_clmc_ros_messages/OfflineParams
+Generating Lisp code from amd_clmc_ros_messages/LqrControllerParamsService.srv
+Generating C++ code from amd_clmc_ros_messages/CartesianTrajectoryPoint.msg
+Building CXX object catkin/robots/catkin-apollo/tmp_catkin_apollo/CMakeFiles/apollo.dir/__/sl/src/SL_forDynArt.cpp.o
+Generating Python from MSG amd_clmc_ros_messages/CalibrateForceTorqueSensorStatus
+Generating Python from MSG amd_clmc_ros_messages/NetworkLayer
+[ 55%] Generating Python from MSG amd_clmc_ros_messages/ScaledLqr
+Generating Lisp code from usc_utilities/AccumulatedTrialStatistics.msg
+[ 55%] Generating Lisp code from amd_clmc_ros_messages/FingerForceControlGains.msg
+Generating Lisp code from amd_clmc_ros_messages/CollectDataStatus.msg
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLsimulation.dir/src/SL_simulation_servo.c.o
+Generating Python from MSG ar_track_alvar/AlvarMarkers
+Building CXX object catkin/ros/roscpp_utilities/CMakeFiles/roscpp_utilities.dir/src/param_server.cpp.o
+[ 55%] Generating Python from MSG amd_clmc_ros_messages/Acceleration
+Generating Python from MSG constrained_inverse_kinematics/InverseKinematicsRequest
+Generating C++ code from constrained_inverse_kinematics/InverseKinematicsRequest.msg
+Generating Lisp code from ar_track_alvar/AlvarMarker.msg
+Scanning dependencies of target medianFilter
+Scanning dependencies of target robot_state_pub_solver
+Generating Lisp code from constrained_inverse_kinematics/InverseKinematicsRequest.msg
+Linking C shared library /home/amd_clmc/team/workspace/devel/lib/libapollo_task.so
+Scanning dependencies of target opi
+[ 55%] Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libquadprog.so
+Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/medianFilter.dir/src/medianFilter.cpp.o
+[ 55%] [ 55%] Linking C shared library /home/amd_clmc/team/workspace/devel/lib/libapollo_openGL.so
+Building CXX object catkin/ros/robot_state_pub/CMakeFiles/robot_state_pub_solver.dir/src/robot_state_publisher.cpp.o
+Building CXX object catkin/ros/robot_state_pub/CMakeFiles/robot_state_pub_solver.dir/src/treefksolverposfull_recursive.cpp.o
+Linking C shared library /home/amd_clmc/team/workspace/devel/lib/libapollo_simulation.so
+Linking C shared library /home/amd_clmc/team/workspace/devel/lib/libutility.so
+[ 55%] Linking C shared library /home/amd_clmc/team/workspace/devel/lib/libSLvision.so
+[ 55%] [ 55%] Generating Python msg __init__.py for usc_utilities
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libqp_oases.so
+Building CXX object catkin/core-perception/opi/CMakeFiles/opi.dir/src/interactive_marker_initializer.cpp.o
+Linking C shared library /home/amd_clmc/team/workspace/devel/lib/libSLtask.so
+Linking C shared library /home/amd_clmc/team/workspace/devel/lib/libSLmotor.so
+[ 55%] Built target apollo_verify_extrinsic_camera_calibration_generate_messages_lisp
+Generating Python srv __init__.py for apollo_verify_extrinsic_camera_calibration
+[ 55%] Built target constrained_inverse_kinematics_generate_messages_lisp
+Linking C shared library /home/amd_clmc/team/workspace/devel/lib/libSLcommon.so
+Linking C shared library /home/amd_clmc/team/workspace/devel/lib/libSLsimulation.so
+Linking C shared library /home/amd_clmc/team/workspace/devel/lib/libSLopenGL.so
+[ 55%] Built target apollo_verify_extrinsic_camera_calibration_generate_messages_cpp
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libsample_task_cpp.so
+[ 55%] [ 55%] [ 55%] Built target apollo_task
+[ 55%] Generating Python msg __init__.py for dbot_ros_msgs
+[ 55%] Generating Python msg __init__.py for riemo_grasping_msgs
+Scanning dependencies of target kinect_filtering
+[ 55%] Built target dbot_ros_msgs_generate_messages_lisp
+Scanning dependencies of target geometry_utils
+Generating Python srv __init__.py for dbot_ros_msgs
+[ 55%] Generating Python srv __init__.py for riemo_grasping_msgs
+Built target ar_track_alvar_generate_messages_cpp
+[ 55%] Built target task_recorder2_msgs_generate_messages_lisp
+[ 55%] [ 55%] [ 56%] [ 56%] [ 56%] Built target constrained_inverse_kinematics_generate_messages_cpp
+Built target quadprog
+[ 56%] Built target riemo_grasping_msgs_generate_messages_cpp
+[ 56%] Built target ar_track_alvar_generate_messages_lisp
+[ 56%] Built target usc_utilities_generate_messages_lisp
+[ 56%] Generating Python msg __init__.py for task_recorder2_msgs
+Scanning dependencies of target ar_track_alvar_gencpp
+Generating Python msg __init__.py for amd_clmc_ros_messages
+Generating Python srv __init__.py for task_recorder2_msgs
+[ 56%] [ 56%] Scanning dependencies of target apollo_extrinsic_camera_calibration_generate_messages_lisp
+Built target dbot_ros_msgs_generate_messages_cpp
+Scanning dependencies of target apollo_extrinsic_camera_calibration_generate_messages_cpp
+[ 56%] Generating Python srv __init__.py for amd_clmc_ros_messages
+[ 56%] [ 56%] Built target usc_utilities_generate_messages_cpp
+[ 56%] [ 56%] Built target apollo_openGL
+Built target ar_track_alvar_gencpp
+[ 56%] [ 56%] Built target riemo_grasping_msgs_generate_messages_lisp
+Built target amd_clmc_ros_messages_generate_messages_lisp
+Generating Python msg __init__.py for constrained_inverse_kinematics
+[ 56%] Generating Lisp code from apollo_extrinsic_camera_calibration/MarkerFrame3d.msg
+[ 56%] [ 56%] [ 56%] [ 56%] [ 56%] Built target SLmotor
+Built target SLvision
+Built target qp_oases
+Generating Python msg __init__.py for ar_track_alvar
+Generating C++ code from apollo_extrinsic_camera_calibration/MarkerFrame3d.msg
+[ 56%] Built target SLtask
+[ 56%] Generating Lisp code from apollo_extrinsic_camera_calibration/RecordCalibrationData.srv
+Generating C++ code from apollo_extrinsic_camera_calibration/RecordCalibrationData.srv
+[ 56%] [ 56%] Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/kinect_filtering.dir/src/kinect_filtering.cpp.o
+Built target apollo_simulation
+[ 56%] [ 56%] [ 56%] [ 56%] Built target SLcommon
+Building CXX object catkin/utils/robot_math/CMakeFiles/geometry_utils.dir/src/geometry_utils/Transformations.cpp.o
+Building CXX object catkin/utils/robot_math/CMakeFiles/geometry_utils.dir/src/geometry_utils/RotationMatrix.cpp.o
+Building CXX object catkin/utils/robot_math/CMakeFiles/geometry_utils.dir/src/geometry_utils/Quaternion.cpp.o
+[ 56%] Built target task_recorder2_msgs_generate_messages_cpp
+Building CXX object catkin/utils/robot_math/CMakeFiles/geometry_utils.dir/src/geometry_utils/AffineTransformation.cpp.o
+[ 56%] Built target usc_utilities_generate_messages_py
+[ 56%] Built target SLopenGL
+Scanning dependencies of target usc_utilities_generate_messages
+[ 56%] [ 56%] Built target sample_task_cpp
+Built target utility
+[ 56%] Built target SLsimulation
+[ 56%] Built target usc_utilities_generate_messages
+Scanning dependencies of target xascii2clmcplot
+Scanning dependencies of target xlwpr
+Scanning dependencies of target lwpr
+Scanning dependencies of target xlwprstat
+[ 56%] Built target amd_clmc_ros_messages_generate_messages_cpp
+[ 56%] [ 56%] Scanning dependencies of target xapollo
+[ 56%] [ 56%] [ 56%] Built target apollo_verify_extrinsic_camera_calibration_generate_messages_py
+[ 56%] [ 56%] [ 57%] Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/xlwpr.dir/src/lwpr.c.o
+Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/xascii2clmcplot.dir/src/ascii2mrdplot.c.o
+[ 57%] [ 57%] [ 57%] [ 57%] [ 57%] [ 59%] Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/xlwpr.dir/src/lwpr_test.c.o
+Building C object catkin/robots/catkin-apollo/tmp_catkin_apollo/CMakeFiles/xapollo.dir/src/SL_main.c.o
+Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/lwpr.dir/src/lwpr_script.c.o
+Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/xlwprstat.dir/src/lwpr_script.c.o
+Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/xlwprstat.dir/src/lwpr.c.o
+Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/xlwprstat.dir/src/lwpr_main.c.o
+Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/lwpr.dir/src/lwpr.c.o
+Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/xlwprstat.dir/src/lwpr_stat.c.o
+Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/xlwpr.dir/src/lwpr_main.c.o
+Scanning dependencies of target apollo_verify_extrinsic_camera_calibration_generate_messages
+Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/xlwpr.dir/src/lwpr_script.c.o
+[ 59%] Built target riemo_grasping_msgs_generate_messages_py
+Building C object catkin/robots/catkin-apollo/tmp_catkin_apollo/CMakeFiles/xapollo.dir/src/SL_user_common.c.o
+Scanning dependencies of target xpest
+[ 59%] Built target amd_clmc_ros_messages_generate_messages_py
+[ 59%] Built target apollo_verify_extrinsic_camera_calibration_generate_messages
+Scanning dependencies of target xmotor
+[ 59%] Built target dbot_ros_msgs_generate_messages_py
+[ 60%] Scanning dependencies of target riemo_grasping_msgs_generate_messages
+[ 60%] Scanning dependencies of target amd_clmc_ros_messages_generate_messages
+[ 60%] [ 60%] [ 60%] [ 60%] [ 60%] [ 60%] [ 60%] [ 60%] [ 60%] [ 60%] Building C object catkin/robots/catkin-apollo/tmp_catkin_apollo/CMakeFiles/xpest.dir/__/sl/src/SL_parm_estimate.c.o
+[ 60%] Building C object catkin/robots/catkin-apollo/tmp_catkin_apollo/CMakeFiles/xpest.dir/src/SL_user_common.c.o
+Building CXX object catkin/robots/catkin-apollo/tmp_catkin_apollo/CMakeFiles/xpest.dir/__/sl/src/SL_invDynNE.cpp.o
+[ 60%] [ 60%] Building CXX object catkin/robots/catkin-apollo/tmp_catkin_apollo/CMakeFiles/xpest.dir/__/sl/src/SL_forDynComp.cpp.o
+[ 60%] [ 60%] [ 61%] Built target riemo_grasping_msgs_generate_messages
+Scanning dependencies of target dbot_ros_msgs_generate_messages
+Building CXX object catkin/robots/catkin-apollo/tmp_catkin_apollo/CMakeFiles/xpest.dir/__/sl/src/SL_invDynArt.cpp.o
+Building CXX object catkin/robots/catkin-apollo/tmp_catkin_apollo/CMakeFiles/xpest.dir/__/sl/src/SL_forDynArt.cpp.o
+Building CXX object catkin/robots/catkin-apollo/tmp_catkin_apollo/CMakeFiles/xmotor.dir/__/sl/src/SL_forDynComp.cpp.o
+[ 61%] Building C object catkin/robots/catkin-apollo/tmp_catkin_apollo/CMakeFiles/xmotor.dir/__/sl/src/SL_kinematics.c.o
+[ 61%] Building C object catkin/robots/catkin-apollo/tmp_catkin_apollo/CMakeFiles/xmotor.dir/src/SL_user_common.c.o
+Building C object catkin/robots/catkin-apollo/tmp_catkin_apollo/CMakeFiles/xmotor.dir/src/SL_user_sensor_proc_unix.c.o
+Building C object catkin/robots/catkin-apollo/tmp_catkin_apollo/CMakeFiles/xpest.dir/src/SL_user_commands.c.o
+Building CXX object catkin/robots/catkin-apollo/tmp_catkin_apollo/CMakeFiles/xmotor.dir/__/sl/src/SL_forDynArt.cpp.o
+Building C object catkin/robots/catkin-apollo/tmp_catkin_apollo/CMakeFiles/xmotor.dir/src/SL_user_commands.c.o
+Building C object catkin/robots/catkin-apollo/tmp_catkin_apollo/CMakeFiles/xmotor.dir/__/sl/src/SL_dynamics.c.o
+[ 61%] Built target amd_clmc_ros_messages_generate_messages
+Building C object catkin/robots/catkin-apollo/tmp_catkin_apollo/CMakeFiles/xpest.dir/__/sl/src/SL_dynamics.c.o
+[ 61%] Built target ar_track_alvar_generate_messages_py
+Building CXX object catkin/robots/catkin-apollo/tmp_catkin_apollo/CMakeFiles/xmotor.dir/__/sl/src/SL_invDynNE.cpp.o
+Building CXX object catkin/robots/catkin-apollo/tmp_catkin_apollo/CMakeFiles/xmotor.dir/__/sl/src/SL_invDynArt.cpp.o
+Building C object catkin/robots/catkin-apollo/tmp_catkin_apollo/CMakeFiles/xmotor.dir/src/SL_user_motor.c.o
+[ 61%] Built target dbot_ros_msgs_generate_messages
+[ 61%] Built target apollo_extrinsic_camera_calibration_generate_messages_lisp
+Building C object catkin/robots/catkin-apollo/tmp_catkin_apollo/CMakeFiles/xpest.dir/__/sl/src/SL_kinematics.c.o
+Scanning dependencies of target ar_track_alvar_generate_messages
+[ 61%] Built target constrained_inverse_kinematics_generate_messages_py
+Linking C executable xascii2clmcplot
+[ 61%] Scanning dependencies of target apollo_extrinsic_camera_calibration_generate_messages_py
+Built target task_recorder2_msgs_generate_messages_py
+[ 61%] Built target ar_track_alvar_generate_messages
+Scanning dependencies of target constrained_inverse_kinematics_generate_messages
+[ 61%] Built target apollo_extrinsic_camera_calibration_generate_messages_cpp
+[ 61%] Built target constrained_inverse_kinematics_generate_messages
+[ 61%] [ 61%] Generating Python from MSG apollo_extrinsic_camera_calibration/MarkerFrame3d
+Scanning dependencies of target task_recorder2_msgs_generate_messages
+Scanning dependencies of target apollo_extrinsic_camera_calibration_gencpp
+Generating Python code from SRV apollo_extrinsic_camera_calibration/RecordCalibrationData
+[ 61%] [ 61%] Built target task_recorder2_msgs_generate_messages
+Built target apollo_extrinsic_camera_calibration_gencpp
+Linking C executable xapollo
+Scanning dependencies of target apollo_verify_extrinsic_camera_calibration
+[ 61%] Scanning dependencies of target dbot
+[ 61%] [ 62%] Generating Python msg __init__.py for apollo_extrinsic_camera_calibration
+Building CXX object catkin/calibration/apollo_verify_extrinsic_camera_calibration/CMakeFiles/apollo_verify_extrinsic_camera_calibration.dir/src/point_cloud_processor.cpp.o
+[ 62%] [ 62%] Built target xascii2clmcplot
+Generating Python srv __init__.py for apollo_extrinsic_camera_calibration
+[ 62%] Linking C executable xlwprstat
+Building CXX object catkin/calibration/apollo_verify_extrinsic_camera_calibration/CMakeFiles/apollo_verify_extrinsic_camera_calibration.dir/src/marker_generator.cpp.o
+[ 62%] [ 63%] [ 63%] [ 63%] [ 63%] [ 63%] [ 63%] Linking C shared library /home/amd_clmc/team/workspace/devel/lib/liblwpr.so
+Building CXX object catkin/core-perception/dbot/CMakeFiles/dbot.dir/src/dbot/util/object_model.cpp.o
+Building CXX object catkin/core-perception/dbot/CMakeFiles/dbot.dir/src/dbot/util/camera_data.cpp.o
+Linking C executable xlwpr
+[ 63%] Building CXX object catkin/core-perception/dbot/CMakeFiles/dbot.dir/src/dbot/util/simple_wavefront_object_loader.cpp.o
+Building CXX object catkin/core-perception/dbot/CMakeFiles/dbot.dir/src/dbot/util/object_file_reader.cpp.o
+Building CXX object catkin/core-perception/dbot/CMakeFiles/dbot.dir/src/dbot/util/rigid_body_renderer.cpp.o
+[ 63%] Building CXX object catkin/core-perception/dbot/CMakeFiles/dbot.dir/src/dbot/util/simple_shader_provider.cpp.o
+Building CXX object catkin/core-perception/dbot/CMakeFiles/dbot.dir/src/dbot/util/simple_camera_data_provider.cpp.o
+[ 63%] Building CXX object catkin/core-perception/dbot/CMakeFiles/dbot.dir/src/dbot/util/virtual_camera_data_provider.cpp.o
+Building CXX object catkin/core-perception/dbot/CMakeFiles/dbot.dir/src/dbot/util/object_resource_identifier.cpp.o
+[ 64%] [ 64%] [ 64%] Built target xapollo
+Building CXX object catkin/core-perception/dbot/CMakeFiles/dbot.dir/src/dbot/tracker/object_tracker.cpp.o
+Building CXX object catkin/core-perception/dbot/CMakeFiles/dbot.dir/src/dbot/util/file_shader_provider.cpp.o
+[ 64%] Building CXX object catkin/core-perception/dbot/CMakeFiles/dbot.dir/src/dbot/tracker/rbc_particle_filter_object_tracker.cpp.o
+[ 64%] Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libmedianFilter.so
+Building CXX object catkin/core-perception/dbot/CMakeFiles/dbot.dir/src/dbot/util/default_shader_provider.cpp.o
+[ 64%] [ 64%] Building CXX object catkin/core-perception/dbot/CMakeFiles/dbot.dir/src/dbot/tracker/builder/rbc_particle_filter_tracker_builder.cpp.o
+Building CXX object catkin/core-perception/dbot/CMakeFiles/dbot.dir/src/dbot/tracker/builder/rms_gaussian_filter_tracker_builder.cpp.o
+Building CXX object catkin/core-perception/dbot/CMakeFiles/dbot.dir/src/dbot/tracker/rms_gaussian_filter_object_tracker.cpp.o
+Building CXX object catkin/core-perception/dbot/CMakeFiles/dbot.dir/src/dbot/tracker/builder/rb_observation_model_builder.cpp.o
+[ 64%] Built target lwpr
+[ 64%] Built target apollo_extrinsic_camera_calibration_generate_messages_py
+Scanning dependencies of target apollo_extrinsic_camera_calibration_generate_messages
+Scanning dependencies of target sl_ros_servo
+[ 64%] [ 65%] Built target apollo_extrinsic_camera_calibration_generate_messages
+[ 65%] [ 65%] Building CXX object catkin/ros/sl_ros_servo/CMakeFiles/sl_ros_servo.dir/src/SL_ros_servo.cpp.o
+Building CXX object catkin/ros/sl_ros_servo/CMakeFiles/sl_ros_servo.dir/src/SL_ros_communicator.cpp.o
+Building CXX object catkin/ros/sl_ros_servo/CMakeFiles/sl_ros_servo.dir/src/SL_ros_servo_unix.cpp.o
+[ 65%] Built target xlwprstat
+[ 65%] Built target xlwpr
+[ 65%] Built target medianFilter
+Linking CXX shared library libgtest.so
+[ 65%] Built target gtest
+Scanning dependencies of target gtest_main
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/liblockfree.so
+[ 65%] Building CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+Scanning dependencies of target ar_track_alvar
+[ 65%] Built target lockfree
+[ 65%] [ 65%] [ 65%] Scanning dependencies of target rosrt
+Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Pose.cpp.o
+[ 65%] [ 65%] Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Camera.cpp.o
+[ 65%] [ 65%] [ 67%] [ 67%] [ 67%] [ 67%] [ 67%] [ 67%] [ 67%] [ 67%] [ 67%] Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CaptureFactory_unix.cpp.o
+Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CaptureDevice.cpp.o
+[ 67%] Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CaptureFactory.cpp.o
+Building CXX object catkin/ros/ros_realtime/rosrt/CMakeFiles/rosrt.dir/src/init.cpp.o
+[ 67%] [ 67%] Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Threads.cpp.o
+Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Rotation.cpp.o
+[ 67%] Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Bitset.cpp.o
+Building CXX object catkin/ros/ros_realtime/rosrt/CMakeFiles/rosrt.dir/src/malloc.cpp.o
+Building CXX object catkin/ros/ros_realtime/rosrt/CMakeFiles/rosrt.dir/src/subscriber.cpp.o
+[ 67%] Building CXX object catkin/ros/ros_realtime/rosrt/CMakeFiles/rosrt.dir/src/publisher.cpp.o
+[ 67%] [ 67%] [ 67%] Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CvTestbed.cpp.o
+Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Threads_unix.cpp.o
+[ 67%] Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MarkerDetector.cpp.o
+Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Marker.cpp.o
+[ 67%] [ 68%] [ 68%] [ 69%] Building CXX object catkin/ros/ros_realtime/rosrt/CMakeFiles/rosrt.dir/src/simple_gc.cpp.o
+Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/FileFormatUtils.cpp.o
+[ 69%] [ 69%] [ 69%] [ 69%] Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Line.cpp.o
+[ 69%] [ 69%] Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Mutex.cpp.o
+Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/ConnectedComponents.cpp.o
+Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Plugin.cpp.o
+Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Util.cpp.o
+Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MultiMarker.cpp.o
+Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator_unix.cpp.o
+Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Plugin_unix.cpp.o
+Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Optimization.cpp.o
+Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Kalman.cpp.o
+Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MultiMarkerInitializer.cpp.o
+Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Draw.cpp.o
+Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Mutex_unix.cpp.o
+Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MultiMarkerBundle.cpp.o
+Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/kinect_filtering.cpp.o
+Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator.cpp.o
+Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Filter.cpp.o
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/conversions/test_conversions
+Linking CXX shared library libgtest_main.so
+[ 69%] Built target test_conversions
+[ 69%] Built target gtest_main
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libgeometry_utils.so
+Scanning dependencies of target euler_vector_test
+Scanning dependencies of target pose_velocity_vector_test
+Scanning dependencies of target composed_vector_test
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libapollo.so
+Scanning dependencies of target pose_vector_test
+[ 69%] [ 69%] [ 69%] Built target geometry_utils
+Building CXX object catkin/utils/osr/test/CMakeFiles/euler_vector_test.dir/euler_vector_test.cpp.o
+Building CXX object catkin/utils/osr/test/CMakeFiles/pose_velocity_vector_test.dir/pose_velocity_vector_test.cpp.o
+[ 69%] [ 69%] Building CXX object catkin/utils/osr/test/CMakeFiles/composed_vector_test.dir/composed_vector_test.cpp.o
+Building CXX object catkin/utils/osr/test/CMakeFiles/pose_vector_test.dir/pose_vector_test.cpp.o
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libroscpp_utilities.so
+Scanning dependencies of target amd_clmc_log
+[ 69%] Built target apollo
+Scanning dependencies of target xopengl_apollo
+Scanning dependencies of target sample_task
+[ 69%] [ 69%] Scanning dependencies of target fc_task
+[ 69%] Scanning dependencies of target apollo_safe
+Scanning dependencies of target xsimulation_apollo
+Scanning dependencies of target apollo_test_task
+Building C object catkin/robots/catkin-apolloUser/tmp_catkin_apollo_user/CMakeFiles/sample_task.dir/src/sample_task.c.o
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/librobot_state_pub_solver.so
+Building C object catkin/robots/catkin-apolloUser/tmp_catkin_apollo_user/CMakeFiles/xopengl_apollo.dir/src/initUserGraphics.c.o
+Building CXX object catkin/utils/amd_clmc_log/CMakeFiles/amd_clmc_log.dir/src/amd_clmc_logger.cpp.o
+[ 69%] [ 69%] Building C object catkin/robots/catkin-apolloUser/tmp_catkin_apollo_user/CMakeFiles/fc_task.dir/src/fc_task.c.o
+[ 69%] Building CXX object catkin/robots/catkin_sl_apollo_safe/CMakeFiles/apollo_safe.dir/src/apollo_safe.cpp.o
+[ 69%] Building CXX object catkin/robots/catkin-sl-apollo-task-example/CMakeFiles/apollo_test_task.dir/src/apollo_test_task.cpp.o
+Building C object catkin/robots/catkin-apolloUser/tmp_catkin_apollo_user/CMakeFiles/xsimulation_apollo.dir/src/initUserSimulation.c.o
+/home/amd_clmc/team/workspace/src/cmake/apolloUser/src/initUserGraphics.c: In function 'display_pole':
+/home/amd_clmc/team/workspace/src/cmake/apolloUser/src/initUserGraphics.c:89:5: warning: implicit declaration of function 'memcpy' [-Wimplicit-function-declaration]
+/home/amd_clmc/team/workspace/src/cmake/apolloUser/src/initUserGraphics.c:89:5: warning: incompatible implicit declaration of built-in function 'memcpy' [enabled by default]
+[ 69%] Built target roscpp_utilities
+Linking C executable /home/amd_clmc/team/workspace/devel/lib/apollo_user/xopengl
+Linking C shared library /home/amd_clmc/team/workspace/devel/lib/libsample_task.so
+Linking C executable /home/amd_clmc/team/workspace/devel/lib/apollo_user/xsimulation
+/home/amd_clmc/team/workspace/src/catkin/robots/catkin_sl_apollo_safe/src/apollo_safe.cpp: In function 'int run_apollo_safe()':
+/home/amd_clmc/team/workspace/src/catkin/robots/catkin_sl_apollo_safe/src/apollo_safe.cpp:221:26: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+/home/amd_clmc/team/workspace/src/catkin/robots/catkin_sl_apollo_safe/src/apollo_safe.cpp:231:26: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+/home/amd_clmc/team/workspace/src/catkin/robots/catkin_sl_apollo_safe/src/apollo_safe.cpp: In function 'int go(int)':
+/home/amd_clmc/team/workspace/src/catkin/robots/catkin_sl_apollo_safe/src/apollo_safe.cpp:311:35: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+Linking C shared library /home/amd_clmc/team/workspace/devel/lib/libfc_task.so
+[ 69%] Built target robot_state_pub_solver
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libapollo_safe.so
+Scanning dependencies of target usc_utilities
+Scanning dependencies of target state_publisher
+Scanning dependencies of target robot_state_pub
+[ 69%] Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libapollo_test_task.so
+[ 69%] [ 69%] Building CXX object catkin/ros/robot_state_pub/CMakeFiles/robot_state_pub.dir/src/joint_state_listener.cpp.o
+Building CXX object catkin/ros/robot_state_pub/CMakeFiles/state_publisher.dir/src/joint_state_listener.cpp.o
+Building CXX object catkin/ros/usc-clmc-catkin-pkg/usc_utils/usc_utilities/CMakeFiles/usc_utilities.dir/src/accumulator.o
+[ 69%] [ 69%] Building CXX object catkin/ros/usc-clmc-catkin-pkg/usc_utils/usc_utilities/CMakeFiles/usc_utilities.dir/src/kdl_chain_wrapper.o
+[ 70%] Building CXX object catkin/ros/usc-clmc-catkin-pkg/usc_utils/usc_utilities/CMakeFiles/usc_utilities.dir/src/rviz_marker_manager.o
+[ 70%] Building CXX object catkin/ros/usc-clmc-catkin-pkg/usc_utils/usc_utilities/CMakeFiles/usc_utilities.dir/src/sl_config_file_handler.o
+Building CXX object catkin/ros/usc-clmc-catkin-pkg/usc_utils/usc_utilities/CMakeFiles/usc_utilities.dir/src/rviz_publisher.o
+Linking CXX executable xpest
+[ 70%] Built target sample_task
+[ 70%] Built target fc_task
+[ 70%] Built target xopengl_apollo
+[ 70%] Built target xsimulation_apollo
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libsl_ros_servo.so
+[ 70%] Built target apollo_safe
+[ 70%] Built target apollo_test_task
+Linking CXX executable xmotor
+[ 70%] Built target xpest
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libamd_clmc_log.so
+[ 70%] Built target sl_ros_servo
+[ 70%] Built target xmotor
+[ 70%] Built target amd_clmc_log
+Scanning dependencies of target visual_servoing_mini
+Scanning dependencies of target xros_apollo
+[ 70%] [ 70%] [ 70%] [ 70%] [ 70%] [ 70%] [ 70%] [ 71%] [ 71%] [ 71%] [ 71%] Building CXX object catkin/ros/ros_servo_apollo/CMakeFiles/xros_apollo.dir/src/ros/SL_tf_publisher.cpp.o
+Building C object catkin/ros/ros_servo_apollo/CMakeFiles/xros_apollo.dir/__/__/__/cmake/apollo/src/SL_user_commands.c.o
+[ 71%] Building CXX object catkin/ros/ros_servo_apollo/CMakeFiles/xros_apollo.dir/src/ros/SL_joint_state_publisher.cpp.o
+Building C object catkin/ros/ros_servo_apollo/CMakeFiles/xros_apollo.dir/__/__/__/cmake/apollo/src/SL_user_common.c.o
+Building CXX object catkin/ros/ros_servo_apollo/CMakeFiles/xros_apollo.dir/src/SL_user_ros.cpp.o
+Building CXX object catkin/ros/ros_servo_apollo/CMakeFiles/xros_apollo.dir/src/ros/SL_misc_sensor_publisher.cpp.o
+Building CXX object catkin/ros/ros_servo_apollo/CMakeFiles/xros_apollo.dir/src/ros/SL_end_effector_state_publisher.cpp.o
+Building C object catkin/ros/ros_servo_apollo/CMakeFiles/xros_apollo.dir/__/__/__/cmake/sl/src/SL_kinematics.c.o
+Building CXX object catkin/manipulation/visual_servoing/CMakeFiles/visual_servoing_mini.dir/src/visual_servoing.cpp.o
+Building C object catkin/ros/ros_servo_apollo/CMakeFiles/xros_apollo.dir/__/__/__/cmake/sl/src/SL_dynamics.c.o
+Building CXX object catkin/ros/ros_servo_apollo/CMakeFiles/xros_apollo.dir/__/__/__/cmake/sl/src/SL_invDynArt.cpp.o
+Building CXX object catkin/ros/ros_servo_apollo/CMakeFiles/xros_apollo.dir/__/__/__/cmake/sl/src/SL_invDynNE.cpp.o
+[ 71%] [ 71%] Building CXX object catkin/ros/ros_servo_apollo/CMakeFiles/xros_apollo.dir/__/__/__/cmake/sl/src/SL_forDynArt.cpp.o
+Building CXX object catkin/ros/ros_servo_apollo/CMakeFiles/xros_apollo.dir/__/__/__/cmake/sl/src/SL_forDynComp.cpp.o
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/osr/euler_vector_test
+[ 71%] Built target euler_vector_test
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/librosrt.so
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/librgbd_capture.so
+[ 71%] Built target rosrt
+Scanning dependencies of target ros_rt_test_publisher
+Scanning dependencies of target ros_rt_test_subscriber
+[ 71%] [ 71%] Building CXX object catkin/ros/ros_rt_basic_example/CMakeFiles/ros_rt_test_publisher.dir/src/ros_rt_test_publisher.cpp.o
+Scanning dependencies of target apollo_sl_interface
+Building CXX object catkin/ros/ros_rt_basic_example/CMakeFiles/ros_rt_test_subscriber.dir/src/ros_rt_test_subscriber.cpp.o
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libopi.so
+[ 71%] Built target rgbd_capture
+[ 71%] Building CXX object catkin/robots/apollo-sl-interface/CMakeFiles/apollo_sl_interface.dir/src/apollo_sl_interface.cpp.o
+Scanning dependencies of target fake_node
+Scanning dependencies of target test_capture
+Scanning dependencies of target rgbd_capture_node
+Scanning dependencies of target test_timing
+[ 71%] [ 71%] [ 71%] [ 71%] [ 72%] Built target opi
+Building CXX object catkin/ros/rgbd_capture/CMakeFiles/test_capture.dir/src/capture-test_cv2.cc.o
+Building CXX object catkin/ros/rgbd_capture/CMakeFiles/fake_node.dir/src/fake_node.cpp.o
+Building CXX object catkin/ros/rgbd_capture/CMakeFiles/test_timing.dir/src/timing_test.cc.o
+Scanning dependencies of target sl_utilities
+Building CXX object catkin/ros/rgbd_capture/CMakeFiles/rgbd_capture_node.dir/src/rgbd_capture_node.cpp.o
+Scanning dependencies of target riemo_rt
+[ 72%] [ 72%] [ 72%] [ 72%] [ 72%] Building CXX object catkin/controller_manager/core-sl-ros/sl_utilities/CMakeFiles/sl_utilities.dir/src/joint_name_map.cpp.o
+Building CXX object catkin/controller_manager/core-sl-ros/sl_utilities/CMakeFiles/sl_utilities.dir/src/frame_utilities.cpp.o
+Building CXX object catkin/controller_manager/core-sl-ros/sl_utilities/CMakeFiles/sl_utilities.dir/src/gain_utilities.cpp.o
+[ 72%] [ 72%] Building CXX object catkin/controller_manager/core-sl-ros/sl_utilities/CMakeFiles/sl_utilities.dir/src/jacobian_utilities.cpp.o
+[ 72%] [ 72%] [ 72%] Building CXX object catkin/controller_manager/core-sl-ros/sl_utilities/CMakeFiles/sl_utilities.dir/src/math_utilities.cpp.o
+[ 73%] Building CXX object catkin/controller_manager/core-sl-ros/riemo_rt/CMakeFiles/riemo_rt.dir/src/lqr_diff_eq.cpp.o
+Building CXX object catkin/controller_manager/core-sl-ros/riemo_rt/CMakeFiles/riemo_rt.dir/src/diff_eq.cpp.o
+Building CXX object catkin/controller_manager/core-sl-ros/riemo_rt/CMakeFiles/riemo_rt.dir/src/adaptive_acceleration_controller.cpp.o
+[ 73%] Scanning dependencies of target interactive_markers_initializer_node
+Building CXX object catkin/controller_manager/core-sl-ros/riemo_rt/CMakeFiles/riemo_rt.dir/src/integrators.cpp.o
+[ 75%] [ 75%] Building CXX object catkin/controller_manager/core-sl-ros/sl_utilities/CMakeFiles/sl_utilities.dir/src/quaternions.cpp.o
+Building CXX object catkin/controller_manager/core-sl-ros/sl_utilities/CMakeFiles/sl_utilities.dir/src/ros_data_converters.cpp.o
+Building CXX object catkin/controller_manager/core-sl-ros/riemo_rt/CMakeFiles/riemo_rt.dir/src/time_varying_affine_policy.cpp.o
+[ 75%] [ 76%] Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/osr/pose_velocity_vector_test
+[ 76%] Building CXX object catkin/controller_manager/core-sl-ros/riemo_rt/CMakeFiles/riemo_rt.dir/src/gp.cpp.o
+Building CXX object catkin/controller_manager/core-sl-ros/sl_utilities/CMakeFiles/sl_utilities.dir/src/sl_ros_marker_visualizer.cpp.o
+Building CXX object catkin/controller_manager/core-sl-ros/sl_utilities/CMakeFiles/sl_utilities.dir/src/sl_ros_pose_visualizer.cpp.o
+Building CXX object catkin/controller_manager/core-sl-ros/sl_utilities/CMakeFiles/sl_utilities.dir/src/variable_name_map.cpp.o
+Building CXX object catkin/core-perception/opi/CMakeFiles/interactive_markers_initializer_node.dir/src/interactive_markers_initializer_node_main.cpp.o
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/osr/pose_vector_test
+/home/amd_clmc/team/workspace/src/catkin/controller_manager/core-sl-ros/sl_utilities/src/jacobian_utilities.cpp: In function 'bool sl_utilities::jacComputePInvDirect(Matrix, int, int, sl_utilities::jacOptions&, sl_utilities::jacState&, Matrix, Matrix)':
+/home/amd_clmc/team/workspace/src/catkin/controller_manager/core-sl-ros/sl_utilities/src/jacobian_utilities.cpp:64:25: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libkinect_filtering.so
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/osr/composed_vector_test
+[ 76%] Built target pose_velocity_vector_test
+[ 76%] Built target pose_vector_test
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/rgbd_capture/test_capture
+[ 76%] Built target composed_vector_test
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/robot_state_pub/state_publisher
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/rgbd_capture/test_timing
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libapollo_sl_interface.so
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/robot_state_pub/robot_state_pub
+[ 76%] Built target kinect_filtering
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libusc_utilities.so
+[ 76%] Built target apollo_sl_interface
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libvisual_servoing_mini.so
+[ 76%] Built target state_publisher
+[ 76%] Built target test_timing
+[ 76%] Built target usc_utilities
+[ 76%] Built target visual_servoing_mini
+[ 76%] Built target robot_state_pub
+Scanning dependencies of target generate_circular_poses
+[ 76%] Built target test_capture
+Scanning dependencies of target task_recorder2_utilities
+Scanning dependencies of target learnable_cost_function
+[ 77%] Building CXX object catkin/manipulation/visual_servoing/CMakeFiles/generate_circular_poses.dir/src/generate_circular_poses.cpp.o
+[ 77%] [ 78%] [ 78%] Scanning dependencies of target visual_servoing_demo
+[ 79%] Building CXX object catkin/ros/usc-clmc-catkin-pkg/learning/task_recorder2_utilities/CMakeFiles/task_recorder2_utilities.dir/src/message_ring_buffer.cpp.o
+Building CXX object catkin/ros/usc-clmc-catkin-pkg/planning/learnable_cost_function/CMakeFiles/learnable_cost_function.dir/src/feature_set.cpp.o
+[ 79%] Building CXX object catkin/ros/usc-clmc-catkin-pkg/learning/task_recorder2_utilities/CMakeFiles/task_recorder2_utilities.dir/src/accumulator.cpp.o
+Building CXX object catkin/ros/usc-clmc-catkin-pkg/planning/learnable_cost_function/CMakeFiles/learnable_cost_function.dir/src/linear_cost_function.cpp.o
+Building CXX object catkin/ros/usc-clmc-catkin-pkg/learning/task_recorder2_utilities/CMakeFiles/task_recorder2_utilities.dir/src/message_buffer.cpp.o
+[ 80%] Building CXX object catkin/manipulation/visual_servoing/CMakeFiles/visual_servoing_demo.dir/src/visual_servoing_demo.cpp.o
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libapollo_verify_extrinsic_camera_calibration.so
+Scanning dependencies of target robot_info
+[ 80%] [ 81%] [ 81%] [ 81%] Building CXX object catkin/ros/usc-clmc-catkin-pkg/usc_utils/robot_info/CMakeFiles/robot_info.dir/src/forward_kinematics.o
+[ 81%] Building CXX object catkin/ros/usc-clmc-catkin-pkg/usc_utils/robot_info/CMakeFiles/robot_info.dir/src/robot_info_init.o
+Building CXX object catkin/ros/usc-clmc-catkin-pkg/usc_utils/robot_info/CMakeFiles/robot_info.dir/src/kdl_treefksolverjointposaxis.o
+Building CXX object catkin/ros/usc-clmc-catkin-pkg/usc_utils/robot_info/CMakeFiles/robot_info.dir/src/robot_info.o
+Building CXX object catkin/ros/usc-clmc-catkin-pkg/usc_utils/robot_info/CMakeFiles/robot_info.dir/src/trajectory_timing_generator.o
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/ros_rt_test/ros_rt_test_subscriber
+[ 81%] Built target apollo_verify_extrinsic_camera_calibration
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/ros_rt_test/ros_rt_test_publisher
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/ros_servo_apollo/xros
+Scanning dependencies of target visual_servoing
+[ 81%] [ 81%] [ 81%] [ 81%] Built target ros_rt_test_subscriber
+[ 81%] [ 81%] Building CXX object catkin/manipulation/visual_servoing/CMakeFiles/visual_servoing.dir/src/conditions_checkers.cpp.o
+Building CXX object catkin/manipulation/visual_servoing/CMakeFiles/visual_servoing.dir/src/visual_servoing.cpp.o
+[ 81%] Building CXX object catkin/manipulation/visual_servoing/CMakeFiles/visual_servoing.dir/src/pose_managers.cpp.o
+Building CXX object catkin/manipulation/visual_servoing/CMakeFiles/visual_servoing.dir/src/tracked_object_getters.cpp.o
+Building CXX object catkin/manipulation/visual_servoing/CMakeFiles/visual_servoing.dir/src/frame_mapping.cpp.o
+Building CXX object catkin/manipulation/visual_servoing/CMakeFiles/visual_servoing.dir/src/tracked_objects.cpp.o
+[ 81%] Built target ros_rt_test_publisher
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/visual_servoing/generate_circular_poses
+[ 81%] Built target xros_apollo
+[ 81%] Built target generate_circular_poses
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libar_track_alvar.so
+[ 81%] Built target ar_track_alvar
+Scanning dependencies of target CubeCalibrationMarkers
+Scanning dependencies of target createMarker
+Scanning dependencies of target findMarkerBundles
+[ 81%] Scanning dependencies of target trainMarkerBundle
+Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/CubeCalibrationMarkers.dir/nodes/CubeCalibrationMarkers.cpp.o
+Scanning dependencies of target individualMarkersNoKinect
+Scanning dependencies of target individualMarkers
+Scanning dependencies of target findMarkerBundlesNoKinect
+[ 81%] [ 81%] Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/createMarker.dir/src/SampleMarkerCreator.cpp.o
+[ 81%] Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/findMarkerBundles.dir/nodes/FindMarkerBundles.cpp.o
+Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/trainMarkerBundle.dir/nodes/TrainMarkerBundle.cpp.o
+[ 81%] [ 81%] [ 81%] Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/individualMarkers.dir/nodes/IndividualMarkers.cpp.o
+Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/findMarkerBundlesNoKinect.dir/nodes/FindMarkerBundlesNoKinect.cpp.o
+Building CXX object catkin/perception/ar_track_alvar/CMakeFiles/individualMarkersNoKinect.dir/nodes/IndividualMarkersNoKinect.cpp.o
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/rgbd_capture/rgbd_capture_node
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/visual_servoing/visual_servoing_demo
+[ 81%] Built target rgbd_capture_node
+[ 81%] Built target visual_servoing_demo
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/liblearnable_cost_function.so
+[ 81%] Built target learnable_cost_function
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/opi/interactive_markers_initializer_node
+Scanning dependencies of target constrained_inverse_kinematics
+[ 81%] [ 81%] [ 82%] [ 82%] Building CXX object catkin/ros/usc-clmc-catkin-pkg/planning/constrained_inverse_kinematics/CMakeFiles/constrained_inverse_kinematics.dir/src/chain.cpp.o
+[ 82%] [ 82%] Building CXX object catkin/ros/usc-clmc-catkin-pkg/planning/constrained_inverse_kinematics/CMakeFiles/constrained_inverse_kinematics.dir/src/constrained_ik_solver.cpp.o
+Building CXX object catkin/ros/usc-clmc-catkin-pkg/planning/constrained_inverse_kinematics/CMakeFiles/constrained_inverse_kinematics.dir/src/constraints.cpp.o
+[ 82%] Built target interactive_markers_initializer_node
+Building CXX object catkin/ros/usc-clmc-catkin-pkg/planning/constrained_inverse_kinematics/CMakeFiles/constrained_inverse_kinematics.dir/src/ik_wrapper.cpp.o
+Building CXX object catkin/ros/usc-clmc-catkin-pkg/planning/constrained_inverse_kinematics/CMakeFiles/constrained_inverse_kinematics.dir/src/cost_function_input.cpp.o
+Building CXX object catkin/ros/usc-clmc-catkin-pkg/planning/constrained_inverse_kinematics/CMakeFiles/constrained_inverse_kinematics.dir/src/fk_solver.cpp.o
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libtask_recorder2_utilities.so
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libvisual_servoing.so
+[ 82%] Built target task_recorder2_utilities
+[ 82%] Generating include/gui_utilities/moc_description_list.cxx
+[ 82%] Built target visual_servoing
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/rgbd_capture/fake_node
+Scanning dependencies of target poses_management_demo
+[ 82%] Building CXX object catkin/manipulation/visual_servoing/CMakeFiles/poses_management_demo.dir/src/poses_management_demo.cpp.o
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libriemo_rt.so
+[ 82%] Built target fake_node
+[ 82%] Built target riemo_rt
+Scanning dependencies of target apollo_visual_servoing_task
+[ 82%] [ 82%] [ 82%] [ 84%] [ 84%] [ 84%] Building CXX object catkin/manipulation/apollo_visual_servoing_task/CMakeFiles/apollo_visual_servoing_task.dir/src/compute_commands.cpp.o
+Building CXX object catkin/manipulation/apollo_visual_servoing_task/CMakeFiles/apollo_visual_servoing_task.dir/src/apollo_kinect_to_right_arm_mapping.cpp.o
+Building CXX object catkin/manipulation/apollo_visual_servoing_task/CMakeFiles/apollo_visual_servoing_task.dir/src/end_effector_based_evaluator.cpp.o
+Building CXX object catkin/manipulation/apollo_visual_servoing_task/CMakeFiles/apollo_visual_servoing_task.dir/src/quaternions.cpp.o
+Building CXX object catkin/manipulation/apollo_visual_servoing_task/CMakeFiles/apollo_visual_servoing_task.dir/src/GeometryUtils.cpp.o
+Building CXX object catkin/manipulation/apollo_visual_servoing_task/CMakeFiles/apollo_visual_servoing_task.dir/src/apollo_visual_servoing_task.cpp.o
+Scanning dependencies of target gui_utilities
+[ 84%] [ 84%] [ 84%] Building CXX object catkin/ros/usc-clmc-catkin-pkg/usc_utils/gui_utilities/CMakeFiles/gui_utilities.dir/src/description_list.cpp.o
+Building CXX object catkin/ros/usc-clmc-catkin-pkg/usc_utils/gui_utilities/CMakeFiles/gui_utilities.dir/src/tab_map.cpp.o
+Building CXX object catkin/ros/usc-clmc-catkin-pkg/usc_utils/gui_utilities/CMakeFiles/gui_utilities.dir/include/gui_utilities/moc_description_list.cxx.o
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libsl_utilities.so
+[ 84%] Built target sl_utilities
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/librobot_info.so
+Scanning dependencies of target controller_manager
+[ 85%] [ 85%] [ 85%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controller_manager/CMakeFiles/controller_manager.dir/src/controller_factory.cpp.o
+Building CXX object catkin/controller_manager/core-sl-ros/sl_controller_manager/CMakeFiles/controller_manager.dir/src/controller_data.cpp.o
+[ 85%] [ 85%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controller_manager/CMakeFiles/controller_manager.dir/src/controller_manager.cpp.o
+[ 85%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controller_manager/CMakeFiles/controller_manager.dir/src/controller_manager_task.cpp.o
+Building CXX object catkin/controller_manager/core-sl-ros/sl_controller_manager/CMakeFiles/controller_manager.dir/src/controller_stack.cpp.o
+Building CXX object catkin/controller_manager/core-sl-ros/sl_controller_manager/CMakeFiles/controller_manager.dir/src/controller_utilities.cpp.o
+[ 85%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controller_manager/CMakeFiles/controller_manager.dir/src/time_manager.cpp.o
+[ 85%] Built target robot_info
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/visual_servoing/poses_management_demo
+Scanning dependencies of target jacobian_utilities
+[ 85%] Building CXX object catkin/ros/usc-clmc-catkin-pkg/usc_utils/jacobian_utilities/CMakeFiles/jacobian_utilities.dir/src/jacobian.cpp.o
+[ 85%] Built target poses_management_demo
+Scanning dependencies of target sl_controller_interface
+[ 85%] [ 85%] [ 85%] [ 85%] [ 85%] [ 85%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controller_interface/CMakeFiles/sl_controller_interface.dir/src/switch_controller_stack_client.cpp.o
+[ 85%] [ 85%] [ 85%] [ 86%] [ 86%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controller_interface/CMakeFiles/sl_controller_interface.dir/src/data_collector_client.cpp.o
+Building CXX object catkin/controller_manager/core-sl-ros/sl_controller_interface/CMakeFiles/sl_controller_interface.dir/src/robot_monitor_impl.cpp.o
+[ 87%] [ 87%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controller_interface/CMakeFiles/sl_controller_interface.dir/src/joint_trajectory_client.cpp.o
+Building CXX object catkin/controller_manager/core-sl-ros/sl_controller_interface/CMakeFiles/sl_controller_interface.dir/src/gain_client.cpp.o
+[ 87%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controller_interface/CMakeFiles/sl_controller_interface.dir/src/trajectory_client_impl.cpp.o
+Building CXX object catkin/controller_manager/core-sl-ros/sl_controller_interface/CMakeFiles/sl_controller_interface.dir/src/robot_monitor.cpp.o
+Building CXX object catkin/controller_manager/core-sl-ros/sl_controller_interface/CMakeFiles/sl_controller_interface.dir/src/cartesian_trajectory_client.cpp.o
+Building CXX object catkin/controller_manager/core-sl-ros/sl_controller_interface/CMakeFiles/sl_controller_interface.dir/src/head_forward_kinematics.cpp.o
+Building CXX object catkin/controller_manager/core-sl-ros/sl_controller_interface/CMakeFiles/sl_controller_interface.dir/src/task_frame_setter_client.cpp.o
+Building CXX object catkin/controller_manager/core-sl-ros/sl_controller_interface/CMakeFiles/sl_controller_interface.dir/src/head_inverse_kinematics.cpp.o
+Building CXX object catkin/controller_manager/core-sl-ros/sl_controller_interface/CMakeFiles/sl_controller_interface.dir/src/trajectory_client.cpp.o
+Building CXX object catkin/controller_manager/core-sl-ros/sl_controller_interface/CMakeFiles/sl_controller_interface.dir/src/controller_interface.cpp.o
+Building CXX object catkin/controller_manager/core-sl-ros/sl_controller_interface/CMakeFiles/sl_controller_interface.dir/src/forward_kinematics.cpp.o
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libapollo_visual_servoing_task.so
+[ 87%] Built target apollo_visual_servoing_task
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libgui_utilities.so
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/ar_track_alvar/createMarker
+[ 87%] Built target gui_utilities
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libconstrained_inverse_kinematics.so
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/ar_track_alvar/individualMarkersNoKinect
+[ 87%] Built target createMarker
+[ 87%] Built target constrained_inverse_kinematics
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/ar_track_alvar/trainMarkerBundle
+/home/amd_clmc/team/workspace/src/catkin/controller_manager/core-sl-ros/sl_controller_manager/src/controller_manager.cpp: In member function 'void sl_controller_manager::ControllerManager::addCommandsToSLMan() const':
+/home/amd_clmc/team/workspace/src/catkin/controller_manager/core-sl-ros/sl_controller_manager/src/controller_manager.cpp:974:88: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+/home/amd_clmc/team/workspace/src/catkin/controller_manager/core-sl-ros/sl_controller_manager/src/controller_manager.cpp:974:88: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+/home/amd_clmc/team/workspace/src/catkin/controller_manager/core-sl-ros/sl_controller_manager/src/controller_manager.cpp:975:113: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+/home/amd_clmc/team/workspace/src/catkin/controller_manager/core-sl-ros/sl_controller_manager/src/controller_manager.cpp:975:113: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+/home/amd_clmc/team/workspace/src/catkin/controller_manager/core-sl-ros/sl_controller_manager/src/controller_manager.cpp:976:101: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+/home/amd_clmc/team/workspace/src/catkin/controller_manager/core-sl-ros/sl_controller_manager/src/controller_manager.cpp:976:101: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+/home/amd_clmc/team/workspace/src/catkin/controller_manager/core-sl-ros/sl_controller_manager/src/controller_manager.cpp:977:126: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+/home/amd_clmc/team/workspace/src/catkin/controller_manager/core-sl-ros/sl_controller_manager/src/controller_manager.cpp:977:126: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/ar_track_alvar/findMarkerBundlesNoKinect
+[ 87%] Built target individualMarkersNoKinect
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/ar_track_alvar/individualMarkers
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/ar_track_alvar/CubeCalibrationMarkers
+[ 87%] Built target trainMarkerBundle
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libjacobian_utilities.so
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/ar_track_alvar/findMarkerBundles
+[ 87%] Built target jacobian_utilities
+[ 87%] Built target findMarkerBundlesNoKinect
+[ 87%] Built target individualMarkers
+[ 87%] Built target CubeCalibrationMarkers
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libcontroller_manager.so
+[ 87%] Built target findMarkerBundles
+[ 87%] Built target controller_manager
+Scanning dependencies of target controller_manager_task
+[ 87%] Building CXX object catkin/controller_manager/controller_manager_apollo/controller_manager_task_apollo/CMakeFiles/controller_manager_task.dir/src/sl_task.cpp.o
+Scanning dependencies of target sl_barrett_controllers
+[ 87%] [ 87%] [ 87%] [ 87%] [ 88%] [ 88%] [ 88%] [ 88%] [ 88%] Building CXX object catkin/controller_manager/sl_barrett_controllers/sl_barrett_controllers/CMakeFiles/sl_barrett_controllers.dir/src/strain_gages_calibration_updater.cpp.o
+Building CXX object catkin/controller_manager/sl_barrett_controllers/sl_barrett_controllers/CMakeFiles/sl_barrett_controllers.dir/src/finger_joint_encoder_offsetter.cpp.o
+Building CXX object catkin/controller_manager/sl_barrett_controllers/sl_barrett_controllers/CMakeFiles/sl_barrett_controllers.dir/src/force_sensor_processor.cpp.o
+Building CXX object catkin/controller_manager/sl_barrett_controllers/sl_barrett_controllers/CMakeFiles/sl_barrett_controllers.dir/src/max_finger_torque_updater.cpp.o
+Building CXX object catkin/controller_manager/sl_barrett_controllers/sl_barrett_controllers/CMakeFiles/sl_barrett_controllers.dir/src/accelerometer_processor.cpp.o
+Building CXX object catkin/controller_manager/sl_barrett_controllers/sl_barrett_controllers/CMakeFiles/sl_barrett_controllers.dir/src/breakaway_controller.cpp.o
+Building CXX object catkin/controller_manager/sl_barrett_controllers/sl_barrett_controllers/CMakeFiles/sl_barrett_controllers.dir/src/grasping_controller.cpp.o
+Building CXX object catkin/controller_manager/sl_barrett_controllers/sl_barrett_controllers/CMakeFiles/sl_barrett_controllers.dir/src/pressure_sensor_processor.cpp.o
+Building CXX object catkin/controller_manager/sl_barrett_controllers/sl_barrett_controllers/CMakeFiles/sl_barrett_controllers.dir/src/hand_mannequin_controller.cpp.o
+Scanning dependencies of target sl_controllers
+[ 88%] [ 88%] Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libsl_controller_interface.so
+[ 88%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controllers/CMakeFiles/sl_controllers.dir/src/trajectory_generator.cpp.o
+Building CXX object catkin/controller_manager/core-sl-ros/sl_controllers/CMakeFiles/sl_controllers.dir/src/universal_trajectory_generator.cpp.o
+[ 88%] [ 88%] [ 88%] [ 88%] [ 88%] [ 88%] [ 88%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controllers/CMakeFiles/sl_controllers.dir/src/linear_quadratic_regulator_generator.cpp.o
+Building CXX object catkin/controller_manager/core-sl-ros/sl_controllers/CMakeFiles/sl_controllers.dir/src/experiment_generator.cpp.o
+Building CXX object catkin/controller_manager/core-sl-ros/sl_controllers/CMakeFiles/sl_controllers.dir/src/lqr_controller_parameters.cpp.o
+Building CXX object catkin/controller_manager/core-sl-ros/sl_controllers/CMakeFiles/sl_controllers.dir/src/lqr_controller_status_publisher.cpp.o
+[ 88%] [ 88%] [ 89%] [ 89%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controllers/CMakeFiles/sl_controllers.dir/src/offline_controller.cpp.o
+[ 89%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controllers/CMakeFiles/sl_controllers.dir/src/lqr_controller.cpp.o
+[ 89%] [ 90%] [ 90%] [ 90%] [ 90%] [ 90%] [ 90%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controllers/CMakeFiles/sl_controllers.dir/src/drifting_controller.cpp.o
+[ 90%] [ 90%] [ 90%] [ 90%] [ 90%] [ 90%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controllers/CMakeFiles/sl_controllers.dir/src/drifting_controller_parameters.cpp.o
+[ 90%] [ 92%] [ 92%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controllers/CMakeFiles/sl_controllers.dir/src/dmp_feedback_gain_generator.cpp.o
+Building CXX object catkin/controller_manager/core-sl-ros/sl_controllers/CMakeFiles/sl_controllers.dir/src/offline_controller_parameters.cpp.o
+Building CXX object catkin/controller_manager/core-sl-ros/sl_controllers/CMakeFiles/sl_controllers.dir/src/inverse_dynamics_controller.cpp.o
+Building CXX object catkin/controller_manager/core-sl-ros/sl_controllers/CMakeFiles/sl_controllers.dir/src/cart_force_controller.cpp.o
+Building CXX object catkin/controller_manager/core-sl-ros/sl_controllers/CMakeFiles/sl_controllers.dir/src/operational_space_jacobian_transpose_controller.cpp.o
+[ 92%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controllers/CMakeFiles/sl_controllers.dir/src/cart_feedforward_force_controller.cpp.o
+[ 92%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controllers/CMakeFiles/sl_controllers.dir/src/drifting_controller_communication.cpp.o
+Building CXX object catkin/controller_manager/core-sl-ros/sl_controllers/CMakeFiles/sl_controllers.dir/src/inverse_kinematics.cpp.o
+Building CXX object catkin/controller_manager/core-sl-ros/sl_controllers/CMakeFiles/sl_controllers.dir/src/gravity_compensation_controller.cpp.o
+Building CXX object catkin/controller_manager/core-sl-ros/sl_controllers/CMakeFiles/sl_controllers.dir/src/operational_space_velocity_controller.cpp.o
+[ 92%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controllers/CMakeFiles/sl_controllers.dir/src/joint_force_controller.cpp.o
+Building CXX object catkin/controller_manager/core-sl-ros/sl_controllers/CMakeFiles/sl_controllers.dir/src/data_collector.cpp.o
+Building CXX object catkin/controller_manager/core-sl-ros/sl_controllers/CMakeFiles/sl_controllers.dir/src/task_frame_setter.cpp.o
+Building CXX object catkin/controller_manager/core-sl-ros/sl_controllers/CMakeFiles/sl_controllers.dir/src/integral_controller.cpp.o
+Building CXX object catkin/controller_manager/core-sl-ros/sl_controllers/CMakeFiles/sl_controllers.dir/src/zero_torque_controller.cpp.o
+Building CXX object catkin/controller_manager/core-sl-ros/sl_controllers/CMakeFiles/sl_controllers.dir/src/set_desired_to_actual.cpp.o
+Building CXX object catkin/controller_manager/core-sl-ros/sl_controllers/CMakeFiles/sl_controllers.dir/src/state_publisher.cpp.o
+Building CXX object catkin/controller_manager/core-sl-ros/sl_controllers/CMakeFiles/sl_controllers.dir/src/test_controller.cpp.o
+Building CXX object catkin/controller_manager/core-sl-ros/sl_controllers/CMakeFiles/sl_controllers.dir/src/payload_gravity_compensator.cpp.o
+Building CXX object catkin/controller_manager/core-sl-ros/sl_controllers/CMakeFiles/sl_controllers.dir/src/inverse_kinematics_controller.cpp.o
+Building CXX object catkin/controller_manager/core-sl-ros/sl_controllers/CMakeFiles/sl_controllers.dir/src/head_trajectory_generator.cpp.o
+Building CXX object catkin/controller_manager/core-sl-ros/sl_controllers/CMakeFiles/sl_controllers.dir/src/tf_publisher.cpp.o
+Building CXX object catkin/controller_manager/core-sl-ros/sl_controllers/CMakeFiles/sl_controllers.dir/src/visual_tool_tracking_filter.cpp.o
+Building CXX object catkin/controller_manager/core-sl-ros/sl_controllers/CMakeFiles/sl_controllers.dir/src/controlled_joints_sl_interface.cpp.o
+[ 92%] Built target sl_controller_interface
+/home/amd_clmc/team/workspace/src/catkin/controller_manager/controller_manager_apollo/controller_manager_task_apollo/src/sl_task.cpp: In function 'void sl_controller_manager::add_controller_manager_task()':
+/home/amd_clmc/team/workspace/src/catkin/controller_manager/controller_manager_apollo/controller_manager_task_apollo/src/sl_task.cpp:40:98: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+/home/amd_clmc/team/workspace/src/catkin/controller_manager/controller_manager_apollo/controller_manager_task_apollo/src/sl_task.cpp:40:98: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+Scanning dependencies of target apollo_extrinsic_camera_calibration
+[ 92%] Building CXX object catkin/calibration/apollo_extrinsic_camera_calibration/CMakeFiles/apollo_extrinsic_camera_calibration.dir/src/head_calibration_info.cpp.o
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libcontroller_manager_task.so
+[ 92%] Built target controller_manager_task
+Scanning dependencies of target xtask_apollo
+[ 93%] Building C object catkin/robots/catkin-apolloUser/tmp_catkin_apollo_user/CMakeFiles/xtask_apollo.dir/src/initUserTasks.c.o
+Linking C executable /home/amd_clmc/team/workspace/devel/lib/apollo_user/xtask
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libsl_barrett_controllers.so
+[ 93%] Built target xtask_apollo
+[ 93%] Built target sl_barrett_controllers
+Scanning dependencies of target sl_barrett_controller_interface
+[ 93%] [ 93%] Building CXX object catkin/controller_manager/sl_barrett_controllers/sl_barrett_controller_interface/CMakeFiles/sl_barrett_controller_interface.dir/src/force_torque_sensor_client.cpp.o
+Building CXX object catkin/controller_manager/sl_barrett_controllers/sl_barrett_controller_interface/CMakeFiles/sl_barrett_controller_interface.dir/src/grasp_controller_interface.cpp.o
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libdbot.so
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libapollo_extrinsic_camera_calibration.so
+[ 93%] Built target apollo_extrinsic_camera_calibration
+Scanning dependencies of target calibration_data_recorder
+Scanning dependencies of target verify_calibration_server
+Scanning dependencies of target ping_verification_service
+[ 93%] [ 93%] [ 93%] Building CXX object catkin/calibration/apollo_extrinsic_camera_calibration/CMakeFiles/calibration_data_recorder.dir/src/calibration_data_recorder.cpp.o
+Building CXX object catkin/calibration/apollo_verify_extrinsic_camera_calibration/CMakeFiles/ping_verification_service.dir/src/ping_verification_service.cpp.o
+Building CXX object catkin/calibration/apollo_verify_extrinsic_camera_calibration/CMakeFiles/verify_calibration_server.dir/src/verify_calibration_server.cpp.o
+[ 93%] Built target dbot
+/home/amd_clmc/team/workspace/src/catkin/controller_manager/core-sl-ros/sl_controllers/src/offline_controller_parameters.cpp: In member function 'bool sl_controllers::OfflineParameters::ProcessParamsMsg(const OfflineParams&, sl_rt_mutex&)':
+/home/amd_clmc/team/workspace/src/catkin/controller_manager/core-sl-ros/sl_controllers/src/offline_controller_parameters.cpp:210:47: warning: format '%i' expects argument of type 'int', but argument 2 has type 'std::vector<amd_clmc_ros_messages::OfflineNetwork_<std::allocator<void> >, std::allocator<amd_clmc_ros_messages::OfflineNetwork_<std::allocator<void> > > >::size_type {aka long unsigned int}' [-Wformat]
+Scanning dependencies of target dbot_ros
+In file included from /home/amd_clmc/team/workspace/src/catkin/controller_manager/core-sl-ros/sl_controllers/include/sl_controllers/offline_controller_parameters.h:17:0,
+                 from /home/amd_clmc/team/workspace/src/catkin/controller_manager/core-sl-ros/sl_controllers/src/offline_controller_parameters.cpp:7:
+/home/amd_clmc/team/workspace/src/catkin/controller_manager/core-sl-ros/sl_controllers/include/sl_controllers/network.h: In function 'void riemo_rt::ConvToRTNetworkVectorXf(const std::vector<real_t>&, riemo_rt::RTNetworkVectorXf&, int) [with real_t = float, riemo_rt::RTNetworkVectorXf = Eigen::Matrix<float, -0x00000000000000001, 1, 0, 500, 1>]':
+/home/amd_clmc/team/workspace/src/catkin/controller_manager/core-sl-ros/sl_controllers/src/offline_controller_parameters.cpp:173:46:   instantiated from here
+/home/amd_clmc/team/workspace/src/catkin/controller_manager/core-sl-ros/sl_controllers/include/sl_controllers/network.h:81:5: warning: format '%i' expects argument of type 'int', but argument 3 has type 'Eigen::EigenBase<Eigen::Matrix<float, -0x00000000000000001, 1, 0, 500, 1> >::Index {aka long int}' [-Wformat]
+/home/amd_clmc/team/workspace/src/catkin/controller_manager/core-sl-ros/sl_controllers/include/sl_controllers/network.h:84:5: warning: format '%i' expects argument of type 'int', but argument 3 has type 'std::vector<float>::size_type {aka long unsigned int}' [-Wformat]
+[ 93%] [ 94%] [ 94%] [ 94%] [ 94%] Building CXX object catkin/ros/dbot_ros/CMakeFiles/dbot_ros.dir/src/dbot_ros/object_tracker_publisher.cpp.o
+Building CXX object catkin/ros/dbot_ros/CMakeFiles/dbot_ros.dir/src/dbot_ros/utils/ros_camera_data_provider.cpp.o
+[ 94%] Building CXX object catkin/ros/dbot_ros/CMakeFiles/dbot_ros.dir/src/dbot_ros/object_tracker_node.cpp.o
+Building CXX object catkin/ros/dbot_ros/CMakeFiles/dbot_ros.dir/src/dbot_ros/utils/ros_interface.cpp.o
+Building CXX object catkin/ros/dbot_ros/CMakeFiles/dbot_ros.dir/src/dbot_ros/utils/data_set_camera_data_provider.cpp.o
+Building CXX object catkin/ros/dbot_ros/CMakeFiles/dbot_ros.dir/src/dbot_ros/utils/tracking_dataset.cpp.o
+In file included from /home/amd_clmc/team/workspace/src/catkin/controller_manager/core-sl-ros/sl_controllers/src/offline_controller.cpp:12:0:
+/home/amd_clmc/team/workspace/src/catkin/controller_manager/core-sl-ros/sl_controllers/include/sl_controllers/offline_controller.h: In member function 'bool sl_controllers::OfflineController::Update_network_from_params(riemo_rt::NetworkRT&, const sl_controllers::OfflineNetwork&)':
+/home/amd_clmc/team/workspace/src/catkin/controller_manager/core-sl-ros/sl_controllers/include/sl_controllers/offline_controller.h:73:17: warning: format '%i' expects argument of type 'int', but argument 2 has type 'std::vector<Eigen::Matrix<float, -0x00000000000000001, -0x00000000000000001, 0, 500, 500> >::size_type {aka long unsigned int}' [-Wformat]
+/home/amd_clmc/team/workspace/src/catkin/controller_manager/core-sl-ros/sl_controllers/include/sl_controllers/offline_controller.h:73:17: warning: format '%i' expects argument of type 'int', but argument 3 has type 'std::vector<Eigen::Matrix<float, -0x00000000000000001, -0x00000000000000001, 0, 500, 500> >::size_type {aka long unsigned int}' [-Wformat]
+/home/amd_clmc/team/workspace/src/catkin/controller_manager/core-sl-ros/sl_controllers/include/sl_controllers/offline_controller.h:83:47: warning: format '%i' expects argument of type 'int', but argument 2 has type 'std::vector<Eigen::Matrix<float, -0x00000000000000001, 1, 0, 500, 1> >::size_type {aka long unsigned int}' [-Wformat]
+/home/amd_clmc/team/workspace/src/catkin/controller_manager/core-sl-ros/sl_controllers/include/sl_controllers/offline_controller.h:83:47: warning: format '%i' expects argument of type 'int', but argument 3 has type 'std::vector<Eigen::Matrix<float, -0x00000000000000001, 1, 0, 500, 1> >::size_type {aka long unsigned int}' [-Wformat]
+/home/amd_clmc/team/workspace/src/catkin/controller_manager/core-sl-ros/sl_controllers/src/offline_controller.cpp: In member function 'virtual bool sl_controllers::OfflineController::run()':
+/home/amd_clmc/team/workspace/src/catkin/controller_manager/core-sl-ros/sl_controllers/src/offline_controller.cpp:193:20: warning: format '%i' expects argument of type 'int', but argument 2 has type 'std::vector<sl_controllers::OfflineNetwork>::size_type {aka long unsigned int}' [-Wformat]
+/home/amd_clmc/team/workspace/src/catkin/controller_manager/core-sl-ros/sl_controllers/src/offline_controller.cpp:193:20: warning: format '%i' expects argument of type 'int', but argument 3 has type 'std::vector<riemo_rt::NetworkRT>::size_type {aka long unsigned int}' [-Wformat]
+In file included from /home/amd_clmc/team/workspace/src/catkin/controller_manager/core-sl-ros/sl_controllers/src/inverse_dynamics_controller.cpp:12:0:
+/home/amd_clmc/team/workspace/src/catkin/controller_manager/core-sl-ros/sl_controllers/include/sl_controllers/offline_controller.h: In member function 'bool sl_controllers::OfflineController::Update_network_from_params(riemo_rt::NetworkRT&, const sl_controllers::OfflineNetwork&)':
+/home/amd_clmc/team/workspace/src/catkin/controller_manager/core-sl-ros/sl_controllers/include/sl_controllers/offline_controller.h:73:17: warning: format '%i' expects argument of type 'int', but argument 2 has type 'std::vector<Eigen::Matrix<float, -0x00000000000000001, -0x00000000000000001, 0, 500, 500> >::size_type {aka long unsigned int}' [-Wformat]
+/home/amd_clmc/team/workspace/src/catkin/controller_manager/core-sl-ros/sl_controllers/include/sl_controllers/offline_controller.h:73:17: warning: format '%i' expects argument of type 'int', but argument 3 has type 'std::vector<Eigen::Matrix<float, -0x00000000000000001, -0x00000000000000001, 0, 500, 500> >::size_type {aka long unsigned int}' [-Wformat]
+/home/amd_clmc/team/workspace/src/catkin/controller_manager/core-sl-ros/sl_controllers/include/sl_controllers/offline_controller.h:83:47: warning: format '%i' expects argument of type 'int', but argument 2 has type 'std::vector<Eigen::Matrix<float, -0x00000000000000001, 1, 0, 500, 1> >::size_type {aka long unsigned int}' [-Wformat]
+/home/amd_clmc/team/workspace/src/catkin/controller_manager/core-sl-ros/sl_controllers/include/sl_controllers/offline_controller.h:83:47: warning: format '%i' expects argument of type 'int', but argument 3 has type 'std::vector<Eigen::Matrix<float, -0x00000000000000001, 1, 0, 500, 1> >::size_type {aka long unsigned int}' [-Wformat]
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libsl_barrett_controller_interface.so
+[ 94%] Built target sl_barrett_controller_interface
+Scanning dependencies of target test_data_collector
+[ 94%] Building CXX object catkin/controller_manager/controller_manager_examples_apollo/CMakeFiles/test_data_collector.dir/src/test_data_collector.cpp.o
+Scanning dependencies of target test_joint_trajectory_generator
+[ 94%] Scanning dependencies of target test_finger_force_ctrl
+Building CXX object catkin/controller_manager/controller_manager_examples_apollo/CMakeFiles/test_joint_trajectory_generator.dir/src/test_joint_trajectory_generator.cpp.o
+Scanning dependencies of target test_cartesian_trajectory_client
+Scanning dependencies of target test_complementory_force_gains
+Scanning dependencies of target test_look_at_control
+[ 94%] Scanning dependencies of target test_switch_stack_groups
+Building CXX object catkin/controller_manager/controller_manager_examples_apollo/CMakeFiles/test_finger_force_ctrl.dir/src/test_finger_force_ctrl.cpp.o
+Scanning dependencies of target test_gain_tfs_client
+[ 94%] [ 94%] [ 94%] [ 95%] Building CXX object catkin/controller_manager/controller_manager_examples_apollo/CMakeFiles/test_switch_stack_groups.dir/src/test_switch_stack_with_different_groups.cpp.o
+Building CXX object catkin/controller_manager/controller_manager_examples_apollo/CMakeFiles/test_look_at_control.dir/src/test_look_at_control.cpp.o
+Scanning dependencies of target tracking_test_utils
+Building CXX object catkin/controller_manager/controller_manager_examples_apollo/CMakeFiles/test_complementory_force_gains.dir/src/test_complementory_force_gains.cpp.o
+Building CXX object catkin/controller_manager/controller_manager_examples_apollo/CMakeFiles/test_cartesian_trajectory_client.dir/src/test_cartesian_trajectory_client.cpp.o
+Scanning dependencies of target test_point2point_look
+Scanning dependencies of target test_cart_client
+Scanning dependencies of target test_head_control
+Scanning dependencies of target test_gravity_comp
+[ 95%] [ 95%] Scanning dependencies of target strain_gauge_data_recording
+Scanning dependencies of target test_follow_hand_with_head
+Building CXX object catkin/controller_manager/controller_manager_examples_apollo/CMakeFiles/test_gain_tfs_client.dir/src/test_gain_tfs_client.cpp.o
+Scanning dependencies of target test_simultaneous_robot_part_motion
+Building CXX object catkin/controller_manager/controller_manager_examples_apollo/CMakeFiles/tracking_test_utils.dir/src/head_tracking/tracking_test_utils.cpp.o
+Scanning dependencies of target test_cartesian_force_client
+[ 95%] Scanning dependencies of target test_right_arm_cart_force
+[ 96%] [ 96%] [ 96%] Building CXX object catkin/controller_manager/controller_manager_examples_apollo/CMakeFiles/test_gravity_comp.dir/src/test_gravity_comp.cpp.o
+[ 96%] Building CXX object catkin/controller_manager/controller_manager_examples_apollo/CMakeFiles/test_head_control.dir/src/test_head_control.cpp.o
+Building CXX object catkin/controller_manager/controller_manager_examples_apollo/CMakeFiles/test_follow_hand_with_head.dir/src/head_tracking/test_follow_hand_with_head.cpp.o
+[ 96%] Building CXX object catkin/controller_manager/controller_manager_examples_apollo/CMakeFiles/test_simultaneous_robot_part_motion.dir/src/test_simultaneous_robot_part_motion.cpp.o
+[ 96%] Building CXX object catkin/controller_manager/controller_manager_examples_apollo/CMakeFiles/test_point2point_look.dir/src/test_point2point_look_at.cpp.o
+[ 96%] Building CXX object catkin/controller_manager/controller_manager_examples_apollo/CMakeFiles/test_cart_client.dir/src/test_cart_control_client.cpp.o
+Building CXX object catkin/controller_manager/core-sl-ros/strain_gauge_calibration/CMakeFiles/strain_gauge_data_recording.dir/src/strain_gauge_data_recording.cpp.o
+[ 96%] Building CXX object catkin/controller_manager/controller_manager_examples_apollo/CMakeFiles/test_cartesian_force_client.dir/src/test_cart_force_control_client.cpp.o
+Building CXX object catkin/controller_manager/controller_manager_examples_apollo/CMakeFiles/test_right_arm_cart_force.dir/src/test_right_arm_cart_control_client.cpp.o
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/apollo_verify_extrinsic_camera_calibration/ping_verification_service
+[ 96%] Built target ping_verification_service
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/apollo_verify_extrinsic_camera_calibration/verify_calibration_server
+[ 96%] Built target verify_calibration_server
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/sl_controller_interface_test/test_data_collector
+[ 96%] Built target test_data_collector
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libdbot_ros.so
+[ 96%] Built target dbot_ros
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libsl_controllers.so
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/apollo_extrinsic_camera_calibration/calibration_data_recorder
+Scanning dependencies of target rbc_particle_filter_object_tracker
+Scanning dependencies of target object_tracker_controller_service
+Scanning dependencies of target object_tracker_service
+Scanning dependencies of target visualize_riemo_grasp_from_tracking
+[ 96%] Building CXX object catkin/ros/dbot_ros/CMakeFiles/rbc_particle_filter_object_tracker.dir/src/dbot_ros/trackers/rbc_particle_filter_object_tracker_node.cpp.o
+[ 96%] Scanning dependencies of target control_look_at_behaviour
+Building CXX object catkin/manipulation/from-object-to-grasp/CMakeFiles/visualize_riemo_grasp_from_tracking.dir/src/riemo_visualize_poses.cpp.o
+[ 96%] [ 96%] [ 96%] Scanning dependencies of target rms_gaussian_filter_object_tracker
+Scanning dependencies of target visualize_grasp_from_tracking
+Building CXX object catkin/ros/dbot_ros/CMakeFiles/object_tracker_controller_service.dir/src/dbot_ros/object_tracker_controller_service_node.cpp.o
+Building CXX object catkin/ros/head_look_at_behaviour/CMakeFiles/control_look_at_behaviour.dir/src/test_look_at_control.cpp.o
+Scanning dependencies of target look_at_tracked_object
+Building CXX object catkin/ros/dbot_ros/CMakeFiles/object_tracker_service.dir/src/dbot_ros/trackers/object_tracker_service_node.cpp.o
+[ 96%] Scanning dependencies of target generate_riemo_grasp_from_tracking
+Building CXX object catkin/manipulation/from-object-to-grasp/CMakeFiles/visualize_grasp_from_tracking.dir/src/visualize_poses.cpp.o
+Scanning dependencies of target generate_grasp_from_tracking
+[ 96%] Building CXX object catkin/ros/head_look_at_behaviour/CMakeFiles/look_at_tracked_object.dir/src/look_at_tracked_object.cpp.o
+[ 96%] [ 96%] [ 96%] Building CXX object catkin/ros/dbot_ros/CMakeFiles/rms_gaussian_filter_object_tracker.dir/src/dbot_ros/trackers/rms_gaussian_filter_object_tracker_node.cpp.o
+Building CXX object catkin/manipulation/from-object-to-grasp/CMakeFiles/generate_riemo_grasp_from_tracking.dir/src/riemo_pose_generator_tracking.cpp.o
+Building CXX object catkin/manipulation/from-object-to-grasp/CMakeFiles/generate_grasp_from_tracking.dir/src/pose_generator_tracking.cpp.o
+Scanning dependencies of target table_object_finder
+[ 96%] [ 96%] Building CXX object catkin/ros/table_object_finder/CMakeFiles/table_object_finder.dir/src/table_object_finder/utils/pcl_interface.cpp.o
+Building CXX object catkin/ros/table_object_finder/CMakeFiles/table_object_finder.dir/src/table_object_finder/utils/cloud_visualizer.cpp.o
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/sl_controller_interface_test/test_finger_force_ctrl
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/sl_controller_interface_test/test_cartesian_trajectory_client
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/sl_controller_interface_test/test_switch_stack_groups
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/sl_controller_interface_test/test_gravity_comp
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/sl_controller_interface_test/test_point2point_look
+[ 96%] Built target calibration_data_recorder
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/sl_controller_interface_test/test_head_control
+[ 96%] Built target test_finger_force_ctrl
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/sl_controller_interface_test/test_simultaneous_robot_part_motion
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/sl_controller_interface_test/test_look_at_control
+[ 96%] Built target sl_controllers
+[ 96%] Built target test_cartesian_trajectory_client
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/sl_controller_interface_test/test_joint_trajectory_generator
+Scanning dependencies of target dbrt
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/sl_controller_interface_test/test_gain_tfs_client
+[ 96%] Built target test_gravity_comp
+[ 96%] [ 96%] [ 96%] [ 96%] [ 96%] [ 96%] [ 96%] Built target test_switch_stack_groups
+[ 97%] [ 97%] [ 97%] [ 97%] [ 98%] Building CXX object catkin/core-perception/dbrt/CMakeFiles/dbrt.dir/source/dbrt/tracker/visual_tracker_factory.cpp.o
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/sl_controller_interface_test/test_follow_hand_with_head
+Building CXX object catkin/core-perception/dbrt/CMakeFiles/dbrt.dir/source/dbrt/urdf_object_loader.cpp.o
+Building CXX object catkin/core-perception/dbrt/CMakeFiles/dbrt.dir/source/dbrt/tracker/visual_tracker_ros.cpp.o
+Building CXX object catkin/core-perception/dbrt/CMakeFiles/dbrt.dir/source/dbrt/robot_transformer.cpp.o
+[ 98%] Building CXX object catkin/core-perception/dbrt/CMakeFiles/dbrt.dir/source/dbrt/tracker/fusion_tracker.cpp.o
+Building CXX object catkin/core-perception/dbrt/CMakeFiles/dbrt.dir/source/dbrt/kinematics_from_urdf.cpp.o
+Building CXX object catkin/core-perception/dbrt/CMakeFiles/dbrt.dir/source/dbrt/builder/robot_rb_observation_model_builder.cpp.o
+Building CXX object catkin/core-perception/dbrt/CMakeFiles/dbrt.dir/source/dbrt/robot_publisher.cpp.o
+Building CXX object catkin/core-perception/dbrt/CMakeFiles/dbrt.dir/source/dbrt/tracker/robot_tracker.cpp.o
+Building CXX object catkin/core-perception/dbrt/CMakeFiles/dbrt.dir/source/dbrt/tracker/rotary_tracker_factory.cpp.o
+Building CXX object catkin/core-perception/dbrt/CMakeFiles/dbrt.dir/source/dbrt/tracker/visual_tracker.cpp.o
+Building CXX object catkin/core-perception/dbrt/CMakeFiles/dbrt.dir/source/dbrt/tracker/rotary_tracker.cpp.o
+[ 98%] Built target test_point2point_look
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/strain_gauge_calibration/strain_gauge_data_recording
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libtracking_test_utils.so
+/home/amd_clmc/team/workspace/src/catkin/core-perception/dbrt/source/dbrt/tracker/visual_tracker.cpp:32:40: fatal error: dbot/rigid_body_renderer.hpp: No such file or directory
+compilation terminated.
+make[2]: *** [catkin/core-perception/dbrt/CMakeFiles/dbrt.dir/source/dbrt/tracker/visual_tracker.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/sl_controller_interface_test/test_cart_client
+In file included from /home/amd_clmc/team/workspace/src/catkin/core-perception/dbrt/source/dbrt/tracker/visual_tracker_factory.cpp:31:0:
+/home/amd_clmc/team/workspace/src/catkin/core-perception/dbrt/source/dbrt/tracker/visual_tracker_factory.h:35:32: fatal error: dbot/camera_data.hpp: No such file or directory
+compilation terminated.
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/sl_controller_interface_test/test_complementory_force_gains
+[ 98%] Built target tracking_test_utils
+[ 98%] Built target test_head_control
+[ 98%] Built target test_simultaneous_robot_part_motion
+[ 98%] Built target test_look_at_control
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/sl_controller_interface_test/test_cartesian_force_client
+[ 98%] Built target test_joint_trajectory_generator
+[ 98%] Built target test_gain_tfs_client
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/sl_controller_interface_test/test_right_arm_cart_force
+[ 98%] Built target test_follow_hand_with_head
+[ 98%] Built target strain_gauge_data_recording
+In file included from /home/amd_clmc/team/workspace/src/catkin/core-perception/dbrt/source/dbrt/tracker/robot_tracker.cpp:24:0:
+/home/amd_clmc/team/workspace/src/catkin/core-perception/dbrt/source/dbrt/tracker/robot_tracker.h:30:32: fatal error: dbot/camera_data.hpp: No such file or directory
+compilation terminated.
+[ 98%] Built target test_cart_client
+[ 98%] Built target test_complementory_force_gains
+make[2]: *** [catkin/core-perception/dbrt/CMakeFiles/dbrt.dir/source/dbrt/tracker/visual_tracker_factory.cpp.o] Error 1
+[ 98%] Built target test_cartesian_force_client
+Scanning dependencies of target test_cartesian_hand_tracking
+Scanning dependencies of target test_follow_hand_with_head_differentiated
+[ 98%] Built target test_right_arm_cart_force
+[ 98%] Building CXX object catkin/controller_manager/controller_manager_examples_apollo/CMakeFiles/test_cartesian_hand_tracking.dir/src/head_tracking/test_cartesian_hand_tracking.cpp.o
+[ 98%] Building CXX object catkin/controller_manager/controller_manager_examples_apollo/CMakeFiles/test_follow_hand_with_head_differentiated.dir/src/head_tracking/test_follow_hand_with_head_differentiated.cpp.o
+In file included from /home/amd_clmc/team/workspace/src/catkin/core-perception/dbrt/source/dbrt/tracker/rotary_tracker.h:30:0,
+                 from /home/amd_clmc/team/workspace/src/catkin/core-perception/dbrt/source/dbrt/tracker/rotary_tracker_factory.h:24,
+                 from /home/amd_clmc/team/workspace/src/catkin/core-perception/dbrt/source/dbrt/tracker/rotary_tracker_factory.cpp:19:
+/home/amd_clmc/team/workspace/src/catkin/core-perception/dbrt/source/dbrt/tracker/robot_tracker.h:30:32: fatal error: dbot/camera_data.hpp: No such file or directory
+compilation terminated.
+In file included from /home/amd_clmc/team/workspace/src/catkin/core-perception/dbrt/source/dbrt/tracker/rotary_tracker.h:30:0,
+                 from /home/amd_clmc/team/workspace/src/catkin/core-perception/dbrt/source/dbrt/tracker/rotary_tracker.cpp:20:
+/home/amd_clmc/team/workspace/src/catkin/core-perception/dbrt/source/dbrt/tracker/robot_tracker.h:30:32: fatal error: dbot/camera_data.hpp: No such file or directory
+compilation terminated.
+In file included from /home/amd_clmc/team/workspace/src/catkin/core-perception/dbrt/source/dbrt/tracker/visual_tracker_ros.h:25:0,
+                 from /home/amd_clmc/team/workspace/src/catkin/core-perception/dbrt/source/dbrt/tracker/visual_tracker_ros.cpp:20:
+/home/amd_clmc/team/workspace/src/catkin/core-perception/dbrt/source/dbrt/tracker/visual_tracker.h:39:68: fatal error: dbot/filter/rao_blackwell_coordinate_particle_filter.hpp: No such file or directory
+compilation terminated.
+In file included from /home/amd_clmc/team/workspace/src/catkin/core-perception/dbrt/source/dbrt/urdf_object_loader.cpp:22:0:
+/home/amd_clmc/team/workspace/src/catkin/core-perception/dbrt/source/dbrt/urdf_object_loader.h:24:40: fatal error: dbot/object_model_loader.hpp: No such file or directory
+compilation terminated.
+In file included from /home/amd_clmc/team/workspace/src/catkin/core-perception/dbrt/source/dbrt/tracker/fusion_tracker.h:34:0,
+                 from /home/amd_clmc/team/workspace/src/catkin/core-perception/dbrt/source/dbrt/tracker/fusion_tracker.cpp:22:
+/home/amd_clmc/team/workspace/src/catkin/core-perception/dbrt/source/dbrt/tracker/robot_tracker.h:30:32: fatal error: dbot/camera_data.hpp: No such file or directory
+compilation terminated.
+make[2]: *** [catkin/core-perception/dbrt/CMakeFiles/dbrt.dir/source/dbrt/tracker/robot_tracker.cpp.o] Error 1
+In file included from /home/amd_clmc/team/workspace/src/catkin/core-perception/dbrt/source/dbrt/robot_publisher.cpp:21:0:
+/home/amd_clmc/team/workspace/src/catkin/core-perception/dbrt/source/dbrt/robot_publisher.h:29:40: fatal error: dbot/rigid_body_renderer.hpp: No such file or directory
+compilation terminated.
+/home/amd_clmc/team/workspace/src/catkin/core-perception/dbrt/source/dbrt/builder/robot_rb_observation_model_builder.cpp:33:55: fatal error: dbot/builder/rb_observation_model_builder.h: No such file or directory
+compilation terminated.
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/from_object_to_grasp/visualize_riemo_grasp_from_tracking
+[ 98%] Built target visualize_riemo_grasp_from_tracking
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/from_object_to_grasp/visualize_grasp_from_tracking
+make[2]: *** [catkin/core-perception/dbrt/CMakeFiles/dbrt.dir/source/dbrt/tracker/rotary_tracker.cpp.o] Error 1
+[ 98%] Built target visualize_grasp_from_tracking
+make[2]: *** [catkin/core-perception/dbrt/CMakeFiles/dbrt.dir/source/dbrt/tracker/rotary_tracker_factory.cpp.o] Error 1
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/head_look_at_behaviour/control_look_at_behaviour
+make[2]: *** [catkin/core-perception/dbrt/CMakeFiles/dbrt.dir/source/dbrt/urdf_object_loader.cpp.o] Error 1
+make[2]: *** [catkin/core-perception/dbrt/CMakeFiles/dbrt.dir/source/dbrt/tracker/fusion_tracker.cpp.o] Error 1
+make[2]: *** [catkin/core-perception/dbrt/CMakeFiles/dbrt.dir/source/dbrt/tracker/visual_tracker_ros.cpp.o] Error 1
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/from_object_to_grasp/generate_grasp_from_tracking
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/head_look_at_behaviour/look_at_tracked_object
+[ 98%] Built target generate_grasp_from_tracking
+[ 98%] Built target control_look_at_behaviour
+make[2]: *** [catkin/core-perception/dbrt/CMakeFiles/dbrt.dir/source/dbrt/builder/robot_rb_observation_model_builder.cpp.o] Error 1
+make[2]: *** [catkin/core-perception/dbrt/CMakeFiles/dbrt.dir/source/dbrt/robot_publisher.cpp.o] Error 1
+[ 98%] Built target look_at_tracked_object
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/from_object_to_grasp/generate_riemo_grasp_from_tracking
+[ 98%] Built target generate_riemo_grasp_from_tracking
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/sl_controller_interface_test/test_follow_hand_with_head_differentiated
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/sl_controller_interface_test/test_cartesian_hand_tracking
+make[1]: *** [catkin/core-perception/dbrt/CMakeFiles/dbrt.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/dbot_ros/object_tracker_controller_service
+[ 98%] Built target test_follow_hand_with_head_differentiated
+[ 98%] Built target test_cartesian_hand_tracking
+[ 98%] Built target object_tracker_controller_service
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/dbot_ros/rms_gaussian_filter_object_tracker
+[ 98%] Built target rms_gaussian_filter_object_tracker
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/dbot_ros/rbc_particle_filter_object_tracker
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/dbot_ros/object_tracker_service
+[ 98%] Built target rbc_particle_filter_object_tracker
+[ 98%] Built target object_tracker_service
+Linking CXX shared library /home/amd_clmc/team/workspace/devel/lib/libtable_object_finder.so
+[ 98%] Built target table_object_finder
+make: *** [all] Error 2
+Base path: /home/amd_clmc/team/workspace
+Source space: /home/amd_clmc/team/workspace/src
+Build space: /home/amd_clmc/team/workspace/build
+Devel space: /home/amd_clmc/team/workspace/devel
+Install space: /home/amd_clmc/team/workspace/install
+####
+#### Running command: "cmake /home/amd_clmc/team/workspace/src -DCATKIN_DEVEL_PREFIX=/home/amd_clmc/team/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/amd_clmc/team/workspace/install" in "/home/amd_clmc/team/workspace/build"
+####
+####
+#### Running command: "make -j install" in "/home/amd_clmc/team/workspace/build"
+####
+Invoking "make" failed
