@@ -1,0 +1,176 @@
+failed to run unit-tests:
+WARNING: Package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits and underscores.
+WARNING: Package name "YAML_CPP" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits and underscores.
+WARNING: Package name "footsteps_planner_MIQCQP_sl" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits and underscores.
+WARNING: Package name "footsteps_planner_MIQCQP" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits and underscores.
+[ 50%] Built target geometry_utils
+[ 50%] Built target gtest
+[ 50%] Built target gtest_main
+Scanning dependencies of target geometry_utils_test
+[ 50%] Building CXX object catkin/humanoids/humanoid_control/robot_math/CMakeFiles/geometry_utils_test.dir/tests/geometry_utils/main.cpp.o
+[ 50%] Building CXX object catkin/humanoids/humanoid_control/robot_math/CMakeFiles/geometry_utils_test.dir/tests/geometry_utils/geometry_utils_test.cpp.o
+[ 50%] Building CXX object catkin/humanoids/humanoid_control/robot_math/CMakeFiles/geometry_utils_test.dir/tests/geometry_utils/sq_pose3d_test.cpp.o
+[ 75%] Building CXX object catkin/humanoids/humanoid_control/robot_math/CMakeFiles/geometry_utils_test.dir/tests/geometry_utils/sq_point3d_test.cpp.o
+[ 75%] Building CXX object catkin/humanoids/humanoid_control/robot_math/CMakeFiles/geometry_utils_test.dir/tests/geometry_utils/sq_twist6d_test.cpp.o
+[ 75%] Building CXX object catkin/humanoids/humanoid_control/robot_math/CMakeFiles/geometry_utils_test.dir/tests/geometry_utils/sq_wrench6d_test.cpp.o
+Linking CXX executable /home/amd_clmc/team/workspace/devel/lib/robot_math/geometry_utils_test
+[ 75%] Built target geometry_utils_test
+Scanning dependencies of target run_tests_robot_math_gtest_geometry_utils_test
+[==========] Running 39 tests from 7 test cases.
+[----------] Global test environment set-up.
+[----------] 22 tests from QuaternionTest
+[ RUN      ] QuaternionTest.quaternion_from_axis_angle
+[       OK ] QuaternionTest.quaternion_from_axis_angle (0 ms)
+[ RUN      ] QuaternionTest.quaternion_multiplications
+[       OK ] QuaternionTest.quaternion_multiplications (0 ms)
+[ RUN      ] QuaternionTest.quaternion_to_rotation_matrix
+[       OK ] QuaternionTest.quaternion_to_rotation_matrix (0 ms)
+[ RUN      ] QuaternionTest.skew_operations
+[       OK ] QuaternionTest.skew_operations (0 ms)
+[ RUN      ] QuaternionTest.rotation_matrix_to_quaternion
+[       OK ] QuaternionTest.rotation_matrix_to_quaternion (0 ms)
+[ RUN      ] QuaternionTest.quaternion_from_ZYX_angles
+[       OK ] QuaternionTest.quaternion_from_ZYX_angles (0 ms)
+[ RUN      ] QuaternionTest.quaternion_derivatives
+[       OK ] QuaternionTest.quaternion_derivatives (0 ms)
+[ RUN      ] QuaternionTest.quaternion_inverse
+[       OK ] QuaternionTest.quaternion_inverse (0 ms)
+[ RUN      ] QuaternionTest.quaternion_initialization
+[       OK ] QuaternionTest.quaternion_initialization (0 ms)
+[ RUN      ] QuaternionTest.rotating_vector_with_quaternion
+[       OK ] QuaternionTest.rotating_vector_with_quaternion (0 ms)
+[ RUN      ] QuaternionTest.quaternion_interpolation
+[       OK ] QuaternionTest.quaternion_interpolation (0 ms)
+[ RUN      ] QuaternionTest.rotation_matrix_to_rotation_vector
+[       OK ] QuaternionTest.rotation_matrix_to_rotation_vector (0 ms)
+[ RUN      ] QuaternionTest.rotation_vector_to_rotation_matrix
+[       OK ] QuaternionTest.rotation_vector_to_rotation_matrix (0 ms)
+[ RUN      ] QuaternionTest.quaternion_log_error
+[       OK ] QuaternionTest.quaternion_log_error (0 ms)
+[ RUN      ] QuaternionTest.overloaded_operations
+[       OK ] QuaternionTest.overloaded_operations (0 ms)
+[ RUN      ] QuaternionTest.quaternion_and_matrix_log_errors
+[       OK ] QuaternionTest.quaternion_and_matrix_log_errors (0 ms)
+[ RUN      ] QuaternionTest.spatial_algebra_operations
+[       OK ] QuaternionTest.spatial_algebra_operations (0 ms)
+[ RUN      ] QuaternionTest.conversion_to_eigen_quaternion
+[       OK ] QuaternionTest.conversion_to_eigen_quaternion (0 ms)
+[ RUN      ] QuaternionTest.comparing_quaternion_convention
+[       OK ] QuaternionTest.comparing_quaternion_convention (0 ms)
+[ RUN      ] QuaternionTest.comparing_quaternion_log_error
+[       OK ] QuaternionTest.comparing_quaternion_log_error (0 ms)
+[ RUN      ] QuaternionTest.euler_to_rotation
+[       OK ] QuaternionTest.euler_to_rotation (0 ms)
+[ RUN      ] QuaternionTest.mean_of_quaternions
+[       OK ] QuaternionTest.mean_of_quaternions (0 ms)
+[----------] 22 tests from QuaternionTest (0 ms total)
+
+[----------] 1 test from RotationMatrixTest
+[ RUN      ] RotationMatrixTest.Constructor
+[       OK ] RotationMatrixTest.Constructor (0 ms)
+[----------] 1 test from RotationMatrixTest (0 ms total)
+
+[----------] 4 tests from AffineTransformationTest
+[ RUN      ] AffineTransformationTest.ConstructorTranslation
+[       OK ] AffineTransformationTest.ConstructorTranslation (0 ms)
+[ RUN      ] AffineTransformationTest.ConstructorRotation
+[       OK ] AffineTransformationTest.ConstructorRotation (0 ms)
+[ RUN      ] AffineTransformationTest.Compose
+[       OK ] AffineTransformationTest.Compose (0 ms)
+[ RUN      ] AffineTransformationTest.Apply
+[       OK ] AffineTransformationTest.Apply (0 ms)
+[----------] 4 tests from AffineTransformationTest (0 ms total)
+
+[----------] 3 tests from SqPose3dTest
+[ RUN      ] SqPose3dTest.Pose3d_Transformation
+[       OK ] SqPose3dTest.Pose3d_Transformation (1 ms)
+[ RUN      ] SqPose3dTest.Pose3d_Operations
+[       OK ] SqPose3dTest.Pose3d_Operations (0 ms)
+[ RUN      ] SqPose3dTest.Pose3d_Types
+[       OK ] SqPose3dTest.Pose3d_Types (0 ms)
+[----------] 3 tests from SqPose3dTest (1 ms total)
+
+[----------] 3 tests from SqQuantitiesTest
+[ RUN      ] SqQuantitiesTest.Point3d_Transformation
+[       OK ] SqQuantitiesTest.Point3d_Transformation (0 ms)
+[ RUN      ] SqQuantitiesTest.Point3d_Point3d_Operations
+[       OK ] SqQuantitiesTest.Point3d_Point3d_Operations (0 ms)
+[ RUN      ] SqQuantitiesTest.Point3d_Point3d_Types
+[       OK ] SqQuantitiesTest.Point3d_Point3d_Types (0 ms)
+[----------] 3 tests from SqQuantitiesTest (0 ms total)
+
+[----------] 3 tests from SqTwist6dTest
+[ RUN      ] SqTwist6dTest.Twist6d_Transformation
+[       OK ] SqTwist6dTest.Twist6d_Transformation (0 ms)
+[ RUN      ] SqTwist6dTest.Twist6d_Operations
+[       OK ] SqTwist6dTest.Twist6d_Operations (0 ms)
+[ RUN      ] SqTwist6dTest.Twist6d_Types
+[       OK ] SqTwist6dTest.Twist6d_Types (0 ms)
+[----------] 3 tests from SqTwist6dTest (0 ms total)
+
+[----------] 3 tests from SqWrench6dTest
+[ RUN      ] SqWrench6dTest.Wrench6d_Transformation
+[       OK ] SqWrench6dTest.Wrench6d_Transformation (0 ms)
+[ RUN      ] SqWrench6dTest.Wrench6d_Operations
+[       OK ] SqWrench6dTest.Wrench6d_Operations (0 ms)
+[ RUN      ] SqWrench6dTest.Wrench6d_Types
+[       OK ] SqWrench6dTest.Wrench6d_Types (0 ms)
+[----------] 3 tests from SqWrench6dTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 39 tests from 7 test cases ran. (1 ms total)
+[  PASSED  ] 39 tests.
+-- run_tests.py: execute commands
+  /home/amd_clmc/team/workspace/devel/lib/robot_math/geometry_utils_test --gtest_output=xml:/home/amd_clmc/team/workspace/build/test_results/robot_math/gtest-geometry_utils_test.xml
+-- run_tests.py: verify result "/home/amd_clmc/team/workspace/build/test_results/robot_math/gtest-geometry_utils_test.xml"
+[ 75%] Built target run_tests_robot_math_gtest_geometry_utils_test
+Scanning dependencies of target robot_math_test
+[ 75%] Building CXX object catkin/humanoids/humanoid_control/robot_math/CMakeFiles/robot_math_test.dir/tests/robot_math/TestRtEiquadprog.cpp.o
+[ 75%] Building CXX object catkin/humanoids/humanoid_control/robot_math/CMakeFiles/robot_math_test.dir/tests/robot_math/movable_eigen_matrix_test.cpp.o
+[100%] Building CXX object catkin/humanoids/humanoid_control/robot_math/CMakeFiles/robot_math_test.dir/tests/robot_math/TestRtWaypointGenerator.cpp.o
+/home/amd_clmc/team/workspace/src/catkin/humanoids/humanoid_control/robot_math/tests/robot_math/TestRtWaypointGenerator.cpp: In member function 'virtual void robot_math::RtWaypointGeneration_Test_rt_waypoint_gen_query_Test::TestBody()':
+/home/amd_clmc/team/workspace/src/catkin/humanoids/humanoid_control/robot_math/tests/robot_math/TestRtWaypointGenerator.cpp:27:7: error: 'RtWaypointGenerator' was not declared in this scope
+/home/amd_clmc/team/workspace/src/catkin/humanoids/humanoid_control/robot_math/tests/robot_math/TestRtWaypointGenerator.cpp:27:7: note: suggested alternative:
+/home/amd_clmc/team/workspace/src/catkin/humanoids/humanoid_control/robot_math/include/robot_math/RtWaypointGenerator.hh:19:11: note:   'waypoint_gen::RtWaypointGenerator'
+/home/amd_clmc/team/workspace/src/catkin/humanoids/humanoid_control/robot_math/tests/robot_math/TestRtWaypointGenerator.cpp:27:59: error: 'rt_waypoint_gen' was not declared in this scope
+/home/amd_clmc/team/workspace/src/catkin/humanoids/humanoid_control/robot_math/tests/robot_math/TestRtWaypointGenerator.cpp:33:58: error: '::MatNwNd' has not been declared
+/home/amd_clmc/team/workspace/src/catkin/humanoids/humanoid_control/robot_math/tests/robot_math/TestRtWaypointGenerator.cpp:33:68: error: expected ';' before 'pos'
+/home/amd_clmc/team/workspace/src/catkin/humanoids/humanoid_control/robot_math/tests/robot_math/TestRtWaypointGenerator.cpp:34:30: error: 'pos' was not declared in this scope
+/home/amd_clmc/team/workspace/src/catkin/humanoids/humanoid_control/robot_math/tests/robot_math/TestRtWaypointGenerator.cpp:35:30: error: 'vel' was not declared in this scope
+/home/amd_clmc/team/workspace/src/catkin/humanoids/humanoid_control/robot_math/tests/robot_math/TestRtWaypointGenerator.cpp:36:30: error: 'acc' was not declared in this scope
+/home/amd_clmc/team/workspace/src/catkin/humanoids/humanoid_control/robot_math/tests/robot_math/TestRtWaypointGenerator.cpp:37:58: error: '::VecNw' has not been declared
+/home/amd_clmc/team/workspace/src/catkin/humanoids/humanoid_control/robot_math/tests/robot_math/TestRtWaypointGenerator.cpp:37:66: error: expected ';' before 'time'
+/home/amd_clmc/team/workspace/src/catkin/humanoids/humanoid_control/robot_math/tests/robot_math/TestRtWaypointGenerator.cpp:38:50: error: no matching function for call to 'floating_base_tools::RtMatrixXUtils::resize(time_t (&)(time_t*)throw (), int&, int)'
+/home/amd_clmc/team/workspace/src/catkin/humanoids/humanoid_control/robot_math/tests/robot_math/TestRtWaypointGenerator.cpp:38:50: note: candidate is:
+/home/amd_clmc/team/workspace/src/catkin/humanoids/humanoid_control/robot_math/include/robot_math/RtMatrixX.h:158:22: note: template<class Derived> static void floating_base_tools::RtMatrixXUtils::resize(Eigen::MatrixBase<Derived>&, int, int)
+/home/amd_clmc/team/workspace/src/catkin/humanoids/humanoid_control/robot_math/tests/robot_math/TestRtWaypointGenerator.cpp:43:17: error: invalid conversion from 'int' to 'time_t* {aka long int*}' [-fpermissive]
+/usr/include/time.h:186:15: error:   initializing argument 1 of 'time_t time(time_t*)' [-fpermissive]
+/home/amd_clmc/team/workspace/src/catkin/humanoids/humanoid_control/robot_math/tests/robot_math/TestRtWaypointGenerator.cpp:43:27: error: lvalue required as left operand of assignment
+/home/amd_clmc/team/workspace/src/catkin/humanoids/humanoid_control/robot_math/tests/robot_math/TestRtWaypointGenerator.cpp:44:61: error: invalid conversion from 'int' to 'time_t* {aka long int*}' [-fpermissive]
+/usr/include/time.h:186:15: error:   initializing argument 1 of 'time_t time(time_t*)' [-fpermissive]
+/home/amd_clmc/team/workspace/src/catkin/humanoids/humanoid_control/robot_math/tests/robot_math/TestRtWaypointGenerator.cpp:45:81: error: invalid conversion from 'int' to 'time_t* {aka long int*}' [-fpermissive]
+/usr/include/time.h:186:15: error:   initializing argument 1 of 'time_t time(time_t*)' [-fpermissive]
+/home/amd_clmc/team/workspace/src/catkin/humanoids/humanoid_control/robot_math/tests/robot_math/TestRtWaypointGenerator.cpp:46:102: error: invalid conversion from 'int' to 'time_t* {aka long int*}' [-fpermissive]
+/usr/include/time.h:186:15: error:   initializing argument 1 of 'time_t time(time_t*)' [-fpermissive]
+/home/amd_clmc/team/workspace/src/catkin/humanoids/humanoid_control/robot_math/tests/robot_math/TestRtWaypointGenerator.cpp:52:58: error: '::VecNd' has not been declared
+/home/amd_clmc/team/workspace/src/catkin/humanoids/humanoid_control/robot_math/tests/robot_math/TestRtWaypointGenerator.cpp:52:66: error: expected ';' before 'pos_query'
+/home/amd_clmc/team/workspace/src/catkin/humanoids/humanoid_control/robot_math/tests/robot_math/TestRtWaypointGenerator.cpp:53:30: error: 'pos_query' was not declared in this scope
+/home/amd_clmc/team/workspace/src/catkin/humanoids/humanoid_control/robot_math/tests/robot_math/TestRtWaypointGenerator.cpp:54:30: error: 'vel_query' was not declared in this scope
+/home/amd_clmc/team/workspace/src/catkin/humanoids/humanoid_control/robot_math/tests/robot_math/TestRtWaypointGenerator.cpp:55:30: error: 'acc_query' was not declared in this scope
+make[3]: *** [catkin/humanoids/humanoid_control/robot_math/CMakeFiles/robot_math_test.dir/tests/robot_math/TestRtWaypointGenerator.cpp.o] Error 1
+make[2]: *** [catkin/humanoids/humanoid_control/robot_math/CMakeFiles/robot_math_test.dir/all] Error 2
+make[1]: *** [catkin/humanoids/humanoid_control/robot_math/CMakeFiles/run_tests_robot_math.dir/rule] Error 2
+make: *** [run_tests_robot_math] Error 2
+Base path: /home/amd_clmc/team/workspace
+Source space: /home/amd_clmc/team/workspace/src
+Build space: /home/amd_clmc/team/workspace/build
+Devel space: /home/amd_clmc/team/workspace/devel
+Install space: /home/amd_clmc/team/workspace/install
+####
+#### Running command: "make cmake_check_build_system" in "/home/amd_clmc/team/workspace/build"
+####
+Forcing "-j1" for running unit tests.
+####
+#### Running command: "make -j run_tests_robot_math -j1" in "/home/amd_clmc/team/workspace/build"
+####
+Invoking "make" failed
