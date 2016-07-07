@@ -1,0 +1,18 @@
+failed to run demo (exception thrown). command: 
+
+/bin/bash /home/amd_clmc/team/workspace/tmp_run_demo.sh
+
+error message:
+
+error detected
+
+failed to run command '/bin/bash /home/amd_clmc/team/workspace/tmp_run_demo.sh
+
+Command '/bin/bash /home/amd_clmc/team/workspace/tmp_run_demo.sh' returned non-zero exit status 255
+
+content of sh script:
+#!/bin/bash
+source /home/amd_clmc/team/workspace/devel/setup.bash
+cd /home/amd_clmc/team/workspace/devel/lib/amd_clmc_dmp/
+chmod +x amd_clmc_dmp_dc_loa_so_sb_multi_demo_demo
+./amd_clmc_dmp_dc_loa_so_sb_multi_demo_demo /home/amd_clmc/team/workspace/devel
