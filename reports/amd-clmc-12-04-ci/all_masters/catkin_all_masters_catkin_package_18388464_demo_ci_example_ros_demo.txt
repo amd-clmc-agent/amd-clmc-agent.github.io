@@ -1,0 +1,48 @@
+demo run with success.
+
+log:
+
+#!/bin/bash
+source /home/amd_clmc/team/workspace/devel/setup.bash
+cd /home/amd_clmc/team/workspace/src/catkin/examples/ci_example/ci_example_python/demos/
+chmod +x ci_example_ros_demo
+./ci_example_ros_demo /home/amd_clmc/team/workspace/devel
+
+
+------ setting parameters -----
+
+------ PYTHON DEMO START ------
+
+pid using ros parameter server
+reading ros parameters: kp, kd, ki
+PID controller: kp:1 kd:1 ki:1
+force: -1.101
+
+------ DEMO END ------
+
+WARNING: Package name "YAML_CPP" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits and underscores.
+[31mcannot add process [rosout-1] after process monitor has been shut down[0m
+... logging to /root/.ros/log/d46174b6-4963-11e6-b549-0242ac110003/roslaunch-amd-clmc-12-04-ci-4668.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://amd-clmc-12-04-ci:47226/[0m
+ros_comm version 1.9.55
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro
+ * /rosversion
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [4682][0m
+[1mROS_MASTER_URI=http://amd-clmc-12-04-ci:11311/[0m
+]2;roscore http://amd-clmc-12-04-ci:11311/
+[1msetting /run_id to d46174b6-4963-11e6-b549-0242ac110003[0m
+[master] killing on exit
