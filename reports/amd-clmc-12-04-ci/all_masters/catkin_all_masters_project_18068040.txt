@@ -1,0 +1,262 @@
+COMMAND:catkin_make -j install
+------------------------------
+-- The C compiler identification is GNU
+-- The CXX compiler identification is GNU
+-- Check for working C compiler: /usr/bin/gcc
+-- Check for working C compiler: /usr/bin/gcc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Using CATKIN_DEVEL_PREFIX: /home/amd_clmc/team/workspace/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/groovy
+-- This workspace overlays: /opt/ros/groovy
+-- Found PythonInterp: /usr/bin/python (found version "2.7.3")
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+-- Python version: 2.7
+-- Using Debian Python package layout
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/amd_clmc/team/workspace/build/test_results
+-- Looking for include files CMAKE_HAVE_PTHREAD_H
+-- Looking for include files CMAKE_HAVE_PTHREAD_H - found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE 
+-- Found gtest sources under '/usr/src/gtest': gtests will be built
+-- catkin 0.5.90
+-- BUILD_SHARED_LIBS is on
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- ~~  traversing 10 packages in topological order:
+-- ~~  - ros_realtime (metapackage)
+-- ~~  - allocators
+-- ~~  - rosatomic
+-- ~~  - lockfree
+-- ~~  - rt_timer
+-- ~~  - xenomai_ros
+-- ~~  - rosrt
+-- ~~  - goto_ui
+-- ~~  - goto_ui_task
+-- ~~  - ros_rt_test
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- +++ processing catkin metapackage: 'ros_realtime'
+-- ==> add_subdirectory(catkin/ros/ros_realtime/ros_realtime)
+-- +++ processing catkin package: 'allocators'
+-- ==> add_subdirectory(catkin/ros/ros_realtime/allocators)
+-- Boost version: 1.46.1
+-- +++ processing catkin package: 'rosatomic'
+-- ==> add_subdirectory(catkin/ros/ros_realtime/rosatomic)
+-- +++ processing catkin package: 'lockfree'
+-- ==> add_subdirectory(catkin/ros/ros_realtime/lockfree)
+-- +++ processing catkin package: 'rt_timer'
+-- ==> add_subdirectory(catkin/ros/ros_realtime/rt_timer)
+-- +++ processing catkin package: 'xenomai_ros'
+-- ==> add_subdirectory(catkin/ros/xenomai-ros)
+-- +++ processing catkin package: 'rosrt'
+-- ==> add_subdirectory(catkin/ros/ros_realtime/rosrt)
+-- xenomai NOT found. (/usr/local;/usr)
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+-- Boost version: 1.46.1
+-- Found the following Boost libraries:
+--   thread
+-- +++ processing catkin package: 'goto_ui'
+-- ==> add_subdirectory(catkin/core-sl/goto_ui)
+CMake Error at /home/amd_clmc/team/workspace/devel/share/catkin/cmake/catkinConfig.cmake:75 (find_package):
+  Could not find a configuration file for package utilities.
+
+  Set utilities_DIR to the directory containing a CMake configuration file
+  for utilities.  The file will have one of the following names:
+
+    utilitiesConfig.cmake
+    utilities-config.cmake
+
+Call Stack (most recent call first):
+  catkin/core-sl/goto_ui/CMakeLists.txt:8 (find_package)
+
+
+CMake Error at /home/amd_clmc/team/workspace/devel/share/catkin/cmake/catkinConfig.cmake:75 (find_package):
+  Could not find a configuration file for package lwpr.
+
+  Set lwpr_DIR to the directory containing a CMake configuration file for
+  lwpr.  The file will have one of the following names:
+
+    lwprConfig.cmake
+    lwpr-config.cmake
+
+Call Stack (most recent call first):
+  catkin/core-sl/goto_ui/CMakeLists.txt:8 (find_package)
+
+
+CMake Error at /home/amd_clmc/team/workspace/devel/share/catkin/cmake/catkinConfig.cmake:75 (find_package):
+  Could not find a configuration file for package sl.
+
+  Set sl_DIR to the directory containing a CMake configuration file for sl.
+  The file will have one of the following names:
+
+    slConfig.cmake
+    sl-config.cmake
+
+Call Stack (most recent call first):
+  catkin/core-sl/goto_ui/CMakeLists.txt:8 (find_package)
+
+
+-- xenomai NOT found. (/usr/local;/usr)
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+-- Using these message generators: gencpp;genlisp;genpy
+-- goto_ui: 2 messages, 0 services
+-- +++ processing catkin package: 'goto_ui_task'
+-- ==> add_subdirectory(catkin/robots/goto_ui_task)
+-- MACHTYPE x86_64
+Detected MACHTYPE=x86_64
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:182 (message):
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+Call Stack (most recent call first):
+  catkin/robots/goto_ui_task/CMakeLists.txt:8 (include)
+
+
+-- HOST_NAME=amd-clmc-12-04-ci
+-- HOST=amd-clmc-12-04-ci
+-- LAB=AMD
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- CMAKE_INCLUDE_PATH=
+-- CMAKE_LIBRARY_PATH=
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+-- LAB_LIBDIR=lib/x86_64
+-- LAB_INCLUDES=include
+-- LAB_BINDIR=bin/x86_64
+CMake Error at /home/amd_clmc/team/workspace/devel/share/catkin/cmake/catkinConfig.cmake:75 (find_package):
+  Could not find a configuration file for package utilities.
+
+  Set utilities_DIR to the directory containing a CMake configuration file
+  for utilities.  The file will have one of the following names:
+
+    utilitiesConfig.cmake
+    utilities-config.cmake
+
+Call Stack (most recent call first):
+  catkin/robots/goto_ui_task/CMakeLists.txt:11 (find_package)
+
+
+CMake Error at /home/amd_clmc/team/workspace/devel/share/catkin/cmake/catkinConfig.cmake:75 (find_package):
+  Could not find a configuration file for package lwpr.
+
+  Set lwpr_DIR to the directory containing a CMake configuration file for
+  lwpr.  The file will have one of the following names:
+
+    lwprConfig.cmake
+    lwpr-config.cmake
+
+Call Stack (most recent call first):
+  catkin/robots/goto_ui_task/CMakeLists.txt:11 (find_package)
+
+
+CMake Error at /home/amd_clmc/team/workspace/devel/share/catkin/cmake/catkinConfig.cmake:75 (find_package):
+  Could not find a configuration file for package sl.
+
+  Set sl_DIR to the directory containing a CMake configuration file for sl.
+  The file will have one of the following names:
+
+    slConfig.cmake
+    sl-config.cmake
+
+Call Stack (most recent call first):
+  catkin/robots/goto_ui_task/CMakeLists.txt:11 (find_package)
+
+
+CMake Error at /home/amd_clmc/team/workspace/devel/share/catkin/cmake/catkinConfig.cmake:75 (find_package):
+  Could not find a configuration file for package apollo.
+
+  Set apollo_DIR to the directory containing a CMake configuration file for
+  apollo.  The file will have one of the following names:
+
+    apolloConfig.cmake
+    apollo-config.cmake
+
+Call Stack (most recent call first):
+  catkin/robots/goto_ui_task/CMakeLists.txt:11 (find_package)
+
+
+CMake Error at /home/amd_clmc/team/workspace/devel/share/goto_ui/cmake/goto_uiConfig.cmake:165 (find_package):
+  Could not find module Findutilities.cmake or a configuration file for
+  package utilities.
+
+  Adjust CMAKE_MODULE_PATH to find Findutilities.cmake or set utilities_DIR
+  to the directory containing a CMake configuration file for utilities.  The
+  file will have one of the following names:
+
+    utilitiesConfig.cmake
+    utilities-config.cmake
+
+Call Stack (most recent call first):
+  /home/amd_clmc/team/workspace/devel/share/catkin/cmake/catkinConfig.cmake:75 (find_package)
+  catkin/robots/goto_ui_task/CMakeLists.txt:11 (find_package)
+
+
+CMake Error at /home/amd_clmc/team/workspace/devel/share/goto_ui/cmake/goto_uiConfig.cmake:165 (find_package):
+  Could not find module Findutilities.cmake or a configuration file for
+  package utilities.
+
+  Adjust CMAKE_MODULE_PATH to find Findutilities.cmake or set utilities_DIR
+  to the directory containing a CMake configuration file for utilities.  The
+  file will have one of the following names:
+
+    utilitiesConfig.cmake
+    utilities-config.cmake
+
+Call Stack (most recent call first):
+  /home/amd_clmc/team/workspace/devel/share/catkin/cmake/catkinConfig.cmake:75 (find_package)
+  catkin/robots/goto_ui_task/CMakeLists.txt:11 (find_package)
+
+
+CMake Error at /home/amd_clmc/team/workspace/devel/share/goto_ui/cmake/goto_uiConfig.cmake:165 (find_package):
+  Could not find module Findlwpr.cmake or a configuration file for package
+  lwpr.
+
+  Adjust CMAKE_MODULE_PATH to find Findlwpr.cmake or set lwpr_DIR to the
+  directory containing a CMake configuration file for lwpr.  The file will
+  have one of the following names:
+
+    lwprConfig.cmake
+    lwpr-config.cmake
+
+Call Stack (most recent call first):
+  /home/amd_clmc/team/workspace/devel/share/catkin/cmake/catkinConfig.cmake:75 (find_package)
+  catkin/robots/goto_ui_task/CMakeLists.txt:11 (find_package)
+
+
+CMake Error at /home/amd_clmc/team/workspace/devel/share/goto_ui/cmake/goto_uiConfig.cmake:165 (find_package):
+  Could not find module Findsl.cmake or a configuration file for package sl.
+
+  Adjust CMAKE_MODULE_PATH to find Findsl.cmake or set sl_DIR to the
+  directory containing a CMake configuration file for sl.  The file will have
+  one of the following names:
+
+    slConfig.cmake
+    sl-config.cmake
+
+Call Stack (most recent call first):
+  /home/amd_clmc/team/workspace/devel/share/catkin/cmake/catkinConfig.cmake:75 (find_package)
+  catkin/robots/goto_ui_task/CMakeLists.txt:11 (find_package)
+
+
+-- xenomai NOT found. (/usr/local;/usr)
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+-- +++ processing catkin package: 'ros_rt_test'
+-- ==> add_subdirectory(catkin/ros/ros_rt_basic_example)
+-- xenomai NOT found. (/usr/local;/usr)
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+-- Configuring incomplete, errors occurred!
+Base path: /home/amd_clmc/team/workspace
+Source space: /home/amd_clmc/team/workspace/src
+Build space: /home/amd_clmc/team/workspace/build
+Devel space: /home/amd_clmc/team/workspace/devel
+Install space: /home/amd_clmc/team/workspace/install
+####
+#### Running command: "cmake /home/amd_clmc/team/workspace/src -DCATKIN_DEVEL_PREFIX=/home/amd_clmc/team/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/amd_clmc/team/workspace/install" in "/home/amd_clmc/team/workspace/build"
+####
+Invoking "cmake" failed

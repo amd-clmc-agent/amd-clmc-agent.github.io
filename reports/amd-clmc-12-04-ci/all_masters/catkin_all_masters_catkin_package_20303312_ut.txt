@@ -1,0 +1,39 @@
+failed to run unit-tests:
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[ 73%] Built target amd_clmc_ros_messages_generate_messages_cpp
+[ 73%] Built target lockfree
+[ 80%] Built target rosrt
+[ 86%] Built target riemo_rt
+[ 93%] Built target gtest
+[ 93%] Built target gtest_main
+Scanning dependencies of target utest_gp_speed
+[100%] Building CXX object catkin/controller_manager/core-sl-ros/riemo_rt/CMakeFiles/utest_gp_speed.dir/test/utest_gp_speed_main.cpp.o
+/home/amd_clmc/team/workspace/src/catkin/controller_manager/core-sl-ros/riemo_rt/test/utest_gp_speed_main.cpp: In member function 'virtual void TestSuite_TestRealTimeGPSteps_Test::TestBody()':
+/home/amd_clmc/team/workspace/src/catkin/controller_manager/core-sl-ros/riemo_rt/test/utest_gp_speed_main.cpp:214:26: error: 'GP_WINDOW_SIZE' was not declared in this scope
+/home/amd_clmc/team/workspace/src/catkin/controller_manager/core-sl-ros/riemo_rt/test/utest_gp_speed_main.cpp:215:19: error: 'GP_INPUT_SIZE' was not declared in this scope
+/home/amd_clmc/team/workspace/src/catkin/controller_manager/core-sl-ros/riemo_rt/test/utest_gp_speed_main.cpp:222:3: error: 'RTVectorXf' is not a member of 'riemo_rt'
+/home/amd_clmc/team/workspace/src/catkin/controller_manager/core-sl-ros/riemo_rt/test/utest_gp_speed_main.cpp:222:24: error: expected ';' before 'x'
+/home/amd_clmc/team/workspace/src/catkin/controller_manager/core-sl-ros/riemo_rt/test/utest_gp_speed_main.cpp:228:3: error: 'RTVectorXf' is not a member of 'riemo_rt'
+/home/amd_clmc/team/workspace/src/catkin/controller_manager/core-sl-ros/riemo_rt/test/utest_gp_speed_main.cpp:228:24: error: expected ';' before 'random_inputs'
+/home/amd_clmc/team/workspace/src/catkin/controller_manager/core-sl-ros/riemo_rt/test/utest_gp_speed_main.cpp:229:3: error: 'random_inputs' was not declared in this scope
+/home/amd_clmc/team/workspace/src/catkin/controller_manager/core-sl-ros/riemo_rt/test/utest_gp_speed_main.cpp:300:38: error: no matching function for call to 'riemo_rt::GaussianProcessRT::predict_prefilled(float&, float&)'
+/home/amd_clmc/team/workspace/src/catkin/controller_manager/core-sl-ros/riemo_rt/test/utest_gp_speed_main.cpp:300:38: note: candidate is:
+/home/amd_clmc/team/workspace/src/catkin/controller_manager/core-sl-ros/riemo_rt/include/riemo_rt/gp.h:71:12: note: double riemo_rt::GaussianProcessRT::predict_prefilled(double&, double&)
+/home/amd_clmc/team/workspace/src/catkin/controller_manager/core-sl-ros/riemo_rt/include/riemo_rt/gp.h:71:12: note:   no known conversion for argument 1 from 'float' to 'double&'
+make[3]: *** [catkin/controller_manager/core-sl-ros/riemo_rt/CMakeFiles/utest_gp_speed.dir/test/utest_gp_speed_main.cpp.o] Error 1
+make[2]: *** [catkin/controller_manager/core-sl-ros/riemo_rt/CMakeFiles/utest_gp_speed.dir/all] Error 2
+make[1]: *** [catkin/controller_manager/core-sl-ros/riemo_rt/CMakeFiles/run_tests_riemo_rt.dir/rule] Error 2
+make: *** [run_tests_riemo_rt] Error 2
+Base path: /home/amd_clmc/team/workspace
+Source space: /home/amd_clmc/team/workspace/src
+Build space: /home/amd_clmc/team/workspace/build
+Devel space: /home/amd_clmc/team/workspace/devel
+Install space: /home/amd_clmc/team/workspace/install
+####
+#### Running command: "make cmake_check_build_system" in "/home/amd_clmc/team/workspace/build"
+####
+Forcing "-j1" for running unit tests.
+####
+#### Running command: "make -j run_tests_riemo_rt -j1" in "/home/amd_clmc/team/workspace/build"
+####
+Invoking "make" failed

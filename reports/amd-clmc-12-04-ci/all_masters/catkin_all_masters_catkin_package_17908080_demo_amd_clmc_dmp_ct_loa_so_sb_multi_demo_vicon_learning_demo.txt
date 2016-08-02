@@ -1,0 +1,14 @@
+failed to run demo (exception thrown). command: 
+
+/bin/bash /home/amd_clmc/team/workspace/tmp_run_demo.sh
+
+error message:
+
+timeout exception raised after 60 seconds
+
+content of sh script:
+#!/bin/bash
+source /home/amd_clmc/team/workspace/devel/setup.bash
+cd /home/amd_clmc/team/workspace/devel/lib/amd_clmc_dmp/
+chmod +x amd_clmc_dmp_ct_loa_so_sb_multi_demo_vicon_learning_demo
+./amd_clmc_dmp_ct_loa_so_sb_multi_demo_vicon_learning_demo /home/amd_clmc/team/workspace/devel
