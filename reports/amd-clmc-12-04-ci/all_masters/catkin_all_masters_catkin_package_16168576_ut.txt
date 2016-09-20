@@ -1,0 +1,33 @@
+failed to run unit-tests:
+WARNING: Package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits and underscores.
+WARNING: Package name "YAML_CPP" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits and underscores.
+WARNING: Package name "footsteps_planner_MIQCQP_sl" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits and underscores.
+WARNING: Package name "footsteps_planner_MIQCQP" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits and underscores.
+[  0%] Built target gtest
+[  0%] Built target gtest_main
+Scanning dependencies of target robot_math_test
+[  0%] Building CXX object catkin/humanoids/humanoid_control/robot_math/CMakeFiles/robot_math_test.dir/tests/robot_math/TestRtEiquadprog.cpp.o
+[  0%] Building CXX object catkin/humanoids/humanoid_control/robot_math/CMakeFiles/robot_math_test.dir/tests/robot_math/movable_eigen_matrix_test.cpp.o
+[  0%] Building CXX object catkin/humanoids/humanoid_control/robot_math/CMakeFiles/robot_math_test.dir/tests/robot_math/TestRtWaypointGenerator.cpp.o
+/home/amd_clmc/team/workspace/src/catkin/humanoids/humanoid_control/robot_math/tests/robot_math/TestRtWaypointGenerator.cpp: In member function 'virtual void robot_math::RtWaypointGeneration_Test_rt_waypoint_gen_query_Test::TestBody()':
+/home/amd_clmc/team/workspace/src/catkin/humanoids/humanoid_control/robot_math/tests/robot_math/TestRtWaypointGenerator.cpp:31:23: error: 'class robot_math::RtWaypointGenerator<3, 10>' has no member named 'resize'
+/home/amd_clmc/team/workspace/src/catkin/humanoids/humanoid_control/robot_math/tests/robot_math/TestRtWaypointGenerator.cpp:50:23: error: 'class robot_math::RtWaypointGenerator<3, 10>' has no member named 'initializeWaypoints'
+/home/amd_clmc/team/workspace/src/catkin/humanoids/humanoid_control/robot_math/include/robot_math/RtWaypointGenerator.h:127:10: error: 'void robot_math::RtWaypointGenerator<num_dim, max_num_waypoints>::query(robot_math::RtWaypointGenerator<num_dim, max_num_waypoints>::VecNd&, robot_math::RtWaypointGenerator<num_dim, max_num_waypoints>::VecNd&, robot_math::RtWaypointGenerator<num_dim, max_num_waypoints>::VecNd&, double) [with int num_dim = 3, int max_num_waypoints = 10, robot_math::RtWaypointGenerator<num_dim, max_num_waypoints>::VecNd = Eigen::Matrix<double, 3, 1>]' is private
+/home/amd_clmc/team/workspace/src/catkin/humanoids/humanoid_control/robot_math/tests/robot_math/TestRtWaypointGenerator.cpp:58:69: error: within this context
+make[3]: *** [catkin/humanoids/humanoid_control/robot_math/CMakeFiles/robot_math_test.dir/tests/robot_math/TestRtWaypointGenerator.cpp.o] Error 1
+make[2]: *** [catkin/humanoids/humanoid_control/robot_math/CMakeFiles/robot_math_test.dir/all] Error 2
+make[1]: *** [catkin/humanoids/humanoid_control/robot_math/CMakeFiles/run_tests_robot_math.dir/rule] Error 2
+make: *** [run_tests_robot_math] Error 2
+Base path: /home/amd_clmc/team/workspace
+Source space: /home/amd_clmc/team/workspace/src
+Build space: /home/amd_clmc/team/workspace/build
+Devel space: /home/amd_clmc/team/workspace/devel
+Install space: /home/amd_clmc/team/workspace/install
+####
+#### Running command: "make cmake_check_build_system" in "/home/amd_clmc/team/workspace/build"
+####
+Forcing "-j1" for running unit tests.
+####
+#### Running command: "make -j run_tests_robot_math -j1" in "/home/amd_clmc/team/workspace/build"
+####
+Invoking "make" failed
