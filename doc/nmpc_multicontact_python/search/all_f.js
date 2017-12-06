@@ -1,0 +1,4 @@
+var searchData=
+[
+  ['regularizationcost',['RegularizationCost',['../classsrc_1_1nmpc__multicontact__python_1_1multicontact_1_1cost__multicontact_1_1RegularizationCost.html',1,'src::nmpc_multicontact_python::multicontact::cost_multicontact']]]
+];
