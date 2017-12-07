@@ -1,7 +1,11 @@
 var searchData=
 [
-  ['nc',['nc',['../classsrc_1_1nmpc__multicontact__python_1_1multicontact_1_1constraint__multicontact_1_1TerminalConstraint.html#a408c01d0c71c71df350765073961d808',1,'src::nmpc_multicontact_python::multicontact::constraint_multicontact::TerminalConstraint']]],
-  ['newtondynamics',['NewtonDynamics',['../classsrc_1_1nmpc__multicontact__python_1_1utils_1_1newton__dynamics_1_1NewtonDynamics.html',1,'src::nmpc_multicontact_python::utils::newton_dynamics']]],
-  ['nmpcmulticontact',['NMPCMulticontact',['../classsrc_1_1nmpc__multicontact__python_1_1multicontact_1_1nmpc__multicontact_1_1NMPCMulticontact.html',1,'src::nmpc_multicontact_python::multicontact::nmpc_multicontact']]],
-  ['nmpcplot',['NMPCPlot',['../classsrc_1_1nmpc__multicontact__python_1_1utils_1_1nmpc__plot_1_1NMPCPlot.html',1,'src::nmpc_multicontact_python::utils::nmpc_plot']]]
+  ['manipulability',['Manipulability',['../classsrc_1_1nmpc__multicontact__python_1_1algos_1_1manipulability_1_1Manipulability.html',1,'src::nmpc_multicontact_python::algos::manipulability']]],
+  ['manipulabilitycost',['ManipulabilityCost',['../classsrc_1_1nmpc__multicontact__python_1_1multicontact_1_1cost__multicontact_1_1ManipulabilityCost.html',1,'src::nmpc_multicontact_python::multicontact::cost_multicontact']]],
+  ['manipulabilityoptimization',['ManipulabilityOptimization',['../classsrc_1_1nmpc__multicontact__python_1_1manipulability_1_1manipulability__optimization_1_1ManipulabilityOptimization.html',1,'src::nmpc_multicontact_python::manipulability::manipulability_optimization']]],
+  ['manipulabilityoptimization6d',['ManipulabilityOptimization6D',['../classsrc_1_1nmpc__multicontact__python_1_1manipulability_1_1manipulability__optimization_1_1ManipulabilityOptimization6D.html',1,'src::nmpc_multicontact_python::manipulability::manipulability_optimization']]],
+  ['manipulabilityoptimizationendeffector',['ManipulabilityOptimizationEndEffector',['../classsrc_1_1nmpc__multicontact__python_1_1manipulability_1_1manipulability__optimization__end__efe237f708209fb7cd620970111dd8667.html',1,'src::nmpc_multicontact_python::manipulability::manipulability_optimization_end_effector']]],
+  ['manipulabilityoptimizationsvd',['ManipulabilityOptimizationSVD',['../classsrc_1_1nmpc__multicontact__python_1_1manipulability_1_1manipulability__optimization_1_1ManipulabilityOptimizationSVD.html',1,'src::nmpc_multicontact_python::manipulability::manipulability_optimization']]],
+  ['manipulabilityoptimizationwholebody',['ManipulabilityOptimizationWholeBody',['../classsrc_1_1nmpc__multicontact__python_1_1manipulability_1_1manipulability__optimization_1_1ManipulabilityOptimizationWholeBody.html',1,'src::nmpc_multicontact_python::manipulability::manipulability_optimization']]],
+  ['move_5ffigure',['move_figure',['../classsrc_1_1nmpc__multicontact__python_1_1utils_1_1plot_1_1GraphPlot.html#a702d6425e435c74479501bf0fac9ee5d',1,'src::nmpc_multicontact_python::utils::plot::GraphPlot']]]
 ];
