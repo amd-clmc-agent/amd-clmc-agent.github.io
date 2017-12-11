@@ -1,3 +1,5 @@
+WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
+
 -- Using CATKIN_DEVEL_PREFIX: /home/administrator/ci/ci/team/workspace/devel
 
 -- Using CMAKE_PREFIX_PATH: /opt/ros/indigo
@@ -22,11 +24,13 @@
 
 -- BUILD_SHARED_LIBS is on
 
+WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
+
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 -- ~~  traversing 14 packages in topological order:
 
--- ~~  - imu_core
+-- ~~  - Eigen
 
 -- ~~  - ros_realtime (metapackage)
 
@@ -38,49 +42,29 @@
 
 -- ~~  - rt_timer
 
--- ~~  - amd_clmc_ros_messages
+-- ~~  - vrpn_vicon_minimum
 
--- ~~  - ar_track_alvar_msgs
-
--- ~~  - custom_robot_msgs
-
--- ~~  - riemo_grasping_msgs
+-- ~~  - vrpn_vicon_objs_tracker
 
 -- ~~  - xenomai_ros
 
 -- ~~  - rosrt
 
--- ~~  - imu_ros_rt
-
 -- ~~  - ros_rt_test
+
+-- ~~  - vicon_bridge
+
+-- ~~  - vicon_core
+
+-- ~~  - vicon_subscriber
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- +++ processing catkin package: 'imu_core'
+-- +++ processing catkin package: 'Eigen'
 
--- ==> add_subdirectory(catkin/sensors/imu-core)
+-- ==> add_subdirectory(catkin/third_party/Eigen)
 
-CMake Error at catkin/sensors/imu-core/CMakeLists.txt:4 (include):
-
-  include could not find load file:
-
-
-
-    /home/administrator/ci/ci/team/workspace/src/cmake/sl_cmake_global/LAB.cmake
-
-
-
-
-
--- xenomai NOT found. (/usr/local;/usr)
-
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
-
--- Boost version: 1.54.0
-
--- Found the following Boost libraries:
-
---   thread
+WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
 
 -- +++ processing catkin metapackage: 'ros_realtime'
 
@@ -108,37 +92,13 @@ CMake Error at catkin/sensors/imu-core/CMakeLists.txt:4 (include):
 
 -- ==> add_subdirectory(catkin/ros/ros_realtime/rt_timer)
 
--- +++ processing catkin package: 'amd_clmc_ros_messages'
+-- +++ processing catkin package: 'vrpn_vicon_minimum'
 
--- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/amd_clmc_ros_messages)
+-- ==> add_subdirectory(catkin/perception/vrpn_vicon_minimum)
 
--- Using these message generators: gencpp;genlisp;genpy
+-- +++ processing catkin package: 'vrpn_vicon_objs_tracker'
 
--- amd_clmc_ros_messages: 107 messages, 10 services
-
--- +++ processing catkin package: 'ar_track_alvar_msgs'
-
--- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/ar_track_alvar_msgs)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- ar_track_alvar_msgs: 2 messages, 0 services
-
--- +++ processing catkin package: 'custom_robot_msgs'
-
--- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/custom_robot_msgs)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- custom_robot_msgs: 1 messages, 1 services
-
--- +++ processing catkin package: 'riemo_grasping_msgs'
-
--- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/riemo_grasping_msgs)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- riemo_grasping_msgs: 5 messages, 3 services
+-- ==> add_subdirectory(catkin/perception/vrpn_vicon_objs_tracker)
 
 -- +++ processing catkin package: 'xenomai_ros'
 
@@ -158,11 +118,33 @@ CMake Error at catkin/sensors/imu-core/CMakeLists.txt:4 (include):
 
 --   thread
 
--- +++ processing catkin package: 'imu_ros_rt'
+-- +++ processing catkin package: 'ros_rt_test'
 
--- ==> add_subdirectory(catkin/sensors/imu-ros-rt)
+-- ==> add_subdirectory(catkin/ros/ros_rt_basic_example)
 
-CMake Error at catkin/sensors/imu-ros-rt/CMakeLists.txt:4 (include):
+-- xenomai NOT found. (/usr/local;/usr)
+
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+
+-- +++ processing catkin package: 'vicon_bridge'
+
+-- ==> add_subdirectory(catkin/perception/vicon_bridge)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- Boost version: 1.54.0
+
+-- Found the following Boost libraries:
+
+--   thread
+
+-- vicon_bridge: 3 messages, 2 services
+
+-- +++ processing catkin package: 'vicon_core'
+
+-- ==> add_subdirectory(catkin/sensors/vicon-core)
+
+CMake Error at catkin/sensors/vicon-core/CMakeLists.txt:8 (include):
 
   include could not find load file:
 
@@ -178,29 +160,35 @@ CMake Error at catkin/sensors/imu-ros-rt/CMakeLists.txt:4 (include):
 
 -- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
 
--- Boost version: 1.54.0
+CMake Error at /home/administrator/ci/ci/team/workspace/devel/share/catkin/cmake/catkinConfig.cmake:75 (find_package):
 
--- Found the following Boost libraries:
+  Could not find a package configuration file provided by
 
---   thread
-
-CMake Error at catkin/sensors/imu-ros-rt/CMakeLists.txt:41 (install):
-
-  install TARGETS given target "imu_demo" which does not exist in this
-
-  directory.
+  "amd_clmc_ros_messages" with any of the following names:
 
 
 
+    amd_clmc_ros_messagesConfig.cmake
+
+    amd_clmc_ros_messages-config.cmake
 
 
--- +++ processing catkin package: 'ros_rt_test'
 
--- ==> add_subdirectory(catkin/ros/ros_rt_basic_example)
+  Add the installation prefix of "amd_clmc_ros_messages" to CMAKE_PREFIX_PATH
 
--- xenomai NOT found. (/usr/local;/usr)
+  or set "amd_clmc_ros_messages_DIR" to a directory containing one of the
 
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+  above files.  If "amd_clmc_ros_messages" provides a separate development
+
+  package or SDK, be sure it has been installed.
+
+Call Stack (most recent call first):
+
+  catkin/sensors/vicon-core/CMakeLists.txt:12 (find_package)
+
+
+
+
 
 -- Configuring incomplete, errors occurred!
 
