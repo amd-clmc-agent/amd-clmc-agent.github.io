@@ -1,17 +1,14 @@
-failed to compile unit tests:
-WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
-
 -- Using CATKIN_DEVEL_PREFIX: /home/administrator/ci/ci/team/workspace/devel
 
--- Using CMAKE_PREFIX_PATH: /home/administrator/ci/ci/team/workspace/devel;/opt/ros/indigo
+-- Using CMAKE_PREFIX_PATH: /opt/ros/indigo
 
--- This workspace overlays: /home/administrator/ci/ci/team/workspace/devel;/opt/ros/indigo
+-- This workspace overlays: /opt/ros/indigo
 
 -- Using PYTHON_EXECUTABLE: /usr/bin/python
 
--- Python version: 2.7
-
 -- Using Debian Python package layout
+
+-- Using empy: /usr/bin/empy
 
 -- Using CATKIN_ENABLE_TESTING: ON
 
@@ -21,319 +18,323 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 
 -- Found gtest sources under '/usr/src/gtest': gtests will be built
 
--- catkin 0.5.90
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+
+-- catkin 0.6.19
 
 -- BUILD_SHARED_LIBS is on
 
-WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
+-- ~~  traversing 18 packages in topological order:
+
+-- ~~  - astar_algo
+
+-- ~~  - soma
+
+-- ~~  - start_robot
+
+-- ~~  - amd_clmc_ros_messages
+
+-- ~~  - ar_track_alvar_msgs
+
+-- ~~  - custom_robot_msgs
+
+-- ~~  - riemo_grasping_msgs
+
+-- ~~  - playful_navigation_msgs
+
+-- ~~  - playful_pcl
+
+-- ~~  - playful_histograms
+
+-- ~~  - playful_navigation
+
+-- ~~  - playful_navigation_map
+
+-- ~~  - playful_virtual_detection
+
+-- ~~  - playful_depth_detection
+
+-- ~~  - playful_navigation_nodes
+
+-- ~~  - playful_nodes
+
+-- ~~  - playful_table_setting
+
+-- ~~  - playful_kinematics
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- ~~  traversing 19 packages in topological order:
+-- +++ processing catkin package: 'astar_algo'
 
--- ~~  - Eigen
+-- ==> add_subdirectory(catkin/playful/playful-navigation/externals/astar-algo)
 
--- ~~  - robot_properties
+-- +++ processing catkin package: 'soma'
 
--- ~~  - robot_properties_hermes_lower
+-- ==> add_subdirectory(catkin/playful/playful-soma)
 
--- ~~  - sl_config
+-- +++ processing catkin package: 'start_robot'
 
--- ~~  - utilities
+-- ==> add_subdirectory(catkin/robots/start_robot)
 
--- ~~  - lwpr
+-- +++ processing catkin package: 'amd_clmc_ros_messages'
 
--- ~~  - sl
+-- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/amd_clmc_ros_messages)
 
--- ~~  - yaml_cpp
+-- Using these message generators: gencpp;genlisp;genpy
 
--- ~~  - hermes_core
+-- amd_clmc_ros_messages: 107 messages, 10 services
 
--- ~~  - hermes_lower
+-- +++ processing catkin package: 'ar_track_alvar_msgs'
 
--- ~~  - robot_math
+-- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/ar_track_alvar_msgs)
 
--- ~~  - io_tools
+-- Using these message generators: gencpp;genlisp;genpy
 
--- ~~  - floating_base_tools_hermes_lower
+-- ar_track_alvar_msgs: 2 messages, 0 services
 
--- ~~  - io_tools_sl
+-- +++ processing catkin package: 'custom_robot_msgs'
 
--- ~~  - floating_base_tools_sl_hermes_lower
+-- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/custom_robot_msgs)
 
--- ~~  - footsteps_planner_miqcqp_sl
+-- Using these message generators: gencpp;genlisp;genpy
 
--- ~~  - generalized_motion_primitives_hermes_lower
+-- custom_robot_msgs: 1 messages, 1 services
 
--- ~~  - visualization_tools_hermes_lower
+-- +++ processing catkin package: 'riemo_grasping_msgs'
 
--- ~~  - hermes_lower_user
+-- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/riemo_grasping_msgs)
 
--- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- Using these message generators: gencpp;genlisp;genpy
 
--- +++ processing catkin package: 'Eigen'
+-- riemo_grasping_msgs: 5 messages, 3 services
 
--- ==> add_subdirectory(catkin/third_party/Eigen)
+-- +++ processing catkin package: 'playful_navigation_msgs'
 
-WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
+-- ==> add_subdirectory(catkin/playful/playful-navigation/navigation_msgs)
 
--- +++ processing catkin package: 'robot_properties'
+-- Using these message generators: gencpp;genlisp;genpy
 
--- ==> add_subdirectory(catkin/humanoids/humanoid_control_skinny/robot_properties/robot_properties)
+-- playful_navigation_msgs: 0 messages, 2 services
 
--- +++ processing catkin package: 'robot_properties_hermes_lower'
+-- +++ processing catkin package: 'playful_pcl'
 
--- ==> add_subdirectory(catkin/humanoids/humanoid_control_skinny/robot_properties/robot_properties_hermes_lower)
-
--- +++ processing catkin package: 'sl_config'
-
--- ==> add_subdirectory(catkin/core-sl/sl_config)
-
--- +++ processing catkin package: 'utilities'
-
--- ==> add_subdirectory(catkin/core-sl/locomotion-utilities)
-
--- +++ processing catkin package: 'lwpr'
-
--- ==> add_subdirectory(catkin/core-sl/locomotion-lwpr)
-
--- +++ processing catkin package: 'sl'
-
--- ==> add_subdirectory(catkin/core-sl/locomotion-sl)
-
--- Found libedit: /usr/lib/x86_64-linux-gnu/libedit.so
-
--- GLUT_LIBRARIES=/usr/lib/x86_64-linux-gnu/libglut.so;/usr/lib/x86_64-linux-gnu/libXmu.so;/usr/lib/x86_64-linux-gnu/libXi.so
-
--- GLUT_INCLUDE_DIR=/usr/include
-
--- GLUT_FOUND: TRUE
-
--- Libedit_INCLUDE_DIRS=/usr/include
-
--- Libedit_LIBRARIES=/usr/lib/x86_64-linux-gnu/libedit.so
-
--- SLros dependencies found; compiling ROS servo.
-
--- +++ processing catkin package: 'yaml_cpp'
-
--- ==> add_subdirectory(catkin/third_party/YAML_CPP)
-
--- Boost version: 1.54.0
-
--- +++ processing catkin package: 'hermes_core'
-
--- ==> add_subdirectory(catkin/robots/hermesCore)
-
--- +++ processing catkin package: 'hermes_lower'
-
--- ==> add_subdirectory(catkin/robots/hermesLower)
+-- ==> add_subdirectory(catkin/playful/playful-perception/playful_pcl)
 
 -- Boost version: 1.54.0
 
 -- Found the following Boost libraries:
-
---   thread
-
---   system
-
--- hermes_lower: compiling on everest; simulation only.
-
--- +++ processing catkin package: 'robot_math'
-
--- ==> add_subdirectory(catkin/humanoids/humanoid_control_skinny/robot_math)
-
--- +++ processing catkin package: 'io_tools'
-
--- ==> add_subdirectory(catkin/humanoids/humanoid_control_skinny/io_tools)
-
--- +++ processing catkin package: 'floating_base_tools_hermes_lower'
-
--- ==> add_subdirectory(catkin/humanoids/humanoid_control_skinny/floating_base_tools_common/floating_base_tools_hermes_lower)
-
--- +++ processing catkin package: 'io_tools_sl'
-
--- ==> add_subdirectory(catkin/humanoids/humanoid_control_skinny/io_tools_sl)
-
--- +++ processing catkin package: 'floating_base_tools_sl_hermes_lower'
-
--- ==> add_subdirectory(catkin/humanoids/humanoid_control_skinny/floating_base_tools_sl/floating_base_tools_sl_hermes_lower)
-
--- Boost version: 1.54.0
-
--- Found the following Boost libraries:
-
---   thread
-
---   system
-
---   filesystem
-
--- +++ processing catkin package: 'footsteps_planner_miqcqp_sl'
-
--- ==> add_subdirectory(catkin/humanoids/humanoid_control_skinny/contacts_planning_sl/footsteps_planner_MIQCQP_sl)
-
--- Boost version: 1.54.0
-
--- Found the following Boost libraries:
-
---   system
-
---   program_options
-
---   filesystem
-
--- +++ processing catkin package: 'generalized_motion_primitives_hermes_lower'
-
--- ==> add_subdirectory(catkin/humanoids/generalized_motion_primitives/generalized_motion_primitives_hermes_lower)
-
--- Boost version: 1.54.0
-
--- Found the following Boost libraries:
-
---   system
-
--- +++ processing catkin package: 'visualization_tools_hermes_lower'
-
--- ==> add_subdirectory(catkin/humanoids/humanoid_control_skinny/visualization_tools/visualization_tools_hermes_lower)
-
--- Boost version: 1.54.0
-
--- Found the following Boost libraries:
-
---   thread
 
 --   system
 
 --   filesystem
 
--- +++ processing catkin package: 'hermes_lower_user'
+--   thread
 
--- ==> add_subdirectory(catkin/robots/hermesLowerUser)
+--   date_time
+
+--   iostreams
+
+--   serialization
+
+--   chrono
+
+-- checking for module 'openni-dev'
+
+--   package 'openni-dev' not found
+
+-- checking for module 'openni2-dev'
+
+--   package 'openni2-dev' not found
+
+** WARNING ** io features related to pcap will be disabled
+
+** WARNING ** io features related to png will be disabled
+
+-- checking for module 'openni-dev'
+
+--   package 'openni-dev' not found
+
+-- checking for module 'openni2-dev'
+
+--   package 'openni2-dev' not found
+
+-- looking for PCL_COMMON
+
+-- looking for PCL_KDTREE
+
+-- looking for PCL_OCTREE
+
+-- looking for PCL_SEARCH
+
+-- looking for PCL_SURFACE
+
+-- looking for PCL_SAMPLE_CONSENSUS
+
+-- looking for PCL_FILTERS
+
+-- looking for PCL_FEATURES
+
+-- looking for PCL_KEYPOINTS
+
+-- looking for PCL_GEOMETRY
+
+-- looking for PCL_IO
+
+-- looking for PCL_VISUALIZATION
+
+-- looking for PCL_SEGMENTATION
+
+-- looking for PCL_PEOPLE
+
+-- looking for PCL_REGISTRATION
+
+-- looking for PCL_RECOGNITION
+
+-- looking for PCL_OUTOFCORE
+
+-- looking for PCL_TRACKING
+
+-- +++ processing catkin package: 'playful_histograms'
+
+-- ==> add_subdirectory(catkin/playful/playful-perception/playful_histograms)
 
 -- Boost version: 1.54.0
 
 -- Found the following Boost libraries:
 
---   regex
+--   system
 
---   filesystem
+-- +++ processing catkin package: 'playful_navigation'
+
+-- ==> add_subdirectory(catkin/playful/playful-navigation/navigation_libs)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- +++ processing catkin package: 'playful_navigation_map'
+
+-- ==> add_subdirectory(catkin/playful/playful-navigation/navigation_map)
+
+-- +++ processing catkin package: 'playful_virtual_detection'
+
+-- ==> add_subdirectory(catkin/playful/playful-perception/playful_virtual_detection)
+
+-- +++ processing catkin package: 'playful_depth_detection'
+
+-- ==> add_subdirectory(catkin/playful/playful-perception/playful_depth_detection)
+
+-- +++ processing catkin package: 'playful_navigation_nodes'
+
+-- ==> add_subdirectory(catkin/playful/playful-navigation/navigation_nodes)
+
+-- +++ processing catkin package: 'playful_nodes'
+
+-- ==> add_subdirectory(catkin/playful/playful-perception/playful_nodes)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- Boost version: 1.54.0
+
+-- Found the following Boost libraries:
 
 --   system
 
+--   filesystem
+
 --   thread
 
-julia interface not found, not compiling in julia tasks
+--   date_time
 
-If you want the julia interface, you need the julia_sl_interface package, and you must set an environment flag called JULIA_PATH, pointing to a directory containing a (properly compiled) julia repository. E.g.:
+--   iostreams
 
-juliaDir=~/julia; mkdir -p $juliaDir; cd $juliaDir; git clone https://github.com/JuliaLang/julia.git .; git checkout v0.4.2; make -j 8; echo JULIA_PATH="$juliaDir" >> ~/.bashrc; echo "export PATH=\$PATH:" $juliaDir >> ~/.bashrc; source ~/.bashrc
+--   serialization
 
--- Configuring done
+--   chrono
 
--- Generating done
+-- checking for module 'openni-dev'
 
--- Build files have been written to: /home/administrator/ci/ci/team/workspace/build
+--   package 'openni-dev' not found
 
-Scanning dependencies of target gtest
+-- checking for module 'openni2-dev'
 
-[  0%] [ 68%] Built target utility
+--   package 'openni2-dev' not found
 
-Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+** WARNING ** io features related to pcap will be disabled
 
-[ 73%] Built target geometry_utils
+** WARNING ** io features related to png will be disabled
 
-[ 78%] Built target configuration_file_loading
+-- checking for module 'openni-dev'
 
-Linking CXX shared library libgtest.so
+--   package 'openni-dev' not found
 
-[ 78%] Built target gtest
+-- checking for module 'openni2-dev'
 
-Scanning dependencies of target gtest_main
+--   package 'openni2-dev' not found
 
-[ 84%] Building CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+-- looking for PCL_COMMON
 
-Linking CXX shared library libgtest_main.so
+-- looking for PCL_KDTREE
 
-[ 84%] Built target gtest_main
+-- looking for PCL_OCTREE
 
-Scanning dependencies of target geometry_utils_test
+-- looking for PCL_SEARCH
 
-[ 89%] Building CXX object catkin/humanoids/humanoid_control_skinny/robot_math/CMakeFiles/geometry_utils_test.dir/tests/geometry_utils/main.cpp.o
+-- looking for PCL_SURFACE
 
-[ 94%] [ 94%] [ 94%] Building CXX object catkin/humanoids/humanoid_control_skinny/robot_math/CMakeFiles/geometry_utils_test.dir/tests/geometry_utils/coordinate_transform_test.cpp.o
+-- looking for PCL_SAMPLE_CONSENSUS
 
-Building CXX object catkin/humanoids/humanoid_control_skinny/robot_math/CMakeFiles/geometry_utils_test.dir/tests/geometry_utils/geometry_utils_test.cpp.o
+-- looking for PCL_FILTERS
 
-Building CXX object catkin/humanoids/humanoid_control_skinny/robot_math/CMakeFiles/geometry_utils_test.dir/tests/geometry_utils/spatial_algebra_test.cpp.o
+-- looking for PCL_FEATURES
 
-Scanning dependencies of target configuration_file_loading_tests
+-- looking for PCL_KEYPOINTS
 
-Scanning dependencies of target robot_math_test
+-- looking for PCL_GEOMETRY
 
-[ 94%] Building CXX object catkin/humanoids/humanoid_control_skinny/io_tools/CMakeFiles/configuration_file_loading_tests.dir/src/configuration_file_loading/TestConfigurationFileReader.cpp.o
+-- looking for PCL_IO
 
-[ 94%] [ 94%] [100%] Building CXX object catkin/humanoids/humanoid_control_skinny/robot_math/CMakeFiles/robot_math_test.dir/tests/robot_math/movable_eigen_matrix_test.cpp.o
+-- looking for PCL_VISUALIZATION
 
-Building CXX object catkin/humanoids/humanoid_control_skinny/robot_math/CMakeFiles/robot_math_test.dir/tests/robot_math/TestRtWaypointGenerator.cpp.o
+-- looking for PCL_SEGMENTATION
 
-Building CXX object catkin/humanoids/humanoid_control_skinny/robot_math/CMakeFiles/robot_math_test.dir/tests/robot_math/TestRtEiquadprog.cpp.o
+-- looking for PCL_PEOPLE
 
-/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control_skinny/io_tools/src/configuration_file_loading/TestConfigurationFileReader.cpp: In function ‘void test_configuration_file_loading::changeToDirectoryWithConfigFile()’:
+-- looking for PCL_REGISTRATION
 
-/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control_skinny/io_tools/src/configuration_file_loading/TestConfigurationFileReader.cpp:33:74: warning: ignoring return value of ‘int chdir(const char*)’, declared with attribute warn_unused_result [-Wunused-result]
+-- looking for PCL_RECOGNITION
 
-   chdir("../../../../../src/catkin/humanoids/humanoid_control/io_tools/"); //configuration_file_loading"); //
+-- looking for PCL_OUTOFCORE
 
-                                                                          ^
+-- looking for PCL_TRACKING
 
-/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control_skinny/robot_math/tests/robot_math/TestRtWaypointGenerator.cpp: In member function ‘virtual void robot_math::RtWaypointGeneration_Test_rt_waypoint_gen_query_Test::TestBody()’:
+-- +++ processing catkin package: 'playful_table_setting'
 
-/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control_skinny/robot_math/tests/robot_math/TestRtWaypointGenerator.cpp:31:23: error: ‘class robot_math::RtWaypointGenerator<3, 10>’ has no member named ‘resize’
+-- ==> add_subdirectory(catkin/playful/playful-table-setting)
 
-       rt_waypoint_gen.resize(num_dim,num_waypoints);
+-- +++ processing catkin package: 'playful_kinematics'
 
-                       ^
+-- ==> add_subdirectory(catkin/playful/playful-kinematics)
 
-/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control_skinny/robot_math/tests/robot_math/TestRtWaypointGenerator.cpp:50:23: error: ‘class robot_math::RtWaypointGenerator<3, 10>’ has no member named ‘initializeWaypoints’
+CMake Error at /opt/ros/indigo/share/catkin/cmake/catkin_python_setup.cmake:96 (message):
 
-       rt_waypoint_gen.initializeWaypoints(pos, vel, acc, time);
+  The package name 'playful_kinematics' differs from the basename of the path
 
-                       ^
+  'scripts' in project 'playful_kinematics'
 
-In file included from /home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control_skinny/robot_math/tests/robot_math/TestRtWaypointGenerator.cpp:3:0:
+Call Stack (most recent call first):
 
-/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control_skinny/robot_math/include/robot_math/RtWaypointGenerator.h:127:10: error: ‘void robot_math::RtWaypointGenerator<num_dim, max_num_waypoints>::query(robot_math::RtWaypointGenerator<num_dim, max_num_waypoints>::VecNd&, robot_math::RtWaypointGenerator<num_dim, max_num_waypoints>::VecNd&, robot_math::RtWaypointGenerator<num_dim, max_num_waypoints>::VecNd&, double) [with int num_dim = 3; int max_num_waypoints = 10; robot_math::RtWaypointGenerator<num_dim, max_num_waypoints>::VecNd = Eigen::Matrix<double, 3, 1>]’ is private
+  catkin/playful/playful-kinematics/CMakeLists.txt:69 (catkin_python_setup)
 
-     void RtWaypointGenerator<num_dim,max_num_waypoints>::query(VecNd &pos, VecNd &vel, VecNd &acc, double time) {
 
-          ^
 
-/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control_skinny/robot_math/tests/robot_math/TestRtWaypointGenerator.cpp:58:69: error: within this context
 
-       rt_waypoint_gen.query(pos_query, vel_query, acc_query, t_query);
 
-                                                                     ^
+-- Configuring incomplete, errors occurred!
 
-make[3]: *** [catkin/humanoids/humanoid_control_skinny/robot_math/CMakeFiles/robot_math_test.dir/tests/robot_math/TestRtWaypointGenerator.cpp.o] Error 1
+See also "/home/administrator/ci/ci/team/workspace/build/CMakeFiles/CMakeOutput.log".
 
-make[3]: *** Waiting for unfinished jobs....
-
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/io_tools/configuration_file_loading_tests
-
-[100%] Built target configuration_file_loading_tests
-
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/robot_math/geometry_utils_test
-
-[100%] Built target geometry_utils_test
-
-make[2]: *** [catkin/humanoids/humanoid_control_skinny/robot_math/CMakeFiles/robot_math_test.dir/all] Error 2
-
-make[1]: *** [CMakeFiles/tests.dir/rule] Error 2
-
-make: *** [tests] Error 2
+See also "/home/administrator/ci/ci/team/workspace/build/CMakeFiles/CMakeError.log".
 
 Base path: /home/administrator/ci/ci/team/workspace
 
@@ -347,14 +348,8 @@ Install space: /home/administrator/ci/ci/team/workspace/install
 
 ####
 
-#### Running command: "cmake /home/administrator/ci/ci/team/workspace/src -DCATKIN_DEVEL_PREFIX=/home/administrator/ci/ci/team/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/administrator/ci/ci/team/workspace/install" in "/home/administrator/ci/ci/team/workspace/build"
+#### Running command: "cmake /home/administrator/ci/ci/team/workspace/src -DCATKIN_DEVEL_PREFIX=/home/administrator/ci/ci/team/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/administrator/ci/ci/team/workspace/install -G Unix Makefiles" in "/home/administrator/ci/ci/team/workspace/build"
 
 ####
 
-####
-
-#### Running command: "make -j16 tests" in "/home/administrator/ci/ci/team/workspace/build"
-
-####
-
-Invoking "make" failed
+Invoking "cmake" failed
