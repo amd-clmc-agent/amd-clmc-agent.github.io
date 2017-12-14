@@ -1,764 +1,659 @@
-failed to run unit tests:
-Scanning dependencies of target clean_test_results_signed_distance_field
+-- The C compiler identification is GNU 4.8.4
 
-Removing test result files from '/home/administrator/ci/ci/team/workspace/build/test_results/signed_distance_field'
+-- The CXX compiler identification is GNU 4.8.4
 
-[  0%] Built target clean_test_results_signed_distance_field
+-- Check for working C compiler: /usr/bin/cc
 
-[  0%] Built target topic_tools_generate_messages_py
+-- Check for working C compiler: /usr/bin/cc -- works
 
-[  0%] Built target _catkin_empty_exported_target
+-- Detecting C compiler ABI info
 
-[  1%] Built target lula_util
+-- Detecting C compiler ABI info - done
 
-[  1%] Built target lula_testing
+-- Check for working CXX compiler: /usr/bin/c++
 
-[  1%] Built target lula_log
+-- Check for working CXX compiler: /usr/bin/c++ -- works
 
-[  5%] Built target lula_differential_geometry
+-- Detecting CXX compiler ABI info
 
-[  5%] Built target lula_differential_geometry_testing
+-- Detecting CXX compiler ABI info - done
 
-[  6%] Built target lula_optimization
+-- Using CATKIN_DEVEL_PREFIX: /home/administrator/ci/ci/team/workspace/devel
 
-[  8%] Built target lula_motion
+-- Using CMAKE_PREFIX_PATH: /opt/ros/indigo
 
-[  8%] Built target lula_workspace
+-- This workspace overlays: /opt/ros/indigo
 
-[  8%] Built target geometry_msgs_generate_messages_py
+-- Found PythonInterp: /usr/bin/python (found version "2.7.6") 
 
-[  8%] Built target std_msgs_generate_messages_cpp
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
 
-[  8%] Built target std_msgs_generate_messages_py
+-- Using Debian Python package layout
 
-[  8%] Built target geometry_msgs_generate_messages_lisp
+-- Using empy: /usr/bin/empy
 
-[  8%] Built target std_msgs_generate_messages_lisp
+-- Using CATKIN_ENABLE_TESTING: ON
 
-[  8%] Built target geometry_msgs_generate_messages_cpp
+-- Call enable_testing()
 
-[  8%] Built target _dbot_ros_msgs_generate_messages_check_deps_ObjectsState
+-- Using CATKIN_TEST_RESULTS_DIR: /home/administrator/ci/ci/team/workspace/build/test_results
 
-[  8%] Built target _dbot_ros_msgs_generate_messages_check_deps_ObjectOri
+-- Looking for include file pthread.h
 
-[  8%] Built target _dbot_ros_msgs_generate_messages_check_deps_ObjectState
+-- Looking for include file pthread.h - found
 
-[  8%] Built target _dbot_ros_msgs_generate_messages_check_deps_RunObjectTracker
+-- Looking for pthread_create
 
-[  8%] Built target _dbot_ros_msgs_generate_messages_check_deps_TrackObject
+-- Looking for pthread_create - not found
 
-[  8%] Built target _dbot_ros_msgs_generate_messages_check_deps_FindObject
+-- Looking for pthread_create in pthreads
 
-[  8%] Built target dbot_ros_msgs_generate_messages_cpp
+-- Looking for pthread_create in pthreads - not found
 
-[  8%] Built target sensor_msgs_generate_messages_py
+-- Looking for pthread_create in pthread
 
-[  8%] Built target sensor_msgs_generate_messages_cpp
+-- Looking for pthread_create in pthread - found
 
-[  8%] Built target sensor_msgs_generate_messages_lisp
+-- Found Threads: TRUE  
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_AccelerationFeedbackExperimentStatus
+-- Found gtest sources under '/usr/src/gtest': gtests will be built
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_BoundingPoints
+-- Using Python nosetests: /usr/bin/nosetests-2.7
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineLearningControl
+-- catkin 0.6.19
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerDataStatus
+-- BUILD_SHARED_LIBS is on
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibratePressureSensorsStatus
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Goto_command
+-- ~~  traversing 3 packages in topological order:
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PolicyControllerParamsService
+-- ~~  - utilities
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SwitchControllerStack
+-- ~~  - lwpr
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_RtNetwork
+-- ~~  - sl
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ResetBreakaway
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspControllerStatus
+-- +++ processing catkin package: 'utilities'
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_BiotacData
+-- ==> add_subdirectory(catkin/core-sl/catkin-utilities)
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ExperimentParams
+-- MACHTYPE x86_64
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_AvgPressureSensors
+Detected MACHTYPE=x86_64
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_QueryControllerStatus
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Volumes
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_UpdateStrainGagesCalibration
+Call Stack (most recent call first):
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ImageCoordinates
+  catkin/core-sl/catkin-utilities/CMakeLists.txt:8 (include)
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LabeledPoint
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_IncreaseMaxFingerTorque
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateBiotacSensorsStatus
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Preshape
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LqrControllerDataStatus
+-- HOST_NAME=everest
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PressureSensors
+-- HOST=everest
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ObstaclePoints
+-- LAB=AMD
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateForceTorqueSensor
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CartesianTrajectory
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Acceleration
+-- CMAKE_INCLUDE_PATH=
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PolicyControllerDataStatus
+-- CMAKE_LIBRARY_PATH=
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerParamsService
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspPoses
+-- LAB_LIBDIR=lib/x86_64
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_TrajectoryStatus
+-- LAB_INCLUDES=include
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ExperimentGeneratorParamsService
+-- LAB_BINDIR=bin/x86_64
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PointArrayArray
+-- +++ processing catkin package: 'lwpr'
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerStatus
+-- ==> add_subdirectory(catkin/core-sl/catkin-lwpr)
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CartesianTrajectoryPoint
+-- MACHTYPE x86_64
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LookAtParams
+Detected MACHTYPE=x86_64
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineNetwork
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_BiotacFingerData
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CollectDataStatus
+Call Stack (most recent call first):
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ColorRange
+  catkin/core-sl/catkin-lwpr/CMakeLists.txt:5 (include)
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LookAtStatus
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DMPControllerStatus
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_RtNetworkLayer
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibratePressureSensors
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Extrems
+-- HOST_NAME=everest
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DMPCommand
+-- HOST=everest
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_NetworkLayer
+-- LAB=AMD
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ScaledLqr
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ViconQuery
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspControllerParams
+-- CMAKE_INCLUDE_PATH=
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_TrajectoryPoint
+-- CMAKE_LIBRARY_PATH=
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SetPoses
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_UpdateStrainGagesCalibrationStatus
+-- LAB_LIBDIR=lib/x86_64
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DMPControllerParams
+-- LAB_INCLUDES=include
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Path
+-- LAB_BINDIR=bin/x86_64
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SetVisualToolTracking
+-- +++ processing catkin package: 'sl'
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ContinuousTrajectoryStatus
+-- ==> add_subdirectory(catkin/core-sl/catkin-sl)
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ContinuousTrajectoryPoint
+-- MACHTYPE x86_64
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_BoundingPointsArray
+Detected MACHTYPE=x86_64
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SetObjectOri
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_EndEffectorPosition
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_InverseDynamicsBatchNetworkControllerStatus
+Call Stack (most recent call first):
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Imu
+  catkin/core-sl/catkin-sl/CMakeLists.txt:8 (include)
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_FingerJointEncoderOffsetsStatus
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerParams
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineDataStatus
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_AffinePolicy
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateAccelerometerSensorStatus
+-- HOST_NAME=everest
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspStatus
+-- HOST=everest
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DistanceFieldEval
+-- LAB=AMD
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LqrControllerParams
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CartesianGains
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ChordEllipsoid
+-- CMAKE_INCLUDE_PATH=
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OnlineDataStatus
+-- CMAKE_LIBRARY_PATH=
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DistanceFieldQueries
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_FingerJointEncoderOffsets
+-- LAB_LIBDIR=lib/x86_64
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_KeyPointBodyApprox
+-- LAB_INCLUDES=include
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineLearningControlService
+-- LAB_BINDIR=bin/x86_64
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LinearQuadraticRegulatorParams
+-- Configuring done
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LqrControllerParamsService
+-- Generating done
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Grasp
+-- Build files have been written to: /home/administrator/ci/ci/team/workspace/build
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_FingerForceControlGains
+Scanning dependencies of target SLmotor
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateBiotacSensors
+Scanning dependencies of target utility
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_StrainGauge
+Scanning dependencies of target SLvision
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ExtremsArray
+Scanning dependencies of target SLcommon
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_TaskFrame
+Scanning dependencies of target SLsimulation
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Sphere
+Scanning dependencies of target SLopenGL
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_EndEffectorState
+Scanning dependencies of target SLtask
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_RectangularBox
+[  1%] [  2%] [  5%] [  5%] [  6%] [  7%] [  8%] [ 11%] [ 12%] [ 12%] [ 13%] [ 15%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLmotor.dir/src/SL_sensor_proc.c.o
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ViconData
+[ 16%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/brent.c.o
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SpeedChange
+[ 17%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLmotor.dir/src/SL_motor_servo_unix.c.o
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateAccelerometerSensor
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLmotor.dir/src/SL_controller.c.o
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ResetBreakawayStatus
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLmotor.dir/src/SL_motor_servo.c.o
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_RectangularBoxArray
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLcommon.dir/src/SL_vx2unix_wrappers.c.o
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ControllerStatus
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLsimulation.dir/src/SL_simulation_servo_unix.c.o
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineParams
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLvision.dir/src/SL_vision_servo_unix.c.o
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LinearQuadraticRegulatorStatus
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/dfpmin.c.o
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_EnvironmentalObject
+[ 18%] [ 20%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/dbrent.c.o
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Matrix32
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/control.c.o
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ObjectMass
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/df1dim.c.o
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Gains
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/distributions.c.o
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PointArray
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLopenGL.dir/src/SL_openGL_servo_unix.c.o
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Trajectory
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLvision.dir/src/SL_serial_unix.c.o
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ImageCoordinatesArray
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLtask.dir/src/SL_task_servo_unix.c.o
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateForceTorqueSensorStatus
+[ 21%] [ 24%] [ 24%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLtask.dir/src/SL_tasks.c.o
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LinearQuadraticRegulator
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/dlinmin.c.o
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_InverseDynamicsBatchNetworkControllerParams
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLtask.dir/src/SL_task_servo.c.o
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_TrackingPose
+[ 25%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/f1dim.c.o
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineParamsService
+[ 26%] [ 27%] [ 29%] [ 30%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/frprmn.c.o
 
-[  8%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CollectData
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLtask.dir/src/SL_goto_task.c.o
 
-[ 20%] Built target amd_clmc_ros_messages_generate_messages_cpp
+[ 31%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLsimulation.dir/src/SL_simulation_servo.c.o
 
-[ 32%] Built target amd_clmc_ros_messages_generate_messages_lisp
+[ 32%] /home/administrator/ci/ci/team/workspace/src/cmake/sl/src/SL_tasks.c: In function ‘set_args_task’:
 
-[ 43%] Built target amd_clmc_ros_messages_generate_messages_py
+/home/administrator/ci/ci/team/workspace/src/cmake/sl/src/SL_tasks.c:482:2: warning: format not a string literal and no format arguments [-Wformat-security]
 
-[ 45%] Built target dbot_ros_msgs_generate_messages_py
+  sprintf(sl_default_task,argv[i]);
 
-[ 46%] Built target dbot_ros_msgs_generate_messages_lisp
+  ^
 
-[ 46%] Built target _lula_ros_util_generate_messages_check_deps_RosVectorService
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLvision.dir/src/SL_vision_servo.c.o
 
-[ 46%] Built target _lula_ros_util_generate_messages_check_deps_RosVector
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLvision.dir/src/SL_dbvision.c.o
 
-[ 46%] Built target lula_ros_util_generate_messages_cpp
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLsimulation.dir/src/SL_userSimulation.c.o
 
-[ 46%] Built target lula_ros_util_generate_messages_py
+[ 34%] [ 35%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/j-fixed.c.o
 
-[ 46%] Built target roscpp_generate_messages_cpp
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/ldltinv.c.o
 
-[ 46%] Built target _lula_controller_msgs_generate_messages_check_deps_JointPosVelAccCommand
+[ 36%] [ 37%] [ 39%] [ 40%] [ 41%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/lubksb.c.o
 
-[ 46%] Built target _lula_controller_msgs_generate_messages_check_deps_ExperimentParams
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/linmin.c.o
 
-[ 46%] Built target _lula_controller_msgs_generate_messages_check_deps_IndexedControllersObstaclePoints
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLcommon.dir/src/SL_common.c.o
 
-[ 46%] Built target _lula_controller_msgs_generate_messages_check_deps_AffinePolicy
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLtask.dir/src/SL_sine_task.c.o
 
-[ 46%] Built target _lula_controller_msgs_generate_messages_check_deps_Detach
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLtask.dir/src/SL_go_cart_task.c.o
 
-[ 46%] Built target _lula_controller_msgs_generate_messages_check_deps_State
+Linking C shared library /home/administrator/ci/ci/team/workspace/devel/lib/libSLmotor.so
 
-[ 46%] Built target _lula_controller_msgs_generate_messages_check_deps_TaskSpaceCommand
+[ 43%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLopenGL.dir/src/SL_openGL_servo.c.o
 
-[ 46%] Built target _lula_controller_msgs_generate_messages_check_deps_KeyPointBodyApprox
+[ 44%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLopenGL.dir/src/SL_openGL.c.o
 
-[ 46%] Built target _lula_controller_msgs_generate_messages_check_deps_Lqr
+[ 44%] Built target SLmotor
 
-[ 46%] Built target _lula_controller_msgs_generate_messages_check_deps_PosVelAccControllerParams
+[ 48%] [ 48%] [ 48%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/ludcmp.c.o
 
-[ 46%] Built target _lula_controller_msgs_generate_messages_check_deps_ActivationRequest
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLopenGL.dir/src/SL_openGL_oscilloscope.c.o
 
-[ 46%] Built target _lula_controller_msgs_generate_messages_check_deps_SpeedChange
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLtask.dir/src/SL_objects.c.o
 
-[ 46%] Built target _lula_controller_msgs_generate_messages_check_deps_Sphere
+[ 50%] [ 50%] [ 51%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/mnbrak.c.o
 
-[ 46%] Built target _lula_controller_msgs_generate_messages_check_deps_AdaptiveControlData
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLvision.dir/src/SL_vision_proc.c.o
 
-[ 46%] Built target _lula_controller_msgs_generate_messages_check_deps_PhaseLqr
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLopenGL.dir/src/SL_objects.c.o
 
-[ 46%] Built target _lula_controller_msgs_generate_messages_check_deps_ScaledLqr
+[ 53%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLsimulation.dir/src/SL_objects.c.o
 
-[ 46%] Built target _lula_controller_msgs_generate_messages_check_deps_Matrix32
+[ 54%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLsimulation.dir/src/SL_integrate.c.o
 
-[ 46%] Built target _lula_controller_msgs_generate_messages_check_deps_TaskSpaceStatus
+[ 55%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLcommon.dir/src/SL_collect_data.c.o
 
-[ 46%] Built target _lula_controller_msgs_generate_messages_check_deps_EndEffectorPosition
+[ 56%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLtask.dir/src/SL_traj_task.c.o
 
-[ 46%] Built target _lula_controller_msgs_generate_messages_check_deps_ControllersObstaclePoints
+[ 58%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/numerics_package.c.o
 
-[ 46%] Built target _lula_controller_msgs_generate_messages_check_deps_LqrProblem
+[ 59%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLcommon.dir/src/SL_shared_memory.c.o
 
-[ 46%] Built target _lula_controller_msgs_generate_messages_check_deps_DistanceFieldQueries
+[ 60%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLcommon.dir/src/SL_filters.c.o
 
-[ 46%] Built target _lula_controller_msgs_generate_messages_check_deps_Attach
+[ 62%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/powell.c.o
 
-[ 46%] Built target _lula_controller_msgs_generate_messages_check_deps_LinearQuadraticRegulatorStatus
+[ 63%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLopenGL.dir/src/SL_userGraphics.c.o
 
-[ 46%] Built target _lula_controller_msgs_generate_messages_check_deps_ObstaclePoints
+[ 64%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/stability.c.o
 
-[ 46%] Built target _lula_controller_msgs_generate_messages_check_deps_AttachmentStatus
+Linking C shared library /home/administrator/ci/ci/team/workspace/devel/lib/libSLvision.so
 
-[ 46%] Built target _lula_controller_msgs_generate_messages_check_deps_ChordEllipsoid
+[ 65%] [ 67%] [ 68%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/svbksb.c.o
 
-[ 46%] Built target _lula_controller_msgs_generate_messages_check_deps_LinearQuadraticRegulatorParams
+[ 69%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/svdcmp.c.o
 
-[ 46%] Built target _lula_controller_msgs_generate_messages_check_deps_StateTrajectory
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLcommon.dir/src/SL_terrains.c.o
 
-[ 46%] Built target _lula_controller_msgs_generate_messages_check_deps_AccelerationFeedbackExperimentStatus
+[ 70%] [ 72%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLcommon.dir/src/SL_unix_common.c.o
 
-[ 46%] Built target _lula_controller_msgs_generate_messages_check_deps_EnvironmentalObject
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/parm_opt.c.o
 
-[ 46%] Built target _lula_controller_msgs_generate_messages_check_deps_ExperimentGeneratorParamsService
+[ 73%] [ 73%] Built target SLvision
 
-[ 46%] Built target _lula_controller_msgs_generate_messages_check_deps_LqrProblemOld
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/lookup_table.c.o
 
-[ 46%] Built target _lula_controller_msgs_generate_messages_check_deps_SwitchControllerStack
+[ 74%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/kdtree.c.o
 
-[ 46%] Built target _lula_controller_msgs_generate_messages_check_deps_StatePrediction
+[ 75%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/pythag.c.o
 
-[ 46%] Built target _lula_controller_msgs_generate_messages_check_deps_LinearQuadraticRegulator
+[ 77%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLcommon.dir/src/SL_oscilloscope.c.o
 
-[ 46%] Built target _lula_controller_msgs_generate_messages_check_deps_DistanceFieldEval
+[ 78%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/choldc.c.o
 
-[ 46%] Built target _lula_controller_msgs_generate_messages_check_deps_SymmetricMatrix32
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/statistics.c.o
 
-[ 46%] Built target _lula_controller_msgs_generate_messages_check_deps_TimeIndexedAffinePolicy
+/home/administrator/ci/ci/team/workspace/src/cmake/sl/src/SL_unix_common.c: In function ‘spawnCommandFromUserTaskThread’:
 
-[ 46%] Built target _lula_controller_msgs_generate_messages_check_deps_PartialPose
+/home/administrator/ci/ci/team/workspace/src/cmake/sl/src/SL_unix_common.c:405:3: warning: passing argument 3 of ‘pthread_create’ from incompatible pointer type [enabled by default]
 
-[ 46%] Built target _lula_controller_msgs_generate_messages_check_deps_LinearQuadraticRegulatorOld
+   if ((rc=pthread_create( &uthread, &pth_attr, getCommandFromUserTask, NULL)))
 
-[ 46%] Built target _lula_controller_msgs_generate_messages_check_deps_LqrPhaseTrajectorySnippet
+   ^
 
-[ 46%] Built target _lula_controller_msgs_generate_messages_check_deps_TrackedObject
+In file included from /home/administrator/ci/ci/team/workspace/src/cmake/sl/include/SL_system_headers.h:51:0,
 
-[ 50%] Built target lula_controller_msgs_generate_messages_cpp
+                 from /home/administrator/ci/ci/team/workspace/src/cmake/sl/src/SL_unix_common.c:20:
 
-[ 50%] Built target lula_rt
+/usr/include/pthread.h:244:12: note: expected ‘void * (*)(void *)’ but argument is of type ‘void * (*)(void)’
 
-[ 55%] Built target lula_controller_msgs_generate_messages_lisp
+ extern int pthread_create (pthread_t *__restrict __newthread,
 
-[ 56%] Built target lula_ros_util_generate_messages_lisp
+            ^
 
-[ 61%] Built target lula_controller_msgs_generate_messages_py
+[ 79%] [ 81%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/data_sets.c.o
 
-[ 61%] Built target actionlib_generate_messages_cpp
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/balanc.c.o
 
-[ 61%] Built target roscpp_generate_messages_lisp
+[ 82%] [ 83%] [ 84%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/hqr.c.o
 
-[ 61%] Built target tf_generate_messages_py
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/utility.c.o
 
-[ 61%] Built target tf_generate_messages_cpp
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/elmhes.c.o
 
-[ 61%] Built target roscpp_generate_messages_py
+[ 86%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLcommon.dir/src/SL_man.c.o
 
-[ 61%] Built target rosgraph_msgs_generate_messages_cpp
+Linking C shared library /home/administrator/ci/ci/team/workspace/devel/lib/libSLtask.so
 
-[ 61%] Built target rosgraph_msgs_generate_messages_lisp
+Linking C shared library /home/administrator/ci/ci/team/workspace/devel/lib/libSLsimulation.so
 
-[ 61%] Built target rosgraph_msgs_generate_messages_py
+[ 86%] Built target SLtask
 
-[ 61%] Built target _ellipsoid_msgs_generate_messages_check_deps_Ellipsoid
+[ 86%] Built target SLsimulation
 
-[ 61%] Built target _ellipsoid_msgs_generate_messages_check_deps_EllipsoidArray
+Linking C shared library /home/administrator/ci/ci/team/workspace/devel/lib/libSLopenGL.so
 
-[ 61%] Built target ellipsoid_msgs_generate_messages_cpp
+[ 86%] Built target SLopenGL
 
-[ 61%] Built target _lula_grasping_msgs_generate_messages_check_deps_LatestGraspProblemInfo
+Linking C shared library /home/administrator/ci/ci/team/workspace/devel/lib/libSLcommon.so
 
-[ 61%] Built target _lula_grasping_msgs_generate_messages_check_deps_MpiGraspPoses
+[ 86%] Built target SLcommon
 
-[ 61%] Built target _lula_grasping_msgs_generate_messages_check_deps_UpdateGraspProblem
+Linking C shared library /home/administrator/ci/ci/team/workspace/devel/lib/libutility.so
 
-[ 61%] Built target _lula_grasping_msgs_generate_messages_check_deps_GraspProblemInfo
+[ 86%] Built target utility
 
-[ 61%] Built target _lula_grasping_msgs_generate_messages_check_deps_RenderGraspProblemService
+Scanning dependencies of target xascii2clmcplot
 
-[ 61%] Built target _lula_grasping_msgs_generate_messages_check_deps_GraspPose
+Scanning dependencies of target lwpr
 
-[ 61%] Built target _lula_grasping_msgs_generate_messages_check_deps_GraspableObject
+Scanning dependencies of target xlwpr
 
-[ 61%] Built target _lula_grasping_msgs_generate_messages_check_deps_Preshape
+Scanning dependencies of target xlwprstat
 
-[ 62%] Built target lula_grasping_msgs_generate_messages_py
+[ 87%] [ 88%] [ 89%] [ 92%] [ 92%] [ 93%] Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/lwpr.dir/src/lwpr.c.o
 
-[ 63%] Built target lula_grasping_msgs_generate_messages_cpp
+Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/xascii2clmcplot.dir/src/ascii2mrdplot.c.o
 
-[ 63%] Built target lula_ros_util
+[ 94%] Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/lwpr.dir/src/lwpr_script.c.o
 
-[ 63%] Built target trajectory_msgs_generate_messages_lisp
+[ 96%] [ 97%] [ 98%] [100%] Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/xlwpr.dir/src/lwpr_test.c.o
 
-[ 63%] Built target _lula_world_msgs_generate_messages_check_deps_AddObject
+Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/xlwpr.dir/src/lwpr_main.c.o
 
-[ 63%] Built target _lula_world_msgs_generate_messages_check_deps_Model
+Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/xlwpr.dir/src/lwpr.c.o
 
-[ 63%] Built target _lula_world_msgs_generate_messages_check_deps_Object
+Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/xlwprstat.dir/src/lwpr.c.o
 
-[ 63%] Built target _lula_world_msgs_generate_messages_check_deps_GetObjects
+Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/xlwprstat.dir/src/lwpr_main.c.o
 
-[ 63%] Built target _lula_world_msgs_generate_messages_check_deps_ControlFrame
+Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/xlwpr.dir/src/lwpr_script.c.o
 
-[ 63%] Built target _lula_world_msgs_generate_messages_check_deps_News
+Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/xlwprstat.dir/src/lwpr_stat.c.o
 
-[ 63%] Built target _lula_world_msgs_generate_messages_check_deps_DistanceFunctionDescriptor
+Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/xlwprstat.dir/src/lwpr_script.c.o
 
-[ 63%] Built target _lula_world_msgs_generate_messages_check_deps_RemoveObject
+Linking C executable xascii2clmcplot
 
-[ 63%] Built target _lula_world_msgs_generate_messages_check_deps_HasObject
+[100%] Built target xascii2clmcplot
 
-[ 63%] Built target _lula_world_msgs_generate_messages_check_deps_GetObject
+Linking C executable xlwpr
 
-[ 65%] Built target lula_world_msgs_generate_messages_lisp
+Linking C shared library /home/administrator/ci/ci/team/workspace/devel/lib/liblwpr.so
 
-[ 65%] Built target control_msgs_generate_messages_lisp
+Linking C executable xlwprstat
 
-[ 66%] Built target lula_world_msgs_generate_messages_cpp
+[100%] Built target lwpr
 
-[ 67%] Built target lula_world_msgs_generate_messages_py
+[100%] Built target xlwpr
 
-[ 67%] Built target tf2_msgs_generate_messages_cpp
+[100%] Built target xlwprstat
 
-[ 67%] Built target ellipsoid_msgs_generate_messages_py
+Install the project...
 
-[ 67%] Built target actionlib_generate_messages_lisp
+-- Install configuration: ""
 
-[ 67%] Built target actionlib_msgs_generate_messages_cpp
+-- Installing: /home/administrator/ci/ci/team/workspace/install/_setup_util.py
 
-[ 67%] Built target tf_generate_messages_lisp
+-- Installing: /home/administrator/ci/ci/team/workspace/install/env.sh
 
-[ 68%] Built target ellipsoid_msgs_generate_messages_lisp
+-- Installing: /home/administrator/ci/ci/team/workspace/install/setup.bash
 
-[ 68%] Built target actionlib_generate_messages_py
+-- Installing: /home/administrator/ci/ci/team/workspace/install/setup.sh
 
-[ 68%] Built target actionlib_msgs_generate_messages_lisp
+-- Installing: /home/administrator/ci/ci/team/workspace/install/setup.zsh
 
-[ 68%] Built target actionlib_msgs_generate_messages_py
+-- Installing: /home/administrator/ci/ci/team/workspace/install/.rosinstall
 
-[ 68%] Built target tf2_msgs_generate_messages_lisp
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/utilities.pc
 
-[ 68%] Built target tf2_msgs_generate_messages_py
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/utilities/cmake/utilities.cmake
 
-[ 68%] Built target trajectory_msgs_generate_messages_py
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/utilities/cmake/utilitiesConfig.cmake
 
-[ 68%] Built target trajectory_msgs_generate_messages_cpp
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/utilities/cmake/utilitiesConfig-version.cmake
 
-[ 68%] Built target _lula_apollo_internal_generate_messages_check_deps_GraspCommander
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/utilities/package.xml
 
-[ 68%] Built target lula_apollo_internal_generate_messages_py
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/utility.h
 
-[ 68%] Built target control_msgs_generate_messages_py
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/data_sets.h
 
-[ 68%] Built target control_msgs_generate_messages_cpp
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/nrutil.h
 
-[ 68%] Built target lula_world
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/statistics.h
 
-[ 70%] Built target lula_world_internal
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/utility_macros.h
 
-[ 70%] Built target shape_msgs_generate_messages_lisp
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/mdefs.h
 
-[ 72%] Built target lula_kinematics
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/x86_64/libutility.so
 
-[ 72%] Built target object_recognition_msgs_generate_messages_cpp
+-- Set runtime path of "/home/administrator/ci/ci/team/workspace/install/lib/x86_64/libutility.so" to "/home/administrator/ci/ci/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib"
 
-[ 72%] Built target moveit_msgs_generate_messages_lisp
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/lwpr.pc
 
-[ 72%] Built target moveit_msgs_generate_messages_cpp
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/lwpr/cmake/lwpr.cmake
 
-[ 72%] Built target visualization_msgs_generate_messages_lisp
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/lwpr/cmake/lwprConfig.cmake
 
-[ 72%] Built target visualization_msgs_generate_messages_py
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/lwpr/cmake/lwprConfig-version.cmake
 
-[ 72%] Built target visualization_msgs_generate_messages_cpp
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/lwpr/package.xml
 
-[ 82%] Built target lula_task
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/x86_64/liblwpr.so
 
-[ 82%] Built target lula_apollo_internal
+-- Set runtime path of "/home/administrator/ci/ci/team/workspace/install/lib/x86_64/liblwpr.so" to "/home/administrator/ci/ci/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib:/home/administrator/ci/ci/team/workspace/devel/lib"
 
-[ 82%] Built target object_recognition_msgs_generate_messages_py
+-- Installing: /home/administrator/ci/ci/team/workspace/install/bin/x86_64/xlwpr
 
-[ 82%] Built target shape_msgs_generate_messages_cpp
+-- Set runtime path of "/home/administrator/ci/ci/team/workspace/install/bin/x86_64/xlwpr" to "/home/administrator/ci/ci/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib:/home/administrator/ci/ci/team/workspace/devel/lib"
 
-[ 82%] Built target octomap_msgs_generate_messages_lisp
+-- Installing: /home/administrator/ci/ci/team/workspace/install/bin/x86_64/xlwprstat
 
-[ 82%] Built target octomap_msgs_generate_messages_py
+-- Set runtime path of "/home/administrator/ci/ci/team/workspace/install/bin/x86_64/xlwprstat" to "/home/administrator/ci/ci/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib:/home/administrator/ci/ci/team/workspace/devel/lib"
 
-[ 82%] Built target shape_msgs_generate_messages_py
+-- Installing: /home/administrator/ci/ci/team/workspace/install/bin/x86_64/xascii2clmcplot
 
-[ 82%] Built target octomap_msgs_generate_messages_cpp
+-- Set runtime path of "/home/administrator/ci/ci/team/workspace/install/bin/x86_64/xascii2clmcplot" to "/home/administrator/ci/ci/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib:/home/administrator/ci/ci/team/workspace/devel/lib"
 
-[ 82%] Built target moveit_msgs_generate_messages_py
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/lwpr.h
 
-[ 82%] Built target object_recognition_msgs_generate_messages_lisp
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/sl.pc
 
-[ 83%] Built target lula_apollo_internal_generate_messages_cpp
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/sl/cmake/sl.cmake
 
-[ 83%] Built target lula_apollo_internal_generate_messages_lisp
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/sl/cmake/slConfig.cmake
 
-[ 85%] Built target rieef_utils
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/sl/cmake/slConfig-version.cmake
 
-[ 85%] Built target visualization_3d
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/sl/package.xml
 
-[ 86%] Built target geodesic_flow
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/x86_64/libSLcommon.so
 
-[ 86%] Built target pcl_msgs_generate_messages_lisp
+-- Set runtime path of "/home/administrator/ci/ci/team/workspace/install/lib/x86_64/libSLcommon.so" to "/home/administrator/ci/ci/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib"
 
-[ 86%] Built target pcl_msgs_generate_messages_cpp
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/x86_64/libSLtask.so
 
-[ 86%] Built target pcl_msgs_generate_messages_py
+-- Set runtime path of "/home/administrator/ci/ci/team/workspace/install/lib/x86_64/libSLtask.so" to "/home/administrator/ci/ci/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib"
 
-[ 86%] Built target moveit_distance_field
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/x86_64/libSLmotor.so
 
-[ 86%] Built target topic_tools_generate_messages_cpp
+-- Set runtime path of "/home/administrator/ci/ci/team/workspace/install/lib/x86_64/libSLmotor.so" to "/home/administrator/ci/ci/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib"
 
-[ 86%] Built target topic_tools_generate_messages_lisp
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/x86_64/libSLsimulation.so
 
-[ 87%] Built target signed_distance_field
+-- Set runtime path of "/home/administrator/ci/ci/team/workspace/install/lib/x86_64/libSLsimulation.so" to "/home/administrator/ci/ci/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib"
 
-[ 88%] Built target gtest
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/x86_64/libSLopenGL.so
 
-[ 88%] Built target gtest_main
+-- Set runtime path of "/home/administrator/ci/ci/team/workspace/install/lib/x86_64/libSLopenGL.so" to "/home/administrator/ci/ci/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib"
 
-[ 90%] Built target test_shared_pointers
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/x86_64/libSLvision.so
 
-[ 90%] Built target exponential_vector_smoother_utest
+-- Set runtime path of "/home/administrator/ci/ci/team/workspace/install/lib/x86_64/libSLvision.so" to "/home/administrator/ci/ci/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib"
 
-[ 90%] Built target exponential_scalar_smoother_utest
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL.h
 
-[ 90%] Built target interval_estimator_utest
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_collect_data.h
 
-[ 90%] Built target chrono_timer_utest
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_common.h
 
-[ 90%] Built target strings_utest
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_controller.h
 
-[ 90%] Built target data_structure_utest
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_dynamics.h
 
-[ 90%] Built target eigen_utest
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_filters.h
 
-[ 90%] Built target splines_utest
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_integrate.h
 
-[ 90%] Built target quadratic_function_utest
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_kinematics.h
 
-[ 90%] Built target affine_map_utest
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_man.h
 
-[ 90%] Built target differentiable_functions_utest
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_motor_servo.h
 
-[ 90%] Built target product_functions_utest
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_objects.h
 
-[ 90%] Built target squared_elements_map_utest
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_objects_defines.h
 
-[ 90%] Built target soft_norm_utest
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_openGL.h
 
-[ 91%] Built target softmax_between_functions_utest
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_openGL_servo.h
 
-[ 91%] Built target softmin_with_constant_utest
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_oscilloscope.h
 
-[ 91%] Built target linear_combination_of_independent_maps_utest
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_rt_mutex.h
 
-[ 91%] Built target linearized_map_utest
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_sensor_proc.h
 
-[ 91%] Built target axis_aligned_cube_utest
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_shared_memory.h
 
-[ 91%] Built target axis_aligned_cylinder_utest
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_simulation_servo.h
 
-[ 91%] Built target cost_based_workspace_geometry_map_utest
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_system_headers.h
 
-[ 92%] Built target line_segment_distance_utest
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_task_servo.h
 
-[ 92%] Built target posable_distance_function_3d_utest
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_tasks.h
 
-[ 92%] Built target pose_map_utest
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_terrains.h
 
-[ 92%] Built target optimization_utest
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_unix_common.h
 
-[ 92%] Built target lqr_utest
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_userGraphics.h
 
-[ 92%] Built target subclique_function_utest
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_userSimulation.h
 
-[ 92%] Built target riemo_learning_tools_utest
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_user_common.h
 
-[ 92%] Built target symmetric_block_band_diagonal_matrix_utest
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_user_display_core.h
 
-[ 92%] Built target damping_policy_utest
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_user_idle_core.h
 
-[ 92%] Built target dstar
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_user_main_core.h
 
-[ 92%] Built target graph_search
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_vision_servo.h
 
-[ 92%] Built target test_dstar
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_serial_unix.h
 
-[ 92%] Built target analytical_workspace_utest
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_serial_xeno.h
 
-[ 92%] Built target grasping_utest
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_vx_wrappers.h
 
-[ 92%] Built target ros_util_utest
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_xeno_common.h
 
-[ 92%] Built target blended_controller_queue_utest
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_xeno_headers.h
 
-[ 92%] Built target blended_parameters_queue_utest
+Base path: /home/administrator/ci/ci/team/workspace
 
-[ 92%] Built target adaptive_acceleration_controller_utest
+Source space: /home/administrator/ci/ci/team/workspace/src
 
-[ 92%] Built target rt_safe_allocation_utest
+Build space: /home/administrator/ci/ci/team/workspace/build
 
-[ 92%] Built target util_utest
+Devel space: /home/administrator/ci/ci/team/workspace/devel
 
-[ 92%] Built target active_joints_info_utest
+Install space: /home/administrator/ci/ci/team/workspace/install
 
-[ 92%] Built target kinematics_kdl_utest
+Creating symlink "/home/administrator/ci/ci/team/workspace/src/CMakeLists.txt" pointing to "/opt/ros/indigo/share/catkin/cmake/toplevel.cmake"
 
-[ 92%] Built target riemo_descriptor_utest
+####
 
-[ 92%] Built target map_msgs_generate_messages_lisp
+#### Running command: "cmake /home/administrator/ci/ci/team/workspace/src -DCATKIN_DEVEL_PREFIX=/home/administrator/ci/ci/team/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/administrator/ci/ci/team/workspace/install -G Unix Makefiles" in "/home/administrator/ci/ci/team/workspace/build"
 
-[ 92%] Built target map_msgs_generate_messages_py
+####
 
-[ 92%] Built target map_msgs_generate_messages_cpp
+####
 
-[ 92%] Built target nav_msgs_generate_messages_lisp
+#### Running command: "make -j16 install" in "/home/administrator/ci/ci/team/workspace/build"
 
-[ 92%] Built target nav_msgs_generate_messages_cpp
-
-[ 92%] Built target nav_msgs_generate_messages_py
-
-[ 98%] Built target lula_visualization
-
-[ 98%] Built target eigen_ogre_bridge_utest
-
-[ 98%] Built target robot_parameters_utest
-
-[ 98%] Built target riemo_robot_controller_utest
-
-[ 98%] Built target smoothly_changing_vector_utest
-
-[ 98%] Built target smoothly_changing_param_utest
-
-[ 98%] Built target frame_corrector_utest
-
-[ 98%] Built target set_time_interpolating_param_utest
-
-[ 98%] Built target target_acceleration_regulator_utest
-
-[ 98%] Built target auto_weighting_policy_filter_utest
-
-[ 98%] Built target frame_controller_collection_utest
-
-[ 98%] Built target param_utest
-
-[ 98%] Built target eigen_msg_util_utest
-
-[ 98%] Built target thread_safe_smoothed_param_utest
-
-[ 98%] Built target lqr_receiver_utest
-
-[ 98%] Built target lqr_communicator_utest
-
-[ 98%] Built target interpolating_vec_listener_utest
-
-[ 98%] Built target smoothly_changing_vec_listener_utest
-
-[ 98%] Built target vec_listener_utest
-
-[ 98%] Built target snapshot_time_listener_utest
-
-[ 98%] Built target ros_time_since_start_listener_utest
-
-[ 98%] Built target test_gradient_workspace
-
-[ 98%] Built target test_rieef_trajectory
-
-[ 98%] Built target test_misc
-
-[ 98%] Built target test_multi_process
-
-[100%] Built target test_eigen_io
-
-[100%] Built target test_analytical_grid
-
-[100%] Built target test_utils
-
-[100%] Built target test_import_mesh
-
-[100%] Built target test_interpolation
-
-[100%] Built target sampling_based_planning
-
-[100%] Built target test_iterative_ik
-
-[100%] Built target test_multivariate_gaussian
-
-[100%] Built target test_finite_differencing
-
-[100%] Built target test_goalset_projection
-
-[100%] Built target test_distance_field_monitor
-
-[100%] Built target tests
-
-Scanning dependencies of target _run_tests_signed_distance_field_gtest_test_shared_pointers
-
-Cannot find results, writing failure results to '/home/administrator/ci/ci/team/workspace/build/test_results/signed_distance_field/MISSING-gtest-test_shared_pointers.xml'
-
--- run_tests.py: execute commands
-
-  /home/administrator/ci/ci/team/workspace/devel/lib/signed_distance_field/test_shared_pointers --gtest_output=xml:/home/administrator/ci/ci/team/workspace/build/test_results/signed_distance_field/gtest-test_shared_pointers.xml
-
--- run_tests.py: verify result "/home/administrator/ci/ci/team/workspace/build/test_results/signed_distance_field/gtest-test_shared_pointers.xml"
-
-[100%] Built target _run_tests_signed_distance_field_gtest_test_shared_pointers
-
-Scanning dependencies of target _run_tests_signed_distance_field_gtest_test_distance_field_monitor
-
-[31m[ERROR] [1513279065.358360308]: [registerPublisher] Failed to contact master at [localhost:11311].  Retrying...[0m
+####
