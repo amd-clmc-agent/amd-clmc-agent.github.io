@@ -64,11 +64,35 @@
 
 -- BUILD_SHARED_LIBS is on
 
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-- ~~  traversing 1 packages in topological order:
+
+-- ~~  - detect_red_ribbon
+
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-- +++ processing catkin package: 'detect_red_ribbon'
+
+-- ==> add_subdirectory(catkin/perception/detect_red_ribbon)
+
 -- Configuring done
 
 -- Generating done
 
 -- Build files have been written to: /home/administrator/ci/ci/team/workspace/build
+
+Scanning dependencies of target detect_red_ribbon_node
+
+[ 33%] [ 66%] [100%] Building CXX object catkin/perception/detect_red_ribbon/CMakeFiles/detect_red_ribbon_node.dir/src/main.cpp.o
+
+Building CXX object catkin/perception/detect_red_ribbon/CMakeFiles/detect_red_ribbon_node.dir/src/red_ribbon_detector.cpp.o
+
+Building CXX object catkin/perception/detect_red_ribbon/CMakeFiles/detect_red_ribbon_node.dir/src/red_detector.cpp.o
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/detect_red_ribbon/detect_red_ribbon_node
+
+[100%] Built target detect_red_ribbon_node
 
 Install the project...
 
@@ -85,6 +109,14 @@ Install the project...
 -- Installing: /home/administrator/ci/ci/team/workspace/install/setup.zsh
 
 -- Installing: /home/administrator/ci/ci/team/workspace/install/.rosinstall
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/detect_red_ribbon.pc
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/detect_red_ribbon/cmake/detect_red_ribbonConfig.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/detect_red_ribbon/cmake/detect_red_ribbonConfig-version.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/detect_red_ribbon/package.xml
 
 Base path: /home/administrator/ci/ci/team/workspace
 
