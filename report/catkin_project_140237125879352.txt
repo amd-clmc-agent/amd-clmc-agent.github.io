@@ -66,23 +66,17 @@
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- ~~  traversing 2 packages in topological order:
+-- ~~  traversing 1 packages in topological order:
 
--- ~~  - robot_state_pub
-
--- ~~  - arm_robot_model
+-- ~~  - detect_faces
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- +++ processing catkin package: 'robot_state_pub'
+-- +++ processing catkin package: 'detect_faces'
 
--- ==> add_subdirectory(catkin/ros/robot_state_pub)
+-- ==> add_subdirectory(catkin/perception/detect_faces)
 
 -- Using these message generators: gencpp;genlisp;genpy
-
--- +++ processing catkin package: 'arm_robot_model'
-
--- ==> add_subdirectory(catkin/robots/arm_robot_model)
 
 -- Configuring done
 
@@ -90,31 +84,17 @@
 
 -- Build files have been written to: /home/administrator/ci/ci/team/workspace/build
 
-Scanning dependencies of target robot_state_pub_solver
+Scanning dependencies of target detect_faces_node
 
-[ 25%] [ 50%] Building CXX object catkin/ros/robot_state_pub/CMakeFiles/robot_state_pub_solver.dir/src/robot_state_publisher.cpp.o
+[ 33%] [100%] [100%] Building CXX object catkin/perception/detect_faces/CMakeFiles/detect_faces_node.dir/src/face_detector_node.cpp.o
 
-Building CXX object catkin/ros/robot_state_pub/CMakeFiles/robot_state_pub_solver.dir/src/treefksolverposfull_recursive.cpp.o
+Building CXX object catkin/perception/detect_faces/CMakeFiles/detect_faces_node.dir/src/main.cpp.o
 
-Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/librobot_state_pub_solver.so
+Building CXX object catkin/perception/detect_faces/CMakeFiles/detect_faces_node.dir/src/face_detector.cpp.o
 
-[ 50%] Built target robot_state_pub_solver
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/detect_faces/detect_faces_node
 
-Scanning dependencies of target robot_state_pub
-
-Scanning dependencies of target state_publisher
-
-[100%] [100%] Building CXX object catkin/ros/robot_state_pub/CMakeFiles/robot_state_pub.dir/src/joint_state_listener.cpp.o
-
-Building CXX object catkin/ros/robot_state_pub/CMakeFiles/state_publisher.dir/src/joint_state_listener.cpp.o
-
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/robot_state_pub/robot_state_pub
-
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/robot_state_pub/state_publisher
-
-[100%] Built target robot_state_pub
-
-[100%] Built target state_publisher
+[100%] Built target detect_faces_node
 
 Install the project...
 
@@ -132,81 +112,13 @@ Install the project...
 
 -- Installing: /home/administrator/ci/ci/team/workspace/install/.rosinstall
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/robot_state_pub.pc
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/detect_faces.pc
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/robot_state_pub/cmake/robot_state_pubConfig.cmake
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/detect_faces/cmake/detect_facesConfig.cmake
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/robot_state_pub/cmake/robot_state_pubConfig-version.cmake
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/detect_faces/cmake/detect_facesConfig-version.cmake
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/robot_state_pub/package.xml
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/librobot_state_pub_solver.so
-
--- Removed runtime path from "/home/administrator/ci/ci/team/workspace/install/lib/librobot_state_pub_solver.so"
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/robot_state_pub/robot_state_pub
-
--- Removed runtime path from "/home/administrator/ci/ci/team/workspace/install/lib/robot_state_pub/robot_state_pub"
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/robot_state_pub/state_publisher
-
--- Removed runtime path from "/home/administrator/ci/ci/team/workspace/install/lib/robot_state_pub/state_publisher"
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/robot_state_pub
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/robot_state_pub/joint_state_listener.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/robot_state_pub/robot_state_publisher.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/robot_state_pub/treefksolverposfull_recursive.hpp
-
-+ cd /home/administrator/ci/ci/team/workspace/src/catkin/robots/arm_robot_model
-
-+ mkdir -p /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages
-
-+ /usr/bin/env PYTHONPATH=/home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages:/home/administrator/ci/ci/team/workspace/build/lib/python2.7/dist-packages:/opt/ros/indigo/lib/python2.7/dist-packages CATKIN_BINARY_DIR=/home/administrator/ci/ci/team/workspace/build /usr/bin/python /home/administrator/ci/ci/team/workspace/src/catkin/robots/arm_robot_model/setup.py build --build-base /home/administrator/ci/ci/team/workspace/build/catkin/robots/arm_robot_model install --install-layout=deb --prefix=/home/administrator/ci/ci/team/workspace/install --install-scripts=/home/administrator/ci/ci/team/workspace/install/bin
-
-running build
-
-running build_py
-
-creating /home/administrator/ci/ci/team/workspace/build/catkin/robots/arm_robot_model/lib.linux-x86_64-2.7
-
-creating /home/administrator/ci/ci/team/workspace/build/catkin/robots/arm_robot_model/lib.linux-x86_64-2.7/arm_robot_model
-
-copying src/arm_robot_model/__init__.py -> /home/administrator/ci/ci/team/workspace/build/catkin/robots/arm_robot_model/lib.linux-x86_64-2.7/arm_robot_model
-
-running install
-
-running install_lib
-
-creating /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/arm_robot_model
-
-copying /home/administrator/ci/ci/team/workspace/build/catkin/robots/arm_robot_model/lib.linux-x86_64-2.7/arm_robot_model/__init__.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/arm_robot_model
-
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/arm_robot_model/__init__.py to __init__.pyc
-
-running install_egg_info
-
-Writing /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/arm_robot_model-0.0.0.egg-info
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/arm_robot_model.pc
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/arm_robot_model/cmake/arm_robot_modelConfig.cmake
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/arm_robot_model/cmake/arm_robot_modelConfig-version.cmake
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/arm_robot_model/package.xml
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/arm_robot_model/check_urdf
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/arm_robot_model/check_urdf_visual
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/arm_robot_model/generate_openrave_ik
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/arm_robot_model/publish_xtion_frames
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/arm_robot_model/urdf_to_collada
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/detect_faces/package.xml
 
 Base path: /home/administrator/ci/ci/team/workspace
 
