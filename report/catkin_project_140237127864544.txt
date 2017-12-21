@@ -1,48 +1,108 @@
-[  0%] Built target _pointcloud_msgs_generate_messages_check_deps_PointCloudClassified
+-- Using CATKIN_DEVEL_PREFIX: /home/administrator/ci/ci/team/workspace/devel
 
-[  0%] Built target geometry_msgs_generate_messages_py
+-- Using CMAKE_PREFIX_PATH: /opt/ros/indigo
 
-[  0%] Built target sensor_msgs_generate_messages_py
+-- This workspace overlays: /opt/ros/indigo
 
-[  0%] Built target _pointcloud_msgs_generate_messages_check_deps_HypothesisVerify
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
 
-[ 14%] Built target pointcloud_msgs_generate_messages_py
+-- Using Debian Python package layout
 
-[ 14%] Built target sensor_msgs_generate_messages_cpp
+-- Using empy: /usr/bin/empy
 
-[ 14%] Built target geometry_msgs_generate_messages_cpp
+-- Using CATKIN_ENABLE_TESTING: ON
 
-[ 21%] Built target pointcloud_msgs_generate_messages_cpp
+-- Call enable_testing()
 
-[ 21%] Built target geometry_msgs_generate_messages_lisp
+-- Using CATKIN_TEST_RESULTS_DIR: /home/administrator/ci/ci/team/workspace/build/test_results
 
-[ 21%] Built target sensor_msgs_generate_messages_lisp
+-- Found gtest sources under '/usr/src/gtest': gtests will be built
 
-[ 28%] Built target pointcloud_msgs_generate_messages_lisp
+-- Using Python nosetests: /usr/bin/nosetests-2.7
 
-[ 28%] Built target pointcloud_msgs_generate_messages
+-- catkin 0.6.19
 
-[ 42%] Built target global_recognizer
+-- BUILD_SHARED_LIBS is on
 
-[ 46%] Built target global_classification
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-[ 50%] Building CXX object catkin/perception/3d_classification/recognition_3d/CMakeFiles/global_recognition.dir/src/global_recognition_test.cpp.o
+-- ~~  traversing 1 packages in topological order:
 
-In file included from /home/administrator/ci/ci/team/workspace/src/catkin/perception/3d_classification/recognition_3d/src/global_recognition_test.cpp:58:0:
+-- ~~  - rgbd_intrinsic_calibration
 
-/usr/include/pcl-1.7/pcl/recognition/hv/hv_go.h:14:52: fatal error: pcl/recognition/3rdparty/metslib/mets.hh: No such file or directory
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
- #include "pcl/recognition/3rdparty/metslib/mets.hh"
+-- +++ processing catkin package: 'rgbd_intrinsic_calibration'
 
-                                                    ^
+-- ==> add_subdirectory(catkin/core-calibration/rgbd_intrinsic_calibration)
 
-compilation terminated.
+CMake Warning at /opt/ros/indigo/share/catkin/cmake/catkinConfig.cmake:76 (find_package):
 
-make[2]: *** [catkin/perception/3d_classification/recognition_3d/CMakeFiles/global_recognition.dir/src/global_recognition_test.cpp.o] Error 1
+  Could not find a package configuration file provided by "rgbd_capture" with
 
-make[1]: *** [catkin/perception/3d_classification/recognition_3d/CMakeFiles/global_recognition.dir/all] Error 2
+  any of the following names:
 
-make: *** [all] Error 2
+
+
+    rgbd_captureConfig.cmake
+
+    rgbd_capture-config.cmake
+
+
+
+  Add the installation prefix of "rgbd_capture" to CMAKE_PREFIX_PATH or set
+
+  "rgbd_capture_DIR" to a directory containing one of the above files.  If
+
+  "rgbd_capture" provides a separate development package or SDK, be sure it
+
+  has been installed.
+
+Call Stack (most recent call first):
+
+  catkin/core-calibration/rgbd_intrinsic_calibration/CMakeLists.txt:7 (find_package)
+
+
+
+
+
+-- Could not find the required component 'rgbd_capture'. The following CMake error indicates that you either need to install the package with the same name or change your environment so that it can be found.
+
+CMake Error at /opt/ros/indigo/share/catkin/cmake/catkinConfig.cmake:83 (find_package):
+
+  Could not find a package configuration file provided by "rgbd_capture" with
+
+  any of the following names:
+
+
+
+    rgbd_captureConfig.cmake
+
+    rgbd_capture-config.cmake
+
+
+
+  Add the installation prefix of "rgbd_capture" to CMAKE_PREFIX_PATH or set
+
+  "rgbd_capture_DIR" to a directory containing one of the above files.  If
+
+  "rgbd_capture" provides a separate development package or SDK, be sure it
+
+  has been installed.
+
+Call Stack (most recent call first):
+
+  catkin/core-calibration/rgbd_intrinsic_calibration/CMakeLists.txt:7 (find_package)
+
+
+
+
+
+-- Configuring incomplete, errors occurred!
+
+See also "/home/administrator/ci/ci/team/workspace/build/CMakeFiles/CMakeOutput.log".
+
+See also "/home/administrator/ci/ci/team/workspace/build/CMakeFiles/CMakeError.log".
 
 Base path: /home/administrator/ci/ci/team/workspace
 
@@ -56,14 +116,8 @@ Install space: /home/administrator/ci/ci/team/workspace/install
 
 ####
 
-#### Running command: "make cmake_check_build_system" in "/home/administrator/ci/ci/team/workspace/build"
+#### Running command: "cmake /home/administrator/ci/ci/team/workspace/src -DCATKIN_DEVEL_PREFIX=/home/administrator/ci/ci/team/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/administrator/ci/ci/team/workspace/install -G Unix Makefiles" in "/home/administrator/ci/ci/team/workspace/build"
 
 ####
 
-####
-
-#### Running command: "make -j1" in "/home/administrator/ci/ci/team/workspace/build"
-
-####
-
-Invoking "make -j1" failed
+Invoking "cmake" failed
