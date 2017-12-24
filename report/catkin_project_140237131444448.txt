@@ -26,293 +26,239 @@
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- ~~  traversing 6 packages in topological order:
+-- ~~  traversing 13 packages in topological order:
 
--- ~~  - utilities
+-- ~~  - apollo_moveit_config
 
--- ~~  - lwpr
+-- ~~  - catkin_gflags
 
--- ~~  - sl
+-- ~~  - catkin_glog
 
--- ~~  - arm2d
+-- ~~  - demo_robot_model
 
--- ~~  - arm2d_test_task
+-- ~~  - riemo
 
--- ~~  - arm2d_user
+-- ~~  - riemo_launch
+
+-- ~~  - riemo_scripts
+
+-- ~~  - riemo_controller_msgs
+
+-- ~~  - riemo_rt
+
+-- ~~  - riemo_kinematics
+
+-- ~~  - visualization_2d
+
+-- ~~  - riemo_ros
+
+-- ~~  - riemo_programs
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- +++ processing catkin package: 'utilities'
+-- +++ processing catkin package: 'apollo_moveit_config'
 
--- ==> add_subdirectory(catkin/core-sl/catkin-utilities)
+-- ==> add_subdirectory(motion-optimization/riemo_ros_pkgs/apollo_moveit_config)
 
--- MACHTYPE x86_64
+-- +++ processing catkin package: 'catkin_gflags'
 
-Detected MACHTYPE=x86_64
+-- ==> add_subdirectory(catkin/third_party/catkin-gflags)
 
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+-- Found gflags  (include: /usr/include, library: /usr/lib/x86_64-linux-gnu/libgflags.so)
 
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+-- +++ processing catkin package: 'catkin_glog'
+
+-- ==> add_subdirectory(catkin/third_party/catkin-glog)
+
+-- Found glog    (include: /usr/include, library: /usr/lib/x86_64-linux-gnu/libglog.so)
+
+-- +++ processing catkin package: 'demo_robot_model'
+
+-- ==> add_subdirectory(motion-optimization/riemo_ros_pkgs/demo_robot_model)
+
+-- +++ processing catkin package: 'riemo'
+
+-- ==> add_subdirectory(motion-optimization/riemo_catkin)
+
+------------------------------------------------------------------
+
+using catkin test functionality
+
+------------------------------------------------------------------
+
+cmake source dir: /home/administrator/ci/ci/team/workspace/src
+
+cmake module path: /home/administrator/ci/ci/team/workspace/src/motion-optimization/cmake/Modules
+
+--------------------------------------------------------------------
+
+Project source directory: /home/administrator/ci/ci/team/workspace/src
+
+Building riemo
+
+Build type: 
+
+--------------------------------------------------------------------
+
+**** No build type set ****
+
+Eigen directory: /home/administrator/ci/ci/team/workspace/src/motion-optimization/cmake/Modules/Eigen
+
+-- Eigen found (include: /usr/include/eigen3)
+
+Eigen include directories: /usr/include/eigen3
+
+-- A library with BLAS API found.
+
+-- A library with LAPACK API found.
+
+Lapack: TRUE
+
+Lapack linker flags: 
+
+Lapack libraries: /usr/lib/liblapack.so;/usr/lib/libblas.so
+
+Lapack 95 libraries: 
+
+-- +++ processing catkin package: 'riemo_launch'
+
+-- ==> add_subdirectory(motion-optimization/riemo_ros_pkgs/riemo_launch)
+
+-- +++ processing catkin package: 'riemo_scripts'
+
+-- ==> add_subdirectory(motion-optimization/riemo_ros_pkgs/riemo_scripts)
+
+-- +++ processing catkin package: 'riemo_controller_msgs'
+
+-- ==> add_subdirectory(motion-optimization/riemo_ros_pkgs/riemo_controller_msgs)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- riemo_controller_msgs: 23 messages, 2 services
+
+-- +++ processing catkin package: 'riemo_rt'
+
+-- ==> add_subdirectory(motion-optimization/riemo_ros_pkgs/riemo_rt)
+
+-- Eigen found (include: /usr/include/eigen3)
+
+-- +++ processing catkin package: 'riemo_kinematics'
+
+-- ==> add_subdirectory(motion-optimization/riemo_ros_pkgs/riemo_kinematics)
+
+-- Eigen found (include: /usr/include/eigen3)
+
+Eigen : /usr/include/eigen3
+
+Catkin :/home/administrator/ci/ci/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_differential_geometry/include/home/administrator/ci/ci/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_discrete_geometry/include/home/administrator/ci/ci/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_learning/include/home/administrator/ci/ci/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_optimization/include/home/administrator/ci/ci/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_motion/include/home/administrator/ci/ci/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_utilities/include/home/administrator/ci/ci/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_workspace/include/home/administrator/ci/ci/team/workspace/src/motion-optimization/riemo_catkin/riemo/external/include/opt/ros/indigo/include/usr/include/eigen3/usr/include
+
+Current include directories in riemo_kinematics cmakelists file:
+
+-- dir='/home/administrator/ci/ci/team/workspace/src/motion-optimization/riemo_ros_pkgs/riemo_kinematics/include'
+
+-- dir='/usr/include/eigen3'
+
+-- dir='/home/administrator/ci/ci/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_differential_geometry/include'
+
+-- dir='/home/administrator/ci/ci/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_discrete_geometry/include'
+
+-- dir='/home/administrator/ci/ci/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_learning/include'
+
+-- dir='/home/administrator/ci/ci/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_optimization/include'
+
+-- dir='/home/administrator/ci/ci/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_motion/include'
+
+-- dir='/home/administrator/ci/ci/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_utilities/include'
+
+-- dir='/home/administrator/ci/ci/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_workspace/include'
+
+-- dir='/home/administrator/ci/ci/team/workspace/src/motion-optimization/riemo_catkin/riemo/external/include'
+
+-- dir='/opt/ros/indigo/include'
+
+-- dir='/usr/include/eigen3'
+
+-- dir='/usr/include'
+
+-- +++ processing catkin package: 'visualization_2d'
+
+-- ==> add_subdirectory(motion-optimization/riemo_ros_pkgs/visualization_2d)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- visualization_2d: 5 messages, 1 services
+
+-- +++ processing catkin package: 'riemo_ros'
+
+-- ==> add_subdirectory(motion-optimization/riemo_ros_pkgs/riemo_ros)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- Eigen found (include: /usr/include/eigen3)
+
+-- +++ processing catkin package: 'riemo_programs'
+
+-- ==> add_subdirectory(motion-optimization/riemo_ros_pkgs/riemo_programs)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+CMake Warning at /opt/ros/indigo/share/catkin/cmake/catkinConfig.cmake:76 (find_package):
+
+  Could not find a package configuration file provided by
+
+  "riemo_grasping_msgs" with any of the following names:
+
+
+
+    riemo_grasping_msgsConfig.cmake
+
+    riemo_grasping_msgs-config.cmake
+
+
+
+  Add the installation prefix of "riemo_grasping_msgs" to CMAKE_PREFIX_PATH
+
+  or set "riemo_grasping_msgs_DIR" to a directory containing one of the above
+
+  files.  If "riemo_grasping_msgs" provides a separate development package or
+
+  SDK, be sure it has been installed.
 
 Call Stack (most recent call first):
 
-  catkin/core-sl/catkin-utilities/CMakeLists.txt:8 (include)
+  motion-optimization/riemo_ros_pkgs/riemo_programs/CMakeLists.txt:16 (find_package)
 
 
 
 
 
--- HOST_NAME=everest
+-- Could not find the required component 'riemo_grasping_msgs'. The following CMake error indicates that you either need to install the package with the same name or change your environment so that it can be found.
 
--- HOST=everest
+CMake Error at /opt/ros/indigo/share/catkin/cmake/catkinConfig.cmake:83 (find_package):
 
--- LAB=AMD
+  Could not find a package configuration file provided by
 
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+  "riemo_grasping_msgs" with any of the following names:
 
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
 
--- CMAKE_INCLUDE_PATH=
 
--- CMAKE_LIBRARY_PATH=
+    riemo_grasping_msgsConfig.cmake
 
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+    riemo_grasping_msgs-config.cmake
 
--- LAB_LIBDIR=lib/x86_64
 
--- LAB_INCLUDES=include
 
--- LAB_BINDIR=bin/x86_64
+  Add the installation prefix of "riemo_grasping_msgs" to CMAKE_PREFIX_PATH
 
--- +++ processing catkin package: 'lwpr'
+  or set "riemo_grasping_msgs_DIR" to a directory containing one of the above
 
--- ==> add_subdirectory(catkin/core-sl/catkin-lwpr)
+  files.  If "riemo_grasping_msgs" provides a separate development package or
 
--- MACHTYPE x86_64
-
-Detected MACHTYPE=x86_64
-
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
-
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+  SDK, be sure it has been installed.
 
 Call Stack (most recent call first):
 
-  catkin/core-sl/catkin-lwpr/CMakeLists.txt:5 (include)
-
-
-
-
-
--- HOST_NAME=everest
-
--- HOST=everest
-
--- LAB=AMD
-
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_INCLUDE_PATH=
-
--- CMAKE_LIBRARY_PATH=
-
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
-
--- LAB_LIBDIR=lib/x86_64
-
--- LAB_INCLUDES=include
-
--- LAB_BINDIR=bin/x86_64
-
--- +++ processing catkin package: 'sl'
-
--- ==> add_subdirectory(catkin/core-sl/catkin-sl)
-
--- MACHTYPE x86_64
-
-Detected MACHTYPE=x86_64
-
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
-
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
-
-Call Stack (most recent call first):
-
-  catkin/core-sl/catkin-sl/CMakeLists.txt:8 (include)
-
-
-
-
-
--- HOST_NAME=everest
-
--- HOST=everest
-
--- LAB=AMD
-
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_INCLUDE_PATH=
-
--- CMAKE_LIBRARY_PATH=
-
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
-
--- LAB_LIBDIR=lib/x86_64
-
--- LAB_INCLUDES=include
-
--- LAB_BINDIR=bin/x86_64
-
--- +++ processing catkin package: 'arm2d'
-
--- ==> add_subdirectory(catkin/robots/catkin-arm2D)
-
--- MACHTYPE x86_64
-
-Detected MACHTYPE=x86_64
-
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
-
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
-
-Call Stack (most recent call first):
-
-  catkin/robots/catkin-arm2D/CMakeLists.txt:8 (include)
-
-
-
-
-
--- HOST_NAME=everest
-
--- HOST=everest
-
--- LAB=AMD
-
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_INCLUDE_PATH=
-
--- CMAKE_LIBRARY_PATH=
-
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
-
--- LAB_LIBDIR=lib/x86_64
-
--- LAB_INCLUDES=include
-
--- LAB_BINDIR=bin/x86_64
-
--- +++ processing catkin package: 'arm2d_test_task'
-
--- ==> add_subdirectory(catkin/robots/catkin-sl-arm2D-task-example)
-
--- MACHTYPE x86_64
-
-Detected MACHTYPE=x86_64
-
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
-
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
-
-Call Stack (most recent call first):
-
-  catkin/robots/catkin-sl-arm2D-task-example/CMakeLists.txt:8 (include)
-
-
-
-
-
--- HOST_NAME=everest
-
--- HOST=everest
-
--- LAB=AMD
-
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_INCLUDE_PATH=
-
--- CMAKE_LIBRARY_PATH=
-
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
-
--- LAB_LIBDIR=lib/x86_64
-
--- LAB_INCLUDES=include
-
--- LAB_BINDIR=bin/x86_64
-
--- +++ processing catkin package: 'arm2d_user'
-
--- ==> add_subdirectory(catkin/robots/catkin-arm2DUser)
-
--- MACHTYPE x86_64
-
-Detected MACHTYPE=x86_64
-
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
-
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
-
-Call Stack (most recent call first):
-
-  catkin/robots/catkin-arm2DUser/CMakeLists.txt:8 (include)
-
-
-
-
-
--- HOST_NAME=everest
-
--- HOST=everest
-
--- LAB=AMD
-
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_INCLUDE_PATH=
-
--- CMAKE_LIBRARY_PATH=
-
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
-
--- LAB_LIBDIR=lib/x86_64
-
--- LAB_INCLUDES=include
-
--- LAB_BINDIR=bin/x86_64
-
-CMake Error at catkin/robots/catkin-arm2DUser/CMakeLists.txt:31 (add_subdirectory):
-
-  add_subdirectory given source "tmp_catkin_arm2D_user" which is not an
-
-  existing directory.
-
-
-
-
-
-CMake Error at /opt/ros/indigo/share/catkin/cmake/catkin_package.cmake:293 (message):
-
-  catkin_package() absolute include dir '/include' does not exist
-
-Call Stack (most recent call first):
-
-  /opt/ros/indigo/share/catkin/cmake/catkin_package.cmake:100 (_catkin_package)
-
-  catkin/robots/catkin-arm2DUser/CMakeLists.txt:33 (catkin_package)
+  motion-optimization/riemo_ros_pkgs/riemo_programs/CMakeLists.txt:16 (find_package)
 
 
 
