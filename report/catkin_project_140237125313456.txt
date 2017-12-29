@@ -1,5 +1,3 @@
-WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
-
 -- Using CATKIN_DEVEL_PREFIX: /home/administrator/ci/ci/team/workspace/devel
 
 -- Using CMAKE_PREFIX_PATH: /opt/ros/indigo
@@ -8,9 +6,9 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 
 -- Using PYTHON_EXECUTABLE: /usr/bin/python
 
--- Python version: 2.7
-
 -- Using Debian Python package layout
+
+-- Using empy: /usr/bin/empy
 
 -- Using CATKIN_ENABLE_TESTING: ON
 
@@ -20,59 +18,19 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 
 -- Found gtest sources under '/usr/src/gtest': gtests will be built
 
--- catkin 0.5.90
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+
+-- catkin 0.6.19
 
 -- BUILD_SHARED_LIBS is on
 
-WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
-
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- ~~  traversing 87 packages in topological order:
+-- ~~  traversing 18 packages in topological order:
 
--- ~~  - Eigen
+-- ~~  - astar_algo
 
--- ~~  - amd_clmc_dmp
-
--- ~~  - arm_cdlbt
-
--- ~~  - arm_can_control_tools
-
--- ~~  - catkin_gflags
-
--- ~~  - catkin_glog
-
--- ~~  - conversions
-
--- ~~  - graspit
-
--- ~~  - graspit_dbase_tasks
-
--- ~~  - dbase_grasp_planner
-
--- ~~  - graspit_simulator
-
--- ~~  - interpolation
-
--- ~~  - launch_xtion
-
--- ~~  - qp_oases
-
--- ~~  - quadprog
-
--- ~~  - ros_realtime (metapackage)
-
--- ~~  - allocators
-
--- ~~  - rosatomic
-
--- ~~  - lockfree
-
--- ~~  - rt_timer
-
--- ~~  - rt_utils
-
--- ~~  - splines
+-- ~~  - soma
 
 -- ~~  - start_robot
 
@@ -84,293 +42,289 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 
 -- ~~  - riemo_grasping_msgs
 
--- ~~  - graspit_ros_planning_msgs
+-- ~~  - playful_navigation_msgs
 
--- ~~  - utilities
+-- ~~  - playful_pcl
 
--- ~~  - lwpr
+-- ~~  - playful_histograms
 
--- ~~  - vrpn_vicon_minimum
+-- ~~  - playful_navigation
 
--- ~~  - vrpn_vicon_objs_tracker
+-- ~~  - playful_navigation_map
 
--- ~~  - xenomai_ros
+-- ~~  - playful_virtual_detection
 
--- ~~  - biotac_core
+-- ~~  - playful_depth_detection
 
--- ~~  - constrained_inverse_kinematics_msgs
+-- ~~  - playful_navigation_nodes
 
--- ~~  - robot_planning_client
+-- ~~  - playful_nodes
 
--- ~~  - roscpp_utilities
+-- ~~  - playful_table_setting
 
--- ~~  - rosrt
-
--- ~~  - ros_rt_test
-
--- ~~  - sl
-
--- ~~  - arm
-
--- ~~  - arm_test_task
-
--- ~~  - sl_ros_servo
-
--- ~~  - learning_control
-
--- ~~  - ar_track_alvar
-
--- ~~  - python_ros_utils
-
--- ~~  - sl_conversions
-
--- ~~  - sl_utilities
-
--- ~~  - sl_controller_manager
-
--- ~~  - sl_barrett_controllers
-
--- ~~  - sl_biotac_controller_data
-
--- ~~  - sl_biotac_controllers
-
--- ~~  - sl_controllers
-
--- ~~  - sl_head_arm_controllers
-
--- ~~  - sl_vicon_controller_data
-
--- ~~  - sl_biotac_vicon_controller_data
-
--- ~~  - controller_manager_task_arm
-
--- ~~  - arm_user
-
--- ~~  - graspit_ros_planning
-
--- ~~  - arm_robot_model
-
--- ~~  - arm_moveit_config
-
--- ~~  - ros_servo_arm
-
--- ~~  - usc_utilities
-
--- ~~  - learnable_cost_function
-
--- ~~  - robot_info
-
--- ~~  - jacobian_utilities
-
--- ~~  - sl_barrett_controller_interface
-
--- ~~  - sl_controller_interface
-
--- ~~  - arm_learn_hand_eye_calibration
-
--- ~~  - robot_kinematics_cost_function
-
--- ~~  - robot_inverse_kinematics
-
--- ~~  - sl_biotac_controller_interface
-
--- ~~  - sl_dmp_controller_interface
-
--- ~~  - controller_manager_examples_arm
-
--- ~~  - sl_head_arm_controller_interface
-
--- ~~  - arm_verify_calibration
-
--- ~~  - extrinsic_camera_calibration
-
--- ~~  - sl_behaviors
-
--- ~~  - robot_command_line
-
--- ~~  - strain_gauge_calibration
-
--- ~~  - verify_extrinsic_camera_calibration
-
--- ~~  - vicon_calibration
-
--- ~~  - vicon_core
-
--- ~~  - sl_vicon_controllers
-
--- ~~  - sl_dmp_controllers
-
--- ~~  - robot_planning_srv
-
--- ~~  - yaml_cpp
+-- ~~  - playful_kinematics
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- +++ processing catkin package: 'Eigen'
+-- +++ processing catkin package: 'astar_algo'
 
--- ==> add_subdirectory(catkin/third_party/Eigen)
+-- ==> add_subdirectory(catkin/playful/playful-navigation/externals/astar-algo)
 
-WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
+-- +++ processing catkin package: 'soma'
 
--- +++ processing catkin package: 'amd_clmc_dmp'
+-- ==> add_subdirectory(catkin/playful/playful-soma)
 
--- ==> add_subdirectory(catkin/planning/amd_clmc_dmp)
+-- +++ processing catkin package: 'start_robot'
+
+-- ==> add_subdirectory(catkin/robots/start_robot)
+
+-- +++ processing catkin package: 'amd_clmc_ros_messages'
+
+-- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/amd_clmc_ros_messages)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- amd_clmc_ros_messages: 107 messages, 10 services
+
+-- +++ processing catkin package: 'ar_track_alvar_msgs'
+
+-- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/ar_track_alvar_msgs)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- ar_track_alvar_msgs: 2 messages, 0 services
+
+-- +++ processing catkin package: 'custom_robot_msgs'
+
+-- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/custom_robot_msgs)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- custom_robot_msgs: 1 messages, 1 services
+
+-- +++ processing catkin package: 'riemo_grasping_msgs'
+
+-- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/riemo_grasping_msgs)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- riemo_grasping_msgs: 5 messages, 3 services
+
+-- +++ processing catkin package: 'playful_navigation_msgs'
+
+-- ==> add_subdirectory(catkin/playful/playful-navigation/navigation_msgs)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- playful_navigation_msgs: 0 messages, 2 services
+
+-- +++ processing catkin package: 'playful_pcl'
+
+-- ==> add_subdirectory(catkin/playful/playful-perception/playful_pcl)
 
 -- Boost version: 1.54.0
 
 -- Found the following Boost libraries:
-
---   thread
 
 --   system
 
 --   filesystem
 
--- +++ processing catkin package: 'arm_cdlbt'
+--   thread
 
--- ==> add_subdirectory(catkin/robots/arm-barrett/cdlbt)
+--   date_time
 
--- MACHTYPE x86_64
+--   iostreams
 
-Detected MACHTYPE=x86_64
+--   serialization
 
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+--   chrono
 
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+-- checking for module 'openni-dev'
 
-Call Stack (most recent call first):
+--   package 'openni-dev' not found
 
-  catkin/robots/arm-barrett/cdlbt/CMakeLists.txt:4 (include)
+-- checking for module 'openni2-dev'
 
+--   package 'openni2-dev' not found
 
+** WARNING ** io features related to pcap will be disabled
 
+** WARNING ** io features related to png will be disabled
 
+-- checking for module 'openni-dev'
 
--- HOST_NAME=everest
+--   package 'openni-dev' not found
 
--- HOST=everest
+-- checking for module 'openni2-dev'
 
--- LAB=AMD
+--   package 'openni2-dev' not found
 
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- looking for PCL_COMMON
 
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- looking for PCL_KDTREE
 
--- CMAKE_INCLUDE_PATH=
+-- looking for PCL_OCTREE
 
--- CMAKE_LIBRARY_PATH=
+-- looking for PCL_SEARCH
 
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+-- looking for PCL_SURFACE
 
--- LAB_LIBDIR=lib/x86_64
+-- looking for PCL_SAMPLE_CONSENSUS
 
--- LAB_INCLUDES=include
+-- looking for PCL_FILTERS
 
--- LAB_BINDIR=bin/x86_64
+-- looking for PCL_FEATURES
+
+-- looking for PCL_KEYPOINTS
+
+-- looking for PCL_GEOMETRY
+
+-- looking for PCL_IO
+
+-- looking for PCL_VISUALIZATION
+
+-- looking for PCL_SEGMENTATION
+
+-- looking for PCL_PEOPLE
+
+-- looking for PCL_REGISTRATION
+
+-- looking for PCL_RECOGNITION
+
+-- looking for PCL_OUTOFCORE
+
+-- looking for PCL_TRACKING
+
+-- +++ processing catkin package: 'playful_histograms'
+
+-- ==> add_subdirectory(catkin/playful/playful-perception/playful_histograms)
 
 -- Boost version: 1.54.0
 
 -- Found the following Boost libraries:
-
---   thread
-
--- +++ processing catkin package: 'arm_can_control_tools'
-
--- ==> add_subdirectory(catkin/robots/arm-barrett/canControlTools)
-
--- MACHTYPE x86_64
-
-Detected MACHTYPE=x86_64
-
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
-
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
-
-Call Stack (most recent call first):
-
-  catkin/robots/arm-barrett/canControlTools/CMakeLists.txt:4 (include)
-
-
-
-
-
--- HOST_NAME=everest
-
--- HOST=everest
-
--- LAB=AMD
-
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_INCLUDE_PATH=
-
--- CMAKE_LIBRARY_PATH=
-
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
-
--- LAB_LIBDIR=lib/x86_64
-
--- LAB_INCLUDES=include
-
--- LAB_BINDIR=bin/x86_64
-
--- Boost version: 1.54.0
-
--- Found the following Boost libraries:
-
---   thread
 
 --   system
 
--- +++ processing catkin package: 'catkin_gflags'
+-- +++ processing catkin package: 'playful_navigation'
 
--- ==> add_subdirectory(catkin/third_party/catkin-gflags)
+-- ==> add_subdirectory(catkin/playful/playful-navigation/navigation_libs)
 
--- Found gflags  (include: /usr/include, library: /usr/lib/x86_64-linux-gnu/libgflags.so)
+-- Using these message generators: gencpp;genlisp;genpy
 
--- +++ processing catkin package: 'catkin_glog'
+-- +++ processing catkin package: 'playful_navigation_map'
 
--- ==> add_subdirectory(catkin/third_party/catkin-glog)
+-- ==> add_subdirectory(catkin/playful/playful-navigation/navigation_map)
 
--- Found glog    (include: /usr/include, library: /usr/lib/x86_64-linux-gnu/libglog.so)
+-- +++ processing catkin package: 'playful_virtual_detection'
 
--- +++ processing catkin package: 'conversions'
+-- ==> add_subdirectory(catkin/playful/playful-perception/playful_virtual_detection)
 
--- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/usc_utils/conversions)
+-- +++ processing catkin package: 'playful_depth_detection'
 
--- +++ processing catkin package: 'graspit'
+-- ==> add_subdirectory(catkin/playful/playful-perception/playful_depth_detection)
 
--- ==> add_subdirectory(catkin/third_party/ros_graspit/graspit_simulator/graspit)
+-- +++ processing catkin package: 'playful_navigation_nodes'
 
-CMake Error at /home/administrator/ci/ci/team/workspace/devel/share/catkin/cmake/catkinConfig.cmake:75 (find_package):
+-- ==> add_subdirectory(catkin/playful/playful-navigation/navigation_nodes)
 
-  Could not find a package configuration file provided by
+-- +++ processing catkin package: 'playful_nodes'
 
-  "household_objects_database" with any of the following names:
+-- ==> add_subdirectory(catkin/playful/playful-perception/playful_nodes)
 
+-- Using these message generators: gencpp;genlisp;genpy
 
+-- Boost version: 1.54.0
 
-    household_objects_databaseConfig.cmake
+-- Found the following Boost libraries:
 
-    household_objects_database-config.cmake
+--   system
 
+--   filesystem
 
+--   thread
 
-  Add the installation prefix of "household_objects_database" to
+--   date_time
 
-  CMAKE_PREFIX_PATH or set "household_objects_database_DIR" to a directory
+--   iostreams
 
-  containing one of the above files.  If "household_objects_database"
+--   serialization
 
-  provides a separate development package or SDK, be sure it has been
+--   chrono
 
-  installed.
+-- checking for module 'openni-dev'
+
+--   package 'openni-dev' not found
+
+-- checking for module 'openni2-dev'
+
+--   package 'openni2-dev' not found
+
+** WARNING ** io features related to pcap will be disabled
+
+** WARNING ** io features related to png will be disabled
+
+-- checking for module 'openni-dev'
+
+--   package 'openni-dev' not found
+
+-- checking for module 'openni2-dev'
+
+--   package 'openni2-dev' not found
+
+-- looking for PCL_COMMON
+
+-- looking for PCL_KDTREE
+
+-- looking for PCL_OCTREE
+
+-- looking for PCL_SEARCH
+
+-- looking for PCL_SURFACE
+
+-- looking for PCL_SAMPLE_CONSENSUS
+
+-- looking for PCL_FILTERS
+
+-- looking for PCL_FEATURES
+
+-- looking for PCL_KEYPOINTS
+
+-- looking for PCL_GEOMETRY
+
+-- looking for PCL_IO
+
+-- looking for PCL_VISUALIZATION
+
+-- looking for PCL_SEGMENTATION
+
+-- looking for PCL_PEOPLE
+
+-- looking for PCL_REGISTRATION
+
+-- looking for PCL_RECOGNITION
+
+-- looking for PCL_OUTOFCORE
+
+-- looking for PCL_TRACKING
+
+-- +++ processing catkin package: 'playful_table_setting'
+
+-- ==> add_subdirectory(catkin/playful/playful-table-setting)
+
+-- +++ processing catkin package: 'playful_kinematics'
+
+-- ==> add_subdirectory(catkin/playful/playful-kinematics)
+
+CMake Error at /opt/ros/indigo/share/catkin/cmake/catkin_python_setup.cmake:96 (message):
+
+  The package name 'playful_kinematics' differs from the basename of the path
+
+  'scripts' in project 'playful_kinematics'
 
 Call Stack (most recent call first):
 
-  catkin/third_party/ros_graspit/graspit_simulator/graspit/CMakeLists.txt:7 (find_package)
+  catkin/playful/playful-kinematics/CMakeLists.txt:69 (catkin_python_setup)
 
 
 
