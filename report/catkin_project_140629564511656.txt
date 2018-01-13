@@ -1,17 +1,36 @@
-failed to compile unit tests:
-WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
+-- The C compiler identification is GNU 4.8.4
+
+-- The CXX compiler identification is GNU 4.8.4
+
+-- Check for working C compiler: /usr/bin/cc
+
+-- Check for working C compiler: /usr/bin/cc -- works
+
+-- Detecting C compiler ABI info
+
+-- Detecting C compiler ABI info - done
+
+-- Check for working CXX compiler: /usr/bin/c++
+
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+
+-- Detecting CXX compiler ABI info
+
+-- Detecting CXX compiler ABI info - done
 
 -- Using CATKIN_DEVEL_PREFIX: /home/administrator/ci/ci/team/workspace/devel
 
--- Using CMAKE_PREFIX_PATH: /home/administrator/ci/ci/team/workspace/devel;/opt/ros/indigo
+-- Using CMAKE_PREFIX_PATH: /opt/ros/indigo
 
--- This workspace overlays: /home/administrator/ci/ci/team/workspace/devel;/opt/ros/indigo
+-- This workspace overlays: /opt/ros/indigo
+
+-- Found PythonInterp: /usr/bin/python (found version "2.7.6") 
 
 -- Using PYTHON_EXECUTABLE: /usr/bin/python
 
--- Python version: 2.7
-
 -- Using Debian Python package layout
+
+-- Using empy: /usr/bin/empy
 
 -- Using CATKIN_ENABLE_TESTING: ON
 
@@ -19,103 +38,49 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 
 -- Using CATKIN_TEST_RESULTS_DIR: /home/administrator/ci/ci/team/workspace/build/test_results
 
+-- Looking for include file pthread.h
+
+-- Looking for include file pthread.h - found
+
+-- Looking for pthread_create
+
+-- Looking for pthread_create - not found
+
+-- Looking for pthread_create in pthreads
+
+-- Looking for pthread_create in pthreads - not found
+
+-- Looking for pthread_create in pthread
+
+-- Looking for pthread_create in pthread - found
+
+-- Found Threads: TRUE  
+
 -- Found gtest sources under '/usr/src/gtest': gtests will be built
 
--- catkin 0.5.90
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+
+-- catkin 0.6.19
 
 -- BUILD_SHARED_LIBS is on
 
-WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
-
-WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
-
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- ~~  traversing 19 packages in topological order:
+-- ~~  traversing 4 packages in topological order:
 
--- ~~  - Eigen
-
--- ~~  - robot_properties
-
--- ~~  - robot_properties_hermes_lower
-
--- ~~  - sl_config
-
--- ~~  - utilities
-
--- ~~  - lwpr
-
--- ~~  - sl
+-- ~~  - ci_example_python
 
 -- ~~  - yaml_cpp
 
--- ~~  - hermes_core
+-- ~~  - ci_example_cpp
 
--- ~~  - hermes_lower
-
--- ~~  - robot_math
-
--- ~~  - io_tools
-
--- ~~  - floating_base_tools_hermes_lower
-
--- ~~  - io_tools_sl
-
--- ~~  - floating_base_tools_sl_hermes_lower
-
--- ~~  - footsteps_planner_miqcqp_sl
-
--- ~~  - generalized_motion_primitives_hermes_lower
-
--- ~~  - visualization_tools_hermes_lower
-
--- ~~  - hermes_lower_user
+-- ~~  - ci_doxygen_child_cpp
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- +++ processing catkin package: 'Eigen'
+-- +++ processing catkin package: 'ci_example_python'
 
--- ==> add_subdirectory(catkin/third_party/Eigen)
-
-WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
-
--- +++ processing catkin package: 'robot_properties'
-
--- ==> add_subdirectory(catkin/humanoids/humanoid_control_skinny/robot_properties/robot_properties)
-
--- +++ processing catkin package: 'robot_properties_hermes_lower'
-
--- ==> add_subdirectory(catkin/humanoids/humanoid_control_skinny/robot_properties/robot_properties_hermes_lower)
-
--- +++ processing catkin package: 'sl_config'
-
--- ==> add_subdirectory(catkin/core-sl/sl_config)
-
--- +++ processing catkin package: 'utilities'
-
--- ==> add_subdirectory(catkin/core-sl/locomotion-utilities)
-
--- +++ processing catkin package: 'lwpr'
-
--- ==> add_subdirectory(catkin/core-sl/locomotion-lwpr)
-
--- +++ processing catkin package: 'sl'
-
--- ==> add_subdirectory(catkin/core-sl/locomotion-sl)
-
--- Found libedit: /usr/lib/x86_64-linux-gnu/libedit.so
-
--- GLUT_LIBRARIES=/usr/lib/x86_64-linux-gnu/libglut.so;/usr/lib/x86_64-linux-gnu/libXmu.so;/usr/lib/x86_64-linux-gnu/libXi.so
-
--- GLUT_INCLUDE_DIR=/usr/include
-
--- GLUT_FOUND: TRUE
-
--- Libedit_INCLUDE_DIRS=/usr/include
-
--- Libedit_LIBRARIES=/usr/lib/x86_64-linux-gnu/libedit.so
-
--- SLros dependencies found; compiling ROS servo.
+-- ==> add_subdirectory(catkin/examples/ci_example/ci_example_python)
 
 -- +++ processing catkin package: 'yaml_cpp'
 
@@ -123,113 +88,17 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 
 -- Boost version: 1.54.0
 
--- +++ processing catkin package: 'hermes_core'
+-- Performing Test FLAG_WEXTRA
 
--- ==> add_subdirectory(catkin/robots/hermesCore)
+-- Performing Test FLAG_WEXTRA - Success
 
--- +++ processing catkin package: 'hermes_lower'
+-- +++ processing catkin package: 'ci_example_cpp'
 
--- ==> add_subdirectory(catkin/robots/hermesLower)
+-- ==> add_subdirectory(catkin/examples/ci_example/ci_example_cpp)
 
--- Boost version: 1.54.0
+-- +++ processing catkin package: 'ci_doxygen_child_cpp'
 
--- Found the following Boost libraries:
-
---   thread
-
---   system
-
--- hermes_lower: compiling on everest; simulation only.
-
--- +++ processing catkin package: 'robot_math'
-
--- ==> add_subdirectory(catkin/humanoids/humanoid_control_skinny/robot_math)
-
--- +++ processing catkin package: 'io_tools'
-
--- ==> add_subdirectory(catkin/humanoids/humanoid_control_skinny/io_tools)
-
--- +++ processing catkin package: 'floating_base_tools_hermes_lower'
-
--- ==> add_subdirectory(catkin/humanoids/humanoid_control_skinny/floating_base_tools_common/floating_base_tools_hermes_lower)
-
--- +++ processing catkin package: 'io_tools_sl'
-
--- ==> add_subdirectory(catkin/humanoids/humanoid_control_skinny/io_tools_sl)
-
--- +++ processing catkin package: 'floating_base_tools_sl_hermes_lower'
-
--- ==> add_subdirectory(catkin/humanoids/humanoid_control_skinny/floating_base_tools_sl/floating_base_tools_sl_hermes_lower)
-
--- Boost version: 1.54.0
-
--- Found the following Boost libraries:
-
---   thread
-
---   system
-
---   filesystem
-
--- +++ processing catkin package: 'footsteps_planner_miqcqp_sl'
-
--- ==> add_subdirectory(catkin/humanoids/humanoid_control_skinny/contacts_planning_sl/footsteps_planner_MIQCQP_sl)
-
--- Boost version: 1.54.0
-
--- Found the following Boost libraries:
-
---   system
-
---   program_options
-
---   filesystem
-
--- +++ processing catkin package: 'generalized_motion_primitives_hermes_lower'
-
--- ==> add_subdirectory(catkin/humanoids/generalized_motion_primitives/generalized_motion_primitives_hermes_lower)
-
--- Boost version: 1.54.0
-
--- Found the following Boost libraries:
-
---   system
-
--- +++ processing catkin package: 'visualization_tools_hermes_lower'
-
--- ==> add_subdirectory(catkin/humanoids/humanoid_control_skinny/visualization_tools/visualization_tools_hermes_lower)
-
--- Boost version: 1.54.0
-
--- Found the following Boost libraries:
-
---   thread
-
---   system
-
---   filesystem
-
--- +++ processing catkin package: 'hermes_lower_user'
-
--- ==> add_subdirectory(catkin/robots/hermesLowerUser)
-
--- Boost version: 1.54.0
-
--- Found the following Boost libraries:
-
---   regex
-
---   filesystem
-
---   system
-
---   thread
-
-julia interface not found, not compiling in julia tasks
-
-If you want the julia interface, you need the julia_sl_interface package, and you must set an environment flag called JULIA_PATH, pointing to a directory containing a (properly compiled) julia repository. E.g.:
-
-juliaDir=~/julia; mkdir -p $juliaDir; cd $juliaDir; git clone https://github.com/JuliaLang/julia.git .; git checkout v0.4.2; make -j 8; echo JULIA_PATH="$juliaDir" >> ~/.bashrc; echo "export PATH=\$PATH:" $juliaDir >> ~/.bashrc; source ~/.bashrc
+-- ==> add_subdirectory(catkin/examples/ci_example/ci_doxygen_child_cpp)
 
 -- Configuring done
 
@@ -237,103 +106,323 @@ juliaDir=~/julia; mkdir -p $juliaDir; cd $juliaDir; git clone https://github.com
 
 -- Build files have been written to: /home/administrator/ci/ci/team/workspace/build
 
-Scanning dependencies of target gtest
+Scanning dependencies of target yaml-cpp
 
-[  0%] [ 68%] Built target utility
+[  2%] [  4%] [  6%] [ 11%] [ 11%] [ 13%] [ 15%] [ 18%] [ 20%] [ 22%] [ 25%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/nodebuilder.cpp.o
 
-Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[ 27%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/scantoken.cpp.o
 
-[ 73%] Built target geometry_utils
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/directives.cpp.o
 
-[ 78%] Built target configuration_file_loading
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/nodeevents.cpp.o
 
-Linking CXX shared library libgtest.so
+[ 29%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/memory.cpp.o
 
-[ 78%] Built target gtest
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/tag.cpp.o
 
-Scanning dependencies of target gtest_main
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/parse.cpp.o
 
-[ 84%] Building CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/ostream_wrapper.cpp.o
 
-Linking CXX shared library libgtest_main.so
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/node.cpp.o
 
-[ 84%] Built target gtest_main
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emitterutils.cpp.o
 
-Scanning dependencies of target configuration_file_loading_tests
+[ 31%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/scanscalar.cpp.o
 
-Scanning dependencies of target geometry_utils_test
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/scantag.cpp.o
 
-Scanning dependencies of target robot_math_test
+[ 34%] [ 36%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/scanner.cpp.o
 
-[ 84%] Building CXX object catkin/humanoids/humanoid_control_skinny/io_tools/CMakeFiles/configuration_file_loading_tests.dir/src/configuration_file_loading/TestConfigurationFileReader.cpp.o
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/parser.cpp.o
 
-[ 89%] [ 89%] [ 89%] [ 94%] Building CXX object catkin/humanoids/humanoid_control_skinny/robot_math/CMakeFiles/geometry_utils_test.dir/tests/geometry_utils/main.cpp.o
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/exp.cpp.o
 
-[ 94%] [100%] Building CXX object catkin/humanoids/humanoid_control_skinny/robot_math/CMakeFiles/geometry_utils_test.dir/tests/geometry_utils/geometry_utils_test.cpp.o
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emitter.cpp.o
 
-[100%] Building CXX object catkin/humanoids/humanoid_control_skinny/robot_math/CMakeFiles/geometry_utils_test.dir/tests/geometry_utils/spatial_algebra_test.cpp.o
+[ 38%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/regex.cpp.o
 
-Building CXX object catkin/humanoids/humanoid_control_skinny/robot_math/CMakeFiles/geometry_utils_test.dir/tests/geometry_utils/coordinate_transform_test.cpp.o
+[ 40%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/binary.cpp.o
 
-Building CXX object catkin/humanoids/humanoid_control_skinny/robot_math/CMakeFiles/robot_math_test.dir/tests/robot_math/TestRtEiquadprog.cpp.o
+[ 43%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/node_data.cpp.o
 
-Building CXX object catkin/humanoids/humanoid_control_skinny/robot_math/CMakeFiles/robot_math_test.dir/tests/robot_math/TestRtWaypointGenerator.cpp.o
+[ 45%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emit.cpp.o
 
-Building CXX object catkin/humanoids/humanoid_control_skinny/robot_math/CMakeFiles/robot_math_test.dir/tests/robot_math/movable_eigen_matrix_test.cpp.o
+[ 47%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/simplekey.cpp.o
 
-/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control_skinny/io_tools/src/configuration_file_loading/TestConfigurationFileReader.cpp: In function ‘void test_configuration_file_loading::changeToDirectoryWithConfigFile()’:
+[ 50%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emitterstate.cpp.o
 
-/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control_skinny/io_tools/src/configuration_file_loading/TestConfigurationFileReader.cpp:33:74: warning: ignoring return value of ‘int chdir(const char*)’, declared with attribute warn_unused_result [-Wunused-result]
+[ 52%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/convert.cpp.o
 
-   chdir("../../../../../src/catkin/humanoids/humanoid_control/io_tools/"); //configuration_file_loading"); //
+[ 54%] [ 56%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/singledocparser.cpp.o
 
-                                                                          ^
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/stream.cpp.o
 
-/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control_skinny/robot_math/tests/robot_math/TestRtWaypointGenerator.cpp: In member function ‘virtual void robot_math::RtWaypointGeneration_Test_rt_waypoint_gen_query_Test::TestBody()’:
+[ 59%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emitfromevents.cpp.o
 
-/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control_skinny/robot_math/tests/robot_math/TestRtWaypointGenerator.cpp:31:23: error: ‘class robot_math::RtWaypointGenerator<3, 10>’ has no member named ‘resize’
+[ 61%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/null.cpp.o
 
-       rt_waypoint_gen.resize(num_dim,num_waypoints);
+[ 63%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilderadapter.cpp.o
 
-                       ^
+[ 65%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilder.cpp.o
 
-/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control_skinny/robot_math/tests/robot_math/TestRtWaypointGenerator.cpp:50:23: error: ‘class robot_math::RtWaypointGenerator<3, 10>’ has no member named ‘initializeWaypoints’
+Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libyaml-cpp.so
 
-       rt_waypoint_gen.initializeWaypoints(pos, vel, acc, time);
+[ 65%] Built target yaml-cpp
 
-                       ^
+Scanning dependencies of target parse
 
-In file included from /home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control_skinny/robot_math/tests/robot_math/TestRtWaypointGenerator.cpp:3:0:
+Scanning dependencies of target read
 
-/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control_skinny/robot_math/include/robot_math/RtWaypointGenerator.h:127:10: error: ‘void robot_math::RtWaypointGenerator<num_dim, max_num_waypoints>::query(robot_math::RtWaypointGenerator<num_dim, max_num_waypoints>::VecNd&, robot_math::RtWaypointGenerator<num_dim, max_num_waypoints>::VecNd&, robot_math::RtWaypointGenerator<num_dim, max_num_waypoints>::VecNd&, double) [with int num_dim = 3; int max_num_waypoints = 10; robot_math::RtWaypointGenerator<num_dim, max_num_waypoints>::VecNd = Eigen::Matrix<double, 3, 1>]’ is private
+Scanning dependencies of target sandbox
 
-     void RtWaypointGenerator<num_dim,max_num_waypoints>::query(VecNd &pos, VecNd &vel, VecNd &acc, double time) {
+[ 68%] [ 70%] Scanning dependencies of target run-tests
 
-          ^
+Scanning dependencies of target basic_pid
 
-/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control_skinny/robot_math/tests/robot_math/TestRtWaypointGenerator.cpp:58:69: error: within this context
+[ 72%] Building CXX object catkin/third_party/YAML_CPP/util/CMakeFiles/parse.dir/parse.cpp.o
 
-       rt_waypoint_gen.query(pos_query, vel_query, acc_query, t_query);
+Building CXX object catkin/third_party/YAML_CPP/util/CMakeFiles/read.dir/read.cpp.o
 
-                                                                     ^
+Building CXX object catkin/third_party/YAML_CPP/util/CMakeFiles/sandbox.dir/sandbox.cpp.o
 
-make[3]: *** [catkin/humanoids/humanoid_control_skinny/robot_math/CMakeFiles/robot_math_test.dir/tests/robot_math/TestRtWaypointGenerator.cpp.o] Error 1
+[ 75%] [ 77%] [ 79%] [ 81%] [ 84%] [ 86%] Building CXX object catkin/examples/ci_example/ci_example_cpp/CMakeFiles/basic_pid.dir/src/basic_pid.cpp.o
 
-make[3]: *** Waiting for unfinished jobs....
+Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/emittertests.cpp.o
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/io_tools/configuration_file_loading_tests
+Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/spectests.cpp.o
 
-[100%] Built target configuration_file_loading_tests
+[ 88%] Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/main.cpp.o
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/robot_math/geometry_utils_test
+Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/new-api/parsertests.cpp.o
 
-[100%] Built target geometry_utils_test
+Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/tests.cpp.o
 
-make[2]: *** [catkin/humanoids/humanoid_control_skinny/robot_math/CMakeFiles/robot_math_test.dir/all] Error 2
+[ 90%] Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/new-api/spectests.cpp.o
 
-make[1]: *** [CMakeFiles/tests.dir/rule] Error 2
+Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/new-api/nodetests.cpp.o
 
-make: *** [tests] Error 2
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/yaml_cpp/read
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/yaml_cpp/sandbox
+
+[ 90%] Built target read
+
+[ 90%] Built target sandbox
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/yaml_cpp/parse
+
+[ 90%] Built target parse
+
+Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libbasic_pid.so
+
+[ 90%] Built target basic_pid
+
+Scanning dependencies of target ci_example_ros
+
+Scanning dependencies of target ci_example_abs_path_config_demo
+
+Scanning dependencies of target ci_example_demo
+
+Scanning dependencies of target doxygen_child
+
+[ 93%] [ 97%] [ 97%] [100%] Building CXX object catkin/examples/ci_example/ci_doxygen_child_cpp/CMakeFiles/doxygen_child.dir/src/doxygen_child.cpp.o
+
+Building CXX object catkin/examples/ci_example/ci_example_cpp/CMakeFiles/ci_example_demo.dir/src/demos/ci_example_demo.cpp.o
+
+Building CXX object catkin/examples/ci_example/ci_example_cpp/CMakeFiles/ci_example_ros.dir/src/demos/ci_example_ros.cpp.o
+
+Building CXX object catkin/examples/ci_example/ci_example_cpp/CMakeFiles/ci_example_abs_path_config_demo.dir/src/demos/ci_example_abs_path_config_demo.cpp.o
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/ci_example_cpp/ci_example_ros
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/ci_example_cpp/ci_example_demo
+
+Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libdoxygen_child.so
+
+[100%] Built target ci_example_ros
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/ci_example_cpp/ci_example_abs_path_config_demo
+
+[100%] Built target doxygen_child
+
+[100%] Built target ci_example_demo
+
+[100%] Built target ci_example_abs_path_config_demo
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/yaml_cpp/run-tests
+
+[100%] Built target run-tests
+
+Install the project...
+
+-- Install configuration: ""
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/_setup_util.py
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/env.sh
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/setup.bash
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/setup.sh
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/setup.zsh
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/.rosinstall
+
++ cd /home/administrator/ci/ci/team/workspace/src/catkin/examples/ci_example/ci_example_python
+
++ mkdir -p /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages
+
++ /usr/bin/env PYTHONPATH=/home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages:/home/administrator/ci/ci/team/workspace/build/lib/python2.7/dist-packages:/opt/ros/indigo/lib/python2.7/dist-packages CATKIN_BINARY_DIR=/home/administrator/ci/ci/team/workspace/build /usr/bin/python /home/administrator/ci/ci/team/workspace/src/catkin/examples/ci_example/ci_example_python/setup.py build --build-base /home/administrator/ci/ci/team/workspace/build/catkin/examples/ci_example/ci_example_python install --install-layout=deb --prefix=/home/administrator/ci/ci/team/workspace/install --install-scripts=/home/administrator/ci/ci/team/workspace/install/bin
+
+running build
+
+running build_py
+
+creating /home/administrator/ci/ci/team/workspace/build/catkin/examples/ci_example/ci_example_python/lib.linux-x86_64-2.7
+
+creating /home/administrator/ci/ci/team/workspace/build/catkin/examples/ci_example/ci_example_python/lib.linux-x86_64-2.7/ci_example_python
+
+copying scripts/ci_example_python/__init__.py -> /home/administrator/ci/ci/team/workspace/build/catkin/examples/ci_example/ci_example_python/lib.linux-x86_64-2.7/ci_example_python
+
+copying scripts/ci_example_python/pid.py -> /home/administrator/ci/ci/team/workspace/build/catkin/examples/ci_example/ci_example_python/lib.linux-x86_64-2.7/ci_example_python
+
+running install
+
+running install_lib
+
+creating /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/ci_example_python
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/examples/ci_example/ci_example_python/lib.linux-x86_64-2.7/ci_example_python/__init__.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/ci_example_python
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/examples/ci_example/ci_example_python/lib.linux-x86_64-2.7/ci_example_python/pid.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/ci_example_python
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/ci_example_python/__init__.py to __init__.pyc
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/ci_example_python/pid.py to pid.pyc
+
+running install_egg_info
+
+Writing /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/ci_example_python-1.0.0.egg-info
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/yaml_cpp.pc
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/yaml_cpp/cmake/yaml_cppConfig.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/yaml_cpp/cmake/yaml_cppConfig-version.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/yaml_cpp/package.xml
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/libyaml-cpp.so.0.5.1
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/libyaml-cpp.so.0.5
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/libyaml-cpp.so
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/ostream_wrapper.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/anchor.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/yaml.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/exceptions.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/dll.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/mark.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/noncopyable.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/traits.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/stlemitter.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/node.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/emit.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/iterator.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/node.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/memory.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/iterator.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/bool_type.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/iterator_fwd.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/node_ref.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/node_data.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/node_iterator.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/impl.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/type.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/ptr.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/parse.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/impl.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/convert.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/emittermanip.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/eventhandler.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/binary.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/emitterdef.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/contrib
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/contrib/graphbuilder.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/contrib/anchordict.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/emitfromevents.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/parser.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/emitter.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/yaml_eigen.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/null.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/yaml-cpp.pc
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/ci_example_cpp.pc
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/ci_example_cpp/cmake/ci_example_cppConfig.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/ci_example_cpp/cmake/ci_example_cppConfig-version.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/ci_example_cpp/package.xml
+
+-- Installing: /home/administrator/ci/ci/team/workspace/src/catkin/examples/ci_example/ci_example_cpp/demos/bin/ci_example_ros
+
+-- Set runtime path of "/home/administrator/ci/ci/team/workspace/src/catkin/examples/ci_example/ci_example_cpp/demos/bin/ci_example_ros" to "/home/administrator/ci/ci/team/workspace/install/lib:/home/administrator/ci/ci/team/workspace/devel/lib:/opt/ros/indigo/lib"
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/ci_doxygen_child_cpp.pc
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/ci_doxygen_child_cpp/cmake/ci_doxygen_child_cppConfig.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/ci_doxygen_child_cpp/cmake/ci_doxygen_child_cppConfig-version.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/ci_doxygen_child_cpp/package.xml
 
 Base path: /home/administrator/ci/ci/team/workspace
 
@@ -345,16 +434,16 @@ Devel space: /home/administrator/ci/ci/team/workspace/devel
 
 Install space: /home/administrator/ci/ci/team/workspace/install
 
-####
-
-#### Running command: "cmake /home/administrator/ci/ci/team/workspace/src -DCATKIN_DEVEL_PREFIX=/home/administrator/ci/ci/team/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/administrator/ci/ci/team/workspace/install" in "/home/administrator/ci/ci/team/workspace/build"
+Creating symlink "/home/administrator/ci/ci/team/workspace/src/CMakeLists.txt" pointing to "/opt/ros/indigo/share/catkin/cmake/toplevel.cmake"
 
 ####
 
-####
-
-#### Running command: "make -j16 tests" in "/home/administrator/ci/ci/team/workspace/build"
+#### Running command: "cmake /home/administrator/ci/ci/team/workspace/src -DCATKIN_DEVEL_PREFIX=/home/administrator/ci/ci/team/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/administrator/ci/ci/team/workspace/install -G Unix Makefiles" in "/home/administrator/ci/ci/team/workspace/build"
 
 ####
 
-Invoking "make" failed
+####
+
+#### Running command: "make -j16 install" in "/home/administrator/ci/ci/team/workspace/build"
+
+####
