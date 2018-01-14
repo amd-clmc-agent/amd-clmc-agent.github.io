@@ -1,14 +1,36 @@
+-- The C compiler identification is GNU 4.8.4
+
+-- The CXX compiler identification is GNU 4.8.4
+
+-- Check for working C compiler: /usr/bin/cc
+
+-- Check for working C compiler: /usr/bin/cc -- works
+
+-- Detecting C compiler ABI info
+
+-- Detecting C compiler ABI info - done
+
+-- Check for working CXX compiler: /usr/bin/c++
+
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+
+-- Detecting CXX compiler ABI info
+
+-- Detecting CXX compiler ABI info - done
+
 -- Using CATKIN_DEVEL_PREFIX: /home/administrator/ci/ci/team/workspace/devel
 
 -- Using CMAKE_PREFIX_PATH: /opt/ros/indigo
 
 -- This workspace overlays: /opt/ros/indigo
 
+-- Found PythonInterp: /usr/bin/python (found version "2.7.6") 
+
 -- Using PYTHON_EXECUTABLE: /usr/bin/python
 
--- Python version: 2.7
-
 -- Using Debian Python package layout
+
+-- Using empy: /usr/bin/empy
 
 -- Using CATKIN_ENABLE_TESTING: ON
 
@@ -16,197 +38,141 @@
 
 -- Using CATKIN_TEST_RESULTS_DIR: /home/administrator/ci/ci/team/workspace/build/test_results
 
+-- Looking for include file pthread.h
+
+-- Looking for include file pthread.h - found
+
+-- Looking for pthread_create
+
+-- Looking for pthread_create - not found
+
+-- Looking for pthread_create in pthreads
+
+-- Looking for pthread_create in pthreads - not found
+
+-- Looking for pthread_create in pthread
+
+-- Looking for pthread_create in pthread - found
+
+-- Found Threads: TRUE  
+
 -- Found gtest sources under '/usr/src/gtest': gtests will be built
 
--- catkin 0.5.90
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+
+-- catkin 0.6.19
 
 -- BUILD_SHARED_LIBS is on
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- ~~  traversing 14 packages in topological order:
+-- ~~  traversing 3 packages in topological order:
 
--- ~~  - imu_core
+-- ~~  - project_management_test_1
 
--- ~~  - ros_realtime (metapackage)
+-- ~~  - project_management_test_2
 
--- ~~  - allocators
-
--- ~~  - rosatomic
-
--- ~~  - lockfree
-
--- ~~  - rt_timer
-
--- ~~  - amd_clmc_ros_messages
-
--- ~~  - ar_track_alvar_msgs
-
--- ~~  - custom_robot_msgs
-
--- ~~  - riemo_grasping_msgs
-
--- ~~  - xenomai_ros
-
--- ~~  - rosrt
-
--- ~~  - imu_ros_rt
-
--- ~~  - ros_rt_test
+-- ~~  - project_management_test_3
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- +++ processing catkin package: 'imu_core'
+-- +++ processing catkin package: 'project_management_test_1'
 
--- ==> add_subdirectory(catkin/sensors/imu-core)
+-- ==> add_subdirectory(catkin/test/project_management_test_1)
 
-CMake Error at catkin/sensors/imu-core/CMakeLists.txt:4 (include):
+-- +++ processing catkin package: 'project_management_test_2'
 
-  include could not find load file:
+-- ==> add_subdirectory(catkin/test/project_management_test_2)
 
+-- +++ processing catkin package: 'project_management_test_3'
 
+-- ==> add_subdirectory(catkin/test/project_management_test_3)
 
-    /home/administrator/ci/ci/team/workspace/src/cmake/sl_cmake_global/LAB.cmake
+-- Configuring done
 
+-- Generating done
 
+-- Build files have been written to: /home/administrator/ci/ci/team/workspace/build
 
+Scanning dependencies of target test_project_1_fail_demo
 
+Scanning dependencies of target test_project_1_success_demo
 
--- xenomai NOT found. (/usr/local;/usr)
+Scanning dependencies of target test_project_1_ttest
 
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+Scanning dependencies of target test_project_2_demo_fail
 
--- Boost version: 1.54.0
+Scanning dependencies of target test_project_2_demo_success
 
--- Found the following Boost libraries:
+[ 60%] [ 60%] [ 80%] [100%] [100%] Building CXX object catkin/test/project_management_test_1/CMakeFiles/test_project_1_fail_demo.dir/src/test_project_1_demo_fail.cpp.o
 
---   thread
+Building CXX object catkin/test/project_management_test_1/CMakeFiles/test_project_1_success_demo.dir/src/test_project_1_demo_success.cpp.o
 
--- +++ processing catkin metapackage: 'ros_realtime'
+Building CXX object catkin/test/project_management_test_2/CMakeFiles/test_project_2_demo_success.dir/src/test_project_2_demo_success.cpp.o
 
--- ==> add_subdirectory(catkin/ros/ros_realtime/ros_realtime)
+Building CXX object catkin/test/project_management_test_2/CMakeFiles/test_project_2_demo_fail.dir/src/test_project_2_demo_fail.cpp.o
 
--- +++ processing catkin package: 'allocators'
+Building CXX object catkin/test/project_management_test_1/CMakeFiles/test_project_1_ttest.dir/src/t_test.cpp.o
 
--- ==> add_subdirectory(catkin/ros/ros_realtime/allocators)
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/project_management_test_1/test_project_1_success_demo
 
--- Boost version: 1.54.0
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/project_management_test_2/test_project_2_demo_success
 
--- +++ processing catkin package: 'rosatomic'
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/project_management_test_2/test_project_2_demo_fail
 
--- ==> add_subdirectory(catkin/ros/ros_realtime/rosatomic)
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/project_management_test_1/test_project_1_fail_demo
 
--- Boost version: 1.54.0
+[100%] [100%] [100%] [100%] Built target test_project_2_demo_success
 
--- +++ processing catkin package: 'lockfree'
+Built target test_project_1_success_demo
 
--- ==> add_subdirectory(catkin/ros/ros_realtime/lockfree)
+Built target test_project_2_demo_fail
 
--- Boost version: 1.54.0
+Built target test_project_1_fail_demo
 
--- +++ processing catkin package: 'rt_timer'
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/project_management_test_1/test_project_1_ttest
 
--- ==> add_subdirectory(catkin/ros/ros_realtime/rt_timer)
+[100%] Built target test_project_1_ttest
 
--- +++ processing catkin package: 'amd_clmc_ros_messages'
+Install the project...
 
--- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/amd_clmc_ros_messages)
+-- Install configuration: ""
 
--- Using these message generators: gencpp;genlisp;genpy
+-- Installing: /home/administrator/ci/ci/team/workspace/install/_setup_util.py
 
--- amd_clmc_ros_messages: 107 messages, 10 services
+-- Installing: /home/administrator/ci/ci/team/workspace/install/env.sh
 
--- +++ processing catkin package: 'ar_track_alvar_msgs'
+-- Installing: /home/administrator/ci/ci/team/workspace/install/setup.bash
 
--- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/ar_track_alvar_msgs)
+-- Installing: /home/administrator/ci/ci/team/workspace/install/setup.sh
 
--- Using these message generators: gencpp;genlisp;genpy
+-- Installing: /home/administrator/ci/ci/team/workspace/install/setup.zsh
 
--- ar_track_alvar_msgs: 2 messages, 0 services
+-- Installing: /home/administrator/ci/ci/team/workspace/install/.rosinstall
 
--- +++ processing catkin package: 'custom_robot_msgs'
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/project_management_test_1.pc
 
--- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/custom_robot_msgs)
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/project_management_test_1/cmake/project_management_test_1Config.cmake
 
--- Using these message generators: gencpp;genlisp;genpy
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/project_management_test_1/cmake/project_management_test_1Config-version.cmake
 
--- custom_robot_msgs: 1 messages, 2 services
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/project_management_test_1/package.xml
 
--- +++ processing catkin package: 'riemo_grasping_msgs'
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/project_management_test_2.pc
 
--- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/riemo_grasping_msgs)
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/project_management_test_2/cmake/project_management_test_2Config.cmake
 
--- Using these message generators: gencpp;genlisp;genpy
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/project_management_test_2/cmake/project_management_test_2Config-version.cmake
 
--- riemo_grasping_msgs: 5 messages, 3 services
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/project_management_test_2/package.xml
 
--- +++ processing catkin package: 'xenomai_ros'
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/project_management_test_3.pc
 
--- ==> add_subdirectory(catkin/ros/xenomai-ros)
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/project_management_test_3/cmake/project_management_test_3Config.cmake
 
--- +++ processing catkin package: 'rosrt'
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/project_management_test_3/cmake/project_management_test_3Config-version.cmake
 
--- ==> add_subdirectory(catkin/ros/ros_realtime/rosrt)
-
--- xenomai NOT found. (/usr/local;/usr)
-
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
-
--- Boost version: 1.54.0
-
--- Found the following Boost libraries:
-
---   thread
-
--- +++ processing catkin package: 'imu_ros_rt'
-
--- ==> add_subdirectory(catkin/sensors/imu-ros-rt)
-
-CMake Error at catkin/sensors/imu-ros-rt/CMakeLists.txt:4 (include):
-
-  include could not find load file:
-
-
-
-    /home/administrator/ci/ci/team/workspace/src/cmake/sl_cmake_global/LAB.cmake
-
-
-
-
-
--- xenomai NOT found. (/usr/local;/usr)
-
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
-
--- Boost version: 1.54.0
-
--- Found the following Boost libraries:
-
---   thread
-
-CMake Error at catkin/sensors/imu-ros-rt/CMakeLists.txt:41 (install):
-
-  install TARGETS given target "imu_demo" which does not exist in this
-
-  directory.
-
-
-
-
-
--- +++ processing catkin package: 'ros_rt_test'
-
--- ==> add_subdirectory(catkin/ros/ros_rt_basic_example)
-
--- xenomai NOT found. (/usr/local;/usr)
-
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
-
--- Configuring incomplete, errors occurred!
-
-See also "/home/administrator/ci/ci/team/workspace/build/CMakeFiles/CMakeOutput.log".
-
-See also "/home/administrator/ci/ci/team/workspace/build/CMakeFiles/CMakeError.log".
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/project_management_test_3/package.xml
 
 Base path: /home/administrator/ci/ci/team/workspace
 
@@ -218,10 +184,16 @@ Devel space: /home/administrator/ci/ci/team/workspace/devel
 
 Install space: /home/administrator/ci/ci/team/workspace/install
 
+Creating symlink "/home/administrator/ci/ci/team/workspace/src/CMakeLists.txt" pointing to "/opt/ros/indigo/share/catkin/cmake/toplevel.cmake"
+
 ####
 
 #### Running command: "cmake /home/administrator/ci/ci/team/workspace/src -DCATKIN_DEVEL_PREFIX=/home/administrator/ci/ci/team/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/administrator/ci/ci/team/workspace/install -G Unix Makefiles" in "/home/administrator/ci/ci/team/workspace/build"
 
 ####
 
-Invoking "cmake" failed
+####
+
+#### Running command: "make -j16 install" in "/home/administrator/ci/ci/team/workspace/build"
+
+####
