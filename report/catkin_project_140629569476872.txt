@@ -26,63 +26,25 @@
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- ~~  traversing 10 packages in topological order:
+-- ~~  traversing 1 packages in topological order:
 
--- ~~  - cdist_utils
-
--- ~~  - robot_model_helper
-
--- ~~  - compute_cdist
-
--- ~~  - random_forest
-
--- ~~  - arm_robot_model
-
--- ~~  - cdist_py
-
--- ~~  - test_cdist
-
--- ~~  - urdf_parser_py
-
--- ~~  - xml_reflection
-
--- ~~  - arm_pose_esti
+-- ~~  - bagutils
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- +++ processing catkin package: 'cdist_utils'
+-- +++ processing catkin package: 'bagutils'
 
--- ==> add_subdirectory(catkin/robot_pose_estimation/cdist/cdist_utils)
+-- ==> add_subdirectory(catkin/ros/bagutils)
 
-CMake Error at catkin/robot_pose_estimation/cdist/cdist_utils/CMakeLists.txt:18 (find_package):
+CMake Error at /opt/ros/indigo/share/catkin/cmake/catkin_python_setup.cmake:96 (message):
 
-  By not providing "FindEigen.cmake" in CMAKE_MODULE_PATH this project has
+  The package name 'bagutils' differs from the basename of the path 'src' in
 
-  asked CMake to find a package configuration file provided by "Eigen", but
+  project 'bagutils'
 
-  CMake did not find one.
+Call Stack (most recent call first):
 
-
-
-  Could not find a package configuration file provided by "Eigen" with any of
-
-  the following names:
-
-
-
-    EigenConfig.cmake
-
-    eigen-config.cmake
-
-
-
-  Add the installation prefix of "Eigen" to CMAKE_PREFIX_PATH or set
-
-  "Eigen_DIR" to a directory containing one of the above files.  If "Eigen"
-
-  provides a separate development package or SDK, be sure it has been
-
-  installed.
+  catkin/ros/bagutils/CMakeLists.txt:4 (catkin_python_setup)
 
 
 
