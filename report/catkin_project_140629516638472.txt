@@ -1,17 +1,14 @@
-failed to compile unit tests:
-WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
-
 -- Using CATKIN_DEVEL_PREFIX: /home/administrator/ci/ci/team/workspace/devel
 
--- Using CMAKE_PREFIX_PATH: /home/administrator/ci/ci/team/workspace/devel;/opt/ros/indigo
+-- Using CMAKE_PREFIX_PATH: /opt/ros/indigo
 
--- This workspace overlays: /home/administrator/ci/ci/team/workspace/devel;/opt/ros/indigo
+-- This workspace overlays: /opt/ros/indigo
 
 -- Using PYTHON_EXECUTABLE: /usr/bin/python
 
--- Python version: 2.7
-
 -- Using Debian Python package layout
+
+-- Using empy: /usr/bin/empy
 
 -- Using CATKIN_ENABLE_TESTING: ON
 
@@ -21,319 +18,257 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 
 -- Found gtest sources under '/usr/src/gtest': gtests will be built
 
--- catkin 0.5.90
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+
+-- catkin 0.6.19
 
 -- BUILD_SHARED_LIBS is on
 
-WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
+-- ~~  traversing 13 packages in topological order:
+
+-- ~~  - apollo_moveit_config
+
+-- ~~  - catkin_gflags
+
+-- ~~  - catkin_glog
+
+-- ~~  - demo_robot_model
+
+-- ~~  - riemo
+
+-- ~~  - riemo_launch
+
+-- ~~  - riemo_scripts
+
+-- ~~  - riemo_controller_msgs
+
+-- ~~  - riemo_rt
+
+-- ~~  - riemo_kinematics
+
+-- ~~  - visualization_2d
+
+-- ~~  - riemo_ros
+
+-- ~~  - riemo_programs
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- ~~  traversing 19 packages in topological order:
+-- +++ processing catkin package: 'apollo_moveit_config'
 
--- ~~  - Eigen
+-- ==> add_subdirectory(motion-optimization/riemo_ros_pkgs/apollo_moveit_config)
 
--- ~~  - robot_properties
+-- +++ processing catkin package: 'catkin_gflags'
 
--- ~~  - robot_properties_hermes_lower
+-- ==> add_subdirectory(catkin/third_party/catkin-gflags)
 
--- ~~  - sl_config
+-- Found gflags  (include: /usr/include, library: /usr/lib/x86_64-linux-gnu/libgflags.so)
 
--- ~~  - utilities
+-- +++ processing catkin package: 'catkin_glog'
 
--- ~~  - lwpr
+-- ==> add_subdirectory(catkin/third_party/catkin-glog)
 
--- ~~  - sl
+-- Found glog    (include: /usr/include, library: /usr/lib/x86_64-linux-gnu/libglog.so)
 
--- ~~  - yaml_cpp
+-- +++ processing catkin package: 'demo_robot_model'
 
--- ~~  - hermes_core
+-- ==> add_subdirectory(motion-optimization/riemo_ros_pkgs/demo_robot_model)
 
--- ~~  - hermes_lower
+-- +++ processing catkin package: 'riemo'
 
--- ~~  - robot_math
+-- ==> add_subdirectory(motion-optimization/riemo_catkin)
 
--- ~~  - io_tools
+------------------------------------------------------------------
 
--- ~~  - floating_base_tools_hermes_lower
+using catkin test functionality
 
--- ~~  - io_tools_sl
+------------------------------------------------------------------
 
--- ~~  - floating_base_tools_sl_hermes_lower
+cmake source dir: /home/administrator/ci/ci/team/workspace/src
 
--- ~~  - footsteps_planner_miqcqp_sl
+cmake module path: /home/administrator/ci/ci/team/workspace/src/motion-optimization/cmake/Modules
 
--- ~~  - generalized_motion_primitives_hermes_lower
+--------------------------------------------------------------------
 
--- ~~  - visualization_tools_hermes_lower
+Project source directory: /home/administrator/ci/ci/team/workspace/src
 
--- ~~  - hermes_lower_user
+Building riemo
 
--- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Build type: 
 
--- +++ processing catkin package: 'Eigen'
+--------------------------------------------------------------------
 
--- ==> add_subdirectory(catkin/third_party/Eigen)
+**** No build type set ****
 
-WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
+Eigen directory: /home/administrator/ci/ci/team/workspace/src/motion-optimization/cmake/Modules/Eigen
 
--- +++ processing catkin package: 'robot_properties'
+-- Eigen found (include: /usr/include/eigen3)
 
--- ==> add_subdirectory(catkin/humanoids/humanoid_control_skinny/robot_properties/robot_properties)
+Eigen include directories: /usr/include/eigen3
 
--- +++ processing catkin package: 'robot_properties_hermes_lower'
+-- A library with BLAS API found.
 
--- ==> add_subdirectory(catkin/humanoids/humanoid_control_skinny/robot_properties/robot_properties_hermes_lower)
+-- A library with LAPACK API found.
 
--- +++ processing catkin package: 'sl_config'
+Lapack: TRUE
 
--- ==> add_subdirectory(catkin/core-sl/sl_config)
+Lapack linker flags: 
 
--- +++ processing catkin package: 'utilities'
+Lapack libraries: /usr/lib/liblapack.so;/usr/lib/libblas.so
 
--- ==> add_subdirectory(catkin/core-sl/locomotion-utilities)
+Lapack 95 libraries: 
 
--- +++ processing catkin package: 'lwpr'
+-- +++ processing catkin package: 'riemo_launch'
 
--- ==> add_subdirectory(catkin/core-sl/locomotion-lwpr)
+-- ==> add_subdirectory(motion-optimization/riemo_ros_pkgs/riemo_launch)
 
--- +++ processing catkin package: 'sl'
+-- +++ processing catkin package: 'riemo_scripts'
 
--- ==> add_subdirectory(catkin/core-sl/locomotion-sl)
+-- ==> add_subdirectory(motion-optimization/riemo_ros_pkgs/riemo_scripts)
 
--- Found libedit: /usr/lib/x86_64-linux-gnu/libedit.so
+-- +++ processing catkin package: 'riemo_controller_msgs'
 
--- GLUT_LIBRARIES=/usr/lib/x86_64-linux-gnu/libglut.so;/usr/lib/x86_64-linux-gnu/libXmu.so;/usr/lib/x86_64-linux-gnu/libXi.so
+-- ==> add_subdirectory(motion-optimization/riemo_ros_pkgs/riemo_controller_msgs)
 
--- GLUT_INCLUDE_DIR=/usr/include
+-- Using these message generators: gencpp;genlisp;genpy
 
--- GLUT_FOUND: TRUE
+-- riemo_controller_msgs: 23 messages, 2 services
 
--- Libedit_INCLUDE_DIRS=/usr/include
+-- +++ processing catkin package: 'riemo_rt'
 
--- Libedit_LIBRARIES=/usr/lib/x86_64-linux-gnu/libedit.so
+-- ==> add_subdirectory(motion-optimization/riemo_ros_pkgs/riemo_rt)
 
--- SLros dependencies found; compiling ROS servo.
+-- Eigen found (include: /usr/include/eigen3)
 
--- +++ processing catkin package: 'yaml_cpp'
+-- +++ processing catkin package: 'riemo_kinematics'
 
--- ==> add_subdirectory(catkin/third_party/YAML_CPP)
+-- ==> add_subdirectory(motion-optimization/riemo_ros_pkgs/riemo_kinematics)
 
--- Boost version: 1.54.0
+-- Eigen found (include: /usr/include/eigen3)
 
--- +++ processing catkin package: 'hermes_core'
+Eigen : /usr/include/eigen3
 
--- ==> add_subdirectory(catkin/robots/hermesCore)
+Catkin :/home/administrator/ci/ci/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_differential_geometry/include/home/administrator/ci/ci/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_discrete_geometry/include/home/administrator/ci/ci/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_learning/include/home/administrator/ci/ci/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_optimization/include/home/administrator/ci/ci/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_motion/include/home/administrator/ci/ci/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_utilities/include/home/administrator/ci/ci/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_workspace/include/home/administrator/ci/ci/team/workspace/src/motion-optimization/riemo_catkin/riemo/external/include/opt/ros/indigo/include/usr/include/eigen3/usr/include
 
--- +++ processing catkin package: 'hermes_lower'
+Current include directories in riemo_kinematics cmakelists file:
 
--- ==> add_subdirectory(catkin/robots/hermesLower)
+-- dir='/home/administrator/ci/ci/team/workspace/src/motion-optimization/riemo_ros_pkgs/riemo_kinematics/include'
 
--- Boost version: 1.54.0
+-- dir='/usr/include/eigen3'
 
--- Found the following Boost libraries:
+-- dir='/home/administrator/ci/ci/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_differential_geometry/include'
 
---   thread
+-- dir='/home/administrator/ci/ci/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_discrete_geometry/include'
 
---   system
+-- dir='/home/administrator/ci/ci/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_learning/include'
 
--- hermes_lower: compiling on everest; simulation only.
+-- dir='/home/administrator/ci/ci/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_optimization/include'
 
--- +++ processing catkin package: 'robot_math'
+-- dir='/home/administrator/ci/ci/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_motion/include'
 
--- ==> add_subdirectory(catkin/humanoids/humanoid_control_skinny/robot_math)
+-- dir='/home/administrator/ci/ci/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_utilities/include'
 
--- +++ processing catkin package: 'io_tools'
+-- dir='/home/administrator/ci/ci/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_workspace/include'
 
--- ==> add_subdirectory(catkin/humanoids/humanoid_control_skinny/io_tools)
+-- dir='/home/administrator/ci/ci/team/workspace/src/motion-optimization/riemo_catkin/riemo/external/include'
 
--- +++ processing catkin package: 'floating_base_tools_hermes_lower'
+-- dir='/opt/ros/indigo/include'
 
--- ==> add_subdirectory(catkin/humanoids/humanoid_control_skinny/floating_base_tools_common/floating_base_tools_hermes_lower)
+-- dir='/usr/include/eigen3'
 
--- +++ processing catkin package: 'io_tools_sl'
+-- dir='/usr/include'
 
--- ==> add_subdirectory(catkin/humanoids/humanoid_control_skinny/io_tools_sl)
+-- +++ processing catkin package: 'visualization_2d'
 
--- +++ processing catkin package: 'floating_base_tools_sl_hermes_lower'
+-- ==> add_subdirectory(motion-optimization/riemo_ros_pkgs/visualization_2d)
 
--- ==> add_subdirectory(catkin/humanoids/humanoid_control_skinny/floating_base_tools_sl/floating_base_tools_sl_hermes_lower)
+-- Using these message generators: gencpp;genlisp;genpy
 
--- Boost version: 1.54.0
+-- visualization_2d: 5 messages, 1 services
 
--- Found the following Boost libraries:
+-- +++ processing catkin package: 'riemo_ros'
 
---   thread
+-- ==> add_subdirectory(motion-optimization/riemo_ros_pkgs/riemo_ros)
 
---   system
+-- Using these message generators: gencpp;genlisp;genpy
 
---   filesystem
+-- Eigen found (include: /usr/include/eigen3)
 
--- +++ processing catkin package: 'footsteps_planner_miqcqp_sl'
+-- +++ processing catkin package: 'riemo_programs'
 
--- ==> add_subdirectory(catkin/humanoids/humanoid_control_skinny/contacts_planning_sl/footsteps_planner_MIQCQP_sl)
+-- ==> add_subdirectory(motion-optimization/riemo_ros_pkgs/riemo_programs)
 
--- Boost version: 1.54.0
+-- Using these message generators: gencpp;genlisp;genpy
 
--- Found the following Boost libraries:
+CMake Warning at /opt/ros/indigo/share/catkin/cmake/catkinConfig.cmake:76 (find_package):
 
---   system
+  Could not find a package configuration file provided by
 
---   program_options
+  "riemo_grasping_msgs" with any of the following names:
 
---   filesystem
 
--- +++ processing catkin package: 'generalized_motion_primitives_hermes_lower'
 
--- ==> add_subdirectory(catkin/humanoids/generalized_motion_primitives/generalized_motion_primitives_hermes_lower)
+    riemo_grasping_msgsConfig.cmake
 
--- Boost version: 1.54.0
+    riemo_grasping_msgs-config.cmake
 
--- Found the following Boost libraries:
 
---   system
 
--- +++ processing catkin package: 'visualization_tools_hermes_lower'
+  Add the installation prefix of "riemo_grasping_msgs" to CMAKE_PREFIX_PATH
 
--- ==> add_subdirectory(catkin/humanoids/humanoid_control_skinny/visualization_tools/visualization_tools_hermes_lower)
+  or set "riemo_grasping_msgs_DIR" to a directory containing one of the above
 
--- Boost version: 1.54.0
+  files.  If "riemo_grasping_msgs" provides a separate development package or
 
--- Found the following Boost libraries:
+  SDK, be sure it has been installed.
 
---   thread
+Call Stack (most recent call first):
 
---   system
+  motion-optimization/riemo_ros_pkgs/riemo_programs/CMakeLists.txt:16 (find_package)
 
---   filesystem
 
--- +++ processing catkin package: 'hermes_lower_user'
 
--- ==> add_subdirectory(catkin/robots/hermesLowerUser)
 
--- Boost version: 1.54.0
 
--- Found the following Boost libraries:
+-- Could not find the required component 'riemo_grasping_msgs'. The following CMake error indicates that you either need to install the package with the same name or change your environment so that it can be found.
 
---   regex
+CMake Error at /opt/ros/indigo/share/catkin/cmake/catkinConfig.cmake:83 (find_package):
 
---   filesystem
+  Could not find a package configuration file provided by
 
---   system
+  "riemo_grasping_msgs" with any of the following names:
 
---   thread
 
-julia interface not found, not compiling in julia tasks
 
-If you want the julia interface, you need the julia_sl_interface package, and you must set an environment flag called JULIA_PATH, pointing to a directory containing a (properly compiled) julia repository. E.g.:
+    riemo_grasping_msgsConfig.cmake
 
-juliaDir=~/julia; mkdir -p $juliaDir; cd $juliaDir; git clone https://github.com/JuliaLang/julia.git .; git checkout v0.4.2; make -j 8; echo JULIA_PATH="$juliaDir" >> ~/.bashrc; echo "export PATH=\$PATH:" $juliaDir >> ~/.bashrc; source ~/.bashrc
+    riemo_grasping_msgs-config.cmake
 
--- Configuring done
 
--- Generating done
 
--- Build files have been written to: /home/administrator/ci/ci/team/workspace/build
+  Add the installation prefix of "riemo_grasping_msgs" to CMAKE_PREFIX_PATH
 
-Scanning dependencies of target gtest
+  or set "riemo_grasping_msgs_DIR" to a directory containing one of the above
 
-[  0%] [ 68%] Built target utility
+  files.  If "riemo_grasping_msgs" provides a separate development package or
 
-Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+  SDK, be sure it has been installed.
 
-[ 73%] Built target geometry_utils
+Call Stack (most recent call first):
 
-[ 78%] Built target configuration_file_loading
+  motion-optimization/riemo_ros_pkgs/riemo_programs/CMakeLists.txt:16 (find_package)
 
-Linking CXX shared library libgtest.so
 
-[ 78%] Built target gtest
 
-Scanning dependencies of target gtest_main
 
-[ 84%] Building CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
 
-Linking CXX shared library libgtest_main.so
+-- Configuring incomplete, errors occurred!
 
-[ 84%] Built target gtest_main
+See also "/home/administrator/ci/ci/team/workspace/build/CMakeFiles/CMakeOutput.log".
 
-Scanning dependencies of target configuration_file_loading_tests
-
-Scanning dependencies of target geometry_utils_test
-
-Scanning dependencies of target robot_math_test
-
-[ 84%] [ 89%] Building CXX object catkin/humanoids/humanoid_control_skinny/io_tools/CMakeFiles/configuration_file_loading_tests.dir/src/configuration_file_loading/TestConfigurationFileReader.cpp.o
-
-[ 94%] [ 94%] [ 94%] Building CXX object catkin/humanoids/humanoid_control_skinny/robot_math/CMakeFiles/geometry_utils_test.dir/tests/geometry_utils/main.cpp.o
-
-Building CXX object catkin/humanoids/humanoid_control_skinny/robot_math/CMakeFiles/geometry_utils_test.dir/tests/geometry_utils/spatial_algebra_test.cpp.o
-
-Building CXX object catkin/humanoids/humanoid_control_skinny/robot_math/CMakeFiles/geometry_utils_test.dir/tests/geometry_utils/coordinate_transform_test.cpp.o
-
-Building CXX object catkin/humanoids/humanoid_control_skinny/robot_math/CMakeFiles/geometry_utils_test.dir/tests/geometry_utils/geometry_utils_test.cpp.o
-
-[ 94%] [ 94%] [100%] Building CXX object catkin/humanoids/humanoid_control_skinny/robot_math/CMakeFiles/robot_math_test.dir/tests/robot_math/movable_eigen_matrix_test.cpp.o
-
-Building CXX object catkin/humanoids/humanoid_control_skinny/robot_math/CMakeFiles/robot_math_test.dir/tests/robot_math/TestRtEiquadprog.cpp.o
-
-Building CXX object catkin/humanoids/humanoid_control_skinny/robot_math/CMakeFiles/robot_math_test.dir/tests/robot_math/TestRtWaypointGenerator.cpp.o
-
-/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control_skinny/io_tools/src/configuration_file_loading/TestConfigurationFileReader.cpp: In function ‘void test_configuration_file_loading::changeToDirectoryWithConfigFile()’:
-
-/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control_skinny/io_tools/src/configuration_file_loading/TestConfigurationFileReader.cpp:33:74: warning: ignoring return value of ‘int chdir(const char*)’, declared with attribute warn_unused_result [-Wunused-result]
-
-   chdir("../../../../../src/catkin/humanoids/humanoid_control/io_tools/"); //configuration_file_loading"); //
-
-                                                                          ^
-
-/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control_skinny/robot_math/tests/robot_math/TestRtWaypointGenerator.cpp: In member function ‘virtual void robot_math::RtWaypointGeneration_Test_rt_waypoint_gen_query_Test::TestBody()’:
-
-/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control_skinny/robot_math/tests/robot_math/TestRtWaypointGenerator.cpp:31:23: error: ‘class robot_math::RtWaypointGenerator<3, 10>’ has no member named ‘resize’
-
-       rt_waypoint_gen.resize(num_dim,num_waypoints);
-
-                       ^
-
-/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control_skinny/robot_math/tests/robot_math/TestRtWaypointGenerator.cpp:50:23: error: ‘class robot_math::RtWaypointGenerator<3, 10>’ has no member named ‘initializeWaypoints’
-
-       rt_waypoint_gen.initializeWaypoints(pos, vel, acc, time);
-
-                       ^
-
-In file included from /home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control_skinny/robot_math/tests/robot_math/TestRtWaypointGenerator.cpp:3:0:
-
-/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control_skinny/robot_math/include/robot_math/RtWaypointGenerator.h:127:10: error: ‘void robot_math::RtWaypointGenerator<num_dim, max_num_waypoints>::query(robot_math::RtWaypointGenerator<num_dim, max_num_waypoints>::VecNd&, robot_math::RtWaypointGenerator<num_dim, max_num_waypoints>::VecNd&, robot_math::RtWaypointGenerator<num_dim, max_num_waypoints>::VecNd&, double) [with int num_dim = 3; int max_num_waypoints = 10; robot_math::RtWaypointGenerator<num_dim, max_num_waypoints>::VecNd = Eigen::Matrix<double, 3, 1>]’ is private
-
-     void RtWaypointGenerator<num_dim,max_num_waypoints>::query(VecNd &pos, VecNd &vel, VecNd &acc, double time) {
-
-          ^
-
-/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control_skinny/robot_math/tests/robot_math/TestRtWaypointGenerator.cpp:58:69: error: within this context
-
-       rt_waypoint_gen.query(pos_query, vel_query, acc_query, t_query);
-
-                                                                     ^
-
-make[3]: *** [catkin/humanoids/humanoid_control_skinny/robot_math/CMakeFiles/robot_math_test.dir/tests/robot_math/TestRtWaypointGenerator.cpp.o] Error 1
-
-make[3]: *** Waiting for unfinished jobs....
-
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/io_tools/configuration_file_loading_tests
-
-[100%] Built target configuration_file_loading_tests
-
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/robot_math/geometry_utils_test
-
-[100%] Built target geometry_utils_test
-
-make[2]: *** [catkin/humanoids/humanoid_control_skinny/robot_math/CMakeFiles/robot_math_test.dir/all] Error 2
-
-make[1]: *** [CMakeFiles/tests.dir/rule] Error 2
-
-make: *** [tests] Error 2
+See also "/home/administrator/ci/ci/team/workspace/build/CMakeFiles/CMakeError.log".
 
 Base path: /home/administrator/ci/ci/team/workspace
 
@@ -347,14 +282,8 @@ Install space: /home/administrator/ci/ci/team/workspace/install
 
 ####
 
-#### Running command: "cmake /home/administrator/ci/ci/team/workspace/src -DCATKIN_DEVEL_PREFIX=/home/administrator/ci/ci/team/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/administrator/ci/ci/team/workspace/install" in "/home/administrator/ci/ci/team/workspace/build"
+#### Running command: "cmake /home/administrator/ci/ci/team/workspace/src -DCATKIN_DEVEL_PREFIX=/home/administrator/ci/ci/team/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/administrator/ci/ci/team/workspace/install -G Unix Makefiles" in "/home/administrator/ci/ci/team/workspace/build"
 
 ####
 
-####
-
-#### Running command: "make -j16 tests" in "/home/administrator/ci/ci/team/workspace/build"
-
-####
-
-Invoking "make" failed
+Invoking "cmake" failed

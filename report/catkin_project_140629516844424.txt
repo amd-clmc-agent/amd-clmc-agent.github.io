@@ -28,45 +28,19 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- ~~  traversing 77 packages in topological order:
+-- ~~  traversing 31 packages in topological order:
 
 -- ~~  - Eigen
-
--- ~~  - amd_clmc_eigen
-
--- ~~  - apollo_robot_model
-
--- ~~  - catkin_gflags
-
--- ~~  - catkin_glog
 
 -- ~~  - cdlbt
 
 -- ~~  - can_control_tools
 
--- ~~  - controller_communication
-
--- ~~  - conversions
-
--- ~~  - dbrt_apollo
-
--- ~~  - dbrt_arm
-
 -- ~~  - fl
 
--- ~~  - dbot
+-- ~~  - ebf
 
--- ~~  - interpolation
-
--- ~~  - launch_xtion
-
--- ~~  - object_meshes
-
--- ~~  - qp_oases
-
--- ~~  - quadprog
-
--- ~~  - robot_math
+-- ~~  - matlab_logger
 
 -- ~~  - ros_realtime (metapackage)
 
@@ -78,12 +52,6 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 
 -- ~~  - rt_timer
 
--- ~~  - rt_utils
-
--- ~~  - dmp
-
--- ~~  - splines
-
 -- ~~  - start_robot
 
 -- ~~  - amd_clmc_ros_messages
@@ -92,8 +60,6 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 
 -- ~~  - custom_robot_msgs
 
--- ~~  - dbot_ros_msgs
-
 -- ~~  - riemo_grasping_msgs
 
 -- ~~  - utilities
@@ -101,10 +67,6 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 -- ~~  - lwpr
 
 -- ~~  - xenomai_ros
-
--- ~~  - amd_clmc_log
-
--- ~~  - constrained_inverse_kinematics_msgs
 
 -- ~~  - roscpp_utilities
 
@@ -116,69 +78,15 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 
 -- ~~  - apollo
 
--- ~~  - apollo_safe
-
--- ~~  - apollo_sl_interface
+-- ~~  - apollo_event_based_task
 
 -- ~~  - apollo_test_task
 
--- ~~  - sl_ros_servo
-
--- ~~  - learning_control
-
--- ~~  - dbot_ros
-
--- ~~  - ar_track_alvar
-
--- ~~  - python_ros_utils
-
--- ~~  - sl_conversions
-
--- ~~  - sl_utilities
-
--- ~~  - sl_controller_manager
-
--- ~~  - controller_manager_task_apollo
-
 -- ~~  - apollo_user
 
--- ~~  - sl_barrett_controllers
-
--- ~~  - sl_controllers
-
--- ~~  - table_object_finder
-
--- ~~  - arm_robot_model
-
--- ~~  - dbrt
+-- ~~  - sl_ros_servo
 
 -- ~~  - ros_servo_apollo
-
--- ~~  - usc_utilities
-
--- ~~  - learnable_cost_function
-
--- ~~  - robot_info
-
--- ~~  - jacobian_utilities
-
--- ~~  - sl_barrett_controller_interface
-
--- ~~  - sl_controller_interface
-
--- ~~  - apollo_extrinsic_camera_calibration
-
--- ~~  - apollo_verify_extrinsic_camera_calibration
-
--- ~~  - head_look_at_behaviour
-
--- ~~  - sl_controller_interface_test
-
--- ~~  - strain_gauge_calibration
-
--- ~~  - visual_servoing
-
--- ~~  - from_object_to_grasp
 
 -- ~~  - yaml_cpp
 
@@ -191,26 +99,6 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 -- ==> add_subdirectory(catkin/third_party/Eigen)
 
 WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
-
--- +++ processing catkin package: 'amd_clmc_eigen'
-
--- ==> add_subdirectory(catkin/third_party/amd-clmc-eigen)
-
--- +++ processing catkin package: 'apollo_robot_model'
-
--- ==> add_subdirectory(catkin/robots/apollo_robot_model)
-
--- +++ processing catkin package: 'catkin_gflags'
-
--- ==> add_subdirectory(catkin/third_party/catkin-gflags)
-
--- Found gflags  (include: /usr/include, library: /usr/lib/x86_64-linux-gnu/libgflags.so)
-
--- +++ processing catkin package: 'catkin_glog'
-
--- ==> add_subdirectory(catkin/third_party/catkin-glog)
-
--- Found glog    (include: /usr/include, library: /usr/lib/x86_64-linux-gnu/libglog.so)
 
 -- +++ processing catkin package: 'cdlbt'
 
@@ -302,22 +190,6 @@ Call Stack (most recent call first):
 
 --   thread
 
--- +++ processing catkin package: 'controller_communication'
-
--- ==> add_subdirectory(catkin/controller_manager/controller_communication)
-
--- +++ processing catkin package: 'conversions'
-
--- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/usc_utils/conversions)
-
--- +++ processing catkin package: 'dbrt_apollo'
-
--- ==> add_subdirectory(catkin/ros/dbrt_apollo)
-
--- +++ processing catkin package: 'dbrt_arm'
-
--- ==> add_subdirectory(catkin/ros/dbrt_arm)
-
 -- +++ processing catkin package: 'fl'
 
 -- ==> add_subdirectory(catkin/core-perception/fl)
@@ -326,45 +198,29 @@ Call Stack (most recent call first):
 
 -- Boost version: 1.54.0
 
--- +++ processing catkin package: 'dbot'
+-- +++ processing catkin package: 'ebf'
 
--- ==> add_subdirectory(catkin/core-perception/dbot)
+-- ==> add_subdirectory(catkin/event-based/event-based-framework)
 
--- Boost version: 1.54.0
+##########################################
 
--- Found the following Boost libraries:
+# Event-based Control Framework 
 
---   system
+# Version 0.1.267
 
---   filesystem
+# ceec1553994354a776e9e1f573a3583f8963a720
 
--- Found CUDA version 8.0
+##########################################
 
--- Using catkin
+-- Eigen found (include: /usr/include/eigen3)
 
--- +++ processing catkin package: 'interpolation'
+-- Found Doxygen: /usr/bin/doxygen (found version "1.8.6") 
 
--- ==> add_subdirectory(catkin/controller_manager/core-sl-ros/interpolation)
+-- Found Doxygen: /usr/bin/doxygen (found suitable version "1.8.6", minimum required is "1.8.4") 
 
--- +++ processing catkin package: 'launch_xtion'
+-- +++ processing catkin package: 'matlab_logger'
 
--- ==> add_subdirectory(catkin/ros/launch_xtion)
-
--- +++ processing catkin package: 'object_meshes'
-
--- ==> add_subdirectory(catkin/ros/object_meshes)
-
--- +++ processing catkin package: 'qp_oases'
-
--- ==> add_subdirectory(catkin/third_party/qp_oases)
-
--- +++ processing catkin package: 'quadprog'
-
--- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/usc_utils/quadprog)
-
--- +++ processing catkin package: 'robot_math'
-
--- ==> add_subdirectory(catkin/utils/robot_math)
+-- ==> add_subdirectory(catkin/event-based/matlab-logger)
 
 -- +++ processing catkin metapackage: 'ros_realtime'
 
@@ -391,18 +247,6 @@ Call Stack (most recent call first):
 -- +++ processing catkin package: 'rt_timer'
 
 -- ==> add_subdirectory(catkin/ros/ros_realtime/rt_timer)
-
--- +++ processing catkin package: 'rt_utils'
-
--- ==> add_subdirectory(catkin/rt_utils)
-
--- +++ processing catkin package: 'dmp'
-
--- ==> add_subdirectory(catkin/learning/dmp)
-
--- +++ processing catkin package: 'splines'
-
--- ==> add_subdirectory(catkin/controller_manager/core-sl-ros/splines)
 
 -- +++ processing catkin package: 'start_robot'
 
@@ -431,14 +275,6 @@ Call Stack (most recent call first):
 -- Using these message generators: gencpp;genlisp;genpy
 
 -- custom_robot_msgs: 1 messages, 2 services
-
--- +++ processing catkin package: 'dbot_ros_msgs'
-
--- ==> add_subdirectory(catkin/ros/dbot_ros_msgs)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- dbot_ros_msgs: 3 messages, 3 services
 
 -- +++ processing catkin package: 'riemo_grasping_msgs'
 
@@ -535,60 +371,6 @@ Call Stack (most recent call first):
 -- +++ processing catkin package: 'xenomai_ros'
 
 -- ==> add_subdirectory(catkin/ros/xenomai-ros)
-
--- +++ processing catkin package: 'amd_clmc_log'
-
--- ==> add_subdirectory(catkin/utils/amd_clmc_log)
-
--- MACHTYPE x86_64
-
-Detected MACHTYPE=x86_64
-
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
-
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
-
-Call Stack (most recent call first):
-
-  catkin/utils/amd_clmc_log/CMakeLists.txt:8 (include)
-
-
-
-
-
--- HOST_NAME=everest
-
--- HOST=everest
-
--- LAB=AMD
-
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_INCLUDE_PATH=
-
--- CMAKE_LIBRARY_PATH=
-
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
-
--- LAB_LIBDIR=lib/x86_64
-
--- LAB_INCLUDES=include
-
--- LAB_BINDIR=bin/x86_64
-
--- xenomai NOT found. (/usr/local;/usr)
-
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
-
--- +++ processing catkin package: 'constrained_inverse_kinematics_msgs'
-
--- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/planning/constrained_inverse_kinematics_msgs)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- constrained_inverse_kinematics_msgs: 1 messages, 0 services
 
 -- +++ processing catkin package: 'roscpp_utilities'
 
@@ -700,9 +482,9 @@ Call Stack (most recent call first):
 
 -- LAB_BINDIR=bin/x86_64
 
--- +++ processing catkin package: 'apollo_safe'
+-- +++ processing catkin package: 'apollo_event_based_task'
 
--- ==> add_subdirectory(catkin/robots/catkin_sl_apollo_safe)
+-- ==> add_subdirectory(catkin/event-based/apollo-event-based-task)
 
 -- MACHTYPE x86_64
 
@@ -714,7 +496,7 @@ CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
 
 Call Stack (most recent call first):
 
-  catkin/robots/catkin_sl_apollo_safe/CMakeLists.txt:8 (include)
+  catkin/event-based/apollo-event-based-task/CMakeLists.txt:9 (include)
 
 
 
@@ -741,630 +523,6 @@ Call Stack (most recent call first):
 -- LAB_INCLUDES=include
 
 -- LAB_BINDIR=bin/x86_64
-
--- +++ processing catkin package: 'apollo_sl_interface'
-
--- ==> add_subdirectory(catkin/robots/apollo-sl-interface)
-
--- MACHTYPE x86_64
-
-Detected MACHTYPE=x86_64
-
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
-
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
-
-Call Stack (most recent call first):
-
-  catkin/robots/apollo-sl-interface/CMakeLists.txt:8 (include)
-
-
-
-
-
--- HOST_NAME=everest
-
--- HOST=everest
-
--- LAB=AMD
-
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_INCLUDE_PATH=
-
--- CMAKE_LIBRARY_PATH=
-
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
-
--- LAB_LIBDIR=lib/x86_64
-
--- LAB_INCLUDES=include
-
--- LAB_BINDIR=bin/x86_64
-
--- xenomai NOT found. (/usr/local;/usr)
-
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
-
--- +++ processing catkin package: 'apollo_test_task'
-
--- ==> add_subdirectory(catkin/robots/catkin-sl-apollo-task-example)
-
--- MACHTYPE x86_64
-
-Detected MACHTYPE=x86_64
-
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
-
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
-
-Call Stack (most recent call first):
-
-  catkin/robots/catkin-sl-apollo-task-example/CMakeLists.txt:8 (include)
-
-
-
-
-
--- HOST_NAME=everest
-
--- HOST=everest
-
--- LAB=AMD
-
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_INCLUDE_PATH=
-
--- CMAKE_LIBRARY_PATH=
-
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
-
--- LAB_LIBDIR=lib/x86_64
-
--- LAB_INCLUDES=include
-
--- LAB_BINDIR=bin/x86_64
-
--- +++ processing catkin package: 'sl_ros_servo'
-
--- ==> add_subdirectory(catkin/ros/sl_ros_servo)
-
--- MACHTYPE x86_64
-
-Detected MACHTYPE=x86_64
-
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
-
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
-
-Call Stack (most recent call first):
-
-  catkin/ros/sl_ros_servo/CMakeLists.txt:5 (include)
-
-
-
-
-
--- HOST_NAME=everest
-
--- HOST=everest
-
--- LAB=AMD
-
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_INCLUDE_PATH=
-
--- CMAKE_LIBRARY_PATH=
-
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
-
--- LAB_LIBDIR=lib/x86_64
-
--- LAB_INCLUDES=include
-
--- LAB_BINDIR=bin/x86_64
-
--- +++ processing catkin package: 'learning_control'
-
--- ==> add_subdirectory(catkin/learning/learning_control)
-
--- MACHTYPE x86_64
-
-Detected MACHTYPE=x86_64
-
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
-
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
-
-Call Stack (most recent call first):
-
-  catkin/learning/learning_control/CMakeLists.txt:10 (include)
-
-
-
-
-
--- HOST_NAME=everest
-
--- HOST=everest
-
--- LAB=AMD
-
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_INCLUDE_PATH=
-
--- CMAKE_LIBRARY_PATH=
-
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
-
--- LAB_LIBDIR=lib/x86_64
-
--- LAB_INCLUDES=include
-
--- LAB_BINDIR=bin/x86_64
-
--- xenomai NOT found. (/usr/local;/usr)
-
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
-
--- +++ processing catkin package: 'dbot_ros'
-
--- ==> add_subdirectory(catkin/ros/dbot_ros)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- Boost version: 1.54.0
-
--- +++ processing catkin package: 'ar_track_alvar'
-
--- ==> add_subdirectory(catkin/perception/ar_track_alvar)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- ar_track_alvar: 2 messages, 0 services
-
--- +++ processing catkin package: 'python_ros_utils'
-
--- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/usc_utils/python_ros_utils)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- +++ processing catkin package: 'sl_conversions'
-
--- ==> add_subdirectory(catkin/controller_manager/core-sl-ros/sl_conversions)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- +++ processing catkin package: 'sl_utilities'
-
--- ==> add_subdirectory(catkin/controller_manager/core-sl-ros/sl_utilities)
-
--- xenomai NOT found. (/usr/local;/usr)
-
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- +++ processing catkin package: 'sl_controller_manager'
-
--- ==> add_subdirectory(catkin/controller_manager/core-sl-ros/sl_controller_manager)
-
--- MACHTYPE x86_64
-
-Detected MACHTYPE=x86_64
-
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
-
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
-
-Call Stack (most recent call first):
-
-  catkin/controller_manager/core-sl-ros/sl_controller_manager/CMakeLists.txt:5 (include)
-
-
-
-
-
--- HOST_NAME=everest
-
--- HOST=everest
-
--- LAB=AMD
-
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_INCLUDE_PATH=
-
--- CMAKE_LIBRARY_PATH=
-
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
-
--- LAB_LIBDIR=lib/x86_64
-
--- LAB_INCLUDES=include
-
--- LAB_BINDIR=bin/x86_64
-
--- xenomai NOT found. (/usr/local;/usr)
-
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- +++ processing catkin package: 'controller_manager_task_apollo'
-
--- ==> add_subdirectory(catkin/controller_manager/controller_manager_apollo/controller_manager_task_apollo)
-
--- MACHTYPE x86_64
-
-Detected MACHTYPE=x86_64
-
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
-
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
-
-Call Stack (most recent call first):
-
-  catkin/controller_manager/controller_manager_apollo/controller_manager_task_apollo/CMakeLists.txt:5 (include)
-
-
-
-
-
--- HOST_NAME=everest
-
--- HOST=everest
-
--- LAB=AMD
-
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_INCLUDE_PATH=
-
--- CMAKE_LIBRARY_PATH=
-
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
-
--- LAB_LIBDIR=lib/x86_64
-
--- LAB_INCLUDES=include
-
--- LAB_BINDIR=bin/x86_64
-
--- xenomai NOT found. (/usr/local;/usr)
-
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- +++ processing catkin package: 'apollo_user'
-
--- ==> add_subdirectory(catkin/robots/catkin-apolloUser)
-
--- MACHTYPE x86_64
-
-Detected MACHTYPE=x86_64
-
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
-
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
-
-Call Stack (most recent call first):
-
-  catkin/robots/catkin-apolloUser/CMakeLists.txt:8 (include)
-
-
-
-
-
--- HOST_NAME=everest
-
--- HOST=everest
-
--- LAB=AMD
-
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_INCLUDE_PATH=
-
--- CMAKE_LIBRARY_PATH=
-
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
-
--- LAB_LIBDIR=lib/x86_64
-
--- LAB_INCLUDES=include
-
--- LAB_BINDIR=bin/x86_64
-
--- xenomai NOT found. (/usr/local;/usr)
-
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- +++ processing catkin package: 'sl_barrett_controllers'
-
--- ==> add_subdirectory(catkin/controller_manager/sl_barrett_controllers/sl_barrett_controllers)
-
--- xenomai NOT found. (/usr/local;/usr)
-
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- +++ processing catkin package: 'sl_controllers'
-
--- ==> add_subdirectory(catkin/controller_manager/core-sl-ros/sl_controllers)
-
--- xenomai NOT found. (/usr/local;/usr)
-
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- Boost version: 1.54.0
-
--- Found the following Boost libraries:
-
---   random
-
--- +++ processing catkin package: 'table_object_finder'
-
--- ==> add_subdirectory(catkin/ros/table_object_finder)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- Boost version: 1.54.0
-
--- Eigen found (include: /usr/include/eigen3)
-
--- Boost version: 1.54.0
-
--- Found the following Boost libraries:
-
---   system
-
---   filesystem
-
---   thread
-
---   date_time
-
---   iostreams
-
---   serialization
-
---   chrono
-
--- checking for module 'openni-dev'
-
---   package 'openni-dev' not found
-
--- checking for module 'openni2-dev'
-
---   package 'openni2-dev' not found
-
-** WARNING ** io features related to pcap will be disabled
-
-** WARNING ** io features related to png will be disabled
-
--- checking for module 'openni-dev'
-
---   package 'openni-dev' not found
-
--- checking for module 'openni2-dev'
-
---   package 'openni2-dev' not found
-
--- looking for PCL_COMMON
-
--- looking for PCL_KDTREE
-
--- looking for PCL_OCTREE
-
--- looking for PCL_SEARCH
-
--- looking for PCL_SURFACE
-
--- looking for PCL_SAMPLE_CONSENSUS
-
--- looking for PCL_FILTERS
-
--- looking for PCL_FEATURES
-
--- looking for PCL_KEYPOINTS
-
--- looking for PCL_GEOMETRY
-
--- looking for PCL_IO
-
--- looking for PCL_VISUALIZATION
-
--- looking for PCL_SEGMENTATION
-
--- looking for PCL_PEOPLE
-
--- looking for PCL_REGISTRATION
-
--- looking for PCL_RECOGNITION
-
--- looking for PCL_OUTOFCORE
-
--- looking for PCL_TRACKING
-
--- Found PCL: /usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_thread.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_serialization.so;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;/usr/lib/x86_64-linux-gnu/libpthread.so;optimized;/usr/local/lib/libpcl_common.so;debug;/usr/local/lib/libpcl_common.so;optimized;/usr/lib/x86_64-linux-gnu/libflann_cpp_s.a;debug;/usr/lib/x86_64-linux-gnu/libflann_cpp_s.a;optimized;/usr/local/lib/libpcl_kdtree.so;debug;/usr/local/lib/libpcl_kdtree.so;optimized;/usr/local/lib/libpcl_octree.so;debug;/usr/local/lib/libpcl_octree.so;optimized;/usr/local/lib/libpcl_search.so;debug;/usr/local/lib/libpcl_search.so;optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so;optimized;/usr/local/lib/libpcl_surface.so;debug;/usr/local/lib/libpcl_surface.so;optimized;/usr/local/lib/libpcl_sample_consensus.so;debug;/usr/local/lib/libpcl_sample_consensus.so;optimized;/usr/local/lib/libpcl_filters.so;debug;/usr/local/lib/libpcl_filters.so;optimized;/usr/local/lib/libpcl_features.so;debug;/usr/local/lib/libpcl_features.so;optimized;/usr/local/lib/libpcl_keypoints.so;debug;/usr/local/lib/libpcl_keypoints.so;/usr/lib/libOpenNI.so;/usr/lib/libOpenNI2.so;vtkCommon;vtkFiltering;vtkImaging;vtkGraphics;vtkGenericFiltering;vtkIO;vtkRendering;vtkVolumeRendering;vtkHybrid;vtkWidgets;vtkParallel;vtkInfovis;vtkGeovis;vtkViews;vtkCharts;optimized;/usr/local/lib/libpcl_io.so;debug;/usr/local/lib/libpcl_io.so;optimized;/usr/local/lib/libpcl_visualization.so;debug;/usr/local/lib/libpcl_visualization.so;optimized;/usr/local/lib/libpcl_segmentation.so;debug;/usr/local/lib/libpcl_segmentation.so;optimized;/usr/local/lib/libpcl_people.so;debug;/usr/local/lib/libpcl_people.so;optimized;/usr/local/lib/libpcl_registration.so;debug;/usr/local/lib/libpcl_registration.so;optimized;/usr/local/lib/libpcl_recognition.so;debug;/usr/local/lib/libpcl_recognition.so;optimized;/usr/local/lib/libpcl_outofcore.so;debug;/usr/local/lib/libpcl_outofcore.so;optimized;/usr/local/lib/libpcl_tracking.so;debug;/usr/local/lib/libpcl_tracking.so;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_thread.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_serialization.so;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;/usr/lib/x86_64-linux-gnu/libpthread.so;optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so;/usr/lib/libOpenNI.so;/usr/lib/libOpenNI2.so;optimized;/usr/lib/x86_64-linux-gnu/libflann_cpp_s.a;debug;/usr/lib/x86_64-linux-gnu/libflann_cpp_s.a;vtkCommon;vtkFiltering;vtkImaging;vtkGraphics;vtkGenericFiltering;vtkIO;vtkRendering;vtkVolumeRendering;vtkHybrid;vtkWidgets;vtkParallel;vtkInfovis;vtkGeovis;vtkViews;vtkCharts (Required is at least version "1.3") 
-
--- +++ processing catkin package: 'arm_robot_model'
-
--- ==> add_subdirectory(catkin/robots/arm_robot_model)
-
--- +++ processing catkin package: 'dbrt'
-
--- ==> add_subdirectory(catkin/core-perception/dbrt)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- Boost version: 1.54.0
-
--- Eigen found (include: /usr/include/eigen3)
-
--- cimport.h exists. Therefore Assimp V3 must be installed and will be used.
-
--- +++ processing catkin package: 'ros_servo_apollo'
-
--- ==> add_subdirectory(catkin/ros/ros_servo_apollo)
-
--- MACHTYPE x86_64
-
-Detected MACHTYPE=x86_64
-
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
-
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
-
-Call Stack (most recent call first):
-
-  catkin/ros/ros_servo_apollo/CMakeLists.txt:5 (include)
-
-
-
-
-
--- HOST_NAME=everest
-
--- HOST=everest
-
--- LAB=AMD
-
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_INCLUDE_PATH=
-
--- CMAKE_LIBRARY_PATH=
-
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
-
--- LAB_LIBDIR=lib/x86_64
-
--- LAB_INCLUDES=include
-
--- LAB_BINDIR=bin/x86_64
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- +++ processing catkin package: 'usc_utilities'
-
--- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/usc_utils/usc_utilities)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- usc_utilities: 1 messages, 0 services
-
--- +++ processing catkin package: 'learnable_cost_function'
-
--- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/planning/learnable_cost_function)
-
--- +++ processing catkin package: 'robot_info'
-
--- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/usc_utils/robot_info)
-
--- +++ processing catkin package: 'jacobian_utilities'
-
--- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/usc_utils/jacobian_utilities)
-
--- +++ processing catkin package: 'sl_barrett_controller_interface'
-
--- ==> add_subdirectory(catkin/controller_manager/sl_barrett_controllers/sl_barrett_controller_interface)
-
--- xenomai NOT found. (/usr/local;/usr)
-
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- +++ processing catkin package: 'sl_controller_interface'
-
--- ==> add_subdirectory(catkin/controller_manager/core-sl-ros/sl_controller_interface)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- +++ processing catkin package: 'apollo_extrinsic_camera_calibration'
-
--- ==> add_subdirectory(catkin/calibration/apollo_extrinsic_camera_calibration)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- Boost version: 1.54.0
-
--- apollo_extrinsic_camera_calibration: 1 messages, 1 services
-
--- +++ processing catkin package: 'apollo_verify_extrinsic_camera_calibration'
-
--- ==> add_subdirectory(catkin/calibration/apollo_verify_extrinsic_camera_calibration)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- Boost version: 1.54.0
-
--- Boost version: 1.54.0
-
--- Found the following Boost libraries:
-
---   system
-
---   filesystem
-
---   thread
-
---   date_time
-
---   iostreams
-
---   serialization
-
---   chrono
-
--- checking for module 'openni-dev'
-
---   package 'openni-dev' not found
-
--- checking for module 'openni2-dev'
-
---   package 'openni2-dev' not found
-
-** WARNING ** io features related to pcap will be disabled
-
-** WARNING ** io features related to png will be disabled
-
--- looking for PCL_COMMON
-
--- looking for PCL_OCTREE
-
--- looking for PCL_IO
-
--- Found PCL: /usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_thread.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_serialization.so;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;/usr/lib/x86_64-linux-gnu/libpthread.so;optimized;/usr/local/lib/libpcl_common.so;debug;/usr/local/lib/libpcl_common.so;optimized;/usr/local/lib/libpcl_octree.so;debug;/usr/local/lib/libpcl_octree.so;/usr/lib/libOpenNI.so;/usr/lib/libOpenNI2.so;vtkCommon;vtkFiltering;vtkImaging;vtkGraphics;vtkGenericFiltering;vtkIO;vtkRendering;vtkVolumeRendering;vtkHybrid;vtkWidgets;vtkParallel;vtkInfovis;vtkGeovis;vtkViews;vtkCharts;optimized;/usr/local/lib/libpcl_io.so;debug;/usr/local/lib/libpcl_io.so;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_thread.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_serialization.so;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;/usr/lib/x86_64-linux-gnu/libpthread.so;/usr/lib/libOpenNI.so;/usr/lib/libOpenNI2.so;vtkCommon;vtkFiltering;vtkImaging;vtkGraphics;vtkGenericFiltering;vtkIO;vtkRendering;vtkVolumeRendering;vtkHybrid;vtkWidgets;vtkParallel;vtkInfovis;vtkGeovis;vtkViews;vtkCharts (Required is at least version "1.3") 
-
--- apollo_verify_extrinsic_camera_calibration: 0 messages, 1 services
 
 CMake Error at catkin/third_party/catkin/cmake/catkin_package.cmake:217 (message):
 
@@ -1376,7 +534,7 @@ Call Stack (most recent call first):
 
   catkin/third_party/catkin/cmake/catkin_package.cmake:98 (_catkin_package)
 
-  catkin/calibration/apollo_verify_extrinsic_camera_calibration/CMakeLists.txt:78 (catkin_package)
+  catkin/event-based/apollo-event-based-task/CMakeLists.txt:38 (catkin_package)
 
 
 
