@@ -1,4 +1,22 @@
-WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
+-- The C compiler identification is GNU 4.8.4
+
+-- The CXX compiler identification is GNU 4.8.4
+
+-- Check for working C compiler: /usr/bin/cc
+
+-- Check for working C compiler: /usr/bin/cc -- works
+
+-- Detecting C compiler ABI info
+
+-- Detecting C compiler ABI info - done
+
+-- Check for working CXX compiler: /usr/bin/c++
+
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+
+-- Detecting CXX compiler ABI info
+
+-- Detecting CXX compiler ABI info - done
 
 -- Using CATKIN_DEVEL_PREFIX: /home/administrator/ci/ci/team/workspace/devel
 
@@ -6,11 +24,13 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 
 -- This workspace overlays: /opt/ros/indigo
 
+-- Found PythonInterp: /usr/bin/python (found version "2.7.6") 
+
 -- Using PYTHON_EXECUTABLE: /usr/bin/python
 
--- Python version: 2.7
-
 -- Using Debian Python package layout
+
+-- Using empy: /usr/bin/empy
 
 -- Using CATKIN_ENABLE_TESTING: ON
 
@@ -18,413 +38,87 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 
 -- Using CATKIN_TEST_RESULTS_DIR: /home/administrator/ci/ci/team/workspace/build/test_results
 
+-- Looking for include file pthread.h
+
+-- Looking for include file pthread.h - found
+
+-- Looking for pthread_create
+
+-- Looking for pthread_create - not found
+
+-- Looking for pthread_create in pthreads
+
+-- Looking for pthread_create in pthreads - not found
+
+-- Looking for pthread_create in pthread
+
+-- Looking for pthread_create in pthread - found
+
+-- Found Threads: TRUE  
+
 -- Found gtest sources under '/usr/src/gtest': gtests will be built
 
--- catkin 0.5.90
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+
+-- catkin 0.6.19
 
 -- BUILD_SHARED_LIBS is on
 
-WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-- ~~  traversing 1 packages in topological order:
+
+-- ~~  - detect_faces
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- ~~  traversing 88 packages in topological order:
+-- +++ processing catkin package: 'detect_faces'
 
--- ~~  - Eigen
+-- ==> add_subdirectory(catkin/perception/detect_faces)
 
--- ~~  - amd_clmc_dmp
+-- Using these message generators: gencpp;genlisp;genpy
 
--- ~~  - arm_cdlbt
+-- Configuring done
 
--- ~~  - arm_can_control_tools
+-- Generating done
 
--- ~~  - biotac_core
+-- Build files have been written to: /home/administrator/ci/ci/team/workspace/build
 
--- ~~  - catkin_gflags
+Scanning dependencies of target detect_faces_node
 
--- ~~  - catkin_glog
+[ 33%] [ 66%] [100%] Building CXX object catkin/perception/detect_faces/CMakeFiles/detect_faces_node.dir/src/face_detector.cpp.o
 
--- ~~  - conversions
+Building CXX object catkin/perception/detect_faces/CMakeFiles/detect_faces_node.dir/src/main.cpp.o
 
--- ~~  - graspit
+Building CXX object catkin/perception/detect_faces/CMakeFiles/detect_faces_node.dir/src/face_detector_node.cpp.o
 
--- ~~  - graspit_dbase_tasks
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/detect_faces/detect_faces_node
 
--- ~~  - dbase_grasp_planner
+[100%] Built target detect_faces_node
 
--- ~~  - graspit_simulator
+Install the project...
 
--- ~~  - interpolation
+-- Install configuration: ""
 
--- ~~  - launch_xtion
+-- Installing: /home/administrator/ci/ci/team/workspace/install/_setup_util.py
 
--- ~~  - qp_oases
+-- Installing: /home/administrator/ci/ci/team/workspace/install/env.sh
 
--- ~~  - quadprog
+-- Installing: /home/administrator/ci/ci/team/workspace/install/setup.bash
 
--- ~~  - ros_realtime (metapackage)
+-- Installing: /home/administrator/ci/ci/team/workspace/install/setup.sh
 
--- ~~  - allocators
+-- Installing: /home/administrator/ci/ci/team/workspace/install/setup.zsh
 
--- ~~  - rosatomic
+-- Installing: /home/administrator/ci/ci/team/workspace/install/.rosinstall
 
--- ~~  - lockfree
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/detect_faces.pc
 
--- ~~  - rt_timer
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/detect_faces/cmake/detect_facesConfig.cmake
 
--- ~~  - rt_utils
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/detect_faces/cmake/detect_facesConfig-version.cmake
 
--- ~~  - dmp
-
--- ~~  - splines
-
--- ~~  - start_robot
-
--- ~~  - amd_clmc_ros_messages
-
--- ~~  - ar_track_alvar_msgs
-
--- ~~  - custom_robot_msgs
-
--- ~~  - riemo_grasping_msgs
-
--- ~~  - graspit_ros_planning_msgs
-
--- ~~  - utilities
-
--- ~~  - lwpr
-
--- ~~  - vrpn_vicon_minimum
-
--- ~~  - vrpn_vicon_objs_tracker
-
--- ~~  - xenomai_ros
-
--- ~~  - constrained_inverse_kinematics_msgs
-
--- ~~  - robot_planning_client
-
--- ~~  - roscpp_utilities
-
--- ~~  - rosrt
-
--- ~~  - ros_rt_test
-
--- ~~  - sl
-
--- ~~  - arm
-
--- ~~  - arm_test_task
-
--- ~~  - sl_ros_servo
-
--- ~~  - learning_control
-
--- ~~  - ar_track_alvar
-
--- ~~  - python_ros_utils
-
--- ~~  - sl_conversions
-
--- ~~  - sl_utilities
-
--- ~~  - sl_controller_manager
-
--- ~~  - sl_barrett_controllers
-
--- ~~  - sl_biotac_controller_data
-
--- ~~  - sl_biotac_controllers
-
--- ~~  - sl_controllers
-
--- ~~  - sl_head_arm_controllers
-
--- ~~  - sl_vicon_controller_data
-
--- ~~  - sl_biotac_vicon_controller_data
-
--- ~~  - controller_manager_task_arm
-
--- ~~  - arm_user
-
--- ~~  - graspit_ros_planning
-
--- ~~  - arm_robot_model
-
--- ~~  - arm_moveit_config
-
--- ~~  - ros_servo_arm
-
--- ~~  - usc_utilities
-
--- ~~  - learnable_cost_function
-
--- ~~  - robot_info
-
--- ~~  - jacobian_utilities
-
--- ~~  - sl_barrett_controller_interface
-
--- ~~  - sl_controller_interface
-
--- ~~  - arm_learn_hand_eye_calibration
-
--- ~~  - robot_kinematics_cost_function
-
--- ~~  - robot_inverse_kinematics
-
--- ~~  - sl_biotac_controller_interface
-
--- ~~  - sl_dmp_controller_interface
-
--- ~~  - controller_manager_examples_arm
-
--- ~~  - sl_head_arm_controller_interface
-
--- ~~  - arm_verify_calibration
-
--- ~~  - extrinsic_camera_calibration
-
--- ~~  - sl_behaviors
-
--- ~~  - robot_command_line
-
--- ~~  - strain_gauge_calibration
-
--- ~~  - verify_extrinsic_camera_calibration
-
--- ~~  - vicon_calibration
-
--- ~~  - vicon_core
-
--- ~~  - sl_vicon_controllers
-
--- ~~  - sl_dmp_controllers
-
--- ~~  - robot_planning_srv
-
--- ~~  - yaml_cpp
-
--- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
--- +++ processing catkin package: 'Eigen'
-
--- ==> add_subdirectory(catkin/third_party/Eigen)
-
-WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
-
--- +++ processing catkin package: 'amd_clmc_dmp'
-
--- ==> add_subdirectory(catkin/planning/amd_clmc_dmp)
-
--- Boost version: 1.54.0
-
--- Found the following Boost libraries:
-
---   thread
-
---   system
-
---   filesystem
-
--- +++ processing catkin package: 'arm_cdlbt'
-
--- ==> add_subdirectory(catkin/robots/arm-barrett/cdlbt)
-
--- MACHTYPE x86_64
-
-Detected MACHTYPE=x86_64
-
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
-
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
-
-Call Stack (most recent call first):
-
-  catkin/robots/arm-barrett/cdlbt/CMakeLists.txt:4 (include)
-
-
-
-
-
--- HOST_NAME=everest
-
--- HOST=everest
-
--- LAB=AMD
-
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_INCLUDE_PATH=
-
--- CMAKE_LIBRARY_PATH=
-
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
-
--- LAB_LIBDIR=lib/x86_64
-
--- LAB_INCLUDES=include
-
--- LAB_BINDIR=bin/x86_64
-
--- Boost version: 1.54.0
-
--- Found the following Boost libraries:
-
---   thread
-
--- +++ processing catkin package: 'arm_can_control_tools'
-
--- ==> add_subdirectory(catkin/robots/arm-barrett/canControlTools)
-
--- MACHTYPE x86_64
-
-Detected MACHTYPE=x86_64
-
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
-
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
-
-Call Stack (most recent call first):
-
-  catkin/robots/arm-barrett/canControlTools/CMakeLists.txt:4 (include)
-
-
-
-
-
--- HOST_NAME=everest
-
--- HOST=everest
-
--- LAB=AMD
-
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_INCLUDE_PATH=
-
--- CMAKE_LIBRARY_PATH=
-
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
-
--- LAB_LIBDIR=lib/x86_64
-
--- LAB_INCLUDES=include
-
--- LAB_BINDIR=bin/x86_64
-
--- Boost version: 1.54.0
-
--- Found the following Boost libraries:
-
---   thread
-
---   system
-
--- +++ processing catkin package: 'biotac_core'
-
--- ==> add_subdirectory(catkin/sensors/biotac-core)
-
--- MACHTYPE x86_64
-
-Detected MACHTYPE=x86_64
-
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
-
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
-
-Call Stack (most recent call first):
-
-  catkin/sensors/biotac-core/CMakeLists.txt:8 (include)
-
-
-
-
-
--- HOST_NAME=everest
-
--- HOST=everest
-
--- LAB=AMD
-
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_INCLUDE_PATH=
-
--- CMAKE_LIBRARY_PATH=
-
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
-
--- LAB_LIBDIR=lib/x86_64
-
--- LAB_INCLUDES=include
-
--- LAB_BINDIR=bin/x86_64
-
--- +++ processing catkin package: 'catkin_gflags'
-
--- ==> add_subdirectory(catkin/third_party/catkin-gflags)
-
--- Found gflags  (include: /usr/include, library: /usr/lib/x86_64-linux-gnu/libgflags.so)
-
--- +++ processing catkin package: 'catkin_glog'
-
--- ==> add_subdirectory(catkin/third_party/catkin-glog)
-
--- Found glog    (include: /usr/include, library: /usr/lib/x86_64-linux-gnu/libglog.so)
-
--- +++ processing catkin package: 'conversions'
-
--- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/usc_utils/conversions)
-
--- +++ processing catkin package: 'graspit'
-
--- ==> add_subdirectory(catkin/third_party/ros_graspit/graspit_simulator/graspit)
-
-CMake Error at /home/administrator/ci/ci/team/workspace/devel/share/catkin/cmake/catkinConfig.cmake:75 (find_package):
-
-  Could not find a package configuration file provided by
-
-  "household_objects_database" with any of the following names:
-
-
-
-    household_objects_databaseConfig.cmake
-
-    household_objects_database-config.cmake
-
-
-
-  Add the installation prefix of "household_objects_database" to
-
-  CMAKE_PREFIX_PATH or set "household_objects_database_DIR" to a directory
-
-  containing one of the above files.  If "household_objects_database"
-
-  provides a separate development package or SDK, be sure it has been
-
-  installed.
-
-Call Stack (most recent call first):
-
-  catkin/third_party/ros_graspit/graspit_simulator/graspit/CMakeLists.txt:7 (find_package)
-
-
-
-
-
--- Configuring incomplete, errors occurred!
-
-See also "/home/administrator/ci/ci/team/workspace/build/CMakeFiles/CMakeOutput.log".
-
-See also "/home/administrator/ci/ci/team/workspace/build/CMakeFiles/CMakeError.log".
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/detect_faces/package.xml
 
 Base path: /home/administrator/ci/ci/team/workspace
 
@@ -436,10 +130,16 @@ Devel space: /home/administrator/ci/ci/team/workspace/devel
 
 Install space: /home/administrator/ci/ci/team/workspace/install
 
+Creating symlink "/home/administrator/ci/ci/team/workspace/src/CMakeLists.txt" pointing to "/opt/ros/indigo/share/catkin/cmake/toplevel.cmake"
+
 ####
 
 #### Running command: "cmake /home/administrator/ci/ci/team/workspace/src -DCATKIN_DEVEL_PREFIX=/home/administrator/ci/ci/team/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/administrator/ci/ci/team/workspace/install -G Unix Makefiles" in "/home/administrator/ci/ci/team/workspace/build"
 
 ####
 
-Invoking "cmake" failed
+####
+
+#### Running command: "make -j16 install" in "/home/administrator/ci/ci/team/workspace/build"
+
+####
