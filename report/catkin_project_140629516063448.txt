@@ -1,402 +1,178 @@
-[  0%] Built target findpath
+-- The C compiler identification is GNU 4.8.4
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_AccelerationFeedbackExperimentStatus
+-- The CXX compiler identification is GNU 4.8.4
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibratePressureSensorsStatus
+-- Check for working C compiler: /usr/bin/cc
 
-[  0%] Built target geometry_msgs_generate_messages_py
+-- Check for working C compiler: /usr/bin/cc -- works
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineLearningControl
+-- Detecting C compiler ABI info
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerDataStatus
+-- Detecting C compiler ABI info - done
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_RtNetwork
+-- Check for working CXX compiler: /usr/bin/c++
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ResetBreakaway
+-- Check for working CXX compiler: /usr/bin/c++ -- works
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PolicyControllerParamsService
+-- Detecting CXX compiler ABI info
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SwitchControllerStack
+-- Detecting CXX compiler ABI info - done
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_BoundingPoints
+-- Using CATKIN_DEVEL_PREFIX: /home/administrator/ci/ci/team/workspace/devel
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Goto_command
+-- Using CMAKE_PREFIX_PATH: /opt/ros/indigo
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspControllerStatus
+-- This workspace overlays: /opt/ros/indigo
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_BiotacData
+-- Found PythonInterp: /usr/bin/python (found version "2.7.6") 
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ExperimentParams
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_AvgPressureSensors
+-- Using Debian Python package layout
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_QueryControllerStatus
+-- Using empy: /usr/bin/empy
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Volumes
+-- Using CATKIN_ENABLE_TESTING: ON
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_UpdateStrainGagesCalibration
+-- Call enable_testing()
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ImageCoordinates
+-- Using CATKIN_TEST_RESULTS_DIR: /home/administrator/ci/ci/team/workspace/build/test_results
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LabeledPoint
+-- Looking for include file pthread.h
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_IncreaseMaxFingerTorque
+-- Looking for include file pthread.h - found
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateBiotacSensorsStatus
+-- Looking for pthread_create
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Preshape
+-- Looking for pthread_create - not found
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LqrControllerDataStatus
+-- Looking for pthread_create in pthreads
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PressureSensors
+-- Looking for pthread_create in pthreads - not found
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ObstaclePoints
+-- Looking for pthread_create in pthread
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateForceTorqueSensor
+-- Looking for pthread_create in pthread - found
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CartesianTrajectory
+-- Found Threads: TRUE  
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Acceleration
+-- Found gtest sources under '/usr/src/gtest': gtests will be built
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PolicyControllerDataStatus
+-- Using Python nosetests: /usr/bin/nosetests-2.7
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerParamsService
+-- catkin 0.6.19
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspPoses
+-- BUILD_SHARED_LIBS is on
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_TrajectoryStatus
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ExperimentGeneratorParamsService
+-- ~~  traversing 3 packages in topological order:
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PointArrayArray
+-- ~~  - project_management_test_1
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerStatus
+-- ~~  - project_management_test_2
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CartesianTrajectoryPoint
+-- ~~  - project_management_test_3
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LookAtParams
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineNetwork
+-- +++ processing catkin package: 'project_management_test_1'
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_BiotacFingerData
+-- ==> add_subdirectory(catkin/test/project_management_test_1)
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CollectDataStatus
+-- +++ processing catkin package: 'project_management_test_2'
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ColorRange
+-- ==> add_subdirectory(catkin/test/project_management_test_2)
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LookAtStatus
+-- +++ processing catkin package: 'project_management_test_3'
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DMPControllerStatus
+-- ==> add_subdirectory(catkin/test/project_management_test_3)
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_RtNetworkLayer
+-- Configuring done
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibratePressureSensors
+-- Generating done
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Extrems
+-- Build files have been written to: /home/administrator/ci/ci/team/workspace/build
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DMPCommand
+Scanning dependencies of target test_project_1_ttest
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_NetworkLayer
+Scanning dependencies of target test_project_1_fail_demo
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ScaledLqr
+Scanning dependencies of target test_project_2_demo_fail
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ViconQuery
+Scanning dependencies of target test_project_1_success_demo
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspControllerParams
+Scanning dependencies of target test_project_2_demo_success
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_TrajectoryPoint
+[ 80%] [ 80%] [100%] [100%] [100%] Building CXX object catkin/test/project_management_test_1/CMakeFiles/test_project_1_success_demo.dir/src/test_project_1_demo_success.cpp.o
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SetPoses
+Building CXX object catkin/test/project_management_test_2/CMakeFiles/test_project_2_demo_fail.dir/src/test_project_2_demo_fail.cpp.o
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_UpdateStrainGagesCalibrationStatus
+Building CXX object catkin/test/project_management_test_2/CMakeFiles/test_project_2_demo_success.dir/src/test_project_2_demo_success.cpp.o
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DMPControllerParams
+Building CXX object catkin/test/project_management_test_1/CMakeFiles/test_project_1_ttest.dir/src/t_test.cpp.o
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Path
+Building CXX object catkin/test/project_management_test_1/CMakeFiles/test_project_1_fail_demo.dir/src/test_project_1_demo_fail.cpp.o
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SetVisualToolTracking
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/project_management_test_1/test_project_1_fail_demo
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ContinuousTrajectoryStatus
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/project_management_test_2/test_project_2_demo_fail
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ContinuousTrajectoryPoint
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/project_management_test_2/test_project_2_demo_success
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_BoundingPointsArray
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/project_management_test_1/test_project_1_success_demo
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SetObjectOri
+[100%] [100%] [100%] [100%] Built target test_project_2_demo_fail
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_EndEffectorPosition
+Built target test_project_1_success_demo
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_InverseDynamicsBatchNetworkControllerStatus
+Built target test_project_1_fail_demo
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Imu
+Built target test_project_2_demo_success
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_FingerJointEncoderOffsetsStatus
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/project_management_test_1/test_project_1_ttest
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerParams
+[100%] Built target test_project_1_ttest
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineDataStatus
+Install the project...
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_AffinePolicy
+-- Install configuration: ""
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateAccelerometerSensorStatus
+-- Installing: /home/administrator/ci/ci/team/workspace/install/_setup_util.py
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspStatus
+-- Installing: /home/administrator/ci/ci/team/workspace/install/env.sh
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DistanceFieldEval
+-- Installing: /home/administrator/ci/ci/team/workspace/install/setup.bash
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LqrControllerParams
+-- Installing: /home/administrator/ci/ci/team/workspace/install/setup.sh
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CartesianGains
+-- Installing: /home/administrator/ci/ci/team/workspace/install/setup.zsh
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ChordEllipsoid
+-- Installing: /home/administrator/ci/ci/team/workspace/install/.rosinstall
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OnlineDataStatus
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/project_management_test_1.pc
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DistanceFieldQueries
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/project_management_test_1/cmake/project_management_test_1Config.cmake
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_FingerJointEncoderOffsets
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/project_management_test_1/cmake/project_management_test_1Config-version.cmake
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_KeyPointBodyApprox
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/project_management_test_1/package.xml
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineLearningControlService
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/project_management_test_2.pc
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LinearQuadraticRegulatorParams
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/project_management_test_2/cmake/project_management_test_2Config.cmake
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LqrControllerParamsService
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/project_management_test_2/cmake/project_management_test_2Config-version.cmake
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Grasp
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/project_management_test_2/package.xml
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_FingerForceControlGains
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/project_management_test_3.pc
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateBiotacSensors
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/project_management_test_3/cmake/project_management_test_3Config.cmake
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_StrainGauge
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/project_management_test_3/cmake/project_management_test_3Config-version.cmake
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ExtremsArray
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_TaskFrame
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Sphere
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_EndEffectorState
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_RectangularBox
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ViconData
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SpeedChange
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateAccelerometerSensor
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ResetBreakawayStatus
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_RectangularBoxArray
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ControllerStatus
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineParams
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LinearQuadraticRegulatorStatus
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_EnvironmentalObject
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Matrix32
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ObjectMass
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Gains
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PointArray
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Trajectory
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ImageCoordinatesArray
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateForceTorqueSensorStatus
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LinearQuadraticRegulator
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_InverseDynamicsBatchNetworkControllerParams
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_TrackingPose
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineParamsService
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CollectData
-
-[ 26%] Built target amd_clmc_ros_messages_generate_messages_py
-
-[ 26%] Built target geometry_msgs_generate_messages_cpp
-
-[ 52%] Built target amd_clmc_ros_messages_generate_messages_cpp
-
-[ 52%] Built target geometry_msgs_generate_messages_lisp
-
-[ 78%] Built target amd_clmc_ros_messages_generate_messages_lisp
-
-[ 78%] Built target amd_clmc_ros_messages_generate_messages
-
-[ 78%] Built target _ar_track_alvar_msgs_generate_messages_check_deps_AlvarMarker
-
-[ 78%] Built target std_msgs_generate_messages_lisp
-
-[ 78%] Built target _ar_track_alvar_msgs_generate_messages_check_deps_AlvarMarkers
-
-[ 78%] Built target ar_track_alvar_msgs_generate_messages_lisp
-
-[ 78%] Built target std_msgs_generate_messages_cpp
-
-[ 79%] Built target ar_track_alvar_msgs_generate_messages_cpp
-
-[ 79%] Built target std_msgs_generate_messages_py
-
-[ 80%] Built target ar_track_alvar_msgs_generate_messages_py
-
-[ 80%] Built target ar_track_alvar_msgs_generate_messages
-
-[ 80%] Built target _custom_robot_msgs_generate_messages_check_deps_assembly_phase
-
-[ 80%] Built target _custom_robot_msgs_generate_messages_check_deps_PolicyInterface
-
-[ 80%] Built target _custom_robot_msgs_generate_messages_check_deps_PredictAssembly
-
-[ 80%] Built target custom_robot_msgs_generate_messages_lisp
-
-[ 81%] Built target custom_robot_msgs_generate_messages_cpp
-
-[ 83%] Built target custom_robot_msgs_generate_messages_py
-
-[ 83%] Built target custom_robot_msgs_generate_messages
-
-[ 83%] Built target _riemo_grasping_msgs_generate_messages_check_deps_MpiGraspPoses
-
-[ 83%] Built target _riemo_grasping_msgs_generate_messages_check_deps_RenderGraspProblemService
-
-[ 83%] Built target _riemo_grasping_msgs_generate_messages_check_deps_GraspPose
-
-[ 83%] Built target _riemo_grasping_msgs_generate_messages_check_deps_GraspableObject
-
-[ 83%] Built target _riemo_grasping_msgs_generate_messages_check_deps_Preshape
-
-[ 83%] Built target _riemo_grasping_msgs_generate_messages_check_deps_GraspProblemInfo
-
-[ 83%] Built target _riemo_grasping_msgs_generate_messages_check_deps_LatestGraspProblemInfo
-
-[ 83%] Built target _riemo_grasping_msgs_generate_messages_check_deps_UpdateGraspProblem
-
-[ 86%] Built target riemo_grasping_msgs_generate_messages_py
-
-[ 88%] Built target riemo_grasping_msgs_generate_messages_cpp
-
-[ 89%] Built target riemo_grasping_msgs_generate_messages_lisp
-
-[ 89%] Built target riemo_grasping_msgs_generate_messages
-
-[ 89%] Built target _playful_navigation_msgs_generate_messages_check_deps_Move_target_out_of_obstacles
-
-[ 89%] Built target _playful_navigation_msgs_generate_messages_check_deps_Move_robot_out_of_obstacles
-
-[ 90%] Built target playful_navigation_msgs_generate_messages_lisp
-
-[ 90%] Built target playful_navigation_msgs_generate_messages_py
-
-[ 90%] Built target playful_navigation_msgs_generate_messages_cpp
-
-[ 90%] Built target playful_navigation_msgs_generate_messages
-
-[ 91%] Built target playful_pcl
-
-[ 92%] Built target playful_histograms
-
-[ 94%] Built target playful_navigation
-
-[ 95%] Building CXX object catkin/playful/playful-navigation/navigation_map/CMakeFiles/playful_navigation_map.dir/src/astar.cpp.o
-
-/home/administrator/ci/ci/team/workspace/src/catkin/playful/playful-navigation/navigation_map/src/astar.cpp: In function ‘void playful_navigation_map::cluster(const int*, int, int, std::vector<std::vector<int> >&)’:
-
-/home/administrator/ci/ci/team/workspace/src/catkin/playful/playful-navigation/navigation_map/src/astar.cpp:305:7: error: ‘weights’ was not declared in this scope
-
-  _dfs(weights, width, length, index, visited, cluster);
-
-       ^
-
-/home/administrator/ci/ci/team/workspace/src/catkin/playful/playful-navigation/navigation_map/src/astar.cpp:305:31: error: ‘index’ was not declared in this scope
-
-  _dfs(weights, width, length, index, visited, cluster);
-
-                               ^
-
-/home/administrator/ci/ci/team/workspace/src/catkin/playful/playful-navigation/navigation_map/src/astar.cpp: At global scope:
-
-/home/administrator/ci/ci/team/workspace/src/catkin/playful/playful-navigation/navigation_map/src/astar.cpp:319:28: error: ‘COL’ was not declared in this scope
-
-   int countIslands(int M[][COL])
-
-                            ^
-
-/home/administrator/ci/ci/team/workspace/src/catkin/playful/playful-navigation/navigation_map/src/astar.cpp: In function ‘int playful_navigation_map::countIslands(...)’:
-
-/home/administrator/ci/ci/team/workspace/src/catkin/playful/playful-navigation/navigation_map/src/astar.cpp:323:18: error: ‘ROW’ was not declared in this scope
-
-     bool visited[ROW][COL];
-
-                  ^
-
-/home/administrator/ci/ci/team/workspace/src/catkin/playful/playful-navigation/navigation_map/src/astar.cpp:323:23: error: ‘COL’ was not declared in this scope
-
-     bool visited[ROW][COL];
-
-                       ^
-
-/home/administrator/ci/ci/team/workspace/src/catkin/playful/playful-navigation/navigation_map/src/astar.cpp:324:12: error: ‘visited’ was not declared in this scope
-
-     memset(visited, 0, sizeof(visited));
-
-            ^
-
-/home/administrator/ci/ci/team/workspace/src/catkin/playful/playful-navigation/navigation_map/src/astar.cpp:324:39: error: ‘memset’ was not declared in this scope
-
-     memset(visited, 0, sizeof(visited));
-
-                                       ^
-
-/home/administrator/ci/ci/team/workspace/src/catkin/playful/playful-navigation/navigation_map/src/astar.cpp:331:6: error: ‘M’ was not declared in this scope
-
-  if (M[i][j] && !visited[i][j]) // If a cell with value 1 is not
-
-      ^
-
-/home/administrator/ci/ci/team/workspace/src/catkin/playful/playful-navigation/navigation_map/src/astar.cpp:333:26: error: ‘DFS’ was not declared in this scope
-
-      DFS(M, i, j, visited);     // Visit all cells in this island.
-
-                          ^
-
-/home/administrator/ci/ci/team/workspace/src/catkin/playful/playful-navigation/navigation_map/src/astar.cpp: In function ‘int playful_navigation_map::main()’:
-
-/home/administrator/ci/ci/team/workspace/src/catkin/playful/playful-navigation/navigation_map/src/astar.cpp:343:13: error: ‘COL’ was not declared in this scope
-
-     int M[][COL]= {  {1, 1, 0, 0, 0},
-
-             ^
-
-/home/administrator/ci/ci/team/workspace/src/catkin/playful/playful-navigation/navigation_map/src/astar.cpp:350:55: error: ‘M’ was not declared in this scope
-
-     printf("Number of islands is: %d\n", countIslands(M));
-
-                                                       ^
-
-/home/administrator/ci/ci/team/workspace/src/catkin/playful/playful-navigation/navigation_map/src/astar.cpp:350:57: error: ‘printf’ was not declared in this scope
-
-     printf("Number of islands is: %d\n", countIslands(M));
-
-                                                         ^
-
-make[2]: *** [catkin/playful/playful-navigation/navigation_map/CMakeFiles/playful_navigation_map.dir/src/astar.cpp.o] Error 1
-
-make[1]: *** [catkin/playful/playful-navigation/navigation_map/CMakeFiles/playful_navigation_map.dir/all] Error 2
-
-make: *** [all] Error 2
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/project_management_test_3/package.xml
 
 Base path: /home/administrator/ci/ci/team/workspace
 
@@ -408,16 +184,16 @@ Devel space: /home/administrator/ci/ci/team/workspace/devel
 
 Install space: /home/administrator/ci/ci/team/workspace/install
 
-####
-
-#### Running command: "make cmake_check_build_system" in "/home/administrator/ci/ci/team/workspace/build"
+Creating symlink "/home/administrator/ci/ci/team/workspace/src/CMakeLists.txt" pointing to "/opt/ros/indigo/share/catkin/cmake/toplevel.cmake"
 
 ####
 
-####
-
-#### Running command: "make -j1" in "/home/administrator/ci/ci/team/workspace/build"
+#### Running command: "cmake /home/administrator/ci/ci/team/workspace/src -DCATKIN_DEVEL_PREFIX=/home/administrator/ci/ci/team/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/administrator/ci/ci/team/workspace/install -G Unix Makefiles" in "/home/administrator/ci/ci/team/workspace/build"
 
 ####
 
-Invoking "make -j1" failed
+####
+
+#### Running command: "make -j16 install" in "/home/administrator/ci/ci/team/workspace/build"
+
+####
