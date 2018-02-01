@@ -26,35 +26,19 @@
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- ~~  traversing 10 packages in topological order:
+-- ~~  traversing 2 packages in topological order:
 
--- ~~  - cdist_utils
+-- ~~  - rt_utils
 
--- ~~  - robot_model_helper
-
--- ~~  - compute_cdist
-
--- ~~  - random_forest
-
--- ~~  - arm_robot_model
-
--- ~~  - cdist_py
-
--- ~~  - test_cdist
-
--- ~~  - urdf_parser_py
-
--- ~~  - xml_reflection
-
--- ~~  - arm_pose_esti
+-- ~~  - learning_control
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- +++ processing catkin package: 'cdist_utils'
+-- +++ processing catkin package: 'rt_utils'
 
--- ==> add_subdirectory(catkin/robot_pose_estimation/cdist/cdist_utils)
+-- ==> add_subdirectory(catkin/rt_utils)
 
-CMake Error at catkin/robot_pose_estimation/cdist/cdist_utils/CMakeLists.txt:18 (find_package):
+CMake Error at catkin/rt_utils/CMakeLists.txt:8 (find_package):
 
   By not providing "FindEigen.cmake" in CMAKE_MODULE_PATH this project has
 
@@ -64,9 +48,9 @@ CMake Error at catkin/robot_pose_estimation/cdist/cdist_utils/CMakeLists.txt:18 
 
 
 
-  Could not find a package configuration file provided by "Eigen" with any of
+  Could not find a package configuration file provided by "Eigen" (requested
 
-  the following names:
+  version 3.2.4) with any of the following names:
 
 
 
