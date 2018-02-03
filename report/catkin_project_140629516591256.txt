@@ -1,36 +1,14 @@
--- The C compiler identification is GNU 4.8.4
-
--- The CXX compiler identification is GNU 4.8.4
-
--- Check for working C compiler: /usr/bin/cc
-
--- Check for working C compiler: /usr/bin/cc -- works
-
--- Detecting C compiler ABI info
-
--- Detecting C compiler ABI info - done
-
--- Check for working CXX compiler: /usr/bin/c++
-
--- Check for working CXX compiler: /usr/bin/c++ -- works
-
--- Detecting CXX compiler ABI info
-
--- Detecting CXX compiler ABI info - done
-
 -- Using CATKIN_DEVEL_PREFIX: /home/administrator/ci/ci/team/workspace/devel
 
 -- Using CMAKE_PREFIX_PATH: /opt/ros/indigo
 
 -- This workspace overlays: /opt/ros/indigo
 
--- Found PythonInterp: /usr/bin/python (found version "2.7.6") 
-
 -- Using PYTHON_EXECUTABLE: /usr/bin/python
 
--- Using Debian Python package layout
+-- Python version: 2.7
 
--- Using empy: /usr/bin/empy
+-- Using Debian Python package layout
 
 -- Using CATKIN_ENABLE_TESTING: ON
 
@@ -38,175 +16,197 @@
 
 -- Using CATKIN_TEST_RESULTS_DIR: /home/administrator/ci/ci/team/workspace/build/test_results
 
--- Looking for include file pthread.h
-
--- Looking for include file pthread.h - found
-
--- Looking for pthread_create
-
--- Looking for pthread_create - not found
-
--- Looking for pthread_create in pthreads
-
--- Looking for pthread_create in pthreads - not found
-
--- Looking for pthread_create in pthread
-
--- Looking for pthread_create in pthread - found
-
--- Found Threads: TRUE  
-
 -- Found gtest sources under '/usr/src/gtest': gtests will be built
 
--- Using Python nosetests: /usr/bin/nosetests-2.7
-
--- catkin 0.6.19
+-- catkin 0.5.90
 
 -- BUILD_SHARED_LIBS is on
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- ~~  traversing 2 packages in topological order:
+-- ~~  traversing 14 packages in topological order:
 
--- ~~  - robot_state_pub
+-- ~~  - imu_core
 
--- ~~  - arm_robot_model
+-- ~~  - ros_realtime (metapackage)
+
+-- ~~  - allocators
+
+-- ~~  - rosatomic
+
+-- ~~  - lockfree
+
+-- ~~  - rt_timer
+
+-- ~~  - amd_clmc_ros_messages
+
+-- ~~  - ar_track_alvar_msgs
+
+-- ~~  - custom_robot_msgs
+
+-- ~~  - riemo_grasping_msgs
+
+-- ~~  - xenomai_ros
+
+-- ~~  - rosrt
+
+-- ~~  - imu_ros_rt
+
+-- ~~  - ros_rt_test
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- +++ processing catkin package: 'robot_state_pub'
+-- +++ processing catkin package: 'imu_core'
 
--- ==> add_subdirectory(catkin/ros/robot_state_pub)
+-- ==> add_subdirectory(catkin/sensors/imu-core)
+
+CMake Error at catkin/sensors/imu-core/CMakeLists.txt:4 (include):
+
+  include could not find load file:
+
+
+
+    /home/administrator/ci/ci/team/workspace/src/cmake/sl_cmake_global/LAB.cmake
+
+
+
+
+
+-- xenomai NOT found. (/usr/local;/usr)
+
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+
+-- Boost version: 1.54.0
+
+-- Found the following Boost libraries:
+
+--   thread
+
+-- +++ processing catkin metapackage: 'ros_realtime'
+
+-- ==> add_subdirectory(catkin/ros/ros_realtime/ros_realtime)
+
+-- +++ processing catkin package: 'allocators'
+
+-- ==> add_subdirectory(catkin/ros/ros_realtime/allocators)
+
+-- Boost version: 1.54.0
+
+-- +++ processing catkin package: 'rosatomic'
+
+-- ==> add_subdirectory(catkin/ros/ros_realtime/rosatomic)
+
+-- Boost version: 1.54.0
+
+-- +++ processing catkin package: 'lockfree'
+
+-- ==> add_subdirectory(catkin/ros/ros_realtime/lockfree)
+
+-- Boost version: 1.54.0
+
+-- +++ processing catkin package: 'rt_timer'
+
+-- ==> add_subdirectory(catkin/ros/ros_realtime/rt_timer)
+
+-- +++ processing catkin package: 'amd_clmc_ros_messages'
+
+-- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/amd_clmc_ros_messages)
 
 -- Using these message generators: gencpp;genlisp;genpy
 
--- +++ processing catkin package: 'arm_robot_model'
+-- amd_clmc_ros_messages: 107 messages, 10 services
 
--- ==> add_subdirectory(catkin/robots/arm_robot_model)
+-- +++ processing catkin package: 'ar_track_alvar_msgs'
 
--- Configuring done
+-- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/ar_track_alvar_msgs)
 
--- Generating done
+-- Using these message generators: gencpp;genlisp;genpy
 
--- Build files have been written to: /home/administrator/ci/ci/team/workspace/build
+-- ar_track_alvar_msgs: 2 messages, 0 services
 
-Scanning dependencies of target robot_state_pub_solver
+-- +++ processing catkin package: 'custom_robot_msgs'
 
-[ 50%] [ 50%] Building CXX object catkin/ros/robot_state_pub/CMakeFiles/robot_state_pub_solver.dir/src/treefksolverposfull_recursive.cpp.o
+-- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/custom_robot_msgs)
 
-Building CXX object catkin/ros/robot_state_pub/CMakeFiles/robot_state_pub_solver.dir/src/robot_state_publisher.cpp.o
+-- Using these message generators: gencpp;genlisp;genpy
 
-Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/librobot_state_pub_solver.so
+-- custom_robot_msgs: 1 messages, 2 services
 
-[ 50%] Built target robot_state_pub_solver
+-- +++ processing catkin package: 'riemo_grasping_msgs'
 
-Scanning dependencies of target robot_state_pub
+-- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/riemo_grasping_msgs)
 
-Scanning dependencies of target state_publisher
+-- Using these message generators: gencpp;genlisp;genpy
 
-[100%] [100%] Building CXX object catkin/ros/robot_state_pub/CMakeFiles/robot_state_pub.dir/src/joint_state_listener.cpp.o
+-- riemo_grasping_msgs: 5 messages, 3 services
 
-Building CXX object catkin/ros/robot_state_pub/CMakeFiles/state_publisher.dir/src/joint_state_listener.cpp.o
+-- +++ processing catkin package: 'xenomai_ros'
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/robot_state_pub/robot_state_pub
+-- ==> add_subdirectory(catkin/ros/xenomai-ros)
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/robot_state_pub/state_publisher
+-- +++ processing catkin package: 'rosrt'
 
-[100%] Built target state_publisher
+-- ==> add_subdirectory(catkin/ros/ros_realtime/rosrt)
 
-[100%] Built target robot_state_pub
+-- xenomai NOT found. (/usr/local;/usr)
 
-Install the project...
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
 
--- Install configuration: ""
+-- Boost version: 1.54.0
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/_setup_util.py
+-- Found the following Boost libraries:
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/env.sh
+--   thread
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/setup.bash
+-- +++ processing catkin package: 'imu_ros_rt'
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/setup.sh
+-- ==> add_subdirectory(catkin/sensors/imu-ros-rt)
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/setup.zsh
+CMake Error at catkin/sensors/imu-ros-rt/CMakeLists.txt:4 (include):
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/.rosinstall
+  include could not find load file:
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/robot_state_pub.pc
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/robot_state_pub/cmake/robot_state_pubConfig.cmake
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/robot_state_pub/cmake/robot_state_pubConfig-version.cmake
+    /home/administrator/ci/ci/team/workspace/src/cmake/sl_cmake_global/LAB.cmake
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/robot_state_pub/package.xml
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/librobot_state_pub_solver.so
 
--- Removed runtime path from "/home/administrator/ci/ci/team/workspace/install/lib/librobot_state_pub_solver.so"
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/robot_state_pub/robot_state_pub
 
--- Removed runtime path from "/home/administrator/ci/ci/team/workspace/install/lib/robot_state_pub/robot_state_pub"
+-- xenomai NOT found. (/usr/local;/usr)
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/robot_state_pub/state_publisher
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
 
--- Removed runtime path from "/home/administrator/ci/ci/team/workspace/install/lib/robot_state_pub/state_publisher"
+-- Boost version: 1.54.0
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/robot_state_pub
+-- Found the following Boost libraries:
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/robot_state_pub/joint_state_listener.h
+--   thread
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/robot_state_pub/robot_state_publisher.h
+CMake Error at catkin/sensors/imu-ros-rt/CMakeLists.txt:41 (install):
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/robot_state_pub/treefksolverposfull_recursive.hpp
+  install TARGETS given target "imu_demo" which does not exist in this
 
-+ cd /home/administrator/ci/ci/team/workspace/src/catkin/robots/arm_robot_model
+  directory.
 
-+ mkdir -p /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages
 
-+ /usr/bin/env PYTHONPATH=/home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages:/home/administrator/ci/ci/team/workspace/build/lib/python2.7/dist-packages:/opt/ros/indigo/lib/python2.7/dist-packages CATKIN_BINARY_DIR=/home/administrator/ci/ci/team/workspace/build /usr/bin/python /home/administrator/ci/ci/team/workspace/src/catkin/robots/arm_robot_model/setup.py build --build-base /home/administrator/ci/ci/team/workspace/build/catkin/robots/arm_robot_model install --install-layout=deb --prefix=/home/administrator/ci/ci/team/workspace/install --install-scripts=/home/administrator/ci/ci/team/workspace/install/bin
 
-running build
 
-running build_py
 
-creating /home/administrator/ci/ci/team/workspace/build/catkin/robots/arm_robot_model/lib.linux-x86_64-2.7
+-- +++ processing catkin package: 'ros_rt_test'
 
-creating /home/administrator/ci/ci/team/workspace/build/catkin/robots/arm_robot_model/lib.linux-x86_64-2.7/arm_robot_model
+-- ==> add_subdirectory(catkin/ros/ros_rt_basic_example)
 
-copying src/arm_robot_model/__init__.py -> /home/administrator/ci/ci/team/workspace/build/catkin/robots/arm_robot_model/lib.linux-x86_64-2.7/arm_robot_model
+-- xenomai NOT found. (/usr/local;/usr)
 
-running install
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
 
-running install_lib
+-- Configuring incomplete, errors occurred!
 
-creating /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/arm_robot_model
+See also "/home/administrator/ci/ci/team/workspace/build/CMakeFiles/CMakeOutput.log".
 
-copying /home/administrator/ci/ci/team/workspace/build/catkin/robots/arm_robot_model/lib.linux-x86_64-2.7/arm_robot_model/__init__.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/arm_robot_model
-
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/arm_robot_model/__init__.py to __init__.pyc
-
-running install_egg_info
-
-Writing /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/arm_robot_model-0.0.0.egg-info
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/arm_robot_model.pc
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/arm_robot_model/cmake/arm_robot_modelConfig.cmake
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/arm_robot_model/cmake/arm_robot_modelConfig-version.cmake
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/arm_robot_model/package.xml
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/arm_robot_model/check_urdf
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/arm_robot_model/check_urdf_visual
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/arm_robot_model/generate_openrave_ik
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/arm_robot_model/publish_xtion_frames
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/arm_robot_model/urdf_to_collada
+See also "/home/administrator/ci/ci/team/workspace/build/CMakeFiles/CMakeError.log".
 
 Base path: /home/administrator/ci/ci/team/workspace
 
@@ -218,16 +218,10 @@ Devel space: /home/administrator/ci/ci/team/workspace/devel
 
 Install space: /home/administrator/ci/ci/team/workspace/install
 
-Creating symlink "/home/administrator/ci/ci/team/workspace/src/CMakeLists.txt" pointing to "/opt/ros/indigo/share/catkin/cmake/toplevel.cmake"
-
 ####
 
 #### Running command: "cmake /home/administrator/ci/ci/team/workspace/src -DCATKIN_DEVEL_PREFIX=/home/administrator/ci/ci/team/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/administrator/ci/ci/team/workspace/install -G Unix Makefiles" in "/home/administrator/ci/ci/team/workspace/build"
 
 ####
 
-####
-
-#### Running command: "make -j16 install" in "/home/administrator/ci/ci/team/workspace/build"
-
-####
+Invoking "cmake" failed
