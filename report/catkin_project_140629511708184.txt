@@ -1,151 +1,764 @@
--- Using CATKIN_DEVEL_PREFIX: /home/administrator/ci/ci/team/workspace/devel
+failed to run unit tests:
+Scanning dependencies of target clean_test_results_signed_distance_field
 
--- Using CMAKE_PREFIX_PATH: /opt/ros/indigo
+Removing test result files from '/home/administrator/ci/ci/team/workspace/build/test_results/signed_distance_field'
 
--- This workspace overlays: /opt/ros/indigo
+[  0%] Built target clean_test_results_signed_distance_field
 
--- Using PYTHON_EXECUTABLE: /usr/bin/python
+[  0%] Built target topic_tools_generate_messages_cpp
 
--- Python version: 2.7
+[  0%] Built target gtest
 
--- Using Debian Python package layout
+[  0%] Built target gtest_main
 
--- Using CATKIN_ENABLE_TESTING: ON
+[  0%] Built target lula_log
 
--- Call enable_testing()
+[  1%] Built target lula_util
 
--- Using CATKIN_TEST_RESULTS_DIR: /home/administrator/ci/ci/team/workspace/build/test_results
+[  1%] Built target lula_testing
 
--- Found gtest sources under '/usr/src/gtest': gtests will be built
+[  1%] Built target _catkin_empty_exported_target
 
--- catkin 0.5.90
+[  5%] Built target lula_differential_geometry
 
--- BUILD_SHARED_LIBS is on
+[  5%] Built target lula_differential_geometry_testing
 
--- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[  5%] Built target control_msgs_generate_messages_lisp
 
--- ~~  traversing 10 packages in topological order:
+[  5%] Built target lula_optimization
 
--- ~~  - ros_realtime (metapackage)
+[  7%] Built target lula_motion
 
--- ~~  - allocators
+[  7%] Built target lula_workspace
 
--- ~~  - rosatomic
+[  7%] Built target geometry_msgs_generate_messages_py
 
--- ~~  - lockfree
+[  7%] Built target control_msgs_generate_messages_cpp
 
--- ~~  - rt_timer
+[  7%] Built target std_msgs_generate_messages_py
 
--- ~~  - xenomai_ros
+[  7%] Built target std_msgs_generate_messages_cpp
 
--- ~~  - rosrt
+[  7%] Built target geometry_msgs_generate_messages_cpp
 
--- ~~  - goto_ui
+[  7%] Built target geometry_msgs_generate_messages_lisp
 
--- ~~  - goto_ui_task
+[  7%] Built target std_msgs_generate_messages_lisp
 
--- ~~  - ros_rt_test
+[  7%] Built target sensor_msgs_generate_messages_lisp
 
--- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[  7%] Built target sensor_msgs_generate_messages_py
 
--- +++ processing catkin metapackage: 'ros_realtime'
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_AccelerationFeedbackExperimentStatus
 
--- ==> add_subdirectory(catkin/ros/ros_realtime/ros_realtime)
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerDataStatus
 
--- +++ processing catkin package: 'allocators'
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineLearningControl
 
--- ==> add_subdirectory(catkin/ros/ros_realtime/allocators)
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_BoundingPoints
 
--- Boost version: 1.54.0
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibratePressureSensorsStatus
 
--- +++ processing catkin package: 'rosatomic'
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_RtNetwork
 
--- ==> add_subdirectory(catkin/ros/ros_realtime/rosatomic)
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PolicyControllerParamsService
 
--- Boost version: 1.54.0
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SwitchControllerStack
 
--- +++ processing catkin package: 'lockfree'
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Goto_command
 
--- ==> add_subdirectory(catkin/ros/ros_realtime/lockfree)
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ResetBreakaway
 
--- Boost version: 1.54.0
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspControllerStatus
 
--- +++ processing catkin package: 'rt_timer'
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_BiotacData
 
--- ==> add_subdirectory(catkin/ros/ros_realtime/rt_timer)
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ExperimentParams
 
--- +++ processing catkin package: 'xenomai_ros'
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_AvgPressureSensors
 
--- ==> add_subdirectory(catkin/ros/xenomai-ros)
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_QueryControllerStatus
 
--- +++ processing catkin package: 'rosrt'
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Volumes
 
--- ==> add_subdirectory(catkin/ros/ros_realtime/rosrt)
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_UpdateStrainGagesCalibration
 
--- xenomai NOT found. (/usr/local;/usr)
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ImageCoordinates
 
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LabeledPoint
 
--- Boost version: 1.54.0
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_IncreaseMaxFingerTorque
 
--- Found the following Boost libraries:
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateBiotacSensorsStatus
 
---   thread
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Preshape
 
--- +++ processing catkin package: 'goto_ui'
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LqrControllerDataStatus
 
--- ==> add_subdirectory(catkin/core-sl/goto_ui)
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PressureSensors
 
-CMake Error at /home/administrator/ci/ci/team/workspace/devel/share/catkin/cmake/catkinConfig.cmake:75 (find_package):
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ObstaclePoints
 
-  Could not find a package configuration file provided by "utilities" with
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateForceTorqueSensor
 
-  any of the following names:
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CartesianTrajectory
 
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Acceleration
 
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PolicyControllerDataStatus
 
-    utilitiesConfig.cmake
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerParamsService
 
-    utilities-config.cmake
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspPoses
 
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_TrajectoryStatus
 
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ExperimentGeneratorParamsService
 
-  Add the installation prefix of "utilities" to CMAKE_PREFIX_PATH or set
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PointArrayArray
 
-  "utilities_DIR" to a directory containing one of the above files.  If
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerStatus
 
-  "utilities" provides a separate development package or SDK, be sure it has
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CartesianTrajectoryPoint
 
-  been installed.
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LookAtParams
 
-Call Stack (most recent call first):
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineNetwork
 
-  catkin/core-sl/goto_ui/CMakeLists.txt:8 (find_package)
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_BiotacFingerData
 
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CollectDataStatus
 
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ColorRange
 
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LookAtStatus
 
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DMPControllerStatus
 
--- Configuring incomplete, errors occurred!
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_RtNetworkLayer
 
-See also "/home/administrator/ci/ci/team/workspace/build/CMakeFiles/CMakeOutput.log".
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibratePressureSensors
 
-See also "/home/administrator/ci/ci/team/workspace/build/CMakeFiles/CMakeError.log".
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Extrems
 
-Base path: /home/administrator/ci/ci/team/workspace
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DMPCommand
 
-Source space: /home/administrator/ci/ci/team/workspace/src
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_NetworkLayer
 
-Build space: /home/administrator/ci/ci/team/workspace/build
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ScaledLqr
 
-Devel space: /home/administrator/ci/ci/team/workspace/devel
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ViconQuery
 
-Install space: /home/administrator/ci/ci/team/workspace/install
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspControllerParams
 
-####
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_TrajectoryPoint
 
-#### Running command: "cmake /home/administrator/ci/ci/team/workspace/src -DCATKIN_DEVEL_PREFIX=/home/administrator/ci/ci/team/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/administrator/ci/ci/team/workspace/install -G Unix Makefiles" in "/home/administrator/ci/ci/team/workspace/build"
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SetPoses
 
-####
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_UpdateStrainGagesCalibrationStatus
 
-Invoking "cmake" failed
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DMPControllerParams
+
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Path
+
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SetVisualToolTracking
+
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ContinuousTrajectoryStatus
+
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ContinuousTrajectoryPoint
+
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_BoundingPointsArray
+
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SetObjectOri
+
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_EndEffectorPosition
+
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_InverseDynamicsBatchNetworkControllerStatus
+
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Imu
+
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_FingerJointEncoderOffsetsStatus
+
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerParams
+
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineDataStatus
+
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_AffinePolicy
+
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateAccelerometerSensorStatus
+
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspStatus
+
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DistanceFieldEval
+
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LqrControllerParams
+
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CartesianGains
+
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ChordEllipsoid
+
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OnlineDataStatus
+
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DistanceFieldQueries
+
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_FingerJointEncoderOffsets
+
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_KeyPointBodyApprox
+
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineLearningControlService
+
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LinearQuadraticRegulatorParams
+
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LqrControllerParamsService
+
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Grasp
+
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_FingerForceControlGains
+
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateBiotacSensors
+
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_StrainGauge
+
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ExtremsArray
+
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_TaskFrame
+
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Sphere
+
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_EndEffectorState
+
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_RectangularBox
+
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ViconData
+
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SpeedChange
+
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateAccelerometerSensor
+
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ResetBreakawayStatus
+
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_RectangularBoxArray
+
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ControllerStatus
+
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineParams
+
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LinearQuadraticRegulatorStatus
+
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_EnvironmentalObject
+
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Matrix32
+
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ObjectMass
+
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Gains
+
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PointArray
+
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Trajectory
+
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ImageCoordinatesArray
+
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateForceTorqueSensorStatus
+
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LinearQuadraticRegulator
+
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_InverseDynamicsBatchNetworkControllerParams
+
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_TrackingPose
+
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineParamsService
+
+[  7%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CollectData
+
+[ 19%] Built target amd_clmc_ros_messages_generate_messages_cpp
+
+[ 30%] Built target amd_clmc_ros_messages_generate_messages_lisp
+
+[ 43%] Built target amd_clmc_ros_messages_generate_messages_py
+
+[ 43%] Built target sensor_msgs_generate_messages_cpp
+
+[ 43%] Built target _dbot_ros_msgs_generate_messages_check_deps_ObjectOri
+
+[ 43%] Built target _dbot_ros_msgs_generate_messages_check_deps_TrackObject
+
+[ 43%] Built target _dbot_ros_msgs_generate_messages_check_deps_FindObject
+
+[ 43%] Built target _dbot_ros_msgs_generate_messages_check_deps_ObjectState
+
+[ 43%] Built target _dbot_ros_msgs_generate_messages_check_deps_RunObjectTracker
+
+[ 43%] Built target _dbot_ros_msgs_generate_messages_check_deps_ObjectsState
+
+[ 43%] Built target dbot_ros_msgs_generate_messages_cpp
+
+[ 44%] Built target dbot_ros_msgs_generate_messages_lisp
+
+[ 46%] Built target dbot_ros_msgs_generate_messages_py
+
+[ 46%] Built target _lula_ros_util_generate_messages_check_deps_RosVector
+
+[ 46%] Built target _lula_ros_util_generate_messages_check_deps_RosVectorService
+
+[ 46%] Built target lula_ros_util_generate_messages_cpp
+
+[ 46%] Built target _ellipsoid_msgs_generate_messages_check_deps_EllipsoidArray
+
+[ 46%] Built target _ellipsoid_msgs_generate_messages_check_deps_Ellipsoid
+
+[ 47%] Built target ellipsoid_msgs_generate_messages_cpp
+
+[ 47%] Built target _lula_grasping_msgs_generate_messages_check_deps_GraspableObject
+
+[ 47%] Built target _lula_grasping_msgs_generate_messages_check_deps_Preshape
+
+[ 47%] Built target _lula_grasping_msgs_generate_messages_check_deps_RenderGraspProblemService
+
+[ 47%] Built target _lula_grasping_msgs_generate_messages_check_deps_GraspProblemInfo
+
+[ 47%] Built target _lula_grasping_msgs_generate_messages_check_deps_UpdateGraspProblem
+
+[ 47%] Built target _lula_grasping_msgs_generate_messages_check_deps_LatestGraspProblemInfo
+
+[ 47%] Built target _lula_grasping_msgs_generate_messages_check_deps_MpiGraspPoses
+
+[ 47%] Built target _lula_grasping_msgs_generate_messages_check_deps_GraspPose
+
+[ 48%] Built target lula_grasping_msgs_generate_messages_cpp
+
+[ 50%] Built target lula_grasping_msgs_generate_messages_py
+
+[ 50%] Built target roscpp_generate_messages_py
+
+[ 50%] Built target roscpp_generate_messages_cpp
+
+[ 50%] Built target roscpp_generate_messages_lisp
+
+[ 50%] Built target rosgraph_msgs_generate_messages_lisp
+
+[ 50%] Built target rosgraph_msgs_generate_messages_py
+
+[ 50%] Built target lula_common
+
+[ 50%] Built target rosgraph_msgs_generate_messages_cpp
+
+[ 50%] Built target _lula_controller_msgs_generate_messages_check_deps_JointPosVelAccCommand
+
+[ 50%] Built target _lula_controller_msgs_generate_messages_check_deps_PosVelAccControllerParams
+
+[ 50%] Built target _lula_controller_msgs_generate_messages_check_deps_AffinePolicy
+
+[ 50%] Built target _lula_controller_msgs_generate_messages_check_deps_Lqr
+
+[ 50%] Built target _lula_controller_msgs_generate_messages_check_deps_SpeedChange
+
+[ 50%] Built target _lula_controller_msgs_generate_messages_check_deps_Sphere
+
+[ 50%] Built target _lula_controller_msgs_generate_messages_check_deps_AdaptiveControlData
+
+[ 50%] Built target _lula_controller_msgs_generate_messages_check_deps_KeyPointBodyApprox
+
+[ 50%] Built target _lula_controller_msgs_generate_messages_check_deps_ExperimentParams
+
+[ 50%] Built target _lula_controller_msgs_generate_messages_check_deps_IndexedControllersObstaclePoints
+
+[ 50%] Built target _lula_controller_msgs_generate_messages_check_deps_Detach
+
+[ 50%] Built target _lula_controller_msgs_generate_messages_check_deps_State
+
+[ 50%] Built target _lula_controller_msgs_generate_messages_check_deps_TaskSpaceCommand
+
+[ 50%] Built target _lula_controller_msgs_generate_messages_check_deps_ActivationRequest
+
+[ 50%] Built target _lula_controller_msgs_generate_messages_check_deps_PhaseLqr
+
+[ 50%] Built target _lula_controller_msgs_generate_messages_check_deps_ScaledLqr
+
+[ 50%] Built target _lula_controller_msgs_generate_messages_check_deps_Matrix32
+
+[ 50%] Built target _lula_controller_msgs_generate_messages_check_deps_TaskSpaceStatus
+
+[ 50%] Built target _lula_controller_msgs_generate_messages_check_deps_EndEffectorPosition
+
+[ 50%] Built target _lula_controller_msgs_generate_messages_check_deps_ControllersObstaclePoints
+
+[ 50%] Built target _lula_controller_msgs_generate_messages_check_deps_LqrProblem
+
+[ 50%] Built target _lula_controller_msgs_generate_messages_check_deps_DistanceFieldQueries
+
+[ 50%] Built target _lula_controller_msgs_generate_messages_check_deps_Attach
+
+[ 50%] Built target _lula_controller_msgs_generate_messages_check_deps_LinearQuadraticRegulatorStatus
+
+[ 50%] Built target _lula_controller_msgs_generate_messages_check_deps_ObstaclePoints
+
+[ 50%] Built target _lula_controller_msgs_generate_messages_check_deps_AttachmentStatus
+
+[ 50%] Built target _lula_controller_msgs_generate_messages_check_deps_ChordEllipsoid
+
+[ 50%] Built target _lula_controller_msgs_generate_messages_check_deps_LinearQuadraticRegulatorParams
+
+[ 50%] Built target _lula_controller_msgs_generate_messages_check_deps_StateTrajectory
+
+[ 50%] Built target _lula_controller_msgs_generate_messages_check_deps_AccelerationFeedbackExperimentStatus
+
+[ 50%] Built target _lula_controller_msgs_generate_messages_check_deps_EnvironmentalObject
+
+[ 50%] Built target _lula_controller_msgs_generate_messages_check_deps_ExperimentGeneratorParamsService
+
+[ 50%] Built target _lula_controller_msgs_generate_messages_check_deps_LqrProblemOld
+
+[ 50%] Built target _lula_controller_msgs_generate_messages_check_deps_SwitchControllerStack
+
+[ 50%] Built target _lula_controller_msgs_generate_messages_check_deps_StatePrediction
+
+[ 50%] Built target _lula_controller_msgs_generate_messages_check_deps_LinearQuadraticRegulator
+
+[ 50%] Built target _lula_controller_msgs_generate_messages_check_deps_DistanceFieldEval
+
+[ 50%] Built target _lula_controller_msgs_generate_messages_check_deps_SymmetricMatrix32
+
+[ 50%] Built target _lula_controller_msgs_generate_messages_check_deps_TimeIndexedAffinePolicy
+
+[ 50%] Built target _lula_controller_msgs_generate_messages_check_deps_PartialPose
+
+[ 50%] Built target _lula_controller_msgs_generate_messages_check_deps_LinearQuadraticRegulatorOld
+
+[ 50%] Built target _lula_controller_msgs_generate_messages_check_deps_LqrPhaseTrajectorySnippet
+
+[ 50%] Built target _lula_controller_msgs_generate_messages_check_deps_TrackedObject
+
+[ 55%] Built target lula_controller_msgs_generate_messages_cpp
+
+[ 60%] Built target lula_controller_msgs_generate_messages_py
+
+[ 61%] Built target lula_ros_util
+
+[ 61%] Built target lula_ros_util_generate_messages_py
+
+[ 61%] Built target actionlib_generate_messages_cpp
+
+[ 61%] Built target actionlib_generate_messages_py
+
+[ 61%] Built target _lula_world_msgs_generate_messages_check_deps_DistanceFunctionDescriptor
+
+[ 61%] Built target _lula_world_msgs_generate_messages_check_deps_RemoveObject
+
+[ 61%] Built target _lula_world_msgs_generate_messages_check_deps_ControlFrame
+
+[ 61%] Built target _lula_world_msgs_generate_messages_check_deps_News
+
+[ 61%] Built target _lula_world_msgs_generate_messages_check_deps_GetObject
+
+[ 61%] Built target _lula_world_msgs_generate_messages_check_deps_HasObject
+
+[ 61%] Built target _lula_world_msgs_generate_messages_check_deps_AddObject
+
+[ 61%] Built target _lula_world_msgs_generate_messages_check_deps_Model
+
+[ 61%] Built target _lula_world_msgs_generate_messages_check_deps_GetObjects
+
+[ 61%] Built target _lula_world_msgs_generate_messages_check_deps_Object
+
+[ 62%] Built target lula_world_msgs_generate_messages_cpp
+
+[ 64%] Built target lula_world
+
+[ 64%] Built target tf2_msgs_generate_messages_cpp
+
+[ 67%] Built target lula_controller_msgs_generate_messages_lisp
+
+[ 67%] Built target lula_ros_util_generate_messages_lisp
+
+[ 67%] Built target tf_generate_messages_cpp
+
+[ 69%] Built target lula_rt
+
+[ 70%] Built target lula_world_msgs_generate_messages_lisp
+
+[ 70%] Built target trajectory_msgs_generate_messages_lisp
+
+[ 70%] Built target trajectory_msgs_generate_messages_cpp
+
+[ 70%] Built target trajectory_msgs_generate_messages_py
+
+[ 71%] Built target lula_world_msgs_generate_messages_py
+
+[ 71%] Built target actionlib_generate_messages_lisp
+
+[ 71%] Built target ellipsoid_msgs_generate_messages_lisp
+
+[ 71%] Built target tf_generate_messages_lisp
+
+[ 71%] Built target tf_generate_messages_py
+
+[ 71%] Built target ellipsoid_msgs_generate_messages_py
+
+[ 71%] Built target actionlib_msgs_generate_messages_cpp
+
+[ 71%] Built target actionlib_msgs_generate_messages_lisp
+
+[ 71%] Built target actionlib_msgs_generate_messages_py
+
+[ 71%] Built target tf2_msgs_generate_messages_lisp
+
+[ 71%] Built target tf2_msgs_generate_messages_py
+
+[ 71%] Built target control_msgs_generate_messages_py
+
+[ 74%] Built target lula_kinematics
+
+[ 74%] Built target lula_world_internal
+
+[ 74%] Built target visualization_msgs_generate_messages_lisp
+
+[ 74%] Built target visualization_msgs_generate_messages_py
+
+[ 74%] Built target object_recognition_msgs_generate_messages_cpp
+
+[ 74%] Built target moveit_msgs_generate_messages_py
+
+[ 74%] Built target shape_msgs_generate_messages_lisp
+
+[ 74%] Built target _lula_apollo_internal_generate_messages_check_deps_GraspCommander
+
+[ 74%] Built target lula_apollo_internal_generate_messages_py
+
+[ 74%] Built target visualization_msgs_generate_messages_cpp
+
+[ 74%] Built target octomap_msgs_generate_messages_cpp
+
+[ 74%] Built target octomap_msgs_generate_messages_lisp
+
+[ 74%] Built target object_recognition_msgs_generate_messages_lisp
+
+[ 84%] Built target lula_task
+
+[ 84%] Built target shape_msgs_generate_messages_cpp
+
+[ 84%] Built target object_recognition_msgs_generate_messages_py
+
+[ 84%] Built target octomap_msgs_generate_messages_py
+
+[ 84%] Built target moveit_msgs_generate_messages_lisp
+
+[ 84%] Built target shape_msgs_generate_messages_py
+
+[ 84%] Built target moveit_msgs_generate_messages_cpp
+
+[ 84%] Built target lula_apollo_internal_generate_messages_lisp
+
+[ 84%] Built target lula_apollo_internal
+
+[ 84%] Built target lula_apollo_internal_generate_messages_cpp
+
+[ 85%] Built target rieef_utils
+
+[ 85%] Built target visualization_3d
+
+[ 85%] Built target geodesic_flow
+
+[ 85%] Built target pcl_msgs_generate_messages_cpp
+
+[ 85%] Built target pcl_msgs_generate_messages_py
+
+[ 85%] Built target pcl_msgs_generate_messages_lisp
+
+[ 85%] Built target moveit_distance_field
+
+[ 85%] Built target topic_tools_generate_messages_py
+
+[ 85%] Built target topic_tools_generate_messages_lisp
+
+[ 87%] Built target signed_distance_field
+
+[ 87%] Built target test_distance_field_monitor
+
+[ 87%] Built target exponential_scalar_smoother_utest
+
+[ 87%] Built target exponential_vector_smoother_utest
+
+[ 87%] Built target interval_estimator_utest
+
+[ 87%] Built target data_structure_utest
+
+[ 87%] Built target chrono_timer_utest
+
+[ 87%] Built target eigen_utest
+
+[ 87%] Built target strings_utest
+
+[ 87%] Built target differentiable_functions_utest
+
+[ 87%] Built target product_functions_utest
+
+[ 87%] Built target quadratic_function_utest
+
+[ 87%] Built target splines_utest
+
+[ 87%] Built target linear_combination_of_independent_maps_utest
+
+[ 87%] Built target squared_elements_map_utest
+
+[ 87%] Built target soft_norm_utest
+
+[ 88%] Built target softmax_between_functions_utest
+
+[ 88%] Built target softmin_with_constant_utest
+
+[ 88%] Built target affine_map_utest
+
+[ 88%] Built target linearized_map_utest
+
+[ 88%] Built target axis_aligned_cube_utest
+
+[ 88%] Built target axis_aligned_cylinder_utest
+
+[ 88%] Built target cost_based_workspace_geometry_map_utest
+
+[ 88%] Built target line_segment_distance_utest
+
+[ 88%] Built target posable_distance_function_3d_utest
+
+[ 88%] Built target pose_map_utest
+
+[ 88%] Built target lqr_utest
+
+[ 88%] Built target optimization_utest
+
+[ 88%] Built target dstar
+
+[ 88%] Built target graph_search
+
+[ 88%] Built target test_dstar
+
+[ 88%] Built target subclique_function_utest
+
+[ 88%] Built target riemo_learning_tools_utest
+
+[ 88%] Built target symmetric_block_band_diagonal_matrix_utest
+
+[ 88%] Built target damping_policy_utest
+
+[ 88%] Built target analytical_workspace_utest
+
+[ 88%] Built target grasping_utest
+
+[ 88%] Built target rt_safe_allocation_utest
+
+[ 88%] Built target blended_parameters_queue_utest
+
+[ 88%] Built target adaptive_acceleration_controller_utest
+
+[ 88%] Built target blended_controller_queue_utest
+
+[ 88%] Built target util_utest
+
+[ 88%] Built target active_joints_info_utest
+
+[ 88%] Built target kinematics_kdl_utest
+
+[ 88%] Built target riemo_descriptor_utest
+
+[ 88%] Built target nav_msgs_generate_messages_cpp
+
+[ 88%] Built target map_msgs_generate_messages_cpp
+
+[ 88%] Built target nav_msgs_generate_messages_lisp
+
+[ 88%] Built target map_msgs_generate_messages_py
+
+[ 88%] Built target nav_msgs_generate_messages_py
+
+[ 88%] Built target map_msgs_generate_messages_lisp
+
+[ 94%] Built target lula_visualization
+
+[ 94%] Built target robot_parameters_utest
+
+[ 94%] Built target eigen_ogre_bridge_utest
+
+[ 94%] Built target test_multi_process
+
+[ 94%] Built target frame_controller_collection_utest
+
+[ 94%] Built target smoothly_changing_vector_utest
+
+[ 94%] Built target riemo_robot_controller_utest
+
+[ 96%] Built target frame_corrector_utest
+
+[ 96%] Built target auto_weighting_policy_filter_utest
+
+[ 96%] Built target param_utest
+
+[ 96%] Built target set_time_interpolating_param_utest
+
+[ 97%] Built target lqr_receiver_utest
+
+[ 97%] Built target smoothly_changing_param_utest
+
+[ 97%] Built target target_acceleration_regulator_utest
+
+[ 97%] Built target thread_safe_smoothed_param_utest
+
+[ 97%] Built target lqr_communicator_utest
+
+[ 97%] Built target eigen_msg_util_utest
+
+[ 97%] Built target interpolating_vec_listener_utest
+
+[ 97%] Built target smoothly_changing_vec_listener_utest
+
+[ 97%] Built target vec_listener_utest
+
+[ 97%] Built target snapshot_time_listener_utest
+
+[ 97%] Built target ros_time_since_start_listener_utest
+
+[ 97%] Built target sampling_based_planning
+
+[ 97%] Built target test_goalset_projection
+
+[ 98%] Built target test_eigen_io
+
+[ 98%] Built target test_rieef_trajectory
+
+[ 98%] Built target test_misc
+
+[ 98%] Built target test_gradient_workspace
+
+[ 98%] Built target test_analytical_grid
+
+[ 98%] Built target test_utils
+
+[ 98%] Built target test_import_mesh
+
+[ 98%] Built target test_interpolation
+
+[ 98%] Built target test_finite_differencing
+
+[ 98%] Built target test_multivariate_gaussian
+
+[ 98%] Built target test_iterative_ik
+
+[100%] Built target test_shared_pointers
+
+[100%] Built target tests
+
+Scanning dependencies of target _run_tests_signed_distance_field_gtest_test_shared_pointers
+
+Cannot find results, writing failure results to '/home/administrator/ci/ci/team/workspace/build/test_results/signed_distance_field/MISSING-gtest-test_shared_pointers.xml'
+
+-- run_tests.py: execute commands
+
+  /home/administrator/ci/ci/team/workspace/devel/lib/signed_distance_field/test_shared_pointers --gtest_output=xml:/home/administrator/ci/ci/team/workspace/build/test_results/signed_distance_field/gtest-test_shared_pointers.xml
+
+-- run_tests.py: verify result "/home/administrator/ci/ci/team/workspace/build/test_results/signed_distance_field/gtest-test_shared_pointers.xml"
+
+[100%] Built target _run_tests_signed_distance_field_gtest_test_shared_pointers
+
+Scanning dependencies of target _run_tests_signed_distance_field_gtest_test_distance_field_monitor
+
+[31m[ERROR] [1517701211.864775009]: [registerPublisher] Failed to contact master at [localhost:11311].  Retrying...[0m
