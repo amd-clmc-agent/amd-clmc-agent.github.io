@@ -6,6 +6,7 @@ var searchData=
   ['testipoptconfiguration',['TestIpoptConfiguration',['../classtest_1_1test__ipopt__configuration_1_1TestIpoptConfiguration.html',1,'test::test_ipopt_configuration']]],
   ['testmanipulability',['TestManipulability',['../classtest_1_1test__manipulability_1_1TestManipulability.html',1,'test::test_manipulability']]],
   ['testmanipulabilityinversekinematics',['TestManipulabilityInverseKinematics',['../classtest_1_1test__manipulability__optimization__inverse__kinematics_1_1TestManipulabilityInverseKinematics.html',1,'test::test_manipulability_optimization_inverse_kinematics']]],
+  ['testmanipulabilityinversekinematics',['TestManipulabilityInverseKinematics',['../classtest_1_1test__athena_1_1TestManipulabilityInverseKinematics.html',1,'test::test_athena']]],
   ['testmanipulabilitywholebody',['TestManipulabilityWholeBody',['../classtest_1_1test__manipulability__optimization__whole__body_1_1TestManipulabilityWholeBody.html',1,'test::test_manipulability_optimization_whole_body']]],
   ['testmanipulabilitywholebodyendeffector',['TestManipulabilityWholeBodyEndEffector',['../classtest_1_1test__manipulability__optimization__end__effector_1_1TestManipulabilityWholeBodyEndEffector.html',1,'test::test_manipulability_optimization_end_effector']]],
   ['testsolverwrapper',['TestSolverWrapper',['../classtest_1_1test__solver__wrapper_1_1TestSolverWrapper.html',1,'test::test_solver_wrapper']]],
