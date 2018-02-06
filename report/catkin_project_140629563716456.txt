@@ -1,0 +1,199 @@
+-- Using CATKIN_DEVEL_PREFIX: /home/administrator/ci/ci/team/workspace/devel
+
+-- Using CMAKE_PREFIX_PATH: /opt/ros/indigo
+
+-- This workspace overlays: /opt/ros/indigo
+
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+
+-- Python version: 2.7
+
+-- Using Debian Python package layout
+
+-- Using CATKIN_ENABLE_TESTING: ON
+
+-- Call enable_testing()
+
+-- Using CATKIN_TEST_RESULTS_DIR: /home/administrator/ci/ci/team/workspace/build/test_results
+
+-- Found gtest sources under '/usr/src/gtest': gtests will be built
+
+-- catkin 0.5.90
+
+-- BUILD_SHARED_LIBS is on
+
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-- ~~  traversing 8 packages in topological order:
+
+-- ~~  - fl
+
+-- ~~  - dbot
+
+-- ~~  - launch_xtion
+
+-- ~~  - object_meshes
+
+-- ~~  - dbot_ros_msgs
+
+-- ~~  - dbot_ros
+
+-- ~~  - meshless_tracking
+
+-- ~~  - table_object_finder
+
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-- +++ processing catkin package: 'fl'
+
+-- ==> add_subdirectory(catkin/core-perception/fl)
+
+-- Eigen found (include: /usr/include/eigen3)
+
+-- Boost version: 1.54.0
+
+-- +++ processing catkin package: 'dbot'
+
+-- ==> add_subdirectory(catkin/core-perception/dbot)
+
+-- Boost version: 1.54.0
+
+-- Found the following Boost libraries:
+
+--   system
+
+--   filesystem
+
+-- Found CUDA version 8.0
+
+-- Using catkin
+
+-- +++ processing catkin package: 'launch_xtion'
+
+-- ==> add_subdirectory(catkin/ros/launch_xtion)
+
+-- +++ processing catkin package: 'object_meshes'
+
+-- ==> add_subdirectory(catkin/ros/object_meshes)
+
+-- +++ processing catkin package: 'dbot_ros_msgs'
+
+-- ==> add_subdirectory(catkin/ros/dbot_ros_msgs)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- dbot_ros_msgs: 3 messages, 3 services
+
+-- +++ processing catkin package: 'dbot_ros'
+
+-- ==> add_subdirectory(catkin/ros/dbot_ros)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- Boost version: 1.54.0
+
+-- Eigen found (include: /usr/include/eigen3)
+
+-- +++ processing catkin package: 'meshless_tracking'
+
+-- ==> add_subdirectory(catkin/core-perception/meshless_tracking)
+
+CMake Warning at catkin/core-perception/meshless_tracking/CMakeLists.txt:41 (find_package):
+
+  By not providing "FindVXL.cmake" in CMAKE_MODULE_PATH this project has
+
+  asked CMake to find a package configuration file provided by "VXL", but
+
+  CMake did not find one.
+
+
+
+  Could not find a package configuration file provided by "VXL" with any of
+
+  the following names:
+
+
+
+    VXLConfig.cmake
+
+    vxl-config.cmake
+
+
+
+  Add the installation prefix of "VXL" to CMAKE_PREFIX_PATH or set "VXL_DIR"
+
+  to a directory containing one of the above files.  If "VXL" provides a
+
+  separate development package or SDK, be sure it has been installed.
+
+
+
+
+
+CMake Warning at catkin/core-perception/meshless_tracking/CMakeLists.txt:46 (message):
+
+  VXL_DIR should be set to the VXL build directory.
+
+
+
+
+
+-- ~~ VXL_DIR is VXL_DIR-NOTFOUND
+
+-- ~~ VXL_SOURCE_DIR is 
+
+-- ~~ VXL_LIBRARY_DIR is 
+
+-- ~~ VXL_INCLUDE_DIR is 
+
+CMake Error at /home/administrator/ci/ci/team/workspace/devel/share/catkin/cmake/catkinConfig.cmake:75 (find_package):
+
+  Could not find a package configuration file provided by "opi" with any of
+
+  the following names:
+
+
+
+    opiConfig.cmake
+
+    opi-config.cmake
+
+
+
+  Add the installation prefix of "opi" to CMAKE_PREFIX_PATH or set "opi_DIR"
+
+  to a directory containing one of the above files.  If "opi" provides a
+
+  separate development package or SDK, be sure it has been installed.
+
+Call Stack (most recent call first):
+
+  catkin/core-perception/meshless_tracking/CMakeLists.txt:65 (find_package)
+
+
+
+
+
+-- Configuring incomplete, errors occurred!
+
+See also "/home/administrator/ci/ci/team/workspace/build/CMakeFiles/CMakeOutput.log".
+
+See also "/home/administrator/ci/ci/team/workspace/build/CMakeFiles/CMakeError.log".
+
+Base path: /home/administrator/ci/ci/team/workspace
+
+Source space: /home/administrator/ci/ci/team/workspace/src
+
+Build space: /home/administrator/ci/ci/team/workspace/build
+
+Devel space: /home/administrator/ci/ci/team/workspace/devel
+
+Install space: /home/administrator/ci/ci/team/workspace/install
+
+####
+
+#### Running command: "cmake /home/administrator/ci/ci/team/workspace/src -DCATKIN_DEVEL_PREFIX=/home/administrator/ci/ci/team/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/administrator/ci/ci/team/workspace/install -G Unix Makefiles" in "/home/administrator/ci/ci/team/workspace/build"
+
+####
+
+Invoking "cmake" failed
