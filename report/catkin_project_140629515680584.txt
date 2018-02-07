@@ -1,46 +1,20 @@
-[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target findpath
 
-[  0%] Built target _pointcloud_msgs_generate_messages_check_deps_HypothesisVerify
+[  1%] Building CXX object catkin/playful/playful-perception/playful_color_detection/playful_color_detection_libs/CMakeFiles/color_enhance.dir/src/color_enhance.cpp.o
 
-[  0%] Built target _pointcloud_msgs_generate_messages_check_deps_PointCloudClassified
+In file included from /home/administrator/ci/ci/team/workspace/src/catkin/playful/playful-perception/playful_color_detection/playful_color_detection_libs/src/color_enhance.cpp:1:0:
 
-[  0%] Built target geometry_msgs_generate_messages_py
+/home/administrator/ci/ci/team/workspace/src/catkin/playful/playful-perception/playful_color_detection/playful_color_detection_libs/include/playful_color_detection/color_enhance.h:1:36: fatal error: opencv2/core/utility.hpp: No such file or directory
 
-[ 14%] Built target pointcloud_msgs_generate_messages_py
+ #include <opencv2/core/utility.hpp>
 
-[ 14%] Built target geometry_msgs_generate_messages_lisp
-
-[ 14%] Built target sensor_msgs_generate_messages_lisp
-
-[ 21%] Built target pointcloud_msgs_generate_messages_lisp
-
-[ 21%] Built target sensor_msgs_generate_messages_cpp
-
-[ 21%] Built target geometry_msgs_generate_messages_cpp
-
-[ 28%] Built target pointcloud_msgs_generate_messages_cpp
-
-[ 28%] Built target pointcloud_msgs_generate_messages
-
-[ 42%] Built target global_recognizer
-
-[ 46%] Built target global_classification
-
-[ 50%] Building CXX object catkin/perception/3d_classification/recognition_3d/CMakeFiles/global_recognition.dir/src/global_recognition_test.cpp.o
-
-In file included from /home/administrator/ci/ci/team/workspace/src/catkin/perception/3d_classification/recognition_3d/src/global_recognition_test.cpp:58:0:
-
-/usr/include/pcl-1.7/pcl/recognition/hv/hv_go.h:14:52: fatal error: pcl/recognition/3rdparty/metslib/mets.hh: No such file or directory
-
- #include "pcl/recognition/3rdparty/metslib/mets.hh"
-
-                                                    ^
+                                    ^
 
 compilation terminated.
 
-make[2]: *** [catkin/perception/3d_classification/recognition_3d/CMakeFiles/global_recognition.dir/src/global_recognition_test.cpp.o] Error 1
+make[2]: *** [catkin/playful/playful-perception/playful_color_detection/playful_color_detection_libs/CMakeFiles/color_enhance.dir/src/color_enhance.cpp.o] Error 1
 
-make[1]: *** [catkin/perception/3d_classification/recognition_3d/CMakeFiles/global_recognition.dir/all] Error 2
+make[1]: *** [catkin/playful/playful-perception/playful_color_detection/playful_color_detection_libs/CMakeFiles/color_enhance.dir/all] Error 2
 
 make: *** [all] Error 2
 
