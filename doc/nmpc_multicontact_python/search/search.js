@@ -10,8 +10,7 @@ var indexSectionsWithContent =
   0: "_abcdefghimnopqrstw",
   1: "abcdefghimnoqrstw",
   2: "t",
-  3: "_dghmpst",
-  4: "en"
+  3: "_dghmpst"
 };
 
 var indexSectionNames =
@@ -19,8 +18,7 @@ var indexSectionNames =
   0: "all",
   1: "classes",
   2: "namespaces",
-  3: "functions",
-  4: "variables"
+  3: "functions"
 };
 
 function convertToId(search)

@@ -70,7 +70,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -93,6 +93,14 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">src.nmpc_multicontact_python.multicontact.solver_multicontact.SolverMulticontact Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+<div class="dynheader">
+Inheritance diagram for src.nmpc_multicontact_python.multicontact.solver_multicontact.SolverMulticontact:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="classsrc_1_1nmpc__multicontact__python_1_1multicontact_1_1solver__multicontact_1_1SolverMulticontact.png" usemap="#src.nmpc_multicontact_python.multicontact.solver_multicontact.SolverMulticontact_map" alt=""/>
+  <map id="src.nmpc_multicontact_python.multicontact.solver_multicontact.SolverMulticontact_map" name="src.nmpc_multicontact_python.multicontact.solver_multicontact.SolverMulticontact_map">
+</map>
+ </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -105,9 +113,9 @@ def&#160;</td><td class="memItemRight" valign="bottom"><b>initialize</b></td></t
 <tr class="memitem:a1c2f24b240b750afbeb9baf492282763"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1c2f24b240b750afbeb9baf492282763"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>initial_guess</b></td></tr>
 <tr class="separator:a1c2f24b240b750afbeb9baf492282763"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae9ec698756a3a9288b23340b6cddb725"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae9ec698756a3a9288b23340b6cddb725"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>initialize_cost_function</b></td></tr>
-<tr class="separator:ae9ec698756a3a9288b23340b6cddb725"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae38c84e4254e0fda80482c24173125d7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae38c84e4254e0fda80482c24173125d7"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>initialize_cost_functions</b></td></tr>
+<tr class="separator:ae38c84e4254e0fda80482c24173125d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a63e00c662a6ad1a57d6606bb3d5be17b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a63e00c662a6ad1a57d6606bb3d5be17b"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>initialize_constraints</b></td></tr>
 <tr class="separator:a63e00c662a6ad1a57d6606bb3d5be17b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -150,18 +158,15 @@ def&#160;</td><td class="memItemRight" valign="bottom"><b>print_variable</b></td
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
+<tr class="memitem:aec5ef06d7616c6b607b2975db825a8d5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aec5ef06d7616c6b607b2975db825a8d5"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>nvar</b></td></tr>
+<tr class="separator:aec5ef06d7616c6b607b2975db825a8d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb9315b8b89ee9b305a83d870cc23cdc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abb9315b8b89ee9b305a83d870cc23cdc"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>data</b></td></tr>
 <tr class="separator:abb9315b8b89ee9b305a83d870cc23cdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1d1a81e82e077216b1a3926b905e54ed"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1d1a81e82e077216b1a3926b905e54ed"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>si</b></td></tr>
 <tr class="separator:a1d1a81e82e077216b1a3926b905e54ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae36b96d85c959970d2ca829489b45839"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae36b96d85c959970d2ca829489b45839"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>ipopt_config</b></td></tr>
-<tr class="separator:ae36b96d85c959970d2ca829489b45839"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a360550b856bacd8cadf132e66c80d0dd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a360550b856bacd8cadf132e66c80d0dd"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>constraints</b></td></tr>
-<tr class="separator:a360550b856bacd8cadf132e66c80d0dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b73ac13f31feed52cba6b943954b172"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9b73ac13f31feed52cba6b943954b172"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>angular_momentum</b></td></tr>
 <tr class="separator:a9b73ac13f31feed52cba6b943954b172"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -177,9 +182,6 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a2d7d580dd785c4b123654241e5ead0f3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2d7d580dd785c4b123654241e5ead0f3"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>terminal</b></td></tr>
 <tr class="separator:a2d7d580dd785c4b123654241e5ead0f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a94a068ca1516a1b8c997c899a2e88123"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a94a068ca1516a1b8c997c899a2e88123"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>costs</b></td></tr>
-<tr class="separator:a94a068ca1516a1b8c997c899a2e88123"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a416b84527b3050576ed07856e910ab74"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a416b84527b3050576ed07856e910ab74"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>FXcost</b></td></tr>
 <tr class="separator:a416b84527b3050576ed07856e910ab74"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -213,12 +215,12 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:ac658bc1a828e7edcf6761ea383456f85"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac658bc1a828e7edcf6761ea383456f85"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>regularizationCost</b></td></tr>
 <tr class="separator:ac658bc1a828e7edcf6761ea383456f85"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab99f382c89692f013b25d2bca515af6d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab99f382c89692f013b25d2bca515af6d"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>contacts</b></td></tr>
-<tr class="separator:ab99f382c89692f013b25d2bca515af6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ace8ccacbe6b8a0d60e92d62a0390585a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ace8ccacbe6b8a0d60e92d62a0390585a"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>current_contacts</b></td></tr>
-<tr class="separator:ace8ccacbe6b8a0d60e92d62a0390585a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94a068ca1516a1b8c997c899a2e88123"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a94a068ca1516a1b8c997c899a2e88123"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>costs</b></td></tr>
+<tr class="separator:a94a068ca1516a1b8c997c899a2e88123"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a360550b856bacd8cadf132e66c80d0dd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a360550b856bacd8cadf132e66c80d0dd"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>constraints</b></td></tr>
+<tr class="separator:a360550b856bacd8cadf132e66c80d0dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9964d658c329e9037d5569e4c7d9f957"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9964d658c329e9037d5569e4c7d9f957"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>x0</b></td></tr>
 <tr class="separator:a9964d658c329e9037d5569e4c7d9f957"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -282,6 +284,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a6521b4f21b0ed836e9918d735a08686f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6521b4f21b0ed836e9918d735a08686f"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>status</b></td></tr>
 <tr class="separator:a6521b4f21b0ed836e9918d735a08686f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae36b96d85c959970d2ca829489b45839"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae36b96d85c959970d2ca829489b45839"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>ipopt_config</b></td></tr>
+<tr class="separator:ae36b96d85c959970d2ca829489b45839"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3274ec802d543aca611945519c1897bf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3274ec802d543aca611945519c1897bf"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>time</b></td></tr>
 <tr class="separator:a3274ec802d543aca611945519c1897bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -298,7 +303,7 @@ Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Feb 7 2018 09:10:23 for nmpc_multicontact_python by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Feb 7 2018 12:21:57 for nmpc_multicontact_python by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
