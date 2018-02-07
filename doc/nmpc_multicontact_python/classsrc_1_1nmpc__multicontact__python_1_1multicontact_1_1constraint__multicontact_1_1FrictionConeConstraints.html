@@ -125,6 +125,10 @@ def&#160;</td><td class="memItemRight" valign="bottom"><b>jacobian</b></td></tr>
 <tr class="memitem:a0d4fd45798d070e95ae3224177d66d98"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0d4fd45798d070e95ae3224177d66d98"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>hessian</b></td></tr>
 <tr class="separator:a0d4fd45798d070e95ae3224177d66d98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9e2cab6d55539f3973f6cc586ea4206"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsrc_1_1nmpc__multicontact__python_1_1multicontact_1_1constraint__multicontact_1_1FrictionConeConstraints.html#ac9e2cab6d55539f3973f6cc586ea4206">lower_bound</a></td></tr>
+<tr class="separator:ac9e2cab6d55539f3973f6cc586ea4206"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2e3a80ee3d3721e3008164872498834"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsrc_1_1nmpc__multicontact__python_1_1multicontact_1_1constraint__multicontact_1_1FrictionConeConstraints.html#ac2e3a80ee3d3721e3008164872498834">upper_bound</a></td></tr>
+<tr class="separator:ac2e3a80ee3d3721e3008164872498834"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -167,15 +171,52 @@ contact. This number vary in fonction of the number of active contact
 and if the contact is unilateral.
 
 equations :
-scale_qud * (X^T D X + E X + H) = 0
-scale_lin * A X + B = 0
-</pre> </div><hr/>The documentation for this class was generated from the following file:<ul>
+scale_qud * (X^T D X + E X + H) &lt;= 0
+scale_lin * A X + B &lt;= 0
+</pre> </div><h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="ac9e2cab6d55539f3973f6cc586ea4206"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def src.nmpc_multicontact_python.multicontact.constraint_multicontact.FrictionConeConstraints.lower_bound </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">We do not scale the lower bound as it is -infinite
+:return: the lower bound, which is -inf
+</pre> 
+</div>
+</div>
+<a class="anchor" id="ac2e3a80ee3d3721e3008164872498834"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def src.nmpc_multicontact_python.multicontact.constraint_multicontact.FrictionConeConstraints.upper_bound </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">We do not scale the upper bound as it is 0
+:return: the lower bound, which is 0
+</pre> 
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
 <li>/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/nmpc_multicontact/nmpc_multicontact_python/src/nmpc_multicontact_python/multicontact/constraint_multicontact.py</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Feb 7 2018 14:24:41 for nmpc_multicontact_python by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Feb 7 2018 18:37:41 for nmpc_multicontact_python by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
