@@ -16,6 +16,7 @@ var searchData=
   ['testmanipulabilitywholebody',['TestManipulabilityWholeBody',['../classtest_1_1test__ipopt_1_1TestManipulabilityWholeBody.html',1,'test::test_ipopt']]],
   ['testmanipulabilitywholebody',['TestManipulabilityWholeBody',['../classtest_1_1test__manipulability__optimization__whole__body_1_1TestManipulabilityWholeBody.html',1,'test::test_manipulability_optimization_whole_body']]],
   ['testmanipulabilitywholebodyendeffector',['TestManipulabilityWholeBodyEndEffector',['../classtest_1_1test__manipulability__optimization__end__effector_1_1TestManipulabilityWholeBodyEndEffector.html',1,'test::test_manipulability_optimization_end_effector']]],
+  ['testsolvermulticontact',['TestSolverMulticontact',['../classtest_1_1test__solver__multicontact_1_1TestSolverMulticontact.html',1,'test::test_solver_multicontact']]],
   ['testsolverwrapper',['TestSolverWrapper',['../classtest_1_1test__solver__wrapper_1_1TestSolverWrapper.html',1,'test::test_solver_wrapper']]],
   ['teststateintegration',['TestStateIntegration',['../classtest_1_1test__state__integration_1_1TestStateIntegration.html',1,'test::test_state_integration']]],
   ['testtorun',['TestToRun',['../classsrc_1_1nmpc__multicontact__python_1_1protobuf_1_1test__protobuf__reading_1_1TestToRun.html',1,'src::nmpc_multicontact_python::protobuf::test_protobuf_reading']]],
