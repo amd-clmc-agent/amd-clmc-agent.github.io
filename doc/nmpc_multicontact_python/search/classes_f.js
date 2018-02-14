@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['terminalcomzcost',['TerminalCoMzCost',['../classsrc_1_1nmpc__multicontact__python_1_1multicontact__manipulability_1_1cost__multicontact_1_1TerminalCoMzCost.html',1,'src::nmpc_multicontact_python::multicontact_manipulability::cost_multicontact']]],
   ['terminalcomzcost',['TerminalCoMzCost',['../classsrc_1_1nmpc__multicontact__python_1_1multicontact_1_1cost__multicontact_1_1TerminalCoMzCost.html',1,'src::nmpc_multicontact_python::multicontact::cost_multicontact']]],
+  ['terminalcomzcost',['TerminalCoMzCost',['../classsrc_1_1nmpc__multicontact__python_1_1multicontact__manipulability_1_1cost__multicontact_1_1TerminalCoMzCost.html',1,'src::nmpc_multicontact_python::multicontact_manipulability::cost_multicontact']]],
   ['terminalconstraint',['TerminalConstraint',['../classsrc_1_1nmpc__multicontact__python_1_1multicontact_1_1constraint__multicontact_1_1TerminalConstraint.html',1,'src::nmpc_multicontact_python::multicontact::constraint_multicontact']]],
   ['terminalconstraint',['TerminalConstraint',['../classsrc_1_1nmpc__multicontact__python_1_1multicontact__manipulability_1_1constraint__multicontact_1_1TerminalConstraint.html',1,'src::nmpc_multicontact_python::multicontact_manipulability::constraint_multicontact']]],
   ['terminalcost',['TerminalCost',['../classsrc_1_1nmpc__multicontact__python_1_1multicontact__manipulability_1_1cost__multicontact_1_1TerminalCost.html',1,'src::nmpc_multicontact_python::multicontact_manipulability::cost_multicontact']]],
