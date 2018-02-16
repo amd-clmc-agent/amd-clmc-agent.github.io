@@ -4,8 +4,8 @@ var searchData=
   ['terminalcomzcost',['TerminalCoMzCost',['../classsrc_1_1nmpc__multicontact__python_1_1multicontact__manipulability_1_1cost__multicontact_1_1TerminalCoMzCost.html',1,'src::nmpc_multicontact_python::multicontact_manipulability::cost_multicontact']]],
   ['terminalconstraint',['TerminalConstraint',['../classsrc_1_1nmpc__multicontact__python_1_1multicontact_1_1constraint__multicontact_1_1TerminalConstraint.html',1,'src::nmpc_multicontact_python::multicontact::constraint_multicontact']]],
   ['terminalconstraint',['TerminalConstraint',['../classsrc_1_1nmpc__multicontact__python_1_1multicontact__manipulability_1_1constraint__multicontact_1_1TerminalConstraint.html',1,'src::nmpc_multicontact_python::multicontact_manipulability::constraint_multicontact']]],
-  ['terminalcost',['TerminalCost',['../classsrc_1_1nmpc__multicontact__python_1_1multicontact__manipulability_1_1cost__multicontact_1_1TerminalCost.html',1,'src::nmpc_multicontact_python::multicontact_manipulability::cost_multicontact']]],
   ['terminalcost',['TerminalCost',['../classsrc_1_1nmpc__multicontact__python_1_1multicontact_1_1cost__multicontact_1_1TerminalCost.html',1,'src::nmpc_multicontact_python::multicontact::cost_multicontact']]],
+  ['terminalcost',['TerminalCost',['../classsrc_1_1nmpc__multicontact__python_1_1multicontact__manipulability_1_1cost__multicontact_1_1TerminalCost.html',1,'src::nmpc_multicontact_python::multicontact_manipulability::cost_multicontact']]],
   ['terminalforcexcost',['TerminalForceXCost',['../classsrc_1_1nmpc__multicontact__python_1_1multicontact__manipulability_1_1cost__multicontact_1_1TerminalForceXCost.html',1,'src::nmpc_multicontact_python::multicontact_manipulability::cost_multicontact']]],
   ['terminalforcexcost',['TerminalForceXCost',['../classsrc_1_1nmpc__multicontact__python_1_1multicontact_1_1cost__multicontact_1_1TerminalForceXCost.html',1,'src::nmpc_multicontact_python::multicontact::cost_multicontact']]],
   ['terminalforceycost',['TerminalForceYCost',['../classsrc_1_1nmpc__multicontact__python_1_1multicontact_1_1cost__multicontact_1_1TerminalForceYCost.html',1,'src::nmpc_multicontact_python::multicontact::cost_multicontact']]],
@@ -26,10 +26,10 @@ var searchData=
   ['testsolverwrapper',['TestSolverWrapper',['../classtest_1_1test__solver__wrapper_1_1TestSolverWrapper.html',1,'test::test_solver_wrapper']]],
   ['teststateintegration',['TestStateIntegration',['../classtest_1_1test__state__integration_1_1TestStateIntegration.html',1,'test::test_state_integration']]],
   ['testtorun',['TestToRun',['../classsrc_1_1nmpc__multicontact__python_1_1protobuf_1_1test__protobuf__reading_1_1TestToRun.html',1,'src::nmpc_multicontact_python::protobuf::test_protobuf_reading']]],
-  ['torquexcost',['TorqueXCost',['../classsrc_1_1nmpc__multicontact__python_1_1multicontact_1_1cost__multicontact_1_1TorqueXCost.html',1,'src::nmpc_multicontact_python::multicontact::cost_multicontact']]],
   ['torquexcost',['TorqueXCost',['../classsrc_1_1nmpc__multicontact__python_1_1multicontact__manipulability_1_1cost__multicontact_1_1TorqueXCost.html',1,'src::nmpc_multicontact_python::multicontact_manipulability::cost_multicontact']]],
-  ['torqueycost',['TorqueYCost',['../classsrc_1_1nmpc__multicontact__python_1_1multicontact_1_1cost__multicontact_1_1TorqueYCost.html',1,'src::nmpc_multicontact_python::multicontact::cost_multicontact']]],
+  ['torquexcost',['TorqueXCost',['../classsrc_1_1nmpc__multicontact__python_1_1multicontact_1_1cost__multicontact_1_1TorqueXCost.html',1,'src::nmpc_multicontact_python::multicontact::cost_multicontact']]],
   ['torqueycost',['TorqueYCost',['../classsrc_1_1nmpc__multicontact__python_1_1multicontact__manipulability_1_1cost__multicontact_1_1TorqueYCost.html',1,'src::nmpc_multicontact_python::multicontact_manipulability::cost_multicontact']]],
-  ['torquezcost',['TorqueZCost',['../classsrc_1_1nmpc__multicontact__python_1_1multicontact__manipulability_1_1cost__multicontact_1_1TorqueZCost.html',1,'src::nmpc_multicontact_python::multicontact_manipulability::cost_multicontact']]],
-  ['torquezcost',['TorqueZCost',['../classsrc_1_1nmpc__multicontact__python_1_1multicontact_1_1cost__multicontact_1_1TorqueZCost.html',1,'src::nmpc_multicontact_python::multicontact::cost_multicontact']]]
+  ['torqueycost',['TorqueYCost',['../classsrc_1_1nmpc__multicontact__python_1_1multicontact_1_1cost__multicontact_1_1TorqueYCost.html',1,'src::nmpc_multicontact_python::multicontact::cost_multicontact']]],
+  ['torquezcost',['TorqueZCost',['../classsrc_1_1nmpc__multicontact__python_1_1multicontact_1_1cost__multicontact_1_1TorqueZCost.html',1,'src::nmpc_multicontact_python::multicontact::cost_multicontact']]],
+  ['torquezcost',['TorqueZCost',['../classsrc_1_1nmpc__multicontact__python_1_1multicontact__manipulability_1_1cost__multicontact_1_1TorqueZCost.html',1,'src::nmpc_multicontact_python::multicontact_manipulability::cost_multicontact']]]
 ];
