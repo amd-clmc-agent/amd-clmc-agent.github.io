@@ -120,9 +120,12 @@ def&#160;</td><td class="memItemRight" valign="bottom"><b>update_init_state</b><
 <tr class="memitem:aeec00aa3ec5e8a6f141edf3e2b55cfb8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aeec00aa3ec5e8a6f141edf3e2b55cfb8"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>update_force_torque_matrices</b></td></tr>
 <tr class="separator:aeec00aa3ec5e8a6f141edf3e2b55cfb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a51c8910ea6d57a9883d8b2364bc66b88"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a51c8910ea6d57a9883d8b2364bc66b88"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>update_state_sums</b></td></tr>
-<tr class="separator:a51c8910ea6d57a9883d8b2364bc66b88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9d6289832e74d3ac565185d1c4e4906"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae9d6289832e74d3ac565185d1c4e4906"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>update_state_sums_linear_vector</b></td></tr>
+<tr class="separator:ae9d6289832e74d3ac565185d1c4e4906"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84efa01509db1859663f8bafe0b8b030"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a84efa01509db1859663f8bafe0b8b030"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>update_state_sums_linear_matrix</b></td></tr>
+<tr class="separator:a84efa01509db1859663f8bafe0b8b030"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5be3b11a9c3441c49d0b967e50bb5e9d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5be3b11a9c3441c49d0b967e50bb5e9d"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>update_com_matrices</b></td></tr>
 <tr class="separator:a5be3b11a9c3441c49d0b967e50bb5e9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -225,9 +228,162 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a7fc11073f7a45dc561c35e3600dc43f7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7fc11073f7a45dc561c35e3600dc43f7"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>comz_init</b></td></tr>
 <tr class="separator:a7fc11073f7a45dc561c35e3600dc43f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf74f5ffd2d18f871b34b6a863be6707"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aaf74f5ffd2d18f871b34b6a863be6707"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>P_f</b></td></tr>
+<tr class="separator:aaf74f5ffd2d18f871b34b6a863be6707"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae281554c2a73a50c45998c61d39eb26e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae281554c2a73a50c45998c61d39eb26e"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>P_t</b></td></tr>
+<tr class="separator:ae281554c2a73a50c45998c61d39eb26e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae41aaccdf4d4c0a5d1734b28afdc8a9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aae41aaccdf4d4c0a5d1734b28afdc8a9"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>P_fs_x</b></td></tr>
+<tr class="separator:aae41aaccdf4d4c0a5d1734b28afdc8a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0bfc66c3f672759cce3aac51600f0589"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0bfc66c3f672759cce3aac51600f0589"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>P_fu_x</b></td></tr>
+<tr class="separator:a0bfc66c3f672759cce3aac51600f0589"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88de43e1061e67e1ab3cd5242a59919d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a88de43e1061e67e1ab3cd5242a59919d"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>P_ts_x</b></td></tr>
+<tr class="separator:a88de43e1061e67e1ab3cd5242a59919d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad83d0450737a4e3281fbb9e3c514f989"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad83d0450737a4e3281fbb9e3c514f989"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>P_tu_x</b></td></tr>
+<tr class="separator:ad83d0450737a4e3281fbb9e3c514f989"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afba7aeaaa91c1817481591b9589b7fe6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afba7aeaaa91c1817481591b9589b7fe6"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>P_fs_y</b></td></tr>
+<tr class="separator:afba7aeaaa91c1817481591b9589b7fe6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad41a17dc2062273a0420486cd2b8df5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aad41a17dc2062273a0420486cd2b8df5"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>P_fu_y</b></td></tr>
+<tr class="separator:aad41a17dc2062273a0420486cd2b8df5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a074f5bc8cddf7cfcbd0246d73e287455"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a074f5bc8cddf7cfcbd0246d73e287455"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>P_ts_y</b></td></tr>
+<tr class="separator:a074f5bc8cddf7cfcbd0246d73e287455"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4080b69dc84276dff1c24253ee6f7ba5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4080b69dc84276dff1c24253ee6f7ba5"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>P_tu_y</b></td></tr>
+<tr class="separator:a4080b69dc84276dff1c24253ee6f7ba5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb1d84efbf8768776e62e7ed622b333e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adb1d84efbf8768776e62e7ed622b333e"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>P_fs_z</b></td></tr>
+<tr class="separator:adb1d84efbf8768776e62e7ed622b333e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa56b94d36adc752d2b3bdaa6bdf7afd5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa56b94d36adc752d2b3bdaa6bdf7afd5"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>P_fu_z</b></td></tr>
+<tr class="separator:aa56b94d36adc752d2b3bdaa6bdf7afd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac73f91b6a91ff83d0f1209581f41f0ec"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac73f91b6a91ff83d0f1209581f41f0ec"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>P_ts_z</b></td></tr>
+<tr class="separator:ac73f91b6a91ff83d0f1209581f41f0ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16c0aa4d011b38feff2b076044caaade"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a16c0aa4d011b38feff2b076044caaade"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>P_tu_z</b></td></tr>
+<tr class="separator:a16c0aa4d011b38feff2b076044caaade"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acdac9f20af18514051d67b6ad1584666"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acdac9f20af18514051d67b6ad1584666"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>P_ps_x</b></td></tr>
+<tr class="separator:acdac9f20af18514051d67b6ad1584666"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af12004e247c67b7bba607b6050894d7c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af12004e247c67b7bba607b6050894d7c"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>P_vs_x</b></td></tr>
+<tr class="separator:af12004e247c67b7bba607b6050894d7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e6443611ae2158d35ab419bd685c541"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6e6443611ae2158d35ab419bd685c541"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>P_as_x</b></td></tr>
+<tr class="separator:a6e6443611ae2158d35ab419bd685c541"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a835e81bb39a1907d6d7093c9a36a635e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a835e81bb39a1907d6d7093c9a36a635e"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>P_ps_y</b></td></tr>
+<tr class="separator:a835e81bb39a1907d6d7093c9a36a635e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed7caeb37ee2b8bd842cdda17f91ecfb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aed7caeb37ee2b8bd842cdda17f91ecfb"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>P_vs_y</b></td></tr>
+<tr class="separator:aed7caeb37ee2b8bd842cdda17f91ecfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f8387c649a2ad42d2c4b98f173dd901"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7f8387c649a2ad42d2c4b98f173dd901"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>P_as_y</b></td></tr>
+<tr class="separator:a7f8387c649a2ad42d2c4b98f173dd901"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af78f3c716fafc715ce68691b50cbae3f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af78f3c716fafc715ce68691b50cbae3f"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>P_ps_z</b></td></tr>
+<tr class="separator:af78f3c716fafc715ce68691b50cbae3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ac6610d8daff473a6d75d2be8a897a5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2ac6610d8daff473a6d75d2be8a897a5"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>P_vs_z</b></td></tr>
+<tr class="separator:a2ac6610d8daff473a6d75d2be8a897a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5e28d4009ce7edf728b7558dc1f5a7b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac5e28d4009ce7edf728b7558dc1f5a7b"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>P_as_z</b></td></tr>
+<tr class="separator:ac5e28d4009ce7edf728b7558dc1f5a7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75dfdbebee3054c0bc91c6a0b1531a94"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a75dfdbebee3054c0bc91c6a0b1531a94"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>P_pu_x</b></td></tr>
+<tr class="separator:a75dfdbebee3054c0bc91c6a0b1531a94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc1c3c5448d5a2421178d8188d298c80"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afc1c3c5448d5a2421178d8188d298c80"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>P_vu_x</b></td></tr>
+<tr class="separator:afc1c3c5448d5a2421178d8188d298c80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6102887d5d570528ac6c116139e1309"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa6102887d5d570528ac6c116139e1309"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>P_au_x</b></td></tr>
+<tr class="separator:aa6102887d5d570528ac6c116139e1309"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b2856e72cb5a10de5159b51a1907023"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6b2856e72cb5a10de5159b51a1907023"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>P_pu_y</b></td></tr>
+<tr class="separator:a6b2856e72cb5a10de5159b51a1907023"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2f34c23f0ea5c6d0ddf21e44210ff9c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad2f34c23f0ea5c6d0ddf21e44210ff9c"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>P_vu_y</b></td></tr>
+<tr class="separator:ad2f34c23f0ea5c6d0ddf21e44210ff9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed427c67d9b43c5dfafea2dfd7f9f7c6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aed427c67d9b43c5dfafea2dfd7f9f7c6"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>P_au_y</b></td></tr>
+<tr class="separator:aed427c67d9b43c5dfafea2dfd7f9f7c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a437809fdd144b36738381ab50db365cb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a437809fdd144b36738381ab50db365cb"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>P_pu_z</b></td></tr>
+<tr class="separator:a437809fdd144b36738381ab50db365cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbef094e3d5cffa6342d6ce080b6e787"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afbef094e3d5cffa6342d6ce080b6e787"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>P_vu_z</b></td></tr>
+<tr class="separator:afbef094e3d5cffa6342d6ce080b6e787"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb891c9d1200b5e80d1b115720fc0016"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adb891c9d1200b5e80d1b115720fc0016"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>P_au_z</b></td></tr>
+<tr class="separator:adb891c9d1200b5e80d1b115720fc0016"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a657244608d90ac675f39cbbfb35e090d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a657244608d90ac675f39cbbfb35e090d"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>P_p</b></td></tr>
+<tr class="separator:a657244608d90ac675f39cbbfb35e090d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a983afb55bcf0b6f694682fda48f4e769"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a983afb55bcf0b6f694682fda48f4e769"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>P_v</b></td></tr>
 <tr class="separator:a983afb55bcf0b6f694682fda48f4e769"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb07bf4207ca65e556257c34682b16ca"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adb07bf4207ca65e556257c34682b16ca"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>P_Qfs_x</b></td></tr>
+<tr class="separator:adb07bf4207ca65e556257c34682b16ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2dfe9927df92d6350d53921cadba9e7f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2dfe9927df92d6350d53921cadba9e7f"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>P_Qfs_y</b></td></tr>
+<tr class="separator:a2dfe9927df92d6350d53921cadba9e7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a646562cdf0340773782b35bd4b5dd53e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a646562cdf0340773782b35bd4b5dd53e"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>P_Qfs_z</b></td></tr>
+<tr class="separator:a646562cdf0340773782b35bd4b5dd53e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a963f42db12d7b9bca484fd912f8e01d4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a963f42db12d7b9bca484fd912f8e01d4"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>P_Qts_x</b></td></tr>
+<tr class="separator:a963f42db12d7b9bca484fd912f8e01d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55f5a321d47d4ac160c31f52845e1f2e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a55f5a321d47d4ac160c31f52845e1f2e"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>P_Qts_y</b></td></tr>
+<tr class="separator:a55f5a321d47d4ac160c31f52845e1f2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a397584e9dcdb8897237da3e50d03d458"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a397584e9dcdb8897237da3e50d03d458"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>P_Qts_z</b></td></tr>
+<tr class="separator:a397584e9dcdb8897237da3e50d03d458"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1506d7074a025843366b0216802e2232"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1506d7074a025843366b0216802e2232"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>P_pQfs_x</b></td></tr>
+<tr class="separator:a1506d7074a025843366b0216802e2232"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26ec6ebf32307f963dc6794228477d98"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a26ec6ebf32307f963dc6794228477d98"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>P_pQfs_y</b></td></tr>
+<tr class="separator:a26ec6ebf32307f963dc6794228477d98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f9903e5a9132885f277ee3c787920aa"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5f9903e5a9132885f277ee3c787920aa"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>P_pQfs_z</b></td></tr>
+<tr class="separator:a5f9903e5a9132885f277ee3c787920aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42c2d9060d1badba34449b91e6bf566e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a42c2d9060d1badba34449b91e6bf566e"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>P_Qfu_x</b></td></tr>
+<tr class="separator:a42c2d9060d1badba34449b91e6bf566e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9f7ce373ba176fd2c6e96b60b762aab"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa9f7ce373ba176fd2c6e96b60b762aab"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>P_Qfu_y</b></td></tr>
+<tr class="separator:aa9f7ce373ba176fd2c6e96b60b762aab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b4664b800b8282010ca873ec5da75c6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4b4664b800b8282010ca873ec5da75c6"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>P_Qfu_z</b></td></tr>
+<tr class="separator:a4b4664b800b8282010ca873ec5da75c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd067cb045eec57ab342091af5c0d4fd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acd067cb045eec57ab342091af5c0d4fd"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>P_Qtu_x</b></td></tr>
+<tr class="separator:acd067cb045eec57ab342091af5c0d4fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae32c71ad95e351a569d4f2aa02e62d12"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae32c71ad95e351a569d4f2aa02e62d12"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>P_Qtu_y</b></td></tr>
+<tr class="separator:ae32c71ad95e351a569d4f2aa02e62d12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20e8850c727e35345daac653df2a0ccc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a20e8850c727e35345daac653df2a0ccc"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>P_Qtu_z</b></td></tr>
+<tr class="separator:a20e8850c727e35345daac653df2a0ccc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2382c8b7a720721d02e427262eadda5e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2382c8b7a720721d02e427262eadda5e"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>P_pQfu_x</b></td></tr>
+<tr class="separator:a2382c8b7a720721d02e427262eadda5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f00eb1fe182307acaf0e11d61365708"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0f00eb1fe182307acaf0e11d61365708"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>P_pQfu_y</b></td></tr>
+<tr class="separator:a0f00eb1fe182307acaf0e11d61365708"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8db243c0e8f4ce9fd3f1529d51a9907b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8db243c0e8f4ce9fd3f1529d51a9907b"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>P_pQfu_z</b></td></tr>
+<tr class="separator:a8db243c0e8f4ce9fd3f1529d51a9907b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/nmpc_multicontact/nmpc_multicontact_python/src/nmpc_multicontact_python/multicontact_manipulability/integration.py</li>
@@ -235,7 +391,7 @@ Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Feb 18 2018 16:01:17 for nmpc_multicontact_python by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Feb 18 2018 18:35:02 for nmpc_multicontact_python by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
