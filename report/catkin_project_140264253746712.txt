@@ -1,38 +1,16 @@
 WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
 
--- The C compiler identification is GNU 4.8.4
-
--- The CXX compiler identification is GNU 4.8.4
-
--- Check for working C compiler: /usr/bin/cc
-
--- Check for working C compiler: /usr/bin/cc -- works
-
--- Detecting C compiler ABI info
-
--- Detecting C compiler ABI info - done
-
--- Check for working CXX compiler: /usr/bin/c++
-
--- Check for working CXX compiler: /usr/bin/c++ -- works
-
--- Detecting CXX compiler ABI info
-
--- Detecting CXX compiler ABI info - done
-
 -- Using CATKIN_DEVEL_PREFIX: /home/administrator/ci/ci/team/workspace/devel
 
 -- Using CMAKE_PREFIX_PATH: /opt/ros/indigo
 
 -- This workspace overlays: /opt/ros/indigo
 
--- Found PythonInterp: /usr/bin/python (found version "2.7.6") 
-
 -- Using PYTHON_EXECUTABLE: /usr/bin/python
 
--- Using Debian Python package layout
+-- Python version: 2.7
 
--- Using empy: /usr/bin/empy
+-- Using Debian Python package layout
 
 -- Using CATKIN_ENABLE_TESTING: ON
 
@@ -40,29 +18,9 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 
 -- Using CATKIN_TEST_RESULTS_DIR: /home/administrator/ci/ci/team/workspace/build/test_results
 
--- Looking for include file pthread.h
-
--- Looking for include file pthread.h - found
-
--- Looking for pthread_create
-
--- Looking for pthread_create - not found
-
--- Looking for pthread_create in pthreads
-
--- Looking for pthread_create in pthreads - not found
-
--- Looking for pthread_create in pthread
-
--- Looking for pthread_create in pthread - found
-
--- Found Threads: TRUE  
-
 -- Found gtest sources under '/usr/src/gtest': gtests will be built
 
--- Using Python nosetests: /usr/bin/nosetests-2.7
-
--- catkin 0.6.19
+-- catkin 0.5.90
 
 -- BUILD_SHARED_LIBS is on
 
@@ -70,15 +28,69 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- ~~  traversing 4 packages in topological order:
+-- ~~  traversing 31 packages in topological order:
 
 -- ~~  - Eigen
 
--- ~~  - guided_policy_search
+-- ~~  - cdlbt
 
--- ~~  - rbdl
+-- ~~  - can_control_tools
+
+-- ~~  - fl
+
+-- ~~  - ebf
+
+-- ~~  - matlab_logger
+
+-- ~~  - ros_realtime (metapackage)
+
+-- ~~  - allocators
+
+-- ~~  - rosatomic
+
+-- ~~  - lockfree
+
+-- ~~  - rt_timer
+
+-- ~~  - start_robot
+
+-- ~~  - amd_clmc_ros_messages
+
+-- ~~  - ar_track_alvar_msgs
+
+-- ~~  - custom_robot_msgs
+
+-- ~~  - riemo_grasping_msgs
+
+-- ~~  - utilities
+
+-- ~~  - lwpr
+
+-- ~~  - xenomai_ros
+
+-- ~~  - roscpp_utilities
+
+-- ~~  - rosrt
+
+-- ~~  - ros_rt_test
+
+-- ~~  - sl
+
+-- ~~  - apollo
+
+-- ~~  - apollo_event_based_task
+
+-- ~~  - apollo_test_task
+
+-- ~~  - apollo_user
+
+-- ~~  - sl_ros_servo
+
+-- ~~  - ros_servo_apollo
 
 -- ~~  - yaml_cpp
+
+-- ~~  - facial_expressions
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -88,433 +100,451 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 
 WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
 
--- +++ processing catkin package: 'guided_policy_search'
+-- +++ processing catkin package: 'cdlbt'
 
--- ==> add_subdirectory(catkin/learning/guided-policy-search)
+-- ==> add_subdirectory(catkin/ros/barrett-ros/cdlbt)
 
--- +++ processing catkin package: 'rbdl'
+-- MACHTYPE x86_64
 
--- ==> add_subdirectory(catkin/third_party/rbdl)
+Detected MACHTYPE=x86_64
 
--- Setting build type to 'Release' as none was specified.
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
 
--- ROS found: /opt/ros/indigo/share/ros
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
 
--- +++ processing catkin package: 'yaml_cpp'
+Call Stack (most recent call first):
 
--- ==> add_subdirectory(catkin/third_party/YAML_CPP)
+  catkin/ros/barrett-ros/cdlbt/CMakeLists.txt:8 (include)
+
+
+
+
+
+-- HOST_NAME=everest
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
+
+-- +++ processing catkin package: 'can_control_tools'
+
+-- ==> add_subdirectory(catkin/ros/barrett-ros/canControlTools)
+
+-- MACHTYPE x86_64
+
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+
+Call Stack (most recent call first):
+
+  catkin/ros/barrett-ros/canControlTools/CMakeLists.txt:8 (include)
+
+
+
+
+
+-- HOST_NAME=everest
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
 
 -- Boost version: 1.54.0
 
--- Performing Test FLAG_WEXTRA
+-- Found the following Boost libraries:
 
--- Performing Test FLAG_WEXTRA - Success
+--   thread
 
--- Configuring done
+-- +++ processing catkin package: 'fl'
 
--- Generating done
+-- ==> add_subdirectory(catkin/core-perception/fl)
 
--- Build files have been written to: /home/administrator/ci/ci/team/workspace/build
+-- Eigen found (include: /usr/include/eigen3)
 
-Scanning dependencies of target yaml-cpp
+-- Boost version: 1.54.0
 
-[  2%] [  4%] [  6%] Scanning dependencies of target rbdl
+-- +++ processing catkin package: 'ebf'
 
-[  8%] [ 10%] [ 12%] [ 14%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/nodebuilder.cpp.o
+-- ==> add_subdirectory(catkin/event-based/event-based-framework)
 
-[ 16%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/scantoken.cpp.o
+##########################################
 
-[ 18%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/parse.cpp.o
+# Event-based Control Framework 
 
-[ 20%] [ 22%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/ostream_wrapper.cpp.o
+# Version 0.1.267
 
-Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/tag.cpp.o
+# ceec1553994354a776e9e1f573a3583f8963a720
 
-Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/memory.cpp.o
+##########################################
 
-Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/node.cpp.o
+-- Eigen found (include: /usr/include/eigen3)
 
-[ 24%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/nodeevents.cpp.o
+-- Found Doxygen: /usr/bin/doxygen (found version "1.8.6") 
 
-Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/scanscalar.cpp.o
+-- Found Doxygen: /usr/bin/doxygen (found suitable version "1.8.6", minimum required is "1.8.4") 
 
-[ 26%] Building CXX object catkin/third_party/rbdl/CMakeFiles/rbdl.dir/src/rbdl_version.cc.o
+-- +++ processing catkin package: 'matlab_logger'
 
-[ 28%] [ 30%] [ 32%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/directives.cpp.o
+-- ==> add_subdirectory(catkin/event-based/matlab-logger)
 
-Building CXX object catkin/third_party/rbdl/CMakeFiles/rbdl.dir/src/rbdl_mathutils.cc.o
+-- +++ processing catkin metapackage: 'ros_realtime'
 
-Building CXX object catkin/third_party/rbdl/CMakeFiles/rbdl.dir/src/rbdl_utils.cc.o
+-- ==> add_subdirectory(catkin/ros/ros_realtime/ros_realtime)
 
-Building CXX object catkin/third_party/rbdl/CMakeFiles/rbdl.dir/src/Contacts.cc.o
+-- +++ processing catkin package: 'allocators'
 
-Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emitterutils.cpp.o
+-- ==> add_subdirectory(catkin/ros/ros_realtime/allocators)
 
-Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/scantag.cpp.o
+-- Boost version: 1.54.0
 
-[ 34%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/scanner.cpp.o
+-- +++ processing catkin package: 'rosatomic'
 
-[ 36%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/parser.cpp.o
+-- ==> add_subdirectory(catkin/ros/ros_realtime/rosatomic)
 
-[ 38%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emitter.cpp.o
+-- Boost version: 1.54.0
 
-[ 42%] [ 42%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/exp.cpp.o
+-- +++ processing catkin package: 'lockfree'
 
-Building CXX object catkin/third_party/rbdl/CMakeFiles/rbdl.dir/src/Dynamics.cc.o
+-- ==> add_subdirectory(catkin/ros/ros_realtime/lockfree)
 
-[ 44%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/regex.cpp.o
+-- Boost version: 1.54.0
 
-[ 46%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/binary.cpp.o
+-- +++ processing catkin package: 'rt_timer'
 
-[ 48%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/node_data.cpp.o
+-- ==> add_subdirectory(catkin/ros/ros_realtime/rt_timer)
 
-[ 50%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emit.cpp.o
+-- +++ processing catkin package: 'start_robot'
 
-[ 52%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/simplekey.cpp.o
+-- ==> add_subdirectory(catkin/robots/start_robot)
 
-[ 54%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emitterstate.cpp.o
+-- +++ processing catkin package: 'amd_clmc_ros_messages'
 
-[ 56%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/convert.cpp.o
+-- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/amd_clmc_ros_messages)
 
-[ 58%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/singledocparser.cpp.o
+-- Using these message generators: gencpp;genlisp;genpy
 
-[ 60%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/stream.cpp.o
+-- amd_clmc_ros_messages: 107 messages, 10 services
 
-[ 62%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emitfromevents.cpp.o
+-- +++ processing catkin package: 'ar_track_alvar_msgs'
 
-[ 64%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/null.cpp.o
+-- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/ar_track_alvar_msgs)
 
-[ 66%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilderadapter.cpp.o
+-- Using these message generators: gencpp;genlisp;genpy
 
-[ 68%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilder.cpp.o
+-- ar_track_alvar_msgs: 2 messages, 0 services
 
-[ 70%] Building CXX object catkin/third_party/rbdl/CMakeFiles/rbdl.dir/src/Logging.cc.o
+-- +++ processing catkin package: 'custom_robot_msgs'
 
-[ 72%] Building CXX object catkin/third_party/rbdl/CMakeFiles/rbdl.dir/src/Joint.cc.o
+-- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/custom_robot_msgs)
 
-[ 74%] [ 76%] Building CXX object catkin/third_party/rbdl/CMakeFiles/rbdl.dir/src/Model.cc.o
+-- Using these message generators: gencpp;genlisp;genpy
 
-Building CXX object catkin/third_party/rbdl/CMakeFiles/rbdl.dir/src/Kinematics.cc.o
+-- custom_robot_msgs: 1 messages, 2 services
 
-Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libyaml-cpp.so
+-- +++ processing catkin package: 'riemo_grasping_msgs'
 
-[ 76%] Built target yaml-cpp
+-- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/riemo_grasping_msgs)
 
-Scanning dependencies of target sandbox
+-- Using these message generators: gencpp;genlisp;genpy
 
-Scanning dependencies of target parse
+-- riemo_grasping_msgs: 5 messages, 3 services
 
-Scanning dependencies of target read
+-- +++ processing catkin package: 'utilities'
 
-Scanning dependencies of target run-tests
+-- ==> add_subdirectory(catkin/core-sl/catkin-utilities)
 
-[ 78%] [ 80%] [ 82%] Building CXX object catkin/third_party/YAML_CPP/util/CMakeFiles/sandbox.dir/sandbox.cpp.o
+-- MACHTYPE x86_64
 
-Building CXX object catkin/third_party/YAML_CPP/util/CMakeFiles/read.dir/read.cpp.o
+Detected MACHTYPE=x86_64
 
-Building CXX object catkin/third_party/YAML_CPP/util/CMakeFiles/parse.dir/parse.cpp.o
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
 
-[ 84%] [ 86%] Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/emittertests.cpp.o
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
 
-[ 88%] [ 90%] Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/spectests.cpp.o
+Call Stack (most recent call first):
 
-[ 92%] Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/tests.cpp.o
+  catkin/core-sl/catkin-utilities/CMakeLists.txt:8 (include)
 
-[ 94%] Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/new-api/parsertests.cpp.o
 
-[ 96%] Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/main.cpp.o
 
-Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/new-api/spectests.cpp.o
 
-Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/new-api/nodetests.cpp.o
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/yaml_cpp/parse
+-- HOST_NAME=everest
 
-[ 96%] Built target parse
+-- HOST=everest
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/yaml_cpp/read
+-- LAB=AMD
 
-[ 96%] Built target read
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/yaml_cpp/sandbox
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
 
-[ 96%] Built target sandbox
+-- CMAKE_INCLUDE_PATH=
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/yaml_cpp/run-tests
+-- CMAKE_LIBRARY_PATH=
 
-[ 96%] Built target run-tests
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
 
-Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/librbdl.so
+-- LAB_LIBDIR=lib/x86_64
 
-[ 96%] Built target rbdl
+-- LAB_INCLUDES=include
 
-Scanning dependencies of target rbdl_urdfreader
+-- LAB_BINDIR=bin/x86_64
 
-[ 98%] Building CXX object catkin/third_party/rbdl/addons/urdfreader/CMakeFiles/rbdl_urdfreader.dir/urdfreader.cc.o
+-- +++ processing catkin package: 'lwpr'
 
-Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/librbdl_urdfreader.so
+-- ==> add_subdirectory(catkin/core-sl/catkin-lwpr)
 
-[ 98%] Built target rbdl_urdfreader
+-- MACHTYPE x86_64
 
-Scanning dependencies of target rbdl_urdfreader_util
+Detected MACHTYPE=x86_64
 
-[100%] Building CXX object catkin/third_party/rbdl/addons/urdfreader/CMakeFiles/rbdl_urdfreader_util.dir/rbdl_urdfreader_util.cc.o
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/rbdl/rbdl_urdfreader_util
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
 
-[100%] Built target rbdl_urdfreader_util
+Call Stack (most recent call first):
 
-Install the project...
+  catkin/core-sl/catkin-lwpr/CMakeLists.txt:5 (include)
 
--- Install configuration: "Release"
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/_setup_util.py
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/env.sh
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/setup.bash
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/setup.sh
+-- HOST_NAME=everest
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/setup.zsh
+-- HOST=everest
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/.rosinstall
+-- LAB=AMD
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/Eigen.pc
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/Eigen/cmake/EigenConfig.cmake
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/Eigen/cmake/EigenConfig-version.cmake
+-- CMAKE_INCLUDE_PATH=
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/Eigen/package.xml
+-- CMAKE_LIBRARY_PATH=
 
-+ cd /home/administrator/ci/ci/team/workspace/src/catkin/learning/guided-policy-search
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
 
-+ mkdir -p /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages
+-- LAB_LIBDIR=lib/x86_64
 
-+ /usr/bin/env PYTHONPATH=/home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages:/home/administrator/ci/ci/team/workspace/build/lib/python2.7/dist-packages:/opt/ros/indigo/lib/python2.7/dist-packages CATKIN_BINARY_DIR=/home/administrator/ci/ci/team/workspace/build /usr/bin/python /home/administrator/ci/ci/team/workspace/src/catkin/learning/guided-policy-search/setup.py build --build-base /home/administrator/ci/ci/team/workspace/build/catkin/learning/guided-policy-search install --install-layout=deb --prefix=/home/administrator/ci/ci/team/workspace/install --install-scripts=/home/administrator/ci/ci/team/workspace/install/bin
+-- LAB_INCLUDES=include
 
-running build
+-- LAB_BINDIR=bin/x86_64
 
-running build_py
+-- +++ processing catkin package: 'xenomai_ros'
 
-creating /home/administrator/ci/ci/team/workspace/build/catkin/learning/guided-policy-search/lib.linux-x86_64-2.7
+-- ==> add_subdirectory(catkin/ros/xenomai-ros)
 
-creating /home/administrator/ci/ci/team/workspace/build/catkin/learning/guided-policy-search/lib.linux-x86_64-2.7/guided_policy_search
+-- +++ processing catkin package: 'roscpp_utilities'
 
-copying src/guided_policy_search/util.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/guided-policy-search/lib.linux-x86_64-2.7/guided_policy_search
+-- ==> add_subdirectory(catkin/ros/roscpp_utilities)
 
-copying src/guided_policy_search/dynamics.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/guided-policy-search/lib.linux-x86_64-2.7/guided_policy_search
+-- +++ processing catkin package: 'rosrt'
 
-copying src/guided_policy_search/__init__.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/guided-policy-search/lib.linux-x86_64-2.7/guided_policy_search
+-- ==> add_subdirectory(catkin/ros/ros_realtime/rosrt)
 
-copying src/guided_policy_search/policy.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/guided-policy-search/lib.linux-x86_64-2.7/guided_policy_search
+-- xenomai NOT found. (/usr/local;/usr)
 
-copying src/guided_policy_search/cost.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/guided-policy-search/lib.linux-x86_64-2.7/guided_policy_search
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
 
-copying src/guided_policy_search/agent.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/guided-policy-search/lib.linux-x86_64-2.7/guided_policy_search
+-- Boost version: 1.54.0
 
-copying src/guided_policy_search/optimize.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/guided-policy-search/lib.linux-x86_64-2.7/guided_policy_search
+-- Found the following Boost libraries:
 
-running install
+--   thread
 
-running install_lib
+-- +++ processing catkin package: 'ros_rt_test'
 
-creating /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/guided_policy_search
+-- ==> add_subdirectory(catkin/ros/ros_rt_basic_example)
 
-copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/guided-policy-search/lib.linux-x86_64-2.7/guided_policy_search/util.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/guided_policy_search
+-- xenomai NOT found. (/usr/local;/usr)
 
-copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/guided-policy-search/lib.linux-x86_64-2.7/guided_policy_search/dynamics.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/guided_policy_search
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
 
-copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/guided-policy-search/lib.linux-x86_64-2.7/guided_policy_search/__init__.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/guided_policy_search
+-- +++ processing catkin package: 'sl'
 
-copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/guided-policy-search/lib.linux-x86_64-2.7/guided_policy_search/policy.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/guided_policy_search
+-- ==> add_subdirectory(catkin/core-sl/catkin-sl)
 
-copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/guided-policy-search/lib.linux-x86_64-2.7/guided_policy_search/cost.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/guided_policy_search
+-- MACHTYPE x86_64
 
-copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/guided-policy-search/lib.linux-x86_64-2.7/guided_policy_search/agent.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/guided_policy_search
+Detected MACHTYPE=x86_64
 
-copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/guided-policy-search/lib.linux-x86_64-2.7/guided_policy_search/optimize.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/guided_policy_search
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
 
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/guided_policy_search/util.py to util.pyc
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
 
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/guided_policy_search/dynamics.py to dynamics.pyc
+Call Stack (most recent call first):
 
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/guided_policy_search/__init__.py to __init__.pyc
+  catkin/core-sl/catkin-sl/CMakeLists.txt:8 (include)
 
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/guided_policy_search/policy.py to policy.pyc
 
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/guided_policy_search/cost.py to cost.pyc
 
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/guided_policy_search/agent.py to agent.pyc
 
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/guided_policy_search/optimize.py to optimize.pyc
 
-running install_egg_info
+-- HOST_NAME=everest
 
-Writing /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/guided_policy_search-0.0.0.egg-info
+-- HOST=everest
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/guided_policy_search.pc
+-- LAB=AMD
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/guided_policy_search/cmake/guided_policy_searchConfig.cmake
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/guided_policy_search/cmake/guided_policy_searchConfig-version.cmake
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/guided_policy_search/package.xml
+-- CMAKE_INCLUDE_PATH=
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/rbdl.pc
+-- CMAKE_LIBRARY_PATH=
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/rbdl/cmake/rbdlConfig.cmake
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/rbdl/cmake/rbdlConfig-version.cmake
+-- LAB_LIBDIR=lib/x86_64
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/rbdl/package.xml
+-- LAB_INCLUDES=include
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/x86_64-linux-gnu/librbdl.so.2.5.0
+-- LAB_BINDIR=bin/x86_64
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/x86_64-linux-gnu/librbdl.so
+-- +++ processing catkin package: 'apollo'
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/rbdl.h
+-- ==> add_subdirectory(catkin/robots/catkin-apollo)
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/Quaternion.h
+-- MACHTYPE x86_64
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/Dynamics.h
+Detected MACHTYPE=x86_64
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/Joint.h
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/rbdl_utils.h
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/Model.h
+Call Stack (most recent call first):
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/rbdl_math.h
+  catkin/robots/catkin-apollo/CMakeLists.txt:9 (include)
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/rbdl_mathutils.h
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/Kinematics.h
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/rbdl_eigenmath.h
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/Logging.h
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/Body.h
+-- HOST_NAME=everest
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/SpatialAlgebraOperators.h
+-- HOST=everest
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/compileassert.h
+-- LAB=AMD
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/Contacts.h
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/x86_64-linux-gnu/pkgconfig/rbdl.pc
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/x86_64-linux-gnu/librbdl_urdfreader.so.2.5.0
+-- CMAKE_INCLUDE_PATH=
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/x86_64-linux-gnu/librbdl_urdfreader.so
+-- CMAKE_LIBRARY_PATH=
 
--- Removed runtime path from "/home/administrator/ci/ci/team/workspace/install/lib/x86_64-linux-gnu/librbdl_urdfreader.so.2.5.0"
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/bin/rbdl_urdfreader_util
+-- LAB_LIBDIR=lib/x86_64
 
--- Removed runtime path from "/home/administrator/ci/ci/team/workspace/install/bin/rbdl_urdfreader_util"
+-- LAB_INCLUDES=include
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/addons/urdfreader/urdfreader.h
+-- LAB_BINDIR=bin/x86_64
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/yaml_cpp.pc
+-- +++ processing catkin package: 'apollo_event_based_task'
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/yaml_cpp/cmake/yaml_cppConfig.cmake
+-- ==> add_subdirectory(catkin/event-based/apollo-event-based-task)
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/yaml_cpp/cmake/yaml_cppConfig-version.cmake
+-- MACHTYPE x86_64
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/yaml_cpp/package.xml
+Detected MACHTYPE=x86_64
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/libyaml-cpp.so.0.5.1
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/libyaml-cpp.so.0.5
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/libyaml-cpp.so
+Call Stack (most recent call first):
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp
+  catkin/event-based/apollo-event-based-task/CMakeLists.txt:9 (include)
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/ostream_wrapper.h
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/anchor.h
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/yaml.h
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/exceptions.h
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/dll.h
+-- HOST_NAME=everest
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/mark.h
+-- HOST=everest
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/noncopyable.h
+-- LAB=AMD
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/traits.h
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/stlemitter.h
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node
+-- CMAKE_INCLUDE_PATH=
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/node.h
+-- CMAKE_LIBRARY_PATH=
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/emit.h
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/iterator.h
+-- LAB_LIBDIR=lib/x86_64
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail
+-- LAB_INCLUDES=include
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/node.h
+-- LAB_BINDIR=bin/x86_64
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/memory.h
+CMake Error at catkin/third_party/catkin/cmake/catkin_package.cmake:217 (message):
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/iterator.h
+  catkin_package() DEPENDS on the catkin package 'Eigen' which must therefore
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/bool_type.h
+  be listed as a run dependency in the package.xml
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/iterator_fwd.h
+Call Stack (most recent call first):
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/node_ref.h
+  catkin/third_party/catkin/cmake/catkin_package.cmake:98 (_catkin_package)
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/node_data.h
+  catkin/event-based/apollo-event-based-task/CMakeLists.txt:38 (catkin_package)
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/node_iterator.h
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/impl.h
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/type.h
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/ptr.h
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/parse.h
+-- Configuring incomplete, errors occurred!
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/impl.h
+See also "/home/administrator/ci/ci/team/workspace/build/CMakeFiles/CMakeOutput.log".
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/convert.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/emittermanip.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/eventhandler.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/binary.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/emitterdef.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/contrib
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/contrib/graphbuilder.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/contrib/anchordict.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/emitfromevents.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/parser.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/emitter.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/yaml_eigen.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/null.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/yaml-cpp.pc
+See also "/home/administrator/ci/ci/team/workspace/build/CMakeFiles/CMakeError.log".
 
 Base path: /home/administrator/ci/ci/team/workspace
 
@@ -526,16 +556,10 @@ Devel space: /home/administrator/ci/ci/team/workspace/devel
 
 Install space: /home/administrator/ci/ci/team/workspace/install
 
-Creating symlink "/home/administrator/ci/ci/team/workspace/src/CMakeLists.txt" pointing to "/opt/ros/indigo/share/catkin/cmake/toplevel.cmake"
-
 ####
 
 #### Running command: "cmake /home/administrator/ci/ci/team/workspace/src -DCATKIN_DEVEL_PREFIX=/home/administrator/ci/ci/team/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/administrator/ci/ci/team/workspace/install -G Unix Makefiles" in "/home/administrator/ci/ci/team/workspace/build"
 
 ####
 
-####
-
-#### Running command: "make -j16 install" in "/home/administrator/ci/ci/team/workspace/build"
-
-####
+Invoking "cmake" failed
