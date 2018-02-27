@@ -20,53 +20,61 @@
 
 -- Using Python nosetests: /usr/bin/nosetests-2.7
 
--- catkin 0.6.19
+-- catkin 0.7.7
 
 -- BUILD_SHARED_LIBS is on
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- ~~  traversing 2 packages in topological order:
+-- ~~  traversing 3 packages in topological order:
 
--- ~~  - rt_utils
+-- ~~  - baselines
 
--- ~~  - learning_control
+-- ~~  - gazebo_grasping
+
+-- ~~  - grasping_env
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- +++ processing catkin package: 'rt_utils'
+-- +++ processing catkin package: 'baselines'
 
--- ==> add_subdirectory(catkin/rt_utils)
+-- ==> add_subdirectory(catkin/grasping_sim/src/baselines_catkin)
 
-CMake Error at catkin/rt_utils/CMakeLists.txt:8 (find_package):
+-- +++ processing catkin package: 'gazebo_grasping'
 
-  By not providing "FindEigen.cmake" in CMAKE_MODULE_PATH this project has
+-- ==> add_subdirectory(catkin/grasping_sim/src/gazebo_grasping)
 
-  asked CMake to find a package configuration file provided by "Eigen", but
+-- Boost version: 1.54.0
 
-  CMake did not find one.
+CMake Error at catkin/grasping_sim/src/gazebo_grasping/CMakeLists.txt:13 (find_package):
 
+  By not providing "Findignition-transport3.cmake" in CMAKE_MODULE_PATH this
 
+  project has asked CMake to find a package configuration file provided by
 
-  Could not find a package configuration file provided by "Eigen" (requested
-
-  version 3.2.4) with any of the following names:
-
-
-
-    EigenConfig.cmake
-
-    eigen-config.cmake
+  "ignition-transport3", but CMake did not find one.
 
 
 
-  Add the installation prefix of "Eigen" to CMAKE_PREFIX_PATH or set
+  Could not find a package configuration file provided by
 
-  "Eigen_DIR" to a directory containing one of the above files.  If "Eigen"
+  "ignition-transport3" with any of the following names:
 
-  provides a separate development package or SDK, be sure it has been
 
-  installed.
+
+    ignition-transport3Config.cmake
+
+    ignition-transport3-config.cmake
+
+
+
+  Add the installation prefix of "ignition-transport3" to CMAKE_PREFIX_PATH
+
+  or set "ignition-transport3_DIR" to a directory containing one of the above
+
+  files.  If "ignition-transport3" provides a separate development package or
+
+  SDK, be sure it has been installed.
 
 
 
