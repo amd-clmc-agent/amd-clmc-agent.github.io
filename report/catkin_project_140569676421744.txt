@@ -1,17 +1,14 @@
-failed to compile unit tests:
-WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
-
 -- Using CATKIN_DEVEL_PREFIX: /home/administrator/ci/ci/team/workspace/devel
 
--- Using CMAKE_PREFIX_PATH: /home/administrator/ci/ci/team/workspace/devel;/opt/ros/indigo
+-- Using CMAKE_PREFIX_PATH: /opt/ros/indigo
 
--- This workspace overlays: /home/administrator/ci/ci/team/workspace/devel;/opt/ros/indigo
+-- This workspace overlays: /opt/ros/indigo
 
 -- Using PYTHON_EXECUTABLE: /usr/bin/python
 
--- Python version: 2.7
-
 -- Using Debian Python package layout
+
+-- Using empy: /usr/bin/empy
 
 -- Using CATKIN_ENABLE_TESTING: ON
 
@@ -21,319 +18,91 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 
 -- Found gtest sources under '/usr/src/gtest': gtests will be built
 
--- catkin 0.5.90
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+
+-- catkin 0.6.19
 
 -- BUILD_SHARED_LIBS is on
 
-WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
+-- ~~  traversing 1 packages in topological order:
+
+-- ~~  - rgbd_intrinsic_calibration
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- ~~  traversing 19 packages in topological order:
+-- +++ processing catkin package: 'rgbd_intrinsic_calibration'
 
--- ~~  - Eigen
+-- ==> add_subdirectory(catkin/core-calibration/rgbd_intrinsic_calibration)
 
--- ~~  - robot_properties
+CMake Warning at /opt/ros/indigo/share/catkin/cmake/catkinConfig.cmake:76 (find_package):
 
--- ~~  - robot_properties_hermes_lower
+  Could not find a package configuration file provided by "rgbd_capture" with
 
--- ~~  - sl_config
+  any of the following names:
 
--- ~~  - utilities
 
--- ~~  - lwpr
 
--- ~~  - sl
+    rgbd_captureConfig.cmake
 
--- ~~  - yaml_cpp
+    rgbd_capture-config.cmake
 
--- ~~  - hermes_core
 
--- ~~  - hermes_lower
 
--- ~~  - robot_math
+  Add the installation prefix of "rgbd_capture" to CMAKE_PREFIX_PATH or set
 
--- ~~  - io_tools
+  "rgbd_capture_DIR" to a directory containing one of the above files.  If
 
--- ~~  - floating_base_tools_hermes_lower
+  "rgbd_capture" provides a separate development package or SDK, be sure it
 
--- ~~  - io_tools_sl
+  has been installed.
 
--- ~~  - floating_base_tools_sl_hermes_lower
+Call Stack (most recent call first):
 
--- ~~  - footsteps_planner_miqcqp_sl
+  catkin/core-calibration/rgbd_intrinsic_calibration/CMakeLists.txt:7 (find_package)
 
--- ~~  - generalized_motion_primitives_hermes_lower
 
--- ~~  - visualization_tools_hermes_lower
 
--- ~~  - hermes_lower_user
 
--- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- +++ processing catkin package: 'Eigen'
+-- Could not find the required component 'rgbd_capture'. The following CMake error indicates that you either need to install the package with the same name or change your environment so that it can be found.
 
--- ==> add_subdirectory(catkin/third_party/Eigen)
+CMake Error at /opt/ros/indigo/share/catkin/cmake/catkinConfig.cmake:83 (find_package):
 
-WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
+  Could not find a package configuration file provided by "rgbd_capture" with
 
--- +++ processing catkin package: 'robot_properties'
+  any of the following names:
 
--- ==> add_subdirectory(catkin/humanoids/humanoid_control_skinny/robot_properties/robot_properties)
 
--- +++ processing catkin package: 'robot_properties_hermes_lower'
 
--- ==> add_subdirectory(catkin/humanoids/humanoid_control_skinny/robot_properties/robot_properties_hermes_lower)
+    rgbd_captureConfig.cmake
 
--- +++ processing catkin package: 'sl_config'
+    rgbd_capture-config.cmake
 
--- ==> add_subdirectory(catkin/core-sl/sl_config)
 
--- +++ processing catkin package: 'utilities'
 
--- ==> add_subdirectory(catkin/core-sl/locomotion-utilities)
+  Add the installation prefix of "rgbd_capture" to CMAKE_PREFIX_PATH or set
 
--- +++ processing catkin package: 'lwpr'
+  "rgbd_capture_DIR" to a directory containing one of the above files.  If
 
--- ==> add_subdirectory(catkin/core-sl/locomotion-lwpr)
+  "rgbd_capture" provides a separate development package or SDK, be sure it
 
--- +++ processing catkin package: 'sl'
+  has been installed.
 
--- ==> add_subdirectory(catkin/core-sl/locomotion-sl)
+Call Stack (most recent call first):
 
--- Found libedit: /usr/lib/x86_64-linux-gnu/libedit.so
+  catkin/core-calibration/rgbd_intrinsic_calibration/CMakeLists.txt:7 (find_package)
 
--- GLUT_LIBRARIES=/usr/lib/x86_64-linux-gnu/libglut.so;/usr/lib/x86_64-linux-gnu/libXmu.so;/usr/lib/x86_64-linux-gnu/libXi.so
 
--- GLUT_INCLUDE_DIR=/usr/include
 
--- GLUT_FOUND: TRUE
 
--- Libedit_INCLUDE_DIRS=/usr/include
 
--- Libedit_LIBRARIES=/usr/lib/x86_64-linux-gnu/libedit.so
+-- Configuring incomplete, errors occurred!
 
--- SLros dependencies found; compiling ROS servo.
+See also "/home/administrator/ci/ci/team/workspace/build/CMakeFiles/CMakeOutput.log".
 
--- +++ processing catkin package: 'yaml_cpp'
-
--- ==> add_subdirectory(catkin/third_party/YAML_CPP)
-
--- Boost version: 1.54.0
-
--- +++ processing catkin package: 'hermes_core'
-
--- ==> add_subdirectory(catkin/robots/hermesCore)
-
--- +++ processing catkin package: 'hermes_lower'
-
--- ==> add_subdirectory(catkin/robots/hermesLower)
-
--- Boost version: 1.54.0
-
--- Found the following Boost libraries:
-
---   thread
-
---   system
-
--- hermes_lower: compiling on everest; simulation only.
-
--- +++ processing catkin package: 'robot_math'
-
--- ==> add_subdirectory(catkin/humanoids/humanoid_control_skinny/robot_math)
-
--- +++ processing catkin package: 'io_tools'
-
--- ==> add_subdirectory(catkin/humanoids/humanoid_control_skinny/io_tools)
-
--- +++ processing catkin package: 'floating_base_tools_hermes_lower'
-
--- ==> add_subdirectory(catkin/humanoids/humanoid_control_skinny/floating_base_tools_common/floating_base_tools_hermes_lower)
-
--- +++ processing catkin package: 'io_tools_sl'
-
--- ==> add_subdirectory(catkin/humanoids/humanoid_control_skinny/io_tools_sl)
-
--- +++ processing catkin package: 'floating_base_tools_sl_hermes_lower'
-
--- ==> add_subdirectory(catkin/humanoids/humanoid_control_skinny/floating_base_tools_sl/floating_base_tools_sl_hermes_lower)
-
--- Boost version: 1.54.0
-
--- Found the following Boost libraries:
-
---   thread
-
---   system
-
---   filesystem
-
--- +++ processing catkin package: 'footsteps_planner_miqcqp_sl'
-
--- ==> add_subdirectory(catkin/humanoids/humanoid_control_skinny/contacts_planning_sl/footsteps_planner_MIQCQP_sl)
-
--- Boost version: 1.54.0
-
--- Found the following Boost libraries:
-
---   system
-
---   program_options
-
---   filesystem
-
--- +++ processing catkin package: 'generalized_motion_primitives_hermes_lower'
-
--- ==> add_subdirectory(catkin/humanoids/generalized_motion_primitives/generalized_motion_primitives_hermes_lower)
-
--- Boost version: 1.54.0
-
--- Found the following Boost libraries:
-
---   system
-
--- +++ processing catkin package: 'visualization_tools_hermes_lower'
-
--- ==> add_subdirectory(catkin/humanoids/humanoid_control_skinny/visualization_tools/visualization_tools_hermes_lower)
-
--- Boost version: 1.54.0
-
--- Found the following Boost libraries:
-
---   thread
-
---   system
-
---   filesystem
-
--- +++ processing catkin package: 'hermes_lower_user'
-
--- ==> add_subdirectory(catkin/robots/hermesLowerUser)
-
--- Boost version: 1.54.0
-
--- Found the following Boost libraries:
-
---   regex
-
---   filesystem
-
---   system
-
---   thread
-
-julia interface not found, not compiling in julia tasks
-
-If you want the julia interface, you need the julia_sl_interface package, and you must set an environment flag called JULIA_PATH, pointing to a directory containing a (properly compiled) julia repository. E.g.:
-
-juliaDir=~/julia; mkdir -p $juliaDir; cd $juliaDir; git clone https://github.com/JuliaLang/julia.git .; git checkout v0.4.2; make -j 8; echo JULIA_PATH="$juliaDir" >> ~/.bashrc; echo "export PATH=\$PATH:" $juliaDir >> ~/.bashrc; source ~/.bashrc
-
--- Configuring done
-
--- Generating done
-
--- Build files have been written to: /home/administrator/ci/ci/team/workspace/build
-
-Scanning dependencies of target gtest
-
-[  0%] [ 68%] Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
-
-Built target utility
-
-[ 73%] Built target geometry_utils
-
-[ 78%] Built target configuration_file_loading
-
-Linking CXX shared library libgtest.so
-
-[ 78%] Built target gtest
-
-Scanning dependencies of target gtest_main
-
-[ 84%] Building CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
-
-Linking CXX shared library libgtest_main.so
-
-[ 84%] Built target gtest_main
-
-Scanning dependencies of target configuration_file_loading_tests
-
-Scanning dependencies of target geometry_utils_test
-
-Scanning dependencies of target robot_math_test
-
-[ 84%] Building CXX object catkin/humanoids/humanoid_control_skinny/io_tools/CMakeFiles/configuration_file_loading_tests.dir/src/configuration_file_loading/TestConfigurationFileReader.cpp.o
-
-[ 89%] [ 89%] [ 89%] [ 89%] Building CXX object catkin/humanoids/humanoid_control_skinny/robot_math/CMakeFiles/geometry_utils_test.dir/tests/geometry_utils/main.cpp.o
-
-Building CXX object catkin/humanoids/humanoid_control_skinny/robot_math/CMakeFiles/geometry_utils_test.dir/tests/geometry_utils/geometry_utils_test.cpp.o
-
-[ 94%] [100%] [100%] Building CXX object catkin/humanoids/humanoid_control_skinny/robot_math/CMakeFiles/geometry_utils_test.dir/tests/geometry_utils/spatial_algebra_test.cpp.o
-
-Building CXX object catkin/humanoids/humanoid_control_skinny/robot_math/CMakeFiles/robot_math_test.dir/tests/robot_math/TestRtWaypointGenerator.cpp.o
-
-Building CXX object catkin/humanoids/humanoid_control_skinny/robot_math/CMakeFiles/robot_math_test.dir/tests/robot_math/TestRtEiquadprog.cpp.o
-
-Building CXX object catkin/humanoids/humanoid_control_skinny/robot_math/CMakeFiles/robot_math_test.dir/tests/robot_math/movable_eigen_matrix_test.cpp.o
-
-Building CXX object catkin/humanoids/humanoid_control_skinny/robot_math/CMakeFiles/geometry_utils_test.dir/tests/geometry_utils/coordinate_transform_test.cpp.o
-
-/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control_skinny/io_tools/src/configuration_file_loading/TestConfigurationFileReader.cpp: In function ‘void test_configuration_file_loading::changeToDirectoryWithConfigFile()’:
-
-/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control_skinny/io_tools/src/configuration_file_loading/TestConfigurationFileReader.cpp:33:74: warning: ignoring return value of ‘int chdir(const char*)’, declared with attribute warn_unused_result [-Wunused-result]
-
-   chdir("../../../../../src/catkin/humanoids/humanoid_control/io_tools/"); //configuration_file_loading"); //
-
-                                                                          ^
-
-/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control_skinny/robot_math/tests/robot_math/TestRtWaypointGenerator.cpp: In member function ‘virtual void robot_math::RtWaypointGeneration_Test_rt_waypoint_gen_query_Test::TestBody()’:
-
-/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control_skinny/robot_math/tests/robot_math/TestRtWaypointGenerator.cpp:31:23: error: ‘class robot_math::RtWaypointGenerator<3, 10>’ has no member named ‘resize’
-
-       rt_waypoint_gen.resize(num_dim,num_waypoints);
-
-                       ^
-
-/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control_skinny/robot_math/tests/robot_math/TestRtWaypointGenerator.cpp:50:23: error: ‘class robot_math::RtWaypointGenerator<3, 10>’ has no member named ‘initializeWaypoints’
-
-       rt_waypoint_gen.initializeWaypoints(pos, vel, acc, time);
-
-                       ^
-
-In file included from /home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control_skinny/robot_math/tests/robot_math/TestRtWaypointGenerator.cpp:3:0:
-
-/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control_skinny/robot_math/include/robot_math/RtWaypointGenerator.h:127:10: error: ‘void robot_math::RtWaypointGenerator<num_dim, max_num_waypoints>::query(robot_math::RtWaypointGenerator<num_dim, max_num_waypoints>::VecNd&, robot_math::RtWaypointGenerator<num_dim, max_num_waypoints>::VecNd&, robot_math::RtWaypointGenerator<num_dim, max_num_waypoints>::VecNd&, double) [with int num_dim = 3; int max_num_waypoints = 10; robot_math::RtWaypointGenerator<num_dim, max_num_waypoints>::VecNd = Eigen::Matrix<double, 3, 1>]’ is private
-
-     void RtWaypointGenerator<num_dim,max_num_waypoints>::query(VecNd &pos, VecNd &vel, VecNd &acc, double time) {
-
-          ^
-
-/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control_skinny/robot_math/tests/robot_math/TestRtWaypointGenerator.cpp:58:69: error: within this context
-
-       rt_waypoint_gen.query(pos_query, vel_query, acc_query, t_query);
-
-                                                                     ^
-
-make[3]: *** [catkin/humanoids/humanoid_control_skinny/robot_math/CMakeFiles/robot_math_test.dir/tests/robot_math/TestRtWaypointGenerator.cpp.o] Error 1
-
-make[3]: *** Waiting for unfinished jobs....
-
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/io_tools/configuration_file_loading_tests
-
-[100%] Built target configuration_file_loading_tests
-
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/robot_math/geometry_utils_test
-
-[100%] Built target geometry_utils_test
-
-make[2]: *** [catkin/humanoids/humanoid_control_skinny/robot_math/CMakeFiles/robot_math_test.dir/all] Error 2
-
-make[1]: *** [CMakeFiles/tests.dir/rule] Error 2
-
-make: *** [tests] Error 2
+See also "/home/administrator/ci/ci/team/workspace/build/CMakeFiles/CMakeError.log".
 
 Base path: /home/administrator/ci/ci/team/workspace
 
@@ -347,14 +116,8 @@ Install space: /home/administrator/ci/ci/team/workspace/install
 
 ####
 
-#### Running command: "cmake /home/administrator/ci/ci/team/workspace/src -DCATKIN_DEVEL_PREFIX=/home/administrator/ci/ci/team/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/administrator/ci/ci/team/workspace/install" in "/home/administrator/ci/ci/team/workspace/build"
+#### Running command: "cmake /home/administrator/ci/ci/team/workspace/src -DCATKIN_DEVEL_PREFIX=/home/administrator/ci/ci/team/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/administrator/ci/ci/team/workspace/install -G Unix Makefiles" in "/home/administrator/ci/ci/team/workspace/build"
 
 ####
 
-####
-
-#### Running command: "make -j16 tests" in "/home/administrator/ci/ci/team/workspace/build"
-
-####
-
-Invoking "make" failed
+Invoking "cmake" failed
