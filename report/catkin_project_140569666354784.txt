@@ -1,394 +1,362 @@
-WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
+-- Using CATKIN_DEVEL_PREFIX: /home/administrator/ci/ci/team/workspace/devel
 
-[  0%] Built target arm_cdlbt
+-- Using CMAKE_PREFIX_PATH: /opt/ros/indigo
 
-[  0%] Built target arm_can_control_tools
+-- This workspace overlays: /opt/ros/indigo
 
-[  0%] Built target biotac_cheetah
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
 
-[  1%] Built target biotac_core
+-- Using Debian Python package layout
 
-[  1%] Built target test_cheetah
+-- Using empy: /usr/bin/empy
 
-[  1%] Built target test_conversions
+-- Using CATKIN_ENABLE_TESTING: ON
 
-[  1%] Built target quadprog
+-- Call enable_testing()
 
-[  1%] Built target lockfree
+-- Using CATKIN_TEST_RESULTS_DIR: /home/administrator/ci/ci/team/workspace/build/test_results
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_AccelerationFeedbackExperimentStatus
+-- Found gtest sources under '/usr/src/gtest': gtests will be built
 
-[  1%] Built target geometry_msgs_generate_messages_py
+-- Using Python nosetests: /usr/bin/nosetests-2.7
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibratePressureSensorsStatus
+-- catkin 0.6.19
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_BoundingPoints
+-- BUILD_SHARED_LIBS is on
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_NavigationTarget
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ResetBreakaway
+-- ~~  traversing 19 packages in topological order:
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PolicyControllerParamsService
+-- ~~  - astar_algo
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SwitchControllerStack
+-- ~~  - playful_color_detection_libs
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineLearningControl
+-- ~~  - soma
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerDataStatus
+-- ~~  - start_robot
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Goto_command
+-- ~~  - amd_clmc_ros_messages
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_RtNetwork
+-- ~~  - ar_track_alvar_msgs
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspControllerStatus
+-- ~~  - custom_robot_msgs
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_BiotacData
+-- ~~  - riemo_grasping_msgs
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ExperimentParams
+-- ~~  - playful_navigation_msgs
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_AvgPressureSensors
+-- ~~  - playful_pcl
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_QueryControllerStatus
+-- ~~  - playful_histograms
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Volumes
+-- ~~  - playful_virtual_detection
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_UpdateStrainGagesCalibration
+-- ~~  - playful_color_detection_nodes
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ImageCoordinates
+-- ~~  - playful_depth_detection
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LabeledPoint
+-- ~~  - playful_navigation
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_IncreaseMaxFingerTorque
+-- ~~  - playful_navigation_nodes
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Preshape
+-- ~~  - playful_nodes
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LqrControllerDataStatus
+-- ~~  - playful_table_setting
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PressureSensors
+-- ~~  - playful_kinematics
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ObstaclePoints
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateForceTorqueSensor
+-- +++ processing catkin package: 'astar_algo'
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CartesianTrajectory
+-- ==> add_subdirectory(catkin/playful/playful-navigation/externals/astar-algo)
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Acceleration
+-- +++ processing catkin package: 'playful_color_detection_libs'
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PolicyControllerDataStatus
+-- ==> add_subdirectory(catkin/playful/playful-perception/playful_color_detection/playful_color_detection_libs)
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerParamsService
+-- Boost version: 1.54.0
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspPoses
+-- Found the following Boost libraries:
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_TrajectoryStatus
+--   system
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ExperimentGeneratorParamsService
+-- +++ processing catkin package: 'soma'
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PointArrayArray
+-- ==> add_subdirectory(catkin/playful/playful-soma)
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerStatus
+-- +++ processing catkin package: 'start_robot'
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CartesianTrajectoryPoint
+-- ==> add_subdirectory(catkin/robots/start_robot)
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LookAtParams
+-- +++ processing catkin package: 'amd_clmc_ros_messages'
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineNetwork
+-- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/amd_clmc_ros_messages)
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_BiotacFingerData
+-- Using these message generators: gencpp;genlisp;genpy
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CollectDataStatus
+-- amd_clmc_ros_messages: 108 messages, 10 services
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ColorRange
+-- +++ processing catkin package: 'ar_track_alvar_msgs'
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LookAtStatus
+-- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/ar_track_alvar_msgs)
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DMPControllerStatus
+-- Using these message generators: gencpp;genlisp;genpy
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_RtNetworkLayer
+-- ar_track_alvar_msgs: 2 messages, 0 services
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibratePressureSensors
+-- +++ processing catkin package: 'custom_robot_msgs'
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Extrems
+-- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/custom_robot_msgs)
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DMPCommand
+-- Using these message generators: gencpp;genlisp;genpy
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_NetworkLayer
+-- custom_robot_msgs: 1 messages, 2 services
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ScaledLqr
+-- +++ processing catkin package: 'riemo_grasping_msgs'
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ViconQuery
+-- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/riemo_grasping_msgs)
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspControllerParams
+-- Using these message generators: gencpp;genlisp;genpy
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_TrajectoryPoint
+-- riemo_grasping_msgs: 5 messages, 3 services
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SetPoses
+-- +++ processing catkin package: 'playful_navigation_msgs'
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_UpdateStrainGagesCalibrationStatus
+-- ==> add_subdirectory(catkin/playful/playful-navigation/navigation_msgs)
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DMPControllerParams
+-- Using these message generators: gencpp;genlisp;genpy
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Path
+-- playful_navigation_msgs: 0 messages, 2 services
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SetVisualToolTracking
+-- +++ processing catkin package: 'playful_pcl'
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ContinuousTrajectoryStatus
+-- ==> add_subdirectory(catkin/playful/playful-perception/playful_pcl)
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ContinuousTrajectoryPoint
+-- Boost version: 1.54.0
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_BoundingPointsArray
+-- Found the following Boost libraries:
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SetObjectOri
+--   system
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_EndEffectorPosition
+--   filesystem
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_InverseDynamicsBatchNetworkControllerStatus
+--   thread
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Imu
+--   date_time
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_FingerJointEncoderOffsetsStatus
+--   iostreams
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerParams
+--   serialization
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineDataStatus
+--   chrono
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_AffinePolicy
+-- checking for module 'openni-dev'
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateAccelerometerSensorStatus
+--   package 'openni-dev' not found
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspStatus
+-- checking for module 'openni2-dev'
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DistanceFieldEval
+--   package 'openni2-dev' not found
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LqrControllerParams
+** WARNING ** io features related to pcap will be disabled
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CartesianGains
+** WARNING ** io features related to png will be disabled
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ChordEllipsoid
+-- checking for module 'openni-dev'
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OnlineDataStatus
+--   package 'openni-dev' not found
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DistanceFieldQueries
+-- checking for module 'openni2-dev'
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_FingerJointEncoderOffsets
+--   package 'openni2-dev' not found
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_KeyPointBodyApprox
+-- looking for PCL_COMMON
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineLearningControlService
+-- looking for PCL_KDTREE
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LinearQuadraticRegulatorParams
+-- looking for PCL_OCTREE
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LqrControllerParamsService
+-- looking for PCL_SEARCH
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Grasp
+-- looking for PCL_SURFACE
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_FingerForceControlGains
+-- looking for PCL_SAMPLE_CONSENSUS
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateBiotacSensorsStatus
+-- looking for PCL_FILTERS
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_StrainGauge
+-- looking for PCL_FEATURES
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ExtremsArray
+-- looking for PCL_KEYPOINTS
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_TaskFrame
+-- looking for PCL_GEOMETRY
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Sphere
+-- looking for PCL_IO
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_EndEffectorState
+-- looking for PCL_VISUALIZATION
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_RectangularBox
+-- looking for PCL_SEGMENTATION
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ViconData
+-- looking for PCL_PEOPLE
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SpeedChange
+-- looking for PCL_REGISTRATION
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateAccelerometerSensor
+-- looking for PCL_RECOGNITION
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ResetBreakawayStatus
+-- looking for PCL_OUTOFCORE
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_RectangularBoxArray
+-- looking for PCL_TRACKING
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ControllerStatus
+-- +++ processing catkin package: 'playful_histograms'
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateBiotacSensors
+-- ==> add_subdirectory(catkin/playful/playful-perception/playful_histograms)
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineParams
+-- Boost version: 1.54.0
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LinearQuadraticRegulatorStatus
+-- Found the following Boost libraries:
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_EnvironmentalObject
+--   system
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Matrix32
+-- +++ processing catkin package: 'playful_virtual_detection'
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ObjectMass
+-- ==> add_subdirectory(catkin/playful/playful-perception/playful_virtual_detection)
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Gains
+-- +++ processing catkin package: 'playful_color_detection_nodes'
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PointArray
+-- ==> add_subdirectory(catkin/playful/playful-perception/playful_color_detection/playful_color_detection_nodes)
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Trajectory
+-- +++ processing catkin package: 'playful_depth_detection'
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ImageCoordinatesArray
+-- ==> add_subdirectory(catkin/playful/playful-perception/playful_depth_detection)
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateForceTorqueSensorStatus
+-- +++ processing catkin package: 'playful_navigation'
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LinearQuadraticRegulator
+-- ==> add_subdirectory(catkin/playful/playful-navigation/navigation_libs)
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_InverseDynamicsBatchNetworkControllerParams
+-- Using these message generators: gencpp;genlisp;genpy
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_TrackingPose
+-- +++ processing catkin package: 'playful_navigation_nodes'
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineParamsService
+-- ==> add_subdirectory(catkin/playful/playful-navigation/navigation_nodes)
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CollectData
+-- Boost version: 1.54.0
 
-[ 21%] Built target amd_clmc_ros_messages_generate_messages_py
+-- Found the following Boost libraries:
 
-[ 21%] Built target geometry_msgs_generate_messages_cpp
+--   system
 
-[ 40%] Built target amd_clmc_ros_messages_generate_messages_cpp
+-- Using these message generators: gencpp;genlisp;genpy
 
-[ 40%] Built target geometry_msgs_generate_messages_lisp
+-- +++ processing catkin package: 'playful_nodes'
 
-[ 60%] Built target amd_clmc_ros_messages_generate_messages_lisp
+-- ==> add_subdirectory(catkin/playful/playful-perception/playful_nodes)
 
-[ 60%] Built target amd_clmc_ros_messages_generate_messages
+-- Using these message generators: gencpp;genlisp;genpy
 
-[ 60%] Built target _ar_track_alvar_msgs_generate_messages_check_deps_AlvarMarker
+-- Boost version: 1.54.0
 
-[ 60%] Built target std_msgs_generate_messages_py
+-- Found the following Boost libraries:
 
-[ 60%] Built target _ar_track_alvar_msgs_generate_messages_check_deps_AlvarMarkers
+--   system
 
-[ 60%] Built target ar_track_alvar_msgs_generate_messages_py
+--   filesystem
 
-[ 60%] Built target std_msgs_generate_messages_lisp
+--   thread
 
-[ 61%] Built target ar_track_alvar_msgs_generate_messages_lisp
+--   date_time
 
-[ 61%] Built target std_msgs_generate_messages_cpp
+--   iostreams
 
-[ 61%] Built target ar_track_alvar_msgs_generate_messages_cpp
+--   serialization
 
-[ 61%] Built target ar_track_alvar_msgs_generate_messages
+--   chrono
 
-[ 61%] Built target _custom_robot_msgs_generate_messages_check_deps_assembly_phase
+-- checking for module 'openni-dev'
 
-[ 61%] Built target _custom_robot_msgs_generate_messages_check_deps_PolicyInterface
+--   package 'openni-dev' not found
 
-[ 61%] Built target _custom_robot_msgs_generate_messages_check_deps_PredictAssembly
+-- checking for module 'openni2-dev'
 
-[ 62%] Built target custom_robot_msgs_generate_messages_py
+--   package 'openni2-dev' not found
 
-[ 63%] Built target custom_robot_msgs_generate_messages_cpp
+** WARNING ** io features related to pcap will be disabled
 
-[ 63%] Built target custom_robot_msgs_generate_messages_lisp
+** WARNING ** io features related to png will be disabled
 
-[ 63%] Built target custom_robot_msgs_generate_messages
+-- checking for module 'openni-dev'
 
-[ 63%] Built target _riemo_grasping_msgs_generate_messages_check_deps_GraspPose
+--   package 'openni-dev' not found
 
-[ 63%] Built target _riemo_grasping_msgs_generate_messages_check_deps_GraspProblemInfo
+-- checking for module 'openni2-dev'
 
-[ 63%] Built target _riemo_grasping_msgs_generate_messages_check_deps_RenderGraspProblemService
+--   package 'openni2-dev' not found
 
-[ 63%] Built target _riemo_grasping_msgs_generate_messages_check_deps_GraspableObject
+-- looking for PCL_COMMON
 
-[ 63%] Built target _riemo_grasping_msgs_generate_messages_check_deps_MpiGraspPoses
+-- looking for PCL_KDTREE
 
-[ 63%] Built target _riemo_grasping_msgs_generate_messages_check_deps_UpdateGraspProblem
+-- looking for PCL_OCTREE
 
-[ 63%] Built target _riemo_grasping_msgs_generate_messages_check_deps_LatestGraspProblemInfo
+-- looking for PCL_SEARCH
 
-[ 63%] Built target _riemo_grasping_msgs_generate_messages_check_deps_Preshape
+-- looking for PCL_SURFACE
 
-[ 65%] Built target riemo_grasping_msgs_generate_messages_lisp
+-- looking for PCL_SAMPLE_CONSENSUS
 
-[ 67%] Built target riemo_grasping_msgs_generate_messages_py
+-- looking for PCL_FILTERS
 
-[ 68%] Built target riemo_grasping_msgs_generate_messages_cpp
+-- looking for PCL_FEATURES
 
-[ 68%] Built target riemo_grasping_msgs_generate_messages
+-- looking for PCL_KEYPOINTS
 
-[ 73%] Built target utility
+-- looking for PCL_GEOMETRY
 
-[ 74%] Built target lwpr
+-- looking for PCL_IO
 
-[ 74%] Built target xascii2clmcplot
+-- looking for PCL_VISUALIZATION
 
-[ 75%] Built target xlwpr
+-- looking for PCL_SEGMENTATION
 
-[ 75%] Built target xlwprstat
+-- looking for PCL_PEOPLE
 
-[ 75%] Built target shape_msgs_generate_messages_py
+-- looking for PCL_REGISTRATION
 
-[ 75%] Built target _constrained_inverse_kinematics_msgs_generate_messages_check_deps_InverseKinematicsRequest
+-- looking for PCL_RECOGNITION
 
-[ 75%] Built target constrained_inverse_kinematics_msgs_generate_messages_py
+-- looking for PCL_OUTOFCORE
 
-[ 75%] Built target shape_msgs_generate_messages_cpp
+-- looking for PCL_TRACKING
 
-[ 75%] Built target constrained_inverse_kinematics_msgs_generate_messages_cpp
+-- +++ processing catkin package: 'playful_table_setting'
 
-[ 75%] Built target shape_msgs_generate_messages_lisp
+-- ==> add_subdirectory(catkin/playful/playful-table-setting)
 
-[ 75%] Built target constrained_inverse_kinematics_msgs_generate_messages_lisp
+-- Using these message generators: gencpp;genlisp;genpy
 
-[ 75%] Built target constrained_inverse_kinematics_msgs_generate_messages
+-- +++ processing catkin package: 'playful_kinematics'
 
-[ 75%] Built target roscpp_utilities
+-- ==> add_subdirectory(catkin/playful/playful-kinematics)
 
-[ 76%] Built target rosrt
+CMake Error at /opt/ros/indigo/share/catkin/cmake/catkin_python_setup.cmake:96 (message):
 
-[ 77%] Building CXX object catkin/sensors/biotac-ros-rt/CMakeFiles/ros_rt_biotac_publisher.dir/src/biotac_publisher.cpp.o
+  The package name 'playful_kinematics' differs from the basename of the path
 
-In file included from /opt/ros/indigo/include/ros/ros.h:40:0,
+  'scripts' in project 'playful_kinematics'
 
-                 from /home/administrator/ci/ci/team/workspace/src/catkin/sensors/biotac-ros-rt/src/biotac_publisher.cpp:6:
+Call Stack (most recent call first):
 
-/home/administrator/ci/ci/team/workspace/src/catkin/sensors/biotac-ros-rt/src/biotac_publisher.cpp: In function ‘void run(int, char**)’:
+  catkin/playful/playful-kinematics/CMakeLists.txt:69 (catkin_python_setup)
 
-/home/administrator/ci/ci/team/workspace/src/catkin/sensors/biotac-ros-rt/src/biotac_publisher.cpp:195:86: error: ‘class biotac_core::BiotacReaderCheetah’ has no member named ‘raw_data_read_rate_hz’
 
-             ROS_INFO("BioTac Cheetah (USB) Data Rate = %f Hz", biotac_reader_cheetah.raw_data_read_rate_hz);
 
-                                                                                      ^
 
-/opt/ros/indigo/include/ros/console.h:343:165: note: in definition of macro ‘ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER’
 
-     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__)
+-- Configuring incomplete, errors occurred!
 
-                                                                                                                                                                     ^
+See also "/home/administrator/ci/ci/team/workspace/build/CMakeFiles/CMakeOutput.log".
 
-/opt/ros/indigo/include/ros/console.h:376:7: note: in expansion of macro ‘ROSCONSOLE_PRINT_AT_LOCATION’
-
-       ROSCONSOLE_PRINT_AT_LOCATION(__VA_ARGS__); \
-
-       ^
-
-/opt/ros/indigo/include/ros/console.h:558:35: note: in expansion of macro ‘ROS_LOG_COND’
-
- #define ROS_LOG(level, name, ...) ROS_LOG_COND(true, level, name, __VA_ARGS__)
-
-                                   ^
-
-/opt/ros/indigo/include/rosconsole/macros_generated.h:110:23: note: in expansion of macro ‘ROS_LOG’
-
- #define ROS_INFO(...) ROS_LOG(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
-
-                       ^
-
-/home/administrator/ci/ci/team/workspace/src/catkin/sensors/biotac-ros-rt/src/biotac_publisher.cpp:195:13: note: in expansion of macro ‘ROS_INFO’
-
-             ROS_INFO("BioTac Cheetah (USB) Data Rate = %f Hz", biotac_reader_cheetah.raw_data_read_rate_hz);
-
-             ^
-
-make[2]: *** [catkin/sensors/biotac-ros-rt/CMakeFiles/ros_rt_biotac_publisher.dir/src/biotac_publisher.cpp.o] Error 1
-
-make[1]: *** [catkin/sensors/biotac-ros-rt/CMakeFiles/ros_rt_biotac_publisher.dir/all] Error 2
-
-make: *** [all] Error 2
+See also "/home/administrator/ci/ci/team/workspace/build/CMakeFiles/CMakeError.log".
 
 Base path: /home/administrator/ci/ci/team/workspace
 
@@ -402,14 +370,8 @@ Install space: /home/administrator/ci/ci/team/workspace/install
 
 ####
 
-#### Running command: "make cmake_check_build_system" in "/home/administrator/ci/ci/team/workspace/build"
+#### Running command: "cmake /home/administrator/ci/ci/team/workspace/src -DCATKIN_DEVEL_PREFIX=/home/administrator/ci/ci/team/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/administrator/ci/ci/team/workspace/install -G Unix Makefiles" in "/home/administrator/ci/ci/team/workspace/build"
 
 ####
 
-####
-
-#### Running command: "make -j1" in "/home/administrator/ci/ci/team/workspace/build"
-
-####
-
-Invoking "make -j1" failed
+Invoking "cmake" failed
