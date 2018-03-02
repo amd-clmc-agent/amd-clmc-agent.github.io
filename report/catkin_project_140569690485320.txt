@@ -6,9 +6,9 @@
 
 -- Using PYTHON_EXECUTABLE: /usr/bin/python
 
--- Python version: 2.7
-
 -- Using Debian Python package layout
+
+-- Using empy: /usr/bin/empy
 
 -- Using CATKIN_ENABLE_TESTING: ON
 
@@ -18,109 +18,63 @@
 
 -- Found gtest sources under '/usr/src/gtest': gtests will be built
 
--- catkin 0.5.90
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+
+-- catkin 0.7.7
 
 -- BUILD_SHARED_LIBS is on
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- ~~  traversing 10 packages in topological order:
+-- ~~  traversing 3 packages in topological order:
 
--- ~~  - ros_realtime (metapackage)
+-- ~~  - baselines
 
--- ~~  - allocators
+-- ~~  - gazebo_grasping
 
--- ~~  - rosatomic
-
--- ~~  - lockfree
-
--- ~~  - rt_timer
-
--- ~~  - xenomai_ros
-
--- ~~  - rosrt
-
--- ~~  - goto_ui
-
--- ~~  - goto_ui_task
-
--- ~~  - ros_rt_test
+-- ~~  - grasping_env
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- +++ processing catkin metapackage: 'ros_realtime'
+-- +++ processing catkin package: 'baselines'
 
--- ==> add_subdirectory(catkin/ros/ros_realtime/ros_realtime)
+-- ==> add_subdirectory(catkin/grasping_sim/src/baselines_catkin)
 
--- +++ processing catkin package: 'allocators'
+-- +++ processing catkin package: 'gazebo_grasping'
 
--- ==> add_subdirectory(catkin/ros/ros_realtime/allocators)
-
--- Boost version: 1.54.0
-
--- +++ processing catkin package: 'rosatomic'
-
--- ==> add_subdirectory(catkin/ros/ros_realtime/rosatomic)
+-- ==> add_subdirectory(catkin/grasping_sim/src/gazebo_grasping)
 
 -- Boost version: 1.54.0
 
--- +++ processing catkin package: 'lockfree'
+CMake Error at catkin/grasping_sim/src/gazebo_grasping/CMakeLists.txt:13 (find_package):
 
--- ==> add_subdirectory(catkin/ros/ros_realtime/lockfree)
+  By not providing "Findignition-transport3.cmake" in CMAKE_MODULE_PATH this
 
--- Boost version: 1.54.0
+  project has asked CMake to find a package configuration file provided by
 
--- +++ processing catkin package: 'rt_timer'
-
--- ==> add_subdirectory(catkin/ros/ros_realtime/rt_timer)
-
--- +++ processing catkin package: 'xenomai_ros'
-
--- ==> add_subdirectory(catkin/ros/xenomai-ros)
-
--- +++ processing catkin package: 'rosrt'
-
--- ==> add_subdirectory(catkin/ros/ros_realtime/rosrt)
-
--- xenomai NOT found. (/usr/local;/usr)
-
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
-
--- Boost version: 1.54.0
-
--- Found the following Boost libraries:
-
---   thread
-
--- +++ processing catkin package: 'goto_ui'
-
--- ==> add_subdirectory(catkin/core-sl/goto_ui)
-
-CMake Error at /home/administrator/ci/ci/team/workspace/devel/share/catkin/cmake/catkinConfig.cmake:75 (find_package):
-
-  Could not find a package configuration file provided by "utilities" with
-
-  any of the following names:
+  "ignition-transport3", but CMake did not find one.
 
 
 
-    utilitiesConfig.cmake
+  Could not find a package configuration file provided by
 
-    utilities-config.cmake
+  "ignition-transport3" with any of the following names:
 
 
 
-  Add the installation prefix of "utilities" to CMAKE_PREFIX_PATH or set
+    ignition-transport3Config.cmake
 
-  "utilities_DIR" to a directory containing one of the above files.  If
+    ignition-transport3-config.cmake
 
-  "utilities" provides a separate development package or SDK, be sure it has
 
-  been installed.
 
-Call Stack (most recent call first):
+  Add the installation prefix of "ignition-transport3" to CMAKE_PREFIX_PATH
 
-  catkin/core-sl/goto_ui/CMakeLists.txt:8 (find_package)
+  or set "ignition-transport3_DIR" to a directory containing one of the above
+
+  files.  If "ignition-transport3" provides a separate development package or
+
+  SDK, be sure it has been installed.
 
 
 
