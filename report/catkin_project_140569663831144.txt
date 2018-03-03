@@ -1,14 +1,36 @@
+-- The C compiler identification is GNU 4.8.4
+
+-- The CXX compiler identification is GNU 4.8.4
+
+-- Check for working C compiler: /usr/bin/cc
+
+-- Check for working C compiler: /usr/bin/cc -- works
+
+-- Detecting C compiler ABI info
+
+-- Detecting C compiler ABI info - done
+
+-- Check for working CXX compiler: /usr/bin/c++
+
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+
+-- Detecting CXX compiler ABI info
+
+-- Detecting CXX compiler ABI info - done
+
 -- Using CATKIN_DEVEL_PREFIX: /home/administrator/ci/ci/team/workspace/devel
 
 -- Using CMAKE_PREFIX_PATH: /opt/ros/indigo
 
 -- This workspace overlays: /opt/ros/indigo
 
+-- Found PythonInterp: /usr/bin/python (found version "2.7.6") 
+
 -- Using PYTHON_EXECUTABLE: /usr/bin/python
 
--- Python version: 2.7
-
 -- Using Debian Python package layout
+
+-- Using empy: /usr/bin/empy
 
 -- Using CATKIN_ENABLE_TESTING: ON
 
@@ -16,171 +38,149 @@
 
 -- Using CATKIN_TEST_RESULTS_DIR: /home/administrator/ci/ci/team/workspace/build/test_results
 
+-- Looking for include file pthread.h
+
+-- Looking for include file pthread.h - found
+
+-- Looking for pthread_create
+
+-- Looking for pthread_create - not found
+
+-- Looking for pthread_create in pthreads
+
+-- Looking for pthread_create in pthreads - not found
+
+-- Looking for pthread_create in pthread
+
+-- Looking for pthread_create in pthread - found
+
+-- Found Threads: TRUE  
+
 -- Found gtest sources under '/usr/src/gtest': gtests will be built
 
--- catkin 0.5.90
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+
+-- catkin 0.6.19
 
 -- BUILD_SHARED_LIBS is on
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- ~~  traversing 8 packages in topological order:
+-- ~~  traversing 3 packages in topological order:
 
--- ~~  - fl
+-- ~~  - amd_clmc_eigen
 
--- ~~  - dbot
+-- ~~  - vicon_sdk
 
--- ~~  - launch_xtion
-
--- ~~  - object_meshes
-
--- ~~  - dbot_ros_msgs
-
--- ~~  - dbot_ros
-
--- ~~  - meshless_tracking
-
--- ~~  - table_object_finder
+-- ~~  - vicon_capture
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- +++ processing catkin package: 'fl'
+-- +++ processing catkin package: 'amd_clmc_eigen'
 
--- ==> add_subdirectory(catkin/core-perception/fl)
+-- ==> add_subdirectory(catkin/third_party/amd-clmc-eigen)
 
--- Eigen found (include: /usr/include/eigen3)
+-- +++ processing catkin package: 'vicon_sdk'
 
--- Boost version: 1.54.0
+-- ==> add_subdirectory(catkin/sensors/vicon_sdk)
 
--- +++ processing catkin package: 'dbot'
+-- +++ processing catkin package: 'vicon_capture'
 
--- ==> add_subdirectory(catkin/core-perception/dbot)
-
--- Eigen found (include: /usr/include/eigen3)
-
--- Boost version: 1.54.0
-
--- Found the following Boost libraries:
-
---   system
-
---   filesystem
-
--- Found CUDA version 8.0
-
--- Using catkin
-
--- +++ processing catkin package: 'launch_xtion'
-
--- ==> add_subdirectory(catkin/ros/launch_xtion)
-
--- +++ processing catkin package: 'object_meshes'
-
--- ==> add_subdirectory(catkin/ros/object_meshes)
-
--- +++ processing catkin package: 'dbot_ros_msgs'
-
--- ==> add_subdirectory(catkin/ros/dbot_ros_msgs)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- dbot_ros_msgs: 3 messages, 3 services
-
--- +++ processing catkin package: 'dbot_ros'
-
--- ==> add_subdirectory(catkin/ros/dbot_ros)
+-- ==> add_subdirectory(catkin/sensors/vicon_capture)
 
 -- Using these message generators: gencpp;genlisp;genpy
 
 -- Boost version: 1.54.0
 
--- Eigen found (include: /usr/include/eigen3)
+-- Configuring done
 
--- +++ processing catkin package: 'meshless_tracking'
+-- Generating done
 
--- ==> add_subdirectory(catkin/core-perception/meshless_tracking)
+-- Build files have been written to: /home/administrator/ci/ci/team/workspace/build
 
-CMake Warning at catkin/core-perception/meshless_tracking/CMakeLists.txt:41 (find_package):
+Scanning dependencies of target vicon_sdklib_copy
 
-  By not providing "FindVXL.cmake" in CMAKE_MODULE_PATH this project has
+Scanning dependencies of target boost_libs_copy
 
-  asked CMake to find a package configuration file provided by "VXL", but
+[  0%] Built target vicon_sdklib_copy
 
-  CMake did not find one.
+Scanning dependencies of target ViconDataStreamSDK_CPP
 
+[  0%] Built target boost_libs_copy
 
+[  0%] Built target ViconDataStreamSDK_CPP
 
-  Could not find a package configuration file provided by "VXL" with any of
+Scanning dependencies of target vicon_capture
 
-  the following names:
+[ 33%] Building CXX object catkin/sensors/vicon_capture/CMakeFiles/vicon_capture.dir/source/vicon_capture/vicon_capture.cpp.o
 
+Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libvicon_capture.so
 
+[ 33%] Built target vicon_capture
 
-    VXLConfig.cmake
+Scanning dependencies of target vicon_capture_publisher_node
 
-    vxl-config.cmake
+Scanning dependencies of target compute_apollo_vicon_base_offset_node
 
+[ 66%] Building CXX object catkin/sensors/vicon_capture/CMakeFiles/vicon_capture_publisher_node.dir/source/vicon_capture/vicon_capture_publisher_node.cpp.o
 
+[100%] Building CXX object catkin/sensors/vicon_capture/CMakeFiles/compute_apollo_vicon_base_offset_node.dir/source/vicon_capture/compute_apollo_vicon_base_offset_node.cpp.o
 
-  Add the installation prefix of "VXL" to CMAKE_PREFIX_PATH or set "VXL_DIR"
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/vicon_capture/vicon_capture_publisher_node
 
-  to a directory containing one of the above files.  If "VXL" provides a
+[100%] Built target vicon_capture_publisher_node
 
-  separate development package or SDK, be sure it has been installed.
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/vicon_capture/compute_apollo_vicon_base_offset_node
 
+[100%] Built target compute_apollo_vicon_base_offset_node
 
+Install the project...
 
+-- Install configuration: ""
 
+-- Installing: /home/administrator/ci/ci/team/workspace/install/_setup_util.py
 
-CMake Warning at catkin/core-perception/meshless_tracking/CMakeLists.txt:46 (message):
+-- Installing: /home/administrator/ci/ci/team/workspace/install/env.sh
 
-  VXL_DIR should be set to the VXL build directory.
+-- Installing: /home/administrator/ci/ci/team/workspace/install/setup.bash
 
+-- Installing: /home/administrator/ci/ci/team/workspace/install/setup.sh
 
+-- Installing: /home/administrator/ci/ci/team/workspace/install/setup.zsh
 
+-- Installing: /home/administrator/ci/ci/team/workspace/install/.rosinstall
 
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/amd_clmc_eigen.pc
 
--- ~~ VXL_DIR is VXL_DIR-NOTFOUND
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/amd_clmc_eigen/cmake/amd_clmc_eigenConfig.cmake
 
--- ~~ VXL_SOURCE_DIR is 
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/amd_clmc_eigen/cmake/amd_clmc_eigenConfig-version.cmake
 
--- ~~ VXL_LIBRARY_DIR is 
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/amd_clmc_eigen/package.xml
 
--- ~~ VXL_INCLUDE_DIR is 
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/vicon_sdk.pc
 
-CMake Error at /home/administrator/ci/ci/team/workspace/devel/share/catkin/cmake/catkinConfig.cmake:75 (find_package):
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/vicon_sdk/cmake/vicon_sdkConfig.cmake
 
-  Could not find a package configuration file provided by "opi" with any of
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/vicon_sdk/cmake/vicon_sdkConfig-version.cmake
 
-  the following names:
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/vicon_sdk/package.xml
 
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/libViconDataStreamSDK_CPP.so
 
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/vicon_sdk
 
-    opiConfig.cmake
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/vicon_sdk/vicon_client.h
 
-    opi-config.cmake
+-- Up-to-date: /home/administrator/ci/ci/team/workspace/install/include/vicon_sdk/vicon_client.h
 
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/vicon_capture.pc
 
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/vicon_capture/cmake/vicon_captureConfig.cmake
 
-  Add the installation prefix of "opi" to CMAKE_PREFIX_PATH or set "opi_DIR"
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/vicon_capture/cmake/vicon_captureConfig-version.cmake
 
-  to a directory containing one of the above files.  If "opi" provides a
-
-  separate development package or SDK, be sure it has been installed.
-
-Call Stack (most recent call first):
-
-  catkin/core-perception/meshless_tracking/CMakeLists.txt:65 (find_package)
-
-
-
-
-
--- Configuring incomplete, errors occurred!
-
-See also "/home/administrator/ci/ci/team/workspace/build/CMakeFiles/CMakeOutput.log".
-
-See also "/home/administrator/ci/ci/team/workspace/build/CMakeFiles/CMakeError.log".
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/vicon_capture/package.xml
 
 Base path: /home/administrator/ci/ci/team/workspace
 
@@ -192,10 +192,16 @@ Devel space: /home/administrator/ci/ci/team/workspace/devel
 
 Install space: /home/administrator/ci/ci/team/workspace/install
 
+Creating symlink "/home/administrator/ci/ci/team/workspace/src/CMakeLists.txt" pointing to "/opt/ros/indigo/share/catkin/cmake/toplevel.cmake"
+
 ####
 
 #### Running command: "cmake /home/administrator/ci/ci/team/workspace/src -DCATKIN_DEVEL_PREFIX=/home/administrator/ci/ci/team/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/administrator/ci/ci/team/workspace/install -G Unix Makefiles" in "/home/administrator/ci/ci/team/workspace/build"
 
 ####
 
-Invoking "cmake" failed
+####
+
+#### Running command: "make -j16 install" in "/home/administrator/ci/ci/team/workspace/build"
+
+####
