@@ -1,5 +1,3 @@
-WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
-
 -- Using CATKIN_DEVEL_PREFIX: /home/administrator/ci/ci/team/workspace/devel
 
 -- Using CMAKE_PREFIX_PATH: /opt/ros/indigo
@@ -26,83 +24,241 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 
 -- BUILD_SHARED_LIBS is on
 
-WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
-
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 -- ~~  traversing 13 packages in topological order:
 
--- ~~  - Eigen
+-- ~~  - apollo_moveit_config
 
--- ~~  - python_file_parser
+-- ~~  - catkin_gflags
 
--- ~~  - rbdl
+-- ~~  - catkin_glog
 
--- ~~  - cyberglove_handsim_control
+-- ~~  - demo_robot_model
 
--- ~~  - amd_clmc_ros_messages
+-- ~~  - riemo
 
--- ~~  - ar_track_alvar_msgs
+-- ~~  - riemo_launch
 
--- ~~  - custom_robot_msgs
+-- ~~  - riemo_scripts
 
--- ~~  - riemo_grasping_msgs
+-- ~~  - riemo_controller_msgs
 
--- ~~  - cereal_port
+-- ~~  - riemo_rt
 
--- ~~  - motion_adaptation
+-- ~~  - riemo_kinematics
 
--- ~~  - sr_gui_cyberglove_calibrator
+-- ~~  - visualization_2d
 
--- ~~  - cyberglove
+-- ~~  - riemo_ros
 
--- ~~  - haptix_recorder
+-- ~~  - riemo_programs
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- +++ processing catkin package: 'Eigen'
+-- +++ processing catkin package: 'apollo_moveit_config'
 
--- ==> add_subdirectory(catkin/third_party/Eigen)
+-- ==> add_subdirectory(motion-optimization/riemo_ros_pkgs/apollo_moveit_config)
 
-WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
+-- +++ processing catkin package: 'catkin_gflags'
 
--- +++ processing catkin package: 'python_file_parser'
+-- ==> add_subdirectory(catkin/third_party/catkin-gflags)
 
--- ==> add_subdirectory(catkin/utilities/amd_clmc_script_utilities/python_file_parser)
+-- Found gflags  (include: /usr/include, library: /usr/lib/x86_64-linux-gnu/libgflags.so)
 
--- +++ processing catkin package: 'rbdl'
+-- +++ processing catkin package: 'catkin_glog'
 
--- ==> add_subdirectory(catkin/third_party/rbdl)
+-- ==> add_subdirectory(catkin/third_party/catkin-glog)
 
--- ROS found: /opt/ros/indigo/share/ros
+-- Found glog    (include: /usr/include, library: /usr/lib/x86_64-linux-gnu/libglog.so)
 
--- +++ processing catkin package: 'cyberglove_handsim_control'
+-- +++ processing catkin package: 'demo_robot_model'
 
--- ==> add_subdirectory(catkin/cyberglove/cyberglove_ros/cyberglove_handsim_control)
+-- ==> add_subdirectory(motion-optimization/riemo_ros_pkgs/demo_robot_model)
 
--- Operating system is Linux
+-- +++ processing catkin package: 'riemo'
 
--- Boost version: 1.54.0
+-- ==> add_subdirectory(motion-optimization/riemo_catkin)
 
-CMake Error at catkin/cyberglove/cyberglove_ros/cyberglove_handsim_control/cmake/SearchForStuff.cmake:8 (find_package):
+------------------------------------------------------------------
 
-  Could not find a configuration file for package "gazebo" that is compatible
+using catkin test functionality
 
-  with requested version "7.0.0".
+------------------------------------------------------------------
+
+cmake source dir: /home/administrator/ci/ci/team/workspace/src
+
+cmake module path: /home/administrator/ci/ci/team/workspace/src/motion-optimization/cmake/Modules
+
+--------------------------------------------------------------------
+
+Project source directory: /home/administrator/ci/ci/team/workspace/src
+
+Building riemo
+
+Build type: 
+
+--------------------------------------------------------------------
+
+**** No build type set ****
+
+Eigen directory: /home/administrator/ci/ci/team/workspace/src/motion-optimization/cmake/Modules/Eigen
+
+-- Eigen found (include: /usr/include/eigen3)
+
+Eigen include directories: /usr/include/eigen3
+
+-- A library with BLAS API found.
+
+-- A library with LAPACK API found.
+
+Lapack: TRUE
+
+Lapack linker flags: 
+
+Lapack libraries: /usr/lib/liblapack.so;/usr/lib/libblas.so
+
+Lapack 95 libraries: 
+
+-- +++ processing catkin package: 'riemo_launch'
+
+-- ==> add_subdirectory(motion-optimization/riemo_ros_pkgs/riemo_launch)
+
+-- +++ processing catkin package: 'riemo_scripts'
+
+-- ==> add_subdirectory(motion-optimization/riemo_ros_pkgs/riemo_scripts)
+
+-- +++ processing catkin package: 'riemo_controller_msgs'
+
+-- ==> add_subdirectory(motion-optimization/riemo_ros_pkgs/riemo_controller_msgs)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- riemo_controller_msgs: 23 messages, 2 services
+
+-- +++ processing catkin package: 'riemo_rt'
+
+-- ==> add_subdirectory(motion-optimization/riemo_ros_pkgs/riemo_rt)
+
+-- Eigen found (include: /usr/include/eigen3)
+
+-- +++ processing catkin package: 'riemo_kinematics'
+
+-- ==> add_subdirectory(motion-optimization/riemo_ros_pkgs/riemo_kinematics)
+
+-- Eigen found (include: /usr/include/eigen3)
+
+Eigen : /usr/include/eigen3
+
+Catkin :/home/administrator/ci/ci/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_differential_geometry/include/home/administrator/ci/ci/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_discrete_geometry/include/home/administrator/ci/ci/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_learning/include/home/administrator/ci/ci/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_optimization/include/home/administrator/ci/ci/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_motion/include/home/administrator/ci/ci/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_utilities/include/home/administrator/ci/ci/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_workspace/include/home/administrator/ci/ci/team/workspace/src/motion-optimization/riemo_catkin/riemo/external/include/opt/ros/indigo/include/usr/include/eigen3/usr/include
+
+Current include directories in riemo_kinematics cmakelists file:
+
+-- dir='/home/administrator/ci/ci/team/workspace/src/motion-optimization/riemo_ros_pkgs/riemo_kinematics/include'
+
+-- dir='/usr/include/eigen3'
+
+-- dir='/home/administrator/ci/ci/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_differential_geometry/include'
+
+-- dir='/home/administrator/ci/ci/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_discrete_geometry/include'
+
+-- dir='/home/administrator/ci/ci/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_learning/include'
+
+-- dir='/home/administrator/ci/ci/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_optimization/include'
+
+-- dir='/home/administrator/ci/ci/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_motion/include'
+
+-- dir='/home/administrator/ci/ci/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_utilities/include'
+
+-- dir='/home/administrator/ci/ci/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_workspace/include'
+
+-- dir='/home/administrator/ci/ci/team/workspace/src/motion-optimization/riemo_catkin/riemo/external/include'
+
+-- dir='/opt/ros/indigo/include'
+
+-- dir='/usr/include/eigen3'
+
+-- dir='/usr/include'
+
+-- +++ processing catkin package: 'visualization_2d'
+
+-- ==> add_subdirectory(motion-optimization/riemo_ros_pkgs/visualization_2d)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- visualization_2d: 5 messages, 1 services
+
+-- +++ processing catkin package: 'riemo_ros'
+
+-- ==> add_subdirectory(motion-optimization/riemo_ros_pkgs/riemo_ros)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- Eigen found (include: /usr/include/eigen3)
+
+-- +++ processing catkin package: 'riemo_programs'
+
+-- ==> add_subdirectory(motion-optimization/riemo_ros_pkgs/riemo_programs)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+CMake Warning at /opt/ros/indigo/share/catkin/cmake/catkinConfig.cmake:76 (find_package):
+
+  Could not find a package configuration file provided by
+
+  "riemo_grasping_msgs" with any of the following names:
 
 
 
-  The following configuration files were considered but not accepted:
+    riemo_grasping_msgsConfig.cmake
+
+    riemo_grasping_msgs-config.cmake
 
 
 
-    /usr/share/gazebo/cmake/gazebo-config.cmake, version: unknown
+  Add the installation prefix of "riemo_grasping_msgs" to CMAKE_PREFIX_PATH
 
+  or set "riemo_grasping_msgs_DIR" to a directory containing one of the above
 
+  files.  If "riemo_grasping_msgs" provides a separate development package or
+
+  SDK, be sure it has been installed.
 
 Call Stack (most recent call first):
 
-  catkin/cyberglove/cyberglove_ros/cyberglove_handsim_control/CMakeLists.txt:11 (include)
+  motion-optimization/riemo_ros_pkgs/riemo_programs/CMakeLists.txt:16 (find_package)
+
+
+
+
+
+-- Could not find the required component 'riemo_grasping_msgs'. The following CMake error indicates that you either need to install the package with the same name or change your environment so that it can be found.
+
+CMake Error at /opt/ros/indigo/share/catkin/cmake/catkinConfig.cmake:83 (find_package):
+
+  Could not find a package configuration file provided by
+
+  "riemo_grasping_msgs" with any of the following names:
+
+
+
+    riemo_grasping_msgsConfig.cmake
+
+    riemo_grasping_msgs-config.cmake
+
+
+
+  Add the installation prefix of "riemo_grasping_msgs" to CMAKE_PREFIX_PATH
+
+  or set "riemo_grasping_msgs_DIR" to a directory containing one of the above
+
+  files.  If "riemo_grasping_msgs" provides a separate development package or
+
+  SDK, be sure it has been installed.
+
+Call Stack (most recent call first):
+
+  motion-optimization/riemo_ros_pkgs/riemo_programs/CMakeLists.txt:16 (find_package)
 
 
 
