@@ -66,27 +66,15 @@
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- ~~  traversing 3 packages in topological order:
+-- ~~  traversing 1 packages in topological order:
 
--- ~~  - project_management_test_1
-
--- ~~  - project_management_test_2
-
--- ~~  - project_management_test_3
+-- ~~  - detect_red_ribbon
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- +++ processing catkin package: 'project_management_test_1'
+-- +++ processing catkin package: 'detect_red_ribbon'
 
--- ==> add_subdirectory(catkin/test/project_management_test_1)
-
--- +++ processing catkin package: 'project_management_test_2'
-
--- ==> add_subdirectory(catkin/test/project_management_test_2)
-
--- +++ processing catkin package: 'project_management_test_3'
-
--- ==> add_subdirectory(catkin/test/project_management_test_3)
+-- ==> add_subdirectory(catkin/perception/detect_red_ribbon)
 
 -- Configuring done
 
@@ -94,45 +82,17 @@
 
 -- Build files have been written to: /home/administrator/ci/ci/team/workspace/build
 
-Scanning dependencies of target test_project_1_fail_demo
+Scanning dependencies of target detect_red_ribbon_node
 
-Scanning dependencies of target test_project_1_success_demo
+[ 66%] [100%] [100%] Building CXX object catkin/perception/detect_red_ribbon/CMakeFiles/detect_red_ribbon_node.dir/src/main.cpp.o
 
-Scanning dependencies of target test_project_2_demo_success
+Building CXX object catkin/perception/detect_red_ribbon/CMakeFiles/detect_red_ribbon_node.dir/src/red_detector.cpp.o
 
-Scanning dependencies of target test_project_1_ttest
+Building CXX object catkin/perception/detect_red_ribbon/CMakeFiles/detect_red_ribbon_node.dir/src/red_ribbon_detector.cpp.o
 
-Scanning dependencies of target test_project_2_demo_fail
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/detect_red_ribbon/detect_red_ribbon_node
 
-[ 20%] [ 40%] [ 60%] [ 80%] [100%] Building CXX object catkin/test/project_management_test_1/CMakeFiles/test_project_1_fail_demo.dir/src/test_project_1_demo_fail.cpp.o
-
-Building CXX object catkin/test/project_management_test_1/CMakeFiles/test_project_1_success_demo.dir/src/test_project_1_demo_success.cpp.o
-
-Building CXX object catkin/test/project_management_test_2/CMakeFiles/test_project_2_demo_success.dir/src/test_project_2_demo_success.cpp.o
-
-Building CXX object catkin/test/project_management_test_1/CMakeFiles/test_project_1_ttest.dir/src/t_test.cpp.o
-
-Building CXX object catkin/test/project_management_test_2/CMakeFiles/test_project_2_demo_fail.dir/src/test_project_2_demo_fail.cpp.o
-
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/project_management_test_1/test_project_1_success_demo
-
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/project_management_test_1/test_project_1_fail_demo
-
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/project_management_test_2/test_project_2_demo_success
-
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/project_management_test_2/test_project_2_demo_fail
-
-[100%] [100%] [100%] Built target test_project_1_fail_demo
-
-Built target test_project_1_success_demo
-
-Built target test_project_2_demo_success
-
-[100%] Built target test_project_2_demo_fail
-
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/project_management_test_1/test_project_1_ttest
-
-[100%] Built target test_project_1_ttest
+[100%] Built target detect_red_ribbon_node
 
 Install the project...
 
@@ -150,29 +110,13 @@ Install the project...
 
 -- Installing: /home/administrator/ci/ci/team/workspace/install/.rosinstall
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/project_management_test_1.pc
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/detect_red_ribbon.pc
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/project_management_test_1/cmake/project_management_test_1Config.cmake
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/detect_red_ribbon/cmake/detect_red_ribbonConfig.cmake
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/project_management_test_1/cmake/project_management_test_1Config-version.cmake
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/detect_red_ribbon/cmake/detect_red_ribbonConfig-version.cmake
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/project_management_test_1/package.xml
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/project_management_test_2.pc
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/project_management_test_2/cmake/project_management_test_2Config.cmake
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/project_management_test_2/cmake/project_management_test_2Config-version.cmake
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/project_management_test_2/package.xml
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/project_management_test_3.pc
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/project_management_test_3/cmake/project_management_test_3Config.cmake
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/project_management_test_3/cmake/project_management_test_3Config-version.cmake
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/project_management_test_3/package.xml
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/detect_red_ribbon/package.xml
 
 Base path: /home/administrator/ci/ci/team/workspace
 
