@@ -1,0 +1,151 @@
+-- Using CATKIN_DEVEL_PREFIX: /home/administrator/ci/ci/team/workspace/devel
+
+-- Using CMAKE_PREFIX_PATH: /opt/ros/indigo
+
+-- This workspace overlays: /opt/ros/indigo
+
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+
+-- Python version: 2.7
+
+-- Using Debian Python package layout
+
+-- Using CATKIN_ENABLE_TESTING: ON
+
+-- Call enable_testing()
+
+-- Using CATKIN_TEST_RESULTS_DIR: /home/administrator/ci/ci/team/workspace/build/test_results
+
+-- Found gtest sources under '/usr/src/gtest': gtests will be built
+
+-- catkin 0.5.90
+
+-- BUILD_SHARED_LIBS is on
+
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-- ~~  traversing 15 packages in topological order:
+
+-- ~~  - apollo_robot_model
+
+-- ~~  - launch_xtion
+
+-- ~~  - ros_realtime (metapackage)
+
+-- ~~  - allocators
+
+-- ~~  - rosatomic
+
+-- ~~  - lockfree
+
+-- ~~  - rt_timer
+
+-- ~~  - vrpn_vicon_objs_tracker
+
+-- ~~  - xenomai_ros
+
+-- ~~  - apollo
+
+-- ~~  - apollo_user
+
+-- ~~  - rosrt
+
+-- ~~  - sl_python_core
+
+-- ~~  - sl_ros_servo
+
+-- ~~  - kinect_pole_balancing
+
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-- +++ processing catkin package: 'apollo_robot_model'
+
+-- ==> add_subdirectory(catkin/robots/apollo_robot_model)
+
+-- +++ processing catkin package: 'launch_xtion'
+
+-- ==> add_subdirectory(catkin/ros/launch_xtion)
+
+-- +++ processing catkin metapackage: 'ros_realtime'
+
+-- ==> add_subdirectory(catkin/ros/ros_realtime/ros_realtime)
+
+-- +++ processing catkin package: 'allocators'
+
+-- ==> add_subdirectory(catkin/ros/ros_realtime/allocators)
+
+-- Boost version: 1.54.0
+
+-- +++ processing catkin package: 'rosatomic'
+
+-- ==> add_subdirectory(catkin/ros/ros_realtime/rosatomic)
+
+-- Boost version: 1.54.0
+
+-- +++ processing catkin package: 'lockfree'
+
+-- ==> add_subdirectory(catkin/ros/ros_realtime/lockfree)
+
+-- Boost version: 1.54.0
+
+-- +++ processing catkin package: 'rt_timer'
+
+-- ==> add_subdirectory(catkin/ros/ros_realtime/rt_timer)
+
+-- +++ processing catkin package: 'vrpn_vicon_objs_tracker'
+
+-- ==> add_subdirectory(catkin/perception/vrpn_vicon_objs_tracker)
+
+CMake Error at /home/administrator/ci/ci/team/workspace/devel/share/catkin/cmake/catkinConfig.cmake:75 (find_package):
+
+  Could not find a package configuration file provided by "Eigen" with any of
+
+  the following names:
+
+
+
+    EigenConfig.cmake
+
+    eigen-config.cmake
+
+
+
+  Add the installation prefix of "Eigen" to CMAKE_PREFIX_PATH or set
+
+  "Eigen_DIR" to a directory containing one of the above files.  If "Eigen"
+
+  provides a separate development package or SDK, be sure it has been
+
+  installed.
+
+Call Stack (most recent call first):
+
+  catkin/perception/vrpn_vicon_objs_tracker/CMakeLists.txt:6 (find_package)
+
+
+
+
+
+-- Configuring incomplete, errors occurred!
+
+See also "/home/administrator/ci/ci/team/workspace/build/CMakeFiles/CMakeOutput.log".
+
+See also "/home/administrator/ci/ci/team/workspace/build/CMakeFiles/CMakeError.log".
+
+Base path: /home/administrator/ci/ci/team/workspace
+
+Source space: /home/administrator/ci/ci/team/workspace/src
+
+Build space: /home/administrator/ci/ci/team/workspace/build
+
+Devel space: /home/administrator/ci/ci/team/workspace/devel
+
+Install space: /home/administrator/ci/ci/team/workspace/install
+
+####
+
+#### Running command: "cmake /home/administrator/ci/ci/team/workspace/src -DCATKIN_DEVEL_PREFIX=/home/administrator/ci/ci/team/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/administrator/ci/ci/team/workspace/install -G Unix Makefiles" in "/home/administrator/ci/ci/team/workspace/build"
+
+####
+
+Invoking "cmake" failed
