@@ -1,5 +1,3 @@
-WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
-
 -- Using CATKIN_DEVEL_PREFIX: /home/administrator/ci/ci/team/workspace/devel
 
 -- Using CMAKE_PREFIX_PATH: /opt/ros/indigo
@@ -8,9 +6,9 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 
 -- Using PYTHON_EXECUTABLE: /usr/bin/python
 
--- Python version: 2.7
-
 -- Using Debian Python package layout
+
+-- Using empy: /usr/bin/empy
 
 -- Using CATKIN_ENABLE_TESTING: ON
 
@@ -20,171 +18,55 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 
 -- Found gtest sources under '/usr/src/gtest': gtests will be built
 
--- catkin 0.5.90
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+
+-- catkin 0.6.19
 
 -- BUILD_SHARED_LIBS is on
 
-WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-- ~~  traversing 2 packages in topological order:
+
+-- ~~  - rt_utils
+
+-- ~~  - learning_control
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- ~~  traversing 14 packages in topological order:
+-- +++ processing catkin package: 'rt_utils'
 
--- ~~  - Eigen
+-- ==> add_subdirectory(catkin/rt_utils)
 
--- ~~  - ros_realtime (metapackage)
+CMake Error at catkin/rt_utils/CMakeLists.txt:8 (find_package):
 
--- ~~  - allocators
+  By not providing "FindEigen.cmake" in CMAKE_MODULE_PATH this project has
 
--- ~~  - rosatomic
+  asked CMake to find a package configuration file provided by "Eigen", but
 
--- ~~  - lockfree
+  CMake did not find one.
 
--- ~~  - rt_timer
 
--- ~~  - vrpn_vicon_minimum
 
--- ~~  - vrpn_vicon_objs_tracker
+  Could not find a package configuration file provided by "Eigen" (requested
 
--- ~~  - xenomai_ros
+  version 3.2.4) with any of the following names:
 
--- ~~  - rosrt
 
--- ~~  - ros_rt_test
 
--- ~~  - vicon_bridge
+    EigenConfig.cmake
 
--- ~~  - vicon_core
+    eigen-config.cmake
 
--- ~~  - vicon_subscriber
 
--- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- +++ processing catkin package: 'Eigen'
+  Add the installation prefix of "Eigen" to CMAKE_PREFIX_PATH or set
 
--- ==> add_subdirectory(catkin/third_party/Eigen)
+  "Eigen_DIR" to a directory containing one of the above files.  If "Eigen"
 
-WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
+  provides a separate development package or SDK, be sure it has been
 
--- +++ processing catkin metapackage: 'ros_realtime'
-
--- ==> add_subdirectory(catkin/ros/ros_realtime/ros_realtime)
-
--- +++ processing catkin package: 'allocators'
-
--- ==> add_subdirectory(catkin/ros/ros_realtime/allocators)
-
--- Boost version: 1.54.0
-
--- +++ processing catkin package: 'rosatomic'
-
--- ==> add_subdirectory(catkin/ros/ros_realtime/rosatomic)
-
--- Boost version: 1.54.0
-
--- +++ processing catkin package: 'lockfree'
-
--- ==> add_subdirectory(catkin/ros/ros_realtime/lockfree)
-
--- Boost version: 1.54.0
-
--- +++ processing catkin package: 'rt_timer'
-
--- ==> add_subdirectory(catkin/ros/ros_realtime/rt_timer)
-
--- +++ processing catkin package: 'vrpn_vicon_minimum'
-
--- ==> add_subdirectory(catkin/perception/vrpn_vicon_minimum)
-
--- +++ processing catkin package: 'vrpn_vicon_objs_tracker'
-
--- ==> add_subdirectory(catkin/perception/vrpn_vicon_objs_tracker)
-
--- +++ processing catkin package: 'xenomai_ros'
-
--- ==> add_subdirectory(catkin/ros/xenomai-ros)
-
--- +++ processing catkin package: 'rosrt'
-
--- ==> add_subdirectory(catkin/ros/ros_realtime/rosrt)
-
--- xenomai NOT found. (/usr/local;/usr)
-
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
-
--- Boost version: 1.54.0
-
--- Found the following Boost libraries:
-
---   thread
-
--- +++ processing catkin package: 'ros_rt_test'
-
--- ==> add_subdirectory(catkin/ros/ros_rt_basic_example)
-
--- xenomai NOT found. (/usr/local;/usr)
-
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
-
--- +++ processing catkin package: 'vicon_bridge'
-
--- ==> add_subdirectory(catkin/perception/vicon_bridge)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- Boost version: 1.54.0
-
--- Found the following Boost libraries:
-
---   thread
-
--- vicon_bridge: 3 messages, 2 services
-
--- +++ processing catkin package: 'vicon_core'
-
--- ==> add_subdirectory(catkin/sensors/vicon-core)
-
-CMake Error at catkin/sensors/vicon-core/CMakeLists.txt:8 (include):
-
-  include could not find load file:
-
-
-
-    /home/administrator/ci/ci/team/workspace/src/cmake/sl_cmake_global/LAB.cmake
-
-
-
-
-
--- xenomai NOT found. (/usr/local;/usr)
-
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
-
-CMake Error at /home/administrator/ci/ci/team/workspace/devel/share/catkin/cmake/catkinConfig.cmake:75 (find_package):
-
-  Could not find a package configuration file provided by
-
-  "amd_clmc_ros_messages" with any of the following names:
-
-
-
-    amd_clmc_ros_messagesConfig.cmake
-
-    amd_clmc_ros_messages-config.cmake
-
-
-
-  Add the installation prefix of "amd_clmc_ros_messages" to CMAKE_PREFIX_PATH
-
-  or set "amd_clmc_ros_messages_DIR" to a directory containing one of the
-
-  above files.  If "amd_clmc_ros_messages" provides a separate development
-
-  package or SDK, be sure it has been installed.
-
-Call Stack (most recent call first):
-
-  catkin/sensors/vicon-core/CMakeLists.txt:12 (find_package)
+  installed.
 
 
 
