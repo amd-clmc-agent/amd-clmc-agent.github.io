@@ -1,14 +1,36 @@
+-- The C compiler identification is GNU 4.8.4
+
+-- The CXX compiler identification is GNU 4.8.4
+
+-- Check for working C compiler: /usr/bin/cc
+
+-- Check for working C compiler: /usr/bin/cc -- works
+
+-- Detecting C compiler ABI info
+
+-- Detecting C compiler ABI info - done
+
+-- Check for working CXX compiler: /usr/bin/c++
+
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+
+-- Detecting CXX compiler ABI info
+
+-- Detecting CXX compiler ABI info - done
+
 -- Using CATKIN_DEVEL_PREFIX: /home/administrator/ci/ci/team/workspace/devel
 
 -- Using CMAKE_PREFIX_PATH: /opt/ros/indigo
 
 -- This workspace overlays: /opt/ros/indigo
 
+-- Found PythonInterp: /usr/bin/python (found version "2.7.6") 
+
 -- Using PYTHON_EXECUTABLE: /usr/bin/python
 
--- Python version: 2.7
-
 -- Using Debian Python package layout
+
+-- Using empy: /usr/bin/empy
 
 -- Using CATKIN_ENABLE_TESTING: ON
 
@@ -16,171 +38,141 @@
 
 -- Using CATKIN_TEST_RESULTS_DIR: /home/administrator/ci/ci/team/workspace/build/test_results
 
+-- Looking for include file pthread.h
+
+-- Looking for include file pthread.h - found
+
+-- Looking for pthread_create
+
+-- Looking for pthread_create - not found
+
+-- Looking for pthread_create in pthreads
+
+-- Looking for pthread_create in pthreads - not found
+
+-- Looking for pthread_create in pthread
+
+-- Looking for pthread_create in pthread - found
+
+-- Found Threads: TRUE  
+
 -- Found gtest sources under '/usr/src/gtest': gtests will be built
 
--- catkin 0.5.90
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+
+-- catkin 0.6.19
 
 -- BUILD_SHARED_LIBS is on
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- ~~  traversing 8 packages in topological order:
+-- ~~  traversing 3 packages in topological order:
 
--- ~~  - fl
+-- ~~  - project_management_test_1
 
--- ~~  - dbot
+-- ~~  - project_management_test_2
 
--- ~~  - launch_xtion
-
--- ~~  - object_meshes
-
--- ~~  - dbot_ros_msgs
-
--- ~~  - dbot_ros
-
--- ~~  - meshless_tracking
-
--- ~~  - table_object_finder
+-- ~~  - project_management_test_3
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- +++ processing catkin package: 'fl'
+-- +++ processing catkin package: 'project_management_test_1'
 
--- ==> add_subdirectory(catkin/core-perception/fl)
+-- ==> add_subdirectory(catkin/test/project_management_test_1)
 
--- Eigen found (include: /usr/include/eigen3)
+-- +++ processing catkin package: 'project_management_test_2'
 
--- Boost version: 1.54.0
+-- ==> add_subdirectory(catkin/test/project_management_test_2)
 
--- +++ processing catkin package: 'dbot'
+-- +++ processing catkin package: 'project_management_test_3'
 
--- ==> add_subdirectory(catkin/core-perception/dbot)
+-- ==> add_subdirectory(catkin/test/project_management_test_3)
 
--- Eigen found (include: /usr/include/eigen3)
+-- Configuring done
 
--- Boost version: 1.54.0
+-- Generating done
 
--- Found the following Boost libraries:
+-- Build files have been written to: /home/administrator/ci/ci/team/workspace/build
 
---   system
+Scanning dependencies of target test_project_1_success_demo
 
---   filesystem
+Scanning dependencies of target test_project_1_ttest
 
--- Found CUDA version 8.0
+Scanning dependencies of target test_project_2_demo_success
 
--- Using catkin
+Scanning dependencies of target test_project_1_fail_demo
 
--- +++ processing catkin package: 'launch_xtion'
+[ 20%] [ 40%] Scanning dependencies of target test_project_2_demo_fail
 
--- ==> add_subdirectory(catkin/ros/launch_xtion)
+[ 60%] [ 80%] Building CXX object catkin/test/project_management_test_1/CMakeFiles/test_project_1_success_demo.dir/src/test_project_1_demo_success.cpp.o
 
--- +++ processing catkin package: 'object_meshes'
+Building CXX object catkin/test/project_management_test_1/CMakeFiles/test_project_1_ttest.dir/src/t_test.cpp.o
 
--- ==> add_subdirectory(catkin/ros/object_meshes)
+[100%] Building CXX object catkin/test/project_management_test_2/CMakeFiles/test_project_2_demo_success.dir/src/test_project_2_demo_success.cpp.o
 
--- +++ processing catkin package: 'dbot_ros_msgs'
+Building CXX object catkin/test/project_management_test_1/CMakeFiles/test_project_1_fail_demo.dir/src/test_project_1_demo_fail.cpp.o
 
--- ==> add_subdirectory(catkin/ros/dbot_ros_msgs)
+Building CXX object catkin/test/project_management_test_2/CMakeFiles/test_project_2_demo_fail.dir/src/test_project_2_demo_fail.cpp.o
 
--- Using these message generators: gencpp;genlisp;genpy
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/project_management_test_1/test_project_1_success_demo
 
--- dbot_ros_msgs: 3 messages, 3 services
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/project_management_test_2/test_project_2_demo_success
 
--- +++ processing catkin package: 'dbot_ros'
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/project_management_test_1/test_project_1_fail_demo
 
--- ==> add_subdirectory(catkin/ros/dbot_ros)
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/project_management_test_2/test_project_2_demo_fail
 
--- Using these message generators: gencpp;genlisp;genpy
+[100%] [100%] [100%] Built target test_project_1_success_demo
 
--- Boost version: 1.54.0
+Built target test_project_2_demo_success
 
--- Eigen found (include: /usr/include/eigen3)
+Built target test_project_1_fail_demo
 
--- +++ processing catkin package: 'meshless_tracking'
+[100%] Built target test_project_2_demo_fail
 
--- ==> add_subdirectory(catkin/core-perception/meshless_tracking)
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/project_management_test_1/test_project_1_ttest
 
-CMake Warning at catkin/core-perception/meshless_tracking/CMakeLists.txt:41 (find_package):
+[100%] Built target test_project_1_ttest
 
-  By not providing "FindVXL.cmake" in CMAKE_MODULE_PATH this project has
+Install the project...
 
-  asked CMake to find a package configuration file provided by "VXL", but
+-- Install configuration: ""
 
-  CMake did not find one.
+-- Installing: /home/administrator/ci/ci/team/workspace/install/_setup_util.py
 
+-- Installing: /home/administrator/ci/ci/team/workspace/install/env.sh
 
+-- Installing: /home/administrator/ci/ci/team/workspace/install/setup.bash
 
-  Could not find a package configuration file provided by "VXL" with any of
+-- Installing: /home/administrator/ci/ci/team/workspace/install/setup.sh
 
-  the following names:
+-- Installing: /home/administrator/ci/ci/team/workspace/install/setup.zsh
 
+-- Installing: /home/administrator/ci/ci/team/workspace/install/.rosinstall
 
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/project_management_test_1.pc
 
-    VXLConfig.cmake
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/project_management_test_1/cmake/project_management_test_1Config.cmake
 
-    vxl-config.cmake
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/project_management_test_1/cmake/project_management_test_1Config-version.cmake
 
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/project_management_test_1/package.xml
 
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/project_management_test_2.pc
 
-  Add the installation prefix of "VXL" to CMAKE_PREFIX_PATH or set "VXL_DIR"
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/project_management_test_2/cmake/project_management_test_2Config.cmake
 
-  to a directory containing one of the above files.  If "VXL" provides a
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/project_management_test_2/cmake/project_management_test_2Config-version.cmake
 
-  separate development package or SDK, be sure it has been installed.
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/project_management_test_2/package.xml
 
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/project_management_test_3.pc
 
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/project_management_test_3/cmake/project_management_test_3Config.cmake
 
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/project_management_test_3/cmake/project_management_test_3Config-version.cmake
 
-
-CMake Warning at catkin/core-perception/meshless_tracking/CMakeLists.txt:46 (message):
-
-  VXL_DIR should be set to the VXL build directory.
-
-
-
-
-
--- ~~ VXL_DIR is VXL_DIR-NOTFOUND
-
--- ~~ VXL_SOURCE_DIR is 
-
--- ~~ VXL_LIBRARY_DIR is 
-
--- ~~ VXL_INCLUDE_DIR is 
-
-CMake Error at /home/administrator/ci/ci/team/workspace/devel/share/catkin/cmake/catkinConfig.cmake:75 (find_package):
-
-  Could not find a package configuration file provided by "opi" with any of
-
-  the following names:
-
-
-
-    opiConfig.cmake
-
-    opi-config.cmake
-
-
-
-  Add the installation prefix of "opi" to CMAKE_PREFIX_PATH or set "opi_DIR"
-
-  to a directory containing one of the above files.  If "opi" provides a
-
-  separate development package or SDK, be sure it has been installed.
-
-Call Stack (most recent call first):
-
-  catkin/core-perception/meshless_tracking/CMakeLists.txt:65 (find_package)
-
-
-
-
-
--- Configuring incomplete, errors occurred!
-
-See also "/home/administrator/ci/ci/team/workspace/build/CMakeFiles/CMakeOutput.log".
-
-See also "/home/administrator/ci/ci/team/workspace/build/CMakeFiles/CMakeError.log".
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/project_management_test_3/package.xml
 
 Base path: /home/administrator/ci/ci/team/workspace
 
@@ -192,10 +184,16 @@ Devel space: /home/administrator/ci/ci/team/workspace/devel
 
 Install space: /home/administrator/ci/ci/team/workspace/install
 
+Creating symlink "/home/administrator/ci/ci/team/workspace/src/CMakeLists.txt" pointing to "/opt/ros/indigo/share/catkin/cmake/toplevel.cmake"
+
 ####
 
 #### Running command: "cmake /home/administrator/ci/ci/team/workspace/src -DCATKIN_DEVEL_PREFIX=/home/administrator/ci/ci/team/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/administrator/ci/ci/team/workspace/install -G Unix Makefiles" in "/home/administrator/ci/ci/team/workspace/build"
 
 ####
 
-Invoking "cmake" failed
+####
+
+#### Running command: "make -j16 install" in "/home/administrator/ci/ci/team/workspace/build"
+
+####
