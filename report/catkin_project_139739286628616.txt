@@ -24,7 +24,9 @@
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- ~~  traversing 10 packages in topological order:
+-- ~~  traversing 14 packages in topological order:
+
+-- ~~  - imu_core
 
 -- ~~  - ros_realtime (metapackage)
 
@@ -36,17 +38,49 @@
 
 -- ~~  - rt_timer
 
+-- ~~  - amd_clmc_ros_messages
+
+-- ~~  - ar_track_alvar_msgs
+
+-- ~~  - custom_robot_msgs
+
+-- ~~  - riemo_grasping_msgs
+
 -- ~~  - xenomai_ros
 
 -- ~~  - rosrt
 
--- ~~  - goto_ui
-
--- ~~  - goto_ui_task
+-- ~~  - imu_ros_rt
 
 -- ~~  - ros_rt_test
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-- +++ processing catkin package: 'imu_core'
+
+-- ==> add_subdirectory(catkin/sensors/imu-core)
+
+CMake Error at catkin/sensors/imu-core/CMakeLists.txt:4 (include):
+
+  include could not find load file:
+
+
+
+    /home/administrator/ci/ci/team/workspace/src/cmake/sl_cmake_global/LAB.cmake
+
+
+
+
+
+-- xenomai NOT found. (/usr/local;/usr)
+
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+
+-- Boost version: 1.54.0
+
+-- Found the following Boost libraries:
+
+--   thread
 
 -- +++ processing catkin metapackage: 'ros_realtime'
 
@@ -74,6 +108,38 @@
 
 -- ==> add_subdirectory(catkin/ros/ros_realtime/rt_timer)
 
+-- +++ processing catkin package: 'amd_clmc_ros_messages'
+
+-- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/amd_clmc_ros_messages)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- amd_clmc_ros_messages: 108 messages, 10 services
+
+-- +++ processing catkin package: 'ar_track_alvar_msgs'
+
+-- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/ar_track_alvar_msgs)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- ar_track_alvar_msgs: 2 messages, 0 services
+
+-- +++ processing catkin package: 'custom_robot_msgs'
+
+-- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/custom_robot_msgs)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- custom_robot_msgs: 1 messages, 2 services
+
+-- +++ processing catkin package: 'riemo_grasping_msgs'
+
+-- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/riemo_grasping_msgs)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- riemo_grasping_msgs: 5 messages, 3 services
+
 -- +++ processing catkin package: 'xenomai_ros'
 
 -- ==> add_subdirectory(catkin/ros/xenomai-ros)
@@ -92,39 +158,49 @@
 
 --   thread
 
--- +++ processing catkin package: 'goto_ui'
+-- +++ processing catkin package: 'imu_ros_rt'
 
--- ==> add_subdirectory(catkin/core-sl/goto_ui)
+-- ==> add_subdirectory(catkin/sensors/imu-ros-rt)
 
-CMake Error at /home/administrator/ci/ci/team/workspace/devel/share/catkin/cmake/catkinConfig.cmake:75 (find_package):
+CMake Error at catkin/sensors/imu-ros-rt/CMakeLists.txt:4 (include):
 
-  Could not find a package configuration file provided by "utilities" with
-
-  any of the following names:
+  include could not find load file:
 
 
 
-    utilitiesConfig.cmake
-
-    utilities-config.cmake
-
-
-
-  Add the installation prefix of "utilities" to CMAKE_PREFIX_PATH or set
-
-  "utilities_DIR" to a directory containing one of the above files.  If
-
-  "utilities" provides a separate development package or SDK, be sure it has
-
-  been installed.
-
-Call Stack (most recent call first):
-
-  catkin/core-sl/goto_ui/CMakeLists.txt:8 (find_package)
+    /home/administrator/ci/ci/team/workspace/src/cmake/sl_cmake_global/LAB.cmake
 
 
 
 
+
+-- xenomai NOT found. (/usr/local;/usr)
+
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+
+-- Boost version: 1.54.0
+
+-- Found the following Boost libraries:
+
+--   thread
+
+CMake Error at catkin/sensors/imu-ros-rt/CMakeLists.txt:41 (install):
+
+  install TARGETS given target "imu_demo" which does not exist in this
+
+  directory.
+
+
+
+
+
+-- +++ processing catkin package: 'ros_rt_test'
+
+-- ==> add_subdirectory(catkin/ros/ros_rt_basic_example)
+
+-- xenomai NOT found. (/usr/local;/usr)
+
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
 
 -- Configuring incomplete, errors occurred!
 
