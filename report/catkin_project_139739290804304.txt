@@ -1,8 +1,30 @@
+-- The C compiler identification is GNU 4.8.4
+
+-- The CXX compiler identification is GNU 4.8.4
+
+-- Check for working C compiler: /usr/bin/cc
+
+-- Check for working C compiler: /usr/bin/cc -- works
+
+-- Detecting C compiler ABI info
+
+-- Detecting C compiler ABI info - done
+
+-- Check for working CXX compiler: /usr/bin/c++
+
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+
+-- Detecting CXX compiler ABI info
+
+-- Detecting CXX compiler ABI info - done
+
 -- Using CATKIN_DEVEL_PREFIX: /home/administrator/ci/ci/team/workspace/devel
 
 -- Using CMAKE_PREFIX_PATH: /opt/ros/indigo
 
 -- This workspace overlays: /opt/ros/indigo
+
+-- Found PythonInterp: /usr/bin/python (found version "2.7.6") 
 
 -- Using PYTHON_EXECUTABLE: /usr/bin/python
 
@@ -16,6 +38,24 @@
 
 -- Using CATKIN_TEST_RESULTS_DIR: /home/administrator/ci/ci/team/workspace/build/test_results
 
+-- Looking for include file pthread.h
+
+-- Looking for include file pthread.h - found
+
+-- Looking for pthread_create
+
+-- Looking for pthread_create - not found
+
+-- Looking for pthread_create in pthreads
+
+-- Looking for pthread_create in pthreads - not found
+
+-- Looking for pthread_create in pthread
+
+-- Looking for pthread_create in pthread - found
+
+-- Found Threads: TRUE  
+
 -- Found gtest sources under '/usr/src/gtest': gtests will be built
 
 -- Using Python nosetests: /usr/bin/nosetests-2.7
@@ -26,249 +66,363 @@
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- ~~  traversing 13 packages in topological order:
+-- ~~  traversing 4 packages in topological order:
 
--- ~~  - apollo_moveit_config
+-- ~~  - ci_example_python
 
--- ~~  - catkin_gflags
+-- ~~  - yaml_cpp
 
--- ~~  - catkin_glog
+-- ~~  - ci_example_cpp
 
--- ~~  - demo_robot_model
-
--- ~~  - riemo
-
--- ~~  - riemo_launch
-
--- ~~  - riemo_scripts
-
--- ~~  - riemo_controller_msgs
-
--- ~~  - riemo_rt
-
--- ~~  - riemo_kinematics
-
--- ~~  - visualization_2d
-
--- ~~  - riemo_ros
-
--- ~~  - riemo_programs
+-- ~~  - ci_doxygen_child_cpp
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- +++ processing catkin package: 'apollo_moveit_config'
+-- +++ processing catkin package: 'ci_example_python'
 
--- ==> add_subdirectory(motion-optimization/riemo_ros_pkgs/apollo_moveit_config)
+-- ==> add_subdirectory(catkin/test/ci_test/ci_example_python)
 
--- +++ processing catkin package: 'catkin_gflags'
+-- +++ processing catkin package: 'yaml_cpp'
 
--- ==> add_subdirectory(catkin/third_party/catkin-gflags)
+-- ==> add_subdirectory(catkin/third_party/YAML_CPP)
 
--- Found gflags  (include: /usr/include, library: /usr/lib/x86_64-linux-gnu/libgflags.so)
+-- Boost version: 1.54.0
 
--- +++ processing catkin package: 'catkin_glog'
+-- Performing Test FLAG_WEXTRA
 
--- ==> add_subdirectory(catkin/third_party/catkin-glog)
+-- Performing Test FLAG_WEXTRA - Success
 
--- Found glog    (include: /usr/include, library: /usr/lib/x86_64-linux-gnu/libglog.so)
+-- +++ processing catkin package: 'ci_example_cpp'
 
--- +++ processing catkin package: 'demo_robot_model'
+-- ==> add_subdirectory(catkin/test/ci_test/ci_example_cpp)
 
--- ==> add_subdirectory(motion-optimization/riemo_ros_pkgs/demo_robot_model)
+-- +++ processing catkin package: 'ci_doxygen_child_cpp'
 
--- +++ processing catkin package: 'riemo'
+-- ==> add_subdirectory(catkin/test/ci_test/ci_doxygen_child_cpp)
 
--- ==> add_subdirectory(motion-optimization/riemo_catkin)
+-- Configuring done
 
-------------------------------------------------------------------
+-- Generating done
 
-using catkin test functionality
+-- Build files have been written to: /home/administrator/ci/ci/team/workspace/build
 
-------------------------------------------------------------------
+Scanning dependencies of target yaml-cpp
 
-cmake source dir: /home/administrator/ci/ci/team/workspace/src
+[  2%] [  4%] [  6%] [  9%] [ 11%] [ 13%] [ 15%] [ 18%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/nodebuilder.cpp.o
 
-cmake module path: /home/administrator/ci/ci/team/workspace/src/motion-optimization/cmake/Modules
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/memory.cpp.o
 
---------------------------------------------------------------------
+[ 20%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/scantoken.cpp.o
 
-Project source directory: /home/administrator/ci/ci/team/workspace/src
+[ 22%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/nodeevents.cpp.o
 
-Building riemo
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/ostream_wrapper.cpp.o
 
-Build type: 
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/tag.cpp.o
 
---------------------------------------------------------------------
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/node.cpp.o
 
-**** No build type set ****
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/parse.cpp.o
 
-Eigen directory: /home/administrator/ci/ci/team/workspace/src/motion-optimization/cmake/Modules/Eigen
+[ 25%] [ 27%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/directives.cpp.o
 
--- Eigen found (include: /usr/include/eigen3)
+[ 29%] [ 31%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/scanscalar.cpp.o
 
-Eigen include directories: /usr/include/eigen3
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/scantag.cpp.o
 
--- A library with BLAS API found.
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emitterutils.cpp.o
 
--- A library with LAPACK API found.
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/parser.cpp.o
 
-Lapack: TRUE
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/scanner.cpp.o
 
-Lapack linker flags: 
+[ 34%] [ 36%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emitter.cpp.o
 
-Lapack libraries: /usr/lib/liblapack.so;/usr/lib/libblas.so
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/exp.cpp.o
 
-Lapack 95 libraries: 
+[ 38%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/regex.cpp.o
 
--- +++ processing catkin package: 'riemo_launch'
+[ 40%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/binary.cpp.o
 
--- ==> add_subdirectory(motion-optimization/riemo_ros_pkgs/riemo_launch)
+[ 43%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/node_data.cpp.o
 
--- +++ processing catkin package: 'riemo_scripts'
+[ 45%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emit.cpp.o
 
--- ==> add_subdirectory(motion-optimization/riemo_ros_pkgs/riemo_scripts)
+[ 47%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/simplekey.cpp.o
 
--- +++ processing catkin package: 'riemo_controller_msgs'
+[ 50%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emitterstate.cpp.o
 
--- ==> add_subdirectory(motion-optimization/riemo_ros_pkgs/riemo_controller_msgs)
+[ 54%] [ 54%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/convert.cpp.o
 
--- Using these message generators: gencpp;genlisp;genpy
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/singledocparser.cpp.o
 
--- riemo_controller_msgs: 23 messages, 2 services
+[ 56%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/stream.cpp.o
 
--- +++ processing catkin package: 'riemo_rt'
+[ 59%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emitfromevents.cpp.o
 
--- ==> add_subdirectory(motion-optimization/riemo_ros_pkgs/riemo_rt)
+[ 61%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/null.cpp.o
 
--- Eigen found (include: /usr/include/eigen3)
+[ 63%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilderadapter.cpp.o
 
--- +++ processing catkin package: 'riemo_kinematics'
+[ 65%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilder.cpp.o
 
--- ==> add_subdirectory(motion-optimization/riemo_ros_pkgs/riemo_kinematics)
+Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libyaml-cpp.so
 
--- Eigen found (include: /usr/include/eigen3)
+[ 65%] Built target yaml-cpp
 
-Eigen : /usr/include/eigen3
+Scanning dependencies of target read
 
-Catkin :/home/administrator/ci/ci/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_differential_geometry/include/home/administrator/ci/ci/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_discrete_geometry/include/home/administrator/ci/ci/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_learning/include/home/administrator/ci/ci/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_optimization/include/home/administrator/ci/ci/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_motion/include/home/administrator/ci/ci/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_utilities/include/home/administrator/ci/ci/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_workspace/include/home/administrator/ci/ci/team/workspace/src/motion-optimization/riemo_catkin/riemo/external/include/opt/ros/indigo/include/usr/include/eigen3/usr/include
+Scanning dependencies of target sandbox
 
-Current include directories in riemo_kinematics cmakelists file:
+Scanning dependencies of target parse
 
--- dir='/home/administrator/ci/ci/team/workspace/src/motion-optimization/riemo_ros_pkgs/riemo_kinematics/include'
+[ 68%] Scanning dependencies of target run-tests
 
--- dir='/usr/include/eigen3'
+Scanning dependencies of target basic_pid
 
--- dir='/home/administrator/ci/ci/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_differential_geometry/include'
+[ 70%] [ 72%] Building CXX object catkin/third_party/YAML_CPP/util/CMakeFiles/read.dir/read.cpp.o
 
--- dir='/home/administrator/ci/ci/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_discrete_geometry/include'
+Building CXX object catkin/third_party/YAML_CPP/util/CMakeFiles/sandbox.dir/sandbox.cpp.o
 
--- dir='/home/administrator/ci/ci/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_learning/include'
+Building CXX object catkin/third_party/YAML_CPP/util/CMakeFiles/parse.dir/parse.cpp.o
 
--- dir='/home/administrator/ci/ci/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_optimization/include'
+[ 75%] [ 77%] [ 79%] [ 81%] [ 84%] [ 86%] [ 88%] [ 90%] Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/main.cpp.o
 
--- dir='/home/administrator/ci/ci/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_motion/include'
+Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/spectests.cpp.o
 
--- dir='/home/administrator/ci/ci/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_utilities/include'
+Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/emittertests.cpp.o
 
--- dir='/home/administrator/ci/ci/team/workspace/src/motion-optimization/riemo_catkin/riemo/riemo_workspace/include'
+Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/tests.cpp.o
 
--- dir='/home/administrator/ci/ci/team/workspace/src/motion-optimization/riemo_catkin/riemo/external/include'
+Building CXX object catkin/test/ci_test/ci_example_cpp/CMakeFiles/basic_pid.dir/src/basic_pid.cpp.o
 
--- dir='/opt/ros/indigo/include'
+Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/new-api/parsertests.cpp.o
 
--- dir='/usr/include/eigen3'
+Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/new-api/spectests.cpp.o
 
--- dir='/usr/include'
+Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/new-api/nodetests.cpp.o
 
--- +++ processing catkin package: 'visualization_2d'
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/yaml_cpp/sandbox
 
--- ==> add_subdirectory(motion-optimization/riemo_ros_pkgs/visualization_2d)
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/yaml_cpp/read
 
--- Using these message generators: gencpp;genlisp;genpy
+[ 90%] Built target sandbox
 
--- visualization_2d: 5 messages, 1 services
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/yaml_cpp/parse
 
--- +++ processing catkin package: 'riemo_ros'
+[ 90%] Built target read
 
--- ==> add_subdirectory(motion-optimization/riemo_ros_pkgs/riemo_ros)
+[ 90%] Built target parse
 
--- Using these message generators: gencpp;genlisp;genpy
+Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libbasic_pid.so
 
--- Eigen found (include: /usr/include/eigen3)
+[ 90%] Built target basic_pid
 
--- +++ processing catkin package: 'riemo_programs'
+Scanning dependencies of target ci_example_ros
 
--- ==> add_subdirectory(motion-optimization/riemo_ros_pkgs/riemo_programs)
+Scanning dependencies of target ci_example_abs_path_config_demo
 
--- Using these message generators: gencpp;genlisp;genpy
+Scanning dependencies of target ci_example_demo
 
-CMake Warning at /opt/ros/indigo/share/catkin/cmake/catkinConfig.cmake:76 (find_package):
+Scanning dependencies of target doxygen_child
 
-  Could not find a package configuration file provided by
+[ 93%] [ 95%] [ 97%] [100%] Building CXX object catkin/test/ci_test/ci_example_cpp/CMakeFiles/ci_example_ros.dir/src/demos/ci_example_ros.cpp.o
 
-  "riemo_grasping_msgs" with any of the following names:
+Building CXX object catkin/test/ci_test/ci_doxygen_child_cpp/CMakeFiles/doxygen_child.dir/src/doxygen_child.cpp.o
 
+Building CXX object catkin/test/ci_test/ci_example_cpp/CMakeFiles/ci_example_abs_path_config_demo.dir/src/demos/ci_example_abs_path_config_demo.cpp.o
 
+Building CXX object catkin/test/ci_test/ci_example_cpp/CMakeFiles/ci_example_demo.dir/src/demos/ci_example_demo.cpp.o
 
-    riemo_grasping_msgsConfig.cmake
+Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libdoxygen_child.so
 
-    riemo_grasping_msgs-config.cmake
+[100%] Built target doxygen_child
 
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/ci_example_cpp/ci_example_ros
 
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/ci_example_cpp/ci_example_abs_path_config_demo
 
-  Add the installation prefix of "riemo_grasping_msgs" to CMAKE_PREFIX_PATH
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/ci_example_cpp/ci_example_demo
 
-  or set "riemo_grasping_msgs_DIR" to a directory containing one of the above
+[100%] Built target ci_example_ros
 
-  files.  If "riemo_grasping_msgs" provides a separate development package or
+[100%] Built target ci_example_abs_path_config_demo
 
-  SDK, be sure it has been installed.
+[100%] Built target ci_example_demo
 
-Call Stack (most recent call first):
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/yaml_cpp/run-tests
 
-  motion-optimization/riemo_ros_pkgs/riemo_programs/CMakeLists.txt:16 (find_package)
+[100%] Built target run-tests
 
+Install the project...
 
+-- Install configuration: ""
 
+-- Installing: /home/administrator/ci/ci/team/workspace/install/_setup_util.py
 
+-- Installing: /home/administrator/ci/ci/team/workspace/install/env.sh
 
--- Could not find the required component 'riemo_grasping_msgs'. The following CMake error indicates that you either need to install the package with the same name or change your environment so that it can be found.
+-- Installing: /home/administrator/ci/ci/team/workspace/install/setup.bash
 
-CMake Error at /opt/ros/indigo/share/catkin/cmake/catkinConfig.cmake:83 (find_package):
+-- Installing: /home/administrator/ci/ci/team/workspace/install/setup.sh
 
-  Could not find a package configuration file provided by
+-- Installing: /home/administrator/ci/ci/team/workspace/install/setup.zsh
 
-  "riemo_grasping_msgs" with any of the following names:
+-- Installing: /home/administrator/ci/ci/team/workspace/install/.rosinstall
 
++ cd /home/administrator/ci/ci/team/workspace/src/catkin/test/ci_test/ci_example_python
 
++ mkdir -p /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages
 
-    riemo_grasping_msgsConfig.cmake
++ /usr/bin/env PYTHONPATH=/home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages:/home/administrator/ci/ci/team/workspace/build/lib/python2.7/dist-packages:/opt/ros/indigo/lib/python2.7/dist-packages CATKIN_BINARY_DIR=/home/administrator/ci/ci/team/workspace/build /usr/bin/python /home/administrator/ci/ci/team/workspace/src/catkin/test/ci_test/ci_example_python/setup.py build --build-base /home/administrator/ci/ci/team/workspace/build/catkin/test/ci_test/ci_example_python install --install-layout=deb --prefix=/home/administrator/ci/ci/team/workspace/install --install-scripts=/home/administrator/ci/ci/team/workspace/install/bin
 
-    riemo_grasping_msgs-config.cmake
+running build
 
+running build_py
 
+creating /home/administrator/ci/ci/team/workspace/build/catkin/test/ci_test/ci_example_python/lib.linux-x86_64-2.7
 
-  Add the installation prefix of "riemo_grasping_msgs" to CMAKE_PREFIX_PATH
+creating /home/administrator/ci/ci/team/workspace/build/catkin/test/ci_test/ci_example_python/lib.linux-x86_64-2.7/ci_example_python
 
-  or set "riemo_grasping_msgs_DIR" to a directory containing one of the above
+copying scripts/ci_example_python/__init__.py -> /home/administrator/ci/ci/team/workspace/build/catkin/test/ci_test/ci_example_python/lib.linux-x86_64-2.7/ci_example_python
 
-  files.  If "riemo_grasping_msgs" provides a separate development package or
+copying scripts/ci_example_python/pid.py -> /home/administrator/ci/ci/team/workspace/build/catkin/test/ci_test/ci_example_python/lib.linux-x86_64-2.7/ci_example_python
 
-  SDK, be sure it has been installed.
+running install
 
-Call Stack (most recent call first):
+running install_lib
 
-  motion-optimization/riemo_ros_pkgs/riemo_programs/CMakeLists.txt:16 (find_package)
+creating /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/ci_example_python
 
+copying /home/administrator/ci/ci/team/workspace/build/catkin/test/ci_test/ci_example_python/lib.linux-x86_64-2.7/ci_example_python/__init__.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/ci_example_python
 
+copying /home/administrator/ci/ci/team/workspace/build/catkin/test/ci_test/ci_example_python/lib.linux-x86_64-2.7/ci_example_python/pid.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/ci_example_python
 
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/ci_example_python/__init__.py to __init__.pyc
 
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/ci_example_python/pid.py to pid.pyc
 
--- Configuring incomplete, errors occurred!
+running install_egg_info
 
-See also "/home/administrator/ci/ci/team/workspace/build/CMakeFiles/CMakeOutput.log".
+Writing /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/ci_example_python-1.0.0.egg-info
 
-See also "/home/administrator/ci/ci/team/workspace/build/CMakeFiles/CMakeError.log".
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/yaml_cpp.pc
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/yaml_cpp/cmake/yaml_cppConfig.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/yaml_cpp/cmake/yaml_cppConfig-version.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/yaml_cpp/package.xml
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/libyaml-cpp.so.0.5.1
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/libyaml-cpp.so.0.5
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/libyaml-cpp.so
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/ostream_wrapper.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/anchor.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/yaml.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/exceptions.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/dll.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/mark.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/noncopyable.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/traits.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/stlemitter.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/node.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/emit.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/iterator.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/node.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/memory.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/iterator.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/bool_type.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/iterator_fwd.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/node_ref.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/node_data.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/node_iterator.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/impl.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/type.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/ptr.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/parse.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/impl.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/convert.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/emittermanip.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/eventhandler.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/binary.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/emitterdef.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/contrib
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/contrib/graphbuilder.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/contrib/anchordict.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/emitfromevents.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/parser.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/emitter.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/yaml_eigen.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/null.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/yaml-cpp.pc
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/ci_example_cpp.pc
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/ci_example_cpp/cmake/ci_example_cppConfig.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/ci_example_cpp/cmake/ci_example_cppConfig-version.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/ci_example_cpp/package.xml
+
+-- Installing: /home/administrator/ci/ci/team/workspace/src/catkin/test/ci_test/ci_example_cpp/demos/bin/ci_example_ros
+
+-- Set runtime path of "/home/administrator/ci/ci/team/workspace/src/catkin/test/ci_test/ci_example_cpp/demos/bin/ci_example_ros" to "/home/administrator/ci/ci/team/workspace/install/lib:/home/administrator/ci/ci/team/workspace/devel/lib:/opt/ros/indigo/lib"
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/ci_doxygen_child_cpp.pc
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/ci_doxygen_child_cpp/cmake/ci_doxygen_child_cppConfig.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/ci_doxygen_child_cpp/cmake/ci_doxygen_child_cppConfig-version.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/ci_doxygen_child_cpp/package.xml
 
 Base path: /home/administrator/ci/ci/team/workspace
 
@@ -280,10 +434,16 @@ Devel space: /home/administrator/ci/ci/team/workspace/devel
 
 Install space: /home/administrator/ci/ci/team/workspace/install
 
+Creating symlink "/home/administrator/ci/ci/team/workspace/src/CMakeLists.txt" pointing to "/opt/ros/indigo/share/catkin/cmake/toplevel.cmake"
+
 ####
 
 #### Running command: "cmake /home/administrator/ci/ci/team/workspace/src -DCATKIN_DEVEL_PREFIX=/home/administrator/ci/ci/team/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/administrator/ci/ci/team/workspace/install -G Unix Makefiles" in "/home/administrator/ci/ci/team/workspace/build"
 
 ####
 
-Invoking "cmake" failed
+####
+
+#### Running command: "make -j16 install" in "/home/administrator/ci/ci/team/workspace/build"
+
+####
