@@ -1,30 +1,8 @@
--- The C compiler identification is GNU 4.8.4
-
--- The CXX compiler identification is GNU 4.8.4
-
--- Check for working C compiler: /usr/bin/cc
-
--- Check for working C compiler: /usr/bin/cc -- works
-
--- Detecting C compiler ABI info
-
--- Detecting C compiler ABI info - done
-
--- Check for working CXX compiler: /usr/bin/c++
-
--- Check for working CXX compiler: /usr/bin/c++ -- works
-
--- Detecting CXX compiler ABI info
-
--- Detecting CXX compiler ABI info - done
-
 -- Using CATKIN_DEVEL_PREFIX: /home/administrator/ci/ci/team/workspace/devel
 
 -- Using CMAKE_PREFIX_PATH: /opt/ros/indigo
 
 -- This workspace overlays: /opt/ros/indigo
-
--- Found PythonInterp: /usr/bin/python (found version "2.7.6") 
 
 -- Using PYTHON_EXECUTABLE: /usr/bin/python
 
@@ -38,24 +16,6 @@
 
 -- Using CATKIN_TEST_RESULTS_DIR: /home/administrator/ci/ci/team/workspace/build/test_results
 
--- Looking for include file pthread.h
-
--- Looking for include file pthread.h - found
-
--- Looking for pthread_create
-
--- Looking for pthread_create - not found
-
--- Looking for pthread_create in pthreads
-
--- Looking for pthread_create in pthreads - not found
-
--- Looking for pthread_create in pthread
-
--- Looking for pthread_create in pthread - found
-
--- Found Threads: TRUE  
-
 -- Found gtest sources under '/usr/src/gtest': gtests will be built
 
 -- Using Python nosetests: /usr/bin/nosetests-2.7
@@ -66,121 +26,349 @@
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- ~~  traversing 3 packages in topological order:
+-- ~~  traversing 20 packages in topological order:
 
--- ~~  - amd_clmc_eigen
+-- ~~  - astar_algo
 
--- ~~  - vicon_sdk
+-- ~~  - playful_color_detection_libs
 
--- ~~  - vicon_capture
+-- ~~  - playful_profiler
+
+-- ~~  - soma
+
+-- ~~  - start_robot
+
+-- ~~  - amd_clmc_ros_messages
+
+-- ~~  - ar_track_alvar_msgs
+
+-- ~~  - custom_robot_msgs
+
+-- ~~  - riemo_grasping_msgs
+
+-- ~~  - playful_navigation_msgs
+
+-- ~~  - playful_pcl
+
+-- ~~  - playful_histograms
+
+-- ~~  - playful_virtual_detection
+
+-- ~~  - playful_color_detection_nodes
+
+-- ~~  - playful_depth_detection
+
+-- ~~  - playful_navigation
+
+-- ~~  - playful_navigation_nodes
+
+-- ~~  - playful_nodes
+
+-- ~~  - playful_table_setting
+
+-- ~~  - playful_kinematics
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- +++ processing catkin package: 'amd_clmc_eigen'
+-- +++ processing catkin package: 'astar_algo'
 
--- ==> add_subdirectory(catkin/third_party/amd-clmc-eigen)
+-- ==> add_subdirectory(catkin/playful/playful-navigation/externals/astar-algo)
 
--- +++ processing catkin package: 'vicon_sdk'
+-- +++ processing catkin package: 'playful_color_detection_libs'
 
--- ==> add_subdirectory(catkin/sensors/vicon_sdk)
+-- ==> add_subdirectory(catkin/playful/playful-perception/playful_color_detection/playful_color_detection_libs)
 
--- +++ processing catkin package: 'vicon_capture'
+-- Boost version: 1.54.0
 
--- ==> add_subdirectory(catkin/sensors/vicon_capture)
+-- Found the following Boost libraries:
+
+--   system
+
+-- +++ processing catkin package: 'playful_profiler'
+
+-- ==> add_subdirectory(catkin/playful/playful-perception/playful_profiler)
+
+-- Boost version: 1.54.0
+
+-- Found the following Boost libraries:
+
+--   system
+
+-- +++ processing catkin package: 'soma'
+
+-- ==> add_subdirectory(catkin/playful/playful-soma)
+
+-- +++ processing catkin package: 'start_robot'
+
+-- ==> add_subdirectory(catkin/robots/start_robot)
+
+-- +++ processing catkin package: 'amd_clmc_ros_messages'
+
+-- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/amd_clmc_ros_messages)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- amd_clmc_ros_messages: 108 messages, 10 services
+
+-- +++ processing catkin package: 'ar_track_alvar_msgs'
+
+-- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/ar_track_alvar_msgs)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- ar_track_alvar_msgs: 2 messages, 0 services
+
+-- +++ processing catkin package: 'custom_robot_msgs'
+
+-- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/custom_robot_msgs)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- custom_robot_msgs: 1 messages, 2 services
+
+-- +++ processing catkin package: 'riemo_grasping_msgs'
+
+-- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/riemo_grasping_msgs)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- riemo_grasping_msgs: 5 messages, 3 services
+
+-- +++ processing catkin package: 'playful_navigation_msgs'
+
+-- ==> add_subdirectory(catkin/playful/playful-navigation/navigation_msgs)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- playful_navigation_msgs: 0 messages, 2 services
+
+-- +++ processing catkin package: 'playful_pcl'
+
+-- ==> add_subdirectory(catkin/playful/playful-perception/playful_pcl)
+
+-- Boost version: 1.54.0
+
+-- Found the following Boost libraries:
+
+--   system
+
+--   filesystem
+
+--   thread
+
+--   date_time
+
+--   iostreams
+
+--   serialization
+
+--   chrono
+
+-- checking for module 'openni-dev'
+
+--   package 'openni-dev' not found
+
+-- checking for module 'openni2-dev'
+
+--   package 'openni2-dev' not found
+
+** WARNING ** io features related to pcap will be disabled
+
+** WARNING ** io features related to png will be disabled
+
+-- checking for module 'openni-dev'
+
+--   package 'openni-dev' not found
+
+-- checking for module 'openni2-dev'
+
+--   package 'openni2-dev' not found
+
+-- looking for PCL_COMMON
+
+-- looking for PCL_KDTREE
+
+-- looking for PCL_OCTREE
+
+-- looking for PCL_SEARCH
+
+-- looking for PCL_SURFACE
+
+-- looking for PCL_SAMPLE_CONSENSUS
+
+-- looking for PCL_FILTERS
+
+-- looking for PCL_FEATURES
+
+-- looking for PCL_KEYPOINTS
+
+-- looking for PCL_GEOMETRY
+
+-- looking for PCL_IO
+
+-- looking for PCL_VISUALIZATION
+
+-- looking for PCL_SEGMENTATION
+
+-- looking for PCL_PEOPLE
+
+-- looking for PCL_REGISTRATION
+
+-- looking for PCL_RECOGNITION
+
+-- looking for PCL_OUTOFCORE
+
+-- looking for PCL_TRACKING
+
+-- +++ processing catkin package: 'playful_histograms'
+
+-- ==> add_subdirectory(catkin/playful/playful-perception/playful_histograms)
+
+-- Boost version: 1.54.0
+
+-- Found the following Boost libraries:
+
+--   system
+
+-- +++ processing catkin package: 'playful_virtual_detection'
+
+-- ==> add_subdirectory(catkin/playful/playful-perception/playful_virtual_detection)
+
+-- +++ processing catkin package: 'playful_color_detection_nodes'
+
+-- ==> add_subdirectory(catkin/playful/playful-perception/playful_color_detection/playful_color_detection_nodes)
+
+-- +++ processing catkin package: 'playful_depth_detection'
+
+-- ==> add_subdirectory(catkin/playful/playful-perception/playful_depth_detection)
+
+-- +++ processing catkin package: 'playful_navigation'
+
+-- ==> add_subdirectory(catkin/playful/playful-navigation/navigation_libs)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- +++ processing catkin package: 'playful_navigation_nodes'
+
+-- ==> add_subdirectory(catkin/playful/playful-navigation/navigation_nodes)
+
+-- Boost version: 1.54.0
+
+-- Found the following Boost libraries:
+
+--   system
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- +++ processing catkin package: 'playful_nodes'
+
+-- ==> add_subdirectory(catkin/playful/playful-perception/playful_nodes)
 
 -- Using these message generators: gencpp;genlisp;genpy
 
 -- Boost version: 1.54.0
 
--- Configuring done
+-- Found the following Boost libraries:
 
--- Generating done
+--   system
 
--- Build files have been written to: /home/administrator/ci/ci/team/workspace/build
+--   filesystem
 
-Scanning dependencies of target vicon_sdklib_copy
+--   thread
 
-Scanning dependencies of target boost_libs_copy
+--   date_time
 
-[  0%] Built target vicon_sdklib_copy
+--   iostreams
 
-[  0%] Scanning dependencies of target ViconDataStreamSDK_CPP
+--   serialization
 
-Built target boost_libs_copy
+--   chrono
 
-[  0%] Built target ViconDataStreamSDK_CPP
+-- checking for module 'openni-dev'
 
-Scanning dependencies of target vicon_capture
+--   package 'openni-dev' not found
 
-[ 33%] Building CXX object catkin/sensors/vicon_capture/CMakeFiles/vicon_capture.dir/source/vicon_capture/vicon_capture.cpp.o
+-- checking for module 'openni2-dev'
 
-Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libvicon_capture.so
+--   package 'openni2-dev' not found
 
-[ 33%] Built target vicon_capture
+** WARNING ** io features related to pcap will be disabled
 
-Scanning dependencies of target vicon_capture_publisher_node
+** WARNING ** io features related to png will be disabled
 
-[ 66%] Building CXX object catkin/sensors/vicon_capture/CMakeFiles/vicon_capture_publisher_node.dir/source/vicon_capture/vicon_capture_publisher_node.cpp.o
+-- checking for module 'openni-dev'
 
-Scanning dependencies of target compute_apollo_vicon_base_offset_node
+--   package 'openni-dev' not found
 
-[100%] Building CXX object catkin/sensors/vicon_capture/CMakeFiles/compute_apollo_vicon_base_offset_node.dir/source/vicon_capture/compute_apollo_vicon_base_offset_node.cpp.o
+-- checking for module 'openni2-dev'
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/vicon_capture/vicon_capture_publisher_node
+--   package 'openni2-dev' not found
 
-[100%] Built target vicon_capture_publisher_node
+-- looking for PCL_COMMON
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/vicon_capture/compute_apollo_vicon_base_offset_node
+-- looking for PCL_KDTREE
 
-[100%] Built target compute_apollo_vicon_base_offset_node
+-- looking for PCL_OCTREE
 
-Install the project...
+-- looking for PCL_SEARCH
 
--- Install configuration: ""
+-- looking for PCL_SURFACE
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/_setup_util.py
+-- looking for PCL_SAMPLE_CONSENSUS
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/env.sh
+-- looking for PCL_FILTERS
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/setup.bash
+-- looking for PCL_FEATURES
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/setup.sh
+-- looking for PCL_KEYPOINTS
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/setup.zsh
+-- looking for PCL_GEOMETRY
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/.rosinstall
+-- looking for PCL_IO
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/amd_clmc_eigen.pc
+-- looking for PCL_VISUALIZATION
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/amd_clmc_eigen/cmake/amd_clmc_eigenConfig.cmake
+-- looking for PCL_SEGMENTATION
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/amd_clmc_eigen/cmake/amd_clmc_eigenConfig-version.cmake
+-- looking for PCL_PEOPLE
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/amd_clmc_eigen/package.xml
+-- looking for PCL_REGISTRATION
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/vicon_sdk.pc
+-- looking for PCL_RECOGNITION
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/vicon_sdk/cmake/vicon_sdkConfig.cmake
+-- looking for PCL_OUTOFCORE
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/vicon_sdk/cmake/vicon_sdkConfig-version.cmake
+-- looking for PCL_TRACKING
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/vicon_sdk/package.xml
+-- +++ processing catkin package: 'playful_table_setting'
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/libViconDataStreamSDK_CPP.so
+-- ==> add_subdirectory(catkin/playful/playful-table-setting)
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/vicon_sdk
+-- Using these message generators: gencpp;genlisp;genpy
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/vicon_sdk/vicon_client.h
+-- +++ processing catkin package: 'playful_kinematics'
 
--- Up-to-date: /home/administrator/ci/ci/team/workspace/install/include/vicon_sdk/vicon_client.h
+-- ==> add_subdirectory(catkin/playful/playful-kinematics)
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/vicon_capture.pc
+CMake Error at /opt/ros/indigo/share/catkin/cmake/catkin_python_setup.cmake:96 (message):
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/vicon_capture/cmake/vicon_captureConfig.cmake
+  The package name 'playful_kinematics' differs from the basename of the path
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/vicon_capture/cmake/vicon_captureConfig-version.cmake
+  'scripts' in project 'playful_kinematics'
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/vicon_capture/package.xml
+Call Stack (most recent call first):
+
+  catkin/playful/playful-kinematics/CMakeLists.txt:69 (catkin_python_setup)
+
+
+
+
+
+-- Configuring incomplete, errors occurred!
+
+See also "/home/administrator/ci/ci/team/workspace/build/CMakeFiles/CMakeOutput.log".
+
+See also "/home/administrator/ci/ci/team/workspace/build/CMakeFiles/CMakeError.log".
 
 Base path: /home/administrator/ci/ci/team/workspace
 
@@ -192,16 +380,10 @@ Devel space: /home/administrator/ci/ci/team/workspace/devel
 
 Install space: /home/administrator/ci/ci/team/workspace/install
 
-Creating symlink "/home/administrator/ci/ci/team/workspace/src/CMakeLists.txt" pointing to "/opt/ros/indigo/share/catkin/cmake/toplevel.cmake"
-
 ####
 
 #### Running command: "cmake /home/administrator/ci/ci/team/workspace/src -DCATKIN_DEVEL_PREFIX=/home/administrator/ci/ci/team/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/administrator/ci/ci/team/workspace/install -G Unix Makefiles" in "/home/administrator/ci/ci/team/workspace/build"
 
 ####
 
-####
-
-#### Running command: "make -j16 install" in "/home/administrator/ci/ci/team/workspace/build"
-
-####
+Invoking "cmake" failed
