@@ -1,554 +1,1529 @@
-WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
+failed to compile unit tests:
+-- Using CATKIN_DEVEL_PREFIX: /home/administrator/ci/ci/team/workspace/devel
 
-[  4%] Built target amd_clmc_dmp
+-- Using CMAKE_PREFIX_PATH: /home/administrator/ci/ci/team/workspace/devel;/opt/ros/indigo
 
-Scanning dependencies of target amd_clmc_dmp_1D_demo
+-- This workspace overlays: /home/administrator/ci/ci/team/workspace/devel;/opt/ros/indigo
 
-[  4%] Building CXX object catkin/planning/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp_1D_demo.dir/src/dmp_test/dmp_1D/dmp_1D_test.cpp.o
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/amd_clmc_dmp/amd_clmc_dmp_1D_demo
+-- Python version: 2.7
 
-[  4%] Built target amd_clmc_dmp_1D_demo
+-- Using Debian Python package layout
 
-Scanning dependencies of target amd_clmc_dmp_cart_coord_dmp_multi_traj_training_demo
+-- Using CATKIN_ENABLE_TESTING: ON
 
-[  4%] Building CXX object catkin/planning/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp_cart_coord_dmp_multi_traj_training_demo.dir/src/dmp_test/cart_dmp/cart_coord_dmp/cart_coord_dmp_multi_traj_training_test.cpp.o
+-- Call enable_testing()
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/amd_clmc_dmp/amd_clmc_dmp_cart_coord_dmp_multi_traj_training_demo
+-- Using CATKIN_TEST_RESULTS_DIR: /home/administrator/ci/ci/team/workspace/build/test_results
 
-[  4%] Built target amd_clmc_dmp_cart_coord_dmp_multi_traj_training_demo
+-- Found gtest sources under '/usr/src/gtest': gtests will be built
 
-Scanning dependencies of target amd_clmc_dmp_cart_coord_dmp_single_traj_training_demo
+-- catkin 0.5.90
 
-[  4%] Building CXX object catkin/planning/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp_cart_coord_dmp_single_traj_training_demo.dir/src/dmp_test/cart_dmp/cart_coord_dmp/cart_coord_dmp_single_traj_training_test.cpp.o
+-- BUILD_SHARED_LIBS is on
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/amd_clmc_dmp/amd_clmc_dmp_cart_coord_dmp_single_traj_training_demo
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-[  4%] Built target amd_clmc_dmp_cart_coord_dmp_single_traj_training_demo
+-- ~~  traversing 4 packages in topological order:
 
-Scanning dependencies of target amd_clmc_dmp_cart_dmp_pmnn_fitted_ct_unroll_demo
+-- ~~  - fl
 
-[  4%] Building CXX object catkin/planning/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp_cart_dmp_pmnn_fitted_ct_unroll_demo.dir/src/dmp_test/dmp_coupling/learn_tactile_feedback/scraping/neural_nets/pmnn/cart_dmp_pmnn_fitted_ct_unroll_test.cpp.o
+-- ~~  - dbot
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/amd_clmc_dmp/amd_clmc_dmp_cart_dmp_pmnn_fitted_ct_unroll_demo
+-- ~~  - dbot_ros_msgs
 
-[  4%] Built target amd_clmc_dmp_cart_dmp_pmnn_fitted_ct_unroll_demo
+-- ~~  - dbot_ros
 
-Scanning dependencies of target amd_clmc_dmp_ct_loa_learn_algo_verification_demo
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-[  4%] Building CXX object catkin/planning/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp_ct_loa_learn_algo_verification_demo.dir/src/dmp_test/dmp_coupling/learn_obs_avoid/learning_algo_verification/ct_loa_learn_algo_verification.cpp.o
+-- +++ processing catkin package: 'fl'
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/amd_clmc_dmp/amd_clmc_dmp_ct_loa_learn_algo_verification_demo
+-- ==> add_subdirectory(catkin/core-perception/fl)
 
-[  4%] Built target amd_clmc_dmp_ct_loa_learn_algo_verification_demo
+-- Eigen found (include: /usr/include/eigen3)
 
-Scanning dependencies of target amd_clmc_dmp_ct_loa_so_sb_multi_demo_vicon_NN_unrolling_demo
+-- Boost version: 1.54.0
 
-[  5%] Building CXX object catkin/planning/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp_ct_loa_so_sb_multi_demo_vicon_NN_unrolling_demo.dir/src/dmp_test/dmp_coupling/learn_obs_avoid/static_obs/single_baseline/ct_loa_so_sb_multi_demo_vicon_NN_unrolling_test.cpp.o
+-- +++ processing catkin package: 'dbot'
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/amd_clmc_dmp/amd_clmc_dmp_ct_loa_so_sb_multi_demo_vicon_NN_unrolling_demo
+-- ==> add_subdirectory(catkin/core-perception/dbot)
 
-[  5%] Built target amd_clmc_dmp_ct_loa_so_sb_multi_demo_vicon_NN_unrolling_demo
+-- Eigen found (include: /usr/include/eigen3)
 
-Scanning dependencies of target amd_clmc_dmp_ct_loa_so_sb_multi_demo_vicon_PMNN_unrolling_demo
+-- Boost version: 1.54.0
 
-[  5%] Building CXX object catkin/planning/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp_ct_loa_so_sb_multi_demo_vicon_PMNN_unrolling_demo.dir/src/dmp_test/dmp_coupling/learn_obs_avoid/static_obs/single_baseline/ct_loa_so_sb_multi_demo_vicon_PMNN_unrolling_test.cpp.o
+-- Found the following Boost libraries:
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/amd_clmc_dmp/amd_clmc_dmp_ct_loa_so_sb_multi_demo_vicon_PMNN_unrolling_demo
+--   system
 
-[  5%] Built target amd_clmc_dmp_ct_loa_so_sb_multi_demo_vicon_PMNN_unrolling_demo
+--   filesystem
 
-Scanning dependencies of target amd_clmc_dmp_ct_loa_so_sb_multi_demo_vicon_learning_demo
+-- Found CUDA version 8.0
 
-[  5%] Building CXX object catkin/planning/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp_ct_loa_so_sb_multi_demo_vicon_learning_demo.dir/src/dmp_test/dmp_coupling/learn_obs_avoid/static_obs/single_baseline/ct_loa_so_sb_multi_demo_vicon_learning_test.cpp.o
+-- Using catkin
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/amd_clmc_dmp/amd_clmc_dmp_ct_loa_so_sb_multi_demo_vicon_learning_demo
+-- +++ processing catkin package: 'dbot_ros_msgs'
 
-[  5%] Built target amd_clmc_dmp_ct_loa_so_sb_multi_demo_vicon_learning_demo
+-- ==> add_subdirectory(catkin/ros/dbot_ros_msgs)
 
-Scanning dependencies of target amd_clmc_dmp_ct_loa_so_sb_multi_demo_vicon_unrolling_demo
+-- Using these message generators: gencpp;genlisp;genpy
 
-[  5%] Building CXX object catkin/planning/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp_ct_loa_so_sb_multi_demo_vicon_unrolling_demo.dir/src/dmp_test/dmp_coupling/learn_obs_avoid/static_obs/single_baseline/ct_loa_so_sb_multi_demo_vicon_unrolling_test.cpp.o
+-- dbot_ros_msgs: 3 messages, 3 services
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/amd_clmc_dmp/amd_clmc_dmp_ct_loa_so_sb_multi_demo_vicon_unrolling_demo
+-- +++ processing catkin package: 'dbot_ros'
 
-[  5%] Built target amd_clmc_dmp_ct_loa_so_sb_multi_demo_vicon_unrolling_demo
+-- ==> add_subdirectory(catkin/ros/dbot_ros)
 
-Scanning dependencies of target amd_clmc_dmp_dc_loa_so_sb_multi_demo_demo
+-- Using these message generators: gencpp;genlisp;genpy
 
-[  5%] Building CXX object catkin/planning/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp_dc_loa_so_sb_multi_demo_demo.dir/src/dmp_test/dmp_coupling/learn_obs_avoid/static_obs/single_baseline/dc_loa_so_sb_multi_demo_test.cpp.o
+-- Boost version: 1.54.0
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/amd_clmc_dmp/amd_clmc_dmp_dc_loa_so_sb_multi_demo_demo
+-- Eigen found (include: /usr/include/eigen3)
 
-[  5%] Built target amd_clmc_dmp_dc_loa_so_sb_multi_demo_demo
+-- Configuring done
 
-Scanning dependencies of target amd_clmc_dmp_dc_loa_so_sb_single_demo_demo
+-- Generating done
 
-[  5%] Building CXX object catkin/planning/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp_dc_loa_so_sb_single_demo_demo.dir/src/dmp_test/dmp_coupling/learn_obs_avoid/static_obs/single_baseline/dc_loa_so_sb_single_demo_test.cpp.o
+-- Build files have been written to: /home/administrator/ci/ci/team/workspace/build
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/amd_clmc_dmp/amd_clmc_dmp_dc_loa_so_sb_single_demo_demo
+Scanning dependencies of target gtest
 
-[  5%] Built target amd_clmc_dmp_dc_loa_so_sb_single_demo_demo
+[  0%] Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
 
-Scanning dependencies of target amd_clmc_dmp_pmnn_demo
+Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libdbot_gpu.so
 
-[  5%] Building CXX object catkin/planning/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp_pmnn_demo.dir/src/dmp_test/dmp_coupling/learn_tactile_feedback/scraping/neural_nets/pmnn/pmnn_test.cpp.o
+[ 14%] Built target dbot
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/amd_clmc_dmp/amd_clmc_dmp_pmnn_demo
+[ 18%] Built target dbot_gpu
 
-[  5%] Built target amd_clmc_dmp_pmnn_demo
+Linking CXX shared library libgtest.so
 
-Scanning dependencies of target amd_clmc_dmp_quat_dmp_unroll_demo
+[ 18%] Built target gtest
 
-[  5%] Building CXX object catkin/planning/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp_quat_dmp_unroll_demo.dir/src/dmp_test/cart_dmp/quat_dmp/quat_dmp_unroll_test.cpp.o
+Scanning dependencies of target gtest_main
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/amd_clmc_dmp/amd_clmc_dmp_quat_dmp_unroll_demo
+[ 19%] Building CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
 
-[  5%] Built target amd_clmc_dmp_quat_dmp_unroll_demo
+Linking CXX shared library libgtest_main.so
 
-[  5%] Built target arm_cdlbt
+[ 19%] Built target gtest_main
 
-[  6%] Built target arm_can_control_tools
+Scanning dependencies of target file_shader_provider_test_test
 
-[  7%] Built target biotac_cheetah
+Scanning dependencies of target descriptor_test
 
-[  7%] Built target biotac_core
+Scanning dependencies of target options_test
 
-[  7%] Built target test_cheetah
+[ 19%] [ 20%] [ 20%] Building CXX object catkin/core-perception/dbot/CMakeFiles/file_shader_provider_test_test.dir/source/dbot/file_shader_provider_test.cpp.o
 
-[  7%] Built target test_conversions
+Building CXX object catkin/core-perception/fl/test/CMakeFiles/options_test.dir/utils/options_test.cpp.o
 
-[  9%] Built target qp_oases
+Scanning dependencies of target join_test
 
-[  9%] Built target quadprog
+Building CXX object catkin/core-perception/fl/test/CMakeFiles/descriptor_test.dir/utils/descriptor_test.cpp.o
 
-[  9%] Built target lockfree
+[ 20%] Scanning dependencies of target scalar_matrix_test
 
-[  9%] Built target _catkin_empty_exported_target
+Scanning dependencies of target traits_test
 
-[  9%] Built target rt_utils
+Scanning dependencies of target la_is_diagonal_test
 
-Scanning dependencies of target dmp
+Building CXX object catkin/core-perception/fl/test/CMakeFiles/join_test.dir/utils/join_test.cpp.o
 
-[ 10%] Building CXX object catkin/learning/dmp/CMakeFiles/dmp.dir/src/canonical_system.cpp.o
+Scanning dependencies of target la_square_root_test
 
-[ 10%] Building CXX object catkin/learning/dmp/CMakeFiles/dmp.dir/src/transformation_system.cpp.o
+Scanning dependencies of target meta_test
 
-[ 10%] Building CXX object catkin/learning/dmp/CMakeFiles/dmp.dir/src/dmp.cpp.o
+[ 20%] Scanning dependencies of target la_smw_inversion_test
 
-[ 10%] Building CXX object catkin/learning/dmp/CMakeFiles/dmp.dir/src/test_dmp.cpp.o
+Scanning dependencies of target body_tail_sensor_test
 
-[ 10%] Building CXX object catkin/learning/dmp/CMakeFiles/dmp.dir/src/coupling_term.cpp.o
+[ 22%] [ 23%] [ 24%] Building CXX object catkin/core-perception/fl/test/CMakeFiles/scalar_matrix_test.dir/utils/scalar_matrix_test.cpp.o
 
-[ 10%] Building CXX object catkin/learning/dmp/CMakeFiles/dmp.dir/src/neural_network.cpp.o
+Building CXX object catkin/core-perception/fl/test/CMakeFiles/traits_test.dir/utils/traits_test.cpp.o
 
-Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libdmp.so
+Scanning dependencies of target sp_normal_to_uniform_test
 
-[ 10%] Built target dmp
+Building CXX object catkin/core-perception/fl/test/CMakeFiles/la_is_diagonal_test.dir/utils/linear_algebra_is_diagonal_test.cpp.o
 
-Scanning dependencies of target test_dmp
+Scanning dependencies of target linear_uncorrelated_gaussian_sensor_test
 
-[ 10%] Building CXX object catkin/learning/dmp/CMakeFiles/test_dmp.dir/src/test_dmp.cpp.o
+[ 25%] Scanning dependencies of target joint_sensor_iid_test
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/dmp/test_dmp
+Scanning dependencies of target linear_gaussian_sensor_test
 
-[ 10%] Built target test_dmp
+Building CXX object catkin/core-perception/fl/test/CMakeFiles/meta_test.dir/utils/meta_test.cpp.o
 
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_AccelerationFeedbackExperimentStatus
+[ 25%] Scanning dependencies of target linear_transition_test
 
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ResetBreakaway
+[ 27%] [ 27%] Building CXX object catkin/core-perception/fl/test/CMakeFiles/la_square_root_test.dir/utils/linear_algebra_square_root_test.cpp.o
 
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_NavigationTarget
+Building CXX object catkin/core-perception/fl/test/CMakeFiles/la_smw_inversion_test.dir/utils/linear_algebra_smw_inversion_test.cpp.o
 
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_BoundingPoints
+[ 28%] Building CXX object catkin/core-perception/fl/test/CMakeFiles/sp_normal_to_uniform_test.dir/utils/special_functions_normal_to_uniform_test.cpp.o
 
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerDataStatus
+Building CXX object catkin/core-perception/fl/test/CMakeFiles/body_tail_sensor_test.dir/model/sensor/body_tail_sensor_test.cpp.o
 
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineLearningControl
+[ 29%] [ 31%] Building CXX object catkin/core-perception/fl/test/CMakeFiles/linear_uncorrelated_gaussian_sensor_test.dir/model/sensor/linear_uncorrelated_gaussian_sensor_test.cpp.o
 
-[ 10%] Built target geometry_msgs_generate_messages_py
+[ 31%] Building CXX object catkin/core-perception/fl/test/CMakeFiles/joint_sensor_iid_test.dir/model/sensor/joint_sensor_iid_test.cpp.o
 
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibratePressureSensorsStatus
+Building CXX object catkin/core-perception/fl/test/CMakeFiles/linear_gaussian_sensor_test.dir/model/sensor/linear_gaussian_sensor_test.cpp.o
 
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PolicyControllerParamsService
+Building CXX object catkin/core-perception/fl/test/CMakeFiles/linear_transition_test.dir/model/transition/linear_transition_test.cpp.o
 
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SwitchControllerStack
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/descriptor_test
 
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Goto_command
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/options_test
 
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_RtNetwork
+[ 31%] Built target descriptor_test
 
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspControllerStatus
+[ 31%] Built target options_test
 
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_BiotacData
+Scanning dependencies of target orientation_transition_function_test
 
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ExperimentParams
+[ 32%] Building CXX object catkin/core-perception/fl/test/CMakeFiles/orientation_transition_function_test.dir/model/transition/orientation_transition_function_test.cpp.o
 
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_AvgPressureSensors
+Scanning dependencies of target binary_transition_density_test
 
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_QueryControllerStatus
+[ 32%] Building CXX object catkin/core-perception/fl/test/CMakeFiles/binary_transition_density_test.dir/model/binary_transition_density_test.cpp.o
 
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Volumes
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/dbot/file_shader_provider_test_test
 
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_UpdateStrainGagesCalibration
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/join_test
 
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ImageCoordinates
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/sp_normal_to_uniform_test
 
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LabeledPoint
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/traits_test
 
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_IncreaseMaxFingerTorque
+[ 32%] Built target file_shader_provider_test_test
 
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Preshape
+[ 32%] Built target join_test
 
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LqrControllerDataStatus
+[ 32%] Built target sp_normal_to_uniform_test
 
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PressureSensors
+[ 32%] Built target traits_test
 
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ObstaclePoints
+Scanning dependencies of target filter_interface_test
 
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateForceTorqueSensor
+[ 33%] Building CXX object catkin/core-perception/fl/test/CMakeFiles/filter_interface_test.dir/filter_interface/filter_interface_test.cpp.o
 
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CartesianTrajectory
+Scanning dependencies of target decorrelated_gaussian_distribution_test
 
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Acceleration
+Scanning dependencies of target gaussian_distribution_test
 
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PolicyControllerDataStatus
+[ 35%] Building CXX object catkin/core-perception/fl/test/CMakeFiles/decorrelated_gaussian_distribution_test.dir/distribution/decorrelated_gaussian_test.cpp.o
 
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerParamsService
+[ 36%] Scanning dependencies of target discrete_distribution_test
 
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspPoses
+Building CXX object catkin/core-perception/fl/test/CMakeFiles/gaussian_distribution_test.dir/distribution/gaussian_test.cpp.o
 
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_TrajectoryStatus
+[ 37%] Building CXX object catkin/core-perception/fl/test/CMakeFiles/discrete_distribution_test.dir/distribution/discrete_distribution_test.cpp.o
 
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ExperimentGeneratorParamsService
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/meta_test
 
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PointArrayArray
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/scalar_matrix_test
 
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerStatus
+[ 37%] Built target meta_test
 
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CartesianTrajectoryPoint
+Scanning dependencies of target chi_squared_distribution_test
 
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LookAtParams
+[ 37%] Built target scalar_matrix_test
 
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineNetwork
+[ 38%] Building CXX object catkin/core-perception/fl/test/CMakeFiles/chi_squared_distribution_test.dir/distribution/chi_squared_distribution_test.cpp.o
 
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_BiotacFingerData
+Scanning dependencies of target t_distribution_test
 
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CollectDataStatus
+[ 40%] Building CXX object catkin/core-perception/fl/test/CMakeFiles/t_distribution_test.dir/distribution/t_distribution_test.cpp.o
 
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ColorRange
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/la_is_diagonal_test
 
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LookAtStatus
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/orientation_transition_function_test
 
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DMPControllerStatus
+[ 40%] Built target la_is_diagonal_test
 
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_RtNetworkLayer
+Scanning dependencies of target exception_test
 
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibratePressureSensors
+[ 41%] Building CXX object catkin/core-perception/fl/test/CMakeFiles/exception_test.dir/exception/exception_test.cpp.o
 
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Extrems
+[ 41%] Built target orientation_transition_function_test
 
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DMPCommand
+Scanning dependencies of target unscented_transform_test_test
 
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_NetworkLayer
+[ 42%] Building CXX object catkin/core-perception/fl/test/CMakeFiles/unscented_transform_test_test.dir/gaussian_filter/unscented_transform_test.cpp.o
 
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ScaledLqr
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/binary_transition_density_test
 
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ViconQuery
+[ 42%] Built target binary_transition_density_test
 
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspControllerParams
+Scanning dependencies of target gaussian_filter_kalman_filter_test
 
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_TrajectoryPoint
+[ 42%] Building CXX object catkin/core-perception/fl/test/CMakeFiles/gaussian_filter_kalman_filter_test.dir/gaussian_filter/kalman_filter_test.cpp.o
 
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SetPoses
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/filter_interface_test
 
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_UpdateStrainGagesCalibrationStatus
+[ 42%] Built target filter_interface_test
 
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DMPControllerParams
+Scanning dependencies of target gaussian_filter_unscented_kalman_filter_test
 
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Path
+[ 44%] Building CXX object catkin/core-perception/fl/test/CMakeFiles/gaussian_filter_unscented_kalman_filter_test.dir/gaussian_filter/unscented_kalman_filter_test.cpp.o
 
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SetVisualToolTracking
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/la_smw_inversion_test
 
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ContinuousTrajectoryStatus
+In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/kalman_filter_test.cpp:25:0:
 
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ContinuousTrajectoryPoint
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:87:17: error: wrong number of template arguments (2, should be 3)
 
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_BoundingPointsArray
+                 > LinearTransition;
 
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SetObjectOri
+                 ^
 
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_EndEffectorPosition
+In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:35:0,
 
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_InverseDynamicsBatchNetworkControllerStatus
+                 from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/kalman_filter_test.cpp:25:
 
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Imu
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/model/transition/linear_transition.hpp:42:7: error: provided for ‘template<class State_, class Noise_, class Input_> class fl::LinearTransition’
 
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_FingerJointEncoderOffsetsStatus
-
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerParams
-
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineDataStatus
-
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_AffinePolicy
-
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateAccelerometerSensorStatus
-
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspStatus
-
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DistanceFieldEval
-
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LqrControllerParams
-
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CartesianGains
-
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ChordEllipsoid
-
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OnlineDataStatus
-
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DistanceFieldQueries
-
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_FingerJointEncoderOffsets
-
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_KeyPointBodyApprox
-
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineLearningControlService
-
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LinearQuadraticRegulatorParams
-
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LqrControllerParamsService
-
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Grasp
-
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_FingerForceControlGains
-
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateBiotacSensorsStatus
-
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_StrainGauge
-
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ExtremsArray
-
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_TaskFrame
-
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Sphere
-
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_EndEffectorState
-
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_RectangularBox
-
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ViconData
-
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SpeedChange
-
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateAccelerometerSensor
-
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ResetBreakawayStatus
-
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_RectangularBoxArray
-
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ControllerStatus
-
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateBiotacSensors
-
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineParams
-
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LinearQuadraticRegulatorStatus
-
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_EnvironmentalObject
-
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Matrix32
-
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ObjectMass
-
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Gains
-
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PointArray
-
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Trajectory
-
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ImageCoordinatesArray
-
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateForceTorqueSensorStatus
-
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LinearQuadraticRegulator
-
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_InverseDynamicsBatchNetworkControllerParams
-
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_TrackingPose
-
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineParamsService
-
-[ 10%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CollectData
-
-[ 23%] Built target amd_clmc_ros_messages_generate_messages_py
-
-[ 23%] Built target geometry_msgs_generate_messages_cpp
-
-[ 36%] Built target amd_clmc_ros_messages_generate_messages_cpp
-
-[ 36%] Built target geometry_msgs_generate_messages_lisp
-
-[ 48%] Built target amd_clmc_ros_messages_generate_messages_lisp
-
-Scanning dependencies of target amd_clmc_ros_messages_generate_messages
-
-[ 48%] Built target amd_clmc_ros_messages_generate_messages
-
-[ 48%] Built target _ar_track_alvar_msgs_generate_messages_check_deps_AlvarMarker
-
-[ 48%] Built target std_msgs_generate_messages_lisp
-
-[ 48%] Built target _ar_track_alvar_msgs_generate_messages_check_deps_AlvarMarkers
-
-[ 49%] Built target ar_track_alvar_msgs_generate_messages_lisp
-
-[ 49%] Built target std_msgs_generate_messages_py
-
-[ 49%] Built target ar_track_alvar_msgs_generate_messages_py
-
-[ 49%] Built target std_msgs_generate_messages_cpp
-
-[ 49%] Built target ar_track_alvar_msgs_generate_messages_cpp
-
-Scanning dependencies of target ar_track_alvar_msgs_generate_messages
-
-[ 49%] Built target ar_track_alvar_msgs_generate_messages
-
-[ 49%] Built target _custom_robot_msgs_generate_messages_check_deps_assembly_phase
-
-[ 49%] Built target _custom_robot_msgs_generate_messages_check_deps_PredictAssembly
-
-[ 49%] Built target _custom_robot_msgs_generate_messages_check_deps_PolicyInterface
-
-[ 50%] Built target custom_robot_msgs_generate_messages_lisp
-
-[ 50%] Built target custom_robot_msgs_generate_messages_cpp
-
-[ 50%] Built target custom_robot_msgs_generate_messages_py
-
-Scanning dependencies of target custom_robot_msgs_generate_messages
-
-[ 50%] Built target custom_robot_msgs_generate_messages
-
-[ 50%] Built target _riemo_grasping_msgs_generate_messages_check_deps_RenderGraspProblemService
-
-[ 50%] Built target _riemo_grasping_msgs_generate_messages_check_deps_GraspProblemInfo
-
-[ 50%] Built target _riemo_grasping_msgs_generate_messages_check_deps_UpdateGraspProblem
-
-[ 50%] Built target _riemo_grasping_msgs_generate_messages_check_deps_Preshape
-
-[ 50%] Built target _riemo_grasping_msgs_generate_messages_check_deps_LatestGraspProblemInfo
-
-[ 50%] Built target _riemo_grasping_msgs_generate_messages_check_deps_GraspPose
-
-[ 50%] Built target _riemo_grasping_msgs_generate_messages_check_deps_MpiGraspPoses
-
-[ 50%] Built target _riemo_grasping_msgs_generate_messages_check_deps_GraspableObject
-
-[ 51%] Built target riemo_grasping_msgs_generate_messages_py
-
-[ 52%] Built target riemo_grasping_msgs_generate_messages_lisp
-
-[ 53%] Built target riemo_grasping_msgs_generate_messages_cpp
-
-Scanning dependencies of target riemo_grasping_msgs_generate_messages
-
-[ 53%] Built target riemo_grasping_msgs_generate_messages
-
-[ 57%] Built target utility
-
-[ 58%] Built target lwpr
-
-[ 58%] Built target xascii2clmcplot
-
-[ 58%] Built target xlwpr
-
-[ 59%] Built target xlwprstat
-
-[ 60%] Built target vrpn_vicon_minimum
-
-[ 61%] Built target vrpn_vicon_objs_tracker
-
-Scanning dependencies of target vrpn_vicon_objs_tracker_test
-
-[ 61%] Building CXX object catkin/perception/vrpn_vicon_objs_tracker/CMakeFiles/vrpn_vicon_objs_tracker_test.dir/src/test/vrpn_vicon_objs_tracker_test.cpp.o
-
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/vrpn_vicon_objs_tracker/vrpn_vicon_objs_tracker_test
-
-[ 61%] Built target vrpn_vicon_objs_tracker_test
-
-[ 61%] Built target shape_msgs_generate_messages_lisp
-
-[ 61%] Built target _constrained_inverse_kinematics_msgs_generate_messages_check_deps_InverseKinematicsRequest
-
-[ 62%] Built target constrained_inverse_kinematics_msgs_generate_messages_lisp
-
-[ 62%] Built target shape_msgs_generate_messages_py
-
-[ 62%] Built target constrained_inverse_kinematics_msgs_generate_messages_py
-
-[ 62%] Built target shape_msgs_generate_messages_cpp
-
-[ 62%] Built target constrained_inverse_kinematics_msgs_generate_messages_cpp
-
-Scanning dependencies of target constrained_inverse_kinematics_msgs_generate_messages
-
-[ 62%] Built target constrained_inverse_kinematics_msgs_generate_messages
-
-[ 62%] Built target roscpp_utilities
-
-[ 63%] Built target rosrt
-
-[ 63%] Building CXX object catkin/sensors/biotac-ros-rt/CMakeFiles/ros_rt_biotac_publisher.dir/src/biotac_publisher.cpp.o
-
-In file included from /opt/ros/indigo/include/ros/ros.h:40:0,
-
-                 from /home/administrator/ci/ci/team/workspace/src/catkin/sensors/biotac-ros-rt/src/biotac_publisher.cpp:6:
-
-/home/administrator/ci/ci/team/workspace/src/catkin/sensors/biotac-ros-rt/src/biotac_publisher.cpp: In function ‘void run(int, char**)’:
-
-/home/administrator/ci/ci/team/workspace/src/catkin/sensors/biotac-ros-rt/src/biotac_publisher.cpp:195:86: error: ‘class biotac_core::BiotacReaderCheetah’ has no member named ‘raw_data_read_rate_hz’
-
-             ROS_INFO("BioTac Cheetah (USB) Data Rate = %f Hz", biotac_reader_cheetah.raw_data_read_rate_hz);
-
-                                                                                      ^
-
-/opt/ros/indigo/include/ros/console.h:343:165: note: in definition of macro ‘ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER’
-
-     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__)
-
-                                                                                                                                                                     ^
-
-/opt/ros/indigo/include/ros/console.h:376:7: note: in expansion of macro ‘ROSCONSOLE_PRINT_AT_LOCATION’
-
-       ROSCONSOLE_PRINT_AT_LOCATION(__VA_ARGS__); \
+ class LinearTransition
 
        ^
 
-/opt/ros/indigo/include/ros/console.h:558:35: note: in expansion of macro ‘ROS_LOG_COND’
+In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/kalman_filter_test.cpp:25:0:
 
- #define ROS_LOG(level, name, ...) ROS_LOG_COND(true, level, name, __VA_ARGS__)
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp: In member function ‘GaussianFilterTest<TestType>::ModelFactory::LinearTransition GaussianFilterTest<TestType>::ModelFactory::create_linear_state_model()’:
 
-                                   ^
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:97:28: error: request for member ‘create_dynamics_matrix’ in ‘model’, which is of non-class type ‘int’
 
-/opt/ros/indigo/include/rosconsole/macros_generated.h:110:23: note: in expansion of macro ‘ROS_LOG’
+             auto A = model.create_dynamics_matrix();
 
- #define ROS_INFO(...) ROS_LOG(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                            ^
 
-                       ^
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:98:28: error: request for member ‘create_noise_matrix’ in ‘model’, which is of non-class type ‘int’
 
-/home/administrator/ci/ci/team/workspace/src/catkin/sensors/biotac-ros-rt/src/biotac_publisher.cpp:195:13: note: in expansion of macro ‘ROS_INFO’
+             auto Q = model.create_noise_matrix();
 
-             ROS_INFO("BioTac Cheetah (USB) Data Rate = %f Hz", biotac_reader_cheetah.raw_data_read_rate_hz);
+                            ^
 
-             ^
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:113:19: error: request for member ‘dynamics_matrix’ in ‘model’, which is of non-class type ‘int’
 
-make[2]: *** [catkin/sensors/biotac-ros-rt/CMakeFiles/ros_rt_biotac_publisher.dir/src/biotac_publisher.cpp.o] Error 1
+             model.dynamics_matrix(A);
 
-make[1]: *** [catkin/sensors/biotac-ros-rt/CMakeFiles/ros_rt_biotac_publisher.dir/all] Error 2
+                   ^
 
-make: *** [all] Error 2
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:114:19: error: request for member ‘noise_matrix’ in ‘model’, which is of non-class type ‘int’
+
+             model.noise_matrix(Q);
+
+                   ^
+
+[ 44%] Built target la_smw_inversion_test
+
+In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/kalman_filter_test.cpp:27:0:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_linear.hpp: In instantiation of ‘struct fl::Traits<fl::GaussianFilter<int, fl::LinearGaussianSensor<Eigen::Matrix<double, 2, 1, 0, 2, 1>, Eigen::Matrix<double, 3, 1, 0, 3, 1> > > >’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:157:40:   required from ‘class GaussianFilterTest<fl::StaticTest<KalmanFilterTestConfiguration<3, 1, 2> > >’
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:197:1:   required from ‘class gtest_case_GaussianFilterTest_::predict_then_update<fl::StaticTest<KalmanFilterTestConfiguration<3, 1, 2> > >’
+
+/usr/include/gtest/internal/gtest-internal.h:663:39:   required from ‘static bool testing::internal::TypeParameterizedTest<Fixture, TestSel, Types>::Register(const char*, const char*, const char*, int) [with Fixture = GaussianFilterTest; TestSel = testing::internal::TemplateSel<gtest_case_GaussianFilterTest_::predict_then_update>; Types = testing::internal::Types6<fl::StaticTest<KalmanFilterTestConfiguration<3, 1, 2> >, fl::StaticTest<KalmanFilterTestConfiguration<3, 3, 10> >, fl::StaticTest<KalmanFilterTestConfiguration<10, 10, 20> >, fl::DynamicTest<KalmanFilterTestConfiguration<3, 1, 2> >, fl::DynamicTest<KalmanFilterTestConfiguration<3, 3, 10> >, fl::DynamicTest<KalmanFilterTestConfiguration<10, 10, 20> > >]’
+
+/usr/include/gtest/internal/gtest-internal.h:694:41:   required from ‘static bool testing::internal::TypeParameterizedTestCase<Fixture, Tests, Types>::Register(const char*, const char*, const char*) [with Fixture = GaussianFilterTest; Tests = testing::internal::Templates2<gtest_case_GaussianFilterTest_::predict_then_update, gtest_case_GaussianFilterTest_::predict_loop>; Types = testing::internal::Types6<fl::StaticTest<KalmanFilterTestConfiguration<3, 1, 2> >, fl::StaticTest<KalmanFilterTestConfiguration<3, 3, 10> >, fl::StaticTest<KalmanFilterTestConfiguration<10, 10, 20> >, fl::DynamicTest<KalmanFilterTestConfiguration<3, 1, 2> >, fl::DynamicTest<KalmanFilterTestConfiguration<3, 3, 10> >, fl::DynamicTest<KalmanFilterTestConfiguration<10, 10, 20> > >]’
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/kalman_filter_test.cpp:74:1:   required from here
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_linear.hpp:59:46: error: ‘int’ is not a class, struct, or union type
+
+     typedef typename LinearTransition::State State;
+
+                                              ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_linear.hpp:60:46: error: ‘int’ is not a class, struct, or union type
+
+     typedef typename LinearTransition::Input Input;
+
+                                              ^
+
+Scanning dependencies of target multi_sensor_gaussian_filter_test
+
+[ 44%] Building CXX object catkin/core-perception/fl/test/CMakeFiles/multi_sensor_gaussian_filter_test.dir/gaussian_filter/multi_sensor_gaussian_filter_test.cpp.o
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_linear.hpp:62:29: error: ‘int’ is not a class, struct, or union type
+
+     typedef Gaussian<State> Belief;
+
+                             ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_linear.hpp: In instantiation of ‘struct fl::Traits<fl::GaussianFilter<int, fl::LinearGaussianSensor<Eigen::Matrix<double, 10, 1, 0, 10, 1>, Eigen::Matrix<double, 3, 1, 0, 3, 1> > > >’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:157:40:   required from ‘class GaussianFilterTest<fl::StaticTest<KalmanFilterTestConfiguration<3, 3, 10> > >’
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:241:1:   required from ‘class gtest_case_GaussianFilterTest_::predict_loop<fl::StaticTest<KalmanFilterTestConfiguration<3, 3, 10> > >’
+
+/usr/include/gtest/internal/gtest-internal.h:663:39:   required from ‘static bool testing::internal::TypeParameterizedTest<Fixture, TestSel, Types>::Register(const char*, const char*, const char*, int) [with Fixture = GaussianFilterTest; TestSel = testing::internal::TemplateSel<gtest_case_GaussianFilterTest_::predict_loop>; Types = testing::internal::Types5<fl::StaticTest<KalmanFilterTestConfiguration<3, 3, 10> >, fl::StaticTest<KalmanFilterTestConfiguration<10, 10, 20> >, fl::DynamicTest<KalmanFilterTestConfiguration<3, 1, 2> >, fl::DynamicTest<KalmanFilterTestConfiguration<3, 3, 10> >, fl::DynamicTest<KalmanFilterTestConfiguration<10, 10, 20> > >]’
+
+/usr/include/gtest/internal/gtest-internal.h:667:60:   required from ‘static bool testing::internal::TypeParameterizedTest<Fixture, TestSel, Types>::Register(const char*, const char*, const char*, int) [with Fixture = GaussianFilterTest; TestSel = testing::internal::TemplateSel<gtest_case_GaussianFilterTest_::predict_loop>; Types = testing::internal::Types6<fl::StaticTest<KalmanFilterTestConfiguration<3, 1, 2> >, fl::StaticTest<KalmanFilterTestConfiguration<3, 3, 10> >, fl::StaticTest<KalmanFilterTestConfiguration<10, 10, 20> >, fl::DynamicTest<KalmanFilterTestConfiguration<3, 1, 2> >, fl::DynamicTest<KalmanFilterTestConfiguration<3, 3, 10> >, fl::DynamicTest<KalmanFilterTestConfiguration<10, 10, 20> > >]’
+
+/usr/include/gtest/internal/gtest-internal.h:694:41:   required from ‘static bool testing::internal::TypeParameterizedTestCase<Fixture, Tests, Types>::Register(const char*, const char*, const char*) [with Fixture = GaussianFilterTest; Tests = testing::internal::Templates1<gtest_case_GaussianFilterTest_::predict_loop>; Types = testing::internal::Types6<fl::StaticTest<KalmanFilterTestConfiguration<3, 1, 2> >, fl::StaticTest<KalmanFilterTestConfiguration<3, 3, 10> >, fl::StaticTest<KalmanFilterTestConfiguration<10, 10, 20> >, fl::DynamicTest<KalmanFilterTestConfiguration<3, 1, 2> >, fl::DynamicTest<KalmanFilterTestConfiguration<3, 3, 10> >, fl::DynamicTest<KalmanFilterTestConfiguration<10, 10, 20> > >]’
+
+/usr/include/gtest/internal/gtest-internal.h:698:60:   required from ‘static bool testing::internal::TypeParameterizedTestCase<Fixture, Tests, Types>::Register(const char*, const char*, const char*) [with Fixture = GaussianFilterTest; Tests = testing::internal::Templates2<gtest_case_GaussianFilterTest_::predict_then_update, gtest_case_GaussianFilterTest_::predict_loop>; Types = testing::internal::Types6<fl::StaticTest<KalmanFilterTestConfiguration<3, 1, 2> >, fl::StaticTest<KalmanFilterTestConfiguration<3, 3, 10> >, fl::StaticTest<KalmanFilterTestConfiguration<10, 10, 20> >, fl::DynamicTest<KalmanFilterTestConfiguration<3, 1, 2> >, fl::DynamicTest<KalmanFilterTestConfiguration<3, 3, 10> >, fl::DynamicTest<KalmanFilterTestConfiguration<10, 10, 20> > >]’
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/kalman_filter_test.cpp:74:1:   required from here
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_linear.hpp:59:46: error: ‘int’ is not a class, struct, or union type
+
+     typedef typename LinearTransition::State State;
+
+                                              ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_linear.hpp:60:46: error: ‘int’ is not a class, struct, or union type
+
+     typedef typename LinearTransition::Input Input;
+
+                                              ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_linear.hpp:62:29: error: ‘int’ is not a class, struct, or union type
+
+     typedef Gaussian<State> Belief;
+
+                             ^
+
+In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/util/meta/size_deduction.hpp:23:0,
+
+                 from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/util/meta.hpp:23,
+
+                 from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/../typecast.hpp:23,
+
+                 from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/kalman_filter_test.cpp:21:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/util/traits.hpp: In instantiation of ‘struct fl::ForwardLinearModelOnly<int>’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_linear.hpp:82:7:   required from ‘class fl::GaussianFilter<int, fl::LinearGaussianSensor<Eigen::Matrix<double, 10, 1, 0, 10, 1>, Eigen::Matrix<double, 3, 1, 0, 3, 1> > >’
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:245:53:   required from ‘void gtest_case_GaussianFilterTest_::predict_loop<gtest_TypeParam_>::TestBody() [with gtest_TypeParam_ = fl::StaticTest<KalmanFilterTestConfiguration<3, 3, 10> >]’
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/kalman_filter_test.cpp:76:41:   required from here
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/util/traits.hpp:436:5: error: static assertion failed: The specified model is not linear!
+
+     static_assert(std::is_base_of<internal::LinearModelType, Model>::value,
+
+     ^
+
+In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/kalman_filter_test.cpp:27:0:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_linear.hpp: In instantiation of ‘class fl::GaussianFilter<int, fl::LinearGaussianSensor<Eigen::Matrix<double, 10, 1, 0, 10, 1>, Eigen::Matrix<double, 3, 1, 0, 3, 1> > >’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:245:53:   required from ‘void gtest_case_GaussianFilterTest_::predict_loop<gtest_TypeParam_>::TestBody() [with gtest_TypeParam_ = fl::StaticTest<KalmanFilterTestConfiguration<3, 3, 10> >]’
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/kalman_filter_test.cpp:76:41:   required from here
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_linear.hpp:94:46: error: ‘int’ is not a class, struct, or union type
+
+     typedef typename LinearTransition::State State;
+
+                                              ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_linear.hpp:95:46: error: ‘int’ is not a class, struct, or union type
+
+     typedef typename LinearTransition::Input Input;
+
+                                              ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_linear.hpp:103:29: error: ‘int’ is not a class, struct, or union type
+
+     typedef Gaussian<State> Belief;
+
+                             ^
+
+In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/kalman_filter_test.cpp:25:0:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp: In instantiation of ‘void gtest_case_GaussianFilterTest_::predict_loop<gtest_TypeParam_>::TestBody() [with gtest_TypeParam_ = fl::StaticTest<KalmanFilterTestConfiguration<3, 3, 10> >]’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/kalman_filter_test.cpp:76:41:   required from here
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:246:40: error: ‘class fl::GaussianFilter<int, fl::LinearGaussianSensor<Eigen::Matrix<double, 10, 1, 0, 10, 1>, Eigen::Matrix<double, 3, 1, 0, 3, 1> > >’ has no member named ‘create_belief’
+
+     auto belief = filter.create_belief();
+
+                                        ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:252:9: error: ‘class fl::GaussianFilter<int, fl::LinearGaussianSensor<Eigen::Matrix<double, 10, 1, 0, 10, 1>, Eigen::Matrix<double, 3, 1, 0, 3, 1> > >’ has no member named ‘predict’
+
+         filter.predict(belief, This::zero_input(filter), belief);
+
+         ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:252:55: error: ‘zero_input’ is not a member of ‘This {aka GaussianFilterTest<fl::StaticTest<KalmanFilterTestConfiguration<3, 3, 10> > >}’
+
+         filter.predict(belief, This::zero_input(filter), belief);
+
+                                                       ^
+
+In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/kalman_filter_test.cpp:27:0:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_linear.hpp: In instantiation of ‘class fl::GaussianFilter<int, fl::LinearGaussianSensor<Eigen::Matrix<double, 2, 1, 0, 2, 1>, Eigen::Matrix<double, 3, 1, 0, 3, 1> > >’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:245:53:   required from ‘void gtest_case_GaussianFilterTest_::predict_loop<gtest_TypeParam_>::TestBody() [with gtest_TypeParam_ = fl::StaticTest<KalmanFilterTestConfiguration<3, 1, 2> >]’
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/kalman_filter_test.cpp:76:41:   required from here
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_linear.hpp:94:46: error: ‘int’ is not a class, struct, or union type
+
+     typedef typename LinearTransition::State State;
+
+                                              ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_linear.hpp:95:46: error: ‘int’ is not a class, struct, or union type
+
+     typedef typename LinearTransition::Input Input;
+
+                                              ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_linear.hpp:103:29: error: ‘int’ is not a class, struct, or union type
+
+     typedef Gaussian<State> Belief;
+
+                             ^
+
+In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/kalman_filter_test.cpp:25:0:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp: In instantiation of ‘void gtest_case_GaussianFilterTest_::predict_loop<gtest_TypeParam_>::TestBody() [with gtest_TypeParam_ = fl::StaticTest<KalmanFilterTestConfiguration<3, 1, 2> >]’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/kalman_filter_test.cpp:76:41:   required from here
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:246:40: error: ‘class fl::GaussianFilter<int, fl::LinearGaussianSensor<Eigen::Matrix<double, 2, 1, 0, 2, 1>, Eigen::Matrix<double, 3, 1, 0, 3, 1> > >’ has no member named ‘create_belief’
+
+     auto belief = filter.create_belief();
+
+                                        ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:252:9: error: ‘class fl::GaussianFilter<int, fl::LinearGaussianSensor<Eigen::Matrix<double, 2, 1, 0, 2, 1>, Eigen::Matrix<double, 3, 1, 0, 3, 1> > >’ has no member named ‘predict’
+
+         filter.predict(belief, This::zero_input(filter), belief);
+
+         ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:252:55: error: ‘zero_input’ is not a member of ‘This {aka GaussianFilterTest<fl::StaticTest<KalmanFilterTestConfiguration<3, 1, 2> > >}’
+
+         filter.predict(belief, This::zero_input(filter), belief);
+
+                                                       ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp: In instantiation of ‘void gtest_case_GaussianFilterTest_::predict_then_update<gtest_TypeParam_>::TestBody() [with gtest_TypeParam_ = fl::StaticTest<KalmanFilterTestConfiguration<3, 1, 2> >]’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/kalman_filter_test.cpp:76:41:   required from here
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:205:40: error: ‘class fl::GaussianFilter<int, fl::LinearGaussianSensor<Eigen::Matrix<double, 2, 1, 0, 2, 1>, Eigen::Matrix<double, 3, 1, 0, 3, 1> > >’ has no member named ‘create_belief’
+
+     auto belief = filter.create_belief();
+
+                                        ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:215:9: error: ‘class fl::GaussianFilter<int, fl::LinearGaussianSensor<Eigen::Matrix<double, 2, 1, 0, 2, 1>, Eigen::Matrix<double, 3, 1, 0, 3, 1> > >’ has no member named ‘predict’
+
+         filter.predict(belief, This::zero_input(filter), belief);
+
+         ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:215:55: error: ‘zero_input’ is not a member of ‘This {aka GaussianFilterTest<fl::StaticTest<KalmanFilterTestConfiguration<3, 1, 2> > >}’
+
+         filter.predict(belief, This::zero_input(filter), belief);
+
+                                                       ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:226:9: error: ‘class fl::GaussianFilter<int, fl::LinearGaussianSensor<Eigen::Matrix<double, 2, 1, 0, 2, 1>, Eigen::Matrix<double, 3, 1, 0, 3, 1> > >’ has no member named ‘update’
+
+         filter.update(belief, This::rand_obsrv(filter), belief);
+
+         ^
+
+In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/kalman_filter_test.cpp:27:0:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_linear.hpp: In instantiation of ‘std::string fl::GaussianFilter<LinearTransition, LinearSensor>::name() const [with LinearTransition = int; LinearSensor = fl::LinearGaussianSensor<Eigen::Matrix<double, 2, 1>, Eigen::Matrix<double, 3, 1> >; std::string = std::basic_string<char>]’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:203:5:   required from ‘void gtest_case_GaussianFilterTest_::predict_then_update<gtest_TypeParam_>::TestBody() [with gtest_TypeParam_ = fl::StaticTest<KalmanFilterTestConfiguration<3, 1, 2> >]’
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/kalman_filter_test.cpp:76:41:   required from here
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_linear.hpp:204:17: error: request for member ‘name’ in ‘fl::GaussianFilter<LinearTransition, LinearSensor>::transition<int, fl::LinearGaussianSensor<Eigen::Matrix<double, 2, 1>, Eigen::Matrix<double, 3, 1> > >()’, which is of non-class type ‘const int’
+
+                 + this->list_arguments(
+
+                 ^
+
+In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/kalman_filter_test.cpp:25:0:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp: In instantiation of ‘GaussianFilterTest<TestType>::ModelFactory::LinearTransition GaussianFilterTest<TestType>::ModelFactory::create_linear_state_model() [with TestType = fl::StaticTest<KalmanFilterTestConfiguration<3, 3, 10> >; GaussianFilterTest<TestType>::ModelFactory::LinearTransition = int]’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/kalman_filter_test.cpp:60:36:   required from ‘static typename KalmanFilterTestConfiguration<StateDimension, InputDimension, ObsrvDimension, FilterIterations>::FilterDefinition<ModelFactory>::Type KalmanFilterTestConfiguration<StateDimension, InputDimension, ObsrvDimension, FilterIterations>::create_filter(ModelFactory&&) [with ModelFactory = GaussianFilterTest<fl::StaticTest<KalmanFilterTestConfiguration<3, 3, 10> > >::ModelFactory; int StateDimension = 3; int InputDimension = 3; int ObsrvDimension = 10; int FilterIterations = 100; typename KalmanFilterTestConfiguration<StateDimension, InputDimension, ObsrvDimension, FilterIterations>::FilterDefinition<ModelFactory>::Type = fl::GaussianFilter<int, fl::LinearGaussianSensor<Eigen::Matrix<double, 10, 1, 0, 10, 1>, Eigen::Matrix<double, 3, 1, 0, 3, 1> > >]’
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:154:64:   required from ‘GaussianFilterTest<TestType>::Filter GaussianFilterTest<TestType>::create_filter(GaussianFilterTest<TestType>::ModelSetup) const [with TestType = fl::StaticTest<KalmanFilterTestConfiguration<3, 3, 10> >; GaussianFilterTest<TestType>::Filter = fl::GaussianFilter<int, fl::LinearGaussianSensor<Eigen::Matrix<double, 10, 1, 0, 10, 1>, Eigen::Matrix<double, 3, 1, 0, 3, 1> > >]’
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:245:53:   required from ‘void gtest_case_GaussianFilterTest_::predict_loop<gtest_TypeParam_>::TestBody() [with gtest_TypeParam_ = fl::StaticTest<KalmanFilterTestConfiguration<3, 3, 10> >]’
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/kalman_filter_test.cpp:76:41:   required from here
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:95:61: error: expression list treated as compound expression in functional cast [-fpermissive]
+
+             auto model = LinearTransition(StateDim, InputDim);
+
+                                                             ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:95:61: warning: left operand of comma operator has no effect [-Wunused-value]
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp: In instantiation of ‘GaussianFilterTest<TestType>::ModelFactory::LinearTransition GaussianFilterTest<TestType>::ModelFactory::create_linear_state_model() [with TestType = fl::StaticTest<KalmanFilterTestConfiguration<3, 1, 2> >; GaussianFilterTest<TestType>::ModelFactory::LinearTransition = int]’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/kalman_filter_test.cpp:60:36:   required from ‘static typename KalmanFilterTestConfiguration<StateDimension, InputDimension, ObsrvDimension, FilterIterations>::FilterDefinition<ModelFactory>::Type KalmanFilterTestConfiguration<StateDimension, InputDimension, ObsrvDimension, FilterIterations>::create_filter(ModelFactory&&) [with ModelFactory = GaussianFilterTest<fl::StaticTest<KalmanFilterTestConfiguration<3, 1, 2> > >::ModelFactory; int StateDimension = 3; int InputDimension = 1; int ObsrvDimension = 2; int FilterIterations = 100; typename KalmanFilterTestConfiguration<StateDimension, InputDimension, ObsrvDimension, FilterIterations>::FilterDefinition<ModelFactory>::Type = fl::GaussianFilter<int, fl::LinearGaussianSensor<Eigen::Matrix<double, 2, 1, 0, 2, 1>, Eigen::Matrix<double, 3, 1, 0, 3, 1> > >]’
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:154:64:   required from ‘GaussianFilterTest<TestType>::Filter GaussianFilterTest<TestType>::create_filter(GaussianFilterTest<TestType>::ModelSetup) const [with TestType = fl::StaticTest<KalmanFilterTestConfiguration<3, 1, 2> >; GaussianFilterTest<TestType>::Filter = fl::GaussianFilter<int, fl::LinearGaussianSensor<Eigen::Matrix<double, 2, 1, 0, 2, 1>, Eigen::Matrix<double, 3, 1, 0, 3, 1> > >]’
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:245:53:   required from ‘void gtest_case_GaussianFilterTest_::predict_loop<gtest_TypeParam_>::TestBody() [with gtest_TypeParam_ = fl::StaticTest<KalmanFilterTestConfiguration<3, 1, 2> >]’
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/kalman_filter_test.cpp:76:41:   required from here
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:95:61: error: expression list treated as compound expression in functional cast [-fpermissive]
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:95:61: warning: left operand of comma operator has no effect [-Wunused-value]
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/exception_test
+
+[ 44%] Built target exception_test
+
+Scanning dependencies of target robust_multi_sensor_gaussian_filter_test
+
+[ 45%] Building CXX object catkin/core-perception/fl/test/CMakeFiles/robust_multi_sensor_gaussian_filter_test.dir/gaussian_filter/robust_multi_sensor_gaussian_filter_test.cpp.o
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/la_square_root_test
+
+In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/unscented_kalman_filter_test.cpp:25:0:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:87:17: error: wrong number of template arguments (2, should be 3)
+
+                 > LinearTransition;
+
+                 ^
+
+In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:35:0,
+
+                 from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/unscented_kalman_filter_test.cpp:25:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/model/transition/linear_transition.hpp:42:7: error: provided for ‘template<class State_, class Noise_, class Input_> class fl::LinearTransition’
+
+ class LinearTransition
+
+       ^
+
+In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/unscented_kalman_filter_test.cpp:25:0:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp: In member function ‘GaussianFilterTest<TestType>::ModelFactory::LinearTransition GaussianFilterTest<TestType>::ModelFactory::create_linear_state_model()’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:97:28: error: request for member ‘create_dynamics_matrix’ in ‘model’, which is of non-class type ‘int’
+
+             auto A = model.create_dynamics_matrix();
+
+                            ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:98:28: error: request for member ‘create_noise_matrix’ in ‘model’, which is of non-class type ‘int’
+
+             auto Q = model.create_noise_matrix();
+
+                            ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:113:19: error: request for member ‘dynamics_matrix’ in ‘model’, which is of non-class type ‘int’
+
+             model.dynamics_matrix(A);
+
+                   ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:114:19: error: request for member ‘noise_matrix’ in ‘model’, which is of non-class type ‘int’
+
+             model.noise_matrix(Q);
+
+                   ^
+
+In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_nonlinear.hpp:25:0,
+
+                 from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter.hpp:30,
+
+                 from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/unscented_kalman_filter_test.cpp:27:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_nonlinear_generic.hpp: In instantiation of ‘struct fl::Traits<fl::GaussianFilter<int, fl::LinearGaussianSensor<Eigen::Matrix<double, 2, 1, 0, 2, 1>, Eigen::Matrix<double, 3, 1, 0, 3, 1> >, fl::UnscentedQuadrature> >’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:157:40:   required from ‘class GaussianFilterTest<fl::StaticTest<UnscentedKalmanFilterTestConfiguration<3, 1, 2> > >’
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:197:1:   required from ‘class gtest_case_GaussianFilterTest_::predict_then_update<fl::StaticTest<UnscentedKalmanFilterTestConfiguration<3, 1, 2> > >’
+
+/usr/include/gtest/internal/gtest-internal.h:663:39:   required from ‘static bool testing::internal::TypeParameterizedTest<Fixture, TestSel, Types>::Register(const char*, const char*, const char*, int) [with Fixture = GaussianFilterTest; TestSel = testing::internal::TemplateSel<gtest_case_GaussianFilterTest_::predict_then_update>; Types = testing::internal::Types6<fl::StaticTest<UnscentedKalmanFilterTestConfiguration<3, 1, 2> >, fl::StaticTest<UnscentedKalmanFilterTestConfiguration<3, 3, 10> >, fl::StaticTest<UnscentedKalmanFilterTestConfiguration<10, 10, 20> >, fl::DynamicTest<UnscentedKalmanFilterTestConfiguration<3, 1, 2> >, fl::DynamicTest<UnscentedKalmanFilterTestConfiguration<3, 3, 10> >, fl::DynamicTest<UnscentedKalmanFilterTestConfiguration<10, 10, 20> > >]’
+
+/usr/include/gtest/internal/gtest-internal.h:694:41:   required from ‘static bool testing::internal::TypeParameterizedTestCase<Fixture, Tests, Types>::Register(const char*, const char*, const char*) [with Fixture = GaussianFilterTest; Tests = testing::internal::Templates2<gtest_case_GaussianFilterTest_::predict_then_update, gtest_case_GaussianFilterTest_::predict_loop>; Types = testing::internal::Types6<fl::StaticTest<UnscentedKalmanFilterTestConfiguration<3, 1, 2> >, fl::StaticTest<UnscentedKalmanFilterTestConfiguration<3, 3, 10> >, fl::StaticTest<UnscentedKalmanFilterTestConfiguration<10, 10, 20> >, fl::DynamicTest<UnscentedKalmanFilterTestConfiguration<3, 1, 2> >, fl::DynamicTest<UnscentedKalmanFilterTestConfiguration<3, 3, 10> >, fl::DynamicTest<UnscentedKalmanFilterTestConfiguration<10, 10, 20> > >]’
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/unscented_kalman_filter_test.cpp:79:1:   required from here
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_nonlinear_generic.hpp:60:40: error: ‘int’ is not a class, struct, or union type
+
+     typedef typename Transition::State State;
+
+                                        ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_nonlinear_generic.hpp:61:40: error: ‘int’ is not a class, struct, or union type
+
+     typedef typename Transition::Input Input;
+
+                                        ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_nonlinear_generic.hpp:63:29: error: ‘int’ is not a class, struct, or union type
+
+     typedef Gaussian<State> Belief;
+
+                             ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_nonlinear_generic.hpp: In instantiation of ‘struct fl::Traits<fl::GaussianFilter<int, fl::LinearGaussianSensor<Eigen::Matrix<double, 10, 1, 0, 10, 1>, Eigen::Matrix<double, 3, 1, 0, 3, 1> >, fl::UnscentedQuadrature> >’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:157:40:   required from ‘class GaussianFilterTest<fl::StaticTest<UnscentedKalmanFilterTestConfiguration<3, 3, 10> > >’
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:241:1:   required from ‘class gtest_case_GaussianFilterTest_::predict_loop<fl::StaticTest<UnscentedKalmanFilterTestConfiguration<3, 3, 10> > >’
+
+/usr/include/gtest/internal/gtest-internal.h:663:39:   required from ‘static bool testing::internal::TypeParameterizedTest<Fixture, TestSel, Types>::Register(const char*, const char*, const char*, int) [with Fixture = GaussianFilterTest; TestSel = testing::internal::TemplateSel<gtest_case_GaussianFilterTest_::predict_loop>; Types = testing::internal::Types5<fl::StaticTest<UnscentedKalmanFilterTestConfiguration<3, 3, 10> >, fl::StaticTest<UnscentedKalmanFilterTestConfiguration<10, 10, 20> >, fl::DynamicTest<UnscentedKalmanFilterTestConfiguration<3, 1, 2> >, fl::DynamicTest<UnscentedKalmanFilterTestConfiguration<3, 3, 10> >, fl::DynamicTest<UnscentedKalmanFilterTestConfiguration<10, 10, 20> > >]’
+
+/usr/include/gtest/internal/gtest-internal.h:667:60:   required from ‘static bool testing::internal::TypeParameterizedTest<Fixture, TestSel, Types>::Register(const char*, const char*, const char*, int) [with Fixture = GaussianFilterTest; TestSel = testing::internal::TemplateSel<gtest_case_GaussianFilterTest_::predict_loop>; Types = testing::internal::Types6<fl::StaticTest<UnscentedKalmanFilterTestConfiguration<3, 1, 2> >, fl::StaticTest<UnscentedKalmanFilterTestConfiguration<3, 3, 10> >, fl::StaticTest<UnscentedKalmanFilterTestConfiguration<10, 10, 20> >, fl::DynamicTest<UnscentedKalmanFilterTestConfiguration<3, 1, 2> >, fl::DynamicTest<UnscentedKalmanFilterTestConfiguration<3, 3, 10> >, fl::DynamicTest<UnscentedKalmanFilterTestConfiguration<10, 10, 20> > >]’
+
+/usr/include/gtest/internal/gtest-internal.h:694:41:   required from ‘static bool testing::internal::TypeParameterizedTestCase<Fixture, Tests, Types>::Register(const char*, const char*, const char*) [with Fixture = GaussianFilterTest; Tests = testing::internal::Templates1<gtest_case_GaussianFilterTest_::predict_loop>; Types = testing::internal::Types6<fl::StaticTest<UnscentedKalmanFilterTestConfiguration<3, 1, 2> >, fl::StaticTest<UnscentedKalmanFilterTestConfiguration<3, 3, 10> >, fl::StaticTest<UnscentedKalmanFilterTestConfiguration<10, 10, 20> >, fl::DynamicTest<UnscentedKalmanFilterTestConfiguration<3, 1, 2> >, fl::DynamicTest<UnscentedKalmanFilterTestConfiguration<3, 3, 10> >, fl::DynamicTest<UnscentedKalmanFilterTestConfiguration<10, 10, 20> > >]’
+
+/usr/include/gtest/internal/gtest-internal.h:698:60:   required from ‘static bool testing::internal::TypeParameterizedTestCase<Fixture, Tests, Types>::Register(const char*, const char*, const char*) [with Fixture = GaussianFilterTest; Tests = testing::internal::Templates2<gtest_case_GaussianFilterTest_::predict_then_update, gtest_case_GaussianFilterTest_::predict_loop>; Types = testing::internal::Types6<fl::StaticTest<UnscentedKalmanFilterTestConfiguration<3, 1, 2> >, fl::StaticTest<UnscentedKalmanFilterTestConfiguration<3, 3, 10> >, fl::StaticTest<UnscentedKalmanFilterTestConfiguration<10, 10, 20> >, fl::DynamicTest<UnscentedKalmanFilterTestConfiguration<3, 1, 2> >, fl::DynamicTest<UnscentedKalmanFilterTestConfiguration<3, 3, 10> >, fl::DynamicTest<UnscentedKalmanFilterTestConfiguration<10, 10, 20> > >]’
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/unscented_kalman_filter_test.cpp:79:1:   required from here
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_nonlinear_generic.hpp:60:40: error: ‘int’ is not a class, struct, or union type
+
+     typedef typename Transition::State State;
+
+                                        ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_nonlinear_generic.hpp:61:40: error: ‘int’ is not a class, struct, or union type
+
+     typedef typename Transition::Input Input;
+
+                                        ^
+
+[ 45%] Built target la_square_root_test
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_nonlinear_generic.hpp:63:29: error: ‘int’ is not a class, struct, or union type
+
+     typedef Gaussian<State> Belief;
+
+                             ^
+
+Scanning dependencies of target sigma_point_quadrature_test_StaticTest_1_1_Unscented_test
+
+In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/util/meta/size_deduction.hpp:23:0,
+
+                 from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/util/meta.hpp:23,
+
+                 from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/../typecast.hpp:23,
+
+                 from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/unscented_kalman_filter_test.cpp:21:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/util/traits.hpp: In instantiation of ‘struct fl::AdditivityOf<int>’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_nonlinear.hpp:58:7:   required from ‘class fl::GaussianFilter<int, fl::LinearGaussianSensor<Eigen::Matrix<double, 10, 1, 0, 10, 1>, Eigen::Matrix<double, 3, 1, 0, 3, 1> >, fl::UnscentedQuadrature>’
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:245:53:   required from ‘void gtest_case_GaussianFilterTest_::predict_loop<gtest_TypeParam_>::TestBody() [with gtest_TypeParam_ = fl::StaticTest<UnscentedKalmanFilterTestConfiguration<3, 3, 10> >]’
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/unscented_kalman_filter_test.cpp:81:41:   required from here
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/util/traits.hpp:398:70: error: ‘int’ is not a class, struct, or union type
+
+     typedef typename AdditivityOf<Model, typename Model::Type>::Type Type;
+
+                                                                      ^
+
+In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/unscented_kalman_filter_test.cpp:25:0:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp: In instantiation of ‘void gtest_case_GaussianFilterTest_::predict_loop<gtest_TypeParam_>::TestBody() [with gtest_TypeParam_ = fl::StaticTest<UnscentedKalmanFilterTestConfiguration<3, 3, 10> >]’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/unscented_kalman_filter_test.cpp:81:41:   required from here
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:246:40: error: ‘class fl::GaussianFilter<int, fl::LinearGaussianSensor<Eigen::Matrix<double, 10, 1, 0, 10, 1>, Eigen::Matrix<double, 3, 1, 0, 3, 1> >, fl::UnscentedQuadrature>’ has no member named ‘create_belief’
+
+     auto belief = filter.create_belief();
+
+                                        ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:252:9: error: ‘class fl::GaussianFilter<int, fl::LinearGaussianSensor<Eigen::Matrix<double, 10, 1, 0, 10, 1>, Eigen::Matrix<double, 3, 1, 0, 3, 1> >, fl::UnscentedQuadrature>’ has no member named ‘predict’
+
+         filter.predict(belief, This::zero_input(filter), belief);
+
+         ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:252:55: error: ‘zero_input’ is not a member of ‘This {aka GaussianFilterTest<fl::StaticTest<UnscentedKalmanFilterTestConfiguration<3, 3, 10> > >}’
+
+         filter.predict(belief, This::zero_input(filter), belief);
+
+                                                       ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp: In instantiation of ‘void gtest_case_GaussianFilterTest_::predict_loop<gtest_TypeParam_>::TestBody() [with gtest_TypeParam_ = fl::StaticTest<UnscentedKalmanFilterTestConfiguration<3, 1, 2> >]’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/unscented_kalman_filter_test.cpp:81:41:   required from here
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:246:40: error: ‘class fl::GaussianFilter<int, fl::LinearGaussianSensor<Eigen::Matrix<double, 2, 1, 0, 2, 1>, Eigen::Matrix<double, 3, 1, 0, 3, 1> >, fl::UnscentedQuadrature>’ has no member named ‘create_belief’
+
+     auto belief = filter.create_belief();
+
+                                        ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:252:9: error: ‘class fl::GaussianFilter<int, fl::LinearGaussianSensor<Eigen::Matrix<double, 2, 1, 0, 2, 1>, Eigen::Matrix<double, 3, 1, 0, 3, 1> >, fl::UnscentedQuadrature>’ has no member named ‘predict’
+
+         filter.predict(belief, This::zero_input(filter), belief);
+
+         ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:252:55: error: ‘zero_input’ is not a member of ‘This {aka GaussianFilterTest<fl::StaticTest<UnscentedKalmanFilterTestConfiguration<3, 1, 2> > >}’
+
+         filter.predict(belief, This::zero_input(filter), belief);
+
+                                                       ^
+
+In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/util/traits.hpp:26:0,
+
+                 from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/util/meta/size_deduction.hpp:23,
+
+                 from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/util/meta.hpp:23,
+
+                 from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/../typecast.hpp:23,
+
+                 from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/unscented_kalman_filter_test.cpp:21:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp: In instantiation of ‘void gtest_case_GaussianFilterTest_::predict_then_update<gtest_TypeParam_>::TestBody() [with gtest_TypeParam_ = fl::StaticTest<UnscentedKalmanFilterTestConfiguration<3, 1, 2> >]’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/unscented_kalman_filter_test.cpp:81:41:   required from here
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/util/profiling.hpp:61:43: error: ‘class fl::GaussianFilter<int, fl::LinearGaussianSensor<Eigen::Matrix<double, 2, 1, 0, 2, 1>, Eigen::Matrix<double, 3, 1, 0, 3, 1> >, fl::UnscentedQuadrature>’ has no member named ‘name’
+
+ #define PV(mat) std::cout << #mat << "\n" << mat << "\n\n";
+
+                                           ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:203:5: note: in expansion of macro ‘PV’
+
+     PV(filter.name());
+
+     ^
+
+In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/unscented_kalman_filter_test.cpp:25:0:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:205:40: error: ‘class fl::GaussianFilter<int, fl::LinearGaussianSensor<Eigen::Matrix<double, 2, 1, 0, 2, 1>, Eigen::Matrix<double, 3, 1, 0, 3, 1> >, fl::UnscentedQuadrature>’ has no member named ‘create_belief’
+
+     auto belief = filter.create_belief();
+
+                                        ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:215:9: error: ‘class fl::GaussianFilter<int, fl::LinearGaussianSensor<Eigen::Matrix<double, 2, 1, 0, 2, 1>, Eigen::Matrix<double, 3, 1, 0, 3, 1> >, fl::UnscentedQuadrature>’ has no member named ‘predict’
+
+         filter.predict(belief, This::zero_input(filter), belief);
+
+         ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:215:55: error: ‘zero_input’ is not a member of ‘This {aka GaussianFilterTest<fl::StaticTest<UnscentedKalmanFilterTestConfiguration<3, 1, 2> > >}’
+
+         filter.predict(belief, This::zero_input(filter), belief);
+
+                                                       ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:226:9: error: ‘class fl::GaussianFilter<int, fl::LinearGaussianSensor<Eigen::Matrix<double, 2, 1, 0, 2, 1>, Eigen::Matrix<double, 3, 1, 0, 3, 1> >, fl::UnscentedQuadrature>’ has no member named ‘update’
+
+         filter.update(belief, This::rand_obsrv(filter), belief);
+
+         ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp: In instantiation of ‘GaussianFilterTest<TestType>::ModelFactory::LinearTransition GaussianFilterTest<TestType>::ModelFactory::create_linear_state_model() [with TestType = fl::StaticTest<UnscentedKalmanFilterTestConfiguration<3, 3, 10> >; GaussianFilterTest<TestType>::ModelFactory::LinearTransition = int]’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/unscented_kalman_filter_test.cpp:66:34:   required from ‘static typename UnscentedKalmanFilterTestConfiguration<StateDimension, InputDimension, ObsrvDimension, FilterIterations>::FilterDefinition<ModelFactory>::Type UnscentedKalmanFilterTestConfiguration<StateDimension, InputDimension, ObsrvDimension, FilterIterations>::create_filter(ModelFactory&&) [with ModelFactory = GaussianFilterTest<fl::StaticTest<UnscentedKalmanFilterTestConfiguration<3, 3, 10> > >::ModelFactory; int StateDimension = 3; int InputDimension = 3; int ObsrvDimension = 10; int FilterIterations = 100; typename UnscentedKalmanFilterTestConfiguration<StateDimension, InputDimension, ObsrvDimension, FilterIterations>::FilterDefinition<ModelFactory>::Type = fl::GaussianFilter<int, fl::LinearGaussianSensor<Eigen::Matrix<double, 10, 1, 0, 10, 1>, Eigen::Matrix<double, 3, 1, 0, 3, 1> >, fl::UnscentedQuadrature>]’
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:154:64:   required from ‘GaussianFilterTest<TestType>::Filter GaussianFilterTest<TestType>::create_filter(GaussianFilterTest<TestType>::ModelSetup) const [with TestType = fl::StaticTest<UnscentedKalmanFilterTestConfiguration<3, 3, 10> >; GaussianFilterTest<TestType>::Filter = fl::GaussianFilter<int, fl::LinearGaussianSensor<Eigen::Matrix<double, 10, 1, 0, 10, 1>, Eigen::Matrix<double, 3, 1, 0, 3, 1> >, fl::UnscentedQuadrature>]’
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:245:53:   required from ‘void gtest_case_GaussianFilterTest_::predict_loop<gtest_TypeParam_>::TestBody() [with gtest_TypeParam_ = fl::StaticTest<UnscentedKalmanFilterTestConfiguration<3, 3, 10> >]’
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/unscented_kalman_filter_test.cpp:81:41:   required from here
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:95:61: error: expression list treated as compound expression in functional cast [-fpermissive]
+
+             auto model = LinearTransition(StateDim, InputDim);
+
+                                                             ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:95:61: warning: left operand of comma operator has no effect [-Wunused-value]
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp: In instantiation of ‘GaussianFilterTest<TestType>::ModelFactory::LinearTransition GaussianFilterTest<TestType>::ModelFactory::create_linear_state_model() [with TestType = fl::StaticTest<UnscentedKalmanFilterTestConfiguration<3, 1, 2> >; GaussianFilterTest<TestType>::ModelFactory::LinearTransition = int]’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/unscented_kalman_filter_test.cpp:66:34:   required from ‘static typename UnscentedKalmanFilterTestConfiguration<StateDimension, InputDimension, ObsrvDimension, FilterIterations>::FilterDefinition<ModelFactory>::Type UnscentedKalmanFilterTestConfiguration<StateDimension, InputDimension, ObsrvDimension, FilterIterations>::create_filter(ModelFactory&&) [with ModelFactory = GaussianFilterTest<fl::StaticTest<UnscentedKalmanFilterTestConfiguration<3, 1, 2> > >::ModelFactory; int StateDimension = 3; int InputDimension = 1; int ObsrvDimension = 2; int FilterIterations = 100; typename UnscentedKalmanFilterTestConfiguration<StateDimension, InputDimension, ObsrvDimension, FilterIterations>::FilterDefinition<ModelFactory>::Type = fl::GaussianFilter<int, fl::LinearGaussianSensor<Eigen::Matrix<double, 2, 1, 0, 2, 1>, Eigen::Matrix<double, 3, 1, 0, 3, 1> >, fl::UnscentedQuadrature>]’
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:154:64:   required from ‘GaussianFilterTest<TestType>::Filter GaussianFilterTest<TestType>::create_filter(GaussianFilterTest<TestType>::ModelSetup) const [with TestType = fl::StaticTest<UnscentedKalmanFilterTestConfiguration<3, 1, 2> >; GaussianFilterTest<TestType>::Filter = fl::GaussianFilter<int, fl::LinearGaussianSensor<Eigen::Matrix<double, 2, 1, 0, 2, 1>, Eigen::Matrix<double, 3, 1, 0, 3, 1> >, fl::UnscentedQuadrature>]’
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:245:53:   required from ‘void gtest_case_GaussianFilterTest_::predict_loop<gtest_TypeParam_>::TestBody() [with gtest_TypeParam_ = fl::StaticTest<UnscentedKalmanFilterTestConfiguration<3, 1, 2> >]’
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/unscented_kalman_filter_test.cpp:81:41:   required from here
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:95:61: error: expression list treated as compound expression in functional cast [-fpermissive]
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:95:61: warning: left operand of comma operator has no effect [-Wunused-value]
+
+[ 46%] Building CXX object catkin/core-perception/fl/test/gaussian_filter/CMakeFiles/sigma_point_quadrature_test_StaticTest_1_1_Unscented_test.dir/sigma_point_quadrature_test_StaticTest_1_1_Unscented.cpp.o
+
+In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/multi_sensor_gaussian_filter_test.cpp:25:0:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:87:17: error: wrong number of template arguments (2, should be 3)
+
+                 > LinearTransition;
+
+                 ^
+
+In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:35:0,
+
+                 from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/multi_sensor_gaussian_filter_test.cpp:25:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/model/transition/linear_transition.hpp:42:7: error: provided for ‘template<class State_, class Noise_, class Input_> class fl::LinearTransition’
+
+ class LinearTransition
+
+       ^
+
+In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/multi_sensor_gaussian_filter_test.cpp:25:0:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp: In member function ‘GaussianFilterTest<TestType>::ModelFactory::LinearTransition GaussianFilterTest<TestType>::ModelFactory::create_linear_state_model()’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:97:28: error: request for member ‘create_dynamics_matrix’ in ‘model’, which is of non-class type ‘int’
+
+             auto A = model.create_dynamics_matrix();
+
+                            ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:98:28: error: request for member ‘create_noise_matrix’ in ‘model’, which is of non-class type ‘int’
+
+             auto Q = model.create_noise_matrix();
+
+                            ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:113:19: error: request for member ‘dynamics_matrix’ in ‘model’, which is of non-class type ‘int’
+
+             model.dynamics_matrix(A);
+
+                   ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:114:19: error: request for member ‘noise_matrix’ in ‘model’, which is of non-class type ‘int’
+
+             model.noise_matrix(Q);
+
+                   ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/multi_sensor_gaussian_filter_test.cpp: At global scope:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/multi_sensor_gaussian_filter_test.cpp:61:19: error: declaration of ‘typedef class fl::JointSensor<fl::MultipleOf<typename ModelFactory::LinearObservation, Size> > MultiSensorGfTestConfiguration<StateDimension, InputDimension, ObsrvDimension, Count, FilterIterations>::FilterDefinition<ModelFactory>::JointSensor’ [-fpermissive]
+
+                 > JointSensor;
+
+                   ^
+
+In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/update_policy/multi_sensor_sigma_point_update_policy.hpp:29:0,
+
+                 from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/multi_sensor_gaussian_filter.hpp:27,
+
+                 from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/multi_sensor_gaussian_filter_test.cpp:28:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/model/sensor/joint_sensor_iid.hpp:41:36: error: changes meaning of ‘JointSensor’ from ‘class fl::JointSensor<fl::MultipleOf<typename ModelFactory::LinearObservation, Size> >’ [-fpermissive]
+
+ template <typename...Models> class JointSensor;
+
+                                    ^
+
+In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/multi_sensor_gaussian_filter_test.cpp:28:0:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/multi_sensor_gaussian_filter.hpp: In instantiation of ‘struct fl::Traits<fl::MultiSensorGaussianFilter<int, fl::JointSensor<fl::MultipleOf<fl::LinearGaussianSensor<Eigen::Matrix<double, 2, 1, 0, 2, 1>, Eigen::Matrix<double, 6, 1, 0, 6, 1> >, 10> >, fl::UnscentedQuadrature> >’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:157:40:   required from ‘class GaussianFilterTest<fl::StaticTest<MultiSensorGfTestConfiguration<6, 1, 2, 10, 10> > >’
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:197:1:   required from ‘class gtest_case_GaussianFilterTest_::predict_then_update<fl::StaticTest<MultiSensorGfTestConfiguration<6, 1, 2, 10, 10> > >’
+
+/usr/include/gtest/internal/gtest-internal.h:663:39:   required from ‘static bool testing::internal::TypeParameterizedTest<Fixture, TestSel, Types>::Register(const char*, const char*, const char*, int) [with Fixture = GaussianFilterTest; TestSel = testing::internal::TemplateSel<gtest_case_GaussianFilterTest_::predict_then_update>; Types = testing::internal::Types1<fl::StaticTest<MultiSensorGfTestConfiguration<6, 1, 2, 10, 10> > >]’
+
+/usr/include/gtest/internal/gtest-internal.h:694:41:   required from ‘static bool testing::internal::TypeParameterizedTestCase<Fixture, Tests, Types>::Register(const char*, const char*, const char*) [with Fixture = GaussianFilterTest; Tests = testing::internal::Templates2<gtest_case_GaussianFilterTest_::predict_then_update, gtest_case_GaussianFilterTest_::predict_loop>; Types = testing::internal::Types1<fl::StaticTest<MultiSensorGfTestConfiguration<6, 1, 2, 10, 10> > >]’
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/multi_sensor_gaussian_filter_test.cpp:90:1:   required from here
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/multi_sensor_gaussian_filter.hpp:51:48: error: ‘int’ is not a class, struct, or union type
+
+     typedef typename TransitionFunction::State State;
+
+                                                ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/multi_sensor_gaussian_filter.hpp:52:48: error: ‘int’ is not a class, struct, or union type
+
+     typedef typename TransitionFunction::Input Input;
+
+                                                ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/multi_sensor_gaussian_filter.hpp:54:29: error: ‘int’ is not a class, struct, or union type
+
+     typedef Gaussian<State> Belief;
+
+                             ^
+
+In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/util/meta/size_deduction.hpp:23:0,
+
+                 from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/util/meta.hpp:23,
+
+                 from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/../typecast.hpp:23,
+
+                 from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/multi_sensor_gaussian_filter_test.cpp:21:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/util/traits.hpp: In instantiation of ‘struct fl::AdditivityOf<int>’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/multi_sensor_gaussian_filter.hpp:63:7:   required from ‘class fl::MultiSensorGaussianFilter<int, fl::JointSensor<fl::MultipleOf<fl::LinearGaussianSensor<Eigen::Matrix<double, 2, 1, 0, 2, 1>, Eigen::Matrix<double, 6, 1, 0, 6, 1> >, 10> >, fl::UnscentedQuadrature>’
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:245:53:   required from ‘void gtest_case_GaussianFilterTest_::predict_loop<gtest_TypeParam_>::TestBody() [with gtest_TypeParam_ = fl::StaticTest<MultiSensorGfTestConfiguration<6, 1, 2, 10, 10> >]’
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/multi_sensor_gaussian_filter_test.cpp:92:41:   required from here
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/util/traits.hpp:398:70: error: ‘int’ is not a class, struct, or union type
+
+     typedef typename AdditivityOf<Model, typename Model::Type>::Type Type;
+
+                                                                      ^
+
+In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/multi_sensor_gaussian_filter_test.cpp:25:0:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp: In instantiation of ‘void gtest_case_GaussianFilterTest_::predict_loop<gtest_TypeParam_>::TestBody() [with gtest_TypeParam_ = fl::StaticTest<MultiSensorGfTestConfiguration<6, 1, 2, 10, 10> >]’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/multi_sensor_gaussian_filter_test.cpp:92:41:   required from here
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:246:40: error: ‘class fl::MultiSensorGaussianFilter<int, fl::JointSensor<fl::MultipleOf<fl::LinearGaussianSensor<Eigen::Matrix<double, 2, 1, 0, 2, 1>, Eigen::Matrix<double, 6, 1, 0, 6, 1> >, 10> >, fl::UnscentedQuadrature>’ has no member named ‘create_belief’
+
+     auto belief = filter.create_belief();
+
+                                        ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:252:9: error: ‘class fl::MultiSensorGaussianFilter<int, fl::JointSensor<fl::MultipleOf<fl::LinearGaussianSensor<Eigen::Matrix<double, 2, 1, 0, 2, 1>, Eigen::Matrix<double, 6, 1, 0, 6, 1> >, 10> >, fl::UnscentedQuadrature>’ has no member named ‘predict’
+
+         filter.predict(belief, This::zero_input(filter), belief);
+
+         ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:252:55: error: ‘zero_input’ is not a member of ‘This {aka GaussianFilterTest<fl::StaticTest<MultiSensorGfTestConfiguration<6, 1, 2, 10, 10> > >}’
+
+         filter.predict(belief, This::zero_input(filter), belief);
+
+                                                       ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp: In instantiation of ‘void gtest_case_GaussianFilterTest_::predict_then_update<gtest_TypeParam_>::TestBody() [with gtest_TypeParam_ = fl::StaticTest<MultiSensorGfTestConfiguration<6, 1, 2, 10, 10> >]’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/multi_sensor_gaussian_filter_test.cpp:92:41:   required from here
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:205:40: error: ‘class fl::MultiSensorGaussianFilter<int, fl::JointSensor<fl::MultipleOf<fl::LinearGaussianSensor<Eigen::Matrix<double, 2, 1, 0, 2, 1>, Eigen::Matrix<double, 6, 1, 0, 6, 1> >, 10> >, fl::UnscentedQuadrature>’ has no member named ‘create_belief’
+
+     auto belief = filter.create_belief();
+
+                                        ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:215:9: error: ‘class fl::MultiSensorGaussianFilter<int, fl::JointSensor<fl::MultipleOf<fl::LinearGaussianSensor<Eigen::Matrix<double, 2, 1, 0, 2, 1>, Eigen::Matrix<double, 6, 1, 0, 6, 1> >, 10> >, fl::UnscentedQuadrature>’ has no member named ‘predict’
+
+         filter.predict(belief, This::zero_input(filter), belief);
+
+         ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:215:55: error: ‘zero_input’ is not a member of ‘This {aka GaussianFilterTest<fl::StaticTest<MultiSensorGfTestConfiguration<6, 1, 2, 10, 10> > >}’
+
+         filter.predict(belief, This::zero_input(filter), belief);
+
+                                                       ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:226:9: error: ‘class fl::MultiSensorGaussianFilter<int, fl::JointSensor<fl::MultipleOf<fl::LinearGaussianSensor<Eigen::Matrix<double, 2, 1, 0, 2, 1>, Eigen::Matrix<double, 6, 1, 0, 6, 1> >, 10> >, fl::UnscentedQuadrature>’ has no member named ‘update’
+
+         filter.update(belief, This::rand_obsrv(filter), belief);
+
+         ^
+
+In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/multi_sensor_gaussian_filter_test.cpp:28:0:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/multi_sensor_gaussian_filter.hpp: In instantiation of ‘std::string fl::MultiSensorGaussianFilter<TransitionFunction, JointSensorFunction, Quadrature>::name() const [with TransitionFunction = int; JointSensorFunction = fl::JointSensor<fl::MultipleOf<fl::LinearGaussianSensor<Eigen::Matrix<double, 2, 1, 0, 2, 1>, Eigen::Matrix<double, 6, 1, 0, 6, 1> >, 10> >; Quadrature = fl::UnscentedQuadrature; std::string = std::basic_string<char>]’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:203:5:   required from ‘void gtest_case_GaussianFilterTest_::predict_then_update<gtest_TypeParam_>::TestBody() [with gtest_TypeParam_ = fl::StaticTest<MultiSensorGfTestConfiguration<6, 1, 2, 10, 10> >]’
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/multi_sensor_gaussian_filter_test.cpp:92:41:   required from here
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/multi_sensor_gaussian_filter.hpp:113:45: error: ‘const class fl::MultiSensorGaussianFilter<int, fl::JointSensor<fl::MultipleOf<fl::LinearGaussianSensor<Eigen::Matrix<double, 2, 1, 0, 2, 1>, Eigen::Matrix<double, 6, 1, 0, 6, 1> >, 10> >, fl::UnscentedQuadrature>’ has no member named ‘list_arguments’
+
+         return "MultiSensorGaussianFilter<" +
+
+                                             ^
+
+In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/multi_sensor_gaussian_filter_test.cpp:25:0:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp: In instantiation of ‘GaussianFilterTest<TestType>::ModelFactory::LinearTransition GaussianFilterTest<TestType>::ModelFactory::create_linear_state_model() [with TestType = fl::StaticTest<MultiSensorGfTestConfiguration<6, 1, 2, 10, 10> >; GaussianFilterTest<TestType>::ModelFactory::LinearTransition = int]’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/multi_sensor_gaussian_filter_test.cpp:82:34:   required from ‘static typename MultiSensorGfTestConfiguration<StateDimension, InputDimension, ObsrvDimension, Count, FilterIterations>::FilterDefinition<ModelFactory>::Type MultiSensorGfTestConfiguration<StateDimension, InputDimension, ObsrvDimension, Count, FilterIterations>::create_filter(ModelFactory&&) [with ModelFactory = GaussianFilterTest<fl::StaticTest<MultiSensorGfTestConfiguration<6, 1, 2, 10, 10> > >::ModelFactory; int StateDimension = 6; int InputDimension = 1; int ObsrvDimension = 2; int Count = 10; int FilterIterations = 10; typename MultiSensorGfTestConfiguration<StateDimension, InputDimension, ObsrvDimension, Count, FilterIterations>::FilterDefinition<ModelFactory>::Type = fl::MultiSensorGaussianFilter<int, fl::JointSensor<fl::MultipleOf<fl::LinearGaussianSensor<Eigen::Matrix<double, 2, 1, 0, 2, 1>, Eigen::Matrix<double, 6, 1, 0, 6, 1> >, 10> >, fl::UnscentedQuadrature>]’
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:154:64:   required from ‘GaussianFilterTest<TestType>::Filter GaussianFilterTest<TestType>::create_filter(GaussianFilterTest<TestType>::ModelSetup) const [with TestType = fl::StaticTest<MultiSensorGfTestConfiguration<6, 1, 2, 10, 10> >; GaussianFilterTest<TestType>::Filter = fl::MultiSensorGaussianFilter<int, fl::JointSensor<fl::MultipleOf<fl::LinearGaussianSensor<Eigen::Matrix<double, 2, 1, 0, 2, 1>, Eigen::Matrix<double, 6, 1, 0, 6, 1> >, 10> >, fl::UnscentedQuadrature>]’
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:245:53:   required from ‘void gtest_case_GaussianFilterTest_::predict_loop<gtest_TypeParam_>::TestBody() [with gtest_TypeParam_ = fl::StaticTest<MultiSensorGfTestConfiguration<6, 1, 2, 10, 10> >]’
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/multi_sensor_gaussian_filter_test.cpp:92:41:   required from here
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:95:61: error: expression list treated as compound expression in functional cast [-fpermissive]
+
+             auto model = LinearTransition(StateDim, InputDim);
+
+                                                             ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:95:61: warning: left operand of comma operator has no effect [-Wunused-value]
+
+In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/multi_sensor_gaussian_filter_test.cpp:28:0:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/multi_sensor_gaussian_filter.hpp: In instantiation of ‘std::string fl::MultiSensorGaussianFilter<TransitionFunction, JointSensorFunction, Quadrature>::description() const [with TransitionFunction = int; JointSensorFunction = fl::JointSensor<fl::MultipleOf<fl::LinearGaussianSensor<Eigen::Matrix<double, 2, 1, 0, 2, 1>, Eigen::Matrix<double, 6, 1, 0, 6, 1> >, 10> >; Quadrature = fl::UnscentedQuadrature; std::string = std::basic_string<char>]’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/multi_sensor_gaussian_filter_test.cpp:92:41:   required from here
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/multi_sensor_gaussian_filter.hpp:119:52: error: ‘const class fl::MultiSensorGaussianFilter<int, fl::JointSensor<fl::MultipleOf<fl::LinearGaussianSensor<Eigen::Matrix<double, 2, 1, 0, 2, 1>, Eigen::Matrix<double, 6, 1, 0, 6, 1> >, 10> >, fl::UnscentedQuadrature>’ has no member named ‘list_descriptions’
+
+         return "Multi-Sensor Gaussian Filter with" +
+
+                                                    ^
+
+In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/kalman_filter_test.cpp:27:0:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_linear.hpp: In instantiation of ‘std::string fl::GaussianFilter<LinearTransition, LinearSensor>::description() const [with LinearTransition = int; LinearSensor = fl::LinearGaussianSensor<Eigen::Matrix<double, 2, 1>, Eigen::Matrix<double, 3, 1> >; std::string = std::basic_string<char>]’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/kalman_filter_test.cpp:76:41:   required from here
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_linear.hpp:213:17: error: request for member ‘description’ in ‘fl::GaussianFilter<LinearTransition, LinearSensor>::transition<int, fl::LinearGaussianSensor<Eigen::Matrix<double, 2, 1>, Eigen::Matrix<double, 3, 1> > >()’, which is of non-class type ‘const int’
+
+                 + this->list_descriptions(
+
+                 ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_linear.hpp: In instantiation of ‘std::string fl::GaussianFilter<LinearTransition, LinearSensor>::name() const [with LinearTransition = int; LinearSensor = fl::LinearGaussianSensor<Eigen::Matrix<double, 10, 1, 0, 10, 1>, Eigen::Matrix<double, 3, 1> >; std::string = std::basic_string<char>]’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/kalman_filter_test.cpp:76:41:   required from here
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_linear.hpp:204:17: error: request for member ‘name’ in ‘fl::GaussianFilter<LinearTransition, LinearSensor>::transition<int, fl::LinearGaussianSensor<Eigen::Matrix<double, 10, 1, 0, 10, 1>, Eigen::Matrix<double, 3, 1> > >()’, which is of non-class type ‘const int’
+
+                 + this->list_arguments(
+
+                 ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_linear.hpp: In instantiation of ‘std::string fl::GaussianFilter<LinearTransition, LinearSensor>::description() const [with LinearTransition = int; LinearSensor = fl::LinearGaussianSensor<Eigen::Matrix<double, 10, 1, 0, 10, 1>, Eigen::Matrix<double, 3, 1> >; std::string = std::basic_string<char>]’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/kalman_filter_test.cpp:76:41:   required from here
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_linear.hpp:213:17: error: request for member ‘description’ in ‘fl::GaussianFilter<LinearTransition, LinearSensor>::transition<int, fl::LinearGaussianSensor<Eigen::Matrix<double, 10, 1, 0, 10, 1>, Eigen::Matrix<double, 3, 1> > >()’, which is of non-class type ‘const int’
+
+                 + this->list_descriptions(
+
+                 ^
+
+In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/robust_multi_sensor_gaussian_filter_test.cpp:25:0:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:87:17: error: wrong number of template arguments (2, should be 3)
+
+                 > LinearTransition;
+
+                 ^
+
+In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:35:0,
+
+                 from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/robust_multi_sensor_gaussian_filter_test.cpp:25:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/model/transition/linear_transition.hpp:42:7: error: provided for ‘template<class State_, class Noise_, class Input_> class fl::LinearTransition’
+
+ class LinearTransition
+
+       ^
+
+In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/robust_multi_sensor_gaussian_filter_test.cpp:25:0:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp: In member function ‘GaussianFilterTest<TestType>::ModelFactory::LinearTransition GaussianFilterTest<TestType>::ModelFactory::create_linear_state_model()’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:97:28: error: request for member ‘create_dynamics_matrix’ in ‘model’, which is of non-class type ‘int’
+
+             auto A = model.create_dynamics_matrix();
+
+                            ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:98:28: error: request for member ‘create_noise_matrix’ in ‘model’, which is of non-class type ‘int’
+
+             auto Q = model.create_noise_matrix();
+
+                            ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:113:19: error: request for member ‘dynamics_matrix’ in ‘model’, which is of non-class type ‘int’
+
+             model.dynamics_matrix(A);
+
+                   ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:114:19: error: request for member ‘noise_matrix’ in ‘model’, which is of non-class type ‘int’
+
+             model.noise_matrix(Q);
+
+                   ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/multi_sensor_gaussian_filter.hpp: In member function ‘std::string fl::MultiSensorGaussianFilter<TransitionFunction, JointSensorFunction, Quadrature>::description() const [with TransitionFunction = int; JointSensorFunction = fl::JointSensor<fl::MultipleOf<fl::LinearGaussianSensor<Eigen::Matrix<double, 2, 1, 0, 2, 1>, Eigen::Matrix<double, 6, 1, 0, 6, 1> >, 10> >; Quadrature = fl::UnscentedQuadrature; std::string = std::basic_string<char>]’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/multi_sensor_gaussian_filter.hpp:121:5: warning: control reaches end of non-void function [-Wreturn-type]
+
+     }
+
+     ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/multi_sensor_gaussian_filter.hpp: In member function ‘std::string fl::MultiSensorGaussianFilter<TransitionFunction, JointSensorFunction, Quadrature>::name() const [with TransitionFunction = int; JointSensorFunction = fl::JointSensor<fl::MultipleOf<fl::LinearGaussianSensor<Eigen::Matrix<double, 2, 1, 0, 2, 1>, Eigen::Matrix<double, 6, 1, 0, 6, 1> >, 10> >; Quadrature = fl::UnscentedQuadrature; std::string = std::basic_string<char>]’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/multi_sensor_gaussian_filter.hpp:115:5: warning: control reaches end of non-void function [-Wreturn-type]
+
+     }
+
+     ^
+
+At global scope:
+
+cc1plus: warning: unrecognized command line option "-Wno-deprecated-register" [enabled by default]
+
+make[3]: *** [catkin/core-perception/fl/test/CMakeFiles/multi_sensor_gaussian_filter_test.dir/gaussian_filter/multi_sensor_gaussian_filter_test.cpp.o] Error 1
+
+make[2]: *** [catkin/core-perception/fl/test/CMakeFiles/multi_sensor_gaussian_filter_test.dir/all] Error 2
+
+make[2]: *** Waiting for unfinished jobs....
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/chi_squared_distribution_test
+
+[ 46%] Built target chi_squared_distribution_test
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/robust_multi_sensor_gaussian_filter_test.cpp: At global scope:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/robust_multi_sensor_gaussian_filter_test.cpp:85:19: error: declaration of ‘typedef class fl::JointSensor<fl::MultipleOf<fl::BodyTailSensor<typename ModelFactory::LinearObservation, fl::LinearCauchySensor<typename ModelFactory::LinearObservation::Obsrv, typename ModelFactory::LinearObservation::State> >, Size> > RobustMultiSensorGfTestConfiguration<StateDimension, ObsrvDimension, Count, FilterIterations>::FilterDefinition<ModelFactory>::JointSensor’ [-fpermissive]
+
+                 > JointSensor;
+
+                   ^
+
+In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/update_policy/multi_sensor_sigma_point_update_policy.hpp:29:0,
+
+                 from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/multi_sensor_gaussian_filter.hpp:27,
+
+                 from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/robust_multi_sensor_gaussian_filter.hpp:34,
+
+                 from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/robust_multi_sensor_gaussian_filter_test.cpp:28:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/model/sensor/joint_sensor_iid.hpp:41:36: error: changes meaning of ‘JointSensor’ from ‘class fl::JointSensor<fl::MultipleOf<fl::BodyTailSensor<typename ModelFactory::LinearObservation, fl::LinearCauchySensor<typename ModelFactory::LinearObservation::Obsrv, typename ModelFactory::LinearObservation::State> >, Size> >’ [-fpermissive]
+
+ template <typename...Models> class JointSensor;
+
+                                    ^
+
+In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/robust_multi_sensor_gaussian_filter.hpp:35:0,
+
+                 from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/robust_multi_sensor_gaussian_filter_test.cpp:28:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/X_robust_multi_sensor_gaussian_filter.hpp: In instantiation of ‘struct fl::Traits<fl::RobustMultiSensorGaussianFilter<int, fl::JointSensor<fl::MultipleOf<fl::BodyTailSensor<fl::LinearGaussianSensor<Eigen::Matrix<double, 3, 1, 0, 3, 1>, Eigen::Matrix<double, 6, 1, 0, 6, 1> >, fl::LinearCauchySensor<Eigen::Matrix<double, 3, 1, 0, 3, 1>, Eigen::Matrix<double, 6, 1, 0, 6, 1> > >, 48> >, fl::UnscentedQuadrature> >’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:157:40:   required from ‘class GaussianFilterTest<fl::StaticTest<RobustMultiSensorGfTestConfiguration<6, 3, 48, 30> > >’
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:197:1:   required from ‘class gtest_case_GaussianFilterTest_::predict_then_update<fl::StaticTest<RobustMultiSensorGfTestConfiguration<6, 3, 48, 30> > >’
+
+/usr/include/gtest/internal/gtest-internal.h:663:39:   required from ‘static bool testing::internal::TypeParameterizedTest<Fixture, TestSel, Types>::Register(const char*, const char*, const char*, int) [with Fixture = GaussianFilterTest; TestSel = testing::internal::TemplateSel<gtest_case_GaussianFilterTest_::predict_then_update>; Types = testing::internal::Types1<fl::StaticTest<RobustMultiSensorGfTestConfiguration<6, 3, 48, 30> > >]’
+
+/usr/include/gtest/internal/gtest-internal.h:694:41:   required from ‘static bool testing::internal::TypeParameterizedTestCase<Fixture, Tests, Types>::Register(const char*, const char*, const char*) [with Fixture = GaussianFilterTest; Tests = testing::internal::Templates2<gtest_case_GaussianFilterTest_::predict_then_update, gtest_case_GaussianFilterTest_::predict_loop>; Types = testing::internal::Types1<fl::StaticTest<RobustMultiSensorGfTestConfiguration<6, 3, 48, 30> > >]’
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/robust_multi_sensor_gaussian_filter_test.cpp:126:1:   required from here
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/X_robust_multi_sensor_gaussian_filter.hpp:59:48: error: ‘int’ is not a class, struct, or union type
+
+     typedef typename TransitionFunction::State State;
+
+                                                ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/X_robust_multi_sensor_gaussian_filter.hpp:60:48: error: ‘int’ is not a class, struct, or union type
+
+     typedef typename TransitionFunction::Input Input;
+
+                                                ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/X_robust_multi_sensor_gaussian_filter.hpp:62:29: error: ‘int’ is not a class, struct, or union type
+
+     typedef Gaussian<State> Belief;
+
+                             ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/X_robust_multi_sensor_gaussian_filter.hpp: In instantiation of ‘class fl::RobustMultiSensorGaussianFilter<int, fl::JointSensor<fl::MultipleOf<fl::BodyTailSensor<fl::LinearGaussianSensor<Eigen::Matrix<double, 3, 1, 0, 3, 1>, Eigen::Matrix<double, 6, 1, 0, 6, 1> >, fl::LinearCauchySensor<Eigen::Matrix<double, 3, 1, 0, 3, 1>, Eigen::Matrix<double, 6, 1, 0, 6, 1> > >, 48> >, fl::UnscentedQuadrature>’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:245:53:   required from ‘void gtest_case_GaussianFilterTest_::predict_loop<gtest_TypeParam_>::TestBody() [with gtest_TypeParam_ = fl::StaticTest<RobustMultiSensorGfTestConfiguration<6, 3, 48, 30> >]’
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/robust_multi_sensor_gaussian_filter_test.cpp:128:41:   required from here
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/X_robust_multi_sensor_gaussian_filter.hpp:78:48: error: ‘int’ is not a class, struct, or union type
+
+     typedef typename TransitionFunction::State State;
+
+                                                ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/X_robust_multi_sensor_gaussian_filter.hpp:79:48: error: ‘int’ is not a class, struct, or union type
+
+     typedef typename TransitionFunction::Input Input;
+
+                                                ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/X_robust_multi_sensor_gaussian_filter.hpp:81:29: error: ‘int’ is not a class, struct, or union type
+
+     typedef Gaussian<State> Belief;
+
+                             ^
+
+In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/util/meta/size_deduction.hpp:23:0,
+
+                 from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/util/meta.hpp:23,
+
+                 from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/../typecast.hpp:23,
+
+                 from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/robust_multi_sensor_gaussian_filter_test.cpp:21:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/util/traits.hpp: In instantiation of ‘struct fl::AdditivityOf<int>’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/multi_sensor_gaussian_filter.hpp:63:7:   required from ‘class fl::MultiSensorGaussianFilter<int, fl::JointSensor<fl::MultipleOf<fl::MultiRobustSensorFunction<fl::BodyTailSensor<fl::LinearGaussianSensor<Eigen::Matrix<double, 3, 1, 0, 3, 1>, Eigen::Matrix<double, 6, 1, 0, 6, 1> >, fl::LinearCauchySensor<Eigen::Matrix<double, 3, 1, 0, 3, 1>, Eigen::Matrix<double, 6, 1, 0, 6, 1> > >, 48>, 48> >, fl::UnscentedQuadrature>’
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/X_robust_multi_sensor_gaussian_filter.hpp:353:39:   required from ‘class fl::RobustMultiSensorGaussianFilter<int, fl::JointSensor<fl::MultipleOf<fl::BodyTailSensor<fl::LinearGaussianSensor<Eigen::Matrix<double, 3, 1, 0, 3, 1>, Eigen::Matrix<double, 6, 1, 0, 6, 1> >, fl::LinearCauchySensor<Eigen::Matrix<double, 3, 1, 0, 3, 1>, Eigen::Matrix<double, 6, 1, 0, 6, 1> > >, 48> >, fl::UnscentedQuadrature>’
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:245:53:   required from ‘void gtest_case_GaussianFilterTest_::predict_loop<gtest_TypeParam_>::TestBody() [with gtest_TypeParam_ = fl::StaticTest<RobustMultiSensorGfTestConfiguration<6, 3, 48, 30> >]’
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/robust_multi_sensor_gaussian_filter_test.cpp:128:41:   required from here
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/util/traits.hpp:398:70: error: ‘int’ is not a class, struct, or union type
+
+     typedef typename AdditivityOf<Model, typename Model::Type>::Type Type;
+
+                                                                      ^
+
+In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/robust_multi_sensor_gaussian_filter_test.cpp:25:0:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp: In instantiation of ‘void gtest_case_GaussianFilterTest_::predict_loop<gtest_TypeParam_>::TestBody() [with gtest_TypeParam_ = fl::StaticTest<RobustMultiSensorGfTestConfiguration<6, 3, 48, 30> >]’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/robust_multi_sensor_gaussian_filter_test.cpp:128:41:   required from here
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:246:40: error: ‘class fl::RobustMultiSensorGaussianFilter<int, fl::JointSensor<fl::MultipleOf<fl::BodyTailSensor<fl::LinearGaussianSensor<Eigen::Matrix<double, 3, 1, 0, 3, 1>, Eigen::Matrix<double, 6, 1, 0, 6, 1> >, fl::LinearCauchySensor<Eigen::Matrix<double, 3, 1, 0, 3, 1>, Eigen::Matrix<double, 6, 1, 0, 6, 1> > >, 48> >, fl::UnscentedQuadrature>’ has no member named ‘create_belief’
+
+     auto belief = filter.create_belief();
+
+                                        ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:252:9: error: ‘class fl::RobustMultiSensorGaussianFilter<int, fl::JointSensor<fl::MultipleOf<fl::BodyTailSensor<fl::LinearGaussianSensor<Eigen::Matrix<double, 3, 1, 0, 3, 1>, Eigen::Matrix<double, 6, 1, 0, 6, 1> >, fl::LinearCauchySensor<Eigen::Matrix<double, 3, 1, 0, 3, 1>, Eigen::Matrix<double, 6, 1, 0, 6, 1> > >, 48> >, fl::UnscentedQuadrature>’ has no member named ‘predict’
+
+         filter.predict(belief, This::zero_input(filter), belief);
+
+         ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:252:55: error: ‘zero_input’ is not a member of ‘This {aka GaussianFilterTest<fl::StaticTest<RobustMultiSensorGfTestConfiguration<6, 3, 48, 30> > >}’
+
+         filter.predict(belief, This::zero_input(filter), belief);
+
+                                                       ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp: In instantiation of ‘void gtest_case_GaussianFilterTest_::predict_then_update<gtest_TypeParam_>::TestBody() [with gtest_TypeParam_ = fl::StaticTest<RobustMultiSensorGfTestConfiguration<6, 3, 48, 30> >]’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/robust_multi_sensor_gaussian_filter_test.cpp:128:41:   required from here
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:205:40: error: ‘class fl::RobustMultiSensorGaussianFilter<int, fl::JointSensor<fl::MultipleOf<fl::BodyTailSensor<fl::LinearGaussianSensor<Eigen::Matrix<double, 3, 1, 0, 3, 1>, Eigen::Matrix<double, 6, 1, 0, 6, 1> >, fl::LinearCauchySensor<Eigen::Matrix<double, 3, 1, 0, 3, 1>, Eigen::Matrix<double, 6, 1, 0, 6, 1> > >, 48> >, fl::UnscentedQuadrature>’ has no member named ‘create_belief’
+
+     auto belief = filter.create_belief();
+
+                                        ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:215:9: error: ‘class fl::RobustMultiSensorGaussianFilter<int, fl::JointSensor<fl::MultipleOf<fl::BodyTailSensor<fl::LinearGaussianSensor<Eigen::Matrix<double, 3, 1, 0, 3, 1>, Eigen::Matrix<double, 6, 1, 0, 6, 1> >, fl::LinearCauchySensor<Eigen::Matrix<double, 3, 1, 0, 3, 1>, Eigen::Matrix<double, 6, 1, 0, 6, 1> > >, 48> >, fl::UnscentedQuadrature>’ has no member named ‘predict’
+
+         filter.predict(belief, This::zero_input(filter), belief);
+
+         ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:215:55: error: ‘zero_input’ is not a member of ‘This {aka GaussianFilterTest<fl::StaticTest<RobustMultiSensorGfTestConfiguration<6, 3, 48, 30> > >}’
+
+         filter.predict(belief, This::zero_input(filter), belief);
+
+                                                       ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:226:9: error: ‘class fl::RobustMultiSensorGaussianFilter<int, fl::JointSensor<fl::MultipleOf<fl::BodyTailSensor<fl::LinearGaussianSensor<Eigen::Matrix<double, 3, 1, 0, 3, 1>, Eigen::Matrix<double, 6, 1, 0, 6, 1> >, fl::LinearCauchySensor<Eigen::Matrix<double, 3, 1, 0, 3, 1>, Eigen::Matrix<double, 6, 1, 0, 6, 1> > >, 48> >, fl::UnscentedQuadrature>’ has no member named ‘update’
+
+         filter.update(belief, This::rand_obsrv(filter), belief);
+
+         ^
+
+In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/robust_multi_sensor_gaussian_filter.hpp:34:0,
+
+                 from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/robust_multi_sensor_gaussian_filter_test.cpp:28:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/multi_sensor_gaussian_filter.hpp: In instantiation of ‘std::string fl::MultiSensorGaussianFilter<TransitionFunction, JointSensorFunction, Quadrature>::name() const [with TransitionFunction = int; JointSensorFunction = fl::JointSensor<fl::MultipleOf<fl::MultiRobustSensorFunction<fl::BodyTailSensor<fl::LinearGaussianSensor<Eigen::Matrix<double, 3, 1, 0, 3, 1>, Eigen::Matrix<double, 6, 1, 0, 6, 1> >, fl::LinearCauchySensor<Eigen::Matrix<double, 3, 1, 0, 3, 1>, Eigen::Matrix<double, 6, 1, 0, 6, 1> > >, 48>, 48> >; Quadrature = fl::UnscentedQuadrature; std::string = std::basic_string<char>]’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/X_robust_multi_sensor_gaussian_filter.hpp:333:51:   required from ‘std::string fl::RobustMultiSensorGaussianFilter<TransitionFunction, ActualJointSensor, Quadrature>::name() const [with TransitionFunction = int; ActualJointSensor = fl::JointSensor<fl::MultipleOf<fl::BodyTailSensor<fl::LinearGaussianSensor<Eigen::Matrix<double, 3, 1, 0, 3, 1>, Eigen::Matrix<double, 6, 1, 0, 6, 1> >, fl::LinearCauchySensor<Eigen::Matrix<double, 3, 1, 0, 3, 1>, Eigen::Matrix<double, 6, 1, 0, 6, 1> > >, 48> >; Quadrature = fl::UnscentedQuadrature; std::string = std::basic_string<char>]’
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:203:5:   required from ‘void gtest_case_GaussianFilterTest_::predict_then_update<gtest_TypeParam_>::TestBody() [with gtest_TypeParam_ = fl::StaticTest<RobustMultiSensorGfTestConfiguration<6, 3, 48, 30> >]’
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/robust_multi_sensor_gaussian_filter_test.cpp:128:41:   required from here
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/multi_sensor_gaussian_filter.hpp:113:45: error: ‘const class fl::MultiSensorGaussianFilter<int, fl::JointSensor<fl::MultipleOf<fl::MultiRobustSensorFunction<fl::BodyTailSensor<fl::LinearGaussianSensor<Eigen::Matrix<double, 3, 1, 0, 3, 1>, Eigen::Matrix<double, 6, 1, 0, 6, 1> >, fl::LinearCauchySensor<Eigen::Matrix<double, 3, 1, 0, 3, 1>, Eigen::Matrix<double, 6, 1, 0, 6, 1> > >, 48>, 48> >, fl::UnscentedQuadrature>’ has no member named ‘list_arguments’
+
+         return "MultiSensorGaussianFilter<" +
+
+                                             ^
+
+In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/robust_multi_sensor_gaussian_filter_test.cpp:25:0:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp: In instantiation of ‘GaussianFilterTest<TestType>::ModelFactory::LinearTransition GaussianFilterTest<TestType>::ModelFactory::create_linear_state_model() [with TestType = fl::StaticTest<RobustMultiSensorGfTestConfiguration<6, 3, 48, 30> >; GaussianFilterTest<TestType>::ModelFactory::LinearTransition = int]’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/robust_multi_sensor_gaussian_filter_test.cpp:118:46:   required from ‘static typename RobustMultiSensorGfTestConfiguration<StateDimension, ObsrvDimension, Count, FilterIterations>::FilterDefinition<ModelFactory>::Type RobustMultiSensorGfTestConfiguration<StateDimension, ObsrvDimension, Count, FilterIterations>::create_filter(ModelFactory&&) [with ModelFactory = GaussianFilterTest<fl::StaticTest<RobustMultiSensorGfTestConfiguration<6, 3, 48, 30> > >::ModelFactory; int StateDimension = 6; int ObsrvDimension = 3; int Count = 48; int FilterIterations = 30; typename RobustMultiSensorGfTestConfiguration<StateDimension, ObsrvDimension, Count, FilterIterations>::FilterDefinition<ModelFactory>::Type = fl::RobustMultiSensorGaussianFilter<int, fl::JointSensor<fl::MultipleOf<fl::BodyTailSensor<fl::LinearGaussianSensor<Eigen::Matrix<double, 3, 1, 0, 3, 1>, Eigen::Matrix<double, 6, 1, 0, 6, 1> >, fl::LinearCauchySensor<Eigen::Matrix<double, 3, 1, 0, 3, 1>, Eigen::Matrix<double, 6, 1, 0, 6, 1> > >, 48> >, fl::UnscentedQuadrature>]’
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:154:64:   required from ‘GaussianFilterTest<TestType>::Filter GaussianFilterTest<TestType>::create_filter(GaussianFilterTest<TestType>::ModelSetup) const [with TestType = fl::StaticTest<RobustMultiSensorGfTestConfiguration<6, 3, 48, 30> >; GaussianFilterTest<TestType>::Filter = fl::RobustMultiSensorGaussianFilter<int, fl::JointSensor<fl::MultipleOf<fl::BodyTailSensor<fl::LinearGaussianSensor<Eigen::Matrix<double, 3, 1, 0, 3, 1>, Eigen::Matrix<double, 6, 1, 0, 6, 1> >, fl::LinearCauchySensor<Eigen::Matrix<double, 3, 1, 0, 3, 1>, Eigen::Matrix<double, 6, 1, 0, 6, 1> > >, 48> >, fl::UnscentedQuadrature>]’
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:245:53:   required from ‘void gtest_case_GaussianFilterTest_::predict_loop<gtest_TypeParam_>::TestBody() [with gtest_TypeParam_ = fl::StaticTest<RobustMultiSensorGfTestConfiguration<6, 3, 48, 30> >]’
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/robust_multi_sensor_gaussian_filter_test.cpp:128:41:   required from here
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:95:61: error: expression list treated as compound expression in functional cast [-fpermissive]
+
+             auto model = LinearTransition(StateDim, InputDim);
+
+                                                             ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:95:61: warning: left operand of comma operator has no effect [-Wunused-value]
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_linear.hpp: In member function ‘std::string fl::GaussianFilter<LinearTransition, LinearSensor>::description() const [with LinearTransition = int; LinearSensor = fl::LinearGaussianSensor<Eigen::Matrix<double, 2, 1>, Eigen::Matrix<double, 3, 1> >; std::string = std::basic_string<char>]’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_linear.hpp:216:5: warning: control reaches end of non-void function [-Wreturn-type]
+
+     }
+
+     ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_linear.hpp: In member function ‘std::string fl::GaussianFilter<LinearTransition, LinearSensor>::name() const [with LinearTransition = int; LinearSensor = fl::LinearGaussianSensor<Eigen::Matrix<double, 2, 1>, Eigen::Matrix<double, 3, 1> >; std::string = std::basic_string<char>]’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_linear.hpp:208:5: warning: control reaches end of non-void function [-Wreturn-type]
+
+     }
+
+     ^
+
+In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/robust_multi_sensor_gaussian_filter.hpp:34:0,
+
+                 from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/robust_multi_sensor_gaussian_filter_test.cpp:28:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/multi_sensor_gaussian_filter.hpp: In instantiation of ‘std::string fl::MultiSensorGaussianFilter<TransitionFunction, JointSensorFunction, Quadrature>::description() const [with TransitionFunction = int; JointSensorFunction = fl::JointSensor<fl::MultipleOf<fl::MultiRobustSensorFunction<fl::BodyTailSensor<fl::LinearGaussianSensor<Eigen::Matrix<double, 3, 1, 0, 3, 1>, Eigen::Matrix<double, 6, 1, 0, 6, 1> >, fl::LinearCauchySensor<Eigen::Matrix<double, 3, 1, 0, 3, 1>, Eigen::Matrix<double, 6, 1, 0, 6, 1> > >, 48>, 48> >; Quadrature = fl::UnscentedQuadrature; std::string = std::basic_string<char>]’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/robust_multi_sensor_gaussian_filter_test.cpp:128:41:   required from here
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/multi_sensor_gaussian_filter.hpp:119:52: error: ‘const class fl::MultiSensorGaussianFilter<int, fl::JointSensor<fl::MultipleOf<fl::MultiRobustSensorFunction<fl::BodyTailSensor<fl::LinearGaussianSensor<Eigen::Matrix<double, 3, 1, 0, 3, 1>, Eigen::Matrix<double, 6, 1, 0, 6, 1> >, fl::LinearCauchySensor<Eigen::Matrix<double, 3, 1, 0, 3, 1>, Eigen::Matrix<double, 6, 1, 0, 6, 1> > >, 48>, 48> >, fl::UnscentedQuadrature>’ has no member named ‘list_descriptions’
+
+         return "Multi-Sensor Gaussian Filter with" +
+
+                                                    ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_linear.hpp: In member function ‘std::string fl::GaussianFilter<LinearTransition, LinearSensor>::description() const [with LinearTransition = int; LinearSensor = fl::LinearGaussianSensor<Eigen::Matrix<double, 10, 1, 0, 10, 1>, Eigen::Matrix<double, 3, 1> >; std::string = std::basic_string<char>]’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_linear.hpp:216:5: warning: control reaches end of non-void function [-Wreturn-type]
+
+     }
+
+     ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_linear.hpp: In member function ‘std::string fl::GaussianFilter<LinearTransition, LinearSensor>::name() const [with LinearTransition = int; LinearSensor = fl::LinearGaussianSensor<Eigen::Matrix<double, 10, 1, 0, 10, 1>, Eigen::Matrix<double, 3, 1> >; std::string = std::basic_string<char>]’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_linear.hpp:208:5: warning: control reaches end of non-void function [-Wreturn-type]
+
+     }
+
+     ^
+
+At global scope:
+
+cc1plus: warning: unrecognized command line option "-Wno-deprecated-register" [enabled by default]
+
+make[3]: *** [catkin/core-perception/fl/test/CMakeFiles/gaussian_filter_kalman_filter_test.dir/gaussian_filter/kalman_filter_test.cpp.o] Error 1
+
+make[2]: *** [catkin/core-perception/fl/test/CMakeFiles/gaussian_filter_kalman_filter_test.dir/all] Error 2
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/decorrelated_gaussian_distribution_test
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/discrete_distribution_test
+
+[ 46%] Built target decorrelated_gaussian_distribution_test
+
+[ 46%] Built target discrete_distribution_test
+
+At global scope:
+
+cc1plus: warning: unrecognized command line option "-Wno-deprecated-register" [enabled by default]
+
+make[3]: *** [catkin/core-perception/fl/test/CMakeFiles/gaussian_filter_unscented_kalman_filter_test.dir/gaussian_filter/unscented_kalman_filter_test.cpp.o] Error 1
+
+make[2]: *** [catkin/core-perception/fl/test/CMakeFiles/gaussian_filter_unscented_kalman_filter_test.dir/all] Error 2
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/t_distribution_test
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/multi_sensor_gaussian_filter.hpp: In member function ‘std::string fl::MultiSensorGaussianFilter<TransitionFunction, JointSensorFunction, Quadrature>::description() const [with TransitionFunction = int; JointSensorFunction = fl::JointSensor<fl::MultipleOf<fl::MultiRobustSensorFunction<fl::BodyTailSensor<fl::LinearGaussianSensor<Eigen::Matrix<double, 3, 1, 0, 3, 1>, Eigen::Matrix<double, 6, 1, 0, 6, 1> >, fl::LinearCauchySensor<Eigen::Matrix<double, 3, 1, 0, 3, 1>, Eigen::Matrix<double, 6, 1, 0, 6, 1> > >, 48>, 48> >; Quadrature = fl::UnscentedQuadrature; std::string = std::basic_string<char>]’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/multi_sensor_gaussian_filter.hpp:121:5: warning: control reaches end of non-void function [-Wreturn-type]
+
+     }
+
+     ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/multi_sensor_gaussian_filter.hpp: In member function ‘std::string fl::MultiSensorGaussianFilter<TransitionFunction, JointSensorFunction, Quadrature>::name() const [with TransitionFunction = int; JointSensorFunction = fl::JointSensor<fl::MultipleOf<fl::MultiRobustSensorFunction<fl::BodyTailSensor<fl::LinearGaussianSensor<Eigen::Matrix<double, 3, 1, 0, 3, 1>, Eigen::Matrix<double, 6, 1, 0, 6, 1> >, fl::LinearCauchySensor<Eigen::Matrix<double, 3, 1, 0, 3, 1>, Eigen::Matrix<double, 6, 1, 0, 6, 1> > >, 48>, 48> >; Quadrature = fl::UnscentedQuadrature; std::string = std::basic_string<char>]’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/multi_sensor_gaussian_filter.hpp:115:5: warning: control reaches end of non-void function [-Wreturn-type]
+
+     }
+
+     ^
+
+At global scope:
+
+cc1plus: warning: unrecognized command line option "-Wno-deprecated-register" [enabled by default]
+
+make[3]: *** [catkin/core-perception/fl/test/CMakeFiles/robust_multi_sensor_gaussian_filter_test.dir/gaussian_filter/robust_multi_sensor_gaussian_filter_test.cpp.o] Error 1
+
+make[2]: *** [catkin/core-perception/fl/test/CMakeFiles/robust_multi_sensor_gaussian_filter_test.dir/all] Error 2
+
+[ 46%] Built target t_distribution_test
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/linear_uncorrelated_gaussian_sensor_test
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/sigma_point_quadrature_test_StaticTest_1_1_Unscented_test
+
+[ 46%] Built target sigma_point_quadrature_test_StaticTest_1_1_Unscented_test
+
+[ 46%] Built target linear_uncorrelated_gaussian_sensor_test
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/unscented_transform_test_test
+
+[ 46%] Built target unscented_transform_test_test
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/linear_gaussian_sensor_test
+
+[ 46%] Built target linear_gaussian_sensor_test
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/body_tail_sensor_test
+
+[ 46%] Built target body_tail_sensor_test
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/joint_sensor_iid_test
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/linear_transition_test
+
+[ 46%] Built target joint_sensor_iid_test
+
+[ 46%] Built target linear_transition_test
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/gaussian_distribution_test
+
+[ 46%] Built target gaussian_distribution_test
+
+make[1]: *** [CMakeFiles/tests.dir/rule] Error 2
+
+make: *** [tests] Error 2
 
 Base path: /home/administrator/ci/ci/team/workspace
 
@@ -562,14 +1537,14 @@ Install space: /home/administrator/ci/ci/team/workspace/install
 
 ####
 
-#### Running command: "make cmake_check_build_system" in "/home/administrator/ci/ci/team/workspace/build"
+#### Running command: "cmake /home/administrator/ci/ci/team/workspace/src -DCATKIN_DEVEL_PREFIX=/home/administrator/ci/ci/team/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/administrator/ci/ci/team/workspace/install" in "/home/administrator/ci/ci/team/workspace/build"
 
 ####
 
 ####
 
-#### Running command: "make -j1" in "/home/administrator/ci/ci/team/workspace/build"
+#### Running command: "make -j16 tests" in "/home/administrator/ci/ci/team/workspace/build"
 
 ####
 
-Invoking "make -j1" failed
+Invoking "make" failed
