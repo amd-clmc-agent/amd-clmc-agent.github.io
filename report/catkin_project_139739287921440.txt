@@ -1,3 +1,5 @@
+WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
+
 -- Using CATKIN_DEVEL_PREFIX: /home/administrator/ci/ci/team/workspace/devel
 
 -- Using CMAKE_PREFIX_PATH: /opt/ros/indigo
@@ -6,9 +8,9 @@
 
 -- Using PYTHON_EXECUTABLE: /usr/bin/python
 
--- Using Debian Python package layout
+-- Python version: 2.7
 
--- Using empy: /usr/bin/empy
+-- Using Debian Python package layout
 
 -- Using CATKIN_ENABLE_TESTING: ON
 
@@ -18,23 +20,37 @@
 
 -- Found gtest sources under '/usr/src/gtest': gtests will be built
 
--- Using Python nosetests: /usr/bin/nosetests-2.7
-
--- catkin 0.6.19
+-- catkin 0.5.90
 
 -- BUILD_SHARED_LIBS is on
 
+WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
+
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- ~~  traversing 20 packages in topological order:
+-- ~~  traversing 31 packages in topological order:
 
--- ~~  - astar_algo
+-- ~~  - Eigen
 
--- ~~  - playful_color_detection_libs
+-- ~~  - cdlbt
 
--- ~~  - playful_profiler
+-- ~~  - can_control_tools
 
--- ~~  - soma
+-- ~~  - fl
+
+-- ~~  - ebf
+
+-- ~~  - matlab_logger
+
+-- ~~  - ros_realtime (metapackage)
+
+-- ~~  - allocators
+
+-- ~~  - rosatomic
+
+-- ~~  - lockfree
+
+-- ~~  - rt_timer
 
 -- ~~  - start_robot
 
@@ -46,57 +62,191 @@
 
 -- ~~  - riemo_grasping_msgs
 
--- ~~  - playful_navigation_msgs
+-- ~~  - utilities
 
--- ~~  - playful_pcl
+-- ~~  - lwpr
 
--- ~~  - playful_histograms
+-- ~~  - xenomai_ros
 
--- ~~  - playful_virtual_detection
+-- ~~  - roscpp_utilities
 
--- ~~  - playful_color_detection_nodes
+-- ~~  - rosrt
 
--- ~~  - playful_depth_detection
+-- ~~  - ros_rt_test
 
--- ~~  - playful_navigation
+-- ~~  - sl
 
--- ~~  - playful_navigation_nodes
+-- ~~  - apollo
 
--- ~~  - playful_nodes
+-- ~~  - apollo_event_based_task
 
--- ~~  - playful_table_setting
+-- ~~  - apollo_test_task
 
--- ~~  - playful_kinematics
+-- ~~  - apollo_user
+
+-- ~~  - sl_ros_servo
+
+-- ~~  - ros_servo_apollo
+
+-- ~~  - yaml_cpp
+
+-- ~~  - facial_expressions
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- +++ processing catkin package: 'astar_algo'
+-- +++ processing catkin package: 'Eigen'
 
--- ==> add_subdirectory(catkin/playful/playful-navigation/externals/astar-algo)
+-- ==> add_subdirectory(catkin/third_party/Eigen)
 
--- +++ processing catkin package: 'playful_color_detection_libs'
+WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
 
--- ==> add_subdirectory(catkin/playful/playful-perception/playful_color_detection/playful_color_detection_libs)
+-- +++ processing catkin package: 'cdlbt'
+
+-- ==> add_subdirectory(catkin/ros/barrett-ros/cdlbt)
+
+-- MACHTYPE x86_64
+
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+
+Call Stack (most recent call first):
+
+  catkin/ros/barrett-ros/cdlbt/CMakeLists.txt:8 (include)
+
+
+
+
+
+-- HOST_NAME=everest
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
+
+-- +++ processing catkin package: 'can_control_tools'
+
+-- ==> add_subdirectory(catkin/ros/barrett-ros/canControlTools)
+
+-- MACHTYPE x86_64
+
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+
+Call Stack (most recent call first):
+
+  catkin/ros/barrett-ros/canControlTools/CMakeLists.txt:8 (include)
+
+
+
+
+
+-- HOST_NAME=everest
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
 
 -- Boost version: 1.54.0
 
 -- Found the following Boost libraries:
 
---   system
+--   thread
 
--- +++ processing catkin package: 'playful_profiler'
+-- +++ processing catkin package: 'fl'
 
--- ==> add_subdirectory(catkin/playful/playful-perception/playful_profiler)
+-- ==> add_subdirectory(catkin/core-perception/fl)
+
+-- Eigen found (include: /usr/include/eigen3)
 
 -- Boost version: 1.54.0
 
--- Found the following Boost libraries:
+-- +++ processing catkin package: 'ebf'
 
---   system
+-- ==> add_subdirectory(catkin/event-based/event-based-framework)
 
--- +++ processing catkin package: 'soma'
+##########################################
 
--- ==> add_subdirectory(catkin/playful/playful-soma)
+# Event-based Control Framework 
+
+# Version 0.1.267
+
+# ceec1553994354a776e9e1f573a3583f8963a720
+
+##########################################
+
+-- Eigen found (include: /usr/include/eigen3)
+
+-- Found Doxygen: /usr/bin/doxygen (found version "1.8.6") 
+
+-- Found Doxygen: /usr/bin/doxygen (found suitable version "1.8.6", minimum required is "1.8.4") 
+
+-- +++ processing catkin package: 'matlab_logger'
+
+-- ==> add_subdirectory(catkin/event-based/matlab-logger)
+
+-- +++ processing catkin metapackage: 'ros_realtime'
+
+-- ==> add_subdirectory(catkin/ros/ros_realtime/ros_realtime)
+
+-- +++ processing catkin package: 'allocators'
+
+-- ==> add_subdirectory(catkin/ros/ros_realtime/allocators)
+
+-- Boost version: 1.54.0
+
+-- +++ processing catkin package: 'rosatomic'
+
+-- ==> add_subdirectory(catkin/ros/ros_realtime/rosatomic)
+
+-- Boost version: 1.54.0
+
+-- +++ processing catkin package: 'lockfree'
+
+-- ==> add_subdirectory(catkin/ros/ros_realtime/lockfree)
+
+-- Boost version: 1.54.0
+
+-- +++ processing catkin package: 'rt_timer'
+
+-- ==> add_subdirectory(catkin/ros/ros_realtime/rt_timer)
 
 -- +++ processing catkin package: 'start_robot'
 
@@ -134,231 +284,257 @@
 
 -- riemo_grasping_msgs: 5 messages, 3 services
 
--- +++ processing catkin package: 'playful_navigation_msgs'
+-- +++ processing catkin package: 'utilities'
 
--- ==> add_subdirectory(catkin/playful/playful-navigation/navigation_msgs)
+-- ==> add_subdirectory(catkin/core-sl/catkin-utilities)
 
--- Using these message generators: gencpp;genlisp;genpy
+-- MACHTYPE x86_64
 
--- playful_navigation_msgs: 0 messages, 2 services
+Detected MACHTYPE=x86_64
 
--- +++ processing catkin package: 'playful_pcl'
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
 
--- ==> add_subdirectory(catkin/playful/playful-perception/playful_pcl)
-
--- Boost version: 1.54.0
-
--- Found the following Boost libraries:
-
---   system
-
---   filesystem
-
---   thread
-
---   date_time
-
---   iostreams
-
---   serialization
-
---   chrono
-
--- checking for module 'openni-dev'
-
---   package 'openni-dev' not found
-
--- checking for module 'openni2-dev'
-
---   package 'openni2-dev' not found
-
-** WARNING ** io features related to pcap will be disabled
-
-** WARNING ** io features related to png will be disabled
-
--- checking for module 'openni-dev'
-
---   package 'openni-dev' not found
-
--- checking for module 'openni2-dev'
-
---   package 'openni2-dev' not found
-
--- looking for PCL_COMMON
-
--- looking for PCL_KDTREE
-
--- looking for PCL_OCTREE
-
--- looking for PCL_SEARCH
-
--- looking for PCL_SURFACE
-
--- looking for PCL_SAMPLE_CONSENSUS
-
--- looking for PCL_FILTERS
-
--- looking for PCL_FEATURES
-
--- looking for PCL_KEYPOINTS
-
--- looking for PCL_GEOMETRY
-
--- looking for PCL_IO
-
--- looking for PCL_VISUALIZATION
-
--- looking for PCL_SEGMENTATION
-
--- looking for PCL_PEOPLE
-
--- looking for PCL_REGISTRATION
-
--- looking for PCL_RECOGNITION
-
--- looking for PCL_OUTOFCORE
-
--- looking for PCL_TRACKING
-
--- +++ processing catkin package: 'playful_histograms'
-
--- ==> add_subdirectory(catkin/playful/playful-perception/playful_histograms)
-
--- Boost version: 1.54.0
-
--- Found the following Boost libraries:
-
---   system
-
--- +++ processing catkin package: 'playful_virtual_detection'
-
--- ==> add_subdirectory(catkin/playful/playful-perception/playful_virtual_detection)
-
--- +++ processing catkin package: 'playful_color_detection_nodes'
-
--- ==> add_subdirectory(catkin/playful/playful-perception/playful_color_detection/playful_color_detection_nodes)
-
--- +++ processing catkin package: 'playful_depth_detection'
-
--- ==> add_subdirectory(catkin/playful/playful-perception/playful_depth_detection)
-
--- +++ processing catkin package: 'playful_navigation'
-
--- ==> add_subdirectory(catkin/playful/playful-navigation/navigation_libs)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- +++ processing catkin package: 'playful_navigation_nodes'
-
--- ==> add_subdirectory(catkin/playful/playful-navigation/navigation_nodes)
-
--- Boost version: 1.54.0
-
--- Found the following Boost libraries:
-
---   system
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- +++ processing catkin package: 'playful_nodes'
-
--- ==> add_subdirectory(catkin/playful/playful-perception/playful_nodes)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- Boost version: 1.54.0
-
--- Found the following Boost libraries:
-
---   system
-
---   filesystem
-
---   thread
-
---   date_time
-
---   iostreams
-
---   serialization
-
---   chrono
-
--- checking for module 'openni-dev'
-
---   package 'openni-dev' not found
-
--- checking for module 'openni2-dev'
-
---   package 'openni2-dev' not found
-
-** WARNING ** io features related to pcap will be disabled
-
-** WARNING ** io features related to png will be disabled
-
--- checking for module 'openni-dev'
-
---   package 'openni-dev' not found
-
--- checking for module 'openni2-dev'
-
---   package 'openni2-dev' not found
-
--- looking for PCL_COMMON
-
--- looking for PCL_KDTREE
-
--- looking for PCL_OCTREE
-
--- looking for PCL_SEARCH
-
--- looking for PCL_SURFACE
-
--- looking for PCL_SAMPLE_CONSENSUS
-
--- looking for PCL_FILTERS
-
--- looking for PCL_FEATURES
-
--- looking for PCL_KEYPOINTS
-
--- looking for PCL_GEOMETRY
-
--- looking for PCL_IO
-
--- looking for PCL_VISUALIZATION
-
--- looking for PCL_SEGMENTATION
-
--- looking for PCL_PEOPLE
-
--- looking for PCL_REGISTRATION
-
--- looking for PCL_RECOGNITION
-
--- looking for PCL_OUTOFCORE
-
--- looking for PCL_TRACKING
-
--- +++ processing catkin package: 'playful_table_setting'
-
--- ==> add_subdirectory(catkin/playful/playful-table-setting)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- +++ processing catkin package: 'playful_kinematics'
-
--- ==> add_subdirectory(catkin/playful/playful-kinematics)
-
-CMake Error at /opt/ros/indigo/share/catkin/cmake/catkin_python_setup.cmake:96 (message):
-
-  The package name 'playful_kinematics' differs from the basename of the path
-
-  'scripts' in project 'playful_kinematics'
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
 
 Call Stack (most recent call first):
 
-  catkin/playful/playful-kinematics/CMakeLists.txt:69 (catkin_python_setup)
+  catkin/core-sl/catkin-utilities/CMakeLists.txt:8 (include)
+
+
+
+
+
+-- HOST_NAME=everest
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
+
+-- +++ processing catkin package: 'lwpr'
+
+-- ==> add_subdirectory(catkin/core-sl/catkin-lwpr)
+
+-- MACHTYPE x86_64
+
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+
+Call Stack (most recent call first):
+
+  catkin/core-sl/catkin-lwpr/CMakeLists.txt:5 (include)
+
+
+
+
+
+-- HOST_NAME=everest
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
+
+-- +++ processing catkin package: 'xenomai_ros'
+
+-- ==> add_subdirectory(catkin/ros/xenomai-ros)
+
+-- +++ processing catkin package: 'roscpp_utilities'
+
+-- ==> add_subdirectory(catkin/ros/roscpp_utilities)
+
+-- +++ processing catkin package: 'rosrt'
+
+-- ==> add_subdirectory(catkin/ros/ros_realtime/rosrt)
+
+-- xenomai NOT found. (/usr/local;/usr)
+
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+
+-- Boost version: 1.54.0
+
+-- Found the following Boost libraries:
+
+--   thread
+
+-- +++ processing catkin package: 'ros_rt_test'
+
+-- ==> add_subdirectory(catkin/ros/ros_rt_basic_example)
+
+-- xenomai NOT found. (/usr/local;/usr)
+
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+
+-- +++ processing catkin package: 'sl'
+
+-- ==> add_subdirectory(catkin/core-sl/catkin-sl)
+
+-- MACHTYPE x86_64
+
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+
+Call Stack (most recent call first):
+
+  catkin/core-sl/catkin-sl/CMakeLists.txt:8 (include)
+
+
+
+
+
+-- HOST_NAME=everest
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
+
+-- +++ processing catkin package: 'apollo'
+
+-- ==> add_subdirectory(catkin/robots/catkin-apollo)
+
+-- MACHTYPE x86_64
+
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+
+Call Stack (most recent call first):
+
+  catkin/robots/catkin-apollo/CMakeLists.txt:9 (include)
+
+
+
+
+
+-- HOST_NAME=everest
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
+
+-- +++ processing catkin package: 'apollo_event_based_task'
+
+-- ==> add_subdirectory(catkin/event-based/apollo-event-based-task)
+
+-- MACHTYPE x86_64
+
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+
+Call Stack (most recent call first):
+
+  catkin/event-based/apollo-event-based-task/CMakeLists.txt:9 (include)
+
+
+
+
+
+-- HOST_NAME=everest
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
+
+CMake Error at catkin/third_party/catkin/cmake/catkin_package.cmake:217 (message):
+
+  catkin_package() DEPENDS on the catkin package 'Eigen' which must therefore
+
+  be listed as a run dependency in the package.xml
+
+Call Stack (most recent call first):
+
+  catkin/third_party/catkin/cmake/catkin_package.cmake:98 (_catkin_package)
+
+  catkin/event-based/apollo-event-based-task/CMakeLists.txt:38 (catkin_package)
 
 
 
