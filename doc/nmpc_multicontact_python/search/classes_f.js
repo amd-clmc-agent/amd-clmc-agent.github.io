@@ -24,8 +24,8 @@ var searchData=
   ['testmanipulability',['TestManipulability',['../classtest__manipulability_1_1TestManipulability.html',1,'test_manipulability']]],
   ['testmanipulabilityinversekinematics',['TestManipulabilityInverseKinematics',['../classtest_1_1test__athena_1_1TestManipulabilityInverseKinematics.html',1,'test::test_athena']]],
   ['testmanipulabilityinversekinematics',['TestManipulabilityInverseKinematics',['../classtest__manipulability__optimization__inverse__kinematics_1_1TestManipulabilityInverseKinematics.html',1,'test_manipulability_optimization_inverse_kinematics']]],
-  ['testmanipulabilitywholebody',['TestManipulabilityWholeBody',['../classtest__manipulability__optimization__whole__body_1_1TestManipulabilityWholeBody.html',1,'test_manipulability_optimization_whole_body']]],
   ['testmanipulabilitywholebody',['TestManipulabilityWholeBody',['../classtest_1_1solver_1_1test__ipopt_1_1TestManipulabilityWholeBody.html',1,'test::solver::test_ipopt']]],
+  ['testmanipulabilitywholebody',['TestManipulabilityWholeBody',['../classtest__manipulability__optimization__whole__body_1_1TestManipulabilityWholeBody.html',1,'test_manipulability_optimization_whole_body']]],
   ['testmanipulabilitywholebodyendeffector',['TestManipulabilityWholeBodyEndEffector',['../classtest__manipulability__optimization__end__effector_1_1TestManipulabilityWholeBodyEndEffector.html',1,'test_manipulability_optimization_end_effector']]],
   ['testsolvermulticontact',['TestSolverMulticontact',['../classtest_1_1multicontact_1_1test__solver__multicontact_1_1TestSolverMulticontact.html',1,'test::multicontact::test_solver_multicontact']]],
   ['testsolvermulticontact',['TestSolverMulticontact',['../classtest_1_1multicontact__manipulability_1_1test__solver__multicontact_1_1TestSolverMulticontact.html',1,'test::multicontact_manipulability::test_solver_multicontact']]],
@@ -36,8 +36,8 @@ var searchData=
   ['testtorun',['TestToRun',['../classsrc_1_1nmpc__multicontact__python_1_1protobuf_1_1test__protobuf__reading_1_1TestToRun.html',1,'src::nmpc_multicontact_python::protobuf::test_protobuf_reading']]],
   ['torquexcost',['TorqueXCost',['../classsrc_1_1nmpc__multicontact__python_1_1multicontact__momentum_1_1cost__multicontact_1_1TorqueXCost.html',1,'src::nmpc_multicontact_python::multicontact_momentum::cost_multicontact']]],
   ['torquexcost',['TorqueXCost',['../classsrc_1_1nmpc__multicontact__python_1_1multicontact_1_1cost__multicontact_1_1TorqueXCost.html',1,'src::nmpc_multicontact_python::multicontact::cost_multicontact']]],
-  ['torqueycost',['TorqueYCost',['../classsrc_1_1nmpc__multicontact__python_1_1multicontact__momentum_1_1cost__multicontact_1_1TorqueYCost.html',1,'src::nmpc_multicontact_python::multicontact_momentum::cost_multicontact']]],
   ['torqueycost',['TorqueYCost',['../classsrc_1_1nmpc__multicontact__python_1_1multicontact_1_1cost__multicontact_1_1TorqueYCost.html',1,'src::nmpc_multicontact_python::multicontact::cost_multicontact']]],
+  ['torqueycost',['TorqueYCost',['../classsrc_1_1nmpc__multicontact__python_1_1multicontact__momentum_1_1cost__multicontact_1_1TorqueYCost.html',1,'src::nmpc_multicontact_python::multicontact_momentum::cost_multicontact']]],
   ['torquezcost',['TorqueZCost',['../classsrc_1_1nmpc__multicontact__python_1_1multicontact_1_1cost__multicontact_1_1TorqueZCost.html',1,'src::nmpc_multicontact_python::multicontact::cost_multicontact']]],
   ['torquezcost',['TorqueZCost',['../classsrc_1_1nmpc__multicontact__python_1_1multicontact__momentum_1_1cost__multicontact_1_1TorqueZCost.html',1,'src::nmpc_multicontact_python::multicontact_momentum::cost_multicontact']]]
 ];
