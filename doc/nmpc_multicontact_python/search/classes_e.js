@@ -8,6 +8,5 @@ var searchData=
   ['solverwrapper',['SolverWrapper',['../classsrc_1_1nmpc__multicontact__python_1_1py__ipopt_1_1solver__wrapper_1_1SolverWrapper.html',1,'src::nmpc_multicontact_python::py_ipopt::solver_wrapper']]],
   ['stateintegration',['StateIntegration',['../classsrc_1_1nmpc__multicontact__python_1_1multicontact_1_1integration_1_1StateIntegration.html',1,'src::nmpc_multicontact_python::multicontact::integration']]],
   ['stateintegrationmomentum',['StateIntegrationMomentum',['../classsrc_1_1nmpc__multicontact__python_1_1multicontact__momentum_1_1integration_1_1StateIntegrationMomentum.html',1,'src::nmpc_multicontact_python::multicontact_momentum::integration']]],
-  ['sumforcezcost',['SumForcezCost',['../classsrc_1_1nmpc__multicontact__python_1_1multicontact__momentum_1_1cost__multicontact_1_1SumForcezCost.html',1,'src::nmpc_multicontact_python::multicontact_momentum::cost_multicontact']]],
   ['sumforcezcost',['SumForcezCost',['../classsrc_1_1nmpc__multicontact__python_1_1multicontact_1_1cost__multicontact_1_1SumForcezCost.html',1,'src::nmpc_multicontact_python::multicontact::cost_multicontact']]]
 ];
