@@ -26,525 +26,293 @@
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- ~~  traversing 55 packages in topological order:
+-- ~~  traversing 6 packages in topological order:
 
--- ~~  - baxter_common (metapackage)
+-- ~~  - utilities
 
--- ~~  - baxter_description
+-- ~~  - lwpr
 
--- ~~  - baxter_sdk (metapackage)
+-- ~~  - sl
 
--- ~~  - lula_doc
+-- ~~  - arm2d
 
--- ~~  - lula_log
+-- ~~  - arm2d_test_task
 
--- ~~  - lula_util
-
--- ~~  - lula_differential_geometry
-
--- ~~  - lula_optimization
-
--- ~~  - lula_motion
-
--- ~~  - lula_workspace
-
--- ~~  - mpi_system_data_bags
-
--- ~~  - rethink_ee_description
-
--- ~~  - graph_search
-
--- ~~  - baxter_maintenance_msgs
-
--- ~~  - amd_clmc_ros_messages
-
--- ~~  - ar_track_alvar_msgs
-
--- ~~  - custom_robot_msgs
-
--- ~~  - dbot_ros_msgs
-
--- ~~  - riemo_grasping_msgs
-
--- ~~  - baxter_core_msgs
-
--- ~~  - rieef_msgs
-
--- ~~  - lula_api
-
--- ~~  - lula_common
-
--- ~~  - lula_controller_msgs
-
--- ~~  - lula_ros_util
-
--- ~~  - lula_rt
-
--- ~~  - lula_world_msgs
-
--- ~~  - baxter_interface
-
--- ~~  - baxter_tools
-
--- ~~  - lula_baxter
-
--- ~~  - ellipsoid_msgs
-
--- ~~  - lula_control_internal
-
--- ~~  - lula_world
-
--- ~~  - lula_world_internal
-
--- ~~  - lula_plugins_interface
-
--- ~~  - lula_kinematics
-
--- ~~  - lula_visualization
-
--- ~~  - lula_task
-
--- ~~  - lula_apollo_internal
-
--- ~~  - lula_baxter_internal
-
--- ~~  - lula_plugins
-
--- ~~  - lula_plugins_internal
-
--- ~~  - lula_visualization_internal
-
--- ~~  - lula_rviz_plugins
-
--- ~~  - rieef_utils
-
--- ~~  - visualization_3d
-
--- ~~  - geodesic_flow
-
--- ~~  - moveit_distance_field
-
--- ~~  - sampling_based_planning
-
--- ~~  - signed_distance_field
-
--- ~~  - rieef_ros
-
--- ~~  - condor_interface
-
--- ~~  - rieef_programs
-
--- ~~  - rieef_demos
-
--- ~~  - baxter_examples
+-- ~~  - arm2d_user
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- +++ processing catkin metapackage: 'baxter_common'
+-- +++ processing catkin package: 'utilities'
 
--- ==> add_subdirectory(catkin/lula/third_party/baxter_common/baxter_common)
+-- ==> add_subdirectory(catkin/core-sl/catkin-utilities)
 
--- +++ processing catkin package: 'baxter_description'
+-- MACHTYPE x86_64
 
--- ==> add_subdirectory(catkin/lula/third_party/baxter_common/baxter_description)
+Detected MACHTYPE=x86_64
 
--- +++ processing catkin metapackage: 'baxter_sdk'
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
 
--- ==> add_subdirectory(catkin/lula/third_party/baxter/baxter_sdk)
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
 
--- +++ processing catkin package: 'lula_doc'
+Call Stack (most recent call first):
 
--- ==> add_subdirectory(catkin/lula/internal/lula_doc)
+  catkin/core-sl/catkin-utilities/CMakeLists.txt:8 (include)
 
--- +++ processing catkin package: 'lula_log'
 
--- ==> add_subdirectory(catkin/lula/external/lula_log)
 
--- Boost version: 1.54.0
 
--- Found the following Boost libraries:
 
---   filesystem
+-- HOST_NAME=everest
 
-CMake Warning at catkin/lula/external/lula_log/CMakeLists.txt:55 (message):
+-- HOST=everest
 
-  NO log_test
+-- LAB=AMD
 
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
 
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
 
+-- CMAKE_INCLUDE_PATH=
 
+-- CMAKE_LIBRARY_PATH=
 
--- +++ processing catkin package: 'lula_util'
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
 
--- ==> add_subdirectory(catkin/lula/internal/lula_util)
+-- LAB_LIBDIR=lib/x86_64
 
--- Found glog    (include: /usr/include, library: /usr/lib/x86_64-linux-gnu/libglog.so)
+-- LAB_INCLUDES=include
 
--- Found gflags  (include: /usr/include, library: /usr/lib/x86_64-linux-gnu/libgflags.so)
+-- LAB_BINDIR=bin/x86_64
 
--- Eigen found (include: /usr/include/eigen3)
+-- +++ processing catkin package: 'lwpr'
 
-CMake Warning at catkin/lula/internal/lula_util/CMakeLists.txt:147 (message):
+-- ==> add_subdirectory(catkin/core-sl/catkin-lwpr)
 
-  DEACTIVATED: caching_utest
+-- MACHTYPE x86_64
 
+Detected MACHTYPE=x86_64
 
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
 
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
 
+Call Stack (most recent call first):
 
-CMake Warning at catkin/lula/internal/lula_util/CMakeLists.txt:174 (message):
+  catkin/core-sl/catkin-lwpr/CMakeLists.txt:5 (include)
 
-  DEACTIVATED: file_sequencer_utest
 
 
 
 
+-- HOST_NAME=everest
 
--- +++ processing catkin package: 'lula_differential_geometry'
+-- HOST=everest
 
--- ==> add_subdirectory(catkin/lula/internal/lula_differential_geometry)
+-- LAB=AMD
 
--- A library with BLAS API found.
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
 
--- A library with LAPACK API found.
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
 
--- Lapack: TRUE
+-- CMAKE_INCLUDE_PATH=
 
--- Lapack required dependencies: f2c atalas-base-dev lapacke-dev lapack-dev
+-- CMAKE_LIBRARY_PATH=
 
--- Lapack linker flags: 
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
 
--- Lapack libraries: /usr/lib/liblapack.so;/usr/lib/libblas.so
+-- LAB_LIBDIR=lib/x86_64
 
--- Lapack 95 libraries: 
+-- LAB_INCLUDES=include
 
-CMake Warning at catkin/lula/internal/lula_differential_geometry/CMakeLists.txt:137 (message):
+-- LAB_BINDIR=bin/x86_64
 
-  DEACTIVATED: analytical_grid_utest
+-- +++ processing catkin package: 'sl'
 
+-- ==> add_subdirectory(catkin/core-sl/catkin-sl)
 
+-- MACHTYPE x86_64
 
+Detected MACHTYPE=x86_64
 
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
 
-CMake Warning at catkin/lula/internal/lula_differential_geometry/CMakeLists.txt:146 (message):
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
 
-  DEACTIVATED: differentiable_functions_tests_utest
+Call Stack (most recent call first):
 
+  catkin/core-sl/catkin-sl/CMakeLists.txt:8 (include)
 
 
 
 
-CMake Warning at catkin/lula/internal/lula_differential_geometry/CMakeLists.txt:163 (message):
 
-  DEACTIVATED: function_approximator_timing_utest
+-- HOST_NAME=everest
 
+-- HOST=everest
 
+-- LAB=AMD
 
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
 
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
 
-CMake Warning at catkin/lula/internal/lula_differential_geometry/CMakeLists.txt:172 (message):
+-- CMAKE_INCLUDE_PATH=
 
-  DEACTIVATED: geometry_utest
+-- CMAKE_LIBRARY_PATH=
 
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
 
+-- LAB_LIBDIR=lib/x86_64
 
+-- LAB_INCLUDES=include
 
+-- LAB_BINDIR=bin/x86_64
 
-CMake Warning at catkin/lula/internal/lula_differential_geometry/CMakeLists.txt:181 (message):
+-- +++ processing catkin package: 'arm2d'
 
-  DEACTIVATED: lapack_interface_utest
+-- ==> add_subdirectory(catkin/robots/catkin-arm2D)
 
+-- MACHTYPE x86_64
 
+Detected MACHTYPE=x86_64
 
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
 
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
 
-CMake Warning at catkin/lula/internal/lula_differential_geometry/CMakeLists.txt:190 (message):
+Call Stack (most recent call first):
 
-  DEACTIVATED: linear_algebra_benchmarks_utest
+  catkin/robots/catkin-arm2D/CMakeLists.txt:8 (include)
 
 
 
 
 
-CMake Warning at catkin/lula/internal/lula_differential_geometry/CMakeLists.txt:199 (message):
+-- HOST_NAME=everest
 
-  DEACTIVATED: linear_algebra_utest
+-- HOST=everest
 
+-- LAB=AMD
 
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
 
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
 
+-- CMAKE_INCLUDE_PATH=
 
--- +++ processing catkin package: 'lula_optimization'
+-- CMAKE_LIBRARY_PATH=
 
--- ==> add_subdirectory(catkin/lula/internal/lula_optimization)
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
 
-CMake Warning at catkin/lula/internal/lula_optimization/CMakeLists.txt:86 (message):
+-- LAB_LIBDIR=lib/x86_64
 
-  DEACTIVATED: augmented_lagrangian_utest
+-- LAB_INCLUDES=include
 
+-- LAB_BINDIR=bin/x86_64
 
+-- +++ processing catkin package: 'arm2d_test_task'
 
+-- ==> add_subdirectory(catkin/robots/catkin-sl-arm2D-task-example)
 
+-- MACHTYPE x86_64
 
-CMake Warning at catkin/lula/internal/lula_optimization/CMakeLists.txt:95 (message):
+Detected MACHTYPE=x86_64
 
-  DEACTIVATED: objective_functions_utest
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
 
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
 
+Call Stack (most recent call first):
 
+  catkin/robots/catkin-sl-arm2D-task-example/CMakeLists.txt:8 (include)
 
 
-CMake Warning at catkin/lula/internal/lula_optimization/CMakeLists.txt:104 (message):
 
-  DEACTIVATED: omp_parallelization_utest
 
 
+-- HOST_NAME=everest
 
+-- HOST=everest
 
+-- LAB=AMD
 
-CMake Warning at catkin/lula/internal/lula_optimization/CMakeLists.txt:113 (message):
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
 
-  DEACTIVATED: optimization_test_utest
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
 
+-- CMAKE_INCLUDE_PATH=
 
+-- CMAKE_LIBRARY_PATH=
 
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
 
+-- LAB_LIBDIR=lib/x86_64
 
--- +++ processing catkin package: 'lula_motion'
+-- LAB_INCLUDES=include
 
--- ==> add_subdirectory(catkin/lula/internal/lula_motion)
+-- LAB_BINDIR=bin/x86_64
 
-CMake Warning at catkin/lula/internal/lula_motion/CMakeLists.txt:125 (message):
+-- +++ processing catkin package: 'arm2d_user'
 
-  DEACTIVATED: behavior_utest
+-- ==> add_subdirectory(catkin/robots/catkin-arm2DUser)
 
+-- MACHTYPE x86_64
 
+Detected MACHTYPE=x86_64
 
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
 
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
 
-CMake Warning at catkin/lula/internal/lula_motion/CMakeLists.txt:139 (message):
+Call Stack (most recent call first):
 
-  DEACTIVATED: finite_differencing_operators_utest
+  catkin/robots/catkin-arm2DUser/CMakeLists.txt:8 (include)
 
 
 
 
 
-CMake Warning at catkin/lula/internal/lula_motion/CMakeLists.txt:152 (message):
+-- HOST_NAME=everest
 
-  DEACTIVATED: optimal_control_utest
+-- HOST=everest
 
+-- LAB=AMD
 
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
 
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
 
+-- CMAKE_INCLUDE_PATH=
 
-CMake Warning at catkin/lula/internal/lula_motion/CMakeLists.txt:184 (message):
+-- CMAKE_LIBRARY_PATH=
 
-  DEACTIVATED: trajectory_function_network_utest
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
 
+-- LAB_LIBDIR=lib/x86_64
 
+-- LAB_INCLUDES=include
 
+-- LAB_BINDIR=bin/x86_64
 
+CMake Error at catkin/robots/catkin-arm2DUser/CMakeLists.txt:31 (add_subdirectory):
 
-CMake Warning at catkin/lula/internal/lula_motion/CMakeLists.txt:193 (message):
+  add_subdirectory given source "tmp_catkin_arm2D_user" which is not an
 
-  DEACTIVATED: augmented_position_velocity_map_utest
+  existing directory.
 
 
 
 
 
--- +++ processing catkin package: 'lula_workspace'
+CMake Error at /opt/ros/indigo/share/catkin/cmake/catkin_package.cmake:293 (message):
 
--- ==> add_subdirectory(catkin/lula/internal/lula_workspace)
+  catkin_package() absolute include dir '/include' does not exist
 
--- +++ processing catkin package: 'mpi_system_data_bags'
+Call Stack (most recent call first):
 
--- ==> add_subdirectory(catkin/manipulation/riemo_electrical_fields/mpi_system_data_bags)
+  /opt/ros/indigo/share/catkin/cmake/catkin_package.cmake:100 (_catkin_package)
 
--- +++ processing catkin package: 'rethink_ee_description'
-
--- ==> add_subdirectory(catkin/lula/third_party/baxter_common/rethink_ee_description)
-
--- +++ processing catkin package: 'graph_search'
-
--- ==> add_subdirectory(catkin/manipulation/riemo_electrical_fields/graph_search)
-
-CMAKE_MODULE_PATH /home/administrator/ci/ci/team/workspace/src/catkin/manipulation/riemo_electrical_fields/graph_search/../cmake/Modules
-
--- Eigen found (include: /usr/include/eigen3)
-
-GLOG include_dirs: 
-
-GLOG libraries: glog
-
-GLOG version : 0.3.3
-
-GLOG library_dirs : 
-
-catkin_INCLUDE_DIRS : /opt/ros/indigo/include/usr/include
-
- *** CMAKE_CXX_FLAGS: -std=c++11  
-
--- +++ processing catkin package: 'baxter_maintenance_msgs'
-
--- ==> add_subdirectory(catkin/lula/third_party/baxter_common/baxter_maintenance_msgs)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- baxter_maintenance_msgs: 7 messages, 0 services
-
--- +++ processing catkin package: 'amd_clmc_ros_messages'
-
--- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/amd_clmc_ros_messages)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- amd_clmc_ros_messages: 108 messages, 10 services
-
--- +++ processing catkin package: 'ar_track_alvar_msgs'
-
--- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/ar_track_alvar_msgs)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- ar_track_alvar_msgs: 2 messages, 0 services
-
--- +++ processing catkin package: 'custom_robot_msgs'
-
--- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/custom_robot_msgs)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- custom_robot_msgs: 1 messages, 2 services
-
--- +++ processing catkin package: 'dbot_ros_msgs'
-
--- ==> add_subdirectory(catkin/ros/dbot_ros_msgs)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- dbot_ros_msgs: 3 messages, 3 services
-
--- +++ processing catkin package: 'riemo_grasping_msgs'
-
--- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/riemo_grasping_msgs)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- riemo_grasping_msgs: 5 messages, 3 services
-
--- +++ processing catkin package: 'baxter_core_msgs'
-
--- ==> add_subdirectory(catkin/lula/third_party/baxter_common/baxter_core_msgs)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- baxter_core_msgs: 25 messages, 4 services
-
--- +++ processing catkin package: 'rieef_msgs'
-
--- ==> add_subdirectory(catkin/manipulation/riemo_electrical_fields/rieef_msgs)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- rieef_msgs: 4 messages, 3 services
-
--- +++ processing catkin package: 'lula_api'
-
--- ==> add_subdirectory(catkin/lula/external/lula_api)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- lula_api: 1 messages, 2 services
-
--- +++ processing catkin package: 'lula_common'
-
--- ==> add_subdirectory(catkin/lula/external/lula_common)
-
--- +++ processing catkin package: 'lula_controller_msgs'
-
--- ==> add_subdirectory(catkin/lula/internal/ros/lula_controller_msgs)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- lula_controller_msgs: 39 messages, 4 services
-
--- +++ processing catkin package: 'lula_ros_util'
-
--- ==> add_subdirectory(catkin/lula/external/lula_ros_util)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- lula_ros_util: 1 messages, 1 services
-
--- +++ processing catkin package: 'lula_rt'
-
--- ==> add_subdirectory(catkin/lula/internal/ros/lula_rt)
-
-CMake Warning at catkin/lula/internal/ros/lula_rt/CMakeLists.txt:131 (message):
-
-  DEACTIVATED: time_varying_affine_policy_utest
-
-
-
-
-
--- +++ processing catkin package: 'lula_world_msgs'
-
--- ==> add_subdirectory(catkin/lula/external/lula_world_msgs)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- lula_world_msgs: 5 messages, 5 services
-
--- +++ processing catkin package: 'baxter_interface'
-
--- ==> add_subdirectory(catkin/lula/third_party/baxter_interface)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- +++ processing catkin package: 'baxter_tools'
-
--- ==> add_subdirectory(catkin/lula/third_party/baxter_tools)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- +++ processing catkin package: 'lula_baxter'
-
--- ==> add_subdirectory(catkin/lula/external/lula_baxter)
-
--- Using these message generators: gencpp;genlisp;genpy
-
-CMake Error at catkin/lula/external/lula_baxter/CMakeLists.txt:31 (find_package):
-
-  By not providing "FindEigen.cmake" in CMAKE_MODULE_PATH this project has
-
-  asked CMake to find a package configuration file provided by "Eigen", but
-
-  CMake did not find one.
-
-
-
-  Could not find a package configuration file provided by "Eigen" with any of
-
-  the following names:
-
-
-
-    EigenConfig.cmake
-
-    eigen-config.cmake
-
-
-
-  Add the installation prefix of "Eigen" to CMAKE_PREFIX_PATH or set
-
-  "Eigen_DIR" to a directory containing one of the above files.  If "Eigen"
-
-  provides a separate development package or SDK, be sure it has been
-
-  installed.
+  catkin/robots/catkin-arm2DUser/CMakeLists.txt:33 (catkin_package)
 
 
 
