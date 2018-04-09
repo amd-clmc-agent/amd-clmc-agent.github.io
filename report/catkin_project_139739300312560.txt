@@ -68,37 +68,37 @@
 
 -- ~~  traversing 4 packages in topological order:
 
--- ~~  - human_bio_dataset
+-- ~~  - ci_example_python
 
--- ~~  - human_bio_urdf
+-- ~~  - yaml_cpp
 
--- ~~  - human_bio_scene
+-- ~~  - ci_example_cpp
 
--- ~~  - human_bio_octomap
+-- ~~  - ci_doxygen_child_cpp
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- +++ processing catkin package: 'human_bio_dataset'
+-- +++ processing catkin package: 'ci_example_python'
 
--- ==> add_subdirectory(catkin/human/human_bio_dataset)
+-- ==> add_subdirectory(catkin/test/ci_test/ci_example_python)
 
--- +++ processing catkin package: 'human_bio_urdf'
+-- +++ processing catkin package: 'yaml_cpp'
 
--- ==> add_subdirectory(catkin/human/human_bio_urdf)
+-- ==> add_subdirectory(catkin/third_party/YAML_CPP)
 
--- Using these message generators: gencpp;genlisp;genpy
+-- Boost version: 1.54.0
 
--- +++ processing catkin package: 'human_bio_scene'
+-- Performing Test FLAG_WEXTRA
 
--- ==> add_subdirectory(catkin/human/human_bio_scene)
+-- Performing Test FLAG_WEXTRA - Success
 
--- Using these message generators: gencpp;genlisp;genpy
+-- +++ processing catkin package: 'ci_example_cpp'
 
--- +++ processing catkin package: 'human_bio_octomap'
+-- ==> add_subdirectory(catkin/test/ci_test/ci_example_cpp)
 
--- ==> add_subdirectory(catkin/human/human_bio_octomap)
+-- +++ processing catkin package: 'ci_doxygen_child_cpp'
 
--- Using these message generators: gencpp;genlisp;genpy
+-- ==> add_subdirectory(catkin/test/ci_test/ci_doxygen_child_cpp)
 
 -- Configuring done
 
@@ -106,215 +106,153 @@
 
 -- Build files have been written to: /home/administrator/ci/ci/team/workspace/build
 
-Scanning dependencies of target tf2_msgs_generate_messages_py
+Scanning dependencies of target yaml-cpp
 
-Scanning dependencies of target _catkin_empty_exported_target
+[  2%] [  4%] [  6%] [  9%] [ 11%] [ 13%] [ 15%] [ 18%] [ 20%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/nodebuilder.cpp.o
 
-Scanning dependencies of target std_msgs_generate_messages_lisp
+[ 22%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/nodeevents.cpp.o
 
-Scanning dependencies of target geometry_msgs_generate_messages_cpp
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/tag.cpp.o
 
-Scanning dependencies of target std_msgs_generate_messages_py
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/parse.cpp.o
 
-Scanning dependencies of target std_msgs_generate_messages_cpp
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/scantoken.cpp.o
 
-Scanning dependencies of target sensor_msgs_generate_messages_cpp
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/memory.cpp.o
 
-Scanning dependencies of target rosgraph_msgs_generate_messages_cpp
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/node.cpp.o
 
-Scanning dependencies of target geometry_msgs_generate_messages_py
+[ 27%] [ 27%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/ostream_wrapper.cpp.o
 
-Scanning dependencies of target sensor_msgs_generate_messages_lisp
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/directives.cpp.o
 
-Scanning dependencies of target rosgraph_msgs_generate_messages_lisp
+[ 29%] [ 31%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emitterutils.cpp.o
 
-Scanning dependencies of target roscpp_generate_messages_cpp
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/scanscalar.cpp.o
 
-[  0%] Scanning dependencies of target roscpp_generate_messages_lisp
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/scantag.cpp.o
 
-Scanning dependencies of target sensor_msgs_generate_messages_py
+[ 34%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/scanner.cpp.o
 
-Scanning dependencies of target roscpp_generate_messages_py
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/parser.cpp.o
 
-Built target tf2_msgs_generate_messages_py
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emitter.cpp.o
 
-[  0%] [  0%] Built target _catkin_empty_exported_target
+[ 36%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/exp.cpp.o
 
-[  0%] [  0%] [  0%] [  0%] [  0%] [  0%] [  0%] Scanning dependencies of target rosgraph_msgs_generate_messages_py
+[ 38%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/regex.cpp.o
 
-Built target std_msgs_generate_messages_lisp
+[ 40%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/binary.cpp.o
 
-Built target geometry_msgs_generate_messages_cpp
+[ 43%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/node_data.cpp.o
 
-Built target std_msgs_generate_messages_cpp
+[ 45%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emit.cpp.o
 
-Built target std_msgs_generate_messages_py
+[ 47%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/simplekey.cpp.o
 
-Built target geometry_msgs_generate_messages_py
+[ 50%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emitterstate.cpp.o
 
-Built target sensor_msgs_generate_messages_lisp
+[ 52%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/convert.cpp.o
 
-Built target sensor_msgs_generate_messages_cpp
+[ 54%] [ 56%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/singledocparser.cpp.o
 
-Built target roscpp_generate_messages_cpp
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/stream.cpp.o
 
-[  0%] [  0%] [  0%] [  0%] Built target sensor_msgs_generate_messages_py
+[ 59%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emitfromevents.cpp.o
 
-Built target rosgraph_msgs_generate_messages_cpp
+[ 61%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/null.cpp.o
 
-[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[ 63%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilderadapter.cpp.o
 
-Built target roscpp_generate_messages_py
+[ 65%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilder.cpp.o
 
-Built target roscpp_generate_messages_lisp
+Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libyaml-cpp.so
 
-[  0%] Built target rosgraph_msgs_generate_messages_py
+[ 65%] Built target yaml-cpp
 
-Scanning dependencies of target geometry_msgs_generate_messages_lisp
+Scanning dependencies of target parse
 
-Scanning dependencies of target moveit_msgs_generate_messages_py
+Scanning dependencies of target read
 
-Scanning dependencies of target tf_generate_messages_cpp
+Scanning dependencies of target sandbox
 
-Scanning dependencies of target visualization_msgs_generate_messages_cpp
+[ 68%] [ 70%] Scanning dependencies of target run-tests
 
-Scanning dependencies of target trajectory_msgs_generate_messages_py
+[ 72%] Scanning dependencies of target basic_pid
 
-Scanning dependencies of target shape_msgs_generate_messages_py
+Building CXX object catkin/third_party/YAML_CPP/util/CMakeFiles/parse.dir/parse.cpp.o
 
-Scanning dependencies of target tf2_msgs_generate_messages_cpp
+Building CXX object catkin/third_party/YAML_CPP/util/CMakeFiles/read.dir/read.cpp.o
 
-Scanning dependencies of target shape_msgs_generate_messages_cpp
+Building CXX object catkin/third_party/YAML_CPP/util/CMakeFiles/sandbox.dir/sandbox.cpp.o
 
-Scanning dependencies of target moveit_msgs_generate_messages_cpp
+[ 75%] [ 77%] [ 79%] [ 81%] [ 84%] [ 86%] [ 88%] Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/tests.cpp.o
 
-Scanning dependencies of target actionlib_msgs_generate_messages_cpp
+Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/emittertests.cpp.o
 
-Scanning dependencies of target visualization_msgs_generate_messages_py
+[ 90%] Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/new-api/spectests.cpp.o
 
-Scanning dependencies of target visualization_msgs_generate_messages_lisp
+Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/new-api/parsertests.cpp.o
 
-Scanning dependencies of target moveit_msgs_generate_messages_lisp
+Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/spectests.cpp.o
 
-Scanning dependencies of target trajectory_msgs_generate_messages_lisp
+Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/new-api/nodetests.cpp.o
 
-[  0%] [  0%] Scanning dependencies of target actionlib_msgs_generate_messages_py
+Building CXX object catkin/test/ci_test/ci_example_cpp/CMakeFiles/basic_pid.dir/src/basic_pid.cpp.o
 
-[  0%] Scanning dependencies of target shape_msgs_generate_messages_lisp
+Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/main.cpp.o
 
-[  0%] [  0%] [  0%] [  0%] [  0%] [  0%] Built target geometry_msgs_generate_messages_lisp
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/yaml_cpp/sandbox
 
-Built target moveit_msgs_generate_messages_py
+[ 90%] Built target sandbox
 
-[  0%] [  0%] [  0%] Built target trajectory_msgs_generate_messages_py
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/yaml_cpp/parse
 
-Built target tf_generate_messages_cpp
+[ 90%] Built target parse
 
-Built target visualization_msgs_generate_messages_cpp
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/yaml_cpp/read
 
-Built target shape_msgs_generate_messages_py
+[ 90%] Built target read
 
-Built target tf2_msgs_generate_messages_cpp
+Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libbasic_pid.so
 
-Built target shape_msgs_generate_messages_cpp
+[ 90%] Built target basic_pid
 
-Built target visualization_msgs_generate_messages_lisp
+Scanning dependencies of target ci_example_demo
 
-Built target moveit_msgs_generate_messages_cpp
+Scanning dependencies of target ci_example_ros
 
-Built target actionlib_msgs_generate_messages_cpp
+Scanning dependencies of target ci_example_abs_path_config_demo
 
-Built target visualization_msgs_generate_messages_py
+Scanning dependencies of target doxygen_child
 
-[  0%] Built target moveit_msgs_generate_messages_lisp
+[ 93%] [ 95%] [ 97%] [100%] Building CXX object catkin/test/ci_test/ci_example_cpp/CMakeFiles/ci_example_ros.dir/src/demos/ci_example_ros.cpp.o
 
-[  0%] [  0%] [  0%] Built target actionlib_msgs_generate_messages_py
+Building CXX object catkin/test/ci_test/ci_example_cpp/CMakeFiles/ci_example_abs_path_config_demo.dir/src/demos/ci_example_abs_path_config_demo.cpp.o
 
-Scanning dependencies of target tf_generate_messages_py
+Building CXX object catkin/test/ci_test/ci_example_cpp/CMakeFiles/ci_example_demo.dir/src/demos/ci_example_demo.cpp.o
 
-Built target trajectory_msgs_generate_messages_lisp
+Building CXX object catkin/test/ci_test/ci_doxygen_child_cpp/CMakeFiles/doxygen_child.dir/src/doxygen_child.cpp.o
 
-Built target shape_msgs_generate_messages_lisp
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/ci_example_cpp/ci_example_demo
 
-Scanning dependencies of target object_recognition_msgs_generate_messages_lisp
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/ci_example_cpp/ci_example_abs_path_config_demo
 
-Scanning dependencies of target object_recognition_msgs_generate_messages_py
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/ci_example_cpp/ci_example_ros
 
-Scanning dependencies of target actionlib_msgs_generate_messages_lisp
+[100%] Built target ci_example_demo
 
-Scanning dependencies of target actionlib_generate_messages_cpp
+Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libdoxygen_child.so
 
-Scanning dependencies of target actionlib_generate_messages_lisp
+[100%] Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/yaml_cpp/run-tests
 
-Scanning dependencies of target trajectory_msgs_generate_messages_cpp
+Built target ci_example_abs_path_config_demo
 
-Scanning dependencies of target octomap_msgs_generate_messages_cpp
+[100%] Built target ci_example_ros
 
-Scanning dependencies of target object_recognition_msgs_generate_messages_cpp
+[100%] Built target run-tests
 
-Scanning dependencies of target tf_generate_messages_lisp
-
-Scanning dependencies of target octomap_msgs_generate_messages_lisp
-
-Scanning dependencies of target actionlib_generate_messages_py
-
-[  0%] Scanning dependencies of target tf2_msgs_generate_messages_lisp
-
-[  0%] Built target tf_generate_messages_py
-
-Scanning dependencies of target octomap_msgs_generate_messages_py
-
-Built target object_recognition_msgs_generate_messages_lisp
-
-[  0%] [  0%] Built target actionlib_generate_messages_cpp
-
-[  0%] [  0%] Built target object_recognition_msgs_generate_messages_py
-
-[  0%] Built target actionlib_msgs_generate_messages_lisp
-
-[  0%] [  0%] Built target actionlib_generate_messages_lisp
-
-[  0%] [  0%] Built target trajectory_msgs_generate_messages_cpp
-
-Built target object_recognition_msgs_generate_messages_cpp
-
-Built target octomap_msgs_generate_messages_cpp
-
-Built target tf_generate_messages_lisp
-
-[  0%] [  0%] [  0%] Built target octomap_msgs_generate_messages_lisp
-
-Built target actionlib_generate_messages_py
-
-Built target tf2_msgs_generate_messages_lisp
-
-Built target octomap_msgs_generate_messages_py
-
-Scanning dependencies of target human_bio_octomap
-
-[ 25%] [ 50%] Building CXX object catkin/human/human_bio_octomap/CMakeFiles/human_bio_octomap.dir/src/robot_to_octomap.cpp.o
-
-Building CXX object catkin/human/human_bio_octomap/CMakeFiles/human_bio_octomap.dir/src/scene_subscriber.cpp.o
-
-Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libhuman_bio_octomap.so
-
-[ 50%] Built target human_bio_octomap
-
-Scanning dependencies of target test_robot_model_parser
-
-Scanning dependencies of target voxel_occupancy_node
-
-[ 75%] [100%] Building CXX object catkin/human/human_bio_octomap/CMakeFiles/test_robot_model_parser.dir/test/test_robot_model_parser.cpp.o
-
-Building CXX object catkin/human/human_bio_octomap/CMakeFiles/voxel_occupancy_node.dir/src/voxel_occupancy_node.cpp.o
-
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/human_bio_octomap/test_robot_model_parser
-
-[100%] Built target test_robot_model_parser
-
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/human_bio_octomap/voxel_occupancy_node
-
-[100%] Built target voxel_occupancy_node
+[100%] Built target doxygen_child
 
 Install the project...
 
@@ -332,79 +270,159 @@ Install the project...
 
 -- Installing: /home/administrator/ci/ci/team/workspace/install/.rosinstall
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/human_bio_urdf.pc
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/human_bio_urdf/cmake/human_bio_urdfConfig.cmake
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/human_bio_urdf/cmake/human_bio_urdfConfig-version.cmake
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/human_bio_urdf/package.xml
-
-+ cd /home/administrator/ci/ci/team/workspace/src/catkin/human/human_bio_scene
++ cd /home/administrator/ci/ci/team/workspace/src/catkin/test/ci_test/ci_example_python
 
 + mkdir -p /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages
 
-+ /usr/bin/env PYTHONPATH=/home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages:/home/administrator/ci/ci/team/workspace/build/lib/python2.7/dist-packages:/opt/ros/indigo/lib/python2.7/dist-packages CATKIN_BINARY_DIR=/home/administrator/ci/ci/team/workspace/build /usr/bin/python /home/administrator/ci/ci/team/workspace/src/catkin/human/human_bio_scene/setup.py build --build-base /home/administrator/ci/ci/team/workspace/build/catkin/human/human_bio_scene install --install-layout=deb --prefix=/home/administrator/ci/ci/team/workspace/install --install-scripts=/home/administrator/ci/ci/team/workspace/install/bin
++ /usr/bin/env PYTHONPATH=/home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages:/home/administrator/ci/ci/team/workspace/build/lib/python2.7/dist-packages:/opt/ros/indigo/lib/python2.7/dist-packages CATKIN_BINARY_DIR=/home/administrator/ci/ci/team/workspace/build /usr/bin/python /home/administrator/ci/ci/team/workspace/src/catkin/test/ci_test/ci_example_python/setup.py build --build-base /home/administrator/ci/ci/team/workspace/build/catkin/test/ci_test/ci_example_python install --install-layout=deb --prefix=/home/administrator/ci/ci/team/workspace/install --install-scripts=/home/administrator/ci/ci/team/workspace/install/bin
 
 running build
 
 running build_py
 
-creating /home/administrator/ci/ci/team/workspace/build/catkin/human/human_bio_scene/lib.linux-x86_64-2.7
+creating /home/administrator/ci/ci/team/workspace/build/catkin/test/ci_test/ci_example_python/lib.linux-x86_64-2.7
 
-creating /home/administrator/ci/ci/team/workspace/build/catkin/human/human_bio_scene/lib.linux-x86_64-2.7/human_bio_scene
+creating /home/administrator/ci/ci/team/workspace/build/catkin/test/ci_test/ci_example_python/lib.linux-x86_64-2.7/ci_example_python
 
-copying src/human_bio_scene/PlayLibrary.py -> /home/administrator/ci/ci/team/workspace/build/catkin/human/human_bio_scene/lib.linux-x86_64-2.7/human_bio_scene
+copying scripts/ci_example_python/__init__.py -> /home/administrator/ci/ci/team/workspace/build/catkin/test/ci_test/ci_example_python/lib.linux-x86_64-2.7/ci_example_python
 
-copying src/human_bio_scene/PlayFile.py -> /home/administrator/ci/ci/team/workspace/build/catkin/human/human_bio_scene/lib.linux-x86_64-2.7/human_bio_scene
-
-copying src/human_bio_scene/__init__.py -> /home/administrator/ci/ci/team/workspace/build/catkin/human/human_bio_scene/lib.linux-x86_64-2.7/human_bio_scene
+copying scripts/ci_example_python/pid.py -> /home/administrator/ci/ci/team/workspace/build/catkin/test/ci_test/ci_example_python/lib.linux-x86_64-2.7/ci_example_python
 
 running install
 
 running install_lib
 
-creating /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/human_bio_scene
+creating /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/ci_example_python
 
-copying /home/administrator/ci/ci/team/workspace/build/catkin/human/human_bio_scene/lib.linux-x86_64-2.7/human_bio_scene/PlayLibrary.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/human_bio_scene
+copying /home/administrator/ci/ci/team/workspace/build/catkin/test/ci_test/ci_example_python/lib.linux-x86_64-2.7/ci_example_python/__init__.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/ci_example_python
 
-copying /home/administrator/ci/ci/team/workspace/build/catkin/human/human_bio_scene/lib.linux-x86_64-2.7/human_bio_scene/PlayFile.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/human_bio_scene
+copying /home/administrator/ci/ci/team/workspace/build/catkin/test/ci_test/ci_example_python/lib.linux-x86_64-2.7/ci_example_python/pid.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/ci_example_python
 
-copying /home/administrator/ci/ci/team/workspace/build/catkin/human/human_bio_scene/lib.linux-x86_64-2.7/human_bio_scene/__init__.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/human_bio_scene
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/ci_example_python/__init__.py to __init__.pyc
 
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/human_bio_scene/PlayLibrary.py to PlayLibrary.pyc
-
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/human_bio_scene/PlayFile.py to PlayFile.pyc
-
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/human_bio_scene/__init__.py to __init__.pyc
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/ci_example_python/pid.py to pid.pyc
 
 running install_egg_info
 
-Writing /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/human_bio_scene-0.0.0.egg-info
+Writing /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/ci_example_python-1.0.0.egg-info
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/human_bio_scene.pc
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/yaml_cpp.pc
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/human_bio_scene/cmake/human_bio_sceneConfig.cmake
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/yaml_cpp/cmake/yaml_cppConfig.cmake
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/human_bio_scene/cmake/human_bio_sceneConfig-version.cmake
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/yaml_cpp/cmake/yaml_cppConfig-version.cmake
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/human_bio_scene/package.xml
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/yaml_cpp/package.xml
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/human_bio_octomap.pc
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/libyaml-cpp.so.0.5.1
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/human_bio_octomap/cmake/human_bio_octomapConfig.cmake
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/libyaml-cpp.so.0.5
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/human_bio_octomap/cmake/human_bio_octomapConfig-version.cmake
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/libyaml-cpp.so
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/human_bio_octomap/package.xml
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/libhuman_bio_octomap.so
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/ostream_wrapper.h
 
--- Removed runtime path from "/home/administrator/ci/ci/team/workspace/install/lib/libhuman_bio_octomap.so"
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/anchor.h
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/human_bio_octomap/voxel_occupancy_node
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/yaml.h
 
--- Removed runtime path from "/home/administrator/ci/ci/team/workspace/install/lib/human_bio_octomap/voxel_occupancy_node"
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/exceptions.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/dll.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/mark.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/noncopyable.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/traits.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/stlemitter.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/node.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/emit.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/iterator.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/node.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/memory.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/iterator.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/bool_type.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/iterator_fwd.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/node_ref.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/node_data.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/node_iterator.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/impl.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/type.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/ptr.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/parse.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/impl.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/convert.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/emittermanip.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/eventhandler.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/binary.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/emitterdef.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/contrib
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/contrib/graphbuilder.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/contrib/anchordict.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/emitfromevents.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/parser.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/emitter.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/yaml_eigen.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/null.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/yaml-cpp.pc
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/ci_example_cpp.pc
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/ci_example_cpp/cmake/ci_example_cppConfig.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/ci_example_cpp/cmake/ci_example_cppConfig-version.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/ci_example_cpp/package.xml
+
+-- Installing: /home/administrator/ci/ci/team/workspace/src/catkin/test/ci_test/ci_example_cpp/demos/bin/ci_example_ros
+
+-- Set runtime path of "/home/administrator/ci/ci/team/workspace/src/catkin/test/ci_test/ci_example_cpp/demos/bin/ci_example_ros" to "/home/administrator/ci/ci/team/workspace/install/lib:/home/administrator/ci/ci/team/workspace/devel/lib:/opt/ros/indigo/lib"
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/ci_doxygen_child_cpp.pc
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/ci_doxygen_child_cpp/cmake/ci_doxygen_child_cppConfig.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/ci_doxygen_child_cpp/cmake/ci_doxygen_child_cppConfig-version.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/ci_doxygen_child_cpp/package.xml
 
 Base path: /home/administrator/ci/ci/team/workspace
 
