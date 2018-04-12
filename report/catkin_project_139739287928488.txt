@@ -66,39 +66,31 @@
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- ~~  traversing 4 packages in topological order:
+-- ~~  traversing 3 packages in topological order:
 
--- ~~  - ci_example_python
+-- ~~  - amd_clmc_eigen
 
--- ~~  - yaml_cpp
+-- ~~  - vicon_sdk
 
--- ~~  - ci_example_cpp
-
--- ~~  - ci_doxygen_child_cpp
+-- ~~  - vicon_capture
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- +++ processing catkin package: 'ci_example_python'
+-- +++ processing catkin package: 'amd_clmc_eigen'
 
--- ==> add_subdirectory(catkin/test/ci_test/ci_example_python)
+-- ==> add_subdirectory(catkin/third_party/amd-clmc-eigen)
 
--- +++ processing catkin package: 'yaml_cpp'
+-- +++ processing catkin package: 'vicon_sdk'
 
--- ==> add_subdirectory(catkin/third_party/YAML_CPP)
+-- ==> add_subdirectory(catkin/sensors/vicon_sdk)
+
+-- +++ processing catkin package: 'vicon_capture'
+
+-- ==> add_subdirectory(catkin/sensors/vicon_capture)
+
+-- Using these message generators: gencpp;genlisp;genpy
 
 -- Boost version: 1.54.0
-
--- Performing Test FLAG_WEXTRA
-
--- Performing Test FLAG_WEXTRA - Success
-
--- +++ processing catkin package: 'ci_example_cpp'
-
--- ==> add_subdirectory(catkin/test/ci_test/ci_example_cpp)
-
--- +++ processing catkin package: 'ci_doxygen_child_cpp'
-
--- ==> add_subdirectory(catkin/test/ci_test/ci_doxygen_child_cpp)
 
 -- Configuring done
 
@@ -106,153 +98,41 @@
 
 -- Build files have been written to: /home/administrator/ci/ci/team/workspace/build
 
-Scanning dependencies of target yaml-cpp
+Scanning dependencies of target vicon_sdklib_copy
 
-[  2%] [  4%] [  6%] [  9%] [ 11%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/memory.cpp.o
+Scanning dependencies of target boost_libs_copy
 
-Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/parse.cpp.o
+[  0%] Built target vicon_sdklib_copy
 
-[ 13%] [ 15%] [ 18%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/nodebuilder.cpp.o
+Scanning dependencies of target ViconDataStreamSDK_CPP
 
-[ 20%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/node.cpp.o
+[  0%] Built target boost_libs_copy
 
-Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/scantoken.cpp.o
+[  0%] Built target ViconDataStreamSDK_CPP
 
-Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/ostream_wrapper.cpp.o
+Scanning dependencies of target vicon_capture
 
-Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/nodeevents.cpp.o
+[ 33%] Building CXX object catkin/sensors/vicon_capture/CMakeFiles/vicon_capture.dir/source/vicon_capture/vicon_capture.cpp.o
 
-[ 22%] [ 25%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/tag.cpp.o
+Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libvicon_capture.so
 
-[ 27%] [ 29%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/directives.cpp.o
+[ 33%] Built target vicon_capture
 
-[ 31%] [ 34%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/scanscalar.cpp.o
+Scanning dependencies of target vicon_capture_publisher_node
 
-Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emitterutils.cpp.o
+[ 66%] Building CXX object catkin/sensors/vicon_capture/CMakeFiles/vicon_capture_publisher_node.dir/source/vicon_capture/vicon_capture_publisher_node.cpp.o
 
-Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/scantag.cpp.o
+Scanning dependencies of target compute_apollo_vicon_base_offset_node
 
-[ 36%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/scanner.cpp.o
+[100%] Building CXX object catkin/sensors/vicon_capture/CMakeFiles/compute_apollo_vicon_base_offset_node.dir/source/vicon_capture/compute_apollo_vicon_base_offset_node.cpp.o
 
-Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/parser.cpp.o
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/vicon_capture/vicon_capture_publisher_node
 
-Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emitter.cpp.o
+[100%] Built target vicon_capture_publisher_node
 
-Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/exp.cpp.o
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/vicon_capture/compute_apollo_vicon_base_offset_node
 
-[ 38%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/regex.cpp.o
-
-[ 40%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/binary.cpp.o
-
-[ 43%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/node_data.cpp.o
-
-[ 45%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emit.cpp.o
-
-[ 47%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/simplekey.cpp.o
-
-[ 50%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emitterstate.cpp.o
-
-[ 52%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/convert.cpp.o
-
-[ 54%] [ 56%] [ 59%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/stream.cpp.o
-
-Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emitfromevents.cpp.o
-
-Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/singledocparser.cpp.o
-
-[ 61%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/null.cpp.o
-
-[ 63%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilderadapter.cpp.o
-
-[ 65%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilder.cpp.o
-
-Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libyaml-cpp.so
-
-[ 65%] Built target yaml-cpp
-
-Scanning dependencies of target parse
-
-Scanning dependencies of target read
-
-Scanning dependencies of target sandbox
-
-[ 68%] Scanning dependencies of target run-tests
-
-Scanning dependencies of target basic_pid
-
-[ 70%] [ 72%] Building CXX object catkin/third_party/YAML_CPP/util/CMakeFiles/parse.dir/parse.cpp.o
-
-Building CXX object catkin/third_party/YAML_CPP/util/CMakeFiles/read.dir/read.cpp.o
-
-Building CXX object catkin/third_party/YAML_CPP/util/CMakeFiles/sandbox.dir/sandbox.cpp.o
-
-[ 75%] [ 77%] [ 79%] [ 81%] [ 84%] [ 86%] Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/emittertests.cpp.o
-
-[ 88%] Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/spectests.cpp.o
-
-Building CXX object catkin/test/ci_test/ci_example_cpp/CMakeFiles/basic_pid.dir/src/basic_pid.cpp.o
-
-Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/new-api/parsertests.cpp.o
-
-Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/main.cpp.o
-
-[ 90%] Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/tests.cpp.o
-
-Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/new-api/spectests.cpp.o
-
-Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/new-api/nodetests.cpp.o
-
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/yaml_cpp/read
-
-[ 90%] Built target read
-
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/yaml_cpp/sandbox
-
-[ 90%] Built target sandbox
-
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/yaml_cpp/parse
-
-[ 90%] Built target parse
-
-Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libbasic_pid.so
-
-[ 90%] Built target basic_pid
-
-Scanning dependencies of target ci_example_abs_path_config_demo
-
-Scanning dependencies of target ci_example_demo
-
-Scanning dependencies of target doxygen_child
-
-Scanning dependencies of target ci_example_ros
-
-[ 93%] [ 95%] [ 97%] [100%] Building CXX object catkin/test/ci_test/ci_example_cpp/CMakeFiles/ci_example_abs_path_config_demo.dir/src/demos/ci_example_abs_path_config_demo.cpp.o
-
-Building CXX object catkin/test/ci_test/ci_example_cpp/CMakeFiles/ci_example_demo.dir/src/demos/ci_example_demo.cpp.o
-
-Building CXX object catkin/test/ci_test/ci_example_cpp/CMakeFiles/ci_example_ros.dir/src/demos/ci_example_ros.cpp.o
-
-Building CXX object catkin/test/ci_test/ci_doxygen_child_cpp/CMakeFiles/doxygen_child.dir/src/doxygen_child.cpp.o
-
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/ci_example_cpp/ci_example_abs_path_config_demo
-
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/ci_example_cpp/ci_example_demo
-
-Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libdoxygen_child.so
-
-[100%] Built target ci_example_abs_path_config_demo
-
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/ci_example_cpp/ci_example_ros
-
-[100%] Built target doxygen_child
-
-[100%] Built target ci_example_demo
-
-[100%] Built target ci_example_ros
-
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/yaml_cpp/run-tests
-
-[100%] Built target run-tests
+[100%] Built target compute_apollo_vicon_base_offset_node
 
 Install the project...
 
@@ -270,159 +150,37 @@ Install the project...
 
 -- Installing: /home/administrator/ci/ci/team/workspace/install/.rosinstall
 
-+ cd /home/administrator/ci/ci/team/workspace/src/catkin/test/ci_test/ci_example_python
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/amd_clmc_eigen.pc
 
-+ mkdir -p /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/amd_clmc_eigen/cmake/amd_clmc_eigenConfig.cmake
 
-+ /usr/bin/env PYTHONPATH=/home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages:/home/administrator/ci/ci/team/workspace/build/lib/python2.7/dist-packages:/opt/ros/indigo/lib/python2.7/dist-packages CATKIN_BINARY_DIR=/home/administrator/ci/ci/team/workspace/build /usr/bin/python /home/administrator/ci/ci/team/workspace/src/catkin/test/ci_test/ci_example_python/setup.py build --build-base /home/administrator/ci/ci/team/workspace/build/catkin/test/ci_test/ci_example_python install --install-layout=deb --prefix=/home/administrator/ci/ci/team/workspace/install --install-scripts=/home/administrator/ci/ci/team/workspace/install/bin
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/amd_clmc_eigen/cmake/amd_clmc_eigenConfig-version.cmake
 
-running build
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/amd_clmc_eigen/package.xml
 
-running build_py
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/vicon_sdk.pc
 
-creating /home/administrator/ci/ci/team/workspace/build/catkin/test/ci_test/ci_example_python/lib.linux-x86_64-2.7
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/vicon_sdk/cmake/vicon_sdkConfig.cmake
 
-creating /home/administrator/ci/ci/team/workspace/build/catkin/test/ci_test/ci_example_python/lib.linux-x86_64-2.7/ci_example_python
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/vicon_sdk/cmake/vicon_sdkConfig-version.cmake
 
-copying scripts/ci_example_python/__init__.py -> /home/administrator/ci/ci/team/workspace/build/catkin/test/ci_test/ci_example_python/lib.linux-x86_64-2.7/ci_example_python
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/vicon_sdk/package.xml
 
-copying scripts/ci_example_python/pid.py -> /home/administrator/ci/ci/team/workspace/build/catkin/test/ci_test/ci_example_python/lib.linux-x86_64-2.7/ci_example_python
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/libViconDataStreamSDK_CPP.so
 
-running install
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/vicon_sdk
 
-running install_lib
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/vicon_sdk/vicon_client.h
 
-creating /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/ci_example_python
+-- Up-to-date: /home/administrator/ci/ci/team/workspace/install/include/vicon_sdk/vicon_client.h
 
-copying /home/administrator/ci/ci/team/workspace/build/catkin/test/ci_test/ci_example_python/lib.linux-x86_64-2.7/ci_example_python/__init__.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/ci_example_python
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/vicon_capture.pc
 
-copying /home/administrator/ci/ci/team/workspace/build/catkin/test/ci_test/ci_example_python/lib.linux-x86_64-2.7/ci_example_python/pid.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/ci_example_python
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/vicon_capture/cmake/vicon_captureConfig.cmake
 
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/ci_example_python/__init__.py to __init__.pyc
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/vicon_capture/cmake/vicon_captureConfig-version.cmake
 
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/ci_example_python/pid.py to pid.pyc
-
-running install_egg_info
-
-Writing /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/ci_example_python-1.0.0.egg-info
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/yaml_cpp.pc
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/yaml_cpp/cmake/yaml_cppConfig.cmake
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/yaml_cpp/cmake/yaml_cppConfig-version.cmake
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/yaml_cpp/package.xml
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/libyaml-cpp.so.0.5.1
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/libyaml-cpp.so.0.5
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/libyaml-cpp.so
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/ostream_wrapper.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/anchor.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/yaml.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/exceptions.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/dll.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/mark.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/noncopyable.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/traits.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/stlemitter.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/node.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/emit.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/iterator.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/node.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/memory.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/iterator.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/bool_type.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/iterator_fwd.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/node_ref.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/node_data.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/node_iterator.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/impl.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/type.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/ptr.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/parse.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/impl.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/convert.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/emittermanip.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/eventhandler.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/binary.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/emitterdef.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/contrib
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/contrib/graphbuilder.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/contrib/anchordict.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/emitfromevents.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/parser.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/emitter.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/yaml_eigen.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/null.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/yaml-cpp.pc
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/ci_example_cpp.pc
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/ci_example_cpp/cmake/ci_example_cppConfig.cmake
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/ci_example_cpp/cmake/ci_example_cppConfig-version.cmake
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/ci_example_cpp/package.xml
-
--- Installing: /home/administrator/ci/ci/team/workspace/src/catkin/test/ci_test/ci_example_cpp/demos/bin/ci_example_ros
-
--- Set runtime path of "/home/administrator/ci/ci/team/workspace/src/catkin/test/ci_test/ci_example_cpp/demos/bin/ci_example_ros" to "/home/administrator/ci/ci/team/workspace/install/lib:/home/administrator/ci/ci/team/workspace/devel/lib:/opt/ros/indigo/lib"
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/ci_doxygen_child_cpp.pc
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/ci_doxygen_child_cpp/cmake/ci_doxygen_child_cppConfig.cmake
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/ci_doxygen_child_cpp/cmake/ci_doxygen_child_cppConfig-version.cmake
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/ci_doxygen_child_cpp/package.xml
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/vicon_capture/package.xml
 
 Base path: /home/administrator/ci/ci/team/workspace
 
