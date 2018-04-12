@@ -1,8 +1,30 @@
+-- The C compiler identification is GNU 4.8.4
+
+-- The CXX compiler identification is GNU 4.8.4
+
+-- Check for working C compiler: /usr/bin/cc
+
+-- Check for working C compiler: /usr/bin/cc -- works
+
+-- Detecting C compiler ABI info
+
+-- Detecting C compiler ABI info - done
+
+-- Check for working CXX compiler: /usr/bin/c++
+
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+
+-- Detecting CXX compiler ABI info
+
+-- Detecting CXX compiler ABI info - done
+
 -- Using CATKIN_DEVEL_PREFIX: /home/administrator/ci/ci/team/workspace/devel
 
 -- Using CMAKE_PREFIX_PATH: /opt/ros/indigo
 
 -- This workspace overlays: /opt/ros/indigo
+
+-- Found PythonInterp: /usr/bin/python (found version "2.7.6") 
 
 -- Using PYTHON_EXECUTABLE: /usr/bin/python
 
@@ -16,6 +38,24 @@
 
 -- Using CATKIN_TEST_RESULTS_DIR: /home/administrator/ci/ci/team/workspace/build/test_results
 
+-- Looking for include file pthread.h
+
+-- Looking for include file pthread.h - found
+
+-- Looking for pthread_create
+
+-- Looking for pthread_create - not found
+
+-- Looking for pthread_create in pthreads
+
+-- Looking for pthread_create in pthreads - not found
+
+-- Looking for pthread_create in pthread
+
+-- Looking for pthread_create in pthread - found
+
+-- Found Threads: TRUE  
+
 -- Found gtest sources under '/usr/src/gtest': gtests will be built
 
 -- Using Python nosetests: /usr/bin/nosetests-2.7
@@ -26,535 +66,113 @@
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- ~~  traversing 55 packages in topological order:
+-- ~~  traversing 3 packages in topological order:
 
--- ~~  - baxter_common (metapackage)
+-- ~~  - project_management_test_1
 
--- ~~  - baxter_description
+-- ~~  - project_management_test_2
 
--- ~~  - baxter_sdk (metapackage)
-
--- ~~  - lula_doc
-
--- ~~  - lula_log
-
--- ~~  - lula_util
-
--- ~~  - lula_differential_geometry
-
--- ~~  - lula_optimization
-
--- ~~  - lula_motion
-
--- ~~  - lula_workspace
-
--- ~~  - mpi_system_data_bags
-
--- ~~  - rethink_ee_description
-
--- ~~  - graph_search
-
--- ~~  - baxter_maintenance_msgs
-
--- ~~  - amd_clmc_ros_messages
-
--- ~~  - ar_track_alvar_msgs
-
--- ~~  - custom_robot_msgs
-
--- ~~  - dbot_ros_msgs
-
--- ~~  - riemo_grasping_msgs
-
--- ~~  - baxter_core_msgs
-
--- ~~  - rieef_msgs
-
--- ~~  - lula_api
-
--- ~~  - lula_common
-
--- ~~  - lula_controller_msgs
-
--- ~~  - lula_ros_util
-
--- ~~  - lula_rt
-
--- ~~  - lula_world_msgs
-
--- ~~  - baxter_interface
-
--- ~~  - baxter_tools
-
--- ~~  - lula_baxter
-
--- ~~  - ellipsoid_msgs
-
--- ~~  - lula_control_internal
-
--- ~~  - lula_world
-
--- ~~  - lula_world_internal
-
--- ~~  - lula_plugins_interface
-
--- ~~  - lula_kinematics
-
--- ~~  - lula_visualization
-
--- ~~  - lula_task
-
--- ~~  - lula_apollo_internal
-
--- ~~  - lula_baxter_internal
-
--- ~~  - lula_plugins
-
--- ~~  - lula_plugins_internal
-
--- ~~  - lula_visualization_internal
-
--- ~~  - lula_rviz_plugins
-
--- ~~  - rieef_utils
-
--- ~~  - visualization_3d
-
--- ~~  - geodesic_flow
-
--- ~~  - moveit_distance_field
-
--- ~~  - sampling_based_planning
-
--- ~~  - signed_distance_field
-
--- ~~  - rieef_ros
-
--- ~~  - condor_interface
-
--- ~~  - rieef_programs
-
--- ~~  - rieef_demos
-
--- ~~  - baxter_examples
+-- ~~  - project_management_test_3
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- +++ processing catkin metapackage: 'baxter_common'
+-- +++ processing catkin package: 'project_management_test_1'
 
--- ==> add_subdirectory(catkin/lula/third_party/baxter_common/baxter_common)
+-- ==> add_subdirectory(catkin/test/project_management_test_1)
 
--- +++ processing catkin package: 'baxter_description'
+-- +++ processing catkin package: 'project_management_test_2'
 
--- ==> add_subdirectory(catkin/lula/third_party/baxter_common/baxter_description)
+-- ==> add_subdirectory(catkin/test/project_management_test_2)
 
--- +++ processing catkin metapackage: 'baxter_sdk'
+-- +++ processing catkin package: 'project_management_test_3'
 
--- ==> add_subdirectory(catkin/lula/third_party/baxter/baxter_sdk)
+-- ==> add_subdirectory(catkin/test/project_management_test_3)
 
--- +++ processing catkin package: 'lula_doc'
+-- Configuring done
 
--- ==> add_subdirectory(catkin/lula/internal/lula_doc)
+-- Generating done
 
--- +++ processing catkin package: 'lula_log'
+-- Build files have been written to: /home/administrator/ci/ci/team/workspace/build
 
--- ==> add_subdirectory(catkin/lula/external/lula_log)
+Scanning dependencies of target test_project_1_ttest
 
--- Boost version: 1.54.0
+Scanning dependencies of target test_project_1_success_demo
 
--- Found the following Boost libraries:
+Scanning dependencies of target test_project_2_demo_fail
 
---   filesystem
+[ 20%] [ 40%] [ 60%] Scanning dependencies of target test_project_2_demo_success
 
-CMake Warning at catkin/lula/external/lula_log/CMakeLists.txt:55 (message):
+Building CXX object catkin/test/project_management_test_1/CMakeFiles/test_project_1_ttest.dir/src/t_test.cpp.o
 
-  NO log_test
+Building CXX object catkin/test/project_management_test_1/CMakeFiles/test_project_1_success_demo.dir/src/test_project_1_demo_success.cpp.o
 
+Building CXX object catkin/test/project_management_test_2/CMakeFiles/test_project_2_demo_fail.dir/src/test_project_2_demo_fail.cpp.o
 
+[ 80%] Building CXX object catkin/test/project_management_test_2/CMakeFiles/test_project_2_demo_success.dir/src/test_project_2_demo_success.cpp.o
 
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/project_management_test_1/test_project_1_success_demo
 
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/project_management_test_2/test_project_2_demo_fail
 
--- +++ processing catkin package: 'lula_util'
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/project_management_test_2/test_project_2_demo_success
 
--- ==> add_subdirectory(catkin/lula/internal/lula_util)
+Scanning dependencies of target test_project_1_fail_demo
 
--- Found glog    (include: /usr/include, library: /usr/lib/x86_64-linux-gnu/libglog.so)
+[100%] Building CXX object catkin/test/project_management_test_1/CMakeFiles/test_project_1_fail_demo.dir/src/test_project_1_demo_fail.cpp.o
 
--- Found gflags  (include: /usr/include, library: /usr/lib/x86_64-linux-gnu/libgflags.so)
+[100%] [100%] Built target test_project_2_demo_fail
 
--- Eigen found (include: /usr/include/eigen3)
+Built target test_project_1_success_demo
 
-CMake Warning at catkin/lula/internal/lula_util/CMakeLists.txt:147 (message):
+[100%] Built target test_project_2_demo_success
 
-  DEACTIVATED: caching_utest
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/project_management_test_1/test_project_1_fail_demo
 
+[100%] Built target test_project_1_fail_demo
 
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/project_management_test_1/test_project_1_ttest
 
+[100%] Built target test_project_1_ttest
 
+Install the project...
 
-CMake Warning at catkin/lula/internal/lula_util/CMakeLists.txt:174 (message):
+-- Install configuration: ""
 
-  DEACTIVATED: file_sequencer_utest
+-- Installing: /home/administrator/ci/ci/team/workspace/install/_setup_util.py
 
+-- Installing: /home/administrator/ci/ci/team/workspace/install/env.sh
 
+-- Installing: /home/administrator/ci/ci/team/workspace/install/setup.bash
 
+-- Installing: /home/administrator/ci/ci/team/workspace/install/setup.sh
 
+-- Installing: /home/administrator/ci/ci/team/workspace/install/setup.zsh
 
--- +++ processing catkin package: 'lula_differential_geometry'
+-- Installing: /home/administrator/ci/ci/team/workspace/install/.rosinstall
 
--- ==> add_subdirectory(catkin/lula/internal/lula_differential_geometry)
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/project_management_test_1.pc
 
--- A library with BLAS API found.
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/project_management_test_1/cmake/project_management_test_1Config.cmake
 
--- A library with LAPACK API found.
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/project_management_test_1/cmake/project_management_test_1Config-version.cmake
 
--- Lapack: TRUE
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/project_management_test_1/package.xml
 
--- Lapack required dependencies: f2c atalas-base-dev lapacke-dev lapack-dev
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/project_management_test_2.pc
 
--- Lapack linker flags: 
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/project_management_test_2/cmake/project_management_test_2Config.cmake
 
--- Lapack libraries: /usr/lib/liblapack.so;/usr/lib/libblas.so
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/project_management_test_2/cmake/project_management_test_2Config-version.cmake
 
--- Lapack 95 libraries: 
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/project_management_test_2/package.xml
 
-CMake Warning at catkin/lula/internal/lula_differential_geometry/CMakeLists.txt:137 (message):
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/project_management_test_3.pc
 
-  DEACTIVATED: analytical_grid_utest
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/project_management_test_3/cmake/project_management_test_3Config.cmake
 
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/project_management_test_3/cmake/project_management_test_3Config-version.cmake
 
-
-
-
-CMake Warning at catkin/lula/internal/lula_differential_geometry/CMakeLists.txt:146 (message):
-
-  DEACTIVATED: differentiable_functions_tests_utest
-
-
-
-
-
-CMake Warning at catkin/lula/internal/lula_differential_geometry/CMakeLists.txt:163 (message):
-
-  DEACTIVATED: function_approximator_timing_utest
-
-
-
-
-
-CMake Warning at catkin/lula/internal/lula_differential_geometry/CMakeLists.txt:172 (message):
-
-  DEACTIVATED: geometry_utest
-
-
-
-
-
-CMake Warning at catkin/lula/internal/lula_differential_geometry/CMakeLists.txt:181 (message):
-
-  DEACTIVATED: lapack_interface_utest
-
-
-
-
-
-CMake Warning at catkin/lula/internal/lula_differential_geometry/CMakeLists.txt:190 (message):
-
-  DEACTIVATED: linear_algebra_benchmarks_utest
-
-
-
-
-
-CMake Warning at catkin/lula/internal/lula_differential_geometry/CMakeLists.txt:199 (message):
-
-  DEACTIVATED: linear_algebra_utest
-
-
-
-
-
--- +++ processing catkin package: 'lula_optimization'
-
--- ==> add_subdirectory(catkin/lula/internal/lula_optimization)
-
-CMake Warning at catkin/lula/internal/lula_optimization/CMakeLists.txt:86 (message):
-
-  DEACTIVATED: augmented_lagrangian_utest
-
-
-
-
-
-CMake Warning at catkin/lula/internal/lula_optimization/CMakeLists.txt:95 (message):
-
-  DEACTIVATED: objective_functions_utest
-
-
-
-
-
-CMake Warning at catkin/lula/internal/lula_optimization/CMakeLists.txt:104 (message):
-
-  DEACTIVATED: omp_parallelization_utest
-
-
-
-
-
-CMake Warning at catkin/lula/internal/lula_optimization/CMakeLists.txt:113 (message):
-
-  DEACTIVATED: optimization_test_utest
-
-
-
-
-
--- +++ processing catkin package: 'lula_motion'
-
--- ==> add_subdirectory(catkin/lula/internal/lula_motion)
-
-CMake Warning at catkin/lula/internal/lula_motion/CMakeLists.txt:125 (message):
-
-  DEACTIVATED: behavior_utest
-
-
-
-
-
-CMake Warning at catkin/lula/internal/lula_motion/CMakeLists.txt:139 (message):
-
-  DEACTIVATED: finite_differencing_operators_utest
-
-
-
-
-
-CMake Warning at catkin/lula/internal/lula_motion/CMakeLists.txt:152 (message):
-
-  DEACTIVATED: optimal_control_utest
-
-
-
-
-
-CMake Warning at catkin/lula/internal/lula_motion/CMakeLists.txt:184 (message):
-
-  DEACTIVATED: trajectory_function_network_utest
-
-
-
-
-
-CMake Warning at catkin/lula/internal/lula_motion/CMakeLists.txt:193 (message):
-
-  DEACTIVATED: augmented_position_velocity_map_utest
-
-
-
-
-
--- +++ processing catkin package: 'lula_workspace'
-
--- ==> add_subdirectory(catkin/lula/internal/lula_workspace)
-
--- +++ processing catkin package: 'mpi_system_data_bags'
-
--- ==> add_subdirectory(catkin/manipulation/riemo_electrical_fields/mpi_system_data_bags)
-
--- +++ processing catkin package: 'rethink_ee_description'
-
--- ==> add_subdirectory(catkin/lula/third_party/baxter_common/rethink_ee_description)
-
--- +++ processing catkin package: 'graph_search'
-
--- ==> add_subdirectory(catkin/manipulation/riemo_electrical_fields/graph_search)
-
-CMAKE_MODULE_PATH /home/administrator/ci/ci/team/workspace/src/catkin/manipulation/riemo_electrical_fields/graph_search/../cmake/Modules
-
--- Eigen found (include: /usr/include/eigen3)
-
-GLOG include_dirs: 
-
-GLOG libraries: glog
-
-GLOG version : 0.3.3
-
-GLOG library_dirs : 
-
-catkin_INCLUDE_DIRS : /opt/ros/indigo/include/usr/include
-
- *** CMAKE_CXX_FLAGS: -std=c++11  
-
--- +++ processing catkin package: 'baxter_maintenance_msgs'
-
--- ==> add_subdirectory(catkin/lula/third_party/baxter_common/baxter_maintenance_msgs)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- baxter_maintenance_msgs: 7 messages, 0 services
-
--- +++ processing catkin package: 'amd_clmc_ros_messages'
-
--- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/amd_clmc_ros_messages)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- amd_clmc_ros_messages: 108 messages, 10 services
-
--- +++ processing catkin package: 'ar_track_alvar_msgs'
-
--- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/ar_track_alvar_msgs)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- ar_track_alvar_msgs: 2 messages, 0 services
-
--- +++ processing catkin package: 'custom_robot_msgs'
-
--- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/custom_robot_msgs)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- custom_robot_msgs: 1 messages, 2 services
-
--- +++ processing catkin package: 'dbot_ros_msgs'
-
--- ==> add_subdirectory(catkin/ros/dbot_ros_msgs)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- dbot_ros_msgs: 3 messages, 3 services
-
--- +++ processing catkin package: 'riemo_grasping_msgs'
-
--- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/riemo_grasping_msgs)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- riemo_grasping_msgs: 5 messages, 3 services
-
--- +++ processing catkin package: 'baxter_core_msgs'
-
--- ==> add_subdirectory(catkin/lula/third_party/baxter_common/baxter_core_msgs)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- baxter_core_msgs: 25 messages, 4 services
-
--- +++ processing catkin package: 'rieef_msgs'
-
--- ==> add_subdirectory(catkin/manipulation/riemo_electrical_fields/rieef_msgs)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- rieef_msgs: 4 messages, 3 services
-
--- +++ processing catkin package: 'lula_api'
-
--- ==> add_subdirectory(catkin/lula/external/lula_api)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- lula_api: 1 messages, 2 services
-
--- +++ processing catkin package: 'lula_common'
-
--- ==> add_subdirectory(catkin/lula/external/lula_common)
-
--- +++ processing catkin package: 'lula_controller_msgs'
-
--- ==> add_subdirectory(catkin/lula/internal/ros/lula_controller_msgs)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- lula_controller_msgs: 39 messages, 4 services
-
--- +++ processing catkin package: 'lula_ros_util'
-
--- ==> add_subdirectory(catkin/lula/external/lula_ros_util)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- lula_ros_util: 1 messages, 1 services
-
--- +++ processing catkin package: 'lula_rt'
-
--- ==> add_subdirectory(catkin/lula/internal/ros/lula_rt)
-
-CMake Warning at catkin/lula/internal/ros/lula_rt/CMakeLists.txt:131 (message):
-
-  DEACTIVATED: time_varying_affine_policy_utest
-
-
-
-
-
--- +++ processing catkin package: 'lula_world_msgs'
-
--- ==> add_subdirectory(catkin/lula/external/lula_world_msgs)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- lula_world_msgs: 5 messages, 5 services
-
--- +++ processing catkin package: 'baxter_interface'
-
--- ==> add_subdirectory(catkin/lula/third_party/baxter_interface)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- +++ processing catkin package: 'baxter_tools'
-
--- ==> add_subdirectory(catkin/lula/third_party/baxter_tools)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- +++ processing catkin package: 'lula_baxter'
-
--- ==> add_subdirectory(catkin/lula/external/lula_baxter)
-
--- Using these message generators: gencpp;genlisp;genpy
-
-CMake Error at catkin/lula/external/lula_baxter/CMakeLists.txt:31 (find_package):
-
-  By not providing "FindEigen.cmake" in CMAKE_MODULE_PATH this project has
-
-  asked CMake to find a package configuration file provided by "Eigen", but
-
-  CMake did not find one.
-
-
-
-  Could not find a package configuration file provided by "Eigen" with any of
-
-  the following names:
-
-
-
-    EigenConfig.cmake
-
-    eigen-config.cmake
-
-
-
-  Add the installation prefix of "Eigen" to CMAKE_PREFIX_PATH or set
-
-  "Eigen_DIR" to a directory containing one of the above files.  If "Eigen"
-
-  provides a separate development package or SDK, be sure it has been
-
-  installed.
-
-
-
-
-
--- Configuring incomplete, errors occurred!
-
-See also "/home/administrator/ci/ci/team/workspace/build/CMakeFiles/CMakeOutput.log".
-
-See also "/home/administrator/ci/ci/team/workspace/build/CMakeFiles/CMakeError.log".
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/project_management_test_3/package.xml
 
 Base path: /home/administrator/ci/ci/team/workspace
 
@@ -566,10 +184,16 @@ Devel space: /home/administrator/ci/ci/team/workspace/devel
 
 Install space: /home/administrator/ci/ci/team/workspace/install
 
+Creating symlink "/home/administrator/ci/ci/team/workspace/src/CMakeLists.txt" pointing to "/opt/ros/indigo/share/catkin/cmake/toplevel.cmake"
+
 ####
 
 #### Running command: "cmake /home/administrator/ci/ci/team/workspace/src -DCATKIN_DEVEL_PREFIX=/home/administrator/ci/ci/team/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/administrator/ci/ci/team/workspace/install -G Unix Makefiles" in "/home/administrator/ci/ci/team/workspace/build"
 
 ####
 
-Invoking "cmake" failed
+####
+
+#### Running command: "make -j16 install" in "/home/administrator/ci/ci/team/workspace/build"
+
+####
