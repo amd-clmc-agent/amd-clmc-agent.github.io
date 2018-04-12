@@ -1,48 +1,116 @@
-[  0%] Built target geometry_msgs_generate_messages_lisp
+WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
 
-[  0%] Built target _pointcloud_msgs_generate_messages_check_deps_PointCloudClassified
+-- Using CATKIN_DEVEL_PREFIX: /home/administrator/ci/ci/team/workspace/devel
 
-[  0%] Built target sensor_msgs_generate_messages_lisp
+-- Using CMAKE_PREFIX_PATH: /opt/ros/indigo
 
-[  0%] Built target _pointcloud_msgs_generate_messages_check_deps_HypothesisVerify
+-- This workspace overlays: /opt/ros/indigo
 
-[  7%] Built target pointcloud_msgs_generate_messages_lisp
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
 
-[  7%] Built target geometry_msgs_generate_messages_py
+-- Using Debian Python package layout
 
-[  7%] Built target sensor_msgs_generate_messages_py
+-- Using empy: /usr/bin/empy
 
-[ 21%] Built target pointcloud_msgs_generate_messages_py
+-- Using CATKIN_ENABLE_TESTING: ON
 
-[ 21%] Built target geometry_msgs_generate_messages_cpp
+-- Call enable_testing()
 
-[ 21%] Built target sensor_msgs_generate_messages_cpp
+-- Using CATKIN_TEST_RESULTS_DIR: /home/administrator/ci/ci/team/workspace/build/test_results
 
-[ 28%] Built target pointcloud_msgs_generate_messages_cpp
+-- Found gtest sources under '/usr/src/gtest': gtests will be built
 
-[ 28%] Built target pointcloud_msgs_generate_messages
+-- Using Python nosetests: /usr/bin/nosetests-2.7
 
-[ 42%] Built target global_recognizer
+-- catkin 0.6.19
 
-[ 46%] Built target global_classification
+-- BUILD_SHARED_LIBS is on
 
-[ 50%] Building CXX object catkin/perception/3d_classification/recognition_3d/CMakeFiles/global_recognition.dir/src/global_recognition_test.cpp.o
+WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
 
-In file included from /home/administrator/ci/ci/team/workspace/src/catkin/perception/3d_classification/recognition_3d/src/global_recognition_test.cpp:58:0:
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-/usr/include/pcl-1.7/pcl/recognition/hv/hv_go.h:14:52: fatal error: pcl/recognition/3rdparty/metslib/mets.hh: No such file or directory
+-- ~~  traversing 12 packages in topological order:
 
- #include "pcl/recognition/3rdparty/metslib/mets.hh"
+-- ~~  - Eigen
 
-                                                    ^
+-- ~~  - python_file_parser
 
-compilation terminated.
+-- ~~  - rbdl
 
-make[2]: *** [catkin/perception/3d_classification/recognition_3d/CMakeFiles/global_recognition.dir/src/global_recognition_test.cpp.o] Error 1
+-- ~~  - cyberglove_handsim_control
 
-make[1]: *** [catkin/perception/3d_classification/recognition_3d/CMakeFiles/global_recognition.dir/all] Error 2
+-- ~~  - amd_clmc_ros_messages
 
-make: *** [all] Error 2
+-- ~~  - ar_track_alvar_msgs
+
+-- ~~  - custom_robot_msgs
+
+-- ~~  - riemo_grasping_msgs
+
+-- ~~  - cereal_port
+
+-- ~~  - sr_gui_cyberglove_calibrator
+
+-- ~~  - cyberglove
+
+-- ~~  - haptix_recorder
+
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-- +++ processing catkin package: 'Eigen'
+
+-- ==> add_subdirectory(catkin/third_party/Eigen)
+
+WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
+
+-- +++ processing catkin package: 'python_file_parser'
+
+-- ==> add_subdirectory(catkin/utilities/amd_clmc_script_utilities/python_file_parser)
+
+-- +++ processing catkin package: 'rbdl'
+
+-- ==> add_subdirectory(catkin/third_party/rbdl)
+
+-- ROS found: /opt/ros/indigo/share/ros
+
+-- +++ processing catkin package: 'cyberglove_handsim_control'
+
+-- ==> add_subdirectory(catkin/cyberglove/cyberglove_ros/cyberglove_handsim_control)
+
+-- Operating system is Linux
+
+-- Boost version: 1.54.0
+
+CMake Error at catkin/cyberglove/cyberglove_ros/cyberglove_handsim_control/cmake/SearchForStuff.cmake:8 (find_package):
+
+  Could not find a configuration file for package "gazebo" that is compatible
+
+  with requested version "7.0.0".
+
+
+
+  The following configuration files were considered but not accepted:
+
+
+
+    /usr/share/gazebo/cmake/gazebo-config.cmake, version: unknown
+
+
+
+Call Stack (most recent call first):
+
+  catkin/cyberglove/cyberglove_ros/cyberglove_handsim_control/CMakeLists.txt:11 (include)
+
+
+
+
+
+-- Configuring incomplete, errors occurred!
+
+See also "/home/administrator/ci/ci/team/workspace/build/CMakeFiles/CMakeOutput.log".
+
+See also "/home/administrator/ci/ci/team/workspace/build/CMakeFiles/CMakeError.log".
 
 Base path: /home/administrator/ci/ci/team/workspace
 
@@ -56,14 +124,8 @@ Install space: /home/administrator/ci/ci/team/workspace/install
 
 ####
 
-#### Running command: "make cmake_check_build_system" in "/home/administrator/ci/ci/team/workspace/build"
+#### Running command: "cmake /home/administrator/ci/ci/team/workspace/src -DCATKIN_DEVEL_PREFIX=/home/administrator/ci/ci/team/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/administrator/ci/ci/team/workspace/install -G Unix Makefiles" in "/home/administrator/ci/ci/team/workspace/build"
 
 ####
 
-####
-
-#### Running command: "make -j1" in "/home/administrator/ci/ci/team/workspace/build"
-
-####
-
-Invoking "make -j1" failed
+Invoking "cmake" failed
