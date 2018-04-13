@@ -129,9 +129,18 @@ def&#160;</td><td class="memItemRight" valign="bottom"><b>update_init_state_with
 <tr class="memitem:ad67717638c80b72717fc2f53b892dbb2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad67717638c80b72717fc2f53b892dbb2"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>update_com_matrices</b></td></tr>
 <tr class="separator:ad67717638c80b72717fc2f53b892dbb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bbffd09ca544ce9784df67a7cbc5d14"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6bbffd09ca544ce9784df67a7cbc5d14"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>update_mass_matrices</b></td></tr>
+<tr class="separator:a6bbffd09ca544ce9784df67a7cbc5d14"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7cca3c3cde11914698b5e6a52e64ef9c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7cca3c3cde11914698b5e6a52e64ef9c"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>compute_preview</b></td></tr>
 <tr class="separator:a7cca3c3cde11914698b5e6a52e64ef9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9f64e2b03c7240091a8e5b0fc87a2ad"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa9f64e2b03c7240091a8e5b0fc87a2ad"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>integrate_quaternion</b></td></tr>
+<tr class="separator:aa9f64e2b03c7240091a8e5b0fc87a2ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada37f4a548c9fa72c442d0656b36a040"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ada37f4a548c9fa72c442d0656b36a040"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>quat_prod_matrix</b></td></tr>
+<tr class="separator:ada37f4a548c9fa72c442d0656b36a040"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f5a03f627515c66deaac0e8d4c36783"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4f5a03f627515c66deaac0e8d4c36783"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>iddlx</b></td></tr>
 <tr class="separator:a4f5a03f627515c66deaac0e8d4c36783"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -213,6 +222,12 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a878a8c08938c9cbea805f82c4ab90fb3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a878a8c08938c9cbea805f82c4ab90fb3"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>P_dlu_z</b></td></tr>
 <tr class="separator:a878a8c08938c9cbea805f82c4ab90fb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2c9cdd071412df9141ef14404e6d0f0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af2c9cdd071412df9141ef14404e6d0f0"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>I_com</b></td></tr>
+<tr class="separator:af2c9cdd071412df9141ef14404e6d0f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68a271d8262a57fd692be8f171054dc5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a68a271d8262a57fd692be8f171054dc5"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>I_com_inv</b></td></tr>
+<tr class="separator:a68a271d8262a57fd692be8f171054dc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7662d1ef3a4494f79cb8817d434cf191"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7662d1ef3a4494f79cb8817d434cf191"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>ddl_prev</b></td></tr>
 <tr class="separator:a7662d1ef3a4494f79cb8817d434cf191"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -225,6 +240,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a42caf462feb0295dcf85c9458d4e4391"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a42caf462feb0295dcf85c9458d4e4391"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>q_prev</b></td></tr>
 <tr class="separator:a42caf462feb0295dcf85c9458d4e4391"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e88c64202e01ef73abed4abceeb96bc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4e88c64202e01ef73abed4abceeb96bc"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>w_prev</b></td></tr>
+<tr class="separator:a4e88c64202e01ef73abed4abceeb96bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -241,7 +259,7 @@ Static Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Apr 13 2018 17:25:27 for nmpc_multicontact_python by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Apr 13 2018 20:31:44 for nmpc_multicontact_python by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
