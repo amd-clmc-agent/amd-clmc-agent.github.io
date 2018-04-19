@@ -6,9 +6,9 @@
 
 -- Using PYTHON_EXECUTABLE: /usr/bin/python
 
--- Using Debian Python package layout
+-- Python version: 2.7
 
--- Using empy: /usr/bin/empy
+-- Using Debian Python package layout
 
 -- Using CATKIN_ENABLE_TESTING: ON
 
@@ -18,347 +18,109 @@
 
 -- Found gtest sources under '/usr/src/gtest': gtests will be built
 
--- Using Python nosetests: /usr/bin/nosetests-2.7
-
--- catkin 0.6.19
+-- catkin 0.5.90
 
 -- BUILD_SHARED_LIBS is on
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- ~~  traversing 20 packages in topological order:
+-- ~~  traversing 10 packages in topological order:
 
--- ~~  - astar_algo
+-- ~~  - ros_realtime (metapackage)
 
--- ~~  - playful_color_detection_libs
+-- ~~  - allocators
 
--- ~~  - playful_profiler
+-- ~~  - rosatomic
 
--- ~~  - soma
+-- ~~  - lockfree
 
--- ~~  - start_robot
+-- ~~  - rt_timer
 
--- ~~  - amd_clmc_ros_messages
+-- ~~  - xenomai_ros
 
--- ~~  - ar_track_alvar_msgs
+-- ~~  - rosrt
 
--- ~~  - custom_robot_msgs
+-- ~~  - goto_ui
 
--- ~~  - riemo_grasping_msgs
+-- ~~  - goto_ui_task
 
--- ~~  - playful_navigation_msgs
-
--- ~~  - playful_pcl
-
--- ~~  - playful_histograms
-
--- ~~  - playful_virtual_detection
-
--- ~~  - playful_color_detection_nodes
-
--- ~~  - playful_depth_detection
-
--- ~~  - playful_navigation
-
--- ~~  - playful_navigation_nodes
-
--- ~~  - playful_nodes
-
--- ~~  - playful_table_setting
-
--- ~~  - playful_kinematics
+-- ~~  - ros_rt_test
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- +++ processing catkin package: 'astar_algo'
+-- +++ processing catkin metapackage: 'ros_realtime'
 
--- ==> add_subdirectory(catkin/playful/playful-navigation/externals/astar-algo)
+-- ==> add_subdirectory(catkin/ros/ros_realtime/ros_realtime)
 
--- +++ processing catkin package: 'playful_color_detection_libs'
+-- +++ processing catkin package: 'allocators'
 
--- ==> add_subdirectory(catkin/playful/playful-perception/playful_color_detection/playful_color_detection_libs)
+-- ==> add_subdirectory(catkin/ros/ros_realtime/allocators)
+
+-- Boost version: 1.54.0
+
+-- +++ processing catkin package: 'rosatomic'
+
+-- ==> add_subdirectory(catkin/ros/ros_realtime/rosatomic)
+
+-- Boost version: 1.54.0
+
+-- +++ processing catkin package: 'lockfree'
+
+-- ==> add_subdirectory(catkin/ros/ros_realtime/lockfree)
+
+-- Boost version: 1.54.0
+
+-- +++ processing catkin package: 'rt_timer'
+
+-- ==> add_subdirectory(catkin/ros/ros_realtime/rt_timer)
+
+-- +++ processing catkin package: 'xenomai_ros'
+
+-- ==> add_subdirectory(catkin/ros/xenomai-ros)
+
+-- +++ processing catkin package: 'rosrt'
+
+-- ==> add_subdirectory(catkin/ros/ros_realtime/rosrt)
+
+-- xenomai NOT found. (/usr/local;/usr)
+
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
 
 -- Boost version: 1.54.0
 
 -- Found the following Boost libraries:
-
---   system
-
--- +++ processing catkin package: 'playful_profiler'
-
--- ==> add_subdirectory(catkin/playful/playful-perception/playful_profiler)
-
--- Boost version: 1.54.0
-
--- Found the following Boost libraries:
-
---   system
-
--- +++ processing catkin package: 'soma'
-
--- ==> add_subdirectory(catkin/playful/playful-soma)
-
--- +++ processing catkin package: 'start_robot'
-
--- ==> add_subdirectory(catkin/robots/start_robot)
-
--- +++ processing catkin package: 'amd_clmc_ros_messages'
-
--- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/amd_clmc_ros_messages)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- amd_clmc_ros_messages: 108 messages, 10 services
-
--- +++ processing catkin package: 'ar_track_alvar_msgs'
-
--- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/ar_track_alvar_msgs)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- ar_track_alvar_msgs: 2 messages, 0 services
-
--- +++ processing catkin package: 'custom_robot_msgs'
-
--- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/custom_robot_msgs)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- custom_robot_msgs: 1 messages, 2 services
-
--- +++ processing catkin package: 'riemo_grasping_msgs'
-
--- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/riemo_grasping_msgs)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- riemo_grasping_msgs: 5 messages, 3 services
-
--- +++ processing catkin package: 'playful_navigation_msgs'
-
--- ==> add_subdirectory(catkin/playful/playful-navigation/navigation_msgs)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- playful_navigation_msgs: 0 messages, 2 services
-
--- +++ processing catkin package: 'playful_pcl'
-
--- ==> add_subdirectory(catkin/playful/playful-perception/playful_pcl)
-
--- Boost version: 1.54.0
-
--- Found the following Boost libraries:
-
---   system
-
---   filesystem
 
 --   thread
 
---   date_time
+-- +++ processing catkin package: 'goto_ui'
 
---   iostreams
+-- ==> add_subdirectory(catkin/core-sl/goto_ui)
 
---   serialization
+CMake Error at /home/administrator/ci/ci/team/workspace/devel/share/catkin/cmake/catkinConfig.cmake:75 (find_package):
 
---   chrono
+  Could not find a package configuration file provided by "utilities" with
 
--- checking for module 'openni-dev'
+  any of the following names:
 
---   package 'openni-dev' not found
 
--- checking for module 'openni2-dev'
 
---   package 'openni2-dev' not found
+    utilitiesConfig.cmake
 
-** WARNING ** io features related to pcap will be disabled
+    utilities-config.cmake
 
-** WARNING ** io features related to png will be disabled
 
--- checking for module 'openni-dev'
 
---   package 'openni-dev' not found
+  Add the installation prefix of "utilities" to CMAKE_PREFIX_PATH or set
 
--- checking for module 'openni2-dev'
+  "utilities_DIR" to a directory containing one of the above files.  If
 
---   package 'openni2-dev' not found
+  "utilities" provides a separate development package or SDK, be sure it has
 
--- looking for PCL_COMMON
-
--- looking for PCL_KDTREE
-
--- looking for PCL_OCTREE
-
--- looking for PCL_SEARCH
-
--- looking for PCL_SURFACE
-
--- looking for PCL_SAMPLE_CONSENSUS
-
--- looking for PCL_FILTERS
-
--- looking for PCL_FEATURES
-
--- looking for PCL_KEYPOINTS
-
--- looking for PCL_GEOMETRY
-
--- looking for PCL_IO
-
--- looking for PCL_VISUALIZATION
-
--- looking for PCL_SEGMENTATION
-
--- looking for PCL_PEOPLE
-
--- looking for PCL_REGISTRATION
-
--- looking for PCL_RECOGNITION
-
--- looking for PCL_OUTOFCORE
-
--- looking for PCL_TRACKING
-
--- +++ processing catkin package: 'playful_histograms'
-
--- ==> add_subdirectory(catkin/playful/playful-perception/playful_histograms)
-
--- Boost version: 1.54.0
-
--- Found the following Boost libraries:
-
---   system
-
--- +++ processing catkin package: 'playful_virtual_detection'
-
--- ==> add_subdirectory(catkin/playful/playful-perception/playful_virtual_detection)
-
--- +++ processing catkin package: 'playful_color_detection_nodes'
-
--- ==> add_subdirectory(catkin/playful/playful-perception/playful_color_detection/playful_color_detection_nodes)
-
--- +++ processing catkin package: 'playful_depth_detection'
-
--- ==> add_subdirectory(catkin/playful/playful-perception/playful_depth_detection)
-
--- +++ processing catkin package: 'playful_navigation'
-
--- ==> add_subdirectory(catkin/playful/playful-navigation/navigation_libs)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- +++ processing catkin package: 'playful_navigation_nodes'
-
--- ==> add_subdirectory(catkin/playful/playful-navigation/navigation_nodes)
-
--- Boost version: 1.54.0
-
--- Found the following Boost libraries:
-
---   system
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- +++ processing catkin package: 'playful_nodes'
-
--- ==> add_subdirectory(catkin/playful/playful-perception/playful_nodes)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- Boost version: 1.54.0
-
--- Found the following Boost libraries:
-
---   system
-
---   filesystem
-
---   thread
-
---   date_time
-
---   iostreams
-
---   serialization
-
---   chrono
-
--- checking for module 'openni-dev'
-
---   package 'openni-dev' not found
-
--- checking for module 'openni2-dev'
-
---   package 'openni2-dev' not found
-
-** WARNING ** io features related to pcap will be disabled
-
-** WARNING ** io features related to png will be disabled
-
--- checking for module 'openni-dev'
-
---   package 'openni-dev' not found
-
--- checking for module 'openni2-dev'
-
---   package 'openni2-dev' not found
-
--- looking for PCL_COMMON
-
--- looking for PCL_KDTREE
-
--- looking for PCL_OCTREE
-
--- looking for PCL_SEARCH
-
--- looking for PCL_SURFACE
-
--- looking for PCL_SAMPLE_CONSENSUS
-
--- looking for PCL_FILTERS
-
--- looking for PCL_FEATURES
-
--- looking for PCL_KEYPOINTS
-
--- looking for PCL_GEOMETRY
-
--- looking for PCL_IO
-
--- looking for PCL_VISUALIZATION
-
--- looking for PCL_SEGMENTATION
-
--- looking for PCL_PEOPLE
-
--- looking for PCL_REGISTRATION
-
--- looking for PCL_RECOGNITION
-
--- looking for PCL_OUTOFCORE
-
--- looking for PCL_TRACKING
-
--- +++ processing catkin package: 'playful_table_setting'
-
--- ==> add_subdirectory(catkin/playful/playful-table-setting)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- +++ processing catkin package: 'playful_kinematics'
-
--- ==> add_subdirectory(catkin/playful/playful-kinematics)
-
-CMake Error at /opt/ros/indigo/share/catkin/cmake/catkin_python_setup.cmake:96 (message):
-
-  The package name 'playful_kinematics' differs from the basename of the path
-
-  'scripts' in project 'playful_kinematics'
+  been installed.
 
 Call Stack (most recent call first):
 
-  catkin/playful/playful-kinematics/CMakeLists.txt:69 (catkin_python_setup)
+  catkin/core-sl/goto_ui/CMakeLists.txt:8 (find_package)
 
 
 
