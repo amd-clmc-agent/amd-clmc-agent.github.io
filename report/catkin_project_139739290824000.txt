@@ -6,9 +6,9 @@
 
 -- Using PYTHON_EXECUTABLE: /usr/bin/python
 
--- Using Debian Python package layout
+-- Python version: 2.7
 
--- Using empy: /usr/bin/empy
+-- Using Debian Python package layout
 
 -- Using CATKIN_ENABLE_TESTING: ON
 
@@ -18,9 +18,7 @@
 
 -- Found gtest sources under '/usr/src/gtest': gtests will be built
 
--- Using Python nosetests: /usr/bin/nosetests-2.7
-
--- catkin 0.6.19
+-- catkin 0.5.90
 
 -- BUILD_SHARED_LIBS is on
 
@@ -28,61 +26,101 @@
 
 -- ~~  traversing 10 packages in topological order:
 
--- ~~  - cdist_utils
+-- ~~  - ros_realtime (metapackage)
 
--- ~~  - robot_model_helper
+-- ~~  - allocators
 
--- ~~  - compute_cdist
+-- ~~  - rosatomic
 
--- ~~  - random_forest
+-- ~~  - lockfree
 
--- ~~  - arm_robot_model
+-- ~~  - rt_timer
 
--- ~~  - cdist_py
+-- ~~  - xenomai_ros
 
--- ~~  - test_cdist
+-- ~~  - rosrt
 
--- ~~  - urdf_parser_py
+-- ~~  - goto_ui
 
--- ~~  - xml_reflection
+-- ~~  - goto_ui_task
 
--- ~~  - arm_pose_esti
+-- ~~  - ros_rt_test
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- +++ processing catkin package: 'cdist_utils'
+-- +++ processing catkin metapackage: 'ros_realtime'
 
--- ==> add_subdirectory(catkin/robot_pose_estimation/cdist/cdist_utils)
+-- ==> add_subdirectory(catkin/ros/ros_realtime/ros_realtime)
 
-CMake Error at catkin/robot_pose_estimation/cdist/cdist_utils/CMakeLists.txt:18 (find_package):
+-- +++ processing catkin package: 'allocators'
 
-  By not providing "FindEigen.cmake" in CMAKE_MODULE_PATH this project has
+-- ==> add_subdirectory(catkin/ros/ros_realtime/allocators)
 
-  asked CMake to find a package configuration file provided by "Eigen", but
+-- Boost version: 1.54.0
 
-  CMake did not find one.
+-- +++ processing catkin package: 'rosatomic'
+
+-- ==> add_subdirectory(catkin/ros/ros_realtime/rosatomic)
+
+-- Boost version: 1.54.0
+
+-- +++ processing catkin package: 'lockfree'
+
+-- ==> add_subdirectory(catkin/ros/ros_realtime/lockfree)
+
+-- Boost version: 1.54.0
+
+-- +++ processing catkin package: 'rt_timer'
+
+-- ==> add_subdirectory(catkin/ros/ros_realtime/rt_timer)
+
+-- +++ processing catkin package: 'xenomai_ros'
+
+-- ==> add_subdirectory(catkin/ros/xenomai-ros)
+
+-- +++ processing catkin package: 'rosrt'
+
+-- ==> add_subdirectory(catkin/ros/ros_realtime/rosrt)
+
+-- xenomai NOT found. (/usr/local;/usr)
+
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+
+-- Boost version: 1.54.0
+
+-- Found the following Boost libraries:
+
+--   thread
+
+-- +++ processing catkin package: 'goto_ui'
+
+-- ==> add_subdirectory(catkin/core-sl/goto_ui)
+
+CMake Error at /home/administrator/ci/ci/team/workspace/devel/share/catkin/cmake/catkinConfig.cmake:75 (find_package):
+
+  Could not find a package configuration file provided by "utilities" with
+
+  any of the following names:
 
 
 
-  Could not find a package configuration file provided by "Eigen" with any of
+    utilitiesConfig.cmake
 
-  the following names:
-
-
-
-    EigenConfig.cmake
-
-    eigen-config.cmake
+    utilities-config.cmake
 
 
 
-  Add the installation prefix of "Eigen" to CMAKE_PREFIX_PATH or set
+  Add the installation prefix of "utilities" to CMAKE_PREFIX_PATH or set
 
-  "Eigen_DIR" to a directory containing one of the above files.  If "Eigen"
+  "utilities_DIR" to a directory containing one of the above files.  If
 
-  provides a separate development package or SDK, be sure it has been
+  "utilities" provides a separate development package or SDK, be sure it has
 
-  installed.
+  been installed.
+
+Call Stack (most recent call first):
+
+  catkin/core-sl/goto_ui/CMakeLists.txt:8 (find_package)
 
 
 
