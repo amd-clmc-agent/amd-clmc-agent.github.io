@@ -31,7 +31,7 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- ~~  traversing 55 packages in topological order:
+-- ~~  traversing 56 packages in topological order:
 
 -- ~~  - Eigen
 
@@ -50,6 +50,8 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 -- ~~  - conversions
 
 -- ~~  - interpolation
+
+-- ~~  - inverse_dynamics_learning_apollo
 
 -- ~~  - qp_oases
 
@@ -268,6 +270,10 @@ Call Stack (most recent call first):
 -- +++ processing catkin package: 'interpolation'
 
 -- ==> add_subdirectory(catkin/controller_manager/core-sl-ros/interpolation)
+
+-- +++ processing catkin package: 'inverse_dynamics_learning_apollo'
+
+-- ==> add_subdirectory(catkin/learning/inverse_dynamics_learning_apollo)
 
 -- +++ processing catkin package: 'qp_oases'
 
@@ -1037,339 +1043,339 @@ Call Stack (most recent call first):
 
 -- Build files have been written to: /home/administrator/ci/ci/team/workspace/build
 
-Scanning dependencies of target gtest
-
-[  0%] [  0%] [  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] [  0%] Built target geometry_msgs_generate_messages_cpp
 
 Built target sensor_msgs_generate_messages_cpp
 
-[  0%] [  0%] Built target visualization_msgs_generate_messages_cpp
+[  0%] [  0%] [  0%] [  0%] [  0%] [  0%] Built target visualization_msgs_generate_messages_cpp
 
 Built target geometry_msgs_generate_messages_py
 
-Built target geometry_msgs_generate_messages_lisp
-
-[  0%] [  0%] [  0%] Built target std_msgs_generate_messages_lisp
-
 Built target std_msgs_generate_messages_cpp
 
-Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+Built target std_msgs_generate_messages_py
 
-[  0%] [  0%] Built target std_msgs_generate_messages_py
+Built target geometry_msgs_generate_messages_lisp
 
-Built target roscpp_utilities
+Built target actionlib_msgs_generate_messages_py
 
-[  0%] [  0%] Built target _usc_utilities_generate_messages_check_deps_AccumulatedTrialStatistics
+[  0%] [  0%] [  0%] [  0%] Built target roscpp_utilities
 
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_AccelerationFeedbackExperimentStatus
+Built target sensor_msgs_generate_messages_py
 
-[  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Goto_command
+Built target actionlib_msgs_generate_messages_lisp
 
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_ResetBreakaway
+Built target std_msgs_generate_messages_lisp
 
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerDataStatus
+[  0%] Built target _usc_utilities_generate_messages_check_deps_AccumulatedTrialStatistics
 
-[  0%] [  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_NavigationTarget
+[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_AccelerationFeedbackExperimentStatus
 
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_PolicyControllerParamsService
+[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SwitchControllerStack
 
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_SwitchControllerStack
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_BoundingPoints
-
-[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineLearningControl
+[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ResetBreakaway
 
 Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibratePressureSensorsStatus
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_RtNetwork
+[  0%] [  0%] [  0%] [  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineLearningControl
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_BoundingPoints
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_NavigationTarget
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_PolicyControllerParamsService
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerDataStatus
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_RtNetwork
+
+[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspControllerStatus
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_Goto_command
 
 [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ExperimentParams
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_BiotacData
+[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_AvgPressureSensors
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspControllerStatus
+[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_BiotacData
 
 [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_QueryControllerStatus
 
-[  0%] [  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_AvgPressureSensors
+[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Volumes
 
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_Volumes
+[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ImageCoordinates
 
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_LqrControllerDataStatus
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_LabeledPoint
 
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_UpdateStrainGagesCalibration
+[  0%] [  0%] [  0%] [  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_UpdateStrainGagesCalibration
 
-[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ObstaclePoints
+[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Preshape
 
-[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ImageCoordinates
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_PressureSensors
 
 Built target _amd_clmc_ros_messages_generate_messages_check_deps_IncreaseMaxFingerTorque
 
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_Preshape
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PressureSensors
-
-[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Acceleration
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_ObstaclePoints
 
 Built target _amd_clmc_ros_messages_generate_messages_check_deps_CartesianTrajectory
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LabeledPoint
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_LqrControllerDataStatus
 
 [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PolicyControllerDataStatus
 
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateForceTorqueSensor
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_Acceleration
 
-[  0%] [  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerParamsService
+[  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateForceTorqueSensor
 
-[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspPoses
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspPoses
 
-[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_TrajectoryStatus
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerParamsService
+
+[  0%] [  0%] [  0%] [  0%] [  0%] [  0%] [  0%] [  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ExperimentGeneratorParamsService
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_TrajectoryStatus
 
 Built target _amd_clmc_ros_messages_generate_messages_check_deps_PointArrayArray
 
 Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerStatus
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ExperimentGeneratorParamsService
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CollectDataStatus
-
-[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ColorRange
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_LookAtParams
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_BiotacFingerData
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_LookAtStatus
-
 Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineNetwork
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DMPControllerStatus
-
-[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_RtNetworkLayer
 
 Built target _amd_clmc_ros_messages_generate_messages_check_deps_CartesianTrajectoryPoint
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ScaledLqr
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_LookAtParams
 
-[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Extrems
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_ColorRange
 
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_NetworkLayer
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_LookAtStatus
 
-[  0%] [  0%] [  0%] [  0%] [  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspControllerParams
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_BiotacFingerData
 
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_Path
+[  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_RtNetworkLayer
 
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_TrajectoryPoint
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_CollectDataStatus
 
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_SetPoses
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_Extrems
 
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_UpdateStrainGagesCalibrationStatus
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_DMPControllerParams
+[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DMPCommand
 
 Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibratePressureSensors
 
+[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DMPControllerStatus
+
 [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ViconQuery
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SetVisualToolTracking
+[  0%] [  0%] [  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ScaledLqr
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DMPCommand
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_NetworkLayer
 
-[  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ContinuousTrajectoryPoint
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_TrajectoryPoint
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspControllerParams
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_UpdateStrainGagesCalibrationStatus
+
+[  0%] [  0%] [  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SetPoses
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_DMPControllerParams
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_SetVisualToolTracking
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_Path
 
 Built target _amd_clmc_ros_messages_generate_messages_check_deps_ContinuousTrajectoryStatus
 
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_BoundingPointsArray
+[  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SetObjectOri
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_EndEffectorPosition
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_ContinuousTrajectoryPoint
+
+[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_BoundingPointsArray
+
+[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_InverseDynamicsBatchNetworkControllerStatus
 
 [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Imu
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SetObjectOri
+[  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateAccelerometerSensorStatus
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_EndEffectorPosition
-
-[  0%] [  0%] [  0%] [  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_AffinePolicy
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_InverseDynamicsBatchNetworkControllerStatus
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_FingerJointEncoderOffsetsStatus
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineDataStatus
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspStatus
+[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineDataStatus
 
 Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerParams
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateAccelerometerSensorStatus
+[  0%] [  0%] [  0%] [  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CartesianGains
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LqrControllerParams
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_FingerJointEncoderOffsetsStatus
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DistanceFieldEval
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_LqrControllerParams
 
-[  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DistanceFieldQueries
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_DistanceFieldEval
 
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_CartesianGains
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_AffinePolicy
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_ChordEllipsoid
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_FingerJointEncoderOffsets
+
+[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DistanceFieldQueries
 
 Built target _amd_clmc_ros_messages_generate_messages_check_deps_OnlineDataStatus
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_FingerJointEncoderOffsets
-
-[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ChordEllipsoid
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateBiotacSensorsStatus
+[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspStatus
 
 [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_KeyPointBodyApprox
 
 [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineLearningControlService
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LinearQuadraticRegulatorParams
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_LinearQuadraticRegulatorParams
 
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_Grasp
+[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateBiotacSensorsStatus
 
-[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LqrControllerParamsService
+[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ViconData
+
+[  0%] [  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_FingerForceControlGains
 
 Built target _amd_clmc_ros_messages_generate_messages_check_deps_StrainGauge
 
-[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_FingerForceControlGains
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_ExtremsArray
-
-[  0%] [  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_EndEffectorState
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_TaskFrame
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_ViconData
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_RectangularBox
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ResetBreakawayStatus
-
-[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateAccelerometerSensor
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_ControllerStatus
-
-[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SpeedChange
+[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ExtremsArray
 
 Built target _amd_clmc_ros_messages_generate_messages_check_deps_Sphere
 
-[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateBiotacSensors
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_TaskFrame
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_EndEffectorState
+
+[  0%] [  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LqrControllerParamsService
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_Grasp
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_SpeedChange
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateAccelerometerSensor
+
+[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_RectangularBox
+
+[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ResetBreakawayStatus
+
+[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ControllerStatus
+
+[  0%] [  0%] [  0%] [  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineParams
 
 Built target _amd_clmc_ros_messages_generate_messages_check_deps_RectangularBoxArray
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineParams
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LinearQuadraticRegulatorStatus
-
-[  0%] [  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_EnvironmentalObject
-
-Built target roscpp_generate_messages_py
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_Gains
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_LinearQuadraticRegulator
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PointArray
-
-[  0%] [  0%] [  0%] [  0%] Built target roscpp_generate_messages_cpp
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_Matrix32
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateBiotacSensors
 
 Built target _amd_clmc_ros_messages_generate_messages_check_deps_ObjectMass
 
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_Gains
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_EnvironmentalObject
+
+[  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PointArray
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_Matrix32
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_LinearQuadraticRegulatorStatus
+
+[  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ImageCoordinatesArray
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_LinearQuadraticRegulator
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_Trajectory
+
+[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_InverseDynamicsBatchNetworkControllerParams
+
 Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateForceTorqueSensorStatus
 
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Trajectory
+[  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_TrackingPose
 
-[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ImageCoordinatesArray
-
-Built target actionlib_msgs_generate_messages_py
-
-[  0%] [  0%] [  0%] Built target roscpp_generate_messages_lisp
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_InverseDynamicsBatchNetworkControllerParams
-
-[  0%] [  0%] [  0%] Built target sensor_msgs_generate_messages_py
-
-[  0%] [  0%] [  0%] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] [  0%] [  0%] [  0%] [  0%] Built target tf2_msgs_generate_messages_cpp
 
 Built target rosgraph_msgs_generate_messages_py
 
+[  0%] Built target roscpp_generate_messages_lisp
+
+Built target roscpp_generate_messages_py
+
+Built target roscpp_generate_messages_cpp
+
+Built target rosgraph_msgs_generate_messages_lisp
+
+Built target sensor_msgs_generate_messages_lisp
+
 Built target rosgraph_msgs_generate_messages_cpp
 
-Built target actionlib_msgs_generate_messages_lisp
-
-Built target topic_tools_generate_messages_py
+[  0%] [  0%] [  0%] Built target topic_tools_generate_messages_lisp
 
 Built target actionlib_msgs_generate_messages_cpp
 
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_TrackingPose
+Built target topic_tools_generate_messages_cpp
 
-[  0%] [  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target topic_tools_generate_messages_py
 
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_CollectData
+[  0%] [  0%] [  0%] [  0%] [  0%] [  0%] [  0%] Scanning dependencies of target gtest
 
-[  0%] [  0%] Built target topic_tools_generate_messages_lisp
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineParamsService
-
-[  0%] Built target tf_generate_messages_cpp
-
-[  0%] [  0%] Built target tf_generate_messages_lisp
-
-Built target tf_generate_messages_py
-
-[  0%] [  0%] [  0%] [  0%] Built target actionlib_generate_messages_lisp
-
-[  0%] [  0%] [  0%] Built target actionlib_generate_messages_py
-
-Built target tf2_msgs_generate_messages_cpp
+[  0%] Built target tf_generate_messages_lisp
 
 Built target tf2_msgs_generate_messages_py
 
-[  0%] Built target topic_tools_generate_messages_cpp
+Built target actionlib_generate_messages_lisp
+
+[  0%] Built target tf_generate_messages_cpp
+
+Built target actionlib_generate_messages_cpp
 
 Built target tf2_msgs_generate_messages_lisp
 
 Built target visualization_msgs_generate_messages_py
 
+Built target tf_generate_messages_py
+
 Built target visualization_msgs_generate_messages_lisp
 
-[  0%] [  0%] Built target actionlib_generate_messages_cpp
+[  0%] [  0%] Built target actionlib_generate_messages_py
 
-Built target _catkin_empty_exported_target
+[  0%] Built target _catkin_empty_exported_target
+
+[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineParamsService
+
+Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
 
 [  0%] Built target lockfree
 
-[  7%] [  7%] Built target usc_utilities_generate_messages_cpp
+[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CollectData
 
-Built target utility
+[  0%] [  0%] [  0%] Built target usc_utilities_generate_messages_py
 
-[  7%] [  7%] [ 14%] Built target usc_utilities_generate_messages_py
+Built target usc_utilities_generate_messages_cpp
 
 Built target usc_utilities_generate_messages_lisp
 
-Built target yaml-cpp
+[  6%] Built target yaml-cpp
 
-[ 14%] Built target rt_utils
+[ 14%] [ 14%] Built target utility
 
-[ 14%] [ 38%] Built target lwpr
+Built target rt_utils
 
-Built target amd_clmc_ros_messages_generate_messages_cpp
+[ 14%] Built target lwpr
 
-[ 61%] Built target amd_clmc_ros_messages_generate_messages_lisp
+[ 36%] [ 39%] Built target rosrt
 
-[ 85%] Built target amd_clmc_ros_messages_generate_messages_py
+[ 63%] Built target amd_clmc_ros_messages_generate_messages_cpp
 
-[ 87%] Built target rosrt
+Built target amd_clmc_ros_messages_generate_messages_lisp
 
-Scanning dependencies of target test_sl_conversions
+[ 87%] Built target amd_clmc_ros_messages_generate_messages_py
 
 [ 88%] Built target usc_utilities
 
+Scanning dependencies of target test_sl_conversions
+
 [ 90%] Building CXX object catkin/controller_manager/core-sl-ros/sl_conversions/CMakeFiles/test_sl_conversions.dir/test/test_sl_conversions.cpp.o
 
-[ 92%] Built target learning_control
+[ 93%] [ 93%] Built target robot_info
 
-[ 93%] Built target robot_info
+Built target learning_control
 
 [ 96%] Built target sl_controller_interface
 
@@ -1395,51 +1401,55 @@ Scanning dependencies of target utest
 
 Scanning dependencies of target test_object_pool
 
-[ 98%] Scanning dependencies of target generic_test
+[ 98%] [ 98%] Scanning dependencies of target test_freelist
 
-Scanning dependencies of target test_freelist
+Scanning dependencies of target generic_test
 
-Building CXX object catkin/ros/ros_realtime/allocators/CMakeFiles/test_aligned_alloc.dir/test/test_aligned_alloc.cpp.o
+[ 98%] Building CXX object catkin/ros/ros_realtime/lockfree/CMakeFiles/test_object_pool.dir/test/test_object_pool.cpp.o
 
-[ 98%] [ 98%] Building CXX object catkin/ros/ros_realtime/lockfree/CMakeFiles/test_object_pool.dir/test/test_object_pool.cpp.o
-
-[ 98%] Scanning dependencies of target utest_gp
-
-Building CXX object catkin/ros/ros_realtime/rosatomic/CMakeFiles/utest.dir/test/utest.cpp.o
-
-Scanning dependencies of target utest_rt_network
-
-[ 98%] Scanning dependencies of target utest_gp_predict_speed
-
-Building CXX object catkin/controller_manager/core-sl-ros/sl_controller_interface/CMakeFiles/generic_test.dir/test/test_main.cpp.o
-
-Building CXX object catkin/ros/ros_realtime/lockfree/CMakeFiles/test_freelist.dir/test/test_freelist.cpp.o
-
-Scanning dependencies of target utest_gp_speed_real_data
+Scanning dependencies of target utest_rt_network_load_msg_predict
 
 Scanning dependencies of target utest_gp_predict
 
+Building CXX object catkin/ros/ros_realtime/allocators/CMakeFiles/test_aligned_alloc.dir/test/test_aligned_alloc.cpp.o
+
 [ 98%] Scanning dependencies of target utest_nrt_gp
 
-Building CXX object catkin/learning/learning_control/CMakeFiles/utest_rt_network.dir/test/utest_rt_network_main.cpp.o
+[ 98%] [ 98%] Building CXX object catkin/ros/ros_realtime/rosatomic/CMakeFiles/utest.dir/test/utest.cpp.o
 
-[ 98%] Scanning dependencies of target utest_gp_speed
+Building CXX object catkin/learning/learning_control/CMakeFiles/utest_rt_network_load_msg_predict.dir/test/utest_rt_network_load_msg_predict.cpp.o
 
-[ 98%] [ 98%] Scanning dependencies of target utest_rt_network_load_msg_predict
+Building CXX object catkin/controller_manager/core-sl-ros/sl_controller_interface/CMakeFiles/generic_test.dir/test/test_main.cpp.o
 
-Scanning dependencies of target utest_nrt_gp_speed
+[ 98%] Building CXX object catkin/ros/ros_realtime/lockfree/CMakeFiles/test_freelist.dir/test/test_freelist.cpp.o
 
-[ 98%] [100%] Building CXX object catkin/learning/learning_control/CMakeFiles/utest_gp.dir/test/utest_gp_main.cpp.o
-
-Building CXX object catkin/learning/learning_control/CMakeFiles/utest_gp_speed_real_data.dir/test/utest_gp_speed_real_data.cpp.o
-
-[100%] Building CXX object catkin/learning/learning_control/CMakeFiles/utest_gp_predict_speed.dir/test/utest_gp_predict_speed.cpp.o
+[ 98%] Scanning dependencies of target utest_rt_network
 
 Building CXX object catkin/learning/learning_control/CMakeFiles/utest_gp_predict.dir/test/utest_gp_predict.cpp.o
 
+Scanning dependencies of target utest_gp_predict_speed
+
+Building CXX object catkin/learning/learning_control/CMakeFiles/utest_nrt_gp.dir/test/utest_nrt_gp_main.cpp.o
+
+Scanning dependencies of target utest_gp_speed_real_data
+
+Scanning dependencies of target utest_gp_speed
+
+Scanning dependencies of target utest_gp
+
+[100%] [100%] [100%] [100%] Building CXX object catkin/learning/learning_control/CMakeFiles/utest_rt_network.dir/test/utest_rt_network_main.cpp.o
+
+Building CXX object catkin/learning/learning_control/CMakeFiles/utest_gp_predict_speed.dir/test/utest_gp_predict_speed.cpp.o
+
+Scanning dependencies of target utest_nrt_gp_speed
+
+[100%] Building CXX object catkin/learning/learning_control/CMakeFiles/utest_gp_speed_real_data.dir/test/utest_gp_speed_real_data.cpp.o
+
 Building CXX object catkin/learning/learning_control/CMakeFiles/utest_gp_speed.dir/test/utest_gp_speed_main.cpp.o
 
-[100%] [100%] /home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_gp_speed_real_data.cpp:6:0: warning: "EIGEN_RUNTIME_NO_MALLOC" redefined [enabled by default]
+Building CXX object catkin/learning/learning_control/CMakeFiles/utest_gp.dir/test/utest_gp_main.cpp.o
+
+/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_gp_speed_real_data.cpp:6:0: warning: "EIGEN_RUNTIME_NO_MALLOC" redefined [enabled by default]
 
  #define EIGEN_RUNTIME_NO_MALLOC
 
@@ -1447,35 +1457,13 @@ Building CXX object catkin/learning/learning_control/CMakeFiles/utest_gp_speed.d
 
 <command-line>:0:0: note: this is the location of the previous definition
 
-Building CXX object catkin/learning/learning_control/CMakeFiles/utest_nrt_gp.dir/test/utest_nrt_gp_main.cpp.o
-
-Building CXX object catkin/learning/learning_control/CMakeFiles/utest_rt_network_load_msg_predict.dir/test/utest_rt_network_load_msg_predict.cpp.o
-
-Building CXX object catkin/learning/learning_control/CMakeFiles/utest_nrt_gp_speed.dir/test/utest_nrt_gp_speed_main.cpp.o
+[100%] Building CXX object catkin/learning/learning_control/CMakeFiles/utest_nrt_gp_speed.dir/test/utest_nrt_gp_speed_main.cpp.o
 
 Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/allocators/test_aligned_alloc
 
 [100%] Built target test_aligned_alloc
 
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_gp_speed_main.cpp: In member function ‘virtual void TestSuite_TestRealTimeGPSteps_Test::TestBody()’:
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_gp_speed_main.cpp:63:3: error: ‘global_error_realtime_inactive’ was not declared in this scope
-
-   global_error_realtime_inactive = true;
-
-   ^
-
-make[3]: *** [catkin/learning/learning_control/CMakeFiles/utest_gp_speed.dir/test/utest_gp_speed_main.cpp.o] Error 1
-
-make[2]: *** [catkin/learning/learning_control/CMakeFiles/utest_gp_speed.dir/all] Error 2
-
-make[2]: *** Waiting for unfinished jobs....
-
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/rosatomic/utest
-
 Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/learning_control/utest_gp_speed_real_data
-
-[100%] Built target utest
 
 /home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_gp_predict.cpp: In member function ‘virtual void UtilitiesTest_TestValueWithDefault_Test::TestBody()’:
 
@@ -1507,17 +1495,33 @@ In file included from /usr/include/gtest/gtest.h:1807:0,
 
    ^
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/lockfree/test_object_pool
-
 [100%] Built target utest_gp_speed_real_data
 
-[100%] Built target test_object_pool
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/rosatomic/utest
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/learning_control/utest_gp
+/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_gp_speed_main.cpp: In member function ‘virtual void TestSuite_TestRealTimeGPSteps_Test::TestBody()’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_gp_speed_main.cpp:63:3: error: ‘global_error_realtime_inactive’ was not declared in this scope
+
+   global_error_realtime_inactive = true;
+
+   ^
 
 make[3]: *** [catkin/learning/learning_control/CMakeFiles/utest_gp_predict.dir/test/utest_gp_predict.cpp.o] Error 1
 
 make[2]: *** [catkin/learning/learning_control/CMakeFiles/utest_gp_predict.dir/all] Error 2
+
+make[2]: *** Waiting for unfinished jobs....
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/learning_control/utest_gp
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/lockfree/test_object_pool
+
+[100%] Built target utest
+
+make[3]: *** [catkin/learning/learning_control/CMakeFiles/utest_gp_speed.dir/test/utest_gp_speed_main.cpp.o] Error 1
+
+make[2]: *** [catkin/learning/learning_control/CMakeFiles/utest_gp_speed.dir/all] Error 2
 
 /home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_main.cpp: In member function ‘virtual void UtilitiesTest_TestValueWithDefault_Test::TestBody()’:
 
@@ -1605,6 +1609,8 @@ make[2]: *** [catkin/learning/learning_control/CMakeFiles/utest_gp_predict.dir/a
 
                                                   ^
 
+[100%] Built target test_object_pool
+
 /home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_gp_predict_speed.cpp: In member function ‘virtual void TestSuite_TestRealTimeGPSteps_Test::TestBody()’:
 
 /home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_gp_predict_speed.cpp:210:3: error: ‘GpSePredictMeanRT’ is not a member of ‘learning_control’
@@ -1627,27 +1633,31 @@ make[2]: *** [catkin/learning/learning_control/CMakeFiles/utest_gp_predict.dir/a
 
 [100%] Built target utest_gp
 
-make[3]: *** [catkin/learning/learning_control/CMakeFiles/utest_gp_predict_speed.dir/test/utest_gp_predict_speed.cpp.o] Error 1
-
-make[2]: *** [catkin/learning/learning_control/CMakeFiles/utest_gp_predict_speed.dir/all] Error 2
-
 make[3]: *** [catkin/learning/learning_control/CMakeFiles/utest_nrt_gp.dir/test/utest_nrt_gp_main.cpp.o] Error 1
 
 make[2]: *** [catkin/learning/learning_control/CMakeFiles/utest_nrt_gp.dir/all] Error 2
+
+make[3]: *** [catkin/learning/learning_control/CMakeFiles/utest_gp_predict_speed.dir/test/utest_gp_predict_speed.cpp.o] Error 1
+
+make[2]: *** [catkin/learning/learning_control/CMakeFiles/utest_gp_predict_speed.dir/all] Error 2
 
 Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/learning_control/utest_rt_network
 
 [100%] Built target utest_rt_network
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/sl_controller_interface/generic_test
-
 Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/learning_control/utest_rt_network_load_msg_predict
 
 Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/lockfree/test_freelist
 
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/sl_controller_interface/generic_test
+
 [100%] Built target utest_rt_network_load_msg_predict
 
-[100%] /home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_speed_main.cpp: In member function ‘virtual void TestSuite_TestRealTimeGPSteps_Test::TestBody()’:
+[100%] Built target test_freelist
+
+[100%] Built target generic_test
+
+/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_speed_main.cpp: In member function ‘virtual void TestSuite_TestRealTimeGPSteps_Test::TestBody()’:
 
 /home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_speed_main.cpp:94:24: error: no matching function for call to ‘learning_control::NrtGpThread::start(int)’
 
@@ -1673,8 +1683,6 @@ In file included from /home/administrator/ci/ci/team/workspace/src/catkin/learni
 
                  ^
 
-Built target test_freelist
-
 /home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_speed_main.cpp:138:19: error: ‘class learning_control::NrtGpThread’ has no member named ‘update_data_point_real’
 
      nrt_gp_thread.update_data_point_real(call_count, random_inputs,
@@ -1692,8 +1700,6 @@ Built target test_freelist
      nrt_gp_thread.get_gp_real()->predict(random_inputs);
 
                    ^
-
-[100%] Built target generic_test
 
 make[3]: *** [catkin/learning/learning_control/CMakeFiles/utest_nrt_gp_speed.dir/test/utest_nrt_gp_speed_main.cpp.o] Error 1
 
