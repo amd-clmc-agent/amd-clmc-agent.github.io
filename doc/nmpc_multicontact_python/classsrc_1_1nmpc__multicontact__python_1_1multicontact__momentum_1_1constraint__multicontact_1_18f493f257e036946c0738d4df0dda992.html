@@ -110,9 +110,6 @@ def&#160;</td><td class="memItemRight" valign="bottom"><b>__init__</b></td></tr>
 <tr class="memitem:a9f88e385cbe48dc3ea4618551db5ec7d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9f88e385cbe48dc3ea4618551db5ec7d"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>initialize</b></td></tr>
 <tr class="separator:a9f88e385cbe48dc3ea4618551db5ec7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a705ea23ccaf7ce8cf1447c75d85861"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9a705ea23ccaf7ce8cf1447c75d85861"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>update</b></td></tr>
-<tr class="separator:a9a705ea23ccaf7ce8cf1447c75d85861"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a78682f3735d29272d54322ed3f7c3dd7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a78682f3735d29272d54322ed3f7c3dd7"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>value</b></td></tr>
 <tr class="separator:a78682f3735d29272d54322ed3f7c3dd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -131,38 +128,30 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a7e18477547592558acd0f0e948b99755"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7e18477547592558acd0f0e948b99755"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>si</b></td></tr>
 <tr class="separator:a7e18477547592558acd0f0e948b99755"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8931dfdbafa23c1872bf008e1cefd7fa"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8931dfdbafa23c1872bf008e1cefd7fa"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>scale</b></td></tr>
-<tr class="separator:a8931dfdbafa23c1872bf008e1cefd7fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af8baf20c6500ababc7a649b06f0050c7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af8baf20c6500ababc7a649b06f0050c7"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>is_active</b></td></tr>
 <tr class="separator:af8baf20c6500ababc7a649b06f0050c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a267c9b7d4229985a280ca749e4ba5c60"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a267c9b7d4229985a280ca749e4ba5c60"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>nc_max</b></td></tr>
-<tr class="separator:a267c9b7d4229985a280ca749e4ba5c60"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8fd64a6a6cc090aac569695c9785a411"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8fd64a6a6cc090aac569695c9785a411"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>nc</b></td></tr>
 <tr class="separator:a8fd64a6a6cc090aac569695c9785a411"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a96bbdd5ca90ee1400c56e08efedb8c3c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a96bbdd5ca90ee1400c56e08efedb8c3c"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>E</b></td></tr>
-<tr class="separator:a96bbdd5ca90ee1400c56e08efedb8c3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0ff3a052aebbfc7f332ae6959e18414d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0ff3a052aebbfc7f332ae6959e18414d"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>H</b></td></tr>
-<tr class="separator:a0ff3a052aebbfc7f332ae6959e18414d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ce09c5275d24ed24909492a6bf3f493"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6ce09c5275d24ed24909492a6bf3f493"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>selector</b></td></tr>
+<tr class="separator:a6ce09c5275d24ed24909492a6bf3f493"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><pre class="fragment">Constraint the CoM altitude or the vertical forces
-to be between lb and ub
-
+<div class="textblock"><pre class="fragment">We bound the angular momentum
 equations :
-scale * E X + H = 0
+\begin{equation}
+    l_min &lt; l &lt; l_max
+\end{equation}
+scale * (X^T D X + E X + H) = 0
 </pre> </div><hr/>The documentation for this class was generated from the following file:<ul>
 <li>/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/nmpc_multicontact/nmpc_multicontact_python/src/nmpc_multicontact_python/multicontact_momentum/constraint_multicontact.py</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Apr 6 2018 13:14:17 for nmpc_multicontact_python by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Apr 25 2018 18:30:37 for nmpc_multicontact_python by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
