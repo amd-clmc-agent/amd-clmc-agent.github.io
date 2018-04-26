@@ -1,22 +1,4 @@
--- The C compiler identification is GNU 4.8.4
-
--- The CXX compiler identification is GNU 4.8.4
-
--- Check for working C compiler: /usr/bin/cc
-
--- Check for working C compiler: /usr/bin/cc -- works
-
--- Detecting C compiler ABI info
-
--- Detecting C compiler ABI info - done
-
--- Check for working CXX compiler: /usr/bin/c++
-
--- Check for working CXX compiler: /usr/bin/c++ -- works
-
--- Detecting CXX compiler ABI info
-
--- Detecting CXX compiler ABI info - done
+WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
 
 -- Using CATKIN_DEVEL_PREFIX: /home/administrator/ci/ci/team/workspace/devel
 
@@ -24,13 +6,11 @@
 
 -- This workspace overlays: /opt/ros/indigo
 
--- Found PythonInterp: /usr/bin/python (found version "2.7.6") 
-
 -- Using PYTHON_EXECUTABLE: /usr/bin/python
 
--- Using Debian Python package layout
+-- Python version: 2.7
 
--- Using empy: /usr/bin/empy
+-- Using Debian Python package layout
 
 -- Using CATKIN_ENABLE_TESTING: ON
 
@@ -38,87 +18,153 @@
 
 -- Using CATKIN_TEST_RESULTS_DIR: /home/administrator/ci/ci/team/workspace/build/test_results
 
--- Looking for include file pthread.h
-
--- Looking for include file pthread.h - found
-
--- Looking for pthread_create
-
--- Looking for pthread_create - not found
-
--- Looking for pthread_create in pthreads
-
--- Looking for pthread_create in pthreads - not found
-
--- Looking for pthread_create in pthread
-
--- Looking for pthread_create in pthread - found
-
--- Found Threads: TRUE  
-
 -- Found gtest sources under '/usr/src/gtest': gtests will be built
 
--- Using Python nosetests: /usr/bin/nosetests-2.7
-
--- catkin 0.6.19
+-- catkin 0.5.90
 
 -- BUILD_SHARED_LIBS is on
 
--- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
--- ~~  traversing 1 packages in topological order:
-
--- ~~  - detect_faces
+WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- +++ processing catkin package: 'detect_faces'
+-- ~~  traversing 19 packages in topological order:
 
--- ==> add_subdirectory(catkin/perception/detect_faces)
+-- ~~  - Eigen
 
--- Using these message generators: gencpp;genlisp;genpy
+-- ~~  - ros_realtime (metapackage)
 
--- Configuring done
+-- ~~  - allocators
 
--- Generating done
+-- ~~  - rosatomic
 
--- Build files have been written to: /home/administrator/ci/ci/team/workspace/build
+-- ~~  - lockfree
 
-Scanning dependencies of target detect_faces_node
+-- ~~  - rt_timer
 
-[ 33%] [100%] [100%] Building CXX object catkin/perception/detect_faces/CMakeFiles/detect_faces_node.dir/src/face_detector.cpp.o
+-- ~~  - sl_config
 
-Building CXX object catkin/perception/detect_faces/CMakeFiles/detect_faces_node.dir/src/main.cpp.o
+-- ~~  - utilities
 
-Building CXX object catkin/perception/detect_faces/CMakeFiles/detect_faces_node.dir/src/face_detector_node.cpp.o
+-- ~~  - lwpr
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/detect_faces/detect_faces_node
+-- ~~  - xenomai_ros
 
-[100%] Built target detect_faces_node
+-- ~~  - ati_ft_sensor
 
-Install the project...
+-- ~~  - blmc_can
 
--- Install configuration: ""
+-- ~~  - rosrt
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/_setup_util.py
+-- ~~  - sl
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/env.sh
+-- ~~  - hopper
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/setup.bash
+-- ~~  - hopper_user
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/setup.sh
+-- ~~  - optoforce_sensor
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/setup.zsh
+-- ~~  - yaml_cpp
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/.rosinstall
+-- ~~  - hermes_communication_tools
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/detect_faces.pc
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/detect_faces/cmake/detect_facesConfig.cmake
+-- +++ processing catkin package: 'Eigen'
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/detect_faces/cmake/detect_facesConfig-version.cmake
+-- ==> add_subdirectory(catkin/third_party/Eigen)
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/detect_faces/package.xml
+WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
+
+-- +++ processing catkin metapackage: 'ros_realtime'
+
+-- ==> add_subdirectory(catkin/ros/ros_realtime/ros_realtime)
+
+-- +++ processing catkin package: 'allocators'
+
+-- ==> add_subdirectory(catkin/ros/ros_realtime/allocators)
+
+-- Boost version: 1.54.0
+
+-- +++ processing catkin package: 'rosatomic'
+
+-- ==> add_subdirectory(catkin/ros/ros_realtime/rosatomic)
+
+-- Boost version: 1.54.0
+
+-- +++ processing catkin package: 'lockfree'
+
+-- ==> add_subdirectory(catkin/ros/ros_realtime/lockfree)
+
+-- Boost version: 1.54.0
+
+-- +++ processing catkin package: 'rt_timer'
+
+-- ==> add_subdirectory(catkin/ros/ros_realtime/rt_timer)
+
+-- +++ processing catkin package: 'sl_config'
+
+-- ==> add_subdirectory(catkin/core-sl/sl_config)
+
+-- +++ processing catkin package: 'utilities'
+
+-- ==> add_subdirectory(catkin/core-sl/locomotion-utilities)
+
+-- +++ processing catkin package: 'lwpr'
+
+-- ==> add_subdirectory(catkin/core-sl/locomotion-lwpr)
+
+-- +++ processing catkin package: 'xenomai_ros'
+
+-- ==> add_subdirectory(catkin/ros/xenomai-ros)
+
+-- +++ processing catkin package: 'ati_ft_sensor'
+
+-- ==> add_subdirectory(catkin/humanoids/humanoid_hardware/ati_ft_sensor)
+
+-- xenomai NOT found. (/usr/local;/usr)
+
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+
+-- Boost version: 1.54.0
+
+-- Found the following Boost libraries:
+
+--   system
+
+--   filesystem
+
+--   thread
+
+-- +++ processing catkin package: 'blmc_can'
+
+-- ==> add_subdirectory(catkin/hardware/blmc_can)
+
+-- xenomai NOT found. (/usr/local;/usr)
+
+CMake Error at catkin/third_party/catkin/cmake/catkin_package.cmake:296 (message):
+
+  catkin_package() include dir 'Xenomai_INCLUDE_DIR-NOTFOUND' does not exist
+
+  relative to
+
+  '/home/administrator/ci/ci/team/workspace/src/catkin/hardware/blmc_can'
+
+Call Stack (most recent call first):
+
+  catkin/third_party/catkin/cmake/catkin_package.cmake:98 (_catkin_package)
+
+  catkin/hardware/blmc_can/CMakeLists.txt:22 (catkin_package)
+
+
+
+
+
+-- Configuring incomplete, errors occurred!
+
+See also "/home/administrator/ci/ci/team/workspace/build/CMakeFiles/CMakeOutput.log".
+
+See also "/home/administrator/ci/ci/team/workspace/build/CMakeFiles/CMakeError.log".
 
 Base path: /home/administrator/ci/ci/team/workspace
 
@@ -130,16 +176,10 @@ Devel space: /home/administrator/ci/ci/team/workspace/devel
 
 Install space: /home/administrator/ci/ci/team/workspace/install
 
-Creating symlink "/home/administrator/ci/ci/team/workspace/src/CMakeLists.txt" pointing to "/opt/ros/indigo/share/catkin/cmake/toplevel.cmake"
-
 ####
 
 #### Running command: "cmake /home/administrator/ci/ci/team/workspace/src -DCATKIN_DEVEL_PREFIX=/home/administrator/ci/ci/team/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/administrator/ci/ci/team/workspace/install -G Unix Makefiles" in "/home/administrator/ci/ci/team/workspace/build"
 
 ####
 
-####
-
-#### Running command: "make -j16 install" in "/home/administrator/ci/ci/team/workspace/build"
-
-####
+Invoking "cmake" failed
