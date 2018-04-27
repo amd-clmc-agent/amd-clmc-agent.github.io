@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['place',['place',['../classsrc_1_1nmpc__multicontact__python_1_1utils_1_1display_1_1Display.html#a58fd0bef7fa53ccb0191b3f36c6de715',1,'src::nmpc_multicontact_python::utils::display::Display']]]
+  ['orientationerror',['orientationError',['../classsrc_1_1nmpc__multicontact__python_1_1mathematics_1_1quaternion_1_1Quaternion.html#a9e6ae17c1b36b6af19207e93a031bea5',1,'src::nmpc_multicontact_python::mathematics::quaternion::Quaternion']]],
+  ['oscillator',['Oscillator',['../classsrc_1_1nmpc__multicontact__python_1_1mathematics_1_1oscillator_1_1Oscillator.html',1,'src::nmpc_multicontact_python::mathematics::oscillator']]]
 ];

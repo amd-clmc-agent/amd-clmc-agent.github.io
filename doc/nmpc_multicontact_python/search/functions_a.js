@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['upper_5fbound',['upper_bound',['../classsrc_1_1nmpc__multicontact__python_1_1multicontact_1_1constraint__multicontact_1_1FrictionConeConstraints.html#ac2e3a80ee3d3721e3008164872498834',1,'src::nmpc_multicontact_python::multicontact::constraint_multicontact::FrictionConeConstraints']]]
+  ['orientationerror',['orientationError',['../classsrc_1_1nmpc__multicontact__python_1_1mathematics_1_1quaternion_1_1Quaternion.html#a9e6ae17c1b36b6af19207e93a031bea5',1,'src::nmpc_multicontact_python::mathematics::quaternion::Quaternion']]]
 ];
