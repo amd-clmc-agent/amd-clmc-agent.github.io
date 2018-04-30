@@ -1,32 +1,8 @@
-WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
-
--- The C compiler identification is GNU 4.8.4
-
--- The CXX compiler identification is GNU 4.8.4
-
--- Check for working C compiler: /usr/bin/cc
-
--- Check for working C compiler: /usr/bin/cc -- works
-
--- Detecting C compiler ABI info
-
--- Detecting C compiler ABI info - done
-
--- Check for working CXX compiler: /usr/bin/c++
-
--- Check for working CXX compiler: /usr/bin/c++ -- works
-
--- Detecting CXX compiler ABI info
-
--- Detecting CXX compiler ABI info - done
-
 -- Using CATKIN_DEVEL_PREFIX: /home/administrator/ci/ci/team/workspace/devel
 
 -- Using CMAKE_PREFIX_PATH: /opt/ros/indigo
 
 -- This workspace overlays: /opt/ros/indigo
-
--- Found PythonInterp: /usr/bin/python (found version "2.7.6") 
 
 -- Using PYTHON_EXECUTABLE: /usr/bin/python
 
@@ -40,24 +16,6 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 
 -- Using CATKIN_TEST_RESULTS_DIR: /home/administrator/ci/ci/team/workspace/build/test_results
 
--- Looking for include file pthread.h
-
--- Looking for include file pthread.h - found
-
--- Looking for pthread_create
-
--- Looking for pthread_create - not found
-
--- Looking for pthread_create in pthreads
-
--- Looking for pthread_create in pthreads - not found
-
--- Looking for pthread_create in pthread
-
--- Looking for pthread_create in pthread - found
-
--- Found Threads: TRUE  
-
 -- Found gtest sources under '/usr/src/gtest': gtests will be built
 
 -- Using Python nosetests: /usr/bin/nosetests-2.7
@@ -66,767 +24,537 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 
 -- BUILD_SHARED_LIBS is on
 
-WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-- ~~  traversing 55 packages in topological order:
+
+-- ~~  - baxter_common (metapackage)
+
+-- ~~  - baxter_description
+
+-- ~~  - baxter_sdk (metapackage)
+
+-- ~~  - lula_doc
+
+-- ~~  - lula_log
+
+-- ~~  - lula_util
+
+-- ~~  - lula_differential_geometry
+
+-- ~~  - lula_optimization
+
+-- ~~  - lula_motion
+
+-- ~~  - lula_workspace
+
+-- ~~  - mpi_system_data_bags
+
+-- ~~  - rethink_ee_description
+
+-- ~~  - graph_search
+
+-- ~~  - baxter_maintenance_msgs
+
+-- ~~  - amd_clmc_ros_messages
+
+-- ~~  - ar_track_alvar_msgs
+
+-- ~~  - custom_robot_msgs
+
+-- ~~  - dbot_ros_msgs
+
+-- ~~  - riemo_grasping_msgs
+
+-- ~~  - baxter_core_msgs
+
+-- ~~  - rieef_msgs
+
+-- ~~  - lula_api
+
+-- ~~  - lula_common
+
+-- ~~  - lula_controller_msgs
+
+-- ~~  - lula_ros_util
+
+-- ~~  - lula_rt
+
+-- ~~  - lula_world_msgs
+
+-- ~~  - baxter_interface
+
+-- ~~  - baxter_tools
+
+-- ~~  - lula_baxter
+
+-- ~~  - ellipsoid_msgs
+
+-- ~~  - lula_control_internal
+
+-- ~~  - lula_world
+
+-- ~~  - lula_world_internal
+
+-- ~~  - lula_plugins_interface
+
+-- ~~  - lula_kinematics
+
+-- ~~  - lula_visualization
+
+-- ~~  - lula_task
+
+-- ~~  - lula_apollo_internal
+
+-- ~~  - lula_baxter_internal
+
+-- ~~  - lula_plugins
+
+-- ~~  - lula_plugins_internal
+
+-- ~~  - lula_visualization_internal
+
+-- ~~  - lula_rviz_plugins
+
+-- ~~  - rieef_utils
+
+-- ~~  - visualization_3d
+
+-- ~~  - geodesic_flow
+
+-- ~~  - moveit_distance_field
+
+-- ~~  - sampling_based_planning
+
+-- ~~  - signed_distance_field
+
+-- ~~  - rieef_ros
+
+-- ~~  - condor_interface
+
+-- ~~  - rieef_programs
+
+-- ~~  - rieef_demos
+
+-- ~~  - baxter_examples
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- ~~  traversing 6 packages in topological order:
+-- +++ processing catkin metapackage: 'baxter_common'
 
--- ~~  - Eigen
+-- ==> add_subdirectory(catkin/lula/third_party/baxter_common/baxter_common)
 
--- ~~  - py_cpp_interface
+-- +++ processing catkin package: 'baxter_description'
 
--- ~~  - rbdl
+-- ==> add_subdirectory(catkin/lula/third_party/baxter_common/baxter_description)
 
--- ~~  - yaml_cpp
+-- +++ processing catkin metapackage: 'baxter_sdk'
 
--- ~~  - planar_finger
+-- ==> add_subdirectory(catkin/lula/third_party/baxter/baxter_sdk)
 
--- ~~  - toy_hoppers
+-- +++ processing catkin package: 'lula_doc'
 
--- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- ==> add_subdirectory(catkin/lula/internal/lula_doc)
 
--- +++ processing catkin package: 'Eigen'
+-- +++ processing catkin package: 'lula_log'
 
--- ==> add_subdirectory(catkin/third_party/Eigen)
-
-WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
-
--- +++ processing catkin package: 'py_cpp_interface'
-
--- ==> add_subdirectory(catkin/utils/py_cpp_interface)
+-- ==> add_subdirectory(catkin/lula/external/lula_log)
 
 -- Boost version: 1.54.0
 
 -- Found the following Boost libraries:
-
---   system
-
---   thread
-
---   python
-
--- PYTHON_BIN_LOCATION: /usr/bin/python
-
-
-
--- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython2.7.so 
-
--- Found NumPy: version "1.14.0" /usr/local/lib/python2.7/dist-packages/numpy/core/include
-
--- +++ processing catkin package: 'rbdl'
-
--- ==> add_subdirectory(catkin/third_party/rbdl)
-
--- Setting build type to 'Release' as none was specified.
-
--- ROS found: /opt/ros/indigo/share/ros
-
--- +++ processing catkin package: 'yaml_cpp'
-
--- ==> add_subdirectory(catkin/third_party/YAML_CPP)
-
--- Boost version: 1.54.0
-
--- Performing Test FLAG_WEXTRA
-
--- Performing Test FLAG_WEXTRA - Success
-
--- +++ processing catkin package: 'planar_finger'
-
--- ==> add_subdirectory(catkin/robots/toy_robot_barn/planar_finger)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- Boost version: 1.54.0
-
--- Found the following Boost libraries:
-
---   system
-
---   program_options
 
 --   filesystem
 
--- +++ processing catkin package: 'toy_hoppers'
+CMake Warning at catkin/lula/external/lula_log/CMakeLists.txt:55 (message):
 
--- ==> add_subdirectory(catkin/robots/toy_robot_barn/toy_hoppers)
+  NO log_test
+
+
+
+
+
+-- +++ processing catkin package: 'lula_util'
+
+-- ==> add_subdirectory(catkin/lula/internal/lula_util)
+
+-- Found glog    (include: /usr/include, library: /usr/lib/x86_64-linux-gnu/libglog.so)
+
+-- Found gflags  (include: /usr/include, library: /usr/lib/x86_64-linux-gnu/libgflags.so)
+
+-- Eigen found (include: /usr/include/eigen3)
+
+CMake Warning at catkin/lula/internal/lula_util/CMakeLists.txt:147 (message):
+
+  DEACTIVATED: caching_utest
+
+
+
+
+
+CMake Warning at catkin/lula/internal/lula_util/CMakeLists.txt:174 (message):
+
+  DEACTIVATED: file_sequencer_utest
+
+
+
+
+
+-- +++ processing catkin package: 'lula_differential_geometry'
+
+-- ==> add_subdirectory(catkin/lula/internal/lula_differential_geometry)
+
+-- A library with BLAS API found.
+
+-- A library with LAPACK API found.
+
+-- Lapack: TRUE
+
+-- Lapack required dependencies: f2c atalas-base-dev lapacke-dev lapack-dev
+
+-- Lapack linker flags: 
+
+-- Lapack libraries: /usr/lib/liblapack.so;/usr/lib/libblas.so
+
+-- Lapack 95 libraries: 
+
+CMake Warning at catkin/lula/internal/lula_differential_geometry/CMakeLists.txt:137 (message):
+
+  DEACTIVATED: analytical_grid_utest
+
+
+
+
+
+CMake Warning at catkin/lula/internal/lula_differential_geometry/CMakeLists.txt:146 (message):
+
+  DEACTIVATED: differentiable_functions_tests_utest
+
+
+
+
+
+CMake Warning at catkin/lula/internal/lula_differential_geometry/CMakeLists.txt:163 (message):
+
+  DEACTIVATED: function_approximator_timing_utest
+
+
+
+
+
+CMake Warning at catkin/lula/internal/lula_differential_geometry/CMakeLists.txt:172 (message):
+
+  DEACTIVATED: geometry_utest
+
+
+
+
+
+CMake Warning at catkin/lula/internal/lula_differential_geometry/CMakeLists.txt:181 (message):
+
+  DEACTIVATED: lapack_interface_utest
+
+
+
+
+
+CMake Warning at catkin/lula/internal/lula_differential_geometry/CMakeLists.txt:190 (message):
+
+  DEACTIVATED: linear_algebra_benchmarks_utest
+
+
+
+
+
+CMake Warning at catkin/lula/internal/lula_differential_geometry/CMakeLists.txt:199 (message):
+
+  DEACTIVATED: linear_algebra_utest
+
+
+
+
+
+-- +++ processing catkin package: 'lula_optimization'
+
+-- ==> add_subdirectory(catkin/lula/internal/lula_optimization)
+
+CMake Warning at catkin/lula/internal/lula_optimization/CMakeLists.txt:86 (message):
+
+  DEACTIVATED: augmented_lagrangian_utest
+
+
+
+
+
+CMake Warning at catkin/lula/internal/lula_optimization/CMakeLists.txt:95 (message):
+
+  DEACTIVATED: objective_functions_utest
+
+
+
+
+
+CMake Warning at catkin/lula/internal/lula_optimization/CMakeLists.txt:104 (message):
+
+  DEACTIVATED: omp_parallelization_utest
+
+
+
+
+
+CMake Warning at catkin/lula/internal/lula_optimization/CMakeLists.txt:113 (message):
+
+  DEACTIVATED: optimization_test_utest
+
+
+
+
+
+-- +++ processing catkin package: 'lula_motion'
+
+-- ==> add_subdirectory(catkin/lula/internal/lula_motion)
+
+CMake Warning at catkin/lula/internal/lula_motion/CMakeLists.txt:125 (message):
+
+  DEACTIVATED: behavior_utest
+
+
+
+
+
+CMake Warning at catkin/lula/internal/lula_motion/CMakeLists.txt:139 (message):
+
+  DEACTIVATED: finite_differencing_operators_utest
+
+
+
+
+
+CMake Warning at catkin/lula/internal/lula_motion/CMakeLists.txt:152 (message):
+
+  DEACTIVATED: optimal_control_utest
+
+
+
+
+
+CMake Warning at catkin/lula/internal/lula_motion/CMakeLists.txt:184 (message):
+
+  DEACTIVATED: trajectory_function_network_utest
+
+
+
+
+
+CMake Warning at catkin/lula/internal/lula_motion/CMakeLists.txt:193 (message):
+
+  DEACTIVATED: augmented_position_velocity_map_utest
+
+
+
+
+
+-- +++ processing catkin package: 'lula_workspace'
+
+-- ==> add_subdirectory(catkin/lula/internal/lula_workspace)
+
+-- +++ processing catkin package: 'mpi_system_data_bags'
+
+-- ==> add_subdirectory(catkin/manipulation/riemo_electrical_fields/mpi_system_data_bags)
+
+-- +++ processing catkin package: 'rethink_ee_description'
+
+-- ==> add_subdirectory(catkin/lula/third_party/baxter_common/rethink_ee_description)
+
+-- +++ processing catkin package: 'graph_search'
+
+-- ==> add_subdirectory(catkin/manipulation/riemo_electrical_fields/graph_search)
+
+CMAKE_MODULE_PATH /home/administrator/ci/ci/team/workspace/src/catkin/manipulation/riemo_electrical_fields/graph_search/../cmake/Modules
+
+-- Eigen found (include: /usr/include/eigen3)
+
+GLOG include_dirs: 
+
+GLOG libraries: glog
+
+GLOG version : 0.3.3
+
+GLOG library_dirs : 
+
+catkin_INCLUDE_DIRS : /opt/ros/indigo/include/usr/include
+
+ *** CMAKE_CXX_FLAGS: -std=c++11  
+
+-- +++ processing catkin package: 'baxter_maintenance_msgs'
+
+-- ==> add_subdirectory(catkin/lula/third_party/baxter_common/baxter_maintenance_msgs)
 
 -- Using these message generators: gencpp;genlisp;genpy
 
--- Configuring done
+-- baxter_maintenance_msgs: 7 messages, 0 services
 
--- Generating done
+-- +++ processing catkin package: 'amd_clmc_ros_messages'
 
--- Build files have been written to: /home/administrator/ci/ci/team/workspace/build
+-- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/amd_clmc_ros_messages)
 
-Scanning dependencies of target hello_world
+-- Using these message generators: gencpp;genlisp;genpy
 
-[  1%] Building CXX object catkin/utils/py_cpp_interface/CMakeFiles/hello_world.dir/src/hello_world.cpp.o
+-- amd_clmc_ros_messages: 108 messages, 10 services
 
-Scanning dependencies of target yaml-cpp
+-- +++ processing catkin package: 'ar_track_alvar_msgs'
 
-Scanning dependencies of target py_converter_test
+-- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/ar_track_alvar_msgs)
 
-[  3%] Scanning dependencies of target PyShell
+-- Using these message generators: gencpp;genlisp;genpy
 
-[  4%] [  6%] [  7%] [  9%] [ 12%] [ 12%] [ 14%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/nodebuilder.cpp.o
+-- ar_track_alvar_msgs: 2 messages, 0 services
 
-[ 15%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/parse.cpp.o
+-- +++ processing catkin package: 'custom_robot_msgs'
 
-Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/node.cpp.o
+-- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/custom_robot_msgs)
 
-Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/memory.cpp.o
+-- Using these message generators: gencpp;genlisp;genpy
 
-Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/directives.cpp.o
+-- custom_robot_msgs: 1 messages, 2 services
 
-Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/nodeevents.cpp.o
+-- +++ processing catkin package: 'dbot_ros_msgs'
 
-Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/ostream_wrapper.cpp.o
+-- ==> add_subdirectory(catkin/ros/dbot_ros_msgs)
 
-[ 17%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/scantoken.cpp.o
+-- Using these message generators: gencpp;genlisp;genpy
 
-[ 18%] [ 20%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/tag.cpp.o
+-- dbot_ros_msgs: 3 messages, 3 services
 
-[ 23%] [ 23%] Building CXX object catkin/utils/py_cpp_interface/CMakeFiles/py_converter_test.dir/tests/converter_test.cpp.o
+-- +++ processing catkin package: 'riemo_grasping_msgs'
 
-Scanning dependencies of target rbdl
+-- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/riemo_grasping_msgs)
 
-Building CXX object catkin/utils/py_cpp_interface/CMakeFiles/PyShell.dir/src/PyShell.cpp.o
+-- Using these message generators: gencpp;genlisp;genpy
 
-Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/scantag.cpp.o
+-- riemo_grasping_msgs: 5 messages, 3 services
 
-Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emitterutils.cpp.o
+-- +++ processing catkin package: 'baxter_core_msgs'
 
-Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/scanscalar.cpp.o
+-- ==> add_subdirectory(catkin/lula/third_party/baxter_common/baxter_core_msgs)
 
-[ 25%] Building CXX object catkin/third_party/rbdl/CMakeFiles/rbdl.dir/src/rbdl_version.cc.o
+-- Using these message generators: gencpp;genlisp;genpy
 
-[ 26%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/scanner.cpp.o
+-- baxter_core_msgs: 25 messages, 4 services
 
-[ 28%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/parser.cpp.o
+-- +++ processing catkin package: 'rieef_msgs'
 
-[ 29%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emitter.cpp.o
+-- ==> add_subdirectory(catkin/manipulation/riemo_electrical_fields/rieef_msgs)
 
-[ 31%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/exp.cpp.o
+-- Using these message generators: gencpp;genlisp;genpy
 
-[ 32%] Building CXX object catkin/third_party/rbdl/CMakeFiles/rbdl.dir/src/rbdl_mathutils.cc.o
+-- rieef_msgs: 4 messages, 3 services
 
-[ 34%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/regex.cpp.o
+-- +++ processing catkin package: 'lula_api'
 
-[ 35%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/binary.cpp.o
+-- ==> add_subdirectory(catkin/lula/external/lula_api)
 
-[ 37%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/node_data.cpp.o
+-- Using these message generators: gencpp;genlisp;genpy
 
-[ 39%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emit.cpp.o
+-- lula_api: 1 messages, 2 services
 
-[ 40%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/simplekey.cpp.o
+-- +++ processing catkin package: 'lula_common'
 
-[ 42%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emitterstate.cpp.o
+-- ==> add_subdirectory(catkin/lula/external/lula_common)
 
-[ 43%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/convert.cpp.o
+-- +++ processing catkin package: 'lula_controller_msgs'
 
-[ 45%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/singledocparser.cpp.o
+-- ==> add_subdirectory(catkin/lula/internal/ros/lula_controller_msgs)
 
-[ 46%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/stream.cpp.o
+-- Using these message generators: gencpp;genlisp;genpy
 
-[ 48%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emitfromevents.cpp.o
+-- lula_controller_msgs: 39 messages, 4 services
 
-[ 50%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/null.cpp.o
+-- +++ processing catkin package: 'lula_ros_util'
 
-[ 51%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilderadapter.cpp.o
+-- ==> add_subdirectory(catkin/lula/external/lula_ros_util)
 
-[ 53%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilder.cpp.o
+-- Using these message generators: gencpp;genlisp;genpy
 
-[ 54%] Building CXX object catkin/third_party/rbdl/CMakeFiles/rbdl.dir/src/rbdl_utils.cc.o
+-- lula_ros_util: 1 messages, 1 services
 
-[ 56%] [ 57%] Building CXX object catkin/third_party/rbdl/CMakeFiles/rbdl.dir/src/Contacts.cc.o
+-- +++ processing catkin package: 'lula_rt'
 
-Building CXX object catkin/third_party/rbdl/CMakeFiles/rbdl.dir/src/Dynamics.cc.o
+-- ==> add_subdirectory(catkin/lula/internal/ros/lula_rt)
 
-[ 59%] Building CXX object catkin/third_party/rbdl/CMakeFiles/rbdl.dir/src/Logging.cc.o
+CMake Warning at catkin/lula/internal/ros/lula_rt/CMakeLists.txt:131 (message):
 
-[ 60%] Building CXX object catkin/third_party/rbdl/CMakeFiles/rbdl.dir/src/Joint.cc.o
+  DEACTIVATED: time_varying_affine_policy_utest
 
-[ 62%] Building CXX object catkin/third_party/rbdl/CMakeFiles/rbdl.dir/src/Model.cc.o
 
-[ 64%] Building CXX object catkin/third_party/rbdl/CMakeFiles/rbdl.dir/src/Kinematics.cc.o
 
-Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libyaml-cpp.so
 
-[ 64%] Built target yaml-cpp
 
-Scanning dependencies of target sandbox
+-- +++ processing catkin package: 'lula_world_msgs'
 
-Scanning dependencies of target read
+-- ==> add_subdirectory(catkin/lula/external/lula_world_msgs)
 
-Scanning dependencies of target parse
+-- Using these message generators: gencpp;genlisp;genpy
 
-Scanning dependencies of target run-tests
+-- lula_world_msgs: 5 messages, 5 services
 
-[ 65%] [ 67%] [ 68%] Building CXX object catkin/third_party/YAML_CPP/util/CMakeFiles/parse.dir/parse.cpp.o
+-- +++ processing catkin package: 'baxter_interface'
 
-Building CXX object catkin/third_party/YAML_CPP/util/CMakeFiles/read.dir/read.cpp.o
+-- ==> add_subdirectory(catkin/lula/third_party/baxter_interface)
 
-Building CXX object catkin/third_party/YAML_CPP/util/CMakeFiles/sandbox.dir/sandbox.cpp.o
+-- Using these message generators: gencpp;genlisp;genpy
 
-[ 70%] Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/emittertests.cpp.o
+-- +++ processing catkin package: 'baxter_tools'
 
-[ 71%] [ 73%] Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/spectests.cpp.o
+-- ==> add_subdirectory(catkin/lula/third_party/baxter_tools)
 
-Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/tests.cpp.o
+-- Using these message generators: gencpp;genlisp;genpy
 
-[ 75%] Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/main.cpp.o
+-- +++ processing catkin package: 'lula_baxter'
 
-[ 76%] Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/new-api/parsertests.cpp.o
+-- ==> add_subdirectory(catkin/lula/external/lula_baxter)
 
-[ 78%] Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/new-api/spectests.cpp.o
+-- Using these message generators: gencpp;genlisp;genpy
 
-In file included from /usr/include/python2.7/numpy/ndarraytypes.h:1761:0,
+CMake Error at catkin/lula/external/lula_baxter/CMakeLists.txt:31 (find_package):
 
-                 from /usr/include/python2.7/numpy/ndarrayobject.h:17,
+  By not providing "FindEigen.cmake" in CMAKE_MODULE_PATH this project has
 
-                 from /usr/include/python2.7/numpy/arrayobject.h:4,
+  asked CMake to find a package configuration file provided by "Eigen", but
 
-                 from /home/administrator/ci/ci/team/workspace/src/catkin/utils/py_cpp_interface/include/py_cpp_interface/eigen_converters.h:20,
+  CMake did not find one.
 
-                 from /home/administrator/ci/ci/team/workspace/src/catkin/utils/py_cpp_interface/tests/converter_test.cpp:21:
 
-/usr/include/python2.7/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
 
- #warning "Using deprecated NumPy API, disable it by " \
+  Could not find a package configuration file provided by "Eigen" with any of
 
-  ^
+  the following names:
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/yaml_cpp/read
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/yaml_cpp/sandbox
 
-[ 79%] [ 79%] Built target read
+    EigenConfig.cmake
 
-Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/new-api/nodetests.cpp.o
+    eigen-config.cmake
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/yaml_cpp/parse
 
-[ 79%] Built target sandbox
 
-[ 79%] Built target parse
+  Add the installation prefix of "Eigen" to CMAKE_PREFIX_PATH or set
 
-In file included from /usr/include/python2.7/numpy/ndarraytypes.h:1761:0,
+  "Eigen_DIR" to a directory containing one of the above files.  If "Eigen"
 
-                 from /usr/include/python2.7/numpy/ndarrayobject.h:17,
+  provides a separate development package or SDK, be sure it has been
 
-                 from /usr/include/python2.7/numpy/arrayobject.h:4,
+  installed.
 
-                 from /home/administrator/ci/ci/team/workspace/src/catkin/utils/py_cpp_interface/include/py_cpp_interface/eigen_converters.h:20,
 
-                 from /home/administrator/ci/ci/team/workspace/src/catkin/utils/py_cpp_interface/include/py_cpp_interface/PyShell.h:24,
 
-                 from /home/administrator/ci/ci/team/workspace/src/catkin/utils/py_cpp_interface/src/PyShell.cpp:15:
 
-/usr/include/python2.7/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
 
- #warning "Using deprecated NumPy API, disable it by " \
+-- Configuring incomplete, errors occurred!
 
-  ^
+See also "/home/administrator/ci/ci/team/workspace/build/CMakeFiles/CMakeOutput.log".
 
-Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/hello_world.so
-
-[ 79%] Built target hello_world
-
-/home/administrator/ci/ci/team/workspace/src/catkin/utils/py_cpp_interface/src/PyShell.cpp: In member function ‘void py_cpp_interface::PyShell::initialize()’:
-
-/home/administrator/ci/ci/team/workspace/src/catkin/utils/py_cpp_interface/src/PyShell.cpp:42:31: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
-
-   char *argv[] = { "Py Shell" };
-
-                               ^
-
-Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libPyShell.so
-
-[ 79%] Built target PyShell
-
-Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/py_converter_test.so
-
-Scanning dependencies of target test_py_shell
-
-[ 81%] Building CXX object catkin/utils/py_cpp_interface/CMakeFiles/test_py_shell.dir/src/test_py_shell.cpp.o
-
-Copying library files to python module directory
-
-‘/home/administrator/ci/ci/team/workspace/devel/lib/py_converter_test.so’ -> ‘/home/administrator/ci/ci/team/workspace/devel/lib/python2.7/dist-packages/py_py_cpp_interface/py_converter_test.so’
-
-[ 81%] Built target py_converter_test
-
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/yaml_cpp/run-tests
-
-[ 81%] Built target run-tests
-
-In file included from /usr/include/python2.7/numpy/ndarraytypes.h:1761:0,
-
-                 from /usr/include/python2.7/numpy/ndarrayobject.h:17,
-
-                 from /usr/include/python2.7/numpy/arrayobject.h:4,
-
-                 from /home/administrator/ci/ci/team/workspace/src/catkin/utils/py_cpp_interface/include/py_cpp_interface/eigen_converters.h:20,
-
-                 from /home/administrator/ci/ci/team/workspace/src/catkin/utils/py_cpp_interface/include/py_cpp_interface/PyShell.h:24,
-
-                 from /home/administrator/ci/ci/team/workspace/src/catkin/utils/py_cpp_interface/src/test_py_shell.cpp:16:
-
-/usr/include/python2.7/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
-
- #warning "Using deprecated NumPy API, disable it by " \
-
-  ^
-
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/py_cpp_interface/test_py_shell
-
-[ 81%] Built target test_py_shell
-
-Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/librbdl.so
-
-[ 81%] Built target rbdl
-
-Scanning dependencies of target rbdl_urdfreader
-
-[ 82%] Building CXX object catkin/third_party/rbdl/addons/urdfreader/CMakeFiles/rbdl_urdfreader.dir/urdfreader.cc.o
-
-Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/librbdl_urdfreader.so
-
-[ 82%] Built target rbdl_urdfreader
-
-Scanning dependencies of target rbdl_urdfreader_util
-
-Scanning dependencies of target planar_finger
-
-[ 84%] Scanning dependencies of target toy_hoppers
-
-Building CXX object catkin/third_party/rbdl/addons/urdfreader/CMakeFiles/rbdl_urdfreader_util.dir/rbdl_urdfreader_util.cc.o
-
-[ 85%] [ 87%] [ 89%] Building CXX object catkin/robots/toy_robot_barn/planar_finger/CMakeFiles/planar_finger.dir/src/finger.cpp.o
-
-Building CXX object catkin/robots/toy_robot_barn/planar_finger/CMakeFiles/planar_finger.dir/src/finger_simulator.cpp.o
-
-[ 90%] [ 92%] Building CXX object catkin/robots/toy_robot_barn/toy_hoppers/CMakeFiles/toy_hoppers.dir/src/hopper.cpp.o
-
-Building CXX object catkin/robots/toy_robot_barn/toy_hoppers/CMakeFiles/toy_hoppers.dir/src/hopper_simulator.cpp.o
-
-Building CXX object catkin/robots/toy_robot_barn/toy_hoppers/CMakeFiles/toy_hoppers.dir/src/hopper_c_interface.cpp.o
-
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/rbdl/rbdl_urdfreader_util
-
-[ 92%] Built target rbdl_urdfreader_util
-
-Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libtoy_hoppers.so
-
-[ 92%] Built target toy_hoppers
-
-Scanning dependencies of target generate_example_rollout
-
-[ 93%] Scanning dependencies of target state_publisher
-
-Building CXX object catkin/robots/toy_robot_barn/toy_hoppers/CMakeFiles/generate_example_rollout.dir/tests/generate_example_rollout.cpp.o
-
-[ 95%] Building CXX object catkin/robots/toy_robot_barn/toy_hoppers/CMakeFiles/state_publisher.dir/src/state_publisher.cpp.o
-
-Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libplanar_finger.so
-
-[ 95%] Built target planar_finger
-
-Scanning dependencies of target generate_example_finger_rollout
-
-Scanning dependencies of target py_planar_finger
-
-[ 96%] [ 98%] Scanning dependencies of target finger_state_publisher
-
-Building CXX object catkin/robots/toy_robot_barn/planar_finger/CMakeFiles/generate_example_finger_rollout.dir/tests/generate_example_rollout.cpp.o
-
-Building CXX object catkin/robots/toy_robot_barn/planar_finger/CMakeFiles/py_planar_finger.dir/src/py_planar_finger.cpp.o
-
-[100%] Building CXX object catkin/robots/toy_robot_barn/planar_finger/CMakeFiles/finger_state_publisher.dir/src/state_publisher.cpp.o
-
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/toy_hoppers/generate_example_rollout
-
-[100%] Built target generate_example_rollout
-
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/planar_finger/generate_example_finger_rollout
-
-[100%] Built target generate_example_finger_rollout
-
-In file included from /usr/include/python2.7/numpy/ndarraytypes.h:1761:0,
-
-                 from /usr/include/python2.7/numpy/ndarrayobject.h:17,
-
-                 from /usr/include/python2.7/numpy/arrayobject.h:4,
-
-                 from /home/administrator/ci/ci/team/workspace/src/catkin/utils/py_cpp_interface/include/py_cpp_interface/eigen_converters.h:20,
-
-                 from /home/administrator/ci/ci/team/workspace/src/catkin/robots/toy_robot_barn/planar_finger/src/py_planar_finger.cpp:23:
-
-/usr/include/python2.7/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
-
- #warning "Using deprecated NumPy API, disable it by " \
-
-  ^
-
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/toy_hoppers/state_publisher
-
-[100%] Built target state_publisher
-
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/planar_finger/finger_state_publisher
-
-[100%] Built target finger_state_publisher
-
-Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/py_planar_finger.so
-
-Copying library files to python module directory
-
-‘/home/administrator/ci/ci/team/workspace/devel/lib/py_planar_finger.so’ -> ‘/home/administrator/ci/ci/team/workspace/devel/lib/python2.7/dist-packages/py_planar_finger/py_planar_finger.so’
-
-[100%] Built target py_planar_finger
-
-Install the project...
-
--- Install configuration: "Release"
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/_setup_util.py
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/env.sh
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/setup.bash
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/setup.sh
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/setup.zsh
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/.rosinstall
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/Eigen.pc
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/Eigen/cmake/EigenConfig.cmake
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/Eigen/cmake/EigenConfig-version.cmake
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/Eigen/package.xml
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/py_cpp_interface.pc
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/py_cpp_interface/cmake/py_cpp_interface.cmake
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/py_cpp_interface/cmake/py_cpp_interfaceConfig.cmake
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/py_cpp_interface/cmake/py_cpp_interfaceConfig-version.cmake
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/py_cpp_interface/package.xml
-
-+ cd /home/administrator/ci/ci/team/workspace/src/catkin/utils/py_cpp_interface
-
-+ mkdir -p /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages
-
-+ /usr/bin/env PYTHONPATH=/home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages:/home/administrator/ci/ci/team/workspace/build/lib/python2.7/dist-packages:/opt/ros/indigo/lib/python2.7/dist-packages CATKIN_BINARY_DIR=/home/administrator/ci/ci/team/workspace/build /usr/bin/python /home/administrator/ci/ci/team/workspace/src/catkin/utils/py_cpp_interface/setup.py build --build-base /home/administrator/ci/ci/team/workspace/build/catkin/utils/py_cpp_interface install --install-layout=deb --prefix=/home/administrator/ci/ci/team/workspace/install --install-scripts=/home/administrator/ci/ci/team/workspace/install/bin
-
-/usr/lib/python2.7/distutils/dist.py:267: UserWarning: Unknown distribution option: 'install_requires'
-
-  warnings.warn(msg)
-
-running build
-
-running build_py
-
-creating /home/administrator/ci/ci/team/workspace/build/catkin/utils/py_cpp_interface/lib.linux-x86_64-2.7
-
-creating /home/administrator/ci/ci/team/workspace/build/catkin/utils/py_cpp_interface/lib.linux-x86_64-2.7/py_py_cpp_interface
-
-copying src/py_py_cpp_interface/test_converters.py -> /home/administrator/ci/ci/team/workspace/build/catkin/utils/py_cpp_interface/lib.linux-x86_64-2.7/py_py_cpp_interface
-
-copying src/py_py_cpp_interface/__init__.py -> /home/administrator/ci/ci/team/workspace/build/catkin/utils/py_cpp_interface/lib.linux-x86_64-2.7/py_py_cpp_interface
-
-copying src/py_py_cpp_interface/embIPython.py -> /home/administrator/ci/ci/team/workspace/build/catkin/utils/py_cpp_interface/lib.linux-x86_64-2.7/py_py_cpp_interface
-
-running install
-
-running install_lib
-
-creating /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/py_py_cpp_interface
-
-copying /home/administrator/ci/ci/team/workspace/build/catkin/utils/py_cpp_interface/lib.linux-x86_64-2.7/py_py_cpp_interface/test_converters.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/py_py_cpp_interface
-
-copying /home/administrator/ci/ci/team/workspace/build/catkin/utils/py_cpp_interface/lib.linux-x86_64-2.7/py_py_cpp_interface/__init__.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/py_py_cpp_interface
-
-copying /home/administrator/ci/ci/team/workspace/build/catkin/utils/py_cpp_interface/lib.linux-x86_64-2.7/py_py_cpp_interface/embIPython.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/py_py_cpp_interface
-
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/py_py_cpp_interface/test_converters.py to test_converters.pyc
-
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/py_py_cpp_interface/__init__.py to __init__.pyc
-
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/py_py_cpp_interface/embIPython.py to embIPython.pyc
-
-running install_egg_info
-
-Writing /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/py_cpp_interface-1.0.0.egg-info
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/rbdl.pc
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/rbdl/cmake/rbdlConfig.cmake
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/rbdl/cmake/rbdlConfig-version.cmake
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/rbdl/package.xml
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/x86_64-linux-gnu/librbdl.so.2.5.0
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/x86_64-linux-gnu/librbdl.so
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/rbdl.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/Quaternion.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/Dynamics.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/Joint.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/rbdl_utils.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/Model.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/rbdl_math.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/rbdl_mathutils.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/Kinematics.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/rbdl_eigenmath.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/Logging.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/Body.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/SpatialAlgebraOperators.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/compileassert.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/Contacts.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/x86_64-linux-gnu/pkgconfig/rbdl.pc
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/x86_64-linux-gnu/librbdl_urdfreader.so.2.5.0
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/x86_64-linux-gnu/librbdl_urdfreader.so
-
--- Removed runtime path from "/home/administrator/ci/ci/team/workspace/install/lib/x86_64-linux-gnu/librbdl_urdfreader.so.2.5.0"
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/bin/rbdl_urdfreader_util
-
--- Removed runtime path from "/home/administrator/ci/ci/team/workspace/install/bin/rbdl_urdfreader_util"
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/addons/urdfreader/urdfreader.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/yaml_cpp.pc
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/yaml_cpp/cmake/yaml_cppConfig.cmake
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/yaml_cpp/cmake/yaml_cppConfig-version.cmake
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/yaml_cpp/package.xml
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/libyaml-cpp.so.0.5.1
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/libyaml-cpp.so.0.5
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/libyaml-cpp.so
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/ostream_wrapper.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/anchor.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/yaml.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/exceptions.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/dll.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/mark.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/noncopyable.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/traits.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/stlemitter.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/node.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/emit.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/iterator.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/node.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/memory.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/iterator.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/bool_type.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/iterator_fwd.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/node_ref.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/node_data.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/node_iterator.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/impl.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/type.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/ptr.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/parse.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/impl.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/convert.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/emittermanip.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/eventhandler.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/binary.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/emitterdef.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/contrib
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/contrib/graphbuilder.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/contrib/anchordict.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/emitfromevents.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/parser.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/emitter.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/yaml_eigen.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/null.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/yaml-cpp.pc
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/planar_finger.pc
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/planar_finger/cmake/planar_fingerConfig.cmake
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/planar_finger/cmake/planar_fingerConfig-version.cmake
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/planar_finger/package.xml
-
-+ cd /home/administrator/ci/ci/team/workspace/src/catkin/robots/toy_robot_barn/planar_finger
-
-+ mkdir -p /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages
-
-+ /usr/bin/env PYTHONPATH=/home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages:/home/administrator/ci/ci/team/workspace/build/lib/python2.7/dist-packages:/opt/ros/indigo/lib/python2.7/dist-packages CATKIN_BINARY_DIR=/home/administrator/ci/ci/team/workspace/build /usr/bin/python /home/administrator/ci/ci/team/workspace/src/catkin/robots/toy_robot_barn/planar_finger/setup.py build --build-base /home/administrator/ci/ci/team/workspace/build/catkin/robots/toy_robot_barn/planar_finger install --install-layout=deb --prefix=/home/administrator/ci/ci/team/workspace/install --install-scripts=/home/administrator/ci/ci/team/workspace/install/bin
-
-/usr/lib/python2.7/distutils/dist.py:267: UserWarning: Unknown distribution option: 'install_requires'
-
-  warnings.warn(msg)
-
-running build
-
-running build_py
-
-creating /home/administrator/ci/ci/team/workspace/build/catkin/robots/toy_robot_barn/planar_finger/lib.linux-x86_64-2.7
-
-creating /home/administrator/ci/ci/team/workspace/build/catkin/robots/toy_robot_barn/planar_finger/lib.linux-x86_64-2.7/py_planar_finger
-
-copying src/py_planar_finger/finger_example.py -> /home/administrator/ci/ci/team/workspace/build/catkin/robots/toy_robot_barn/planar_finger/lib.linux-x86_64-2.7/py_planar_finger
-
-copying src/py_planar_finger/__init__.py -> /home/administrator/ci/ci/team/workspace/build/catkin/robots/toy_robot_barn/planar_finger/lib.linux-x86_64-2.7/py_planar_finger
-
-copying src/py_planar_finger/agent.py -> /home/administrator/ci/ci/team/workspace/build/catkin/robots/toy_robot_barn/planar_finger/lib.linux-x86_64-2.7/py_planar_finger
-
-running install
-
-running install_lib
-
-creating /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/py_planar_finger
-
-copying /home/administrator/ci/ci/team/workspace/build/catkin/robots/toy_robot_barn/planar_finger/lib.linux-x86_64-2.7/py_planar_finger/finger_example.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/py_planar_finger
-
-copying /home/administrator/ci/ci/team/workspace/build/catkin/robots/toy_robot_barn/planar_finger/lib.linux-x86_64-2.7/py_planar_finger/__init__.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/py_planar_finger
-
-copying /home/administrator/ci/ci/team/workspace/build/catkin/robots/toy_robot_barn/planar_finger/lib.linux-x86_64-2.7/py_planar_finger/agent.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/py_planar_finger
-
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/py_planar_finger/finger_example.py to finger_example.pyc
-
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/py_planar_finger/__init__.py to __init__.pyc
-
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/py_planar_finger/agent.py to agent.pyc
-
-running install_egg_info
-
-Writing /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/planar_finger-0.0.0.egg-info
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/toy_hoppers.pc
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/toy_hoppers/cmake/toy_hoppersConfig.cmake
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/toy_hoppers/cmake/toy_hoppersConfig-version.cmake
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/toy_hoppers/package.xml
-
-+ cd /home/administrator/ci/ci/team/workspace/src/catkin/robots/toy_robot_barn/toy_hoppers
-
-+ mkdir -p /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages
-
-+ /usr/bin/env PYTHONPATH=/home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages:/home/administrator/ci/ci/team/workspace/build/lib/python2.7/dist-packages:/opt/ros/indigo/lib/python2.7/dist-packages CATKIN_BINARY_DIR=/home/administrator/ci/ci/team/workspace/build /usr/bin/python /home/administrator/ci/ci/team/workspace/src/catkin/robots/toy_robot_barn/toy_hoppers/setup.py build --build-base /home/administrator/ci/ci/team/workspace/build/catkin/robots/toy_robot_barn/toy_hoppers install --install-layout=deb --prefix=/home/administrator/ci/ci/team/workspace/install --install-scripts=/home/administrator/ci/ci/team/workspace/install/bin
-
-/usr/lib/python2.7/distutils/dist.py:267: UserWarning: Unknown distribution option: 'install_requires'
-
-  warnings.warn(msg)
-
-running build
-
-running build_py
-
-creating /home/administrator/ci/ci/team/workspace/build/catkin/robots/toy_robot_barn/toy_hoppers/lib.linux-x86_64-2.7
-
-creating /home/administrator/ci/ci/team/workspace/build/catkin/robots/toy_robot_barn/toy_hoppers/lib.linux-x86_64-2.7/py_toy_hoppers
-
-copying src/py_toy_hoppers/__init__.py -> /home/administrator/ci/ci/team/workspace/build/catkin/robots/toy_robot_barn/toy_hoppers/lib.linux-x86_64-2.7/py_toy_hoppers
-
-copying src/py_toy_hoppers/agent.py -> /home/administrator/ci/ci/team/workspace/build/catkin/robots/toy_robot_barn/toy_hoppers/lib.linux-x86_64-2.7/py_toy_hoppers
-
-copying src/py_toy_hoppers/openai_gym.py -> /home/administrator/ci/ci/team/workspace/build/catkin/robots/toy_robot_barn/toy_hoppers/lib.linux-x86_64-2.7/py_toy_hoppers
-
-running install
-
-running install_lib
-
-creating /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/py_toy_hoppers
-
-copying /home/administrator/ci/ci/team/workspace/build/catkin/robots/toy_robot_barn/toy_hoppers/lib.linux-x86_64-2.7/py_toy_hoppers/__init__.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/py_toy_hoppers
-
-copying /home/administrator/ci/ci/team/workspace/build/catkin/robots/toy_robot_barn/toy_hoppers/lib.linux-x86_64-2.7/py_toy_hoppers/agent.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/py_toy_hoppers
-
-copying /home/administrator/ci/ci/team/workspace/build/catkin/robots/toy_robot_barn/toy_hoppers/lib.linux-x86_64-2.7/py_toy_hoppers/openai_gym.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/py_toy_hoppers
-
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/py_toy_hoppers/__init__.py to __init__.pyc
-
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/py_toy_hoppers/agent.py to agent.pyc
-
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/py_toy_hoppers/openai_gym.py to openai_gym.pyc
-
-running install_egg_info
-
-Writing /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/toy_hoppers-0.0.0.egg-info
+See also "/home/administrator/ci/ci/team/workspace/build/CMakeFiles/CMakeError.log".
 
 Base path: /home/administrator/ci/ci/team/workspace
 
@@ -838,16 +566,10 @@ Devel space: /home/administrator/ci/ci/team/workspace/devel
 
 Install space: /home/administrator/ci/ci/team/workspace/install
 
-Creating symlink "/home/administrator/ci/ci/team/workspace/src/CMakeLists.txt" pointing to "/opt/ros/indigo/share/catkin/cmake/toplevel.cmake"
-
 ####
 
 #### Running command: "cmake /home/administrator/ci/ci/team/workspace/src -DCATKIN_DEVEL_PREFIX=/home/administrator/ci/ci/team/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/administrator/ci/ci/team/workspace/install -G Unix Makefiles" in "/home/administrator/ci/ci/team/workspace/build"
 
 ####
 
-####
-
-#### Running command: "make -j16 install" in "/home/administrator/ci/ci/team/workspace/build"
-
-####
+Invoking "cmake" failed
