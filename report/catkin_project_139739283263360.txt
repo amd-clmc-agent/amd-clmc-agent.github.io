@@ -1,48 +1,88 @@
-[  0%] Built target _pointcloud_msgs_generate_messages_check_deps_PointCloudClassified
+-- Using CATKIN_DEVEL_PREFIX: /home/administrator/ci/ci/team/workspace/devel
 
-[  0%] Built target _pointcloud_msgs_generate_messages_check_deps_HypothesisVerify
+-- Using CMAKE_PREFIX_PATH: /opt/ros/indigo
 
-[  0%] Built target sensor_msgs_generate_messages_py
+-- This workspace overlays: /opt/ros/indigo
 
-[  0%] Built target geometry_msgs_generate_messages_py
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
 
-[ 14%] Built target pointcloud_msgs_generate_messages_py
+-- Using Debian Python package layout
 
-[ 14%] Built target geometry_msgs_generate_messages_cpp
+-- Using empy: /usr/bin/empy
 
-[ 14%] Built target sensor_msgs_generate_messages_cpp
+-- Using CATKIN_ENABLE_TESTING: ON
 
-[ 21%] Built target pointcloud_msgs_generate_messages_cpp
+-- Call enable_testing()
 
-[ 21%] Built target sensor_msgs_generate_messages_lisp
+-- Using CATKIN_TEST_RESULTS_DIR: /home/administrator/ci/ci/team/workspace/build/test_results
 
-[ 21%] Built target geometry_msgs_generate_messages_lisp
+-- Found gtest sources under '/usr/src/gtest': gtests will be built
 
-[ 28%] Built target pointcloud_msgs_generate_messages_lisp
+-- Using Python nosetests: /usr/bin/nosetests-2.7
 
-[ 28%] Built target pointcloud_msgs_generate_messages
+-- catkin 0.6.19
 
-[ 42%] Built target global_recognizer
+-- BUILD_SHARED_LIBS is on
 
-[ 46%] Built target global_classification
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-[ 50%] Building CXX object catkin/perception/3d_classification/recognition_3d/CMakeFiles/global_recognition.dir/src/global_recognition_test.cpp.o
+-- ~~  traversing 2 packages in topological order:
 
-In file included from /home/administrator/ci/ci/team/workspace/src/catkin/perception/3d_classification/recognition_3d/src/global_recognition_test.cpp:58:0:
+-- ~~  - launch_xtion
 
-/usr/include/pcl-1.7/pcl/recognition/hv/hv_go.h:14:52: fatal error: pcl/recognition/3rdparty/metslib/mets.hh: No such file or directory
+-- ~~  - ar_track_alvar
 
- #include "pcl/recognition/3rdparty/metslib/mets.hh"
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-                                                    ^
+-- +++ processing catkin package: 'launch_xtion'
 
-compilation terminated.
+-- ==> add_subdirectory(catkin/ros/launch_xtion)
 
-make[2]: *** [catkin/perception/3d_classification/recognition_3d/CMakeFiles/global_recognition.dir/src/global_recognition_test.cpp.o] Error 1
+-- +++ processing catkin package: 'ar_track_alvar'
 
-make[1]: *** [catkin/perception/3d_classification/recognition_3d/CMakeFiles/global_recognition.dir/all] Error 2
+-- ==> add_subdirectory(catkin/perception/ar_track_alvar)
 
-make: *** [all] Error 2
+-- Using these message generators: gencpp;genlisp;genpy
+
+CMake Error at catkin/perception/ar_track_alvar/CMakeLists.txt:22 (find_package):
+
+  By not providing "FindEigen.cmake" in CMAKE_MODULE_PATH this project has
+
+  asked CMake to find a package configuration file provided by "Eigen", but
+
+  CMake did not find one.
+
+
+
+  Could not find a package configuration file provided by "Eigen" with any of
+
+  the following names:
+
+
+
+    EigenConfig.cmake
+
+    eigen-config.cmake
+
+
+
+  Add the installation prefix of "Eigen" to CMAKE_PREFIX_PATH or set
+
+  "Eigen_DIR" to a directory containing one of the above files.  If "Eigen"
+
+  provides a separate development package or SDK, be sure it has been
+
+  installed.
+
+
+
+
+
+-- Configuring incomplete, errors occurred!
+
+See also "/home/administrator/ci/ci/team/workspace/build/CMakeFiles/CMakeOutput.log".
+
+See also "/home/administrator/ci/ci/team/workspace/build/CMakeFiles/CMakeError.log".
 
 Base path: /home/administrator/ci/ci/team/workspace
 
@@ -56,14 +96,8 @@ Install space: /home/administrator/ci/ci/team/workspace/install
 
 ####
 
-#### Running command: "make cmake_check_build_system" in "/home/administrator/ci/ci/team/workspace/build"
+#### Running command: "cmake /home/administrator/ci/ci/team/workspace/src -DCATKIN_DEVEL_PREFIX=/home/administrator/ci/ci/team/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/administrator/ci/ci/team/workspace/install -G Unix Makefiles" in "/home/administrator/ci/ci/team/workspace/build"
 
 ####
 
-####
-
-#### Running command: "make -j1" in "/home/administrator/ci/ci/team/workspace/build"
-
-####
-
-Invoking "make -j1" failed
+Invoking "cmake" failed
