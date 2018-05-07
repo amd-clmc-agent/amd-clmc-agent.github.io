@@ -1,48 +1,124 @@
-[  0%] Built target _pointcloud_msgs_generate_messages_check_deps_PointCloudClassified
+-- The C compiler identification is GNU 4.8.4
 
-[  0%] Built target geometry_msgs_generate_messages_lisp
+-- The CXX compiler identification is GNU 4.8.4
 
-[  0%] Built target sensor_msgs_generate_messages_lisp
+-- Check for working C compiler: /usr/bin/cc
 
-[  0%] Built target _pointcloud_msgs_generate_messages_check_deps_HypothesisVerify
+-- Check for working C compiler: /usr/bin/cc -- works
 
-[  7%] Built target pointcloud_msgs_generate_messages_lisp
+-- Detecting C compiler ABI info
 
-[  7%] Built target geometry_msgs_generate_messages_cpp
+-- Detecting C compiler ABI info - done
 
-[  7%] Built target sensor_msgs_generate_messages_cpp
+-- Check for working CXX compiler: /usr/bin/c++
 
-[ 14%] Built target pointcloud_msgs_generate_messages_cpp
+-- Check for working CXX compiler: /usr/bin/c++ -- works
 
-[ 14%] Built target sensor_msgs_generate_messages_py
+-- Detecting CXX compiler ABI info
 
-[ 14%] Built target geometry_msgs_generate_messages_py
+-- Detecting CXX compiler ABI info - done
 
-[ 28%] Built target pointcloud_msgs_generate_messages_py
+-- Using CATKIN_DEVEL_PREFIX: /home/administrator/ci/ci/team/workspace/devel
 
-[ 28%] Built target pointcloud_msgs_generate_messages
+-- Using CMAKE_PREFIX_PATH: /opt/ros/indigo
 
-[ 42%] Built target global_recognizer
+-- This workspace overlays: /opt/ros/indigo
 
-[ 46%] Built target global_classification
+-- Found PythonInterp: /usr/bin/python (found version "2.7.6") 
 
-[ 50%] Building CXX object catkin/perception/3d_classification/recognition_3d/CMakeFiles/global_recognition.dir/src/global_recognition_test.cpp.o
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
 
-In file included from /home/administrator/ci/ci/team/workspace/src/catkin/perception/3d_classification/recognition_3d/src/global_recognition_test.cpp:58:0:
+-- Using Debian Python package layout
 
-/usr/include/pcl-1.7/pcl/recognition/hv/hv_go.h:14:52: fatal error: pcl/recognition/3rdparty/metslib/mets.hh: No such file or directory
+-- Using empy: /usr/bin/empy
 
- #include "pcl/recognition/3rdparty/metslib/mets.hh"
+-- Using CATKIN_ENABLE_TESTING: ON
 
-                                                    ^
+-- Call enable_testing()
 
-compilation terminated.
+-- Using CATKIN_TEST_RESULTS_DIR: /home/administrator/ci/ci/team/workspace/build/test_results
 
-make[2]: *** [catkin/perception/3d_classification/recognition_3d/CMakeFiles/global_recognition.dir/src/global_recognition_test.cpp.o] Error 1
+-- Looking for include file pthread.h
 
-make[1]: *** [catkin/perception/3d_classification/recognition_3d/CMakeFiles/global_recognition.dir/all] Error 2
+-- Looking for include file pthread.h - found
 
-make: *** [all] Error 2
+-- Looking for pthread_create
+
+-- Looking for pthread_create - not found
+
+-- Looking for pthread_create in pthreads
+
+-- Looking for pthread_create in pthreads - not found
+
+-- Looking for pthread_create in pthread
+
+-- Looking for pthread_create in pthread - found
+
+-- Found Threads: TRUE  
+
+-- Found gtest sources under '/usr/src/gtest': gtests will be built
+
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+
+-- catkin 0.6.19
+
+-- BUILD_SHARED_LIBS is on
+
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-- ~~  traversing 1 packages in topological order:
+
+-- ~~  - detect_faces
+
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-- +++ processing catkin package: 'detect_faces'
+
+-- ==> add_subdirectory(catkin/perception/detect_faces)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- Configuring done
+
+-- Generating done
+
+-- Build files have been written to: /home/administrator/ci/ci/team/workspace/build
+
+Scanning dependencies of target detect_faces_node
+
+[ 66%] [ 66%] [100%] Building CXX object catkin/perception/detect_faces/CMakeFiles/detect_faces_node.dir/src/main.cpp.o
+
+Building CXX object catkin/perception/detect_faces/CMakeFiles/detect_faces_node.dir/src/face_detector.cpp.o
+
+Building CXX object catkin/perception/detect_faces/CMakeFiles/detect_faces_node.dir/src/face_detector_node.cpp.o
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/detect_faces/detect_faces_node
+
+[100%] Built target detect_faces_node
+
+Install the project...
+
+-- Install configuration: ""
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/_setup_util.py
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/env.sh
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/setup.bash
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/setup.sh
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/setup.zsh
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/.rosinstall
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/detect_faces.pc
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/detect_faces/cmake/detect_facesConfig.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/detect_faces/cmake/detect_facesConfig-version.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/detect_faces/package.xml
 
 Base path: /home/administrator/ci/ci/team/workspace
 
@@ -54,16 +130,16 @@ Devel space: /home/administrator/ci/ci/team/workspace/devel
 
 Install space: /home/administrator/ci/ci/team/workspace/install
 
-####
-
-#### Running command: "make cmake_check_build_system" in "/home/administrator/ci/ci/team/workspace/build"
+Creating symlink "/home/administrator/ci/ci/team/workspace/src/CMakeLists.txt" pointing to "/opt/ros/indigo/share/catkin/cmake/toplevel.cmake"
 
 ####
 
-####
-
-#### Running command: "make -j1" in "/home/administrator/ci/ci/team/workspace/build"
+#### Running command: "cmake /home/administrator/ci/ci/team/workspace/src -DCATKIN_DEVEL_PREFIX=/home/administrator/ci/ci/team/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/administrator/ci/ci/team/workspace/install -G Unix Makefiles" in "/home/administrator/ci/ci/team/workspace/build"
 
 ####
 
-Invoking "make -j1" failed
+####
+
+#### Running command: "make -j16 install" in "/home/administrator/ci/ci/team/workspace/build"
+
+####
