@@ -126,10 +126,10 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:ac40625a7255f55a8159eb41ea03757fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1ace515bf05f03bf16b4b61b60503d7a"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsrc_1_1nmpc__multicontact__python_1_1mathematics_1_1quaternion_1_1Quaternion.html#a1ace515bf05f03bf16b4b61b60503d7a">fromAngularVelocity</a></td></tr>
 <tr class="separator:a1ace515bf05f03bf16b4b61b60503d7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1aca1f17b0339bfc92c0eac917ce5974"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsrc_1_1nmpc__multicontact__python_1_1mathematics_1_1quaternion_1_1Quaternion.html#a1aca1f17b0339bfc92c0eac917ce5974">requiredAngularVelocity</a></td></tr>
-<tr class="separator:a1aca1f17b0339bfc92c0eac917ce5974"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b7fa5da7831c5779f903c4bbee56241"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsrc_1_1nmpc__multicontact__python_1_1mathematics_1_1quaternion_1_1Quaternion.html#a1b7fa5da7831c5779f903c4bbee56241">integrateAngularVelocity</a></td></tr>
-<tr class="separator:a1b7fa5da7831c5779f903c4bbee56241"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae135b89fc8a662e2726959aa6ab0bd42"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsrc_1_1nmpc__multicontact__python_1_1mathematics_1_1quaternion_1_1Quaternion.html#ae135b89fc8a662e2726959aa6ab0bd42">differenciation</a></td></tr>
+<tr class="separator:ae135b89fc8a662e2726959aa6ab0bd42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b5d3bd40af8bf6e7c3f26c11ef7754f"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsrc_1_1nmpc__multicontact__python_1_1mathematics_1_1quaternion_1_1Quaternion.html#a2b5d3bd40af8bf6e7c3f26c11ef7754f">integration</a></td></tr>
+<tr class="separator:a2b5d3bd40af8bf6e7c3f26c11ef7754f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e6ae17c1b36b6af19207e93a031bea5"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsrc_1_1nmpc__multicontact__python_1_1mathematics_1_1quaternion_1_1Quaternion.html#a9e6ae17c1b36b6af19207e93a031bea5">orientationError</a></td></tr>
 <tr class="separator:a9e6ae17c1b36b6af19207e93a031bea5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -146,6 +146,58 @@ Static Public Attributes</h2></td></tr>
 <tr class="separator:a45672a9e4aef8cd257a35c8301749793"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="ae135b89fc8a662e2726959aa6ab0bd42"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">def src.nmpc_multicontact_python.mathematics.quaternion.Quaternion.differenciation </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>desired_orientation</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>current_orientation</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>dt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>in_body_coordinates</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">required angular velocity to rotate from current to desired
+orientation during a time interval
+:param desired_orientation:
+:param current_orientation:
+:param in_body_coordinates:
+:return:
+</pre> 
+</div>
+</div>
 <a class="anchor" id="a1cc783acabd00023318ec9539903507b"></a>
 <div class="memitem">
 <div class="memproto">
@@ -184,7 +236,13 @@ Static Public Attributes</h2></td></tr>
           <td class="memname">def src.nmpc_multicontact_python.mathematics.quaternion.Quaternion.fromAngularVelocity </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>angular_velocity</em>, </td>
+          <td class="paramname"><em>rotation_vector</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>rotation_vector_rates</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -207,11 +265,11 @@ Static Public Attributes</h2></td></tr>
 <pre class="fragment">from angular velocity: angular velocity -&gt; rotation vector rates
 :param angular_velocity:
 :param is_in_body_coordinates:
-:return:
+:return an angular velocity:
 </pre> 
 </div>
 </div>
-<a class="anchor" id="a1b7fa5da7831c5779f903c4bbee56241"></a>
+<a class="anchor" id="a2b5d3bd40af8bf6e7c3f26c11ef7754f"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -219,7 +277,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">def src.nmpc_multicontact_python.mathematics.quaternion.Quaternion.integrateAngularVelocity </td>
+          <td class="memname">def src.nmpc_multicontact_python.mathematics.quaternion.Quaternion.integration </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>current_orientation</em>, </td>
@@ -234,7 +292,7 @@ Static Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>time_step</em>, </td>
+          <td class="paramname"><em>dt</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -260,7 +318,7 @@ time interval
 :param angular_velocity:
 :param time_step:
 :param is_in_body_coordinates:
-:return:
+:return: the finite
 </pre> 
 </div>
 </div>
@@ -441,52 +499,6 @@ with v the rotation vector
 </pre> 
 </div>
 </div>
-<a class="anchor" id="a1aca1f17b0339bfc92c0eac917ce5974"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">def src.nmpc_multicontact_python.mathematics.quaternion.Quaternion.requiredAngularVelocity </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>desired_orientation</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>current_orientation</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>in_body_coordinates</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<pre class="fragment">required angular velocity to rotate from current to desired
-orientation during a time interval
-:param desired_orientation:
-:param current_orientation:
-:param in_body_coordinates:
-:return:
-</pre> 
-</div>
-</div>
 <a class="anchor" id="ac40625a7255f55a8159eb41ea03757fc"></a>
 <div class="memitem">
 <div class="memproto">
@@ -606,7 +618,7 @@ The conjugate correspond to the following:
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon May 7 2018 09:46:12 for nmpc_multicontact_python by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon May 7 2018 12:49:49 for nmpc_multicontact_python by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
