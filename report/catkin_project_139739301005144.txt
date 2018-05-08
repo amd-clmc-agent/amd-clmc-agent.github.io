@@ -1,10 +1,30 @@
-WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
+-- The C compiler identification is GNU 4.8.4
+
+-- The CXX compiler identification is GNU 4.8.4
+
+-- Check for working C compiler: /usr/bin/cc
+
+-- Check for working C compiler: /usr/bin/cc -- works
+
+-- Detecting C compiler ABI info
+
+-- Detecting C compiler ABI info - done
+
+-- Check for working CXX compiler: /usr/bin/c++
+
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+
+-- Detecting CXX compiler ABI info
+
+-- Detecting CXX compiler ABI info - done
 
 -- Using CATKIN_DEVEL_PREFIX: /home/administrator/ci/ci/team/workspace/devel
 
 -- Using CMAKE_PREFIX_PATH: /opt/ros/indigo
 
 -- This workspace overlays: /opt/ros/indigo
+
+-- Found PythonInterp: /usr/bin/python (found version "2.7.6") 
 
 -- Using PYTHON_EXECUTABLE: /usr/bin/python
 
@@ -18,6 +38,24 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 
 -- Using CATKIN_TEST_RESULTS_DIR: /home/administrator/ci/ci/team/workspace/build/test_results
 
+-- Looking for include file pthread.h
+
+-- Looking for include file pthread.h - found
+
+-- Looking for pthread_create
+
+-- Looking for pthread_create - not found
+
+-- Looking for pthread_create in pthreads
+
+-- Looking for pthread_create in pthreads - not found
+
+-- Looking for pthread_create in pthread
+
+-- Looking for pthread_create in pthread - found
+
+-- Found Threads: TRUE  
+
 -- Found gtest sources under '/usr/src/gtest': gtests will be built
 
 -- Using Python nosetests: /usr/bin/nosetests-2.7
@@ -26,93 +64,27 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 
 -- BUILD_SHARED_LIBS is on
 
-WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
+-- Configuring done
 
--- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- Generating done
 
--- ~~  traversing 13 packages in topological order:
+-- Build files have been written to: /home/administrator/ci/ci/team/workspace/build
 
--- ~~  - Eigen
+Install the project...
 
--- ~~  - python_file_parser
+-- Install configuration: ""
 
--- ~~  - rbdl
+-- Installing: /home/administrator/ci/ci/team/workspace/install/_setup_util.py
 
--- ~~  - cyberglove_handsim_control
+-- Installing: /home/administrator/ci/ci/team/workspace/install/env.sh
 
--- ~~  - amd_clmc_ros_messages
+-- Installing: /home/administrator/ci/ci/team/workspace/install/setup.bash
 
--- ~~  - ar_track_alvar_msgs
+-- Installing: /home/administrator/ci/ci/team/workspace/install/setup.sh
 
--- ~~  - custom_robot_msgs
+-- Installing: /home/administrator/ci/ci/team/workspace/install/setup.zsh
 
--- ~~  - riemo_grasping_msgs
-
--- ~~  - cereal_port
-
--- ~~  - motion_adaptation
-
--- ~~  - sr_gui_cyberglove_calibrator
-
--- ~~  - cyberglove
-
--- ~~  - haptix_recorder
-
--- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
--- +++ processing catkin package: 'Eigen'
-
--- ==> add_subdirectory(catkin/third_party/Eigen)
-
-WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
-
--- +++ processing catkin package: 'python_file_parser'
-
--- ==> add_subdirectory(catkin/utilities/amd_clmc_script_utilities/python_file_parser)
-
--- +++ processing catkin package: 'rbdl'
-
--- ==> add_subdirectory(catkin/third_party/rbdl)
-
--- ROS found: /opt/ros/indigo/share/ros
-
--- +++ processing catkin package: 'cyberglove_handsim_control'
-
--- ==> add_subdirectory(catkin/cyberglove/cyberglove_ros/cyberglove_handsim_control)
-
--- Operating system is Linux
-
--- Boost version: 1.54.0
-
-CMake Error at catkin/cyberglove/cyberglove_ros/cyberglove_handsim_control/cmake/SearchForStuff.cmake:8 (find_package):
-
-  Could not find a configuration file for package "gazebo" that is compatible
-
-  with requested version "7.0.0".
-
-
-
-  The following configuration files were considered but not accepted:
-
-
-
-    /usr/share/gazebo/cmake/gazebo-config.cmake, version: unknown
-
-
-
-Call Stack (most recent call first):
-
-  catkin/cyberglove/cyberglove_ros/cyberglove_handsim_control/CMakeLists.txt:11 (include)
-
-
-
-
-
--- Configuring incomplete, errors occurred!
-
-See also "/home/administrator/ci/ci/team/workspace/build/CMakeFiles/CMakeOutput.log".
-
-See also "/home/administrator/ci/ci/team/workspace/build/CMakeFiles/CMakeError.log".
+-- Installing: /home/administrator/ci/ci/team/workspace/install/.rosinstall
 
 Base path: /home/administrator/ci/ci/team/workspace
 
@@ -124,10 +96,16 @@ Devel space: /home/administrator/ci/ci/team/workspace/devel
 
 Install space: /home/administrator/ci/ci/team/workspace/install
 
+Creating symlink "/home/administrator/ci/ci/team/workspace/src/CMakeLists.txt" pointing to "/opt/ros/indigo/share/catkin/cmake/toplevel.cmake"
+
 ####
 
 #### Running command: "cmake /home/administrator/ci/ci/team/workspace/src -DCATKIN_DEVEL_PREFIX=/home/administrator/ci/ci/team/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/administrator/ci/ci/team/workspace/install -G Unix Makefiles" in "/home/administrator/ci/ci/team/workspace/build"
 
 ####
 
-Invoking "cmake" failed
+####
+
+#### Running command: "make -j16 install" in "/home/administrator/ci/ci/team/workspace/build"
+
+####
