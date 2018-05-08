@@ -1,1177 +1,372 @@
-failed to compile unit tests:
-WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
+[  0%] Built target findpath
 
--- Using CATKIN_DEVEL_PREFIX: /home/administrator/ci/ci/team/workspace/devel
+[  2%] Built target playful_color_detection
 
--- Using CMAKE_PREFIX_PATH: /home/administrator/ci/ci/team/workspace/devel;/opt/ros/indigo
+[  2%] Built target playful_profiler
 
--- This workspace overlays: /home/administrator/ci/ci/team/workspace/devel;/opt/ros/indigo
+[  3%] Built target soma
 
--- Using PYTHON_EXECUTABLE: /usr/bin/python
+[  3%] Built target soma_example
 
--- Python version: 2.7
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_AccelerationFeedbackExperimentStatus
 
--- Using Debian Python package layout
+[  3%] Built target geometry_msgs_generate_messages_py
 
--- Using CATKIN_ENABLE_TESTING: ON
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerDataStatus
 
--- Call enable_testing()
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineLearningControl
 
--- Using CATKIN_TEST_RESULTS_DIR: /home/administrator/ci/ci/team/workspace/build/test_results
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ResetBreakaway
 
--- Found gtest sources under '/usr/src/gtest': gtests will be built
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_NavigationTarget
 
--- catkin 0.5.90
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_BoundingPoints
 
--- BUILD_SHARED_LIBS is on
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Goto_command
 
-WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PolicyControllerParamsService
 
-WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SwitchControllerStack
 
--- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibratePressureSensorsStatus
 
--- ~~  traversing 49 packages in topological order:
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_RtNetwork
 
--- ~~  - Eigen
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspControllerStatus
 
--- ~~  - apollo_robot_model
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_BiotacData
 
--- ~~  - catkin_gflags
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ExperimentParams
 
--- ~~  - catkin_glog
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_AvgPressureSensors
 
--- ~~  - cdlbt
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_QueryControllerStatus
 
--- ~~  - can_control_tools
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Volumes
 
--- ~~  - conversions
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_UpdateStrainGagesCalibration
 
--- ~~  - py_cpp_interface
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ImageCoordinates
 
--- ~~  - pyplot
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LabeledPoint
 
--- ~~  - qp_oases
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_IncreaseMaxFingerTorque
 
--- ~~  - quadprog
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Preshape
 
--- ~~  - ros_realtime (metapackage)
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LqrControllerDataStatus
 
--- ~~  - allocators
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PressureSensors
 
--- ~~  - rosatomic
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ObstaclePoints
 
--- ~~  - lockfree
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateForceTorqueSensor
 
--- ~~  - rt_timer
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CartesianTrajectory
 
--- ~~  - start_robot
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Acceleration
 
--- ~~  - amd_clmc_ros_messages
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PolicyControllerDataStatus
 
--- ~~  - ar_track_alvar_msgs
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerParamsService
 
--- ~~  - custom_robot_msgs
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspPoses
 
--- ~~  - riemo_grasping_msgs
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_TrajectoryStatus
 
--- ~~  - utilities
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ExperimentGeneratorParamsService
 
--- ~~  - lwpr
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PointArrayArray
 
--- ~~  - vrpn_vicon_minimum
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerStatus
 
--- ~~  - vrpn_vicon_objs_tracker
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CartesianTrajectoryPoint
 
--- ~~  - xenomai_ros
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LookAtParams
 
--- ~~  - constrained_inverse_kinematics_msgs
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineNetwork
 
--- ~~  - roscpp_utilities
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_BiotacFingerData
 
--- ~~  - rosrt
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CollectDataStatus
 
--- ~~  - ros_rt_test
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ColorRange
 
--- ~~  - sl
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LookAtStatus
 
--- ~~  - apollo
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DMPControllerStatus
 
--- ~~  - apollo_test_task
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_RtNetworkLayer
 
--- ~~  - sl_python_core
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibratePressureSensors
 
--- ~~  - sl_python_apollo
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Extrems
 
--- ~~  - sl_ros_servo
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DMPCommand
 
--- ~~  - python_ros_utils
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_NetworkLayer
 
--- ~~  - ros_servo_apollo
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ScaledLqr
 
--- ~~  - usc_utilities
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ViconQuery
 
--- ~~  - learnable_cost_function
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspControllerParams
 
--- ~~  - robot_info
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_TrajectoryPoint
 
--- ~~  - jacobian_utilities
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SetPoses
 
--- ~~  - vicon_bridge
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_UpdateStrainGagesCalibrationStatus
 
--- ~~  - vicon_core
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DMPControllerParams
 
--- ~~  - vicon_subscriber
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Path
 
--- ~~  - yaml_cpp
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SetVisualToolTracking
 
--- ~~  - facial_expressions
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ContinuousTrajectoryStatus
 
--- ~~  - pole_balancing_apollo
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ContinuousTrajectoryPoint
 
--- ~~  - apollo_user
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_BoundingPointsArray
 
--- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SetObjectOri
 
--- +++ processing catkin package: 'Eigen'
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_EndEffectorPosition
 
--- ==> add_subdirectory(catkin/third_party/Eigen)
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_InverseDynamicsBatchNetworkControllerStatus
 
-WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Imu
 
--- +++ processing catkin package: 'apollo_robot_model'
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_FingerJointEncoderOffsetsStatus
 
--- ==> add_subdirectory(catkin/robots/apollo_robot_model)
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerParams
 
--- +++ processing catkin package: 'catkin_gflags'
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineDataStatus
 
--- ==> add_subdirectory(catkin/third_party/catkin-gflags)
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_AffinePolicy
 
--- Found gflags  (include: /usr/include, library: /usr/lib/x86_64-linux-gnu/libgflags.so)
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateAccelerometerSensorStatus
 
--- +++ processing catkin package: 'catkin_glog'
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspStatus
 
--- ==> add_subdirectory(catkin/third_party/catkin-glog)
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DistanceFieldEval
 
--- Found glog    (include: /usr/include, library: /usr/lib/x86_64-linux-gnu/libglog.so)
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LqrControllerParams
 
--- +++ processing catkin package: 'cdlbt'
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CartesianGains
 
--- ==> add_subdirectory(catkin/ros/barrett-ros/cdlbt)
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ChordEllipsoid
 
--- MACHTYPE x86_64
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OnlineDataStatus
 
-Detected MACHTYPE=x86_64
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DistanceFieldQueries
 
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_FingerJointEncoderOffsets
 
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_KeyPointBodyApprox
 
-Call Stack (most recent call first):
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineLearningControlService
 
-  catkin/ros/barrett-ros/cdlbt/CMakeLists.txt:8 (include)
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LinearQuadraticRegulatorParams
 
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LqrControllerParamsService
 
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Grasp
 
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_FingerForceControlGains
 
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateBiotacSensorsStatus
 
--- HOST_NAME=everest
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_StrainGauge
 
--- HOST=everest
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ExtremsArray
 
--- LAB=AMD
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_TaskFrame
 
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Sphere
 
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_EndEffectorState
 
--- CMAKE_INCLUDE_PATH=
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_RectangularBox
 
--- CMAKE_LIBRARY_PATH=
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ViconData
 
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SpeedChange
 
--- LAB_LIBDIR=lib/x86_64
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateAccelerometerSensor
 
--- LAB_INCLUDES=include
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ResetBreakawayStatus
 
--- LAB_BINDIR=bin/x86_64
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_RectangularBoxArray
 
--- +++ processing catkin package: 'can_control_tools'
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ControllerStatus
 
--- ==> add_subdirectory(catkin/ros/barrett-ros/canControlTools)
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateBiotacSensors
 
--- MACHTYPE x86_64
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineParams
 
-Detected MACHTYPE=x86_64
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LinearQuadraticRegulatorStatus
 
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_EnvironmentalObject
 
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Matrix32
 
-Call Stack (most recent call first):
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ObjectMass
 
-  catkin/ros/barrett-ros/canControlTools/CMakeLists.txt:8 (include)
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Gains
 
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PointArray
 
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Trajectory
 
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ImageCoordinatesArray
 
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateForceTorqueSensorStatus
 
--- HOST_NAME=everest
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LinearQuadraticRegulator
 
--- HOST=everest
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_InverseDynamicsBatchNetworkControllerParams
 
--- LAB=AMD
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_TrackingPose
 
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineParamsService
 
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CollectData
 
--- CMAKE_INCLUDE_PATH=
+[ 29%] Built target amd_clmc_ros_messages_generate_messages_py
 
--- CMAKE_LIBRARY_PATH=
+[ 29%] Built target geometry_msgs_generate_messages_cpp
 
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+[ 54%] Built target amd_clmc_ros_messages_generate_messages_cpp
 
--- LAB_LIBDIR=lib/x86_64
+[ 54%] Built target geometry_msgs_generate_messages_lisp
 
--- LAB_INCLUDES=include
+[ 79%] Built target amd_clmc_ros_messages_generate_messages_lisp
 
--- LAB_BINDIR=bin/x86_64
+[ 79%] Built target amd_clmc_ros_messages_generate_messages
 
--- Boost version: 1.54.0
+[ 79%] Built target _ar_track_alvar_msgs_generate_messages_check_deps_AlvarMarker
 
--- Found the following Boost libraries:
+[ 79%] Built target _ar_track_alvar_msgs_generate_messages_check_deps_AlvarMarkers
 
---   thread
+[ 79%] Built target std_msgs_generate_messages_cpp
 
--- +++ processing catkin package: 'conversions'
+[ 80%] Built target ar_track_alvar_msgs_generate_messages_cpp
 
--- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/usc_utils/conversions)
+[ 80%] Built target std_msgs_generate_messages_lisp
 
--- +++ processing catkin package: 'py_cpp_interface'
+[ 80%] Built target ar_track_alvar_msgs_generate_messages_lisp
 
--- ==> add_subdirectory(catkin/utils/py_cpp_interface)
+[ 80%] Built target std_msgs_generate_messages_py
 
--- Boost version: 1.54.0
+[ 81%] Built target ar_track_alvar_msgs_generate_messages_py
 
--- Found the following Boost libraries:
+[ 81%] Built target ar_track_alvar_msgs_generate_messages
 
---   system
+[ 81%] Built target _custom_robot_msgs_generate_messages_check_deps_PredictAssembly
 
---   thread
+[ 81%] Built target _custom_robot_msgs_generate_messages_check_deps_PolicyInterface
 
---   python
+[ 81%] Built target _custom_robot_msgs_generate_messages_check_deps_assembly_phase
 
--- PYTHON_BIN_LOCATION: /usr/bin/python
+[ 82%] Built target custom_robot_msgs_generate_messages_lisp
 
+[ 83%] Built target custom_robot_msgs_generate_messages_py
 
+[ 83%] Built target custom_robot_msgs_generate_messages_cpp
 
--- +++ processing catkin package: 'pyplot'
+[ 83%] Built target custom_robot_msgs_generate_messages
 
--- ==> add_subdirectory(catkin/utilities/pyplot)
+[ 83%] Built target _riemo_grasping_msgs_generate_messages_check_deps_UpdateGraspProblem
 
--- +++ processing catkin package: 'qp_oases'
+[ 83%] Built target _riemo_grasping_msgs_generate_messages_check_deps_GraspPose
 
--- ==> add_subdirectory(catkin/third_party/qp_oases)
+[ 83%] Built target _riemo_grasping_msgs_generate_messages_check_deps_RenderGraspProblemService
 
--- +++ processing catkin package: 'quadprog'
+[ 83%] Built target _riemo_grasping_msgs_generate_messages_check_deps_GraspableObject
 
--- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/usc_utils/quadprog)
+[ 83%] Built target _riemo_grasping_msgs_generate_messages_check_deps_MpiGraspPoses
 
--- +++ processing catkin metapackage: 'ros_realtime'
+[ 83%] Built target _riemo_grasping_msgs_generate_messages_check_deps_LatestGraspProblemInfo
 
--- ==> add_subdirectory(catkin/ros/ros_realtime/ros_realtime)
+[ 83%] Built target _riemo_grasping_msgs_generate_messages_check_deps_GraspProblemInfo
 
--- +++ processing catkin package: 'allocators'
+[ 83%] Built target _riemo_grasping_msgs_generate_messages_check_deps_Preshape
 
--- ==> add_subdirectory(catkin/ros/ros_realtime/allocators)
+[ 85%] Built target riemo_grasping_msgs_generate_messages_py
 
--- Boost version: 1.54.0
+[ 87%] Built target riemo_grasping_msgs_generate_messages_lisp
 
--- +++ processing catkin package: 'rosatomic'
+[ 89%] Built target riemo_grasping_msgs_generate_messages_cpp
 
--- ==> add_subdirectory(catkin/ros/ros_realtime/rosatomic)
+[ 89%] Built target riemo_grasping_msgs_generate_messages
 
--- Boost version: 1.54.0
+[ 89%] Built target _playful_navigation_msgs_generate_messages_check_deps_Move_target_out_of_obstacles
 
--- +++ processing catkin package: 'lockfree'
+[ 89%] Built target _playful_navigation_msgs_generate_messages_check_deps_Move_robot_out_of_obstacles
 
--- ==> add_subdirectory(catkin/ros/ros_realtime/lockfree)
+[ 90%] Built target playful_navigation_msgs_generate_messages_lisp
 
--- Boost version: 1.54.0
+[ 91%] Built target playful_navigation_msgs_generate_messages_py
 
--- +++ processing catkin package: 'rt_timer'
+[ 91%] Built target playful_navigation_msgs_generate_messages_cpp
 
--- ==> add_subdirectory(catkin/ros/ros_realtime/rt_timer)
+[ 91%] Built target playful_navigation_msgs_generate_messages
 
--- +++ processing catkin package: 'start_robot'
+[ 92%] Built target playful_pcl
 
--- ==> add_subdirectory(catkin/robots/start_robot)
+[ 92%] Built target playful_histograms
 
--- +++ processing catkin package: 'amd_clmc_ros_messages'
+[ 92%] Built target playful_cloud_color_filtering_node
 
--- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/amd_clmc_ros_messages)
+[ 92%] Built target playful_color_detection_node
 
--- Using these message generators: gencpp;genlisp;genpy
+[ 94%] Built target playful_navigation
 
--- amd_clmc_ros_messages: 108 messages, 10 services
+[ 94%] Built target test_clustering
 
--- +++ processing catkin package: 'ar_track_alvar_msgs'
+[ 94%] Built target playful_navigation_nodes
 
--- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/ar_track_alvar_msgs)
+[ 94%] Built target playful_navigation_node
 
--- Using these message generators: gencpp;genlisp;genpy
+[ 94%] Built target point_cloud_crop_node
 
--- ar_track_alvar_msgs: 2 messages, 0 services
+[ 95%] Built target point_cloud_downsample_node
 
--- +++ processing catkin package: 'custom_robot_msgs'
+[ 95%] Built target point_cloud_fusion_node
 
--- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/custom_robot_msgs)
+[ 95%] Built target point_cloud_transform_node
 
--- Using these message generators: gencpp;genlisp;genpy
+[ 95%] Built target point_cloud_translate_node
 
--- custom_robot_msgs: 1 messages, 2 services
+[ 95%] Built target scan_to_point_cloud_node
 
--- +++ processing catkin package: 'riemo_grasping_msgs'
+[ 95%] Built target tf_transform
 
--- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/riemo_grasping_msgs)
+[ 96%] Built target virtual_point_cloud_publish
 
--- Using these message generators: gencpp;genlisp;genpy
+[ 96%] Built target playful_balloon_position_node
 
--- riemo_grasping_msgs: 5 messages, 3 services
+[ 96%] Built target playful_colored_cup_grasp_position_node
 
--- +++ processing catkin package: 'utilities'
+[ 96%] Built target playful_filter_colored_cup_from_cloud_node
 
--- ==> add_subdirectory(catkin/core-sl/catkin-utilities)
+[ 97%] Building CXX object catkin/playful/playful-table-setting/CMakeFiles/playful_find_humans_and_arms_node.dir/src/find_humans_and_arms_node.cpp.o
 
--- MACHTYPE x86_64
+/home/administrator/ci/ci/team/workspace/src/catkin/playful/playful-table-setting/src/find_humans_and_arms_node.cpp:1:45: fatal error: playful_navigation/obstacles_3d.h: No such file or directory
 
-Detected MACHTYPE=x86_64
+ #include "playful_navigation/obstacles_3d.h"
 
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+                                             ^
 
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+compilation terminated.
 
-Call Stack (most recent call first):
+make[2]: *** [catkin/playful/playful-table-setting/CMakeFiles/playful_find_humans_and_arms_node.dir/src/find_humans_and_arms_node.cpp.o] Error 1
 
-  catkin/core-sl/catkin-utilities/CMakeLists.txt:8 (include)
+make[1]: *** [catkin/playful/playful-table-setting/CMakeFiles/playful_find_humans_and_arms_node.dir/all] Error 2
 
-
-
-
-
--- HOST_NAME=everest
-
--- HOST=everest
-
--- LAB=AMD
-
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_INCLUDE_PATH=
-
--- CMAKE_LIBRARY_PATH=
-
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
-
--- LAB_LIBDIR=lib/x86_64
-
--- LAB_INCLUDES=include
-
--- LAB_BINDIR=bin/x86_64
-
--- +++ processing catkin package: 'lwpr'
-
--- ==> add_subdirectory(catkin/core-sl/catkin-lwpr)
-
--- MACHTYPE x86_64
-
-Detected MACHTYPE=x86_64
-
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
-
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
-
-Call Stack (most recent call first):
-
-  catkin/core-sl/catkin-lwpr/CMakeLists.txt:5 (include)
-
-
-
-
-
--- HOST_NAME=everest
-
--- HOST=everest
-
--- LAB=AMD
-
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_INCLUDE_PATH=
-
--- CMAKE_LIBRARY_PATH=
-
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
-
--- LAB_LIBDIR=lib/x86_64
-
--- LAB_INCLUDES=include
-
--- LAB_BINDIR=bin/x86_64
-
--- +++ processing catkin package: 'vrpn_vicon_minimum'
-
--- ==> add_subdirectory(catkin/perception/vrpn_vicon_minimum)
-
--- +++ processing catkin package: 'vrpn_vicon_objs_tracker'
-
--- ==> add_subdirectory(catkin/perception/vrpn_vicon_objs_tracker)
-
--- +++ processing catkin package: 'xenomai_ros'
-
--- ==> add_subdirectory(catkin/ros/xenomai-ros)
-
--- +++ processing catkin package: 'constrained_inverse_kinematics_msgs'
-
--- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/planning/constrained_inverse_kinematics_msgs)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- constrained_inverse_kinematics_msgs: 1 messages, 0 services
-
--- +++ processing catkin package: 'roscpp_utilities'
-
--- ==> add_subdirectory(catkin/ros/roscpp_utilities)
-
--- +++ processing catkin package: 'rosrt'
-
--- ==> add_subdirectory(catkin/ros/ros_realtime/rosrt)
-
--- xenomai NOT found. (/usr/local;/usr)
-
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
-
--- Boost version: 1.54.0
-
--- Found the following Boost libraries:
-
---   thread
-
--- +++ processing catkin package: 'ros_rt_test'
-
--- ==> add_subdirectory(catkin/ros/ros_rt_basic_example)
-
--- xenomai NOT found. (/usr/local;/usr)
-
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
-
--- +++ processing catkin package: 'sl'
-
--- ==> add_subdirectory(catkin/core-sl/catkin-sl)
-
--- MACHTYPE x86_64
-
-Detected MACHTYPE=x86_64
-
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
-
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
-
-Call Stack (most recent call first):
-
-  catkin/core-sl/catkin-sl/CMakeLists.txt:8 (include)
-
-
-
-
-
--- HOST_NAME=everest
-
--- HOST=everest
-
--- LAB=AMD
-
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_INCLUDE_PATH=
-
--- CMAKE_LIBRARY_PATH=
-
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
-
--- LAB_LIBDIR=lib/x86_64
-
--- LAB_INCLUDES=include
-
--- LAB_BINDIR=bin/x86_64
-
--- +++ processing catkin package: 'apollo'
-
--- ==> add_subdirectory(catkin/robots/catkin-apollo)
-
--- MACHTYPE x86_64
-
-Detected MACHTYPE=x86_64
-
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
-
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
-
-Call Stack (most recent call first):
-
-  catkin/robots/catkin-apollo/CMakeLists.txt:9 (include)
-
-
-
-
-
--- HOST_NAME=everest
-
--- HOST=everest
-
--- LAB=AMD
-
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_INCLUDE_PATH=
-
--- CMAKE_LIBRARY_PATH=
-
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
-
--- LAB_LIBDIR=lib/x86_64
-
--- LAB_INCLUDES=include
-
--- LAB_BINDIR=bin/x86_64
-
--- +++ processing catkin package: 'apollo_test_task'
-
--- ==> add_subdirectory(catkin/robots/catkin-sl-apollo-task-example)
-
--- MACHTYPE x86_64
-
-Detected MACHTYPE=x86_64
-
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
-
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
-
-Call Stack (most recent call first):
-
-  catkin/robots/catkin-sl-apollo-task-example/CMakeLists.txt:8 (include)
-
-
-
-
-
--- HOST_NAME=everest
-
--- HOST=everest
-
--- LAB=AMD
-
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_INCLUDE_PATH=
-
--- CMAKE_LIBRARY_PATH=
-
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
-
--- LAB_LIBDIR=lib/x86_64
-
--- LAB_INCLUDES=include
-
--- LAB_BINDIR=bin/x86_64
-
--- +++ processing catkin package: 'sl_python_core'
-
--- ==> add_subdirectory(catkin/wrappers/sl_python/sl_python_core)
-
--- MACHTYPE x86_64
-
-Detected MACHTYPE=x86_64
-
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
-
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
-
-Call Stack (most recent call first):
-
-  catkin/wrappers/sl_python/sl_python_core/CMakeLists.txt:6 (include)
-
-
-
-
-
--- HOST_NAME=everest
-
--- HOST=everest
-
--- LAB=AMD
-
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_INCLUDE_PATH=
-
--- CMAKE_LIBRARY_PATH=
-
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
-
--- LAB_LIBDIR=lib/x86_64
-
--- LAB_INCLUDES=include
-
--- LAB_BINDIR=bin/x86_64
-
--- xenomai NOT found. (/usr/local;/usr)
-
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
-
--- Boost version: 1.54.0
-
--- Found the following Boost libraries:
-
---   system
-
--- +++ processing catkin package: 'sl_python_apollo'
-
--- ==> add_subdirectory(catkin/wrappers/sl_python/sl_python_apollo)
-
--- MACHTYPE x86_64
-
-Detected MACHTYPE=x86_64
-
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
-
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
-
-Call Stack (most recent call first):
-
-  catkin/wrappers/sl_python/sl_python_apollo/CMakeLists.txt:6 (include)
-
-
-
-
-
--- HOST_NAME=everest
-
--- HOST=everest
-
--- LAB=AMD
-
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_INCLUDE_PATH=
-
--- CMAKE_LIBRARY_PATH=
-
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
-
--- LAB_LIBDIR=lib/x86_64
-
--- LAB_INCLUDES=include
-
--- LAB_BINDIR=bin/x86_64
-
--- xenomai NOT found. (/usr/local;/usr)
-
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
-
--- Boost version: 1.54.0
-
--- Found the following Boost libraries:
-
---   system
-
--- +++ processing catkin package: 'sl_ros_servo'
-
--- ==> add_subdirectory(catkin/ros/sl_ros_servo)
-
--- MACHTYPE x86_64
-
-Detected MACHTYPE=x86_64
-
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
-
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
-
-Call Stack (most recent call first):
-
-  catkin/ros/sl_ros_servo/CMakeLists.txt:5 (include)
-
-
-
-
-
--- HOST_NAME=everest
-
--- HOST=everest
-
--- LAB=AMD
-
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_INCLUDE_PATH=
-
--- CMAKE_LIBRARY_PATH=
-
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
-
--- LAB_LIBDIR=lib/x86_64
-
--- LAB_INCLUDES=include
-
--- LAB_BINDIR=bin/x86_64
-
--- +++ processing catkin package: 'python_ros_utils'
-
--- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/usc_utils/python_ros_utils)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- +++ processing catkin package: 'ros_servo_apollo'
-
--- ==> add_subdirectory(catkin/ros/ros_servo_apollo)
-
--- MACHTYPE x86_64
-
-Detected MACHTYPE=x86_64
-
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
-
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
-
-Call Stack (most recent call first):
-
-  catkin/ros/ros_servo_apollo/CMakeLists.txt:5 (include)
-
-
-
-
-
--- HOST_NAME=everest
-
--- HOST=everest
-
--- LAB=AMD
-
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_INCLUDE_PATH=
-
--- CMAKE_LIBRARY_PATH=
-
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
-
--- LAB_LIBDIR=lib/x86_64
-
--- LAB_INCLUDES=include
-
--- LAB_BINDIR=bin/x86_64
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- +++ processing catkin package: 'usc_utilities'
-
--- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/usc_utils/usc_utilities)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- usc_utilities: 1 messages, 0 services
-
--- +++ processing catkin package: 'learnable_cost_function'
-
--- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/planning/learnable_cost_function)
-
--- +++ processing catkin package: 'robot_info'
-
--- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/usc_utils/robot_info)
-
--- +++ processing catkin package: 'jacobian_utilities'
-
--- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/usc_utils/jacobian_utilities)
-
--- +++ processing catkin package: 'vicon_bridge'
-
--- ==> add_subdirectory(catkin/perception/vicon_bridge)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- Boost version: 1.54.0
-
--- Found the following Boost libraries:
-
---   thread
-
--- vicon_bridge: 3 messages, 2 services
-
--- +++ processing catkin package: 'vicon_core'
-
--- ==> add_subdirectory(catkin/sensors/vicon-core)
-
--- MACHTYPE x86_64
-
-Detected MACHTYPE=x86_64
-
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
-
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
-
-Call Stack (most recent call first):
-
-  catkin/sensors/vicon-core/CMakeLists.txt:8 (include)
-
-
-
-
-
--- HOST_NAME=everest
-
--- HOST=everest
-
--- LAB=AMD
-
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_INCLUDE_PATH=
-
--- CMAKE_LIBRARY_PATH=
-
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
-
--- LAB_LIBDIR=lib/x86_64
-
--- LAB_INCLUDES=include
-
--- LAB_BINDIR=bin/x86_64
-
--- xenomai NOT found. (/usr/local;/usr)
-
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- +++ processing catkin package: 'vicon_subscriber'
-
--- ==> add_subdirectory(catkin/perception/vicon_subscriber)
-
--- Boost version: 1.54.0
-
--- +++ processing catkin package: 'yaml_cpp'
-
--- ==> add_subdirectory(catkin/third_party/YAML_CPP)
-
--- Boost version: 1.54.0
-
--- +++ processing catkin package: 'facial_expressions'
-
--- ==> add_subdirectory(catkin/emotions/facial_expressions)
-
--- MACHTYPE x86_64
-
-Detected MACHTYPE=x86_64
-
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
-
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
-
-Call Stack (most recent call first):
-
-  catkin/emotions/facial_expressions/CMakeLists.txt:6 (include)
-
-
-
-
-
--- HOST_NAME=everest
-
--- HOST=everest
-
--- LAB=AMD
-
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_INCLUDE_PATH=
-
--- CMAKE_LIBRARY_PATH=
-
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
-
--- LAB_LIBDIR=lib/x86_64
-
--- LAB_INCLUDES=include
-
--- LAB_BINDIR=bin/x86_64
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- facial_expressions: 0 messages, 1 services
-
--- +++ processing catkin package: 'pole_balancing_apollo'
-
--- ==> add_subdirectory(catkin/learning/pole_balancing_apollo)
-
--- MACHTYPE x86_64
-
-Detected MACHTYPE=x86_64
-
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
-
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
-
-Call Stack (most recent call first):
-
-  catkin/learning/pole_balancing_apollo/CMakeLists.txt:10 (include)
-
-
-
-
-
--- HOST_NAME=everest
-
--- HOST=everest
-
--- LAB=AMD
-
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_INCLUDE_PATH=
-
--- CMAKE_LIBRARY_PATH=
-
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
-
--- LAB_LIBDIR=lib/x86_64
-
--- LAB_INCLUDES=include
-
--- LAB_BINDIR=bin/x86_64
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- xenomai NOT found. (/usr/local;/usr)
-
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
-
--- pole_balancing_apollo: 2 messages, 0 services
-
--- +++ processing catkin package: 'apollo_user'
-
--- ==> add_subdirectory(catkin/robots/catkin-apolloUser)
-
--- MACHTYPE x86_64
-
-Detected MACHTYPE=x86_64
-
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
-
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
-
-Call Stack (most recent call first):
-
-  catkin/robots/catkin-apolloUser/CMakeLists.txt:8 (include)
-
-
-
-
-
--- HOST_NAME=everest
-
--- HOST=everest
-
--- LAB=AMD
-
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_INCLUDE_PATH=
-
--- CMAKE_LIBRARY_PATH=
-
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
-
--- LAB_LIBDIR=lib/x86_64
-
--- LAB_INCLUDES=include
-
--- LAB_BINDIR=bin/x86_64
-
--- xenomai NOT found. (/usr/local;/usr)
-
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
-
--- Configuring done
-
--- Generating done
-
--- Build files have been written to: /home/administrator/ci/ci/team/workspace/build
-
-Scanning dependencies of target gtest
-
-[  0%] [  0%] Built target lockfree
-
-Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
-
-Linking CXX shared library libgtest.so
-
-[  0%] Built target gtest
-
-Scanning dependencies of target gtest_main
-
-[  0%] Building CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
-
-Linking CXX shared library libgtest_main.so
-
-[  0%] Built target gtest_main
-
-Scanning dependencies of target test_aligned_alloc
-
-Scanning dependencies of target utest
-
-Scanning dependencies of target test_freelist
-
-[  0%] [100%] Scanning dependencies of target test_object_pool
-
-Building CXX object catkin/ros/ros_realtime/allocators/CMakeFiles/test_aligned_alloc.dir/test/test_aligned_alloc.cpp.o
-
-[100%] Building CXX object catkin/ros/ros_realtime/rosatomic/CMakeFiles/utest.dir/test/utest.cpp.o
-
-[100%] Building CXX object catkin/ros/ros_realtime/lockfree/CMakeFiles/test_freelist.dir/test/test_freelist.cpp.o
-
-Building CXX object catkin/ros/ros_realtime/lockfree/CMakeFiles/test_object_pool.dir/test/test_object_pool.cpp.o
-
-Scanning dependencies of target pole_balancing_ut
-
-[100%] [100%] [100%] Building CXX object catkin/learning/pole_balancing_apollo/CMakeFiles/pole_balancing_ut.dir/tests/main_test.cpp.o
-
-Building CXX object catkin/learning/pole_balancing_apollo/CMakeFiles/pole_balancing_ut.dir/tests/test_parameters.cpp.o
-
-Building CXX object catkin/learning/pole_balancing_apollo/CMakeFiles/pole_balancing_ut.dir/src/pole_balancing_apollo/parameters.cpp.o
-
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/allocators/test_aligned_alloc
-
-[100%] Built target test_aligned_alloc
-
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/rosatomic/utest
-
-[100%] Built target utest
-
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/lockfree/test_object_pool
-
-[100%] Built target test_object_pool
-
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/pole_balancing_apollo/pole_balancing_ut
-
-CMakeFiles/pole_balancing_ut.dir/src/pole_balancing_apollo/parameters.cpp.o: In function `parameters::YAML_pole_balancing_config::YAML_pole_balancing_config(std::string)':
-
-parameters.cpp:(.text+0x4e): undefined reference to `YAML::LoadFile(std::string const&)'
-
-CMakeFiles/pole_balancing_ut.dir/src/pole_balancing_apollo/parameters.cpp.o: In function `YAML::detail::memory_holder::create_node()':
-
-parameters.cpp:(.text._ZN4YAML6detail13memory_holder11create_nodeEv[_ZN4YAML6detail13memory_holder11create_nodeEv]+0x1c): undefined reference to `YAML::detail::memory::create_node()'
-
-CMakeFiles/pole_balancing_ut.dir/src/pole_balancing_apollo/parameters.cpp.o: In function `YAML::detail::node_ref::mark_defined()':
-
-parameters.cpp:(.text._ZN4YAML6detail8node_ref12mark_definedEv[_ZN4YAML6detail8node_ref12mark_definedEv]+0x1c): undefined reference to `YAML::detail::node_data::mark_defined()'
-
-CMakeFiles/pole_balancing_ut.dir/src/pole_balancing_apollo/parameters.cpp.o: In function `YAML::detail::node_ref::set_null()':
-
-parameters.cpp:(.text._ZN4YAML6detail8node_ref8set_nullEv[_ZN4YAML6detail8node_ref8set_nullEv]+0x1c): undefined reference to `YAML::detail::node_data::set_null()'
-
-CMakeFiles/pole_balancing_ut.dir/src/pole_balancing_apollo/parameters.cpp.o: In function `YAML::Node::AssignNode(YAML::Node const&)':
-
-parameters.cpp:(.text._ZN4YAML4Node10AssignNodeERKS0_[_ZN4YAML4Node10AssignNodeERKS0_]+0xe1): undefined reference to `YAML::detail::memory_holder::merge(YAML::detail::memory_holder&)'
-
-CMakeFiles/pole_balancing_ut.dir/tests/test_parameters.cpp.o: In function `YAML::detail::node_ref::set_scalar(std::string const&)':
-
-test_parameters.cpp:(.text._ZN4YAML6detail8node_ref10set_scalarERKSs[_ZN4YAML6detail8node_ref10set_scalarERKSs]+0x27): undefined reference to `YAML::detail::node_data::set_scalar(std::string const&)'
-
-CMakeFiles/pole_balancing_ut.dir/tests/test_parameters.cpp.o: In function `YAML::detail::node_ref::begin()':
-
-test_parameters.cpp:(.text._ZN4YAML6detail8node_ref5beginEv[_ZN4YAML6detail8node_ref5beginEv]+0x2a): undefined reference to `YAML::detail::node_data::begin()'
-
-CMakeFiles/pole_balancing_ut.dir/tests/test_parameters.cpp.o: In function `YAML::detail::node_ref::end()':
-
-test_parameters.cpp:(.text._ZN4YAML6detail8node_ref3endEv[_ZN4YAML6detail8node_ref3endEv]+0x2a): undefined reference to `YAML::detail::node_data::end()'
-
-CMakeFiles/pole_balancing_ut.dir/tests/test_parameters.cpp.o: In function `YAML::detail::node_ref::push_back(YAML::detail::node&, boost::shared_ptr<YAML::detail::memory_holder>)':
-
-test_parameters.cpp:(.text._ZN4YAML6detail8node_ref9push_backERNS0_4nodeEN5boost10shared_ptrINS0_13memory_holderEEE[_ZN4YAML6detail8node_ref9push_backERNS0_4nodeEN5boost10shared_ptrINS0_13memory_holderEEE]+0x43): undefined reference to `YAML::detail::node_data::push_back(YAML::detail::node&, boost::shared_ptr<YAML::detail::memory_holder>)'
-
-CMakeFiles/pole_balancing_ut.dir/tests/test_parameters.cpp.o: In function `YAML::Node::Scalar() const':
-
-test_parameters.cpp:(.text._ZNK4YAML4Node6ScalarEv[_ZNK4YAML4Node6ScalarEv]+0x64): undefined reference to `YAML::detail::node_data::empty_scalar'
-
-CMakeFiles/pole_balancing_ut.dir/tests/test_parameters.cpp.o: In function `YAML::Node::AssignData(YAML::Node const&)':
-
-test_parameters.cpp:(.text._ZN4YAML4Node10AssignDataERKS0_[_ZN4YAML4Node10AssignDataERKS0_]+0xb3): undefined reference to `YAML::detail::memory_holder::merge(YAML::detail::memory_holder&)'
-
-CMakeFiles/pole_balancing_ut.dir/tests/test_parameters.cpp.o: In function `YAML::Node::push_back(YAML::Node const&)':
-
-test_parameters.cpp:(.text._ZN4YAML4Node9push_backERKS0_[_ZN4YAML4Node9push_backERKS0_]+0xda): undefined reference to `YAML::detail::memory_holder::merge(YAML::detail::memory_holder&)'
-
-CMakeFiles/pole_balancing_ut.dir/tests/test_parameters.cpp.o: In function `parameters_tests::SetUp()':
-
-test_parameters.cpp:(.text._ZN16parameters_tests5SetUpEv[_ZN16parameters_tests5SetUpEv]+0x2fc): undefined reference to `YAML::operator<<(std::ostream&, YAML::Node const&)'
-
-CMakeFiles/pole_balancing_ut.dir/tests/test_parameters.cpp.o: In function `YAML::detail::node& YAML::detail::node_data::get<std::string>(std::string const&, boost::shared_ptr<YAML::detail::memory_holder>)':
-
-test_parameters.cpp:(.text._ZN4YAML6detail9node_data3getISsEERNS0_4nodeERKT_N5boost10shared_ptrINS0_13memory_holderEEE[_ZN4YAML6detail9node_data3getISsEERNS0_4nodeERKT_N5boost10shared_ptrINS0_13memory_holderEEE]+0xae): undefined reference to `YAML::detail::node_data::convert_to_map(boost::shared_ptr<YAML::detail::memory_holder>)'
-
-test_parameters.cpp:(.text._ZN4YAML6detail9node_data3getISsEERNS0_4nodeERKT_N5boost10shared_ptrINS0_13memory_holderEEE[_ZN4YAML6detail9node_data3getISsEERNS0_4nodeERKT_N5boost10shared_ptrINS0_13memory_holderEEE]+0x21c): undefined reference to `YAML::detail::node_data::insert_map_pair(YAML::detail::node&, YAML::detail::node&)'
-
-CMakeFiles/pole_balancing_ut.dir/tests/test_parameters.cpp.o: In function `YAML::as_if<bool, void>::operator()() const':
-
-test_parameters.cpp:(.text._ZNK4YAML5as_ifIbvEclEv[_ZNK4YAML5as_ifIbvEclEv]+0x58): undefined reference to `YAML::convert<bool>::decode(YAML::Node const&, bool&)'
-
-CMakeFiles/pole_balancing_ut.dir/tests/test_parameters.cpp.o: In function `YAML::detail::node& YAML::detail::node_data::convert_to_node<std::string>(std::string const&, boost::shared_ptr<YAML::detail::memory_holder>)':
-
-test_parameters.cpp:(.text._ZN4YAML6detail9node_data15convert_to_nodeISsEERNS0_4nodeERKT_N5boost10shared_ptrINS0_13memory_holderEEE[_ZN4YAML6detail9node_data15convert_to_nodeISsEERNS0_4nodeERKT_N5boost10shared_ptrINS0_13memory_holderEEE]+0x56): undefined reference to `YAML::detail::memory_holder::merge(YAML::detail::memory_holder&)'
-
-collect2: error: ld returned 1 exit status
-
-make[3]: *** [/home/administrator/ci/ci/team/workspace/devel/lib/pole_balancing_apollo/pole_balancing_ut] Error 1
-
-make[2]: *** [catkin/learning/pole_balancing_apollo/CMakeFiles/pole_balancing_ut.dir/all] Error 2
-
-make[2]: *** Waiting for unfinished jobs....
-
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/lockfree/test_freelist
-
-[100%] Built target test_freelist
-
-make[1]: *** [CMakeFiles/tests.dir/rule] Error 2
-
-make: *** [tests] Error 2
+make: *** [all] Error 2
 
 Base path: /home/administrator/ci/ci/team/workspace
 
@@ -1185,14 +380,14 @@ Install space: /home/administrator/ci/ci/team/workspace/install
 
 ####
 
-#### Running command: "cmake /home/administrator/ci/ci/team/workspace/src -DCATKIN_DEVEL_PREFIX=/home/administrator/ci/ci/team/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/administrator/ci/ci/team/workspace/install" in "/home/administrator/ci/ci/team/workspace/build"
+#### Running command: "make cmake_check_build_system" in "/home/administrator/ci/ci/team/workspace/build"
 
 ####
 
 ####
 
-#### Running command: "make -j16 tests" in "/home/administrator/ci/ci/team/workspace/build"
+#### Running command: "make -j1" in "/home/administrator/ci/ci/team/workspace/build"
 
 ####
 
-Invoking "make" failed
+Invoking "make -j1" failed
