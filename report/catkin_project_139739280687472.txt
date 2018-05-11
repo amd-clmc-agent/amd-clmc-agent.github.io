@@ -80,7 +80,7 @@
 
 -- +++ processing catkin package: 'ci_example_python'
 
--- ==> add_subdirectory(catkin/examples/ci_example/ci_example_python)
+-- ==> add_subdirectory(catkin/test/ci_test/ci_example_python)
 
 -- +++ processing catkin package: 'yaml_cpp'
 
@@ -94,11 +94,11 @@
 
 -- +++ processing catkin package: 'ci_example_cpp'
 
--- ==> add_subdirectory(catkin/examples/ci_example/ci_example_cpp)
+-- ==> add_subdirectory(catkin/test/ci_test/ci_example_cpp)
 
 -- +++ processing catkin package: 'ci_doxygen_child_cpp'
 
--- ==> add_subdirectory(catkin/examples/ci_example/ci_doxygen_child_cpp)
+-- ==> add_subdirectory(catkin/test/ci_test/ci_doxygen_child_cpp)
 
 -- Configuring done
 
@@ -108,43 +108,43 @@
 
 Scanning dependencies of target yaml-cpp
 
-[  2%] [  4%] [  6%] [  9%] [ 11%] [ 13%] [ 15%] [ 18%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/node.cpp.o
-
-[ 20%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/memory.cpp.o
-
-[ 22%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/nodebuilder.cpp.o
+[  2%] [  4%] [  6%] [  9%] [ 11%] [ 15%] [ 15%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/nodebuilder.cpp.o
 
 Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/scantoken.cpp.o
 
+[ 18%] [ 20%] [ 22%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/memory.cpp.o
+
+[ 25%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/ostream_wrapper.cpp.o
+
 Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/parse.cpp.o
 
-Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/ostream_wrapper.cpp.o
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/node.cpp.o
 
-Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/nodeevents.cpp.o
-
-Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/directives.cpp.o
+[ 27%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/nodeevents.cpp.o
 
 Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/tag.cpp.o
 
-[ 25%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/scanscalar.cpp.o
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/directives.cpp.o
 
-Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emitterutils.cpp.o
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/scanscalar.cpp.o
 
-[ 27%] [ 29%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/scantag.cpp.o
+[ 29%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emitterutils.cpp.o
 
-[ 31%] [ 34%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/scanner.cpp.o
+[ 31%] [ 34%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/scantag.cpp.o
 
-Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/parser.cpp.o
+[ 36%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/parser.cpp.o
 
 Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emitter.cpp.o
 
-[ 36%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/exp.cpp.o
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/exp.cpp.o
+
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/scanner.cpp.o
 
 [ 38%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/regex.cpp.o
 
-[ 40%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/binary.cpp.o
+[ 40%] [ 43%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/binary.cpp.o
 
-[ 43%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/node_data.cpp.o
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/node_data.cpp.o
 
 [ 45%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emit.cpp.o
 
@@ -152,13 +152,13 @@ Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emit
 
 [ 50%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emitterstate.cpp.o
 
-[ 52%] [ 54%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/convert.cpp.o
+[ 52%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/convert.cpp.o
 
-Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/singledocparser.cpp.o
+[ 54%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/singledocparser.cpp.o
 
-[ 56%] [ 59%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/stream.cpp.o
+[ 56%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/stream.cpp.o
 
-Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emitfromevents.cpp.o
+[ 59%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emitfromevents.cpp.o
 
 [ 61%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/null.cpp.o
 
@@ -170,47 +170,47 @@ Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/li
 
 [ 65%] Built target yaml-cpp
 
-Scanning dependencies of target parse
-
 Scanning dependencies of target read
 
 Scanning dependencies of target sandbox
 
-[ 68%] Scanning dependencies of target run-tests
-
-[ 70%] [ 72%] Building CXX object catkin/third_party/YAML_CPP/util/CMakeFiles/parse.dir/parse.cpp.o
+Scanning dependencies of target parse
 
 Scanning dependencies of target basic_pid
 
+[ 68%] [ 70%] [ 72%] Scanning dependencies of target run-tests
+
+[ 75%] Building CXX object catkin/third_party/YAML_CPP/util/CMakeFiles/read.dir/read.cpp.o
+
 Building CXX object catkin/third_party/YAML_CPP/util/CMakeFiles/sandbox.dir/sandbox.cpp.o
 
-Building CXX object catkin/third_party/YAML_CPP/util/CMakeFiles/read.dir/read.cpp.o
+Building CXX object catkin/third_party/YAML_CPP/util/CMakeFiles/parse.dir/parse.cpp.o
 
-[ 75%] [ 77%] [ 79%] [ 81%] [ 84%] [ 86%] Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/tests.cpp.o
+Building CXX object catkin/test/ci_test/ci_example_cpp/CMakeFiles/basic_pid.dir/src/basic_pid.cpp.o
 
-[ 88%] Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/emittertests.cpp.o
+[ 77%] [ 79%] [ 81%] [ 84%] [ 86%] [ 88%] [ 90%] Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/new-api/spectests.cpp.o
+
+Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/emittertests.cpp.o
 
 Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/spectests.cpp.o
 
-[ 90%] Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/main.cpp.o
+Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/main.cpp.o
+
+Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/tests.cpp.o
 
 Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/new-api/parsertests.cpp.o
 
 Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/new-api/nodetests.cpp.o
 
-Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/new-api/spectests.cpp.o
-
-Building CXX object catkin/examples/ci_example/ci_example_cpp/CMakeFiles/basic_pid.dir/src/basic_pid.cpp.o
-
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/yaml_cpp/read
-
 Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/yaml_cpp/sandbox
-
-[ 90%] Built target read
 
 [ 90%] Built target sandbox
 
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/yaml_cpp/read
+
 Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/yaml_cpp/parse
+
+[ 90%] Built target read
 
 [ 90%] Built target parse
 
@@ -218,37 +218,37 @@ Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/li
 
 [ 90%] Built target basic_pid
 
-Scanning dependencies of target ci_example_ros
-
 Scanning dependencies of target ci_example_abs_path_config_demo
 
 Scanning dependencies of target ci_example_demo
 
-[ 93%] [ 95%] Scanning dependencies of target doxygen_child
+Scanning dependencies of target ci_example_ros
 
-[ 97%] Building CXX object catkin/examples/ci_example/ci_example_cpp/CMakeFiles/ci_example_ros.dir/src/demos/ci_example_ros.cpp.o
+Scanning dependencies of target doxygen_child
 
-Building CXX object catkin/examples/ci_example/ci_example_cpp/CMakeFiles/ci_example_abs_path_config_demo.dir/src/demos/ci_example_abs_path_config_demo.cpp.o
+[ 93%] [ 95%] Building CXX object catkin/test/ci_test/ci_example_cpp/CMakeFiles/ci_example_abs_path_config_demo.dir/src/demos/ci_example_abs_path_config_demo.cpp.o
 
-Building CXX object catkin/examples/ci_example/ci_example_cpp/CMakeFiles/ci_example_demo.dir/src/demos/ci_example_demo.cpp.o
+[ 97%] [100%] Building CXX object catkin/test/ci_test/ci_example_cpp/CMakeFiles/ci_example_ros.dir/src/demos/ci_example_ros.cpp.o
 
-[100%] Building CXX object catkin/examples/ci_example/ci_doxygen_child_cpp/CMakeFiles/doxygen_child.dir/src/doxygen_child.cpp.o
+Building CXX object catkin/test/ci_test/ci_example_cpp/CMakeFiles/ci_example_demo.dir/src/demos/ci_example_demo.cpp.o
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/ci_example_cpp/ci_example_abs_path_config_demo
-
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/ci_example_cpp/ci_example_demo
+Building CXX object catkin/test/ci_test/ci_doxygen_child_cpp/CMakeFiles/doxygen_child.dir/src/doxygen_child.cpp.o
 
 Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/ci_example_cpp/ci_example_ros
 
-[100%] Built target ci_example_abs_path_config_demo
-
 Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libdoxygen_child.so
 
-[100%] Built target ci_example_demo
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/ci_example_cpp/ci_example_demo
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/ci_example_cpp/ci_example_abs_path_config_demo
 
 [100%] Built target doxygen_child
 
+[100%] Built target ci_example_demo
+
 [100%] Built target ci_example_ros
+
+[100%] Built target ci_example_abs_path_config_demo
 
 Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/yaml_cpp/run-tests
 
@@ -270,23 +270,23 @@ Install the project...
 
 -- Installing: /home/administrator/ci/ci/team/workspace/install/.rosinstall
 
-+ cd /home/administrator/ci/ci/team/workspace/src/catkin/examples/ci_example/ci_example_python
++ cd /home/administrator/ci/ci/team/workspace/src/catkin/test/ci_test/ci_example_python
 
 + mkdir -p /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages
 
-+ /usr/bin/env PYTHONPATH=/home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages:/home/administrator/ci/ci/team/workspace/build/lib/python2.7/dist-packages:/opt/ros/indigo/lib/python2.7/dist-packages CATKIN_BINARY_DIR=/home/administrator/ci/ci/team/workspace/build /usr/bin/python /home/administrator/ci/ci/team/workspace/src/catkin/examples/ci_example/ci_example_python/setup.py build --build-base /home/administrator/ci/ci/team/workspace/build/catkin/examples/ci_example/ci_example_python install --install-layout=deb --prefix=/home/administrator/ci/ci/team/workspace/install --install-scripts=/home/administrator/ci/ci/team/workspace/install/bin
++ /usr/bin/env PYTHONPATH=/home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages:/home/administrator/ci/ci/team/workspace/build/lib/python2.7/dist-packages:/opt/ros/indigo/lib/python2.7/dist-packages CATKIN_BINARY_DIR=/home/administrator/ci/ci/team/workspace/build /usr/bin/python /home/administrator/ci/ci/team/workspace/src/catkin/test/ci_test/ci_example_python/setup.py build --build-base /home/administrator/ci/ci/team/workspace/build/catkin/test/ci_test/ci_example_python install --install-layout=deb --prefix=/home/administrator/ci/ci/team/workspace/install --install-scripts=/home/administrator/ci/ci/team/workspace/install/bin
 
 running build
 
 running build_py
 
-creating /home/administrator/ci/ci/team/workspace/build/catkin/examples/ci_example/ci_example_python/lib.linux-x86_64-2.7
+creating /home/administrator/ci/ci/team/workspace/build/catkin/test/ci_test/ci_example_python/lib.linux-x86_64-2.7
 
-creating /home/administrator/ci/ci/team/workspace/build/catkin/examples/ci_example/ci_example_python/lib.linux-x86_64-2.7/ci_example_python
+creating /home/administrator/ci/ci/team/workspace/build/catkin/test/ci_test/ci_example_python/lib.linux-x86_64-2.7/ci_example_python
 
-copying scripts/ci_example_python/__init__.py -> /home/administrator/ci/ci/team/workspace/build/catkin/examples/ci_example/ci_example_python/lib.linux-x86_64-2.7/ci_example_python
+copying scripts/ci_example_python/__init__.py -> /home/administrator/ci/ci/team/workspace/build/catkin/test/ci_test/ci_example_python/lib.linux-x86_64-2.7/ci_example_python
 
-copying scripts/ci_example_python/pid.py -> /home/administrator/ci/ci/team/workspace/build/catkin/examples/ci_example/ci_example_python/lib.linux-x86_64-2.7/ci_example_python
+copying scripts/ci_example_python/pid.py -> /home/administrator/ci/ci/team/workspace/build/catkin/test/ci_test/ci_example_python/lib.linux-x86_64-2.7/ci_example_python
 
 running install
 
@@ -294,9 +294,9 @@ running install_lib
 
 creating /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/ci_example_python
 
-copying /home/administrator/ci/ci/team/workspace/build/catkin/examples/ci_example/ci_example_python/lib.linux-x86_64-2.7/ci_example_python/__init__.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/ci_example_python
+copying /home/administrator/ci/ci/team/workspace/build/catkin/test/ci_test/ci_example_python/lib.linux-x86_64-2.7/ci_example_python/__init__.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/ci_example_python
 
-copying /home/administrator/ci/ci/team/workspace/build/catkin/examples/ci_example/ci_example_python/lib.linux-x86_64-2.7/ci_example_python/pid.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/ci_example_python
+copying /home/administrator/ci/ci/team/workspace/build/catkin/test/ci_test/ci_example_python/lib.linux-x86_64-2.7/ci_example_python/pid.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/ci_example_python
 
 byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/ci_example_python/__init__.py to __init__.pyc
 
@@ -412,9 +412,9 @@ Writing /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-pack
 
 -- Installing: /home/administrator/ci/ci/team/workspace/install/share/ci_example_cpp/package.xml
 
--- Installing: /home/administrator/ci/ci/team/workspace/src/catkin/examples/ci_example/ci_example_cpp/demos/bin/ci_example_ros
+-- Installing: /home/administrator/ci/ci/team/workspace/src/catkin/test/ci_test/ci_example_cpp/demos/bin/ci_example_ros
 
--- Set runtime path of "/home/administrator/ci/ci/team/workspace/src/catkin/examples/ci_example/ci_example_cpp/demos/bin/ci_example_ros" to "/home/administrator/ci/ci/team/workspace/install/lib:/home/administrator/ci/ci/team/workspace/devel/lib:/opt/ros/indigo/lib"
+-- Set runtime path of "/home/administrator/ci/ci/team/workspace/src/catkin/test/ci_test/ci_example_cpp/demos/bin/ci_example_ros" to "/home/administrator/ci/ci/team/workspace/install/lib:/home/administrator/ci/ci/team/workspace/devel/lib:/opt/ros/indigo/lib"
 
 -- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/ci_doxygen_child_cpp.pc
 
