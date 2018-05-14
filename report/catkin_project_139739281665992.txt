@@ -1,48 +1,212 @@
-[  0%] Built target _pointcloud_msgs_generate_messages_check_deps_PointCloudClassified
+-- Using CATKIN_DEVEL_PREFIX: /home/administrator/ci/ci/team/workspace/devel
 
-[  0%] Built target geometry_msgs_generate_messages_lisp
+-- Using CMAKE_PREFIX_PATH: /opt/ros/indigo
 
-[  0%] Built target sensor_msgs_generate_messages_lisp
+-- This workspace overlays: /opt/ros/indigo
 
-[  0%] Built target _pointcloud_msgs_generate_messages_check_deps_HypothesisVerify
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
 
-[  7%] Built target pointcloud_msgs_generate_messages_lisp
+-- Python version: 2.7
 
-[  7%] Built target sensor_msgs_generate_messages_cpp
+-- Using Debian Python package layout
 
-[  7%] Built target geometry_msgs_generate_messages_cpp
+-- Using CATKIN_ENABLE_TESTING: ON
 
-[ 14%] Built target pointcloud_msgs_generate_messages_cpp
+-- Call enable_testing()
 
-[ 14%] Built target geometry_msgs_generate_messages_py
+-- Using CATKIN_TEST_RESULTS_DIR: /home/administrator/ci/ci/team/workspace/build/test_results
 
-[ 14%] Built target sensor_msgs_generate_messages_py
+-- Found gtest sources under '/usr/src/gtest': gtests will be built
 
-[ 28%] Built target pointcloud_msgs_generate_messages_py
+-- catkin 0.5.90
 
-[ 28%] Built target pointcloud_msgs_generate_messages
+-- BUILD_SHARED_LIBS is on
 
-[ 42%] Built target global_recognizer
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-[ 46%] Built target global_classification
+-- ~~  traversing 14 packages in topological order:
 
-[ 50%] Building CXX object catkin/perception/3d_classification/recognition_3d/CMakeFiles/global_recognition.dir/src/global_recognition_test.cpp.o
+-- ~~  - imu_core
 
-In file included from /home/administrator/ci/ci/team/workspace/src/catkin/perception/3d_classification/recognition_3d/src/global_recognition_test.cpp:58:0:
+-- ~~  - ros_realtime (metapackage)
 
-/usr/include/pcl-1.7/pcl/recognition/hv/hv_go.h:14:52: fatal error: pcl/recognition/3rdparty/metslib/mets.hh: No such file or directory
+-- ~~  - allocators
 
- #include "pcl/recognition/3rdparty/metslib/mets.hh"
+-- ~~  - rosatomic
 
-                                                    ^
+-- ~~  - lockfree
 
-compilation terminated.
+-- ~~  - rt_timer
 
-make[2]: *** [catkin/perception/3d_classification/recognition_3d/CMakeFiles/global_recognition.dir/src/global_recognition_test.cpp.o] Error 1
+-- ~~  - amd_clmc_ros_messages
 
-make[1]: *** [catkin/perception/3d_classification/recognition_3d/CMakeFiles/global_recognition.dir/all] Error 2
+-- ~~  - ar_track_alvar_msgs
 
-make: *** [all] Error 2
+-- ~~  - custom_robot_msgs
+
+-- ~~  - riemo_grasping_msgs
+
+-- ~~  - xenomai_ros
+
+-- ~~  - rosrt
+
+-- ~~  - imu_ros_rt
+
+-- ~~  - ros_rt_test
+
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-- +++ processing catkin package: 'imu_core'
+
+-- ==> add_subdirectory(catkin/sensors/imu-core)
+
+CMake Error at catkin/sensors/imu-core/CMakeLists.txt:4 (include):
+
+  include could not find load file:
+
+
+
+    /home/administrator/ci/ci/team/workspace/src/cmake/sl_cmake_global/LAB.cmake
+
+
+
+
+
+-- xenomai NOT found. (/usr/local;/usr)
+
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+
+-- Boost version: 1.54.0
+
+-- Found the following Boost libraries:
+
+--   thread
+
+-- +++ processing catkin metapackage: 'ros_realtime'
+
+-- ==> add_subdirectory(catkin/ros/ros_realtime/ros_realtime)
+
+-- +++ processing catkin package: 'allocators'
+
+-- ==> add_subdirectory(catkin/ros/ros_realtime/allocators)
+
+-- Boost version: 1.54.0
+
+-- +++ processing catkin package: 'rosatomic'
+
+-- ==> add_subdirectory(catkin/ros/ros_realtime/rosatomic)
+
+-- Boost version: 1.54.0
+
+-- +++ processing catkin package: 'lockfree'
+
+-- ==> add_subdirectory(catkin/ros/ros_realtime/lockfree)
+
+-- Boost version: 1.54.0
+
+-- +++ processing catkin package: 'rt_timer'
+
+-- ==> add_subdirectory(catkin/ros/ros_realtime/rt_timer)
+
+-- +++ processing catkin package: 'amd_clmc_ros_messages'
+
+-- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/amd_clmc_ros_messages)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- amd_clmc_ros_messages: 108 messages, 10 services
+
+-- +++ processing catkin package: 'ar_track_alvar_msgs'
+
+-- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/ar_track_alvar_msgs)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- ar_track_alvar_msgs: 2 messages, 0 services
+
+-- +++ processing catkin package: 'custom_robot_msgs'
+
+-- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/custom_robot_msgs)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- custom_robot_msgs: 1 messages, 2 services
+
+-- +++ processing catkin package: 'riemo_grasping_msgs'
+
+-- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/riemo_grasping_msgs)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- riemo_grasping_msgs: 5 messages, 3 services
+
+-- +++ processing catkin package: 'xenomai_ros'
+
+-- ==> add_subdirectory(catkin/ros/xenomai-ros)
+
+-- +++ processing catkin package: 'rosrt'
+
+-- ==> add_subdirectory(catkin/ros/ros_realtime/rosrt)
+
+-- xenomai NOT found. (/usr/local;/usr)
+
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+
+-- Boost version: 1.54.0
+
+-- Found the following Boost libraries:
+
+--   thread
+
+-- +++ processing catkin package: 'imu_ros_rt'
+
+-- ==> add_subdirectory(catkin/sensors/imu-ros-rt)
+
+CMake Error at catkin/sensors/imu-ros-rt/CMakeLists.txt:4 (include):
+
+  include could not find load file:
+
+
+
+    /home/administrator/ci/ci/team/workspace/src/cmake/sl_cmake_global/LAB.cmake
+
+
+
+
+
+-- xenomai NOT found. (/usr/local;/usr)
+
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+
+-- Boost version: 1.54.0
+
+-- Found the following Boost libraries:
+
+--   thread
+
+CMake Error at catkin/sensors/imu-ros-rt/CMakeLists.txt:41 (install):
+
+  install TARGETS given target "imu_demo" which does not exist in this
+
+  directory.
+
+
+
+
+
+-- +++ processing catkin package: 'ros_rt_test'
+
+-- ==> add_subdirectory(catkin/ros/ros_rt_basic_example)
+
+-- xenomai NOT found. (/usr/local;/usr)
+
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+
+-- Configuring incomplete, errors occurred!
+
+See also "/home/administrator/ci/ci/team/workspace/build/CMakeFiles/CMakeOutput.log".
+
+See also "/home/administrator/ci/ci/team/workspace/build/CMakeFiles/CMakeError.log".
 
 Base path: /home/administrator/ci/ci/team/workspace
 
@@ -56,14 +220,8 @@ Install space: /home/administrator/ci/ci/team/workspace/install
 
 ####
 
-#### Running command: "make cmake_check_build_system" in "/home/administrator/ci/ci/team/workspace/build"
+#### Running command: "cmake /home/administrator/ci/ci/team/workspace/src -DCATKIN_DEVEL_PREFIX=/home/administrator/ci/ci/team/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/administrator/ci/ci/team/workspace/install -G Unix Makefiles" in "/home/administrator/ci/ci/team/workspace/build"
 
 ####
 
-####
-
-#### Running command: "make -j1" in "/home/administrator/ci/ci/team/workspace/build"
-
-####
-
-Invoking "make -j1" failed
+Invoking "cmake" failed
