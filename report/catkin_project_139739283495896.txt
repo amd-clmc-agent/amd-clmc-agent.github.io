@@ -68,25 +68,29 @@
 
 -- ~~  traversing 3 packages in topological order:
 
--- ~~  - project_management_test_1
+-- ~~  - amd_clmc_eigen
 
--- ~~  - project_management_test_2
+-- ~~  - vicon_sdk
 
--- ~~  - project_management_test_3
+-- ~~  - vicon_capture
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- +++ processing catkin package: 'project_management_test_1'
+-- +++ processing catkin package: 'amd_clmc_eigen'
 
--- ==> add_subdirectory(catkin/test/project_management_test_1)
+-- ==> add_subdirectory(catkin/third_party/amd-clmc-eigen)
 
--- +++ processing catkin package: 'project_management_test_2'
+-- +++ processing catkin package: 'vicon_sdk'
 
--- ==> add_subdirectory(catkin/test/project_management_test_2)
+-- ==> add_subdirectory(catkin/sensors/vicon_sdk)
 
--- +++ processing catkin package: 'project_management_test_3'
+-- +++ processing catkin package: 'vicon_capture'
 
--- ==> add_subdirectory(catkin/test/project_management_test_3)
+-- ==> add_subdirectory(catkin/sensors/vicon_capture)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- Boost version: 1.54.0
 
 -- Configuring done
 
@@ -94,45 +98,41 @@
 
 -- Build files have been written to: /home/administrator/ci/ci/team/workspace/build
 
-Scanning dependencies of target test_project_1_fail_demo
+Scanning dependencies of target vicon_sdklib_copy
 
-Scanning dependencies of target test_project_1_success_demo
+Scanning dependencies of target boost_libs_copy
 
-Scanning dependencies of target test_project_1_ttest
+[  0%] Built target vicon_sdklib_copy
 
-Scanning dependencies of target test_project_2_demo_fail
+Scanning dependencies of target ViconDataStreamSDK_CPP
 
-[ 20%] Scanning dependencies of target test_project_2_demo_success
+[  0%] Built target boost_libs_copy
 
-[ 40%] [ 60%] Building CXX object catkin/test/project_management_test_1/CMakeFiles/test_project_1_fail_demo.dir/src/test_project_1_demo_fail.cpp.o
+[  0%] Built target ViconDataStreamSDK_CPP
 
-[ 80%] [100%] Building CXX object catkin/test/project_management_test_1/CMakeFiles/test_project_1_success_demo.dir/src/test_project_1_demo_success.cpp.o
+Scanning dependencies of target vicon_capture
 
-Building CXX object catkin/test/project_management_test_1/CMakeFiles/test_project_1_ttest.dir/src/t_test.cpp.o
+[ 33%] Building CXX object catkin/sensors/vicon_capture/CMakeFiles/vicon_capture.dir/source/vicon_capture/vicon_capture.cpp.o
 
-Building CXX object catkin/test/project_management_test_2/CMakeFiles/test_project_2_demo_fail.dir/src/test_project_2_demo_fail.cpp.o
+Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libvicon_capture.so
 
-Building CXX object catkin/test/project_management_test_2/CMakeFiles/test_project_2_demo_success.dir/src/test_project_2_demo_success.cpp.o
+[ 33%] Built target vicon_capture
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/project_management_test_1/test_project_1_fail_demo
+Scanning dependencies of target vicon_capture_publisher_node
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/project_management_test_1/test_project_1_success_demo
+[ 66%] Building CXX object catkin/sensors/vicon_capture/CMakeFiles/vicon_capture_publisher_node.dir/source/vicon_capture/vicon_capture_publisher_node.cpp.o
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/project_management_test_2/test_project_2_demo_fail
+Scanning dependencies of target compute_apollo_vicon_base_offset_node
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/project_management_test_2/test_project_2_demo_success
+[100%] Building CXX object catkin/sensors/vicon_capture/CMakeFiles/compute_apollo_vicon_base_offset_node.dir/source/vicon_capture/compute_apollo_vicon_base_offset_node.cpp.o
 
-[100%] Built target test_project_1_fail_demo
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/vicon_capture/vicon_capture_publisher_node
 
-[100%] [100%] [100%] Built target test_project_2_demo_fail
+[100%] Built target vicon_capture_publisher_node
 
-Built target test_project_1_success_demo
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/vicon_capture/compute_apollo_vicon_base_offset_node
 
-Built target test_project_2_demo_success
-
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/project_management_test_1/test_project_1_ttest
-
-[100%] Built target test_project_1_ttest
+[100%] Built target compute_apollo_vicon_base_offset_node
 
 Install the project...
 
@@ -150,29 +150,37 @@ Install the project...
 
 -- Installing: /home/administrator/ci/ci/team/workspace/install/.rosinstall
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/project_management_test_1.pc
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/amd_clmc_eigen.pc
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/project_management_test_1/cmake/project_management_test_1Config.cmake
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/amd_clmc_eigen/cmake/amd_clmc_eigenConfig.cmake
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/project_management_test_1/cmake/project_management_test_1Config-version.cmake
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/amd_clmc_eigen/cmake/amd_clmc_eigenConfig-version.cmake
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/project_management_test_1/package.xml
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/amd_clmc_eigen/package.xml
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/project_management_test_2.pc
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/vicon_sdk.pc
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/project_management_test_2/cmake/project_management_test_2Config.cmake
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/vicon_sdk/cmake/vicon_sdkConfig.cmake
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/project_management_test_2/cmake/project_management_test_2Config-version.cmake
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/vicon_sdk/cmake/vicon_sdkConfig-version.cmake
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/project_management_test_2/package.xml
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/vicon_sdk/package.xml
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/project_management_test_3.pc
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/libViconDataStreamSDK_CPP.so
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/project_management_test_3/cmake/project_management_test_3Config.cmake
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/vicon_sdk
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/project_management_test_3/cmake/project_management_test_3Config-version.cmake
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/vicon_sdk/vicon_client.h
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/project_management_test_3/package.xml
+-- Up-to-date: /home/administrator/ci/ci/team/workspace/install/include/vicon_sdk/vicon_client.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/vicon_capture.pc
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/vicon_capture/cmake/vicon_captureConfig.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/vicon_capture/cmake/vicon_captureConfig-version.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/vicon_capture/package.xml
 
 Base path: /home/administrator/ci/ci/team/workspace
 
