@@ -1,394 +1,339 @@
+failed to compile unit tests:
 WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
 
-[  0%] Built target arm_cdlbt
+-- Using CATKIN_DEVEL_PREFIX: /home/administrator/ci/ci/team/workspace/devel
 
-[  0%] Built target arm_can_control_tools
+-- Using CMAKE_PREFIX_PATH: /home/administrator/ci/ci/team/workspace/devel;/opt/ros/indigo
 
-[  0%] Built target biotac_cheetah
+-- This workspace overlays: /home/administrator/ci/ci/team/workspace/devel;/opt/ros/indigo
 
-[  1%] Built target biotac_core
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
 
-[  1%] Built target test_cheetah
+-- Python version: 2.7
 
-[  1%] Built target test_conversions
+-- Using Debian Python package layout
 
-[  1%] Built target quadprog
+-- Using CATKIN_ENABLE_TESTING: ON
 
-[  1%] Built target lockfree
+-- Call enable_testing()
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_AccelerationFeedbackExperimentStatus
+-- Using CATKIN_TEST_RESULTS_DIR: /home/administrator/ci/ci/team/workspace/build/test_results
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineLearningControl
+-- Found gtest sources under '/usr/src/gtest': gtests will be built
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ResetBreakaway
+-- catkin 0.5.90
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_NavigationTarget
+-- BUILD_SHARED_LIBS is on
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerDataStatus
+WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Goto_command
+WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
 
-[  1%] Built target geometry_msgs_generate_messages_py
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibratePressureSensorsStatus
+-- ~~  traversing 19 packages in topological order:
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PolicyControllerParamsService
+-- ~~  - Eigen
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SwitchControllerStack
+-- ~~  - robot_properties
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_BoundingPoints
+-- ~~  - robot_properties_hermes_lower
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_RtNetwork
+-- ~~  - sl_config
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspControllerStatus
+-- ~~  - utilities
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_BiotacData
+-- ~~  - lwpr
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ExperimentParams
+-- ~~  - sl
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_AvgPressureSensors
+-- ~~  - yaml_cpp
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_QueryControllerStatus
+-- ~~  - hermes_core
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Volumes
+-- ~~  - hermes_lower
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_UpdateStrainGagesCalibration
+-- ~~  - robot_math
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ImageCoordinates
+-- ~~  - io_tools
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LabeledPoint
+-- ~~  - floating_base_tools_hermes_lower
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_IncreaseMaxFingerTorque
+-- ~~  - io_tools_sl
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Preshape
+-- ~~  - floating_base_tools_sl_hermes_lower
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LqrControllerDataStatus
+-- ~~  - footsteps_planner_miqcqp_sl
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PressureSensors
+-- ~~  - generalized_motion_primitives_hermes_lower
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ObstaclePoints
+-- ~~  - visualization_tools_hermes_lower
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateForceTorqueSensor
+-- ~~  - hermes_lower_user
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CartesianTrajectory
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Acceleration
+-- +++ processing catkin package: 'Eigen'
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PolicyControllerDataStatus
+-- ==> add_subdirectory(catkin/third_party/Eigen)
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerParamsService
+WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspPoses
+-- +++ processing catkin package: 'robot_properties'
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_TrajectoryStatus
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control_skinny/robot_properties/robot_properties)
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ExperimentGeneratorParamsService
+-- +++ processing catkin package: 'robot_properties_hermes_lower'
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PointArrayArray
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control_skinny/robot_properties/robot_properties_hermes_lower)
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerStatus
+-- +++ processing catkin package: 'sl_config'
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CartesianTrajectoryPoint
+-- ==> add_subdirectory(catkin/core-sl/sl_config)
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LookAtParams
+-- +++ processing catkin package: 'utilities'
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineNetwork
+-- ==> add_subdirectory(catkin/core-sl/locomotion-utilities)
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_BiotacFingerData
+-- +++ processing catkin package: 'lwpr'
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CollectDataStatus
+-- ==> add_subdirectory(catkin/core-sl/locomotion-lwpr)
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ColorRange
+-- +++ processing catkin package: 'sl'
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LookAtStatus
+-- ==> add_subdirectory(catkin/core-sl/locomotion-sl)
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DMPControllerStatus
+-- Found libedit: /usr/lib/x86_64-linux-gnu/libedit.so
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_RtNetworkLayer
+-- GLUT_LIBRARIES=/usr/lib/x86_64-linux-gnu/libglut.so;/usr/lib/x86_64-linux-gnu/libXmu.so;/usr/lib/x86_64-linux-gnu/libXi.so
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibratePressureSensors
+-- GLUT_INCLUDE_DIR=/usr/include
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Extrems
+-- GLUT_FOUND: TRUE
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DMPCommand
+-- Libedit_INCLUDE_DIRS=/usr/include
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_NetworkLayer
+-- Libedit_LIBRARIES=/usr/lib/x86_64-linux-gnu/libedit.so
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ScaledLqr
+-- SLros dependencies found; compiling ROS servo.
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ViconQuery
+-- +++ processing catkin package: 'yaml_cpp'
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspControllerParams
+-- ==> add_subdirectory(catkin/third_party/YAML_CPP)
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_TrajectoryPoint
+-- Boost version: 1.54.0
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SetPoses
+-- +++ processing catkin package: 'hermes_core'
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_UpdateStrainGagesCalibrationStatus
+-- ==> add_subdirectory(catkin/robots/hermesCore)
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DMPControllerParams
+-- +++ processing catkin package: 'hermes_lower'
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Path
+-- ==> add_subdirectory(catkin/robots/hermesLower)
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SetVisualToolTracking
+-- Boost version: 1.54.0
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ContinuousTrajectoryStatus
+-- Found the following Boost libraries:
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ContinuousTrajectoryPoint
+--   thread
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_BoundingPointsArray
+--   system
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SetObjectOri
+-- hermes_lower: compiling on everest; simulation only.
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_EndEffectorPosition
+-- +++ processing catkin package: 'robot_math'
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_InverseDynamicsBatchNetworkControllerStatus
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control_skinny/robot_math)
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Imu
+-- +++ processing catkin package: 'io_tools'
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_FingerJointEncoderOffsetsStatus
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control_skinny/io_tools)
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerParams
+-- +++ processing catkin package: 'floating_base_tools_hermes_lower'
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineDataStatus
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control_skinny/floating_base_tools_common/floating_base_tools_hermes_lower)
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_AffinePolicy
+-- +++ processing catkin package: 'io_tools_sl'
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateAccelerometerSensorStatus
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control_skinny/io_tools_sl)
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspStatus
+-- +++ processing catkin package: 'floating_base_tools_sl_hermes_lower'
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DistanceFieldEval
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control_skinny/floating_base_tools_sl/floating_base_tools_sl_hermes_lower)
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LqrControllerParams
+-- Boost version: 1.54.0
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CartesianGains
+-- Found the following Boost libraries:
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ChordEllipsoid
+--   thread
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OnlineDataStatus
+--   system
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DistanceFieldQueries
+--   filesystem
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_FingerJointEncoderOffsets
+-- +++ processing catkin package: 'footsteps_planner_miqcqp_sl'
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_KeyPointBodyApprox
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control_skinny/contacts_planning_sl/footsteps_planner_MIQCQP_sl)
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineLearningControlService
+-- Boost version: 1.54.0
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LinearQuadraticRegulatorParams
+-- Found the following Boost libraries:
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LqrControllerParamsService
+--   system
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Grasp
+--   program_options
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_FingerForceControlGains
+--   filesystem
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateBiotacSensorsStatus
+-- +++ processing catkin package: 'generalized_motion_primitives_hermes_lower'
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_StrainGauge
+-- ==> add_subdirectory(catkin/humanoids/generalized_motion_primitives/generalized_motion_primitives_hermes_lower)
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ExtremsArray
+-- Boost version: 1.54.0
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_TaskFrame
+-- Found the following Boost libraries:
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Sphere
+--   system
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_EndEffectorState
+-- +++ processing catkin package: 'visualization_tools_hermes_lower'
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_RectangularBox
+-- ==> add_subdirectory(catkin/humanoids/humanoid_control_skinny/visualization_tools/visualization_tools_hermes_lower)
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ViconData
+-- Boost version: 1.54.0
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SpeedChange
+-- Found the following Boost libraries:
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateAccelerometerSensor
+--   thread
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ResetBreakawayStatus
+--   system
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_RectangularBoxArray
+--   filesystem
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ControllerStatus
+-- +++ processing catkin package: 'hermes_lower_user'
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateBiotacSensors
+-- ==> add_subdirectory(catkin/robots/hermesLowerUser)
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineParams
+-- Boost version: 1.54.0
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LinearQuadraticRegulatorStatus
+-- Found the following Boost libraries:
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_EnvironmentalObject
+--   regex
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Matrix32
+--   filesystem
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ObjectMass
+--   system
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Gains
+--   thread
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PointArray
+julia interface not found, not compiling in julia tasks
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Trajectory
+If you want the julia interface, you need the julia_sl_interface package, and you must set an environment flag called JULIA_PATH, pointing to a directory containing a (properly compiled) julia repository. E.g.:
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ImageCoordinatesArray
+juliaDir=~/julia; mkdir -p $juliaDir; cd $juliaDir; git clone https://github.com/JuliaLang/julia.git .; git checkout v0.4.2; make -j 8; echo JULIA_PATH="$juliaDir" >> ~/.bashrc; echo "export PATH=\$PATH:" $juliaDir >> ~/.bashrc; source ~/.bashrc
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateForceTorqueSensorStatus
+-- Configuring done
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LinearQuadraticRegulator
+-- Generating done
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_InverseDynamicsBatchNetworkControllerParams
+-- Build files have been written to: /home/administrator/ci/ci/team/workspace/build
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_TrackingPose
+Scanning dependencies of target gtest
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineParamsService
+[  0%] [ 68%] Built target utility
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CollectData
+Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
 
-[ 21%] Built target amd_clmc_ros_messages_generate_messages_py
+[ 73%] Built target geometry_utils
 
-[ 21%] Built target geometry_msgs_generate_messages_cpp
+[ 78%] Built target configuration_file_loading
 
-[ 40%] Built target amd_clmc_ros_messages_generate_messages_cpp
+Linking CXX shared library libgtest.so
 
-[ 40%] Built target geometry_msgs_generate_messages_lisp
+[ 78%] Built target gtest
 
-[ 60%] Built target amd_clmc_ros_messages_generate_messages_lisp
+Scanning dependencies of target gtest_main
 
-[ 60%] Built target amd_clmc_ros_messages_generate_messages
+[ 84%] Building CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
 
-[ 60%] Built target _ar_track_alvar_msgs_generate_messages_check_deps_AlvarMarker
+Linking CXX shared library libgtest_main.so
 
-[ 60%] Built target std_msgs_generate_messages_cpp
+[ 84%] Built target gtest_main
 
-[ 60%] Built target _ar_track_alvar_msgs_generate_messages_check_deps_AlvarMarkers
+Scanning dependencies of target configuration_file_loading_tests
 
-[ 60%] Built target ar_track_alvar_msgs_generate_messages_cpp
+Scanning dependencies of target geometry_utils_test
 
-[ 60%] Built target std_msgs_generate_messages_lisp
+Scanning dependencies of target robot_math_test
 
-[ 61%] Built target ar_track_alvar_msgs_generate_messages_lisp
+[ 84%] Building CXX object catkin/humanoids/humanoid_control_skinny/io_tools/CMakeFiles/configuration_file_loading_tests.dir/src/configuration_file_loading/TestConfigurationFileReader.cpp.o
 
-[ 61%] Built target std_msgs_generate_messages_py
+[ 89%] [ 89%] [ 89%] [ 94%] [ 94%] [ 94%] Building CXX object catkin/humanoids/humanoid_control_skinny/robot_math/CMakeFiles/robot_math_test.dir/tests/robot_math/TestRtEiquadprog.cpp.o
 
-[ 61%] Built target ar_track_alvar_msgs_generate_messages_py
+Building CXX object catkin/humanoids/humanoid_control_skinny/robot_math/CMakeFiles/geometry_utils_test.dir/tests/geometry_utils/geometry_utils_test.cpp.o
 
-[ 61%] Built target ar_track_alvar_msgs_generate_messages
+Building CXX object catkin/humanoids/humanoid_control_skinny/robot_math/CMakeFiles/robot_math_test.dir/tests/robot_math/TestRtWaypointGenerator.cpp.o
 
-[ 61%] Built target _custom_robot_msgs_generate_messages_check_deps_PredictAssembly
+[100%] Building CXX object catkin/humanoids/humanoid_control_skinny/robot_math/CMakeFiles/robot_math_test.dir/tests/robot_math/movable_eigen_matrix_test.cpp.o
 
-[ 61%] Built target _custom_robot_msgs_generate_messages_check_deps_assembly_phase
+Building CXX object catkin/humanoids/humanoid_control_skinny/robot_math/CMakeFiles/geometry_utils_test.dir/tests/geometry_utils/main.cpp.o
 
-[ 61%] Built target _custom_robot_msgs_generate_messages_check_deps_PolicyInterface
+Building CXX object catkin/humanoids/humanoid_control_skinny/robot_math/CMakeFiles/geometry_utils_test.dir/tests/geometry_utils/spatial_algebra_test.cpp.o
 
-[ 62%] Built target custom_robot_msgs_generate_messages_py
+Building CXX object catkin/humanoids/humanoid_control_skinny/robot_math/CMakeFiles/geometry_utils_test.dir/tests/geometry_utils/coordinate_transform_test.cpp.o
 
-[ 62%] Built target custom_robot_msgs_generate_messages_lisp
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control_skinny/io_tools/src/configuration_file_loading/TestConfigurationFileReader.cpp: In function ‘void test_configuration_file_loading::changeToDirectoryWithConfigFile()’:
 
-[ 63%] Built target custom_robot_msgs_generate_messages_cpp
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control_skinny/io_tools/src/configuration_file_loading/TestConfigurationFileReader.cpp:33:74: warning: ignoring return value of ‘int chdir(const char*)’, declared with attribute warn_unused_result [-Wunused-result]
 
-[ 63%] Built target custom_robot_msgs_generate_messages
+   chdir("../../../../../src/catkin/humanoids/humanoid_control/io_tools/"); //configuration_file_loading"); //
 
-[ 63%] Built target _riemo_grasping_msgs_generate_messages_check_deps_GraspPose
+                                                                          ^
 
-[ 63%] Built target _riemo_grasping_msgs_generate_messages_check_deps_UpdateGraspProblem
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control_skinny/robot_math/tests/robot_math/TestRtWaypointGenerator.cpp: In member function ‘virtual void robot_math::RtWaypointGeneration_Test_rt_waypoint_gen_query_Test::TestBody()’:
 
-[ 63%] Built target _riemo_grasping_msgs_generate_messages_check_deps_LatestGraspProblemInfo
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control_skinny/robot_math/tests/robot_math/TestRtWaypointGenerator.cpp:31:23: error: ‘class robot_math::RtWaypointGenerator<3, 10>’ has no member named ‘resize’
 
-[ 63%] Built target _riemo_grasping_msgs_generate_messages_check_deps_MpiGraspPoses
-
-[ 63%] Built target _riemo_grasping_msgs_generate_messages_check_deps_GraspableObject
-
-[ 63%] Built target _riemo_grasping_msgs_generate_messages_check_deps_Preshape
-
-[ 63%] Built target _riemo_grasping_msgs_generate_messages_check_deps_GraspProblemInfo
-
-[ 63%] Built target _riemo_grasping_msgs_generate_messages_check_deps_RenderGraspProblemService
-
-[ 65%] Built target riemo_grasping_msgs_generate_messages_py
-
-[ 66%] Built target riemo_grasping_msgs_generate_messages_cpp
-
-[ 68%] Built target riemo_grasping_msgs_generate_messages_lisp
-
-[ 68%] Built target riemo_grasping_msgs_generate_messages
-
-[ 73%] Built target utility
-
-[ 74%] Built target lwpr
-
-[ 74%] Built target xascii2clmcplot
-
-[ 75%] Built target xlwpr
-
-[ 75%] Built target xlwprstat
-
-[ 75%] Built target shape_msgs_generate_messages_cpp
-
-[ 75%] Built target _constrained_inverse_kinematics_msgs_generate_messages_check_deps_InverseKinematicsRequest
-
-[ 75%] Built target constrained_inverse_kinematics_msgs_generate_messages_cpp
-
-[ 75%] Built target shape_msgs_generate_messages_py
-
-[ 75%] Built target constrained_inverse_kinematics_msgs_generate_messages_py
-
-[ 75%] Built target shape_msgs_generate_messages_lisp
-
-[ 75%] Built target constrained_inverse_kinematics_msgs_generate_messages_lisp
-
-[ 75%] Built target constrained_inverse_kinematics_msgs_generate_messages
-
-[ 75%] Built target roscpp_utilities
-
-[ 76%] Built target rosrt
-
-[ 77%] Building CXX object catkin/sensors/biotac-ros-rt/CMakeFiles/ros_rt_biotac_publisher.dir/src/biotac_publisher.cpp.o
-
-In file included from /opt/ros/indigo/include/ros/ros.h:40:0,
-
-                 from /home/administrator/ci/ci/team/workspace/src/catkin/sensors/biotac-ros-rt/src/biotac_publisher.cpp:6:
-
-/home/administrator/ci/ci/team/workspace/src/catkin/sensors/biotac-ros-rt/src/biotac_publisher.cpp: In function ‘void run(int, char**)’:
-
-/home/administrator/ci/ci/team/workspace/src/catkin/sensors/biotac-ros-rt/src/biotac_publisher.cpp:195:86: error: ‘class biotac_core::BiotacReaderCheetah’ has no member named ‘raw_data_read_rate_hz’
-
-             ROS_INFO("BioTac Cheetah (USB) Data Rate = %f Hz", biotac_reader_cheetah.raw_data_read_rate_hz);
-
-                                                                                      ^
-
-/opt/ros/indigo/include/ros/console.h:343:165: note: in definition of macro ‘ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER’
-
-     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__)
-
-                                                                                                                                                                     ^
-
-/opt/ros/indigo/include/ros/console.h:376:7: note: in expansion of macro ‘ROSCONSOLE_PRINT_AT_LOCATION’
-
-       ROSCONSOLE_PRINT_AT_LOCATION(__VA_ARGS__); \
-
-       ^
-
-/opt/ros/indigo/include/ros/console.h:558:35: note: in expansion of macro ‘ROS_LOG_COND’
-
- #define ROS_LOG(level, name, ...) ROS_LOG_COND(true, level, name, __VA_ARGS__)
-
-                                   ^
-
-/opt/ros/indigo/include/rosconsole/macros_generated.h:110:23: note: in expansion of macro ‘ROS_LOG’
-
- #define ROS_INFO(...) ROS_LOG(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+       rt_waypoint_gen.resize(num_dim,num_waypoints);
 
                        ^
 
-/home/administrator/ci/ci/team/workspace/src/catkin/sensors/biotac-ros-rt/src/biotac_publisher.cpp:195:13: note: in expansion of macro ‘ROS_INFO’
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control_skinny/robot_math/tests/robot_math/TestRtWaypointGenerator.cpp:50:23: error: ‘class robot_math::RtWaypointGenerator<3, 10>’ has no member named ‘initializeWaypoints’
 
-             ROS_INFO("BioTac Cheetah (USB) Data Rate = %f Hz", biotac_reader_cheetah.raw_data_read_rate_hz);
+       rt_waypoint_gen.initializeWaypoints(pos, vel, acc, time);
 
-             ^
+                       ^
 
-make[2]: *** [catkin/sensors/biotac-ros-rt/CMakeFiles/ros_rt_biotac_publisher.dir/src/biotac_publisher.cpp.o] Error 1
+In file included from /home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control_skinny/robot_math/tests/robot_math/TestRtWaypointGenerator.cpp:3:0:
 
-make[1]: *** [catkin/sensors/biotac-ros-rt/CMakeFiles/ros_rt_biotac_publisher.dir/all] Error 2
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control_skinny/robot_math/include/robot_math/RtWaypointGenerator.h:127:10: error: ‘void robot_math::RtWaypointGenerator<num_dim, max_num_waypoints>::query(robot_math::RtWaypointGenerator<num_dim, max_num_waypoints>::VecNd&, robot_math::RtWaypointGenerator<num_dim, max_num_waypoints>::VecNd&, robot_math::RtWaypointGenerator<num_dim, max_num_waypoints>::VecNd&, double) [with int num_dim = 3; int max_num_waypoints = 10; robot_math::RtWaypointGenerator<num_dim, max_num_waypoints>::VecNd = Eigen::Matrix<double, 3, 1>]’ is private
 
-make: *** [all] Error 2
+     void RtWaypointGenerator<num_dim,max_num_waypoints>::query(VecNd &pos, VecNd &vel, VecNd &acc, double time) {
+
+          ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control_skinny/robot_math/tests/robot_math/TestRtWaypointGenerator.cpp:58:69: error: within this context
+
+       rt_waypoint_gen.query(pos_query, vel_query, acc_query, t_query);
+
+                                                                     ^
+
+make[3]: *** [catkin/humanoids/humanoid_control_skinny/robot_math/CMakeFiles/robot_math_test.dir/tests/robot_math/TestRtWaypointGenerator.cpp.o] Error 1
+
+make[3]: *** Waiting for unfinished jobs....
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/io_tools/configuration_file_loading_tests
+
+[100%] Built target configuration_file_loading_tests
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/robot_math/geometry_utils_test
+
+[100%] Built target geometry_utils_test
+
+make[2]: *** [catkin/humanoids/humanoid_control_skinny/robot_math/CMakeFiles/robot_math_test.dir/all] Error 2
+
+make[1]: *** [CMakeFiles/tests.dir/rule] Error 2
+
+make: *** [tests] Error 2
 
 Base path: /home/administrator/ci/ci/team/workspace
 
@@ -402,14 +347,14 @@ Install space: /home/administrator/ci/ci/team/workspace/install
 
 ####
 
-#### Running command: "make cmake_check_build_system" in "/home/administrator/ci/ci/team/workspace/build"
+#### Running command: "cmake /home/administrator/ci/ci/team/workspace/src -DCATKIN_DEVEL_PREFIX=/home/administrator/ci/ci/team/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/administrator/ci/ci/team/workspace/install" in "/home/administrator/ci/ci/team/workspace/build"
 
 ####
 
 ####
 
-#### Running command: "make -j1" in "/home/administrator/ci/ci/team/workspace/build"
+#### Running command: "make -j16 tests" in "/home/administrator/ci/ci/team/workspace/build"
 
 ####
 
-Invoking "make -j1" failed
+Invoking "make" failed
