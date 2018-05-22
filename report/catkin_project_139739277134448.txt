@@ -1,8 +1,30 @@
+-- The C compiler identification is GNU 4.8.4
+
+-- The CXX compiler identification is GNU 4.8.4
+
+-- Check for working C compiler: /usr/bin/cc
+
+-- Check for working C compiler: /usr/bin/cc -- works
+
+-- Detecting C compiler ABI info
+
+-- Detecting C compiler ABI info - done
+
+-- Check for working CXX compiler: /usr/bin/c++
+
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+
+-- Detecting CXX compiler ABI info
+
+-- Detecting CXX compiler ABI info - done
+
 -- Using CATKIN_DEVEL_PREFIX: /home/administrator/ci/ci/team/workspace/devel
 
 -- Using CMAKE_PREFIX_PATH: /opt/ros/indigo
 
 -- This workspace overlays: /opt/ros/indigo
+
+-- Found PythonInterp: /usr/bin/python (found version "2.7.6") 
 
 -- Using PYTHON_EXECUTABLE: /usr/bin/python
 
@@ -16,6 +38,24 @@
 
 -- Using CATKIN_TEST_RESULTS_DIR: /home/administrator/ci/ci/team/workspace/build/test_results
 
+-- Looking for include file pthread.h
+
+-- Looking for include file pthread.h - found
+
+-- Looking for pthread_create
+
+-- Looking for pthread_create - not found
+
+-- Looking for pthread_create in pthreads
+
+-- Looking for pthread_create in pthreads - not found
+
+-- Looking for pthread_create in pthread
+
+-- Looking for pthread_create in pthread - found
+
+-- Found Threads: TRUE  
+
 -- Found gtest sources under '/usr/src/gtest': gtests will be built
 
 -- Using Python nosetests: /usr/bin/nosetests-2.7
@@ -26,19 +66,13 @@
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- ~~  traversing 6 packages in topological order:
+-- ~~  traversing 3 packages in topological order:
 
 -- ~~  - utilities
 
 -- ~~  - lwpr
 
 -- ~~  - sl
-
--- ~~  - arm2d
-
--- ~~  - arm2d_test_task
-
--- ~~  - arm2d_user
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -168,161 +202,437 @@ Call Stack (most recent call first):
 
 -- LAB_BINDIR=bin/x86_64
 
--- +++ processing catkin package: 'arm2d'
+-- Configuring done
 
--- ==> add_subdirectory(catkin/robots/catkin-arm2D)
+-- Generating done
 
--- MACHTYPE x86_64
+-- Build files have been written to: /home/administrator/ci/ci/team/workspace/build
 
-Detected MACHTYPE=x86_64
+Scanning dependencies of target SLmotor
 
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+Scanning dependencies of target SLsimulation
 
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+Scanning dependencies of target utility
 
-Call Stack (most recent call first):
+Scanning dependencies of target SLvision
 
-  catkin/robots/catkin-arm2D/CMakeLists.txt:8 (include)
+Scanning dependencies of target SLcommon
 
+Scanning dependencies of target SLopenGL
 
+Scanning dependencies of target SLtask
 
+[  1%] [  2%] [  3%] [  5%] [  6%] [  7%] [  8%] [ 10%] [ 11%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLmotor.dir/src/SL_motor_servo_unix.c.o
 
+[ 13%] [ 13%] [ 15%] [ 16%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLopenGL.dir/src/SL_openGL_servo.c.o
 
--- HOST_NAME=everest
+[ 17%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLsimulation.dir/src/SL_simulation_servo_unix.c.o
 
--- HOST=everest
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLopenGL.dir/src/SL_openGL_servo_unix.c.o
 
--- LAB=AMD
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLmotor.dir/src/SL_controller.c.o
 
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+[ 20%] [ 20%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLopenGL.dir/src/SL_openGL.c.o
 
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLsimulation.dir/src/SL_userSimulation.c.o
 
--- CMAKE_INCLUDE_PATH=
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLmotor.dir/src/SL_motor_servo.c.o
 
--- CMAKE_LIBRARY_PATH=
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLcommon.dir/src/SL_vx2unix_wrappers.c.o
 
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLsimulation.dir/src/SL_simulation_servo.c.o
 
--- LAB_LIBDIR=lib/x86_64
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/brent.c.o
 
--- LAB_INCLUDES=include
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLtask.dir/src/SL_task_servo_unix.c.o
 
--- LAB_BINDIR=bin/x86_64
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLvision.dir/src/SL_vision_servo_unix.c.o
 
--- +++ processing catkin package: 'arm2d_test_task'
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/control.c.o
 
--- ==> add_subdirectory(catkin/robots/catkin-sl-arm2D-task-example)
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLmotor.dir/src/SL_sensor_proc.c.o
 
--- MACHTYPE x86_64
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLcommon.dir/src/SL_common.c.o
 
-Detected MACHTYPE=x86_64
+[ 22%] [ 22%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLsimulation.dir/src/SL_objects.c.o
 
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/dbrent.c.o
 
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+[ 24%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLsimulation.dir/src/SL_integrate.c.o
 
-Call Stack (most recent call first):
+[ 25%] [ 26%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLcommon.dir/src/SL_collect_data.c.o
 
-  catkin/robots/catkin-sl-arm2D-task-example/CMakeLists.txt:8 (include)
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLvision.dir/src/SL_serial_unix.c.o
 
+[ 27%] [ 29%] [ 30%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/df1dim.c.o
 
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLopenGL.dir/src/SL_openGL_oscilloscope.c.o
 
+[ 31%] [ 32%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLopenGL.dir/src/SL_objects.c.o
 
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLtask.dir/src/SL_tasks.c.o
 
--- HOST_NAME=everest
+[ 34%] Linking C shared library /home/administrator/ci/ci/team/workspace/devel/lib/libSLmotor.so
 
--- HOST=everest
+[ 35%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLvision.dir/src/SL_vision_servo.c.o
 
--- LAB=AMD
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLopenGL.dir/src/SL_userGraphics.c.o
 
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/dfpmin.c.o
 
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+[ 36%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLvision.dir/src/SL_dbvision.c.o
 
--- CMAKE_INCLUDE_PATH=
+/home/administrator/ci/ci/team/workspace/src/cmake/sl/src/SL_tasks.c: In function ‘set_args_task’:
 
--- CMAKE_LIBRARY_PATH=
+/home/administrator/ci/ci/team/workspace/src/cmake/sl/src/SL_tasks.c:482:2: warning: format not a string literal and no format arguments [-Wformat-security]
 
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+  sprintf(sl_default_task,argv[i]);
 
--- LAB_LIBDIR=lib/x86_64
+  ^
 
--- LAB_INCLUDES=include
+[ 37%] [ 39%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLcommon.dir/src/SL_shared_memory.c.o
 
--- LAB_BINDIR=bin/x86_64
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLvision.dir/src/SL_vision_proc.c.o
 
--- +++ processing catkin package: 'arm2d_user'
+[ 40%] [ 40%] Built target SLmotor
 
--- ==> add_subdirectory(catkin/robots/catkin-arm2DUser)
+[ 41%] [ 43%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/distributions.c.o
 
--- MACHTYPE x86_64
+[ 44%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/f1dim.c.o
 
-Detected MACHTYPE=x86_64
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/dlinmin.c.o
 
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLtask.dir/src/SL_task_servo.c.o
 
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+[ 45%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/frprmn.c.o
 
-Call Stack (most recent call first):
+[ 46%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/j-fixed.c.o
 
-  catkin/robots/catkin-arm2DUser/CMakeLists.txt:8 (include)
+[ 48%] [ 49%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/ldltinv.c.o
 
+[ 50%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/linmin.c.o
 
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLcommon.dir/src/SL_filters.c.o
 
+[ 51%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/lubksb.c.o
 
+[ 54%] [ 54%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLcommon.dir/src/SL_unix_common.c.o
 
--- HOST_NAME=everest
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/ludcmp.c.o
 
--- HOST=everest
+[ 55%] [ 56%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/mnbrak.c.o
 
--- LAB=AMD
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/numerics_package.c.o
 
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+[ 58%] [ 59%] [ 60%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/powell.c.o
 
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/stability.c.o
 
--- CMAKE_INCLUDE_PATH=
+[ 62%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/svbksb.c.o
 
--- CMAKE_LIBRARY_PATH=
+[ 63%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/svdcmp.c.o
 
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+Linking C shared library /home/administrator/ci/ci/team/workspace/devel/lib/libSLvision.so
 
--- LAB_LIBDIR=lib/x86_64
+[ 64%] /home/administrator/ci/ci/team/workspace/src/cmake/sl/src/SL_unix_common.c: In function ‘spawnCommandFromUserTaskThread’:
 
--- LAB_INCLUDES=include
+/home/administrator/ci/ci/team/workspace/src/cmake/sl/src/SL_unix_common.c:405:3: warning: passing argument 3 of ‘pthread_create’ from incompatible pointer type [enabled by default]
 
--- LAB_BINDIR=bin/x86_64
+   if ((rc=pthread_create( &uthread, &pth_attr, getCommandFromUserTask, NULL)))
 
-CMake Error at catkin/robots/catkin-arm2DUser/CMakeLists.txt:31 (add_subdirectory):
+   ^
 
-  add_subdirectory given source "tmp_catkin_arm2D_user" which is not an
+In file included from /home/administrator/ci/ci/team/workspace/src/cmake/sl/include/SL_system_headers.h:51:0,
 
-  existing directory.
+                 from /home/administrator/ci/ci/team/workspace/src/cmake/sl/src/SL_unix_common.c:20:
 
+/usr/include/pthread.h:244:12: note: expected ‘void * (*)(void *)’ but argument is of type ‘void * (*)(void)’
 
+ extern int pthread_create (pthread_t *__restrict __newthread,
 
+            ^
 
+[ 65%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLtask.dir/src/SL_goto_task.c.o
 
-CMake Error at /opt/ros/indigo/share/catkin/cmake/catkin_package.cmake:293 (message):
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLcommon.dir/src/SL_terrains.c.o
 
-  catkin_package() absolute include dir '/include' does not exist
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLtask.dir/src/SL_sine_task.c.o
 
-Call Stack (most recent call first):
+[ 67%] [ 69%] [ 69%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/parm_opt.c.o
 
-  /opt/ros/indigo/share/catkin/cmake/catkin_package.cmake:100 (_catkin_package)
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLtask.dir/src/SL_go_cart_task.c.o
 
-  catkin/robots/catkin-arm2DUser/CMakeLists.txt:33 (catkin_package)
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/lookup_table.c.o
 
+[ 70%] [ 70%] Built target SLvision
 
+[ 72%] [ 73%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLcommon.dir/src/SL_oscilloscope.c.o
 
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLtask.dir/src/SL_objects.c.o
 
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/kdtree.c.o
 
--- Configuring incomplete, errors occurred!
+[ 75%] [ 75%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLcommon.dir/src/SL_man.c.o
 
-See also "/home/administrator/ci/ci/team/workspace/build/CMakeFiles/CMakeOutput.log".
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLtask.dir/src/SL_traj_task.c.o
 
-See also "/home/administrator/ci/ci/team/workspace/build/CMakeFiles/CMakeError.log".
+Linking C shared library /home/administrator/ci/ci/team/workspace/devel/lib/libSLsimulation.so
+
+[ 78%] [ 78%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/choldc.c.o
+
+[ 79%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/pythag.c.o
+
+[ 82%] [ 82%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/statistics.c.o
+
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/data_sets.c.o
+
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/balanc.c.o
+
+[ 82%] Built target SLsimulation
+
+Linking C shared library /home/administrator/ci/ci/team/workspace/devel/lib/libSLopenGL.so
+
+[ 83%] [ 84%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/elmhes.c.o
+
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/hqr.c.o
+
+[ 86%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/utility.c.o
+
+[ 86%] Built target SLopenGL
+
+Linking C shared library /home/administrator/ci/ci/team/workspace/devel/lib/libSLcommon.so
+
+[ 86%] Built target SLcommon
+
+Linking C shared library /home/administrator/ci/ci/team/workspace/devel/lib/libSLtask.so
+
+[ 86%] Built target SLtask
+
+Linking C shared library /home/administrator/ci/ci/team/workspace/devel/lib/libutility.so
+
+[ 86%] Built target utility
+
+Scanning dependencies of target xascii2clmcplot
+
+Scanning dependencies of target lwpr
+
+Scanning dependencies of target xlwprstat
+
+Scanning dependencies of target xlwpr
+
+[ 87%] [ 88%] [ 89%] [ 91%] [ 92%] [ 93%] [ 94%] [ 96%] [ 97%] [ 98%] [100%] Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/lwpr.dir/src/lwpr.c.o
+
+Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/xlwprstat.dir/src/lwpr_stat.c.o
+
+Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/lwpr.dir/src/lwpr_script.c.o
+
+Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/xlwpr.dir/src/lwpr.c.o
+
+Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/xlwprstat.dir/src/lwpr_script.c.o
+
+Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/xlwpr.dir/src/lwpr_test.c.o
+
+Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/xascii2clmcplot.dir/src/ascii2mrdplot.c.o
+
+Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/xlwprstat.dir/src/lwpr_main.c.o
+
+Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/xlwpr.dir/src/lwpr_main.c.o
+
+Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/xlwprstat.dir/src/lwpr.c.o
+
+Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/xlwpr.dir/src/lwpr_script.c.o
+
+Linking C executable xascii2clmcplot
+
+[100%] Built target xascii2clmcplot
+
+Linking C shared library /home/administrator/ci/ci/team/workspace/devel/lib/liblwpr.so
+
+Linking C executable xlwpr
+
+[100%] Built target lwpr
+
+Linking C executable xlwprstat
+
+[100%] Built target xlwpr
+
+[100%] Built target xlwprstat
+
+Install the project...
+
+-- Install configuration: ""
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/_setup_util.py
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/env.sh
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/setup.bash
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/setup.sh
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/setup.zsh
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/.rosinstall
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/utilities.pc
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/utilities/cmake/utilities.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/utilities/cmake/utilitiesConfig.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/utilities/cmake/utilitiesConfig-version.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/utilities/package.xml
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/utility.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/data_sets.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/nrutil.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/statistics.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/utility_macros.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/mdefs.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/x86_64/libutility.so
+
+-- Set runtime path of "/home/administrator/ci/ci/team/workspace/install/lib/x86_64/libutility.so" to "/home/administrator/ci/ci/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib"
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/lwpr.pc
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/lwpr/cmake/lwpr.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/lwpr/cmake/lwprConfig.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/lwpr/cmake/lwprConfig-version.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/lwpr/package.xml
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/x86_64/liblwpr.so
+
+-- Set runtime path of "/home/administrator/ci/ci/team/workspace/install/lib/x86_64/liblwpr.so" to "/home/administrator/ci/ci/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib:/home/administrator/ci/ci/team/workspace/devel/lib"
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/bin/x86_64/xlwpr
+
+-- Set runtime path of "/home/administrator/ci/ci/team/workspace/install/bin/x86_64/xlwpr" to "/home/administrator/ci/ci/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib:/home/administrator/ci/ci/team/workspace/devel/lib"
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/bin/x86_64/xlwprstat
+
+-- Set runtime path of "/home/administrator/ci/ci/team/workspace/install/bin/x86_64/xlwprstat" to "/home/administrator/ci/ci/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib:/home/administrator/ci/ci/team/workspace/devel/lib"
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/bin/x86_64/xascii2clmcplot
+
+-- Set runtime path of "/home/administrator/ci/ci/team/workspace/install/bin/x86_64/xascii2clmcplot" to "/home/administrator/ci/ci/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib:/home/administrator/ci/ci/team/workspace/devel/lib"
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/lwpr.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/sl.pc
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/sl/cmake/sl.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/sl/cmake/slConfig.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/sl/cmake/slConfig-version.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/sl/package.xml
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/x86_64/libSLcommon.so
+
+-- Set runtime path of "/home/administrator/ci/ci/team/workspace/install/lib/x86_64/libSLcommon.so" to "/home/administrator/ci/ci/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib"
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/x86_64/libSLtask.so
+
+-- Set runtime path of "/home/administrator/ci/ci/team/workspace/install/lib/x86_64/libSLtask.so" to "/home/administrator/ci/ci/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib"
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/x86_64/libSLmotor.so
+
+-- Set runtime path of "/home/administrator/ci/ci/team/workspace/install/lib/x86_64/libSLmotor.so" to "/home/administrator/ci/ci/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib"
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/x86_64/libSLsimulation.so
+
+-- Set runtime path of "/home/administrator/ci/ci/team/workspace/install/lib/x86_64/libSLsimulation.so" to "/home/administrator/ci/ci/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib"
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/x86_64/libSLopenGL.so
+
+-- Set runtime path of "/home/administrator/ci/ci/team/workspace/install/lib/x86_64/libSLopenGL.so" to "/home/administrator/ci/ci/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib"
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/x86_64/libSLvision.so
+
+-- Set runtime path of "/home/administrator/ci/ci/team/workspace/install/lib/x86_64/libSLvision.so" to "/home/administrator/ci/ci/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib"
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_collect_data.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_common.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_controller.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_dynamics.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_filters.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_integrate.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_kinematics.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_man.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_motor_servo.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_objects.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_objects_defines.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_openGL.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_openGL_servo.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_oscilloscope.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_rt_mutex.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_sensor_proc.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_shared_memory.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_simulation_servo.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_system_headers.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_task_servo.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_tasks.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_terrains.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_unix_common.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_userGraphics.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_userSimulation.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_user_common.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_user_display_core.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_user_idle_core.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_user_main_core.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_vision_servo.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_serial_unix.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_serial_xeno.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_vx_wrappers.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_xeno_common.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_xeno_headers.h
 
 Base path: /home/administrator/ci/ci/team/workspace
 
@@ -334,10 +644,16 @@ Devel space: /home/administrator/ci/ci/team/workspace/devel
 
 Install space: /home/administrator/ci/ci/team/workspace/install
 
+Creating symlink "/home/administrator/ci/ci/team/workspace/src/CMakeLists.txt" pointing to "/opt/ros/indigo/share/catkin/cmake/toplevel.cmake"
+
 ####
 
 #### Running command: "cmake /home/administrator/ci/ci/team/workspace/src -DCATKIN_DEVEL_PREFIX=/home/administrator/ci/ci/team/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/administrator/ci/ci/team/workspace/install -G Unix Makefiles" in "/home/administrator/ci/ci/team/workspace/build"
 
 ####
 
-Invoking "cmake" failed
+####
+
+#### Running command: "make -j16 install" in "/home/administrator/ci/ci/team/workspace/build"
+
+####
