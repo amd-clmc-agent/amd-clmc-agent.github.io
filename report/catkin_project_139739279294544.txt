@@ -64,11 +64,37 @@
 
 -- BUILD_SHARED_LIBS is on
 
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-- ~~  traversing 1 packages in topological order:
+
+-- ~~  - detect_faces
+
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-- +++ processing catkin package: 'detect_faces'
+
+-- ==> add_subdirectory(catkin/perception/detect_faces)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
 -- Configuring done
 
 -- Generating done
 
 -- Build files have been written to: /home/administrator/ci/ci/team/workspace/build
+
+Scanning dependencies of target detect_faces_node
+
+[ 33%] [ 66%] [100%] Building CXX object catkin/perception/detect_faces/CMakeFiles/detect_faces_node.dir/src/main.cpp.o
+
+Building CXX object catkin/perception/detect_faces/CMakeFiles/detect_faces_node.dir/src/face_detector_node.cpp.o
+
+Building CXX object catkin/perception/detect_faces/CMakeFiles/detect_faces_node.dir/src/face_detector.cpp.o
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/detect_faces/detect_faces_node
+
+[100%] Built target detect_faces_node
 
 Install the project...
 
@@ -85,6 +111,14 @@ Install the project...
 -- Installing: /home/administrator/ci/ci/team/workspace/install/setup.zsh
 
 -- Installing: /home/administrator/ci/ci/team/workspace/install/.rosinstall
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/detect_faces.pc
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/detect_faces/cmake/detect_facesConfig.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/detect_faces/cmake/detect_facesConfig-version.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/detect_faces/package.xml
 
 Base path: /home/administrator/ci/ci/team/workspace
 
