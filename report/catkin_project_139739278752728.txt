@@ -1,4 +1,22 @@
-WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
+-- The C compiler identification is GNU 4.8.4
+
+-- The CXX compiler identification is GNU 4.8.4
+
+-- Check for working C compiler: /usr/bin/cc
+
+-- Check for working C compiler: /usr/bin/cc -- works
+
+-- Detecting C compiler ABI info
+
+-- Detecting C compiler ABI info - done
+
+-- Check for working CXX compiler: /usr/bin/c++
+
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+
+-- Detecting CXX compiler ABI info
+
+-- Detecting CXX compiler ABI info - done
 
 -- Using CATKIN_DEVEL_PREFIX: /home/administrator/ci/ci/team/workspace/devel
 
@@ -6,11 +24,13 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 
 -- This workspace overlays: /opt/ros/indigo
 
+-- Found PythonInterp: /usr/bin/python (found version "2.7.6") 
+
 -- Using PYTHON_EXECUTABLE: /usr/bin/python
 
--- Python version: 2.7
-
 -- Using Debian Python package layout
+
+-- Using empy: /usr/bin/empy
 
 -- Using CATKIN_ENABLE_TESTING: ON
 
@@ -18,153 +38,373 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 
 -- Using CATKIN_TEST_RESULTS_DIR: /home/administrator/ci/ci/team/workspace/build/test_results
 
+-- Looking for include file pthread.h
+
+-- Looking for include file pthread.h - found
+
+-- Looking for pthread_create
+
+-- Looking for pthread_create - not found
+
+-- Looking for pthread_create in pthreads
+
+-- Looking for pthread_create in pthreads - not found
+
+-- Looking for pthread_create in pthread
+
+-- Looking for pthread_create in pthread - found
+
+-- Found Threads: TRUE  
+
 -- Found gtest sources under '/usr/src/gtest': gtests will be built
 
--- catkin 0.5.90
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+
+-- catkin 0.6.19
 
 -- BUILD_SHARED_LIBS is on
 
-WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-- ~~  traversing 4 packages in topological order:
+
+-- ~~  - human_bio_dataset
+
+-- ~~  - human_bio_urdf
+
+-- ~~  - human_bio_scene
+
+-- ~~  - human_bio_octomap
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- ~~  traversing 19 packages in topological order:
+-- +++ processing catkin package: 'human_bio_dataset'
 
--- ~~  - Eigen
+-- ==> add_subdirectory(catkin/human/human_bio_dataset)
 
--- ~~  - ros_realtime (metapackage)
+-- +++ processing catkin package: 'human_bio_urdf'
 
--- ~~  - allocators
+-- ==> add_subdirectory(catkin/human/human_bio_urdf)
 
--- ~~  - rosatomic
+-- Using these message generators: gencpp;genlisp;genpy
 
--- ~~  - lockfree
+-- +++ processing catkin package: 'human_bio_scene'
 
--- ~~  - rt_timer
+-- ==> add_subdirectory(catkin/human/human_bio_scene)
 
--- ~~  - sl_config
+-- Using these message generators: gencpp;genlisp;genpy
 
--- ~~  - utilities
+-- +++ processing catkin package: 'human_bio_octomap'
 
--- ~~  - lwpr
+-- ==> add_subdirectory(catkin/human/human_bio_octomap)
 
--- ~~  - xenomai_ros
+-- Using these message generators: gencpp;genlisp;genpy
 
--- ~~  - ati_ft_sensor
+-- Configuring done
 
--- ~~  - blmc_can
+-- Generating done
 
--- ~~  - rosrt
+-- Build files have been written to: /home/administrator/ci/ci/team/workspace/build
 
--- ~~  - sl
+Scanning dependencies of target tf2_msgs_generate_messages_py
 
--- ~~  - hopper
+Scanning dependencies of target _catkin_empty_exported_target
 
--- ~~  - hopper_user
+Scanning dependencies of target moveit_msgs_generate_messages_py
 
--- ~~  - optoforce_sensor
+Scanning dependencies of target std_msgs_generate_messages_lisp
 
--- ~~  - yaml_cpp
+Scanning dependencies of target sensor_msgs_generate_messages_lisp
 
--- ~~  - hermes_communication_tools
+Scanning dependencies of target rosgraph_msgs_generate_messages_lisp
 
--- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Scanning dependencies of target sensor_msgs_generate_messages_py
 
--- +++ processing catkin package: 'Eigen'
+Scanning dependencies of target roscpp_generate_messages_cpp
 
--- ==> add_subdirectory(catkin/third_party/Eigen)
+Scanning dependencies of target roscpp_generate_messages_lisp
 
-WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
+Scanning dependencies of target std_msgs_generate_messages_cpp
 
--- +++ processing catkin metapackage: 'ros_realtime'
+Scanning dependencies of target rosgraph_msgs_generate_messages_py
 
--- ==> add_subdirectory(catkin/ros/ros_realtime/ros_realtime)
+Scanning dependencies of target sensor_msgs_generate_messages_cpp
 
--- +++ processing catkin package: 'allocators'
+Scanning dependencies of target roscpp_generate_messages_py
 
--- ==> add_subdirectory(catkin/ros/ros_realtime/allocators)
+Scanning dependencies of target geometry_msgs_generate_messages_cpp
 
--- Boost version: 1.54.0
+[  0%] [  0%] [  0%] Scanning dependencies of target geometry_msgs_generate_messages_py
 
--- +++ processing catkin package: 'rosatomic'
+[  0%] [  0%] [  0%] [  0%] Built target std_msgs_generate_messages_lisp
 
--- ==> add_subdirectory(catkin/ros/ros_realtime/rosatomic)
+Built target tf2_msgs_generate_messages_py
 
--- Boost version: 1.54.0
+Built target _catkin_empty_exported_target
 
--- +++ processing catkin package: 'lockfree'
+[  0%] [  0%] [  0%] Built target moveit_msgs_generate_messages_py
 
--- ==> add_subdirectory(catkin/ros/ros_realtime/lockfree)
+Built target sensor_msgs_generate_messages_lisp
 
--- Boost version: 1.54.0
+Built target sensor_msgs_generate_messages_py
 
--- +++ processing catkin package: 'rt_timer'
+Built target roscpp_generate_messages_cpp
 
--- ==> add_subdirectory(catkin/ros/ros_realtime/rt_timer)
+Built target std_msgs_generate_messages_cpp
 
--- +++ processing catkin package: 'sl_config'
+Built target rosgraph_msgs_generate_messages_lisp
 
--- ==> add_subdirectory(catkin/core-sl/sl_config)
+Built target roscpp_generate_messages_lisp
 
--- +++ processing catkin package: 'utilities'
+[  0%] [  0%] Scanning dependencies of target geometry_msgs_generate_messages_lisp
 
--- ==> add_subdirectory(catkin/core-sl/locomotion-utilities)
+[  0%] [  0%] [  0%] Built target sensor_msgs_generate_messages_cpp
 
--- +++ processing catkin package: 'lwpr'
+Scanning dependencies of target std_msgs_generate_messages_py
 
--- ==> add_subdirectory(catkin/core-sl/locomotion-lwpr)
+Built target roscpp_generate_messages_py
 
--- +++ processing catkin package: 'xenomai_ros'
+Built target geometry_msgs_generate_messages_cpp
 
--- ==> add_subdirectory(catkin/ros/xenomai-ros)
+Built target rosgraph_msgs_generate_messages_py
 
--- +++ processing catkin package: 'ati_ft_sensor'
+Built target geometry_msgs_generate_messages_py
 
--- ==> add_subdirectory(catkin/humanoids/humanoid_hardware/ati_ft_sensor)
+Scanning dependencies of target shape_msgs_generate_messages_lisp
 
--- xenomai NOT found. (/usr/local;/usr)
+Scanning dependencies of target moveit_msgs_generate_messages_cpp
 
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+Scanning dependencies of target rosgraph_msgs_generate_messages_cpp
 
--- Boost version: 1.54.0
+Scanning dependencies of target tf2_msgs_generate_messages_cpp
 
--- Found the following Boost libraries:
+Scanning dependencies of target shape_msgs_generate_messages_cpp
 
---   system
+Scanning dependencies of target visualization_msgs_generate_messages_cpp
 
---   filesystem
+Scanning dependencies of target visualization_msgs_generate_messages_py
 
---   thread
+[  0%] Scanning dependencies of target shape_msgs_generate_messages_py
 
--- +++ processing catkin package: 'blmc_can'
+Built target geometry_msgs_generate_messages_lisp
 
--- ==> add_subdirectory(catkin/hardware/blmc_can)
+[  0%] Scanning dependencies of target visualization_msgs_generate_messages_lisp
 
--- xenomai NOT found. (/usr/local;/usr)
+Scanning dependencies of target moveit_msgs_generate_messages_lisp
 
-CMake Error at catkin/third_party/catkin/cmake/catkin_package.cmake:296 (message):
+Scanning dependencies of target trajectory_msgs_generate_messages_lisp
 
-  catkin_package() include dir 'Xenomai_INCLUDE_DIR-NOTFOUND' does not exist
+[  0%] [  0%] Scanning dependencies of target trajectory_msgs_generate_messages_cpp
 
-  relative to
+Scanning dependencies of target trajectory_msgs_generate_messages_py
 
-  '/home/administrator/ci/ci/team/workspace/src/catkin/hardware/blmc_can'
+[  0%] [  0%] [  0%] Scanning dependencies of target actionlib_msgs_generate_messages_lisp
 
-Call Stack (most recent call first):
+[  0%] Built target std_msgs_generate_messages_py
 
-  catkin/third_party/catkin/cmake/catkin_package.cmake:98 (_catkin_package)
+Built target shape_msgs_generate_messages_lisp
 
-  catkin/hardware/blmc_can/CMakeLists.txt:22 (catkin_package)
+Built target rosgraph_msgs_generate_messages_cpp
 
+Built target moveit_msgs_generate_messages_cpp
 
+Built target tf2_msgs_generate_messages_cpp
 
+Built target visualization_msgs_generate_messages_cpp
 
+Built target shape_msgs_generate_messages_cpp
 
--- Configuring incomplete, errors occurred!
+[  0%] [  0%] [  0%] [  0%] [  0%] [  0%] [  0%] [  0%] Built target visualization_msgs_generate_messages_py
 
-See also "/home/administrator/ci/ci/team/workspace/build/CMakeFiles/CMakeOutput.log".
+Built target shape_msgs_generate_messages_py
 
-See also "/home/administrator/ci/ci/team/workspace/build/CMakeFiles/CMakeError.log".
+Built target visualization_msgs_generate_messages_lisp
+
+Built target trajectory_msgs_generate_messages_lisp
+
+Scanning dependencies of target actionlib_msgs_generate_messages_py
+
+Built target moveit_msgs_generate_messages_lisp
+
+Built target trajectory_msgs_generate_messages_py
+
+Built target trajectory_msgs_generate_messages_cpp
+
+Built target actionlib_msgs_generate_messages_lisp
+
+Scanning dependencies of target octomap_msgs_generate_messages_py
+
+Scanning dependencies of target actionlib_msgs_generate_messages_cpp
+
+Scanning dependencies of target tf_generate_messages_lisp
+
+Scanning dependencies of target tf_generate_messages_cpp
+
+Scanning dependencies of target object_recognition_msgs_generate_messages_py
+
+Scanning dependencies of target actionlib_generate_messages_lisp
+
+[  0%] Scanning dependencies of target tf_generate_messages_py
+
+Scanning dependencies of target octomap_msgs_generate_messages_lisp
+
+Scanning dependencies of target octomap_msgs_generate_messages_cpp
+
+Scanning dependencies of target object_recognition_msgs_generate_messages_cpp
+
+Scanning dependencies of target actionlib_generate_messages_cpp
+
+Scanning dependencies of target object_recognition_msgs_generate_messages_lisp
+
+Built target actionlib_msgs_generate_messages_py
+
+Scanning dependencies of target actionlib_generate_messages_py
+
+Scanning dependencies of target tf2_msgs_generate_messages_lisp
+
+[  0%] [  0%] Built target object_recognition_msgs_generate_messages_py
+
+[  0%] [  0%] [  0%] Built target octomap_msgs_generate_messages_py
+
+[  0%] [  0%] Built target actionlib_msgs_generate_messages_cpp
+
+Built target tf_generate_messages_lisp
+
+[  0%] [  0%] [  0%] Built target tf_generate_messages_cpp
+
+Built target actionlib_generate_messages_lisp
+
+Built target octomap_msgs_generate_messages_cpp
+
+Built target object_recognition_msgs_generate_messages_cpp
+
+[  0%] Built target tf_generate_messages_py
+
+Built target octomap_msgs_generate_messages_lisp
+
+[  0%] [  0%] [  0%] Built target actionlib_generate_messages_cpp
+
+Built target object_recognition_msgs_generate_messages_lisp
+
+Built target actionlib_generate_messages_py
+
+Built target tf2_msgs_generate_messages_lisp
+
+Scanning dependencies of target human_bio_octomap
+
+[ 25%] [ 50%] Building CXX object catkin/human/human_bio_octomap/CMakeFiles/human_bio_octomap.dir/src/robot_to_octomap.cpp.o
+
+Building CXX object catkin/human/human_bio_octomap/CMakeFiles/human_bio_octomap.dir/src/scene_subscriber.cpp.o
+
+Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libhuman_bio_octomap.so
+
+[ 50%] Built target human_bio_octomap
+
+Scanning dependencies of target test_robot_model_parser
+
+Scanning dependencies of target voxel_occupancy_node
+
+[ 75%] [100%] Building CXX object catkin/human/human_bio_octomap/CMakeFiles/test_robot_model_parser.dir/test/test_robot_model_parser.cpp.o
+
+Building CXX object catkin/human/human_bio_octomap/CMakeFiles/voxel_occupancy_node.dir/src/voxel_occupancy_node.cpp.o
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/human_bio_octomap/test_robot_model_parser
+
+[100%] Built target test_robot_model_parser
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/human_bio_octomap/voxel_occupancy_node
+
+[100%] Built target voxel_occupancy_node
+
+Install the project...
+
+-- Install configuration: ""
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/_setup_util.py
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/env.sh
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/setup.bash
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/setup.sh
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/setup.zsh
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/.rosinstall
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/human_bio_urdf.pc
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/human_bio_urdf/cmake/human_bio_urdfConfig.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/human_bio_urdf/cmake/human_bio_urdfConfig-version.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/human_bio_urdf/package.xml
+
++ cd /home/administrator/ci/ci/team/workspace/src/catkin/human/human_bio_scene
+
++ mkdir -p /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages
+
++ /usr/bin/env PYTHONPATH=/home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages:/home/administrator/ci/ci/team/workspace/build/lib/python2.7/dist-packages:/opt/ros/indigo/lib/python2.7/dist-packages CATKIN_BINARY_DIR=/home/administrator/ci/ci/team/workspace/build /usr/bin/python /home/administrator/ci/ci/team/workspace/src/catkin/human/human_bio_scene/setup.py build --build-base /home/administrator/ci/ci/team/workspace/build/catkin/human/human_bio_scene install --install-layout=deb --prefix=/home/administrator/ci/ci/team/workspace/install --install-scripts=/home/administrator/ci/ci/team/workspace/install/bin
+
+running build
+
+running build_py
+
+creating /home/administrator/ci/ci/team/workspace/build/catkin/human/human_bio_scene/lib.linux-x86_64-2.7
+
+creating /home/administrator/ci/ci/team/workspace/build/catkin/human/human_bio_scene/lib.linux-x86_64-2.7/human_bio_scene
+
+copying src/human_bio_scene/PlayLibrary.py -> /home/administrator/ci/ci/team/workspace/build/catkin/human/human_bio_scene/lib.linux-x86_64-2.7/human_bio_scene
+
+copying src/human_bio_scene/PlayFile.py -> /home/administrator/ci/ci/team/workspace/build/catkin/human/human_bio_scene/lib.linux-x86_64-2.7/human_bio_scene
+
+copying src/human_bio_scene/__init__.py -> /home/administrator/ci/ci/team/workspace/build/catkin/human/human_bio_scene/lib.linux-x86_64-2.7/human_bio_scene
+
+running install
+
+running install_lib
+
+creating /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/human_bio_scene
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/human/human_bio_scene/lib.linux-x86_64-2.7/human_bio_scene/PlayLibrary.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/human_bio_scene
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/human/human_bio_scene/lib.linux-x86_64-2.7/human_bio_scene/PlayFile.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/human_bio_scene
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/human/human_bio_scene/lib.linux-x86_64-2.7/human_bio_scene/__init__.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/human_bio_scene
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/human_bio_scene/PlayLibrary.py to PlayLibrary.pyc
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/human_bio_scene/PlayFile.py to PlayFile.pyc
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/human_bio_scene/__init__.py to __init__.pyc
+
+running install_egg_info
+
+Writing /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/human_bio_scene-0.0.0.egg-info
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/human_bio_scene.pc
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/human_bio_scene/cmake/human_bio_sceneConfig.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/human_bio_scene/cmake/human_bio_sceneConfig-version.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/human_bio_scene/package.xml
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/human_bio_octomap.pc
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/human_bio_octomap/cmake/human_bio_octomapConfig.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/human_bio_octomap/cmake/human_bio_octomapConfig-version.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/human_bio_octomap/package.xml
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/libhuman_bio_octomap.so
+
+-- Removed runtime path from "/home/administrator/ci/ci/team/workspace/install/lib/libhuman_bio_octomap.so"
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/human_bio_octomap/voxel_occupancy_node
+
+-- Removed runtime path from "/home/administrator/ci/ci/team/workspace/install/lib/human_bio_octomap/voxel_occupancy_node"
 
 Base path: /home/administrator/ci/ci/team/workspace
 
@@ -176,10 +416,16 @@ Devel space: /home/administrator/ci/ci/team/workspace/devel
 
 Install space: /home/administrator/ci/ci/team/workspace/install
 
+Creating symlink "/home/administrator/ci/ci/team/workspace/src/CMakeLists.txt" pointing to "/opt/ros/indigo/share/catkin/cmake/toplevel.cmake"
+
 ####
 
 #### Running command: "cmake /home/administrator/ci/ci/team/workspace/src -DCATKIN_DEVEL_PREFIX=/home/administrator/ci/ci/team/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/administrator/ci/ci/team/workspace/install -G Unix Makefiles" in "/home/administrator/ci/ci/team/workspace/build"
 
 ####
 
-Invoking "cmake" failed
+####
+
+#### Running command: "make -j16 install" in "/home/administrator/ci/ci/team/workspace/build"
+
+####
