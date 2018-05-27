@@ -8,9 +8,9 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 
 -- Using PYTHON_EXECUTABLE: /usr/bin/python
 
--- Python version: 2.7
-
 -- Using Debian Python package layout
+
+-- Using empy: /usr/bin/empy
 
 -- Using CATKIN_ENABLE_TESTING: ON
 
@@ -20,7 +20,9 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 
 -- Found gtest sources under '/usr/src/gtest': gtests will be built
 
--- catkin 0.5.90
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+
+-- catkin 0.6.19
 
 -- BUILD_SHARED_LIBS is on
 
@@ -28,45 +30,31 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- ~~  traversing 19 packages in topological order:
+-- ~~  traversing 12 packages in topological order:
 
 -- ~~  - Eigen
 
--- ~~  - ros_realtime (metapackage)
+-- ~~  - python_file_parser
 
--- ~~  - allocators
+-- ~~  - rbdl
 
--- ~~  - rosatomic
+-- ~~  - cyberglove_handsim_control
 
--- ~~  - lockfree
+-- ~~  - amd_clmc_ros_messages
 
--- ~~  - rt_timer
+-- ~~  - ar_track_alvar_msgs
 
--- ~~  - sl_config
+-- ~~  - custom_robot_msgs
 
--- ~~  - utilities
+-- ~~  - riemo_grasping_msgs
 
--- ~~  - lwpr
+-- ~~  - cereal_port
 
--- ~~  - xenomai_ros
+-- ~~  - sr_gui_cyberglove_calibrator
 
--- ~~  - ati_ft_sensor
+-- ~~  - cyberglove
 
--- ~~  - blmc_can
-
--- ~~  - rosrt
-
--- ~~  - sl
-
--- ~~  - hopper
-
--- ~~  - hopper_user
-
--- ~~  - optoforce_sensor
-
--- ~~  - yaml_cpp
-
--- ~~  - hermes_communication_tools
+-- ~~  - haptix_recorder
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -76,85 +64,43 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 
 WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
 
--- +++ processing catkin metapackage: 'ros_realtime'
+-- +++ processing catkin package: 'python_file_parser'
 
--- ==> add_subdirectory(catkin/ros/ros_realtime/ros_realtime)
+-- ==> add_subdirectory(catkin/utilities/amd_clmc_script_utilities/python_file_parser)
 
--- +++ processing catkin package: 'allocators'
+-- +++ processing catkin package: 'rbdl'
 
--- ==> add_subdirectory(catkin/ros/ros_realtime/allocators)
+-- ==> add_subdirectory(catkin/third_party/rbdl)
 
--- Boost version: 1.54.0
+-- ROS found: /opt/ros/indigo/share/ros
 
--- +++ processing catkin package: 'rosatomic'
+-- +++ processing catkin package: 'cyberglove_handsim_control'
 
--- ==> add_subdirectory(catkin/ros/ros_realtime/rosatomic)
+-- ==> add_subdirectory(catkin/cyberglove/cyberglove_ros/cyberglove_handsim_control)
 
--- Boost version: 1.54.0
-
--- +++ processing catkin package: 'lockfree'
-
--- ==> add_subdirectory(catkin/ros/ros_realtime/lockfree)
+-- Operating system is Linux
 
 -- Boost version: 1.54.0
 
--- +++ processing catkin package: 'rt_timer'
+CMake Error at catkin/cyberglove/cyberglove_ros/cyberglove_handsim_control/cmake/SearchForStuff.cmake:8 (find_package):
 
--- ==> add_subdirectory(catkin/ros/ros_realtime/rt_timer)
+  Could not find a configuration file for package "gazebo" that is compatible
 
--- +++ processing catkin package: 'sl_config'
+  with requested version "7.0.0".
 
--- ==> add_subdirectory(catkin/core-sl/sl_config)
 
--- +++ processing catkin package: 'utilities'
 
--- ==> add_subdirectory(catkin/core-sl/locomotion-utilities)
+  The following configuration files were considered but not accepted:
 
--- +++ processing catkin package: 'lwpr'
 
--- ==> add_subdirectory(catkin/core-sl/locomotion-lwpr)
 
--- +++ processing catkin package: 'xenomai_ros'
+    /usr/share/gazebo/cmake/gazebo-config.cmake, version: unknown
 
--- ==> add_subdirectory(catkin/ros/xenomai-ros)
 
--- +++ processing catkin package: 'ati_ft_sensor'
-
--- ==> add_subdirectory(catkin/humanoids/humanoid_hardware/ati_ft_sensor)
-
--- xenomai NOT found. (/usr/local;/usr)
-
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
-
--- Boost version: 1.54.0
-
--- Found the following Boost libraries:
-
---   system
-
---   filesystem
-
---   thread
-
--- +++ processing catkin package: 'blmc_can'
-
--- ==> add_subdirectory(catkin/hardware/blmc_can)
-
--- xenomai NOT found. (/usr/local;/usr)
-
-CMake Error at catkin/third_party/catkin/cmake/catkin_package.cmake:296 (message):
-
-  catkin_package() include dir 'Xenomai_INCLUDE_DIR-NOTFOUND' does not exist
-
-  relative to
-
-  '/home/administrator/ci/ci/team/workspace/src/catkin/hardware/blmc_can'
 
 Call Stack (most recent call first):
 
-  catkin/third_party/catkin/cmake/catkin_package.cmake:98 (_catkin_package)
-
-  catkin/hardware/blmc_can/CMakeLists.txt:22 (catkin_package)
+  catkin/cyberglove/cyberglove_ros/cyberglove_handsim_control/CMakeLists.txt:11 (include)
 
 
 
