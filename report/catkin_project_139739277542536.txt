@@ -6,9 +6,9 @@
 
 -- Using PYTHON_EXECUTABLE: /usr/bin/python
 
--- Using Debian Python package layout
+-- Python version: 2.7
 
--- Using empy: /usr/bin/empy
+-- Using Debian Python package layout
 
 -- Using CATKIN_ENABLE_TESTING: ON
 
@@ -18,301 +18,109 @@
 
 -- Found gtest sources under '/usr/src/gtest': gtests will be built
 
--- Using Python nosetests: /usr/bin/nosetests-2.7
-
--- catkin 0.6.19
+-- catkin 0.5.90
 
 -- BUILD_SHARED_LIBS is on
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- ~~  traversing 6 packages in topological order:
+-- ~~  traversing 10 packages in topological order:
 
--- ~~  - utilities
+-- ~~  - ros_realtime (metapackage)
 
--- ~~  - lwpr
+-- ~~  - allocators
 
--- ~~  - sl
+-- ~~  - rosatomic
 
--- ~~  - arm2d
+-- ~~  - lockfree
 
--- ~~  - arm2d_test_task
+-- ~~  - rt_timer
 
--- ~~  - arm2d_user
+-- ~~  - xenomai_ros
+
+-- ~~  - rosrt
+
+-- ~~  - goto_ui
+
+-- ~~  - goto_ui_task
+
+-- ~~  - ros_rt_test
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- +++ processing catkin package: 'utilities'
+-- +++ processing catkin metapackage: 'ros_realtime'
 
--- ==> add_subdirectory(catkin/core-sl/catkin-utilities)
+-- ==> add_subdirectory(catkin/ros/ros_realtime/ros_realtime)
 
--- MACHTYPE x86_64
+-- +++ processing catkin package: 'allocators'
 
-Detected MACHTYPE=x86_64
+-- ==> add_subdirectory(catkin/ros/ros_realtime/allocators)
 
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+-- Boost version: 1.54.0
 
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+-- +++ processing catkin package: 'rosatomic'
 
-Call Stack (most recent call first):
+-- ==> add_subdirectory(catkin/ros/ros_realtime/rosatomic)
 
-  catkin/core-sl/catkin-utilities/CMakeLists.txt:8 (include)
+-- Boost version: 1.54.0
 
+-- +++ processing catkin package: 'lockfree'
 
+-- ==> add_subdirectory(catkin/ros/ros_realtime/lockfree)
 
+-- Boost version: 1.54.0
 
+-- +++ processing catkin package: 'rt_timer'
 
--- HOST_NAME=everest
+-- ==> add_subdirectory(catkin/ros/ros_realtime/rt_timer)
 
--- HOST=everest
+-- +++ processing catkin package: 'xenomai_ros'
 
--- LAB=AMD
+-- ==> add_subdirectory(catkin/ros/xenomai-ros)
 
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- +++ processing catkin package: 'rosrt'
 
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- ==> add_subdirectory(catkin/ros/ros_realtime/rosrt)
 
--- CMAKE_INCLUDE_PATH=
+-- xenomai NOT found. (/usr/local;/usr)
 
--- CMAKE_LIBRARY_PATH=
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
 
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+-- Boost version: 1.54.0
 
--- LAB_LIBDIR=lib/x86_64
+-- Found the following Boost libraries:
 
--- LAB_INCLUDES=include
+--   thread
 
--- LAB_BINDIR=bin/x86_64
+-- +++ processing catkin package: 'goto_ui'
 
--- +++ processing catkin package: 'lwpr'
+-- ==> add_subdirectory(catkin/core-sl/goto_ui)
 
--- ==> add_subdirectory(catkin/core-sl/catkin-lwpr)
+CMake Error at /home/administrator/ci/ci/team/workspace/devel/share/catkin/cmake/catkinConfig.cmake:75 (find_package):
 
--- MACHTYPE x86_64
+  Could not find a package configuration file provided by "utilities" with
 
-Detected MACHTYPE=x86_64
-
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
-
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
-
-Call Stack (most recent call first):
-
-  catkin/core-sl/catkin-lwpr/CMakeLists.txt:5 (include)
+  any of the following names:
 
 
 
+    utilitiesConfig.cmake
+
+    utilities-config.cmake
 
 
--- HOST_NAME=everest
 
--- HOST=everest
+  Add the installation prefix of "utilities" to CMAKE_PREFIX_PATH or set
 
--- LAB=AMD
+  "utilities_DIR" to a directory containing one of the above files.  If
 
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+  "utilities" provides a separate development package or SDK, be sure it has
 
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_INCLUDE_PATH=
-
--- CMAKE_LIBRARY_PATH=
-
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
-
--- LAB_LIBDIR=lib/x86_64
-
--- LAB_INCLUDES=include
-
--- LAB_BINDIR=bin/x86_64
-
--- +++ processing catkin package: 'sl'
-
--- ==> add_subdirectory(catkin/core-sl/catkin-sl)
-
--- MACHTYPE x86_64
-
-Detected MACHTYPE=x86_64
-
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
-
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+  been installed.
 
 Call Stack (most recent call first):
 
-  catkin/core-sl/catkin-sl/CMakeLists.txt:8 (include)
-
-
-
-
-
--- HOST_NAME=everest
-
--- HOST=everest
-
--- LAB=AMD
-
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_INCLUDE_PATH=
-
--- CMAKE_LIBRARY_PATH=
-
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
-
--- LAB_LIBDIR=lib/x86_64
-
--- LAB_INCLUDES=include
-
--- LAB_BINDIR=bin/x86_64
-
--- +++ processing catkin package: 'arm2d'
-
--- ==> add_subdirectory(catkin/robots/catkin-arm2D)
-
--- MACHTYPE x86_64
-
-Detected MACHTYPE=x86_64
-
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
-
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
-
-Call Stack (most recent call first):
-
-  catkin/robots/catkin-arm2D/CMakeLists.txt:8 (include)
-
-
-
-
-
--- HOST_NAME=everest
-
--- HOST=everest
-
--- LAB=AMD
-
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_INCLUDE_PATH=
-
--- CMAKE_LIBRARY_PATH=
-
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
-
--- LAB_LIBDIR=lib/x86_64
-
--- LAB_INCLUDES=include
-
--- LAB_BINDIR=bin/x86_64
-
--- +++ processing catkin package: 'arm2d_test_task'
-
--- ==> add_subdirectory(catkin/robots/catkin-sl-arm2D-task-example)
-
--- MACHTYPE x86_64
-
-Detected MACHTYPE=x86_64
-
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
-
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
-
-Call Stack (most recent call first):
-
-  catkin/robots/catkin-sl-arm2D-task-example/CMakeLists.txt:8 (include)
-
-
-
-
-
--- HOST_NAME=everest
-
--- HOST=everest
-
--- LAB=AMD
-
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_INCLUDE_PATH=
-
--- CMAKE_LIBRARY_PATH=
-
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
-
--- LAB_LIBDIR=lib/x86_64
-
--- LAB_INCLUDES=include
-
--- LAB_BINDIR=bin/x86_64
-
--- +++ processing catkin package: 'arm2d_user'
-
--- ==> add_subdirectory(catkin/robots/catkin-arm2DUser)
-
--- MACHTYPE x86_64
-
-Detected MACHTYPE=x86_64
-
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
-
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
-
-Call Stack (most recent call first):
-
-  catkin/robots/catkin-arm2DUser/CMakeLists.txt:8 (include)
-
-
-
-
-
--- HOST_NAME=everest
-
--- HOST=everest
-
--- LAB=AMD
-
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_INCLUDE_PATH=
-
--- CMAKE_LIBRARY_PATH=
-
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
-
--- LAB_LIBDIR=lib/x86_64
-
--- LAB_INCLUDES=include
-
--- LAB_BINDIR=bin/x86_64
-
-CMake Error at catkin/robots/catkin-arm2DUser/CMakeLists.txt:31 (add_subdirectory):
-
-  add_subdirectory given source "tmp_catkin_arm2D_user" which is not an
-
-  existing directory.
-
-
-
-
-
-CMake Error at /opt/ros/indigo/share/catkin/cmake/catkin_package.cmake:293 (message):
-
-  catkin_package() absolute include dir '/include' does not exist
-
-Call Stack (most recent call first):
-
-  /opt/ros/indigo/share/catkin/cmake/catkin_package.cmake:100 (_catkin_package)
-
-  catkin/robots/catkin-arm2DUser/CMakeLists.txt:33 (catkin_package)
+  catkin/core-sl/goto_ui/CMakeLists.txt:8 (find_package)
 
 
 
