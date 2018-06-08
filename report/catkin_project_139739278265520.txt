@@ -1,380 +1,428 @@
-[  0%] Built target findpath
+-- The C compiler identification is GNU 4.8.4
 
-[  2%] Built target playful_color_detection
+-- The CXX compiler identification is GNU 4.8.4
 
-[  2%] Built target playful_profiler
+-- Check for working C compiler: /usr/bin/cc
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_AccelerationFeedbackExperimentStatus
+-- Check for working C compiler: /usr/bin/cc -- works
 
-[  2%] Built target geometry_msgs_generate_messages_py
+-- Detecting C compiler ABI info
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibratePressureSensorsStatus
+-- Detecting C compiler ABI info - done
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ResetBreakaway
+-- Check for working CXX compiler: /usr/bin/c++
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_NavigationTarget
+-- Check for working CXX compiler: /usr/bin/c++ -- works
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_BoundingPoints
+-- Detecting CXX compiler ABI info
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PolicyControllerParamsService
+-- Detecting CXX compiler ABI info - done
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SwitchControllerStack
+-- Using CATKIN_DEVEL_PREFIX: /home/administrator/ci/ci/team/workspace/devel
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerDataStatus
+-- Using CMAKE_PREFIX_PATH: /opt/ros/indigo
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineLearningControl
+-- This workspace overlays: /opt/ros/indigo
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Goto_command
+-- Found PythonInterp: /usr/bin/python (found version "2.7.6") 
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_RtNetwork
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspControllerStatus
+-- Using Debian Python package layout
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_BiotacData
+-- Using empy: /usr/bin/empy
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ExperimentParams
+-- Using CATKIN_ENABLE_TESTING: ON
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_AvgPressureSensors
+-- Call enable_testing()
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_QueryControllerStatus
+-- Using CATKIN_TEST_RESULTS_DIR: /home/administrator/ci/ci/team/workspace/build/test_results
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Volumes
+-- Looking for include file pthread.h
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_UpdateStrainGagesCalibration
+-- Looking for include file pthread.h - found
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ImageCoordinates
+-- Looking for pthread_create
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LabeledPoint
+-- Looking for pthread_create - not found
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_IncreaseMaxFingerTorque
+-- Looking for pthread_create in pthreads
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Preshape
+-- Looking for pthread_create in pthreads - not found
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LqrControllerDataStatus
+-- Looking for pthread_create in pthread
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PressureSensors
+-- Looking for pthread_create in pthread - found
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ObstaclePoints
+-- Found Threads: TRUE  
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateForceTorqueSensor
+-- Found gtest sources under '/usr/src/gtest': gtests will be built
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CartesianTrajectory
+-- Using Python nosetests: /usr/bin/nosetests-2.7
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Acceleration
+-- catkin 0.6.19
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PolicyControllerDataStatus
+-- BUILD_SHARED_LIBS is on
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerParamsService
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspPoses
+-- ~~  traversing 4 packages in topological order:
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_TrajectoryStatus
+-- ~~  - ci_example_python
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ExperimentGeneratorParamsService
+-- ~~  - yaml_cpp
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PointArrayArray
+-- ~~  - ci_example_cpp
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerStatus
+-- ~~  - ci_doxygen_child_cpp
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CartesianTrajectoryPoint
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LookAtParams
+-- +++ processing catkin package: 'ci_example_python'
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineNetwork
+-- ==> add_subdirectory(catkin/examples/ci_example/ci_example_python)
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_BiotacFingerData
+-- +++ processing catkin package: 'yaml_cpp'
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CollectDataStatus
+-- ==> add_subdirectory(catkin/third_party/YAML_CPP)
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ColorRange
+-- Boost version: 1.54.0
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LookAtStatus
+-- Performing Test FLAG_WEXTRA
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DMPControllerStatus
+-- Performing Test FLAG_WEXTRA - Success
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_RtNetworkLayer
+-- +++ processing catkin package: 'ci_example_cpp'
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibratePressureSensors
+-- ==> add_subdirectory(catkin/examples/ci_example/ci_example_cpp)
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Extrems
+-- +++ processing catkin package: 'ci_doxygen_child_cpp'
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DMPCommand
+-- ==> add_subdirectory(catkin/examples/ci_example/ci_doxygen_child_cpp)
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_NetworkLayer
+-- Configuring done
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ScaledLqr
+-- Generating done
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ViconQuery
+-- Build files have been written to: /home/administrator/ci/ci/team/workspace/build
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspControllerParams
+Scanning dependencies of target yaml-cpp
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_TrajectoryPoint
+[  2%] [  4%] [  6%] [  9%] [ 11%] [ 13%] [ 15%] [ 18%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/nodebuilder.cpp.o
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SetPoses
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/scantoken.cpp.o
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_UpdateStrainGagesCalibrationStatus
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/parse.cpp.o
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DMPControllerParams
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/nodeevents.cpp.o
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Path
+[ 22%] [ 22%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/node.cpp.o
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SetVisualToolTracking
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/memory.cpp.o
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ContinuousTrajectoryStatus
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/ostream_wrapper.cpp.o
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ContinuousTrajectoryPoint
+[ 25%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/tag.cpp.o
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_BoundingPointsArray
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/directives.cpp.o
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SetObjectOri
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/scanscalar.cpp.o
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_EndEffectorPosition
+[ 27%] [ 29%] [ 31%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emitterutils.cpp.o
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_InverseDynamicsBatchNetworkControllerStatus
+[ 34%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/scantag.cpp.o
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Imu
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/scanner.cpp.o
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_FingerJointEncoderOffsetsStatus
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/parser.cpp.o
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerParams
+[ 36%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/exp.cpp.o
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineDataStatus
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emitter.cpp.o
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_AffinePolicy
+[ 38%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/regex.cpp.o
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateAccelerometerSensorStatus
+[ 40%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/binary.cpp.o
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspStatus
+[ 43%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/node_data.cpp.o
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DistanceFieldEval
+[ 45%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emit.cpp.o
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LqrControllerParams
+[ 47%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/simplekey.cpp.o
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CartesianGains
+[ 50%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emitterstate.cpp.o
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ChordEllipsoid
+[ 52%] [ 54%] [ 56%] [ 59%] [ 61%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/convert.cpp.o
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OnlineDataStatus
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emitfromevents.cpp.o
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DistanceFieldQueries
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/stream.cpp.o
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_FingerJointEncoderOffsets
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/singledocparser.cpp.o
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_KeyPointBodyApprox
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/null.cpp.o
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineLearningControlService
+[ 63%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilderadapter.cpp.o
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LinearQuadraticRegulatorParams
+[ 65%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilder.cpp.o
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LqrControllerParamsService
+Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libyaml-cpp.so
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Grasp
+[ 65%] Built target yaml-cpp
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_FingerForceControlGains
+Scanning dependencies of target parse
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateBiotacSensorsStatus
+Scanning dependencies of target read
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_StrainGauge
+Scanning dependencies of target sandbox
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ExtremsArray
+[ 68%] Scanning dependencies of target run-tests
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_TaskFrame
+[ 70%] Building CXX object catkin/third_party/YAML_CPP/util/CMakeFiles/parse.dir/parse.cpp.o
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Sphere
+Building CXX object catkin/third_party/YAML_CPP/util/CMakeFiles/read.dir/read.cpp.o
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_EndEffectorState
+Scanning dependencies of target basic_pid
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_RectangularBox
+[ 72%] [ 75%] [ 77%] [ 79%] [ 81%] [ 84%] [ 86%] [ 88%] Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/tests.cpp.o
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ViconData
+Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/spectests.cpp.o
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SpeedChange
+Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/new-api/parsertests.cpp.o
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateAccelerometerSensor
+Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/emittertests.cpp.o
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ResetBreakawayStatus
+Building CXX object catkin/third_party/YAML_CPP/util/CMakeFiles/sandbox.dir/sandbox.cpp.o
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_RectangularBoxArray
+Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/new-api/nodetests.cpp.o
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ControllerStatus
+Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/new-api/spectests.cpp.o
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateBiotacSensors
+Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/main.cpp.o
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineParams
+[ 90%] Building CXX object catkin/examples/ci_example/ci_example_cpp/CMakeFiles/basic_pid.dir/src/basic_pid.cpp.o
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LinearQuadraticRegulatorStatus
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/yaml_cpp/sandbox
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_EnvironmentalObject
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/yaml_cpp/read
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Matrix32
+[ 90%] Built target sandbox
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ObjectMass
+[ 90%] Built target read
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Gains
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/yaml_cpp/parse
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PointArray
+[ 90%] Built target parse
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Trajectory
+Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libbasic_pid.so
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ImageCoordinatesArray
+[ 90%] Built target basic_pid
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateForceTorqueSensorStatus
+Scanning dependencies of target ci_example_ros
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LinearQuadraticRegulator
+Scanning dependencies of target doxygen_child
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_InverseDynamicsBatchNetworkControllerParams
+[ 93%] [ 95%] Scanning dependencies of target ci_example_demo
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_TrackingPose
+Scanning dependencies of target ci_example_abs_path_config_demo
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineParamsService
+Building CXX object catkin/examples/ci_example/ci_example_cpp/CMakeFiles/ci_example_ros.dir/src/demos/ci_example_ros.cpp.o
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CollectData
+Building CXX object catkin/examples/ci_example/ci_doxygen_child_cpp/CMakeFiles/doxygen_child.dir/src/doxygen_child.cpp.o
 
-[ 28%] Built target amd_clmc_ros_messages_generate_messages_py
+[ 97%] [100%] Building CXX object catkin/examples/ci_example/ci_example_cpp/CMakeFiles/ci_example_demo.dir/src/demos/ci_example_demo.cpp.o
 
-[ 28%] Built target geometry_msgs_generate_messages_cpp
+Building CXX object catkin/examples/ci_example/ci_example_cpp/CMakeFiles/ci_example_abs_path_config_demo.dir/src/demos/ci_example_abs_path_config_demo.cpp.o
 
-[ 53%] Built target amd_clmc_ros_messages_generate_messages_cpp
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/ci_example_cpp/ci_example_ros
 
-[ 53%] Built target geometry_msgs_generate_messages_lisp
+[100%] Built target ci_example_ros
 
-[ 78%] Built target amd_clmc_ros_messages_generate_messages_lisp
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/ci_example_cpp/ci_example_abs_path_config_demo
 
-[ 78%] Built target amd_clmc_ros_messages_generate_messages
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/ci_example_cpp/ci_example_demo
 
-[ 78%] Built target _ar_track_alvar_msgs_generate_messages_check_deps_AlvarMarker
+Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libdoxygen_child.so
 
-[ 78%] Built target _ar_track_alvar_msgs_generate_messages_check_deps_AlvarMarkers
+[100%] Built target ci_example_demo
 
-[ 78%] Built target std_msgs_generate_messages_cpp
+[100%] Built target doxygen_child
 
-[ 78%] Built target ar_track_alvar_msgs_generate_messages_cpp
+[100%] Built target ci_example_abs_path_config_demo
 
-[ 78%] Built target std_msgs_generate_messages_py
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/yaml_cpp/run-tests
 
-[ 78%] Built target ar_track_alvar_msgs_generate_messages_py
+[100%] Built target run-tests
 
-[ 78%] Built target std_msgs_generate_messages_lisp
+Install the project...
 
-[ 79%] Built target ar_track_alvar_msgs_generate_messages_lisp
+-- Install configuration: ""
 
-[ 79%] Built target ar_track_alvar_msgs_generate_messages
+-- Installing: /home/administrator/ci/ci/team/workspace/install/_setup_util.py
 
-[ 79%] Built target _custom_robot_msgs_generate_messages_check_deps_assembly_phase
+-- Installing: /home/administrator/ci/ci/team/workspace/install/env.sh
 
-[ 79%] Built target _custom_robot_msgs_generate_messages_check_deps_PredictAssembly
+-- Installing: /home/administrator/ci/ci/team/workspace/install/setup.bash
 
-[ 79%] Built target _custom_robot_msgs_generate_messages_check_deps_PolicyInterface
+-- Installing: /home/administrator/ci/ci/team/workspace/install/setup.sh
 
-[ 80%] Built target custom_robot_msgs_generate_messages_cpp
+-- Installing: /home/administrator/ci/ci/team/workspace/install/setup.zsh
 
-[ 81%] Built target custom_robot_msgs_generate_messages_lisp
+-- Installing: /home/administrator/ci/ci/team/workspace/install/.rosinstall
 
-[ 82%] Built target custom_robot_msgs_generate_messages_py
++ cd /home/administrator/ci/ci/team/workspace/src/catkin/examples/ci_example/ci_example_python
 
-[ 82%] Built target custom_robot_msgs_generate_messages
++ mkdir -p /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages
 
-[ 82%] Built target _riemo_grasping_msgs_generate_messages_check_deps_MpiGraspPoses
++ /usr/bin/env PYTHONPATH=/home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages:/home/administrator/ci/ci/team/workspace/build/lib/python2.7/dist-packages:/opt/ros/indigo/lib/python2.7/dist-packages CATKIN_BINARY_DIR=/home/administrator/ci/ci/team/workspace/build /usr/bin/python /home/administrator/ci/ci/team/workspace/src/catkin/examples/ci_example/ci_example_python/setup.py build --build-base /home/administrator/ci/ci/team/workspace/build/catkin/examples/ci_example/ci_example_python install --install-layout=deb --prefix=/home/administrator/ci/ci/team/workspace/install --install-scripts=/home/administrator/ci/ci/team/workspace/install/bin
 
-[ 82%] Built target _riemo_grasping_msgs_generate_messages_check_deps_Preshape
+running build
 
-[ 82%] Built target _riemo_grasping_msgs_generate_messages_check_deps_GraspPose
+running build_py
 
-[ 82%] Built target _riemo_grasping_msgs_generate_messages_check_deps_GraspableObject
+creating /home/administrator/ci/ci/team/workspace/build/catkin/examples/ci_example/ci_example_python/lib.linux-x86_64-2.7
 
-[ 82%] Built target _riemo_grasping_msgs_generate_messages_check_deps_LatestGraspProblemInfo
+creating /home/administrator/ci/ci/team/workspace/build/catkin/examples/ci_example/ci_example_python/lib.linux-x86_64-2.7/ci_example_python
 
-[ 82%] Built target _riemo_grasping_msgs_generate_messages_check_deps_RenderGraspProblemService
+copying scripts/ci_example_python/__init__.py -> /home/administrator/ci/ci/team/workspace/build/catkin/examples/ci_example/ci_example_python/lib.linux-x86_64-2.7/ci_example_python
 
-[ 82%] Built target _riemo_grasping_msgs_generate_messages_check_deps_GraspProblemInfo
+copying scripts/ci_example_python/pid.py -> /home/administrator/ci/ci/team/workspace/build/catkin/examples/ci_example/ci_example_python/lib.linux-x86_64-2.7/ci_example_python
 
-[ 82%] Built target _riemo_grasping_msgs_generate_messages_check_deps_UpdateGraspProblem
+running install
 
-[ 85%] Built target riemo_grasping_msgs_generate_messages_py
+running install_lib
 
-[ 87%] Built target riemo_grasping_msgs_generate_messages_cpp
+creating /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/ci_example_python
 
-[ 88%] Built target riemo_grasping_msgs_generate_messages_lisp
+copying /home/administrator/ci/ci/team/workspace/build/catkin/examples/ci_example/ci_example_python/lib.linux-x86_64-2.7/ci_example_python/__init__.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/ci_example_python
 
-[ 88%] Built target riemo_grasping_msgs_generate_messages
+copying /home/administrator/ci/ci/team/workspace/build/catkin/examples/ci_example/ci_example_python/lib.linux-x86_64-2.7/ci_example_python/pid.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/ci_example_python
 
-[ 88%] Built target _playful_navigation_msgs_generate_messages_check_deps_Move_target_out_of_obstacles
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/ci_example_python/__init__.py to __init__.pyc
 
-[ 88%] Built target _playful_navigation_msgs_generate_messages_check_deps_Move_robot_out_of_obstacles
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/ci_example_python/pid.py to pid.pyc
 
-[ 88%] Built target playful_navigation_msgs_generate_messages_py
+running install_egg_info
 
-[ 88%] Built target playful_navigation_msgs_generate_messages_cpp
+Writing /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/ci_example_python-1.0.0.egg-info
 
-[ 89%] Built target playful_navigation_msgs_generate_messages_lisp
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/yaml_cpp.pc
 
-[ 89%] Built target playful_navigation_msgs_generate_messages
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/yaml_cpp/cmake/yaml_cppConfig.cmake
 
-[ 90%] Built target playful_pcl
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/yaml_cpp/cmake/yaml_cppConfig-version.cmake
 
-[ 91%] Built target playful_histograms
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/yaml_cpp/package.xml
 
-[ 91%] Built target playful_cloud_color_filtering_node
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/libyaml-cpp.so.0.5.1
 
-[ 91%] Built target playful_color_detection_node
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/libyaml-cpp.so.0.5
 
-[ 93%] Built target playful_navigation
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/libyaml-cpp.so
 
-[ 93%] Built target test_clustering
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp
 
-[ 94%] Built target playful_navigation_nodes
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/ostream_wrapper.h
 
-[ 94%] Built target playful_navigation_node
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/anchor.h
 
-[ 94%] Built target point_cloud_crop_node
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/yaml.h
 
-[ 94%] Built target point_cloud_downsample_node
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/exceptions.h
 
-[ 94%] Built target point_cloud_fusion_node
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/dll.h
 
-[ 95%] Built target point_cloud_transform_node
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/mark.h
 
-[ 95%] Built target point_cloud_translate_node
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/noncopyable.h
 
-[ 95%] Built target scan_to_point_cloud_node
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/traits.h
 
-[ 95%] Built target tf_transform
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/stlemitter.h
 
-[ 96%] Built target virtual_point_cloud_publish
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node
 
-[ 96%] Built target playful_balloon_position_node
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/node.h
 
-[ 96%] Built target playful_colored_cup_grasp_position_node
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/emit.h
 
-[ 97%] Built target playful_filter_colored_cup_from_cloud_node
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/iterator.h
 
-[ 97%] Built target playful_find_humans_and_arms_node
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail
 
-[ 97%] Built target playful_find_humans_node
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/node.h
 
-[ 98%] Built target playful_publish_working_space_node
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/memory.h
 
-[ 98%] Built target playful_trim_cloud_to_above_robot_arm_node
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/iterator.h
 
-[100%] Built target playful_trim_cloud_to_beyond_robot_node
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/bool_type.h
 
-[100%] Built target playful_cloud_with_only_nao
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/iterator_fwd.h
 
-[100%] Building CXX object catkin/playful/playful-xtion-nao-detection/CMakeFiles/playful_find_hands.dir/src/find_hands.cpp.o
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/node_ref.h
 
-/home/administrator/ci/ci/team/workspace/src/catkin/playful/playful-xtion-nao-detection/src/find_hands.cpp:1:45: fatal error: playful_navigation/obstacles_3d.h: No such file or directory
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/node_data.h
 
- #include "playful_navigation/obstacles_3d.h"
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/node_iterator.h
 
-                                             ^
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/impl.h
 
-compilation terminated.
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/type.h
 
-make[2]: *** [catkin/playful/playful-xtion-nao-detection/CMakeFiles/playful_find_hands.dir/src/find_hands.cpp.o] Error 1
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/ptr.h
 
-make[1]: *** [catkin/playful/playful-xtion-nao-detection/CMakeFiles/playful_find_hands.dir/all] Error 2
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/parse.h
 
-make: *** [all] Error 2
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/impl.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/convert.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/emittermanip.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/eventhandler.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/binary.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/emitterdef.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/contrib
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/contrib/graphbuilder.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/contrib/anchordict.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/emitfromevents.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/parser.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/emitter.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/yaml_eigen.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/null.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/yaml-cpp.pc
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/ci_example_cpp.pc
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/ci_example_cpp/cmake/ci_example_cppConfig.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/ci_example_cpp/cmake/ci_example_cppConfig-version.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/ci_example_cpp/package.xml
+
+-- Installing: /home/administrator/ci/ci/team/workspace/src/catkin/examples/ci_example/ci_example_cpp/demos/bin/ci_example_ros
+
+-- Set runtime path of "/home/administrator/ci/ci/team/workspace/src/catkin/examples/ci_example/ci_example_cpp/demos/bin/ci_example_ros" to "/home/administrator/ci/ci/team/workspace/install/lib:/home/administrator/ci/ci/team/workspace/devel/lib:/opt/ros/indigo/lib"
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/ci_doxygen_child_cpp.pc
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/ci_doxygen_child_cpp/cmake/ci_doxygen_child_cppConfig.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/ci_doxygen_child_cpp/cmake/ci_doxygen_child_cppConfig-version.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/ci_doxygen_child_cpp/package.xml
 
 Base path: /home/administrator/ci/ci/team/workspace
 
@@ -386,16 +434,16 @@ Devel space: /home/administrator/ci/ci/team/workspace/devel
 
 Install space: /home/administrator/ci/ci/team/workspace/install
 
-####
-
-#### Running command: "make cmake_check_build_system" in "/home/administrator/ci/ci/team/workspace/build"
+Creating symlink "/home/administrator/ci/ci/team/workspace/src/CMakeLists.txt" pointing to "/opt/ros/indigo/share/catkin/cmake/toplevel.cmake"
 
 ####
 
-####
-
-#### Running command: "make -j1" in "/home/administrator/ci/ci/team/workspace/build"
+#### Running command: "cmake /home/administrator/ci/ci/team/workspace/src -DCATKIN_DEVEL_PREFIX=/home/administrator/ci/ci/team/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/administrator/ci/ci/team/workspace/install -G Unix Makefiles" in "/home/administrator/ci/ci/team/workspace/build"
 
 ####
 
-Invoking "make -j1" failed
+####
+
+#### Running command: "make -j16 install" in "/home/administrator/ci/ci/team/workspace/build"
+
+####
