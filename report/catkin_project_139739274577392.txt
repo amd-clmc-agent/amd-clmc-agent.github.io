@@ -1,22 +1,4 @@
--- The C compiler identification is GNU 4.8.4
-
--- The CXX compiler identification is GNU 4.8.4
-
--- Check for working C compiler: /usr/bin/cc
-
--- Check for working C compiler: /usr/bin/cc -- works
-
--- Detecting C compiler ABI info
-
--- Detecting C compiler ABI info - done
-
--- Check for working CXX compiler: /usr/bin/c++
-
--- Check for working CXX compiler: /usr/bin/c++ -- works
-
--- Detecting CXX compiler ABI info
-
--- Detecting CXX compiler ABI info - done
+WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
 
 -- Using CATKIN_DEVEL_PREFIX: /home/administrator/ci/ci/team/workspace/devel
 
@@ -24,13 +6,11 @@
 
 -- This workspace overlays: /opt/ros/indigo
 
--- Found PythonInterp: /usr/bin/python (found version "2.7.6") 
-
 -- Using PYTHON_EXECUTABLE: /usr/bin/python
 
--- Using Debian Python package layout
+-- Python version: 2.7
 
--- Using empy: /usr/bin/empy
+-- Using Debian Python package layout
 
 -- Using CATKIN_ENABLE_TESTING: ON
 
@@ -38,149 +18,153 @@
 
 -- Using CATKIN_TEST_RESULTS_DIR: /home/administrator/ci/ci/team/workspace/build/test_results
 
--- Looking for include file pthread.h
-
--- Looking for include file pthread.h - found
-
--- Looking for pthread_create
-
--- Looking for pthread_create - not found
-
--- Looking for pthread_create in pthreads
-
--- Looking for pthread_create in pthreads - not found
-
--- Looking for pthread_create in pthread
-
--- Looking for pthread_create in pthread - found
-
--- Found Threads: TRUE  
-
 -- Found gtest sources under '/usr/src/gtest': gtests will be built
 
--- Using Python nosetests: /usr/bin/nosetests-2.7
-
--- catkin 0.6.19
+-- catkin 0.5.90
 
 -- BUILD_SHARED_LIBS is on
 
--- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
--- ~~  traversing 3 packages in topological order:
-
--- ~~  - amd_clmc_eigen
-
--- ~~  - vicon_sdk
-
--- ~~  - vicon_capture
+WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- +++ processing catkin package: 'amd_clmc_eigen'
+-- ~~  traversing 19 packages in topological order:
 
--- ==> add_subdirectory(catkin/third_party/amd-clmc-eigen)
+-- ~~  - Eigen
 
--- +++ processing catkin package: 'vicon_sdk'
+-- ~~  - ros_realtime (metapackage)
 
--- ==> add_subdirectory(catkin/sensors/vicon_sdk)
+-- ~~  - allocators
 
--- +++ processing catkin package: 'vicon_capture'
+-- ~~  - rosatomic
 
--- ==> add_subdirectory(catkin/sensors/vicon_capture)
+-- ~~  - lockfree
 
--- Using these message generators: gencpp;genlisp;genpy
+-- ~~  - rt_timer
+
+-- ~~  - sl_config
+
+-- ~~  - utilities
+
+-- ~~  - lwpr
+
+-- ~~  - xenomai_ros
+
+-- ~~  - ati_ft_sensor
+
+-- ~~  - blmc_can
+
+-- ~~  - rosrt
+
+-- ~~  - sl
+
+-- ~~  - hopper
+
+-- ~~  - hopper_user
+
+-- ~~  - optoforce_sensor
+
+-- ~~  - yaml_cpp
+
+-- ~~  - hermes_communication_tools
+
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-- +++ processing catkin package: 'Eigen'
+
+-- ==> add_subdirectory(catkin/third_party/Eigen)
+
+WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
+
+-- +++ processing catkin metapackage: 'ros_realtime'
+
+-- ==> add_subdirectory(catkin/ros/ros_realtime/ros_realtime)
+
+-- +++ processing catkin package: 'allocators'
+
+-- ==> add_subdirectory(catkin/ros/ros_realtime/allocators)
 
 -- Boost version: 1.54.0
 
--- Configuring done
+-- +++ processing catkin package: 'rosatomic'
 
--- Generating done
+-- ==> add_subdirectory(catkin/ros/ros_realtime/rosatomic)
 
--- Build files have been written to: /home/administrator/ci/ci/team/workspace/build
+-- Boost version: 1.54.0
 
-Scanning dependencies of target vicon_sdklib_copy
+-- +++ processing catkin package: 'lockfree'
 
-Scanning dependencies of target boost_libs_copy
+-- ==> add_subdirectory(catkin/ros/ros_realtime/lockfree)
 
-[  0%] Built target vicon_sdklib_copy
+-- Boost version: 1.54.0
 
-Scanning dependencies of target ViconDataStreamSDK_CPP
+-- +++ processing catkin package: 'rt_timer'
 
-[  0%] Built target boost_libs_copy
+-- ==> add_subdirectory(catkin/ros/ros_realtime/rt_timer)
 
-[  0%] Built target ViconDataStreamSDK_CPP
+-- +++ processing catkin package: 'sl_config'
 
-Scanning dependencies of target vicon_capture
+-- ==> add_subdirectory(catkin/core-sl/sl_config)
 
-[ 33%] Building CXX object catkin/sensors/vicon_capture/CMakeFiles/vicon_capture.dir/source/vicon_capture/vicon_capture.cpp.o
+-- +++ processing catkin package: 'utilities'
 
-Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libvicon_capture.so
+-- ==> add_subdirectory(catkin/core-sl/locomotion-utilities)
 
-[ 33%] Built target vicon_capture
+-- +++ processing catkin package: 'lwpr'
 
-Scanning dependencies of target vicon_capture_publisher_node
+-- ==> add_subdirectory(catkin/core-sl/locomotion-lwpr)
 
-[ 66%] Building CXX object catkin/sensors/vicon_capture/CMakeFiles/vicon_capture_publisher_node.dir/source/vicon_capture/vicon_capture_publisher_node.cpp.o
+-- +++ processing catkin package: 'xenomai_ros'
 
-Scanning dependencies of target compute_apollo_vicon_base_offset_node
+-- ==> add_subdirectory(catkin/ros/xenomai-ros)
 
-[100%] Building CXX object catkin/sensors/vicon_capture/CMakeFiles/compute_apollo_vicon_base_offset_node.dir/source/vicon_capture/compute_apollo_vicon_base_offset_node.cpp.o
+-- +++ processing catkin package: 'ati_ft_sensor'
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/vicon_capture/vicon_capture_publisher_node
+-- ==> add_subdirectory(catkin/humanoids/humanoid_hardware/ati_ft_sensor)
 
-[100%] Built target vicon_capture_publisher_node
+-- xenomai NOT found. (/usr/local;/usr)
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/vicon_capture/compute_apollo_vicon_base_offset_node
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
 
-[100%] Built target compute_apollo_vicon_base_offset_node
+-- Boost version: 1.54.0
 
-Install the project...
+-- Found the following Boost libraries:
 
--- Install configuration: ""
+--   system
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/_setup_util.py
+--   filesystem
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/env.sh
+--   thread
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/setup.bash
+-- +++ processing catkin package: 'blmc_can'
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/setup.sh
+-- ==> add_subdirectory(catkin/hardware/blmc_can)
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/setup.zsh
+-- xenomai NOT found. (/usr/local;/usr)
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/.rosinstall
+CMake Error at catkin/third_party/catkin/cmake/catkin_package.cmake:296 (message):
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/amd_clmc_eigen.pc
+  catkin_package() include dir 'Xenomai_INCLUDE_DIR-NOTFOUND' does not exist
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/amd_clmc_eigen/cmake/amd_clmc_eigenConfig.cmake
+  relative to
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/amd_clmc_eigen/cmake/amd_clmc_eigenConfig-version.cmake
+  '/home/administrator/ci/ci/team/workspace/src/catkin/hardware/blmc_can'
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/amd_clmc_eigen/package.xml
+Call Stack (most recent call first):
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/vicon_sdk.pc
+  catkin/third_party/catkin/cmake/catkin_package.cmake:98 (_catkin_package)
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/vicon_sdk/cmake/vicon_sdkConfig.cmake
+  catkin/hardware/blmc_can/CMakeLists.txt:22 (catkin_package)
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/vicon_sdk/cmake/vicon_sdkConfig-version.cmake
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/vicon_sdk/package.xml
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/libViconDataStreamSDK_CPP.so
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/vicon_sdk
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/vicon_sdk/vicon_client.h
+-- Configuring incomplete, errors occurred!
 
--- Up-to-date: /home/administrator/ci/ci/team/workspace/install/include/vicon_sdk/vicon_client.h
+See also "/home/administrator/ci/ci/team/workspace/build/CMakeFiles/CMakeOutput.log".
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/vicon_capture.pc
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/vicon_capture/cmake/vicon_captureConfig.cmake
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/vicon_capture/cmake/vicon_captureConfig-version.cmake
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/vicon_capture/package.xml
+See also "/home/administrator/ci/ci/team/workspace/build/CMakeFiles/CMakeError.log".
 
 Base path: /home/administrator/ci/ci/team/workspace
 
@@ -192,16 +176,10 @@ Devel space: /home/administrator/ci/ci/team/workspace/devel
 
 Install space: /home/administrator/ci/ci/team/workspace/install
 
-Creating symlink "/home/administrator/ci/ci/team/workspace/src/CMakeLists.txt" pointing to "/opt/ros/indigo/share/catkin/cmake/toplevel.cmake"
-
 ####
 
 #### Running command: "cmake /home/administrator/ci/ci/team/workspace/src -DCATKIN_DEVEL_PREFIX=/home/administrator/ci/ci/team/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/administrator/ci/ci/team/workspace/install -G Unix Makefiles" in "/home/administrator/ci/ci/team/workspace/build"
 
 ####
 
-####
-
-#### Running command: "make -j16 install" in "/home/administrator/ci/ci/team/workspace/build"
-
-####
+Invoking "cmake" failed
