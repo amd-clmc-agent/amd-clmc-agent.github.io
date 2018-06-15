@@ -26,53 +26,25 @@
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- ~~  traversing 4 packages in topological order:
+-- ~~  traversing 1 packages in topological order:
 
--- ~~  - imitation_gazebo_world
-
--- ~~  - pointcloud_msgs
-
--- ~~  - recognition_3d
-
--- ~~  - rec_3d_ros
+-- ~~  - bagutils
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- +++ processing catkin package: 'imitation_gazebo_world'
+-- +++ processing catkin package: 'bagutils'
 
--- ==> add_subdirectory(catkin/perception/imitation_gazebo_world)
+-- ==> add_subdirectory(catkin/ros/bagutils)
 
--- +++ processing catkin package: 'pointcloud_msgs'
+CMake Error at /opt/ros/indigo/share/catkin/cmake/catkin_python_setup.cmake:96 (message):
 
--- ==> add_subdirectory(catkin/perception/pointcloud_msgs)
+  The package name 'bagutils' differs from the basename of the path 'src' in
 
--- Using these message generators: gencpp;genlisp;genpy
+  project 'bagutils'
 
--- pointcloud_msgs: 1 messages, 1 services
+Call Stack (most recent call first):
 
--- +++ processing catkin package: 'recognition_3d'
-
--- ==> add_subdirectory(catkin/perception/3d_classification/recognition_3d)
-
--- Using these message generators: gencpp;genlisp;genpy
-
-CMake Error at catkin/perception/3d_classification/recognition_3d/CMakeLists.txt:12 (find_package):
-
-  Could not find a configuration file for package "PCL" that is compatible
-
-  with requested version "1.8".
-
-
-
-  The following configuration files were considered but not accepted:
-
-
-
-    /usr/local/share/pcl-1.7/PCLConfig.cmake, version: 1.7.2
-
-    /usr/share/pcl-1.7/PCLConfig.cmake, version: 1.7.1
-
-
+  catkin/ros/bagutils/CMakeLists.txt:4 (catkin_python_setup)
 
 
 
