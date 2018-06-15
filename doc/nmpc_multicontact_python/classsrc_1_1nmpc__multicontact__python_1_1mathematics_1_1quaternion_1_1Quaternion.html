@@ -175,7 +175,7 @@ Static Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>in_body_coordinates</em>&#160;</td>
+          <td class="paramname"><em>is_in_world_coordinates</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -248,7 +248,7 @@ orientation during a time interval
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>is_in_body_coordinates</em>&#160;</td>
+          <td class="paramname"><em>is_in_world_coordinates</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -264,7 +264,7 @@ orientation during a time interval
 </div><div class="memdoc">
 <pre class="fragment">from angular velocity: angular velocity -&gt; rotation vector rates
 :param angular_velocity:
-:param is_in_body_coordinates:
+:param is_in_world_coordinates:
 :return an angular velocity:
 </pre> 
 </div>
@@ -298,7 +298,7 @@ orientation during a time interval
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>is_in_body_coordinates</em>&#160;</td>
+          <td class="paramname"><em>is_in_world_coordinates</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -314,10 +314,10 @@ orientation during a time interval
 </div><div class="memdoc">
 <pre class="fragment">integration of current orientation given an angular velocity and a
 time interval
-:param current_orientation:
-:param angular_velocity:
+:param Quaternion current_orientation:
+:param ndarray angular_velocity:
 :param time_step:
-:param is_in_body_coordinates:
+:param is_in_world_coordinates:
 :return: the finite
 </pre> 
 </div>
@@ -522,7 +522,7 @@ with v the rotation vector
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>is_in_body_coordinates</em>&#160;</td>
+          <td class="paramname"><em>is_in_world_coordinates</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -537,7 +537,9 @@ with v the rotation vector
 </table>
 </div><div class="memdoc">
 <pre class="fragment">to angular velocity: rotation vector rates -&gt; angular velocity
-:param is_in_body_coordinates:
+:param ndarray rotation_vector: current orientation
+:param ndarray rotation_vector_rates: time derivative of the first arg
+:param bool is_in_world_coordinates: quaternion convention
 :return:
 </pre> 
 </div>
@@ -569,40 +571,40 @@ with v the rotation vector
 \f{align}{
     p * q &amp;= Q(p)
     \f{bmatrix}{
-      q.w \\
       q.x \\
       q.y \\
-      q.z
+      q.z \\
+      q.w
     \f}
   &amp;= \f{bmatrix}{
     p_w &amp; -p_vec \\
     p_vec &amp;  p_w \, I_3 + skew(p.vec)
   \f}
   \f{bmatrix}{
-      q.w \\
       q.x \\
       q.y \\
-      q.z
+      q.z \\
+      q.w
   \f}
 \f}
 The conjugate correspond to the following:
 \f{align}{
     p * q &amp;= \hat{Q}(q)
     \f{bmatrix}{
-      p.w \\
       p.x \\
       p.y \\
-      p.z
+      p.z \\
+      p.w
     \f}
   &amp;= \f{bmatrix}{
     q_w &amp; -q_vec \\
     q_vec &amp;  q_w \, I_3 - skew(q.vec)
   \f}
   \f{bmatrix}{
-      p.w \\
       p.x \\
       p.y \\
-      p.z
+      p.z \\
+      p.w
   \f}
 \f}
 :param is_conjugate: False represents \f$p*q = Q(p)q\f$
@@ -618,7 +620,7 @@ The conjugate correspond to the following:
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jun 15 2018 16:08:56 for nmpc_multicontact_python by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Jun 15 2018 19:26:01 for nmpc_multicontact_python by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
