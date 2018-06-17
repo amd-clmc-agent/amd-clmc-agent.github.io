@@ -1,5 +1,3 @@
-WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
-
 -- Using CATKIN_DEVEL_PREFIX: /home/administrator/ci/ci/team/workspace/devel
 
 -- Using CMAKE_PREFIX_PATH: /opt/ros/indigo
@@ -8,9 +6,9 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 
 -- Using PYTHON_EXECUTABLE: /usr/bin/python
 
--- Using Debian Python package layout
+-- Python version: 2.7
 
--- Using empy: /usr/bin/empy
+-- Using Debian Python package layout
 
 -- Using CATKIN_ENABLE_TESTING: ON
 
@@ -20,87 +18,109 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 
 -- Found gtest sources under '/usr/src/gtest': gtests will be built
 
--- Using Python nosetests: /usr/bin/nosetests-2.7
-
--- catkin 0.6.19
+-- catkin 0.5.90
 
 -- BUILD_SHARED_LIBS is on
 
-WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-- ~~  traversing 10 packages in topological order:
+
+-- ~~  - ros_realtime (metapackage)
+
+-- ~~  - allocators
+
+-- ~~  - rosatomic
+
+-- ~~  - lockfree
+
+-- ~~  - rt_timer
+
+-- ~~  - xenomai_ros
+
+-- ~~  - rosrt
+
+-- ~~  - goto_ui
+
+-- ~~  - goto_ui_task
+
+-- ~~  - ros_rt_test
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- ~~  traversing 12 packages in topological order:
+-- +++ processing catkin metapackage: 'ros_realtime'
 
--- ~~  - Eigen
+-- ==> add_subdirectory(catkin/ros/ros_realtime/ros_realtime)
 
--- ~~  - python_file_parser
+-- +++ processing catkin package: 'allocators'
 
--- ~~  - rbdl
-
--- ~~  - cyberglove_handsim_control
-
--- ~~  - amd_clmc_ros_messages
-
--- ~~  - ar_track_alvar_msgs
-
--- ~~  - custom_robot_msgs
-
--- ~~  - riemo_grasping_msgs
-
--- ~~  - cereal_port
-
--- ~~  - sr_gui_cyberglove_calibrator
-
--- ~~  - cyberglove
-
--- ~~  - haptix_recorder
-
--- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
--- +++ processing catkin package: 'Eigen'
-
--- ==> add_subdirectory(catkin/third_party/Eigen)
-
-WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
-
--- +++ processing catkin package: 'python_file_parser'
-
--- ==> add_subdirectory(catkin/utilities/amd_clmc_script_utilities/python_file_parser)
-
--- +++ processing catkin package: 'rbdl'
-
--- ==> add_subdirectory(catkin/third_party/rbdl)
-
--- ROS found: /opt/ros/indigo/share/ros
-
--- +++ processing catkin package: 'cyberglove_handsim_control'
-
--- ==> add_subdirectory(catkin/cyberglove/cyberglove_ros/cyberglove_handsim_control)
-
--- Operating system is Linux
+-- ==> add_subdirectory(catkin/ros/ros_realtime/allocators)
 
 -- Boost version: 1.54.0
 
-CMake Error at catkin/cyberglove/cyberglove_ros/cyberglove_handsim_control/cmake/SearchForStuff.cmake:8 (find_package):
+-- +++ processing catkin package: 'rosatomic'
 
-  Could not find a configuration file for package "gazebo" that is compatible
+-- ==> add_subdirectory(catkin/ros/ros_realtime/rosatomic)
 
-  with requested version "7.0.0".
+-- Boost version: 1.54.0
+
+-- +++ processing catkin package: 'lockfree'
+
+-- ==> add_subdirectory(catkin/ros/ros_realtime/lockfree)
+
+-- Boost version: 1.54.0
+
+-- +++ processing catkin package: 'rt_timer'
+
+-- ==> add_subdirectory(catkin/ros/ros_realtime/rt_timer)
+
+-- +++ processing catkin package: 'xenomai_ros'
+
+-- ==> add_subdirectory(catkin/ros/xenomai-ros)
+
+-- +++ processing catkin package: 'rosrt'
+
+-- ==> add_subdirectory(catkin/ros/ros_realtime/rosrt)
+
+-- xenomai NOT found. (/usr/local;/usr)
+
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+
+-- Boost version: 1.54.0
+
+-- Found the following Boost libraries:
+
+--   thread
+
+-- +++ processing catkin package: 'goto_ui'
+
+-- ==> add_subdirectory(catkin/core-sl/goto_ui)
+
+CMake Error at /home/administrator/ci/ci/team/workspace/devel/share/catkin/cmake/catkinConfig.cmake:75 (find_package):
+
+  Could not find a package configuration file provided by "utilities" with
+
+  any of the following names:
 
 
 
-  The following configuration files were considered but not accepted:
+    utilitiesConfig.cmake
+
+    utilities-config.cmake
 
 
 
-    /usr/share/gazebo/cmake/gazebo-config.cmake, version: unknown
+  Add the installation prefix of "utilities" to CMAKE_PREFIX_PATH or set
 
+  "utilities_DIR" to a directory containing one of the above files.  If
 
+  "utilities" provides a separate development package or SDK, be sure it has
+
+  been installed.
 
 Call Stack (most recent call first):
 
-  catkin/cyberglove/cyberglove_ros/cyberglove_handsim_control/CMakeLists.txt:11 (include)
+  catkin/core-sl/goto_ui/CMakeLists.txt:8 (find_package)
 
 
 
