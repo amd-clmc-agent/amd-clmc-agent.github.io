@@ -66,31 +66,15 @@
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- ~~  traversing 3 packages in topological order:
+-- ~~  traversing 1 packages in topological order:
 
--- ~~  - amd_clmc_eigen
-
--- ~~  - vicon_sdk
-
--- ~~  - vicon_capture
+-- ~~  - detect_red_ribbon
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- +++ processing catkin package: 'amd_clmc_eigen'
+-- +++ processing catkin package: 'detect_red_ribbon'
 
--- ==> add_subdirectory(catkin/third_party/amd-clmc-eigen)
-
--- +++ processing catkin package: 'vicon_sdk'
-
--- ==> add_subdirectory(catkin/sensors/vicon_sdk)
-
--- +++ processing catkin package: 'vicon_capture'
-
--- ==> add_subdirectory(catkin/sensors/vicon_capture)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- Boost version: 1.54.0
+-- ==> add_subdirectory(catkin/perception/detect_red_ribbon)
 
 -- Configuring done
 
@@ -98,41 +82,17 @@
 
 -- Build files have been written to: /home/administrator/ci/ci/team/workspace/build
 
-Scanning dependencies of target vicon_sdklib_copy
+Scanning dependencies of target detect_red_ribbon_node
 
-Scanning dependencies of target boost_libs_copy
+[ 33%] [ 66%] [100%] Building CXX object catkin/perception/detect_red_ribbon/CMakeFiles/detect_red_ribbon_node.dir/src/main.cpp.o
 
-[  0%] Built target vicon_sdklib_copy
+Building CXX object catkin/perception/detect_red_ribbon/CMakeFiles/detect_red_ribbon_node.dir/src/red_detector.cpp.o
 
-Scanning dependencies of target ViconDataStreamSDK_CPP
+Building CXX object catkin/perception/detect_red_ribbon/CMakeFiles/detect_red_ribbon_node.dir/src/red_ribbon_detector.cpp.o
 
-[  0%] Built target boost_libs_copy
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/detect_red_ribbon/detect_red_ribbon_node
 
-[  0%] Built target ViconDataStreamSDK_CPP
-
-Scanning dependencies of target vicon_capture
-
-[ 33%] Building CXX object catkin/sensors/vicon_capture/CMakeFiles/vicon_capture.dir/source/vicon_capture/vicon_capture.cpp.o
-
-Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libvicon_capture.so
-
-[ 33%] Built target vicon_capture
-
-Scanning dependencies of target vicon_capture_publisher_node
-
-[ 66%] Building CXX object catkin/sensors/vicon_capture/CMakeFiles/vicon_capture_publisher_node.dir/source/vicon_capture/vicon_capture_publisher_node.cpp.o
-
-Scanning dependencies of target compute_apollo_vicon_base_offset_node
-
-[100%] Building CXX object catkin/sensors/vicon_capture/CMakeFiles/compute_apollo_vicon_base_offset_node.dir/source/vicon_capture/compute_apollo_vicon_base_offset_node.cpp.o
-
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/vicon_capture/vicon_capture_publisher_node
-
-[100%] Built target vicon_capture_publisher_node
-
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/vicon_capture/compute_apollo_vicon_base_offset_node
-
-[100%] Built target compute_apollo_vicon_base_offset_node
+[100%] Built target detect_red_ribbon_node
 
 Install the project...
 
@@ -150,37 +110,13 @@ Install the project...
 
 -- Installing: /home/administrator/ci/ci/team/workspace/install/.rosinstall
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/amd_clmc_eigen.pc
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/detect_red_ribbon.pc
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/amd_clmc_eigen/cmake/amd_clmc_eigenConfig.cmake
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/detect_red_ribbon/cmake/detect_red_ribbonConfig.cmake
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/amd_clmc_eigen/cmake/amd_clmc_eigenConfig-version.cmake
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/detect_red_ribbon/cmake/detect_red_ribbonConfig-version.cmake
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/amd_clmc_eigen/package.xml
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/vicon_sdk.pc
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/vicon_sdk/cmake/vicon_sdkConfig.cmake
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/vicon_sdk/cmake/vicon_sdkConfig-version.cmake
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/vicon_sdk/package.xml
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/libViconDataStreamSDK_CPP.so
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/vicon_sdk
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/vicon_sdk/vicon_client.h
-
--- Up-to-date: /home/administrator/ci/ci/team/workspace/install/include/vicon_sdk/vicon_client.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/vicon_capture.pc
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/vicon_capture/cmake/vicon_captureConfig.cmake
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/vicon_capture/cmake/vicon_captureConfig-version.cmake
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/vicon_capture/package.xml
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/detect_red_ribbon/package.xml
 
 Base path: /home/administrator/ci/ci/team/workspace
 
