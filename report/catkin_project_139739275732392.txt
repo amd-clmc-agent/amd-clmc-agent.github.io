@@ -24,183 +24,157 @@
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- ~~  traversing 14 packages in topological order:
+-- ~~  traversing 8 packages in topological order:
 
--- ~~  - imu_core
+-- ~~  - fl
 
--- ~~  - ros_realtime (metapackage)
+-- ~~  - dbot
 
--- ~~  - allocators
+-- ~~  - launch_xtion
 
--- ~~  - rosatomic
+-- ~~  - object_meshes
 
--- ~~  - lockfree
+-- ~~  - dbot_ros_msgs
 
--- ~~  - rt_timer
+-- ~~  - dbot_ros
 
--- ~~  - amd_clmc_ros_messages
+-- ~~  - meshless_tracking
 
--- ~~  - ar_track_alvar_msgs
-
--- ~~  - custom_robot_msgs
-
--- ~~  - riemo_grasping_msgs
-
--- ~~  - xenomai_ros
-
--- ~~  - rosrt
-
--- ~~  - imu_ros_rt
-
--- ~~  - ros_rt_test
+-- ~~  - table_object_finder
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- +++ processing catkin package: 'imu_core'
+-- +++ processing catkin package: 'fl'
 
--- ==> add_subdirectory(catkin/sensors/imu-core)
+-- ==> add_subdirectory(catkin/core-perception/fl)
 
-CMake Error at catkin/sensors/imu-core/CMakeLists.txt:4 (include):
+-- Eigen found (include: /usr/include/eigen3)
 
-  include could not find load file:
+-- Boost version: 1.54.0
 
+-- +++ processing catkin package: 'dbot'
 
+-- ==> add_subdirectory(catkin/core-perception/dbot)
 
-    /home/administrator/ci/ci/team/workspace/src/cmake/sl_cmake_global/LAB.cmake
-
-
-
-
-
--- xenomai NOT found. (/usr/local;/usr)
-
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+-- Eigen found (include: /usr/include/eigen3)
 
 -- Boost version: 1.54.0
 
 -- Found the following Boost libraries:
 
---   thread
+--   system
 
--- +++ processing catkin metapackage: 'ros_realtime'
+--   filesystem
 
--- ==> add_subdirectory(catkin/ros/ros_realtime/ros_realtime)
+-- Found CUDA version 8.0
 
--- +++ processing catkin package: 'allocators'
+-- Using catkin
 
--- ==> add_subdirectory(catkin/ros/ros_realtime/allocators)
+-- +++ processing catkin package: 'launch_xtion'
 
--- Boost version: 1.54.0
+-- ==> add_subdirectory(catkin/ros/launch_xtion)
 
--- +++ processing catkin package: 'rosatomic'
+-- +++ processing catkin package: 'object_meshes'
 
--- ==> add_subdirectory(catkin/ros/ros_realtime/rosatomic)
+-- ==> add_subdirectory(catkin/ros/object_meshes)
 
--- Boost version: 1.54.0
+-- +++ processing catkin package: 'dbot_ros_msgs'
 
--- +++ processing catkin package: 'lockfree'
-
--- ==> add_subdirectory(catkin/ros/ros_realtime/lockfree)
-
--- Boost version: 1.54.0
-
--- +++ processing catkin package: 'rt_timer'
-
--- ==> add_subdirectory(catkin/ros/ros_realtime/rt_timer)
-
--- +++ processing catkin package: 'amd_clmc_ros_messages'
-
--- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/amd_clmc_ros_messages)
+-- ==> add_subdirectory(catkin/ros/dbot_ros_msgs)
 
 -- Using these message generators: gencpp;genlisp;genpy
 
--- amd_clmc_ros_messages: 108 messages, 10 services
+-- dbot_ros_msgs: 3 messages, 3 services
 
--- +++ processing catkin package: 'ar_track_alvar_msgs'
+-- +++ processing catkin package: 'dbot_ros'
 
--- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/ar_track_alvar_msgs)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- ar_track_alvar_msgs: 2 messages, 0 services
-
--- +++ processing catkin package: 'custom_robot_msgs'
-
--- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/custom_robot_msgs)
+-- ==> add_subdirectory(catkin/ros/dbot_ros)
 
 -- Using these message generators: gencpp;genlisp;genpy
-
--- custom_robot_msgs: 1 messages, 2 services
-
--- +++ processing catkin package: 'riemo_grasping_msgs'
-
--- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/riemo_grasping_msgs)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- riemo_grasping_msgs: 5 messages, 3 services
-
--- +++ processing catkin package: 'xenomai_ros'
-
--- ==> add_subdirectory(catkin/ros/xenomai-ros)
-
--- +++ processing catkin package: 'rosrt'
-
--- ==> add_subdirectory(catkin/ros/ros_realtime/rosrt)
-
--- xenomai NOT found. (/usr/local;/usr)
-
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
 
 -- Boost version: 1.54.0
 
--- Found the following Boost libraries:
+-- Eigen found (include: /usr/include/eigen3)
 
---   thread
+-- +++ processing catkin package: 'meshless_tracking'
 
--- +++ processing catkin package: 'imu_ros_rt'
+-- ==> add_subdirectory(catkin/core-perception/meshless_tracking)
 
--- ==> add_subdirectory(catkin/sensors/imu-ros-rt)
+CMake Warning at catkin/core-perception/meshless_tracking/CMakeLists.txt:41 (find_package):
 
-CMake Error at catkin/sensors/imu-ros-rt/CMakeLists.txt:4 (include):
+  By not providing "FindVXL.cmake" in CMAKE_MODULE_PATH this project has
 
-  include could not find load file:
+  asked CMake to find a package configuration file provided by "VXL", but
 
-
-
-    /home/administrator/ci/ci/team/workspace/src/cmake/sl_cmake_global/LAB.cmake
+  CMake did not find one.
 
 
 
+  Could not find a package configuration file provided by "VXL" with any of
+
+  the following names:
 
 
--- xenomai NOT found. (/usr/local;/usr)
 
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+    VXLConfig.cmake
 
--- Boost version: 1.54.0
+    vxl-config.cmake
 
--- Found the following Boost libraries:
 
---   thread
 
-CMake Error at catkin/sensors/imu-ros-rt/CMakeLists.txt:41 (install):
+  Add the installation prefix of "VXL" to CMAKE_PREFIX_PATH or set "VXL_DIR"
 
-  install TARGETS given target "imu_demo" which does not exist in this
+  to a directory containing one of the above files.  If "VXL" provides a
 
-  directory.
+  separate development package or SDK, be sure it has been installed.
 
 
 
 
 
--- +++ processing catkin package: 'ros_rt_test'
+CMake Warning at catkin/core-perception/meshless_tracking/CMakeLists.txt:46 (message):
 
--- ==> add_subdirectory(catkin/ros/ros_rt_basic_example)
+  VXL_DIR should be set to the VXL build directory.
 
--- xenomai NOT found. (/usr/local;/usr)
 
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+
+
+
+-- ~~ VXL_DIR is VXL_DIR-NOTFOUND
+
+-- ~~ VXL_SOURCE_DIR is 
+
+-- ~~ VXL_LIBRARY_DIR is 
+
+-- ~~ VXL_INCLUDE_DIR is 
+
+CMake Error at /home/administrator/ci/ci/team/workspace/devel/share/catkin/cmake/catkinConfig.cmake:75 (find_package):
+
+  Could not find a package configuration file provided by "opi" with any of
+
+  the following names:
+
+
+
+    opiConfig.cmake
+
+    opi-config.cmake
+
+
+
+  Add the installation prefix of "opi" to CMAKE_PREFIX_PATH or set "opi_DIR"
+
+  to a directory containing one of the above files.  If "opi" provides a
+
+  separate development package or SDK, be sure it has been installed.
+
+Call Stack (most recent call first):
+
+  catkin/core-perception/meshless_tracking/CMakeLists.txt:65 (find_package)
+
+
+
+
 
 -- Configuring incomplete, errors occurred!
 
