@@ -1,4 +1,22 @@
-WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
+-- The C compiler identification is GNU 4.8.4
+
+-- The CXX compiler identification is GNU 4.8.4
+
+-- Check for working C compiler: /usr/bin/cc
+
+-- Check for working C compiler: /usr/bin/cc -- works
+
+-- Detecting C compiler ABI info
+
+-- Detecting C compiler ABI info - done
+
+-- Check for working CXX compiler: /usr/bin/c++
+
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+
+-- Detecting CXX compiler ABI info
+
+-- Detecting CXX compiler ABI info - done
 
 -- Using CATKIN_DEVEL_PREFIX: /home/administrator/ci/ci/team/workspace/devel
 
@@ -6,11 +24,13 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 
 -- This workspace overlays: /opt/ros/indigo
 
+-- Found PythonInterp: /usr/bin/python (found version "2.7.6") 
+
 -- Using PYTHON_EXECUTABLE: /usr/bin/python
 
--- Python version: 2.7
-
 -- Using Debian Python package layout
+
+-- Using empy: /usr/bin/empy
 
 -- Using CATKIN_ENABLE_TESTING: ON
 
@@ -18,511 +38,175 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 
 -- Using CATKIN_TEST_RESULTS_DIR: /home/administrator/ci/ci/team/workspace/build/test_results
 
+-- Looking for include file pthread.h
+
+-- Looking for include file pthread.h - found
+
+-- Looking for pthread_create
+
+-- Looking for pthread_create - not found
+
+-- Looking for pthread_create in pthreads
+
+-- Looking for pthread_create in pthreads - not found
+
+-- Looking for pthread_create in pthread
+
+-- Looking for pthread_create in pthread - found
+
+-- Found Threads: TRUE  
+
 -- Found gtest sources under '/usr/src/gtest': gtests will be built
 
--- catkin 0.5.90
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+
+-- catkin 0.6.19
 
 -- BUILD_SHARED_LIBS is on
 
-WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-- ~~  traversing 2 packages in topological order:
+
+-- ~~  - robot_state_pub
+
+-- ~~  - arm_robot_model
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- ~~  traversing 82 packages in topological order:
+-- +++ processing catkin package: 'robot_state_pub'
 
--- ~~  - Eigen
-
--- ~~  - movement_generation_data
-
--- ~~  - nmpc_multicontact_python
-
--- ~~  - py_cpp_interface
-
--- ~~  - rbdl
-
--- ~~  - robot_properties
-
--- ~~  - robot_properties_athena
-
--- ~~  - robot_properties_hermes_full
-
--- ~~  - robot_properties_hermes_lower
-
--- ~~  - robot_properties_hopper
-
--- ~~  - ros_realtime (metapackage)
-
--- ~~  - allocators
-
--- ~~  - rosatomic
-
--- ~~  - lockfree
-
--- ~~  - rt_timer
-
--- ~~  - sl_config
-
--- ~~  - snopt_cpp
-
--- ~~  - testing_tools
-
--- ~~  - utilities
-
--- ~~  - lwpr
-
--- ~~  - xenomai_ros
-
--- ~~  - ati_ft_sensor
-
--- ~~  - rosrt
-
--- ~~  - ros_rt_test
-
--- ~~  - sl
-
--- ~~  - optoforce_sensor
-
--- ~~  - vicon_bridge
-
--- ~~  - yaml_cpp
-
--- ~~  - hermes_communication_tools
-
--- ~~  - hermes_core
-
--- ~~  - athena
-
--- ~~  - hermes_full
-
--- ~~  - hermes_lower
-
--- ~~  - robot_math
-
--- ~~  - io_tools
-
--- ~~  - capture_points
-
--- ~~  - floating_base_tools_athena
-
--- ~~  - floating_base_tools_hermes_full
-
--- ~~  - floating_base_tools_hermes_lower
-
--- ~~  - floating_base_tools_hopper
-
--- ~~  - io_tools_sl
-
--- ~~  - floating_base_tools_sl_athena
-
--- ~~  - biped_locomotion_athena
-
--- ~~  - capture_points_athena
-
--- ~~  - floating_base_tools_sl_hermes_full
-
--- ~~  - biped_locomotion_hermes_full
-
--- ~~  - floating_base_tools_sl_hermes_lower
-
--- ~~  - biped_locomotion_hermes_lower
-
--- ~~  - capture_points_hermes_lower
-
--- ~~  - footsteps_planner_miqcqp
-
--- ~~  - footsteps_planner_miqcqp_sl
-
--- ~~  - lqr_hermes_lower
-
--- ~~  - rigid_body_dynamics
-
--- ~~  - testing_tests
-
--- ~~  - vicon_kinematics_athena
-
--- ~~  - vicon_kinematics_hermes_full
-
--- ~~  - vicon_kinematics_hermes_lower
-
--- ~~  - visualization_tools_athena
-
--- ~~  - filtering_tools_athena
-
--- ~~  - filtering_tools_sl_athena
-
--- ~~  - humanoid_tests_athena
-
--- ~~  - vicon_kinematics_sl_athena
-
--- ~~  - visualization_tools_hermes_full
-
--- ~~  - filtering_tools_hermes_full
-
--- ~~  - filtering_tools_sl_hermes_full
-
--- ~~  - vicon_kinematics_sl_hermes_full
-
--- ~~  - visualization_tools_hermes_lower
-
--- ~~  - filtering_tools_hermes_lower
-
--- ~~  - filtering_tools_sl_hermes_lower
-
--- ~~  - humanoid_tests_hermes_lower
-
--- ~~  - vicon_kinematics_sl_hermes_lower
-
--- ~~  - walking_tools_athena
-
--- ~~  - example_tasks_athena
-
--- ~~  - athena_user
-
--- ~~  - julia_sl_interface_athena
-
--- ~~  - walking_tools_hermes_full
-
--- ~~  - example_tasks_hermes_full
-
--- ~~  - hermes_full_user
-
--- ~~  - walking_tools_hermes_lower
-
--- ~~  - example_tasks_hermes_lower
-
--- ~~  - julia_sl_interface_hermes_lower
-
--- ~~  - hermes_lower_user
-
--- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
--- +++ processing catkin package: 'Eigen'
-
--- ==> add_subdirectory(catkin/third_party/Eigen)
-
-WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
-
--- +++ processing catkin package: 'movement_generation_data'
-
--- ==> add_subdirectory(catkin/humanoids/movement_generation_data)
-
--- +++ processing catkin package: 'nmpc_multicontact_python'
-
--- ==> add_subdirectory(catkin/humanoids/nmpc_multicontact/nmpc_multicontact_python)
-
--- +++ processing catkin package: 'py_cpp_interface'
-
--- ==> add_subdirectory(catkin/humanoids/humanoid_control/py_cpp_interface)
-
--- Boost version: 1.54.0
-
--- Found the following Boost libraries:
-
---   system
-
---   thread
-
---   python
-
--- PYTHON_BIN_LOCATION: /usr/bin/python
-
-
-
--- +++ processing catkin package: 'rbdl'
-
--- ==> add_subdirectory(catkin/third_party/rbdl)
-
--- ROS found: /opt/ros/indigo/share/ros
-
--- +++ processing catkin package: 'robot_properties'
-
--- ==> add_subdirectory(catkin/humanoids/humanoid_control/robot_properties/robot_properties)
-
--- +++ processing catkin package: 'robot_properties_athena'
-
--- ==> add_subdirectory(catkin/humanoids/humanoid_control/robot_properties/robot_properties_athena)
-
--- +++ processing catkin package: 'robot_properties_hermes_full'
-
--- ==> add_subdirectory(catkin/humanoids/humanoid_control/robot_properties/robot_properties_hermes_full)
-
--- +++ processing catkin package: 'robot_properties_hermes_lower'
-
--- ==> add_subdirectory(catkin/humanoids/humanoid_control/robot_properties/robot_properties_hermes_lower)
-
--- +++ processing catkin package: 'robot_properties_hopper'
-
--- ==> add_subdirectory(catkin/humanoids/humanoid_control/robot_properties/robot_properties_hopper)
-
--- +++ processing catkin metapackage: 'ros_realtime'
-
--- ==> add_subdirectory(catkin/ros/ros_realtime/ros_realtime)
-
--- +++ processing catkin package: 'allocators'
-
--- ==> add_subdirectory(catkin/ros/ros_realtime/allocators)
-
--- Boost version: 1.54.0
-
--- +++ processing catkin package: 'rosatomic'
-
--- ==> add_subdirectory(catkin/ros/ros_realtime/rosatomic)
-
--- Boost version: 1.54.0
-
--- +++ processing catkin package: 'lockfree'
-
--- ==> add_subdirectory(catkin/ros/ros_realtime/lockfree)
-
--- Boost version: 1.54.0
-
--- +++ processing catkin package: 'rt_timer'
-
--- ==> add_subdirectory(catkin/ros/ros_realtime/rt_timer)
-
--- +++ processing catkin package: 'sl_config'
-
--- ==> add_subdirectory(catkin/core-sl/sl_config)
-
--- +++ processing catkin package: 'snopt_cpp'
-
--- ==> add_subdirectory(catkin/third_party/snopt_cpp)
-
--- +++ processing catkin package: 'testing_tools'
-
--- ==> add_subdirectory(catkin/humanoids/humanoid_control/test_utilities/testing_tools)
-
--- +++ processing catkin package: 'utilities'
-
--- ==> add_subdirectory(catkin/core-sl/locomotion-utilities)
-
--- +++ processing catkin package: 'lwpr'
-
--- ==> add_subdirectory(catkin/core-sl/locomotion-lwpr)
-
--- +++ processing catkin package: 'xenomai_ros'
-
--- ==> add_subdirectory(catkin/ros/xenomai-ros)
-
--- +++ processing catkin package: 'ati_ft_sensor'
-
--- ==> add_subdirectory(catkin/humanoids/humanoid_hardware/ati_ft_sensor)
-
--- xenomai NOT found. (/usr/local;/usr)
-
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
-
--- Boost version: 1.54.0
-
--- Found the following Boost libraries:
-
---   system
-
---   filesystem
-
---   thread
-
--- +++ processing catkin package: 'rosrt'
-
--- ==> add_subdirectory(catkin/ros/ros_realtime/rosrt)
-
--- xenomai NOT found. (/usr/local;/usr)
-
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
-
--- Boost version: 1.54.0
-
--- Found the following Boost libraries:
-
---   thread
-
--- +++ processing catkin package: 'ros_rt_test'
-
--- ==> add_subdirectory(catkin/ros/ros_rt_basic_example)
-
--- xenomai NOT found. (/usr/local;/usr)
-
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
-
--- +++ processing catkin package: 'sl'
-
--- ==> add_subdirectory(catkin/core-sl/locomotion-sl)
-
--- Found libedit: /usr/lib/x86_64-linux-gnu/libedit.so
-
--- GLUT_LIBRARIES=/usr/lib/x86_64-linux-gnu/libglut.so;/usr/lib/x86_64-linux-gnu/libXmu.so;/usr/lib/x86_64-linux-gnu/libXi.so
-
--- GLUT_INCLUDE_DIR=/usr/include
-
--- GLUT_FOUND: TRUE
-
--- Libedit_INCLUDE_DIRS=/usr/include
-
--- Libedit_LIBRARIES=/usr/lib/x86_64-linux-gnu/libedit.so
-
--- xenomai NOT found. (/usr/local;/usr)
-
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
-
--- SLros dependencies found; compiling ROS servo.
-
--- +++ processing catkin package: 'optoforce_sensor'
-
--- ==> add_subdirectory(catkin/humanoids/humanoid_hardware/optoforceSensorLib)
-
--- xenomai NOT found. (/usr/local;/usr)
-
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
-
--- Boost version: 1.54.0
-
--- Found the following Boost libraries:
-
---   system
-
---   filesystem
-
---   thread
-
--- +++ processing catkin package: 'vicon_bridge'
-
--- ==> add_subdirectory(catkin/perception/vicon_bridge)
+-- ==> add_subdirectory(catkin/ros/robot_state_pub)
 
 -- Using these message generators: gencpp;genlisp;genpy
 
--- Boost version: 1.54.0
+-- +++ processing catkin package: 'arm_robot_model'
 
--- Found the following Boost libraries:
+-- ==> add_subdirectory(catkin/robots/arm_robot_model)
 
---   thread
+-- Configuring done
 
--- vicon_bridge: 3 messages, 2 services
+-- Generating done
 
--- +++ processing catkin package: 'yaml_cpp'
+-- Build files have been written to: /home/administrator/ci/ci/team/workspace/build
 
--- ==> add_subdirectory(catkin/third_party/YAML_CPP)
+Scanning dependencies of target robot_state_pub_solver
 
--- Boost version: 1.54.0
+[ 25%] [ 50%] Building CXX object catkin/ros/robot_state_pub/CMakeFiles/robot_state_pub_solver.dir/src/robot_state_publisher.cpp.o
 
--- +++ processing catkin package: 'hermes_communication_tools'
+Building CXX object catkin/ros/robot_state_pub/CMakeFiles/robot_state_pub_solver.dir/src/treefksolverposfull_recursive.cpp.o
 
--- ==> add_subdirectory(catkin/humanoids/humanoid_hardware/cb_communication)
+Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/librobot_state_pub_solver.so
 
--- xenomai NOT found. (/usr/local;/usr)
+[ 50%] Built target robot_state_pub_solver
 
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+Scanning dependencies of target robot_state_pub
 
--- Boost version: 1.54.0
+Scanning dependencies of target state_publisher
 
--- Found the following Boost libraries:
+[ 75%] [100%] Building CXX object catkin/ros/robot_state_pub/CMakeFiles/state_publisher.dir/src/joint_state_listener.cpp.o
 
---   system
+Building CXX object catkin/ros/robot_state_pub/CMakeFiles/robot_state_pub.dir/src/joint_state_listener.cpp.o
 
---   filesystem
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/robot_state_pub/state_publisher
 
---   thread
+[100%] Built target state_publisher
 
--- Using these message generators: gencpp;genlisp;genpy
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/robot_state_pub/robot_state_pub
 
-found ROS building ros publishers
+[100%] Built target robot_state_pub
 
--- hermes_communication_tools: 2 messages, 0 services
+Install the project...
 
--- +++ processing catkin package: 'hermes_core'
+-- Install configuration: ""
 
--- ==> add_subdirectory(catkin/robots/hermesCore)
+-- Installing: /home/administrator/ci/ci/team/workspace/install/_setup_util.py
 
--- +++ processing catkin package: 'athena'
+-- Installing: /home/administrator/ci/ci/team/workspace/install/env.sh
 
--- ==> add_subdirectory(catkin/robots/athena)
+-- Installing: /home/administrator/ci/ci/team/workspace/install/setup.bash
 
--- Boost version: 1.54.0
+-- Installing: /home/administrator/ci/ci/team/workspace/install/setup.sh
 
--- Found the following Boost libraries:
+-- Installing: /home/administrator/ci/ci/team/workspace/install/setup.zsh
 
---   thread
+-- Installing: /home/administrator/ci/ci/team/workspace/install/.rosinstall
 
---   system
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/robot_state_pub.pc
 
--- xenomai NOT found. (/usr/local;/usr)
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/robot_state_pub/cmake/robot_state_pubConfig.cmake
 
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/robot_state_pub/cmake/robot_state_pubConfig-version.cmake
 
--- athena: compiling on everest; simulation only.
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/robot_state_pub/package.xml
 
--- +++ processing catkin package: 'hermes_full'
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/librobot_state_pub_solver.so
 
--- ==> add_subdirectory(catkin/robots/hermesFull)
+-- Removed runtime path from "/home/administrator/ci/ci/team/workspace/install/lib/librobot_state_pub_solver.so"
 
--- Boost version: 1.54.0
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/robot_state_pub/robot_state_pub
 
--- Found the following Boost libraries:
+-- Removed runtime path from "/home/administrator/ci/ci/team/workspace/install/lib/robot_state_pub/robot_state_pub"
 
---   thread
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/robot_state_pub/state_publisher
 
---   system
+-- Removed runtime path from "/home/administrator/ci/ci/team/workspace/install/lib/robot_state_pub/state_publisher"
 
--- xenomai NOT found. (/usr/local;/usr)
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/robot_state_pub
 
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/robot_state_pub/joint_state_listener.h
 
--- hermes_full: compiling on everest; simulation only.
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/robot_state_pub/robot_state_publisher.h
 
--- +++ processing catkin package: 'hermes_lower'
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/robot_state_pub/treefksolverposfull_recursive.hpp
 
--- ==> add_subdirectory(catkin/robots/hermesLower)
++ cd /home/administrator/ci/ci/team/workspace/src/catkin/robots/arm_robot_model
 
--- Boost version: 1.54.0
++ mkdir -p /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages
 
--- Found the following Boost libraries:
++ /usr/bin/env PYTHONPATH=/home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages:/home/administrator/ci/ci/team/workspace/build/lib/python2.7/dist-packages:/opt/ros/indigo/lib/python2.7/dist-packages CATKIN_BINARY_DIR=/home/administrator/ci/ci/team/workspace/build /usr/bin/python /home/administrator/ci/ci/team/workspace/src/catkin/robots/arm_robot_model/setup.py build --build-base /home/administrator/ci/ci/team/workspace/build/catkin/robots/arm_robot_model install --install-layout=deb --prefix=/home/administrator/ci/ci/team/workspace/install --install-scripts=/home/administrator/ci/ci/team/workspace/install/bin
 
---   thread
+running build
 
---   system
+running build_py
 
--- xenomai NOT found. (/usr/local;/usr)
+creating /home/administrator/ci/ci/team/workspace/build/catkin/robots/arm_robot_model/lib.linux-x86_64-2.7
 
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+creating /home/administrator/ci/ci/team/workspace/build/catkin/robots/arm_robot_model/lib.linux-x86_64-2.7/arm_robot_model
 
--- hermes_lower: compiling on everest; simulation only.
+copying src/arm_robot_model/__init__.py -> /home/administrator/ci/ci/team/workspace/build/catkin/robots/arm_robot_model/lib.linux-x86_64-2.7/arm_robot_model
 
--- +++ processing catkin package: 'robot_math'
+running install
 
--- ==> add_subdirectory(catkin/humanoids/humanoid_control/robot_math)
+running install_lib
 
--- +++ processing catkin package: 'io_tools'
+creating /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/arm_robot_model
 
--- ==> add_subdirectory(catkin/humanoids/humanoid_control/io_tools)
+copying /home/administrator/ci/ci/team/workspace/build/catkin/robots/arm_robot_model/lib.linux-x86_64-2.7/arm_robot_model/__init__.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/arm_robot_model
 
--- +++ processing catkin package: 'capture_points'
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/arm_robot_model/__init__.py to __init__.pyc
 
--- ==> add_subdirectory(catkin/humanoids/humanoid_control/capture_points/capture_points)
+running install_egg_info
 
-CMake Error at /home/administrator/ci/ci/team/workspace/devel/share/io_tools/cmake/io_toolsConfig.cmake:141 (message):
+Writing /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/arm_robot_model-0.0.0.egg-info
 
-  Project 'capture_points' tried to find library
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/arm_robot_model.pc
 
-  'configuration_file_loading'.  The library is neither a target nor
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/arm_robot_model/cmake/arm_robot_modelConfig.cmake
 
-  built/installed properly.  Did you compile project 'io_tools'? Did you
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/arm_robot_model/cmake/arm_robot_modelConfig-version.cmake
 
-  find_package() it before the subdirectory containing its code is included?
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/arm_robot_model/package.xml
 
-Call Stack (most recent call first):
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/arm_robot_model/check_urdf
 
-  /home/administrator/ci/ci/team/workspace/devel/share/catkin/cmake/catkinConfig.cmake:75 (find_package)
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/arm_robot_model/check_urdf_visual
 
-  catkin/humanoids/humanoid_control/capture_points/capture_points/CMakeLists.txt:3 (find_package)
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/arm_robot_model/generate_openrave_ik
 
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/arm_robot_model/publish_xtion_frames
 
-
-
-
--- Configuring incomplete, errors occurred!
-
-See also "/home/administrator/ci/ci/team/workspace/build/CMakeFiles/CMakeOutput.log".
-
-See also "/home/administrator/ci/ci/team/workspace/build/CMakeFiles/CMakeError.log".
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/arm_robot_model/urdf_to_collada
 
 Base path: /home/administrator/ci/ci/team/workspace
 
@@ -534,10 +218,16 @@ Devel space: /home/administrator/ci/ci/team/workspace/devel
 
 Install space: /home/administrator/ci/ci/team/workspace/install
 
+Creating symlink "/home/administrator/ci/ci/team/workspace/src/CMakeLists.txt" pointing to "/opt/ros/indigo/share/catkin/cmake/toplevel.cmake"
+
 ####
 
 #### Running command: "cmake /home/administrator/ci/ci/team/workspace/src -DCATKIN_DEVEL_PREFIX=/home/administrator/ci/ci/team/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/administrator/ci/ci/team/workspace/install -G Unix Makefiles" in "/home/administrator/ci/ci/team/workspace/build"
 
 ####
 
-Invoking "cmake" failed
+####
+
+#### Running command: "make -j16 install" in "/home/administrator/ci/ci/team/workspace/build"
+
+####
