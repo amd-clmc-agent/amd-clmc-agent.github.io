@@ -14,29 +14,35 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 
 [  3%] Built target dmp
 
+Scanning dependencies of target test_dmp
+
+[  3%] Building CXX object catkin/learning/dmp/CMakeFiles/test_dmp.dir/src/test_dmp.cpp.o
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/dmp/test_dmp
+
 [  3%] Built target test_dmp
 
 [  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_AccelerationFeedbackExperimentStatus
+
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ResetBreakaway
+
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_BoundingPoints
 
 [  3%] Built target geometry_msgs_generate_messages_py
 
 [  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibratePressureSensorsStatus
 
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineLearningControl
+
 [  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerDataStatus
 
-[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_BoundingPoints
-
-[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ResetBreakaway
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Goto_command
 
 [  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_NavigationTarget
-
-[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineLearningControl
 
 [  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PolicyControllerParamsService
 
 [  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SwitchControllerStack
-
-[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Goto_command
 
 [  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_RtNetwork
 
@@ -254,59 +260,59 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 
 [ 48%] Built target amd_clmc_ros_messages_generate_messages
 
-[ 48%] Built target _ar_track_alvar_msgs_generate_messages_check_deps_AlvarMarker
-
-[ 48%] Built target std_msgs_generate_messages_cpp
-
 [ 48%] Built target _ar_track_alvar_msgs_generate_messages_check_deps_AlvarMarkers
-
-[ 48%] Built target ar_track_alvar_msgs_generate_messages_cpp
-
-[ 48%] Built target std_msgs_generate_messages_lisp
-
-[ 48%] Built target ar_track_alvar_msgs_generate_messages_lisp
 
 [ 48%] Built target std_msgs_generate_messages_py
 
+[ 48%] Built target _ar_track_alvar_msgs_generate_messages_check_deps_AlvarMarker
+
 [ 49%] Built target ar_track_alvar_msgs_generate_messages_py
+
+[ 49%] Built target std_msgs_generate_messages_lisp
+
+[ 49%] Built target ar_track_alvar_msgs_generate_messages_lisp
+
+[ 49%] Built target std_msgs_generate_messages_cpp
+
+[ 49%] Built target ar_track_alvar_msgs_generate_messages_cpp
 
 [ 49%] Built target ar_track_alvar_msgs_generate_messages
 
-[ 49%] Built target _custom_robot_msgs_generate_messages_check_deps_PredictAssembly
-
 [ 49%] Built target _custom_robot_msgs_generate_messages_check_deps_assembly_phase
+
+[ 49%] Built target _custom_robot_msgs_generate_messages_check_deps_PredictAssembly
 
 [ 49%] Built target _custom_robot_msgs_generate_messages_check_deps_PolicyInterface
 
-[ 50%] Built target custom_robot_msgs_generate_messages_py
+[ 50%] Built target custom_robot_msgs_generate_messages_cpp
 
-[ 51%] Built target custom_robot_msgs_generate_messages_cpp
+[ 50%] Built target custom_robot_msgs_generate_messages_lisp
 
-[ 51%] Built target custom_robot_msgs_generate_messages_lisp
+[ 51%] Built target custom_robot_msgs_generate_messages_py
 
 [ 51%] Built target custom_robot_msgs_generate_messages
+
+[ 51%] Built target _riemo_grasping_msgs_generate_messages_check_deps_UpdateGraspProblem
 
 [ 51%] Built target _riemo_grasping_msgs_generate_messages_check_deps_GraspPose
 
 [ 51%] Built target _riemo_grasping_msgs_generate_messages_check_deps_RenderGraspProblemService
 
-[ 51%] Built target _riemo_grasping_msgs_generate_messages_check_deps_MpiGraspPoses
-
 [ 51%] Built target _riemo_grasping_msgs_generate_messages_check_deps_GraspableObject
-
-[ 51%] Built target _riemo_grasping_msgs_generate_messages_check_deps_Preshape
-
-[ 51%] Built target _riemo_grasping_msgs_generate_messages_check_deps_GraspProblemInfo
 
 [ 51%] Built target _riemo_grasping_msgs_generate_messages_check_deps_LatestGraspProblemInfo
 
-[ 51%] Built target _riemo_grasping_msgs_generate_messages_check_deps_UpdateGraspProblem
+[ 51%] Built target _riemo_grasping_msgs_generate_messages_check_deps_GraspProblemInfo
 
-[ 52%] Built target riemo_grasping_msgs_generate_messages_lisp
+[ 51%] Built target _riemo_grasping_msgs_generate_messages_check_deps_MpiGraspPoses
 
-[ 54%] Built target riemo_grasping_msgs_generate_messages_cpp
+[ 51%] Built target _riemo_grasping_msgs_generate_messages_check_deps_Preshape
 
-[ 55%] Built target riemo_grasping_msgs_generate_messages_py
+[ 52%] Built target riemo_grasping_msgs_generate_messages_py
+
+[ 53%] Built target riemo_grasping_msgs_generate_messages_lisp
+
+[ 55%] Built target riemo_grasping_msgs_generate_messages_cpp
 
 [ 55%] Built target riemo_grasping_msgs_generate_messages
 
@@ -342,6 +348,12 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 
 [ 61%] Built target ros_rt_test_publisher
 
+Scanning dependencies of target ros_rt_test_subscriber
+
+[ 61%] Building CXX object catkin/ros/ros_rt_basic_example/CMakeFiles/ros_rt_test_subscriber.dir/src/ros_rt_test_subscriber.cpp.o
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/ros_rt_test/ros_rt_test_subscriber
+
 [ 61%] Built target ros_rt_test_subscriber
 
 [ 62%] Built target SLcommon
@@ -374,7 +386,7 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 
 [ 73%] Built target sl_ros_servo
 
-[ 73%] Built target topic_tools_generate_messages_cpp
+[ 73%] Built target topic_tools_generate_messages_lisp
 
 [ 73%] Built target roscpp_generate_messages_cpp
 
@@ -390,39 +402,87 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 
 [ 73%] Built target topic_tools_generate_messages_py
 
-[ 73%] Built target topic_tools_generate_messages_lisp
+[ 73%] Built target topic_tools_generate_messages_cpp
+
+Scanning dependencies of target learning_control
+
+[ 73%] Building CXX object catkin/learning/learning_control/CMakeFiles/learning_control.dir/src/gp.cpp.o
+
+[ 73%] Building CXX object catkin/learning/learning_control/CMakeFiles/learning_control.dir/src/gp_params.cpp.o
+
+[ 73%] Building CXX object catkin/learning/learning_control/CMakeFiles/learning_control.dir/src/nrt_gp.cpp.o
+
+[ 73%] Building CXX object catkin/learning/learning_control/CMakeFiles/learning_control.dir/src/rt_gp_predict.cpp.o
+
+[ 73%] Building CXX object catkin/learning/learning_control/CMakeFiles/learning_control.dir/src/nrt_gp_thread.cpp.o
+
+[ 74%] Building CXX object catkin/learning/learning_control/CMakeFiles/learning_control.dir/src/rt_network.cpp.o
+
+Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/liblearning_control.so
 
 [ 74%] Built target learning_control
 
-[ 74%] Built target actionlib_generate_messages_lisp
-
-[ 74%] Built target sensor_msgs_generate_messages_lisp
-
-[ 74%] Built target actionlib_msgs_generate_messages_cpp
-
-[ 74%] Built target tf2_msgs_generate_messages_lisp
-
-[ 74%] Built target actionlib_msgs_generate_messages_py
-
-[ 74%] Built target sensor_msgs_generate_messages_py
-
-[ 74%] Built target sensor_msgs_generate_messages_cpp
+[ 74%] Built target tf2_msgs_generate_messages_cpp
 
 [ 74%] Built target actionlib_msgs_generate_messages_lisp
 
-[ 74%] Built target tf_generate_messages_py
+[ 74%] Built target sensor_msgs_generate_messages_lisp
+
+[ 74%] Built target sensor_msgs_generate_messages_cpp
+
+[ 74%] Built target actionlib_msgs_generate_messages_py
+
+[ 74%] Built target tf2_msgs_generate_messages_py
+
+[ 74%] Built target actionlib_msgs_generate_messages_cpp
+
+[ 74%] Built target sensor_msgs_generate_messages_py
 
 [ 74%] Built target tf_generate_messages_cpp
 
 [ 74%] Built target tf_generate_messages_lisp
 
-[ 74%] Built target tf2_msgs_generate_messages_cpp
+[ 74%] Built target tf_generate_messages_py
+
+[ 74%] Built target actionlib_generate_messages_lisp
+
+[ 74%] Built target tf2_msgs_generate_messages_lisp
 
 [ 74%] Built target actionlib_generate_messages_cpp
 
-[ 74%] Built target tf2_msgs_generate_messages_py
-
 [ 74%] Built target actionlib_generate_messages_py
+
+Scanning dependencies of target sl_utilities
+
+[ 74%] Building CXX object catkin/controller_manager/core-sl-ros/sl_utilities/CMakeFiles/sl_utilities.dir/src/frame_utilities.cpp.o
+
+[ 74%] Building CXX object catkin/controller_manager/core-sl-ros/sl_utilities/CMakeFiles/sl_utilities.dir/src/gain_utilities.cpp.o
+
+[ 74%] Building CXX object catkin/controller_manager/core-sl-ros/sl_utilities/CMakeFiles/sl_utilities.dir/src/jacobian_utilities.cpp.o
+
+/home/administrator/ci/ci/team/workspace/src/catkin/controller_manager/core-sl-ros/sl_utilities/src/jacobian_utilities.cpp: In function ‘bool sl_utilities::jacComputePInvDirect(Matrix, int, int, sl_utilities::jacOptions&, sl_utilities::jacState&, Matrix, Matrix)’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/controller_manager/core-sl-ros/sl_utilities/src/jacobian_utilities.cpp:64:25: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+
+     print_mat("JJT", JJT);
+
+                         ^
+
+[ 74%] Building CXX object catkin/controller_manager/core-sl-ros/sl_utilities/CMakeFiles/sl_utilities.dir/src/joint_name_map.cpp.o
+
+[ 74%] Building CXX object catkin/controller_manager/core-sl-ros/sl_utilities/CMakeFiles/sl_utilities.dir/src/math_utilities.cpp.o
+
+[ 75%] Building CXX object catkin/controller_manager/core-sl-ros/sl_utilities/CMakeFiles/sl_utilities.dir/src/quaternions.cpp.o
+
+[ 75%] Building CXX object catkin/controller_manager/core-sl-ros/sl_utilities/CMakeFiles/sl_utilities.dir/src/ros_data_converters.cpp.o
+
+[ 75%] Building CXX object catkin/controller_manager/core-sl-ros/sl_utilities/CMakeFiles/sl_utilities.dir/src/sl_ros_marker_visualizer.cpp.o
+
+[ 75%] Building CXX object catkin/controller_manager/core-sl-ros/sl_utilities/CMakeFiles/sl_utilities.dir/src/sl_ros_pose_visualizer.cpp.o
+
+[ 75%] Building CXX object catkin/controller_manager/core-sl-ros/sl_utilities/CMakeFiles/sl_utilities.dir/src/variable_name_map.cpp.o
+
+Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libsl_utilities.so
 
 [ 75%] Built target sl_utilities
 
@@ -652,13 +712,13 @@ Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/li
 
 [ 86%] Built target usc_utilities
 
+[ 86%] Built target visualization_msgs_generate_messages_py
+
+[ 86%] Built target usc_utilities_generate_messages_py
+
 [ 86%] Built target visualization_msgs_generate_messages_lisp
 
 [ 87%] Built target usc_utilities_generate_messages_lisp
-
-[ 87%] Built target visualization_msgs_generate_messages_py
-
-[ 87%] Built target usc_utilities_generate_messages_py
 
 [ 87%] Built target usc_utilities_generate_messages
 
