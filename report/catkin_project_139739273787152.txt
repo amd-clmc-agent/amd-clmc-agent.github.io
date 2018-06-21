@@ -1,4 +1,14 @@
 failed to compile unit tests:
+Base path: /home/administrator/ci/ci/team/workspace
+
+Source space: /home/administrator/ci/ci/team/workspace/src
+
+Build space: /home/administrator/ci/ci/team/workspace/build
+
+Devel space: /home/administrator/ci/ci/team/workspace/devel
+
+Install space: /home/administrator/ci/ci/team/workspace/install
+
 WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
 
 -- Using CATKIN_DEVEL_PREFIX: /home/administrator/ci/ci/team/workspace/devel
@@ -31,11 +41,13 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- ~~  traversing 89 packages in topological order:
+-- ~~  traversing 127 packages in topological order:
 
 -- ~~  - Eigen
 
 -- ~~  - amd_clmc_eigen
+
+-- ~~  - apollo_robot_model
 
 -- ~~  - baxter_common (metapackage)
 
@@ -47,11 +59,25 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 
 -- ~~  - catkin_glog
 
+-- ~~  - cdlbt
+
+-- ~~  - can_control_tools
+
+-- ~~  - controller_communication
+
 -- ~~  - conversions
+
+-- ~~  - dbrt_apollo
+
+-- ~~  - dbrt_arm
 
 -- ~~  - fl
 
 -- ~~  - dbot
+
+-- ~~  - interpolation
+
+-- ~~  - launch_xtion
 
 -- ~~  - lula_doc
 
@@ -67,7 +93,7 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 
 -- ~~  - lula_workspace
 
--- ~~  - mpi_system_baxter
+-- ~~  - mpi_system_apollo
 
 -- ~~  - mpi_system_data_bags
 
@@ -93,6 +119,14 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 
 -- ~~  - rt_timer
 
+-- ~~  - rt_utils
+
+-- ~~  - dmp
+
+-- ~~  - splines
+
+-- ~~  - start_robot
+
 -- ~~  - baxter_maintenance_msgs
 
 -- ~~  - amd_clmc_ros_messages
@@ -108,6 +142,10 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 -- ~~  - baxter_core_msgs
 
 -- ~~  - rieef_msgs
+
+-- ~~  - utilities
+
+-- ~~  - lwpr
 
 -- ~~  - vicon_sdk
 
@@ -135,9 +173,21 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 
 -- ~~  - ros_rt_test
 
+-- ~~  - sl
+
+-- ~~  - apollo
+
+-- ~~  - apollo_sl_interface
+
+-- ~~  - apollo_test_task
+
+-- ~~  - sl_ros_servo
+
 -- ~~  - baxter_interface
 
 -- ~~  - baxter_tools
+
+-- ~~  - learning_control
 
 -- ~~  - lula_baxter
 
@@ -153,17 +203,39 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 
 -- ~~  - python_ros_utils
 
+-- ~~  - sl_conversions
+
+-- ~~  - sl_utilities
+
+-- ~~  - sl_controller_manager
+
+-- ~~  - controller_manager_task_apollo
+
+-- ~~  - apollo_user
+
+-- ~~  - sl_barrett_controllers
+
+-- ~~  - sl_controllers
+
 -- ~~  - table_object_finder
 
 -- ~~  - lula_plugins_interface
 
+-- ~~  - arm_robot_model
+
+-- ~~  - dbrt
+
 -- ~~  - lula_kinematics
+
+-- ~~  - ros_servo_apollo
 
 -- ~~  - lula_visualization
 
 -- ~~  - lula_task
 
 -- ~~  - lula_apollo_internal
+
+-- ~~  - lula_apollo
 
 -- ~~  - lula_baxter_internal
 
@@ -184,6 +256,16 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 -- ~~  - robot_info
 
 -- ~~  - jacobian_utilities
+
+-- ~~  - sl_barrett_controller_interface
+
+-- ~~  - sl_controller_interface
+
+-- ~~  - head_look_at_behaviour
+
+-- ~~  - sl_controller_interface_test
+
+-- ~~  - strain_gauge_calibration
 
 -- ~~  - vicon_capture
 
@@ -211,6 +293,10 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 
 -- ~~  - baxter_examples
 
+-- ~~  - yaml_cpp
+
+-- ~~  - facial_expressions
+
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 -- +++ processing catkin package: 'Eigen'
@@ -222,6 +308,10 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 -- +++ processing catkin package: 'amd_clmc_eigen'
 
 -- ==> add_subdirectory(catkin/third_party/amd-clmc-eigen)
+
+-- +++ processing catkin package: 'apollo_robot_model'
+
+-- ==> add_subdirectory(catkin/robots/apollo_robot_model)
 
 -- +++ processing catkin metapackage: 'baxter_common'
 
@@ -247,9 +337,111 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 
 -- Found glog    (include: /usr/include, library: /usr/lib/x86_64-linux-gnu/libglog.so)
 
+-- +++ processing catkin package: 'cdlbt'
+
+-- ==> add_subdirectory(catkin/ros/barrett-ros/cdlbt)
+
+-- MACHTYPE x86_64
+
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+
+Call Stack (most recent call first):
+
+  catkin/ros/barrett-ros/cdlbt/CMakeLists.txt:8 (include)
+
+
+
+
+
+-- HOST_NAME=everest
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
+
+-- +++ processing catkin package: 'can_control_tools'
+
+-- ==> add_subdirectory(catkin/ros/barrett-ros/canControlTools)
+
+-- MACHTYPE x86_64
+
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+
+Call Stack (most recent call first):
+
+  catkin/ros/barrett-ros/canControlTools/CMakeLists.txt:8 (include)
+
+
+
+
+
+-- HOST_NAME=everest
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
+
+-- Boost version: 1.54.0
+
+-- Found the following Boost libraries:
+
+--   thread
+
+-- +++ processing catkin package: 'controller_communication'
+
+-- ==> add_subdirectory(catkin/controller_manager/controller_communication)
+
 -- +++ processing catkin package: 'conversions'
 
 -- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/usc_utils/conversions)
+
+-- +++ processing catkin package: 'dbrt_apollo'
+
+-- ==> add_subdirectory(catkin/ros/dbrt_apollo)
+
+-- +++ processing catkin package: 'dbrt_arm'
+
+-- ==> add_subdirectory(catkin/ros/dbrt_arm)
 
 -- +++ processing catkin package: 'fl'
 
@@ -276,6 +468,14 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 -- Found CUDA version 8.0
 
 -- Using catkin
+
+-- +++ processing catkin package: 'interpolation'
+
+-- ==> add_subdirectory(catkin/controller_manager/core-sl-ros/interpolation)
+
+-- +++ processing catkin package: 'launch_xtion'
+
+-- ==> add_subdirectory(catkin/ros/launch_xtion)
 
 -- +++ processing catkin package: 'lula_doc'
 
@@ -483,9 +683,9 @@ CMake Warning at catkin/lula/internal/lula_motion/CMakeLists.txt:193 (message):
 
 -- ==> add_subdirectory(catkin/lula/internal/lula_workspace)
 
--- +++ processing catkin package: 'mpi_system_baxter'
+-- +++ processing catkin package: 'mpi_system_apollo'
 
--- ==> add_subdirectory(catkin/mpi_system_baxter)
+-- ==> add_subdirectory(catkin/mpi_system_apollo)
 
 -- +++ processing catkin package: 'mpi_system_data_bags'
 
@@ -557,6 +757,22 @@ catkin_INCLUDE_DIRS : /opt/ros/indigo/include/usr/include
 
 -- ==> add_subdirectory(catkin/ros/ros_realtime/rt_timer)
 
+-- +++ processing catkin package: 'rt_utils'
+
+-- ==> add_subdirectory(catkin/rt_utils)
+
+-- +++ processing catkin package: 'dmp'
+
+-- ==> add_subdirectory(catkin/learning/dmp)
+
+-- +++ processing catkin package: 'splines'
+
+-- ==> add_subdirectory(catkin/controller_manager/core-sl-ros/splines)
+
+-- +++ processing catkin package: 'start_robot'
+
+-- ==> add_subdirectory(catkin/robots/start_robot)
+
 -- +++ processing catkin package: 'baxter_maintenance_msgs'
 
 -- ==> add_subdirectory(catkin/lula/third_party/baxter_common/baxter_maintenance_msgs)
@@ -620,6 +836,90 @@ catkin_INCLUDE_DIRS : /opt/ros/indigo/include/usr/include
 -- Using these message generators: gencpp;genlisp;genpy
 
 -- rieef_msgs: 4 messages, 3 services
+
+-- +++ processing catkin package: 'utilities'
+
+-- ==> add_subdirectory(catkin/core-sl/catkin-utilities)
+
+-- MACHTYPE x86_64
+
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+
+Call Stack (most recent call first):
+
+  catkin/core-sl/catkin-utilities/CMakeLists.txt:8 (include)
+
+
+
+
+
+-- HOST_NAME=everest
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
+
+-- +++ processing catkin package: 'lwpr'
+
+-- ==> add_subdirectory(catkin/core-sl/catkin-lwpr)
+
+-- MACHTYPE x86_64
+
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+
+Call Stack (most recent call first):
+
+  catkin/core-sl/catkin-lwpr/CMakeLists.txt:5 (include)
+
+
+
+
+
+-- HOST_NAME=everest
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
 
 -- +++ processing catkin package: 'vicon_sdk'
 
@@ -757,6 +1057,220 @@ CMake Warning at catkin/lula/internal/ros/lula_rt/CMakeLists.txt:131 (message):
 
 -- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
 
+-- +++ processing catkin package: 'sl'
+
+-- ==> add_subdirectory(catkin/core-sl/catkin-sl)
+
+-- MACHTYPE x86_64
+
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+
+Call Stack (most recent call first):
+
+  catkin/core-sl/catkin-sl/CMakeLists.txt:8 (include)
+
+
+
+
+
+-- HOST_NAME=everest
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
+
+-- +++ processing catkin package: 'apollo'
+
+-- ==> add_subdirectory(catkin/robots/catkin-apollo)
+
+-- MACHTYPE x86_64
+
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+
+Call Stack (most recent call first):
+
+  catkin/robots/catkin-apollo/CMakeLists.txt:9 (include)
+
+
+
+
+
+-- HOST_NAME=everest
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
+
+-- +++ processing catkin package: 'apollo_sl_interface'
+
+-- ==> add_subdirectory(catkin/robots/apollo-sl-interface)
+
+-- MACHTYPE x86_64
+
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+
+Call Stack (most recent call first):
+
+  catkin/robots/apollo-sl-interface/CMakeLists.txt:8 (include)
+
+
+
+
+
+-- HOST_NAME=everest
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
+
+-- xenomai NOT found. (/usr/local;/usr)
+
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+
+-- +++ processing catkin package: 'apollo_test_task'
+
+-- ==> add_subdirectory(catkin/robots/catkin-sl-apollo-task-example)
+
+-- MACHTYPE x86_64
+
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+
+Call Stack (most recent call first):
+
+  catkin/robots/catkin-sl-apollo-task-example/CMakeLists.txt:8 (include)
+
+
+
+
+
+-- HOST_NAME=everest
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
+
+-- +++ processing catkin package: 'sl_ros_servo'
+
+-- ==> add_subdirectory(catkin/ros/sl_ros_servo)
+
+-- MACHTYPE x86_64
+
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+
+Call Stack (most recent call first):
+
+  catkin/ros/sl_ros_servo/CMakeLists.txt:5 (include)
+
+
+
+
+
+-- HOST_NAME=everest
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
+
 -- +++ processing catkin package: 'baxter_interface'
 
 -- ==> add_subdirectory(catkin/lula/third_party/baxter_interface)
@@ -768,6 +1282,52 @@ CMake Warning at catkin/lula/internal/ros/lula_rt/CMakeLists.txt:131 (message):
 -- ==> add_subdirectory(catkin/lula/third_party/baxter_tools)
 
 -- Using these message generators: gencpp;genlisp;genpy
+
+-- +++ processing catkin package: 'learning_control'
+
+-- ==> add_subdirectory(catkin/learning/learning_control)
+
+-- MACHTYPE x86_64
+
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+
+Call Stack (most recent call first):
+
+  catkin/learning/learning_control/CMakeLists.txt:10 (include)
+
+
+
+
+
+-- HOST_NAME=everest
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
+
+-- xenomai NOT found. (/usr/local;/usr)
+
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
 
 -- +++ processing catkin package: 'lula_baxter'
 
@@ -901,6 +1461,192 @@ CMake Warning at catkin/lula/internal/ros/lula_world_internal/CMakeLists.txt:188
 
 -- Using these message generators: gencpp;genlisp;genpy
 
+-- +++ processing catkin package: 'sl_conversions'
+
+-- ==> add_subdirectory(catkin/controller_manager/core-sl-ros/sl_conversions)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- +++ processing catkin package: 'sl_utilities'
+
+-- ==> add_subdirectory(catkin/controller_manager/core-sl-ros/sl_utilities)
+
+-- xenomai NOT found. (/usr/local;/usr)
+
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- +++ processing catkin package: 'sl_controller_manager'
+
+-- ==> add_subdirectory(catkin/controller_manager/core-sl-ros/sl_controller_manager)
+
+-- MACHTYPE x86_64
+
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+
+Call Stack (most recent call first):
+
+  catkin/controller_manager/core-sl-ros/sl_controller_manager/CMakeLists.txt:5 (include)
+
+
+
+
+
+-- HOST_NAME=everest
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
+
+-- xenomai NOT found. (/usr/local;/usr)
+
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- +++ processing catkin package: 'controller_manager_task_apollo'
+
+-- ==> add_subdirectory(catkin/controller_manager/controller_manager_apollo/controller_manager_task_apollo)
+
+-- MACHTYPE x86_64
+
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+
+Call Stack (most recent call first):
+
+  catkin/controller_manager/controller_manager_apollo/controller_manager_task_apollo/CMakeLists.txt:5 (include)
+
+
+
+
+
+-- HOST_NAME=everest
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
+
+-- xenomai NOT found. (/usr/local;/usr)
+
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- +++ processing catkin package: 'apollo_user'
+
+-- ==> add_subdirectory(catkin/robots/catkin-apolloUser)
+
+-- MACHTYPE x86_64
+
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+
+Call Stack (most recent call first):
+
+  catkin/robots/catkin-apolloUser/CMakeLists.txt:8 (include)
+
+
+
+
+
+-- HOST_NAME=everest
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
+
+-- xenomai NOT found. (/usr/local;/usr)
+
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- +++ processing catkin package: 'sl_barrett_controllers'
+
+-- ==> add_subdirectory(catkin/controller_manager/sl_barrett_controllers/sl_barrett_controllers)
+
+-- xenomai NOT found. (/usr/local;/usr)
+
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- +++ processing catkin package: 'sl_controllers'
+
+-- ==> add_subdirectory(catkin/controller_manager/core-sl-ros/sl_controllers)
+
+-- xenomai NOT found. (/usr/local;/usr)
+
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- Boost version: 1.54.0
+
+-- Found the following Boost libraries:
+
+--   random
+
 -- +++ processing catkin package: 'table_object_finder'
 
 -- ==> add_subdirectory(catkin/ros/table_object_finder)
@@ -991,6 +1737,22 @@ CMake Warning at catkin/lula/internal/ros/lula_world_internal/CMakeLists.txt:188
 
 -- ==> add_subdirectory(catkin/lula/internal/ros/lula_visualization_internal/lula_plugins_interface)
 
+-- +++ processing catkin package: 'arm_robot_model'
+
+-- ==> add_subdirectory(catkin/robots/arm_robot_model)
+
+-- +++ processing catkin package: 'dbrt'
+
+-- ==> add_subdirectory(catkin/core-perception/dbrt)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- Boost version: 1.54.0
+
+-- Eigen found (include: /usr/include/eigen3)
+
+-- cimport.h exists. Therefore Assimp V3 must be installed and will be used.
+
 -- +++ processing catkin package: 'lula_kinematics'
 
 -- ==> add_subdirectory(catkin/lula/internal/ros/lula_kinematics)
@@ -1075,6 +1837,50 @@ CMake Warning at catkin/lula/internal/ros/lula_kinematics/CMakeLists.txt:280 (me
 
 
 
+-- +++ processing catkin package: 'ros_servo_apollo'
+
+-- ==> add_subdirectory(catkin/ros/ros_servo_apollo)
+
+-- MACHTYPE x86_64
+
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+
+Call Stack (most recent call first):
+
+  catkin/ros/ros_servo_apollo/CMakeLists.txt:5 (include)
+
+
+
+
+
+-- HOST_NAME=everest
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
+
+-- Using these message generators: gencpp;genlisp;genpy
+
 -- +++ processing catkin package: 'lula_visualization'
 
 -- ==> add_subdirectory(catkin/lula/external/lula_visualization)
@@ -1098,6 +1904,10 @@ CMake Warning at catkin/lula/internal/ros/lula_kinematics/CMakeLists.txt:280 (me
 -- Using these message generators: gencpp;genlisp;genpy
 
 -- lula_apollo_internal: 0 messages, 1 services
+
+-- +++ processing catkin package: 'lula_apollo'
+
+-- ==> add_subdirectory(catkin/robots/lula_apollo)
 
 -- +++ processing catkin package: 'lula_baxter_internal'
 
@@ -1238,6 +2048,48 @@ catkin_INCLUDE_DIRS : /home/administrator/ci/ci/team/workspace/devel/include/hom
 -- +++ processing catkin package: 'jacobian_utilities'
 
 -- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/usc_utils/jacobian_utilities)
+
+-- +++ processing catkin package: 'sl_barrett_controller_interface'
+
+-- ==> add_subdirectory(catkin/controller_manager/sl_barrett_controllers/sl_barrett_controller_interface)
+
+-- xenomai NOT found. (/usr/local;/usr)
+
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- +++ processing catkin package: 'sl_controller_interface'
+
+-- ==> add_subdirectory(catkin/controller_manager/core-sl-ros/sl_controller_interface)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- +++ processing catkin package: 'head_look_at_behaviour'
+
+-- ==> add_subdirectory(catkin/ros/head_look_at_behaviour)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- +++ processing catkin package: 'sl_controller_interface_test'
+
+-- ==> add_subdirectory(catkin/controller_manager/controller_manager_examples_apollo)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- xenomai NOT found. (/usr/local;/usr)
+
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+
+-- +++ processing catkin package: 'strain_gauge_calibration'
+
+-- ==> add_subdirectory(catkin/controller_manager/core-sl-ros/strain_gauge_calibration)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- xenomai NOT found. (/usr/local;/usr)
+
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
 
 -- +++ processing catkin package: 'vicon_capture'
 
@@ -1717,699 +2569,781 @@ Eigen version :
 
 -- Using these message generators: gencpp;genlisp;genpy
 
+-- +++ processing catkin package: 'yaml_cpp'
+
+-- ==> add_subdirectory(catkin/third_party/YAML_CPP)
+
+-- Boost version: 1.54.0
+
+-- +++ processing catkin package: 'facial_expressions'
+
+-- ==> add_subdirectory(catkin/emotions/facial_expressions)
+
+-- MACHTYPE x86_64
+
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+
+Call Stack (most recent call first):
+
+  catkin/emotions/facial_expressions/CMakeLists.txt:6 (include)
+
+
+
+
+
+-- HOST_NAME=everest
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- facial_expressions: 0 messages, 1 services
+
 -- Configuring done
 
 -- Generating done
 
 -- Build files have been written to: /home/administrator/ci/ci/team/workspace/build
 
-[  0%] [  0%] [  0%] [  0%] [  0%] [  0%] [  0%] Built target shape_msgs_generate_messages_lisp
+Scanning dependencies of target gtest
 
-Built target shape_msgs_generate_messages_py
+[  3%] Built target yaml-cpp
+
+[  3%] [  3%] [  3%] [  3%] [  3%] [  3%] [  3%] Built target std_msgs_generate_messages_py
+
+Built target _catkin_empty_exported_target
 
 Built target std_msgs_generate_messages_lisp
 
-Built target std_msgs_generate_messages_cpp
+Built target moveit_msgs_generate_messages_py
 
-Built target std_msgs_generate_messages_py
+Built target std_msgs_generate_messages_cpp
 
 Built target geometry_msgs_generate_messages_cpp
 
-Built target geometry_msgs_generate_messages_lisp
-
-[  0%] [  0%] [  0%] [  0%] Built target sensor_msgs_generate_messages_py
-
-Built target sensor_msgs_generate_messages_cpp
-
-Built target sensor_msgs_generate_messages_lisp
+[  3%] [  3%] Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
 
 Built target geometry_msgs_generate_messages_py
 
-[  1%] Built target lula_util
+Built target geometry_msgs_generate_messages_lisp
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_AccelerationFeedbackExperimentStatus
+[  3%] Built target sensor_msgs_generate_messages_cpp
 
-[  1%] [  1%] Built target _lula_apollo_internal_generate_messages_check_deps_GraspCommander
+[  3%] Built target sensor_msgs_generate_messages_lisp
 
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_ResetBreakaway
+[  3%] Built target sensor_msgs_generate_messages_py
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_NavigationTarget
-
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibratePressureSensorsStatus
-
-[  1%] [  1%] [  1%] [  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PolicyControllerParamsService
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_SwitchControllerStack
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerDataStatus
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_RtNetwork
-
-[  1%] [  1%] [  1%] [  1%] [  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspControllerStatus
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_BoundingPoints
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_BiotacData
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_Goto_command
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_ExperimentParams
-
-[  1%] [  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineLearningControl
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_AvgPressureSensors
-
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_UpdateStrainGagesCalibration
-
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Volumes
-
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LabeledPoint
-
-[  1%] [  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ImageCoordinates
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_QueryControllerStatus
-
-[  1%] [  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PressureSensors
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_IncreaseMaxFingerTorque
-
-[  1%] [  1%] [  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LqrControllerDataStatus
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerParamsService
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_Preshape
-
-[  1%] [  1%] [  1%] [  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspPoses
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_ObstaclePoints
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_CartesianTrajectory
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_Acceleration
-
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PolicyControllerDataStatus
-
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateForceTorqueSensor
-
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_TrajectoryStatus
-
-[  1%] [  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerStatus
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_ExperimentGeneratorParamsService
-
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PointArrayArray
-
-[  1%] [  1%] [  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineNetwork
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_LookAtParams
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_LookAtStatus
-
-[  1%] [  1%] [  1%] [  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CartesianTrajectoryPoint
-
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_BiotacFingerData
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_ColorRange
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibratePressureSensors
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_CollectDataStatus
-
-[  1%] [  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_RtNetworkLayer
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_DMPControllerStatus
-
-[  1%] [  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DMPCommand
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_Extrems
-
-[  1%] [  1%] [  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ScaledLqr
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_NetworkLayer
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_ViconQuery
-
-[  1%] [  1%] [  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspControllerParams
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_SetPoses
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_TrajectoryPoint
-
-[  1%] [  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SetVisualToolTracking
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_DMPControllerParams
-
-[  1%] [  1%] [  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ContinuousTrajectoryPoint
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_Path
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_SetObjectOri
-
-[  1%] [  1%] [  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ContinuousTrajectoryStatus
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_BoundingPointsArray
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_UpdateStrainGagesCalibrationStatus
-
-[  1%] [  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_EndEffectorPosition
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_InverseDynamicsBatchNetworkControllerStatus
-
-[  1%] [  1%] [  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_FingerJointEncoderOffsetsStatus
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_Imu
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerParams
-
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LqrControllerParams
-
-[  1%] [  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateAccelerometerSensorStatus
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_DistanceFieldEval
-
-[  1%] [  1%] [  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspStatus
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_AffinePolicy
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineDataStatus
-
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CartesianGains
-
-[  1%] [  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_FingerJointEncoderOffsets
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_ChordEllipsoid
-
-[  1%] [  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OnlineDataStatus
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_DistanceFieldQueries
-
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_KeyPointBodyApprox
-
-[  1%] [  1%] [  1%] [  1%] [  1%] [  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateBiotacSensorsStatus
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_LinearQuadraticRegulatorParams
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_Grasp
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineLearningControlService
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_StrainGauge
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_LqrControllerParamsService
-
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_FingerForceControlGains
-
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_EndEffectorState
-
-[  1%] [  1%] [  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ExtremsArray
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_Sphere
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_TaskFrame
-
-[  1%] [  1%] [  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ViconData
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_SpeedChange
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateAccelerometerSensor
-
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_RectangularBox
-
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ResetBreakawayStatus
-
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_RectangularBoxArray
-
-[  1%] [  1%] [  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateBiotacSensors
-
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LinearQuadraticRegulatorStatus
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineParams
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_Matrix32
-
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_EnvironmentalObject
-
-[  1%] [  1%] [  1%] [  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PointArray
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_Gains
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_ControllerStatus
-
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ObjectMass
-
-[  1%] Built target roscpp_generate_messages_lisp
-
-Built target actionlib_msgs_generate_messages_cpp
-
-[  1%] [  1%] [  1%] [  1%] [  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Trajectory
-
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ImageCoordinatesArray
-
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LinearQuadraticRegulator
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_InverseDynamicsBatchNetworkControllerParams
-
-[  1%] [  1%] Built target trajectory_msgs_generate_messages_py
-
-Built target object_recognition_msgs_generate_messages_py
-
-Built target roscpp_generate_messages_cpp
-
-Built target object_recognition_msgs_generate_messages_cpp
-
-Built target roscpp_generate_messages_py
-
-[  1%] [  1%] Built target octomap_msgs_generate_messages_lisp
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_TrackingPose
-
-[  1%] [  1%] [  1%] [  1%] [  1%] [  1%] [  1%] [  1%] [  1%] [  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateForceTorqueSensorStatus
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineParamsService
-
-Built target octomap_msgs_generate_messages_py
-
-Built target trajectory_msgs_generate_messages_cpp
-
-Built target rosgraph_msgs_generate_messages_py
-
-Built target rosgraph_msgs_generate_messages_cpp
-
-Built target octomap_msgs_generate_messages_cpp
-
-Built target rosgraph_msgs_generate_messages_lisp
-
-Built target moveit_msgs_generate_messages_py
-
-Built target trajectory_msgs_generate_messages_lisp
-
-[  1%] [  1%] [  1%] Built target shape_msgs_generate_messages_cpp
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_CollectData
-
-[  1%] [  1%] Built target moveit_msgs_generate_messages_lisp
-
-Built target actionlib_msgs_generate_messages_py
-
-Built target object_recognition_msgs_generate_messages_lisp
-
-[  1%] [  1%] Built target moveit_msgs_generate_messages_cpp
-
-Built target actionlib_msgs_generate_messages_lisp
-
-[  1%] [  1%] [  1%] [  1%] Built target _lula_controller_msgs_generate_messages_check_deps_Detach
-
-Built target _lula_ros_util_generate_messages_check_deps_RosVector
-
-Built target _ellipsoid_msgs_generate_messages_check_deps_Ellipsoid
-
-Built target _lula_controller_msgs_generate_messages_check_deps_PosVelAccControllerParams
-
-[  1%] [  1%] [  1%] [  1%] [  1%] Built target _lula_controller_msgs_generate_messages_check_deps_JointPosVelAccCommand
-
-Built target _lula_ros_util_generate_messages_check_deps_RosVectorService
-
-Built target _lula_controller_msgs_generate_messages_check_deps_AffinePolicy
-
-[  1%] Built target _ellipsoid_msgs_generate_messages_check_deps_EllipsoidArray
-
-Built target _lula_controller_msgs_generate_messages_check_deps_KeyPointBodyApprox
-
-Built target _lula_controller_msgs_generate_messages_check_deps_IndexedControllersObstaclePoints
-
-[  1%] Built target _lula_controller_msgs_generate_messages_check_deps_Lqr
-
-[  1%] Built target _lula_controller_msgs_generate_messages_check_deps_ExperimentParams
-
-[  1%] Built target _lula_controller_msgs_generate_messages_check_deps_Sphere
-
-[  1%] [  1%] Built target _lula_controller_msgs_generate_messages_check_deps_SpeedChange
-
-Built target _lula_controller_msgs_generate_messages_check_deps_ActivationRequest
-
-[  1%] Built target _lula_controller_msgs_generate_messages_check_deps_AdaptiveControlData
-
-[  1%] Built target _lula_controller_msgs_generate_messages_check_deps_PhaseLqr
-
-[  1%] Built target _lula_controller_msgs_generate_messages_check_deps_ScaledLqr
-
-[  1%] [  1%] Built target _lula_controller_msgs_generate_messages_check_deps_TaskSpaceCommand
-
-[  1%] [  1%] [  1%] [  1%] Built target _lula_controller_msgs_generate_messages_check_deps_State
-
-Built target _lula_controller_msgs_generate_messages_check_deps_LqrProblem
-
-Built target _lula_controller_msgs_generate_messages_check_deps_TaskSpaceStatus
-
-Built target _lula_controller_msgs_generate_messages_check_deps_DistanceFieldQueries
-
-Built target _lula_controller_msgs_generate_messages_check_deps_Matrix32
-
-[  1%] Built target _lula_controller_msgs_generate_messages_check_deps_EndEffectorPosition
-
-[  1%] [  1%] Built target _lula_controller_msgs_generate_messages_check_deps_LinearQuadraticRegulatorStatus
-
-Built target _lula_controller_msgs_generate_messages_check_deps_ControllersObstaclePoints
-
-[  1%] Built target _lula_controller_msgs_generate_messages_check_deps_Attach
-
-[  1%] [  1%] [  1%] Built target _lula_controller_msgs_generate_messages_check_deps_LinearQuadraticRegulatorParams
-
-Built target _lula_controller_msgs_generate_messages_check_deps_AttachmentStatus
-
-Built target _lula_controller_msgs_generate_messages_check_deps_ObstaclePoints
-
-[  1%] Built target _lula_controller_msgs_generate_messages_check_deps_ChordEllipsoid
-
-[  1%] [  1%] Built target _lula_controller_msgs_generate_messages_check_deps_AccelerationFeedbackExperimentStatus
-
-[  1%] Built target actionlib_generate_messages_lisp
-
-Built target _lula_controller_msgs_generate_messages_check_deps_EnvironmentalObject
-
-[  1%] [  1%] Built target _lula_controller_msgs_generate_messages_check_deps_StateTrajectory
-
-Built target _lula_controller_msgs_generate_messages_check_deps_StatePrediction
-
-[  1%] [  1%] [  1%] Built target _lula_controller_msgs_generate_messages_check_deps_LinearQuadraticRegulator
-
-[  1%] Built target _lula_controller_msgs_generate_messages_check_deps_SwitchControllerStack
-
-Built target _lula_controller_msgs_generate_messages_check_deps_LqrProblemOld
-
-Built target lula_ros_util_generate_messages_cpp
-
-[  1%] [  1%] [  1%] [  1%] Built target lula_ros_util_generate_messages_py
-
-Built target _lula_controller_msgs_generate_messages_check_deps_SymmetricMatrix32
-
-Built target _lula_controller_msgs_generate_messages_check_deps_TimeIndexedAffinePolicy
-
-Built target _lula_controller_msgs_generate_messages_check_deps_DistanceFieldEval
-
-[  1%] Built target _lula_controller_msgs_generate_messages_check_deps_ExperimentGeneratorParamsService
-
-[  1%] Built target actionlib_generate_messages_cpp
-
-[  1%] Built target _lula_controller_msgs_generate_messages_check_deps_LinearQuadraticRegulatorOld
-
-[  1%] [  1%] Built target _lula_controller_msgs_generate_messages_check_deps_LqrPhaseTrajectorySnippet
-
-Built target _lula_controller_msgs_generate_messages_check_deps_TrackedObject
-
-[  1%] [  1%] [  1%] Built target actionlib_generate_messages_py
-
-Built target control_msgs_generate_messages_py
-
-Built target _lula_controller_msgs_generate_messages_check_deps_PartialPose
-
-[  1%] [  1%] Built target control_msgs_generate_messages_lisp
-
-Built target control_msgs_generate_messages_cpp
-
-[  1%] Built target tf2_msgs_generate_messages_py
-
-[  1%] [  1%] [  1%] Built target tf_generate_messages_py
-
-Built target visualization_msgs_generate_messages_lisp
-
-Built target tf_generate_messages_cpp
-
-[  1%] [  1%] [  1%] [  1%] [  1%] [  1%] [  1%] [  1%] [  1%] [  1%] Built target _lula_world_msgs_generate_messages_check_deps_DistanceFunctionDescriptor
-
-Built target tf_generate_messages_lisp
-
-Built target _lula_world_msgs_generate_messages_check_deps_Model
-
-Built target _lula_world_msgs_generate_messages_check_deps_ControlFrame
-
-[  1%] [  1%] Built target _lula_world_msgs_generate_messages_check_deps_RemoveObject
-
-Built target _lula_world_msgs_generate_messages_check_deps_Object
-
-Built target _lula_world_msgs_generate_messages_check_deps_News
-
-Built target _lula_world_msgs_generate_messages_check_deps_AddObject
-
-Built target tf2_msgs_generate_messages_cpp
-
-Built target _lula_world_msgs_generate_messages_check_deps_GetObject
-
-[  1%] Built target tf2_msgs_generate_messages_lisp
-
-Built target _lula_world_msgs_generate_messages_check_deps_HasObject
-
-[  1%] [  1%] [  1%] Built target lula_apollo_internal_generate_messages_lisp
-
-Built target _lula_world_msgs_generate_messages_check_deps_GetObjects
-
-Built target visualization_msgs_generate_messages_cpp
-
-Built target visualization_msgs_generate_messages_py
-
-[  1%] [  1%] [  1%] Built target lula_apollo_internal_generate_messages_py
-
-[  1%] Built target _catkin_empty_exported_target
-
-Built target pcl_msgs_generate_messages_py
-
-[  1%] [  1%] Built target ellipsoid_msgs_generate_messages_py
-
-[  1%] [  1%] Built target pcl_msgs_generate_messages_cpp
-
-[  1%] Scanning dependencies of target gtest
-
-Built target topic_tools_generate_messages_cpp
-
-Built target ellipsoid_msgs_generate_messages_lisp
-
-Built target pcl_msgs_generate_messages_lisp
-
-Built target topic_tools_generate_messages_py
-
-[  1%] Built target topic_tools_generate_messages_lisp
-
-[  1%] Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
-
-[  1%] [  1%] [  1%] Built target _dbot_ros_msgs_generate_messages_check_deps_TrackObject
-
-[  1%] Built target _dbot_ros_msgs_generate_messages_check_deps_RunObjectTracker
-
-Built target _dbot_ros_msgs_generate_messages_check_deps_FindObject
-
-Built target map_msgs_generate_messages_cpp
-
-[  1%] [  1%] [  1%] Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libdbot_gpu.so
-
-[  1%] Built target nav_msgs_generate_messages_lisp
-
-Built target geometry_utils
-
-Built target nav_msgs_generate_messages_cpp
-
-Built target map_msgs_generate_messages_lisp
-
-[  1%] [  1%] [  1%] [  1%] Built target _dbot_ros_msgs_generate_messages_check_deps_ObjectsState
-
-Built target lockfree
+[  3%] [  3%] Built target _dbot_ros_msgs_generate_messages_check_deps_ObjectOri
 
 Built target _dbot_ros_msgs_generate_messages_check_deps_ObjectState
 
-Built target nav_msgs_generate_messages_py
+[  3%] [  3%] [  3%] Built target _dbot_ros_msgs_generate_messages_check_deps_RunObjectTracker
 
-[  1%] Built target _dbot_ros_msgs_generate_messages_check_deps_ObjectOri
+Built target _dbot_ros_msgs_generate_messages_check_deps_TrackObject
 
-[  1%] Built target map_msgs_generate_messages_py
+Built target _dbot_ros_msgs_generate_messages_check_deps_FindObject
 
-[  1%] Built target lula_apollo_internal_generate_messages_cpp
+[  3%] Built target _dbot_ros_msgs_generate_messages_check_deps_ObjectsState
 
-[  1%] [  1%] Built target lula_ros_util_generate_messages_lisp
+[  3%] [  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_BoundingPoints
 
-Built target ellipsoid_msgs_generate_messages_cpp
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_AccelerationFeedbackExperimentStatus
 
-[  2%] [  2%] [ 20%] [ 21%] [ 28%] [ 40%] [ 40%] Built target roscpp_utilities
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_NavigationTarget
 
-Built target lula_testing
+[  3%] [  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineLearningControl
 
-Built target amd_clmc_ros_messages_generate_messages_cpp
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerDataStatus
 
-Built target amd_clmc_ros_messages_generate_messages_lisp
+[  3%] [  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ResetBreakaway
 
-Built target amd_clmc_ros_messages_generate_messages_py
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_Goto_command
 
-Built target lula_controller_msgs_generate_messages_cpp
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SwitchControllerStack
 
-Built target lula_controller_msgs_generate_messages_py
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PolicyControllerParamsService
 
-[ 40%] [ 44%] [ 45%] Built target lula_world_msgs_generate_messages_lisp
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspControllerStatus
 
-Built target lula_world_msgs_generate_messages_cpp
+[  3%] [  3%] [  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ExperimentParams
 
-Built target lula_controller_msgs_generate_messages_lisp
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibratePressureSensorsStatus
 
-[ 47%] Built target dbot
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_AvgPressureSensors
 
-[ 47%] [ 48%] Built target dbot_ros_msgs_generate_messages_lisp
+[  3%] [  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_RtNetwork
 
-Built target lula_world_msgs_generate_messages_py
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_BiotacData
 
-[ 48%] Built target _usc_utilities_generate_messages_check_deps_AccumulatedTrialStatistics
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_QueryControllerStatus
 
-[ 48%] [ 50%] [ 51%] Built target dstar
+[  3%] [  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ImageCoordinates
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_Volumes
+
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LabeledPoint
+
+[  3%] [  3%] [  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_UpdateStrainGagesCalibration
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_PressureSensors
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_IncreaseMaxFingerTorque
+
+[  3%] [  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LqrControllerDataStatus
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_Preshape
+
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ObstaclePoints
+
+[  3%] [  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PolicyControllerDataStatus
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_CartesianTrajectory
+
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateForceTorqueSensor
+
+[  3%] [  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Acceleration
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerParamsService
+
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspPoses
+
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_TrajectoryStatus
+
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ExperimentGeneratorParamsService
+
+[  3%] [  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PointArrayArray
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerStatus
+
+[  3%] [  3%] [  3%] [  3%] [  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LookAtParams
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineNetwork
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_CartesianTrajectoryPoint
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_LookAtStatus
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_ColorRange
+
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CollectDataStatus
+
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_BiotacFingerData
+
+[  3%] [  3%] [  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DMPControllerStatus
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibratePressureSensors
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_RtNetworkLayer
+
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Extrems
+
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DMPCommand
+
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_NetworkLayer
+
+[  3%] [  3%] [  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ScaledLqr
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspControllerParams
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_ViconQuery
+
+[  3%] [  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SetPoses
+
+[  3%] [  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DMPControllerParams
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_TrajectoryPoint
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_UpdateStrainGagesCalibrationStatus
+
+[  3%] [  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SetVisualToolTracking
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_BoundingPointsArray
+
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ContinuousTrajectoryStatus
+
+[  3%] [  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ContinuousTrajectoryPoint
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_Path
+
+[  3%] [  3%] [  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_EndEffectorPosition
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_FingerJointEncoderOffsetsStatus
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_SetObjectOri
+
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_InverseDynamicsBatchNetworkControllerStatus
+
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Imu
+
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerParams
+
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateAccelerometerSensorStatus
+
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspStatus
+
+[  3%] [  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineDataStatus
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_AffinePolicy
+
+[  3%] [  3%] [  3%] [  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DistanceFieldEval
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_LqrControllerParams
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_CartesianGains
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_ChordEllipsoid
+
+[  3%] [  3%] [  3%] [  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_FingerJointEncoderOffsets
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineLearningControlService
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_KeyPointBodyApprox
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_LinearQuadraticRegulatorParams
+
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OnlineDataStatus
+
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Grasp
+
+[  3%] [  3%] [  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DistanceFieldQueries
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_LqrControllerParamsService
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_FingerForceControlGains
+
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ExtremsArray
+
+[  3%] [  3%] [  3%] [  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateBiotacSensorsStatus
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_StrainGauge
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_EndEffectorState
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_Sphere
+
+[  3%] [  3%] [  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateAccelerometerSensor
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_TaskFrame
+
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ViconData
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_SpeedChange
+
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ResetBreakawayStatus
+
+[  3%] [  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_RectangularBox
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_RectangularBoxArray
+
+[  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineParams
+
+[  3%] [  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ControllerStatus
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateBiotacSensors
+
+[  3%] [  3%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LinearQuadraticRegulatorStatus
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_Matrix32
+
+[  3%] [  3%] [  4%] [  4%] [  4%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Gains
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_Trajectory
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_ObjectMass
 
 Built target dbot_ros_msgs_generate_messages_py
 
-Built target dbot_ros_msgs_generate_messages_cpp
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_EnvironmentalObject
 
-[ 51%] Built target usc_utilities_generate_messages_cpp
+[  4%] [  4%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PointArray
 
-[ 51%] [ 51%] Built target usc_utilities_generate_messages_lisp
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_ImageCoordinatesArray
 
-[ 51%] [ 51%] Built target usc_utilities_generate_messages_py
+[  4%] [  4%] [  4%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LinearQuadraticRegulator
 
-[ 51%] Built target rosrt
+Built target actionlib_msgs_generate_messages_cpp
+
+Built target trajectory_msgs_generate_messages_py
+
+[  4%] [  4%] [  4%] [  4%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_InverseDynamicsBatchNetworkControllerParams
+
+[  4%] [  4%] [  4%] [  4%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_TrackingPose
+
+Built target trajectory_msgs_generate_messages_cpp
+
+Built target roscpp_generate_messages_lisp
+
+Built target roscpp_generate_messages_py
+
+Built target roscpp_generate_messages_cpp
+
+Built target shape_msgs_generate_messages_py
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateForceTorqueSensorStatus
+
+[  4%] [  4%] [  4%] [  4%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineParamsService
+
+Built target rosgraph_msgs_generate_messages_lisp
+
+Built target rosgraph_msgs_generate_messages_cpp
+
+[  4%] Built target octomap_msgs_generate_messages_cpp
+
+Built target actionlib_msgs_generate_messages_py
+
+[  4%] [  4%] Built target rosgraph_msgs_generate_messages_py
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_CollectData
+
+[  4%] [  4%] [  4%] Built target shape_msgs_generate_messages_lisp
+
+Built target shape_msgs_generate_messages_cpp
+
+Built target octomap_msgs_generate_messages_lisp
+
+[  4%] [  4%] [  4%] [  4%] Built target moveit_msgs_generate_messages_cpp
+
+Built target octomap_msgs_generate_messages_py
+
+Built target object_recognition_msgs_generate_messages_cpp
+
+[  4%] Built target trajectory_msgs_generate_messages_lisp
+
+[  4%] Built target object_recognition_msgs_generate_messages_py
+
+[  4%] Built target object_recognition_msgs_generate_messages_lisp
+
+Built target actionlib_msgs_generate_messages_lisp
+
+[  4%] Built target moveit_msgs_generate_messages_lisp
+
+[  4%] Built target _lula_controller_msgs_generate_messages_check_deps_JointPosVelAccCommand
+
+[  4%] Built target _lula_ros_util_generate_messages_check_deps_RosVector
+
+[  4%] Built target _lula_controller_msgs_generate_messages_check_deps_KeyPointBodyApprox
+
+[  4%] [  4%] [  4%] Built target _lula_ros_util_generate_messages_check_deps_RosVectorService
+
+Built target _lula_controller_msgs_generate_messages_check_deps_PosVelAccControllerParams
+
+Built target _lula_controller_msgs_generate_messages_check_deps_IndexedControllersObstaclePoints
+
+[  4%] [  4%] [  4%] [  4%] Built target _lula_controller_msgs_generate_messages_check_deps_ExperimentParams
+
+Built target _lula_controller_msgs_generate_messages_check_deps_Lqr
+
+Built target _lula_controller_msgs_generate_messages_check_deps_Detach
+
+[  4%] Built target _lula_controller_msgs_generate_messages_check_deps_State
+
+[  4%] Built target _lula_controller_msgs_generate_messages_check_deps_AffinePolicy
+
+Built target _lula_controller_msgs_generate_messages_check_deps_TaskSpaceCommand
+
+[  4%] Built target _lula_controller_msgs_generate_messages_check_deps_ActivationRequest
+
+[  4%] Built target _lula_controller_msgs_generate_messages_check_deps_Sphere
+
+[  4%] Built target _lula_controller_msgs_generate_messages_check_deps_SpeedChange
+
+[  4%] [  4%] [  4%] [  4%] Built target _lula_controller_msgs_generate_messages_check_deps_PhaseLqr
+
+Built target _lula_controller_msgs_generate_messages_check_deps_AdaptiveControlData
+
+Built target _lula_controller_msgs_generate_messages_check_deps_ScaledLqr
+
+Built target _lula_controller_msgs_generate_messages_check_deps_DistanceFieldQueries
+
+[  4%] [  4%] [  4%] Built target _lula_controller_msgs_generate_messages_check_deps_EndEffectorPosition
+
+[  4%] Built target _lula_controller_msgs_generate_messages_check_deps_Matrix32
+
+Built target _lula_controller_msgs_generate_messages_check_deps_TaskSpaceStatus
+
+Built target _lula_controller_msgs_generate_messages_check_deps_Attach
+
+[  4%] [  4%] Built target _lula_controller_msgs_generate_messages_check_deps_ObstaclePoints
+
+Built target _lula_controller_msgs_generate_messages_check_deps_LinearQuadraticRegulatorStatus
+
+[  4%] Built target _lula_controller_msgs_generate_messages_check_deps_LqrProblem
+
+[  4%] [  4%] Built target _lula_controller_msgs_generate_messages_check_deps_AttachmentStatus
+
+Built target _lula_controller_msgs_generate_messages_check_deps_ChordEllipsoid
+
+[  4%] Built target _lula_controller_msgs_generate_messages_check_deps_LinearQuadraticRegulatorParams
+
+[  4%] Built target _lula_controller_msgs_generate_messages_check_deps_ControllersObstaclePoints
+
+[  4%] Built target _lula_controller_msgs_generate_messages_check_deps_ExperimentGeneratorParamsService
+
+[  4%] [  4%] [  4%] [  4%] Built target _lula_controller_msgs_generate_messages_check_deps_AccelerationFeedbackExperimentStatus
+
+Built target _lula_controller_msgs_generate_messages_check_deps_EnvironmentalObject
+
+Built target _lula_controller_msgs_generate_messages_check_deps_StateTrajectory
+
+Built target _lula_controller_msgs_generate_messages_check_deps_SwitchControllerStack
+
+[  4%] [  4%] Built target _lula_controller_msgs_generate_messages_check_deps_StatePrediction
+
+Built target _lula_controller_msgs_generate_messages_check_deps_LinearQuadraticRegulator
+
+[  4%] [  4%] [  4%] Built target _lula_controller_msgs_generate_messages_check_deps_LqrProblemOld
+
+Built target _lula_controller_msgs_generate_messages_check_deps_TimeIndexedAffinePolicy
+
+[  4%] Built target _lula_controller_msgs_generate_messages_check_deps_DistanceFieldEval
+
+Built target _lula_controller_msgs_generate_messages_check_deps_PartialPose
+
+[  4%] Built target _lula_controller_msgs_generate_messages_check_deps_LinearQuadraticRegulatorOld
+
+[  4%] Built target lula_ros_util_generate_messages_cpp
+
+[  4%] Built target _lula_controller_msgs_generate_messages_check_deps_SymmetricMatrix32
+
+[  4%] [  4%] Built target _lula_controller_msgs_generate_messages_check_deps_LqrPhaseTrajectorySnippet
+
+Built target _lula_controller_msgs_generate_messages_check_deps_TrackedObject
+
+[  4%] Built target topic_tools_generate_messages_py
+
+[  4%] [  4%] [  4%] [  4%] Built target _lula_world_msgs_generate_messages_check_deps_RemoveObject
+
+Built target _ellipsoid_msgs_generate_messages_check_deps_EllipsoidArray
+
+Built target _ellipsoid_msgs_generate_messages_check_deps_Ellipsoid
+
+[  4%] Built target _lula_world_msgs_generate_messages_check_deps_Object
+
+[  4%] [  4%] Built target _lula_world_msgs_generate_messages_check_deps_HasObject
+
+Built target topic_tools_generate_messages_cpp
+
+Built target _lula_world_msgs_generate_messages_check_deps_GetObjects
+
+[  4%] [  4%] Built target actionlib_generate_messages_cpp
+
+[  4%] [  4%] [  4%] Built target _lula_world_msgs_generate_messages_check_deps_News
+
+Built target _lula_world_msgs_generate_messages_check_deps_DistanceFunctionDescriptor
+
+Built target _lula_world_msgs_generate_messages_check_deps_GetObject
+
+Built target _lula_world_msgs_generate_messages_check_deps_AddObject
+
+[  4%] Built target _lula_world_msgs_generate_messages_check_deps_Model
+
+[  4%] [  4%] [  4%] [  4%] [  4%] [  4%] [  6%] [  6%] Built target actionlib_generate_messages_lisp
+
+Built target actionlib_generate_messages_py
+
+Built target control_msgs_generate_messages_cpp
+
+Built target control_msgs_generate_messages_lisp
+
+Built target control_msgs_generate_messages_py
+
+Built target tf2_msgs_generate_messages_lisp
+
+Built target ellipsoid_msgs_generate_messages_py
+
+Built target tf2_msgs_generate_messages_py
+
+[  6%] [  6%] [  6%] [  6%] [  6%] [  6%] [  6%] Built target ellipsoid_msgs_generate_messages_lisp
+
+Built target topic_tools_generate_messages_lisp
+
+Built target visualization_msgs_generate_messages_py
+
+Built target tf_generate_messages_lisp
+
+Built target tf_generate_messages_cpp
+
+Built target tf2_msgs_generate_messages_cpp
+
+Built target _lula_world_msgs_generate_messages_check_deps_ControlFrame
+
+[  6%] [  6%] [  6%] Built target visualization_msgs_generate_messages_cpp
+
+Built target tf_generate_messages_py
+
+Built target visualization_msgs_generate_messages_lisp
+
+[  6%] [  6%] [  6%] [  6%] [  6%] [  6%] Built target pcl_msgs_generate_messages_py
+
+Built target pcl_msgs_generate_messages_cpp
+
+Built target pcl_msgs_generate_messages_lisp
+
+Built target dstar
+
+Built target map_msgs_generate_messages_lisp
+
+Built target rt_utils
+
+[  6%] [  9%] [  9%] [  9%] Built target lockfree
+
+Built target utility
+
+Built target map_msgs_generate_messages_py
+
+Built target nav_msgs_generate_messages_lisp
+
+[  9%] [  9%] [  9%] [  9%] Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libdbot_gpu.so
+
+Built target map_msgs_generate_messages_cpp
+
+Built target geometry_utils
+
+Built target nav_msgs_generate_messages_py
+
+Built target nav_msgs_generate_messages_cpp
+
+[  9%] Built target _lula_apollo_internal_generate_messages_check_deps_GraspCommander
+
+[  9%] [  9%] [  9%] Built target roscpp_utilities
+
+[  9%] Built target dbot_ros_msgs_generate_messages_cpp
+
+Built target dbot_ros_msgs_generate_messages_lisp
+
+Built target lula_ros_util_generate_messages_lisp
+
+[ 13%] [ 13%] [ 23%] [ 32%] Built target lula_controller_msgs_generate_messages_cpp
+
+Built target lula_ros_util_generate_messages_py
+
+Built target amd_clmc_ros_messages_generate_messages_cpp
+
+[ 41%] [ 46%] Built target amd_clmc_ros_messages_generate_messages_lisp
+
+Built target amd_clmc_ros_messages_generate_messages_py
+
+Built target lula_controller_msgs_generate_messages_py
+
+[ 46%] Built target ellipsoid_msgs_generate_messages_cpp
+
+[ 47%] [ 47%] [ 47%] [ 47%] Built target lula_world_msgs_generate_messages_lisp
+
+Built target lula_world_msgs_generate_messages_py
+
+Built target lula_world_msgs_generate_messages_cpp
+
+[ 50%] Built target _usc_utilities_generate_messages_check_deps_AccumulatedTrialStatistics
+
+Built target lula_controller_msgs_generate_messages_lisp
+
+[ 52%] Built target dbot
+
+[ 52%] Built target lula_apollo_internal_generate_messages_py
+
+[ 52%] Built target lula_apollo_internal_generate_messages_cpp
+
+[ 52%] [ 53%] Built target lwpr
+
+Built target lula_util
+
+[ 55%] Built target lula_apollo_internal_generate_messages_lisp
+
+[ 55%] [ 55%] [ 55%] Built target usc_utilities_generate_messages_cpp
+
+Built target usc_utilities_generate_messages_py
+
+[ 55%] Built target graph_search
+
+Built target usc_utilities_generate_messages_lisp
+
+Scanning dependencies of target test_sl_conversions
+
+[ 55%] [ 55%] Built target rosrt
 
 Built target amd_clmc_log
 
-Built target lula_common
+[ 55%] [ 55%] Building CXX object catkin/controller_manager/core-sl-ros/sl_conversions/CMakeFiles/test_sl_conversions.dir/test/test_sl_conversions.cpp.o
 
-[ 51%] [ 52%] Built target graph_search
+Built target lula_testing
 
-[ 52%] Built target lula_rt
+[ 56%] Built target usc_utilities
 
-Built target lula_world
+[ 56%] Built target lula_common
 
-[ 54%] Built target usc_utilities
+[ 56%] Built target lula_world
 
-[ 54%] Built target lula_ros_util
+[ 56%] [ 58%] Built target learning_control
 
-[ 55%] Built target dbot_gpu
+Built target lula_rt
 
-[ 56%] Built target visual_servoing
+[ 58%] Built target dbot_gpu
 
-[ 60%] Built target lula_differential_geometry
+[ 58%] Built target robot_info
 
-[ 60%] Built target lula_differential_geometry_testing
+[ 60%] [ 60%] Built target lula_ros_util
 
-[ 60%] Built target lula_optimization
+Built target visual_servoing
 
-[ 62%] Built target lula_world_internal
+[ 63%] Built target lula_differential_geometry
 
-[ 64%] Built target lula_motion
+[ 64%] Built target sl_controller_interface
 
-[ 66%] Built target lula_kinematics
+[ 64%] Built target lula_differential_geometry_testing
 
-[ 66%] Built target lula_workspace
+[ 66%] Built target lula_optimization
 
-[ 71%] Built target lula_visualization
+[ 67%] Built target lula_world_internal
 
-[ 78%] Built target lula_task
+[ 69%] Built target lula_motion
 
-[ 78%] Built target lula_apollo_internal
+[ 70%] Built target lula_kinematics
 
-[ 79%] Built target rieef_utils
+[ 70%] Built target lula_workspace
 
-[ 79%] Built target visualization_3d
+[ 75%] Built target lula_visualization
 
-[ 81%] Built target geodesic_flow
+[ 81%] Built target lula_task
 
-[ 81%] Built target moveit_distance_field
+[ 81%] Built target lula_apollo_internal
 
-[ 82%] Built target sampling_based_planning
+[ 81%] Built target rieef_utils
 
-[ 82%] Built target signed_distance_field
+[ 81%] Built target visualization_3d
+
+[ 83%] Built target geodesic_flow
+
+[ 84%] Built target moveit_distance_field
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/sl_conversions/test_sl_conversions
+
+[ 84%] Built target sampling_based_planning
+
+[ 84%] Built target signed_distance_field
+
+[ 84%] Built target test_sl_conversions
 
 Linking CXX shared library libgtest.so
 
-[ 82%] Built target gtest
+[ 84%] Built target gtest
 
 Scanning dependencies of target gtest_main
 
-[ 82%] Building CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[ 86%] Building CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
 
 Linking CXX shared library libgtest_main.so
 
-[ 82%] Built target gtest_main
+[ 86%] Built target gtest_main
+
+Scanning dependencies of target test_shared_pointers
 
 Scanning dependencies of target options_test
 
 Scanning dependencies of target descriptor_test
 
-[ 82%] [ 82%] Building CXX object catkin/core-perception/fl/test/CMakeFiles/options_test.dir/utils/options_test.cpp.o
+[ 86%] Scanning dependencies of target meta_test
 
-Building CXX object catkin/core-perception/fl/test/CMakeFiles/descriptor_test.dir/utils/descriptor_test.cpp.o
+[ 86%] [ 86%] Building CXX object catkin/core-perception/fl/test/CMakeFiles/options_test.dir/utils/options_test.cpp.o
 
-Scanning dependencies of target exponential_scalar_smoother_utest
-
-Scanning dependencies of target join_test
+Building CXX object catkin/manipulation/riemo_electrical_fields/signed_distance_field/CMakeFiles/test_shared_pointers.dir/test/test_shared_pointers.cpp.o
 
 Scanning dependencies of target traits_test
+
+[ 86%] Scanning dependencies of target la_smw_inversion_test
+
+Building CXX object catkin/core-perception/fl/test/CMakeFiles/meta_test.dir/utils/meta_test.cpp.o
+
+Scanning dependencies of target join_test
 
 Scanning dependencies of target la_square_root_test
 
 Scanning dependencies of target la_is_diagonal_test
 
-Scanning dependencies of target la_smw_inversion_test
+[ 86%] Scanning dependencies of target exponential_scalar_smoother_utest
+
+Building CXX object catkin/core-perception/fl/test/CMakeFiles/descriptor_test.dir/utils/descriptor_test.cpp.o
 
 Scanning dependencies of target scalar_matrix_test
 
-Scanning dependencies of target meta_test
+[ 86%] Building CXX object catkin/core-perception/fl/test/CMakeFiles/traits_test.dir/utils/traits_test.cpp.o
 
-Scanning dependencies of target sp_normal_to_uniform_test
-
-Scanning dependencies of target linear_gaussian_sensor_test
-
-[ 82%] [ 82%] [ 82%] [ 82%] [ 82%] [ 82%] Building CXX object catkin/core-perception/fl/test/CMakeFiles/join_test.dir/utils/join_test.cpp.o
-
-[ 82%] Building CXX object catkin/lula/internal/lula_util/CMakeFiles/exponential_scalar_smoother_utest.dir/lula/util/estimation/exponential_scalar_smoother_utest.cpp.o
-
-[ 82%] Building CXX object catkin/core-perception/fl/test/CMakeFiles/meta_test.dir/utils/meta_test.cpp.o
-
-Scanning dependencies of target linear_uncorrelated_gaussian_sensor_test
-
-[ 82%] Building CXX object catkin/core-perception/fl/test/CMakeFiles/traits_test.dir/utils/traits_test.cpp.o
-
-Building CXX object catkin/core-perception/fl/test/CMakeFiles/scalar_matrix_test.dir/utils/scalar_matrix_test.cpp.o
-
-[ 82%] Building CXX object catkin/core-perception/fl/test/CMakeFiles/la_square_root_test.dir/utils/linear_algebra_square_root_test.cpp.o
-
-Building CXX object catkin/core-perception/fl/test/CMakeFiles/la_is_diagonal_test.dir/utils/linear_algebra_is_diagonal_test.cpp.o
-
-Scanning dependencies of target body_tail_sensor_test
-
-Scanning dependencies of target joint_sensor_iid_test
-
-Building CXX object catkin/core-perception/fl/test/CMakeFiles/linear_gaussian_sensor_test.dir/model/sensor/linear_gaussian_sensor_test.cpp.o
-
-Building CXX object catkin/core-perception/fl/test/CMakeFiles/sp_normal_to_uniform_test.dir/utils/special_functions_normal_to_uniform_test.cpp.o
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/signed_distance_field/test_shared_pointers
 
 Building CXX object catkin/core-perception/fl/test/CMakeFiles/la_smw_inversion_test.dir/utils/linear_algebra_smw_inversion_test.cpp.o
 
-[ 82%] [ 82%] [ 82%] Building CXX object catkin/core-perception/fl/test/CMakeFiles/linear_uncorrelated_gaussian_sensor_test.dir/model/sensor/linear_uncorrelated_gaussian_sensor_test.cpp.o
+Scanning dependencies of target body_tail_sensor_test
+
+[ 86%] [ 86%] Scanning dependencies of target linear_uncorrelated_gaussian_sensor_test
+
+Scanning dependencies of target linear_gaussian_sensor_test
+
+Building CXX object catkin/core-perception/fl/test/CMakeFiles/la_square_root_test.dir/utils/linear_algebra_square_root_test.cpp.o
+
+Building CXX object catkin/core-perception/fl/test/CMakeFiles/join_test.dir/utils/join_test.cpp.o
+
+[ 86%] [ 86%] Scanning dependencies of target joint_sensor_iid_test
+
+Scanning dependencies of target sp_normal_to_uniform_test
+
+Building CXX object catkin/core-perception/fl/test/CMakeFiles/la_is_diagonal_test.dir/utils/linear_algebra_is_diagonal_test.cpp.o
+
+Building CXX object catkin/lula/internal/lula_util/CMakeFiles/exponential_scalar_smoother_utest.dir/lula/util/estimation/exponential_scalar_smoother_utest.cpp.o
+
+[ 86%] [ 86%] [ 86%] [ 86%] Building CXX object catkin/core-perception/fl/test/CMakeFiles/scalar_matrix_test.dir/utils/scalar_matrix_test.cpp.o
+
+[ 86%] [ 86%] Building CXX object catkin/core-perception/fl/test/CMakeFiles/linear_gaussian_sensor_test.dir/model/sensor/linear_gaussian_sensor_test.cpp.o
+
+Building CXX object catkin/core-perception/fl/test/CMakeFiles/linear_uncorrelated_gaussian_sensor_test.dir/model/sensor/linear_uncorrelated_gaussian_sensor_test.cpp.o
 
 Building CXX object catkin/core-perception/fl/test/CMakeFiles/body_tail_sensor_test.dir/model/sensor/body_tail_sensor_test.cpp.o
 
+Building CXX object catkin/core-perception/fl/test/CMakeFiles/sp_normal_to_uniform_test.dir/utils/special_functions_normal_to_uniform_test.cpp.o
+
 Building CXX object catkin/core-perception/fl/test/CMakeFiles/joint_sensor_iid_test.dir/model/sensor/joint_sensor_iid_test.cpp.o
 
-Scanning dependencies of target test_distance_field_monitor
-
-[ 82%] Building CXX object catkin/manipulation/riemo_electrical_fields/signed_distance_field/CMakeFiles/test_distance_field_monitor.dir/test/test_distance_field_monitor.cpp.o
+[ 86%] Built target test_shared_pointers
 
 Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/options_test
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/descriptor_test
-
-[ 82%] Built target options_test
-
 Scanning dependencies of target linear_transition_test
 
-[ 82%] Built target descriptor_test
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/descriptor_test
 
-[ 82%] Building CXX object catkin/core-perception/fl/test/CMakeFiles/linear_transition_test.dir/model/transition/linear_transition_test.cpp.o
+[ 86%] Building CXX object catkin/core-perception/fl/test/CMakeFiles/linear_transition_test.dir/model/transition/linear_transition_test.cpp.o
+
+[ 86%] Built target options_test
+
+[ 86%] Built target descriptor_test
 
 Scanning dependencies of target orientation_transition_function_test
 
-[ 82%] Building CXX object catkin/core-perception/fl/test/CMakeFiles/orientation_transition_function_test.dir/model/transition/orientation_transition_function_test.cpp.o
+[ 86%] Building CXX object catkin/core-perception/fl/test/CMakeFiles/orientation_transition_function_test.dir/model/transition/orientation_transition_function_test.cpp.o
+
+Scanning dependencies of target binary_transition_density_test
+
+[ 86%] Building CXX object catkin/core-perception/fl/test/CMakeFiles/binary_transition_density_test.dir/model/binary_transition_density_test.cpp.o
 
 Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/join_test
 
@@ -2417,95 +3351,91 @@ Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/sp_
 
 Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/traits_test
 
-[ 82%] Built target join_test
-
-[ 82%] Built target sp_normal_to_uniform_test
-
-Scanning dependencies of target binary_transition_density_test
+[ 86%] Built target join_test
 
 Scanning dependencies of target filter_interface_test
 
-[ 82%] [ 82%] Building CXX object catkin/core-perception/fl/test/CMakeFiles/binary_transition_density_test.dir/model/binary_transition_density_test.cpp.o
+[ 86%] Built target sp_normal_to_uniform_test
 
-Building CXX object catkin/core-perception/fl/test/CMakeFiles/filter_interface_test.dir/filter_interface/filter_interface_test.cpp.o
+[ 86%] Building CXX object catkin/core-perception/fl/test/CMakeFiles/filter_interface_test.dir/filter_interface/filter_interface_test.cpp.o
 
-[ 82%] Built target traits_test
-
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/meta_test
+[ 86%] Built target traits_test
 
 Scanning dependencies of target gaussian_distribution_test
 
-[ 82%] Building CXX object catkin/core-perception/fl/test/CMakeFiles/gaussian_distribution_test.dir/distribution/gaussian_test.cpp.o
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/meta_test
 
-[ 82%] Built target meta_test
+[ 86%] Scanning dependencies of target decorrelated_gaussian_distribution_test
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/scalar_matrix_test
+Building CXX object catkin/core-perception/fl/test/CMakeFiles/gaussian_distribution_test.dir/distribution/gaussian_test.cpp.o
 
-Scanning dependencies of target decorrelated_gaussian_distribution_test
+[ 86%] Building CXX object catkin/core-perception/fl/test/CMakeFiles/decorrelated_gaussian_distribution_test.dir/distribution/decorrelated_gaussian_test.cpp.o
 
-[ 82%] Building CXX object catkin/core-perception/fl/test/CMakeFiles/decorrelated_gaussian_distribution_test.dir/distribution/decorrelated_gaussian_test.cpp.o
-
-[ 82%] Built target scalar_matrix_test
+[ 86%] Built target meta_test
 
 Scanning dependencies of target discrete_distribution_test
 
-[ 82%] Building CXX object catkin/core-perception/fl/test/CMakeFiles/discrete_distribution_test.dir/distribution/discrete_distribution_test.cpp.o
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/scalar_matrix_test
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/la_is_diagonal_test
+[ 86%] Building CXX object catkin/core-perception/fl/test/CMakeFiles/discrete_distribution_test.dir/distribution/discrete_distribution_test.cpp.o
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/orientation_transition_function_test
-
-[ 82%] Built target la_is_diagonal_test
-
-[ 82%] Built target orientation_transition_function_test
+[ 86%] Built target scalar_matrix_test
 
 Scanning dependencies of target chi_squared_distribution_test
 
+[ 86%] Building CXX object catkin/core-perception/fl/test/CMakeFiles/chi_squared_distribution_test.dir/distribution/chi_squared_distribution_test.cpp.o
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/orientation_transition_function_test
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/la_is_diagonal_test
+
+[ 86%] Built target orientation_transition_function_test
+
 Scanning dependencies of target t_distribution_test
 
-[ 82%] Building CXX object catkin/core-perception/fl/test/CMakeFiles/chi_squared_distribution_test.dir/distribution/chi_squared_distribution_test.cpp.o
+[ 86%] Built target la_is_diagonal_test
 
-[ 83%] Building CXX object catkin/core-perception/fl/test/CMakeFiles/t_distribution_test.dir/distribution/t_distribution_test.cpp.o
-
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/binary_transition_density_test
-
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/filter_interface_test
-
-[ 83%] Built target binary_transition_density_test
+[ 86%] Building CXX object catkin/core-perception/fl/test/CMakeFiles/t_distribution_test.dir/distribution/t_distribution_test.cpp.o
 
 Scanning dependencies of target exception_test
 
-[ 83%] Built target filter_interface_test
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/binary_transition_density_test
 
-[ 85%] Building CXX object catkin/core-perception/fl/test/CMakeFiles/exception_test.dir/exception/exception_test.cpp.o
+[ 86%] Building CXX object catkin/core-perception/fl/test/CMakeFiles/exception_test.dir/exception/exception_test.cpp.o
+
+[ 86%] Built target binary_transition_density_test
 
 Scanning dependencies of target unscented_transform_test_test
 
-[ 85%] Building CXX object catkin/core-perception/fl/test/CMakeFiles/unscented_transform_test_test.dir/gaussian_filter/unscented_transform_test.cpp.o
+[ 86%] Building CXX object catkin/core-perception/fl/test/CMakeFiles/unscented_transform_test_test.dir/gaussian_filter/unscented_transform_test.cpp.o
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/la_smw_inversion_test
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/filter_interface_test
 
-[ 85%] Built target la_smw_inversion_test
+[ 86%] Built target filter_interface_test
 
 Scanning dependencies of target gaussian_filter_kalman_filter_test
 
-[ 85%] Building CXX object catkin/core-perception/fl/test/CMakeFiles/gaussian_filter_kalman_filter_test.dir/gaussian_filter/kalman_filter_test.cpp.o
+[ 86%] Building CXX object catkin/core-perception/fl/test/CMakeFiles/gaussian_filter_kalman_filter_test.dir/gaussian_filter/kalman_filter_test.cpp.o
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/lula_util/exponential_scalar_smoother_utest
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/la_smw_inversion_test
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/la_square_root_test
-
-[ 85%] Built target exponential_scalar_smoother_utest
+[ 86%] Built target la_smw_inversion_test
 
 Scanning dependencies of target gaussian_filter_unscented_kalman_filter_test
 
-[ 85%] Building CXX object catkin/core-perception/fl/test/CMakeFiles/gaussian_filter_unscented_kalman_filter_test.dir/gaussian_filter/unscented_kalman_filter_test.cpp.o
+[ 86%] Building CXX object catkin/core-perception/fl/test/CMakeFiles/gaussian_filter_unscented_kalman_filter_test.dir/gaussian_filter/unscented_kalman_filter_test.cpp.o
 
-[ 85%] Built target la_square_root_test
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/exception_test
+
+[ 86%] Built target exception_test
 
 Scanning dependencies of target multi_sensor_gaussian_filter_test
 
 [ 86%] Building CXX object catkin/core-perception/fl/test/CMakeFiles/multi_sensor_gaussian_filter_test.dir/gaussian_filter/multi_sensor_gaussian_filter_test.cpp.o
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/lula_util/exponential_scalar_smoother_utest
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/la_square_root_test
 
 In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/kalman_filter_test.cpp:25:0:
 
@@ -2579,13 +3509,15 @@ In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-p
 
                                               ^
 
+[ 86%] Built target exponential_scalar_smoother_utest
+
 /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_linear.hpp:62:29: error: ‘int’ is not a class, struct, or union type
 
      typedef Gaussian<State> Belief;
 
                              ^
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/exception_test
+Scanning dependencies of target robust_multi_sensor_gaussian_filter_test
 
 /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_linear.hpp: In instantiation of ‘struct fl::Traits<fl::GaussianFilter<int, fl::LinearGaussianSensor<Eigen::Matrix<double, 10, 1, 0, 10, 1>, Eigen::Matrix<double, 3, 1, 0, 3, 1> > > >’:
 
@@ -2615,13 +3547,15 @@ Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/exc
 
                                               ^
 
+[ 86%] Building CXX object catkin/core-perception/fl/test/CMakeFiles/robust_multi_sensor_gaussian_filter_test.dir/gaussian_filter/robust_multi_sensor_gaussian_filter_test.cpp.o
+
 /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_linear.hpp:62:29: error: ‘int’ is not a class, struct, or union type
 
      typedef Gaussian<State> Belief;
 
                              ^
 
-[ 86%] Built target exception_test
+[ 86%] Built target la_square_root_test
 
 In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/util/meta/size_deduction.hpp:23:0,
 
@@ -2821,9 +3755,9 @@ In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-p
 
 /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:95:61: warning: left operand of comma operator has no effect [-Wunused-value]
 
-Scanning dependencies of target robust_multi_sensor_gaussian_filter_test
+Scanning dependencies of target gaussian_filter_linear_vs_unscented_kalman_filter_test_StaticTest_20_2_2_GaussianModel_NonAdditive_NonAdditive_test
 
-[ 86%] Building CXX object catkin/core-perception/fl/test/CMakeFiles/robust_multi_sensor_gaussian_filter_test.dir/gaussian_filter/robust_multi_sensor_gaussian_filter_test.cpp.o
+[ 86%] Building CXX object catkin/core-perception/fl/test/gaussian_filter/CMakeFiles/gaussian_filter_linear_vs_unscented_kalman_filter_test_StaticTest_20_2_2_GaussianModel_NonAdditive_NonAdditive_test.dir/gaussian_filter_linear_vs_unscented_kalman_filter_test_StaticTest_20_2_2_GaussianModel_NonAdditive_NonAdditive.cpp.o
 
 In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/unscented_kalman_filter_test.cpp:25:0:
 
@@ -2901,52 +3835,6 @@ In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-p
 
                                         ^
 
-In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/multi_sensor_gaussian_filter_test.cpp:25:0:
-
-/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:87:17: error: wrong number of template arguments (2, should be 3)
-
-                 > LinearTransition;
-
-                 ^
-
-In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:35:0,
-
-                 from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/multi_sensor_gaussian_filter_test.cpp:25:
-
-/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/model/transition/linear_transition.hpp:42:7: error: provided for ‘template<class State_, class Noise_, class Input_> class fl::LinearTransition’
-
- class LinearTransition
-
-       ^
-
-In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/multi_sensor_gaussian_filter_test.cpp:25:0:
-
-/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp: In member function ‘GaussianFilterTest<TestType>::ModelFactory::LinearTransition GaussianFilterTest<TestType>::ModelFactory::create_linear_state_model()’:
-
-/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:97:28: error: request for member ‘create_dynamics_matrix’ in ‘model’, which is of non-class type ‘int’
-
-             auto A = model.create_dynamics_matrix();
-
-                            ^
-
-/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:98:28: error: request for member ‘create_noise_matrix’ in ‘model’, which is of non-class type ‘int’
-
-             auto Q = model.create_noise_matrix();
-
-                            ^
-
-/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:113:19: error: request for member ‘dynamics_matrix’ in ‘model’, which is of non-class type ‘int’
-
-             model.dynamics_matrix(A);
-
-                   ^
-
-/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:114:19: error: request for member ‘noise_matrix’ in ‘model’, which is of non-class type ‘int’
-
-             model.noise_matrix(Q);
-
-                   ^
-
 /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_nonlinear_generic.hpp:63:29: error: ‘int’ is not a class, struct, or union type
 
      typedef Gaussian<State> Belief;
@@ -2981,57 +3869,11 @@ In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-p
 
                                         ^
 
-/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/multi_sensor_gaussian_filter_test.cpp: At global scope:
-
-/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/multi_sensor_gaussian_filter_test.cpp:61:19: error: declaration of ‘typedef class fl::JointSensor<fl::MultipleOf<typename ModelFactory::LinearObservation, Size> > MultiSensorGfTestConfiguration<StateDimension, InputDimension, ObsrvDimension, Count, FilterIterations>::FilterDefinition<ModelFactory>::JointSensor’ [-fpermissive]
-
-                 > JointSensor;
-
-                   ^
-
-In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/update_policy/multi_sensor_sigma_point_update_policy.hpp:29:0,
-
-                 from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/multi_sensor_gaussian_filter.hpp:27,
-
-                 from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/multi_sensor_gaussian_filter_test.cpp:28:
-
-/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/model/sensor/joint_sensor_iid.hpp:41:36: error: changes meaning of ‘JointSensor’ from ‘class fl::JointSensor<fl::MultipleOf<typename ModelFactory::LinearObservation, Size> >’ [-fpermissive]
-
- template <typename...Models> class JointSensor;
-
-                                    ^
-
 /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_nonlinear_generic.hpp:63:29: error: ‘int’ is not a class, struct, or union type
 
      typedef Gaussian<State> Belief;
 
                              ^
-
-In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/multi_sensor_gaussian_filter_test.cpp:28:0:
-
-/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/multi_sensor_gaussian_filter.hpp: In instantiation of ‘struct fl::Traits<fl::MultiSensorGaussianFilter<int, fl::JointSensor<fl::MultipleOf<fl::LinearGaussianSensor<Eigen::Matrix<double, 2, 1, 0, 2, 1>, Eigen::Matrix<double, 6, 1, 0, 6, 1> >, 10> >, fl::UnscentedQuadrature> >’:
-
-/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:157:40:   required from ‘class GaussianFilterTest<fl::StaticTest<MultiSensorGfTestConfiguration<6, 1, 2, 10, 10> > >’
-
-/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:197:1:   required from ‘class gtest_case_GaussianFilterTest_::predict_then_update<fl::StaticTest<MultiSensorGfTestConfiguration<6, 1, 2, 10, 10> > >’
-
-/usr/include/gtest/internal/gtest-internal.h:663:39:   required from ‘static bool testing::internal::TypeParameterizedTest<Fixture, TestSel, Types>::Register(const char*, const char*, const char*, int) [with Fixture = GaussianFilterTest; TestSel = testing::internal::TemplateSel<gtest_case_GaussianFilterTest_::predict_then_update>; Types = testing::internal::Types1<fl::StaticTest<MultiSensorGfTestConfiguration<6, 1, 2, 10, 10> > >]’
-
-/usr/include/gtest/internal/gtest-internal.h:694:41:   required from ‘static bool testing::internal::TypeParameterizedTestCase<Fixture, Tests, Types>::Register(const char*, const char*, const char*) [with Fixture = GaussianFilterTest; Tests = testing::internal::Templates2<gtest_case_GaussianFilterTest_::predict_then_update, gtest_case_GaussianFilterTest_::predict_loop>; Types = testing::internal::Types1<fl::StaticTest<MultiSensorGfTestConfiguration<6, 1, 2, 10, 10> > >]’
-
-/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/multi_sensor_gaussian_filter_test.cpp:90:1:   required from here
-
-/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/multi_sensor_gaussian_filter.hpp:51:48: error: ‘int’ is not a class, struct, or union type
-
-     typedef typename TransitionFunction::State State;
-
-                                                ^
-
-/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/multi_sensor_gaussian_filter.hpp:52:48: error: ‘int’ is not a class, struct, or union type
-
-     typedef typename TransitionFunction::Input Input;
-
-                                                ^
 
 In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/util/meta/size_deduction.hpp:23:0,
 
@@ -3184,6 +4026,98 @@ In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-p
 /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:95:61: error: expression list treated as compound expression in functional cast [-fpermissive]
 
 /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:95:61: warning: left operand of comma operator has no effect [-Wunused-value]
+
+In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/multi_sensor_gaussian_filter_test.cpp:25:0:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:87:17: error: wrong number of template arguments (2, should be 3)
+
+                 > LinearTransition;
+
+                 ^
+
+In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:35:0,
+
+                 from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/multi_sensor_gaussian_filter_test.cpp:25:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/model/transition/linear_transition.hpp:42:7: error: provided for ‘template<class State_, class Noise_, class Input_> class fl::LinearTransition’
+
+ class LinearTransition
+
+       ^
+
+In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/multi_sensor_gaussian_filter_test.cpp:25:0:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp: In member function ‘GaussianFilterTest<TestType>::ModelFactory::LinearTransition GaussianFilterTest<TestType>::ModelFactory::create_linear_state_model()’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:97:28: error: request for member ‘create_dynamics_matrix’ in ‘model’, which is of non-class type ‘int’
+
+             auto A = model.create_dynamics_matrix();
+
+                            ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:98:28: error: request for member ‘create_noise_matrix’ in ‘model’, which is of non-class type ‘int’
+
+             auto Q = model.create_noise_matrix();
+
+                            ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:113:19: error: request for member ‘dynamics_matrix’ in ‘model’, which is of non-class type ‘int’
+
+             model.dynamics_matrix(A);
+
+                   ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:114:19: error: request for member ‘noise_matrix’ in ‘model’, which is of non-class type ‘int’
+
+             model.noise_matrix(Q);
+
+                   ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/multi_sensor_gaussian_filter_test.cpp: At global scope:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/multi_sensor_gaussian_filter_test.cpp:61:19: error: declaration of ‘typedef class fl::JointSensor<fl::MultipleOf<typename ModelFactory::LinearObservation, Size> > MultiSensorGfTestConfiguration<StateDimension, InputDimension, ObsrvDimension, Count, FilterIterations>::FilterDefinition<ModelFactory>::JointSensor’ [-fpermissive]
+
+                 > JointSensor;
+
+                   ^
+
+In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/update_policy/multi_sensor_sigma_point_update_policy.hpp:29:0,
+
+                 from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/multi_sensor_gaussian_filter.hpp:27,
+
+                 from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/multi_sensor_gaussian_filter_test.cpp:28:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/model/sensor/joint_sensor_iid.hpp:41:36: error: changes meaning of ‘JointSensor’ from ‘class fl::JointSensor<fl::MultipleOf<typename ModelFactory::LinearObservation, Size> >’ [-fpermissive]
+
+ template <typename...Models> class JointSensor;
+
+                                    ^
+
+In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/multi_sensor_gaussian_filter_test.cpp:28:0:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/multi_sensor_gaussian_filter.hpp: In instantiation of ‘struct fl::Traits<fl::MultiSensorGaussianFilter<int, fl::JointSensor<fl::MultipleOf<fl::LinearGaussianSensor<Eigen::Matrix<double, 2, 1, 0, 2, 1>, Eigen::Matrix<double, 6, 1, 0, 6, 1> >, 10> >, fl::UnscentedQuadrature> >’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:157:40:   required from ‘class GaussianFilterTest<fl::StaticTest<MultiSensorGfTestConfiguration<6, 1, 2, 10, 10> > >’
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:197:1:   required from ‘class gtest_case_GaussianFilterTest_::predict_then_update<fl::StaticTest<MultiSensorGfTestConfiguration<6, 1, 2, 10, 10> > >’
+
+/usr/include/gtest/internal/gtest-internal.h:663:39:   required from ‘static bool testing::internal::TypeParameterizedTest<Fixture, TestSel, Types>::Register(const char*, const char*, const char*, int) [with Fixture = GaussianFilterTest; TestSel = testing::internal::TemplateSel<gtest_case_GaussianFilterTest_::predict_then_update>; Types = testing::internal::Types1<fl::StaticTest<MultiSensorGfTestConfiguration<6, 1, 2, 10, 10> > >]’
+
+/usr/include/gtest/internal/gtest-internal.h:694:41:   required from ‘static bool testing::internal::TypeParameterizedTestCase<Fixture, Tests, Types>::Register(const char*, const char*, const char*) [with Fixture = GaussianFilterTest; Tests = testing::internal::Templates2<gtest_case_GaussianFilterTest_::predict_then_update, gtest_case_GaussianFilterTest_::predict_loop>; Types = testing::internal::Types1<fl::StaticTest<MultiSensorGfTestConfiguration<6, 1, 2, 10, 10> > >]’
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/multi_sensor_gaussian_filter_test.cpp:90:1:   required from here
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/multi_sensor_gaussian_filter.hpp:51:48: error: ‘int’ is not a class, struct, or union type
+
+     typedef typename TransitionFunction::State State;
+
+                                                ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/multi_sensor_gaussian_filter.hpp:52:48: error: ‘int’ is not a class, struct, or union type
+
+     typedef typename TransitionFunction::Input Input;
+
+                                                ^
 
 /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/multi_sensor_gaussian_filter.hpp:54:29: error: ‘int’ is not a class, struct, or union type
 
@@ -3391,12 +4325,6 @@ In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-p
 
 Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/chi_squared_distribution_test
 
-[ 86%] Built target chi_squared_distribution_test
-
-Scanning dependencies of target gaussian_filter_linear_vs_unscented_kalman_filter_test_StaticTest_20_2_2_GaussianModel_NonAdditive_NonAdditive_test
-
-[ 86%] Building CXX object catkin/core-perception/fl/test/gaussian_filter/CMakeFiles/gaussian_filter_linear_vs_unscented_kalman_filter_test_StaticTest_20_2_2_GaussianModel_NonAdditive_NonAdditive_test.dir/gaussian_filter_linear_vs_unscented_kalman_filter_test_StaticTest_20_2_2_GaussianModel_NonAdditive_NonAdditive.cpp.o
-
 /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/multi_sensor_gaussian_filter.hpp: In member function ‘std::string fl::MultiSensorGaussianFilter<TransitionFunction, JointSensorFunction, Quadrature>::description() const [with TransitionFunction = int; JointSensorFunction = fl::JointSensor<fl::MultipleOf<fl::LinearGaussianSensor<Eigen::Matrix<double, 2, 1, 0, 2, 1>, Eigen::Matrix<double, 6, 1, 0, 6, 1> >, 10> >; Quadrature = fl::UnscentedQuadrature; std::string = std::basic_string<char>]’:
 
 /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/multi_sensor_gaussian_filter.hpp:121:5: warning: control reaches end of non-void function [-Wreturn-type]
@@ -3422,6 +4350,8 @@ make[3]: *** [catkin/core-perception/fl/test/CMakeFiles/multi_sensor_gaussian_fi
 make[2]: *** [catkin/core-perception/fl/test/CMakeFiles/multi_sensor_gaussian_filter_test.dir/all] Error 2
 
 make[2]: *** Waiting for unfinished jobs....
+
+[ 86%] Built target chi_squared_distribution_test
 
 /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/robust_multi_sensor_gaussian_filter_test.cpp: At global scope:
 
@@ -3579,8 +4509,6 @@ In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-p
 
          ^
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/decorrelated_gaussian_distribution_test
-
 In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/robust_multi_sensor_gaussian_filter.hpp:34:0,
 
                  from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/robust_multi_sensor_gaussian_filter_test.cpp:28:
@@ -3619,11 +4547,9 @@ In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-p
 
 /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:95:61: warning: left operand of comma operator has no effect [-Wunused-value]
 
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/decorrelated_gaussian_distribution_test
+
 [ 86%] Built target decorrelated_gaussian_distribution_test
-
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/discrete_distribution_test
-
-[ 86%] Built target discrete_distribution_test
 
 In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/robust_multi_sensor_gaussian_filter.hpp:34:0,
 
@@ -3638,6 +4564,8 @@ In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-p
          return "Multi-Sensor Gaussian Filter with" +
 
                                                     ^
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/discrete_distribution_test
 
 /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_linear.hpp: In member function ‘std::string fl::GaussianFilter<LinearTransition, LinearSensor>::description() const [with LinearTransition = int; LinearSensor = fl::LinearGaussianSensor<Eigen::Matrix<double, 2, 1>, Eigen::Matrix<double, 3, 1> >; std::string = std::basic_string<char>]’:
 
@@ -3654,6 +4582,8 @@ In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-p
      }
 
      ^
+
+[ 86%] Built target discrete_distribution_test
 
 /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_linear.hpp: In member function ‘std::string fl::GaussianFilter<LinearTransition, LinearSensor>::description() const [with LinearTransition = int; LinearSensor = fl::LinearGaussianSensor<Eigen::Matrix<double, 10, 1, 0, 10, 1>, Eigen::Matrix<double, 3, 1> >; std::string = std::basic_string<char>]’:
 
@@ -3679,8 +4609,6 @@ make[3]: *** [catkin/core-perception/fl/test/CMakeFiles/gaussian_filter_kalman_f
 
 make[2]: *** [catkin/core-perception/fl/test/CMakeFiles/gaussian_filter_kalman_filter_test.dir/all] Error 2
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/t_distribution_test
-
 At global scope:
 
 cc1plus: warning: unrecognized command line option "-Wno-deprecated-register" [enabled by default]
@@ -3688,12 +4616,6 @@ cc1plus: warning: unrecognized command line option "-Wno-deprecated-register" [e
 make[3]: *** [catkin/core-perception/fl/test/CMakeFiles/gaussian_filter_unscented_kalman_filter_test.dir/gaussian_filter/unscented_kalman_filter_test.cpp.o] Error 1
 
 make[2]: *** [catkin/core-perception/fl/test/CMakeFiles/gaussian_filter_unscented_kalman_filter_test.dir/all] Error 2
-
-[ 86%] Built target t_distribution_test
-
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/linear_uncorrelated_gaussian_sensor_test
-
-[ 86%] Built target linear_uncorrelated_gaussian_sensor_test
 
 /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/multi_sensor_gaussian_filter.hpp: In member function ‘std::string fl::MultiSensorGaussianFilter<TransitionFunction, JointSensorFunction, Quadrature>::description() const [with TransitionFunction = int; JointSensorFunction = fl::JointSensor<fl::MultipleOf<fl::MultiRobustSensorFunction<fl::BodyTailSensor<fl::LinearGaussianSensor<Eigen::Matrix<double, 3, 1, 0, 3, 1>, Eigen::Matrix<double, 6, 1, 0, 6, 1> >, fl::LinearCauchySensor<Eigen::Matrix<double, 3, 1, 0, 3, 1>, Eigen::Matrix<double, 6, 1, 0, 6, 1> > >, 48>, 48> >; Quadrature = fl::UnscentedQuadrature; std::string = std::basic_string<char>]’:
 
@@ -3719,21 +4641,25 @@ make[3]: *** [catkin/core-perception/fl/test/CMakeFiles/robust_multi_sensor_gaus
 
 make[2]: *** [catkin/core-perception/fl/test/CMakeFiles/robust_multi_sensor_gaussian_filter_test.dir/all] Error 2
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/signed_distance_field/test_distance_field_monitor
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/t_distribution_test
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/linear_uncorrelated_gaussian_sensor_test
+
+[ 86%] Built target t_distribution_test
+
+[ 86%] Built target linear_uncorrelated_gaussian_sensor_test
 
 Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/unscented_transform_test_test
 
 [ 86%] Built target unscented_transform_test_test
 
-[ 86%] Built target test_distance_field_monitor
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/gaussian_filter_linear_vs_unscented_kalman_filter_test_StaticTest_20_2_2_GaussianModel_NonAdditive_NonAdditive_test
+
+[ 86%] Built target gaussian_filter_linear_vs_unscented_kalman_filter_test_StaticTest_20_2_2_GaussianModel_NonAdditive_NonAdditive_test
 
 Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/linear_gaussian_sensor_test
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/gaussian_filter_linear_vs_unscented_kalman_filter_test_StaticTest_20_2_2_GaussianModel_NonAdditive_NonAdditive_test
-
 Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/body_tail_sensor_test
-
-[ 86%] Built target gaussian_filter_linear_vs_unscented_kalman_filter_test_StaticTest_20_2_2_GaussianModel_NonAdditive_NonAdditive_test
 
 [ 86%] Built target linear_gaussian_sensor_test
 
@@ -3741,9 +4667,9 @@ Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/bod
 
 Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/joint_sensor_iid_test
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/linear_transition_test
-
 [ 86%] Built target joint_sensor_iid_test
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/linear_transition_test
 
 [ 86%] Built target linear_transition_test
 
@@ -3754,16 +4680,6 @@ Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/gau
 make[1]: *** [CMakeFiles/tests.dir/rule] Error 2
 
 make: *** [tests] Error 2
-
-Base path: /home/administrator/ci/ci/team/workspace
-
-Source space: /home/administrator/ci/ci/team/workspace/src
-
-Build space: /home/administrator/ci/ci/team/workspace/build
-
-Devel space: /home/administrator/ci/ci/team/workspace/devel
-
-Install space: /home/administrator/ci/ci/team/workspace/install
 
 ####
 
