@@ -1,3 +1,5 @@
+WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
+
 -- Using CATKIN_DEVEL_PREFIX: /home/administrator/ci/ci/team/workspace/devel
 
 -- Using CMAKE_PREFIX_PATH: /opt/ros/indigo
@@ -6,9 +8,9 @@
 
 -- Using PYTHON_EXECUTABLE: /usr/bin/python
 
--- Using Debian Python package layout
+-- Python version: 2.7
 
--- Using empy: /usr/bin/empy
+-- Using Debian Python package layout
 
 -- Using CATKIN_ENABLE_TESTING: ON
 
@@ -18,81 +20,409 @@
 
 -- Found gtest sources under '/usr/src/gtest': gtests will be built
 
--- Using Python nosetests: /usr/bin/nosetests-2.7
-
--- catkin 0.6.19
+-- catkin 0.5.90
 
 -- BUILD_SHARED_LIBS is on
 
--- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
--- ~~  traversing 1 packages in topological order:
-
--- ~~  - rgbd_intrinsic_calibration
+WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- +++ processing catkin package: 'rgbd_intrinsic_calibration'
+-- ~~  traversing 89 packages in topological order:
 
--- ==> add_subdirectory(catkin/core-calibration/rgbd_intrinsic_calibration)
+-- ~~  - Eigen
 
-CMake Warning at /opt/ros/indigo/share/catkin/cmake/catkinConfig.cmake:76 (find_package):
+-- ~~  - amd_clmc_dmp
 
-  Could not find a package configuration file provided by "rgbd_capture" with
+-- ~~  - arm_cdlbt
 
-  any of the following names:
+-- ~~  - arm_can_control_tools
 
+-- ~~  - biotac_core
 
+-- ~~  - catkin_gflags
 
-    rgbd_captureConfig.cmake
+-- ~~  - catkin_glog
 
-    rgbd_capture-config.cmake
+-- ~~  - conversions
 
+-- ~~  - graspit
 
+-- ~~  - graspit_dbase_tasks
 
-  Add the installation prefix of "rgbd_capture" to CMAKE_PREFIX_PATH or set
+-- ~~  - dbase_grasp_planner
 
-  "rgbd_capture_DIR" to a directory containing one of the above files.  If
+-- ~~  - graspit_simulator
 
-  "rgbd_capture" provides a separate development package or SDK, be sure it
+-- ~~  - interpolation
 
-  has been installed.
+-- ~~  - launch_xtion
+
+-- ~~  - qp_oases
+
+-- ~~  - quadprog
+
+-- ~~  - ros_realtime (metapackage)
+
+-- ~~  - allocators
+
+-- ~~  - rosatomic
+
+-- ~~  - lockfree
+
+-- ~~  - rt_timer
+
+-- ~~  - rt_utils
+
+-- ~~  - dmp
+
+-- ~~  - splines
+
+-- ~~  - start_robot
+
+-- ~~  - amd_clmc_ros_messages
+
+-- ~~  - ar_track_alvar_msgs
+
+-- ~~  - custom_robot_msgs
+
+-- ~~  - riemo_grasping_msgs
+
+-- ~~  - graspit_ros_planning_msgs
+
+-- ~~  - utilities
+
+-- ~~  - lwpr
+
+-- ~~  - vrpn_vicon_minimum
+
+-- ~~  - vrpn_vicon_objs_tracker
+
+-- ~~  - xenomai_ros
+
+-- ~~  - constrained_inverse_kinematics_msgs
+
+-- ~~  - robot_planning_client
+
+-- ~~  - roscpp_utilities
+
+-- ~~  - rosrt
+
+-- ~~  - ros_rt_test
+
+-- ~~  - sl
+
+-- ~~  - arm
+
+-- ~~  - arm_test_task
+
+-- ~~  - sl_ros_servo
+
+-- ~~  - learning_control
+
+-- ~~  - ar_track_alvar
+
+-- ~~  - python_ros_utils
+
+-- ~~  - sl_conversions
+
+-- ~~  - sl_utilities
+
+-- ~~  - sl_controller_manager
+
+-- ~~  - sl_barrett_controllers
+
+-- ~~  - sl_biotac_controller_data
+
+-- ~~  - sl_biotac_controllers
+
+-- ~~  - sl_controllers
+
+-- ~~  - sl_head_arm_controllers
+
+-- ~~  - sl_vicon_controller_data
+
+-- ~~  - sl_biotac_vicon_controller_data
+
+-- ~~  - controller_manager_task_arm
+
+-- ~~  - arm_user
+
+-- ~~  - graspit_ros_planning
+
+-- ~~  - arm_robot_model
+
+-- ~~  - arm_moveit_config
+
+-- ~~  - ros_servo_arm
+
+-- ~~  - usc_utilities
+
+-- ~~  - learnable_cost_function
+
+-- ~~  - robot_info
+
+-- ~~  - jacobian_utilities
+
+-- ~~  - sl_barrett_controller_interface
+
+-- ~~  - sl_controller_interface
+
+-- ~~  - arm_learn_hand_eye_calibration
+
+-- ~~  - robot_kinematics_cost_function
+
+-- ~~  - robot_inverse_kinematics
+
+-- ~~  - sl_biotac_controller_interface
+
+-- ~~  - sl_dmp_controller_interface
+
+-- ~~  - controller_manager_examples_arm
+
+-- ~~  - sl_head_arm_controller_interface
+
+-- ~~  - arm_verify_calibration
+
+-- ~~  - extrinsic_camera_calibration
+
+-- ~~  - sl_behaviors
+
+-- ~~  - grasp_data_recorder
+
+-- ~~  - robot_command_line
+
+-- ~~  - strain_gauge_calibration
+
+-- ~~  - verify_extrinsic_camera_calibration
+
+-- ~~  - vicon_calibration
+
+-- ~~  - vicon_core
+
+-- ~~  - sl_vicon_controllers
+
+-- ~~  - sl_dmp_controllers
+
+-- ~~  - robot_planning_srv
+
+-- ~~  - yaml_cpp
+
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-- +++ processing catkin package: 'Eigen'
+
+-- ==> add_subdirectory(catkin/third_party/Eigen)
+
+WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
+
+-- +++ processing catkin package: 'amd_clmc_dmp'
+
+-- ==> add_subdirectory(catkin/planning/amd_clmc_dmp)
+
+-- Boost version: 1.54.0
+
+-- Found the following Boost libraries:
+
+--   thread
+
+--   system
+
+--   filesystem
+
+-- +++ processing catkin package: 'arm_cdlbt'
+
+-- ==> add_subdirectory(catkin/robots/arm-barrett/cdlbt)
+
+-- MACHTYPE x86_64
+
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
 
 Call Stack (most recent call first):
 
-  catkin/core-calibration/rgbd_intrinsic_calibration/CMakeLists.txt:7 (find_package)
+  catkin/robots/arm-barrett/cdlbt/CMakeLists.txt:4 (include)
 
 
 
 
 
--- Could not find the required component 'rgbd_capture'. The following CMake error indicates that you either need to install the package with the same name or change your environment so that it can be found.
+-- HOST_NAME=everest
 
-CMake Error at /opt/ros/indigo/share/catkin/cmake/catkinConfig.cmake:83 (find_package):
+-- HOST=everest
 
-  Could not find a package configuration file provided by "rgbd_capture" with
+-- LAB=AMD
 
-  any of the following names:
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
 
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
 
+-- CMAKE_INCLUDE_PATH=
 
-    rgbd_captureConfig.cmake
+-- CMAKE_LIBRARY_PATH=
 
-    rgbd_capture-config.cmake
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
 
+-- LAB_LIBDIR=lib/x86_64
 
+-- LAB_INCLUDES=include
 
-  Add the installation prefix of "rgbd_capture" to CMAKE_PREFIX_PATH or set
+-- LAB_BINDIR=bin/x86_64
 
-  "rgbd_capture_DIR" to a directory containing one of the above files.  If
+-- Boost version: 1.54.0
 
-  "rgbd_capture" provides a separate development package or SDK, be sure it
+-- Found the following Boost libraries:
 
-  has been installed.
+--   thread
+
+-- +++ processing catkin package: 'arm_can_control_tools'
+
+-- ==> add_subdirectory(catkin/robots/arm-barrett/canControlTools)
+
+-- MACHTYPE x86_64
+
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
 
 Call Stack (most recent call first):
 
-  catkin/core-calibration/rgbd_intrinsic_calibration/CMakeLists.txt:7 (find_package)
+  catkin/robots/arm-barrett/canControlTools/CMakeLists.txt:4 (include)
+
+
+
+
+
+-- HOST_NAME=everest
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
+
+-- Boost version: 1.54.0
+
+-- Found the following Boost libraries:
+
+--   thread
+
+--   system
+
+-- +++ processing catkin package: 'biotac_core'
+
+-- ==> add_subdirectory(catkin/sensors/biotac-core)
+
+-- MACHTYPE x86_64
+
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+
+Call Stack (most recent call first):
+
+  catkin/sensors/biotac-core/CMakeLists.txt:8 (include)
+
+
+
+
+
+-- HOST_NAME=everest
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
+
+-- Boost version: 1.54.0
+
+-- Found the following Boost libraries:
+
+--   system
+
+-- +++ processing catkin package: 'catkin_gflags'
+
+-- ==> add_subdirectory(catkin/third_party/catkin-gflags)
+
+-- Found gflags  (include: /usr/include, library: /usr/lib/x86_64-linux-gnu/libgflags.so)
+
+-- +++ processing catkin package: 'catkin_glog'
+
+-- ==> add_subdirectory(catkin/third_party/catkin-glog)
+
+-- Found glog    (include: /usr/include, library: /usr/lib/x86_64-linux-gnu/libglog.so)
+
+-- +++ processing catkin package: 'conversions'
+
+-- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/usc_utils/conversions)
+
+-- +++ processing catkin package: 'graspit'
+
+-- ==> add_subdirectory(catkin/third_party/ros_graspit/graspit_simulator/graspit)
+
+CMake Error at /home/administrator/ci/ci/team/workspace/devel/share/catkin/cmake/catkinConfig.cmake:75 (find_package):
+
+  Could not find a package configuration file provided by
+
+  "household_objects_database" with any of the following names:
+
+
+
+    household_objects_databaseConfig.cmake
+
+    household_objects_database-config.cmake
+
+
+
+  Add the installation prefix of "household_objects_database" to
+
+  CMAKE_PREFIX_PATH or set "household_objects_database_DIR" to a directory
+
+  containing one of the above files.  If "household_objects_database"
+
+  provides a separate development package or SDK, be sure it has been
+
+  installed.
+
+Call Stack (most recent call first):
+
+  catkin/third_party/ros_graspit/graspit_simulator/graspit/CMakeLists.txt:7 (find_package)
 
 
 
