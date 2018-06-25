@@ -1,88 +1,4 @@
--- Using CATKIN_DEVEL_PREFIX: /home/administrator/ci/ci/team/workspace/devel
-
--- Using CMAKE_PREFIX_PATH: /opt/ros/indigo
-
--- This workspace overlays: /opt/ros/indigo
-
--- Using PYTHON_EXECUTABLE: /usr/bin/python
-
--- Using Debian Python package layout
-
--- Using empy: /usr/bin/empy
-
--- Using CATKIN_ENABLE_TESTING: ON
-
--- Call enable_testing()
-
--- Using CATKIN_TEST_RESULTS_DIR: /home/administrator/ci/ci/team/workspace/build/test_results
-
--- Found gtest sources under '/usr/src/gtest': gtests will be built
-
--- Using Python nosetests: /usr/bin/nosetests-2.7
-
--- catkin 0.6.19
-
--- BUILD_SHARED_LIBS is on
-
--- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
--- ~~  traversing 4 packages in topological order:
-
--- ~~  - imitation_gazebo_world
-
--- ~~  - pointcloud_msgs
-
--- ~~  - recognition_3d
-
--- ~~  - rec_3d_ros
-
--- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
--- +++ processing catkin package: 'imitation_gazebo_world'
-
--- ==> add_subdirectory(catkin/perception/imitation_gazebo_world)
-
--- +++ processing catkin package: 'pointcloud_msgs'
-
--- ==> add_subdirectory(catkin/perception/pointcloud_msgs)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- pointcloud_msgs: 1 messages, 1 services
-
--- +++ processing catkin package: 'recognition_3d'
-
--- ==> add_subdirectory(catkin/perception/3d_classification/recognition_3d)
-
--- Using these message generators: gencpp;genlisp;genpy
-
-CMake Error at catkin/perception/3d_classification/recognition_3d/CMakeLists.txt:12 (find_package):
-
-  Could not find a configuration file for package "PCL" that is compatible
-
-  with requested version "1.8".
-
-
-
-  The following configuration files were considered but not accepted:
-
-
-
-    /usr/local/share/pcl-1.7/PCLConfig.cmake, version: 1.7.2
-
-    /usr/share/pcl-1.7/PCLConfig.cmake, version: 1.7.1
-
-
-
-
-
-
-
--- Configuring incomplete, errors occurred!
-
-See also "/home/administrator/ci/ci/team/workspace/build/CMakeFiles/CMakeOutput.log".
-
-See also "/home/administrator/ci/ci/team/workspace/build/CMakeFiles/CMakeError.log".
+WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
 
 Base path: /home/administrator/ci/ci/team/workspace
 
@@ -94,10 +10,14 @@ Devel space: /home/administrator/ci/ci/team/workspace/devel
 
 Install space: /home/administrator/ci/ci/team/workspace/install
 
-####
+Multiple packages found with the same name "capture_points":
 
-#### Running command: "cmake /home/administrator/ci/ci/team/workspace/src -DCATKIN_DEVEL_PREFIX=/home/administrator/ci/ci/team/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/administrator/ci/ci/team/workspace/install -G Unix Makefiles" in "/home/administrator/ci/ci/team/workspace/build"
+- catkin/humanoids/capture_points
 
-####
+- catkin/humanoids/humanoid_control/capture_points/capture_points
 
-Invoking "cmake" failed
+Multiple packages found with the same name "py_cpp_interface":
+
+- catkin/humanoids/humanoid_control/py_cpp_interface
+
+- catkin/utils/py_cpp_interface
