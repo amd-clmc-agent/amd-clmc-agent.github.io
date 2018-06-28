@@ -1,3 +1,5 @@
+WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
+
 -- The C compiler identification is GNU 4.8.4
 
 -- The CXX compiler identification is GNU 4.8.4
@@ -64,23 +66,39 @@
 
 -- BUILD_SHARED_LIBS is on
 
+WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
+
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 -- ~~  traversing 4 packages in topological order:
 
--- ~~  - ci_example_python
+-- ~~  - Eigen
+
+-- ~~  - guided_policy_search
+
+-- ~~  - rbdl
 
 -- ~~  - yaml_cpp
 
--- ~~  - ci_example_cpp
-
--- ~~  - ci_doxygen_child_cpp
-
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- +++ processing catkin package: 'ci_example_python'
+-- +++ processing catkin package: 'Eigen'
 
--- ==> add_subdirectory(catkin/examples/ci_example/ci_example_python)
+-- ==> add_subdirectory(catkin/third_party/Eigen)
+
+WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
+
+-- +++ processing catkin package: 'guided_policy_search'
+
+-- ==> add_subdirectory(catkin/learning/guided-policy-search)
+
+-- +++ processing catkin package: 'rbdl'
+
+-- ==> add_subdirectory(catkin/third_party/rbdl)
+
+-- Setting build type to 'Release' as none was specified.
+
+-- ROS found: /opt/ros/indigo/share/ros
 
 -- +++ processing catkin package: 'yaml_cpp'
 
@@ -92,14 +110,6 @@
 
 -- Performing Test FLAG_WEXTRA - Success
 
--- +++ processing catkin package: 'ci_example_cpp'
-
--- ==> add_subdirectory(catkin/examples/ci_example/ci_example_cpp)
-
--- +++ processing catkin package: 'ci_doxygen_child_cpp'
-
--- ==> add_subdirectory(catkin/examples/ci_example/ci_doxygen_child_cpp)
-
 -- Configuring done
 
 -- Generating done
@@ -108,49 +118,57 @@
 
 Scanning dependencies of target yaml-cpp
 
-[  2%] [  4%] [  6%] [  9%] [ 11%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/nodebuilder.cpp.o
+[  2%] [  4%] [  6%] [  8%] [ 10%] [ 12%] [ 14%] [ 16%] [ 18%] [ 20%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/nodebuilder.cpp.o
 
-[ 13%] [ 15%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/scantoken.cpp.o
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/scantoken.cpp.o
+
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/memory.cpp.o
 
 Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/parse.cpp.o
 
-[ 18%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/node.cpp.o
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/directives.cpp.o
 
-[ 20%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/memory.cpp.o
-
-[ 22%] [ 25%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/nodeevents.cpp.o
+[ 22%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/tag.cpp.o
 
 Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/ostream_wrapper.cpp.o
 
-Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/tag.cpp.o
+[ 24%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/node.cpp.o
 
-Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emitterutils.cpp.o
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/scanscalar.cpp.o
 
-Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/directives.cpp.o
+[ 26%] [ 28%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/nodeevents.cpp.o
 
-[ 27%] [ 29%] [ 31%] [ 34%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/scanscalar.cpp.o
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/scantag.cpp.o
 
-[ 36%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/scantag.cpp.o
+[ 30%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emitterutils.cpp.o
+
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/parser.cpp.o
 
 Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/scanner.cpp.o
 
 Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emitter.cpp.o
 
-Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/parser.cpp.o
+Scanning dependencies of target rbdl
 
-Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/exp.cpp.o
+[ 32%] Building CXX object catkin/third_party/rbdl/CMakeFiles/rbdl.dir/src/rbdl_version.cc.o
 
-[ 38%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/regex.cpp.o
+[ 34%] Building CXX object catkin/third_party/rbdl/CMakeFiles/rbdl.dir/src/rbdl_mathutils.cc.o
 
-[ 40%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/binary.cpp.o
+[ 36%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/exp.cpp.o
 
-[ 43%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/node_data.cpp.o
+[ 38%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/binary.cpp.o
 
-[ 45%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emit.cpp.o
+[ 40%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/regex.cpp.o
 
-[ 47%] [ 50%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/simplekey.cpp.o
+[ 42%] Building CXX object catkin/third_party/rbdl/CMakeFiles/rbdl.dir/src/rbdl_utils.cc.o
 
-Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emitterstate.cpp.o
+[ 44%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/node_data.cpp.o
+
+[ 46%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emit.cpp.o
+
+[ 48%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/simplekey.cpp.o
+
+[ 50%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emitterstate.cpp.o
 
 [ 52%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/convert.cpp.o
 
@@ -158,105 +176,97 @@ Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emit
 
 [ 56%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/stream.cpp.o
 
-[ 59%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emitfromevents.cpp.o
+[ 58%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emitfromevents.cpp.o
 
-[ 61%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/null.cpp.o
+[ 60%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/null.cpp.o
 
-[ 63%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilderadapter.cpp.o
+[ 62%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilderadapter.cpp.o
 
-[ 65%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilder.cpp.o
+[ 64%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilder.cpp.o
+
+[ 66%] Building CXX object catkin/third_party/rbdl/CMakeFiles/rbdl.dir/src/Contacts.cc.o
+
+[ 68%] Building CXX object catkin/third_party/rbdl/CMakeFiles/rbdl.dir/src/Dynamics.cc.o
+
+[ 70%] Building CXX object catkin/third_party/rbdl/CMakeFiles/rbdl.dir/src/Logging.cc.o
+
+[ 72%] Building CXX object catkin/third_party/rbdl/CMakeFiles/rbdl.dir/src/Joint.cc.o
+
+[ 76%] [ 76%] Building CXX object catkin/third_party/rbdl/CMakeFiles/rbdl.dir/src/Model.cc.o
+
+Building CXX object catkin/third_party/rbdl/CMakeFiles/rbdl.dir/src/Kinematics.cc.o
 
 Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libyaml-cpp.so
 
-[ 65%] Built target yaml-cpp
-
-Scanning dependencies of target sandbox
-
-Scanning dependencies of target read
+[ 76%] Built target yaml-cpp
 
 Scanning dependencies of target parse
 
-[ 68%] [ 70%] [ 72%] Scanning dependencies of target run-tests
+Scanning dependencies of target read
 
-Scanning dependencies of target basic_pid
+Scanning dependencies of target sandbox
 
-Building CXX object catkin/third_party/YAML_CPP/util/CMakeFiles/sandbox.dir/sandbox.cpp.o
+[ 78%] [ 80%] [ 82%] Building CXX object catkin/third_party/YAML_CPP/util/CMakeFiles/sandbox.dir/sandbox.cpp.o
 
 Building CXX object catkin/third_party/YAML_CPP/util/CMakeFiles/read.dir/read.cpp.o
 
+Scanning dependencies of target run-tests
+
 Building CXX object catkin/third_party/YAML_CPP/util/CMakeFiles/parse.dir/parse.cpp.o
 
-[ 75%] [ 79%] [ 79%] [ 81%] [ 84%] [ 86%] [ 88%] Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/tests.cpp.o
+[ 84%] Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/emittertests.cpp.o
 
-Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/spectests.cpp.o
+[ 86%] Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/spectests.cpp.o
 
-[ 90%] Building CXX object catkin/examples/ci_example/ci_example_cpp/CMakeFiles/basic_pid.dir/src/basic_pid.cpp.o
+[ 88%] [ 90%] Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/main.cpp.o
 
-Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/main.cpp.o
+[ 92%] Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/tests.cpp.o
+
+[ 94%] Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/new-api/parsertests.cpp.o
 
 Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/new-api/spectests.cpp.o
 
-Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/emittertests.cpp.o
-
-Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/new-api/parsertests.cpp.o
-
-Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/new-api/nodetests.cpp.o
-
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/yaml_cpp/sandbox
+[ 96%] Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/new-api/nodetests.cpp.o
 
 Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/yaml_cpp/read
 
-[ 90%] Built target sandbox
-
-[ 90%] Built target read
-
 Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/yaml_cpp/parse
 
-[ 90%] Built target parse
+[ 96%] Built target read
 
-Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libbasic_pid.so
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/yaml_cpp/sandbox
 
-[ 90%] Built target basic_pid
+[ 96%] Built target parse
 
-Scanning dependencies of target ci_example_demo
-
-Scanning dependencies of target ci_example_abs_path_config_demo
-
-Scanning dependencies of target ci_example_ros
-
-Scanning dependencies of target doxygen_child
-
-[ 93%] [ 95%] [ 97%] [100%] Building CXX object catkin/examples/ci_example/ci_example_cpp/CMakeFiles/ci_example_demo.dir/src/demos/ci_example_demo.cpp.o
-
-Building CXX object catkin/examples/ci_example/ci_example_cpp/CMakeFiles/ci_example_ros.dir/src/demos/ci_example_ros.cpp.o
-
-Building CXX object catkin/examples/ci_example/ci_example_cpp/CMakeFiles/ci_example_abs_path_config_demo.dir/src/demos/ci_example_abs_path_config_demo.cpp.o
-
-Building CXX object catkin/examples/ci_example/ci_doxygen_child_cpp/CMakeFiles/doxygen_child.dir/src/doxygen_child.cpp.o
-
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/ci_example_cpp/ci_example_ros
-
-[100%] Built target ci_example_ros
-
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/ci_example_cpp/ci_example_abs_path_config_demo
-
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/ci_example_cpp/ci_example_demo
-
-[100%] Built target ci_example_abs_path_config_demo
-
-[100%] Built target ci_example_demo
-
-Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libdoxygen_child.so
-
-[100%] Built target doxygen_child
+[ 96%] Built target sandbox
 
 Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/yaml_cpp/run-tests
 
-[100%] Built target run-tests
+[ 96%] Built target run-tests
+
+Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/librbdl.so
+
+[ 96%] Built target rbdl
+
+Scanning dependencies of target rbdl_urdfreader
+
+[ 98%] Building CXX object catkin/third_party/rbdl/addons/urdfreader/CMakeFiles/rbdl_urdfreader.dir/urdfreader.cc.o
+
+Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/librbdl_urdfreader.so
+
+[ 98%] Built target rbdl_urdfreader
+
+Scanning dependencies of target rbdl_urdfreader_util
+
+[100%] Building CXX object catkin/third_party/rbdl/addons/urdfreader/CMakeFiles/rbdl_urdfreader_util.dir/rbdl_urdfreader_util.cc.o
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/rbdl/rbdl_urdfreader_util
+
+[100%] Built target rbdl_urdfreader_util
 
 Install the project...
 
--- Install configuration: ""
+-- Install configuration: "Release"
 
 -- Installing: /home/administrator/ci/ci/team/workspace/install/_setup_util.py
 
@@ -270,41 +280,143 @@ Install the project...
 
 -- Installing: /home/administrator/ci/ci/team/workspace/install/.rosinstall
 
-+ cd /home/administrator/ci/ci/team/workspace/src/catkin/examples/ci_example/ci_example_python
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/Eigen.pc
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/Eigen/cmake/EigenConfig.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/Eigen/cmake/EigenConfig-version.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/Eigen/package.xml
+
++ cd /home/administrator/ci/ci/team/workspace/src/catkin/learning/guided-policy-search
 
 + mkdir -p /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages
 
-+ /usr/bin/env PYTHONPATH=/home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages:/home/administrator/ci/ci/team/workspace/build/lib/python2.7/dist-packages:/opt/ros/indigo/lib/python2.7/dist-packages CATKIN_BINARY_DIR=/home/administrator/ci/ci/team/workspace/build /usr/bin/python /home/administrator/ci/ci/team/workspace/src/catkin/examples/ci_example/ci_example_python/setup.py build --build-base /home/administrator/ci/ci/team/workspace/build/catkin/examples/ci_example/ci_example_python install --install-layout=deb --prefix=/home/administrator/ci/ci/team/workspace/install --install-scripts=/home/administrator/ci/ci/team/workspace/install/bin
++ /usr/bin/env PYTHONPATH=/home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages:/home/administrator/ci/ci/team/workspace/build/lib/python2.7/dist-packages:/opt/ros/indigo/lib/python2.7/dist-packages CATKIN_BINARY_DIR=/home/administrator/ci/ci/team/workspace/build /usr/bin/python /home/administrator/ci/ci/team/workspace/src/catkin/learning/guided-policy-search/setup.py build --build-base /home/administrator/ci/ci/team/workspace/build/catkin/learning/guided-policy-search install --install-layout=deb --prefix=/home/administrator/ci/ci/team/workspace/install --install-scripts=/home/administrator/ci/ci/team/workspace/install/bin
 
 running build
 
 running build_py
 
-creating /home/administrator/ci/ci/team/workspace/build/catkin/examples/ci_example/ci_example_python/lib.linux-x86_64-2.7
+creating /home/administrator/ci/ci/team/workspace/build/catkin/learning/guided-policy-search/lib.linux-x86_64-2.7
 
-creating /home/administrator/ci/ci/team/workspace/build/catkin/examples/ci_example/ci_example_python/lib.linux-x86_64-2.7/ci_example_python
+creating /home/administrator/ci/ci/team/workspace/build/catkin/learning/guided-policy-search/lib.linux-x86_64-2.7/guided_policy_search
 
-copying scripts/ci_example_python/__init__.py -> /home/administrator/ci/ci/team/workspace/build/catkin/examples/ci_example/ci_example_python/lib.linux-x86_64-2.7/ci_example_python
+copying src/guided_policy_search/util.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/guided-policy-search/lib.linux-x86_64-2.7/guided_policy_search
 
-copying scripts/ci_example_python/pid.py -> /home/administrator/ci/ci/team/workspace/build/catkin/examples/ci_example/ci_example_python/lib.linux-x86_64-2.7/ci_example_python
+copying src/guided_policy_search/dynamics.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/guided-policy-search/lib.linux-x86_64-2.7/guided_policy_search
+
+copying src/guided_policy_search/__init__.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/guided-policy-search/lib.linux-x86_64-2.7/guided_policy_search
+
+copying src/guided_policy_search/policy.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/guided-policy-search/lib.linux-x86_64-2.7/guided_policy_search
+
+copying src/guided_policy_search/cost.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/guided-policy-search/lib.linux-x86_64-2.7/guided_policy_search
+
+copying src/guided_policy_search/agent.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/guided-policy-search/lib.linux-x86_64-2.7/guided_policy_search
+
+copying src/guided_policy_search/optimize.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/guided-policy-search/lib.linux-x86_64-2.7/guided_policy_search
 
 running install
 
 running install_lib
 
-creating /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/ci_example_python
+creating /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/guided_policy_search
 
-copying /home/administrator/ci/ci/team/workspace/build/catkin/examples/ci_example/ci_example_python/lib.linux-x86_64-2.7/ci_example_python/__init__.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/ci_example_python
+copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/guided-policy-search/lib.linux-x86_64-2.7/guided_policy_search/util.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/guided_policy_search
 
-copying /home/administrator/ci/ci/team/workspace/build/catkin/examples/ci_example/ci_example_python/lib.linux-x86_64-2.7/ci_example_python/pid.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/ci_example_python
+copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/guided-policy-search/lib.linux-x86_64-2.7/guided_policy_search/dynamics.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/guided_policy_search
 
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/ci_example_python/__init__.py to __init__.pyc
+copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/guided-policy-search/lib.linux-x86_64-2.7/guided_policy_search/__init__.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/guided_policy_search
 
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/ci_example_python/pid.py to pid.pyc
+copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/guided-policy-search/lib.linux-x86_64-2.7/guided_policy_search/policy.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/guided_policy_search
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/guided-policy-search/lib.linux-x86_64-2.7/guided_policy_search/cost.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/guided_policy_search
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/guided-policy-search/lib.linux-x86_64-2.7/guided_policy_search/agent.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/guided_policy_search
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/guided-policy-search/lib.linux-x86_64-2.7/guided_policy_search/optimize.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/guided_policy_search
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/guided_policy_search/util.py to util.pyc
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/guided_policy_search/dynamics.py to dynamics.pyc
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/guided_policy_search/__init__.py to __init__.pyc
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/guided_policy_search/policy.py to policy.pyc
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/guided_policy_search/cost.py to cost.pyc
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/guided_policy_search/agent.py to agent.pyc
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/guided_policy_search/optimize.py to optimize.pyc
 
 running install_egg_info
 
-Writing /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/ci_example_python-1.0.0.egg-info
+Writing /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/guided_policy_search-0.0.0.egg-info
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/guided_policy_search.pc
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/guided_policy_search/cmake/guided_policy_searchConfig.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/guided_policy_search/cmake/guided_policy_searchConfig-version.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/guided_policy_search/package.xml
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/rbdl.pc
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/rbdl/cmake/rbdlConfig.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/rbdl/cmake/rbdlConfig-version.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/rbdl/package.xml
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/x86_64-linux-gnu/librbdl.so.2.5.0
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/x86_64-linux-gnu/librbdl.so
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/rbdl.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/Quaternion.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/Dynamics.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/Joint.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/rbdl_utils.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/Model.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/rbdl_math.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/rbdl_mathutils.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/Kinematics.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/rbdl_eigenmath.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/Logging.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/Body.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/SpatialAlgebraOperators.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/compileassert.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/Contacts.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/x86_64-linux-gnu/pkgconfig/rbdl.pc
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/x86_64-linux-gnu/librbdl_urdfreader.so.2.5.0
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/x86_64-linux-gnu/librbdl_urdfreader.so
+
+-- Removed runtime path from "/home/administrator/ci/ci/team/workspace/install/lib/x86_64-linux-gnu/librbdl_urdfreader.so.2.5.0"
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/bin/rbdl_urdfreader_util
+
+-- Removed runtime path from "/home/administrator/ci/ci/team/workspace/install/bin/rbdl_urdfreader_util"
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/addons/urdfreader/urdfreader.h
 
 -- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/yaml_cpp.pc
 
@@ -403,26 +515,6 @@ Writing /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-pack
 -- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/null.h
 
 -- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/yaml-cpp.pc
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/ci_example_cpp.pc
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/ci_example_cpp/cmake/ci_example_cppConfig.cmake
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/ci_example_cpp/cmake/ci_example_cppConfig-version.cmake
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/ci_example_cpp/package.xml
-
--- Installing: /home/administrator/ci/ci/team/workspace/src/catkin/examples/ci_example/ci_example_cpp/demos/bin/ci_example_ros
-
--- Set runtime path of "/home/administrator/ci/ci/team/workspace/src/catkin/examples/ci_example/ci_example_cpp/demos/bin/ci_example_ros" to "/home/administrator/ci/ci/team/workspace/install/lib:/home/administrator/ci/ci/team/workspace/devel/lib:/opt/ros/indigo/lib"
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/ci_doxygen_child_cpp.pc
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/ci_doxygen_child_cpp/cmake/ci_doxygen_child_cppConfig.cmake
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/ci_doxygen_child_cpp/cmake/ci_doxygen_child_cppConfig-version.cmake
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/ci_doxygen_child_cpp/package.xml
 
 Base path: /home/administrator/ci/ci/team/workspace
 
