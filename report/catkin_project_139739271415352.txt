@@ -8,9 +8,9 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 
 -- Using PYTHON_EXECUTABLE: /usr/bin/python
 
--- Using Debian Python package layout
+-- Python version: 2.7
 
--- Using empy: /usr/bin/empy
+-- Using Debian Python package layout
 
 -- Using CATKIN_ENABLE_TESTING: ON
 
@@ -20,9 +20,7 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 
 -- Found gtest sources under '/usr/src/gtest': gtests will be built
 
--- Using Python nosetests: /usr/bin/nosetests-2.7
-
--- catkin 0.6.19
+-- catkin 0.5.90
 
 -- BUILD_SHARED_LIBS is on
 
@@ -30,31 +28,35 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- ~~  traversing 12 packages in topological order:
+-- ~~  traversing 14 packages in topological order:
 
 -- ~~  - Eigen
 
--- ~~  - python_file_parser
+-- ~~  - ros_realtime (metapackage)
 
--- ~~  - rbdl
+-- ~~  - allocators
 
--- ~~  - cyberglove_handsim_control
+-- ~~  - rosatomic
 
--- ~~  - amd_clmc_ros_messages
+-- ~~  - lockfree
 
--- ~~  - ar_track_alvar_msgs
+-- ~~  - rt_timer
 
--- ~~  - custom_robot_msgs
+-- ~~  - vrpn_vicon_minimum
 
--- ~~  - riemo_grasping_msgs
+-- ~~  - vrpn_vicon_objs_tracker
 
--- ~~  - cereal_port
+-- ~~  - xenomai_ros
 
--- ~~  - sr_gui_cyberglove_calibrator
+-- ~~  - rosrt
 
--- ~~  - cyberglove
+-- ~~  - ros_rt_test
 
--- ~~  - haptix_recorder
+-- ~~  - vicon_bridge
+
+-- ~~  - vicon_core
+
+-- ~~  - vicon_subscriber
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -64,43 +66,125 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 
 WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
 
--- +++ processing catkin package: 'python_file_parser'
+-- +++ processing catkin metapackage: 'ros_realtime'
 
--- ==> add_subdirectory(catkin/utilities/amd_clmc_script_utilities/python_file_parser)
+-- ==> add_subdirectory(catkin/ros/ros_realtime/ros_realtime)
 
--- +++ processing catkin package: 'rbdl'
+-- +++ processing catkin package: 'allocators'
 
--- ==> add_subdirectory(catkin/third_party/rbdl)
-
--- ROS found: /opt/ros/indigo/share/ros
-
--- +++ processing catkin package: 'cyberglove_handsim_control'
-
--- ==> add_subdirectory(catkin/cyberglove/cyberglove_ros/cyberglove_handsim_control)
-
--- Operating system is Linux
+-- ==> add_subdirectory(catkin/ros/ros_realtime/allocators)
 
 -- Boost version: 1.54.0
 
-CMake Error at catkin/cyberglove/cyberglove_ros/cyberglove_handsim_control/cmake/SearchForStuff.cmake:8 (find_package):
+-- +++ processing catkin package: 'rosatomic'
 
-  Could not find a configuration file for package "gazebo" that is compatible
+-- ==> add_subdirectory(catkin/ros/ros_realtime/rosatomic)
 
-  with requested version "7.0.0".
+-- Boost version: 1.54.0
+
+-- +++ processing catkin package: 'lockfree'
+
+-- ==> add_subdirectory(catkin/ros/ros_realtime/lockfree)
+
+-- Boost version: 1.54.0
+
+-- +++ processing catkin package: 'rt_timer'
+
+-- ==> add_subdirectory(catkin/ros/ros_realtime/rt_timer)
+
+-- +++ processing catkin package: 'vrpn_vicon_minimum'
+
+-- ==> add_subdirectory(catkin/perception/vrpn_vicon_minimum)
+
+-- +++ processing catkin package: 'vrpn_vicon_objs_tracker'
+
+-- ==> add_subdirectory(catkin/perception/vrpn_vicon_objs_tracker)
+
+-- +++ processing catkin package: 'xenomai_ros'
+
+-- ==> add_subdirectory(catkin/ros/xenomai-ros)
+
+-- +++ processing catkin package: 'rosrt'
+
+-- ==> add_subdirectory(catkin/ros/ros_realtime/rosrt)
+
+-- xenomai NOT found. (/usr/local;/usr)
+
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+
+-- Boost version: 1.54.0
+
+-- Found the following Boost libraries:
+
+--   thread
+
+-- +++ processing catkin package: 'ros_rt_test'
+
+-- ==> add_subdirectory(catkin/ros/ros_rt_basic_example)
+
+-- xenomai NOT found. (/usr/local;/usr)
+
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+
+-- +++ processing catkin package: 'vicon_bridge'
+
+-- ==> add_subdirectory(catkin/perception/vicon_bridge)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- Boost version: 1.54.0
+
+-- Found the following Boost libraries:
+
+--   thread
+
+-- vicon_bridge: 3 messages, 2 services
+
+-- +++ processing catkin package: 'vicon_core'
+
+-- ==> add_subdirectory(catkin/sensors/vicon-core)
+
+CMake Error at catkin/sensors/vicon-core/CMakeLists.txt:8 (include):
+
+  include could not find load file:
 
 
 
-  The following configuration files were considered but not accepted:
+    /home/administrator/ci/ci/team/workspace/src/cmake/sl_cmake_global/LAB.cmake
 
 
 
-    /usr/share/gazebo/cmake/gazebo-config.cmake, version: unknown
 
 
+-- xenomai NOT found. (/usr/local;/usr)
+
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+
+CMake Error at /home/administrator/ci/ci/team/workspace/devel/share/catkin/cmake/catkinConfig.cmake:75 (find_package):
+
+  Could not find a package configuration file provided by
+
+  "amd_clmc_ros_messages" with any of the following names:
+
+
+
+    amd_clmc_ros_messagesConfig.cmake
+
+    amd_clmc_ros_messages-config.cmake
+
+
+
+  Add the installation prefix of "amd_clmc_ros_messages" to CMAKE_PREFIX_PATH
+
+  or set "amd_clmc_ros_messages_DIR" to a directory containing one of the
+
+  above files.  If "amd_clmc_ros_messages" provides a separate development
+
+  package or SDK, be sure it has been installed.
 
 Call Stack (most recent call first):
 
-  catkin/cyberglove/cyberglove_ros/cyberglove_handsim_control/CMakeLists.txt:11 (include)
+  catkin/sensors/vicon-core/CMakeLists.txt:12 (find_package)
 
 
 
