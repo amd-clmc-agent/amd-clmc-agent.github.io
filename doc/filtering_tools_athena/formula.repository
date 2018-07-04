@@ -1,0 +1,41 @@
+\form#0:\begin{align} x_t = g(u_t, x_{t-1}) + \epsilon_t \\ z_t = h(x_t) + \delta_t \end{align}
+\form#1:$ x_t $
+\form#2:$ u_t $
+\form#3:$ g $
+\form#4:$ \epsilon_t \approx N(0, R_t) $
+\form#5:$ h $
+\form#6:$ \delta_t \approx N(0, Q_t) $
+\form#7:\begin{align} x_t = g(u_t, \mu_{t-1}) + G_t \; * \; (x_{t-1} - \mu_{t-1}) + \epsilon_t \\ z_t = h(\mu_t) + H_t \; * \; (x_{t} - \mu_{t}) + \delta_t \end{align}
+\form#8:$ \mu_{t} $
+\form#9:$ \Sigma_t $
+\form#10:$ \mu_{t-1} $
+\form#11:$ \Sigma_{t-1} $
+\form#12:$ M $
+\form#13:\begin{align} M = \left[ \left. \frac{-G_t}{0} \right| \frac{E_t R_t E_t^T}{G_t^T} \right] \end{align}
+\form#14:$ E_t $
+\form#15:\begin{align} e^{M \Delta t} = \left[ \left. \frac{ e^{-G_t \Delta t} }{0} \right| \frac{ e^{-G_t \Delta t} F_{t, disc} }{ e^{G_t^T \Delta t} } \right] \end{align}
+\form#16:\begin{align} R_{t, disc} = e^{G_t \Delta t} = (e^{G_t^T \Delta t})^T \end{align}
+\form#17:\begin{align} F_{t, disc} = R_{t, disc} \;\;\; e^{M \Delta t}[\text{upper right corner}] \end{align}
+\form#18:$ {disc} $
+\form#19:$ \tilde{\mu}_{t} $
+\form#20:$ \tilde{\Sigma}_{t} $
+\form#21:\begin{align} \tilde{\mu}_{t} &= g(u_t, \mu_{t-1}) \\ \tilde{\Sigma}_{t} &= G_t \Sigma_{t-1} G_t^T + R_t \end{align}
+\form#22:\begin{align} K_{t} &= \tilde{\Sigma}_{t} H_t^T (H_t \tilde{\Sigma}_t H_t^T + Q_t)^{-1} \\ \mu_{t} &= \tilde{\mu}_{t} + K_t (z_t - h(\tilde{\mu}_t)) \\ \Sigma_{t} &= (I - K_t H_t) \tilde{\Sigma}_{t} \end{align}
+\form#23:$ \tilde{\mu} $
+\form#24:$ \tilde{\Sigma} $
+\form#25:$ \Sigma_{t} $
+\form#26:$ z_{t} $
+\form#27:$ h(\tilde{\mu}_t)$
+\form#28:$ g(u_t, x_{t-1}) $
+\form#29:$ [x_{t-1}^T \;\; u_t^T]^T $
+\form#30:$ G_t $
+\form#31:$ R_t $
+\form#32:$ h(x_t) $
+\form#33:$ H_t $
+\form#34:$ Q_t $
+\form#35:$ z_t $
+\form#36:$ \frac{f(x+ds) - f(x-ds)}{2ds} $
+\form#37:$ e^{M dt} $
+\form#38:$ G_{t,disc}/G_t $
+\form#39:$ R_{t,disc}/R_t $
+\form#40:$ K_t $

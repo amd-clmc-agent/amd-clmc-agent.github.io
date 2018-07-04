@@ -7,10 +7,18 @@
 
 var indexSectionsWithContent =
 {
+  0: "gnrv",
+  1: "rv",
+  2: "g",
+  3: "n"
 };
 
 var indexSectionNames =
 {
+  0: "all",
+  1: "classes",
+  2: "functions",
+  3: "variables"
 };
 
 function convertToId(search)

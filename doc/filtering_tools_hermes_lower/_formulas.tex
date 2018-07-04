@@ -1,0 +1,128 @@
+\documentclass{article}
+\usepackage{epsfig}
+\pagestyle{empty}
+\begin{document}
+\begin{align} x_t = g(u_t, x_{t-1}) + \epsilon_t \\ z_t = h(x_t) + \delta_t \end{align}
+\pagebreak
+
+$ x_t $
+\pagebreak
+
+$ u_t $
+\pagebreak
+
+$ g $
+\pagebreak
+
+$ \epsilon_t \approx N(0, R_t) $
+\pagebreak
+
+$ h $
+\pagebreak
+
+$ \delta_t \approx N(0, Q_t) $
+\pagebreak
+
+\begin{align} x_t = g(u_t, \mu_{t-1}) + G_t \; * \; (x_{t-1} - \mu_{t-1}) + \epsilon_t \\ z_t = h(\mu_t) + H_t \; * \; (x_{t} - \mu_{t}) + \delta_t \end{align}
+\pagebreak
+
+$ \mu_{t} $
+\pagebreak
+
+$ \Sigma_t $
+\pagebreak
+
+$ \mu_{t-1} $
+\pagebreak
+
+$ \Sigma_{t-1} $
+\pagebreak
+
+$ M $
+\pagebreak
+
+\begin{align} M = \left[ \left. \frac{-G_t}{0} \right| \frac{E_t R_t E_t^T}{G_t^T} \right] \end{align}
+\pagebreak
+
+$ E_t $
+\pagebreak
+
+\begin{align} e^{M \Delta t} = \left[ \left. \frac{ e^{-G_t \Delta t} }{0} \right| \frac{ e^{-G_t \Delta t} F_{t, disc} }{ e^{G_t^T \Delta t} } \right] \end{align}
+\pagebreak
+
+\begin{align} R_{t, disc} = e^{G_t \Delta t} = (e^{G_t^T \Delta t})^T \end{align}
+\pagebreak
+
+\begin{align} F_{t, disc} = R_{t, disc} \;\;\; e^{M \Delta t}[\text{upper right corner}] \end{align}
+\pagebreak
+
+$ {disc} $
+\pagebreak
+
+$ \tilde{\mu}_{t} $
+\pagebreak
+
+$ \tilde{\Sigma}_{t} $
+\pagebreak
+
+\begin{align} \tilde{\mu}_{t} &= g(u_t, \mu_{t-1}) \\ \tilde{\Sigma}_{t} &= G_t \Sigma_{t-1} G_t^T + R_t \end{align}
+\pagebreak
+
+\begin{align} K_{t} &= \tilde{\Sigma}_{t} H_t^T (H_t \tilde{\Sigma}_t H_t^T + Q_t)^{-1} \\ \mu_{t} &= \tilde{\mu}_{t} + K_t (z_t - h(\tilde{\mu}_t)) \\ \Sigma_{t} &= (I - K_t H_t) \tilde{\Sigma}_{t} \end{align}
+\pagebreak
+
+$ \tilde{\mu} $
+\pagebreak
+
+$ \tilde{\Sigma} $
+\pagebreak
+
+$ \Sigma_{t} $
+\pagebreak
+
+$ z_{t} $
+\pagebreak
+
+$ h(\tilde{\mu}_t)$
+\pagebreak
+
+$ g(u_t, x_{t-1}) $
+\pagebreak
+
+$ [x_{t-1}^T \;\; u_t^T]^T $
+\pagebreak
+
+$ G_t $
+\pagebreak
+
+$ R_t $
+\pagebreak
+
+$ h(x_t) $
+\pagebreak
+
+$ H_t $
+\pagebreak
+
+$ Q_t $
+\pagebreak
+
+$ z_t $
+\pagebreak
+
+$ \frac{f(x+ds) - f(x-ds)}{2ds} $
+\pagebreak
+
+$ e^{M dt} $
+\pagebreak
+
+$ G_{t,disc}/G_t $
+\pagebreak
+
+$ R_{t,disc}/R_t $
+\pagebreak
+
+$ K_t $
+\pagebreak
+
+\end{document}
