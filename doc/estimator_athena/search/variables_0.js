@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['noise_5fdim',['noise_dim',['../classViconIMUState.html#a7bec9cd3450f520ef1c9c8ddda16ed08',1,'ViconIMUState']]]
+  ['noise_5fdim',['noise_dim',['../classestimator_1_1ViconIMUState.html#a1b357b34c46674c7a53d68212c0b7fd0',1,'estimator::ViconIMUState']]]
 ];

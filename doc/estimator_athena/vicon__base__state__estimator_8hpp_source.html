@@ -88,14 +88,14 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="contents">
 <div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;vicon_base_state_estimator.h&quot;</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="keyword">inline</span> ViconIMUBaseStateEstimator::ViconIMUBaseStateEstimator(</div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="keyword">inline</span> estimator::ViconIMUBaseStateEstimator::ViconIMUBaseStateEstimator(</div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;    <span class="keywordtype">double</span> dt, <span class="keyword">const</span> YAML::Node &amp;config) :</div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;      config_(config),</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;      EKF(false, false, dt, 1)</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;{</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;}</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">inline</span> <span class="keywordtype">void</span> ViconIMUBaseStateEstimator::initialize(</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">inline</span> <span class="keywordtype">void</span> estimator::ViconIMUBaseStateEstimator::initialize(</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    Eigen::Matrix4d base_pose_data) {</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;  <span class="comment">// Load noise and other config parameters from YAML file:</span></div>
@@ -165,14 +165,14 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;  state_post_.gyro_bias.setZero();</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;  state_pre_ = state_post_;</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;  std::cout &lt;&lt; <span class="stringliteral">&quot;Vicon BSE Initial State:&quot;</span> &lt;&lt; std::endl;</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;  std::cout &lt;&lt; state_post_.getState().transpose() &lt;&lt; std::endl</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;            &lt;&lt; state_post_.imu_pos.transpose() &lt;&lt; <span class="stringliteral">&quot; ; &quot;</span></div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;            &lt;&lt; state_post_.imu_vel.transpose() &lt;&lt; <span class="stringliteral">&quot; ; &quot;</span></div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;            &lt;&lt; state_post_.imu_quat.get().transpose() &lt;&lt; <span class="stringliteral">&quot; ; &quot;</span></div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;            &lt;&lt; state_post_.accel_bias.transpose() &lt;&lt; <span class="stringliteral">&quot; ; &quot;</span></div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;            &lt;&lt; state_post_.gyro_bias.transpose() &lt;&lt; std::endl</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;            &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="comment">//  std::cout &lt;&lt; &quot;Vicon BSE Initial State:&quot; &lt;&lt; std::endl;</span></div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="comment">//  std::cout &lt;&lt; state_post_.getState().transpose() &lt;&lt; std::endl</span></div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="comment">//              &lt;&lt; state_post_.imu_pos.transpose() &lt;&lt; &quot; ; &quot;</span></div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<span class="comment">//            &lt;&lt; state_post_.imu_vel.transpose() &lt;&lt; &quot; ; &quot;</span></div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;<span class="comment">//            &lt;&lt; state_post_.imu_quat.get().transpose() &lt;&lt; &quot; ; &quot;</span></div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="comment">//            &lt;&lt; state_post_.accel_bias.transpose() &lt;&lt; &quot; ; &quot;</span></div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<span class="comment">//            &lt;&lt; state_post_.gyro_bias.transpose() &lt;&lt; std::endl</span></div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="comment">//            &lt;&lt; std::endl;</span></div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;  proc_jac_.setZero();</div>
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;  noise_jac_.setZero();</div>
@@ -180,7 +180,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;</div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;}</div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;<span class="keyword">inline</span> <span class="keywordtype">void</span> ViconIMUBaseStateEstimator::update(</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;<span class="keyword">inline</span> <span class="keywordtype">void</span> estimator::ViconIMUBaseStateEstimator::update(</div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    floating_base_tools::IMUData imu_sensor_data,</div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    Eigen::Matrix4d base_pose_data,</div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    <span class="keywordtype">bool</span> new_frame) {</div>
@@ -202,8 +202,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;<span class="comment">//            &lt;&lt; gain_mat_ &lt;&lt; std::endl &lt;&lt; std::endl;</span></div>
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;}</div>
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;</div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;<span class="keyword">inline</span> Eigen::Matrix&lt;double, ViconIMUState::state_dim, 1&gt;</div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;ViconIMUBaseStateEstimator::processModel(<a class="code" href="classViconIMUState.html">ViconIMUState</a> &amp;s) {</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;<span class="keyword">inline</span> Eigen::Matrix&lt;double, estimator::ViconIMUState::state_dim, 1&gt;</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;estimator::ViconIMUBaseStateEstimator::processModel(ViconIMUState &amp;s) {</div>
 <div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;</div>
 <div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;  Eigen::Matrix&lt;double, ViconIMUState::state_dim, 1&gt; out;</div>
 <div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;</div>
@@ -220,7 +220,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;  <span class="keywordflow">return</span> out;</div>
 <div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;}</div>
 <div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;</div>
-<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;<span class="keyword">inline</span> <span class="keywordtype">void</span> ViconIMUBaseStateEstimator::formProcessJacobian(<span class="keywordtype">void</span>) {</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;<span class="keyword">inline</span> <span class="keywordtype">void</span> estimator::ViconIMUBaseStateEstimator::formProcessJacobian(<span class="keywordtype">void</span>) {</div>
 <div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;  proc_jac_.setZero();</div>
 <div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;  Eigen::Matrix3d world_R_base =</div>
 <div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;      state_post_.imu_quat.quaternion_to_rotation_matrix().transpose();</div>
@@ -237,7 +237,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;  <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;}</div>
 <div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;</div>
-<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;<span class="keyword">inline</span> <span class="keywordtype">void</span> ViconIMUBaseStateEstimator::formProcessNoise(<span class="keywordtype">void</span>) {</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;<span class="keyword">inline</span> <span class="keywordtype">void</span> estimator::ViconIMUBaseStateEstimator::formProcessNoise(<span class="keywordtype">void</span>) {</div>
 <div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;  proc_noise_.block(3, 3, 3, 3) = q_proc_accel_ * q_proc_accel_ * Eigen::MatrixXd::Identity(3, 3);</div>
 <div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;  proc_noise_.block(6, 6, 3, 3) = q_proc_gyro_ * q_proc_gyro_ * Eigen::MatrixXd::Identity(3, 3);</div>
 <div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;  proc_noise_.block(9, 9, 3, 3) = q_proc_accel_bias_ * q_proc_accel_bias_ * Eigen::MatrixXd::Identity(3, 3);</div>
@@ -245,7 +245,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;  <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;}</div>
 <div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;</div>
-<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;<span class="keyword">inline</span> <span class="keywordtype">void</span> ViconIMUBaseStateEstimator::formNoiseJacobian(<span class="keywordtype">void</span>) {</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;<span class="keyword">inline</span> <span class="keywordtype">void</span> estimator::ViconIMUBaseStateEstimator::formNoiseJacobian(<span class="keywordtype">void</span>) {</div>
 <div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;</div>
 <div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;  <span class="keywordflow">if</span> (is_discrete_){</div>
 <div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;    noise_jac_.setZero();</div>
@@ -265,8 +265,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;  }</div>
 <div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;}</div>
 <div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;</div>
-<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;<span class="keyword">inline</span> Eigen::Matrix&lt;double, ViconIMUMeasure::meas_dim, 1&gt;</div>
-<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;ViconIMUBaseStateEstimator::measModel(<a class="code" href="classViconIMUState.html">ViconIMUState</a> &amp;s) {</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;<span class="keyword">inline</span> Eigen::Matrix&lt;double, estimator::ViconIMUMeasure::meas_dim, 1&gt;</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;estimator::ViconIMUBaseStateEstimator::measModel(ViconIMUState &amp;s) {</div>
 <div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;</div>
 <div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;  <span class="comment">// Measurement is simply the imu position and orientation from Vicon:</span></div>
 <div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;  Eigen::Matrix&lt;double, ViconIMUMeasure::meas_dim, 1&gt; out;</div>
@@ -276,13 +276,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;  <span class="keywordflow">return</span> out;</div>
 <div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;}</div>
 <div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;</div>
-<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;<span class="keyword">inline</span> <span class="keywordtype">void</span> ViconIMUBaseStateEstimator::formMeasJacobian(<span class="keywordtype">void</span>) {</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;<span class="keyword">inline</span> <span class="keywordtype">void</span> estimator::ViconIMUBaseStateEstimator::formMeasJacobian(<span class="keywordtype">void</span>) {</div>
 <div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;  meas_jac_.block(0, 0, 3, 3) = Eigen::Matrix&lt;double, 3, 3&gt;::Identity();</div>
 <div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;  meas_jac_.block(3, 6, 3, 3) = Eigen::Matrix&lt;double, 3, 3&gt;::Identity();</div>
 <div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;  <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;}</div>
 <div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;</div>
-<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;<span class="keyword">inline</span> <span class="keywordtype">void</span> ViconIMUBaseStateEstimator::formMeasNoise(<span class="keywordtype">void</span>) {</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;<span class="keyword">inline</span> <span class="keywordtype">void</span> estimator::ViconIMUBaseStateEstimator::formMeasNoise(<span class="keywordtype">void</span>) {</div>
 <div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;  meas_noise_.block(0, 0, 3, 3) = q_meas_base_pos_ * q_meas_base_pos_ *</div>
 <div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;                                  Eigen::MatrixXd::Identity(3, 3);</div>
 <div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;  meas_noise_.block(3, 3, 3, 3) = q_meas_base_quat_ * q_meas_base_quat_ *</div>
@@ -290,7 +290,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;  <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;}</div>
 <div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;</div>
-<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;<span class="keyword">inline</span> <span class="keywordtype">void</span> ViconIMUBaseStateEstimator::formActualMeas(<span class="keywordtype">void</span>) {</div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;<span class="keyword">inline</span> <span class="keywordtype">void</span> estimator::ViconIMUBaseStateEstimator::formActualMeas(<span class="keywordtype">void</span>) {</div>
 <div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160; <span class="comment">/*tflayols: [done?] need to translate vicon measurement to express IMU position*/</span></div>
 <div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160; <span class="comment">/*assuming imu and base share the same orientation*/</span></div>
 <div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;  Eigen::Matrix3d world_R_base =</div>
@@ -299,11 +299,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;                              (world_R_base * base_to_imu_translation_);</div>
 <div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;  meas_actual_.meas_imu_quat = base_quat_vicon_;</div>
 <div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;}</div>
-<div class="ttc" id="classViconIMUState_html"><div class="ttname"><a href="classViconIMUState.html">ViconIMUState</a></div><div class="ttdef"><b>Definition:</b> vicon_base_state_estimator.h:17</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Jul 4 2018 13:23:27 for estimator_athena by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Jul 4 2018 19:34:52 for estimator_athena by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
