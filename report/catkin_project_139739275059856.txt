@@ -66,39 +66,27 @@
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- ~~  traversing 4 packages in topological order:
+-- ~~  traversing 3 packages in topological order:
 
--- ~~  - human_bio_dataset
+-- ~~  - project_management_test_1
 
--- ~~  - human_bio_urdf
+-- ~~  - project_management_test_2
 
--- ~~  - human_bio_scene
-
--- ~~  - human_bio_octomap
+-- ~~  - project_management_test_3
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- +++ processing catkin package: 'human_bio_dataset'
+-- +++ processing catkin package: 'project_management_test_1'
 
--- ==> add_subdirectory(catkin/human/human_bio_dataset)
+-- ==> add_subdirectory(catkin/test/project_management_test_1)
 
--- +++ processing catkin package: 'human_bio_urdf'
+-- +++ processing catkin package: 'project_management_test_2'
 
--- ==> add_subdirectory(catkin/human/human_bio_urdf)
+-- ==> add_subdirectory(catkin/test/project_management_test_2)
 
--- Using these message generators: gencpp;genlisp;genpy
+-- +++ processing catkin package: 'project_management_test_3'
 
--- +++ processing catkin package: 'human_bio_scene'
-
--- ==> add_subdirectory(catkin/human/human_bio_scene)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- +++ processing catkin package: 'human_bio_octomap'
-
--- ==> add_subdirectory(catkin/human/human_bio_octomap)
-
--- Using these message generators: gencpp;genlisp;genpy
+-- ==> add_subdirectory(catkin/test/project_management_test_3)
 
 -- Configuring done
 
@@ -106,215 +94,45 @@
 
 -- Build files have been written to: /home/administrator/ci/ci/team/workspace/build
 
-Scanning dependencies of target tf2_msgs_generate_messages_lisp
+Scanning dependencies of target test_project_1_fail_demo
 
-Scanning dependencies of target roscpp_generate_messages_cpp
+Scanning dependencies of target test_project_1_success_demo
 
-Scanning dependencies of target _catkin_empty_exported_target
+Scanning dependencies of target test_project_1_ttest
 
-Scanning dependencies of target tf_generate_messages_lisp
+Scanning dependencies of target test_project_2_demo_fail
 
-Scanning dependencies of target rosgraph_msgs_generate_messages_py
+Scanning dependencies of target test_project_2_demo_success
 
-Scanning dependencies of target std_msgs_generate_messages_lisp
+[ 20%] [ 40%] [ 60%] [ 80%] [100%] Building CXX object catkin/test/project_management_test_1/CMakeFiles/test_project_1_fail_demo.dir/src/test_project_1_demo_fail.cpp.o
 
-Scanning dependencies of target moveit_msgs_generate_messages_py
+Building CXX object catkin/test/project_management_test_1/CMakeFiles/test_project_1_success_demo.dir/src/test_project_1_demo_success.cpp.o
 
-Scanning dependencies of target sensor_msgs_generate_messages_cpp
+Building CXX object catkin/test/project_management_test_1/CMakeFiles/test_project_1_ttest.dir/src/t_test.cpp.o
 
-Scanning dependencies of target std_msgs_generate_messages_py
+Building CXX object catkin/test/project_management_test_2/CMakeFiles/test_project_2_demo_fail.dir/src/test_project_2_demo_fail.cpp.o
 
-[  0%] [  0%] Scanning dependencies of target visualization_msgs_generate_messages_lisp
+Building CXX object catkin/test/project_management_test_2/CMakeFiles/test_project_2_demo_success.dir/src/test_project_2_demo_success.cpp.o
 
-[  0%] [  0%] [  0%] [  0%] Scanning dependencies of target geometry_msgs_generate_messages_cpp
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/project_management_test_2/test_project_2_demo_fail
 
-Built target tf2_msgs_generate_messages_lisp
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/project_management_test_1/test_project_1_fail_demo
 
-Built target _catkin_empty_exported_target
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/project_management_test_1/test_project_1_success_demo
 
-Built target roscpp_generate_messages_cpp
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/project_management_test_2/test_project_2_demo_success
 
-Built target tf_generate_messages_lisp
+[100%] [100%] [100%] [100%] Built target test_project_1_fail_demo
 
-Built target rosgraph_msgs_generate_messages_py
+Built target test_project_2_demo_fail
 
-Built target std_msgs_generate_messages_lisp
+Built target test_project_2_demo_success
 
-[  0%] [  0%] [  0%] [  0%] [  0%] Built target visualization_msgs_generate_messages_lisp
+Built target test_project_1_success_demo
 
-Built target sensor_msgs_generate_messages_cpp
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/project_management_test_1/test_project_1_ttest
 
-Built target moveit_msgs_generate_messages_py
-
-Scanning dependencies of target geometry_msgs_generate_messages_lisp
-
-Built target geometry_msgs_generate_messages_cpp
-
-Built target std_msgs_generate_messages_py
-
-Scanning dependencies of target roscpp_generate_messages_lisp
-
-Scanning dependencies of target rosgraph_msgs_generate_messages_lisp
-
-Scanning dependencies of target std_msgs_generate_messages_cpp
-
-Scanning dependencies of target sensor_msgs_generate_messages_lisp
-
-Scanning dependencies of target geometry_msgs_generate_messages_py
-
-Scanning dependencies of target rosgraph_msgs_generate_messages_cpp
-
-Scanning dependencies of target roscpp_generate_messages_py
-
-Scanning dependencies of target object_recognition_msgs_generate_messages_lisp
-
-Scanning dependencies of target tf_generate_messages_py
-
-Scanning dependencies of target moveit_msgs_generate_messages_lisp
-
-Scanning dependencies of target shape_msgs_generate_messages_cpp
-
-Scanning dependencies of target moveit_msgs_generate_messages_cpp
-
-Scanning dependencies of target object_recognition_msgs_generate_messages_py
-
-[  0%] [  0%] [  0%] Scanning dependencies of target shape_msgs_generate_messages_py
-
-Scanning dependencies of target sensor_msgs_generate_messages_py
-
-Built target geometry_msgs_generate_messages_lisp
-
-Built target roscpp_generate_messages_lisp
-
-Built target sensor_msgs_generate_messages_lisp
-
-[  0%] [  0%] [  0%] [  0%] [  0%] [  0%] [  0%] [  0%] [  0%] [  0%] [  0%] [  0%] [  0%] Built target std_msgs_generate_messages_cpp
-
-Built target rosgraph_msgs_generate_messages_lisp
-
-Built target roscpp_generate_messages_py
-
-Built target geometry_msgs_generate_messages_py
-
-Built target rosgraph_msgs_generate_messages_cpp
-
-Built target tf_generate_messages_py
-
-Built target object_recognition_msgs_generate_messages_lisp
-
-Built target moveit_msgs_generate_messages_lisp
-
-Built target object_recognition_msgs_generate_messages_py
-
-Built target moveit_msgs_generate_messages_cpp
-
-Built target shape_msgs_generate_messages_cpp
-
-Built target shape_msgs_generate_messages_py
-
-Built target sensor_msgs_generate_messages_py
-
-Scanning dependencies of target visualization_msgs_generate_messages_py
-
-Scanning dependencies of target shape_msgs_generate_messages_lisp
-
-Scanning dependencies of target visualization_msgs_generate_messages_cpp
-
-Scanning dependencies of target trajectory_msgs_generate_messages_cpp
-
-Scanning dependencies of target actionlib_msgs_generate_messages_lisp
-
-[  0%] Scanning dependencies of target trajectory_msgs_generate_messages_lisp
-
-Scanning dependencies of target actionlib_msgs_generate_messages_cpp
-
-Scanning dependencies of target actionlib_generate_messages_cpp
-
-Scanning dependencies of target actionlib_msgs_generate_messages_py
-
-Scanning dependencies of target trajectory_msgs_generate_messages_py
-
-Scanning dependencies of target octomap_msgs_generate_messages_py
-
-Scanning dependencies of target octomap_msgs_generate_messages_cpp
-
-Scanning dependencies of target octomap_msgs_generate_messages_lisp
-
-Scanning dependencies of target object_recognition_msgs_generate_messages_cpp
-
-Built target visualization_msgs_generate_messages_py
-
-Scanning dependencies of target actionlib_generate_messages_lisp
-
-[  0%] [  0%] [  0%] [  0%] [  0%] [  0%] [  0%] [  0%] [  0%] Built target shape_msgs_generate_messages_lisp
-
-[  0%] Built target visualization_msgs_generate_messages_cpp
-
-Built target trajectory_msgs_generate_messages_cpp
-
-Built target trajectory_msgs_generate_messages_lisp
-
-Built target actionlib_msgs_generate_messages_cpp
-
-Scanning dependencies of target tf_generate_messages_cpp
-
-Built target actionlib_msgs_generate_messages_lisp
-
-Built target actionlib_msgs_generate_messages_py
-
-Built target trajectory_msgs_generate_messages_py
-
-Built target actionlib_generate_messages_cpp
-
-Built target octomap_msgs_generate_messages_py
-
-[  0%] [  0%] [  0%] [  0%] Built target octomap_msgs_generate_messages_cpp
-
-Built target octomap_msgs_generate_messages_lisp
-
-Built target object_recognition_msgs_generate_messages_cpp
-
-Built target actionlib_generate_messages_lisp
-
-Scanning dependencies of target tf2_msgs_generate_messages_py
-
-[  0%] Scanning dependencies of target tf2_msgs_generate_messages_cpp
-
-Built target tf_generate_messages_cpp
-
-Scanning dependencies of target actionlib_generate_messages_py
-
-[  0%] Built target tf2_msgs_generate_messages_py
-
-[  0%] Built target tf2_msgs_generate_messages_cpp
-
-[  0%] Built target actionlib_generate_messages_py
-
-Scanning dependencies of target human_bio_octomap
-
-[ 25%] [ 50%] Building CXX object catkin/human/human_bio_octomap/CMakeFiles/human_bio_octomap.dir/src/robot_to_octomap.cpp.o
-
-Building CXX object catkin/human/human_bio_octomap/CMakeFiles/human_bio_octomap.dir/src/scene_subscriber.cpp.o
-
-Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libhuman_bio_octomap.so
-
-[ 50%] Built target human_bio_octomap
-
-Scanning dependencies of target test_robot_model_parser
-
-Scanning dependencies of target voxel_occupancy_node
-
-[ 75%] [100%] Building CXX object catkin/human/human_bio_octomap/CMakeFiles/test_robot_model_parser.dir/test/test_robot_model_parser.cpp.o
-
-Building CXX object catkin/human/human_bio_octomap/CMakeFiles/voxel_occupancy_node.dir/src/voxel_occupancy_node.cpp.o
-
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/human_bio_octomap/test_robot_model_parser
-
-[100%] Built target test_robot_model_parser
-
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/human_bio_octomap/voxel_occupancy_node
-
-[100%] Built target voxel_occupancy_node
+[100%] Built target test_project_1_ttest
 
 Install the project...
 
@@ -332,79 +150,29 @@ Install the project...
 
 -- Installing: /home/administrator/ci/ci/team/workspace/install/.rosinstall
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/human_bio_urdf.pc
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/project_management_test_1.pc
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/human_bio_urdf/cmake/human_bio_urdfConfig.cmake
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/project_management_test_1/cmake/project_management_test_1Config.cmake
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/human_bio_urdf/cmake/human_bio_urdfConfig-version.cmake
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/project_management_test_1/cmake/project_management_test_1Config-version.cmake
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/human_bio_urdf/package.xml
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/project_management_test_1/package.xml
 
-+ cd /home/administrator/ci/ci/team/workspace/src/catkin/human/human_bio_scene
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/project_management_test_2.pc
 
-+ mkdir -p /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/project_management_test_2/cmake/project_management_test_2Config.cmake
 
-+ /usr/bin/env PYTHONPATH=/home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages:/home/administrator/ci/ci/team/workspace/build/lib/python2.7/dist-packages:/opt/ros/indigo/lib/python2.7/dist-packages CATKIN_BINARY_DIR=/home/administrator/ci/ci/team/workspace/build /usr/bin/python /home/administrator/ci/ci/team/workspace/src/catkin/human/human_bio_scene/setup.py build --build-base /home/administrator/ci/ci/team/workspace/build/catkin/human/human_bio_scene install --install-layout=deb --prefix=/home/administrator/ci/ci/team/workspace/install --install-scripts=/home/administrator/ci/ci/team/workspace/install/bin
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/project_management_test_2/cmake/project_management_test_2Config-version.cmake
 
-running build
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/project_management_test_2/package.xml
 
-running build_py
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/project_management_test_3.pc
 
-creating /home/administrator/ci/ci/team/workspace/build/catkin/human/human_bio_scene/lib.linux-x86_64-2.7
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/project_management_test_3/cmake/project_management_test_3Config.cmake
 
-creating /home/administrator/ci/ci/team/workspace/build/catkin/human/human_bio_scene/lib.linux-x86_64-2.7/human_bio_scene
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/project_management_test_3/cmake/project_management_test_3Config-version.cmake
 
-copying src/human_bio_scene/PlayLibrary.py -> /home/administrator/ci/ci/team/workspace/build/catkin/human/human_bio_scene/lib.linux-x86_64-2.7/human_bio_scene
-
-copying src/human_bio_scene/PlayFile.py -> /home/administrator/ci/ci/team/workspace/build/catkin/human/human_bio_scene/lib.linux-x86_64-2.7/human_bio_scene
-
-copying src/human_bio_scene/__init__.py -> /home/administrator/ci/ci/team/workspace/build/catkin/human/human_bio_scene/lib.linux-x86_64-2.7/human_bio_scene
-
-running install
-
-running install_lib
-
-creating /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/human_bio_scene
-
-copying /home/administrator/ci/ci/team/workspace/build/catkin/human/human_bio_scene/lib.linux-x86_64-2.7/human_bio_scene/PlayLibrary.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/human_bio_scene
-
-copying /home/administrator/ci/ci/team/workspace/build/catkin/human/human_bio_scene/lib.linux-x86_64-2.7/human_bio_scene/PlayFile.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/human_bio_scene
-
-copying /home/administrator/ci/ci/team/workspace/build/catkin/human/human_bio_scene/lib.linux-x86_64-2.7/human_bio_scene/__init__.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/human_bio_scene
-
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/human_bio_scene/PlayLibrary.py to PlayLibrary.pyc
-
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/human_bio_scene/PlayFile.py to PlayFile.pyc
-
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/human_bio_scene/__init__.py to __init__.pyc
-
-running install_egg_info
-
-Writing /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/human_bio_scene-0.0.0.egg-info
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/human_bio_scene.pc
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/human_bio_scene/cmake/human_bio_sceneConfig.cmake
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/human_bio_scene/cmake/human_bio_sceneConfig-version.cmake
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/human_bio_scene/package.xml
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/human_bio_octomap.pc
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/human_bio_octomap/cmake/human_bio_octomapConfig.cmake
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/human_bio_octomap/cmake/human_bio_octomapConfig-version.cmake
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/human_bio_octomap/package.xml
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/libhuman_bio_octomap.so
-
--- Removed runtime path from "/home/administrator/ci/ci/team/workspace/install/lib/libhuman_bio_octomap.so"
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/human_bio_octomap/voxel_occupancy_node
-
--- Removed runtime path from "/home/administrator/ci/ci/team/workspace/install/lib/human_bio_octomap/voxel_occupancy_node"
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/project_management_test_3/package.xml
 
 Base path: /home/administrator/ci/ci/team/workspace
 
