@@ -1,3 +1,5 @@
+WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
+
 -- Using CATKIN_DEVEL_PREFIX: /home/administrator/ci/ci/team/workspace/devel
 
 -- Using CMAKE_PREFIX_PATH: /opt/ros/indigo
@@ -22,9 +24,13 @@
 
 -- BUILD_SHARED_LIBS is on
 
+WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
+
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- ~~  traversing 10 packages in topological order:
+-- ~~  traversing 19 packages in topological order:
+
+-- ~~  - Eigen
 
 -- ~~  - ros_realtime (metapackage)
 
@@ -36,17 +42,39 @@
 
 -- ~~  - rt_timer
 
+-- ~~  - sl_config
+
+-- ~~  - utilities
+
+-- ~~  - lwpr
+
 -- ~~  - xenomai_ros
+
+-- ~~  - ati_ft_sensor
+
+-- ~~  - blmc_can
 
 -- ~~  - rosrt
 
--- ~~  - goto_ui
+-- ~~  - sl
 
--- ~~  - goto_ui_task
+-- ~~  - hopper
 
--- ~~  - ros_rt_test
+-- ~~  - hopper_user
+
+-- ~~  - optoforce_sensor
+
+-- ~~  - yaml_cpp
+
+-- ~~  - hermes_communication_tools
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-- +++ processing catkin package: 'Eigen'
+
+-- ==> add_subdirectory(catkin/third_party/Eigen)
+
+WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
 
 -- +++ processing catkin metapackage: 'ros_realtime'
 
@@ -74,13 +102,25 @@
 
 -- ==> add_subdirectory(catkin/ros/ros_realtime/rt_timer)
 
+-- +++ processing catkin package: 'sl_config'
+
+-- ==> add_subdirectory(catkin/core-sl/sl_config)
+
+-- +++ processing catkin package: 'utilities'
+
+-- ==> add_subdirectory(catkin/core-sl/locomotion-utilities)
+
+-- +++ processing catkin package: 'lwpr'
+
+-- ==> add_subdirectory(catkin/core-sl/locomotion-lwpr)
+
 -- +++ processing catkin package: 'xenomai_ros'
 
 -- ==> add_subdirectory(catkin/ros/xenomai-ros)
 
--- +++ processing catkin package: 'rosrt'
+-- +++ processing catkin package: 'ati_ft_sensor'
 
--- ==> add_subdirectory(catkin/ros/ros_realtime/rosrt)
+-- ==> add_subdirectory(catkin/humanoids/humanoid_hardware/ati_ft_sensor)
 
 -- xenomai NOT found. (/usr/local;/usr)
 
@@ -90,37 +130,31 @@
 
 -- Found the following Boost libraries:
 
+--   system
+
+--   filesystem
+
 --   thread
 
--- +++ processing catkin package: 'goto_ui'
+-- +++ processing catkin package: 'blmc_can'
 
--- ==> add_subdirectory(catkin/core-sl/goto_ui)
+-- ==> add_subdirectory(catkin/hardware/blmc_can)
 
-CMake Error at /home/administrator/ci/ci/team/workspace/devel/share/catkin/cmake/catkinConfig.cmake:75 (find_package):
+-- xenomai NOT found. (/usr/local;/usr)
 
-  Could not find a package configuration file provided by "utilities" with
+CMake Error at catkin/third_party/catkin/cmake/catkin_package.cmake:296 (message):
 
-  any of the following names:
+  catkin_package() include dir 'Xenomai_INCLUDE_DIR-NOTFOUND' does not exist
 
+  relative to
 
-
-    utilitiesConfig.cmake
-
-    utilities-config.cmake
-
-
-
-  Add the installation prefix of "utilities" to CMAKE_PREFIX_PATH or set
-
-  "utilities_DIR" to a directory containing one of the above files.  If
-
-  "utilities" provides a separate development package or SDK, be sure it has
-
-  been installed.
+  '/home/administrator/ci/ci/team/workspace/src/catkin/hardware/blmc_can'
 
 Call Stack (most recent call first):
 
-  catkin/core-sl/goto_ui/CMakeLists.txt:8 (find_package)
+  catkin/third_party/catkin/cmake/catkin_package.cmake:98 (_catkin_package)
+
+  catkin/hardware/blmc_can/CMakeLists.txt:22 (catkin_package)
 
 
 
