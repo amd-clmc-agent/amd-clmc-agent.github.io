@@ -317,10 +317,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;</div>
 <div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;  std::shared_ptr&lt;VisualizationToolsInterface&gt; vis_tools_interface_;</div>
 <div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;</div>
-<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;  <span class="keywordtype">int</span> vicon_is_new_;</div>
-<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;  <span class="keywordtype">bool</span> update_on_;</div>
-<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;  <span class="keywordtype">bool</span> is_initialized_;</div>
-<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;  <span class="keywordtype">bool</span> use_biases_;</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;  <span class="keywordtype">bool</span> update_on_;</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;  <span class="keywordtype">bool</span> is_initialized_;</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;  <span class="keywordtype">bool</span> use_biases_;</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;  <span class="keywordtype">int</span>  vicon_is_new_;</div>
 <div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;</div>
 <div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;  <span class="keywordtype">double</span> init_var_;</div>
 <div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;  <span class="keywordtype">double</span> q_proc_accel_, q_proc_gyro_, q_proc_accel_bias_, q_proc_gyro_bias_;</div>
@@ -334,10 +334,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;</div>
 <div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;  YAML::Node config_;</div>
 <div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;</div>
-<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;};</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;  vicon_kinematics::ViconFrame prev_base_pose_vicon_;</div>
 <div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;</div>
-<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;};</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;<span class="preprocessor"></span></div>
 <div class="ttc" id="classEKF_html"><div class="ttname"><a href="classEKF.html">EKF</a></div><div class="ttdoc">This class implements an extended Kalman Filter (EKF). </div><div class="ttdef"><b>Definition:</b> EKF.h:63</div></div>
 <div class="ttc" id="EKF_8h_html"><div class="ttname"><a href="EKF_8h.html">EKF.h</a></div><div class="ttdoc">Extended Kalman Filter. </div></div>
 <div class="ttc" id="classEKF_html_afcc8bc8622a5e4eb38f846a247b52cc1"><div class="ttname"><a href="classEKF.html#afcc8bc8622a5e4eb38f846a247b52cc1">EKF&lt; ViconBaseStateEstimatorState, ViconBaseStateEstimatorMeas &gt;::state_post_</a></div><div class="ttdeci">ViconBaseStateEstimatorState state_post_</div><div class="ttdef"><b>Definition:</b> EKF.h:159</div></div>
@@ -348,7 +350,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Jul 11 2018 11:59:12 for filtering_tools_hermes_full by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Jul 11 2018 15:14:14 for filtering_tools_hermes_full by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
