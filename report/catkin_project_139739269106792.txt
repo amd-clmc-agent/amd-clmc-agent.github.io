@@ -1,0 +1,321 @@
+WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
+
+[  0%] Built target PyShell
+
+[  0%] Built target hello_world
+
+[  0%] Built target py_converter_test
+
+[  0%] Built target test_py_shell
+
+[  1%] Built target rbdl
+
+[  1%] Built target rbdl_urdfreader
+
+[  1%] Built target rbdl_urdfreader_util
+
+[  1%] Built target lockfree
+
+[  2%] Built target snopt_extern
+
+[  2%] Built target snopt_interface_extern
+
+[  2%] Built target snopt_cpp
+
+[  2%] Built target sntoya
+
+[  2%] Built target testing_tools
+
+[  4%] Built target utility
+
+[  4%] Built target lwpr
+
+[  4%] Built target xascii2mrplot
+
+[  4%] Built target xlwpr
+
+[  4%] Built target xlwprstat
+
+[  4%] Built target rosrt
+
+[  4%] Built target ros_rt_test_publisher
+
+[  4%] Built target ros_rt_test_subscriber
+
+[  4%] Built target SLcommon
+
+[  5%] Built target SLmotor
+
+[  5%] Built target SLopenGL
+
+[  5%] Built target SLros
+
+[  6%] Built target SLsimulation
+
+[  6%] Built target SLtask
+
+[  7%] Built target SLvision
+
+[  7%] Built target _vicon_bridge_generate_messages_check_deps_Marker
+
+[  7%] Built target _vicon_bridge_generate_messages_check_deps_TfDistortInfo
+
+[  7%] Built target _vicon_bridge_generate_messages_check_deps_Markers
+
+[  7%] Built target geometry_msgs_generate_messages_cpp
+
+[  7%] Built target _vicon_bridge_generate_messages_check_deps_viconGrabPose
+
+[  7%] Built target _vicon_bridge_generate_messages_check_deps_viconCalibrateSegment
+
+[  7%] Built target vicon_bridge_generate_messages_cpp
+
+[  7%] Built target vicon_bridge_gencpp
+
+[  8%] Built target calibrate
+
+[  8%] Built target msvc_bridge
+
+[  9%] Built target testclient
+
+[ 10%] Built target vicon_bridge_gencfg
+
+[ 10%] Built target tf_distort
+
+[ 10%] Built target vicon_bridge
+
+[ 10%] Built target geometry_msgs_generate_messages_lisp
+
+[ 10%] Built target vicon_bridge_generate_messages_lisp
+
+[ 10%] Built target geometry_msgs_generate_messages_py
+
+[ 11%] Built target vicon_bridge_generate_messages_py
+
+[ 11%] Built target vicon_bridge_generate_messages
+
+[ 13%] Built target yaml-cpp
+
+[ 14%] Built target run-tests
+
+[ 14%] Built target parse
+
+[ 14%] Built target read
+
+[ 14%] Built target sandbox
+
+[ 14%] Built target _hermes_communication_tools_generate_messages_check_deps_gdc_states_vector_msg
+
+[ 14%] Built target _hermes_communication_tools_generate_messages_check_deps_gdc_state_msg
+
+[ 15%] Built target hermes_communication_tools_generate_messages_py
+
+[ 15%] Built target hermes_communication_tools_generate_messages_cpp
+
+[ 15%] Built target hermes_communication_tools_generate_messages_lisp
+
+[ 15%] Built target hermes_communication_tools_generate_messages
+
+[ 16%] Built target athena
+
+[ 16%] Built target athena_openGL
+
+[ 16%] Built target athena_simulation
+
+[ 16%] Built target athena_task
+
+[ 16%] Built target xathena
+
+[ 17%] Built target xmotor_athena
+
+[ 17%] Built target xpest_athena
+
+[ 17%] Built target xvision_athena
+
+[ 17%] Built target hermes_full
+
+Scanning dependencies of target hermes_full_openGL
+
+[ 18%] Building C object catkin/robots/hermesFull/CMakeFiles/hermes_full_openGL.dir/src/SL_user_openGL.c.o
+
+Linking C shared library /home/administrator/ci/ci/team/workspace/devel/lib/libhermes_full_openGL.so
+
+[ 18%] Built target hermes_full_openGL
+
+Scanning dependencies of target hermes_full_simulation
+
+[ 18%] Building C object catkin/robots/hermesFull/CMakeFiles/hermes_full_simulation.dir/__/hermesCore/src/SL_user_simulation.c.o
+
+[ 18%] Building C object catkin/robots/hermesFull/CMakeFiles/hermes_full_simulation.dir/__/hermesCore/src/SL_hermes_simulation.c.o
+
+Linking C shared library /home/administrator/ci/ci/team/workspace/devel/lib/libhermes_full_simulation.so
+
+[ 18%] Built target hermes_full_simulation
+
+Scanning dependencies of target hermes_full_task
+
+[ 18%] Building CXX object catkin/robots/hermesFull/CMakeFiles/hermes_full_task.dir/__/hermesCore/src/SL_user_task.cpp.o
+
+/home/administrator/ci/ci/team/workspace/src/catkin/robots/hermesCore/src/SL_user_task.cpp: In function ‘void drawPhantomFromCurrentState()’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/robots/hermesCore/src/SL_user_task.cpp:410:69: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+
+   sendUserGraphics("phantom",b, (N_CART+N_QUAT+N_DOFS)*sizeof(float));
+
+                                                                     ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/robots/hermesCore/src/SL_user_task.cpp: In function ‘void drawPhantomFromDesiredState()’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/robots/hermesCore/src/SL_user_task.cpp:444:69: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+
+   sendUserGraphics("phantom",b, (N_CART+N_QUAT+N_DOFS)*sizeof(float));
+
+                                                                     ^
+
+Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libhermes_full_task.so
+
+[ 18%] Built target hermes_full_task
+
+[ 18%] Built target xhermes_full
+
+Scanning dependencies of target xmotor_hermes_full
+
+[ 18%] Building C object catkin/robots/hermesFull/CMakeFiles/xmotor_hermes_full.dir/__/hermesCore/src/SL_user_motor.c.o
+
+[ 18%] Building CXX object catkin/robots/hermesFull/CMakeFiles/xmotor_hermes_full.dir/__/hermesCore/src/SL_user_sensor_proc_unix.cpp.o
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/src/catkin/robots/hermesFull/x86_64/xmotor
+
+[ 18%] Built target xmotor_hermes_full
+
+[ 18%] Generating src/SL_parm_estimate.c
+
+Scanning dependencies of target xpest_hermes_full
+
+[ 19%] Building C object catkin/robots/hermesFull/CMakeFiles/xpest_hermes_full.dir/src/SL_parm_estimate.c.o
+
+Linking C executable /home/administrator/ci/ci/team/workspace/src/catkin/robots/hermesFull/x86_64/xpest
+
+[ 19%] Built target xpest_hermes_full
+
+Scanning dependencies of target xvision_hermes_full
+
+[ 19%] Building C object catkin/robots/hermesFull/CMakeFiles/xvision_hermes_full.dir/__/hermesCore/src/SL_user_vision.c.o
+
+Linking C executable /home/administrator/ci/ci/team/workspace/src/catkin/robots/hermesFull/x86_64/xvision
+
+[ 19%] Built target xvision_hermes_full
+
+[ 20%] Built target hermes_lower
+
+[ 20%] Built target hermes_lower_openGL
+
+[ 20%] Built target hermes_lower_simulation
+
+[ 20%] Built target hermes_lower_task
+
+[ 20%] Built target xhermes_lower
+
+[ 20%] Built target xmotor_hermes_lower
+
+[ 20%] Built target xpest_hermes_lower
+
+[ 20%] Built target xvision_hermes_lower
+
+[ 20%] Built target eiquadprog_tester_app
+
+[ 20%] Built target geometry_utils
+
+[ 20%] Built target io_utils_lib
+
+[ 21%] Built target robot_math
+
+[ 21%] Built target lqr_example_app
+
+[ 21%] Built target math_utils_lib
+
+[ 21%] Built target configuration_file_loading
+
+[ 21%] Built target data_collection
+
+[ 21%] Built target io_tools_OTHER_FILES
+
+[ 22%] Built target yaml_example
+
+[ 22%] Built target capture_point_time_optimization
+
+[ 22%] Built target capture_points
+
+[ 22%] Built target capture_points_app
+
+[ 24%] Built target floating_base_tools_athena
+
+[ 24%] Built target momentum_lqr_example_app
+
+[ 25%] Built target floating_base_tools_hermes_full
+
+[ 27%] Built target floating_base_tools_hermes_lower
+
+[ 28%] Built target floating_base_tools_hopper
+
+[ 29%] Built target data_collectionSL
+
+[ 30%] Built target floating_base_tools_sl_athena
+
+[ 31%] Built target biped_locomotion_athena
+
+[ 31%] Built target gtest
+
+Scanning dependencies of target biped_locomotion_tests_athena
+
+[ 31%] Building CXX object catkin/humanoids/humanoid_control/biped_locomotion/biped_locomotion_athena/CMakeFiles/biped_locomotion_tests_athena.dir/__/template/src/biped_locomotion/tests/hinvdyn_example_tester.cpp.o
+
+[ 31%] Building CXX object catkin/humanoids/humanoid_control/biped_locomotion/biped_locomotion_athena/CMakeFiles/biped_locomotion_tests_athena.dir/__/template/src/biped_locomotion/tests/kinematics_sl_tester.cpp.o
+
+Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libbiped_locomotion_tests_athena.so
+
+[ 31%] Built target biped_locomotion_tests_athena
+
+Scanning dependencies of target hinvdyn_dcm_time_optimization_athena
+
+[ 32%] Building CXX object catkin/humanoids/capture_point_time_optimization/capture_points_athena/CMakeFiles/hinvdyn_dcm_time_optimization_athena.dir/src/capture_points/hinvdyn_timing_optimization.cpp.o
+
+In file included from /home/administrator/ci/ci/team/workspace/src/catkin/humanoids/capture_point_time_optimization/capture_points_athena/src/capture_points/hinvdyn_timing_optimization.cpp:20:0:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/capture_point_time_optimization/capture_points_athena/../template/include/capture_points/hinvdyn_timing_optimization.h:34:46: fatal error: geometry_utils/Transformations.hpp: No such file or directory
+
+ #include "geometry_utils/Transformations.hpp"
+
+                                              ^
+
+compilation terminated.
+
+make[2]: *** [catkin/humanoids/capture_point_time_optimization/capture_points_athena/CMakeFiles/hinvdyn_dcm_time_optimization_athena.dir/src/capture_points/hinvdyn_timing_optimization.cpp.o] Error 1
+
+make[1]: *** [catkin/humanoids/capture_point_time_optimization/capture_points_athena/CMakeFiles/hinvdyn_dcm_time_optimization_athena.dir/all] Error 2
+
+make: *** [all] Error 2
+
+Base path: /home/administrator/ci/ci/team/workspace
+
+Source space: /home/administrator/ci/ci/team/workspace/src
+
+Build space: /home/administrator/ci/ci/team/workspace/build
+
+Devel space: /home/administrator/ci/ci/team/workspace/devel
+
+Install space: /home/administrator/ci/ci/team/workspace/install
+
+####
+
+#### Running command: "make cmake_check_build_system" in "/home/administrator/ci/ci/team/workspace/build"
+
+####
+
+####
+
+#### Running command: "make -j1" in "/home/administrator/ci/ci/team/workspace/build"
+
+####
+
+Invoking "make -j1" failed
