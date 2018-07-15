@@ -1,1713 +1,2010 @@
-failed to compile unit tests:
 WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
 
--- Using CATKIN_DEVEL_PREFIX: /home/administrator/ci/ci/team/workspace/devel
+[  4%] Built target amd_clmc_dmp
 
--- Using CMAKE_PREFIX_PATH: /home/administrator/ci/ci/team/workspace/devel;/opt/ros/indigo
+Scanning dependencies of target amd_clmc_dmp_1D_demo
 
--- This workspace overlays: /home/administrator/ci/ci/team/workspace/devel;/opt/ros/indigo
+[  4%] Building CXX object catkin/planning/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp_1D_demo.dir/src/dmp_test/dmp_1D/dmp_1D_test.cpp.o
 
--- Using PYTHON_EXECUTABLE: /usr/bin/python
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/amd_clmc_dmp/amd_clmc_dmp_1D_demo
 
--- Python version: 2.7
+[  4%] Built target amd_clmc_dmp_1D_demo
 
--- Using Debian Python package layout
+Scanning dependencies of target amd_clmc_dmp_cart_coord_dmp_multi_traj_training_demo
 
--- Using CATKIN_ENABLE_TESTING: ON
+[  4%] Building CXX object catkin/planning/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp_cart_coord_dmp_multi_traj_training_demo.dir/src/dmp_test/cart_dmp/cart_coord_dmp/cart_coord_dmp_multi_traj_training_test.cpp.o
 
--- Call enable_testing()
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/amd_clmc_dmp/amd_clmc_dmp_cart_coord_dmp_multi_traj_training_demo
 
--- Using CATKIN_TEST_RESULTS_DIR: /home/administrator/ci/ci/team/workspace/build/test_results
+[  4%] Built target amd_clmc_dmp_cart_coord_dmp_multi_traj_training_demo
 
--- Found gtest sources under '/usr/src/gtest': gtests will be built
+Scanning dependencies of target amd_clmc_dmp_cart_coord_dmp_single_traj_training_demo
 
--- catkin 0.5.90
+[  4%] Building CXX object catkin/planning/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp_cart_coord_dmp_single_traj_training_demo.dir/src/dmp_test/cart_dmp/cart_coord_dmp/cart_coord_dmp_single_traj_training_test.cpp.o
 
--- BUILD_SHARED_LIBS is on
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/amd_clmc_dmp/amd_clmc_dmp_cart_coord_dmp_single_traj_training_demo
 
-WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
+[  4%] Built target amd_clmc_dmp_cart_coord_dmp_single_traj_training_demo
 
-WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
+Scanning dependencies of target amd_clmc_dmp_cart_dmp_pmnn_fitted_ct_unroll_demo
 
--- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[  5%] Building CXX object catkin/planning/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp_cart_dmp_pmnn_fitted_ct_unroll_demo.dir/src/dmp_test/dmp_coupling/learn_tactile_feedback/scraping/neural_nets/pmnn/cart_dmp_pmnn_fitted_ct_unroll_test.cpp.o
 
--- ~~  traversing 56 packages in topological order:
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/amd_clmc_dmp/amd_clmc_dmp_cart_dmp_pmnn_fitted_ct_unroll_demo
 
--- ~~  - Eigen
+[  5%] Built target amd_clmc_dmp_cart_dmp_pmnn_fitted_ct_unroll_demo
 
--- ~~  - apollo_robot_model
+Scanning dependencies of target amd_clmc_dmp_ct_loa_learn_algo_verification_demo
 
--- ~~  - catkin_gflags
+[  5%] Building CXX object catkin/planning/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp_ct_loa_learn_algo_verification_demo.dir/src/dmp_test/dmp_coupling/learn_obs_avoid/learning_algo_verification/ct_loa_learn_algo_verification.cpp.o
 
--- ~~  - catkin_glog
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/amd_clmc_dmp/amd_clmc_dmp_ct_loa_learn_algo_verification_demo
 
--- ~~  - cdlbt
+[  5%] Built target amd_clmc_dmp_ct_loa_learn_algo_verification_demo
 
--- ~~  - can_control_tools
+Scanning dependencies of target amd_clmc_dmp_ct_loa_so_sb_multi_demo_vicon_NN_unrolling_demo
 
--- ~~  - controller_communication
+[  5%] Building CXX object catkin/planning/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp_ct_loa_so_sb_multi_demo_vicon_NN_unrolling_demo.dir/src/dmp_test/dmp_coupling/learn_obs_avoid/static_obs/single_baseline/ct_loa_so_sb_multi_demo_vicon_NN_unrolling_test.cpp.o
 
--- ~~  - conversions
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/amd_clmc_dmp/amd_clmc_dmp_ct_loa_so_sb_multi_demo_vicon_NN_unrolling_demo
 
--- ~~  - end_to_end_learning
+[  5%] Built target amd_clmc_dmp_ct_loa_so_sb_multi_demo_vicon_NN_unrolling_demo
 
--- ~~  - interpolation
+Scanning dependencies of target amd_clmc_dmp_ct_loa_so_sb_multi_demo_vicon_PMNN_unrolling_demo
 
--- ~~  - qp_oases
+[  5%] Building CXX object catkin/planning/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp_ct_loa_so_sb_multi_demo_vicon_PMNN_unrolling_demo.dir/src/dmp_test/dmp_coupling/learn_obs_avoid/static_obs/single_baseline/ct_loa_so_sb_multi_demo_vicon_PMNN_unrolling_test.cpp.o
 
--- ~~  - quadprog
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/amd_clmc_dmp/amd_clmc_dmp_ct_loa_so_sb_multi_demo_vicon_PMNN_unrolling_demo
 
--- ~~  - ros_realtime (metapackage)
+[  5%] Built target amd_clmc_dmp_ct_loa_so_sb_multi_demo_vicon_PMNN_unrolling_demo
 
--- ~~  - allocators
+Scanning dependencies of target amd_clmc_dmp_ct_loa_so_sb_multi_demo_vicon_learning_demo
 
--- ~~  - rosatomic
+[  5%] Building CXX object catkin/planning/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp_ct_loa_so_sb_multi_demo_vicon_learning_demo.dir/src/dmp_test/dmp_coupling/learn_obs_avoid/static_obs/single_baseline/ct_loa_so_sb_multi_demo_vicon_learning_test.cpp.o
 
--- ~~  - lockfree
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/amd_clmc_dmp/amd_clmc_dmp_ct_loa_so_sb_multi_demo_vicon_learning_demo
 
--- ~~  - rt_timer
+[  5%] Built target amd_clmc_dmp_ct_loa_so_sb_multi_demo_vicon_learning_demo
 
--- ~~  - rt_utils
+Scanning dependencies of target amd_clmc_dmp_ct_loa_so_sb_multi_demo_vicon_unrolling_demo
 
--- ~~  - dmp
+[  5%] Building CXX object catkin/planning/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp_ct_loa_so_sb_multi_demo_vicon_unrolling_demo.dir/src/dmp_test/dmp_coupling/learn_obs_avoid/static_obs/single_baseline/ct_loa_so_sb_multi_demo_vicon_unrolling_test.cpp.o
 
--- ~~  - splines
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/amd_clmc_dmp/amd_clmc_dmp_ct_loa_so_sb_multi_demo_vicon_unrolling_demo
 
--- ~~  - start_robot
+[  5%] Built target amd_clmc_dmp_ct_loa_so_sb_multi_demo_vicon_unrolling_demo
 
--- ~~  - amd_clmc_ros_messages
+Scanning dependencies of target amd_clmc_dmp_dc_loa_so_sb_multi_demo_demo
 
--- ~~  - ar_track_alvar_msgs
+[  5%] Building CXX object catkin/planning/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp_dc_loa_so_sb_multi_demo_demo.dir/src/dmp_test/dmp_coupling/learn_obs_avoid/static_obs/single_baseline/dc_loa_so_sb_multi_demo_test.cpp.o
 
--- ~~  - custom_robot_msgs
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/amd_clmc_dmp/amd_clmc_dmp_dc_loa_so_sb_multi_demo_demo
 
--- ~~  - riemo_grasping_msgs
+[  5%] Built target amd_clmc_dmp_dc_loa_so_sb_multi_demo_demo
 
--- ~~  - utilities
+Scanning dependencies of target amd_clmc_dmp_dc_loa_so_sb_single_demo_demo
 
--- ~~  - lwpr
+[  5%] Building CXX object catkin/planning/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp_dc_loa_so_sb_single_demo_demo.dir/src/dmp_test/dmp_coupling/learn_obs_avoid/static_obs/single_baseline/dc_loa_so_sb_single_demo_test.cpp.o
 
--- ~~  - xenomai_ros
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/amd_clmc_dmp/amd_clmc_dmp_dc_loa_so_sb_single_demo_demo
 
--- ~~  - constrained_inverse_kinematics_msgs
+[  5%] Built target amd_clmc_dmp_dc_loa_so_sb_single_demo_demo
 
--- ~~  - roscpp_utilities
+Scanning dependencies of target amd_clmc_dmp_pmnn_demo
 
--- ~~  - rosrt
+[  6%] Building CXX object catkin/planning/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp_pmnn_demo.dir/src/dmp_test/dmp_coupling/learn_tactile_feedback/scraping/neural_nets/pmnn/pmnn_test.cpp.o
 
--- ~~  - ros_rt_test
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/amd_clmc_dmp/amd_clmc_dmp_pmnn_demo
 
--- ~~  - sl
+[  6%] Built target amd_clmc_dmp_pmnn_demo
 
--- ~~  - apollo
+Scanning dependencies of target amd_clmc_dmp_quat_dmp_unroll_demo
 
--- ~~  - apollo_test_task
+[  6%] Building CXX object catkin/planning/amd_clmc_dmp/CMakeFiles/amd_clmc_dmp_quat_dmp_unroll_demo.dir/src/dmp_test/cart_dmp/quat_dmp/quat_dmp_unroll_test.cpp.o
 
--- ~~  - sl_ros_servo
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/amd_clmc_dmp/amd_clmc_dmp_quat_dmp_unroll_demo
 
--- ~~  - learning_control
+[  6%] Built target amd_clmc_dmp_quat_dmp_unroll_demo
 
--- ~~  - python_ros_utils
+[  6%] Built target arm_cdlbt
 
--- ~~  - sl_conversions
+[  6%] Built target arm_can_control_tools
 
--- ~~  - sl_utilities
+[  6%] Built target biotac_cheetah
 
--- ~~  - sl_controller_manager
+[  7%] Built target biotac_core
 
--- ~~  - controller_manager_task_apollo
+[  8%] Built target test_cheetah
 
--- ~~  - apollo_user
+[  8%] Built target test_conversions
 
--- ~~  - sl_barrett_controllers
+[  9%] Built target qp_oases
 
--- ~~  - sl_controllers
+[ 10%] Built target quadprog
 
--- ~~  - ros_servo_apollo
+[ 10%] Built target lockfree
 
--- ~~  - usc_utilities
+[ 10%] Built target _catkin_empty_exported_target
 
--- ~~  - learnable_cost_function
+[ 10%] Built target rt_utils
 
--- ~~  - robot_info
+[ 11%] Built target dmp
 
--- ~~  - jacobian_utilities
+[ 11%] Built target test_dmp
 
--- ~~  - sl_barrett_controller_interface
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_AccelerationFeedbackExperimentStatus
 
--- ~~  - sl_controller_interface
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibratePressureSensorsStatus
 
--- ~~  - sl_controller_interface_test
+[ 11%] Built target geometry_msgs_generate_messages_py
 
--- ~~  - strain_gauge_calibration
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerDataStatus
 
--- ~~  - yaml_cpp
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_NavigationTarget
 
--- ~~  - facial_expressions
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineLearningControl
 
--- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PolicyControllerParamsService
 
--- +++ processing catkin package: 'Eigen'
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SwitchControllerStack
 
--- ==> add_subdirectory(catkin/third_party/Eigen)
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_BoundingPoints
 
-WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Goto_command
 
--- +++ processing catkin package: 'apollo_robot_model'
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ResetBreakaway
 
--- ==> add_subdirectory(catkin/robots/apollo_robot_model)
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_RtNetwork
 
--- +++ processing catkin package: 'catkin_gflags'
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspControllerStatus
 
--- ==> add_subdirectory(catkin/third_party/catkin-gflags)
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_BiotacData
 
--- Found gflags  (include: /usr/include, library: /usr/lib/x86_64-linux-gnu/libgflags.so)
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ExperimentParams
 
--- +++ processing catkin package: 'catkin_glog'
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_AvgPressureSensors
 
--- ==> add_subdirectory(catkin/third_party/catkin-glog)
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_QueryControllerStatus
 
--- Found glog    (include: /usr/include, library: /usr/lib/x86_64-linux-gnu/libglog.so)
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Volumes
 
--- +++ processing catkin package: 'cdlbt'
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_UpdateStrainGagesCalibration
 
--- ==> add_subdirectory(catkin/ros/barrett-ros/cdlbt)
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ImageCoordinates
 
--- MACHTYPE x86_64
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LabeledPoint
 
-Detected MACHTYPE=x86_64
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_IncreaseMaxFingerTorque
 
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Preshape
 
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LqrControllerDataStatus
 
-Call Stack (most recent call first):
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PressureSensors
 
-  catkin/ros/barrett-ros/cdlbt/CMakeLists.txt:8 (include)
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ObstaclePoints
 
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateForceTorqueSensor
 
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CartesianTrajectory
 
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Acceleration
 
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PolicyControllerDataStatus
 
--- HOST_NAME=everest
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerParamsService
 
--- HOST=everest
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspPoses
 
--- LAB=AMD
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_TrajectoryStatus
 
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ExperimentGeneratorParamsService
 
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PointArrayArray
 
--- CMAKE_INCLUDE_PATH=
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerStatus
 
--- CMAKE_LIBRARY_PATH=
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CartesianTrajectoryPoint
 
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LookAtParams
 
--- LAB_LIBDIR=lib/x86_64
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineNetwork
 
--- LAB_INCLUDES=include
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_BiotacFingerData
 
--- LAB_BINDIR=bin/x86_64
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CollectDataStatus
 
--- +++ processing catkin package: 'can_control_tools'
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ColorRange
 
--- ==> add_subdirectory(catkin/ros/barrett-ros/canControlTools)
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LookAtStatus
 
--- MACHTYPE x86_64
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DMPControllerStatus
 
-Detected MACHTYPE=x86_64
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_RtNetworkLayer
 
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibratePressureSensors
 
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Extrems
 
-Call Stack (most recent call first):
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DMPCommand
 
-  catkin/ros/barrett-ros/canControlTools/CMakeLists.txt:8 (include)
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_NetworkLayer
 
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ScaledLqr
 
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ViconQuery
 
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspControllerParams
 
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_TrajectoryPoint
 
--- HOST_NAME=everest
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SetPoses
 
--- HOST=everest
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_UpdateStrainGagesCalibrationStatus
 
--- LAB=AMD
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DMPControllerParams
 
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Path
 
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SetVisualToolTracking
 
--- CMAKE_INCLUDE_PATH=
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ContinuousTrajectoryStatus
 
--- CMAKE_LIBRARY_PATH=
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ContinuousTrajectoryPoint
 
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_BoundingPointsArray
 
--- LAB_LIBDIR=lib/x86_64
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SetObjectOri
 
--- LAB_INCLUDES=include
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_EndEffectorPosition
 
--- LAB_BINDIR=bin/x86_64
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_InverseDynamicsBatchNetworkControllerStatus
 
--- Boost version: 1.54.0
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Imu
 
--- Found the following Boost libraries:
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_FingerJointEncoderOffsetsStatus
 
---   thread
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerParams
 
--- +++ processing catkin package: 'controller_communication'
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineDataStatus
 
--- ==> add_subdirectory(catkin/controller_manager/controller_communication)
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_AffinePolicy
 
--- +++ processing catkin package: 'conversions'
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateAccelerometerSensorStatus
 
--- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/usc_utils/conversions)
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspStatus
 
--- +++ processing catkin package: 'end_to_end_learning'
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DistanceFieldEval
 
--- ==> add_subdirectory(catkin/learning/end_to_end_learning)
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LqrControllerParams
 
--- +++ processing catkin package: 'interpolation'
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CartesianGains
 
--- ==> add_subdirectory(catkin/controller_manager/core-sl-ros/interpolation)
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ChordEllipsoid
 
--- +++ processing catkin package: 'qp_oases'
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OnlineDataStatus
 
--- ==> add_subdirectory(catkin/third_party/qp_oases)
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DistanceFieldQueries
 
--- +++ processing catkin package: 'quadprog'
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_FingerJointEncoderOffsets
 
--- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/usc_utils/quadprog)
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_KeyPointBodyApprox
 
--- +++ processing catkin metapackage: 'ros_realtime'
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineLearningControlService
 
--- ==> add_subdirectory(catkin/ros/ros_realtime/ros_realtime)
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LinearQuadraticRegulatorParams
 
--- +++ processing catkin package: 'allocators'
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LqrControllerParamsService
 
--- ==> add_subdirectory(catkin/ros/ros_realtime/allocators)
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Grasp
 
--- Boost version: 1.54.0
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_FingerForceControlGains
 
--- +++ processing catkin package: 'rosatomic'
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateBiotacSensorsStatus
 
--- ==> add_subdirectory(catkin/ros/ros_realtime/rosatomic)
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_StrainGauge
 
--- Boost version: 1.54.0
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ExtremsArray
 
--- +++ processing catkin package: 'lockfree'
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_TaskFrame
 
--- ==> add_subdirectory(catkin/ros/ros_realtime/lockfree)
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Sphere
 
--- Boost version: 1.54.0
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_EndEffectorState
 
--- +++ processing catkin package: 'rt_timer'
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_RectangularBox
 
--- ==> add_subdirectory(catkin/ros/ros_realtime/rt_timer)
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ViconData
 
--- +++ processing catkin package: 'rt_utils'
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SpeedChange
 
--- ==> add_subdirectory(catkin/rt_utils)
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateAccelerometerSensor
 
--- +++ processing catkin package: 'dmp'
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ResetBreakawayStatus
 
--- ==> add_subdirectory(catkin/learning/dmp)
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_RectangularBoxArray
 
--- +++ processing catkin package: 'splines'
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ControllerStatus
 
--- ==> add_subdirectory(catkin/controller_manager/core-sl-ros/splines)
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateBiotacSensors
 
--- +++ processing catkin package: 'start_robot'
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineParams
 
--- ==> add_subdirectory(catkin/robots/start_robot)
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LinearQuadraticRegulatorStatus
 
--- +++ processing catkin package: 'amd_clmc_ros_messages'
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_EnvironmentalObject
 
--- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/amd_clmc_ros_messages)
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Matrix32
 
--- Using these message generators: gencpp;genlisp;genpy
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ObjectMass
 
--- amd_clmc_ros_messages: 108 messages, 10 services
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Gains
 
--- +++ processing catkin package: 'ar_track_alvar_msgs'
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PointArray
 
--- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/ar_track_alvar_msgs)
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Trajectory
 
--- Using these message generators: gencpp;genlisp;genpy
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ImageCoordinatesArray
 
--- ar_track_alvar_msgs: 2 messages, 0 services
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateForceTorqueSensorStatus
 
--- +++ processing catkin package: 'custom_robot_msgs'
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LinearQuadraticRegulator
 
--- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/custom_robot_msgs)
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_InverseDynamicsBatchNetworkControllerParams
 
--- Using these message generators: gencpp;genlisp;genpy
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_TrackingPose
 
--- custom_robot_msgs: 1 messages, 2 services
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineParamsService
 
--- +++ processing catkin package: 'riemo_grasping_msgs'
+[ 11%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CollectData
 
--- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/riemo_grasping_msgs)
+[ 25%] Built target amd_clmc_ros_messages_generate_messages_py
 
--- Using these message generators: gencpp;genlisp;genpy
+[ 25%] Built target geometry_msgs_generate_messages_cpp
 
--- riemo_grasping_msgs: 5 messages, 3 services
+[ 38%] Built target amd_clmc_ros_messages_generate_messages_cpp
 
--- +++ processing catkin package: 'utilities'
+[ 38%] Built target geometry_msgs_generate_messages_lisp
 
--- ==> add_subdirectory(catkin/core-sl/catkin-utilities)
+[ 50%] Built target amd_clmc_ros_messages_generate_messages_lisp
 
--- MACHTYPE x86_64
+[ 50%] Built target amd_clmc_ros_messages_generate_messages
 
-Detected MACHTYPE=x86_64
+[ 50%] Built target _ar_track_alvar_msgs_generate_messages_check_deps_AlvarMarker
 
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+[ 50%] Built target std_msgs_generate_messages_cpp
 
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+[ 50%] Built target _ar_track_alvar_msgs_generate_messages_check_deps_AlvarMarkers
 
-Call Stack (most recent call first):
+[ 50%] Built target ar_track_alvar_msgs_generate_messages_cpp
 
-  catkin/core-sl/catkin-utilities/CMakeLists.txt:8 (include)
+[ 50%] Built target std_msgs_generate_messages_lisp
 
+[ 50%] Built target ar_track_alvar_msgs_generate_messages_lisp
 
+[ 50%] Built target std_msgs_generate_messages_py
 
+[ 50%] Built target ar_track_alvar_msgs_generate_messages_py
 
+[ 50%] Built target ar_track_alvar_msgs_generate_messages
 
--- HOST_NAME=everest
+[ 50%] Built target _custom_robot_msgs_generate_messages_check_deps_assembly_phase
 
--- HOST=everest
+[ 50%] Built target _custom_robot_msgs_generate_messages_check_deps_PredictAssembly
 
--- LAB=AMD
+[ 50%] Built target _custom_robot_msgs_generate_messages_check_deps_PolicyInterface
 
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+[ 50%] Built target custom_robot_msgs_generate_messages_lisp
 
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+[ 51%] Built target custom_robot_msgs_generate_messages_py
 
--- CMAKE_INCLUDE_PATH=
+[ 51%] Built target custom_robot_msgs_generate_messages_cpp
 
--- CMAKE_LIBRARY_PATH=
+[ 51%] Built target custom_robot_msgs_generate_messages
 
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+[ 51%] Built target _riemo_grasping_msgs_generate_messages_check_deps_GraspableObject
 
--- LAB_LIBDIR=lib/x86_64
+[ 51%] Built target _riemo_grasping_msgs_generate_messages_check_deps_GraspPose
 
--- LAB_INCLUDES=include
+[ 51%] Built target _riemo_grasping_msgs_generate_messages_check_deps_Preshape
 
--- LAB_BINDIR=bin/x86_64
+[ 51%] Built target _riemo_grasping_msgs_generate_messages_check_deps_LatestGraspProblemInfo
 
--- +++ processing catkin package: 'lwpr'
+[ 51%] Built target _riemo_grasping_msgs_generate_messages_check_deps_MpiGraspPoses
 
--- ==> add_subdirectory(catkin/core-sl/catkin-lwpr)
+[ 51%] Built target _riemo_grasping_msgs_generate_messages_check_deps_GraspProblemInfo
 
--- MACHTYPE x86_64
+[ 51%] Built target _riemo_grasping_msgs_generate_messages_check_deps_UpdateGraspProblem
 
-Detected MACHTYPE=x86_64
+[ 51%] Built target _riemo_grasping_msgs_generate_messages_check_deps_RenderGraspProblemService
 
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+[ 52%] Built target riemo_grasping_msgs_generate_messages_lisp
 
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+[ 53%] Built target riemo_grasping_msgs_generate_messages_cpp
 
-Call Stack (most recent call first):
+[ 54%] Built target riemo_grasping_msgs_generate_messages_py
 
-  catkin/core-sl/catkin-lwpr/CMakeLists.txt:5 (include)
+[ 54%] Built target riemo_grasping_msgs_generate_messages
 
+[ 58%] Built target utility
 
+[ 58%] Built target lwpr
 
+[ 58%] Built target xascii2clmcplot
 
+[ 58%] Built target xlwpr
 
--- HOST_NAME=everest
+[ 59%] Built target xlwprstat
 
--- HOST=everest
+[ 60%] Built target vrpn_vicon_minimum
 
--- LAB=AMD
+[ 60%] Built target vrpn_vicon_objs_tracker
 
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+[ 60%] Built target vrpn_vicon_objs_tracker_test
 
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+[ 60%] Built target shape_msgs_generate_messages_cpp
 
--- CMAKE_INCLUDE_PATH=
+[ 60%] Built target _constrained_inverse_kinematics_msgs_generate_messages_check_deps_InverseKinematicsRequest
 
--- CMAKE_LIBRARY_PATH=
+[ 60%] Built target constrained_inverse_kinematics_msgs_generate_messages_cpp
 
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+[ 60%] Built target shape_msgs_generate_messages_lisp
 
--- LAB_LIBDIR=lib/x86_64
+[ 60%] Built target constrained_inverse_kinematics_msgs_generate_messages_lisp
 
--- LAB_INCLUDES=include
+[ 60%] Built target shape_msgs_generate_messages_py
 
--- LAB_BINDIR=bin/x86_64
+[ 60%] Built target constrained_inverse_kinematics_msgs_generate_messages_py
 
--- +++ processing catkin package: 'xenomai_ros'
+[ 60%] Built target constrained_inverse_kinematics_msgs_generate_messages
 
--- ==> add_subdirectory(catkin/ros/xenomai-ros)
+[ 60%] Built target roscpp_utilities
 
--- +++ processing catkin package: 'constrained_inverse_kinematics_msgs'
+[ 60%] Built target rosrt
 
--- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/planning/constrained_inverse_kinematics_msgs)
+[ 60%] Built target ros_rt_test_publisher
 
--- Using these message generators: gencpp;genlisp;genpy
+[ 61%] Built target ros_rt_test_subscriber
 
--- constrained_inverse_kinematics_msgs: 1 messages, 0 services
+[ 62%] Built target SLcommon
 
--- +++ processing catkin package: 'roscpp_utilities'
+[ 62%] Built target SLmotor
 
--- ==> add_subdirectory(catkin/ros/roscpp_utilities)
+[ 63%] Built target SLopenGL
 
--- +++ processing catkin package: 'rosrt'
+[ 63%] Built target SLsimulation
 
--- ==> add_subdirectory(catkin/ros/ros_realtime/rosrt)
+[ 64%] Built target SLtask
 
--- xenomai NOT found. (/usr/local;/usr)
+[ 65%] Built target SLvision
 
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+[ 67%] Built target arm
 
--- Boost version: 1.54.0
+[ 67%] Built target arm_openGL
 
--- Found the following Boost libraries:
+[ 67%] Built target arm_simulation
 
---   thread
+[ 67%] Built target arm_task
 
--- +++ processing catkin package: 'ros_rt_test'
+[ 68%] Built target xarm
 
--- ==> add_subdirectory(catkin/ros/ros_rt_basic_example)
+[ 69%] Built target xmotor
 
--- xenomai NOT found. (/usr/local;/usr)
+[ 70%] Built target xpest
 
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+[ 70%] Built target arm_test_task
 
--- +++ processing catkin package: 'sl'
+[ 71%] Built target sl_ros_servo
 
--- ==> add_subdirectory(catkin/core-sl/catkin-sl)
+[ 71%] Built target topic_tools_generate_messages_lisp
 
--- MACHTYPE x86_64
+[ 71%] Built target roscpp_generate_messages_cpp
 
-Detected MACHTYPE=x86_64
+[ 71%] Built target roscpp_generate_messages_lisp
 
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+[ 71%] Built target rosgraph_msgs_generate_messages_lisp
 
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+[ 71%] Built target roscpp_generate_messages_py
 
-Call Stack (most recent call first):
+[ 71%] Built target rosgraph_msgs_generate_messages_py
 
-  catkin/core-sl/catkin-sl/CMakeLists.txt:8 (include)
+[ 71%] Built target rosgraph_msgs_generate_messages_cpp
 
+[ 71%] Built target topic_tools_generate_messages_cpp
 
+[ 71%] Built target topic_tools_generate_messages_py
 
+[ 72%] Built target learning_control
 
+[ 72%] Built target tf2_msgs_generate_messages_cpp
 
--- HOST_NAME=everest
+[ 72%] Built target sensor_msgs_generate_messages_py
 
--- HOST=everest
+[ 72%] Built target actionlib_msgs_generate_messages_py
 
--- LAB=AMD
+[ 72%] Built target tf2_msgs_generate_messages_py
 
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+[ 72%] Built target sensor_msgs_generate_messages_cpp
 
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+[ 72%] Built target actionlib_msgs_generate_messages_cpp
 
--- CMAKE_INCLUDE_PATH=
+[ 72%] Built target actionlib_msgs_generate_messages_lisp
 
--- CMAKE_LIBRARY_PATH=
+[ 72%] Built target sensor_msgs_generate_messages_lisp
 
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+[ 72%] Built target tf_generate_messages_cpp
 
--- LAB_LIBDIR=lib/x86_64
+[ 72%] Built target tf_generate_messages_lisp
 
--- LAB_INCLUDES=include
+[ 72%] Built target tf_generate_messages_py
 
--- LAB_BINDIR=bin/x86_64
+[ 72%] Built target tf2_msgs_generate_messages_lisp
 
--- +++ processing catkin package: 'apollo'
+[ 72%] Built target actionlib_generate_messages_py
 
--- ==> add_subdirectory(catkin/robots/catkin-apollo)
+[ 72%] Built target actionlib_generate_messages_cpp
 
--- MACHTYPE x86_64
+[ 72%] Built target actionlib_generate_messages_lisp
 
-Detected MACHTYPE=x86_64
+[ 73%] Built target sl_utilities
 
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+Scanning dependencies of target controller_manager
 
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+[ 73%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controller_manager/CMakeFiles/controller_manager.dir/src/controller_data.cpp.o
 
-Call Stack (most recent call first):
+[ 73%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controller_manager/CMakeFiles/controller_manager.dir/src/controller_factory.cpp.o
 
-  catkin/robots/catkin-apollo/CMakeLists.txt:9 (include)
+[ 73%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controller_manager/CMakeFiles/controller_manager.dir/src/controller_manager.cpp.o
 
+/home/administrator/ci/ci/team/workspace/src/catkin/controller_manager/core-sl-ros/sl_controller_manager/src/controller_manager.cpp: In member function ‘void sl_controller_manager::ControllerManager::addCommandsToSLMan() const’:
 
+/home/administrator/ci/ci/team/workspace/src/catkin/controller_manager/core-sl-ros/sl_controller_manager/src/controller_manager.cpp:974:88: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
 
+   addToMan("switchCStack", "Switch controller stack", &cmanager_switch_controller_stack);
 
+                                                                                        ^
 
--- HOST_NAME=everest
+/home/administrator/ci/ci/team/workspace/src/catkin/controller_manager/core-sl-ros/sl_controller_manager/src/controller_manager.cpp:974:88: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
 
--- HOST=everest
+/home/administrator/ci/ci/team/workspace/src/catkin/controller_manager/core-sl-ros/sl_controller_manager/src/controller_manager.cpp:975:113: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
 
--- LAB=AMD
+   addToMan("instantSwitchCStack", "Switch controller stack instantly", &cmanager_instant_switch_controller_stack);
 
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+                                                                                                                 ^
 
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+/home/administrator/ci/ci/team/workspace/src/catkin/controller_manager/core-sl-ros/sl_controller_manager/src/controller_manager.cpp:975:113: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
 
--- CMAKE_INCLUDE_PATH=
+/home/administrator/ci/ci/team/workspace/src/catkin/controller_manager/core-sl-ros/sl_controller_manager/src/controller_manager.cpp:976:101: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
 
--- CMAKE_LIBRARY_PATH=
+   addToMan("controllerStats", "Report controller statistics", &cmanager_report_controller_statistics);
 
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+                                                                                                     ^
 
--- LAB_LIBDIR=lib/x86_64
+/home/administrator/ci/ci/team/workspace/src/catkin/controller_manager/core-sl-ros/sl_controller_manager/src/controller_manager.cpp:976:101: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
 
--- LAB_INCLUDES=include
+/home/administrator/ci/ci/team/workspace/src/catkin/controller_manager/core-sl-ros/sl_controller_manager/src/controller_manager.cpp:977:126: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
 
--- LAB_BINDIR=bin/x86_64
+   addToMan("reloadControllers", "Reload all controller parameters and reinitialize controllers", &cmanager_reload_controllers);
 
--- +++ processing catkin package: 'apollo_test_task'
+                                                                                                                              ^
 
--- ==> add_subdirectory(catkin/robots/catkin-sl-apollo-task-example)
+/home/administrator/ci/ci/team/workspace/src/catkin/controller_manager/core-sl-ros/sl_controller_manager/src/controller_manager.cpp:977:126: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
 
--- MACHTYPE x86_64
+[ 73%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controller_manager/CMakeFiles/controller_manager.dir/src/controller_manager_task.cpp.o
 
-Detected MACHTYPE=x86_64
+[ 73%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controller_manager/CMakeFiles/controller_manager.dir/src/controller_stack.cpp.o
 
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+[ 74%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controller_manager/CMakeFiles/controller_manager.dir/src/controller_utilities.cpp.o
 
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+[ 74%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controller_manager/CMakeFiles/controller_manager.dir/src/time_manager.cpp.o
 
-Call Stack (most recent call first):
+Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libcontroller_manager.so
 
-  catkin/robots/catkin-sl-apollo-task-example/CMakeLists.txt:8 (include)
+[ 74%] Built target controller_manager
 
+Scanning dependencies of target sl_barrett_controllers
 
+[ 74%] Building CXX object catkin/controller_manager/sl_barrett_controllers/sl_barrett_controllers/CMakeFiles/sl_barrett_controllers.dir/src/breakaway_controller.cpp.o
 
+[ 74%] Building CXX object catkin/controller_manager/sl_barrett_controllers/sl_barrett_controllers/CMakeFiles/sl_barrett_controllers.dir/src/strain_gages_calibration_updater.cpp.o
 
+[ 74%] Building CXX object catkin/controller_manager/sl_barrett_controllers/sl_barrett_controllers/CMakeFiles/sl_barrett_controllers.dir/src/finger_joint_encoder_offsetter.cpp.o
 
--- HOST_NAME=everest
+[ 74%] Building CXX object catkin/controller_manager/sl_barrett_controllers/sl_barrett_controllers/CMakeFiles/sl_barrett_controllers.dir/src/max_finger_torque_updater.cpp.o
 
--- HOST=everest
+[ 74%] Building CXX object catkin/controller_manager/sl_barrett_controllers/sl_barrett_controllers/CMakeFiles/sl_barrett_controllers.dir/src/force_sensor_processor.cpp.o
 
--- LAB=AMD
+[ 74%] Building CXX object catkin/controller_manager/sl_barrett_controllers/sl_barrett_controllers/CMakeFiles/sl_barrett_controllers.dir/src/accelerometer_processor.cpp.o
 
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+[ 74%] Building CXX object catkin/controller_manager/sl_barrett_controllers/sl_barrett_controllers/CMakeFiles/sl_barrett_controllers.dir/src/pressure_sensor_processor.cpp.o
 
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+[ 74%] Building CXX object catkin/controller_manager/sl_barrett_controllers/sl_barrett_controllers/CMakeFiles/sl_barrett_controllers.dir/src/hand_mannequin_controller.cpp.o
 
--- CMAKE_INCLUDE_PATH=
+[ 75%] Building CXX object catkin/controller_manager/sl_barrett_controllers/sl_barrett_controllers/CMakeFiles/sl_barrett_controllers.dir/src/grasping_controller.cpp.o
 
--- CMAKE_LIBRARY_PATH=
+Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libsl_barrett_controllers.so
 
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+[ 75%] Built target sl_barrett_controllers
 
--- LAB_LIBDIR=lib/x86_64
+Scanning dependencies of target biotac_include_controller_data
 
--- LAB_INCLUDES=include
+[ 75%] Building CXX object catkin/controller_manager/sl_biotac/sl_biotac_controller_data/CMakeFiles/biotac_include_controller_data.dir/src/biotac_controller_data.cpp.o
 
--- LAB_BINDIR=bin/x86_64
+Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libbiotac_include_controller_data.so
 
--- +++ processing catkin package: 'sl_ros_servo'
+[ 75%] Built target biotac_include_controller_data
 
--- ==> add_subdirectory(catkin/ros/sl_ros_servo)
+Scanning dependencies of target sl_biotac_controllers
 
--- MACHTYPE x86_64
+[ 75%] Building CXX object catkin/controller_manager/sl_biotac/sl_biotac_controllers/CMakeFiles/sl_biotac_controllers.dir/src/biotac_joint_force_controller.cpp.o
 
-Detected MACHTYPE=x86_64
+[ 75%] Building CXX object catkin/controller_manager/sl_biotac/sl_biotac_controllers/CMakeFiles/sl_biotac_controllers.dir/src/biotac_sensor_processor.cpp.o
 
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+[ 75%] Building CXX object catkin/controller_manager/sl_biotac/sl_biotac_controllers/CMakeFiles/sl_biotac_controllers.dir/src/biotac_grasping_controller.cpp.o
 
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+[ 75%] Building CXX object catkin/controller_manager/sl_biotac/sl_biotac_controllers/CMakeFiles/sl_biotac_controllers.dir/src/biotac_grasping_controller_PDC.cpp.o
 
-Call Stack (most recent call first):
+Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libsl_biotac_controllers.so
 
-  catkin/ros/sl_ros_servo/CMakeLists.txt:5 (include)
+[ 75%] Built target sl_biotac_controllers
 
+Scanning dependencies of target sl_controllers
 
+[ 75%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controllers/CMakeFiles/sl_controllers.dir/src/grasp_controller.cpp.o
 
+[ 75%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controllers/CMakeFiles/sl_controllers.dir/src/grasp_controller_params.cpp.o
 
+[ 75%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controllers/CMakeFiles/sl_controllers.dir/src/grasp_controller_status.cpp.o
 
--- HOST_NAME=everest
+[ 75%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controllers/CMakeFiles/sl_controllers.dir/src/drifting_controller.cpp.o
 
--- HOST=everest
+[ 75%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controllers/CMakeFiles/sl_controllers.dir/src/drifting_controller_params.cpp.o
 
--- LAB=AMD
+[ 75%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controllers/CMakeFiles/sl_controllers.dir/src/drifting_controller_status.cpp.o
 
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+[ 76%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controllers/CMakeFiles/sl_controllers.dir/src/dmp_controller.cpp.o
 
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+[ 76%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controllers/CMakeFiles/sl_controllers.dir/src/dmp_controller_params.cpp.o
 
--- CMAKE_INCLUDE_PATH=
+[ 76%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controllers/CMakeFiles/sl_controllers.dir/src/dmp_controller_status.cpp.o
 
--- CMAKE_LIBRARY_PATH=
+[ 76%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controllers/CMakeFiles/sl_controllers.dir/src/inverse_dynamics_batch_network_controller.cpp.o
 
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+/home/administrator/ci/ci/team/workspace/src/catkin/controller_manager/core-sl-ros/sl_controllers/src/inverse_dynamics_batch_network_controller.cpp: In member function ‘virtual bool sl_controllers::InverseDynamicsBatchNetworkController::control_loop()’:
 
--- LAB_LIBDIR=lib/x86_64
+/home/administrator/ci/ci/team/workspace/src/catkin/controller_manager/core-sl-ros/sl_controllers/src/inverse_dynamics_batch_network_controller.cpp:334:31: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘std::vector<amd_clmc_ros_messages::RtNetwork_<std::allocator<void> >, std::allocator<amd_clmc_ros_messages::RtNetwork_<std::allocator<void> > > >::size_type {aka long unsigned int}’ [-Wformat=]
 
--- LAB_INCLUDES=include
+             rt_network_.size());
 
--- LAB_BINDIR=bin/x86_64
+                               ^
 
--- +++ processing catkin package: 'learning_control'
+/home/administrator/ci/ci/team/workspace/src/catkin/controller_manager/core-sl-ros/sl_controllers/src/inverse_dynamics_batch_network_controller.cpp:334:31: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘std::vector<boost::shared_ptr<learning_control::RtNetwork> >::size_type {aka long unsigned int}’ [-Wformat=]
 
--- ==> add_subdirectory(catkin/learning/learning_control)
+[ 76%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controllers/CMakeFiles/sl_controllers.dir/src/inverse_dynamics_batch_network_controller_params.cpp.o
 
--- MACHTYPE x86_64
+[ 76%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controllers/CMakeFiles/sl_controllers.dir/src/inverse_dynamics_batch_network_controller_status.cpp.o
 
-Detected MACHTYPE=x86_64
+[ 76%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controllers/CMakeFiles/sl_controllers.dir/src/communication_controller.cpp.o
 
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+[ 76%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controllers/CMakeFiles/sl_controllers.dir/src/communication_utils.cpp.o
 
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+[ 77%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controllers/CMakeFiles/sl_controllers.dir/src/trajectory_generator.cpp.o
 
-Call Stack (most recent call first):
+[ 77%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controllers/CMakeFiles/sl_controllers.dir/src/continuous_trajectory_generator.cpp.o
 
-  catkin/learning/learning_control/CMakeLists.txt:10 (include)
+[ 77%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controllers/CMakeFiles/sl_controllers.dir/src/universal_trajectory_generator.cpp.o
 
+[ 77%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controllers/CMakeFiles/sl_controllers.dir/src/universal_continuous_trajectory_generator.cpp.o
 
+[ 77%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controllers/CMakeFiles/sl_controllers.dir/src/dmp_feedback_gain_generator.cpp.o
 
+[ 77%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controllers/CMakeFiles/sl_controllers.dir/src/inverse_dynamics_controller.cpp.o
 
+[ 77%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controllers/CMakeFiles/sl_controllers.dir/src/integral_controller.cpp.o
 
--- HOST_NAME=everest
+[ 77%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controllers/CMakeFiles/sl_controllers.dir/src/cart_force_control_yielding_integral_controller.cpp.o
 
--- HOST=everest
+[ 77%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controllers/CMakeFiles/sl_controllers.dir/src/cart_force_controller.cpp.o
 
--- LAB=AMD
+[ 78%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controllers/CMakeFiles/sl_controllers.dir/src/cart_feedforward_force_controller.cpp.o
 
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+[ 78%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controllers/CMakeFiles/sl_controllers.dir/src/joint_force_controller.cpp.o
 
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+[ 78%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controllers/CMakeFiles/sl_controllers.dir/src/operational_space_velocity_controller.cpp.o
 
--- CMAKE_INCLUDE_PATH=
+[ 78%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controllers/CMakeFiles/sl_controllers.dir/src/operational_space_jacobian_transpose_controller.cpp.o
 
--- CMAKE_LIBRARY_PATH=
+[ 78%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controllers/CMakeFiles/sl_controllers.dir/src/inverse_kinematics.cpp.o
 
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+[ 78%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controllers/CMakeFiles/sl_controllers.dir/src/inverse_kinematics_controller.cpp.o
 
--- LAB_LIBDIR=lib/x86_64
+[ 78%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controllers/CMakeFiles/sl_controllers.dir/src/zero_torque_controller.cpp.o
 
--- LAB_INCLUDES=include
+[ 78%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controllers/CMakeFiles/sl_controllers.dir/src/gravity_compensation_controller.cpp.o
 
--- LAB_BINDIR=bin/x86_64
+[ 78%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controllers/CMakeFiles/sl_controllers.dir/src/test_controller.cpp.o
 
--- xenomai NOT found. (/usr/local;/usr)
+[ 79%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controllers/CMakeFiles/sl_controllers.dir/src/payload_gravity_compensator.cpp.o
 
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+[ 79%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controllers/CMakeFiles/sl_controllers.dir/src/task_frame_setter.cpp.o
 
--- +++ processing catkin package: 'python_ros_utils'
+[ 79%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controllers/CMakeFiles/sl_controllers.dir/src/set_desired_to_actual.cpp.o
 
--- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/usc_utils/python_ros_utils)
+[ 79%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controllers/CMakeFiles/sl_controllers.dir/src/data_collector.cpp.o
 
--- Using these message generators: gencpp;genlisp;genpy
+[ 79%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controllers/CMakeFiles/sl_controllers.dir/src/state_publisher.cpp.o
 
--- +++ processing catkin package: 'sl_conversions'
+[ 79%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controllers/CMakeFiles/sl_controllers.dir/src/visual_tool_tracking_filter.cpp.o
 
--- ==> add_subdirectory(catkin/controller_manager/core-sl-ros/sl_conversions)
+[ 79%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controllers/CMakeFiles/sl_controllers.dir/src/tf_publisher.cpp.o
 
--- Using these message generators: gencpp;genlisp;genpy
+[ 79%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controllers/CMakeFiles/sl_controllers.dir/src/head_trajectory_generator.cpp.o
 
--- +++ processing catkin package: 'sl_utilities'
+[ 80%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controllers/CMakeFiles/sl_controllers.dir/src/master_slave_controller.cpp.o
 
--- ==> add_subdirectory(catkin/controller_manager/core-sl-ros/sl_utilities)
+[ 80%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controllers/CMakeFiles/sl_controllers.dir/src/master_slave_cart_force_controller.cpp.o
 
--- xenomai NOT found. (/usr/local;/usr)
+[ 80%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controllers/CMakeFiles/sl_controllers.dir/src/master_cart_feedforward_force_controller.cpp.o
 
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libsl_controllers.so
 
--- Using these message generators: gencpp;genlisp;genpy
+[ 80%] Built target sl_controllers
 
--- +++ processing catkin package: 'sl_controller_manager'
+Scanning dependencies of target sl_head_arm_controllers
 
--- ==> add_subdirectory(catkin/controller_manager/core-sl-ros/sl_controller_manager)
+[ 80%] Building CXX object catkin/controller_manager/sl_head_arm/sl_head_arm_controllers/CMakeFiles/sl_head_arm_controllers.dir/src/head_trajectory_generator.cpp.o
 
--- MACHTYPE x86_64
+Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libsl_head_arm_controllers.so
 
-Detected MACHTYPE=x86_64
+[ 80%] Built target sl_head_arm_controllers
 
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+Scanning dependencies of target vicon_include_controller_data
 
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+[ 80%] Building CXX object catkin/controller_manager/sl_vicon/sl_vicon_controller_data/CMakeFiles/vicon_include_controller_data.dir/src/vicon_controller_data.cpp.o
 
-Call Stack (most recent call first):
+Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libvicon_include_controller_data.so
 
-  catkin/controller_manager/core-sl-ros/sl_controller_manager/CMakeLists.txt:5 (include)
+[ 80%] Built target vicon_include_controller_data
 
+Scanning dependencies of target biotac_vicon_include_controller_data
 
+[ 80%] Building CXX object catkin/controller_manager/sl_biotac_vicon/sl_biotac_vicon_controller_data/CMakeFiles/biotac_vicon_include_controller_data.dir/src/biotac_vicon_controller_data.cpp.o
 
+Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libbiotac_vicon_include_controller_data.so
 
+[ 80%] Built target biotac_vicon_include_controller_data
 
--- HOST_NAME=everest
+Scanning dependencies of target controller_manager_task
 
--- HOST=everest
+[ 80%] Building CXX object catkin/controller_manager/controller_manager_arm/controller_manager_task_arm/CMakeFiles/controller_manager_task.dir/src/sl_task.cpp.o
 
--- LAB=AMD
+/home/administrator/ci/ci/team/workspace/src/catkin/controller_manager/controller_manager_arm/controller_manager_task_arm/src/sl_task.cpp: In function ‘void sl_controller_manager::add_controller_manager_task()’:
 
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+/home/administrator/ci/ci/team/workspace/src/catkin/controller_manager/controller_manager_arm/controller_manager_task_arm/src/sl_task.cpp:33:98: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
 
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+       addToMan("startCtrlManager", "startControllerManager", &set_controller_manager_task_by_name);
 
--- CMAKE_INCLUDE_PATH=
+                                                                                                  ^
 
--- CMAKE_LIBRARY_PATH=
+/home/administrator/ci/ci/team/workspace/src/catkin/controller_manager/controller_manager_arm/controller_manager_task_arm/src/sl_task.cpp:33:98: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
 
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libcontroller_manager_task.so
 
--- LAB_LIBDIR=lib/x86_64
+[ 80%] Built target controller_manager_task
 
--- LAB_INCLUDES=include
+[ 80%] Built target arm_commands
 
--- LAB_BINDIR=bin/x86_64
+[ 81%] Built target xopengl_arm
 
--- xenomai NOT found. (/usr/local;/usr)
+[ 81%] Built target xsimulation_arm
 
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+Scanning dependencies of target xtask_arm
 
--- Using these message generators: gencpp;genlisp;genpy
+[ 81%] Building C object catkin/robots/armUser/CMakeFiles/xtask_arm.dir/src/initUserTasks.c.o
 
--- +++ processing catkin package: 'controller_manager_task_apollo'
+Linking C executable /home/administrator/ci/ci/team/workspace/devel/lib/arm_user/xtask
 
--- ==> add_subdirectory(catkin/controller_manager/controller_manager_apollo/controller_manager_task_apollo)
+[ 81%] Built target xtask_arm
 
--- MACHTYPE x86_64
+[ 83%] Built target xros_arm
 
-Detected MACHTYPE=x86_64
+[ 83%] Built target _usc_utilities_generate_messages_check_deps_AccumulatedTrialStatistics
 
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+[ 83%] Built target visualization_msgs_generate_messages_cpp
 
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+[ 83%] Built target usc_utilities_generate_messages_cpp
 
-Call Stack (most recent call first):
+[ 84%] Built target usc_utilities
 
-  catkin/controller_manager/controller_manager_apollo/controller_manager_task_apollo/CMakeLists.txt:5 (include)
+[ 84%] Built target visualization_msgs_generate_messages_lisp
 
+[ 84%] Built target usc_utilities_generate_messages_lisp
 
+[ 84%] Built target visualization_msgs_generate_messages_py
 
+[ 84%] Built target usc_utilities_generate_messages_py
 
+[ 84%] Built target usc_utilities_generate_messages
 
--- HOST_NAME=everest
+[ 84%] Built target learnable_cost_function
 
--- HOST=everest
+[ 84%] Built target robot_info
 
--- LAB=AMD
+Scanning dependencies of target jacobian_utilities
 
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+[ 84%] Building CXX object catkin/ros/usc-clmc-catkin-pkg/usc_utils/jacobian_utilities/CMakeFiles/jacobian_utilities.dir/src/jacobian.cpp.o
 
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libjacobian_utilities.so
 
--- CMAKE_INCLUDE_PATH=
+[ 84%] Built target jacobian_utilities
 
--- CMAKE_LIBRARY_PATH=
+Scanning dependencies of target sl_barrett_controller_interface
 
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+[ 84%] Building CXX object catkin/controller_manager/sl_barrett_controllers/sl_barrett_controller_interface/CMakeFiles/sl_barrett_controller_interface.dir/src/force_torque_sensor_client.cpp.o
 
--- LAB_LIBDIR=lib/x86_64
+[ 85%] Building CXX object catkin/controller_manager/sl_barrett_controllers/sl_barrett_controller_interface/CMakeFiles/sl_barrett_controller_interface.dir/src/grasp_controller_interface.cpp.o
 
--- LAB_INCLUDES=include
+Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libsl_barrett_controller_interface.so
 
--- LAB_BINDIR=bin/x86_64
+[ 85%] Built target sl_barrett_controller_interface
 
--- xenomai NOT found. (/usr/local;/usr)
+Scanning dependencies of target sl_controller_interface
 
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+[ 85%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controller_interface/CMakeFiles/sl_controller_interface.dir/src/data_collector_client.cpp.o
 
--- Using these message generators: gencpp;genlisp;genpy
+[ 85%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controller_interface/CMakeFiles/sl_controller_interface.dir/src/switch_controller_stack_client.cpp.o
 
--- +++ processing catkin package: 'apollo_user'
+[ 86%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controller_interface/CMakeFiles/sl_controller_interface.dir/src/robot_monitor.cpp.o
 
--- ==> add_subdirectory(catkin/robots/catkin-apolloUser)
+[ 86%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controller_interface/CMakeFiles/sl_controller_interface.dir/src/robot_monitor_impl.cpp.o
 
--- MACHTYPE x86_64
+[ 86%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controller_interface/CMakeFiles/sl_controller_interface.dir/src/controller_interface.cpp.o
 
-Detected MACHTYPE=x86_64
+[ 86%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controller_interface/CMakeFiles/sl_controller_interface.dir/src/forward_kinematics.cpp.o
 
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+[ 86%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controller_interface/CMakeFiles/sl_controller_interface.dir/src/gain_client.cpp.o
 
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+[ 86%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controller_interface/CMakeFiles/sl_controller_interface.dir/src/cartesian_trajectory_client.cpp.o
 
-Call Stack (most recent call first):
+[ 86%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controller_interface/CMakeFiles/sl_controller_interface.dir/src/joint_trajectory_client.cpp.o
 
-  catkin/robots/catkin-apolloUser/CMakeLists.txt:8 (include)
+[ 86%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controller_interface/CMakeFiles/sl_controller_interface.dir/src/trajectory_client.cpp.o
 
+[ 86%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controller_interface/CMakeFiles/sl_controller_interface.dir/src/trajectory_client_impl.cpp.o
 
+[ 87%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controller_interface/CMakeFiles/sl_controller_interface.dir/src/task_frame_setter_client.cpp.o
 
+[ 87%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controller_interface/CMakeFiles/sl_controller_interface.dir/src/head_forward_kinematics.cpp.o
 
+[ 87%] Building CXX object catkin/controller_manager/core-sl-ros/sl_controller_interface/CMakeFiles/sl_controller_interface.dir/src/head_inverse_kinematics.cpp.o
 
--- HOST_NAME=everest
+Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libsl_controller_interface.so
 
--- HOST=everest
+[ 87%] Built target sl_controller_interface
 
--- LAB=AMD
+Scanning dependencies of target arm_learn_hand_eye_calibration
 
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+[ 88%] Building CXX object catkin/calibration/arm_learn_hand_eye_calibration/CMakeFiles/arm_learn_hand_eye_calibration.dir/src/hand_eye_calibration_model.cpp.o
 
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+[ 88%] Building CXX object catkin/calibration/arm_learn_hand_eye_calibration/CMakeFiles/arm_learn_hand_eye_calibration.dir/src/calibrated_forward_kinematics.cpp.o
 
--- CMAKE_INCLUDE_PATH=
+Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libarm_learn_hand_eye_calibration.so
 
--- CMAKE_LIBRARY_PATH=
+[ 88%] Built target arm_learn_hand_eye_calibration
 
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+Scanning dependencies of target test_gp_model
 
--- LAB_LIBDIR=lib/x86_64
+[ 88%] Building CXX object catkin/calibration/arm_learn_hand_eye_calibration/CMakeFiles/test_gp_model.dir/src/test_gp_model.cpp.o
 
--- LAB_INCLUDES=include
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/arm_learn_hand_eye_calibration/test_gp_model
 
--- LAB_BINDIR=bin/x86_64
+[ 88%] Built target test_gp_model
 
--- xenomai NOT found. (/usr/local;/usr)
+Scanning dependencies of target sl_biotac_controller_interface
 
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+[ 88%] Building CXX object catkin/controller_manager/sl_biotac/sl_biotac_controller_interface/CMakeFiles/sl_biotac_controller_interface.dir/src/biotac_sensor_client.cpp.o
 
--- Using these message generators: gencpp;genlisp;genpy
+Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libsl_biotac_controller_interface.so
 
--- +++ processing catkin package: 'sl_barrett_controllers'
+[ 88%] Built target sl_biotac_controller_interface
 
--- ==> add_subdirectory(catkin/controller_manager/sl_barrett_controllers/sl_barrett_controllers)
+Scanning dependencies of target sl_dmp_controller_interface
 
--- xenomai NOT found. (/usr/local;/usr)
+[ 88%] Building CXX object catkin/controller_manager/sl_dmp/sl_dmp_controller_interface/CMakeFiles/sl_dmp_controller_interface.dir/src/dmp_client.cpp.o
 
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libsl_dmp_controller_interface.so
 
--- Using these message generators: gencpp;genlisp;genpy
+[ 88%] Built target sl_dmp_controller_interface
 
--- +++ processing catkin package: 'sl_controllers'
+Scanning dependencies of target constraints_exploration_node_vicon_tracking
 
--- ==> add_subdirectory(catkin/controller_manager/core-sl-ros/sl_controllers)
+[ 88%] Building CXX object catkin/controller_manager/controller_manager_examples_arm/CMakeFiles/constraints_exploration_node_vicon_tracking.dir/src/constraints_exploration_node_vicon_tracking.cpp.o
 
--- xenomai NOT found. (/usr/local;/usr)
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/controller_manager_examples_arm/constraints_exploration_node_vicon_tracking
 
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+[ 88%] Built target constraints_exploration_node_vicon_tracking
 
--- Using these message generators: gencpp;genlisp;genpy
+Scanning dependencies of target constraints_exploration_node_vicon_tracking_grasp
 
--- Boost version: 1.54.0
+[ 89%] Building CXX object catkin/controller_manager/controller_manager_examples_arm/CMakeFiles/constraints_exploration_node_vicon_tracking_grasp.dir/src/constraints_exploration_node_vicon_tracking_grasp.cpp.o
 
--- Found the following Boost libraries:
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/controller_manager_examples_arm/constraints_exploration_node_vicon_tracking_grasp
 
---   random
+[ 89%] Built target constraints_exploration_node_vicon_tracking_grasp
 
--- +++ processing catkin package: 'ros_servo_apollo'
+Scanning dependencies of target constraints_exploration_node_vicon_tracking_screw
 
--- ==> add_subdirectory(catkin/ros/ros_servo_apollo)
+[ 89%] Building CXX object catkin/controller_manager/controller_manager_examples_arm/CMakeFiles/constraints_exploration_node_vicon_tracking_screw.dir/src/constraints_exploration_node_vicon_tracking_screw.cpp.o
 
--- MACHTYPE x86_64
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/controller_manager_examples_arm/constraints_exploration_node_vicon_tracking_screw
 
-Detected MACHTYPE=x86_64
+[ 89%] Built target constraints_exploration_node_vicon_tracking_screw
 
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+Scanning dependencies of target constraints_exploration_node_vicon_tracking_screw_reinforcement
 
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+[ 89%] Building CXX object catkin/controller_manager/controller_manager_examples_arm/CMakeFiles/constraints_exploration_node_vicon_tracking_screw_reinforcement.dir/src/constraints_exploration_node_vicon_tracking_screw_reinforcement.cpp.o
 
-Call Stack (most recent call first):
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/controller_manager_examples_arm/constraints_exploration_node_vicon_tracking_screw_reinforcement
 
-  catkin/ros/ros_servo_apollo/CMakeLists.txt:5 (include)
+[ 89%] Built target constraints_exploration_node_vicon_tracking_screw_reinforcement
 
+Scanning dependencies of target grasp_controller_interface_COM
 
+[ 89%] Building CXX object catkin/controller_manager/controller_manager_examples_arm/CMakeFiles/grasp_controller_interface_COM.dir/src/grasp_controller_interface_COM.cpp.o
 
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/controller_manager_examples_arm/grasp_controller_interface_COM
 
+[ 89%] Built target grasp_controller_interface_COM
 
--- HOST_NAME=everest
+Scanning dependencies of target grasp_point_cloud_gravity_comp_stiff_fingers
 
--- HOST=everest
+[ 89%] Building CXX object catkin/controller_manager/controller_manager_examples_arm/CMakeFiles/grasp_point_cloud_gravity_comp_stiff_fingers.dir/src/grasp_point_cloud_gravity_comp_stiff_fingers.cpp.o
 
--- LAB=AMD
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/controller_manager_examples_arm/grasp_point_cloud_gravity_comp_stiff_fingers
 
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+[ 89%] Built target grasp_point_cloud_gravity_comp_stiff_fingers
 
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+Scanning dependencies of target grasp_point_cloud_node_vicon_tracking
 
--- CMAKE_INCLUDE_PATH=
+[ 89%] Building CXX object catkin/controller_manager/controller_manager_examples_arm/CMakeFiles/grasp_point_cloud_node_vicon_tracking.dir/src/grasp_point_cloud_node_vicon_tracking.cpp.o
 
--- CMAKE_LIBRARY_PATH=
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/controller_manager_examples_arm/grasp_point_cloud_node_vicon_tracking
 
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+[ 89%] Built target grasp_point_cloud_node_vicon_tracking
 
--- LAB_LIBDIR=lib/x86_64
+Scanning dependencies of target gravity_comp_mannequin_fingers_default_posture
 
--- LAB_INCLUDES=include
+[ 90%] Building CXX object catkin/controller_manager/controller_manager_examples_arm/CMakeFiles/gravity_comp_mannequin_fingers_default_posture.dir/src/gravity_comp_mannequin_fingers_default_posture.cpp.o
 
--- LAB_BINDIR=bin/x86_64
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/controller_manager_examples_arm/gravity_comp_mannequin_fingers_default_posture
 
--- Using these message generators: gencpp;genlisp;genpy
+[ 90%] Built target gravity_comp_mannequin_fingers_default_posture
 
--- +++ processing catkin package: 'usc_utilities'
+Scanning dependencies of target gravity_comp_master_slave_default_posture
 
--- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/usc_utils/usc_utilities)
+[ 90%] Building CXX object catkin/controller_manager/controller_manager_examples_arm/CMakeFiles/gravity_comp_master_slave_default_posture.dir/src/gravity_comp_master_slave_default_posture.cpp.o
 
--- Using these message generators: gencpp;genlisp;genpy
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/controller_manager_examples_arm/gravity_comp_master_slave_default_posture
 
--- usc_utilities: 1 messages, 0 services
+[ 90%] Built target gravity_comp_master_slave_default_posture
 
--- +++ processing catkin package: 'learnable_cost_function'
+Scanning dependencies of target gravity_comp_stiff_fingers_w_default_posture
 
--- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/planning/learnable_cost_function)
+[ 90%] Building CXX object catkin/controller_manager/controller_manager_examples_arm/CMakeFiles/gravity_comp_stiff_fingers_w_default_posture.dir/src/gravity_comp_stiff_fingers_w_default_posture.cpp.o
 
--- +++ processing catkin package: 'robot_info'
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/controller_manager_examples_arm/gravity_comp_stiff_fingers_w_default_posture
 
--- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/usc_utils/robot_info)
+[ 90%] Built target gravity_comp_stiff_fingers_w_default_posture
 
--- +++ processing catkin package: 'jacobian_utilities'
+Scanning dependencies of target master_slave_force_feedback
 
--- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/usc_utils/jacobian_utilities)
+[ 90%] Building CXX object catkin/controller_manager/controller_manager_examples_arm/CMakeFiles/master_slave_force_feedback.dir/src/master_slave_force_feedback.cpp.o
 
--- +++ processing catkin package: 'sl_barrett_controller_interface'
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/controller_manager_examples_arm/master_slave_force_feedback
 
--- ==> add_subdirectory(catkin/controller_manager/sl_barrett_controllers/sl_barrett_controller_interface)
+[ 90%] Built target master_slave_force_feedback
 
--- xenomai NOT found. (/usr/local;/usr)
+Scanning dependencies of target peg_in_hole_node_vicon_tracking
 
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+[ 90%] Building CXX object catkin/controller_manager/controller_manager_examples_arm/CMakeFiles/peg_in_hole_node_vicon_tracking.dir/src/peg_in_hole_node_vicon_tracking.cpp.o
 
--- Using these message generators: gencpp;genlisp;genpy
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/controller_manager_examples_arm/peg_in_hole_node_vicon_tracking
 
--- +++ processing catkin package: 'sl_controller_interface'
+[ 90%] Built target peg_in_hole_node_vicon_tracking
 
--- ==> add_subdirectory(catkin/controller_manager/core-sl-ros/sl_controller_interface)
+Scanning dependencies of target test_cartesian_client_example
 
--- Using these message generators: gencpp;genlisp;genpy
+[ 90%] Building CXX object catkin/controller_manager/controller_manager_examples_arm/CMakeFiles/test_cartesian_client_example.dir/src/test_cartesian_client_example.cpp.o
 
--- +++ processing catkin package: 'sl_controller_interface_test'
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/controller_manager_examples_arm/test_cartesian_client_example
 
--- ==> add_subdirectory(catkin/controller_manager/controller_manager_examples_apollo)
+[ 90%] Built target test_cartesian_client_example
 
--- Using these message generators: gencpp;genlisp;genpy
+Scanning dependencies of target test_cartesian_trajectory_client
 
--- xenomai NOT found. (/usr/local;/usr)
+[ 90%] Building CXX object catkin/controller_manager/controller_manager_examples_arm/CMakeFiles/test_cartesian_trajectory_client.dir/src/test_cartesian_trajectory_client.cpp.o
 
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/controller_manager_examples_arm/test_cartesian_trajectory_client
 
--- +++ processing catkin package: 'strain_gauge_calibration'
+[ 90%] Built target test_cartesian_trajectory_client
 
--- ==> add_subdirectory(catkin/controller_manager/core-sl-ros/strain_gauge_calibration)
+Scanning dependencies of target test_constraint_exploration_controller
 
--- Using these message generators: gencpp;genlisp;genpy
+[ 90%] Building CXX object catkin/controller_manager/controller_manager_examples_arm/CMakeFiles/test_constraint_exploration_controller.dir/src/test_constraint_exploration_controller.cpp.o
 
--- xenomai NOT found. (/usr/local;/usr)
+In file included from /opt/ros/indigo/include/ros/ros.h:40:0,
 
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+                 from /home/administrator/ci/ci/team/workspace/src/catkin/ros/usc-clmc-catkin-pkg/usc_utils/robot_info/include/robot_info/robot_info.h:28,
 
--- +++ processing catkin package: 'yaml_cpp'
+                 from /home/administrator/ci/ci/team/workspace/src/catkin/controller_manager/controller_manager_examples_arm/src/test_constraint_exploration_controller.cpp:15:
 
--- ==> add_subdirectory(catkin/third_party/YAML_CPP)
+/home/administrator/ci/ci/team/workspace/src/catkin/controller_manager/controller_manager_examples_arm/src/test_constraint_exploration_controller.cpp: In function ‘int main(int, char**)’:
 
--- Boost version: 1.54.0
+/opt/ros/indigo/include/ros/console.h:343:176: warning: format not a string literal and no format arguments [-Wformat-security]
 
--- +++ processing catkin package: 'facial_expressions'
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__)
 
--- ==> add_subdirectory(catkin/emotions/facial_expressions)
+                                                                                                                                                                                ^
 
--- MACHTYPE x86_64
+/opt/ros/indigo/include/ros/console.h:346:5: note: in expansion of macro ‘ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER’
 
-Detected MACHTYPE=x86_64
-
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
-
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
-
-Call Stack (most recent call first):
-
-  catkin/emotions/facial_expressions/CMakeLists.txt:6 (include)
-
-
-
-
-
--- HOST_NAME=everest
-
--- HOST=everest
-
--- LAB=AMD
-
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_INCLUDE_PATH=
-
--- CMAKE_LIBRARY_PATH=
-
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
-
--- LAB_LIBDIR=lib/x86_64
-
--- LAB_INCLUDES=include
-
--- LAB_BINDIR=bin/x86_64
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- facial_expressions: 0 messages, 1 services
-
--- Configuring done
-
--- Generating done
-
--- Build files have been written to: /home/administrator/ci/ci/team/workspace/build
-
-[  0%] Scanning dependencies of target gtest
-
-[  0%] [  0%] [  0%] [  0%] Built target geometry_msgs_generate_messages_cpp
-
-Built target visualization_msgs_generate_messages_cpp
-
-Built target sensor_msgs_generate_messages_cpp
-
-Built target std_msgs_generate_messages_py
-
-Built target std_msgs_generate_messages_cpp
-
-[  0%] [  0%] [  0%] Built target std_msgs_generate_messages_lisp
-
-Built target geometry_msgs_generate_messages_py
-
-[  0%] [  0%] [  0%] Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
-
-[  0%] Built target roscpp_utilities
-
-Built target actionlib_msgs_generate_messages_py
-
-Built target actionlib_msgs_generate_messages_lisp
-
-Built target tf2_msgs_generate_messages_lisp
-
-[  0%] Built target geometry_msgs_generate_messages_lisp
-
-[  0%] Built target _usc_utilities_generate_messages_check_deps_AccumulatedTrialStatistics
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ResetBreakaway
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PolicyControllerParamsService
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibratePressureSensorsStatus
-
-[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_AccelerationFeedbackExperimentStatus
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerDataStatus
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_BiotacData
-
-[  0%] [  0%] [  0%] [  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Goto_command
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_SwitchControllerStack
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_NavigationTarget
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineLearningControl
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspControllerStatus
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_RtNetwork
-
-[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_BoundingPoints
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_ExperimentParams
-
-[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_AvgPressureSensors
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_QueryControllerStatus
-
-[  0%] [  0%] [  0%] [  0%] [  0%] [  0%] [  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Volumes
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_UpdateStrainGagesCalibration
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_ImageCoordinates
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_LabeledPoint
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_IncreaseMaxFingerTorque
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_ObstaclePoints
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_Preshape
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateForceTorqueSensor
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_LqrControllerDataStatus
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Acceleration
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CartesianTrajectory
-
-[  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PressureSensors
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_PolicyControllerDataStatus
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspPoses
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerParamsService
-
-[  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerStatus
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineNetwork
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_LookAtParams
-
-[  0%] [  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_TrajectoryStatus
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_ExperimentGeneratorParamsService
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_PointArrayArray
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_BiotacFingerData
-
-[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CollectDataStatus
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_CartesianTrajectoryPoint
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LookAtStatus
-
-[  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DMPControllerStatus
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_RtNetworkLayer
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibratePressureSensors
-
-[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ColorRange
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_Extrems
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DMPCommand
-
-[  0%] [  0%] [  0%] [  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SetPoses
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_NetworkLayer
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_ViconQuery
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspControllerParams
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_ScaledLqr
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_TrajectoryPoint
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_UpdateStrainGagesCalibrationStatus
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Path
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_BoundingPointsArray
-
-[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DMPControllerParams
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SetObjectOri
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_SetVisualToolTracking
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ContinuousTrajectoryStatus
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ContinuousTrajectoryPoint
-
-[  0%] [  0%] [  0%] [  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_EndEffectorPosition
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_FingerJointEncoderOffsetsStatus
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerParams
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_Imu
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineDataStatus
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_AffinePolicy
-
-[  0%] [  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspStatus
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_InverseDynamicsBatchNetworkControllerStatus
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateAccelerometerSensorStatus
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_DistanceFieldEval
-
-[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CartesianGains
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_LqrControllerParams
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OnlineDataStatus
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ChordEllipsoid
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DistanceFieldQueries
-
-[  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Grasp
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineLearningControlService
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_LinearQuadraticRegulatorParams
-
-[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LqrControllerParamsService
-
-[  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateBiotacSensorsStatus
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_FingerJointEncoderOffsets
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_StrainGauge
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_FingerForceControlGains
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_KeyPointBodyApprox
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Sphere
-
-[  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ExtremsArray
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_TaskFrame
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_EndEffectorState
-
-[  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_RectangularBox
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_LinearQuadraticRegulatorStatus
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_ViconData
-
-[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SpeedChange
-
-[  0%] [  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateAccelerometerSensor
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateBiotacSensors
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineParams
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_ResetBreakawayStatus
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_EnvironmentalObject
-
-[  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Matrix32
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_RectangularBoxArray
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_ControllerStatus
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Gains
-
-[  0%] Built target roscpp_generate_messages_lisp
-
-[  0%] Built target roscpp_generate_messages_cpp
-
-[  0%] [  0%] [  0%] Built target roscpp_generate_messages_py
-
-Built target rosgraph_msgs_generate_messages_lisp
-
-Built target rosgraph_msgs_generate_messages_py
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ObjectMass
-
-[  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PointArray
-
-Built target rosgraph_msgs_generate_messages_cpp
-
-Built target sensor_msgs_generate_messages_lisp
-
-[  0%] [  0%] [  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_InverseDynamicsBatchNetworkControllerParams
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateForceTorqueSensorStatus
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_ImageCoordinatesArray
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_LinearQuadraticRegulator
-
-Built target actionlib_msgs_generate_messages_cpp
-
-[  0%] [  0%] [  0%] Built target topic_tools_generate_messages_lisp
-
-Built target topic_tools_generate_messages_py
-
-[  0%] Built target sensor_msgs_generate_messages_py
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_Trajectory
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_TrackingPose
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineParamsService
-
-[  0%] Built target tf_generate_messages_py
-
-[  0%] [  0%] [  0%] [  0%] [  0%] [  0%] [  0%] [  0%] [  0%] [  0%] Built target tf_generate_messages_lisp
-
-Built target tf_generate_messages_cpp
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_CollectData
-
-Built target actionlib_generate_messages_cpp
-
-Built target actionlib_generate_messages_lisp
-
-Built target actionlib_generate_messages_py
-
-Built target tf2_msgs_generate_messages_cpp
-
-Built target visualization_msgs_generate_messages_lisp
-
-Built target tf2_msgs_generate_messages_py
-
-Built target visualization_msgs_generate_messages_py
-
-[  0%] [  0%] Built target topic_tools_generate_messages_cpp
-
-[  0%] Built target _catkin_empty_exported_target
-
-Built target lockfree
-
-[  0%] Built target usc_utilities_generate_messages_cpp
-
-[  1%] [  7%] Built target usc_utilities_generate_messages_py
-
-Built target utility
-
-[ 14%] Built target yaml-cpp
-
-[ 14%] Built target usc_utilities_generate_messages_lisp
-
-[ 14%] Built target rt_utils
-
-[ 38%] Built target amd_clmc_ros_messages_generate_messages_lisp
-
-[ 61%] Built target amd_clmc_ros_messages_generate_messages_py
-
-[ 85%] [ 85%] Built target amd_clmc_ros_messages_generate_messages_cpp
-
-Built target lwpr
-
-[ 87%] Built target rosrt
-
-[ 88%] Built target usc_utilities
-
-Scanning dependencies of target test_sl_conversions
-
-[ 90%] Building CXX object catkin/controller_manager/core-sl-ros/sl_conversions/CMakeFiles/test_sl_conversions.dir/test/test_sl_conversions.cpp.o
-
-[ 92%] Built target learning_control
-
-[ 93%] Built target robot_info
-
-[ 96%] Built target sl_controller_interface
-
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/sl_conversions/test_sl_conversions
-
-[ 96%] Built target test_sl_conversions
-
-Linking CXX shared library libgtest.so
-
-[ 96%] Built target gtest
-
-Scanning dependencies of target gtest_main
-
-[ 98%] Building CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
-
-Linking CXX shared library libgtest_main.so
-
-[ 98%] Built target gtest_main
-
-Scanning dependencies of target utest
-
-Scanning dependencies of target test_aligned_alloc
-
-Scanning dependencies of target test_freelist
-
-Scanning dependencies of target test_object_pool
-
-Scanning dependencies of target generic_test
-
-[ 98%] [ 98%] [ 98%] Building CXX object catkin/ros/ros_realtime/rosatomic/CMakeFiles/utest.dir/test/utest.cpp.o
-
-Building CXX object catkin/ros/ros_realtime/allocators/CMakeFiles/test_aligned_alloc.dir/test/test_aligned_alloc.cpp.o
-
-Building CXX object catkin/ros/ros_realtime/lockfree/CMakeFiles/test_freelist.dir/test/test_freelist.cpp.o
-
-Scanning dependencies of target utest_gp_speed
-
-Scanning dependencies of target utest_nrt_gp
-
-[ 98%] [ 98%] [ 98%] Building CXX object catkin/ros/ros_realtime/lockfree/CMakeFiles/test_object_pool.dir/test/test_object_pool.cpp.o
-
-[ 98%] Scanning dependencies of target utest_gp
-
-Building CXX object catkin/learning/learning_control/CMakeFiles/utest_gp_speed.dir/test/utest_gp_speed_main.cpp.o
-
-Scanning dependencies of target utest_gp_speed_real_data
-
-Building CXX object catkin/controller_manager/core-sl-ros/sl_controller_interface/CMakeFiles/generic_test.dir/test/test_main.cpp.o
-
-Scanning dependencies of target utest_gp_predict
-
-Scanning dependencies of target utest_rt_network
-
-Building CXX object catkin/learning/learning_control/CMakeFiles/utest_nrt_gp.dir/test/utest_nrt_gp_main.cpp.o
-
-Scanning dependencies of target utest_gp_predict_speed
-
-Scanning dependencies of target utest_nrt_gp_speed
-
-[ 98%] Scanning dependencies of target utest_rt_network_load_msg_predict
-
-[ 98%] [ 98%] Building CXX object catkin/learning/learning_control/CMakeFiles/utest_gp_predict.dir/test/utest_gp_predict.cpp.o
-
-Building CXX object catkin/learning/learning_control/CMakeFiles/utest_gp_speed_real_data.dir/test/utest_gp_speed_real_data.cpp.o
-
-Building CXX object catkin/learning/learning_control/CMakeFiles/utest_gp.dir/test/utest_gp_main.cpp.o
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_gp_speed_real_data.cpp:6:0: warning: "EIGEN_RUNTIME_NO_MALLOC" redefined [enabled by default]
-
- #define EIGEN_RUNTIME_NO_MALLOC
-
- ^
-
-<command-line>:0:0: note: this is the location of the previous definition
-
-[ 98%] [100%] Building CXX object catkin/learning/learning_control/CMakeFiles/utest_rt_network_load_msg_predict.dir/test/utest_rt_network_load_msg_predict.cpp.o
-
-[100%] [100%] Building CXX object catkin/learning/learning_control/CMakeFiles/utest_gp_predict_speed.dir/test/utest_gp_predict_speed.cpp.o
-
-Building CXX object catkin/learning/learning_control/CMakeFiles/utest_rt_network.dir/test/utest_rt_network_main.cpp.o
-
-Building CXX object catkin/learning/learning_control/CMakeFiles/utest_nrt_gp_speed.dir/test/utest_nrt_gp_speed_main.cpp.o
-
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/allocators/test_aligned_alloc
-
-[100%] Built target test_aligned_alloc
-
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/lockfree/test_object_pool
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_gp_speed_main.cpp: In member function ‘virtual void TestSuite_TestRealTimeGPSteps_Test::TestBody()’:
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_gp_speed_main.cpp:63:3: error: ‘global_error_realtime_inactive’ was not declared in this scope
-
-   global_error_realtime_inactive = true;
-
-   ^
-
-[100%] Built target test_object_pool
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_gp_predict.cpp: In member function ‘virtual void UtilitiesTest_TestValueWithDefault_Test::TestBody()’:
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_gp_predict.cpp:16:3: error: ‘GpSePredictMeanRT’ is not a member of ‘learning_control’
-
-   learning_control::GpSePredictMeanRT gp_predict_mean_test;
-
-   ^
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_gp_predict.cpp:16:39: error: expected ‘;’ before ‘gp_predict_mean_test’
-
-   learning_control::GpSePredictMeanRT gp_predict_mean_test;
-
-                                       ^
-
-In file included from /usr/include/gtest/gtest.h:1807:0,
-
-                 from /home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_gp_predict.cpp:6:
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_gp_predict.cpp:91:20: error: ‘gp_predict_mean_test’ was not declared in this scope
-
-   ASSERT_NEAR(0.0, gp_predict_mean_test.predict(xtest), max_error);
-
-                    ^
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_gp_predict.cpp:92:3: error: ‘gp_predict_mean_test’ was not declared in this scope
-
-   gp_predict_mean_test.update_parameters(gp_test.lambda_,
-
-   ^
-
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/learning_control/utest_gp
-
-make[3]: *** [catkin/learning/learning_control/CMakeFiles/utest_gp_speed.dir/test/utest_gp_speed_main.cpp.o] Error 1
-
-make[2]: *** [catkin/learning/learning_control/CMakeFiles/utest_gp_speed.dir/all] Error 2
-
-make[2]: *** Waiting for unfinished jobs....
-
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/learning_control/utest_gp_speed_real_data
-
-make[3]: *** [catkin/learning/learning_control/CMakeFiles/utest_gp_predict.dir/test/utest_gp_predict.cpp.o] Error 1
-
-make[2]: *** [catkin/learning/learning_control/CMakeFiles/utest_gp_predict.dir/all] Error 2
-
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/rosatomic/utest
-
-[100%] Built target utest_gp
-
-[100%] Built target utest
-
-[100%] Built target utest_gp_speed_real_data
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_main.cpp: In member function ‘virtual void UtilitiesTest_TestValueWithDefault_Test::TestBody()’:
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_main.cpp:30:13: error: ‘class learning_control::GpParams’ has no member named ‘sigma_y_2_’
-
-   gp_params.sigma_y_2_ = 0.01;
-
-             ^
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_main.cpp:31:13: error: ‘class learning_control::GpParams’ has no member named ‘sigma_f_2_’
-
-   gp_params.sigma_f_2_ = 100.0;
-
-             ^
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_main.cpp:43:11: error: ‘class learning_control::GaussianProcess’ has no member named ‘add_data_point’
-
-   gp_test.add_data_point(x, y);
-
-           ^
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_main.cpp:47:11: error: ‘class learning_control::GaussianProcess’ has no member named ‘add_data_point’
-
-   gp_test.add_data_point(x, y);
-
-           ^
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_main.cpp:51:11: error: ‘class learning_control::GaussianProcess’ has no member named ‘add_data_point’
-
-   gp_test.add_data_point(x, y);
-
-           ^
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_main.cpp:55:11: error: ‘class learning_control::GaussianProcess’ has no member named ‘add_data_point’
-
-   gp_test.add_data_point(x, y);
-
-           ^
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_main.cpp:59:11: error: ‘class learning_control::GaussianProcess’ has no member named ‘add_data_point’
-
-   gp_test.add_data_point(x, y);
-
-           ^
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_main.cpp:63:11: error: ‘class learning_control::GaussianProcess’ has no member named ‘add_data_point’
-
-   gp_test.add_data_point(x, y);
-
-           ^
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_main.cpp:67:11: error: ‘class learning_control::GaussianProcess’ has no member named ‘add_data_point’
-
-   gp_test.add_data_point(x, y);
-
-           ^
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_main.cpp:71:11: error: ‘class learning_control::GaussianProcess’ has no member named ‘add_data_point’
-
-   gp_test.add_data_point(x, y);
-
-           ^
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_main.cpp:75:11: error: ‘class learning_control::GaussianProcess’ has no member named ‘add_data_point’
-
-   gp_test.add_data_point(x, y);
-
-           ^
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_main.cpp:79:11: error: ‘class learning_control::GaussianProcess’ has no member named ‘add_data_point’
-
-   gp_test.add_data_point(x, y);
-
-           ^
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_main.cpp:133:50: error: ‘class learning_control::GpParams’ has no member named ‘sigma_y_2_’
-
-   rt_printf("new sigmay2: %f\n", gp_test.params_.sigma_y_2_);
-
-                                                  ^
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_main.cpp:134:50: error: ‘class learning_control::GpParams’ has no member named ‘sigma_f_2_’
-
-   rt_printf("new sigmaf2: %f\n", gp_test.params_.sigma_f_2_);
-
-                                                  ^
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_gp_predict_speed.cpp: In member function ‘virtual void TestSuite_TestRealTimeGPSteps_Test::TestBody()’:
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_gp_predict_speed.cpp:210:3: error: ‘GpSePredictMeanRT’ is not a member of ‘learning_control’
-
-   learning_control::GpSePredictMeanRT gp_predict_mean_test;
-
-   ^
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_gp_predict_speed.cpp:210:39: error: expected ‘;’ before ‘gp_predict_mean_test’
-
-   learning_control::GpSePredictMeanRT gp_predict_mean_test;
-
-                                       ^
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_gp_predict_speed.cpp:271:5: error: ‘gp_predict_mean_test’ was not declared in this scope
-
-     gp_predict_mean_test.update_parameters(gp_test.lambda_,
+     ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER(0, __VA_ARGS__)
 
      ^
 
-make[3]: *** [catkin/learning/learning_control/CMakeFiles/utest_nrt_gp.dir/test/utest_nrt_gp_main.cpp.o] Error 1
+/opt/ros/indigo/include/ros/console.h:376:7: note: in expansion of macro ‘ROSCONSOLE_PRINT_AT_LOCATION’
 
-make[2]: *** [catkin/learning/learning_control/CMakeFiles/utest_nrt_gp.dir/all] Error 2
+       ROSCONSOLE_PRINT_AT_LOCATION(__VA_ARGS__); \
 
-make[3]: *** [catkin/learning/learning_control/CMakeFiles/utest_gp_predict_speed.dir/test/utest_gp_predict_speed.cpp.o] Error 1
+       ^
 
-make[2]: *** [catkin/learning/learning_control/CMakeFiles/utest_gp_predict_speed.dir/all] Error 2
+/opt/ros/indigo/include/ros/console.h:558:35: note: in expansion of macro ‘ROS_LOG_COND’
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/learning_control/utest_rt_network
+ #define ROS_LOG(level, name, ...) ROS_LOG_COND(true, level, name, __VA_ARGS__)
 
-[100%] Built target utest_rt_network
+                                   ^
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/learning_control/utest_rt_network_load_msg_predict
+/opt/ros/indigo/include/rosconsole/macros_generated.h:110:23: note: in expansion of macro ‘ROS_LOG’
 
-[100%] Built target utest_rt_network_load_msg_predict
+ #define ROS_INFO(...) ROS_LOG(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/lockfree/test_freelist
+                       ^
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/sl_controller_interface/generic_test
+/home/administrator/ci/ci/team/workspace/src/catkin/controller_manager/controller_manager_examples_arm/src/test_constraint_exploration_controller.cpp:682:33: note: in expansion of macro ‘ROS_INFO’
 
-[100%] Built target test_freelist
+                                 ROS_INFO(str);
 
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_speed_main.cpp: In member function ‘virtual void TestSuite_TestRealTimeGPSteps_Test::TestBody()’:
+                                 ^
 
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_speed_main.cpp:94:24: error: no matching function for call to ‘learning_control::NrtGpThread::start(int)’
+/opt/ros/indigo/include/ros/console.h:343:176: warning: format not a string literal and no format arguments [-Wformat-security]
 
-   nrt_gp_thread.start(0);
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__)
+
+                                                                                                                                                                                ^
+
+/opt/ros/indigo/include/ros/console.h:346:5: note: in expansion of macro ‘ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER’
+
+     ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER(0, __VA_ARGS__)
+
+     ^
+
+/opt/ros/indigo/include/ros/console.h:376:7: note: in expansion of macro ‘ROSCONSOLE_PRINT_AT_LOCATION’
+
+       ROSCONSOLE_PRINT_AT_LOCATION(__VA_ARGS__); \
+
+       ^
+
+/opt/ros/indigo/include/ros/console.h:558:35: note: in expansion of macro ‘ROS_LOG_COND’
+
+ #define ROS_LOG(level, name, ...) ROS_LOG_COND(true, level, name, __VA_ARGS__)
+
+                                   ^
+
+/opt/ros/indigo/include/rosconsole/macros_generated.h:110:23: note: in expansion of macro ‘ROS_LOG’
+
+ #define ROS_INFO(...) ROS_LOG(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+
+                       ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/controller_manager/controller_manager_examples_arm/src/test_constraint_exploration_controller.cpp:693:33: note: in expansion of macro ‘ROS_INFO’
+
+                                 ROS_INFO(str);
+
+                                 ^
+
+/opt/ros/indigo/include/ros/console.h:343:176: warning: format not a string literal and no format arguments [-Wformat-security]
+
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__)
+
+                                                                                                                                                                                ^
+
+/opt/ros/indigo/include/ros/console.h:346:5: note: in expansion of macro ‘ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER’
+
+     ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER(0, __VA_ARGS__)
+
+     ^
+
+/opt/ros/indigo/include/ros/console.h:376:7: note: in expansion of macro ‘ROSCONSOLE_PRINT_AT_LOCATION’
+
+       ROSCONSOLE_PRINT_AT_LOCATION(__VA_ARGS__); \
+
+       ^
+
+/opt/ros/indigo/include/ros/console.h:558:35: note: in expansion of macro ‘ROS_LOG_COND’
+
+ #define ROS_LOG(level, name, ...) ROS_LOG_COND(true, level, name, __VA_ARGS__)
+
+                                   ^
+
+/opt/ros/indigo/include/rosconsole/macros_generated.h:110:23: note: in expansion of macro ‘ROS_LOG’
+
+ #define ROS_INFO(...) ROS_LOG(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+
+                       ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/controller_manager/controller_manager_examples_arm/src/test_constraint_exploration_controller.cpp:705:33: note: in expansion of macro ‘ROS_INFO’
+
+                                 ROS_INFO(str);
+
+                                 ^
+
+/opt/ros/indigo/include/ros/console.h:343:176: warning: format not a string literal and no format arguments [-Wformat-security]
+
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__)
+
+                                                                                                                                                                                ^
+
+/opt/ros/indigo/include/ros/console.h:346:5: note: in expansion of macro ‘ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER’
+
+     ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER(0, __VA_ARGS__)
+
+     ^
+
+/opt/ros/indigo/include/ros/console.h:376:7: note: in expansion of macro ‘ROSCONSOLE_PRINT_AT_LOCATION’
+
+       ROSCONSOLE_PRINT_AT_LOCATION(__VA_ARGS__); \
+
+       ^
+
+/opt/ros/indigo/include/ros/console.h:558:35: note: in expansion of macro ‘ROS_LOG_COND’
+
+ #define ROS_LOG(level, name, ...) ROS_LOG_COND(true, level, name, __VA_ARGS__)
+
+                                   ^
+
+/opt/ros/indigo/include/rosconsole/macros_generated.h:110:23: note: in expansion of macro ‘ROS_LOG’
+
+ #define ROS_INFO(...) ROS_LOG(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+
+                       ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/controller_manager/controller_manager_examples_arm/src/test_constraint_exploration_controller.cpp:716:33: note: in expansion of macro ‘ROS_INFO’
+
+                                 ROS_INFO(str);
+
+                                 ^
+
+/opt/ros/indigo/include/ros/console.h:343:176: warning: format not a string literal and no format arguments [-Wformat-security]
+
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__)
+
+                                                                                                                                                                                ^
+
+/opt/ros/indigo/include/ros/console.h:346:5: note: in expansion of macro ‘ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER’
+
+     ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER(0, __VA_ARGS__)
+
+     ^
+
+/opt/ros/indigo/include/ros/console.h:376:7: note: in expansion of macro ‘ROSCONSOLE_PRINT_AT_LOCATION’
+
+       ROSCONSOLE_PRINT_AT_LOCATION(__VA_ARGS__); \
+
+       ^
+
+/opt/ros/indigo/include/ros/console.h:558:35: note: in expansion of macro ‘ROS_LOG_COND’
+
+ #define ROS_LOG(level, name, ...) ROS_LOG_COND(true, level, name, __VA_ARGS__)
+
+                                   ^
+
+/opt/ros/indigo/include/rosconsole/macros_generated.h:110:23: note: in expansion of macro ‘ROS_LOG’
+
+ #define ROS_INFO(...) ROS_LOG(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+
+                       ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/controller_manager/controller_manager_examples_arm/src/test_constraint_exploration_controller.cpp:865:33: note: in expansion of macro ‘ROS_INFO’
+
+                                 ROS_INFO(str);
+
+                                 ^
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/controller_manager_examples_arm/test_constraint_exploration_controller
+
+[ 90%] Built target test_constraint_exploration_controller
+
+Scanning dependencies of target test_constraint_exploration_controller_peg_board
+
+[ 90%] Building CXX object catkin/controller_manager/controller_manager_examples_arm/CMakeFiles/test_constraint_exploration_controller_peg_board.dir/src/test_constraint_exploration_controller_peg_board.cpp.o
+
+In file included from /opt/ros/indigo/include/ros/ros.h:40:0,
+
+                 from /home/administrator/ci/ci/team/workspace/src/catkin/ros/usc-clmc-catkin-pkg/usc_utils/robot_info/include/robot_info/robot_info.h:28,
+
+                 from /home/administrator/ci/ci/team/workspace/src/catkin/controller_manager/controller_manager_examples_arm/src/test_constraint_exploration_controller_peg_board.cpp:15:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/controller_manager/controller_manager_examples_arm/src/test_constraint_exploration_controller_peg_board.cpp: In function ‘int main(int, char**)’:
+
+/opt/ros/indigo/include/ros/console.h:343:176: warning: format not a string literal and no format arguments [-Wformat-security]
+
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__)
+
+                                                                                                                                                                                ^
+
+/opt/ros/indigo/include/ros/console.h:346:5: note: in expansion of macro ‘ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER’
+
+     ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER(0, __VA_ARGS__)
+
+     ^
+
+/opt/ros/indigo/include/ros/console.h:376:7: note: in expansion of macro ‘ROSCONSOLE_PRINT_AT_LOCATION’
+
+       ROSCONSOLE_PRINT_AT_LOCATION(__VA_ARGS__); \
+
+       ^
+
+/opt/ros/indigo/include/ros/console.h:558:35: note: in expansion of macro ‘ROS_LOG_COND’
+
+ #define ROS_LOG(level, name, ...) ROS_LOG_COND(true, level, name, __VA_ARGS__)
+
+                                   ^
+
+/opt/ros/indigo/include/rosconsole/macros_generated.h:110:23: note: in expansion of macro ‘ROS_LOG’
+
+ #define ROS_INFO(...) ROS_LOG(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+
+                       ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/controller_manager/controller_manager_examples_arm/src/test_constraint_exploration_controller_peg_board.cpp:682:33: note: in expansion of macro ‘ROS_INFO’
+
+                                 ROS_INFO(str);
+
+                                 ^
+
+/opt/ros/indigo/include/ros/console.h:343:176: warning: format not a string literal and no format arguments [-Wformat-security]
+
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__)
+
+                                                                                                                                                                                ^
+
+/opt/ros/indigo/include/ros/console.h:346:5: note: in expansion of macro ‘ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER’
+
+     ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER(0, __VA_ARGS__)
+
+     ^
+
+/opt/ros/indigo/include/ros/console.h:376:7: note: in expansion of macro ‘ROSCONSOLE_PRINT_AT_LOCATION’
+
+       ROSCONSOLE_PRINT_AT_LOCATION(__VA_ARGS__); \
+
+       ^
+
+/opt/ros/indigo/include/ros/console.h:558:35: note: in expansion of macro ‘ROS_LOG_COND’
+
+ #define ROS_LOG(level, name, ...) ROS_LOG_COND(true, level, name, __VA_ARGS__)
+
+                                   ^
+
+/opt/ros/indigo/include/rosconsole/macros_generated.h:110:23: note: in expansion of macro ‘ROS_LOG’
+
+ #define ROS_INFO(...) ROS_LOG(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+
+                       ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/controller_manager/controller_manager_examples_arm/src/test_constraint_exploration_controller_peg_board.cpp:693:33: note: in expansion of macro ‘ROS_INFO’
+
+                                 ROS_INFO(str);
+
+                                 ^
+
+/opt/ros/indigo/include/ros/console.h:343:176: warning: format not a string literal and no format arguments [-Wformat-security]
+
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__)
+
+                                                                                                                                                                                ^
+
+/opt/ros/indigo/include/ros/console.h:346:5: note: in expansion of macro ‘ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER’
+
+     ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER(0, __VA_ARGS__)
+
+     ^
+
+/opt/ros/indigo/include/ros/console.h:376:7: note: in expansion of macro ‘ROSCONSOLE_PRINT_AT_LOCATION’
+
+       ROSCONSOLE_PRINT_AT_LOCATION(__VA_ARGS__); \
+
+       ^
+
+/opt/ros/indigo/include/ros/console.h:558:35: note: in expansion of macro ‘ROS_LOG_COND’
+
+ #define ROS_LOG(level, name, ...) ROS_LOG_COND(true, level, name, __VA_ARGS__)
+
+                                   ^
+
+/opt/ros/indigo/include/rosconsole/macros_generated.h:110:23: note: in expansion of macro ‘ROS_LOG’
+
+ #define ROS_INFO(...) ROS_LOG(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+
+                       ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/controller_manager/controller_manager_examples_arm/src/test_constraint_exploration_controller_peg_board.cpp:705:33: note: in expansion of macro ‘ROS_INFO’
+
+                                 ROS_INFO(str);
+
+                                 ^
+
+/opt/ros/indigo/include/ros/console.h:343:176: warning: format not a string literal and no format arguments [-Wformat-security]
+
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__)
+
+                                                                                                                                                                                ^
+
+/opt/ros/indigo/include/ros/console.h:346:5: note: in expansion of macro ‘ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER’
+
+     ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER(0, __VA_ARGS__)
+
+     ^
+
+/opt/ros/indigo/include/ros/console.h:376:7: note: in expansion of macro ‘ROSCONSOLE_PRINT_AT_LOCATION’
+
+       ROSCONSOLE_PRINT_AT_LOCATION(__VA_ARGS__); \
+
+       ^
+
+/opt/ros/indigo/include/ros/console.h:558:35: note: in expansion of macro ‘ROS_LOG_COND’
+
+ #define ROS_LOG(level, name, ...) ROS_LOG_COND(true, level, name, __VA_ARGS__)
+
+                                   ^
+
+/opt/ros/indigo/include/rosconsole/macros_generated.h:110:23: note: in expansion of macro ‘ROS_LOG’
+
+ #define ROS_INFO(...) ROS_LOG(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+
+                       ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/controller_manager/controller_manager_examples_arm/src/test_constraint_exploration_controller_peg_board.cpp:716:33: note: in expansion of macro ‘ROS_INFO’
+
+                                 ROS_INFO(str);
+
+                                 ^
+
+/opt/ros/indigo/include/ros/console.h:343:176: warning: format not a string literal and no format arguments [-Wformat-security]
+
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__)
+
+                                                                                                                                                                                ^
+
+/opt/ros/indigo/include/ros/console.h:346:5: note: in expansion of macro ‘ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER’
+
+     ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER(0, __VA_ARGS__)
+
+     ^
+
+/opt/ros/indigo/include/ros/console.h:376:7: note: in expansion of macro ‘ROSCONSOLE_PRINT_AT_LOCATION’
+
+       ROSCONSOLE_PRINT_AT_LOCATION(__VA_ARGS__); \
+
+       ^
+
+/opt/ros/indigo/include/ros/console.h:558:35: note: in expansion of macro ‘ROS_LOG_COND’
+
+ #define ROS_LOG(level, name, ...) ROS_LOG_COND(true, level, name, __VA_ARGS__)
+
+                                   ^
+
+/opt/ros/indigo/include/rosconsole/macros_generated.h:110:23: note: in expansion of macro ‘ROS_LOG’
+
+ #define ROS_INFO(...) ROS_LOG(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+
+                       ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/controller_manager/controller_manager_examples_arm/src/test_constraint_exploration_controller_peg_board.cpp:865:33: note: in expansion of macro ‘ROS_INFO’
+
+                                 ROS_INFO(str);
+
+                                 ^
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/controller_manager_examples_arm/test_constraint_exploration_controller_peg_board
+
+[ 90%] Built target test_constraint_exploration_controller_peg_board
+
+Scanning dependencies of target test_data_collector
+
+[ 90%] Building CXX object catkin/controller_manager/controller_manager_examples_arm/CMakeFiles/test_data_collector.dir/src/test_data_collector.cpp.o
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/controller_manager_examples_arm/test_data_collector
+
+[ 90%] Built target test_data_collector
+
+Scanning dependencies of target test_dmp_ICRA2017_learn_obs_avoid_ct_controller
+
+[ 90%] Building CXX object catkin/controller_manager/controller_manager_examples_arm/CMakeFiles/test_dmp_ICRA2017_learn_obs_avoid_ct_controller.dir/src/test_dmp_ICRA2017_learn_obs_avoid_ct_controller.cpp.o
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/controller_manager_examples_arm/test_dmp_ICRA2017_learn_obs_avoid_ct_controller
+
+[ 90%] Built target test_dmp_ICRA2017_learn_obs_avoid_ct_controller
+
+Scanning dependencies of target test_dmp_PMNN_learn_obs_avoid_ct_controller
+
+[ 90%] Building CXX object catkin/controller_manager/controller_manager_examples_arm/CMakeFiles/test_dmp_PMNN_learn_obs_avoid_ct_controller.dir/src/test_dmp_PMNN_learn_obs_avoid_ct_controller.cpp.o
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/controller_manager_examples_arm/test_dmp_PMNN_learn_obs_avoid_ct_controller
+
+[ 90%] Built target test_dmp_PMNN_learn_obs_avoid_ct_controller
+
+Scanning dependencies of target test_dmp_RL_shaving_ct
+
+[ 90%] Building CXX object catkin/controller_manager/controller_manager_examples_arm/CMakeFiles/test_dmp_RL_shaving_ct.dir/src/test_dmp_RL_shaving_ct.cpp.o
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/controller_manager_examples_arm/test_dmp_RL_shaving_ct
+
+[ 90%] Built target test_dmp_RL_shaving_ct
+
+Scanning dependencies of target test_dmp_cart_coord_goal_meta_learning_controller
+
+[ 91%] Building CXX object catkin/controller_manager/controller_manager_examples_arm/CMakeFiles/test_dmp_cart_coord_goal_meta_learning_controller.dir/src/test_dmp_cart_coord_goal_meta_learning_controller.cpp.o
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/controller_manager_examples_arm/test_dmp_cart_coord_goal_meta_learning_controller
+
+[ 91%] Built target test_dmp_cart_coord_goal_meta_learning_controller
+
+Scanning dependencies of target test_dmp_cart_coord_sample_controller
+
+[ 91%] Building CXX object catkin/controller_manager/controller_manager_examples_arm/CMakeFiles/test_dmp_cart_coord_sample_controller.dir/src/test_dmp_cart_coord_sample_controller.cpp.o
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/controller_manager_examples_arm/test_dmp_cart_coord_sample_controller
+
+[ 91%] Built target test_dmp_cart_coord_sample_controller
+
+Scanning dependencies of target test_dmp_learn_tactile_feedback_scraping_controller
+
+[ 91%] Building CXX object catkin/controller_manager/controller_manager_examples_arm/CMakeFiles/test_dmp_learn_tactile_feedback_scraping_controller.dir/src/test_dmp_learn_tactile_feedback_scraping_controller.cpp.o
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/controller_manager_examples_arm/test_dmp_learn_tactile_feedback_scraping_controller
+
+[ 91%] Built target test_dmp_learn_tactile_feedback_scraping_controller
+
+Scanning dependencies of target test_dmp_peg_in_hole_correctable_baseline_unrolling_controller
+
+[ 91%] Building CXX object catkin/controller_manager/controller_manager_examples_arm/CMakeFiles/test_dmp_peg_in_hole_correctable_baseline_unrolling_controller.dir/src/test_dmp_peg_in_hole_correctable_baseline_unrolling_controller.cpp.o
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/controller_manager_examples_arm/test_dmp_peg_in_hole_correctable_baseline_unrolling_controller
+
+[ 91%] Built target test_dmp_peg_in_hole_correctable_baseline_unrolling_controller
+
+Scanning dependencies of target test_dmp_screw_unscrew_controller
+
+[ 91%] Building CXX object catkin/controller_manager/controller_manager_examples_arm/CMakeFiles/test_dmp_screw_unscrew_controller.dir/src/test_dmp_screw_unscrew_controller.cpp.o
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/controller_manager_examples_arm/test_dmp_screw_unscrew_controller
+
+[ 91%] Built target test_dmp_screw_unscrew_controller
+
+Scanning dependencies of target test_grasp_controller_interface
+
+[ 91%] Building CXX object catkin/controller_manager/controller_manager_examples_arm/CMakeFiles/test_grasp_controller_interface.dir/src/test_grasp_controller_interface.cpp.o
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/controller_manager_examples_arm/test_grasp_controller_interface
+
+[ 91%] Built target test_grasp_controller_interface
+
+Scanning dependencies of target test_gravity_comp
+
+[ 92%] Building CXX object catkin/controller_manager/controller_manager_examples_arm/CMakeFiles/test_gravity_comp.dir/src/test_gravity_comp.cpp.o
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/controller_manager_examples_arm/test_gravity_comp
+
+[ 92%] Built target test_gravity_comp
+
+Scanning dependencies of target test_gravity_comp_stiff_fingers
+
+[ 92%] Building CXX object catkin/controller_manager/controller_manager_examples_arm/CMakeFiles/test_gravity_comp_stiff_fingers.dir/src/test_gravity_comp_stiff_fingers.cpp.o
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/controller_manager_examples_arm/test_gravity_comp_stiff_fingers
+
+[ 92%] Built target test_gravity_comp_stiff_fingers
+
+Scanning dependencies of target test_joint_trajectory_generator
+
+[ 92%] Building CXX object catkin/controller_manager/controller_manager_examples_arm/CMakeFiles/test_joint_trajectory_generator.dir/src/test_joint_trajectory_generator.cpp.o
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/controller_manager_examples_arm/test_joint_trajectory_generator
+
+[ 92%] Built target test_joint_trajectory_generator
+
+Scanning dependencies of target sl_head_arm_controller_interface
+
+[ 92%] Building CXX object catkin/controller_manager/sl_head_arm/sl_head_arm_controller_interface/CMakeFiles/sl_head_arm_controller_interface.dir/src/head_arm_inverse_kinematics.cpp.o
+
+[ 92%] Building CXX object catkin/controller_manager/sl_head_arm/sl_head_arm_controller_interface/CMakeFiles/sl_head_arm_controller_interface.dir/src/head_arm_joint_trajectory_client.cpp.o
+
+Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libsl_head_arm_controller_interface.so
+
+[ 92%] Built target sl_head_arm_controller_interface
+
+Scanning dependencies of target strain_gauge_data_recording
+
+[ 92%] Building CXX object catkin/controller_manager/core-sl-ros/strain_gauge_calibration/CMakeFiles/strain_gauge_data_recording.dir/src/strain_gauge_data_recording.cpp.o
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/strain_gauge_calibration/strain_gauge_data_recording
+
+[ 92%] Built target strain_gauge_data_recording
+
+[ 92%] Building CXX object catkin/sensors/vicon-core/CMakeFiles/vicon_core.dir/src/vicon_reader_broadcaster.cpp.o
+
+Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libvicon_core.so
+
+[ 92%] Built target vicon_core
+
+Scanning dependencies of target sl_vicon_controllers
+
+[ 92%] Building CXX object catkin/controller_manager/sl_vicon/sl_vicon_controllers/CMakeFiles/sl_vicon_controllers.dir/src/vicon_sensor_processor.cpp.o
+
+Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libsl_vicon_controllers.so
+
+[ 92%] Built target sl_vicon_controllers
+
+Scanning dependencies of target sl_dmp_controllers
+
+[ 92%] Building CXX object catkin/controller_manager/sl_dmp/sl_dmp_controllers/CMakeFiles/sl_dmp_controllers.dir/src/utilities.cpp.o
+
+[ 92%] Building CXX object catkin/controller_manager/sl_dmp/sl_dmp_controllers/CMakeFiles/sl_dmp_controllers.dir/src/dmp_cart_coord_sample_controller.cpp.o
+
+[ 92%] Building CXX object catkin/controller_manager/sl_dmp/sl_dmp_controllers/CMakeFiles/sl_dmp_controllers.dir/src/dmp_ICRA2017_learn_obs_avoid_ct_controller.cpp.o
+
+[ 92%] Building CXX object catkin/controller_manager/sl_dmp/sl_dmp_controllers/CMakeFiles/sl_dmp_controllers.dir/src/dmp_PMNN_learn_obs_avoid_ct_controller.cpp.o
+
+[ 92%] Building CXX object catkin/controller_manager/sl_dmp/sl_dmp_controllers/CMakeFiles/sl_dmp_controllers.dir/src/dmp_screw_unscrew_controller.cpp.o
+
+In file included from /opt/ros/indigo/include/ros/ros.h:40:0,
+
+                 from /home/administrator/ci/ci/team/workspace/src/catkin/controller_manager/sl_dmp/sl_dmp_controllers/include/sl_dmp_controllers/dmp_screw_unscrew_controller.h:12,
+
+                 from /home/administrator/ci/ci/team/workspace/src/catkin/controller_manager/sl_dmp/sl_dmp_controllers/src/dmp_screw_unscrew_controller.cpp:8:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/controller_manager/sl_dmp/sl_dmp_controllers/src/dmp_screw_unscrew_controller.cpp: In member function ‘virtual bool sl_dmp_controllers::DMPScrewUnscrewController::initialize(XmlRpc::XmlRpcValue&)’:
+
+/opt/ros/indigo/include/ros/console.h:343:176: warning: format ‘%d’ expects argument of type ‘int’, but argument 8 has type ‘std::vector<std::vector<dmp::DMPState> >::size_type {aka long unsigned int}’ [-Wformat=]
+
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__)
+
+                                                                                                                                                                                ^
+
+/opt/ros/indigo/include/ros/console.h:346:5: note: in expansion of macro ‘ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER’
+
+     ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER(0, __VA_ARGS__)
+
+     ^
+
+/opt/ros/indigo/include/ros/console.h:376:7: note: in expansion of macro ‘ROSCONSOLE_PRINT_AT_LOCATION’
+
+       ROSCONSOLE_PRINT_AT_LOCATION(__VA_ARGS__); \
+
+       ^
+
+/opt/ros/indigo/include/ros/console.h:558:35: note: in expansion of macro ‘ROS_LOG_COND’
+
+ #define ROS_LOG(level, name, ...) ROS_LOG_COND(true, level, name, __VA_ARGS__)
+
+                                   ^
+
+/opt/ros/indigo/include/rosconsole/macros_generated.h:110:23: note: in expansion of macro ‘ROS_LOG’
+
+ #define ROS_INFO(...) ROS_LOG(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+
+                       ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/controller_manager/sl_dmp/sl_dmp_controllers/src/dmp_screw_unscrew_controller.cpp:235:9: note: in expansion of macro ‘ROS_INFO’
+
+         ROS_INFO("%d Cartesian Coordinate DMP unrolled trajectory results has been loaded successfully...", set_unrolled_cart_coord_dmp_traj_prim->size());
+
+         ^
+
+/opt/ros/indigo/include/ros/console.h:343:176: warning: format ‘%d’ expects argument of type ‘int’, but argument 8 has type ‘std::vector<std::vector<dmp::QuaternionDMPState> >::size_type {aka long unsigned int}’ [-Wformat=]
+
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__)
+
+                                                                                                                                                                                ^
+
+/opt/ros/indigo/include/ros/console.h:346:5: note: in expansion of macro ‘ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER’
+
+     ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER(0, __VA_ARGS__)
+
+     ^
+
+/opt/ros/indigo/include/ros/console.h:376:7: note: in expansion of macro ‘ROSCONSOLE_PRINT_AT_LOCATION’
+
+       ROSCONSOLE_PRINT_AT_LOCATION(__VA_ARGS__); \
+
+       ^
+
+/opt/ros/indigo/include/ros/console.h:558:35: note: in expansion of macro ‘ROS_LOG_COND’
+
+ #define ROS_LOG(level, name, ...) ROS_LOG_COND(true, level, name, __VA_ARGS__)
+
+                                   ^
+
+/opt/ros/indigo/include/rosconsole/macros_generated.h:110:23: note: in expansion of macro ‘ROS_LOG’
+
+ #define ROS_INFO(...) ROS_LOG(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+
+                       ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/controller_manager/sl_dmp/sl_dmp_controllers/src/dmp_screw_unscrew_controller.cpp:244:9: note: in expansion of macro ‘ROS_INFO’
+
+         ROS_INFO("%d Quaternion DMP unrolled trajectory results has been loaded successfully...", set_unrolled_quat_dmp_traj_prim->size());
+
+         ^
+
+[ 93%] Building CXX object catkin/controller_manager/sl_dmp/sl_dmp_controllers/CMakeFiles/sl_dmp_controllers.dir/src/dmp_peg_in_hole_correctable_baseline_unrolling_controller.cpp.o
+
+In file included from /opt/ros/indigo/include/ros/ros.h:40:0,
+
+                 from /home/administrator/ci/ci/team/workspace/src/catkin/controller_manager/sl_dmp/sl_dmp_controllers/include/sl_dmp_controllers/dmp_peg_in_hole_correctable_baseline_unrolling_controller.h:12,
+
+                 from /home/administrator/ci/ci/team/workspace/src/catkin/controller_manager/sl_dmp/sl_dmp_controllers/src/dmp_peg_in_hole_correctable_baseline_unrolling_controller.cpp:8:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/controller_manager/sl_dmp/sl_dmp_controllers/src/dmp_peg_in_hole_correctable_baseline_unrolling_controller.cpp: In member function ‘virtual bool sl_dmp_controllers::DMPPegInHoleCorrectableBaselineUnrollingController::initialize(XmlRpc::XmlRpcValue&)’:
+
+/opt/ros/indigo/include/ros/console.h:343:176: warning: format ‘%d’ expects argument of type ‘int’, but argument 8 has type ‘std::vector<std::vector<dmp::DMPState> >::size_type {aka long unsigned int}’ [-Wformat=]
+
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__)
+
+                                                                                                                                                                                ^
+
+/opt/ros/indigo/include/ros/console.h:346:5: note: in expansion of macro ‘ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER’
+
+     ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER(0, __VA_ARGS__)
+
+     ^
+
+/opt/ros/indigo/include/ros/console.h:376:7: note: in expansion of macro ‘ROSCONSOLE_PRINT_AT_LOCATION’
+
+       ROSCONSOLE_PRINT_AT_LOCATION(__VA_ARGS__); \
+
+       ^
+
+/opt/ros/indigo/include/ros/console.h:558:35: note: in expansion of macro ‘ROS_LOG_COND’
+
+ #define ROS_LOG(level, name, ...) ROS_LOG_COND(true, level, name, __VA_ARGS__)
+
+                                   ^
+
+/opt/ros/indigo/include/rosconsole/macros_generated.h:110:23: note: in expansion of macro ‘ROS_LOG’
+
+ #define ROS_INFO(...) ROS_LOG(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+
+                       ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/controller_manager/sl_dmp/sl_dmp_controllers/src/dmp_peg_in_hole_correctable_baseline_unrolling_controller.cpp:244:9: note: in expansion of macro ‘ROS_INFO’
+
+         ROS_INFO("%d Cartesian Coordinate DMP unrolled trajectory results has been loaded successfully...", set_unrolled_cart_coord_dmp_traj_prim->size());
+
+         ^
+
+/opt/ros/indigo/include/ros/console.h:343:176: warning: format ‘%d’ expects argument of type ‘int’, but argument 8 has type ‘std::vector<std::vector<dmp::QuaternionDMPState> >::size_type {aka long unsigned int}’ [-Wformat=]
+
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__)
+
+                                                                                                                                                                                ^
+
+/opt/ros/indigo/include/ros/console.h:346:5: note: in expansion of macro ‘ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER’
+
+     ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER(0, __VA_ARGS__)
+
+     ^
+
+/opt/ros/indigo/include/ros/console.h:376:7: note: in expansion of macro ‘ROSCONSOLE_PRINT_AT_LOCATION’
+
+       ROSCONSOLE_PRINT_AT_LOCATION(__VA_ARGS__); \
+
+       ^
+
+/opt/ros/indigo/include/ros/console.h:558:35: note: in expansion of macro ‘ROS_LOG_COND’
+
+ #define ROS_LOG(level, name, ...) ROS_LOG_COND(true, level, name, __VA_ARGS__)
+
+                                   ^
+
+/opt/ros/indigo/include/rosconsole/macros_generated.h:110:23: note: in expansion of macro ‘ROS_LOG’
+
+ #define ROS_INFO(...) ROS_LOG(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+
+                       ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/controller_manager/sl_dmp/sl_dmp_controllers/src/dmp_peg_in_hole_correctable_baseline_unrolling_controller.cpp:253:9: note: in expansion of macro ‘ROS_INFO’
+
+         ROS_INFO("%d Quaternion DMP unrolled trajectory results has been loaded successfully...", set_unrolled_quat_dmp_traj_prim->size());
+
+         ^
+
+[ 93%] Building CXX object catkin/controller_manager/sl_dmp/sl_dmp_controllers/CMakeFiles/sl_dmp_controllers.dir/src/dmp_scraping_correctable_baseline_unrolling_controller.cpp.o
+
+[ 93%] Building CXX object catkin/controller_manager/sl_dmp/sl_dmp_controllers/CMakeFiles/sl_dmp_controllers.dir/src/dmp_shaving_controller.cpp.o
+
+In file included from /opt/ros/indigo/include/ros/ros.h:40:0,
+
+                 from /home/administrator/ci/ci/team/workspace/src/catkin/controller_manager/sl_dmp/sl_dmp_controllers/include/sl_dmp_controllers/dmp_shaving_controller.h:12,
+
+                 from /home/administrator/ci/ci/team/workspace/src/catkin/controller_manager/sl_dmp/sl_dmp_controllers/src/dmp_shaving_controller.cpp:8:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/controller_manager/sl_dmp/sl_dmp_controllers/src/dmp_shaving_controller.cpp: In member function ‘virtual bool sl_dmp_controllers::DMPShavingController::initialize(XmlRpc::XmlRpcValue&)’:
+
+/opt/ros/indigo/include/ros/console.h:343:176: warning: format ‘%d’ expects argument of type ‘int’, but argument 8 has type ‘std::vector<std::vector<dmp::DMPState> >::size_type {aka long unsigned int}’ [-Wformat=]
+
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__)
+
+                                                                                                                                                                                ^
+
+/opt/ros/indigo/include/ros/console.h:346:5: note: in expansion of macro ‘ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER’
+
+     ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER(0, __VA_ARGS__)
+
+     ^
+
+/opt/ros/indigo/include/ros/console.h:376:7: note: in expansion of macro ‘ROSCONSOLE_PRINT_AT_LOCATION’
+
+       ROSCONSOLE_PRINT_AT_LOCATION(__VA_ARGS__); \
+
+       ^
+
+/opt/ros/indigo/include/ros/console.h:558:35: note: in expansion of macro ‘ROS_LOG_COND’
+
+ #define ROS_LOG(level, name, ...) ROS_LOG_COND(true, level, name, __VA_ARGS__)
+
+                                   ^
+
+/opt/ros/indigo/include/rosconsole/macros_generated.h:110:23: note: in expansion of macro ‘ROS_LOG’
+
+ #define ROS_INFO(...) ROS_LOG(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+
+                       ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/controller_manager/sl_dmp/sl_dmp_controllers/src/dmp_shaving_controller.cpp:235:9: note: in expansion of macro ‘ROS_INFO’
+
+         ROS_INFO("%d Cartesian Coordinate DMP unrolled trajectory results has been loaded successfully...", set_unrolled_cart_coord_dmp_traj_prim->size());
+
+         ^
+
+/opt/ros/indigo/include/ros/console.h:343:176: warning: format ‘%d’ expects argument of type ‘int’, but argument 8 has type ‘std::vector<std::vector<dmp::QuaternionDMPState> >::size_type {aka long unsigned int}’ [-Wformat=]
+
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__)
+
+                                                                                                                                                                                ^
+
+/opt/ros/indigo/include/ros/console.h:346:5: note: in expansion of macro ‘ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER’
+
+     ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER(0, __VA_ARGS__)
+
+     ^
+
+/opt/ros/indigo/include/ros/console.h:376:7: note: in expansion of macro ‘ROSCONSOLE_PRINT_AT_LOCATION’
+
+       ROSCONSOLE_PRINT_AT_LOCATION(__VA_ARGS__); \
+
+       ^
+
+/opt/ros/indigo/include/ros/console.h:558:35: note: in expansion of macro ‘ROS_LOG_COND’
+
+ #define ROS_LOG(level, name, ...) ROS_LOG_COND(true, level, name, __VA_ARGS__)
+
+                                   ^
+
+/opt/ros/indigo/include/rosconsole/macros_generated.h:110:23: note: in expansion of macro ‘ROS_LOG’
+
+ #define ROS_INFO(...) ROS_LOG(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+
+                       ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/controller_manager/sl_dmp/sl_dmp_controllers/src/dmp_shaving_controller.cpp:244:9: note: in expansion of macro ‘ROS_INFO’
+
+         ROS_INFO("%d Quaternion DMP unrolled trajectory results has been loaded successfully...", set_unrolled_quat_dmp_traj_prim->size());
+
+         ^
+
+[ 93%] Building CXX object catkin/controller_manager/sl_dmp/sl_dmp_controllers/CMakeFiles/sl_dmp_controllers.dir/src/dmp_cart_coord_goal_meta_learning_controller.cpp.o
+
+/home/administrator/ci/ci/team/workspace/src/catkin/controller_manager/sl_dmp/sl_dmp_controllers/src/dmp_cart_coord_goal_meta_learning_controller.cpp: In member function ‘virtual bool sl_dmp_controllers::DMPCartCoordGoalMetaLearningController::run()’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/controller_manager/sl_dmp/sl_dmp_controllers/src/dmp_cart_coord_goal_meta_learning_controller.cpp:569:21: warning: name lookup of ‘e’ changed [enabled by default]
+
+                     e[_CURR_]   = steady_state_goal_position - goal_centroid_point;
+
+                     ^
+
+In file included from /home/administrator/ci/ci/team/workspace/src/catkin/controller_manager/sl_dmp/sl_dmp_controllers/src/dmp_cart_coord_goal_meta_learning_controller.cpp:8:0:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/controller_manager/sl_dmp/sl_dmp_controllers/include/sl_dmp_controllers/dmp_cart_coord_goal_meta_learning_controller.h:203:64: warning:   matches this ‘sl_dmp_controllers::DMPCartCoordGoalMetaLearningController::e’ under ISO standard rules [enabled by default]
+
+         Eigen::Vector3d                                     e[2];   // previous and current errors: e[_PREV_] and e[_CURR_]
+
+                                                                ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/controller_manager/sl_dmp/sl_dmp_controllers/src/dmp_cart_coord_goal_meta_learning_controller.cpp:511:31: warning:   matches this ‘e’ under old rules [enabled by default]
+
+             for (unsigned int e=0; e<control_cartesian_endeffs_.size(); ++e)
+
+                               ^
+
+[ 93%] Building CXX object catkin/controller_manager/sl_dmp/sl_dmp_controllers/CMakeFiles/sl_dmp_controllers.dir/src/dmp_learn_tactile_feedback_controller.cpp.o
+
+In file included from /opt/ros/indigo/include/ros/ros.h:40:0,
+
+                 from /home/administrator/ci/ci/team/workspace/src/catkin/controller_manager/sl_dmp/sl_dmp_controllers/include/sl_dmp_controllers/dmp_learn_tactile_feedback_controller.h:12,
+
+                 from /home/administrator/ci/ci/team/workspace/src/catkin/controller_manager/sl_dmp/sl_dmp_controllers/src/dmp_learn_tactile_feedback_controller.cpp:8:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/controller_manager/sl_dmp/sl_dmp_controllers/src/dmp_learn_tactile_feedback_controller.cpp: In member function ‘virtual bool sl_dmp_controllers::DMPLearnTactileFeedbackController::initialize(XmlRpc::XmlRpcValue&)’:
+
+/opt/ros/indigo/include/ros/console.h:343:176: warning: format ‘%d’ expects argument of type ‘int’, but argument 9 has type ‘std::vector<std::vector<dmp::DMPState> >::size_type {aka long unsigned int}’ [-Wformat=]
+
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__)
+
+                                                                                                                                                                                ^
+
+/opt/ros/indigo/include/ros/console.h:346:5: note: in expansion of macro ‘ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER’
+
+     ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER(0, __VA_ARGS__)
+
+     ^
+
+/opt/ros/indigo/include/ros/console.h:376:7: note: in expansion of macro ‘ROSCONSOLE_PRINT_AT_LOCATION’
+
+       ROSCONSOLE_PRINT_AT_LOCATION(__VA_ARGS__); \
+
+       ^
+
+/opt/ros/indigo/include/ros/console.h:558:35: note: in expansion of macro ‘ROS_LOG_COND’
+
+ #define ROS_LOG(level, name, ...) ROS_LOG_COND(true, level, name, __VA_ARGS__)
+
+                                   ^
+
+/opt/ros/indigo/include/rosconsole/macros_generated.h:214:24: note: in expansion of macro ‘ROS_LOG’
+
+ #define ROS_ERROR(...) ROS_LOG(::ros::console::levels::Error, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
 
                         ^
 
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_speed_main.cpp:94:24: note: candidate is:
+/home/administrator/ci/ci/team/workspace/src/catkin/controller_manager/sl_dmp/sl_dmp_controllers/src/dmp_learn_tactile_feedback_controller.cpp:318:9: note: in expansion of macro ‘ROS_ERROR’
 
-In file included from /home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_speed_main.cpp:14:0:
+         ROS_ERROR("%s: set_prim_mean_pos_traj_sample->size() = %d, instead of 3!\n", name_.c_str(), set_prim_mean_pos_traj_sample->size());
 
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/include/learning_control/nrt_gp_thread.h:35:8: note: bool learning_control::NrtGpThread::start()
+         ^
 
-   bool start();
+/opt/ros/indigo/include/ros/console.h:343:176: warning: format ‘%d’ expects argument of type ‘int’, but argument 9 has type ‘std::vector<std::vector<dmp::DMPState> >::size_type {aka long unsigned int}’ [-Wformat=]
 
-        ^
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__)
 
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/include/learning_control/nrt_gp_thread.h:35:8: note:   candidate expects 0 arguments, 1 provided
+                                                                                                                                                                                ^
 
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_speed_main.cpp:95:17: error: ‘class learning_control::NrtGpThread’ has no member named ‘update_parameters_real’
+/opt/ros/indigo/include/ros/console.h:346:5: note: in expansion of macro ‘ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER’
 
-   nrt_gp_thread.update_parameters_real(GP_WINDOW_SIZE, GP_INPUT_SIZE, 0.3, 0.01,
+     ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER(0, __VA_ARGS__)
 
-                 ^
+     ^
 
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_speed_main.cpp:138:19: error: ‘class learning_control::NrtGpThread’ has no member named ‘update_data_point_real’
+/opt/ros/indigo/include/ros/console.h:376:7: note: in expansion of macro ‘ROSCONSOLE_PRINT_AT_LOCATION’
 
-     nrt_gp_thread.update_data_point_real(call_count, random_inputs,
+       ROSCONSOLE_PRINT_AT_LOCATION(__VA_ARGS__); \
 
-                   ^
+       ^
 
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_speed_main.cpp:162:19: error: ‘class learning_control::NrtGpThread’ has no member named ‘update_data_point_real’
+/opt/ros/indigo/include/ros/console.h:558:35: note: in expansion of macro ‘ROS_LOG_COND’
 
-     nrt_gp_thread.update_data_point_real(call_count, random_inputs,
+ #define ROS_LOG(level, name, ...) ROS_LOG_COND(true, level, name, __VA_ARGS__)
 
-                   ^
+                                   ^
 
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_speed_main.cpp:171:19: error: ‘class learning_control::NrtGpThread’ has no member named ‘get_gp_real’
+/opt/ros/indigo/include/rosconsole/macros_generated.h:214:24: note: in expansion of macro ‘ROS_LOG’
 
-     nrt_gp_thread.get_gp_real()->predict(random_inputs);
+ #define ROS_ERROR(...) ROS_LOG(::ros::console::levels::Error, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
 
-                   ^
+                        ^
 
-[100%] Built target generic_test
+/home/administrator/ci/ci/team/workspace/src/catkin/controller_manager/sl_dmp/sl_dmp_controllers/src/dmp_learn_tactile_feedback_controller.cpp:332:9: note: in expansion of macro ‘ROS_ERROR’
 
-make[3]: *** [catkin/learning/learning_control/CMakeFiles/utest_nrt_gp_speed.dir/test/utest_nrt_gp_speed_main.cpp.o] Error 1
+         ROS_ERROR("%s: set_prim_std_pos_traj_sample->size() = %d, instead of 3!\n", name_.c_str(), set_prim_std_pos_traj_sample->size());
 
-make[2]: *** [catkin/learning/learning_control/CMakeFiles/utest_nrt_gp_speed.dir/all] Error 2
+         ^
 
-make[1]: *** [CMakeFiles/tests.dir/rule] Error 2
+/opt/ros/indigo/include/ros/console.h:343:176: warning: format ‘%d’ expects argument of type ‘int’, but argument 9 has type ‘std::vector<std::vector<dmp::DMPState> >::size_type {aka long unsigned int}’ [-Wformat=]
 
-make: *** [tests] Error 2
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__)
+
+                                                                                                                                                                                ^
+
+/opt/ros/indigo/include/ros/console.h:346:5: note: in expansion of macro ‘ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER’
+
+     ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER(0, __VA_ARGS__)
+
+     ^
+
+/opt/ros/indigo/include/ros/console.h:376:7: note: in expansion of macro ‘ROSCONSOLE_PRINT_AT_LOCATION’
+
+       ROSCONSOLE_PRINT_AT_LOCATION(__VA_ARGS__); \
+
+       ^
+
+/opt/ros/indigo/include/ros/console.h:558:35: note: in expansion of macro ‘ROS_LOG_COND’
+
+ #define ROS_LOG(level, name, ...) ROS_LOG_COND(true, level, name, __VA_ARGS__)
+
+                                   ^
+
+/opt/ros/indigo/include/rosconsole/macros_generated.h:214:24: note: in expansion of macro ‘ROS_LOG’
+
+ #define ROS_ERROR(...) ROS_LOG(::ros::console::levels::Error, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+
+                        ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/controller_manager/sl_dmp/sl_dmp_controllers/src/dmp_learn_tactile_feedback_controller.cpp:346:9: note: in expansion of macro ‘ROS_ERROR’
+
+         ROS_ERROR("%s: set_prim_mean_ori_traj_sample->size() = %d, instead of 3!\n", name_.c_str(), set_prim_mean_ori_traj_sample->size());
+
+         ^
+
+/opt/ros/indigo/include/ros/console.h:343:176: warning: format ‘%d’ expects argument of type ‘int’, but argument 9 has type ‘std::vector<std::vector<dmp::DMPState> >::size_type {aka long unsigned int}’ [-Wformat=]
+
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__)
+
+                                                                                                                                                                                ^
+
+/opt/ros/indigo/include/ros/console.h:346:5: note: in expansion of macro ‘ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER’
+
+     ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER(0, __VA_ARGS__)
+
+     ^
+
+/opt/ros/indigo/include/ros/console.h:376:7: note: in expansion of macro ‘ROSCONSOLE_PRINT_AT_LOCATION’
+
+       ROSCONSOLE_PRINT_AT_LOCATION(__VA_ARGS__); \
+
+       ^
+
+/opt/ros/indigo/include/ros/console.h:558:35: note: in expansion of macro ‘ROS_LOG_COND’
+
+ #define ROS_LOG(level, name, ...) ROS_LOG_COND(true, level, name, __VA_ARGS__)
+
+                                   ^
+
+/opt/ros/indigo/include/rosconsole/macros_generated.h:214:24: note: in expansion of macro ‘ROS_LOG’
+
+ #define ROS_ERROR(...) ROS_LOG(::ros::console::levels::Error, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+
+                        ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/controller_manager/sl_dmp/sl_dmp_controllers/src/dmp_learn_tactile_feedback_controller.cpp:360:9: note: in expansion of macro ‘ROS_ERROR’
+
+         ROS_ERROR("%s: set_prim_std_ori_traj_sample->size() = %d, instead of 3!\n", name_.c_str(), set_prim_std_ori_traj_sample->size());
+
+         ^
+
+Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libsl_dmp_controllers.so
+
+[ 93%] Built target sl_dmp_controllers
+
+[ 97%] Built target yaml-cpp
+
+[ 98%] Built target run-tests
+
+[100%] Built target parse
+
+[100%] Built target read
+
+[100%] Built target sandbox
 
 Base path: /home/administrator/ci/ci/team/workspace
 
@@ -1721,14 +2018,12 @@ Install space: /home/administrator/ci/ci/team/workspace/install
 
 ####
 
-#### Running command: "cmake /home/administrator/ci/ci/team/workspace/src -DCATKIN_DEVEL_PREFIX=/home/administrator/ci/ci/team/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/administrator/ci/ci/team/workspace/install" in "/home/administrator/ci/ci/team/workspace/build"
+#### Running command: "make cmake_check_build_system" in "/home/administrator/ci/ci/team/workspace/build"
 
 ####
 
 ####
 
-#### Running command: "make -j16 tests" in "/home/administrator/ci/ci/team/workspace/build"
+#### Running command: "make -j1" in "/home/administrator/ci/ci/team/workspace/build"
 
 ####
-
-Invoking "make" failed
