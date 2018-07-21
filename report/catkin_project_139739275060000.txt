@@ -1,438 +1,290 @@
 WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
 
--- Using CATKIN_DEVEL_PREFIX: /home/administrator/ci/ci/team/workspace/devel
+[  0%] Built target PyShell
 
--- Using CMAKE_PREFIX_PATH: /opt/ros/indigo
+[  0%] Built target hello_world
 
--- This workspace overlays: /opt/ros/indigo
+[  0%] Built target py_converter_test
 
--- Using PYTHON_EXECUTABLE: /usr/bin/python
+[  0%] Built target test_py_shell
 
--- Python version: 2.7
+[  1%] Built target rbdl
 
--- Using Debian Python package layout
+[  1%] Built target rbdl_urdfreader
 
--- Using CATKIN_ENABLE_TESTING: ON
+[  1%] Built target rbdl_urdfreader_util
 
--- Call enable_testing()
+[  1%] Built target lockfree
 
--- Using CATKIN_TEST_RESULTS_DIR: /home/administrator/ci/ci/team/workspace/build/test_results
+[  2%] Built target snopt_extern
 
--- Found gtest sources under '/usr/src/gtest': gtests will be built
+[  2%] Built target snopt_interface_extern
 
--- catkin 0.5.90
+[  2%] Built target snopt_cpp
 
--- BUILD_SHARED_LIBS is on
+[  2%] Built target sntoya
 
-WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
+[  2%] Built target testing_tools
 
--- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[  4%] Built target utility
 
--- ~~  traversing 89 packages in topological order:
+[  4%] Built target lwpr
 
--- ~~  - Eigen
+[  4%] Built target xascii2mrplot
 
--- ~~  - amd_clmc_dmp
+[  4%] Built target xlwpr
 
--- ~~  - arm_cdlbt
+[  4%] Built target xlwprstat
 
--- ~~  - arm_can_control_tools
+[  4%] Built target rosrt
 
--- ~~  - biotac_core
+[  4%] Built target ros_rt_test_publisher
 
--- ~~  - catkin_gflags
+[  4%] Built target ros_rt_test_subscriber
 
--- ~~  - catkin_glog
+[  4%] Built target SLcommon
 
--- ~~  - conversions
+[  5%] Built target SLmotor
 
--- ~~  - graspit
+[  5%] Built target SLopenGL
 
--- ~~  - graspit_dbase_tasks
+[  5%] Built target SLros
 
--- ~~  - dbase_grasp_planner
+[  6%] Built target SLsimulation
 
--- ~~  - graspit_simulator
+[  6%] Built target SLtask
 
--- ~~  - interpolation
+[  7%] Built target SLvision
 
--- ~~  - launch_xtion
+[  7%] Built target _vicon_bridge_generate_messages_check_deps_Marker
 
--- ~~  - qp_oases
+[  7%] Built target _vicon_bridge_generate_messages_check_deps_viconGrabPose
 
--- ~~  - quadprog
+[  7%] Built target geometry_msgs_generate_messages_cpp
 
--- ~~  - ros_realtime (metapackage)
+[  7%] Built target _vicon_bridge_generate_messages_check_deps_TfDistortInfo
 
--- ~~  - allocators
+[  7%] Built target _vicon_bridge_generate_messages_check_deps_Markers
 
--- ~~  - rosatomic
+[  7%] Built target _vicon_bridge_generate_messages_check_deps_viconCalibrateSegment
 
--- ~~  - lockfree
+[  7%] Built target vicon_bridge_generate_messages_cpp
 
--- ~~  - rt_timer
+[  7%] Built target vicon_bridge_gencpp
 
--- ~~  - rt_utils
+[  8%] Built target calibrate
 
--- ~~  - dmp
+[  8%] Built target msvc_bridge
 
--- ~~  - splines
+[  9%] Built target testclient
 
--- ~~  - start_robot
+[ 10%] Built target vicon_bridge_gencfg
 
--- ~~  - amd_clmc_ros_messages
+[ 10%] Built target tf_distort
 
--- ~~  - ar_track_alvar_msgs
+[ 10%] Built target vicon_bridge
 
--- ~~  - custom_robot_msgs
+[ 10%] Built target geometry_msgs_generate_messages_py
 
--- ~~  - riemo_grasping_msgs
+[ 11%] Built target vicon_bridge_generate_messages_py
 
--- ~~  - graspit_ros_planning_msgs
+[ 11%] Built target geometry_msgs_generate_messages_lisp
 
--- ~~  - utilities
+[ 11%] Built target vicon_bridge_generate_messages_lisp
 
--- ~~  - lwpr
+[ 11%] Built target vicon_bridge_generate_messages
 
--- ~~  - vrpn_vicon_minimum
+[ 13%] Built target yaml-cpp
 
--- ~~  - vrpn_vicon_objs_tracker
+[ 14%] Built target run-tests
 
--- ~~  - xenomai_ros
+[ 14%] Built target parse
 
--- ~~  - constrained_inverse_kinematics_msgs
+[ 14%] Built target read
 
--- ~~  - robot_planning_client
+[ 14%] Built target sandbox
 
--- ~~  - roscpp_utilities
+[ 14%] Built target _hermes_communication_tools_generate_messages_check_deps_gdc_states_vector_msg
 
--- ~~  - rosrt
+[ 14%] Built target _hermes_communication_tools_generate_messages_check_deps_gdc_state_msg
 
--- ~~  - ros_rt_test
+[ 14%] Built target hermes_communication_tools_generate_messages_cpp
 
--- ~~  - sl
+[ 15%] Built target hermes_communication_tools_generate_messages_py
 
--- ~~  - arm
+[ 15%] Built target hermes_communication_tools_generate_messages_lisp
 
--- ~~  - arm_test_task
+[ 15%] Built target hermes_communication_tools_generate_messages
 
--- ~~  - sl_ros_servo
+[ 16%] Built target athena
 
--- ~~  - learning_control
+[ 16%] Built target athena_openGL
 
--- ~~  - ar_track_alvar
+[ 16%] Built target athena_simulation
 
--- ~~  - python_ros_utils
+[ 16%] Built target athena_task
 
--- ~~  - sl_conversions
+[ 16%] Built target xathena
 
--- ~~  - sl_utilities
+[ 17%] Built target xmotor_athena
 
--- ~~  - sl_controller_manager
+[ 17%] Built target xpest_athena
 
--- ~~  - sl_barrett_controllers
+[ 17%] Built target xvision_athena
 
--- ~~  - sl_biotac_controller_data
+[ 17%] Built target hermes_full
 
--- ~~  - sl_biotac_controllers
+Scanning dependencies of target hermes_full_openGL
 
--- ~~  - sl_controllers
+[ 18%] Building C object catkin/robots/hermesFull/CMakeFiles/hermes_full_openGL.dir/src/SL_user_openGL.c.o
 
--- ~~  - sl_head_arm_controllers
+Linking C shared library /home/administrator/ci/ci/team/workspace/devel/lib/libhermes_full_openGL.so
 
--- ~~  - sl_vicon_controller_data
+[ 18%] Built target hermes_full_openGL
 
--- ~~  - sl_biotac_vicon_controller_data
+Scanning dependencies of target hermes_full_simulation
 
--- ~~  - controller_manager_task_arm
+[ 18%] Building C object catkin/robots/hermesFull/CMakeFiles/hermes_full_simulation.dir/__/hermesCore/src/SL_user_simulation.c.o
 
--- ~~  - arm_user
+[ 18%] Building C object catkin/robots/hermesFull/CMakeFiles/hermes_full_simulation.dir/__/hermesCore/src/SL_hermes_simulation.c.o
 
--- ~~  - graspit_ros_planning
+Linking C shared library /home/administrator/ci/ci/team/workspace/devel/lib/libhermes_full_simulation.so
 
--- ~~  - arm_robot_model
+[ 18%] Built target hermes_full_simulation
 
--- ~~  - arm_moveit_config
+Scanning dependencies of target hermes_full_task
 
--- ~~  - ros_servo_arm
+[ 18%] Building CXX object catkin/robots/hermesFull/CMakeFiles/hermes_full_task.dir/__/hermesCore/src/SL_user_task.cpp.o
 
--- ~~  - usc_utilities
+/home/administrator/ci/ci/team/workspace/src/catkin/robots/hermesCore/src/SL_user_task.cpp: In function ‘void drawPhantomFromCurrentState()’:
 
--- ~~  - learnable_cost_function
+/home/administrator/ci/ci/team/workspace/src/catkin/robots/hermesCore/src/SL_user_task.cpp:410:69: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
 
--- ~~  - robot_info
+   sendUserGraphics("phantom",b, (N_CART+N_QUAT+N_DOFS)*sizeof(float));
 
--- ~~  - jacobian_utilities
+                                                                     ^
 
--- ~~  - sl_barrett_controller_interface
+/home/administrator/ci/ci/team/workspace/src/catkin/robots/hermesCore/src/SL_user_task.cpp: In function ‘void drawPhantomFromDesiredState()’:
 
--- ~~  - sl_controller_interface
+/home/administrator/ci/ci/team/workspace/src/catkin/robots/hermesCore/src/SL_user_task.cpp:444:69: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
 
--- ~~  - arm_learn_hand_eye_calibration
+   sendUserGraphics("phantom",b, (N_CART+N_QUAT+N_DOFS)*sizeof(float));
 
--- ~~  - robot_kinematics_cost_function
+                                                                     ^
 
--- ~~  - robot_inverse_kinematics
+Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libhermes_full_task.so
 
--- ~~  - sl_biotac_controller_interface
+[ 18%] Built target hermes_full_task
 
--- ~~  - sl_dmp_controller_interface
+[ 18%] Built target xhermes_full
 
--- ~~  - controller_manager_examples_arm
+Scanning dependencies of target xmotor_hermes_full
 
--- ~~  - sl_head_arm_controller_interface
+[ 18%] Building C object catkin/robots/hermesFull/CMakeFiles/xmotor_hermes_full.dir/__/hermesCore/src/SL_user_motor.c.o
 
--- ~~  - arm_verify_calibration
+[ 18%] Building CXX object catkin/robots/hermesFull/CMakeFiles/xmotor_hermes_full.dir/__/hermesCore/src/SL_user_sensor_proc_unix.cpp.o
 
--- ~~  - extrinsic_camera_calibration
+Linking CXX executable /home/administrator/ci/ci/team/workspace/src/catkin/robots/hermesFull/x86_64/xmotor
 
--- ~~  - sl_behaviors
+[ 18%] Built target xmotor_hermes_full
 
--- ~~  - grasp_data_recorder
+[ 18%] Generating src/SL_parm_estimate.c
 
--- ~~  - robot_command_line
+Scanning dependencies of target xpest_hermes_full
 
--- ~~  - strain_gauge_calibration
+[ 19%] Building C object catkin/robots/hermesFull/CMakeFiles/xpest_hermes_full.dir/src/SL_parm_estimate.c.o
 
--- ~~  - verify_extrinsic_camera_calibration
+Linking C executable /home/administrator/ci/ci/team/workspace/src/catkin/robots/hermesFull/x86_64/xpest
 
--- ~~  - vicon_calibration
+[ 19%] Built target xpest_hermes_full
 
--- ~~  - vicon_core
+Scanning dependencies of target xvision_hermes_full
 
--- ~~  - sl_vicon_controllers
+[ 19%] Building C object catkin/robots/hermesFull/CMakeFiles/xvision_hermes_full.dir/__/hermesCore/src/SL_user_vision.c.o
 
--- ~~  - sl_dmp_controllers
+Linking C executable /home/administrator/ci/ci/team/workspace/src/catkin/robots/hermesFull/x86_64/xvision
 
--- ~~  - robot_planning_srv
+[ 19%] Built target xvision_hermes_full
 
--- ~~  - yaml_cpp
+[ 20%] Built target hermes_lower
 
--- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[ 20%] Built target hermes_lower_openGL
 
--- +++ processing catkin package: 'Eigen'
+[ 20%] Built target hermes_lower_simulation
 
--- ==> add_subdirectory(catkin/third_party/Eigen)
+[ 20%] Built target hermes_lower_task
 
-WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
+[ 20%] Built target xhermes_lower
 
--- +++ processing catkin package: 'amd_clmc_dmp'
+[ 20%] Built target xmotor_hermes_lower
 
--- ==> add_subdirectory(catkin/planning/amd_clmc_dmp)
+[ 20%] Built target xpest_hermes_lower
 
--- Boost version: 1.54.0
+[ 20%] Built target xvision_hermes_lower
 
--- Found the following Boost libraries:
+[ 20%] Built target eiquadprog_tester_app
 
---   thread
+[ 20%] Built target geometry_utils
 
---   system
+[ 20%] Built target io_utils_lib
 
---   filesystem
+[ 21%] Built target robot_math
 
--- +++ processing catkin package: 'arm_cdlbt'
+[ 21%] Built target lqr_example_app
 
--- ==> add_subdirectory(catkin/robots/arm-barrett/cdlbt)
+[ 21%] Built target math_utils_lib
 
--- MACHTYPE x86_64
+[ 21%] Built target configuration_file_loading
 
-Detected MACHTYPE=x86_64
+[ 21%] Built target data_collection
 
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+[ 21%] Built target io_tools_OTHER_FILES
 
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+[ 22%] Built target yaml_example
 
-Call Stack (most recent call first):
+[ 22%] Built target capture_point_time_optimization
 
-  catkin/robots/arm-barrett/cdlbt/CMakeLists.txt:4 (include)
+[ 22%] Built target capture_points
 
+[ 22%] Built target capture_points_app
 
+[ 24%] Built target floating_base_tools_athena
 
+[ 24%] Built target momentum_lqr_example_app
 
+[ 25%] Built target floating_base_tools_hermes_full
 
--- HOST_NAME=everest
+[ 27%] Built target floating_base_tools_hermes_lower
 
--- HOST=everest
+[ 28%] Built target floating_base_tools_hopper
 
--- LAB=AMD
+[ 29%] Built target data_collectionSL
 
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+[ 30%] Built target floating_base_tools_sl_athena
 
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+[ 31%] Built target biped_locomotion_athena
 
--- CMAKE_INCLUDE_PATH=
+[ 31%] Built target gtest
 
--- CMAKE_LIBRARY_PATH=
+[ 31%] Built target biped_locomotion_tests_athena
 
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+[ 32%] Building CXX object catkin/humanoids/capture_point_time_optimization/capture_points_athena/CMakeFiles/hinvdyn_dcm_time_optimization_athena.dir/src/capture_points/hinvdyn_timing_optimization.cpp.o
 
--- LAB_LIBDIR=lib/x86_64
+In file included from /home/administrator/ci/ci/team/workspace/src/catkin/humanoids/capture_point_time_optimization/capture_points_athena/src/capture_points/hinvdyn_timing_optimization.cpp:20:0:
 
--- LAB_INCLUDES=include
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/capture_point_time_optimization/capture_points_athena/../template/include/capture_points/hinvdyn_timing_optimization.h:34:46: fatal error: geometry_utils/Transformations.hpp: No such file or directory
 
--- LAB_BINDIR=bin/x86_64
+ #include "geometry_utils/Transformations.hpp"
 
--- Boost version: 1.54.0
+                                              ^
 
--- Found the following Boost libraries:
+compilation terminated.
 
---   thread
+make[2]: *** [catkin/humanoids/capture_point_time_optimization/capture_points_athena/CMakeFiles/hinvdyn_dcm_time_optimization_athena.dir/src/capture_points/hinvdyn_timing_optimization.cpp.o] Error 1
 
--- +++ processing catkin package: 'arm_can_control_tools'
+make[1]: *** [catkin/humanoids/capture_point_time_optimization/capture_points_athena/CMakeFiles/hinvdyn_dcm_time_optimization_athena.dir/all] Error 2
 
--- ==> add_subdirectory(catkin/robots/arm-barrett/canControlTools)
-
--- MACHTYPE x86_64
-
-Detected MACHTYPE=x86_64
-
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
-
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
-
-Call Stack (most recent call first):
-
-  catkin/robots/arm-barrett/canControlTools/CMakeLists.txt:4 (include)
-
-
-
-
-
--- HOST_NAME=everest
-
--- HOST=everest
-
--- LAB=AMD
-
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_INCLUDE_PATH=
-
--- CMAKE_LIBRARY_PATH=
-
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
-
--- LAB_LIBDIR=lib/x86_64
-
--- LAB_INCLUDES=include
-
--- LAB_BINDIR=bin/x86_64
-
--- Boost version: 1.54.0
-
--- Found the following Boost libraries:
-
---   thread
-
---   system
-
--- +++ processing catkin package: 'biotac_core'
-
--- ==> add_subdirectory(catkin/sensors/biotac-core)
-
--- MACHTYPE x86_64
-
-Detected MACHTYPE=x86_64
-
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
-
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
-
-Call Stack (most recent call first):
-
-  catkin/sensors/biotac-core/CMakeLists.txt:8 (include)
-
-
-
-
-
--- HOST_NAME=everest
-
--- HOST=everest
-
--- LAB=AMD
-
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_INCLUDE_PATH=
-
--- CMAKE_LIBRARY_PATH=
-
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
-
--- LAB_LIBDIR=lib/x86_64
-
--- LAB_INCLUDES=include
-
--- LAB_BINDIR=bin/x86_64
-
--- Boost version: 1.54.0
-
--- Found the following Boost libraries:
-
---   system
-
--- +++ processing catkin package: 'catkin_gflags'
-
--- ==> add_subdirectory(catkin/third_party/catkin-gflags)
-
--- Found gflags  (include: /usr/include, library: /usr/lib/x86_64-linux-gnu/libgflags.so)
-
--- +++ processing catkin package: 'catkin_glog'
-
--- ==> add_subdirectory(catkin/third_party/catkin-glog)
-
--- Found glog    (include: /usr/include, library: /usr/lib/x86_64-linux-gnu/libglog.so)
-
--- +++ processing catkin package: 'conversions'
-
--- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/usc_utils/conversions)
-
--- +++ processing catkin package: 'graspit'
-
--- ==> add_subdirectory(catkin/third_party/ros_graspit/graspit_simulator/graspit)
-
-CMake Error at /home/administrator/ci/ci/team/workspace/devel/share/catkin/cmake/catkinConfig.cmake:75 (find_package):
-
-  Could not find a package configuration file provided by
-
-  "household_objects_database" with any of the following names:
-
-
-
-    household_objects_databaseConfig.cmake
-
-    household_objects_database-config.cmake
-
-
-
-  Add the installation prefix of "household_objects_database" to
-
-  CMAKE_PREFIX_PATH or set "household_objects_database_DIR" to a directory
-
-  containing one of the above files.  If "household_objects_database"
-
-  provides a separate development package or SDK, be sure it has been
-
-  installed.
-
-Call Stack (most recent call first):
-
-  catkin/third_party/ros_graspit/graspit_simulator/graspit/CMakeLists.txt:7 (find_package)
-
-
-
-
-
--- Configuring incomplete, errors occurred!
-
-See also "/home/administrator/ci/ci/team/workspace/build/CMakeFiles/CMakeOutput.log".
-
-See also "/home/administrator/ci/ci/team/workspace/build/CMakeFiles/CMakeError.log".
+make: *** [all] Error 2
 
 Base path: /home/administrator/ci/ci/team/workspace
 
@@ -446,8 +298,14 @@ Install space: /home/administrator/ci/ci/team/workspace/install
 
 ####
 
-#### Running command: "cmake /home/administrator/ci/ci/team/workspace/src -DCATKIN_DEVEL_PREFIX=/home/administrator/ci/ci/team/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/administrator/ci/ci/team/workspace/install -G Unix Makefiles" in "/home/administrator/ci/ci/team/workspace/build"
+#### Running command: "make cmake_check_build_system" in "/home/administrator/ci/ci/team/workspace/build"
 
 ####
 
-Invoking "cmake" failed
+####
+
+#### Running command: "make -j1" in "/home/administrator/ci/ci/team/workspace/build"
+
+####
+
+Invoking "make -j1" failed
