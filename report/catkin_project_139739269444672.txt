@@ -66,13 +66,15 @@
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- ~~  traversing 19 packages in topological order:
+-- ~~  traversing 21 packages in topological order:
 
 -- ~~  - astar_algo
 
 -- ~~  - playful_color_detection_libs
 
 -- ~~  - playful_profiler
+
+-- ~~  - soma
 
 -- ~~  - start_robot
 
@@ -106,6 +108,8 @@
 
 -- ~~  - playful_table_setting
 
+-- ~~  - playful_kinematics
+
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 -- +++ processing catkin package: 'astar_algo'
@@ -131,6 +135,10 @@
 -- Found the following Boost libraries:
 
 --   system
+
+-- +++ processing catkin package: 'soma'
+
+-- ==> add_subdirectory(catkin/playful/playful-soma)
 
 -- +++ processing catkin package: 'start_robot'
 
@@ -519,6 +527,10 @@
 -- ==> add_subdirectory(catkin/playful/playful-table-setting)
 
 -- Using these message generators: gencpp;genlisp;genpy
+
+-- +++ processing catkin package: 'playful_kinematics'
+
+-- ==> add_subdirectory(catkin/playful/playful-kinematics)
 
 -- Configuring done
 
@@ -3280,395 +3292,377 @@ CMake Warning at catkin/playful/playful-table-setting/CMakeLists.txt:42 (add_exe
 
 Scanning dependencies of target findpath
 
-Scanning dependencies of target playful_color_detection
-
-Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_AccelerationFeedbackExperimentStatus
-
-Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_PolicyControllerParamsService
-
 Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerDataStatus
 
 Scanning dependencies of target playful_profiler
 
 Scanning dependencies of target geometry_msgs_generate_messages_py
 
+Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineLearningControl
+
+Scanning dependencies of target playful_color_detection
+
+Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_Goto_command
+
 Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_BoundingPoints
 
 Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_ResetBreakaway
 
-Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_NavigationTarget
+Scanning dependencies of target soma
 
-Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_SwitchControllerStack
+Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_CalibratePressureSensorsStatus
 
-[  0%] [  0%] Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_CalibratePressureSensorsStatus
+[  0%] Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_AccelerationFeedbackExperimentStatus
 
-Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineLearningControl
+[  1%] Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_RtNetwork
 
-[  0%] [  0%] [  1%] Building CXX object catkin/playful/playful-navigation/externals/astar-algo/CMakeFiles/findpath.dir/src/findpath.cpp.o
+Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_PolicyControllerParamsService
 
-Built target geometry_msgs_generate_messages_py
-
-Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_Goto_command
+Building CXX object catkin/playful/playful-navigation/externals/astar-algo/CMakeFiles/findpath.dir/src/findpath.cpp.o
 
 Building CXX object catkin/playful/playful-perception/playful_profiler/CMakeFiles/playful_profiler.dir/src/profiler.cpp.o
+
+[  1%] [  1%] Built target geometry_msgs_generate_messages_py
+
+[  1%] Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_NavigationTarget
+
+[  1%] Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_SwitchControllerStack
 
 Building CXX object catkin/playful/playful-perception/playful_color_detection/playful_color_detection_libs/CMakeFiles/playful_color_detection.dir/src/ColoredObjectExtractor.cpp.o
 
 Building CXX object catkin/playful/playful-perception/playful_color_detection/playful_color_detection_libs/CMakeFiles/playful_color_detection.dir/src/ColorDetection.cpp.o
 
-Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_RtNetwork
+Building CXX object catkin/playful/playful-soma/CMakeFiles/soma.dir/src/soma.cpp.o
 
-Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_GraspControllerStatus
-
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SwitchControllerStack
-
-[  1%] [  1%] [  1%] Building CXX object catkin/playful/playful-perception/playful_color_detection/playful_color_detection_libs/CMakeFiles/playful_color_detection.dir/src/ColoredObjects.cpp.o
-
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_AccelerationFeedbackExperimentStatus
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineLearningControl
-
-[  1%] [  1%] [  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_NavigationTarget
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_ResetBreakaway
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_BoundingPoints
+[  1%] [  1%] [  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineLearningControl
 
 Built target _amd_clmc_ros_messages_generate_messages_check_deps_PolicyControllerParamsService
 
-[  1%] [  1%] [  1%] [  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerDataStatus
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerDataStatus
 
-Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_BiotacData
+[  1%] [  1%] [  1%] Building CXX object catkin/playful/playful-perception/playful_color_detection/playful_color_detection_libs/CMakeFiles/playful_color_detection.dir/src/ColoredObjects.cpp.o
 
-Building CXX object catkin/playful/playful-perception/playful_color_detection/playful_color_detection_libs/CMakeFiles/playful_color_detection.dir/src/ContourFinder.cpp.o
+[  1%] [  1%] [  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Goto_command
 
-[  2%] Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_AvgPressureSensors
-
-Building CXX object catkin/playful/playful-perception/playful_color_detection/playful_color_detection_libs/CMakeFiles/playful_color_detection.dir/src/Configuration.cpp.o
-
-Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_ExperimentParams
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_ResetBreakaway
 
 Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibratePressureSensorsStatus
 
+Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_BiotacData
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_RtNetwork
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_BoundingPoints
+
+Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_GraspControllerStatus
+
+[  1%] [  1%] [  2%] [  2%] Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_AvgPressureSensors
+
+Building CXX object catkin/playful/playful-perception/playful_color_detection/playful_color_detection_libs/CMakeFiles/playful_color_detection.dir/src/ContourFinder.cpp.o
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_AccelerationFeedbackExperimentStatus
+
+Building CXX object catkin/playful/playful-perception/playful_color_detection/playful_color_detection_libs/CMakeFiles/playful_color_detection.dir/src/Configuration.cpp.o
+
 Building CXX object catkin/playful/playful-perception/playful_color_detection/playful_color_detection_libs/CMakeFiles/playful_color_detection.dir/src/ColorRange.cpp.o
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Goto_command
+[  2%] Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_ExperimentParams
 
-Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_Volumes
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_NavigationTarget
+
+[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SwitchControllerStack
 
 Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_QueryControllerStatus
 
+Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_Volumes
+
 Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_UpdateStrainGagesCalibration
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_RtNetwork
+[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_BiotacData
 
-[  2%] Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_ImageCoordinates
+[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspControllerStatus
 
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspControllerStatus
+Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_ImageCoordinates
 
 Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_LabeledPoint
 
+[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_AvgPressureSensors
+
 Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_IncreaseMaxFingerTorque
 
-[  2%] [  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_BiotacData
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_AvgPressureSensors
-
-[  2%] [  2%] [  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_UpdateStrainGagesCalibration
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_QueryControllerStatus
-
-[  2%] [  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ImageCoordinates
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_ExperimentParams
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_Volumes
+[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_QueryControllerStatus
 
 Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_Preshape
 
-Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_LqrControllerDataStatus
+[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ExperimentParams
+
+[  2%] Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_LqrControllerDataStatus
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_Volumes
+
+Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_PressureSensors
 
 Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_ObstaclePoints
 
-Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_CartesianTrajectory
+[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_UpdateStrainGagesCalibration
 
-Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateForceTorqueSensor
-
-Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_Acceleration
-
-[  2%] Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_PressureSensors
+[  2%] Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateForceTorqueSensor
 
 Built target _amd_clmc_ros_messages_generate_messages_check_deps_LabeledPoint
 
+[  2%] [  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_IncreaseMaxFingerTorque
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_ImageCoordinates
+
+Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_CartesianTrajectory
+
+[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Preshape
+
+Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_Acceleration
+
 Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_PolicyControllerDataStatus
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_IncreaseMaxFingerTorque
+[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LqrControllerDataStatus
 
 Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerParamsService
 
-[  2%] [  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LqrControllerDataStatus
+[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PressureSensors
 
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_Preshape
+[  2%] Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_GraspPoses
 
-[  2%] [  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateForceTorqueSensor
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_Acceleration
-
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ObstaclePoints
-
-[  2%] [  2%] Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_GraspPoses
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_ObstaclePoints
 
 Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_TrajectoryStatus
 
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_CartesianTrajectory
+Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_ExperimentGeneratorParamsService
 
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_PressureSensors
+[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateForceTorqueSensor
 
 Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_PointArrayArray
 
-Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_ExperimentGeneratorParamsService
+[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CartesianTrajectory
+
+[  2%] [  2%] [  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PolicyControllerDataStatus
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerParamsService
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_Acceleration
 
 Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerStatus
 
+[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspPoses
+
 Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_LookAtParams
-
-Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_CartesianTrajectoryPoint
-
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PolicyControllerDataStatus
 
 Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineNetwork
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerParamsService
+Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_CartesianTrajectoryPoint
 
-[  2%] [  2%] [  2%] [  2%] [  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ExperimentGeneratorParamsService
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspPoses
+[  2%] [  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ExperimentGeneratorParamsService
 
 Built target _amd_clmc_ros_messages_generate_messages_check_deps_TrajectoryStatus
 
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerStatus
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_LookAtParams
-
 Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_BiotacFingerData
-
-[  2%] [  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PointArrayArray
-
-Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_DMPControllerStatus
-
-Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_LookAtStatus
-
-Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_CollectDataStatus
 
 Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_ColorRange
 
-Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_RtNetworkLayer
+Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_CollectDataStatus
+
+[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PointArrayArray
+
+Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_LookAtStatus
+
+[  2%] [  2%] [  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LookAtParams
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineNetwork
+
+[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerStatus
 
 Built target _amd_clmc_ros_messages_generate_messages_check_deps_CartesianTrajectoryPoint
+
+[  2%] Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_RtNetworkLayer
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_BiotacFingerData
 
 Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_CalibratePressureSensors
 
 Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_Extrems
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineNetwork
+Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_DMPControllerStatus
+
+[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CollectDataStatus
 
 Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_DMPCommand
 
-[  2%] [  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_RtNetworkLayer
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_BiotacFingerData
-
-[  2%] [  2%] [  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibratePressureSensors
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_LookAtStatus
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_CollectDataStatus
-
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ColorRange
-
 [  2%] Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_NetworkLayer
 
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_DMPControllerStatus
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_ColorRange
 
-Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_ScaledLqr
+[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LookAtStatus
 
 Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_ViconQuery
 
-Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_SetPoses
+[  2%] Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_ScaledLqr
 
-Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_UpdateStrainGagesCalibrationStatus
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibratePressureSensors
 
-Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_GraspControllerParams
-
-Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_TrajectoryPoint
-
-[  2%] [  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DMPCommand
+[  2%] [  2%] [  2%] Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_GraspControllerParams
 
 Built target _amd_clmc_ros_messages_generate_messages_check_deps_Extrems
 
-[  2%] [  2%] [  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_NetworkLayer
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_RtNetworkLayer
 
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_ScaledLqr
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_DMPControllerStatus
 
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_ViconQuery
+[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_NetworkLayer
+
+Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libsoma.so
+
+[  2%] Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_SetPoses
+
+Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_TrajectoryPoint
+
+Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_UpdateStrainGagesCalibrationStatus
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_DMPCommand
 
 Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_Path
 
 Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_DMPControllerParams
 
+[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ViconQuery
+
+[  2%] Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_SetVisualToolTracking
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_ScaledLqr
+
 [  2%] [  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SetPoses
 
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_UpdateStrainGagesCalibrationStatus
-
-Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_SetVisualToolTracking
-
-Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_ContinuousTrajectoryPoint
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspControllerParams
 
 Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_ContinuousTrajectoryStatus
 
 Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_BoundingPointsArray
 
-Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_SetObjectOri
+[  2%] [  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_UpdateStrainGagesCalibrationStatus
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_TrajectoryPoint
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_TrajectoryPoint
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspControllerParams
+Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_ContinuousTrajectoryPoint
 
-Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_EndEffectorPosition
+[  2%] Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_EndEffectorPosition
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Path
-
-Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_InverseDynamicsBatchNetworkControllerStatus
-
-[  2%] [  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DMPControllerParams
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_ContinuousTrajectoryStatus
-
-Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_Imu
-
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SetVisualToolTracking
-
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ContinuousTrajectoryPoint
-
-[  2%] Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_FingerJointEncoderOffsetsStatus
-
-Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerParams
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_BoundingPointsArray
+Built target soma
 
 Linking CXX executable findpath
 
-Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_AffinePolicy
+Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_SetObjectOri
 
-Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineDataStatus
+[  2%] [  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DMPControllerParams
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_Path
+
+Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_InverseDynamicsBatchNetworkControllerStatus
+
+[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SetVisualToolTracking
+
+Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_Imu
+
+Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_FingerJointEncoderOffsetsStatus
+
+Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerParams
+
+[  2%] [  2%] [  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ContinuousTrajectoryPoint
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_BoundingPointsArray
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_ContinuousTrajectoryStatus
 
 Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateAccelerometerSensorStatus
 
-[  2%] [  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SetObjectOri
+Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineDataStatus
 
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_EndEffectorPosition
+Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_AffinePolicy
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_InverseDynamicsBatchNetworkControllerStatus
+[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_EndEffectorPosition
 
-Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_DistanceFieldEval
+[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SetObjectOri
 
-Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_GraspStatus
-
-[  2%] Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_LqrControllerParams
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_Imu
-
-[  2%] [  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerParams
+[  2%] [  2%] Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_GraspStatus
 
 Built target _amd_clmc_ros_messages_generate_messages_check_deps_FingerJointEncoderOffsetsStatus
 
-[  2%] [  2%] [  2%] Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_CartesianGains
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_Imu
 
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateAccelerometerSensorStatus
+Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_DistanceFieldEval
 
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_AffinePolicy
+[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_InverseDynamicsBatchNetworkControllerStatus
 
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineDataStatus
+Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_LqrControllerParams
 
-Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_OnlineDataStatus
+Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_CartesianGains
+
+[  2%] Built target findpath
 
 Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_ChordEllipsoid
 
-Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_DistanceFieldQueries
+[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerParams
+
+Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_OnlineDataStatus
+
+[  2%] Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_DistanceFieldQueries
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateAccelerometerSensorStatus
+
+[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineDataStatus
+
+[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_AffinePolicy
 
 Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_FingerJointEncoderOffsets
 
+[  2%] Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineLearningControlService
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_DistanceFieldEval
+
 Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_KeyPointBodyApprox
 
-[  2%] [  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DistanceFieldEval
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspStatus
-
-[  2%] [  2%] Built target findpath
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_LqrControllerParams
+[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspStatus
 
 Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_LinearQuadraticRegulatorParams
 
-[  2%] Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineLearningControlService
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_CartesianGains
+[  2%] [  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ChordEllipsoid
 
 Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_LqrControllerParamsService
 
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_LqrControllerParams
+
 Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_Grasp
-
-[  2%] [  2%] [  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_FingerJointEncoderOffsets
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_OnlineDataStatus
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_ChordEllipsoid
 
 Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_FingerForceControlGains
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DistanceFieldQueries
+[  2%] [  2%] [  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OnlineDataStatus
 
-Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateBiotacSensorsStatus
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_DistanceFieldQueries
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_CartesianGains
+
+[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_KeyPointBodyApprox
 
 Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_ExtremsArray
 
+Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateBiotacSensorsStatus
+
 Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_StrainGauge
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_KeyPointBodyApprox
+[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_FingerJointEncoderOffsets
 
 Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_TaskFrame
 
 Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_Sphere
 
-[  2%] [  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LqrControllerParamsService
+[  2%] [  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LinearQuadraticRegulatorParams
 
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineLearningControlService
-
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LinearQuadraticRegulatorParams
-
-Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_RectangularBox
-
-Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_ViconData
-
-[  2%] [  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Grasp
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_FingerForceControlGains
-
-Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_EndEffectorState
-
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ExtremsArray
-
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateBiotacSensorsStatus
-
-Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_SpeedChange
-
-Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateAccelerometerSensor
-
-Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_ResetBreakawayStatus
-
-Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_RectangularBoxArray
-
-/home/administrator/ci/ci/team/workspace/src/catkin/playful/playful-perception/playful_profiler/src/profiler.cpp: In member function ‘void playful_profiler::Profiler::print()’:
+[  2%] /home/administrator/ci/ci/team/workspace/src/catkin/playful/playful-perception/playful_profiler/src/profiler.cpp: In member function ‘void playful_profiler::Profiler::print()’:
 
 /home/administrator/ci/ci/team/workspace/src/catkin/playful/playful-perception/playful_profiler/src/profiler.cpp:52:48: warning: format ‘%d’ expects argument of type ‘int’, but argument 4 has type ‘long int’ [-Wformat=]
 
@@ -3676,1071 +3670,1125 @@ Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_d
 
                                                 ^
 
-[  2%] [  2%] [  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_TaskFrame
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_LqrControllerParamsService
 
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_Sphere
+[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineLearningControlService
+
+Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_EndEffectorState
+
+Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_RectangularBox
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_FingerForceControlGains
+
+[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Grasp
+
+Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_ViconData
+
+Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_SpeedChange
+
+[  2%] [  2%] [  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ExtremsArray
+
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateBiotacSensorsStatus
 
 Built target _amd_clmc_ros_messages_generate_messages_check_deps_StrainGauge
 
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_RectangularBox
+[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_TaskFrame
 
-Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateBiotacSensors
+Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateAccelerometerSensor
+
+Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_RectangularBoxArray
+
+Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_ResetBreakawayStatus
 
 Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_ControllerStatus
 
-Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_LinearQuadraticRegulatorStatus
+Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateBiotacSensors
+
+[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Sphere
 
 Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineParams
 
+Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_LinearQuadraticRegulatorStatus
+
 [  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_EndEffectorState
 
-[  2%] [  2%] [  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ViconData
+[  2%] [  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SpeedChange
 
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateAccelerometerSensor
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_SpeedChange
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_RectangularBox
 
 Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_EnvironmentalObject
 
-Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_ObjectMass
-
 Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_Matrix32
 
-Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_Gains
+Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_ObjectMass
 
-Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_PointArray
+[  2%] [  2%] [  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ViconData
 
-[  2%] [  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_RectangularBoxArray
+[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateAccelerometerSensor
 
 Built target _amd_clmc_ros_messages_generate_messages_check_deps_ResetBreakawayStatus
 
-Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_ImageCoordinatesArray
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_RectangularBoxArray
+
+[  2%] Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_ImageCoordinatesArray
+
+Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_PointArray
 
 Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_Trajectory
 
-Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateForceTorqueSensorStatus
+Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_Gains
 
-[  2%] [  2%] [  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateBiotacSensors
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateBiotacSensors
+
+[  2%] [  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineParams
 
 Built target _amd_clmc_ros_messages_generate_messages_check_deps_ControllerStatus
 
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_LinearQuadraticRegulatorStatus
-
-[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineParams
+Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateForceTorqueSensorStatus
 
 Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_LinearQuadraticRegulator
 
-Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_InverseDynamicsBatchNetworkControllerParams
-
 Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_TrackingPose
 
-Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineParamsService
+Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_InverseDynamicsBatchNetworkControllerParams
 
-[  2%] [  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Matrix32
+[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LinearQuadraticRegulatorStatus
 
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_EnvironmentalObject
+[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_EnvironmentalObject
+
+[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Matrix32
 
 [  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ObjectMass
 
-[  2%] Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_CollectData
+Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_CollectData
 
-Scanning dependencies of target geometry_msgs_generate_messages_cpp
-
-Scanning dependencies of target geometry_msgs_generate_messages_lisp
+[  2%] Scanning dependencies of target geometry_msgs_generate_messages_cpp
 
 Built target _amd_clmc_ros_messages_generate_messages_check_deps_Gains
 
-[  2%] [  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PointArray
+Scanning dependencies of target geometry_msgs_generate_messages_lisp
 
-[  2%] [  2%] [  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Trajectory
+[  2%] [  2%] [  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_TrackingPose
 
-Built target geometry_msgs_generate_messages_lisp
-
-Built target geometry_msgs_generate_messages_cpp
+Scanning dependencies of target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineParamsService
 
 Built target _amd_clmc_ros_messages_generate_messages_check_deps_ImageCoordinatesArray
 
-Scanning dependencies of target _ar_track_alvar_msgs_generate_messages_check_deps_AlvarMarker
-
-Scanning dependencies of target std_msgs_generate_messages_py
-
-Scanning dependencies of target std_msgs_generate_messages_cpp
-
 Scanning dependencies of target _ar_track_alvar_msgs_generate_messages_check_deps_AlvarMarkers
 
-Scanning dependencies of target std_msgs_generate_messages_lisp
+[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Trajectory
 
-Scanning dependencies of target _custom_robot_msgs_generate_messages_check_deps_assembly_phase
+Built target geometry_msgs_generate_messages_cpp
 
-[  2%] [  2%] [  2%] [  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_TrackingPose
+[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PointArray
 
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineParamsService
+[  2%] [  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LinearQuadraticRegulator
 
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateForceTorqueSensorStatus
+Built target geometry_msgs_generate_messages_lisp
 
-Built target std_msgs_generate_messages_py
-
-[  2%] [  2%] [  2%] [  2%] Built target std_msgs_generate_messages_lisp
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_LinearQuadraticRegulator
-
-Built target std_msgs_generate_messages_cpp
+[  2%] Scanning dependencies of target std_msgs_generate_messages_lisp
 
 Built target _amd_clmc_ros_messages_generate_messages_check_deps_InverseDynamicsBatchNetworkControllerParams
 
+Scanning dependencies of target std_msgs_generate_messages_py
+
+Scanning dependencies of target _ar_track_alvar_msgs_generate_messages_check_deps_AlvarMarker
+
+Scanning dependencies of target std_msgs_generate_messages_cpp
+
 Scanning dependencies of target _custom_robot_msgs_generate_messages_check_deps_PredictAssembly
 
-Scanning dependencies of target _custom_robot_msgs_generate_messages_check_deps_PolicyInterface
+[  2%] [  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateForceTorqueSensorStatus
 
-Scanning dependencies of target _riemo_grasping_msgs_generate_messages_check_deps_GraspPose
+[  2%] Scanning dependencies of target _custom_robot_msgs_generate_messages_check_deps_PolicyInterface
 
-Scanning dependencies of target _riemo_grasping_msgs_generate_messages_check_deps_UpdateGraspProblem
+Scanning dependencies of target _custom_robot_msgs_generate_messages_check_deps_assembly_phase
 
-Scanning dependencies of target _riemo_grasping_msgs_generate_messages_check_deps_GraspableObject
+Built target std_msgs_generate_messages_lisp
 
-Scanning dependencies of target _riemo_grasping_msgs_generate_messages_check_deps_RenderGraspProblemService
+Built target std_msgs_generate_messages_py
 
-Scanning dependencies of target _riemo_grasping_msgs_generate_messages_check_deps_LatestGraspProblemInfo
+[  2%] Scanning dependencies of target _riemo_grasping_msgs_generate_messages_check_deps_GraspableObject
 
-Scanning dependencies of target _riemo_grasping_msgs_generate_messages_check_deps_MpiGraspPoses
-
-[  2%] [  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CollectData
-
-Built target _ar_track_alvar_msgs_generate_messages_check_deps_AlvarMarkers
-
-[  2%] [  2%] Built target _custom_robot_msgs_generate_messages_check_deps_assembly_phase
-
-Built target _ar_track_alvar_msgs_generate_messages_check_deps_AlvarMarker
-
-Scanning dependencies of target _riemo_grasping_msgs_generate_messages_check_deps_Preshape
+Built target std_msgs_generate_messages_cpp
 
 Scanning dependencies of target _riemo_grasping_msgs_generate_messages_check_deps_GraspProblemInfo
 
-Scanning dependencies of target _playful_navigation_msgs_generate_messages_check_deps_Move_target_out_of_obstacles
+Scanning dependencies of target _riemo_grasping_msgs_generate_messages_check_deps_GraspPose
+
+Scanning dependencies of target _riemo_grasping_msgs_generate_messages_check_deps_Preshape
+
+Scanning dependencies of target _riemo_grasping_msgs_generate_messages_check_deps_UpdateGraspProblem
+
+[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CollectData
+
+Scanning dependencies of target _riemo_grasping_msgs_generate_messages_check_deps_MpiGraspPoses
+
+[  2%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineParamsService
+
+[  2%] [  2%] Built target _ar_track_alvar_msgs_generate_messages_check_deps_AlvarMarkers
+
+Built target _custom_robot_msgs_generate_messages_check_deps_PredictAssembly
+
+Scanning dependencies of target _riemo_grasping_msgs_generate_messages_check_deps_LatestGraspProblemInfo
+
+[  2%] [  2%] [  2%] Built target _ar_track_alvar_msgs_generate_messages_check_deps_AlvarMarker
+
+[  2%] Scanning dependencies of target _riemo_grasping_msgs_generate_messages_check_deps_RenderGraspProblemService
 
 Scanning dependencies of target _playful_navigation_msgs_generate_messages_check_deps_Move_robot_out_of_obstacles
 
-[  2%] [  2%] [  2%] [  2%] Built target _custom_robot_msgs_generate_messages_check_deps_PredictAssembly
-
-Built target _riemo_grasping_msgs_generate_messages_check_deps_UpdateGraspProblem
-
-Built target _riemo_grasping_msgs_generate_messages_check_deps_GraspPose
+Built target _custom_robot_msgs_generate_messages_check_deps_assembly_phase
 
 Built target _custom_robot_msgs_generate_messages_check_deps_PolicyInterface
 
-[  2%] [  2%] Built target _riemo_grasping_msgs_generate_messages_check_deps_GraspableObject
+Built target _riemo_grasping_msgs_generate_messages_check_deps_GraspProblemInfo
 
-[  2%] Built target _riemo_grasping_msgs_generate_messages_check_deps_RenderGraspProblemService
+[  2%] [  2%] Built target _riemo_grasping_msgs_generate_messages_check_deps_Preshape
 
-Built target _riemo_grasping_msgs_generate_messages_check_deps_LatestGraspProblemInfo
+Built target _riemo_grasping_msgs_generate_messages_check_deps_UpdateGraspProblem
 
-[  2%] Built target _riemo_grasping_msgs_generate_messages_check_deps_MpiGraspPoses
+[  2%] Scanning dependencies of target _playful_navigation_msgs_generate_messages_check_deps_Move_target_out_of_obstacles
+
+Built target _riemo_grasping_msgs_generate_messages_check_deps_GraspPose
 
 Scanning dependencies of target _playful_simplified_human_model_generate_messages_check_deps_SimplifiedHumanModel
 
-Scanning dependencies of target ar_track_alvar_msgs_generate_messages_py
+[  2%] Built target _riemo_grasping_msgs_generate_messages_check_deps_GraspableObject
 
-Scanning dependencies of target ar_track_alvar_msgs_generate_messages_lisp
+[  2%] Built target _riemo_grasping_msgs_generate_messages_check_deps_MpiGraspPoses
 
-Scanning dependencies of target amd_clmc_ros_messages_generate_messages_cpp
-
-Scanning dependencies of target amd_clmc_ros_messages_generate_messages_lisp
+Scanning dependencies of target soma_example
 
 Scanning dependencies of target amd_clmc_ros_messages_generate_messages_py
 
-[  2%] Scanning dependencies of target ar_track_alvar_msgs_generate_messages_cpp
+Scanning dependencies of target amd_clmc_ros_messages_generate_messages_cpp
 
-[  3%] Generating Python from MSG ar_track_alvar_msgs/AlvarMarkers
+Scanning dependencies of target ar_track_alvar_msgs_generate_messages_py
 
-[  3%] [  3%] [  3%] [  3%] [  3%] Generating Lisp code from ar_track_alvar_msgs/AlvarMarkers.msg
+Scanning dependencies of target amd_clmc_ros_messages_generate_messages_lisp
 
-[  3%] Built target _riemo_grasping_msgs_generate_messages_check_deps_GraspProblemInfo
+[  2%] [  2%] [  2%] Built target _riemo_grasping_msgs_generate_messages_check_deps_LatestGraspProblemInfo
 
-Built target _playful_navigation_msgs_generate_messages_check_deps_Move_target_out_of_obstacles
+Building CXX object catkin/playful/playful-soma/CMakeFiles/soma_example.dir/src/soma_example.cpp.o
 
-Built target _riemo_grasping_msgs_generate_messages_check_deps_Preshape
+[  2%] [  2%] Generating Python from MSG amd_clmc_ros_messages/DriftingControllerDataStatus
 
-Built target _playful_navigation_msgs_generate_messages_check_deps_Move_robot_out_of_obstacles
-
-[  3%] Generating Lisp code from amd_clmc_ros_messages/DriftingControllerDataStatus.msg
+[  3%] Scanning dependencies of target ar_track_alvar_msgs_generate_messages_cpp
 
 Generating C++ code from amd_clmc_ros_messages/DriftingControllerDataStatus.msg
 
-[  3%] [  3%] [  3%] [  3%] Scanning dependencies of target custom_robot_msgs_generate_messages_py
+Generating Python from MSG ar_track_alvar_msgs/AlvarMarkers
 
-Generating C++ code from ar_track_alvar_msgs/AlvarMarkers.msg
+Scanning dependencies of target ar_track_alvar_msgs_generate_messages_lisp
 
-Generating Lisp code from ar_track_alvar_msgs/AlvarMarker.msg
+Scanning dependencies of target pepper_kinematics
 
-Generating C++ code from ar_track_alvar_msgs/AlvarMarker.msg
+Generating Lisp code from amd_clmc_ros_messages/DriftingControllerDataStatus.msg
 
-Generating Python from MSG amd_clmc_ros_messages/DriftingControllerDataStatus
+[  3%] [  3%] Built target _playful_navigation_msgs_generate_messages_check_deps_Move_robot_out_of_obstacles
 
-Generating C++ code from amd_clmc_ros_messages/OfflineLearningControl.msg
+Built target _riemo_grasping_msgs_generate_messages_check_deps_RenderGraspProblemService
 
-[  3%] Generating Python from MSG custom_robot_msgs/assembly_phase
+[  4%] [  4%] [  4%] [  4%] [  5%] [  6%] Generating C++ code from ar_track_alvar_msgs/AlvarMarkers.msg
 
-[  3%] Built target _playful_simplified_human_model_generate_messages_check_deps_SimplifiedHumanModel
+Building CXX object catkin/playful/playful-kinematics/CMakeFiles/pepper_kinematics.dir/src/soma.cpp.o
 
-[  3%] Scanning dependencies of target playful_pcl
+Generating Lisp code from ar_track_alvar_msgs/AlvarMarkers.msg
+
+Built target _playful_navigation_msgs_generate_messages_check_deps_Move_target_out_of_obstacles
+
+[  6%] Generating Python from MSG amd_clmc_ros_messages/OfflineLearningControl
 
 Generating Python from MSG ar_track_alvar_msgs/AlvarMarker
 
-[  3%] [  3%] Generating Python code from SRV custom_robot_msgs/PredictAssembly
+Built target _playful_simplified_human_model_generate_messages_check_deps_SimplifiedHumanModel
 
-Building CXX object catkin/playful/playful-perception/playful_pcl/CMakeFiles/playful_pcl.dir/src/grid_minimum.cpp.o
-
-[  3%] Built target ar_track_alvar_msgs_generate_messages_lisp
-
-Scanning dependencies of target custom_robot_msgs_generate_messages_cpp
+[  6%] [  6%] Generating Python from MSG amd_clmc_ros_messages/CalibratePressureSensorsStatus
 
 Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libplayful_profiler.so
 
-[  4%] [  5%] [  5%] [  5%] Generating Python from MSG amd_clmc_ros_messages/OfflineLearningControl
+Generating C++ code from ar_track_alvar_msgs/AlvarMarker.msg
 
-[  5%] Generating Python code from SRV custom_robot_msgs/PolicyInterface
+Scanning dependencies of target playful_pcl
 
-Generating Python from MSG amd_clmc_ros_messages/CalibratePressureSensorsStatus
+Scanning dependencies of target custom_robot_msgs_generate_messages_cpp
 
-Generating C++ code from custom_robot_msgs/assembly_phase.msg
+Scanning dependencies of target custom_robot_msgs_generate_messages_py
+
+[  6%] [  6%] [  6%] [  6%] Generating C++ code from custom_robot_msgs/assembly_phase.msg
+
+Building CXX object catkin/playful/playful-perception/playful_pcl/CMakeFiles/playful_pcl.dir/src/grid_minimum.cpp.o
+
+Generating Python from MSG custom_robot_msgs/assembly_phase
 
 Generating Lisp code from amd_clmc_ros_messages/OfflineLearningControl.msg
 
-[  6%] [  6%] Generating C++ code from custom_robot_msgs/PredictAssembly.srv
+[  6%] [  6%] Scanning dependencies of target custom_robot_msgs_generate_messages_lisp
 
 Generating Python msg __init__.py for ar_track_alvar_msgs
 
-[  6%] [  6%] [  6%] [  6%] [  6%] Built target playful_profiler
+[  6%] [  7%] Generating Lisp code from ar_track_alvar_msgs/AlvarMarker.msg
 
 Generating Python from MSG amd_clmc_ros_messages/BoundingPoints
 
+Generating Lisp code from custom_robot_msgs/assembly_phase.msg
+
+[  7%] Built target playful_profiler
+
+[  7%] Scanning dependencies of target riemo_grasping_msgs_generate_messages_py
+
+Generating Lisp code from custom_robot_msgs/PredictAssembly.srv
+
+[  8%] [  9%] Generating Python code from SRV custom_robot_msgs/PredictAssembly
+
+[  9%] [  9%] Built target ar_track_alvar_msgs_generate_messages_py
+
+[  9%] Generating Python from MSG riemo_grasping_msgs/MpiGraspPoses
+
+[  9%] Generating Lisp code from amd_clmc_ros_messages/CalibratePressureSensorsStatus.msg
+
+[  9%] Generating Python from MSG riemo_grasping_msgs/Preshape
+
+[  9%] Generating Python code from SRV custom_robot_msgs/PolicyInterface
+
 Generating Python from MSG amd_clmc_ros_messages/NavigationTarget
 
-Generating Python msg __init__.py for custom_robot_msgs
+Built target ar_track_alvar_msgs_generate_messages_lisp
 
-Generating Python srv __init__.py for custom_robot_msgs
+[  9%] Generating Python from MSG amd_clmc_ros_messages/ResetBreakaway
 
-Scanning dependencies of target custom_robot_msgs_generate_messages_lisp
+Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libplayful_color_detection.so
 
-[  6%] Generating Lisp code from custom_robot_msgs/assembly_phase.msg
+[  9%] Generating Lisp code from custom_robot_msgs/PolicyInterface.srv
 
-Scanning dependencies of target riemo_grasping_msgs_generate_messages_cpp
+[  9%] [ 10%] [ 10%] Generating Python from MSG amd_clmc_ros_messages/Goto_command
 
-[  7%] Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libplayful_color_detection.so
+Generating C++ code from amd_clmc_ros_messages/OfflineLearningControl.msg
 
-[  8%] Generating Lisp code from amd_clmc_ros_messages/CalibratePressureSensorsStatus.msg
+[ 10%] Generating Python from MSG riemo_grasping_msgs/GraspableObject
 
-Generating C++ code from riemo_grasping_msgs/MpiGraspPoses.msg
+[ 10%] Generating C++ code from amd_clmc_ros_messages/CalibratePressureSensorsStatus.msg
 
-[  8%] Built target ar_track_alvar_msgs_generate_messages_py
-
-Scanning dependencies of target riemo_grasping_msgs_generate_messages_lisp
-
-[  8%] Built target custom_robot_msgs_generate_messages_py
-
-[  9%] [  9%] [ 10%] [ 10%] Scanning dependencies of target riemo_grasping_msgs_generate_messages_py
-
-Generating Python from MSG amd_clmc_ros_messages/ResetBreakaway
-
-Generating C++ code from amd_clmc_ros_messages/CalibratePressureSensorsStatus.msg
-
-Generating Lisp code from riemo_grasping_msgs/MpiGraspPoses.msg
-
-Generating Python from MSG amd_clmc_ros_messages/Goto_command
-
-Scanning dependencies of target playful_navigation_msgs_generate_messages_py
-
-[ 10%] [ 11%] [ 11%] [ 12%] Generating Python from MSG riemo_grasping_msgs/MpiGraspPoses
-
-Building CXX object catkin/playful/playful-perception/playful_pcl/CMakeFiles/playful_pcl.dir/src/pcl.cpp.o
-
-Generating Python code from SRV playful_navigation_msgs/Move_target_out_of_obstacles
-
-Generating Python from MSG riemo_grasping_msgs/Preshape
-
-[ 12%] Built target ar_track_alvar_msgs_generate_messages_cpp
-
-[ 13%] [ 13%] Generating Lisp code from custom_robot_msgs/PredictAssembly.srv
-
-Generating Python from MSG riemo_grasping_msgs/GraspableObject
-
-[ 13%] [ 13%] [ 13%] [ 13%] Generating Lisp code from amd_clmc_ros_messages/BoundingPoints.msg
-
-[ 13%] Generating Lisp code from riemo_grasping_msgs/Preshape.msg
-
-Generating Python from MSG amd_clmc_ros_messages/RtNetwork
-
-Generating Lisp code from amd_clmc_ros_messages/ResetBreakaway.msg
+[ 10%] [ 10%] Generating Lisp code from amd_clmc_ros_messages/BoundingPoints.msg
 
 Generating Lisp code from amd_clmc_ros_messages/NavigationTarget.msg
 
-[ 13%] [ 13%] [ 13%] Built target playful_color_detection
+[ 11%] Generating Python msg __init__.py for custom_robot_msgs
 
-Scanning dependencies of target playful_navigation_msgs_generate_messages_lisp
+Generating Lisp code from amd_clmc_ros_messages/ResetBreakaway.msg
+
+[ 11%] [ 11%] Built target ar_track_alvar_msgs_generate_messages_cpp
 
 Generating Lisp code from amd_clmc_ros_messages/Goto_command.msg
 
-[ 14%] Generating Python code from SRV playful_navigation_msgs/Move_robot_out_of_obstacles
+[ 11%] Generating Lisp code from amd_clmc_ros_messages/RtNetwork.msg
 
-Generating Lisp code from amd_clmc_ros_messages/RtNetwork.msg
+[ 11%] Generating C++ code from custom_robot_msgs/PredictAssembly.srv
 
-[ 15%] Generating Lisp code from playful_navigation_msgs/Move_target_out_of_obstacles.srv
+[ 11%] [ 11%] Built target custom_robot_msgs_generate_messages_lisp
 
-[ 15%] [ 15%] Generating Python from MSG riemo_grasping_msgs/GraspProblemInfo
+Generating Python from MSG amd_clmc_ros_messages/RtNetwork
 
-Generating Lisp code from custom_robot_msgs/PolicyInterface.srv
+[ 11%] Generating C++ code from custom_robot_msgs/PolicyInterface.srv
 
-[ 15%] [ 15%] Generating Lisp code from riemo_grasping_msgs/GraspableObject.msg
+[ 11%] [ 11%] Generating Python from MSG riemo_grasping_msgs/GraspProblemInfo
 
-[ 15%] [ 16%] Generating Python from MSG amd_clmc_ros_messages/GraspControllerStatus
+Generating Python srv __init__.py for custom_robot_msgs
+
+[ 11%] [ 11%] [ 11%] Built target playful_color_detection
 
 Generating Lisp code from amd_clmc_ros_messages/GraspControllerStatus.msg
 
-Generating Python srv __init__.py for playful_navigation_msgs
-
-[ 16%] [ 16%] [ 16%] [ 16%] Generating C++ code from amd_clmc_ros_messages/BoundingPoints.msg
-
 Generating Lisp code from amd_clmc_ros_messages/BiotacData.msg
 
-Generating Lisp code from playful_navigation_msgs/Move_robot_out_of_obstacles.srv
-
-Generating Python from MSG riemo_grasping_msgs/GraspPose
-
-[ 16%] [ 16%] Built target custom_robot_msgs_generate_messages_lisp
+[ 12%] Scanning dependencies of target riemo_grasping_msgs_generate_messages_lisp
 
 Generating Lisp code from amd_clmc_ros_messages/ExperimentParams.msg
 
-[ 16%] Scanning dependencies of target playful_navigation_msgs_generate_messages_cpp
+[ 12%] [ 12%] [ 12%] Generating Lisp code from riemo_grasping_msgs/MpiGraspPoses.msg
 
-Generating Python code from SRV riemo_grasping_msgs/UpdateGraspProblem
+Generating Python from MSG amd_clmc_ros_messages/GraspControllerStatus
 
-[ 16%] [ 16%] Generating C++ code from playful_navigation_msgs/Move_target_out_of_obstacles.srv
+Generating Lisp code from amd_clmc_ros_messages/AvgPressureSensors.msg
 
-Generating C++ code from riemo_grasping_msgs/Preshape.msg
+[ 12%] Generating Python from MSG amd_clmc_ros_messages/BiotacData
 
-[ 16%] Generating Lisp code from riemo_grasping_msgs/GraspProblemInfo.msg
+[ 12%] Built target custom_robot_msgs_generate_messages_py
 
-[ 16%] Generating Python from MSG amd_clmc_ros_messages/BiotacData
+[ 12%] Generating Python from MSG riemo_grasping_msgs/GraspPose
 
-[ 16%] Built target playful_navigation_msgs_generate_messages_py
+Scanning dependencies of target riemo_grasping_msgs_generate_messages_cpp
 
-[ 17%] [ 18%] Generating Python from MSG amd_clmc_ros_messages/ExperimentParams
-
-[ 19%] Generating Python code from SRV riemo_grasping_msgs/RenderGraspProblemService
-
-[ 20%] [ 20%] Built target playful_navigation_msgs_generate_messages_lisp
-
-[ 20%] Generating C++ code from amd_clmc_ros_messages/NavigationTarget.msg
-
-[ 20%] Generating Lisp code from amd_clmc_ros_messages/AvgPressureSensors.msg
-
-Generating C++ code from amd_clmc_ros_messages/ResetBreakaway.msg
+[ 12%] [ 12%] [ 12%] [ 12%] Generating Lisp code from amd_clmc_ros_messages/Volumes.msg
 
 Generating Lisp code from amd_clmc_ros_messages/Trajectory.msg
 
-[ 20%] Generating C++ code from amd_clmc_ros_messages/Goto_command.msg
+Generating C++ code from riemo_grasping_msgs/MpiGraspPoses.msg
 
-[ 20%] [ 21%] [ 21%] Generating Python from MSG amd_clmc_ros_messages/AvgPressureSensors
+Generating Lisp code from riemo_grasping_msgs/Preshape.msg
 
-Generating Lisp code from riemo_grasping_msgs/GraspPose.msg
+[ 12%] [ 12%] [ 13%] [ 13%] Generating Lisp code from riemo_grasping_msgs/GraspableObject.msg
 
-Generating Lisp code from riemo_grasping_msgs/UpdateGraspProblem.srv
+Generating Lisp code from riemo_grasping_msgs/GraspProblemInfo.msg
 
-[ 21%] [ 21%] [ 21%] Generating C++ code from custom_robot_msgs/PolicyInterface.srv
+Linking CXX executable soma_example
 
-Generating Python code from SRV riemo_grasping_msgs/LatestGraspProblemInfo
+Building CXX object catkin/playful/playful-kinematics/CMakeFiles/pepper_kinematics.dir/src/fk.cpp.o
 
-Generating Python from MSG amd_clmc_ros_messages/Trajectory
+Generating Python from MSG amd_clmc_ros_messages/ExperimentParams
 
-[ 21%] [ 21%] [ 21%] Generating Lisp code from amd_clmc_ros_messages/Volumes.msg
+[ 13%] Building CXX object catkin/playful/playful-kinematics/CMakeFiles/pepper_kinematics.dir/src/ik.cpp.o
 
-Generating Lisp code from riemo_grasping_msgs/LatestGraspProblemInfo.srv
+[ 13%] Generating C++ code from amd_clmc_ros_messages/BoundingPoints.msg
 
-[ 21%] [ 21%] Generating Lisp code from riemo_grasping_msgs/RenderGraspProblemService.srv
+[ 14%] Generating Python code from SRV riemo_grasping_msgs/UpdateGraspProblem
 
-Generating Python from MSG amd_clmc_ros_messages/Volumes
+[ 15%] [ 16%] [ 16%] Generating Lisp code from riemo_grasping_msgs/GraspPose.msg
 
 Generating Lisp code from amd_clmc_ros_messages/UpdateStrainGagesCalibration.msg
 
-[ 21%] Generating Python msg __init__.py for riemo_grasping_msgs
+[ 17%] [ 17%] [ 17%] Built target soma_example
 
-[ 21%] [ 22%] Generating Lisp code from amd_clmc_ros_messages/PointArrayArray.msg
+[ 17%] Generating Lisp code from riemo_grasping_msgs/UpdateGraspProblem.srv
 
-[ 22%] Generating Lisp code from amd_clmc_ros_messages/ImageCoordinates.msg
+Generating Python from MSG amd_clmc_ros_messages/AvgPressureSensors
+
+Scanning dependencies of target playful_navigation_msgs_generate_messages_py
+
+Generating Python from MSG amd_clmc_ros_messages/Trajectory
+
+Generating Python from MSG amd_clmc_ros_messages/Volumes
+
+[ 17%] [ 17%] Generating Python code from SRV riemo_grasping_msgs/RenderGraspProblemService
+
+[ 18%] [ 18%] Generating Python code from SRV playful_navigation_msgs/Move_target_out_of_obstacles
+
+[ 18%] Generating Python code from SRV playful_navigation_msgs/Move_robot_out_of_obstacles
+
+Generating Lisp code from riemo_grasping_msgs/RenderGraspProblemService.srv
+
+Generating Python from MSG amd_clmc_ros_messages/UpdateStrainGagesCalibration
+
+[ 19%] Generating Python from MSG amd_clmc_ros_messages/PointArrayArray
+
+[ 19%] [ 19%] Generating Python code from SRV riemo_grasping_msgs/LatestGraspProblemInfo
+
+Generating Lisp code from amd_clmc_ros_messages/PointArrayArray.msg
+
+[ 19%] [ 19%] [ 19%] [ 19%] [ 19%] Scanning dependencies of target playful_navigation_msgs_generate_messages_lisp
+
+Generating C++ code from riemo_grasping_msgs/Preshape.msg
+
+Generating Python srv __init__.py for playful_navigation_msgs
 
 Generating C++ code from riemo_grasping_msgs/GraspableObject.msg
 
-[ 22%] [ 23%] [ 23%] Built target riemo_grasping_msgs_generate_messages_lisp
+Generating Python from MSG amd_clmc_ros_messages/ImageCoordinates
 
-Generating Lisp code from amd_clmc_ros_messages/LabeledPoint.msg
+Generating Lisp code from riemo_grasping_msgs/LatestGraspProblemInfo.srv
 
-[ 23%] [ 23%] Generating Python from MSG amd_clmc_ros_messages/UpdateStrainGagesCalibration
+[ 19%] [ 19%] Generating Lisp code from playful_navigation_msgs/Move_target_out_of_obstacles.srv
+
+Generating Lisp code from amd_clmc_ros_messages/ImageCoordinates.msg
+
+[ 19%] [ 19%] Generating Python msg __init__.py for riemo_grasping_msgs
+
+Generating Python from MSG amd_clmc_ros_messages/LabeledPoint
+
+[ 20%] [ 20%] Built target custom_robot_msgs_generate_messages_cpp
+
+Generating C++ code from amd_clmc_ros_messages/NavigationTarget.msg
+
+[ 20%] [ 20%] Built target playful_navigation_msgs_generate_messages_py
+
+Scanning dependencies of target playful_navigation_msgs_generate_messages_cpp
+
+[ 20%] [ 20%] Generating Lisp code from amd_clmc_ros_messages/LabeledPoint.msg
+
+[ 20%] Built target riemo_grasping_msgs_generate_messages_lisp
+
+[ 21%] Generating Python from MSG amd_clmc_ros_messages/IncreaseMaxFingerTorque
+
+[ 21%] [ 21%] Generating Python from MSG amd_clmc_ros_messages/Preshape
+
+Generating C++ code from playful_navigation_msgs/Move_target_out_of_obstacles.srv
+
+Generating C++ code from amd_clmc_ros_messages/ResetBreakaway.msg
+
+[ 21%] [ 22%] Generating Python srv __init__.py for riemo_grasping_msgs
+
+Generating Lisp code from playful_navigation_msgs/Move_robot_out_of_obstacles.srv
 
 Generating Lisp code from amd_clmc_ros_messages/IncreaseMaxFingerTorque.msg
 
+[ 22%] Generating C++ code from amd_clmc_ros_messages/Goto_command.msg
+
+[ 22%] [ 23%] Generating C++ code from amd_clmc_ros_messages/RtNetwork.msg
+
+[ 24%] Generating Python from MSG amd_clmc_ros_messages/LqrControllerDataStatus
+
+[ 24%] [ 24%] Built target riemo_grasping_msgs_generate_messages_py
+
+Built target playful_navigation_msgs_generate_messages_lisp
+
 Generating Lisp code from amd_clmc_ros_messages/Preshape.msg
 
-[ 24%] Generating Lisp code from amd_clmc_ros_messages/LqrControllerDataStatus.msg
-
-[ 24%] [ 24%] Generating Python srv __init__.py for riemo_grasping_msgs
-
-Generating C++ code from amd_clmc_ros_messages/RtNetwork.msg
-
-[ 25%] [ 25%] Generating C++ code from amd_clmc_ros_messages/GraspControllerStatus.msg
-
-Generating C++ code from amd_clmc_ros_messages/BiotacData.msg
-
-[ 25%] [ 25%] Generating Python from MSG amd_clmc_ros_messages/PointArrayArray
-
-Generating Python from MSG amd_clmc_ros_messages/ImageCoordinates
-
-[ 25%] [ 25%] Generating Python from MSG amd_clmc_ros_messages/LabeledPoint
-
-[ 25%] [ 25%] Generating Python from MSG amd_clmc_ros_messages/IncreaseMaxFingerTorque
-
-Building CXX object catkin/playful/playful-perception/playful_pcl/CMakeFiles/playful_pcl.dir/src/geometry_2d.cpp.o
-
-[ 25%] Building CXX object catkin/playful/playful-perception/playful_pcl/CMakeFiles/playful_pcl.dir/src/point_cloud_share.cpp.o
-
-Built target riemo_grasping_msgs_generate_messages_py
-
-[ 26%] Generating Python from MSG amd_clmc_ros_messages/Preshape
-
-[ 26%] Generating Lisp code from amd_clmc_ros_messages/PressureSensors.msg
-
-[ 26%] Generating Python from MSG amd_clmc_ros_messages/LqrControllerDataStatus
-
-[ 26%] Generating Python from MSG amd_clmc_ros_messages/PressureSensors
-
-[ 26%] [ 26%] Generating C++ code from amd_clmc_ros_messages/ExperimentParams.msg
-
-Generating C++ code from playful_navigation_msgs/Move_robot_out_of_obstacles.srv
-
-[ 26%] Generating Python from MSG amd_clmc_ros_messages/ObstaclePoints
-
-[ 27%] Generating Python from MSG amd_clmc_ros_messages/CalibrateForceTorqueSensor
-
-[ 27%] Generating Python from MSG amd_clmc_ros_messages/CartesianTrajectory
-
-[ 27%] [ 27%] [ 27%] Generating Python from MSG amd_clmc_ros_messages/Acceleration
-
-Generating C++ code from riemo_grasping_msgs/GraspProblemInfo.msg
-
-Generating Lisp code from amd_clmc_ros_messages/ObstaclePoints.msg
-
-[ 27%] Generating Python from MSG amd_clmc_ros_messages/PolicyControllerDataStatus
-
-[ 28%] Generating Python from MSG amd_clmc_ros_messages/GraspPoses
-
-[ 28%] [ 28%] Generating Python from MSG amd_clmc_ros_messages/TrajectoryStatus
-
-[ 29%] [ 29%] Built target custom_robot_msgs_generate_messages_cpp
+Scanning dependencies of target playful_simplified_human_model_generate_messages_cpp
 
 Scanning dependencies of target playful_simplified_human_model_generate_messages_lisp
 
-Generating C++ code from riemo_grasping_msgs/GraspPose.msg
-
-[ 29%] [ 29%] [ 29%] [ 29%] [ 29%] Generating C++ code from amd_clmc_ros_messages/AvgPressureSensors.msg
-
-Generating C++ code from riemo_grasping_msgs/UpdateGraspProblem.srv
-
-[ 29%] Generating C++ code from amd_clmc_ros_messages/Trajectory.msg
-
-Generating Lisp code from amd_clmc_ros_messages/CalibrateForceTorqueSensor.msg
-
-Generating Lisp code from playful_simplified_human_model/SimplifiedHumanModel.msg
-
-Generating Python from MSG amd_clmc_ros_messages/FingerJointEncoderOffsets
-
-Generating Lisp code from amd_clmc_ros_messages/CartesianTrajectory.msg
-
-[ 29%] Generating Python from MSG amd_clmc_ros_messages/DriftingControllerStatus
-
-[ 29%] [ 29%] Built target playful_simplified_human_model_generate_messages_lisp
-
-[ 30%] Generating Python from MSG amd_clmc_ros_messages/CartesianTrajectoryPoint
-
 Scanning dependencies of target playful_simplified_human_model_generate_messages_py
 
-[ 30%] Generating Python from MSG playful_simplified_human_model/SimplifiedHumanModel
+[ 24%] [ 24%] [ 25%] Generating C++ code from playful_simplified_human_model/SimplifiedHumanModel.msg
 
-[ 30%] Generating Lisp code from amd_clmc_ros_messages/PolicyControllerDataStatus.msg
+[ 25%] Generating Lisp code from playful_simplified_human_model/SimplifiedHumanModel.msg
+
+Generating Lisp code from amd_clmc_ros_messages/LqrControllerDataStatus.msg
+
+Generating Python from MSG playful_simplified_human_model/SimplifiedHumanModel
+
+[ 25%] Generating Python from MSG amd_clmc_ros_messages/PressureSensors
+
+[ 25%] [ 26%] Generating C++ code from riemo_grasping_msgs/GraspProblemInfo.msg
+
+Generating Python from MSG amd_clmc_ros_messages/ObstaclePoints
+
+[ 26%] [ 26%] Built target playful_simplified_human_model_generate_messages_lisp
+
+[ 26%] Generating Python from MSG amd_clmc_ros_messages/CalibrateForceTorqueSensor
+
+Generating C++ code from riemo_grasping_msgs/GraspPose.msg
+
+[ 26%] Generating Python msg __init__.py for playful_simplified_human_model
+
+[ 26%] Generating Lisp code from amd_clmc_ros_messages/PressureSensors.msg
+
+[ 26%] Generating Lisp code from amd_clmc_ros_messages/ObstaclePoints.msg
+
+[ 27%] [ 27%] Generating C++ code from amd_clmc_ros_messages/GraspControllerStatus.msg
+
+Generating C++ code from amd_clmc_ros_messages/BiotacData.msg
+
+[ 27%] Generating C++ code from amd_clmc_ros_messages/ExperimentParams.msg
+
+[ 27%] [ 28%] Built target playful_simplified_human_model_generate_messages_py
+
+[ 28%] Generating Python from MSG amd_clmc_ros_messages/CartesianTrajectory
+
+[ 28%] Generating C++ code from riemo_grasping_msgs/UpdateGraspProblem.srv
+
+Generating C++ code from amd_clmc_ros_messages/AvgPressureSensors.msg
+
+[ 28%] [ 29%] Generating C++ code from riemo_grasping_msgs/RenderGraspProblemService.srv
+
+[ 29%] Generating Lisp code from amd_clmc_ros_messages/CalibrateForceTorqueSensor.msg
+
+Generating C++ code from amd_clmc_ros_messages/Trajectory.msg
+
+[ 29%] Built target playful_simplified_human_model_generate_messages_cpp
+
+[ 30%] [ 30%] Generating Python from MSG amd_clmc_ros_messages/Acceleration
+
+Generating C++ code from riemo_grasping_msgs/LatestGraspProblemInfo.srv
+
+[ 30%] [ 30%] [ 30%] Generating Lisp code from amd_clmc_ros_messages/CartesianTrajectory.msg
+
+[ 30%] Generating Python from MSG amd_clmc_ros_messages/GraspPoses
+
+Generating Python from MSG amd_clmc_ros_messages/PolicyControllerDataStatus
 
 Generating Lisp code from amd_clmc_ros_messages/Acceleration.msg
 
-[ 30%] Generating Lisp code from amd_clmc_ros_messages/GraspPoses.msg
-
-[ 30%] Generating Lisp code from amd_clmc_ros_messages/TrajectoryStatus.msg
-
-[ 30%] Generating C++ code from riemo_grasping_msgs/RenderGraspProblemService.srv
-
-[ 31%] Generating Python from MSG amd_clmc_ros_messages/LookAtParams
-
-[ 31%] Generating Python msg __init__.py for playful_simplified_human_model
-
-[ 32%] [ 32%] Scanning dependencies of target playful_simplified_human_model_generate_messages_cpp
-
-[ 33%] Generating C++ code from riemo_grasping_msgs/LatestGraspProblemInfo.srv
-
-[ 33%] Generating Lisp code from amd_clmc_ros_messages/FingerJointEncoderOffsets.msg
+[ 30%] [ 31%] Generating C++ code from playful_navigation_msgs/Move_robot_out_of_obstacles.srv
 
 Generating C++ code from amd_clmc_ros_messages/Volumes.msg
 
-[ 33%] Generating Lisp code from amd_clmc_ros_messages/DriftingControllerStatus.msg
+[ 31%] [ 31%] [ 32%] Generating Python from MSG amd_clmc_ros_messages/TrajectoryStatus
 
-Generating C++ code from playful_simplified_human_model/SimplifiedHumanModel.msg
+Generating C++ code from amd_clmc_ros_messages/UpdateStrainGagesCalibration.msg
 
-[ 33%] [ 33%] Built target playful_navigation_msgs_generate_messages_cpp
+[ 32%] Generating Python from MSG amd_clmc_ros_messages/FingerJointEncoderOffsets
 
-[ 33%] Generating Lisp code from amd_clmc_ros_messages/CartesianTrajectoryPoint.msg
+Generating Python from MSG amd_clmc_ros_messages/DriftingControllerStatus
 
-[ 34%] [ 34%] Generating Lisp code from amd_clmc_ros_messages/LookAtParams.msg
+[ 32%] [ 32%] Generating C++ code from amd_clmc_ros_messages/PointArrayArray.msg
 
-Generating Lisp code from amd_clmc_ros_messages/OfflineNetwork.msg
+Generating Lisp code from amd_clmc_ros_messages/PolicyControllerDataStatus.msg
+
+[ 32%] Generating C++ code from amd_clmc_ros_messages/ImageCoordinates.msg
+
+[ 32%] Generating Python from MSG amd_clmc_ros_messages/CartesianTrajectoryPoint
+
+[ 32%] [ 32%] [ 33%] Generating Python from MSG amd_clmc_ros_messages/LookAtParams
+
+Generating C++ code from amd_clmc_ros_messages/LabeledPoint.msg
+
+Generating C++ code from amd_clmc_ros_messages/IncreaseMaxFingerTorque.msg
+
+[ 33%] Generating Lisp code from amd_clmc_ros_messages/GraspPoses.msg
+
+[ 34%] [ 35%] Generating Lisp code from amd_clmc_ros_messages/TrajectoryStatus.msg
 
 Generating Python from MSG amd_clmc_ros_messages/OfflineNetwork
 
-[ 34%] Built target playful_simplified_human_model_generate_messages_py
+[ 35%] Generating Python from MSG amd_clmc_ros_messages/BiotacFingerData
 
-Scanning dependencies of target ar_track_alvar_msgs_generate_messages
+[ 35%] Generating C++ code from amd_clmc_ros_messages/Preshape.msg
 
-[ 34%] Built target ar_track_alvar_msgs_generate_messages
+[ 35%] Generating Python from MSG amd_clmc_ros_messages/CollectDataStatus
 
-[ 34%] [ 34%] Generating Lisp code from amd_clmc_ros_messages/BiotacFingerData.msg
+[ 35%] [ 35%] Generating Python from MSG amd_clmc_ros_messages/LookAtStatus
 
-Generating Lisp code from amd_clmc_ros_messages/CollectDataStatus.msg
+Generating Python from MSG amd_clmc_ros_messages/ColorRange
 
-[ 34%] Generating Lisp code from amd_clmc_ros_messages/ColorRange.msg
+[ 35%] [ 35%] Generating Lisp code from amd_clmc_ros_messages/FingerJointEncoderOffsets.msg
 
-[ 34%] Generating Python from MSG amd_clmc_ros_messages/BiotacFingerData
+[ 36%] Generating Python from MSG amd_clmc_ros_messages/DMPControllerStatus
 
-[ 34%] Generating Lisp code from amd_clmc_ros_messages/LookAtStatus.msg
+Generating Lisp code from amd_clmc_ros_messages/DriftingControllerStatus.msg
 
-[ 34%] [ 35%] Generating Lisp code from amd_clmc_ros_messages/DMPControllerStatus.msg
+[ 36%] Built target riemo_grasping_msgs_generate_messages_cpp
 
-Generating Python from MSG amd_clmc_ros_messages/CollectDataStatus
+[ 36%] [ 36%] [ 36%] Generating Lisp code from amd_clmc_ros_messages/CartesianTrajectoryPoint.msg
 
-[ 35%] [ 35%] Generating Lisp code from amd_clmc_ros_messages/RtNetworkLayer.msg
-
-Generating Lisp code from amd_clmc_ros_messages/CalibratePressureSensors.msg
-
-[ 36%] Generating Python from MSG amd_clmc_ros_messages/ColorRange
-
-[ 36%] Generating Lisp code from amd_clmc_ros_messages/Extrems.msg
-
-[ 36%] Generating C++ code from amd_clmc_ros_messages/UpdateStrainGagesCalibration.msg
-
-[ 37%] [ 37%] Generating Lisp code from amd_clmc_ros_messages/StrainGauge.msg
-
-Generating Lisp code from amd_clmc_ros_messages/NetworkLayer.msg
-
-[ 37%] Generating C++ code from amd_clmc_ros_messages/PointArrayArray.msg
-
-[ 37%] [ 37%] [ 37%] Generating Python from MSG amd_clmc_ros_messages/LookAtStatus
-
-Generating C++ code from amd_clmc_ros_messages/ImageCoordinates.msg
-
-Built target playful_simplified_human_model_generate_messages_cpp
-
-[ 38%] [ 38%] Generating C++ code from amd_clmc_ros_messages/LabeledPoint.msg
-
-Generating Python from MSG amd_clmc_ros_messages/DMPControllerStatus
-
-[ 38%] [ 38%] Generating C++ code from amd_clmc_ros_messages/IncreaseMaxFingerTorque.msg
-
-Generating Lisp code from amd_clmc_ros_messages/ScaledLqr.msg
-
-[ 38%] [ 38%] Generating Lisp code from amd_clmc_ros_messages/ViconQuery.msg
-
-[ 38%] Generating Python from MSG amd_clmc_ros_messages/RtNetworkLayer
-
-Generating Lisp code from amd_clmc_ros_messages/GraspControllerParams.msg
-
-[ 38%] Generating Python from MSG amd_clmc_ros_messages/CalibratePressureSensors
-
-[ 38%] Generating C++ code from amd_clmc_ros_messages/Preshape.msg
-
-[ 39%] [ 40%] Generating Lisp code from amd_clmc_ros_messages/SetVisualToolTracking.msg
-
-Generating Python from MSG amd_clmc_ros_messages/Extrems
-
-[ 40%] [ 40%] [ 40%] Built target riemo_grasping_msgs_generate_messages_cpp
-
-Generating Lisp code from amd_clmc_ros_messages/UpdateStrainGagesCalibrationStatus.msg
-
-Generating Lisp code from amd_clmc_ros_messages/DMPControllerParams.msg
-
-Scanning dependencies of target custom_robot_msgs_generate_messages
-
-Scanning dependencies of target playful_navigation_msgs_generate_messages
-
-[ 40%] Built target custom_robot_msgs_generate_messages
-
-[ 40%] Scanning dependencies of target playful_simplified_human_model_generate_messages
-
-[ 40%] Built target playful_navigation_msgs_generate_messages
-
-[ 40%] Built target playful_simplified_human_model_generate_messages
-
-Scanning dependencies of target riemo_grasping_msgs_generate_messages
+[ 37%] Generating Python from MSG amd_clmc_ros_messages/RtNetworkLayer
 
 Generating C++ code from amd_clmc_ros_messages/LqrControllerDataStatus.msg
 
-[ 40%] [ 40%] Built target riemo_grasping_msgs_generate_messages
+Generating Lisp code from amd_clmc_ros_messages/LookAtParams.msg
 
-Generating C++ code from amd_clmc_ros_messages/PressureSensors.msg
+[ 37%] [ 37%] Generating Python from MSG amd_clmc_ros_messages/CalibratePressureSensors
 
-[ 41%] [ 41%] Generating C++ code from amd_clmc_ros_messages/ObstaclePoints.msg
+[ 37%] [ 38%] Generating Python from MSG amd_clmc_ros_messages/Extrems
 
-Generating C++ code from amd_clmc_ros_messages/CalibrateForceTorqueSensor.msg
+[ 38%] Generating C++ code from amd_clmc_ros_messages/PressureSensors.msg
 
-[ 41%] [ 41%] [ 41%] Generating Python from MSG amd_clmc_ros_messages/StrainGauge
+Generating C++ code from amd_clmc_ros_messages/ObstaclePoints.msg
 
-Generating Python from MSG amd_clmc_ros_messages/NetworkLayer
+Building CXX object catkin/playful/playful-perception/playful_pcl/CMakeFiles/playful_pcl.dir/src/pcl.cpp.o
 
-Generating Lisp code from amd_clmc_ros_messages/Path.msg
+[ 38%] Built target playful_navigation_msgs_generate_messages_cpp
 
-[ 41%] [ 42%] [ 42%] Generating C++ code from amd_clmc_ros_messages/CartesianTrajectory.msg
+Scanning dependencies of target ar_track_alvar_msgs_generate_messages
 
-Generating Lisp code from amd_clmc_ros_messages/ContinuousTrajectoryStatus.msg
+[ 38%] [ 38%] Built target ar_track_alvar_msgs_generate_messages
 
-Generating Lisp code from amd_clmc_ros_messages/TrajectoryPoint.msg
+Generating Lisp code from amd_clmc_ros_messages/OfflineNetwork.msg
 
-[ 42%] Generating Lisp code from amd_clmc_ros_messages/ContinuousTrajectoryPoint.msg
+[ 38%] Scanning dependencies of target custom_robot_msgs_generate_messages
 
-[ 42%] Generating Python from MSG amd_clmc_ros_messages/ScaledLqr
+[ 39%] [ 39%] [ 39%] Built target custom_robot_msgs_generate_messages
 
-[ 43%] Generating Python from MSG amd_clmc_ros_messages/ViconQuery
+Generating Python from MSG amd_clmc_ros_messages/StrainGauge
 
-[ 43%] Generating Lisp code from amd_clmc_ros_messages/GraspStatus.msg
+Generating Lisp code from amd_clmc_ros_messages/BiotacFingerData.msg
 
-[ 44%] [ 44%] Generating Lisp code from amd_clmc_ros_messages/Sphere.msg
+Generating Lisp code from amd_clmc_ros_messages/CollectDataStatus.msg
 
-Generating C++ code from amd_clmc_ros_messages/Acceleration.msg
+[ 39%] Scanning dependencies of target riemo_grasping_msgs_generate_messages
 
-[ 45%] [ 45%] Generating C++ code from amd_clmc_ros_messages/PolicyControllerDataStatus.msg
+[ 39%] Generating Python from MSG amd_clmc_ros_messages/NetworkLayer
 
-Generating Python from MSG amd_clmc_ros_messages/GraspControllerParams
+[ 39%] Built target riemo_grasping_msgs_generate_messages
 
-[ 45%] Generating C++ code from amd_clmc_ros_messages/GraspPoses.msg
+Generating Python from MSG amd_clmc_ros_messages/ScaledLqr
 
-[ 45%] [ 45%] Generating Lisp code from amd_clmc_ros_messages/Imu.msg
+[ 39%] Generating Lisp code from amd_clmc_ros_messages/ColorRange.msg
 
-Generating Lisp code from amd_clmc_ros_messages/InverseDynamicsBatchNetworkControllerStatus.msg
+[ 40%] Generating Lisp code from amd_clmc_ros_messages/LookAtStatus.msg
 
-[ 45%] Generating C++ code from amd_clmc_ros_messages/TrajectoryStatus.msg
+[ 40%] [ 40%] Generating Python from MSG amd_clmc_ros_messages/ViconQuery
 
-[ 45%] Generating C++ code from amd_clmc_ros_messages/FingerJointEncoderOffsets.msg
+[ 40%] [ 40%] Generating Lisp code from amd_clmc_ros_messages/DMPControllerStatus.msg
 
-[ 46%] [ 46%] [ 46%] [ 46%] Generating C++ code from amd_clmc_ros_messages/CartesianTrajectoryPoint.msg
+[ 41%] [ 41%] Generating Lisp code from amd_clmc_ros_messages/RtNetworkLayer.msg
 
-Generating C++ code from amd_clmc_ros_messages/DriftingControllerStatus.msg
+Generating Lisp code from amd_clmc_ros_messages/CalibratePressureSensors.msg
+
+[ 42%] Generating Python from MSG amd_clmc_ros_messages/GraspControllerParams
+
+Generating Lisp code from amd_clmc_ros_messages/Extrems.msg
 
 Generating Python from MSG amd_clmc_ros_messages/SetVisualToolTracking
 
-Generating C++ code from amd_clmc_ros_messages/LookAtParams.msg
+[ 42%] [ 42%] Generating Python from MSG amd_clmc_ros_messages/UpdateStrainGagesCalibrationStatus
 
-[ 46%] Generating C++ code from amd_clmc_ros_messages/OfflineNetwork.msg
+[ 42%] [ 42%] Generating Lisp code from amd_clmc_ros_messages/StrainGauge.msg
 
-[ 46%] [ 46%] Generating Lisp code from amd_clmc_ros_messages/FingerJointEncoderOffsetsStatus.msg
+Generating Lisp code from amd_clmc_ros_messages/NetworkLayer.msg
 
-[ 46%] Generating Python from MSG amd_clmc_ros_messages/UpdateStrainGagesCalibrationStatus
+Generating C++ code from amd_clmc_ros_messages/CalibrateForceTorqueSensor.msg
 
-Generating C++ code from amd_clmc_ros_messages/BiotacFingerData.msg
+[ 42%] [ 42%] Generating Python from MSG amd_clmc_ros_messages/DMPControllerParams
 
-[ 46%] Generating Python from MSG amd_clmc_ros_messages/DMPControllerParams
+Generating Python from MSG amd_clmc_ros_messages/Path
 
-[ 46%] Generating Lisp code from amd_clmc_ros_messages/DriftingControllerParams.msg
+[ 42%] [ 42%] [ 42%] Building CXX object catkin/playful/playful-kinematics/CMakeFiles/pepper_kinematics.dir/src/score_functions.cpp.o
 
-[ 47%] Generating C++ code from amd_clmc_ros_messages/CollectDataStatus.msg
+Generating Lisp code from amd_clmc_ros_messages/ViconQuery.msg
 
-[ 47%] Generating C++ code from amd_clmc_ros_messages/ColorRange.msg
+Generating Lisp code from amd_clmc_ros_messages/ScaledLqr.msg
 
-[ 47%] Generating C++ code from amd_clmc_ros_messages/LookAtStatus.msg
+[ 42%] [ 42%] Generating C++ code from amd_clmc_ros_messages/CartesianTrajectory.msg
 
-[ 48%] Generating Python from MSG amd_clmc_ros_messages/Path
+Building CXX object catkin/playful/playful-kinematics/CMakeFiles/pepper_kinematics.dir/src/kinematic_config.cpp.o
 
-[ 48%] Generating C++ code from amd_clmc_ros_messages/DMPControllerStatus.msg
+[ 43%] Generating Python from MSG amd_clmc_ros_messages/TrajectoryPoint
 
-[ 49%] Generating C++ code from amd_clmc_ros_messages/RtNetworkLayer.msg
+[ 43%] Generating Python from MSG amd_clmc_ros_messages/ContinuousTrajectoryStatus
 
-[ 49%] [ 50%] Generating Lisp code from amd_clmc_ros_messages/OfflineDataStatus.msg
+[ 44%] [ 44%] [ 44%] Scanning dependencies of target playful_navigation_msgs_generate_messages
 
-[ 50%] Generating C++ code from amd_clmc_ros_messages/CalibratePressureSensors.msg
+Generating Lisp code from amd_clmc_ros_messages/GraspControllerParams.msg
 
-[ 50%] Generating Lisp code from amd_clmc_ros_messages/AffinePolicy.msg
+Generating Python from MSG amd_clmc_ros_messages/ContinuousTrajectoryPoint
 
-Generating Python from MSG amd_clmc_ros_messages/TrajectoryPoint
+Generating Python from MSG amd_clmc_ros_messages/GraspStatus
 
-[ 50%] [ 50%] Generating C++ code from amd_clmc_ros_messages/Extrems.msg
+[ 44%] Built target playful_navigation_msgs_generate_messages
 
-Generating Python from MSG amd_clmc_ros_messages/ContinuousTrajectoryStatus
+[ 44%] Scanning dependencies of target playful_simplified_human_model_generate_messages
 
-[ 50%] Generating C++ code from amd_clmc_ros_messages/StrainGauge.msg
+[ 44%] Generating Python from MSG amd_clmc_ros_messages/Sphere
 
-[ 50%] Generating Python from MSG amd_clmc_ros_messages/ContinuousTrajectoryPoint
+Generating Lisp code from amd_clmc_ros_messages/SetVisualToolTracking.msg
 
-[ 50%] Generating Lisp code from amd_clmc_ros_messages/CalibrateAccelerometerSensorStatus.msg
+[ 44%] Built target playful_simplified_human_model_generate_messages
 
-[ 50%] Generating Lisp code from amd_clmc_ros_messages/BoundingPointsArray.msg
-
-[ 51%] Generating Python from MSG amd_clmc_ros_messages/GraspStatus
-
-[ 52%] [ 52%] Generating Python from MSG amd_clmc_ros_messages/Sphere
-
-Generating Lisp code from amd_clmc_ros_messages/DistanceFieldEval.msg
-
-[ 52%] [ 52%] [ 52%] [ 53%] Generating Lisp code from amd_clmc_ros_messages/LqrControllerParams.msg
-
-Generating C++ code from amd_clmc_ros_messages/NetworkLayer.msg
-
-Generating C++ code from amd_clmc_ros_messages/ScaledLqr.msg
-
-Generating Python from MSG amd_clmc_ros_messages/InverseDynamicsBatchNetworkControllerStatus
-
-[ 53%] [ 53%] Generating Lisp code from amd_clmc_ros_messages/TrackingPose.msg
-
-[ 53%] Generating C++ code from amd_clmc_ros_messages/ViconQuery.msg
+[ 45%] [ 45%] [ 45%] Generating Python from MSG amd_clmc_ros_messages/InverseDynamicsBatchNetworkControllerStatus
 
 Generating Python from MSG amd_clmc_ros_messages/Imu
 
-[ 53%] [ 53%] Generating C++ code from amd_clmc_ros_messages/SetVisualToolTracking.msg
+Generating C++ code from amd_clmc_ros_messages/Acceleration.msg
 
-[ 54%] Generating C++ code from amd_clmc_ros_messages/GraspControllerParams.msg
+[ 45%] [ 46%] [ 46%] [ 46%] Generating C++ code from amd_clmc_ros_messages/PolicyControllerDataStatus.msg
 
-Generating Python from MSG amd_clmc_ros_messages/FingerJointEncoderOffsetsStatus
+Generating C++ code from amd_clmc_ros_messages/TrajectoryStatus.msg
 
-[ 54%] Generating Python from MSG amd_clmc_ros_messages/DriftingControllerParams
+Generating Lisp code from amd_clmc_ros_messages/UpdateStrainGagesCalibrationStatus.msg
 
-[ 55%] Generating C++ code from amd_clmc_ros_messages/UpdateStrainGagesCalibrationStatus.msg
+Generating C++ code from amd_clmc_ros_messages/GraspPoses.msg
 
-[ 55%] Generating Python from MSG amd_clmc_ros_messages/OfflineDataStatus
+[ 46%] [ 46%] [ 46%] Generating Python from MSG amd_clmc_ros_messages/FingerJointEncoderOffsetsStatus
 
-[ 55%] [ 55%] Generating Lisp code from amd_clmc_ros_messages/ChordEllipsoid.msg
+Generating Python from MSG amd_clmc_ros_messages/DriftingControllerParams
 
-[ 55%] Generating Python from MSG amd_clmc_ros_messages/AffinePolicy
+Generating Lisp code from amd_clmc_ros_messages/DMPControllerParams.msg
 
-Generating C++ code from amd_clmc_ros_messages/DMPControllerParams.msg
+[ 46%] Generating C++ code from amd_clmc_ros_messages/FingerJointEncoderOffsets.msg
 
-[ 55%] [ 55%] Generating Python from MSG amd_clmc_ros_messages/CalibrateAccelerometerSensorStatus
+[ 47%] [ 47%] Building CXX object catkin/playful/playful-perception/playful_pcl/CMakeFiles/playful_pcl.dir/src/geometry_2d.cpp.o
 
-Generating C++ code from amd_clmc_ros_messages/Path.msg
+Generating Lisp code from amd_clmc_ros_messages/Path.msg
 
-[ 56%] Generating Python from MSG amd_clmc_ros_messages/BoundingPointsArray
+[ 48%] [ 48%] Generating Python from MSG amd_clmc_ros_messages/AffinePolicy
 
-[ 56%] Generating Lisp code from amd_clmc_ros_messages/OnlineDataStatus.msg
+Generating Python from MSG amd_clmc_ros_messages/OfflineDataStatus
 
-[ 56%] Generating Python from MSG amd_clmc_ros_messages/DistanceFieldEval
+[ 48%] Generating Lisp code from amd_clmc_ros_messages/TrajectoryPoint.msg
 
-[ 56%] Generating C++ code from amd_clmc_ros_messages/TrajectoryPoint.msg
+[ 48%] Generating Python from MSG amd_clmc_ros_messages/CalibrateAccelerometerSensorStatus
 
-[ 56%] Generating Python from MSG amd_clmc_ros_messages/LqrControllerParams
+[ 48%] [ 48%] Generating Lisp code from amd_clmc_ros_messages/ContinuousTrajectoryStatus.msg
 
-[ 56%] Generating C++ code from amd_clmc_ros_messages/ContinuousTrajectoryStatus.msg
+Generating Lisp code from amd_clmc_ros_messages/ContinuousTrajectoryPoint.msg
 
-[ 57%] Generating C++ code from amd_clmc_ros_messages/ContinuousTrajectoryPoint.msg
+[ 48%] Generating Lisp code from amd_clmc_ros_messages/GraspStatus.msg
 
-[ 57%] Generating C++ code from amd_clmc_ros_messages/GraspStatus.msg
+[ 48%] Generating C++ code from amd_clmc_ros_messages/DriftingControllerStatus.msg
 
-[ 58%] [ 58%] Generating Lisp code from amd_clmc_ros_messages/KeyPointBodyApprox.msg
+[ 50%] [ 50%] Generating C++ code from amd_clmc_ros_messages/LookAtParams.msg
 
-[ 59%] Generating Python from MSG amd_clmc_ros_messages/TrackingPose
+Generating C++ code from amd_clmc_ros_messages/CartesianTrajectoryPoint.msg
+
+[ 50%] [ 51%] Generating Python from MSG amd_clmc_ros_messages/BoundingPointsArray
+
+Generating Lisp code from amd_clmc_ros_messages/Sphere.msg
+
+[ 51%] Generating Lisp code from amd_clmc_ros_messages/InverseDynamicsBatchNetworkControllerStatus.msg
+
+[ 51%] Generating C++ code from amd_clmc_ros_messages/OfflineNetwork.msg
+
+[ 51%] [ 51%] Generating C++ code from amd_clmc_ros_messages/BiotacFingerData.msg
+
+Generating Lisp code from amd_clmc_ros_messages/Imu.msg
+
+[ 51%] Generating Python from MSG amd_clmc_ros_messages/DistanceFieldEval
+
+[ 51%] Generating Lisp code from amd_clmc_ros_messages/FingerJointEncoderOffsetsStatus.msg
+
+[ 52%] Generating Lisp code from amd_clmc_ros_messages/DriftingControllerParams.msg
+
+[ 52%] Generating Lisp code from amd_clmc_ros_messages/OfflineDataStatus.msg
+
+[ 53%] Generating Python from MSG amd_clmc_ros_messages/LqrControllerParams
+
+[ 53%] [ 53%] [ 54%] [ 54%] Generating Lisp code from amd_clmc_ros_messages/AffinePolicy.msg
+
+Generating C++ code from amd_clmc_ros_messages/CollectDataStatus.msg
+
+[ 54%] Generating C++ code from amd_clmc_ros_messages/ColorRange.msg
+
+Generating Python from MSG amd_clmc_ros_messages/TrackingPose
+
+Generating C++ code from amd_clmc_ros_messages/LookAtStatus.msg
+
+[ 54%] Building CXX object catkin/playful/playful-perception/playful_pcl/CMakeFiles/playful_pcl.dir/src/point_cloud_share.cpp.o
+
+[ 54%] [ 54%] Generating Lisp code from amd_clmc_ros_messages/CalibrateAccelerometerSensorStatus.msg
+
+Generating C++ code from amd_clmc_ros_messages/DMPControllerStatus.msg
+
+[ 54%] Generating C++ code from amd_clmc_ros_messages/RtNetworkLayer.msg
+
+[ 55%] [ 55%] Generating C++ code from amd_clmc_ros_messages/CalibratePressureSensors.msg
 
 Generating Python from MSG amd_clmc_ros_messages/ChordEllipsoid
 
-[ 59%] Generating Python from MSG amd_clmc_ros_messages/OnlineDataStatus
+[ 55%] [ 55%] Generating Lisp code from amd_clmc_ros_messages/BoundingPointsArray.msg
 
-[ 59%] [ 59%] Generating C++ code from amd_clmc_ros_messages/Sphere.msg
+Generating Python from MSG amd_clmc_ros_messages/OnlineDataStatus
 
-Generating C++ code from amd_clmc_ros_messages/InverseDynamicsBatchNetworkControllerStatus.msg
+[ 56%] Generating Lisp code from amd_clmc_ros_messages/DistanceFieldEval.msg
 
-[ 59%] [ 59%] Generating Python from MSG amd_clmc_ros_messages/KeyPointBodyApprox
+[ 56%] [ 57%] Generating C++ code from amd_clmc_ros_messages/Extrems.msg
+
+Generating Python from MSG amd_clmc_ros_messages/KeyPointBodyApprox
+
+[ 57%] [ 57%] Generating Lisp code from amd_clmc_ros_messages/LqrControllerParams.msg
+
+Generating C++ code from amd_clmc_ros_messages/StrainGauge.msg
+
+[ 57%] [ 57%] Generating Lisp code from amd_clmc_ros_messages/TrackingPose.msg
+
+Generating C++ code from amd_clmc_ros_messages/NetworkLayer.msg
+
+[ 57%] [ 58%] [ 58%] Generating C++ code from amd_clmc_ros_messages/ScaledLqr.msg
+
+Generating C++ code from amd_clmc_ros_messages/ViconQuery.msg
 
 Generating Python from MSG amd_clmc_ros_messages/LinearQuadraticRegulatorParams
 
-[ 59%] [ 59%] [ 59%] Generating Lisp code from amd_clmc_ros_messages/LinearQuadraticRegulatorParams.msg
+[ 58%] Generating C++ code from amd_clmc_ros_messages/GraspControllerParams.msg
 
-Generating Lisp code from amd_clmc_ros_messages/Grasp.msg
+[ 58%] [ 59%] Generating Lisp code from amd_clmc_ros_messages/ChordEllipsoid.msg
 
-Generating Lisp code from amd_clmc_ros_messages/FingerForceControlGains.msg
-
-[ 60%] Generating Lisp code from amd_clmc_ros_messages/CalibrateBiotacSensorsStatus.msg
-
-[ 61%] [ 61%] Generating Python from MSG amd_clmc_ros_messages/FingerForceControlGains
+[ 59%] Generating Lisp code from amd_clmc_ros_messages/OnlineDataStatus.msg
 
 Generating Python from MSG amd_clmc_ros_messages/Grasp
 
-[ 61%] [ 61%] [ 61%] Generating Lisp code from amd_clmc_ros_messages/ExtremsArray.msg
+[ 59%] Generating Python from MSG amd_clmc_ros_messages/FingerForceControlGains
 
-Generating Lisp code from amd_clmc_ros_messages/DMPCommand.msg
+[ 59%] Generating Lisp code from amd_clmc_ros_messages/KeyPointBodyApprox.msg
 
-Generating Lisp code from amd_clmc_ros_messages/TaskFrame.msg
+[ 59%] Generating Python from MSG amd_clmc_ros_messages/CalibrateBiotacSensorsStatus
 
-[ 61%] Generating Python from MSG amd_clmc_ros_messages/CalibrateBiotacSensorsStatus
-
-[ 61%] Generating Python from MSG amd_clmc_ros_messages/DMPCommand
-
-[ 61%] [ 62%] Generating Lisp code from amd_clmc_ros_messages/EndEffectorPosition.msg
-
-[ 62%] [ 63%] Generating C++ code from amd_clmc_ros_messages/Imu.msg
+[ 60%] [ 60%] [ 60%] [ 60%] [ 60%] Generating C++ code from amd_clmc_ros_messages/SetVisualToolTracking.msg
 
 Generating Python from MSG amd_clmc_ros_messages/ExtremsArray
 
+Generating Python from MSG amd_clmc_ros_messages/DMPCommand
+
+[ 60%] Generating Lisp code from amd_clmc_ros_messages/LinearQuadraticRegulatorParams.msg
+
 Generating Python from MSG amd_clmc_ros_messages/TaskFrame
 
-[ 63%] Generating Python from MSG amd_clmc_ros_messages/EndEffectorPosition
+Generating Python from MSG amd_clmc_ros_messages/EndEffectorPosition
 
-[ 63%] [ 63%] Generating Python from MSG amd_clmc_ros_messages/EndEffectorState
+[ 60%] Generating Lisp code from amd_clmc_ros_messages/Grasp.msg
 
-Generating C++ code from amd_clmc_ros_messages/FingerJointEncoderOffsetsStatus.msg
+[ 60%] [ 61%] Generating C++ code from amd_clmc_ros_messages/UpdateStrainGagesCalibrationStatus.msg
 
-[ 63%] [ 63%] [ 63%] Generating C++ code from amd_clmc_ros_messages/DriftingControllerParams.msg
+Generating Python from MSG amd_clmc_ros_messages/EndEffectorState
 
-[ 64%] [ 65%] Generating C++ code from amd_clmc_ros_messages/OfflineDataStatus.msg
+[ 61%] [ 61%] Generating Python from MSG amd_clmc_ros_messages/RectangularBox
 
-Generating Python from MSG amd_clmc_ros_messages/RectangularBox
+Generating Python from MSG amd_clmc_ros_messages/ViconData
 
-Generating C++ code from amd_clmc_ros_messages/AffinePolicy.msg
+[ 61%] [ 61%] Generating Lisp code from amd_clmc_ros_messages/FingerForceControlGains.msg
 
-Generating Lisp code from amd_clmc_ros_messages/EndEffectorState.msg
+[ 61%] Generating Python from MSG amd_clmc_ros_messages/SpeedChange
 
-[ 66%] [ 66%] Generating Python from MSG amd_clmc_ros_messages/ViconData
+Generating Python from MSG amd_clmc_ros_messages/CalibrateAccelerometerSensor
 
-Generating Python from MSG amd_clmc_ros_messages/SpeedChange
+[ 62%] Generating Python from MSG amd_clmc_ros_messages/ResetBreakawayStatus
 
-[ 66%] [ 66%] Generating Python from MSG amd_clmc_ros_messages/CalibrateAccelerometerSensor
+[ 63%] Generating Lisp code from amd_clmc_ros_messages/CalibrateBiotacSensorsStatus.msg
 
-Generating C++ code from amd_clmc_ros_messages/CalibrateAccelerometerSensorStatus.msg
+[ 63%] Generating Python from MSG amd_clmc_ros_messages/RectangularBoxArray
 
-[ 66%] [ 66%] Generating Lisp code from amd_clmc_ros_messages/RectangularBox.msg
+[ 63%] [ 64%] [ 64%] Generating Python from MSG amd_clmc_ros_messages/ControllerStatus
 
-Generating Python from MSG amd_clmc_ros_messages/ResetBreakawayStatus
+Generating C++ code from amd_clmc_ros_messages/DMPControllerParams.msg
 
-[ 66%] Generating Lisp code from amd_clmc_ros_messages/ViconData.msg
+Generating Lisp code from amd_clmc_ros_messages/DMPCommand.msg
 
-[ 66%] [ 66%] Generating Lisp code from amd_clmc_ros_messages/SpeedChange.msg
+[ 64%] Generating C++ code from amd_clmc_ros_messages/Path.msg
 
-Generating Python from MSG amd_clmc_ros_messages/RectangularBoxArray
+[ 64%] Generating Python from MSG amd_clmc_ros_messages/CalibrateBiotacSensors
 
-[ 67%] Generating Python from MSG amd_clmc_ros_messages/ControllerStatus
+[ 64%] Generating C++ code from amd_clmc_ros_messages/TrajectoryPoint.msg
 
-[ 67%] Generating Python from MSG amd_clmc_ros_messages/CalibrateBiotacSensors
+[ 64%] [ 65%] [ 65%] Generating Lisp code from amd_clmc_ros_messages/ExtremsArray.msg
 
-[ 68%] Generating Lisp code from amd_clmc_ros_messages/CalibrateAccelerometerSensor.msg
+Generating C++ code from amd_clmc_ros_messages/ContinuousTrajectoryStatus.msg
 
-[ 68%] [ 68%] Generating Python from MSG amd_clmc_ros_messages/OfflineParams
+Generating Python from MSG amd_clmc_ros_messages/OfflineParams
 
-[ 68%] [ 69%] Generating Python from MSG amd_clmc_ros_messages/LinearQuadraticRegulatorStatus
+[ 65%] [ 65%] Generating Python from MSG amd_clmc_ros_messages/LinearQuadraticRegulatorStatus
 
-Generating C++ code from amd_clmc_ros_messages/BoundingPointsArray.msg
+[ 65%] Generating Lisp code from amd_clmc_ros_messages/TaskFrame.msg
 
-[ 69%] Generating Python from MSG amd_clmc_ros_messages/EnvironmentalObject
+Generating C++ code from amd_clmc_ros_messages/ContinuousTrajectoryPoint.msg
 
-Generating C++ code from amd_clmc_ros_messages/DistanceFieldEval.msg
+[ 66%] [ 67%] Generating C++ code from amd_clmc_ros_messages/GraspStatus.msg
 
-[ 69%] Generating C++ code from amd_clmc_ros_messages/LqrControllerParams.msg
+Generating Lisp code from amd_clmc_ros_messages/EndEffectorPosition.msg
 
-[ 69%] [ 69%] Generating Python from MSG amd_clmc_ros_messages/Matrix32
+[ 67%] Generating Python from MSG amd_clmc_ros_messages/EnvironmentalObject
+
+[ 67%] Generating C++ code from amd_clmc_ros_messages/Sphere.msg
+
+[ 67%] [ 67%] Generating Python from MSG amd_clmc_ros_messages/Matrix32
 
 Generating Python from MSG amd_clmc_ros_messages/ObjectMass
 
-[ 70%] [ 70%] Generating C++ code from amd_clmc_ros_messages/ChordEllipsoid.msg
+[ 67%] [ 67%] Generating C++ code from amd_clmc_ros_messages/InverseDynamicsBatchNetworkControllerStatus.msg
 
-Generating C++ code from amd_clmc_ros_messages/TrackingPose.msg
+Generating Lisp code from amd_clmc_ros_messages/EndEffectorState.msg
 
-[ 70%] [ 70%] Generating Lisp code from amd_clmc_ros_messages/ResetBreakawayStatus.msg
+[ 67%] Generating Lisp code from amd_clmc_ros_messages/RectangularBox.msg
 
-Generating Python from MSG amd_clmc_ros_messages/Gains
+[ 67%] [ 67%] Generating Lisp code from amd_clmc_ros_messages/ViconData.msg
 
-[ 70%] [ 71%] Generating Python from MSG amd_clmc_ros_messages/PointArray
+Generating C++ code from amd_clmc_ros_messages/Imu.msg
 
-Generating Python from MSG amd_clmc_ros_messages/DistanceFieldQueries
+[ 68%] Generating Python from MSG amd_clmc_ros_messages/Gains
 
-[ 71%] Generating Python from MSG amd_clmc_ros_messages/ImageCoordinatesArray
+[ 69%] Generating C++ code from amd_clmc_ros_messages/FingerJointEncoderOffsetsStatus.msg
 
-[ 71%] Generating Lisp code from amd_clmc_ros_messages/RectangularBoxArray.msg
+[ 69%] Generating Lisp code from amd_clmc_ros_messages/SpeedChange.msg
 
-[ 71%] Generating C++ code from amd_clmc_ros_messages/OnlineDataStatus.msg
+[ 70%] Generating Lisp code from amd_clmc_ros_messages/CalibrateAccelerometerSensor.msg
 
-[ 71%] [ 71%] [ 71%] Generating Lisp code from amd_clmc_ros_messages/ControllerStatus.msg
+[ 70%] [ 70%] Generating Python from MSG amd_clmc_ros_messages/DistanceFieldQueries
 
-Generating Python from MSG amd_clmc_ros_messages/CalibrateForceTorqueSensorStatus
+Generating Python from MSG amd_clmc_ros_messages/PointArray
 
-Generating Python from MSG amd_clmc_ros_messages/LinearQuadraticRegulator
+[ 70%] Generating Lisp code from amd_clmc_ros_messages/ResetBreakawayStatus.msg
 
-[ 72%] [ 72%] Generating Python from MSG amd_clmc_ros_messages/InverseDynamicsBatchNetworkControllerParams
+[ 70%] [ 70%] [ 70%] Generating Lisp code from amd_clmc_ros_messages/RectangularBoxArray.msg
 
-Generating C++ code from amd_clmc_ros_messages/KeyPointBodyApprox.msg
+Generating Python from MSG amd_clmc_ros_messages/ImageCoordinatesArray
 
-[ 73%] Generating Lisp code from amd_clmc_ros_messages/CalibrateBiotacSensors.msg
+Generating C++ code from amd_clmc_ros_messages/DriftingControllerParams.msg
 
-[ 73%] [ 73%] Generating Python from MSG amd_clmc_ros_messages/CartesianGains
+[ 70%] [ 70%] Generating C++ code from amd_clmc_ros_messages/AffinePolicy.msg
 
-[ 73%] Generating Python from MSG amd_clmc_ros_messages/CollectData
+Generating C++ code from amd_clmc_ros_messages/OfflineDataStatus.msg
 
-[ 73%] [ 73%] [ 73%] Generating Python from MSG amd_clmc_ros_messages/AccelerationFeedbackExperimentStatus
+[ 70%] [ 71%] Generating Lisp code from amd_clmc_ros_messages/ControllerStatus.msg
+
+Generating Lisp code from amd_clmc_ros_messages/CalibrateBiotacSensors.msg
+
+[ 72%] Generating Python from MSG amd_clmc_ros_messages/CalibrateForceTorqueSensorStatus
+
+[ 72%] Generating C++ code from amd_clmc_ros_messages/CalibrateAccelerometerSensorStatus.msg
+
+[ 73%] Generating C++ code from amd_clmc_ros_messages/BoundingPointsArray.msg
+
+[ 73%] [ 73%] [ 73%] Generating C++ code from amd_clmc_ros_messages/DistanceFieldEval.msg
+
+Generating C++ code from amd_clmc_ros_messages/LqrControllerParams.msg
 
 Generating Lisp code from amd_clmc_ros_messages/OfflineParams.msg
 
-Generating Python code from SRV amd_clmc_ros_messages/OfflineLearningControlService
+[ 73%] Generating Python from MSG amd_clmc_ros_messages/LinearQuadraticRegulator
 
-Generating Lisp code from amd_clmc_ros_messages/LinearQuadraticRegulatorStatus.msg
+[ 73%] Generating Python from MSG amd_clmc_ros_messages/InverseDynamicsBatchNetworkControllerParams
 
-[ 74%] Generating C++ code from amd_clmc_ros_messages/LinearQuadraticRegulatorParams.msg
+[ 73%] [ 73%] Generating Lisp code from amd_clmc_ros_messages/LinearQuadraticRegulatorStatus.msg
+
+Generating C++ code from amd_clmc_ros_messages/TrackingPose.msg
+
+[ 74%] [ 74%] Generating C++ code from amd_clmc_ros_messages/OnlineDataStatus.msg
+
+Generating C++ code from amd_clmc_ros_messages/ChordEllipsoid.msg
+
+[ 74%] [ 74%] Generating Python from MSG amd_clmc_ros_messages/CartesianGains
+
+Generating C++ code from amd_clmc_ros_messages/KeyPointBodyApprox.msg
+
+[ 74%] [ 74%] Generating Lisp code from amd_clmc_ros_messages/EnvironmentalObject.msg
+
+Generating C++ code from amd_clmc_ros_messages/LinearQuadraticRegulatorParams.msg
 
 [ 74%] [ 74%] Generating C++ code from amd_clmc_ros_messages/Grasp.msg
 
-Generating C++ code from amd_clmc_ros_messages/FingerForceControlGains.msg
+Generating Python from MSG amd_clmc_ros_messages/CollectData
 
-[ 74%] [ 75%] [ 75%] Generating Python code from SRV amd_clmc_ros_messages/OfflineParamsService
-
-[ 75%] Generating Python code from SRV amd_clmc_ros_messages/DriftingControllerParamsService
-
-Generating Python code from SRV amd_clmc_ros_messages/SetObjectOri
-
-Generating Lisp code from amd_clmc_ros_messages/EnvironmentalObject.msg
+[ 75%] Generating C++ code from amd_clmc_ros_messages/FingerForceControlGains.msg
 
 [ 75%] Generating C++ code from amd_clmc_ros_messages/CalibrateBiotacSensorsStatus.msg
 
-[ 75%] [ 75%] Generating Python code from SRV amd_clmc_ros_messages/QueryControllerStatus
+[ 75%] Generating Lisp code from amd_clmc_ros_messages/Matrix32.msg
 
-Generating C++ code from amd_clmc_ros_messages/DMPCommand.msg
+[ 76%] Generating Python from MSG amd_clmc_ros_messages/AccelerationFeedbackExperimentStatus
 
-[ 77%] [ 77%] [ 77%] [ 77%] Generating C++ code from amd_clmc_ros_messages/ExtremsArray.msg
+[ 76%] Generating C++ code from amd_clmc_ros_messages/DMPCommand.msg
 
-Generating Python code from SRV amd_clmc_ros_messages/ExperimentGeneratorParamsService
+[ 76%] Generating Python code from SRV amd_clmc_ros_messages/OfflineLearningControlService
 
-Generating Python code from SRV amd_clmc_ros_messages/PolicyControllerParamsService
+[ 76%] Generating C++ code from amd_clmc_ros_messages/ExtremsArray.msg
 
-Generating Python code from SRV amd_clmc_ros_messages/LqrControllerParamsService
+[ 76%] Generating Python code from SRV amd_clmc_ros_messages/DriftingControllerParamsService
 
-[ 77%] Generating Python code from SRV amd_clmc_ros_messages/SwitchControllerStack
+[ 77%] Generating C++ code from amd_clmc_ros_messages/TaskFrame.msg
 
-[ 78%] Generating Python code from SRV amd_clmc_ros_messages/SetPoses
+[ 78%] [ 78%] Generating Lisp code from amd_clmc_ros_messages/ObjectMass.msg
 
-[ 78%] [ 79%] [ 79%] [ 79%] Generating Lisp code from amd_clmc_ros_messages/Matrix32.msg
+Generating Python code from SRV amd_clmc_ros_messages/OfflineParamsService
 
-Generating Lisp code from amd_clmc_ros_messages/ObjectMass.msg
+[ 78%] Generating C++ code from amd_clmc_ros_messages/EndEffectorPosition.msg
 
-[ 79%] Generating C++ code from amd_clmc_ros_messages/EndEffectorPosition.msg
+[ 79%] [ 79%] Generating C++ code from amd_clmc_ros_messages/EndEffectorState.msg
 
-Generating C++ code from amd_clmc_ros_messages/TaskFrame.msg
+Generating Python code from SRV amd_clmc_ros_messages/SetObjectOri
 
-Generating C++ code from amd_clmc_ros_messages/EndEffectorState.msg
-
-[ 79%] [ 80%] Generating Python msg __init__.py for amd_clmc_ros_messages
+[ 80%] [ 80%] [ 80%] Generating C++ code from amd_clmc_ros_messages/ViconData.msg
 
 Generating C++ code from amd_clmc_ros_messages/RectangularBox.msg
 
-[ 80%] [ 80%] Generating C++ code from amd_clmc_ros_messages/ViconData.msg
+[ 80%] Generating C++ code from amd_clmc_ros_messages/SpeedChange.msg
 
-Generating C++ code from amd_clmc_ros_messages/SpeedChange.msg
+Generating Lisp code from amd_clmc_ros_messages/Gains.msg
 
-[ 80%] [ 80%] Generating Lisp code from amd_clmc_ros_messages/Gains.msg
+[ 80%] Generating Python code from SRV amd_clmc_ros_messages/QueryControllerStatus
 
-Generating Lisp code from amd_clmc_ros_messages/PointArray.msg
+[ 80%] Generating Lisp code from amd_clmc_ros_messages/PointArray.msg
 
-[ 80%] Generating Lisp code from amd_clmc_ros_messages/DistanceFieldQueries.msg
+[ 80%] [ 80%] Generating C++ code from amd_clmc_ros_messages/ResetBreakawayStatus.msg
 
-[ 80%] [ 80%] Generating C++ code from amd_clmc_ros_messages/CalibrateAccelerometerSensor.msg
+Generating C++ code from amd_clmc_ros_messages/CalibrateAccelerometerSensor.msg
 
-Generating Python srv __init__.py for amd_clmc_ros_messages
+[ 80%] [ 80%] Generating Python code from SRV amd_clmc_ros_messages/PolicyControllerParamsService
 
-[ 81%] Generating C++ code from amd_clmc_ros_messages/ResetBreakawayStatus.msg
+Generating Lisp code from amd_clmc_ros_messages/DistanceFieldQueries.msg
 
-[ 81%] [ 82%] [ 82%] [ 82%] Generating Lisp code from amd_clmc_ros_messages/CalibrateForceTorqueSensorStatus.msg
+[ 80%] Generating Python code from SRV amd_clmc_ros_messages/ExperimentGeneratorParamsService
 
-Generating Lisp code from amd_clmc_ros_messages/ImageCoordinatesArray.msg
+[ 80%] Generating Python code from SRV amd_clmc_ros_messages/LqrControllerParamsService
 
-Built target amd_clmc_ros_messages_generate_messages_py
+[ 80%] [ 81%] [ 82%] Generating C++ code from amd_clmc_ros_messages/RectangularBoxArray.msg
 
-Generating Lisp code from amd_clmc_ros_messages/LinearQuadraticRegulator.msg
+Generating Python code from SRV amd_clmc_ros_messages/SwitchControllerStack
 
-[ 82%] Generating C++ code from amd_clmc_ros_messages/RectangularBoxArray.msg
+Generating C++ code from amd_clmc_ros_messages/ControllerStatus.msg
 
-[ 82%] Generating C++ code from amd_clmc_ros_messages/ControllerStatus.msg
+[ 83%] [ 83%] Generating Lisp code from amd_clmc_ros_messages/ImageCoordinatesArray.msg
 
-[ 82%] Generating C++ code from amd_clmc_ros_messages/CalibrateBiotacSensors.msg
+Generating Python code from SRV amd_clmc_ros_messages/SetPoses
 
-[ 82%] Generating C++ code from amd_clmc_ros_messages/OfflineParams.msg
+[ 83%] [ 83%] Generating C++ code from amd_clmc_ros_messages/CalibrateBiotacSensors.msg
 
-[ 82%] [ 83%] [ 83%] [ 83%] Generating C++ code from amd_clmc_ros_messages/LinearQuadraticRegulatorStatus.msg
+[ 83%] [ 83%] Generating C++ code from amd_clmc_ros_messages/OfflineParams.msg
+
+Generating Lisp code from amd_clmc_ros_messages/CalibrateForceTorqueSensorStatus.msg
+
+Generating C++ code from amd_clmc_ros_messages/LinearQuadraticRegulatorStatus.msg
+
+[ 83%] Generating C++ code from amd_clmc_ros_messages/EnvironmentalObject.msg
+
+[ 83%] Generating Python msg __init__.py for amd_clmc_ros_messages
+
+[ 83%] Generating Lisp code from amd_clmc_ros_messages/LinearQuadraticRegulator.msg
 
 [ 83%] Generating Lisp code from amd_clmc_ros_messages/InverseDynamicsBatchNetworkControllerParams.msg
 
-Generating C++ code from amd_clmc_ros_messages/EnvironmentalObject.msg
+[ 84%] [ 84%] Generating C++ code from amd_clmc_ros_messages/Matrix32.msg
 
-Generating Lisp code from amd_clmc_ros_messages/CartesianGains.msg
+Generating C++ code from amd_clmc_ros_messages/ObjectMass.msg
 
-Generating C++ code from amd_clmc_ros_messages/Matrix32.msg
+[ 84%] Generating Python srv __init__.py for amd_clmc_ros_messages
 
-[ 83%] Generating C++ code from amd_clmc_ros_messages/ObjectMass.msg
+[ 84%] Generating Lisp code from amd_clmc_ros_messages/CartesianGains.msg
 
-[ 84%] [ 85%] [ 85%] Generating C++ code from amd_clmc_ros_messages/Gains.msg
+[ 85%] Generating Lisp code from amd_clmc_ros_messages/CollectData.msg
 
-Generating C++ code from amd_clmc_ros_messages/PointArray.msg
+[ 85%] [ 85%] [ 85%] Built target amd_clmc_ros_messages_generate_messages_py
 
-Generating Lisp code from amd_clmc_ros_messages/CollectData.msg
+[ 85%] Generating C++ code from amd_clmc_ros_messages/PointArray.msg
 
-[ 85%] Generating Lisp code from amd_clmc_ros_messages/AccelerationFeedbackExperimentStatus.msg
+Generating C++ code from amd_clmc_ros_messages/Gains.msg
 
-[ 85%] Generating Lisp code from amd_clmc_ros_messages/OfflineLearningControlService.srv
+Generating Lisp code from amd_clmc_ros_messages/AccelerationFeedbackExperimentStatus.msg
 
-[ 85%] [ 85%] Generating C++ code from amd_clmc_ros_messages/DistanceFieldQueries.msg
+[ 86%] [ 86%] Generating C++ code from amd_clmc_ros_messages/DistanceFieldQueries.msg
+
+[ 86%] Generating C++ code from amd_clmc_ros_messages/CalibrateForceTorqueSensorStatus.msg
 
 Generating C++ code from amd_clmc_ros_messages/ImageCoordinatesArray.msg
 
-[ 85%] [ 85%] Generating C++ code from amd_clmc_ros_messages/CalibrateForceTorqueSensorStatus.msg
+[ 86%] [ 86%] Generating C++ code from amd_clmc_ros_messages/LinearQuadraticRegulator.msg
 
-Generating Lisp code from amd_clmc_ros_messages/DriftingControllerParamsService.srv
+Generating Lisp code from amd_clmc_ros_messages/OfflineLearningControlService.srv
 
-[ 86%] Generating C++ code from amd_clmc_ros_messages/LinearQuadraticRegulator.msg
+[ 86%] Generating C++ code from amd_clmc_ros_messages/InverseDynamicsBatchNetworkControllerParams.msg
 
-[ 87%] [ 87%] Generating Lisp code from amd_clmc_ros_messages/OfflineParamsService.srv
+[ 86%] Generating Lisp code from amd_clmc_ros_messages/DriftingControllerParamsService.srv
 
-Generating Lisp code from amd_clmc_ros_messages/SetObjectOri.srv
+[ 87%] Generating C++ code from amd_clmc_ros_messages/CartesianGains.msg
 
-[ 87%] [ 87%] Generating C++ code from amd_clmc_ros_messages/InverseDynamicsBatchNetworkControllerParams.msg
+[ 88%] [ 88%] Generating Lisp code from amd_clmc_ros_messages/SetObjectOri.srv
 
-Generating C++ code from amd_clmc_ros_messages/CartesianGains.msg
+Generating Lisp code from amd_clmc_ros_messages/OfflineParamsService.srv
 
-[ 87%] Generating C++ code from amd_clmc_ros_messages/CollectData.msg
+[ 88%] Generating Lisp code from amd_clmc_ros_messages/QueryControllerStatus.srv
 
-[ 87%] Generating Lisp code from amd_clmc_ros_messages/QueryControllerStatus.srv
+[ 88%] [ 88%] Generating Lisp code from amd_clmc_ros_messages/PolicyControllerParamsService.srv
 
-[ 87%] Generating Lisp code from amd_clmc_ros_messages/PolicyControllerParamsService.srv
+Generating Lisp code from amd_clmc_ros_messages/ExperimentGeneratorParamsService.srv
 
-[ 88%] Generating Lisp code from amd_clmc_ros_messages/ExperimentGeneratorParamsService.srv
+[ 88%] Generating C++ code from amd_clmc_ros_messages/CollectData.msg
 
-[ 89%] [ 89%] Generating C++ code from amd_clmc_ros_messages/OfflineLearningControlService.srv
-
-Generating C++ code from amd_clmc_ros_messages/AccelerationFeedbackExperimentStatus.msg
+[ 88%] Generating C++ code from amd_clmc_ros_messages/AccelerationFeedbackExperimentStatus.msg
 
 [ 89%] Generating Lisp code from amd_clmc_ros_messages/LqrControllerParamsService.srv
 
-[ 89%] Generating C++ code from amd_clmc_ros_messages/DriftingControllerParamsService.srv
+[ 89%] Generating C++ code from amd_clmc_ros_messages/OfflineLearningControlService.srv
 
-[ 89%] [ 89%] [ 89%] [ 89%] Generating Lisp code from amd_clmc_ros_messages/SetPoses.srv
+[ 90%] [ 90%] Generating Lisp code from amd_clmc_ros_messages/SwitchControllerStack.srv
 
-Generating Lisp code from amd_clmc_ros_messages/SwitchControllerStack.srv
+[ 90%] Generating C++ code from amd_clmc_ros_messages/DriftingControllerParamsService.srv
 
 Generating C++ code from amd_clmc_ros_messages/OfflineParamsService.srv
 
+[ 90%] [ 90%] Generating Lisp code from amd_clmc_ros_messages/SetPoses.srv
+
 Generating C++ code from amd_clmc_ros_messages/SetObjectOri.srv
 
-[ 90%] [ 90%] Generating C++ code from amd_clmc_ros_messages/PolicyControllerParamsService.srv
+[ 90%] Generating C++ code from amd_clmc_ros_messages/QueryControllerStatus.srv
 
-Generating C++ code from amd_clmc_ros_messages/QueryControllerStatus.srv
+[ 91%] [ 91%] Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libpepper_kinematics.so
 
-[ 90%] Generating C++ code from amd_clmc_ros_messages/ExperimentGeneratorParamsService.srv
+[ 91%] Generating C++ code from amd_clmc_ros_messages/ExperimentGeneratorParamsService.srv
 
-[ 90%] [ 91%] [ 91%] [ 91%] Built target amd_clmc_ros_messages_generate_messages_lisp
+Generating C++ code from amd_clmc_ros_messages/PolicyControllerParamsService.srv
 
 Generating C++ code from amd_clmc_ros_messages/LqrControllerParamsService.srv
 
-Generating C++ code from amd_clmc_ros_messages/SwitchControllerStack.srv
+[ 91%] Built target amd_clmc_ros_messages_generate_messages_lisp
 
-Generating C++ code from amd_clmc_ros_messages/SetPoses.srv
+[ 91%] Generating C++ code from amd_clmc_ros_messages/SwitchControllerStack.srv
+
+[ 91%] Generating C++ code from amd_clmc_ros_messages/SetPoses.srv
+
+[ 91%] Built target pepper_kinematics
+
+Scanning dependencies of target pepper_fk_example
+
+[ 91%] Building CXX object catkin/playful/playful-kinematics/CMakeFiles/pepper_fk_example.dir/src/fk_example.cpp.o
 
 [ 91%] Built target amd_clmc_ros_messages_generate_messages_cpp
 
@@ -4748,153 +4796,157 @@ Scanning dependencies of target amd_clmc_ros_messages_generate_messages
 
 [ 91%] Built target amd_clmc_ros_messages_generate_messages
 
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/playful_kinematics/pepper_fk_example
+
+[ 91%] Built target pepper_fk_example
+
 Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libplayful_pcl.so
 
 [ 91%] Built target playful_pcl
 
 Scanning dependencies of target playful_color_detection_node
 
-Scanning dependencies of target simplified_human_model_node
-
 Scanning dependencies of target playful_histograms
 
-[ 91%] Scanning dependencies of target tf_transform
+Scanning dependencies of target tf_transform
 
-Scanning dependencies of target playful_cloud_color_filtering_node
+[ 91%] [ 91%] [ 92%] Building CXX object catkin/playful/playful-perception/playful_color_detection/playful_color_detection_nodes/CMakeFiles/playful_color_detection_node.dir/src/color_detection_node.cpp.o
 
-Building CXX object catkin/playful/playful-perception/playful_simplified_human_model/CMakeFiles/simplified_human_model_node.dir/nodes/simplified_human_model_node.cpp.o
-
-[ 91%] Building CXX object catkin/playful/playful-perception/playful_color_detection/playful_color_detection_nodes/CMakeFiles/playful_color_detection_node.dir/src/color_detection_node.cpp.o
-
-[ 91%] [ 91%] [ 91%] Scanning dependencies of target point_cloud_extremities_node
-
-Scanning dependencies of target point_cloud_downsample_node
-
-Scanning dependencies of target point_cloud_fusion_node
-
-Scanning dependencies of target point_cloud_crop_node
+[ 92%] Building CXX object catkin/playful/playful-perception/playful_histograms/CMakeFiles/playful_histograms.dir/src/histograms_2d.cpp.o
 
 Building CXX object catkin/playful/playful-perception/playful_histograms/CMakeFiles/playful_histograms.dir/src/cloud_histograms.cpp.o
 
-Building CXX object catkin/playful/playful-perception/playful_histograms/CMakeFiles/playful_histograms.dir/src/histograms_2d.cpp.o
-
-Building CXX object catkin/playful/playful-perception/playful_nodes/CMakeFiles/tf_transform.dir/src/tf_transform.cpp.o
-
-[ 91%] [ 91%] Scanning dependencies of target point_cloud_translate_node
-
-Building CXX object catkin/playful/playful-perception/playful_color_detection/playful_color_detection_nodes/CMakeFiles/playful_cloud_color_filtering_node.dir/src/cloud_color_filtering_node.cpp.o
-
-[ 91%] Scanning dependencies of target virtual_point_cloud_publish
-
-[ 91%] Scanning dependencies of target scan_to_point_cloud_node
-
-[ 92%] [ 92%] Building CXX object catkin/playful/playful-perception/playful_nodes/CMakeFiles/point_cloud_fusion_node.dir/src/point_cloud_fusion_node.cpp.o
-
 Building CXX object catkin/playful/playful-perception/playful_histograms/CMakeFiles/playful_histograms.dir/src/histograms_uv_colors.cpp.o
 
-Building CXX object catkin/playful/playful-perception/playful_nodes/CMakeFiles/point_cloud_extremities_node.dir/src/point_cloud_extremities_node.cpp.o
+[ 92%] Scanning dependencies of target simplified_human_model_node
 
-Building CXX object catkin/playful/playful-perception/playful_nodes/CMakeFiles/point_cloud_crop_node.dir/src/point_cloud_crop_node.cpp.o
+Scanning dependencies of target virtual_point_cloud_publish
 
-Scanning dependencies of target point_cloud_transform_node
+Scanning dependencies of target playful_cloud_color_filtering_node
 
-[ 92%] [ 93%] Building CXX object catkin/playful/playful-perception/playful_nodes/CMakeFiles/point_cloud_translate_node.dir/src/point_cloud_translate_node.cpp.o
+Scanning dependencies of target point_cloud_translate_node
 
-[ 94%] Building CXX object catkin/playful/playful-perception/playful_nodes/CMakeFiles/virtual_point_cloud_publish.dir/src/virtual_point_cloud_publish.cpp.o
+Scanning dependencies of target point_cloud_extremities_node
+
+Scanning dependencies of target scan_to_point_cloud_node
 
 Scanning dependencies of target point_cloud_crop_cylinder_node
 
-Building CXX object catkin/playful/playful-perception/playful_nodes/CMakeFiles/point_cloud_downsample_node.dir/src/point_cloud_downsample_node.cpp.o
+Scanning dependencies of target point_cloud_fusion_node
+
+Building CXX object catkin/playful/playful-perception/playful_nodes/CMakeFiles/tf_transform.dir/src/tf_transform.cpp.o
+
+Scanning dependencies of target point_cloud_crop_node
+
+[ 93%] [ 93%] Scanning dependencies of target point_cloud_transform_node
+
+Scanning dependencies of target point_cloud_downsample_node
+
+Building CXX object catkin/playful/playful-perception/playful_nodes/CMakeFiles/virtual_point_cloud_publish.dir/src/virtual_point_cloud_publish.cpp.o
+
+Building CXX object catkin/playful/playful-perception/playful_simplified_human_model/CMakeFiles/simplified_human_model_node.dir/nodes/simplified_human_model_node.cpp.o
+
+[ 94%] [ 94%] [ 94%] [ 94%] [ 94%] [ 95%] Building CXX object catkin/playful/playful-perception/playful_color_detection/playful_color_detection_nodes/CMakeFiles/playful_cloud_color_filtering_node.dir/src/cloud_color_filtering_node.cpp.o
+
+[ 95%] [ 96%] Building CXX object catkin/playful/playful-perception/playful_nodes/CMakeFiles/point_cloud_translate_node.dir/src/point_cloud_translate_node.cpp.o
+
+[ 96%] Building CXX object catkin/playful/playful-perception/playful_nodes/CMakeFiles/point_cloud_extremities_node.dir/src/point_cloud_extremities_node.cpp.o
+
+Building CXX object catkin/playful/playful-perception/playful_nodes/CMakeFiles/point_cloud_fusion_node.dir/src/point_cloud_fusion_node.cpp.o
+
+Building CXX object catkin/playful/playful-perception/playful_nodes/CMakeFiles/point_cloud_crop_node.dir/src/point_cloud_crop_node.cpp.o
 
 Building CXX object catkin/playful/playful-perception/playful_nodes/CMakeFiles/scan_to_point_cloud_node.dir/src/scan_to_point_cloud_node.cpp.o
 
-[ 94%] [ 94%] Building CXX object catkin/playful/playful-perception/playful_nodes/CMakeFiles/point_cloud_transform_node.dir/src/point_cloud_transform_node.cpp.o
+Building CXX object catkin/playful/playful-perception/playful_nodes/CMakeFiles/point_cloud_transform_node.dir/src/point_cloud_transform_node.cpp.o
 
 Building CXX object catkin/playful/playful-perception/playful_nodes/CMakeFiles/point_cloud_crop_cylinder_node.dir/src/point_cloud_crop_cylinder_node.cpp.o
 
-Linking CXX executable playful_color_detection_node
+Building CXX object catkin/playful/playful-perception/playful_nodes/CMakeFiles/point_cloud_downsample_node.dir/src/point_cloud_downsample_node.cpp.o
 
-[ 94%] Built target playful_color_detection_node
+Linking CXX executable playful_color_detection_node
 
 Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/playful_nodes/tf_transform
 
-[ 94%] Built target tf_transform
+[ 96%] Built target tf_transform
+
+[ 96%] Built target playful_color_detection_node
 
 Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/playful_nodes/virtual_point_cloud_publish
 
+[ 96%] Built target virtual_point_cloud_publish
+
 Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/playful_nodes/scan_to_point_cloud_node
 
-[ 94%] Built target virtual_point_cloud_publish
-
-[ 94%] Built target scan_to_point_cloud_node
-
-Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libplayful_histograms.so
-
-[ 94%] Built target playful_histograms
-
-Scanning dependencies of target playful_navigation
-
-[ 95%] Building CXX object catkin/playful/playful-navigation/navigation_libs/CMakeFiles/playful_navigation.dir/src/distance_memory.cpp.o
-
-[ 95%] [ 95%] [ 95%] Building CXX object catkin/playful/playful-navigation/navigation_libs/CMakeFiles/playful_navigation.dir/src/transform.cpp.o
-
-[ 95%] Building CXX object catkin/playful/playful-navigation/navigation_libs/CMakeFiles/playful_navigation.dir/src/pose_getter.cpp.o
-
-Building CXX object catkin/playful/playful-navigation/navigation_libs/CMakeFiles/playful_navigation.dir/src/astar_grid.cpp.o
-
-[ 95%] [ 96%] Building CXX object catkin/playful/playful-navigation/navigation_libs/CMakeFiles/playful_navigation.dir/src/path_planning.cpp.o
-
-Building CXX object catkin/playful/playful-navigation/navigation_libs/CMakeFiles/playful_navigation.dir/src/fov_manager.cpp.o
-
-Building CXX object catkin/playful/playful-navigation/navigation_libs/CMakeFiles/playful_navigation.dir/src/map.cpp.o
+[ 96%] Built target scan_to_point_cloud_node
 
 Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/playful_nodes/point_cloud_transform_node
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/playful_nodes/point_cloud_crop_node
-
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/playful_nodes/point_cloud_translate_node
-
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/playful_nodes/point_cloud_crop_cylinder_node
+Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libplayful_histograms.so
 
 [ 96%] Built target point_cloud_transform_node
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/playful_nodes/point_cloud_extremities_node
+[ 96%] Built target playful_histograms
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/playful_simplified_human_model/simplified_human_model_node
+Scanning dependencies of target playful_navigation
 
-[ 96%] Built target point_cloud_translate_node
+[ 96%] [ 96%] Building CXX object catkin/playful/playful-navigation/navigation_libs/CMakeFiles/playful_navigation.dir/src/distance_memory.cpp.o
 
-[ 96%] Built target point_cloud_crop_node
+[ 96%] [ 97%] Building CXX object catkin/playful/playful-navigation/navigation_libs/CMakeFiles/playful_navigation.dir/src/transform.cpp.o
+
+Building CXX object catkin/playful/playful-navigation/navigation_libs/CMakeFiles/playful_navigation.dir/src/pose_getter.cpp.o
+
+[ 97%] [ 97%] Building CXX object catkin/playful/playful-navigation/navigation_libs/CMakeFiles/playful_navigation.dir/src/astar_grid.cpp.o
+
+[ 97%] Building CXX object catkin/playful/playful-navigation/navigation_libs/CMakeFiles/playful_navigation.dir/src/map.cpp.o
+
+Building CXX object catkin/playful/playful-navigation/navigation_libs/CMakeFiles/playful_navigation.dir/src/path_planning.cpp.o
+
+Building CXX object catkin/playful/playful-navigation/navigation_libs/CMakeFiles/playful_navigation.dir/src/fov_manager.cpp.o
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/playful_nodes/point_cloud_crop_cylinder_node
 
 Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/playful_nodes/point_cloud_downsample_node
 
-[ 96%] Built target point_cloud_extremities_node
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/playful_nodes/point_cloud_extremities_node
 
-[ 96%] Built target point_cloud_crop_cylinder_node
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/playful_nodes/point_cloud_crop_node
 
-[ 96%] Built target simplified_human_model_node
+[ 97%] Built target point_cloud_extremities_node
 
-Linking CXX executable playful_cloud_color_filtering_node
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/playful_nodes/point_cloud_translate_node
+
+[ 97%] Built target point_cloud_downsample_node
+
+[ 97%] Built target point_cloud_crop_cylinder_node
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/playful_simplified_human_model/simplified_human_model_node
+
+[ 97%] Built target point_cloud_translate_node
 
 Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/playful_nodes/point_cloud_fusion_node
 
-[ 96%] Built target point_cloud_downsample_node
+Linking CXX executable playful_cloud_color_filtering_node
 
-[ 96%] Built target playful_cloud_color_filtering_node
+[ 97%] Built target point_cloud_crop_node
 
-[ 96%] Built target point_cloud_fusion_node
+[ 97%] Built target simplified_human_model_node
+
+[ 97%] Built target playful_cloud_color_filtering_node
+
+[ 97%] Built target point_cloud_fusion_node
 
 Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libplayful_navigation.so
 
-[ 96%] Built target playful_navigation
+[ 97%] Built target playful_navigation
 
 Scanning dependencies of target test_clustering
 
-[ 96%] Building CXX object catkin/playful/playful-navigation/navigation_libs/CMakeFiles/test_clustering.dir/src/tests/test_clustering.cpp.o
+[ 97%] Building CXX object catkin/playful/playful-navigation/navigation_libs/CMakeFiles/test_clustering.dir/src/tests/test_clustering.cpp.o
 
 Scanning dependencies of target playful_navigation_nodes
 
-[ 96%] [ 96%] Building CXX object catkin/playful/playful-navigation/navigation_nodes/CMakeFiles/playful_navigation_nodes.dir/src/ros_interface.cpp.o
+[ 98%] [ 98%] Building CXX object catkin/playful/playful-navigation/navigation_nodes/CMakeFiles/playful_navigation_nodes.dir/src/ros_interface.cpp.o
 
 Building CXX object catkin/playful/playful-navigation/navigation_nodes/CMakeFiles/playful_navigation_nodes.dir/src/target_getter.cpp.o
 
@@ -4916,45 +4968,45 @@ Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/playfu
 
 Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libplayful_navigation_nodes.so
 
-[ 96%] Built target playful_navigation_nodes
+[ 98%] Built target test_clustering
 
-Scanning dependencies of target playful_find_humans_and_arms_node
-
-Scanning dependencies of target playful_balloon_position_node
-
-Scanning dependencies of target playful_navigation_node
-
-Scanning dependencies of target playful_colored_cup_grasp_position_node
-
-Scanning dependencies of target playful_trim_cloud_to_above_robot_arm_node
-
-[ 96%] [ 96%] [ 96%] [ 96%] Building CXX object catkin/playful/playful-table-setting/CMakeFiles/playful_find_humans_and_arms_node.dir/src/find_humans_and_arms_node.cpp.o
-
-[ 97%] Building CXX object catkin/playful/playful-table-setting/CMakeFiles/playful_balloon_position_node.dir/src/balloon_position_node.cpp.o
-
-Building CXX object catkin/playful/playful-navigation/navigation_nodes/CMakeFiles/playful_navigation_node.dir/src/navigation_node.cpp.o
-
-Building CXX object catkin/playful/playful-table-setting/CMakeFiles/playful_trim_cloud_to_above_robot_arm_node.dir/src/trim_cloud_to_above_robot_arm_node.cpp.o
-
-Building CXX object catkin/playful/playful-table-setting/CMakeFiles/playful_colored_cup_grasp_position_node.dir/src/colored_cup_grasp_position_node.cpp.o
+[ 98%] Built target playful_navigation_nodes
 
 Scanning dependencies of target playful_filter_colored_cup_from_cloud_node
 
+[100%] Scanning dependencies of target playful_balloon_position_node
+
+Building CXX object catkin/playful/playful-table-setting/CMakeFiles/playful_filter_colored_cup_from_cloud_node.dir/src/filter_colored_cup_from_cloud_node.cpp.o
+
 Scanning dependencies of target playful_find_humans_node
+
+Scanning dependencies of target playful_navigation_node
+
+Scanning dependencies of target playful_find_humans_and_arms_node
+
+Scanning dependencies of target playful_trim_cloud_to_above_robot_arm_node
+
+Scanning dependencies of target playful_colored_cup_grasp_position_node
+
+[100%] [100%] [100%] [100%] [100%] Building CXX object catkin/playful/playful-table-setting/CMakeFiles/playful_balloon_position_node.dir/src/balloon_position_node.cpp.o
+
+Building CXX object catkin/playful/playful-navigation/navigation_nodes/CMakeFiles/playful_navigation_node.dir/src/navigation_node.cpp.o
+
+Building CXX object catkin/playful/playful-table-setting/CMakeFiles/playful_find_humans_node.dir/src/find_humans_node.cpp.o
+
+Building CXX object catkin/playful/playful-table-setting/CMakeFiles/playful_find_humans_and_arms_node.dir/src/find_humans_and_arms_node.cpp.o
+
+Building CXX object catkin/playful/playful-table-setting/CMakeFiles/playful_trim_cloud_to_above_robot_arm_node.dir/src/trim_cloud_to_above_robot_arm_node.cpp.o
+
+[100%] Building CXX object catkin/playful/playful-table-setting/CMakeFiles/playful_colored_cup_grasp_position_node.dir/src/colored_cup_grasp_position_node.cpp.o
 
 Scanning dependencies of target playful_trim_cloud_to_beyond_robot_node
 
 Scanning dependencies of target playful_publish_working_space_node
 
-[ 97%] [ 97%] [ 97%] Built target test_clustering
+[100%] [100%] Building CXX object catkin/playful/playful-table-setting/CMakeFiles/playful_trim_cloud_to_beyond_robot_node.dir/src/trim_cloud_to_beyond_robot_node.cpp.o
 
-[ 98%] Building CXX object catkin/playful/playful-table-setting/CMakeFiles/playful_filter_colored_cup_from_cloud_node.dir/src/filter_colored_cup_from_cloud_node.cpp.o
-
-Building CXX object catkin/playful/playful-table-setting/CMakeFiles/playful_trim_cloud_to_beyond_robot_node.dir/src/trim_cloud_to_beyond_robot_node.cpp.o
-
-[100%] Building CXX object catkin/playful/playful-table-setting/CMakeFiles/playful_publish_working_space_node.dir/src/publish_working_space_node.cpp.o
-
-Building CXX object catkin/playful/playful-table-setting/CMakeFiles/playful_find_humans_node.dir/src/find_humans_node.cpp.o
+Building CXX object catkin/playful/playful-table-setting/CMakeFiles/playful_publish_working_space_node.dir/src/publish_working_space_node.cpp.o
 
 In file included from /opt/ros/indigo/include/ros/ros.h:40:0,
 
@@ -4998,39 +5050,39 @@ In file included from /opt/ros/indigo/include/ros/ros.h:40:0,
 
    ^
 
+Linking CXX executable playful_filter_colored_cup_from_cloud_node
+
 Linking CXX executable playful_colored_cup_grasp_position_node
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/playful_navigation_nodes/playful_navigation_node
+[100%] Built target playful_filter_colored_cup_from_cloud_node
 
-Linking CXX executable playful_find_humans_and_arms_node
-
-Linking CXX executable playful_publish_working_space_node
-
-[100%] Built target playful_navigation_node
-
-Linking CXX executable playful_filter_colored_cup_from_cloud_node
+Linking CXX executable playful_balloon_position_node
 
 [100%] Built target playful_colored_cup_grasp_position_node
 
 Linking CXX executable playful_trim_cloud_to_above_robot_arm_node
 
-[100%] Built target playful_find_humans_and_arms_node
-
-[100%] Built target playful_filter_colored_cup_from_cloud_node
-
-[100%] Built target playful_publish_working_space_node
+Linking CXX executable playful_find_humans_and_arms_node
 
 Linking CXX executable playful_trim_cloud_to_beyond_robot_node
 
+[100%] Built target playful_balloon_position_node
+
 [100%] Built target playful_trim_cloud_to_above_robot_arm_node
 
-Linking CXX executable playful_find_humans_node
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/playful_navigation_nodes/playful_navigation_node
 
-Linking CXX executable playful_balloon_position_node
+Linking CXX executable playful_publish_working_space_node
 
 [100%] Built target playful_trim_cloud_to_beyond_robot_node
 
-[100%] Built target playful_balloon_position_node
+[100%] Built target playful_find_humans_and_arms_node
+
+Linking CXX executable playful_find_humans_node
+
+[100%] Built target playful_navigation_node
+
+[100%] Built target playful_publish_working_space_node
 
 [100%] Built target playful_find_humans_node
 
@@ -5073,6 +5125,14 @@ Install the project...
 -- Installing: /home/administrator/ci/ci/team/workspace/install/share/playful_profiler/cmake/playful_profilerConfig-version.cmake
 
 -- Installing: /home/administrator/ci/ci/team/workspace/install/share/playful_profiler/package.xml
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/soma.pc
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/soma/cmake/somaConfig.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/soma/cmake/somaConfig-version.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/soma/package.xml
 
 -- Installing: /home/administrator/ci/ci/team/workspace/install/share/amd_clmc_ros_messages/msg/Acceleration.msg
 
@@ -7365,6 +7425,90 @@ Compiling /home/administrator/ci/ci/team/workspace/devel/lib/python2.7/dist-pack
 -- Installing: /home/administrator/ci/ci/team/workspace/src/catkin/playful/playful-table-setting/bin/playful_filter_colored_cup_from_cloud_node
 
 -- Removed runtime path from "/home/administrator/ci/ci/team/workspace/src/catkin/playful/playful-table-setting/bin/playful_filter_colored_cup_from_cloud_node"
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/playful_kinematics.pc
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/playful_kinematics/cmake/playful_kinematicsConfig.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/playful_kinematics/cmake/playful_kinematicsConfig-version.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/playful_kinematics/package.xml
+
++ cd /home/administrator/ci/ci/team/workspace/src/catkin/playful/playful-kinematics
+
++ mkdir -p /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages
+
++ /usr/bin/env PYTHONPATH=/home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages:/home/administrator/ci/ci/team/workspace/build/lib/python2.7/dist-packages:/opt/ros/indigo/lib/python2.7/dist-packages CATKIN_BINARY_DIR=/home/administrator/ci/ci/team/workspace/build /usr/bin/python /home/administrator/ci/ci/team/workspace/src/catkin/playful/playful-kinematics/setup.py build --build-base /home/administrator/ci/ci/team/workspace/build/catkin/playful/playful-kinematics install --install-layout=deb --prefix=/home/administrator/ci/ci/team/workspace/install --install-scripts=/home/administrator/ci/ci/team/workspace/install/bin
+
+running build
+
+running build_py
+
+creating /home/administrator/ci/ci/team/workspace/build/catkin/playful/playful-kinematics/lib.linux-x86_64-2.7
+
+creating /home/administrator/ci/ci/team/workspace/build/catkin/playful/playful-kinematics/lib.linux-x86_64-2.7/playful_kinematics
+
+copying scripts/playful_kinematics/playful_kinematics_configuration.py -> /home/administrator/ci/ci/team/workspace/build/catkin/playful/playful-kinematics/lib.linux-x86_64-2.7/playful_kinematics
+
+copying scripts/playful_kinematics/__init__.py -> /home/administrator/ci/ci/team/workspace/build/catkin/playful/playful-kinematics/lib.linux-x86_64-2.7/playful_kinematics
+
+copying scripts/playful_kinematics/example.py -> /home/administrator/ci/ci/team/workspace/build/catkin/playful/playful-kinematics/lib.linux-x86_64-2.7/playful_kinematics
+
+copying scripts/playful_kinematics/set_ik_for_pepper.py -> /home/administrator/ci/ci/team/workspace/build/catkin/playful/playful-kinematics/lib.linux-x86_64-2.7/playful_kinematics
+
+copying scripts/playful_kinematics/reference_posture_manager.py -> /home/administrator/ci/ci/team/workspace/build/catkin/playful/playful-kinematics/lib.linux-x86_64-2.7/playful_kinematics
+
+copying scripts/playful_kinematics/playful_kinematics.py -> /home/administrator/ci/ci/team/workspace/build/catkin/playful/playful-kinematics/lib.linux-x86_64-2.7/playful_kinematics
+
+copying scripts/playful_kinematics/playful_ik_configuration.py -> /home/administrator/ci/ci/team/workspace/build/catkin/playful/playful-kinematics/lib.linux-x86_64-2.7/playful_kinematics
+
+running install
+
+running install_lib
+
+creating /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/playful_kinematics
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/playful/playful-kinematics/lib.linux-x86_64-2.7/playful_kinematics/playful_kinematics_configuration.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/playful_kinematics
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/playful/playful-kinematics/lib.linux-x86_64-2.7/playful_kinematics/__init__.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/playful_kinematics
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/playful/playful-kinematics/lib.linux-x86_64-2.7/playful_kinematics/example.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/playful_kinematics
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/playful/playful-kinematics/lib.linux-x86_64-2.7/playful_kinematics/set_ik_for_pepper.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/playful_kinematics
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/playful/playful-kinematics/lib.linux-x86_64-2.7/playful_kinematics/reference_posture_manager.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/playful_kinematics
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/playful/playful-kinematics/lib.linux-x86_64-2.7/playful_kinematics/playful_kinematics.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/playful_kinematics
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/playful/playful-kinematics/lib.linux-x86_64-2.7/playful_kinematics/playful_ik_configuration.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/playful_kinematics
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/playful_kinematics/playful_kinematics_configuration.py to playful_kinematics_configuration.pyc
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/playful_kinematics/__init__.py to __init__.pyc
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/playful_kinematics/example.py to example.pyc
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/playful_kinematics/set_ik_for_pepper.py to set_ik_for_pepper.pyc
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/playful_kinematics/reference_posture_manager.py to reference_posture_manager.pyc
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/playful_kinematics/playful_kinematics.py to playful_kinematics.pyc
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/playful_kinematics/playful_ik_configuration.py to playful_ik_configuration.pyc
+
+  File "/home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/playful_kinematics/playful_ik_configuration.py", line 67
+
+    *cfloat)
+
+    ^
+
+SyntaxError: invalid syntax
+
+
+
+running install_egg_info
+
+Writing /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/playful_kinematics-1.0.0.egg-info
 
 Base path: /home/administrator/ci/ci/team/workspace
 
