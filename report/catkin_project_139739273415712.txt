@@ -24,153 +24,103 @@
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- ~~  traversing 8 packages in topological order:
+-- ~~  traversing 10 packages in topological order:
 
--- ~~  - fl
+-- ~~  - ros_realtime (metapackage)
 
--- ~~  - dbot
+-- ~~  - allocators
 
--- ~~  - launch_xtion
+-- ~~  - rosatomic
 
--- ~~  - object_meshes
+-- ~~  - lockfree
 
--- ~~  - dbot_ros_msgs
+-- ~~  - rt_timer
 
--- ~~  - dbot_ros
+-- ~~  - xenomai_ros
 
--- ~~  - meshless_tracking
+-- ~~  - rosrt
 
--- ~~  - table_object_finder
+-- ~~  - goto_ui
+
+-- ~~  - goto_ui_task
+
+-- ~~  - ros_rt_test
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- +++ processing catkin package: 'fl'
+-- +++ processing catkin metapackage: 'ros_realtime'
 
--- ==> add_subdirectory(catkin/core-perception/fl)
+-- ==> add_subdirectory(catkin/ros/ros_realtime/ros_realtime)
 
--- Eigen found (include: /usr/include/eigen3)
+-- +++ processing catkin package: 'allocators'
+
+-- ==> add_subdirectory(catkin/ros/ros_realtime/allocators)
 
 -- Boost version: 1.54.0
 
--- +++ processing catkin package: 'dbot'
+-- +++ processing catkin package: 'rosatomic'
 
--- ==> add_subdirectory(catkin/core-perception/dbot)
+-- ==> add_subdirectory(catkin/ros/ros_realtime/rosatomic)
 
--- Eigen found (include: /usr/include/eigen3)
+-- Boost version: 1.54.0
+
+-- +++ processing catkin package: 'lockfree'
+
+-- ==> add_subdirectory(catkin/ros/ros_realtime/lockfree)
+
+-- Boost version: 1.54.0
+
+-- +++ processing catkin package: 'rt_timer'
+
+-- ==> add_subdirectory(catkin/ros/ros_realtime/rt_timer)
+
+-- +++ processing catkin package: 'xenomai_ros'
+
+-- ==> add_subdirectory(catkin/ros/xenomai-ros)
+
+-- +++ processing catkin package: 'rosrt'
+
+-- ==> add_subdirectory(catkin/ros/ros_realtime/rosrt)
+
+-- xenomai NOT found. (/usr/local;/usr)
+
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
 
 -- Boost version: 1.54.0
 
 -- Found the following Boost libraries:
 
---   system
+--   thread
 
---   filesystem
+-- +++ processing catkin package: 'goto_ui'
 
--- Found CUDA version 8.0
-
--- Using catkin
-
--- +++ processing catkin package: 'launch_xtion'
-
--- ==> add_subdirectory(catkin/ros/launch_xtion)
-
--- +++ processing catkin package: 'object_meshes'
-
--- ==> add_subdirectory(catkin/ros/object_meshes)
-
--- +++ processing catkin package: 'dbot_ros_msgs'
-
--- ==> add_subdirectory(catkin/ros/dbot_ros_msgs)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- dbot_ros_msgs: 3 messages, 3 services
-
--- +++ processing catkin package: 'dbot_ros'
-
--- ==> add_subdirectory(catkin/ros/dbot_ros)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- Boost version: 1.54.0
-
--- Eigen found (include: /usr/include/eigen3)
-
--- +++ processing catkin package: 'meshless_tracking'
-
--- ==> add_subdirectory(catkin/core-perception/meshless_tracking)
-
-CMake Warning at catkin/core-perception/meshless_tracking/CMakeLists.txt:41 (find_package):
-
-  By not providing "FindVXL.cmake" in CMAKE_MODULE_PATH this project has
-
-  asked CMake to find a package configuration file provided by "VXL", but
-
-  CMake did not find one.
-
-
-
-  Could not find a package configuration file provided by "VXL" with any of
-
-  the following names:
-
-
-
-    VXLConfig.cmake
-
-    vxl-config.cmake
-
-
-
-  Add the installation prefix of "VXL" to CMAKE_PREFIX_PATH or set "VXL_DIR"
-
-  to a directory containing one of the above files.  If "VXL" provides a
-
-  separate development package or SDK, be sure it has been installed.
-
-
-
-
-
-CMake Warning at catkin/core-perception/meshless_tracking/CMakeLists.txt:46 (message):
-
-  VXL_DIR should be set to the VXL build directory.
-
-
-
-
-
--- ~~ VXL_DIR is VXL_DIR-NOTFOUND
-
--- ~~ VXL_SOURCE_DIR is 
-
--- ~~ VXL_LIBRARY_DIR is 
-
--- ~~ VXL_INCLUDE_DIR is 
+-- ==> add_subdirectory(catkin/core-sl/goto_ui)
 
 CMake Error at /home/administrator/ci/ci/team/workspace/devel/share/catkin/cmake/catkinConfig.cmake:75 (find_package):
 
-  Could not find a package configuration file provided by "opi" with any of
+  Could not find a package configuration file provided by "utilities" with
 
-  the following names:
-
-
-
-    opiConfig.cmake
-
-    opi-config.cmake
+  any of the following names:
 
 
 
-  Add the installation prefix of "opi" to CMAKE_PREFIX_PATH or set "opi_DIR"
+    utilitiesConfig.cmake
 
-  to a directory containing one of the above files.  If "opi" provides a
+    utilities-config.cmake
 
-  separate development package or SDK, be sure it has been installed.
+
+
+  Add the installation prefix of "utilities" to CMAKE_PREFIX_PATH or set
+
+  "utilities_DIR" to a directory containing one of the above files.  If
+
+  "utilities" provides a separate development package or SDK, be sure it has
+
+  been installed.
 
 Call Stack (most recent call first):
 
-  catkin/core-perception/meshless_tracking/CMakeLists.txt:65 (find_package)
+  catkin/core-sl/goto_ui/CMakeLists.txt:8 (find_package)
 
 
 
