@@ -20,299 +20,61 @@
 
 -- Using Python nosetests: /usr/bin/nosetests-2.7
 
--- catkin 0.6.19
+-- catkin 0.7.7
 
 -- BUILD_SHARED_LIBS is on
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- ~~  traversing 6 packages in topological order:
+-- ~~  traversing 3 packages in topological order:
 
--- ~~  - utilities
+-- ~~  - baselines
 
--- ~~  - lwpr
+-- ~~  - gazebo_grasping
 
--- ~~  - sl
-
--- ~~  - arm2d
-
--- ~~  - arm2d_test_task
-
--- ~~  - arm2d_user
+-- ~~  - grasping_env
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- +++ processing catkin package: 'utilities'
+-- +++ processing catkin package: 'baselines'
 
--- ==> add_subdirectory(catkin/core-sl/catkin-utilities)
+-- ==> add_subdirectory(catkin/grasping_sim/src/baselines_catkin)
 
--- MACHTYPE x86_64
+-- +++ processing catkin package: 'gazebo_grasping'
 
-Detected MACHTYPE=x86_64
+-- ==> add_subdirectory(catkin/grasping_sim/src/gazebo_grasping)
 
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+-- Boost version: 1.54.0
 
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+CMake Error at catkin/grasping_sim/src/gazebo_grasping/CMakeLists.txt:13 (find_package):
 
-Call Stack (most recent call first):
+  By not providing "Findignition-transport3.cmake" in CMAKE_MODULE_PATH this
 
-  catkin/core-sl/catkin-utilities/CMakeLists.txt:8 (include)
+  project has asked CMake to find a package configuration file provided by
 
+  "ignition-transport3", but CMake did not find one.
 
 
 
+  Could not find a package configuration file provided by
 
--- HOST_NAME=everest
+  "ignition-transport3" with any of the following names:
 
--- HOST=everest
 
--- LAB=AMD
 
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+    ignition-transport3Config.cmake
 
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+    ignition-transport3-config.cmake
 
--- CMAKE_INCLUDE_PATH=
 
--- CMAKE_LIBRARY_PATH=
 
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+  Add the installation prefix of "ignition-transport3" to CMAKE_PREFIX_PATH
 
--- LAB_LIBDIR=lib/x86_64
+  or set "ignition-transport3_DIR" to a directory containing one of the above
 
--- LAB_INCLUDES=include
+  files.  If "ignition-transport3" provides a separate development package or
 
--- LAB_BINDIR=bin/x86_64
-
--- +++ processing catkin package: 'lwpr'
-
--- ==> add_subdirectory(catkin/core-sl/catkin-lwpr)
-
--- MACHTYPE x86_64
-
-Detected MACHTYPE=x86_64
-
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
-
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
-
-Call Stack (most recent call first):
-
-  catkin/core-sl/catkin-lwpr/CMakeLists.txt:5 (include)
-
-
-
-
-
--- HOST_NAME=everest
-
--- HOST=everest
-
--- LAB=AMD
-
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_INCLUDE_PATH=
-
--- CMAKE_LIBRARY_PATH=
-
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
-
--- LAB_LIBDIR=lib/x86_64
-
--- LAB_INCLUDES=include
-
--- LAB_BINDIR=bin/x86_64
-
--- +++ processing catkin package: 'sl'
-
--- ==> add_subdirectory(catkin/core-sl/catkin-sl)
-
--- MACHTYPE x86_64
-
-Detected MACHTYPE=x86_64
-
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
-
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
-
-Call Stack (most recent call first):
-
-  catkin/core-sl/catkin-sl/CMakeLists.txt:8 (include)
-
-
-
-
-
--- HOST_NAME=everest
-
--- HOST=everest
-
--- LAB=AMD
-
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_INCLUDE_PATH=
-
--- CMAKE_LIBRARY_PATH=
-
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
-
--- LAB_LIBDIR=lib/x86_64
-
--- LAB_INCLUDES=include
-
--- LAB_BINDIR=bin/x86_64
-
--- +++ processing catkin package: 'arm2d'
-
--- ==> add_subdirectory(catkin/robots/catkin-arm2D)
-
--- MACHTYPE x86_64
-
-Detected MACHTYPE=x86_64
-
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
-
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
-
-Call Stack (most recent call first):
-
-  catkin/robots/catkin-arm2D/CMakeLists.txt:8 (include)
-
-
-
-
-
--- HOST_NAME=everest
-
--- HOST=everest
-
--- LAB=AMD
-
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_INCLUDE_PATH=
-
--- CMAKE_LIBRARY_PATH=
-
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
-
--- LAB_LIBDIR=lib/x86_64
-
--- LAB_INCLUDES=include
-
--- LAB_BINDIR=bin/x86_64
-
--- +++ processing catkin package: 'arm2d_test_task'
-
--- ==> add_subdirectory(catkin/robots/catkin-sl-arm2D-task-example)
-
--- MACHTYPE x86_64
-
-Detected MACHTYPE=x86_64
-
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
-
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
-
-Call Stack (most recent call first):
-
-  catkin/robots/catkin-sl-arm2D-task-example/CMakeLists.txt:8 (include)
-
-
-
-
-
--- HOST_NAME=everest
-
--- HOST=everest
-
--- LAB=AMD
-
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_INCLUDE_PATH=
-
--- CMAKE_LIBRARY_PATH=
-
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
-
--- LAB_LIBDIR=lib/x86_64
-
--- LAB_INCLUDES=include
-
--- LAB_BINDIR=bin/x86_64
-
--- +++ processing catkin package: 'arm2d_user'
-
--- ==> add_subdirectory(catkin/robots/catkin-arm2DUser)
-
--- MACHTYPE x86_64
-
-Detected MACHTYPE=x86_64
-
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
-
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
-
-Call Stack (most recent call first):
-
-  catkin/robots/catkin-arm2DUser/CMakeLists.txt:8 (include)
-
-
-
-
-
--- HOST_NAME=everest
-
--- HOST=everest
-
--- LAB=AMD
-
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_INCLUDE_PATH=
-
--- CMAKE_LIBRARY_PATH=
-
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
-
--- LAB_LIBDIR=lib/x86_64
-
--- LAB_INCLUDES=include
-
--- LAB_BINDIR=bin/x86_64
-
-CMake Error at catkin/robots/catkin-arm2DUser/CMakeLists.txt:31 (add_subdirectory):
-
-  add_subdirectory given source "tmp_catkin_arm2D_user" which is not an
-
-  existing directory.
-
-
-
-
-
-CMake Error at /opt/ros/indigo/share/catkin/cmake/catkin_package.cmake:293 (message):
-
-  catkin_package() absolute include dir '/include' does not exist
-
-Call Stack (most recent call first):
-
-  /opt/ros/indigo/share/catkin/cmake/catkin_package.cmake:100 (_catkin_package)
-
-  catkin/robots/catkin-arm2DUser/CMakeLists.txt:33 (catkin_package)
+  SDK, be sure it has been installed.
 
 
 
