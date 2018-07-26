@@ -1,3 +1,5 @@
+WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
+
 -- The C compiler identification is GNU 4.8.4
 
 -- The CXX compiler identification is GNU 4.8.4
@@ -28,9 +30,9 @@
 
 -- Using PYTHON_EXECUTABLE: /usr/bin/python
 
--- Using Debian Python package layout
+-- Python version: 2.7
 
--- Using empy: /usr/bin/empy
+-- Using Debian Python package layout
 
 -- Using CATKIN_ENABLE_TESTING: ON
 
@@ -58,293 +60,115 @@
 
 -- Found gtest sources under '/usr/src/gtest': gtests will be built
 
--- Using Python nosetests: /usr/bin/nosetests-2.7
-
--- catkin 0.6.19
+-- catkin 0.5.90
 
 -- BUILD_SHARED_LIBS is on
 
--- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
--- ~~  traversing 6 packages in topological order:
-
--- ~~  - utilities
-
--- ~~  - lwpr
-
--- ~~  - sl
-
--- ~~  - master
-
--- ~~  - master_test_task
-
--- ~~  - master_user
+WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- +++ processing catkin package: 'utilities'
+-- ~~  traversing 9 packages in topological order:
 
--- ==> add_subdirectory(catkin/core-sl/catkin-utilities)
+-- ~~  - Eigen
 
--- MACHTYPE x86_64
+-- ~~  - experiment_config
 
-Detected MACHTYPE=x86_64
+-- ~~  - guided_policy_search
 
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+-- ~~  - py_cpp_interface
 
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+-- ~~  - rbdl
 
-Call Stack (most recent call first):
+-- ~~  - yaml_cpp
 
-  catkin/core-sl/catkin-utilities/CMakeLists.txt:8 (include)
+-- ~~  - planar_finger
 
+-- ~~  - toy_hoppers
 
+-- ~~  - neural_feedback_controller
 
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+-- +++ processing catkin package: 'Eigen'
 
--- HOST_NAME=everest
+-- ==> add_subdirectory(catkin/third_party/Eigen)
 
--- HOST=everest
+WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
 
--- LAB=AMD
+-- +++ processing catkin package: 'experiment_config'
 
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- ==> add_subdirectory(catkin/experiments/catkin_experiment_config)
 
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- +++ processing catkin package: 'guided_policy_search'
 
--- CMAKE_INCLUDE_PATH=
+-- ==> add_subdirectory(catkin/learning/guided-policy-search)
 
--- CMAKE_LIBRARY_PATH=
+-- +++ processing catkin package: 'py_cpp_interface'
 
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+-- ==> add_subdirectory(catkin/utils/py_cpp_interface)
 
--- LAB_LIBDIR=lib/x86_64
+-- Boost version: 1.54.0
 
--- LAB_INCLUDES=include
+-- Found the following Boost libraries:
 
--- LAB_BINDIR=bin/x86_64
+--   system
 
--- +++ processing catkin package: 'lwpr'
+--   thread
 
--- ==> add_subdirectory(catkin/core-sl/catkin-lwpr)
+--   python
 
--- MACHTYPE x86_64
+-- PYTHON_BIN_LOCATION: /usr/bin/python
 
-Detected MACHTYPE=x86_64
 
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
 
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython2.7.so 
 
-Call Stack (most recent call first):
+-- Found NumPy: version "1.14.0" /usr/local/lib/python2.7/dist-packages/numpy/core/include
 
-  catkin/core-sl/catkin-lwpr/CMakeLists.txt:5 (include)
+-- +++ processing catkin package: 'rbdl'
 
+-- ==> add_subdirectory(catkin/third_party/rbdl)
 
+-- Setting build type to 'Release' as none was specified.
 
+-- ROS found: /opt/ros/indigo/share/ros
 
+-- +++ processing catkin package: 'yaml_cpp'
 
--- HOST_NAME=everest
+-- ==> add_subdirectory(catkin/third_party/YAML_CPP)
 
--- HOST=everest
+-- Boost version: 1.54.0
 
--- LAB=AMD
+-- Performing Test FLAG_WEXTRA
 
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- Performing Test FLAG_WEXTRA - Success
 
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- +++ processing catkin package: 'planar_finger'
 
--- CMAKE_INCLUDE_PATH=
+-- ==> add_subdirectory(catkin/robots/toy_robot_barn/planar_finger)
 
--- CMAKE_LIBRARY_PATH=
+-- Using these message generators: gencpp;genlisp;genpy
 
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+-- Boost version: 1.54.0
 
--- LAB_LIBDIR=lib/x86_64
+-- Found the following Boost libraries:
 
--- LAB_INCLUDES=include
+--   system
 
--- LAB_BINDIR=bin/x86_64
+--   program_options
 
--- +++ processing catkin package: 'sl'
+--   filesystem
 
--- ==> add_subdirectory(catkin/core-sl/catkin-sl)
+-- +++ processing catkin package: 'toy_hoppers'
 
--- MACHTYPE x86_64
+-- ==> add_subdirectory(catkin/robots/toy_robot_barn/toy_hoppers)
 
-Detected MACHTYPE=x86_64
+-- Using these message generators: gencpp;genlisp;genpy
 
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+-- +++ processing catkin package: 'neural_feedback_controller'
 
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
-
-Call Stack (most recent call first):
-
-  catkin/core-sl/catkin-sl/CMakeLists.txt:8 (include)
-
-
-
-
-
--- HOST_NAME=everest
-
--- HOST=everest
-
--- LAB=AMD
-
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_INCLUDE_PATH=
-
--- CMAKE_LIBRARY_PATH=
-
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
-
--- LAB_LIBDIR=lib/x86_64
-
--- LAB_INCLUDES=include
-
--- LAB_BINDIR=bin/x86_64
-
--- +++ processing catkin package: 'master'
-
--- ==> add_subdirectory(catkin/robots/catkin-master)
-
--- MACHTYPE x86_64
-
-Detected MACHTYPE=x86_64
-
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
-
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
-
-Call Stack (most recent call first):
-
-  catkin/robots/catkin-master/CMakeLists.txt:8 (include)
-
-
-
-
-
--- HOST_NAME=everest
-
--- HOST=everest
-
--- LAB=AMD
-
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_INCLUDE_PATH=
-
--- CMAKE_LIBRARY_PATH=
-
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
-
--- LAB_LIBDIR=lib/x86_64
-
--- LAB_INCLUDES=include
-
--- LAB_BINDIR=bin/x86_64
-
--- +++ processing catkin package: 'master_test_task'
-
--- ==> add_subdirectory(catkin/robots/catkin-sl-master-task-example)
-
--- MACHTYPE x86_64
-
-Detected MACHTYPE=x86_64
-
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
-
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
-
-Call Stack (most recent call first):
-
-  catkin/robots/catkin-sl-master-task-example/CMakeLists.txt:8 (include)
-
-
-
-
-
--- HOST_NAME=everest
-
--- HOST=everest
-
--- LAB=AMD
-
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_INCLUDE_PATH=
-
--- CMAKE_LIBRARY_PATH=
-
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
-
--- LAB_LIBDIR=lib/x86_64
-
--- LAB_INCLUDES=include
-
--- LAB_BINDIR=bin/x86_64
-
--- +++ processing catkin package: 'master_user'
-
--- ==> add_subdirectory(catkin/robots/catkin-masterUser)
-
--- MACHTYPE x86_64
-
-Detected MACHTYPE=x86_64
-
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
-
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
-
-Call Stack (most recent call first):
-
-  catkin/robots/catkin-masterUser/CMakeLists.txt:8 (include)
-
-
-
-
-
--- HOST_NAME=everest
-
--- HOST=everest
-
--- LAB=AMD
-
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_INCLUDE_PATH=
-
--- CMAKE_LIBRARY_PATH=
-
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
-
--- LAB_LIBDIR=lib/x86_64
-
--- LAB_INCLUDES=include
-
--- LAB_BINDIR=bin/x86_64
-
-The following tasks will *not* be built as they rely on rfwr and seem deprecated:
-
-             forcefield_B_task
-
-             vision_calibration_task
-
-Building tasks:
-
-             haptic_task
-
-             gravityComp_task
+-- ==> add_subdirectory(catkin/learning/neural_feedback_controller)
 
 -- Configuring done
 
@@ -352,435 +176,335 @@ Building tasks:
 
 -- Build files have been written to: /home/administrator/ci/ci/team/workspace/build
 
-Scanning dependencies of target SLvision
+Scanning dependencies of target hello_world
 
-Scanning dependencies of target SLmotor
+[  1%] Building CXX object catkin/utils/py_cpp_interface/CMakeFiles/hello_world.dir/src/hello_world.cpp.o
 
-Scanning dependencies of target master_openGL
+Scanning dependencies of target yaml-cpp
 
-Scanning dependencies of target SLopenGL
+Scanning dependencies of target py_converter_test
 
-Scanning dependencies of target SLcommon
+[  3%] [  4%] [  6%] [  9%] [  9%] Scanning dependencies of target PyShell
 
-Scanning dependencies of target SLtask
+[ 10%] [ 12%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/nodebuilder.cpp.o
 
-[  1%] Scanning dependencies of target SLsimulation
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/scantoken.cpp.o
 
-[  2%] [  3%] [  4%] [  5%] [  6%] Scanning dependencies of target utility
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/nodeevents.cpp.o
 
-Scanning dependencies of target master
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/memory.cpp.o
 
-Scanning dependencies of target master_task
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/parse.cpp.o
 
-Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLmotor.dir/src/SL_controller.c.o
+[ 14%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/node.cpp.o
 
-Scanning dependencies of target master_simulation
+[ 15%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/ostream_wrapper.cpp.o
 
-[  7%] [  8%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLvision.dir/src/SL_serial_unix.c.o
+[ 17%] [ 18%] Building CXX object catkin/utils/py_cpp_interface/CMakeFiles/py_converter_test.dir/tests/converter_test.cpp.o
 
-[  9%] [  9%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLmotor.dir/src/SL_motor_servo.c.o
+[ 20%] [ 21%] Scanning dependencies of target rbdl
 
-Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLmotor.dir/src/SL_motor_servo_unix.c.o
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/tag.cpp.o
 
-Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLvision.dir/src/SL_vision_servo_unix.c.o
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/directives.cpp.o
 
-[ 10%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLopenGL.dir/src/SL_openGL_servo_unix.c.o
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emitterutils.cpp.o
 
-[ 10%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLvision.dir/src/SL_dbvision.c.o
+[ 23%] Building CXX object catkin/utils/py_cpp_interface/CMakeFiles/PyShell.dir/src/PyShell.cpp.o
 
-Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLvision.dir/src/SL_vision_servo.c.o
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/scantag.cpp.o
 
-Building C object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/master_openGL.dir/src/SL_user_openGL.c.o
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/scanscalar.cpp.o
 
-Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLcommon.dir/src/SL_vx2unix_wrappers.c.o
+[ 25%] Building CXX object catkin/third_party/rbdl/CMakeFiles/rbdl.dir/src/rbdl_version.cc.o
 
-[ 11%] Building C object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/master.dir/src/SL_user_commands.c.o
+[ 26%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/scanner.cpp.o
 
-[ 12%] [ 13%] [ 14%] Building C object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/master_simulation.dir/src/SL_user_simulation.c.o
+[ 28%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/parser.cpp.o
 
-Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLtask.dir/src/SL_task_servo_unix.c.o
+[ 29%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emitter.cpp.o
 
-Building C object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/master_task.dir/src/SL_user_task.c.o
+[ 31%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/exp.cpp.o
 
-Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLsimulation.dir/src/SL_simulation_servo_unix.c.o
+[ 32%] Building CXX object catkin/third_party/rbdl/CMakeFiles/rbdl.dir/src/rbdl_mathutils.cc.o
 
-Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/brent.c.o
+[ 34%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/regex.cpp.o
 
-Linking C shared library /home/administrator/ci/ci/team/workspace/devel/lib/libmaster_simulation.so
+[ 35%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/binary.cpp.o
 
-[ 14%] Built target master_simulation
+[ 37%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/node_data.cpp.o
 
-[ 14%] [ 15%] Linking C shared library /home/administrator/ci/ci/team/workspace/devel/lib/libmaster_task.so
+[ 39%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emit.cpp.o
 
-[ 16%] [ 17%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/control.c.o
+[ 40%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/simplekey.cpp.o
 
-[ 18%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLsimulation.dir/src/SL_simulation_servo.c.o
+[ 42%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emitterstate.cpp.o
 
-[ 18%] Building C object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/master.dir/src/SL_user_common.c.o
+[ 43%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/convert.cpp.o
 
-Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/dbrent.c.o
+[ 45%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/singledocparser.cpp.o
 
-Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLsimulation.dir/src/SL_userSimulation.c.o
+[ 46%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/stream.cpp.o
 
-[ 18%] [ 19%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLmotor.dir/src/SL_sensor_proc.c.o
+[ 48%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emitfromevents.cpp.o
 
-Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLtask.dir/src/SL_tasks.c.o
+[ 50%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/null.cpp.o
 
-[ 20%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLsimulation.dir/src/SL_objects.c.o
+[ 51%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilderadapter.cpp.o
 
-Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLvision.dir/src/SL_vision_proc.c.o
+[ 53%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilder.cpp.o
 
-[ 20%] Built target master_task
+[ 54%] Building CXX object catkin/third_party/rbdl/CMakeFiles/rbdl.dir/src/rbdl_utils.cc.o
 
-[ 21%] [ 23%] [ 23%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLcommon.dir/src/SL_common.c.o
+[ 56%] Building CXX object catkin/third_party/rbdl/CMakeFiles/rbdl.dir/src/Contacts.cc.o
 
-/home/administrator/ci/ci/team/workspace/src/cmake/sl/src/SL_tasks.c: In function ‘set_args_task’:
+[ 57%] Building CXX object catkin/third_party/rbdl/CMakeFiles/rbdl.dir/src/Dynamics.cc.o
 
-/home/administrator/ci/ci/team/workspace/src/cmake/sl/src/SL_tasks.c:482:2: warning: format not a string literal and no format arguments [-Wformat-security]
+[ 59%] Building CXX object catkin/third_party/rbdl/CMakeFiles/rbdl.dir/src/Logging.cc.o
 
-  sprintf(sl_default_task,argv[i]);
+[ 60%] Building CXX object catkin/third_party/rbdl/CMakeFiles/rbdl.dir/src/Joint.cc.o
+
+[ 62%] Building CXX object catkin/third_party/rbdl/CMakeFiles/rbdl.dir/src/Model.cc.o
+
+[ 64%] Building CXX object catkin/third_party/rbdl/CMakeFiles/rbdl.dir/src/Kinematics.cc.o
+
+Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libyaml-cpp.so
+
+[ 64%] Built target yaml-cpp
+
+Scanning dependencies of target read
+
+Scanning dependencies of target sandbox
+
+Scanning dependencies of target parse
+
+Scanning dependencies of target run-tests
+
+[ 68%] [ 68%] [ 68%] Building CXX object catkin/third_party/YAML_CPP/util/CMakeFiles/sandbox.dir/sandbox.cpp.o
+
+Building CXX object catkin/third_party/YAML_CPP/util/CMakeFiles/parse.dir/parse.cpp.o
+
+[ 70%] Building CXX object catkin/third_party/YAML_CPP/util/CMakeFiles/read.dir/read.cpp.o
+
+[ 71%] [ 73%] Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/emittertests.cpp.o
+
+Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/spectests.cpp.o
+
+Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/tests.cpp.o
+
+[ 75%] Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/main.cpp.o
+
+[ 76%] Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/new-api/parsertests.cpp.o
+
+[ 78%] Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/new-api/spectests.cpp.o
+
+In file included from /usr/include/python2.7/numpy/ndarraytypes.h:1761:0,
+
+                 from /usr/include/python2.7/numpy/ndarrayobject.h:17,
+
+                 from /usr/include/python2.7/numpy/arrayobject.h:4,
+
+                 from /home/administrator/ci/ci/team/workspace/src/catkin/utils/py_cpp_interface/include/py_cpp_interface/eigen_converters.h:20,
+
+                 from /home/administrator/ci/ci/team/workspace/src/catkin/utils/py_cpp_interface/tests/converter_test.cpp:21:
+
+/usr/include/python2.7/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+
+ #warning "Using deprecated NumPy API, disable it by " \
 
   ^
 
-Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLopenGL.dir/src/SL_openGL_servo.c.o
+In file included from /usr/include/python2.7/numpy/ndarraytypes.h:1761:0,
 
-Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLcommon.dir/src/SL_collect_data.c.o
+                 from /usr/include/python2.7/numpy/ndarrayobject.h:17,
 
-[ 24%] [ 25%] [ 26%] [ 27%] Building C object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/master.dir/__/sl/src/SL_kinematics.c.o
+                 from /usr/include/python2.7/numpy/arrayobject.h:4,
 
-[ 28%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLcommon.dir/src/SL_shared_memory.c.o
+                 from /home/administrator/ci/ci/team/workspace/src/catkin/utils/py_cpp_interface/include/py_cpp_interface/eigen_converters.h:20,
 
-Building C object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/master.dir/__/sl/src/SL_dynamics.c.o
+                 from /home/administrator/ci/ci/team/workspace/src/catkin/utils/py_cpp_interface/include/py_cpp_interface/PyShell.h:24,
 
-Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLcommon.dir/src/SL_filters.c.o
+                 from /home/administrator/ci/ci/team/workspace/src/catkin/utils/py_cpp_interface/src/PyShell.cpp:15:
 
-Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/df1dim.c.o
+/usr/include/python2.7/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
 
-[ 29%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLtask.dir/src/SL_task_servo.c.o
+ #warning "Using deprecated NumPy API, disable it by " \
 
-[ 30%] [ 31%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/dfpmin.c.o
+  ^
 
-[ 32%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLtask.dir/src/SL_goto_task.c.o
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/yaml_cpp/sandbox
 
-Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLtask.dir/src/SL_sine_task.c.o
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/yaml_cpp/read
 
-Linking C shared library /home/administrator/ci/ci/team/workspace/devel/lib/libmaster_openGL.so
+[ 79%] Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/new-api/nodetests.cpp.o
 
-Linking C shared library /home/administrator/ci/ci/team/workspace/devel/lib/libSLmotor.so
+[ 79%] Built target sandbox
 
-[ 33%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLcommon.dir/src/SL_unix_common.c.o
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/yaml_cpp/parse
 
-[ 33%] [ 33%] [ 33%] Built target master_openGL
+[ 79%] Built target read
 
-Built target SLmotor
+[ 79%] Built target parse
 
-Linking C shared library /home/administrator/ci/ci/team/workspace/devel/lib/libSLvision.so
+Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/hello_world.so
 
-[ 34%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLcommon.dir/src/SL_terrains.c.o
+[ 79%] Built target hello_world
 
-[ 36%] [ 36%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/distributions.c.o
+/home/administrator/ci/ci/team/workspace/src/catkin/utils/py_cpp_interface/src/PyShell.cpp: In member function ‘void py_cpp_interface::PyShell::initialize()’:
 
-[ 37%] [ 38%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLcommon.dir/src/SL_oscilloscope.c.o
+/home/administrator/ci/ci/team/workspace/src/catkin/utils/py_cpp_interface/src/PyShell.cpp:42:31: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
 
-Building CXX object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/master.dir/__/sl/src/SL_invDynNE.cpp.o
+   char *argv[] = { "Py Shell" };
 
-Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLcommon.dir/src/SL_man.c.o
+                               ^
 
-Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLopenGL.dir/src/SL_openGL.c.o
+Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libPyShell.so
 
-[ 39%] [ 40%] [ 40%] Built target SLvision
+[ 79%] Built target PyShell
 
-Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLopenGL.dir/src/SL_openGL_oscilloscope.c.o
+Scanning dependencies of target test_py_shell
 
-Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLopenGL.dir/src/SL_objects.c.o
+[ 81%] Building CXX object catkin/utils/py_cpp_interface/CMakeFiles/test_py_shell.dir/src/test_py_shell.cpp.o
 
-[ 40%] [ 41%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLtask.dir/src/SL_go_cart_task.c.o
+Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/py_converter_test.so
 
-Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLopenGL.dir/src/SL_userGraphics.c.o
+Copying library files to python module directory
 
-/home/administrator/ci/ci/team/workspace/src/cmake/sl/src/SL_unix_common.c: In function ‘spawnCommandFromUserTaskThread’:
+‘/home/administrator/ci/ci/team/workspace/devel/lib/py_converter_test.so’ -> ‘/home/administrator/ci/ci/team/workspace/devel/lib/python2.7/dist-packages/py_py_cpp_interface/py_converter_test.so’
 
-/home/administrator/ci/ci/team/workspace/src/cmake/sl/src/SL_unix_common.c:405:3: warning: passing argument 3 of ‘pthread_create’ from incompatible pointer type [enabled by default]
+[ 81%] Built target py_converter_test
 
-   if ((rc=pthread_create( &uthread, &pth_attr, getCommandFromUserTask, NULL)))
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/yaml_cpp/run-tests
 
-   ^
+[ 81%] Built target run-tests
 
-In file included from /home/administrator/ci/ci/team/workspace/src/cmake/sl/include/SL_system_headers.h:51:0,
+In file included from /usr/include/python2.7/numpy/ndarraytypes.h:1761:0,
 
-                 from /home/administrator/ci/ci/team/workspace/src/cmake/sl/src/SL_unix_common.c:20:
+                 from /usr/include/python2.7/numpy/ndarrayobject.h:17,
 
-/usr/include/pthread.h:244:12: note: expected ‘void * (*)(void *)’ but argument is of type ‘void * (*)(void)’
+                 from /usr/include/python2.7/numpy/arrayobject.h:4,
 
- extern int pthread_create (pthread_t *__restrict __newthread,
+                 from /home/administrator/ci/ci/team/workspace/src/catkin/utils/py_cpp_interface/include/py_cpp_interface/eigen_converters.h:20,
 
-            ^
+                 from /home/administrator/ci/ci/team/workspace/src/catkin/utils/py_cpp_interface/include/py_cpp_interface/PyShell.h:24,
 
-[ 42%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLtask.dir/src/SL_objects.c.o
+                 from /home/administrator/ci/ci/team/workspace/src/catkin/utils/py_cpp_interface/src/test_py_shell.cpp:16:
 
-[ 42%] [ 43%] [ 44%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLtask.dir/src/SL_traj_task.c.o
+/usr/include/python2.7/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
 
-Building CXX object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/master.dir/__/sl/src/SL_invDynArt.cpp.o
+ #warning "Using deprecated NumPy API, disable it by " \
 
-[ 45%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLsimulation.dir/src/SL_integrate.c.o
+  ^
 
-Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/dlinmin.c.o
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/py_cpp_interface/test_py_shell
 
-[ 45%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/f1dim.c.o
+[ 81%] Built target test_py_shell
 
-[ 46%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/frprmn.c.o
+Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/librbdl.so
 
-[ 47%] [ 48%] Building CXX object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/master.dir/__/sl/src/SL_forDynComp.cpp.o
+[ 81%] Built target rbdl
 
-Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/j-fixed.c.o
+Scanning dependencies of target rbdl_urdfreader
 
-[ 50%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/ldltinv.c.o
+[ 82%] Building CXX object catkin/third_party/rbdl/addons/urdfreader/CMakeFiles/rbdl_urdfreader.dir/urdfreader.cc.o
 
-[ 51%] [ 51%] [ 52%] Building CXX object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/master.dir/__/sl/src/SL_forDynArt.cpp.o
+Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/librbdl_urdfreader.so
 
-Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/linmin.c.o
+[ 82%] Built target rbdl_urdfreader
 
-Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/lubksb.c.o
+Scanning dependencies of target rbdl_urdfreader_util
 
-[ 53%] [ 53%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/ludcmp.c.o
+[ 84%] Scanning dependencies of target planar_finger
 
-Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/mnbrak.c.o
+Scanning dependencies of target toy_hoppers
 
-Linking C shared library /home/administrator/ci/ci/team/workspace/devel/lib/libSLsimulation.so
+Building CXX object catkin/third_party/rbdl/addons/urdfreader/CMakeFiles/rbdl_urdfreader_util.dir/rbdl_urdfreader_util.cc.o
 
-[ 54%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/numerics_package.c.o
+[ 85%] [ 87%] [ 89%] [ 90%] [ 92%] Building CXX object catkin/robots/toy_robot_barn/planar_finger/CMakeFiles/planar_finger.dir/src/finger.cpp.o
 
-[ 56%] [ 56%] [ 57%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/powell.c.o
+Building CXX object catkin/robots/toy_robot_barn/planar_finger/CMakeFiles/planar_finger.dir/src/finger_simulator.cpp.o
 
-Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/stability.c.o
+Building CXX object catkin/robots/toy_robot_barn/toy_hoppers/CMakeFiles/toy_hoppers.dir/src/hopper_simulator.cpp.o
 
-Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/svbksb.c.o
+Building CXX object catkin/robots/toy_robot_barn/toy_hoppers/CMakeFiles/toy_hoppers.dir/src/hopper.cpp.o
 
-[ 57%] Linking C shared library /home/administrator/ci/ci/team/workspace/devel/lib/libSLcommon.so
+Building CXX object catkin/robots/toy_robot_barn/toy_hoppers/CMakeFiles/toy_hoppers.dir/src/hopper_c_interface.cpp.o
 
-Built target SLsimulation
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/rbdl/rbdl_urdfreader_util
 
-[ 58%] [ 58%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/parm_opt.c.o
+[ 92%] Built target rbdl_urdfreader_util
 
-Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/svdcmp.c.o
+Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libtoy_hoppers.so
 
-[ 59%] [ 59%] [ 60%] Built target SLcommon
+[ 92%] Built target toy_hoppers
 
-[ 61%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/lookup_table.c.o
+Scanning dependencies of target generate_example_rollout
 
-[ 62%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/kdtree.c.o
+[ 93%] Building CXX object catkin/robots/toy_robot_barn/toy_hoppers/CMakeFiles/generate_example_rollout.dir/tests/generate_example_rollout.cpp.o
 
-[ 63%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/pythag.c.o
+Scanning dependencies of target state_publisher
 
-Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/choldc.c.o
+[ 95%] Building CXX object catkin/robots/toy_robot_barn/toy_hoppers/CMakeFiles/state_publisher.dir/src/state_publisher.cpp.o
 
-[ 63%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/statistics.c.o
+Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libplanar_finger.so
 
-[ 64%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/data_sets.c.o
+[ 95%] Built target planar_finger
 
-Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/balanc.c.o
+Scanning dependencies of target generate_example_finger_rollout
 
-[ 65%] Linking C shared library /home/administrator/ci/ci/team/workspace/devel/lib/libSLtask.so
+Scanning dependencies of target py_planar_finger
 
-Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/hqr.c.o
+[ 96%] [ 98%] Building CXX object catkin/robots/toy_robot_barn/planar_finger/CMakeFiles/generate_example_finger_rollout.dir/tests/generate_example_rollout.cpp.o
 
-Linking C shared library /home/administrator/ci/ci/team/workspace/devel/lib/libSLopenGL.so
+Scanning dependencies of target finger_state_publisher
 
-[ 67%] [ 67%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/elmhes.c.o
+Building CXX object catkin/robots/toy_robot_barn/planar_finger/CMakeFiles/py_planar_finger.dir/src/py_planar_finger.cpp.o
 
-Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/utility.c.o
+[100%] Building CXX object catkin/robots/toy_robot_barn/planar_finger/CMakeFiles/finger_state_publisher.dir/src/state_publisher.cpp.o
 
-[ 67%] Built target SLtask
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/toy_hoppers/generate_example_rollout
 
-[ 67%] Built target SLopenGL
+[100%] Built target generate_example_rollout
 
-Linking C shared library /home/administrator/ci/ci/team/workspace/devel/lib/libutility.so
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/planar_finger/generate_example_finger_rollout
 
-[ 67%] Built target utility
+[100%] Built target generate_example_finger_rollout
 
-Scanning dependencies of target xascii2clmcplot
+In file included from /usr/include/python2.7/numpy/ndarraytypes.h:1761:0,
 
-Scanning dependencies of target lwpr
+                 from /usr/include/python2.7/numpy/ndarrayobject.h:17,
 
-Scanning dependencies of target xlwpr
+                 from /usr/include/python2.7/numpy/arrayobject.h:4,
 
-[ 68%] [ 69%] [ 70%] [ 70%] [ 71%] Scanning dependencies of target xmaster
+                 from /home/administrator/ci/ci/team/workspace/src/catkin/utils/py_cpp_interface/include/py_cpp_interface/eigen_converters.h:20,
 
-[ 72%] Scanning dependencies of target xlwprstat
+                 from /home/administrator/ci/ci/team/workspace/src/catkin/robots/toy_robot_barn/planar_finger/src/py_planar_finger.cpp:23:
 
-Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/lwpr.dir/src/lwpr_script.c.o
+/usr/include/python2.7/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
 
-[ 73%] Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/xascii2clmcplot.dir/src/ascii2mrdplot.c.o
+ #warning "Using deprecated NumPy API, disable it by " \
 
-[ 74%] Scanning dependencies of target xpest
+  ^
 
-Scanning dependencies of target xmotor
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/toy_hoppers/state_publisher
 
-[ 75%] [ 76%] Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/xlwpr.dir/src/lwpr_test.c.o
+[100%] Built target state_publisher
 
-Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/xlwpr.dir/src/lwpr.c.o
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/planar_finger/finger_state_publisher
 
-Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/xlwpr.dir/src/lwpr_main.c.o
+[100%] Built target finger_state_publisher
 
-Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/xlwpr.dir/src/lwpr_script.c.o
+Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/py_planar_finger.so
 
-Building C object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/xmaster.dir/src/SL_main.c.o
+Copying library files to python module directory
 
-Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/lwpr.dir/src/lwpr.c.o
+‘/home/administrator/ci/ci/team/workspace/devel/lib/py_planar_finger.so’ -> ‘/home/administrator/ci/ci/team/workspace/devel/lib/python2.7/dist-packages/py_planar_finger/py_planar_finger.so’
 
-[ 77%] Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/xlwprstat.dir/src/lwpr_stat.c.o
-
-[ 77%] [ 78%] [ 79%] Building C object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/xpest.dir/__/sl/src/SL_parm_estimate.c.o
-
-Building C object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/xmaster.dir/src/SL_user_common.c.o
-
-Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/xlwprstat.dir/src/lwpr.c.o
-
-Building C object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/xmotor.dir/src/SL_user_motor.c.o
-
-Linking C executable xascii2clmcplot
-
-Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/xlwprstat.dir/src/lwpr_main.c.o
-
-[ 80%] [ 81%] Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/xlwprstat.dir/src/lwpr_script.c.o
-
-[ 82%] Building C object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/xmotor.dir/src/SL_user_sensor_proc_unix.c.o
-
-Building C object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/xpest.dir/src/SL_user_commands.c.o
-
-In file included from /home/administrator/ci/ci/team/workspace/src/cmake/master/src/SL_main.c:55:0:
-
-/home/administrator/ci/ci/team/workspace/src/cmake/sl/include/SL_user_main_core.h: In function ‘main’:
-
-/home/administrator/ci/ci/team/workspace/src/cmake/sl/include/SL_user_main_core.h:60:7: warning: ‘return’ with no value, in function returning non-void [-Wreturn-type]
-
-       return;
-
-       ^
-
-/home/administrator/ci/ci/team/workspace/src/cmake/sl/include/SL_user_main_core.h:62:7: warning: format not a string literal and no format arguments [-Wformat-security]
-
-       sprintf(start_task,argv[i+1]);
-
-       ^
-
-/home/administrator/ci/ci/team/workspace/src/cmake/sl/include/SL_user_main_core.h:118:3: warning: format not a string literal and no format arguments [-Wformat-security]
-
-   sprintf(argv_array[c++],start_task);
-
-   ^
-
-[ 83%] Building C object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/xpest.dir/src/SL_user_common.c.o
-
-[ 84%] Building C object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/xpest.dir/__/sl/src/SL_kinematics.c.o
-
-Linking C executable xmaster
-
-[ 84%] [ 85%] Building C object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/xpest.dir/__/sl/src/SL_dynamics.c.o
-
-[ 86%] Building CXX object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/xpest.dir/__/sl/src/SL_invDynNE.cpp.o
-
-Building CXX object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/xpest.dir/__/sl/src/SL_invDynArt.cpp.o
-
-[ 88%] [ 88%] [ 88%] Building C object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/xmotor.dir/src/SL_user_commands.c.o
-
-Building CXX object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/xpest.dir/__/sl/src/SL_forDynComp.cpp.o
-
-Building C object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/xmotor.dir/src/SL_user_common.c.o
-
-[ 89%] Building C object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/xmotor.dir/__/sl/src/SL_kinematics.c.o
-
-[ 89%] Built target xascii2clmcplot
-
-[ 90%] Building CXX object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/xpest.dir/__/sl/src/SL_forDynArt.cpp.o
-
-[ 91%] [ 92%] Building C object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/xmotor.dir/__/sl/src/SL_dynamics.c.o
-
-Building CXX object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/xmotor.dir/__/sl/src/SL_invDynNE.cpp.o
-
-[ 92%] Built target xmaster
-
-[ 93%] [ 94%] Building CXX object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/xmotor.dir/__/sl/src/SL_invDynArt.cpp.o
-
-Building CXX object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/xmotor.dir/__/sl/src/SL_forDynComp.cpp.o
-
-[ 94%] Building CXX object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/xmotor.dir/__/sl/src/SL_forDynArt.cpp.o
-
-Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libmaster.so
-
-[ 94%] Built target master
-
-Scanning dependencies of target gravityComp_task
-
-Scanning dependencies of target haptic_task
-
-[ 95%] [ 95%] Building C object catkin/robots/catkin-masterUser/tmp_catkin_master_user/CMakeFiles/gravityComp_task.dir/src/gravityComp_task.c.o
-
-Building C object catkin/robots/catkin-masterUser/tmp_catkin_master_user/CMakeFiles/haptic_task.dir/src/haptic_task.c.o
-
-Linking C shared library /home/administrator/ci/ci/team/workspace/devel/lib/libgravityComp_task.so
-
-Scanning dependencies of target xopengl_master
-
-[ 96%] Building C object catkin/robots/catkin-masterUser/tmp_catkin_master_user/CMakeFiles/xopengl_master.dir/src/initUserGraphics.c.o
-
-Linking C shared library /home/administrator/ci/ci/team/workspace/devel/lib/libhaptic_task.so
-
-[ 96%] Built target gravityComp_task
-
-Scanning dependencies of target xsimulation_master
-
-[ 96%] Built target haptic_task
-
-[ 97%] Building C object catkin/robots/catkin-masterUser/tmp_catkin_master_user/CMakeFiles/xsimulation_master.dir/src/initUserSimulation.c.o
-
-Linking C executable /home/administrator/ci/ci/team/workspace/devel/lib/master_user/xsimulation
-
-Linking C executable /home/administrator/ci/ci/team/workspace/devel/lib/master_user/xopengl
-
-Linking C shared library /home/administrator/ci/ci/team/workspace/devel/lib/liblwpr.so
-
-Linking C executable xlwprstat
-
-Linking C executable xlwpr
-
-[ 97%] Built target lwpr
-
-Scanning dependencies of target master_test_task
-
-[ 98%] [ 98%] Building CXX object catkin/robots/catkin-sl-master-task-example/CMakeFiles/master_test_task.dir/src/master_test_task.cpp.o
-
-Built target xsimulation_master
-
-[ 98%] [ 98%] Built target xlwprstat
-
-Built target xopengl_master
-
-[ 98%] Built target xlwpr
-
-Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libmaster_test_task.so
-
-[ 98%] Built target master_test_task
-
-Scanning dependencies of target xtask_master
-
-[100%] Building C object catkin/robots/catkin-masterUser/tmp_catkin_master_user/CMakeFiles/xtask_master.dir/src/initUserTasks.c.o
-
-Linking C executable /home/administrator/ci/ci/team/workspace/devel/lib/master_user/xtask
-
-[100%] Built target xtask_master
-
-Linking CXX executable xpest
-
-Linking CXX executable xmotor
-
-[100%] Built target xpest
-
-[100%] Built target xmotor
+[100%] Built target py_planar_finger
 
 Install the project...
 
--- Install configuration: ""
+-- Install configuration: "Release"
 
 -- Installing: /home/administrator/ci/ci/team/workspace/install/_setup_util.py
 
@@ -794,335 +518,1049 @@ Install the project...
 
 -- Installing: /home/administrator/ci/ci/team/workspace/install/.rosinstall
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/utilities.pc
+-- Installing: /home/administrator/ci/ci/team/workspace/install/etc/catkin/profile.d/05.catkin_make.bash
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/utilities/cmake/utilities.cmake
+-- Installing: /home/administrator/ci/ci/team/workspace/install/etc/catkin/profile.d/05.catkin_make_isolated.bash
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/utilities/cmake/utilitiesConfig.cmake
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/catkin.pc
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/utilities/cmake/utilitiesConfig-version.cmake
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/catkinConfig.cmake
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/utilities/package.xml
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/catkinConfig-version.cmake
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/utility.h
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/package.xml
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/data_sets.h
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/LICENSE
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/nrutil.h
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/eigen/cmake/eigen-config.cmake
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/statistics.h
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/eigen/cmake/eigen-config-version.cmake
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/utility_macros.h
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/mdefs.h
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/empy.cmake
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/x86_64/libutility.so
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/find_program_required.cmake
 
--- Set runtime path of "/home/administrator/ci/ci/team/workspace/install/lib/x86_64/libutility.so" to "/home/administrator/ci/ci/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib"
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/platform
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/lwpr.pc
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/platform/ubuntu.cmake
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/lwpr/cmake/lwpr.cmake
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/platform/lsb.cmake
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/lwpr/cmake/lwprConfig.cmake
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/platform/windows.cmake
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/lwpr/cmake/lwprConfig-version.cmake
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/assert.cmake
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/lwpr/package.xml
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/catkin_generate_environment.cmake
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/x86_64/liblwpr.so
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/tools
 
--- Set runtime path of "/home/administrator/ci/ci/team/workspace/install/lib/x86_64/liblwpr.so" to "/home/administrator/ci/ci/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib:/home/administrator/ci/ci/team/workspace/devel/lib"
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/tools/bz2.cmake
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/bin/x86_64/xlwpr
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/tools/rt.cmake
 
--- Set runtime path of "/home/administrator/ci/ci/team/workspace/install/bin/x86_64/xlwpr" to "/home/administrator/ci/ci/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib:/home/administrator/ci/ci/team/workspace/devel/lib"
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/tools/doxygen.cmake
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/bin/x86_64/xlwprstat
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/tools/threads.cmake
 
--- Set runtime path of "/home/administrator/ci/ci/team/workspace/install/bin/x86_64/xlwprstat" to "/home/administrator/ci/ci/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib:/home/administrator/ci/ci/team/workspace/devel/lib"
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/tools/libraries.cmake
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/bin/x86_64/xascii2clmcplot
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/atomic_configure_file.cmake
 
--- Set runtime path of "/home/administrator/ci/ci/team/workspace/install/bin/x86_64/xascii2clmcplot" to "/home/administrator/ci/ci/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib:/home/administrator/ci/ci/team/workspace/devel/lib"
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/test
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/lwpr.h
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/test/download_test_data.cmake
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/sl.pc
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/test/catkin_download_test_data.cmake
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/sl/cmake/sl.cmake
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/test/download_checkmd5.py
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/sl/cmake/slConfig.cmake
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/test/tests.cmake
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/sl/cmake/slConfig-version.cmake
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/test/nosetests.cmake
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/sl/package.xml
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/test/gtest.cmake
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/x86_64/libSLcommon.so
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/test/run_tests.py
 
--- Set runtime path of "/home/administrator/ci/ci/team/workspace/install/lib/x86_64/libSLcommon.so" to "/home/administrator/ci/ci/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib"
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/string_starts_with.cmake
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/x86_64/libSLtask.so
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/catkin_python_setup.cmake
 
--- Set runtime path of "/home/administrator/ci/ci/team/workspace/install/lib/x86_64/libSLtask.so" to "/home/administrator/ci/ci/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib"
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/shell.cmake
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/x86_64/libSLmotor.so
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/catkin_metapackage.cmake
 
--- Set runtime path of "/home/administrator/ci/ci/team/workspace/install/lib/x86_64/libSLmotor.so" to "/home/administrator/ci/ci/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib"
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/catkin_libraries.cmake
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/x86_64/libSLsimulation.so
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/list_append_unique.cmake
 
--- Set runtime path of "/home/administrator/ci/ci/team/workspace/install/lib/x86_64/libSLsimulation.so" to "/home/administrator/ci/ci/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib"
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/safe_execute_process.cmake
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/x86_64/libSLopenGL.so
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/env-hooks
 
--- Set runtime path of "/home/administrator/ci/ci/team/workspace/install/lib/x86_64/libSLopenGL.so" to "/home/administrator/ci/ci/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib"
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/env-hooks/05.catkin-test-results.bat.develspace.in
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/x86_64/libSLvision.so
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/env-hooks/05.catkin-test-results.sh.develspace.in
 
--- Set runtime path of "/home/administrator/ci/ci/team/workspace/install/lib/x86_64/libSLvision.so" to "/home/administrator/ci/ci/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib"
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/env-hooks/05.catkin_make.bash
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL.h
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/env-hooks/05.catkin_make_isolated.bash
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_collect_data.h
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/catkin_workspace.cmake
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_common.h
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/catkin_package_xml.cmake
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_controller.h
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/parse_arguments.cmake
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_dynamics.h
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_filters.h
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/python_distutils_install.bat.in
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_integrate.h
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/script.sh.in
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_kinematics.h
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/python_distutils_install.sh.in
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_man.h
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/relay.py.in
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_motor_servo.h
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/script.bash.in
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_objects.h
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/setup.sh.in
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_objects_defines.h
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/setup.bat.in
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_openGL.h
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/env.sh.in
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_openGL_servo.h
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/safe_execute_install.cmake.in
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_oscilloscope.h
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/pkg.context.pc.in
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_rt_mutex.h
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/_setup_util.py
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_sensor_proc.h
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/pkgConfig-version.cmake.in
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_shared_memory.h
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/__init__.py.in
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_simulation_servo.h
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/setup.zsh.in
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_system_headers.h
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/generate_cached_setup.py.in
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_task_servo.h
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/env.bat.in
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_tasks.h
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/rosinstall.in
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_terrains.h
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/script.py.in
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_unix_common.h
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/_setup_util.py.in
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_userGraphics.h
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/order_packages.context.py.in
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_userSimulation.h
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/pkgConfig.cmake.in
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_user_common.h
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/Doxyfile.in
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_user_display_core.h
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/setup.bash.in
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_user_idle_core.h
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/script.in
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_user_main_core.h
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/env-hook.context.py.in
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_vision_servo.h
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/cfg-extras.context.py.in
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_serial_unix.h
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/debug_message.cmake
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_serial_xeno.h
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/parse_package_xml.py
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_vx_wrappers.h
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/catkin_install_python.cmake
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_xeno_common.h
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/list_insert_in_workspace_order.cmake
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_xeno_headers.h
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/legacy.cmake
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/master.pc
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/catkin_package.cmake
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/master/cmake/master.cmake
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/catkin_destinations.cmake
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/master/cmake/masterConfig.cmake
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/stamp.cmake
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/master/cmake/masterConfig-version.cmake
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/catkin_add_env_hooks.cmake
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/master/package.xml
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/em_expand.cmake
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/x86_64/libmaster.so
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/interrogate_setup_dot_py.py
 
--- Set runtime path of "/home/administrator/ci/ci/team/workspace/install/lib/x86_64/libmaster.so" to "/home/administrator/ci/ci/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib"
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/order_paths.py
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/x86_64/libmaster_openGL.so
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/toplevel.cmake
 
--- Set runtime path of "/home/administrator/ci/ci/team/workspace/install/lib/x86_64/libmaster_openGL.so" to "/home/administrator/ci/ci/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib"
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/list_append_deduplicate.cmake
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/x86_64/libmaster_task.so
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/all.cmake
 
--- Set runtime path of "/home/administrator/ci/ci/team/workspace/install/lib/x86_64/libmaster_task.so" to "/home/administrator/ci/ci/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib"
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/em
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/x86_64/libmaster_simulation.so
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/em/order_packages.cmake.em
 
--- Set runtime path of "/home/administrator/ci/ci/team/workspace/install/lib/x86_64/libmaster_simulation.so" to "/home/administrator/ci/ci/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib"
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/em/pkg.pc.em
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/x86_64/xmaster
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/python.cmake
 
--- Set runtime path of "/home/administrator/ci/ci/team/workspace/install/bin/master/x86_64/xmaster" to "/home/administrator/ci/ci/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib:/home/administrator/ci/ci/team/workspace/devel/lib"
++ [ -n  ]
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/x86_64/xmotor
++ cd /home/administrator/ci/ci/team/workspace/src/catkin/third_party/catkin
 
--- Set runtime path of "/home/administrator/ci/ci/team/workspace/install/bin/master/x86_64/xmotor" to "/home/administrator/ci/ci/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib:/home/administrator/ci/ci/team/workspace/devel/lib"
++ /usr/bin/env PYTHONPATH=/home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages:/home/administrator/ci/ci/team/workspace/build/lib/python2.7/dist-packages:/opt/ros/indigo/lib/python2.7/dist-packages CATKIN_BINARY_DIR=/home/administrator/ci/ci/team/workspace/build /usr/bin/python /home/administrator/ci/ci/team/workspace/src/catkin/third_party/catkin/setup.py build --build-base /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin install --install-layout=deb --prefix=/home/administrator/ci/ci/team/workspace/install --install-scripts=/home/administrator/ci/ci/team/workspace/install/bin
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/x86_64/xpest
+running build
 
--- Set runtime path of "/home/administrator/ci/ci/team/workspace/install/bin/master/x86_64/xpest" to "/home/administrator/ci/ci/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib:/home/administrator/ci/ci/team/workspace/devel/lib"
+running build_py
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/x86_64/libmaster_test_task.so
+creating /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7
 
--- Set runtime path of "/home/administrator/ci/ci/team/workspace/install/lib/x86_64/libmaster_test_task.so" to "/home/administrator/ci/ci/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib:/home/administrator/ci/ci/team/workspace/devel/lib"
+creating /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7/catkin
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/master_test_task.pc
+copying python/catkin/workspace_vcs.py -> /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7/catkin
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/master_test_task/cmake/master_test_taskConfig.cmake
+copying python/catkin/environment_cache.py -> /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7/catkin
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/master_test_task/cmake/master_test_taskConfig-version.cmake
+copying python/catkin/workspace.py -> /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7/catkin
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/master_test_task/package.xml
+copying python/catkin/__init__.py -> /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7/catkin
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/master_user.pc
+copying python/catkin/package_version.py -> /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7/catkin
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/master_user/cmake/master_user.cmake
+copying python/catkin/builder.py -> /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7/catkin
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/master_user/cmake/master_userConfig.cmake
+copying python/catkin/find_in_workspaces.py -> /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7/catkin
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/master_user/cmake/master_userConfig-version.cmake
+copying python/catkin/cmake.py -> /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7/catkin
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/master_user/package.xml
+copying python/catkin/init_workspace.py -> /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7/catkin
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/config/StereoParameters.cf
+copying python/catkin/terminal_color.py -> /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7/catkin
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/config/ServoParameters.cf
+copying python/catkin/test_results.py -> /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7/catkin
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/config/ServoParametersSim.cf
+copying python/catkin/tidy_xml.py -> /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7/catkin
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/config/ConfigFilesSim.cf
+running build_scripts
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/config/Translation.cf
+creating /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/scripts-2.7
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/config/Gains.cf
+copying and adjusting bin/catkin_find -> /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/scripts-2.7
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/config/SensorOffset.cf
+copying and adjusting bin/catkin_init_workspace -> /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/scripts-2.7
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/config/Ajc.cf
+copying and adjusting bin/catkin_make -> /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/scripts-2.7
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/config/SensorFilter.cf
+copying and adjusting bin/catkin_make_isolated -> /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/scripts-2.7
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/config/ParameterPool.cf
+copying and adjusting bin/catkin_package_version -> /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/scripts-2.7
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/config/SensorCalibration.cf
+copying and adjusting bin/catkin_prepare_release -> /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/scripts-2.7
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/config/WhichDOFs.cf
+copying and adjusting bin/catkin_test_results -> /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/scripts-2.7
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/config/Contacts.cf
+copying and adjusting bin/catkin_topological_order -> /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/scripts-2.7
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/config/ConfigFiles.cf
+changing mode of /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/scripts-2.7/catkin_find from 644 to 755
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/config/xpest_parameters.cf
+changing mode of /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/scripts-2.7/catkin_init_workspace from 644 to 755
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/config/LinkParameters.cf
+changing mode of /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/scripts-2.7/catkin_make from 644 to 755
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/config/AjcRegisters.cf
+changing mode of /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/scripts-2.7/catkin_make_isolated from 644 to 755
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/config/LinkParametersSim.cf
+changing mode of /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/scripts-2.7/catkin_package_version from 644 to 755
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/config/Objects.cf
+changing mode of /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/scripts-2.7/catkin_prepare_release from 644 to 755
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/config/butterworth_table_order_2
+changing mode of /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/scripts-2.7/catkin_test_results from 644 to 755
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/prefs/tracking_task.pp
+changing mode of /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/scripts-2.7/catkin_topological_order from 644 to 755
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/prefs/vision_default.osc
+running install
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/prefs/vision_default.script
+running install_lib
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/prefs/default.sine
+creating /home/administrator/ci/ci/team/workspace/install/lib/python2.7
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/prefs/motor_default.osc
+creating /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/prefs/one_dof.script
+creating /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/prefs/sim_default.osc
+copying /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7/catkin/workspace_vcs.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/prefs/vision_sample.script
+copying /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7/catkin/environment_cache.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/prefs/task_default.script
+copying /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7/catkin/workspace.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/prefs/sim_default.script
+copying /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7/catkin/__init__.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/prefs/task_sample.script
+copying /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7/catkin/package_version.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/prefs/invdyn.script
+copying /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7/catkin/builder.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/prefs/invdyn2.sine
+copying /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7/catkin/find_in_workspaces.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/prefs/vision_default.pp
+copying /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7/catkin/cmake.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/prefs/default_script
+copying /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7/catkin/init_workspace.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/prefs/force_B.script
+copying /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7/catkin/terminal_color.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/prefs/motor_sample.script
+copying /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7/catkin/test_results.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/prefs/preferred_register_file
+copying /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7/catkin/tidy_xml.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/prefs/one_dof.sine
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin/workspace_vcs.py to workspace_vcs.pyc
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/prefs/sim_sample.script
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin/environment_cache.py to environment_cache.pyc
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/prefs/motor_default.script
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin/workspace.py to workspace.pyc
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/prefs/invdyn.sine
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin/__init__.py to __init__.pyc
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/prefs/task_default.osc
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin/package_version.py to package_version.pyc
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/prefs/vision_calibration.pp
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin/builder.py to builder.pyc
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/export_paths.sh
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin/find_in_workspaces.py to find_in_workspaces.pyc
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/x86_64/libhaptic_task.so
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin/cmake.py to cmake.pyc
 
--- Set runtime path of "/home/administrator/ci/ci/team/workspace/install/lib/x86_64/libhaptic_task.so" to "/home/administrator/ci/ci/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib:/home/administrator/ci/ci/team/workspace/devel/lib"
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin/init_workspace.py to init_workspace.pyc
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/x86_64/libgravityComp_task.so
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin/terminal_color.py to terminal_color.pyc
 
--- Set runtime path of "/home/administrator/ci/ci/team/workspace/install/lib/x86_64/libgravityComp_task.so" to "/home/administrator/ci/ci/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib:/home/administrator/ci/ci/team/workspace/devel/lib"
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin/test_results.py to test_results.pyc
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/x86_64/xopengl
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin/tidy_xml.py to tidy_xml.pyc
 
--- Set runtime path of "/home/administrator/ci/ci/team/workspace/install/bin/master/x86_64/xopengl" to "/home/administrator/ci/ci/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib:/home/administrator/ci/ci/team/workspace/devel/lib"
+running install_scripts
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/x86_64/xsimulation
+creating /home/administrator/ci/ci/team/workspace/install/bin
 
--- Set runtime path of "/home/administrator/ci/ci/team/workspace/install/bin/master/x86_64/xsimulation" to "/home/administrator/ci/ci/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib:/home/administrator/ci/ci/team/workspace/devel/lib"
+copying /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/scripts-2.7/catkin_find -> /home/administrator/ci/ci/team/workspace/install/bin
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/x86_64/xtask
+copying /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/scripts-2.7/catkin_topological_order -> /home/administrator/ci/ci/team/workspace/install/bin
 
--- Set runtime path of "/home/administrator/ci/ci/team/workspace/install/bin/master/x86_64/xtask" to "/home/administrator/ci/ci/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib:/home/administrator/ci/ci/team/workspace/devel/lib"
+copying /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/scripts-2.7/catkin_init_workspace -> /home/administrator/ci/ci/team/workspace/install/bin
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/scripts-2.7/catkin_make -> /home/administrator/ci/ci/team/workspace/install/bin
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/scripts-2.7/catkin_package_version -> /home/administrator/ci/ci/team/workspace/install/bin
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/scripts-2.7/catkin_test_results -> /home/administrator/ci/ci/team/workspace/install/bin
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/scripts-2.7/catkin_prepare_release -> /home/administrator/ci/ci/team/workspace/install/bin
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/scripts-2.7/catkin_make_isolated -> /home/administrator/ci/ci/team/workspace/install/bin
+
+changing mode of /home/administrator/ci/ci/team/workspace/install/bin/catkin_find to 755
+
+changing mode of /home/administrator/ci/ci/team/workspace/install/bin/catkin_topological_order to 755
+
+changing mode of /home/administrator/ci/ci/team/workspace/install/bin/catkin_init_workspace to 755
+
+changing mode of /home/administrator/ci/ci/team/workspace/install/bin/catkin_make to 755
+
+changing mode of /home/administrator/ci/ci/team/workspace/install/bin/catkin_package_version to 755
+
+changing mode of /home/administrator/ci/ci/team/workspace/install/bin/catkin_test_results to 755
+
+changing mode of /home/administrator/ci/ci/team/workspace/install/bin/catkin_prepare_release to 755
+
+changing mode of /home/administrator/ci/ci/team/workspace/install/bin/catkin_make_isolated to 755
+
+running install_egg_info
+
+Writing /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin-0.5.90.egg-info
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/Eigen.pc
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/Eigen/cmake/EigenConfig.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/Eigen/cmake/EigenConfig-version.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/Eigen/package.xml
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/experiment_config.pc
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/experiment_config/cmake/experiment_configConfig.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/experiment_config/cmake/experiment_configConfig-version.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/experiment_config/package.xml
+
++ [ -n  ]
+
++ cd /home/administrator/ci/ci/team/workspace/src/catkin/experiments/catkin_experiment_config
+
++ /usr/bin/env PYTHONPATH=/home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages:/home/administrator/ci/ci/team/workspace/build/lib/python2.7/dist-packages:/opt/ros/indigo/lib/python2.7/dist-packages CATKIN_BINARY_DIR=/home/administrator/ci/ci/team/workspace/build /usr/bin/python /home/administrator/ci/ci/team/workspace/src/catkin/experiments/catkin_experiment_config/setup.py build --build-base /home/administrator/ci/ci/team/workspace/build/catkin/experiments/catkin_experiment_config install --install-layout=deb --prefix=/home/administrator/ci/ci/team/workspace/install --install-scripts=/home/administrator/ci/ci/team/workspace/install/bin
+
+running build
+
+running build_py
+
+creating /home/administrator/ci/ci/team/workspace/build/catkin/experiments/catkin_experiment_config/lib.linux-x86_64-2.7
+
+creating /home/administrator/ci/ci/team/workspace/build/catkin/experiments/catkin_experiment_config/lib.linux-x86_64-2.7/experiment_config
+
+copying experiment_config/experiment_config/__init__.py -> /home/administrator/ci/ci/team/workspace/build/catkin/experiments/catkin_experiment_config/lib.linux-x86_64-2.7/experiment_config
+
+copying experiment_config/experiment_config/utils.py -> /home/administrator/ci/ci/team/workspace/build/catkin/experiments/catkin_experiment_config/lib.linux-x86_64-2.7/experiment_config
+
+copying experiment_config/experiment_config/result.py -> /home/administrator/ci/ci/team/workspace/build/catkin/experiments/catkin_experiment_config/lib.linux-x86_64-2.7/experiment_config
+
+copying experiment_config/experiment_config/config.py -> /home/administrator/ci/ci/team/workspace/build/catkin/experiments/catkin_experiment_config/lib.linux-x86_64-2.7/experiment_config
+
+copying experiment_config/experiment_config/config_stage.py -> /home/administrator/ci/ci/team/workspace/build/catkin/experiments/catkin_experiment_config/lib.linux-x86_64-2.7/experiment_config
+
+copying experiment_config/experiment_config/main.py -> /home/administrator/ci/ci/team/workspace/build/catkin/experiments/catkin_experiment_config/lib.linux-x86_64-2.7/experiment_config
+
+copying experiment_config/experiment_config/factory.py -> /home/administrator/ci/ci/team/workspace/build/catkin/experiments/catkin_experiment_config/lib.linux-x86_64-2.7/experiment_config
+
+running install
+
+running install_lib
+
+creating /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/experiment_config
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/experiments/catkin_experiment_config/lib.linux-x86_64-2.7/experiment_config/__init__.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/experiment_config
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/experiments/catkin_experiment_config/lib.linux-x86_64-2.7/experiment_config/utils.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/experiment_config
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/experiments/catkin_experiment_config/lib.linux-x86_64-2.7/experiment_config/result.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/experiment_config
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/experiments/catkin_experiment_config/lib.linux-x86_64-2.7/experiment_config/config.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/experiment_config
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/experiments/catkin_experiment_config/lib.linux-x86_64-2.7/experiment_config/config_stage.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/experiment_config
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/experiments/catkin_experiment_config/lib.linux-x86_64-2.7/experiment_config/main.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/experiment_config
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/experiments/catkin_experiment_config/lib.linux-x86_64-2.7/experiment_config/factory.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/experiment_config
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/experiment_config/__init__.py to __init__.pyc
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/experiment_config/utils.py to utils.pyc
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/experiment_config/result.py to result.pyc
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/experiment_config/config.py to config.pyc
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/experiment_config/config_stage.py to config_stage.pyc
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/experiment_config/main.py to main.pyc
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/experiment_config/factory.py to factory.pyc
+
+running install_egg_info
+
+Writing /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/experiment_config-1.0.0.egg-info
+
++ [ -n  ]
+
++ cd /home/administrator/ci/ci/team/workspace/src/catkin/learning/guided-policy-search
+
++ /usr/bin/env PYTHONPATH=/home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages:/home/administrator/ci/ci/team/workspace/build/lib/python2.7/dist-packages:/opt/ros/indigo/lib/python2.7/dist-packages CATKIN_BINARY_DIR=/home/administrator/ci/ci/team/workspace/build /usr/bin/python /home/administrator/ci/ci/team/workspace/src/catkin/learning/guided-policy-search/setup.py build --build-base /home/administrator/ci/ci/team/workspace/build/catkin/learning/guided-policy-search install --install-layout=deb --prefix=/home/administrator/ci/ci/team/workspace/install --install-scripts=/home/administrator/ci/ci/team/workspace/install/bin
+
+running build
+
+running build_py
+
+creating /home/administrator/ci/ci/team/workspace/build/catkin/learning/guided-policy-search/lib.linux-x86_64-2.7
+
+creating /home/administrator/ci/ci/team/workspace/build/catkin/learning/guided-policy-search/lib.linux-x86_64-2.7/guided_policy_search
+
+copying src/guided_policy_search/util.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/guided-policy-search/lib.linux-x86_64-2.7/guided_policy_search
+
+copying src/guided_policy_search/dynamics.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/guided-policy-search/lib.linux-x86_64-2.7/guided_policy_search
+
+copying src/guided_policy_search/__init__.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/guided-policy-search/lib.linux-x86_64-2.7/guided_policy_search
+
+copying src/guided_policy_search/policy.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/guided-policy-search/lib.linux-x86_64-2.7/guided_policy_search
+
+copying src/guided_policy_search/cost.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/guided-policy-search/lib.linux-x86_64-2.7/guided_policy_search
+
+copying src/guided_policy_search/agent.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/guided-policy-search/lib.linux-x86_64-2.7/guided_policy_search
+
+copying src/guided_policy_search/optimize.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/guided-policy-search/lib.linux-x86_64-2.7/guided_policy_search
+
+running install
+
+running install_lib
+
+creating /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/guided_policy_search
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/guided-policy-search/lib.linux-x86_64-2.7/guided_policy_search/util.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/guided_policy_search
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/guided-policy-search/lib.linux-x86_64-2.7/guided_policy_search/dynamics.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/guided_policy_search
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/guided-policy-search/lib.linux-x86_64-2.7/guided_policy_search/__init__.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/guided_policy_search
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/guided-policy-search/lib.linux-x86_64-2.7/guided_policy_search/policy.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/guided_policy_search
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/guided-policy-search/lib.linux-x86_64-2.7/guided_policy_search/cost.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/guided_policy_search
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/guided-policy-search/lib.linux-x86_64-2.7/guided_policy_search/agent.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/guided_policy_search
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/guided-policy-search/lib.linux-x86_64-2.7/guided_policy_search/optimize.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/guided_policy_search
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/guided_policy_search/util.py to util.pyc
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/guided_policy_search/dynamics.py to dynamics.pyc
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/guided_policy_search/__init__.py to __init__.pyc
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/guided_policy_search/policy.py to policy.pyc
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/guided_policy_search/cost.py to cost.pyc
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/guided_policy_search/agent.py to agent.pyc
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/guided_policy_search/optimize.py to optimize.pyc
+
+running install_egg_info
+
+Writing /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/guided_policy_search-0.0.0.egg-info
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/guided_policy_search.pc
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/guided_policy_search/cmake/guided_policy_searchConfig.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/guided_policy_search/cmake/guided_policy_searchConfig-version.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/guided_policy_search/package.xml
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/py_cpp_interface.pc
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/py_cpp_interface/cmake/py_cpp_interface.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/py_cpp_interface/cmake/py_cpp_interfaceConfig.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/py_cpp_interface/cmake/py_cpp_interfaceConfig-version.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/py_cpp_interface/package.xml
+
++ [ -n  ]
+
++ cd /home/administrator/ci/ci/team/workspace/src/catkin/utils/py_cpp_interface
+
++ /usr/bin/env PYTHONPATH=/home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages:/home/administrator/ci/ci/team/workspace/build/lib/python2.7/dist-packages:/opt/ros/indigo/lib/python2.7/dist-packages CATKIN_BINARY_DIR=/home/administrator/ci/ci/team/workspace/build /usr/bin/python /home/administrator/ci/ci/team/workspace/src/catkin/utils/py_cpp_interface/setup.py build --build-base /home/administrator/ci/ci/team/workspace/build/catkin/utils/py_cpp_interface install --install-layout=deb --prefix=/home/administrator/ci/ci/team/workspace/install --install-scripts=/home/administrator/ci/ci/team/workspace/install/bin
+
+/usr/lib/python2.7/distutils/dist.py:267: UserWarning: Unknown distribution option: 'install_requires'
+
+  warnings.warn(msg)
+
+running build
+
+running build_py
+
+creating /home/administrator/ci/ci/team/workspace/build/catkin/utils/py_cpp_interface/lib.linux-x86_64-2.7
+
+creating /home/administrator/ci/ci/team/workspace/build/catkin/utils/py_cpp_interface/lib.linux-x86_64-2.7/py_py_cpp_interface
+
+copying src/py_py_cpp_interface/test_converters.py -> /home/administrator/ci/ci/team/workspace/build/catkin/utils/py_cpp_interface/lib.linux-x86_64-2.7/py_py_cpp_interface
+
+copying src/py_py_cpp_interface/__init__.py -> /home/administrator/ci/ci/team/workspace/build/catkin/utils/py_cpp_interface/lib.linux-x86_64-2.7/py_py_cpp_interface
+
+copying src/py_py_cpp_interface/embIPython.py -> /home/administrator/ci/ci/team/workspace/build/catkin/utils/py_cpp_interface/lib.linux-x86_64-2.7/py_py_cpp_interface
+
+running install
+
+running install_lib
+
+creating /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/py_py_cpp_interface
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/utils/py_cpp_interface/lib.linux-x86_64-2.7/py_py_cpp_interface/test_converters.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/py_py_cpp_interface
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/utils/py_cpp_interface/lib.linux-x86_64-2.7/py_py_cpp_interface/__init__.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/py_py_cpp_interface
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/utils/py_cpp_interface/lib.linux-x86_64-2.7/py_py_cpp_interface/embIPython.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/py_py_cpp_interface
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/py_py_cpp_interface/test_converters.py to test_converters.pyc
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/py_py_cpp_interface/__init__.py to __init__.pyc
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/py_py_cpp_interface/embIPython.py to embIPython.pyc
+
+running install_egg_info
+
+Writing /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/py_cpp_interface-1.0.0.egg-info
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/rbdl.pc
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/rbdl/cmake/rbdlConfig.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/rbdl/cmake/rbdlConfig-version.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/rbdl/package.xml
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/x86_64-linux-gnu/librbdl.so.2.5.0
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/x86_64-linux-gnu/librbdl.so
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/rbdl.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/Quaternion.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/Dynamics.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/Joint.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/rbdl_utils.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/Model.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/rbdl_math.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/rbdl_mathutils.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/Kinematics.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/rbdl_eigenmath.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/Logging.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/Body.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/SpatialAlgebraOperators.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/compileassert.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/Contacts.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/x86_64-linux-gnu/pkgconfig/rbdl.pc
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/x86_64-linux-gnu/librbdl_urdfreader.so.2.5.0
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/x86_64-linux-gnu/librbdl_urdfreader.so
+
+-- Removed runtime path from "/home/administrator/ci/ci/team/workspace/install/lib/x86_64-linux-gnu/librbdl_urdfreader.so.2.5.0"
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/bin/rbdl_urdfreader_util
+
+-- Removed runtime path from "/home/administrator/ci/ci/team/workspace/install/bin/rbdl_urdfreader_util"
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/addons/urdfreader/urdfreader.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/yaml_cpp.pc
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/yaml_cpp/cmake/yaml_cppConfig.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/yaml_cpp/cmake/yaml_cppConfig-version.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/yaml_cpp/package.xml
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/libyaml-cpp.so.0.5.1
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/libyaml-cpp.so.0.5
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/libyaml-cpp.so
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/ostream_wrapper.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/anchor.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/yaml.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/exceptions.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/dll.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/mark.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/noncopyable.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/traits.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/stlemitter.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/node.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/emit.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/iterator.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/node.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/memory.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/iterator.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/bool_type.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/iterator_fwd.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/node_ref.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/node_data.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/node_iterator.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/impl.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/type.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/ptr.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/parse.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/impl.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/convert.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/emittermanip.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/eventhandler.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/binary.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/emitterdef.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/contrib
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/contrib/graphbuilder.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/contrib/anchordict.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/emitfromevents.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/parser.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/emitter.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/yaml_eigen.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/null.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/yaml-cpp.pc
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/planar_finger.pc
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/planar_finger/cmake/planar_fingerConfig.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/planar_finger/cmake/planar_fingerConfig-version.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/planar_finger/package.xml
+
++ [ -n  ]
+
++ cd /home/administrator/ci/ci/team/workspace/src/catkin/robots/toy_robot_barn/planar_finger
+
++ /usr/bin/env PYTHONPATH=/home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages:/home/administrator/ci/ci/team/workspace/build/lib/python2.7/dist-packages:/opt/ros/indigo/lib/python2.7/dist-packages CATKIN_BINARY_DIR=/home/administrator/ci/ci/team/workspace/build /usr/bin/python /home/administrator/ci/ci/team/workspace/src/catkin/robots/toy_robot_barn/planar_finger/setup.py build --build-base /home/administrator/ci/ci/team/workspace/build/catkin/robots/toy_robot_barn/planar_finger install --install-layout=deb --prefix=/home/administrator/ci/ci/team/workspace/install --install-scripts=/home/administrator/ci/ci/team/workspace/install/bin
+
+/usr/lib/python2.7/distutils/dist.py:267: UserWarning: Unknown distribution option: 'install_requires'
+
+  warnings.warn(msg)
+
+running build
+
+running build_py
+
+creating /home/administrator/ci/ci/team/workspace/build/catkin/robots/toy_robot_barn/planar_finger/lib.linux-x86_64-2.7
+
+creating /home/administrator/ci/ci/team/workspace/build/catkin/robots/toy_robot_barn/planar_finger/lib.linux-x86_64-2.7/py_planar_finger
+
+copying src/py_planar_finger/finger_example.py -> /home/administrator/ci/ci/team/workspace/build/catkin/robots/toy_robot_barn/planar_finger/lib.linux-x86_64-2.7/py_planar_finger
+
+copying src/py_planar_finger/__init__.py -> /home/administrator/ci/ci/team/workspace/build/catkin/robots/toy_robot_barn/planar_finger/lib.linux-x86_64-2.7/py_planar_finger
+
+copying src/py_planar_finger/agent.py -> /home/administrator/ci/ci/team/workspace/build/catkin/robots/toy_robot_barn/planar_finger/lib.linux-x86_64-2.7/py_planar_finger
+
+running install
+
+running install_lib
+
+creating /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/py_planar_finger
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/robots/toy_robot_barn/planar_finger/lib.linux-x86_64-2.7/py_planar_finger/finger_example.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/py_planar_finger
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/robots/toy_robot_barn/planar_finger/lib.linux-x86_64-2.7/py_planar_finger/__init__.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/py_planar_finger
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/robots/toy_robot_barn/planar_finger/lib.linux-x86_64-2.7/py_planar_finger/agent.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/py_planar_finger
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/py_planar_finger/finger_example.py to finger_example.pyc
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/py_planar_finger/__init__.py to __init__.pyc
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/py_planar_finger/agent.py to agent.pyc
+
+running install_egg_info
+
+Writing /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/planar_finger-0.0.0.egg-info
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/toy_hoppers.pc
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/toy_hoppers/cmake/toy_hoppersConfig.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/toy_hoppers/cmake/toy_hoppersConfig-version.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/toy_hoppers/package.xml
+
++ [ -n  ]
+
++ cd /home/administrator/ci/ci/team/workspace/src/catkin/robots/toy_robot_barn/toy_hoppers
+
++ /usr/bin/env PYTHONPATH=/home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages:/home/administrator/ci/ci/team/workspace/build/lib/python2.7/dist-packages:/opt/ros/indigo/lib/python2.7/dist-packages CATKIN_BINARY_DIR=/home/administrator/ci/ci/team/workspace/build /usr/bin/python /home/administrator/ci/ci/team/workspace/src/catkin/robots/toy_robot_barn/toy_hoppers/setup.py build --build-base /home/administrator/ci/ci/team/workspace/build/catkin/robots/toy_robot_barn/toy_hoppers install --install-layout=deb --prefix=/home/administrator/ci/ci/team/workspace/install --install-scripts=/home/administrator/ci/ci/team/workspace/install/bin
+
+/usr/lib/python2.7/distutils/dist.py:267: UserWarning: Unknown distribution option: 'install_requires'
+
+  warnings.warn(msg)
+
+running build
+
+running build_py
+
+creating /home/administrator/ci/ci/team/workspace/build/catkin/robots/toy_robot_barn/toy_hoppers/lib.linux-x86_64-2.7
+
+creating /home/administrator/ci/ci/team/workspace/build/catkin/robots/toy_robot_barn/toy_hoppers/lib.linux-x86_64-2.7/py_toy_hoppers
+
+copying src/py_toy_hoppers/__init__.py -> /home/administrator/ci/ci/team/workspace/build/catkin/robots/toy_robot_barn/toy_hoppers/lib.linux-x86_64-2.7/py_toy_hoppers
+
+copying src/py_toy_hoppers/agent.py -> /home/administrator/ci/ci/team/workspace/build/catkin/robots/toy_robot_barn/toy_hoppers/lib.linux-x86_64-2.7/py_toy_hoppers
+
+copying src/py_toy_hoppers/openai_gym.py -> /home/administrator/ci/ci/team/workspace/build/catkin/robots/toy_robot_barn/toy_hoppers/lib.linux-x86_64-2.7/py_toy_hoppers
+
+running install
+
+running install_lib
+
+creating /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/py_toy_hoppers
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/robots/toy_robot_barn/toy_hoppers/lib.linux-x86_64-2.7/py_toy_hoppers/__init__.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/py_toy_hoppers
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/robots/toy_robot_barn/toy_hoppers/lib.linux-x86_64-2.7/py_toy_hoppers/agent.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/py_toy_hoppers
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/robots/toy_robot_barn/toy_hoppers/lib.linux-x86_64-2.7/py_toy_hoppers/openai_gym.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/py_toy_hoppers
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/py_toy_hoppers/__init__.py to __init__.pyc
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/py_toy_hoppers/agent.py to agent.pyc
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/py_toy_hoppers/openai_gym.py to openai_gym.pyc
+
+running install_egg_info
+
+Writing /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/toy_hoppers-0.0.0.egg-info
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/neural_feedback_controller.pc
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/neural_feedback_controller/cmake/neural_feedback_controllerConfig.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/neural_feedback_controller/cmake/neural_feedback_controllerConfig-version.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/neural_feedback_controller/package.xml
+
++ [ -n  ]
+
++ cd /home/administrator/ci/ci/team/workspace/src/catkin/learning/neural_feedback_controller
+
++ /usr/bin/env PYTHONPATH=/home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages:/home/administrator/ci/ci/team/workspace/build/lib/python2.7/dist-packages:/opt/ros/indigo/lib/python2.7/dist-packages CATKIN_BINARY_DIR=/home/administrator/ci/ci/team/workspace/build /usr/bin/python /home/administrator/ci/ci/team/workspace/src/catkin/learning/neural_feedback_controller/setup.py build --build-base /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller install --install-layout=deb --prefix=/home/administrator/ci/ci/team/workspace/install --install-scripts=/home/administrator/ci/ci/team/workspace/install/bin
+
+/usr/lib/python2.7/distutils/dist.py:267: UserWarning: Unknown distribution option: 'install_requires'
+
+  warnings.warn(msg)
+
+running build
+
+running build_py
+
+creating /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7
+
+creating /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller
+
+copying scripts/neural_feedback_controller/worker_analyze_evaluation.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller
+
+copying scripts/neural_feedback_controller/worker_export_saved_model.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller
+
+copying scripts/neural_feedback_controller/nn_definition.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller
+
+copying scripts/neural_feedback_controller/eval.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller
+
+copying scripts/neural_feedback_controller/aux.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller
+
+copying scripts/neural_feedback_controller/worker_optimize_local_policy.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller
+
+copying scripts/neural_feedback_controller/__init__.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller
+
+copying scripts/neural_feedback_controller/worker_generate_nn_training_data.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller
+
+copying scripts/neural_feedback_controller/worker_optimize_ppo.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller
+
+copying scripts/neural_feedback_controller/system_init.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller
+
+copying scripts/neural_feedback_controller/worker_evaluate_marathon.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller
+
+copying scripts/neural_feedback_controller/worker_plot_dyn_learning.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller
+
+copying scripts/neural_feedback_controller/worker_train_neural_network.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller
+
+copying scripts/neural_feedback_controller/makeify.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller
+
+copying scripts/neural_feedback_controller/worker_plot_feedback_ratio.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller
+
+copying scripts/neural_feedback_controller/worker_plot_feedback_nominal.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller
+
+copying scripts/neural_feedback_controller/worker_plot_feedback_nn_only.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller
+
+copying scripts/neural_feedback_controller/generate_local_policies.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller
+
+copying scripts/neural_feedback_controller/visualize.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller
+
+copying scripts/neural_feedback_controller/trajectory_learning.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller
+
+copying scripts/neural_feedback_controller/worker_evaluate_marathon_summary.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller
+
+copying scripts/neural_feedback_controller/gps.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller
+
+copying scripts/neural_feedback_controller/nn_saved_model.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller
+
+copying scripts/neural_feedback_controller/worker_evaluate_policy.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller
+
+copying scripts/neural_feedback_controller/nn_training.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller
+
+copying scripts/neural_feedback_controller/worker_plot_feedback.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller
+
+copying scripts/neural_feedback_controller/worker_rviz_policy.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller
+
+copying scripts/neural_feedback_controller/worker_plot_evaluation.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller
+
+copying scripts/neural_feedback_controller/tmp_viz.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller
+
+running install
+
+running install_lib
+
+creating /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller/worker_analyze_evaluation.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller/worker_export_saved_model.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller/nn_definition.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller/eval.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller/aux.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller/worker_optimize_local_policy.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller/__init__.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller/worker_generate_nn_training_data.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller/worker_optimize_ppo.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller/system_init.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller/worker_evaluate_marathon.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller/worker_plot_dyn_learning.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller/worker_train_neural_network.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller/makeify.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller/worker_plot_feedback_ratio.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller/worker_plot_feedback_nominal.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller/worker_plot_feedback_nn_only.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller/generate_local_policies.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller/visualize.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller/trajectory_learning.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller/worker_evaluate_marathon_summary.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller/gps.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller/nn_saved_model.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller/worker_evaluate_policy.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller/nn_training.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller/worker_plot_feedback.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller/worker_rviz_policy.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller/worker_plot_evaluation.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller/tmp_viz.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller/worker_analyze_evaluation.py to worker_analyze_evaluation.pyc
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller/worker_export_saved_model.py to worker_export_saved_model.pyc
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller/nn_definition.py to nn_definition.pyc
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller/eval.py to eval.pyc
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller/aux.py to aux.pyc
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller/worker_optimize_local_policy.py to worker_optimize_local_policy.pyc
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller/__init__.py to __init__.pyc
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller/worker_generate_nn_training_data.py to worker_generate_nn_training_data.pyc
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller/worker_optimize_ppo.py to worker_optimize_ppo.pyc
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller/system_init.py to system_init.pyc
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller/worker_evaluate_marathon.py to worker_evaluate_marathon.pyc
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller/worker_plot_dyn_learning.py to worker_plot_dyn_learning.pyc
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller/worker_train_neural_network.py to worker_train_neural_network.pyc
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller/makeify.py to makeify.pyc
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller/worker_plot_feedback_ratio.py to worker_plot_feedback_ratio.pyc
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller/worker_plot_feedback_nominal.py to worker_plot_feedback_nominal.pyc
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller/worker_plot_feedback_nn_only.py to worker_plot_feedback_nn_only.pyc
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller/generate_local_policies.py to generate_local_policies.pyc
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller/visualize.py to visualize.pyc
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller/trajectory_learning.py to trajectory_learning.pyc
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller/worker_evaluate_marathon_summary.py to worker_evaluate_marathon_summary.pyc
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller/gps.py to gps.pyc
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller/nn_saved_model.py to nn_saved_model.pyc
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller/worker_evaluate_policy.py to worker_evaluate_policy.pyc
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller/nn_training.py to nn_training.pyc
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller/worker_plot_feedback.py to worker_plot_feedback.pyc
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller/worker_rviz_policy.py to worker_rviz_policy.pyc
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller/worker_plot_evaluation.py to worker_plot_evaluation.pyc
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller/tmp_viz.py to tmp_viz.pyc
+
+running install_egg_info
+
+Writing /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller-0.0.0.egg-info
 
 Base path: /home/administrator/ci/ci/team/workspace
 
