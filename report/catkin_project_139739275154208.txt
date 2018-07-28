@@ -1,22 +1,4 @@
--- The C compiler identification is GNU 4.8.4
-
--- The CXX compiler identification is GNU 4.8.4
-
--- Check for working C compiler: /usr/bin/cc
-
--- Check for working C compiler: /usr/bin/cc -- works
-
--- Detecting C compiler ABI info
-
--- Detecting C compiler ABI info - done
-
--- Check for working CXX compiler: /usr/bin/c++
-
--- Check for working CXX compiler: /usr/bin/c++ -- works
-
--- Detecting CXX compiler ABI info
-
--- Detecting CXX compiler ABI info - done
+WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
 
 -- Using CATKIN_DEVEL_PREFIX: /home/administrator/ci/ci/team/workspace/devel
 
@@ -24,13 +6,11 @@
 
 -- This workspace overlays: /opt/ros/indigo
 
--- Found PythonInterp: /usr/bin/python (found version "2.7.6") 
-
 -- Using PYTHON_EXECUTABLE: /usr/bin/python
 
--- Using Debian Python package layout
+-- Python version: 2.7
 
--- Using empy: /usr/bin/empy
+-- Using Debian Python package layout
 
 -- Using CATKIN_ENABLE_TESTING: ON
 
@@ -38,373 +18,533 @@
 
 -- Using CATKIN_TEST_RESULTS_DIR: /home/administrator/ci/ci/team/workspace/build/test_results
 
--- Looking for include file pthread.h
-
--- Looking for include file pthread.h - found
-
--- Looking for pthread_create
-
--- Looking for pthread_create - not found
-
--- Looking for pthread_create in pthreads
-
--- Looking for pthread_create in pthreads - not found
-
--- Looking for pthread_create in pthread
-
--- Looking for pthread_create in pthread - found
-
--- Found Threads: TRUE  
-
 -- Found gtest sources under '/usr/src/gtest': gtests will be built
 
--- Using Python nosetests: /usr/bin/nosetests-2.7
-
--- catkin 0.6.19
+-- catkin 0.5.90
 
 -- BUILD_SHARED_LIBS is on
 
--- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
--- ~~  traversing 4 packages in topological order:
-
--- ~~  - human_bio_dataset
-
--- ~~  - human_bio_urdf
-
--- ~~  - human_bio_scene
-
--- ~~  - human_bio_octomap
+WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- +++ processing catkin package: 'human_bio_dataset'
+-- ~~  traversing 31 packages in topological order:
 
--- ==> add_subdirectory(catkin/human/human_bio_dataset)
+-- ~~  - Eigen
 
--- +++ processing catkin package: 'human_bio_urdf'
+-- ~~  - cdlbt
 
--- ==> add_subdirectory(catkin/human/human_bio_urdf)
+-- ~~  - can_control_tools
+
+-- ~~  - fl
+
+-- ~~  - ebf
+
+-- ~~  - matlab_logger
+
+-- ~~  - ros_realtime (metapackage)
+
+-- ~~  - allocators
+
+-- ~~  - rosatomic
+
+-- ~~  - lockfree
+
+-- ~~  - rt_timer
+
+-- ~~  - start_robot
+
+-- ~~  - amd_clmc_ros_messages
+
+-- ~~  - ar_track_alvar_msgs
+
+-- ~~  - custom_robot_msgs
+
+-- ~~  - riemo_grasping_msgs
+
+-- ~~  - utilities
+
+-- ~~  - lwpr
+
+-- ~~  - xenomai_ros
+
+-- ~~  - roscpp_utilities
+
+-- ~~  - rosrt
+
+-- ~~  - ros_rt_test
+
+-- ~~  - sl
+
+-- ~~  - apollo
+
+-- ~~  - apollo_event_based_task
+
+-- ~~  - apollo_test_task
+
+-- ~~  - apollo_user
+
+-- ~~  - sl_ros_servo
+
+-- ~~  - ros_servo_apollo
+
+-- ~~  - yaml_cpp
+
+-- ~~  - facial_expressions
+
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-- +++ processing catkin package: 'Eigen'
+
+-- ==> add_subdirectory(catkin/third_party/Eigen)
+
+WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
+
+-- +++ processing catkin package: 'cdlbt'
+
+-- ==> add_subdirectory(catkin/ros/barrett-ros/cdlbt)
+
+-- MACHTYPE x86_64
+
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+
+Call Stack (most recent call first):
+
+  catkin/ros/barrett-ros/cdlbt/CMakeLists.txt:8 (include)
+
+
+
+
+
+-- HOST_NAME=everest
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
+
+-- +++ processing catkin package: 'can_control_tools'
+
+-- ==> add_subdirectory(catkin/ros/barrett-ros/canControlTools)
+
+-- MACHTYPE x86_64
+
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+
+Call Stack (most recent call first):
+
+  catkin/ros/barrett-ros/canControlTools/CMakeLists.txt:8 (include)
+
+
+
+
+
+-- HOST_NAME=everest
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
+
+-- Boost version: 1.54.0
+
+-- Found the following Boost libraries:
+
+--   thread
+
+-- +++ processing catkin package: 'fl'
+
+-- ==> add_subdirectory(catkin/core-perception/fl)
+
+-- Eigen found (include: /usr/include/eigen3)
+
+-- Boost version: 1.54.0
+
+-- +++ processing catkin package: 'ebf'
+
+-- ==> add_subdirectory(catkin/event-based/event-based-framework)
+
+##########################################
+
+# Event-based Control Framework 
+
+# Version 0.1.267
+
+# ceec1553994354a776e9e1f573a3583f8963a720
+
+##########################################
+
+-- Eigen found (include: /usr/include/eigen3)
+
+-- Found Doxygen: /usr/bin/doxygen (found version "1.8.6") 
+
+-- Found Doxygen: /usr/bin/doxygen (found suitable version "1.8.6", minimum required is "1.8.4") 
+
+-- +++ processing catkin package: 'matlab_logger'
+
+-- ==> add_subdirectory(catkin/event-based/matlab-logger)
+
+-- +++ processing catkin metapackage: 'ros_realtime'
+
+-- ==> add_subdirectory(catkin/ros/ros_realtime/ros_realtime)
+
+-- +++ processing catkin package: 'allocators'
+
+-- ==> add_subdirectory(catkin/ros/ros_realtime/allocators)
+
+-- Boost version: 1.54.0
+
+-- +++ processing catkin package: 'rosatomic'
+
+-- ==> add_subdirectory(catkin/ros/ros_realtime/rosatomic)
+
+-- Boost version: 1.54.0
+
+-- +++ processing catkin package: 'lockfree'
+
+-- ==> add_subdirectory(catkin/ros/ros_realtime/lockfree)
+
+-- Boost version: 1.54.0
+
+-- +++ processing catkin package: 'rt_timer'
+
+-- ==> add_subdirectory(catkin/ros/ros_realtime/rt_timer)
+
+-- +++ processing catkin package: 'start_robot'
+
+-- ==> add_subdirectory(catkin/robots/start_robot)
+
+-- +++ processing catkin package: 'amd_clmc_ros_messages'
+
+-- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/amd_clmc_ros_messages)
 
 -- Using these message generators: gencpp;genlisp;genpy
 
--- +++ processing catkin package: 'human_bio_scene'
+-- amd_clmc_ros_messages: 108 messages, 10 services
 
--- ==> add_subdirectory(catkin/human/human_bio_scene)
+-- +++ processing catkin package: 'ar_track_alvar_msgs'
 
--- Using these message generators: gencpp;genlisp;genpy
-
--- +++ processing catkin package: 'human_bio_octomap'
-
--- ==> add_subdirectory(catkin/human/human_bio_octomap)
+-- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/ar_track_alvar_msgs)
 
 -- Using these message generators: gencpp;genlisp;genpy
 
--- Configuring done
+-- ar_track_alvar_msgs: 2 messages, 0 services
 
--- Generating done
+-- +++ processing catkin package: 'custom_robot_msgs'
 
--- Build files have been written to: /home/administrator/ci/ci/team/workspace/build
+-- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/custom_robot_msgs)
 
-Scanning dependencies of target tf2_msgs_generate_messages_lisp
+-- Using these message generators: gencpp;genlisp;genpy
 
-Scanning dependencies of target sensor_msgs_generate_messages_lisp
+-- custom_robot_msgs: 1 messages, 2 services
 
-Scanning dependencies of target _catkin_empty_exported_target
+-- +++ processing catkin package: 'riemo_grasping_msgs'
 
-Scanning dependencies of target rosgraph_msgs_generate_messages_lisp
+-- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/riemo_grasping_msgs)
 
-Scanning dependencies of target rosgraph_msgs_generate_messages_py
+-- Using these message generators: gencpp;genlisp;genpy
 
-Scanning dependencies of target rosgraph_msgs_generate_messages_cpp
+-- riemo_grasping_msgs: 5 messages, 3 services
 
-Scanning dependencies of target roscpp_generate_messages_cpp
+-- +++ processing catkin package: 'utilities'
 
-Scanning dependencies of target tf2_msgs_generate_messages_cpp
+-- ==> add_subdirectory(catkin/core-sl/catkin-utilities)
 
-Scanning dependencies of target roscpp_generate_messages_py
+-- MACHTYPE x86_64
 
-Scanning dependencies of target sensor_msgs_generate_messages_cpp
+Detected MACHTYPE=x86_64
 
-[  0%] [  0%] [  0%] [  0%] [  0%] [  0%] Scanning dependencies of target roscpp_generate_messages_lisp
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
 
-[  0%] [  0%] [  0%] Built target tf2_msgs_generate_messages_lisp
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
 
-Built target sensor_msgs_generate_messages_lisp
+Call Stack (most recent call first):
 
-Built target rosgraph_msgs_generate_messages_lisp
+  catkin/core-sl/catkin-utilities/CMakeLists.txt:8 (include)
 
-Built target rosgraph_msgs_generate_messages_cpp
 
-Built target _catkin_empty_exported_target
 
-Built target rosgraph_msgs_generate_messages_py
 
-Built target tf2_msgs_generate_messages_cpp
 
-Built target roscpp_generate_messages_cpp
+-- HOST_NAME=everest
 
-Built target sensor_msgs_generate_messages_cpp
+-- HOST=everest
 
-[  0%] [  0%] Built target roscpp_generate_messages_py
+-- LAB=AMD
 
-Built target roscpp_generate_messages_lisp
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
 
-Scanning dependencies of target std_msgs_generate_messages_lisp
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
 
-Scanning dependencies of target std_msgs_generate_messages_py
+-- CMAKE_INCLUDE_PATH=
 
-Scanning dependencies of target sensor_msgs_generate_messages_py
+-- CMAKE_LIBRARY_PATH=
 
-Scanning dependencies of target geometry_msgs_generate_messages_lisp
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
 
-Scanning dependencies of target actionlib_generate_messages_cpp
+-- LAB_LIBDIR=lib/x86_64
 
-Scanning dependencies of target geometry_msgs_generate_messages_py
+-- LAB_INCLUDES=include
 
-Scanning dependencies of target std_msgs_generate_messages_cpp
+-- LAB_BINDIR=bin/x86_64
 
-Scanning dependencies of target visualization_msgs_generate_messages_lisp
+-- +++ processing catkin package: 'lwpr'
 
-Scanning dependencies of target geometry_msgs_generate_messages_cpp
+-- ==> add_subdirectory(catkin/core-sl/catkin-lwpr)
 
-Scanning dependencies of target shape_msgs_generate_messages_py
+-- MACHTYPE x86_64
 
-[  0%] [  0%] [  0%] Scanning dependencies of target moveit_msgs_generate_messages_lisp
+Detected MACHTYPE=x86_64
 
-[  0%] [  0%] [  0%] [  0%] Scanning dependencies of target moveit_msgs_generate_messages_py
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
 
-[  0%] [  0%] Scanning dependencies of target shape_msgs_generate_messages_cpp
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
 
-Built target std_msgs_generate_messages_lisp
+Call Stack (most recent call first):
 
-Built target std_msgs_generate_messages_py
+  catkin/core-sl/catkin-lwpr/CMakeLists.txt:5 (include)
 
-Built target sensor_msgs_generate_messages_py
 
-Built target geometry_msgs_generate_messages_lisp
 
-Built target actionlib_generate_messages_cpp
 
-[  0%] Built target geometry_msgs_generate_messages_py
 
-Built target std_msgs_generate_messages_cpp
+-- HOST_NAME=everest
 
-Scanning dependencies of target shape_msgs_generate_messages_lisp
+-- HOST=everest
 
-Built target geometry_msgs_generate_messages_cpp
+-- LAB=AMD
 
-Built target visualization_msgs_generate_messages_lisp
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
 
-Built target shape_msgs_generate_messages_py
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
 
-[  0%] [  0%] [  0%] Built target moveit_msgs_generate_messages_py
+-- CMAKE_INCLUDE_PATH=
 
-[  0%] Built target moveit_msgs_generate_messages_lisp
+-- CMAKE_LIBRARY_PATH=
 
-Built target shape_msgs_generate_messages_cpp
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
 
-Built target shape_msgs_generate_messages_lisp
+-- LAB_LIBDIR=lib/x86_64
 
-Scanning dependencies of target trajectory_msgs_generate_messages_lisp
+-- LAB_INCLUDES=include
 
-Scanning dependencies of target actionlib_msgs_generate_messages_cpp
+-- LAB_BINDIR=bin/x86_64
 
-Scanning dependencies of target visualization_msgs_generate_messages_cpp
+-- +++ processing catkin package: 'xenomai_ros'
 
-Scanning dependencies of target visualization_msgs_generate_messages_py
+-- ==> add_subdirectory(catkin/ros/xenomai-ros)
 
-Scanning dependencies of target moveit_msgs_generate_messages_cpp
+-- +++ processing catkin package: 'roscpp_utilities'
 
-Scanning dependencies of target actionlib_msgs_generate_messages_lisp
+-- ==> add_subdirectory(catkin/ros/roscpp_utilities)
 
-Scanning dependencies of target object_recognition_msgs_generate_messages_py
+-- +++ processing catkin package: 'rosrt'
 
-Scanning dependencies of target actionlib_msgs_generate_messages_py
+-- ==> add_subdirectory(catkin/ros/ros_realtime/rosrt)
 
-Scanning dependencies of target octomap_msgs_generate_messages_cpp
+-- xenomai NOT found. (/usr/local;/usr)
 
-Scanning dependencies of target trajectory_msgs_generate_messages_py
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
 
-Scanning dependencies of target octomap_msgs_generate_messages_py
+-- Boost version: 1.54.0
 
-Scanning dependencies of target object_recognition_msgs_generate_messages_lisp
+-- Found the following Boost libraries:
 
-Scanning dependencies of target object_recognition_msgs_generate_messages_cpp
+--   thread
 
-[  0%] Scanning dependencies of target trajectory_msgs_generate_messages_cpp
+-- +++ processing catkin package: 'ros_rt_test'
 
-[  0%] [  0%] [  0%] [  0%] Built target trajectory_msgs_generate_messages_lisp
+-- ==> add_subdirectory(catkin/ros/ros_rt_basic_example)
 
-Built target actionlib_msgs_generate_messages_cpp
+-- xenomai NOT found. (/usr/local;/usr)
 
-Built target visualization_msgs_generate_messages_cpp
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
 
-Built target moveit_msgs_generate_messages_cpp
+-- +++ processing catkin package: 'sl'
 
-Built target visualization_msgs_generate_messages_py
+-- ==> add_subdirectory(catkin/core-sl/catkin-sl)
 
-Scanning dependencies of target tf_generate_messages_py
+-- MACHTYPE x86_64
 
-[  0%] [  0%] [  0%] Scanning dependencies of target octomap_msgs_generate_messages_lisp
+Detected MACHTYPE=x86_64
 
-[  0%] [  0%] Built target actionlib_msgs_generate_messages_lisp
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
 
-Built target object_recognition_msgs_generate_messages_py
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
 
-Built target actionlib_msgs_generate_messages_py
+Call Stack (most recent call first):
 
-Built target octomap_msgs_generate_messages_cpp
+  catkin/core-sl/catkin-sl/CMakeLists.txt:8 (include)
 
-Built target trajectory_msgs_generate_messages_py
 
-[  0%] [  0%] [  0%] Built target object_recognition_msgs_generate_messages_lisp
 
-[  0%] Built target octomap_msgs_generate_messages_py
 
-Built target object_recognition_msgs_generate_messages_cpp
 
-Built target trajectory_msgs_generate_messages_cpp
+-- HOST_NAME=everest
 
-[  0%] Scanning dependencies of target actionlib_generate_messages_py
+-- HOST=everest
 
-Scanning dependencies of target tf_generate_messages_cpp
+-- LAB=AMD
 
-Scanning dependencies of target tf_generate_messages_lisp
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
 
-Built target tf_generate_messages_py
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
 
-Scanning dependencies of target actionlib_generate_messages_lisp
+-- CMAKE_INCLUDE_PATH=
 
-[  0%] Scanning dependencies of target tf2_msgs_generate_messages_py
+-- CMAKE_LIBRARY_PATH=
 
-Built target octomap_msgs_generate_messages_lisp
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
 
-[  0%] [  0%] [  0%] [  0%] [  0%] Built target actionlib_generate_messages_py
+-- LAB_LIBDIR=lib/x86_64
 
-Built target tf_generate_messages_lisp
+-- LAB_INCLUDES=include
 
-Built target tf_generate_messages_cpp
+-- LAB_BINDIR=bin/x86_64
 
-Built target actionlib_generate_messages_lisp
+-- +++ processing catkin package: 'apollo'
 
-Built target tf2_msgs_generate_messages_py
+-- ==> add_subdirectory(catkin/robots/catkin-apollo)
 
-Scanning dependencies of target human_bio_octomap
+-- MACHTYPE x86_64
 
-[ 25%] [ 50%] Building CXX object catkin/human/human_bio_octomap/CMakeFiles/human_bio_octomap.dir/src/robot_to_octomap.cpp.o
+Detected MACHTYPE=x86_64
 
-Building CXX object catkin/human/human_bio_octomap/CMakeFiles/human_bio_octomap.dir/src/scene_subscriber.cpp.o
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
 
-Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libhuman_bio_octomap.so
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
 
-[ 50%] Built target human_bio_octomap
+Call Stack (most recent call first):
 
-Scanning dependencies of target test_robot_model_parser
+  catkin/robots/catkin-apollo/CMakeLists.txt:9 (include)
 
-Scanning dependencies of target voxel_occupancy_node
 
-[ 75%] [100%] Building CXX object catkin/human/human_bio_octomap/CMakeFiles/test_robot_model_parser.dir/test/test_robot_model_parser.cpp.o
 
-Building CXX object catkin/human/human_bio_octomap/CMakeFiles/voxel_occupancy_node.dir/src/voxel_occupancy_node.cpp.o
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/human_bio_octomap/test_robot_model_parser
 
-[100%] Built target test_robot_model_parser
+-- HOST_NAME=everest
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/human_bio_octomap/voxel_occupancy_node
+-- HOST=everest
 
-[100%] Built target voxel_occupancy_node
+-- LAB=AMD
 
-Install the project...
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
 
--- Install configuration: ""
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/_setup_util.py
+-- CMAKE_INCLUDE_PATH=
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/env.sh
+-- CMAKE_LIBRARY_PATH=
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/setup.bash
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/setup.sh
+-- LAB_LIBDIR=lib/x86_64
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/setup.zsh
+-- LAB_INCLUDES=include
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/.rosinstall
+-- LAB_BINDIR=bin/x86_64
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/human_bio_urdf.pc
+-- +++ processing catkin package: 'apollo_event_based_task'
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/human_bio_urdf/cmake/human_bio_urdfConfig.cmake
+-- ==> add_subdirectory(catkin/event-based/apollo-event-based-task)
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/human_bio_urdf/cmake/human_bio_urdfConfig-version.cmake
+-- MACHTYPE x86_64
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/human_bio_urdf/package.xml
+Detected MACHTYPE=x86_64
 
-+ cd /home/administrator/ci/ci/team/workspace/src/catkin/human/human_bio_scene
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
 
-+ mkdir -p /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
 
-+ /usr/bin/env PYTHONPATH=/home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages:/home/administrator/ci/ci/team/workspace/build/lib/python2.7/dist-packages:/opt/ros/indigo/lib/python2.7/dist-packages CATKIN_BINARY_DIR=/home/administrator/ci/ci/team/workspace/build /usr/bin/python /home/administrator/ci/ci/team/workspace/src/catkin/human/human_bio_scene/setup.py build --build-base /home/administrator/ci/ci/team/workspace/build/catkin/human/human_bio_scene install --install-layout=deb --prefix=/home/administrator/ci/ci/team/workspace/install --install-scripts=/home/administrator/ci/ci/team/workspace/install/bin
+Call Stack (most recent call first):
 
-running build
+  catkin/event-based/apollo-event-based-task/CMakeLists.txt:9 (include)
 
-running build_py
 
-creating /home/administrator/ci/ci/team/workspace/build/catkin/human/human_bio_scene/lib.linux-x86_64-2.7
 
-creating /home/administrator/ci/ci/team/workspace/build/catkin/human/human_bio_scene/lib.linux-x86_64-2.7/human_bio_scene
 
-copying src/human_bio_scene/PlayLibrary.py -> /home/administrator/ci/ci/team/workspace/build/catkin/human/human_bio_scene/lib.linux-x86_64-2.7/human_bio_scene
 
-copying src/human_bio_scene/PlayFile.py -> /home/administrator/ci/ci/team/workspace/build/catkin/human/human_bio_scene/lib.linux-x86_64-2.7/human_bio_scene
+-- HOST_NAME=everest
 
-copying src/human_bio_scene/__init__.py -> /home/administrator/ci/ci/team/workspace/build/catkin/human/human_bio_scene/lib.linux-x86_64-2.7/human_bio_scene
+-- HOST=everest
 
-running install
+-- LAB=AMD
 
-running install_lib
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
 
-creating /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/human_bio_scene
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
 
-copying /home/administrator/ci/ci/team/workspace/build/catkin/human/human_bio_scene/lib.linux-x86_64-2.7/human_bio_scene/PlayLibrary.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/human_bio_scene
+-- CMAKE_INCLUDE_PATH=
 
-copying /home/administrator/ci/ci/team/workspace/build/catkin/human/human_bio_scene/lib.linux-x86_64-2.7/human_bio_scene/PlayFile.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/human_bio_scene
+-- CMAKE_LIBRARY_PATH=
 
-copying /home/administrator/ci/ci/team/workspace/build/catkin/human/human_bio_scene/lib.linux-x86_64-2.7/human_bio_scene/__init__.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/human_bio_scene
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
 
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/human_bio_scene/PlayLibrary.py to PlayLibrary.pyc
+-- LAB_LIBDIR=lib/x86_64
 
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/human_bio_scene/PlayFile.py to PlayFile.pyc
+-- LAB_INCLUDES=include
 
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/human_bio_scene/__init__.py to __init__.pyc
+-- LAB_BINDIR=bin/x86_64
 
-running install_egg_info
+CMake Error at catkin/third_party/catkin/cmake/catkin_package.cmake:217 (message):
 
-Writing /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/human_bio_scene-0.0.0.egg-info
+  catkin_package() DEPENDS on the catkin package 'Eigen' which must therefore
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/human_bio_scene.pc
+  be listed as a run dependency in the package.xml
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/human_bio_scene/cmake/human_bio_sceneConfig.cmake
+Call Stack (most recent call first):
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/human_bio_scene/cmake/human_bio_sceneConfig-version.cmake
+  catkin/third_party/catkin/cmake/catkin_package.cmake:98 (_catkin_package)
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/human_bio_scene/package.xml
+  catkin/event-based/apollo-event-based-task/CMakeLists.txt:38 (catkin_package)
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/human_bio_octomap.pc
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/human_bio_octomap/cmake/human_bio_octomapConfig.cmake
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/human_bio_octomap/cmake/human_bio_octomapConfig-version.cmake
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/human_bio_octomap/package.xml
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/libhuman_bio_octomap.so
+-- Configuring incomplete, errors occurred!
 
--- Removed runtime path from "/home/administrator/ci/ci/team/workspace/install/lib/libhuman_bio_octomap.so"
+See also "/home/administrator/ci/ci/team/workspace/build/CMakeFiles/CMakeOutput.log".
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/human_bio_octomap/voxel_occupancy_node
-
--- Removed runtime path from "/home/administrator/ci/ci/team/workspace/install/lib/human_bio_octomap/voxel_occupancy_node"
+See also "/home/administrator/ci/ci/team/workspace/build/CMakeFiles/CMakeError.log".
 
 Base path: /home/administrator/ci/ci/team/workspace
 
@@ -416,16 +556,10 @@ Devel space: /home/administrator/ci/ci/team/workspace/devel
 
 Install space: /home/administrator/ci/ci/team/workspace/install
 
-Creating symlink "/home/administrator/ci/ci/team/workspace/src/CMakeLists.txt" pointing to "/opt/ros/indigo/share/catkin/cmake/toplevel.cmake"
-
 ####
 
 #### Running command: "cmake /home/administrator/ci/ci/team/workspace/src -DCATKIN_DEVEL_PREFIX=/home/administrator/ci/ci/team/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/administrator/ci/ci/team/workspace/install -G Unix Makefiles" in "/home/administrator/ci/ci/team/workspace/build"
 
 ####
 
-####
-
-#### Running command: "make -j16 install" in "/home/administrator/ci/ci/team/workspace/build"
-
-####
+Invoking "cmake" failed
