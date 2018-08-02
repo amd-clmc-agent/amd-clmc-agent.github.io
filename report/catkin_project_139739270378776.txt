@@ -1,4 +1,22 @@
-WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
+-- The C compiler identification is GNU 4.8.4
+
+-- The CXX compiler identification is GNU 4.8.4
+
+-- Check for working C compiler: /usr/bin/cc
+
+-- Check for working C compiler: /usr/bin/cc -- works
+
+-- Detecting C compiler ABI info
+
+-- Detecting C compiler ABI info - done
+
+-- Check for working CXX compiler: /usr/bin/c++
+
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+
+-- Detecting CXX compiler ABI info
+
+-- Detecting CXX compiler ABI info - done
 
 -- Using CATKIN_DEVEL_PREFIX: /home/administrator/ci/ci/team/workspace/devel
 
@@ -6,11 +24,13 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 
 -- This workspace overlays: /opt/ros/indigo
 
+-- Found PythonInterp: /usr/bin/python (found version "2.7.6") 
+
 -- Using PYTHON_EXECUTABLE: /usr/bin/python
 
--- Python version: 2.7
-
 -- Using Debian Python package layout
+
+-- Using empy: /usr/bin/empy
 
 -- Using CATKIN_ENABLE_TESTING: ON
 
@@ -18,183 +38,87 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 
 -- Using CATKIN_TEST_RESULTS_DIR: /home/administrator/ci/ci/team/workspace/build/test_results
 
+-- Looking for include file pthread.h
+
+-- Looking for include file pthread.h - found
+
+-- Looking for pthread_create
+
+-- Looking for pthread_create - not found
+
+-- Looking for pthread_create in pthreads
+
+-- Looking for pthread_create in pthreads - not found
+
+-- Looking for pthread_create in pthread
+
+-- Looking for pthread_create in pthread - found
+
+-- Found Threads: TRUE  
+
 -- Found gtest sources under '/usr/src/gtest': gtests will be built
 
--- catkin 0.5.90
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+
+-- catkin 0.6.19
 
 -- BUILD_SHARED_LIBS is on
 
-WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-- ~~  traversing 1 packages in topological order:
+
+-- ~~  - detect_faces
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- ~~  traversing 14 packages in topological order:
+-- +++ processing catkin package: 'detect_faces'
 
--- ~~  - Eigen
-
--- ~~  - ros_realtime (metapackage)
-
--- ~~  - allocators
-
--- ~~  - rosatomic
-
--- ~~  - lockfree
-
--- ~~  - rt_timer
-
--- ~~  - vrpn_vicon_minimum
-
--- ~~  - vrpn_vicon_objs_tracker
-
--- ~~  - xenomai_ros
-
--- ~~  - rosrt
-
--- ~~  - ros_rt_test
-
--- ~~  - vicon_bridge
-
--- ~~  - vicon_core
-
--- ~~  - vicon_subscriber
-
--- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
--- +++ processing catkin package: 'Eigen'
-
--- ==> add_subdirectory(catkin/third_party/Eigen)
-
-WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
-
--- +++ processing catkin metapackage: 'ros_realtime'
-
--- ==> add_subdirectory(catkin/ros/ros_realtime/ros_realtime)
-
--- +++ processing catkin package: 'allocators'
-
--- ==> add_subdirectory(catkin/ros/ros_realtime/allocators)
-
--- Boost version: 1.54.0
-
--- +++ processing catkin package: 'rosatomic'
-
--- ==> add_subdirectory(catkin/ros/ros_realtime/rosatomic)
-
--- Boost version: 1.54.0
-
--- +++ processing catkin package: 'lockfree'
-
--- ==> add_subdirectory(catkin/ros/ros_realtime/lockfree)
-
--- Boost version: 1.54.0
-
--- +++ processing catkin package: 'rt_timer'
-
--- ==> add_subdirectory(catkin/ros/ros_realtime/rt_timer)
-
--- +++ processing catkin package: 'vrpn_vicon_minimum'
-
--- ==> add_subdirectory(catkin/perception/vrpn_vicon_minimum)
-
--- +++ processing catkin package: 'vrpn_vicon_objs_tracker'
-
--- ==> add_subdirectory(catkin/perception/vrpn_vicon_objs_tracker)
-
--- +++ processing catkin package: 'xenomai_ros'
-
--- ==> add_subdirectory(catkin/ros/xenomai-ros)
-
--- +++ processing catkin package: 'rosrt'
-
--- ==> add_subdirectory(catkin/ros/ros_realtime/rosrt)
-
--- xenomai NOT found. (/usr/local;/usr)
-
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
-
--- Boost version: 1.54.0
-
--- Found the following Boost libraries:
-
---   thread
-
--- +++ processing catkin package: 'ros_rt_test'
-
--- ==> add_subdirectory(catkin/ros/ros_rt_basic_example)
-
--- xenomai NOT found. (/usr/local;/usr)
-
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
-
--- +++ processing catkin package: 'vicon_bridge'
-
--- ==> add_subdirectory(catkin/perception/vicon_bridge)
+-- ==> add_subdirectory(catkin/perception/detect_faces)
 
 -- Using these message generators: gencpp;genlisp;genpy
 
--- Boost version: 1.54.0
+-- Configuring done
 
--- Found the following Boost libraries:
+-- Generating done
 
---   thread
+-- Build files have been written to: /home/administrator/ci/ci/team/workspace/build
 
--- vicon_bridge: 3 messages, 2 services
+Scanning dependencies of target detect_faces_node
 
--- +++ processing catkin package: 'vicon_core'
+[ 66%] [ 66%] [100%] Building CXX object catkin/perception/detect_faces/CMakeFiles/detect_faces_node.dir/src/main.cpp.o
 
--- ==> add_subdirectory(catkin/sensors/vicon-core)
+Building CXX object catkin/perception/detect_faces/CMakeFiles/detect_faces_node.dir/src/face_detector_node.cpp.o
 
-CMake Error at catkin/sensors/vicon-core/CMakeLists.txt:8 (include):
+Building CXX object catkin/perception/detect_faces/CMakeFiles/detect_faces_node.dir/src/face_detector.cpp.o
 
-  include could not find load file:
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/detect_faces/detect_faces_node
 
+[100%] Built target detect_faces_node
 
+Install the project...
 
-    /home/administrator/ci/ci/team/workspace/src/cmake/sl_cmake_global/LAB.cmake
+-- Install configuration: ""
 
+-- Installing: /home/administrator/ci/ci/team/workspace/install/_setup_util.py
 
+-- Installing: /home/administrator/ci/ci/team/workspace/install/env.sh
 
+-- Installing: /home/administrator/ci/ci/team/workspace/install/setup.bash
 
+-- Installing: /home/administrator/ci/ci/team/workspace/install/setup.sh
 
--- xenomai NOT found. (/usr/local;/usr)
+-- Installing: /home/administrator/ci/ci/team/workspace/install/setup.zsh
 
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+-- Installing: /home/administrator/ci/ci/team/workspace/install/.rosinstall
 
-CMake Error at /home/administrator/ci/ci/team/workspace/devel/share/catkin/cmake/catkinConfig.cmake:75 (find_package):
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/detect_faces.pc
 
-  Could not find a package configuration file provided by
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/detect_faces/cmake/detect_facesConfig.cmake
 
-  "amd_clmc_ros_messages" with any of the following names:
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/detect_faces/cmake/detect_facesConfig-version.cmake
 
-
-
-    amd_clmc_ros_messagesConfig.cmake
-
-    amd_clmc_ros_messages-config.cmake
-
-
-
-  Add the installation prefix of "amd_clmc_ros_messages" to CMAKE_PREFIX_PATH
-
-  or set "amd_clmc_ros_messages_DIR" to a directory containing one of the
-
-  above files.  If "amd_clmc_ros_messages" provides a separate development
-
-  package or SDK, be sure it has been installed.
-
-Call Stack (most recent call first):
-
-  catkin/sensors/vicon-core/CMakeLists.txt:12 (find_package)
-
-
-
-
-
--- Configuring incomplete, errors occurred!
-
-See also "/home/administrator/ci/ci/team/workspace/build/CMakeFiles/CMakeOutput.log".
-
-See also "/home/administrator/ci/ci/team/workspace/build/CMakeFiles/CMakeError.log".
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/detect_faces/package.xml
 
 Base path: /home/administrator/ci/ci/team/workspace
 
@@ -206,10 +130,16 @@ Devel space: /home/administrator/ci/ci/team/workspace/devel
 
 Install space: /home/administrator/ci/ci/team/workspace/install
 
+Creating symlink "/home/administrator/ci/ci/team/workspace/src/CMakeLists.txt" pointing to "/opt/ros/indigo/share/catkin/cmake/toplevel.cmake"
+
 ####
 
 #### Running command: "cmake /home/administrator/ci/ci/team/workspace/src -DCATKIN_DEVEL_PREFIX=/home/administrator/ci/ci/team/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/administrator/ci/ci/team/workspace/install -G Unix Makefiles" in "/home/administrator/ci/ci/team/workspace/build"
 
 ####
 
-Invoking "cmake" failed
+####
+
+#### Running command: "make -j16 install" in "/home/administrator/ci/ci/team/workspace/build"
+
+####
