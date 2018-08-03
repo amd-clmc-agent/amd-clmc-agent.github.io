@@ -1,1713 +1,980 @@
-failed to compile unit tests:
 WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
 
--- Using CATKIN_DEVEL_PREFIX: /home/administrator/ci/ci/team/workspace/devel
+[  1%] Built target findpath
 
--- Using CMAKE_PREFIX_PATH: /home/administrator/ci/ci/team/workspace/devel;/opt/ros/indigo
+[  1%] Built target test_conversions
 
--- This workspace overlays: /home/administrator/ci/ci/team/workspace/devel;/opt/ros/indigo
+[  2%] Built target playful_color_detection
 
--- Using PYTHON_EXECUTABLE: /usr/bin/python
+[  3%] Built target playful_profiler
 
--- Python version: 2.7
+[  5%] Built target qp_oases
 
--- Using Debian Python package layout
+[  5%] Built target quadprog
 
--- Using CATKIN_ENABLE_TESTING: ON
+[  5%] Built target lockfree
 
--- Call enable_testing()
+[  5%] Built target soma
 
--- Using CATKIN_TEST_RESULTS_DIR: /home/administrator/ci/ci/team/workspace/build/test_results
+[  6%] Built target soma_example
 
--- Found gtest sources under '/usr/src/gtest': gtests will be built
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_AccelerationFeedbackExperimentStatus
 
--- catkin 0.5.90
+[  6%] Built target geometry_msgs_generate_messages_py
 
--- BUILD_SHARED_LIBS is on
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibratePressureSensorsStatus
 
-WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_BoundingPoints
 
-WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ResetBreakaway
 
--- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Goto_command
 
--- ~~  traversing 56 packages in topological order:
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerDataStatus
 
--- ~~  - Eigen
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_NavigationTarget
 
--- ~~  - apollo_robot_model
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PolicyControllerParamsService
 
--- ~~  - catkin_gflags
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SwitchControllerStack
 
--- ~~  - catkin_glog
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineLearningControl
 
--- ~~  - cdlbt
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_RtNetwork
 
--- ~~  - can_control_tools
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspControllerStatus
 
--- ~~  - controller_communication
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_BiotacData
 
--- ~~  - conversions
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ExperimentParams
 
--- ~~  - interpolation
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_AvgPressureSensors
 
--- ~~  - inverse_dynamics_learning_apollo
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_QueryControllerStatus
 
--- ~~  - qp_oases
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Volumes
 
--- ~~  - quadprog
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_UpdateStrainGagesCalibration
 
--- ~~  - ros_realtime (metapackage)
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ImageCoordinates
 
--- ~~  - allocators
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LabeledPoint
 
--- ~~  - rosatomic
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_IncreaseMaxFingerTorque
 
--- ~~  - lockfree
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Preshape
 
--- ~~  - rt_timer
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LqrControllerDataStatus
 
--- ~~  - rt_utils
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PressureSensors
 
--- ~~  - dmp
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ObstaclePoints
 
--- ~~  - splines
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateForceTorqueSensor
 
--- ~~  - start_robot
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CartesianTrajectory
 
--- ~~  - amd_clmc_ros_messages
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Acceleration
 
--- ~~  - ar_track_alvar_msgs
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PolicyControllerDataStatus
 
--- ~~  - custom_robot_msgs
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerParamsService
 
--- ~~  - riemo_grasping_msgs
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspPoses
 
--- ~~  - utilities
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_TrajectoryStatus
 
--- ~~  - lwpr
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ExperimentGeneratorParamsService
 
--- ~~  - xenomai_ros
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PointArrayArray
 
--- ~~  - constrained_inverse_kinematics_msgs
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerStatus
 
--- ~~  - roscpp_utilities
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CartesianTrajectoryPoint
 
--- ~~  - rosrt
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LookAtParams
 
--- ~~  - ros_rt_test
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineNetwork
 
--- ~~  - sl
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_BiotacFingerData
 
--- ~~  - apollo
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CollectDataStatus
 
--- ~~  - apollo_test_task
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ColorRange
 
--- ~~  - sl_ros_servo
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LookAtStatus
 
--- ~~  - learning_control
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DMPControllerStatus
 
--- ~~  - python_ros_utils
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_RtNetworkLayer
 
--- ~~  - sl_conversions
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibratePressureSensors
 
--- ~~  - sl_utilities
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Extrems
 
--- ~~  - sl_controller_manager
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DMPCommand
 
--- ~~  - controller_manager_task_apollo
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_NetworkLayer
 
--- ~~  - apollo_user
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ScaledLqr
 
--- ~~  - sl_barrett_controllers
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ViconQuery
 
--- ~~  - sl_controllers
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspControllerParams
 
--- ~~  - ros_servo_apollo
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_TrajectoryPoint
 
--- ~~  - usc_utilities
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SetPoses
 
--- ~~  - learnable_cost_function
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_UpdateStrainGagesCalibrationStatus
 
--- ~~  - robot_info
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DMPControllerParams
 
--- ~~  - jacobian_utilities
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Path
 
--- ~~  - sl_barrett_controller_interface
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SetVisualToolTracking
 
--- ~~  - sl_controller_interface
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ContinuousTrajectoryStatus
 
--- ~~  - sl_controller_interface_test
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ContinuousTrajectoryPoint
 
--- ~~  - strain_gauge_calibration
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_BoundingPointsArray
 
--- ~~  - yaml_cpp
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SetObjectOri
 
--- ~~  - facial_expressions
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_EndEffectorPosition
 
--- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_InverseDynamicsBatchNetworkControllerStatus
 
--- +++ processing catkin package: 'Eigen'
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Imu
 
--- ==> add_subdirectory(catkin/third_party/Eigen)
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_FingerJointEncoderOffsetsStatus
 
-WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerParams
 
--- +++ processing catkin package: 'apollo_robot_model'
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineDataStatus
 
--- ==> add_subdirectory(catkin/robots/apollo_robot_model)
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_AffinePolicy
 
--- +++ processing catkin package: 'catkin_gflags'
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateAccelerometerSensorStatus
 
--- ==> add_subdirectory(catkin/third_party/catkin-gflags)
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspStatus
 
--- Found gflags  (include: /usr/include, library: /usr/lib/x86_64-linux-gnu/libgflags.so)
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DistanceFieldEval
 
--- +++ processing catkin package: 'catkin_glog'
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LqrControllerParams
 
--- ==> add_subdirectory(catkin/third_party/catkin-glog)
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CartesianGains
 
--- Found glog    (include: /usr/include, library: /usr/lib/x86_64-linux-gnu/libglog.so)
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ChordEllipsoid
 
--- +++ processing catkin package: 'cdlbt'
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OnlineDataStatus
 
--- ==> add_subdirectory(catkin/ros/barrett-ros/cdlbt)
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DistanceFieldQueries
 
--- MACHTYPE x86_64
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_FingerJointEncoderOffsets
 
-Detected MACHTYPE=x86_64
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_KeyPointBodyApprox
 
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineLearningControlService
 
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LinearQuadraticRegulatorParams
 
-Call Stack (most recent call first):
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LqrControllerParamsService
 
-  catkin/ros/barrett-ros/cdlbt/CMakeLists.txt:8 (include)
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Grasp
 
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_FingerForceControlGains
 
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateBiotacSensorsStatus
 
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_StrainGauge
 
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ExtremsArray
 
--- HOST_NAME=everest
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_TaskFrame
 
--- HOST=everest
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Sphere
 
--- LAB=AMD
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_EndEffectorState
 
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_RectangularBox
 
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ViconData
 
--- CMAKE_INCLUDE_PATH=
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SpeedChange
 
--- CMAKE_LIBRARY_PATH=
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateAccelerometerSensor
 
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ResetBreakawayStatus
 
--- LAB_LIBDIR=lib/x86_64
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_RectangularBoxArray
 
--- LAB_INCLUDES=include
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ControllerStatus
 
--- LAB_BINDIR=bin/x86_64
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateBiotacSensors
 
--- +++ processing catkin package: 'can_control_tools'
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineParams
 
--- ==> add_subdirectory(catkin/ros/barrett-ros/canControlTools)
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LinearQuadraticRegulatorStatus
 
--- MACHTYPE x86_64
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_EnvironmentalObject
 
-Detected MACHTYPE=x86_64
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Matrix32
 
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ObjectMass
 
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Gains
 
-Call Stack (most recent call first):
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PointArray
 
-  catkin/ros/barrett-ros/canControlTools/CMakeLists.txt:8 (include)
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Trajectory
 
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ImageCoordinatesArray
 
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateForceTorqueSensorStatus
 
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LinearQuadraticRegulator
 
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_InverseDynamicsBatchNetworkControllerParams
 
--- HOST_NAME=everest
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_TrackingPose
 
--- HOST=everest
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineParamsService
 
--- LAB=AMD
+[  6%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CollectData
 
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+[ 22%] Built target amd_clmc_ros_messages_generate_messages_py
 
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+[ 22%] Built target geometry_msgs_generate_messages_cpp
 
--- CMAKE_INCLUDE_PATH=
+Scanning dependencies of target amd_clmc_ros_messages_generate_messages_cpp
 
--- CMAKE_LIBRARY_PATH=
+[ 22%] Generating C++ code from amd_clmc_ros_messages/DriftingControllerDataStatus.msg
 
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+[ 22%] Generating C++ code from amd_clmc_ros_messages/OfflineLearningControl.msg
 
--- LAB_LIBDIR=lib/x86_64
+[ 22%] Generating C++ code from amd_clmc_ros_messages/CalibratePressureSensorsStatus.msg
 
--- LAB_INCLUDES=include
+[ 22%] Generating C++ code from amd_clmc_ros_messages/BoundingPoints.msg
 
--- LAB_BINDIR=bin/x86_64
+[ 23%] Generating C++ code from amd_clmc_ros_messages/NavigationTarget.msg
 
--- Boost version: 1.54.0
+[ 23%] Generating C++ code from amd_clmc_ros_messages/ResetBreakaway.msg
 
--- Found the following Boost libraries:
+[ 23%] Generating C++ code from amd_clmc_ros_messages/Goto_command.msg
 
---   thread
+[ 23%] Generating C++ code from amd_clmc_ros_messages/RtNetwork.msg
 
--- +++ processing catkin package: 'controller_communication'
+[ 23%] Generating C++ code from amd_clmc_ros_messages/GraspControllerStatus.msg
 
--- ==> add_subdirectory(catkin/controller_manager/controller_communication)
+[ 23%] Generating C++ code from amd_clmc_ros_messages/BiotacData.msg
 
--- +++ processing catkin package: 'conversions'
+[ 23%] Generating C++ code from amd_clmc_ros_messages/ExperimentParams.msg
 
--- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/usc_utils/conversions)
+[ 24%] Generating C++ code from amd_clmc_ros_messages/AvgPressureSensors.msg
 
--- +++ processing catkin package: 'interpolation'
+[ 24%] Generating C++ code from amd_clmc_ros_messages/Trajectory.msg
 
--- ==> add_subdirectory(catkin/controller_manager/core-sl-ros/interpolation)
+[ 24%] Generating C++ code from amd_clmc_ros_messages/Volumes.msg
 
--- +++ processing catkin package: 'inverse_dynamics_learning_apollo'
+[ 24%] Generating C++ code from amd_clmc_ros_messages/UpdateStrainGagesCalibration.msg
 
--- ==> add_subdirectory(catkin/learning/inverse_dynamics_learning_apollo)
+[ 24%] Generating C++ code from amd_clmc_ros_messages/PointArrayArray.msg
 
--- +++ processing catkin package: 'qp_oases'
+[ 24%] Generating C++ code from amd_clmc_ros_messages/ImageCoordinates.msg
 
--- ==> add_subdirectory(catkin/third_party/qp_oases)
+[ 24%] Generating C++ code from amd_clmc_ros_messages/LabeledPoint.msg
 
--- +++ processing catkin package: 'quadprog'
+[ 25%] Generating C++ code from amd_clmc_ros_messages/IncreaseMaxFingerTorque.msg
 
--- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/usc_utils/quadprog)
+[ 25%] Generating C++ code from amd_clmc_ros_messages/Preshape.msg
 
--- +++ processing catkin metapackage: 'ros_realtime'
+[ 25%] Generating C++ code from amd_clmc_ros_messages/LqrControllerDataStatus.msg
 
--- ==> add_subdirectory(catkin/ros/ros_realtime/ros_realtime)
+[ 25%] Generating C++ code from amd_clmc_ros_messages/PressureSensors.msg
 
--- +++ processing catkin package: 'allocators'
+[ 25%] Generating C++ code from amd_clmc_ros_messages/ObstaclePoints.msg
 
--- ==> add_subdirectory(catkin/ros/ros_realtime/allocators)
+[ 25%] Generating C++ code from amd_clmc_ros_messages/CalibrateForceTorqueSensor.msg
 
--- Boost version: 1.54.0
+[ 25%] Generating C++ code from amd_clmc_ros_messages/CartesianTrajectory.msg
 
--- +++ processing catkin package: 'rosatomic'
+[ 26%] Generating C++ code from amd_clmc_ros_messages/Acceleration.msg
 
--- ==> add_subdirectory(catkin/ros/ros_realtime/rosatomic)
+[ 26%] Generating C++ code from amd_clmc_ros_messages/PolicyControllerDataStatus.msg
 
--- Boost version: 1.54.0
+[ 26%] Generating C++ code from amd_clmc_ros_messages/GraspPoses.msg
 
--- +++ processing catkin package: 'lockfree'
+[ 26%] Generating C++ code from amd_clmc_ros_messages/TrajectoryStatus.msg
 
--- ==> add_subdirectory(catkin/ros/ros_realtime/lockfree)
+[ 26%] Generating C++ code from amd_clmc_ros_messages/FingerJointEncoderOffsets.msg
 
--- Boost version: 1.54.0
+[ 26%] Generating C++ code from amd_clmc_ros_messages/DriftingControllerStatus.msg
 
--- +++ processing catkin package: 'rt_timer'
+[ 26%] Generating C++ code from amd_clmc_ros_messages/CartesianTrajectoryPoint.msg
 
--- ==> add_subdirectory(catkin/ros/ros_realtime/rt_timer)
+[ 27%] Generating C++ code from amd_clmc_ros_messages/LookAtParams.msg
 
--- +++ processing catkin package: 'rt_utils'
+[ 27%] Generating C++ code from amd_clmc_ros_messages/OfflineNetwork.msg
 
--- ==> add_subdirectory(catkin/rt_utils)
+[ 27%] Generating C++ code from amd_clmc_ros_messages/BiotacFingerData.msg
 
--- +++ processing catkin package: 'dmp'
+[ 27%] Generating C++ code from amd_clmc_ros_messages/CollectDataStatus.msg
 
--- ==> add_subdirectory(catkin/learning/dmp)
+[ 27%] Generating C++ code from amd_clmc_ros_messages/ColorRange.msg
 
--- +++ processing catkin package: 'splines'
+[ 27%] Generating C++ code from amd_clmc_ros_messages/LookAtStatus.msg
 
--- ==> add_subdirectory(catkin/controller_manager/core-sl-ros/splines)
+[ 27%] Generating C++ code from amd_clmc_ros_messages/DMPControllerStatus.msg
 
--- +++ processing catkin package: 'start_robot'
+[ 28%] Generating C++ code from amd_clmc_ros_messages/RtNetworkLayer.msg
 
--- ==> add_subdirectory(catkin/robots/start_robot)
+[ 28%] Generating C++ code from amd_clmc_ros_messages/CalibratePressureSensors.msg
 
--- +++ processing catkin package: 'amd_clmc_ros_messages'
+[ 28%] Generating C++ code from amd_clmc_ros_messages/Extrems.msg
 
--- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/amd_clmc_ros_messages)
+[ 28%] Generating C++ code from amd_clmc_ros_messages/StrainGauge.msg
 
--- Using these message generators: gencpp;genlisp;genpy
+[ 28%] Generating C++ code from amd_clmc_ros_messages/NetworkLayer.msg
 
--- amd_clmc_ros_messages: 108 messages, 10 services
+[ 28%] Generating C++ code from amd_clmc_ros_messages/ScaledLqr.msg
 
--- +++ processing catkin package: 'ar_track_alvar_msgs'
+[ 28%] Generating C++ code from amd_clmc_ros_messages/ViconQuery.msg
 
--- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/ar_track_alvar_msgs)
+[ 29%] Generating C++ code from amd_clmc_ros_messages/GraspControllerParams.msg
 
--- Using these message generators: gencpp;genlisp;genpy
+[ 29%] Generating C++ code from amd_clmc_ros_messages/SetVisualToolTracking.msg
 
--- ar_track_alvar_msgs: 2 messages, 0 services
+[ 29%] Generating C++ code from amd_clmc_ros_messages/UpdateStrainGagesCalibrationStatus.msg
 
--- +++ processing catkin package: 'custom_robot_msgs'
+[ 29%] Generating C++ code from amd_clmc_ros_messages/DMPControllerParams.msg
 
--- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/custom_robot_msgs)
+[ 29%] Generating C++ code from amd_clmc_ros_messages/Path.msg
 
--- Using these message generators: gencpp;genlisp;genpy
+[ 29%] Generating C++ code from amd_clmc_ros_messages/TrajectoryPoint.msg
 
--- custom_robot_msgs: 1 messages, 2 services
+[ 29%] Generating C++ code from amd_clmc_ros_messages/ContinuousTrajectoryStatus.msg
 
--- +++ processing catkin package: 'riemo_grasping_msgs'
+[ 30%] Generating C++ code from amd_clmc_ros_messages/ContinuousTrajectoryPoint.msg
 
--- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/riemo_grasping_msgs)
+[ 30%] Generating C++ code from amd_clmc_ros_messages/GraspStatus.msg
 
--- Using these message generators: gencpp;genlisp;genpy
+[ 30%] Generating C++ code from amd_clmc_ros_messages/Sphere.msg
 
--- riemo_grasping_msgs: 5 messages, 3 services
+[ 30%] Generating C++ code from amd_clmc_ros_messages/InverseDynamicsBatchNetworkControllerStatus.msg
 
--- +++ processing catkin package: 'utilities'
+[ 30%] Generating C++ code from amd_clmc_ros_messages/Imu.msg
 
--- ==> add_subdirectory(catkin/core-sl/catkin-utilities)
+[ 30%] Generating C++ code from amd_clmc_ros_messages/FingerJointEncoderOffsetsStatus.msg
 
--- MACHTYPE x86_64
+[ 30%] Generating C++ code from amd_clmc_ros_messages/DriftingControllerParams.msg
 
-Detected MACHTYPE=x86_64
+[ 31%] Generating C++ code from amd_clmc_ros_messages/OfflineDataStatus.msg
 
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+[ 31%] Generating C++ code from amd_clmc_ros_messages/AffinePolicy.msg
 
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+[ 31%] Generating C++ code from amd_clmc_ros_messages/CalibrateAccelerometerSensorStatus.msg
 
-Call Stack (most recent call first):
+[ 31%] Generating C++ code from amd_clmc_ros_messages/BoundingPointsArray.msg
 
-  catkin/core-sl/catkin-utilities/CMakeLists.txt:8 (include)
+[ 31%] Generating C++ code from amd_clmc_ros_messages/DistanceFieldEval.msg
 
+[ 31%] Generating C++ code from amd_clmc_ros_messages/LqrControllerParams.msg
 
+[ 31%] Generating C++ code from amd_clmc_ros_messages/TrackingPose.msg
 
+[ 32%] Generating C++ code from amd_clmc_ros_messages/ChordEllipsoid.msg
 
+[ 32%] Generating C++ code from amd_clmc_ros_messages/OnlineDataStatus.msg
 
--- HOST_NAME=everest
+[ 32%] Generating C++ code from amd_clmc_ros_messages/KeyPointBodyApprox.msg
 
--- HOST=everest
+[ 32%] Generating C++ code from amd_clmc_ros_messages/LinearQuadraticRegulatorParams.msg
 
--- LAB=AMD
+[ 32%] Generating C++ code from amd_clmc_ros_messages/Grasp.msg
 
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+[ 32%] Generating C++ code from amd_clmc_ros_messages/FingerForceControlGains.msg
 
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+[ 32%] Generating C++ code from amd_clmc_ros_messages/CalibrateBiotacSensorsStatus.msg
 
--- CMAKE_INCLUDE_PATH=
+[ 33%] Generating C++ code from amd_clmc_ros_messages/DMPCommand.msg
 
--- CMAKE_LIBRARY_PATH=
+[ 33%] Generating C++ code from amd_clmc_ros_messages/ExtremsArray.msg
 
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+[ 33%] Generating C++ code from amd_clmc_ros_messages/TaskFrame.msg
 
--- LAB_LIBDIR=lib/x86_64
+[ 33%] Generating C++ code from amd_clmc_ros_messages/EndEffectorPosition.msg
 
--- LAB_INCLUDES=include
+[ 33%] Generating C++ code from amd_clmc_ros_messages/EndEffectorState.msg
 
--- LAB_BINDIR=bin/x86_64
+[ 33%] Generating C++ code from amd_clmc_ros_messages/RectangularBox.msg
 
--- +++ processing catkin package: 'lwpr'
+[ 33%] Generating C++ code from amd_clmc_ros_messages/ViconData.msg
 
--- ==> add_subdirectory(catkin/core-sl/catkin-lwpr)
+[ 34%] Generating C++ code from amd_clmc_ros_messages/SpeedChange.msg
 
--- MACHTYPE x86_64
+[ 34%] Generating C++ code from amd_clmc_ros_messages/CalibrateAccelerometerSensor.msg
 
-Detected MACHTYPE=x86_64
+[ 34%] Generating C++ code from amd_clmc_ros_messages/ResetBreakawayStatus.msg
 
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+[ 34%] Generating C++ code from amd_clmc_ros_messages/RectangularBoxArray.msg
 
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+[ 34%] Generating C++ code from amd_clmc_ros_messages/ControllerStatus.msg
 
-Call Stack (most recent call first):
+[ 34%] Generating C++ code from amd_clmc_ros_messages/CalibrateBiotacSensors.msg
 
-  catkin/core-sl/catkin-lwpr/CMakeLists.txt:5 (include)
+[ 34%] Generating C++ code from amd_clmc_ros_messages/OfflineParams.msg
 
+[ 35%] Generating C++ code from amd_clmc_ros_messages/LinearQuadraticRegulatorStatus.msg
 
+[ 35%] Generating C++ code from amd_clmc_ros_messages/EnvironmentalObject.msg
 
+[ 35%] Generating C++ code from amd_clmc_ros_messages/Matrix32.msg
 
+[ 35%] Generating C++ code from amd_clmc_ros_messages/ObjectMass.msg
 
--- HOST_NAME=everest
+[ 35%] Generating C++ code from amd_clmc_ros_messages/Gains.msg
 
--- HOST=everest
+[ 35%] Generating C++ code from amd_clmc_ros_messages/PointArray.msg
 
--- LAB=AMD
+[ 35%] Generating C++ code from amd_clmc_ros_messages/DistanceFieldQueries.msg
 
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+[ 36%] Generating C++ code from amd_clmc_ros_messages/ImageCoordinatesArray.msg
 
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+[ 36%] Generating C++ code from amd_clmc_ros_messages/CalibrateForceTorqueSensorStatus.msg
 
--- CMAKE_INCLUDE_PATH=
+[ 36%] Generating C++ code from amd_clmc_ros_messages/LinearQuadraticRegulator.msg
 
--- CMAKE_LIBRARY_PATH=
+[ 36%] Generating C++ code from amd_clmc_ros_messages/InverseDynamicsBatchNetworkControllerParams.msg
 
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+[ 36%] Generating C++ code from amd_clmc_ros_messages/CartesianGains.msg
 
--- LAB_LIBDIR=lib/x86_64
+[ 36%] Generating C++ code from amd_clmc_ros_messages/CollectData.msg
 
--- LAB_INCLUDES=include
+[ 36%] Generating C++ code from amd_clmc_ros_messages/AccelerationFeedbackExperimentStatus.msg
 
--- LAB_BINDIR=bin/x86_64
+[ 37%] Generating C++ code from amd_clmc_ros_messages/OfflineLearningControlService.srv
 
--- +++ processing catkin package: 'xenomai_ros'
+[ 37%] Generating C++ code from amd_clmc_ros_messages/DriftingControllerParamsService.srv
 
--- ==> add_subdirectory(catkin/ros/xenomai-ros)
+[ 37%] Generating C++ code from amd_clmc_ros_messages/OfflineParamsService.srv
 
--- +++ processing catkin package: 'constrained_inverse_kinematics_msgs'
+[ 37%] Generating C++ code from amd_clmc_ros_messages/SetObjectOri.srv
 
--- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/planning/constrained_inverse_kinematics_msgs)
+[ 37%] Generating C++ code from amd_clmc_ros_messages/QueryControllerStatus.srv
 
--- Using these message generators: gencpp;genlisp;genpy
+[ 37%] Generating C++ code from amd_clmc_ros_messages/PolicyControllerParamsService.srv
 
--- constrained_inverse_kinematics_msgs: 1 messages, 0 services
+[ 37%] Generating C++ code from amd_clmc_ros_messages/ExperimentGeneratorParamsService.srv
 
--- +++ processing catkin package: 'roscpp_utilities'
+[ 38%] Generating C++ code from amd_clmc_ros_messages/LqrControllerParamsService.srv
 
--- ==> add_subdirectory(catkin/ros/roscpp_utilities)
+[ 38%] Generating C++ code from amd_clmc_ros_messages/SwitchControllerStack.srv
 
--- +++ processing catkin package: 'rosrt'
+[ 38%] Generating C++ code from amd_clmc_ros_messages/SetPoses.srv
 
--- ==> add_subdirectory(catkin/ros/ros_realtime/rosrt)
+[ 38%] Built target amd_clmc_ros_messages_generate_messages_cpp
 
--- xenomai NOT found. (/usr/local;/usr)
+[ 38%] Built target geometry_msgs_generate_messages_lisp
 
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+Scanning dependencies of target amd_clmc_ros_messages_generate_messages_lisp
 
--- Boost version: 1.54.0
+[ 38%] Generating Lisp code from amd_clmc_ros_messages/DriftingControllerDataStatus.msg
 
--- Found the following Boost libraries:
+[ 38%] Generating Lisp code from amd_clmc_ros_messages/OfflineLearningControl.msg
 
---   thread
+[ 38%] Generating Lisp code from amd_clmc_ros_messages/CalibratePressureSensorsStatus.msg
 
--- +++ processing catkin package: 'ros_rt_test'
+[ 38%] Generating Lisp code from amd_clmc_ros_messages/BoundingPoints.msg
 
--- ==> add_subdirectory(catkin/ros/ros_rt_basic_example)
+[ 39%] Generating Lisp code from amd_clmc_ros_messages/NavigationTarget.msg
 
--- xenomai NOT found. (/usr/local;/usr)
+[ 39%] Generating Lisp code from amd_clmc_ros_messages/ResetBreakaway.msg
 
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+[ 39%] Generating Lisp code from amd_clmc_ros_messages/Goto_command.msg
 
--- +++ processing catkin package: 'sl'
+[ 39%] Generating Lisp code from amd_clmc_ros_messages/RtNetwork.msg
 
--- ==> add_subdirectory(catkin/core-sl/catkin-sl)
+[ 39%] Generating Lisp code from amd_clmc_ros_messages/GraspControllerStatus.msg
 
--- MACHTYPE x86_64
+[ 39%] Generating Lisp code from amd_clmc_ros_messages/BiotacData.msg
 
-Detected MACHTYPE=x86_64
+[ 39%] Generating Lisp code from amd_clmc_ros_messages/ExperimentParams.msg
 
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+[ 40%] Generating Lisp code from amd_clmc_ros_messages/AvgPressureSensors.msg
 
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+[ 40%] Generating Lisp code from amd_clmc_ros_messages/Trajectory.msg
 
-Call Stack (most recent call first):
+[ 40%] Generating Lisp code from amd_clmc_ros_messages/Volumes.msg
 
-  catkin/core-sl/catkin-sl/CMakeLists.txt:8 (include)
+[ 40%] Generating Lisp code from amd_clmc_ros_messages/UpdateStrainGagesCalibration.msg
 
+[ 40%] Generating Lisp code from amd_clmc_ros_messages/PointArrayArray.msg
 
+[ 40%] Generating Lisp code from amd_clmc_ros_messages/ImageCoordinates.msg
 
+[ 40%] Generating Lisp code from amd_clmc_ros_messages/LabeledPoint.msg
 
+[ 41%] Generating Lisp code from amd_clmc_ros_messages/IncreaseMaxFingerTorque.msg
 
--- HOST_NAME=everest
+[ 41%] Generating Lisp code from amd_clmc_ros_messages/Preshape.msg
 
--- HOST=everest
+[ 41%] Generating Lisp code from amd_clmc_ros_messages/LqrControllerDataStatus.msg
 
--- LAB=AMD
+[ 41%] Generating Lisp code from amd_clmc_ros_messages/PressureSensors.msg
 
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+[ 41%] Generating Lisp code from amd_clmc_ros_messages/ObstaclePoints.msg
 
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+[ 41%] Generating Lisp code from amd_clmc_ros_messages/CalibrateForceTorqueSensor.msg
 
--- CMAKE_INCLUDE_PATH=
+[ 41%] Generating Lisp code from amd_clmc_ros_messages/CartesianTrajectory.msg
 
--- CMAKE_LIBRARY_PATH=
+[ 42%] Generating Lisp code from amd_clmc_ros_messages/Acceleration.msg
 
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+[ 42%] Generating Lisp code from amd_clmc_ros_messages/PolicyControllerDataStatus.msg
 
--- LAB_LIBDIR=lib/x86_64
+[ 42%] Generating Lisp code from amd_clmc_ros_messages/GraspPoses.msg
 
--- LAB_INCLUDES=include
+[ 42%] Generating Lisp code from amd_clmc_ros_messages/TrajectoryStatus.msg
 
--- LAB_BINDIR=bin/x86_64
+[ 42%] Generating Lisp code from amd_clmc_ros_messages/FingerJointEncoderOffsets.msg
 
--- +++ processing catkin package: 'apollo'
+[ 42%] Generating Lisp code from amd_clmc_ros_messages/DriftingControllerStatus.msg
 
--- ==> add_subdirectory(catkin/robots/catkin-apollo)
+[ 42%] Generating Lisp code from amd_clmc_ros_messages/CartesianTrajectoryPoint.msg
 
--- MACHTYPE x86_64
+[ 43%] Generating Lisp code from amd_clmc_ros_messages/LookAtParams.msg
 
-Detected MACHTYPE=x86_64
+[ 43%] Generating Lisp code from amd_clmc_ros_messages/OfflineNetwork.msg
 
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+[ 43%] Generating Lisp code from amd_clmc_ros_messages/BiotacFingerData.msg
 
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+[ 43%] Generating Lisp code from amd_clmc_ros_messages/CollectDataStatus.msg
 
-Call Stack (most recent call first):
+[ 43%] Generating Lisp code from amd_clmc_ros_messages/ColorRange.msg
 
-  catkin/robots/catkin-apollo/CMakeLists.txt:9 (include)
+[ 43%] Generating Lisp code from amd_clmc_ros_messages/LookAtStatus.msg
 
+[ 43%] Generating Lisp code from amd_clmc_ros_messages/DMPControllerStatus.msg
 
+[ 44%] Generating Lisp code from amd_clmc_ros_messages/RtNetworkLayer.msg
 
+[ 44%] Generating Lisp code from amd_clmc_ros_messages/CalibratePressureSensors.msg
 
+[ 44%] Generating Lisp code from amd_clmc_ros_messages/Extrems.msg
 
--- HOST_NAME=everest
+[ 44%] Generating Lisp code from amd_clmc_ros_messages/StrainGauge.msg
 
--- HOST=everest
+[ 44%] Generating Lisp code from amd_clmc_ros_messages/NetworkLayer.msg
 
--- LAB=AMD
+[ 44%] Generating Lisp code from amd_clmc_ros_messages/ScaledLqr.msg
 
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+[ 44%] Generating Lisp code from amd_clmc_ros_messages/ViconQuery.msg
 
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+[ 45%] Generating Lisp code from amd_clmc_ros_messages/GraspControllerParams.msg
 
--- CMAKE_INCLUDE_PATH=
+[ 45%] Generating Lisp code from amd_clmc_ros_messages/SetVisualToolTracking.msg
 
--- CMAKE_LIBRARY_PATH=
+[ 45%] Generating Lisp code from amd_clmc_ros_messages/UpdateStrainGagesCalibrationStatus.msg
 
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+[ 45%] Generating Lisp code from amd_clmc_ros_messages/DMPControllerParams.msg
 
--- LAB_LIBDIR=lib/x86_64
+[ 45%] Generating Lisp code from amd_clmc_ros_messages/Path.msg
 
--- LAB_INCLUDES=include
+[ 45%] Generating Lisp code from amd_clmc_ros_messages/TrajectoryPoint.msg
 
--- LAB_BINDIR=bin/x86_64
+[ 45%] Generating Lisp code from amd_clmc_ros_messages/ContinuousTrajectoryStatus.msg
 
--- +++ processing catkin package: 'apollo_test_task'
+[ 46%] Generating Lisp code from amd_clmc_ros_messages/ContinuousTrajectoryPoint.msg
 
--- ==> add_subdirectory(catkin/robots/catkin-sl-apollo-task-example)
+[ 46%] Generating Lisp code from amd_clmc_ros_messages/GraspStatus.msg
 
--- MACHTYPE x86_64
+[ 46%] Generating Lisp code from amd_clmc_ros_messages/Sphere.msg
 
-Detected MACHTYPE=x86_64
+[ 46%] Generating Lisp code from amd_clmc_ros_messages/InverseDynamicsBatchNetworkControllerStatus.msg
 
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+[ 46%] Generating Lisp code from amd_clmc_ros_messages/Imu.msg
 
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+[ 46%] Generating Lisp code from amd_clmc_ros_messages/FingerJointEncoderOffsetsStatus.msg
 
-Call Stack (most recent call first):
+[ 46%] Generating Lisp code from amd_clmc_ros_messages/DriftingControllerParams.msg
 
-  catkin/robots/catkin-sl-apollo-task-example/CMakeLists.txt:8 (include)
+[ 47%] Generating Lisp code from amd_clmc_ros_messages/OfflineDataStatus.msg
 
+[ 47%] Generating Lisp code from amd_clmc_ros_messages/AffinePolicy.msg
 
+[ 47%] Generating Lisp code from amd_clmc_ros_messages/CalibrateAccelerometerSensorStatus.msg
 
+[ 47%] Generating Lisp code from amd_clmc_ros_messages/BoundingPointsArray.msg
 
+[ 47%] Generating Lisp code from amd_clmc_ros_messages/DistanceFieldEval.msg
 
--- HOST_NAME=everest
+[ 47%] Generating Lisp code from amd_clmc_ros_messages/LqrControllerParams.msg
 
--- HOST=everest
+[ 47%] Generating Lisp code from amd_clmc_ros_messages/TrackingPose.msg
 
--- LAB=AMD
+[ 48%] Generating Lisp code from amd_clmc_ros_messages/ChordEllipsoid.msg
 
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+[ 48%] Generating Lisp code from amd_clmc_ros_messages/OnlineDataStatus.msg
 
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+[ 48%] Generating Lisp code from amd_clmc_ros_messages/KeyPointBodyApprox.msg
 
--- CMAKE_INCLUDE_PATH=
+[ 48%] Generating Lisp code from amd_clmc_ros_messages/LinearQuadraticRegulatorParams.msg
 
--- CMAKE_LIBRARY_PATH=
+[ 48%] Generating Lisp code from amd_clmc_ros_messages/Grasp.msg
 
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+[ 48%] Generating Lisp code from amd_clmc_ros_messages/FingerForceControlGains.msg
 
--- LAB_LIBDIR=lib/x86_64
+[ 48%] Generating Lisp code from amd_clmc_ros_messages/CalibrateBiotacSensorsStatus.msg
 
--- LAB_INCLUDES=include
+[ 49%] Generating Lisp code from amd_clmc_ros_messages/DMPCommand.msg
 
--- LAB_BINDIR=bin/x86_64
+[ 49%] Generating Lisp code from amd_clmc_ros_messages/ExtremsArray.msg
 
--- +++ processing catkin package: 'sl_ros_servo'
+[ 49%] Generating Lisp code from amd_clmc_ros_messages/TaskFrame.msg
 
--- ==> add_subdirectory(catkin/ros/sl_ros_servo)
+[ 49%] Generating Lisp code from amd_clmc_ros_messages/EndEffectorPosition.msg
 
--- MACHTYPE x86_64
+[ 49%] Generating Lisp code from amd_clmc_ros_messages/EndEffectorState.msg
 
-Detected MACHTYPE=x86_64
+[ 49%] Generating Lisp code from amd_clmc_ros_messages/RectangularBox.msg
 
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+[ 49%] Generating Lisp code from amd_clmc_ros_messages/ViconData.msg
 
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+[ 50%] Generating Lisp code from amd_clmc_ros_messages/SpeedChange.msg
 
-Call Stack (most recent call first):
+[ 50%] Generating Lisp code from amd_clmc_ros_messages/CalibrateAccelerometerSensor.msg
 
-  catkin/ros/sl_ros_servo/CMakeLists.txt:5 (include)
+[ 50%] Generating Lisp code from amd_clmc_ros_messages/ResetBreakawayStatus.msg
 
+[ 50%] Generating Lisp code from amd_clmc_ros_messages/RectangularBoxArray.msg
 
+[ 50%] Generating Lisp code from amd_clmc_ros_messages/ControllerStatus.msg
 
+[ 50%] Generating Lisp code from amd_clmc_ros_messages/CalibrateBiotacSensors.msg
 
+[ 50%] Generating Lisp code from amd_clmc_ros_messages/OfflineParams.msg
 
--- HOST_NAME=everest
+[ 51%] Generating Lisp code from amd_clmc_ros_messages/LinearQuadraticRegulatorStatus.msg
 
--- HOST=everest
+[ 51%] Generating Lisp code from amd_clmc_ros_messages/EnvironmentalObject.msg
 
--- LAB=AMD
+[ 51%] Generating Lisp code from amd_clmc_ros_messages/Matrix32.msg
 
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+[ 51%] Generating Lisp code from amd_clmc_ros_messages/ObjectMass.msg
 
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+[ 51%] Generating Lisp code from amd_clmc_ros_messages/Gains.msg
 
--- CMAKE_INCLUDE_PATH=
+[ 51%] Generating Lisp code from amd_clmc_ros_messages/PointArray.msg
 
--- CMAKE_LIBRARY_PATH=
+[ 51%] Generating Lisp code from amd_clmc_ros_messages/DistanceFieldQueries.msg
 
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+[ 52%] Generating Lisp code from amd_clmc_ros_messages/ImageCoordinatesArray.msg
 
--- LAB_LIBDIR=lib/x86_64
+[ 52%] Generating Lisp code from amd_clmc_ros_messages/CalibrateForceTorqueSensorStatus.msg
 
--- LAB_INCLUDES=include
+[ 52%] Generating Lisp code from amd_clmc_ros_messages/LinearQuadraticRegulator.msg
 
--- LAB_BINDIR=bin/x86_64
+[ 52%] Generating Lisp code from amd_clmc_ros_messages/InverseDynamicsBatchNetworkControllerParams.msg
 
--- +++ processing catkin package: 'learning_control'
+[ 52%] Generating Lisp code from amd_clmc_ros_messages/CartesianGains.msg
 
--- ==> add_subdirectory(catkin/learning/learning_control)
+[ 52%] Generating Lisp code from amd_clmc_ros_messages/CollectData.msg
 
--- MACHTYPE x86_64
+[ 52%] Generating Lisp code from amd_clmc_ros_messages/AccelerationFeedbackExperimentStatus.msg
 
-Detected MACHTYPE=x86_64
+[ 53%] Generating Lisp code from amd_clmc_ros_messages/OfflineLearningControlService.srv
 
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+[ 53%] Generating Lisp code from amd_clmc_ros_messages/DriftingControllerParamsService.srv
 
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+[ 53%] Generating Lisp code from amd_clmc_ros_messages/OfflineParamsService.srv
 
-Call Stack (most recent call first):
+[ 53%] Generating Lisp code from amd_clmc_ros_messages/SetObjectOri.srv
 
-  catkin/learning/learning_control/CMakeLists.txt:10 (include)
+[ 53%] Generating Lisp code from amd_clmc_ros_messages/QueryControllerStatus.srv
 
+[ 53%] Generating Lisp code from amd_clmc_ros_messages/PolicyControllerParamsService.srv
 
+[ 53%] Generating Lisp code from amd_clmc_ros_messages/ExperimentGeneratorParamsService.srv
 
+[ 54%] Generating Lisp code from amd_clmc_ros_messages/LqrControllerParamsService.srv
 
+[ 54%] Generating Lisp code from amd_clmc_ros_messages/SwitchControllerStack.srv
 
--- HOST_NAME=everest
+[ 54%] Generating Lisp code from amd_clmc_ros_messages/SetPoses.srv
 
--- HOST=everest
+[ 54%] Built target amd_clmc_ros_messages_generate_messages_lisp
 
--- LAB=AMD
+Scanning dependencies of target amd_clmc_ros_messages_generate_messages
 
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+[ 54%] Built target amd_clmc_ros_messages_generate_messages
 
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+[ 54%] Built target _ar_track_alvar_msgs_generate_messages_check_deps_AlvarMarkers
 
--- CMAKE_INCLUDE_PATH=
+[ 54%] Built target _ar_track_alvar_msgs_generate_messages_check_deps_AlvarMarker
 
--- CMAKE_LIBRARY_PATH=
+[ 54%] Built target std_msgs_generate_messages_py
 
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+Scanning dependencies of target ar_track_alvar_msgs_generate_messages_py
 
--- LAB_LIBDIR=lib/x86_64
+[ 55%] Generating Python from MSG ar_track_alvar_msgs/AlvarMarkers
 
--- LAB_INCLUDES=include
+[ 55%] Generating Python from MSG ar_track_alvar_msgs/AlvarMarker
 
--- LAB_BINDIR=bin/x86_64
+[ 55%] Generating Python msg __init__.py for ar_track_alvar_msgs
 
--- xenomai NOT found. (/usr/local;/usr)
+[ 55%] Built target ar_track_alvar_msgs_generate_messages_py
 
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+[ 55%] Built target std_msgs_generate_messages_lisp
 
--- +++ processing catkin package: 'python_ros_utils'
+Scanning dependencies of target ar_track_alvar_msgs_generate_messages_lisp
 
--- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/usc_utils/python_ros_utils)
+[ 55%] Generating Lisp code from ar_track_alvar_msgs/AlvarMarkers.msg
 
--- Using these message generators: gencpp;genlisp;genpy
+[ 55%] Generating Lisp code from ar_track_alvar_msgs/AlvarMarker.msg
 
--- +++ processing catkin package: 'sl_conversions'
+[ 55%] Built target ar_track_alvar_msgs_generate_messages_lisp
 
--- ==> add_subdirectory(catkin/controller_manager/core-sl-ros/sl_conversions)
+[ 55%] Built target std_msgs_generate_messages_cpp
 
--- Using these message generators: gencpp;genlisp;genpy
+Scanning dependencies of target ar_track_alvar_msgs_generate_messages_cpp
 
--- +++ processing catkin package: 'sl_utilities'
+[ 55%] Generating C++ code from ar_track_alvar_msgs/AlvarMarkers.msg
 
--- ==> add_subdirectory(catkin/controller_manager/core-sl-ros/sl_utilities)
+[ 55%] Generating C++ code from ar_track_alvar_msgs/AlvarMarker.msg
 
--- xenomai NOT found. (/usr/local;/usr)
+[ 55%] Built target ar_track_alvar_msgs_generate_messages_cpp
 
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+Scanning dependencies of target ar_track_alvar_msgs_generate_messages
 
--- Using these message generators: gencpp;genlisp;genpy
+[ 55%] Built target ar_track_alvar_msgs_generate_messages
 
--- +++ processing catkin package: 'sl_controller_manager'
+[ 55%] Built target _custom_robot_msgs_generate_messages_check_deps_PredictAssembly
 
--- ==> add_subdirectory(catkin/controller_manager/core-sl-ros/sl_controller_manager)
+[ 55%] Built target _custom_robot_msgs_generate_messages_check_deps_PolicyInterface
 
--- MACHTYPE x86_64
+[ 55%] Built target _custom_robot_msgs_generate_messages_check_deps_assembly_phase
 
-Detected MACHTYPE=x86_64
+Scanning dependencies of target custom_robot_msgs_generate_messages_py
 
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+[ 55%] Generating Python from MSG custom_robot_msgs/assembly_phase
 
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+[ 56%] Generating Python code from SRV custom_robot_msgs/PredictAssembly
 
-Call Stack (most recent call first):
+[ 56%] Generating Python code from SRV custom_robot_msgs/PolicyInterface
 
-  catkin/controller_manager/core-sl-ros/sl_controller_manager/CMakeLists.txt:5 (include)
+[ 56%] Generating Python msg __init__.py for custom_robot_msgs
 
+[ 56%] Generating Python srv __init__.py for custom_robot_msgs
 
+[ 56%] Built target custom_robot_msgs_generate_messages_py
 
+Scanning dependencies of target custom_robot_msgs_generate_messages_cpp
 
+[ 57%] Generating C++ code from custom_robot_msgs/assembly_phase.msg
 
--- HOST_NAME=everest
+[ 57%] Generating C++ code from custom_robot_msgs/PredictAssembly.srv
 
--- HOST=everest
+[ 57%] Generating C++ code from custom_robot_msgs/PolicyInterface.srv
 
--- LAB=AMD
+[ 57%] Built target custom_robot_msgs_generate_messages_cpp
 
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+Scanning dependencies of target custom_robot_msgs_generate_messages_lisp
 
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+[ 57%] Generating Lisp code from custom_robot_msgs/assembly_phase.msg
 
--- CMAKE_INCLUDE_PATH=
+[ 57%] Generating Lisp code from custom_robot_msgs/PredictAssembly.srv
 
--- CMAKE_LIBRARY_PATH=
+[ 57%] Generating Lisp code from custom_robot_msgs/PolicyInterface.srv
 
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+[ 57%] Built target custom_robot_msgs_generate_messages_lisp
 
--- LAB_LIBDIR=lib/x86_64
+Scanning dependencies of target custom_robot_msgs_generate_messages
 
--- LAB_INCLUDES=include
+[ 57%] Built target custom_robot_msgs_generate_messages
 
--- LAB_BINDIR=bin/x86_64
+[ 57%] Built target _riemo_grasping_msgs_generate_messages_check_deps_UpdateGraspProblem
 
--- xenomai NOT found. (/usr/local;/usr)
+[ 57%] Built target _riemo_grasping_msgs_generate_messages_check_deps_Preshape
 
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+[ 57%] Built target _riemo_grasping_msgs_generate_messages_check_deps_GraspProblemInfo
 
--- Using these message generators: gencpp;genlisp;genpy
+[ 57%] Built target _riemo_grasping_msgs_generate_messages_check_deps_GraspPose
 
--- +++ processing catkin package: 'controller_manager_task_apollo'
+[ 57%] Built target _riemo_grasping_msgs_generate_messages_check_deps_GraspableObject
 
--- ==> add_subdirectory(catkin/controller_manager/controller_manager_apollo/controller_manager_task_apollo)
+[ 57%] Built target _riemo_grasping_msgs_generate_messages_check_deps_RenderGraspProblemService
 
--- MACHTYPE x86_64
+[ 57%] Built target _riemo_grasping_msgs_generate_messages_check_deps_MpiGraspPoses
 
-Detected MACHTYPE=x86_64
+[ 57%] Built target _riemo_grasping_msgs_generate_messages_check_deps_LatestGraspProblemInfo
 
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+Scanning dependencies of target riemo_grasping_msgs_generate_messages_py
 
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+[ 57%] Generating Python from MSG riemo_grasping_msgs/MpiGraspPoses
 
-Call Stack (most recent call first):
+[ 57%] Generating Python from MSG riemo_grasping_msgs/Preshape
 
-  catkin/controller_manager/controller_manager_apollo/controller_manager_task_apollo/CMakeLists.txt:5 (include)
+[ 57%] Generating Python from MSG riemo_grasping_msgs/GraspableObject
 
+[ 57%] Generating Python from MSG riemo_grasping_msgs/GraspProblemInfo
 
+[ 57%] Generating Python from MSG riemo_grasping_msgs/GraspPose
 
+[ 57%] Generating Python code from SRV riemo_grasping_msgs/UpdateGraspProblem
 
+[ 58%] Generating Python code from SRV riemo_grasping_msgs/RenderGraspProblemService
 
--- HOST_NAME=everest
+[ 58%] Generating Python code from SRV riemo_grasping_msgs/LatestGraspProblemInfo
 
--- HOST=everest
+[ 58%] Generating Python msg __init__.py for riemo_grasping_msgs
 
--- LAB=AMD
+[ 58%] Generating Python srv __init__.py for riemo_grasping_msgs
 
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+[ 58%] Built target riemo_grasping_msgs_generate_messages_py
 
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+Scanning dependencies of target riemo_grasping_msgs_generate_messages_cpp
 
--- CMAKE_INCLUDE_PATH=
+[ 58%] Generating C++ code from riemo_grasping_msgs/MpiGraspPoses.msg
 
--- CMAKE_LIBRARY_PATH=
+[ 59%] Generating C++ code from riemo_grasping_msgs/Preshape.msg
 
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+[ 59%] Generating C++ code from riemo_grasping_msgs/GraspableObject.msg
 
--- LAB_LIBDIR=lib/x86_64
+[ 59%] Generating C++ code from riemo_grasping_msgs/GraspProblemInfo.msg
 
--- LAB_INCLUDES=include
+[ 59%] Generating C++ code from riemo_grasping_msgs/GraspPose.msg
 
--- LAB_BINDIR=bin/x86_64
+[ 59%] Generating C++ code from riemo_grasping_msgs/UpdateGraspProblem.srv
 
--- xenomai NOT found. (/usr/local;/usr)
+[ 59%] Generating C++ code from riemo_grasping_msgs/RenderGraspProblemService.srv
 
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+[ 59%] Generating C++ code from riemo_grasping_msgs/LatestGraspProblemInfo.srv
 
--- Using these message generators: gencpp;genlisp;genpy
+[ 59%] Built target riemo_grasping_msgs_generate_messages_cpp
 
--- +++ processing catkin package: 'apollo_user'
+Scanning dependencies of target riemo_grasping_msgs_generate_messages_lisp
 
--- ==> add_subdirectory(catkin/robots/catkin-apolloUser)
+[ 60%] Generating Lisp code from riemo_grasping_msgs/MpiGraspPoses.msg
 
--- MACHTYPE x86_64
+[ 60%] Generating Lisp code from riemo_grasping_msgs/Preshape.msg
 
-Detected MACHTYPE=x86_64
+[ 60%] Generating Lisp code from riemo_grasping_msgs/GraspableObject.msg
 
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+[ 60%] Generating Lisp code from riemo_grasping_msgs/GraspProblemInfo.msg
 
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+[ 60%] Generating Lisp code from riemo_grasping_msgs/GraspPose.msg
 
-Call Stack (most recent call first):
+[ 60%] Generating Lisp code from riemo_grasping_msgs/UpdateGraspProblem.srv
 
-  catkin/robots/catkin-apolloUser/CMakeLists.txt:8 (include)
+[ 60%] Generating Lisp code from riemo_grasping_msgs/RenderGraspProblemService.srv
 
+[ 61%] Generating Lisp code from riemo_grasping_msgs/LatestGraspProblemInfo.srv
 
+[ 61%] Built target riemo_grasping_msgs_generate_messages_lisp
 
+Scanning dependencies of target riemo_grasping_msgs_generate_messages
 
+[ 61%] Built target riemo_grasping_msgs_generate_messages
 
--- HOST_NAME=everest
+[ 66%] Built target utility
 
--- HOST=everest
+Scanning dependencies of target lwpr
 
--- LAB=AMD
+[ 67%] Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/lwpr.dir/src/lwpr.c.o
 
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+[ 67%] Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/lwpr.dir/src/lwpr_script.c.o
 
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+Linking C shared library /home/administrator/ci/ci/team/workspace/devel/lib/liblwpr.so
 
--- CMAKE_INCLUDE_PATH=
+[ 67%] Built target lwpr
 
--- CMAKE_LIBRARY_PATH=
+Scanning dependencies of target xascii2clmcplot
 
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+[ 67%] Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/xascii2clmcplot.dir/src/ascii2mrdplot.c.o
 
--- LAB_LIBDIR=lib/x86_64
+Linking C executable xascii2clmcplot
 
--- LAB_INCLUDES=include
+[ 67%] Built target xascii2clmcplot
 
--- LAB_BINDIR=bin/x86_64
+Scanning dependencies of target xlwpr
 
--- xenomai NOT found. (/usr/local;/usr)
+[ 67%] Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/xlwpr.dir/src/lwpr_test.c.o
 
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+[ 67%] Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/xlwpr.dir/src/lwpr.c.o
 
--- Using these message generators: gencpp;genlisp;genpy
+[ 68%] Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/xlwpr.dir/src/lwpr_main.c.o
 
--- +++ processing catkin package: 'sl_barrett_controllers'
+[ 68%] Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/xlwpr.dir/src/lwpr_script.c.o
 
--- ==> add_subdirectory(catkin/controller_manager/sl_barrett_controllers/sl_barrett_controllers)
+Linking C executable xlwpr
 
--- xenomai NOT found. (/usr/local;/usr)
+[ 68%] Built target xlwpr
 
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+Scanning dependencies of target xlwprstat
 
--- Using these message generators: gencpp;genlisp;genpy
+[ 68%] Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/xlwprstat.dir/src/lwpr_stat.c.o
 
--- +++ processing catkin package: 'sl_controllers'
+[ 68%] Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/xlwprstat.dir/src/lwpr.c.o
 
--- ==> add_subdirectory(catkin/controller_manager/core-sl-ros/sl_controllers)
+[ 68%] Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/xlwprstat.dir/src/lwpr_main.c.o
 
--- xenomai NOT found. (/usr/local;/usr)
+[ 68%] Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/xlwprstat.dir/src/lwpr_script.c.o
 
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+Linking C executable xlwprstat
 
--- Using these message generators: gencpp;genlisp;genpy
+[ 68%] Built target xlwprstat
 
--- Boost version: 1.54.0
+[ 68%] Built target shape_msgs_generate_messages_cpp
 
--- Found the following Boost libraries:
+[ 68%] Built target _constrained_inverse_kinematics_msgs_generate_messages_check_deps_InverseKinematicsRequest
 
---   random
+Scanning dependencies of target constrained_inverse_kinematics_msgs_generate_messages_cpp
 
--- +++ processing catkin package: 'ros_servo_apollo'
+[ 68%] Generating C++ code from constrained_inverse_kinematics_msgs/InverseKinematicsRequest.msg
 
--- ==> add_subdirectory(catkin/ros/ros_servo_apollo)
+[ 68%] Built target constrained_inverse_kinematics_msgs_generate_messages_cpp
 
--- MACHTYPE x86_64
+[ 68%] Built target shape_msgs_generate_messages_lisp
 
-Detected MACHTYPE=x86_64
+Scanning dependencies of target constrained_inverse_kinematics_msgs_generate_messages_lisp
 
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+[ 68%] Generating Lisp code from constrained_inverse_kinematics_msgs/InverseKinematicsRequest.msg
 
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+[ 68%] Built target constrained_inverse_kinematics_msgs_generate_messages_lisp
 
-Call Stack (most recent call first):
+[ 68%] Built target shape_msgs_generate_messages_py
 
-  catkin/ros/ros_servo_apollo/CMakeLists.txt:5 (include)
+Scanning dependencies of target constrained_inverse_kinematics_msgs_generate_messages_py
 
+[ 68%] Generating Python from MSG constrained_inverse_kinematics_msgs/InverseKinematicsRequest
 
+[ 68%] Generating Python msg __init__.py for constrained_inverse_kinematics_msgs
 
+[ 68%] Built target constrained_inverse_kinematics_msgs_generate_messages_py
 
+Scanning dependencies of target constrained_inverse_kinematics_msgs_generate_messages
 
--- HOST_NAME=everest
+[ 68%] Built target constrained_inverse_kinematics_msgs_generate_messages
 
--- HOST=everest
+[ 68%] Building CXX object catkin/playful/playful-navigation/navigation_msgs/CMakeFiles/playful_navigation_msgs.dir/src/convert_to_ros_markers.cpp.o
 
--- LAB=AMD
+In file included from /home/administrator/ci/ci/team/workspace/src/catkin/playful/playful-navigation/navigation_msgs/src/convert_to_ros_markers.cpp:1:0:
 
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+/home/administrator/ci/ci/team/workspace/src/catkin/playful/playful-navigation/navigation_msgs/include/playful_navigation_msgs/convert_to_ros_markers.h:13:52: fatal error: playful_navigation_msgs/RectangularBox.h: No such file or directory
 
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+ #include "playful_navigation_msgs/RectangularBox.h"
 
--- CMAKE_INCLUDE_PATH=
+                                                    ^
 
--- CMAKE_LIBRARY_PATH=
+compilation terminated.
 
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+make[2]: *** [catkin/playful/playful-navigation/navigation_msgs/CMakeFiles/playful_navigation_msgs.dir/src/convert_to_ros_markers.cpp.o] Error 1
 
--- LAB_LIBDIR=lib/x86_64
+make[1]: *** [catkin/playful/playful-navigation/navigation_msgs/CMakeFiles/playful_navigation_msgs.dir/all] Error 2
 
--- LAB_INCLUDES=include
-
--- LAB_BINDIR=bin/x86_64
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- +++ processing catkin package: 'usc_utilities'
-
--- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/usc_utils/usc_utilities)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- usc_utilities: 1 messages, 0 services
-
--- +++ processing catkin package: 'learnable_cost_function'
-
--- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/planning/learnable_cost_function)
-
--- +++ processing catkin package: 'robot_info'
-
--- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/usc_utils/robot_info)
-
--- +++ processing catkin package: 'jacobian_utilities'
-
--- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/usc_utils/jacobian_utilities)
-
--- +++ processing catkin package: 'sl_barrett_controller_interface'
-
--- ==> add_subdirectory(catkin/controller_manager/sl_barrett_controllers/sl_barrett_controller_interface)
-
--- xenomai NOT found. (/usr/local;/usr)
-
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- +++ processing catkin package: 'sl_controller_interface'
-
--- ==> add_subdirectory(catkin/controller_manager/core-sl-ros/sl_controller_interface)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- +++ processing catkin package: 'sl_controller_interface_test'
-
--- ==> add_subdirectory(catkin/controller_manager/controller_manager_examples_apollo)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- xenomai NOT found. (/usr/local;/usr)
-
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
-
--- +++ processing catkin package: 'strain_gauge_calibration'
-
--- ==> add_subdirectory(catkin/controller_manager/core-sl-ros/strain_gauge_calibration)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- xenomai NOT found. (/usr/local;/usr)
-
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
-
--- +++ processing catkin package: 'yaml_cpp'
-
--- ==> add_subdirectory(catkin/third_party/YAML_CPP)
-
--- Boost version: 1.54.0
-
--- +++ processing catkin package: 'facial_expressions'
-
--- ==> add_subdirectory(catkin/emotions/facial_expressions)
-
--- MACHTYPE x86_64
-
-Detected MACHTYPE=x86_64
-
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
-
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
-
-Call Stack (most recent call first):
-
-  catkin/emotions/facial_expressions/CMakeLists.txt:6 (include)
-
-
-
-
-
--- HOST_NAME=everest
-
--- HOST=everest
-
--- LAB=AMD
-
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_INCLUDE_PATH=
-
--- CMAKE_LIBRARY_PATH=
-
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
-
--- LAB_LIBDIR=lib/x86_64
-
--- LAB_INCLUDES=include
-
--- LAB_BINDIR=bin/x86_64
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- facial_expressions: 0 messages, 1 services
-
--- Configuring done
-
--- Generating done
-
--- Build files have been written to: /home/administrator/ci/ci/team/workspace/build
-
-[  0%] [  0%] [  0%] [  0%] [  0%] Built target sensor_msgs_generate_messages_cpp
-
-Built target geometry_msgs_generate_messages_cpp
-
-Built target visualization_msgs_generate_messages_cpp
-
-[  0%] Built target geometry_msgs_generate_messages_lisp
-
-Built target geometry_msgs_generate_messages_py
-
-[  0%] Built target std_msgs_generate_messages_lisp
-
-Built target actionlib_msgs_generate_messages_py
-
-[  0%] [  0%] Built target std_msgs_generate_messages_cpp
-
-[  0%] Built target std_msgs_generate_messages_py
-
-[  0%] Built target sensor_msgs_generate_messages_py
-
-Built target roscpp_utilities
-
-[  0%] Built target actionlib_msgs_generate_messages_lisp
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerDataStatus
-
-[  0%] Built target _usc_utilities_generate_messages_check_deps_AccumulatedTrialStatistics
-
-[  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_AccelerationFeedbackExperimentStatus
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineLearningControl
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibratePressureSensorsStatus
-
-[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_BoundingPoints
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_NavigationTarget
-
-[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Goto_command
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ResetBreakaway
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_PolicyControllerParamsService
-
-[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_RtNetwork
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ExperimentParams
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspControllerStatus
-
-[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_AvgPressureSensors
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_BiotacData
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SwitchControllerStack
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_QueryControllerStatus
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Volumes
-
-[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Preshape
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_UpdateStrainGagesCalibration
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ImageCoordinates
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Acceleration
-
-[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateForceTorqueSensor
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_LabeledPoint
-
-[  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LqrControllerDataStatus
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_PressureSensors
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_CartesianTrajectory
-
-[  0%] [  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PolicyControllerDataStatus
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerParamsService
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_ObstaclePoints
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_IncreaseMaxFingerTorque
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_TrajectoryStatus
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspPoses
-
-[  0%] [  0%] [  0%] [  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ExperimentGeneratorParamsService
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PointArrayArray
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerStatus
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_CartesianTrajectoryPoint
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_LookAtParams
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineNetwork
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_BiotacFingerData
-
-[  0%] [  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DMPControllerStatus
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_CollectDataStatus
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_DMPCommand
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_LookAtStatus
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Extrems
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_RtNetworkLayer
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibratePressureSensors
-
-[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_NetworkLayer
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_ColorRange
-
-[  0%] [  0%] [  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ViconQuery
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspControllerParams
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_DMPControllerParams
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SetPoses
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_ScaledLqr
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_UpdateStrainGagesCalibrationStatus
-
-[  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ContinuousTrajectoryStatus
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_Path
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_SetVisualToolTracking
-
-[  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_BoundingPointsArray
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_TrajectoryPoint
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SetObjectOri
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_EndEffectorPosition
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ContinuousTrajectoryPoint
-
-[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Imu
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspStatus
-
-[  0%] [  0%] [  0%] [  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_InverseDynamicsBatchNetworkControllerStatus
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerParams
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_AffinePolicy
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_FingerJointEncoderOffsetsStatus
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineDataStatus
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateAccelerometerSensorStatus
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LqrControllerParams
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ChordEllipsoid
-
-[  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OnlineDataStatus
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CartesianGains
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_FingerJointEncoderOffsets
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_DistanceFieldEval
-
-[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DistanceFieldQueries
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_KeyPointBodyApprox
-
-[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineLearningControlService
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_LqrControllerParamsService
-
-[  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LinearQuadraticRegulatorParams
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Grasp
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_FingerForceControlGains
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_TaskFrame
-
-[  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateBiotacSensorsStatus
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_StrainGauge
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_ExtremsArray
-
-[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Sphere
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_ResetBreakawayStatus
-
-[  0%] [  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateAccelerometerSensor
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_ViconData
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_EndEffectorState
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_RectangularBox
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SpeedChange
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineParams
-
-[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_RectangularBoxArray
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_ControllerStatus
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateBiotacSensors
-
-[  0%] [  0%] [  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_EnvironmentalObject
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Matrix32
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_LinearQuadraticRegulatorStatus
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_Gains
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateForceTorqueSensorStatus
-
-Built target tf2_msgs_generate_messages_cpp
-
-[  0%] [  0%] [  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LinearQuadraticRegulator
-
-Built target roscpp_generate_messages_lisp
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PointArray
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_Trajectory
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_ImageCoordinatesArray
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_InverseDynamicsBatchNetworkControllerParams
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ObjectMass
-
-[  0%] [  0%] [  0%] [  0%] [  0%] [  0%] [  0%] Built target roscpp_generate_messages_cpp
-
-[  0%] [  0%] [  0%] [  0%] [  0%] Built target rosgraph_msgs_generate_messages_py
-
-Built target roscpp_generate_messages_py
-
-Built target rosgraph_msgs_generate_messages_lisp
-
-Built target sensor_msgs_generate_messages_lisp
-
-Built target rosgraph_msgs_generate_messages_cpp
-
-Built target topic_tools_generate_messages_cpp
-
-Built target actionlib_msgs_generate_messages_cpp
-
-Built target topic_tools_generate_messages_lisp
-
-Built target topic_tools_generate_messages_py
-
-Built target tf_generate_messages_py
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_TrackingPose
-
-[  0%] Built target tf_generate_messages_lisp
-
-[  0%] Scanning dependencies of target gtest
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineParamsService
-
-[  0%] [  0%] [  0%] [  0%] [  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CollectData
-
-[  0%] [  0%] Built target tf_generate_messages_cpp
-
-[  0%] Built target actionlib_generate_messages_lisp
-
-Built target tf2_msgs_generate_messages_lisp
-
-Built target visualization_msgs_generate_messages_py
-
-Built target tf2_msgs_generate_messages_py
-
-Built target actionlib_generate_messages_cpp
-
-Built target actionlib_generate_messages_py
-
-Built target visualization_msgs_generate_messages_lisp
-
-Built target _catkin_empty_exported_target
-
-[  0%] [  0%] Built target lockfree
-
-Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
-
-[  6%] [  6%] Built target yaml-cpp
-
-Built target usc_utilities_generate_messages_cpp
-
-[  6%] Built target usc_utilities_generate_messages_lisp
-
-[ 14%] Built target utility
-
-[ 14%] Built target usc_utilities_generate_messages_py
-
-[ 14%] Built target rt_utils
-
-[ 52%] [ 61%] Built target amd_clmc_ros_messages_generate_messages_cpp
-
-Built target amd_clmc_ros_messages_generate_messages_lisp
-
-[ 69%] [ 85%] [ 87%] Built target lwpr
-
-Built target amd_clmc_ros_messages_generate_messages_py
-
-Built target rosrt
-
-[ 88%] Built target usc_utilities
-
-Scanning dependencies of target test_sl_conversions
-
-[ 90%] Building CXX object catkin/controller_manager/core-sl-ros/sl_conversions/CMakeFiles/test_sl_conversions.dir/test/test_sl_conversions.cpp.o
-
-[ 92%] Built target learning_control
-
-[ 93%] Built target robot_info
-
-[ 96%] Built target sl_controller_interface
-
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/sl_conversions/test_sl_conversions
-
-[ 96%] Built target test_sl_conversions
-
-Linking CXX shared library libgtest.so
-
-[ 96%] Built target gtest
-
-Scanning dependencies of target gtest_main
-
-[ 98%] Building CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
-
-Linking CXX shared library libgtest_main.so
-
-[ 98%] Built target gtest_main
-
-Scanning dependencies of target test_aligned_alloc
-
-Scanning dependencies of target test_freelist
-
-Scanning dependencies of target test_object_pool
-
-[ 98%] Scanning dependencies of target utest
-
-Scanning dependencies of target generic_test
-
-[ 98%] Building CXX object catkin/ros/ros_realtime/allocators/CMakeFiles/test_aligned_alloc.dir/test/test_aligned_alloc.cpp.o
-
-Building CXX object catkin/ros/ros_realtime/lockfree/CMakeFiles/test_freelist.dir/test/test_freelist.cpp.o
-
-[ 98%] [ 98%] Scanning dependencies of target utest_gp_speed_real_data
-
-[ 98%] Building CXX object catkin/ros/ros_realtime/lockfree/CMakeFiles/test_object_pool.dir/test/test_object_pool.cpp.o
-
-Building CXX object catkin/controller_manager/core-sl-ros/sl_controller_interface/CMakeFiles/generic_test.dir/test/test_main.cpp.o
-
-[ 98%] Scanning dependencies of target utest_gp
-
-Scanning dependencies of target utest_rt_network_load_msg_predict
-
-Building CXX object catkin/ros/ros_realtime/rosatomic/CMakeFiles/utest.dir/test/utest.cpp.o
-
-Scanning dependencies of target utest_nrt_gp
-
-Scanning dependencies of target utest_gp_predict
-
-Scanning dependencies of target utest_rt_network
-
-Building CXX object catkin/learning/learning_control/CMakeFiles/utest_gp_speed_real_data.dir/test/utest_gp_speed_real_data.cpp.o
-
-[ 98%] [ 98%] [ 98%] Scanning dependencies of target utest_gp_speed
-
-Scanning dependencies of target utest_gp_predict_speed
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_gp_speed_real_data.cpp:6:0: warning: "EIGEN_RUNTIME_NO_MALLOC" redefined [enabled by default]
-
- #define EIGEN_RUNTIME_NO_MALLOC
-
- ^
-
-<command-line>:0:0: note: this is the location of the previous definition
-
-[ 98%] [ 98%] Building CXX object catkin/learning/learning_control/CMakeFiles/utest_rt_network.dir/test/utest_rt_network_main.cpp.o
-
-Building CXX object catkin/learning/learning_control/CMakeFiles/utest_gp_predict.dir/test/utest_gp_predict.cpp.o
-
-Building CXX object catkin/learning/learning_control/CMakeFiles/utest_gp.dir/test/utest_gp_main.cpp.o
-
-Building CXX object catkin/learning/learning_control/CMakeFiles/utest_rt_network_load_msg_predict.dir/test/utest_rt_network_load_msg_predict.cpp.o
-
-Building CXX object catkin/learning/learning_control/CMakeFiles/utest_nrt_gp.dir/test/utest_nrt_gp_main.cpp.o
-
-[100%] Scanning dependencies of target utest_nrt_gp_speed
-
-Building CXX object catkin/learning/learning_control/CMakeFiles/utest_gp_predict_speed.dir/test/utest_gp_predict_speed.cpp.o
-
-[100%] Building CXX object catkin/learning/learning_control/CMakeFiles/utest_gp_speed.dir/test/utest_gp_speed_main.cpp.o
-
-[100%] Building CXX object catkin/learning/learning_control/CMakeFiles/utest_nrt_gp_speed.dir/test/utest_nrt_gp_speed_main.cpp.o
-
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/allocators/test_aligned_alloc
-
-[100%] Built target test_aligned_alloc
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_main.cpp: In member function ‘virtual void UtilitiesTest_TestValueWithDefault_Test::TestBody()’:
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_main.cpp:30:13: error: ‘class learning_control::GpParams’ has no member named ‘sigma_y_2_’
-
-   gp_params.sigma_y_2_ = 0.01;
-
-             ^
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_main.cpp:31:13: error: ‘class learning_control::GpParams’ has no member named ‘sigma_f_2_’
-
-   gp_params.sigma_f_2_ = 100.0;
-
-             ^
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_main.cpp:43:11: error: ‘class learning_control::GaussianProcess’ has no member named ‘add_data_point’
-
-   gp_test.add_data_point(x, y);
-
-           ^
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_main.cpp:47:11: error: ‘class learning_control::GaussianProcess’ has no member named ‘add_data_point’
-
-   gp_test.add_data_point(x, y);
-
-           ^
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_main.cpp:51:11: error: ‘class learning_control::GaussianProcess’ has no member named ‘add_data_point’
-
-   gp_test.add_data_point(x, y);
-
-           ^
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_main.cpp:55:11: error: ‘class learning_control::GaussianProcess’ has no member named ‘add_data_point’
-
-   gp_test.add_data_point(x, y);
-
-           ^
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_main.cpp:59:11: error: ‘class learning_control::GaussianProcess’ has no member named ‘add_data_point’
-
-   gp_test.add_data_point(x, y);
-
-           ^
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_main.cpp:63:11: error: ‘class learning_control::GaussianProcess’ has no member named ‘add_data_point’
-
-   gp_test.add_data_point(x, y);
-
-           ^
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_main.cpp:67:11: error: ‘class learning_control::GaussianProcess’ has no member named ‘add_data_point’
-
-   gp_test.add_data_point(x, y);
-
-           ^
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_main.cpp:71:11: error: ‘class learning_control::GaussianProcess’ has no member named ‘add_data_point’
-
-   gp_test.add_data_point(x, y);
-
-           ^
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_main.cpp:75:11: error: ‘class learning_control::GaussianProcess’ has no member named ‘add_data_point’
-
-   gp_test.add_data_point(x, y);
-
-           ^
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_main.cpp:79:11: error: ‘class learning_control::GaussianProcess’ has no member named ‘add_data_point’
-
-   gp_test.add_data_point(x, y);
-
-           ^
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_main.cpp:133:50: error: ‘class learning_control::GpParams’ has no member named ‘sigma_y_2_’
-
-   rt_printf("new sigmay2: %f\n", gp_test.params_.sigma_y_2_);
-
-                                                  ^
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_main.cpp:134:50: error: ‘class learning_control::GpParams’ has no member named ‘sigma_f_2_’
-
-   rt_printf("new sigmaf2: %f\n", gp_test.params_.sigma_f_2_);
-
-                                                  ^
-
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/learning_control/utest_gp_speed_real_data
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_gp_speed_main.cpp: In member function ‘virtual void TestSuite_TestRealTimeGPSteps_Test::TestBody()’:
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_gp_speed_main.cpp:63:3: error: ‘global_error_realtime_inactive’ was not declared in this scope
-
-   global_error_realtime_inactive = true;
-
-   ^
-
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/rosatomic/utest
-
-[100%] Built target utest
-
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/learning_control/utest_gp
-
-make[3]: *** [catkin/learning/learning_control/CMakeFiles/utest_gp_speed.dir/test/utest_gp_speed_main.cpp.o] Error 1
-
-make[2]: *** [catkin/learning/learning_control/CMakeFiles/utest_gp_speed.dir/all] Error 2
-
-make[2]: *** Waiting for unfinished jobs....
-
-make[3]: *** [catkin/learning/learning_control/CMakeFiles/utest_nrt_gp.dir/test/utest_nrt_gp_main.cpp.o] Error 1
-
-make[2]: *** [catkin/learning/learning_control/CMakeFiles/utest_nrt_gp.dir/all] Error 2
-
-[100%] Built target utest_gp_speed_real_data
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_gp_predict_speed.cpp: In member function ‘virtual void TestSuite_TestRealTimeGPSteps_Test::TestBody()’:
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_gp_predict_speed.cpp:210:3: error: ‘GpSePredictMeanRT’ is not a member of ‘learning_control’
-
-   learning_control::GpSePredictMeanRT gp_predict_mean_test;
-
-   ^
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_gp_predict_speed.cpp:210:39: error: expected ‘;’ before ‘gp_predict_mean_test’
-
-   learning_control::GpSePredictMeanRT gp_predict_mean_test;
-
-                                       ^
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_gp_predict_speed.cpp:271:5: error: ‘gp_predict_mean_test’ was not declared in this scope
-
-     gp_predict_mean_test.update_parameters(gp_test.lambda_,
-
-     ^
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_gp_predict.cpp: In member function ‘virtual void UtilitiesTest_TestValueWithDefault_Test::TestBody()’:
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_gp_predict.cpp:16:3: error: ‘GpSePredictMeanRT’ is not a member of ‘learning_control’
-
-   learning_control::GpSePredictMeanRT gp_predict_mean_test;
-
-   ^
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_gp_predict.cpp:16:39: error: expected ‘;’ before ‘gp_predict_mean_test’
-
-   learning_control::GpSePredictMeanRT gp_predict_mean_test;
-
-                                       ^
-
-In file included from /usr/include/gtest/gtest.h:1807:0,
-
-                 from /home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_gp_predict.cpp:6:
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_gp_predict.cpp:91:20: error: ‘gp_predict_mean_test’ was not declared in this scope
-
-   ASSERT_NEAR(0.0, gp_predict_mean_test.predict(xtest), max_error);
-
-                    ^
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_gp_predict.cpp:92:3: error: ‘gp_predict_mean_test’ was not declared in this scope
-
-   gp_predict_mean_test.update_parameters(gp_test.lambda_,
-
-   ^
-
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/lockfree/test_object_pool
-
-make[3]: *** [catkin/learning/learning_control/CMakeFiles/utest_gp_predict_speed.dir/test/utest_gp_predict_speed.cpp.o] Error 1
-
-make[2]: *** [catkin/learning/learning_control/CMakeFiles/utest_gp_predict_speed.dir/all] Error 2
-
-[100%] Built target utest_gp
-
-[100%] Built target test_object_pool
-
-make[3]: *** [catkin/learning/learning_control/CMakeFiles/utest_gp_predict.dir/test/utest_gp_predict.cpp.o] Error 1
-
-make[2]: *** [catkin/learning/learning_control/CMakeFiles/utest_gp_predict.dir/all] Error 2
-
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/learning_control/utest_rt_network
-
-[100%] Built target utest_rt_network
-
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/lockfree/test_freelist
-
-[100%] Built target test_freelist
-
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/learning_control/utest_rt_network_load_msg_predict
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_speed_main.cpp: In member function ‘virtual void TestSuite_TestRealTimeGPSteps_Test::TestBody()’:
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_speed_main.cpp:94:24: error: no matching function for call to ‘learning_control::NrtGpThread::start(int)’
-
-   nrt_gp_thread.start(0);
-
-                        ^
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_speed_main.cpp:94:24: note: candidate is:
-
-In file included from /home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_speed_main.cpp:14:0:
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/include/learning_control/nrt_gp_thread.h:35:8: note: bool learning_control::NrtGpThread::start()
-
-   bool start();
-
-        ^
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/include/learning_control/nrt_gp_thread.h:35:8: note:   candidate expects 0 arguments, 1 provided
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_speed_main.cpp:95:17: error: ‘class learning_control::NrtGpThread’ has no member named ‘update_parameters_real’
-
-   nrt_gp_thread.update_parameters_real(GP_WINDOW_SIZE, GP_INPUT_SIZE, 0.3, 0.01,
-
-                 ^
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_speed_main.cpp:138:19: error: ‘class learning_control::NrtGpThread’ has no member named ‘update_data_point_real’
-
-     nrt_gp_thread.update_data_point_real(call_count, random_inputs,
-
-                   ^
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_speed_main.cpp:162:19: error: ‘class learning_control::NrtGpThread’ has no member named ‘update_data_point_real’
-
-     nrt_gp_thread.update_data_point_real(call_count, random_inputs,
-
-                   ^
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_speed_main.cpp:171:19: error: ‘class learning_control::NrtGpThread’ has no member named ‘get_gp_real’
-
-     nrt_gp_thread.get_gp_real()->predict(random_inputs);
-
-                   ^
-
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/sl_controller_interface/generic_test
-
-[100%] Built target utest_rt_network_load_msg_predict
-
-[100%] Built target generic_test
-
-make[3]: *** [catkin/learning/learning_control/CMakeFiles/utest_nrt_gp_speed.dir/test/utest_nrt_gp_speed_main.cpp.o] Error 1
-
-make[2]: *** [catkin/learning/learning_control/CMakeFiles/utest_nrt_gp_speed.dir/all] Error 2
-
-make[1]: *** [CMakeFiles/tests.dir/rule] Error 2
-
-make: *** [tests] Error 2
+make: *** [all] Error 2
 
 Base path: /home/administrator/ci/ci/team/workspace
 
@@ -1721,14 +988,14 @@ Install space: /home/administrator/ci/ci/team/workspace/install
 
 ####
 
-#### Running command: "cmake /home/administrator/ci/ci/team/workspace/src -DCATKIN_DEVEL_PREFIX=/home/administrator/ci/ci/team/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/administrator/ci/ci/team/workspace/install" in "/home/administrator/ci/ci/team/workspace/build"
+#### Running command: "make cmake_check_build_system" in "/home/administrator/ci/ci/team/workspace/build"
 
 ####
 
 ####
 
-#### Running command: "make -j16 tests" in "/home/administrator/ci/ci/team/workspace/build"
+#### Running command: "make -j1" in "/home/administrator/ci/ci/team/workspace/build"
 
 ####
 
-Invoking "make" failed
+Invoking "make -j1" failed
