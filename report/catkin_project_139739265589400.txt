@@ -1,572 +1,550 @@
 WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
 
-[  0%] Built target PyShell
+-- Using CATKIN_DEVEL_PREFIX: /home/administrator/ci/ci/team/workspace/devel
 
-[  0%] Built target hello_world
+-- Using CMAKE_PREFIX_PATH: /opt/ros/indigo
 
-[  0%] Built target py_converter_test
+-- This workspace overlays: /opt/ros/indigo
 
-[  0%] Built target test_py_shell
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
 
-[  1%] Built target rbdl
+-- Python version: 2.7
 
-[  1%] Built target rbdl_urdfreader
+-- Using Debian Python package layout
 
-[  1%] Built target rbdl_urdfreader_util
+-- Using CATKIN_ENABLE_TESTING: ON
 
-[  1%] Built target lockfree
+-- Call enable_testing()
 
-[  2%] Built target snopt_extern
+-- Using CATKIN_TEST_RESULTS_DIR: /home/administrator/ci/ci/team/workspace/build/test_results
 
-[  2%] Built target snopt_interface_extern
+-- Found gtest sources under '/usr/src/gtest': gtests will be built
 
-[  2%] Built target snopt_cpp
+-- catkin 0.5.90
 
-Scanning dependencies of target sntoya
+-- BUILD_SHARED_LIBS is on
 
-[  2%] Building CXX object catkin/third_party/snopt_cpp/CMakeFiles/sntoya.dir/snopt-interface/cppexamples/sntoya.cpp.o
+WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/snopt_cpp/sntoya
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-[  2%] Built target sntoya
+-- ~~  traversing 31 packages in topological order:
 
-[  2%] Built target testing_tools
+-- ~~  - Eigen
 
-[  4%] Built target utility
+-- ~~  - cdlbt
 
-[  4%] Built target lwpr
+-- ~~  - can_control_tools
 
-[  4%] Built target xascii2mrplot
+-- ~~  - fl
 
-[  4%] Built target xlwpr
+-- ~~  - ebf
 
-[  4%] Built target xlwprstat
+-- ~~  - matlab_logger
 
-[  4%] Built target rosrt
+-- ~~  - ros_realtime (metapackage)
 
-[  4%] Built target ros_rt_test_publisher
+-- ~~  - allocators
 
-[  4%] Built target ros_rt_test_subscriber
+-- ~~  - rosatomic
 
-[  4%] Built target SLcommon
+-- ~~  - lockfree
 
-[  5%] Built target SLmotor
+-- ~~  - rt_timer
 
-[  5%] Built target SLopenGL
+-- ~~  - start_robot
 
-[  5%] Built target SLros
+-- ~~  - amd_clmc_ros_messages
 
-[  6%] Built target SLsimulation
+-- ~~  - ar_track_alvar_msgs
 
-[  6%] Built target SLtask
+-- ~~  - custom_robot_msgs
 
-[  7%] Built target SLvision
+-- ~~  - riemo_grasping_msgs
 
-[  7%] Built target _vicon_bridge_generate_messages_check_deps_TfDistortInfo
+-- ~~  - utilities
 
-[  7%] Built target geometry_msgs_generate_messages_cpp
+-- ~~  - lwpr
 
-[  7%] Built target _vicon_bridge_generate_messages_check_deps_viconGrabPose
+-- ~~  - xenomai_ros
 
-[  7%] Built target _vicon_bridge_generate_messages_check_deps_Markers
+-- ~~  - roscpp_utilities
 
-[  7%] Built target _vicon_bridge_generate_messages_check_deps_Marker
+-- ~~  - rosrt
 
-[  7%] Built target _vicon_bridge_generate_messages_check_deps_viconCalibrateSegment
+-- ~~  - ros_rt_test
 
-[  7%] Built target vicon_bridge_generate_messages_cpp
+-- ~~  - sl
 
-[  7%] Built target vicon_bridge_gencpp
+-- ~~  - apollo
 
-[  8%] Built target calibrate
+-- ~~  - apollo_event_based_task
 
-[  8%] Built target msvc_bridge
+-- ~~  - apollo_test_task
 
-[  9%] Built target testclient
+-- ~~  - apollo_user
 
-[ 10%] Built target vicon_bridge_gencfg
+-- ~~  - sl_ros_servo
 
-[ 10%] Built target tf_distort
+-- ~~  - ros_servo_apollo
 
-[ 10%] Built target vicon_bridge
+-- ~~  - yaml_cpp
 
-[ 10%] Built target geometry_msgs_generate_messages_lisp
+-- ~~  - facial_expressions
 
-[ 10%] Built target vicon_bridge_generate_messages_lisp
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-[ 10%] Built target geometry_msgs_generate_messages_py
+-- +++ processing catkin package: 'Eigen'
 
-[ 11%] Built target vicon_bridge_generate_messages_py
+-- ==> add_subdirectory(catkin/third_party/Eigen)
 
-[ 11%] Built target vicon_bridge_generate_messages
+WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
 
-[ 13%] Built target yaml-cpp
+-- +++ processing catkin package: 'cdlbt'
 
-[ 14%] Built target run-tests
+-- ==> add_subdirectory(catkin/ros/barrett-ros/cdlbt)
 
-[ 14%] Built target parse
+-- MACHTYPE x86_64
 
-[ 14%] Built target read
+Detected MACHTYPE=x86_64
 
-[ 14%] Built target sandbox
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
 
-[ 14%] Built target _hermes_communication_tools_generate_messages_check_deps_gdc_states_vector_msg
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
 
-[ 14%] Built target _hermes_communication_tools_generate_messages_check_deps_gdc_state_msg
+Call Stack (most recent call first):
 
-[ 14%] Built target hermes_communication_tools_generate_messages_lisp
+  catkin/ros/barrett-ros/cdlbt/CMakeLists.txt:8 (include)
 
-[ 14%] Built target hermes_communication_tools_generate_messages_cpp
 
-[ 15%] Built target hermes_communication_tools_generate_messages_py
 
-[ 15%] Built target hermes_communication_tools_generate_messages
 
-[ 16%] Built target athena
 
-Scanning dependencies of target athena_openGL
+-- HOST_NAME=everest
 
-[ 16%] Building C object catkin/robots/athena/CMakeFiles/athena_openGL.dir/src/SL_user_openGL.c.o
+-- HOST=everest
 
-Linking C shared library /home/administrator/ci/ci/team/workspace/devel/lib/libathena_openGL.so
+-- LAB=AMD
 
-[ 16%] Built target athena_openGL
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
 
-Scanning dependencies of target athena_simulation
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
 
-[ 16%] Building C object catkin/robots/athena/CMakeFiles/athena_simulation.dir/__/hermesCore/src/SL_user_simulation.c.o
+-- CMAKE_INCLUDE_PATH=
 
-[ 16%] Building C object catkin/robots/athena/CMakeFiles/athena_simulation.dir/src/SL_athena_simulation.c.o
+-- CMAKE_LIBRARY_PATH=
 
-Linking C shared library /home/administrator/ci/ci/team/workspace/devel/lib/libathena_simulation.so
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
 
-[ 16%] Built target athena_simulation
+-- LAB_LIBDIR=lib/x86_64
 
-Scanning dependencies of target athena_task
+-- LAB_INCLUDES=include
 
-[ 16%] Building CXX object catkin/robots/athena/CMakeFiles/athena_task.dir/__/hermesCore/src/SL_user_task.cpp.o
+-- LAB_BINDIR=bin/x86_64
 
-/home/administrator/ci/ci/team/workspace/src/catkin/robots/hermesCore/src/SL_user_task.cpp: In function ‘void drawPhantomFromCurrentState()’:
+-- +++ processing catkin package: 'can_control_tools'
 
-/home/administrator/ci/ci/team/workspace/src/catkin/robots/hermesCore/src/SL_user_task.cpp:410:69: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+-- ==> add_subdirectory(catkin/ros/barrett-ros/canControlTools)
 
-   sendUserGraphics("phantom",b, (N_CART+N_QUAT+N_DOFS)*sizeof(float));
+-- MACHTYPE x86_64
 
-                                                                     ^
+Detected MACHTYPE=x86_64
 
-/home/administrator/ci/ci/team/workspace/src/catkin/robots/hermesCore/src/SL_user_task.cpp: In function ‘void drawPhantomFromDesiredState()’:
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
 
-/home/administrator/ci/ci/team/workspace/src/catkin/robots/hermesCore/src/SL_user_task.cpp:444:69: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
 
-   sendUserGraphics("phantom",b, (N_CART+N_QUAT+N_DOFS)*sizeof(float));
+Call Stack (most recent call first):
 
-                                                                     ^
+  catkin/ros/barrett-ros/canControlTools/CMakeLists.txt:8 (include)
 
-Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libathena_task.so
 
-[ 16%] Built target athena_task
 
-[ 16%] Built target xathena
 
-Scanning dependencies of target xmotor_athena
 
-[ 17%] Building C object catkin/robots/athena/CMakeFiles/xmotor_athena.dir/__/hermesCore/src/SL_user_motor.c.o
+-- HOST_NAME=everest
 
-[ 17%] Building CXX object catkin/robots/athena/CMakeFiles/xmotor_athena.dir/__/hermesCore/src/SL_user_sensor_proc_unix.cpp.o
+-- HOST=everest
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/src/catkin/robots/athena/x86_64/xmotor
+-- LAB=AMD
 
-[ 17%] Built target xmotor_athena
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
 
-[ 17%] Generating src/SL_parm_estimate.c
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
 
-Scanning dependencies of target xpest_athena
+-- CMAKE_INCLUDE_PATH=
 
-[ 17%] Building C object catkin/robots/athena/CMakeFiles/xpest_athena.dir/src/SL_parm_estimate.c.o
+-- CMAKE_LIBRARY_PATH=
 
-Linking C executable /home/administrator/ci/ci/team/workspace/src/catkin/robots/athena/x86_64/xpest
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
 
-[ 17%] Built target xpest_athena
+-- LAB_LIBDIR=lib/x86_64
 
-Scanning dependencies of target xvision_athena
+-- LAB_INCLUDES=include
 
-[ 17%] Building C object catkin/robots/athena/CMakeFiles/xvision_athena.dir/__/hermesCore/src/SL_user_vision.c.o
+-- LAB_BINDIR=bin/x86_64
 
-Linking C executable /home/administrator/ci/ci/team/workspace/src/catkin/robots/athena/x86_64/xvision
+-- Boost version: 1.54.0
 
-[ 17%] Built target xvision_athena
+-- Found the following Boost libraries:
 
-[ 17%] Built target hermes_full
+--   thread
 
-Scanning dependencies of target hermes_full_openGL
+-- +++ processing catkin package: 'fl'
 
-[ 18%] Building C object catkin/robots/hermesFull/CMakeFiles/hermes_full_openGL.dir/src/SL_user_openGL.c.o
+-- ==> add_subdirectory(catkin/core-perception/fl)
 
-Linking C shared library /home/administrator/ci/ci/team/workspace/devel/lib/libhermes_full_openGL.so
+-- Eigen found (include: /usr/include/eigen3)
 
-[ 18%] Built target hermes_full_openGL
+-- Boost version: 1.54.0
 
-Scanning dependencies of target hermes_full_simulation
+-- +++ processing catkin package: 'ebf'
 
-[ 18%] Building C object catkin/robots/hermesFull/CMakeFiles/hermes_full_simulation.dir/__/hermesCore/src/SL_user_simulation.c.o
+-- ==> add_subdirectory(catkin/event-based/event-based-framework)
 
-[ 18%] Building C object catkin/robots/hermesFull/CMakeFiles/hermes_full_simulation.dir/__/hermesCore/src/SL_hermes_simulation.c.o
+##########################################
 
-Linking C shared library /home/administrator/ci/ci/team/workspace/devel/lib/libhermes_full_simulation.so
+# Event-based Control Framework 
 
-[ 18%] Built target hermes_full_simulation
+# Version 0.1.267
 
-Scanning dependencies of target hermes_full_task
+# ceec1553994354a776e9e1f573a3583f8963a720
 
-[ 18%] Building CXX object catkin/robots/hermesFull/CMakeFiles/hermes_full_task.dir/__/hermesCore/src/SL_user_task.cpp.o
+##########################################
 
-/home/administrator/ci/ci/team/workspace/src/catkin/robots/hermesCore/src/SL_user_task.cpp: In function ‘void drawPhantomFromCurrentState()’:
+-- Eigen found (include: /usr/include/eigen3)
 
-/home/administrator/ci/ci/team/workspace/src/catkin/robots/hermesCore/src/SL_user_task.cpp:410:69: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+-- Found Doxygen: /usr/bin/doxygen (found version "1.8.6") 
 
-   sendUserGraphics("phantom",b, (N_CART+N_QUAT+N_DOFS)*sizeof(float));
+-- Found Doxygen: /usr/bin/doxygen (found suitable version "1.8.6", minimum required is "1.8.4") 
 
-                                                                     ^
+-- +++ processing catkin package: 'matlab_logger'
 
-/home/administrator/ci/ci/team/workspace/src/catkin/robots/hermesCore/src/SL_user_task.cpp: In function ‘void drawPhantomFromDesiredState()’:
+-- ==> add_subdirectory(catkin/event-based/matlab-logger)
 
-/home/administrator/ci/ci/team/workspace/src/catkin/robots/hermesCore/src/SL_user_task.cpp:444:69: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+-- +++ processing catkin metapackage: 'ros_realtime'
 
-   sendUserGraphics("phantom",b, (N_CART+N_QUAT+N_DOFS)*sizeof(float));
+-- ==> add_subdirectory(catkin/ros/ros_realtime/ros_realtime)
 
-                                                                     ^
+-- +++ processing catkin package: 'allocators'
 
-Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libhermes_full_task.so
+-- ==> add_subdirectory(catkin/ros/ros_realtime/allocators)
 
-[ 18%] Built target hermes_full_task
+-- Boost version: 1.54.0
 
-[ 18%] Built target xhermes_full
+-- +++ processing catkin package: 'rosatomic'
 
-Scanning dependencies of target xmotor_hermes_full
+-- ==> add_subdirectory(catkin/ros/ros_realtime/rosatomic)
 
-[ 18%] Building C object catkin/robots/hermesFull/CMakeFiles/xmotor_hermes_full.dir/__/hermesCore/src/SL_user_motor.c.o
+-- Boost version: 1.54.0
 
-[ 18%] Building CXX object catkin/robots/hermesFull/CMakeFiles/xmotor_hermes_full.dir/__/hermesCore/src/SL_user_sensor_proc_unix.cpp.o
+-- +++ processing catkin package: 'lockfree'
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/src/catkin/robots/hermesFull/x86_64/xmotor
+-- ==> add_subdirectory(catkin/ros/ros_realtime/lockfree)
 
-[ 18%] Built target xmotor_hermes_full
+-- Boost version: 1.54.0
 
-[ 18%] Generating src/SL_parm_estimate.c
+-- +++ processing catkin package: 'rt_timer'
 
-Scanning dependencies of target xpest_hermes_full
+-- ==> add_subdirectory(catkin/ros/ros_realtime/rt_timer)
 
-[ 19%] Building C object catkin/robots/hermesFull/CMakeFiles/xpest_hermes_full.dir/src/SL_parm_estimate.c.o
+-- +++ processing catkin package: 'start_robot'
 
-Linking C executable /home/administrator/ci/ci/team/workspace/src/catkin/robots/hermesFull/x86_64/xpest
+-- ==> add_subdirectory(catkin/robots/start_robot)
 
-[ 19%] Built target xpest_hermes_full
+-- +++ processing catkin package: 'amd_clmc_ros_messages'
 
-Scanning dependencies of target xvision_hermes_full
+-- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/amd_clmc_ros_messages)
 
-[ 19%] Building C object catkin/robots/hermesFull/CMakeFiles/xvision_hermes_full.dir/__/hermesCore/src/SL_user_vision.c.o
+-- Using these message generators: gencpp;genlisp;genpy
 
-Linking C executable /home/administrator/ci/ci/team/workspace/src/catkin/robots/hermesFull/x86_64/xvision
+-- amd_clmc_ros_messages: 108 messages, 10 services
 
-[ 19%] Built target xvision_hermes_full
+-- +++ processing catkin package: 'ar_track_alvar_msgs'
 
-[ 20%] Built target hermes_lower
+-- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/ar_track_alvar_msgs)
 
-[ 20%] Built target hermes_lower_openGL
+-- Using these message generators: gencpp;genlisp;genpy
 
-[ 20%] Built target hermes_lower_simulation
+-- ar_track_alvar_msgs: 2 messages, 0 services
 
-[ 20%] Built target hermes_lower_task
+-- +++ processing catkin package: 'custom_robot_msgs'
 
-[ 20%] Built target xhermes_lower
+-- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/custom_robot_msgs)
 
-[ 20%] Built target xmotor_hermes_lower
+-- Using these message generators: gencpp;genlisp;genpy
 
-[ 20%] Built target xpest_hermes_lower
+-- custom_robot_msgs: 1 messages, 2 services
 
-[ 20%] Built target xvision_hermes_lower
+-- +++ processing catkin package: 'riemo_grasping_msgs'
 
-[ 20%] Built target eiquadprog_tester_app
+-- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/riemo_grasping_msgs)
 
-[ 20%] Built target geometry_utils
+-- Using these message generators: gencpp;genlisp;genpy
 
-[ 20%] Built target io_utils_lib
+-- riemo_grasping_msgs: 5 messages, 3 services
 
-[ 21%] Built target robot_math
+-- +++ processing catkin package: 'utilities'
 
-[ 21%] Built target lqr_example_app
+-- ==> add_subdirectory(catkin/core-sl/catkin-utilities)
 
-[ 21%] Built target math_utils_lib
+-- MACHTYPE x86_64
 
-[ 21%] Built target configuration_file_loading
+Detected MACHTYPE=x86_64
 
-[ 21%] Built target data_collection
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
 
-[ 21%] Built target io_tools_OTHER_FILES
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
 
-[ 22%] Built target yaml_example
+Call Stack (most recent call first):
 
-[ 22%] Built target capture_point_time_optimization
+  catkin/core-sl/catkin-utilities/CMakeLists.txt:8 (include)
 
-[ 22%] Built target capture_points
 
-[ 22%] Built target capture_points_app
 
-[ 24%] Built target floating_base_tools_athena
 
-[ 24%] Built target momentum_lqr_example_app
 
-[ 25%] Built target floating_base_tools_hermes_full
+-- HOST_NAME=everest
 
-[ 27%] Built target floating_base_tools_hermes_lower
+-- HOST=everest
 
-[ 28%] Built target floating_base_tools_hopper
+-- LAB=AMD
 
-[ 29%] Built target data_collectionSL
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
 
-Scanning dependencies of target floating_base_tools_sl_athena
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
 
-[ 29%] Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_sl/floating_base_tools_sl_athena/CMakeFiles/floating_base_tools_sl_athena.dir/src/floating_base_tools_sl/sensors_sl_athena.cpp.o
+-- CMAKE_INCLUDE_PATH=
 
-[ 29%] Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_sl/floating_base_tools_sl_athena/CMakeFiles/floating_base_tools_sl_athena.dir/__/template/src/floating_base_tools_sl/sl_eigen_converters.cpp.o
+-- CMAKE_LIBRARY_PATH=
 
-/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/sl_eigen_converters.cpp: In static member function ‘static void floating_base_tools::SlEigenConverters::embed_desired_joint_positions(const Eigen::Matrix<double, 40, 1>&, SL_DJstate*)’:
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
 
-/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/sl_eigen_converters.cpp:85:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+-- LAB_LIBDIR=lib/x86_64
 
-     for(int i = 0; i < Robot::n_dofs_; ++i) {
+-- LAB_INCLUDES=include
 
-                               ^
+-- LAB_BINDIR=bin/x86_64
 
-[ 29%] Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_sl/floating_base_tools_sl_athena/CMakeFiles/floating_base_tools_sl_athena.dir/__/template/src/floating_base_tools_sl/kinematics_sl.cpp.o
+-- +++ processing catkin package: 'lwpr'
 
-[ 29%] Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_sl/floating_base_tools_sl_athena/CMakeFiles/floating_base_tools_sl_athena.dir/__/template/src/floating_base_tools_sl/robot_properties_sl.cpp.o
+-- ==> add_subdirectory(catkin/core-sl/catkin-lwpr)
 
-/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_properties_sl.cpp: In constructor ‘floating_base_tools::RobotPropertiesSl::RobotPropertiesSl()’:
+-- MACHTYPE x86_64
 
-/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_properties_sl.cpp:11:26: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Detected MACHTYPE=x86_64
 
-   for(int j=0; j<=Robot::n_dofs_; ++j){
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
 
-                          ^
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
 
-/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_properties_sl.cpp:22:25: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Call Stack (most recent call first):
 
-   for(int j=0; j<Robot::n_dofs_; ++j){
+  catkin/core-sl/catkin-lwpr/CMakeLists.txt:5 (include)
 
-                         ^
 
-[ 29%] Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_sl/floating_base_tools_sl_athena/CMakeFiles/floating_base_tools_sl_athena.dir/__/template/src/floating_base_tools_sl/robot_interface_sl.cpp.o
 
-[ 29%] Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_sl/floating_base_tools_sl_athena/CMakeFiles/floating_base_tools_sl_athena.dir/__/template/src/floating_base_tools_sl/composite_rigid_body_sl.cpp.o
 
-In file included from /home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/composite_rigid_body_sl.cpp:21:0:
 
-/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/composite_rigid_body_sl.cpp: In member function ‘virtual void floating_base_tools::CompositeRigidBodySl::update(const floating_base_tools::RobotPosture&, const floating_base_tools::RobotVelocity&)’:
+-- HOST_NAME=everest
 
-/home/administrator/ci/ci/team/workspace/src/catkin/core-sl/locomotion-utilities/include/utility_macros.h:58:48: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+-- HOST=everest
 
-   for (priv_i_##name=(nrl); priv_i_##name<=(nrh); ++priv_i_##name) \
+-- LAB=AMD
 
-                                                ^
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
 
-/home/administrator/ci/ci/team/workspace/src/catkin/core-sl/locomotion-utilities/include/utility_macros.h:65:3: note: in expansion of macro ‘MY_MATRIX_GENERAL’
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
 
-   MY_MATRIX_GENERAL(name,nrl,nrh,ncl,nch,double)
+-- CMAKE_INCLUDE_PATH=
 
-   ^
+-- CMAKE_LIBRARY_PATH=
 
-/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/composite_rigid_body_sl.cpp:35:3: note: in expansion of macro ‘MY_MATRIX’
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
 
-   MY_MATRIX(mat_M, 1, Robot::n_dofs_+6, 1, Robot::n_dofs_+6);
+-- LAB_LIBDIR=lib/x86_64
 
-   ^
+-- LAB_INCLUDES=include
 
-[ 30%] Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_sl/floating_base_tools_sl_athena/CMakeFiles/floating_base_tools_sl_athena.dir/__/template/src/floating_base_tools_sl/recursive_newton_euler_sl.cpp.o
+-- LAB_BINDIR=bin/x86_64
 
-/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/recursive_newton_euler_sl.cpp: In member function ‘virtual void floating_base_tools::RecursiveNewtonEulerSl::InverseDynamicsBase(const floating_base_tools::RobotPosture&, const floating_base_tools::RobotVelocity&, const floating_base_tools::ContactDescritpion (&)[4], const floating_base_tools::RobotAcceleration&, Eigen::Matrix<double, 46, 1>&)’:
+-- +++ processing catkin package: 'xenomai_ros'
 
-/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/recursive_newton_euler_sl.cpp:33:25: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+-- ==> add_subdirectory(catkin/ros/xenomai-ros)
 
-   for(int i=0; i<Robot::n_endeffs_; ++i)
+-- +++ processing catkin package: 'roscpp_utilities'
 
-                         ^
+-- ==> add_subdirectory(catkin/ros/roscpp_utilities)
 
-/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/recursive_newton_euler_sl.cpp:44:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+-- +++ processing catkin package: 'rosrt'
 
-   for (int i = 0; i <= Robot::n_dofs_; ++i){
+-- ==> add_subdirectory(catkin/ros/ros_realtime/rosrt)
 
-                               ^
+-- xenomai NOT found. (/usr/local;/usr)
 
-/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/recursive_newton_euler_sl.cpp:52:25: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
 
-   for(int i=0; i<Robot::n_dofs_; ++i)
+-- Boost version: 1.54.0
 
-                         ^
+-- Found the following Boost libraries:
 
-/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/recursive_newton_euler_sl.cpp: In member function ‘virtual void floating_base_tools::RecursiveNewtonEulerSl::getLocalContributions(const Eigen::Matrix<double, 40, 1>&, const Eigen::Matrix<double, 40, 1>&, Eigen::Matrix<double, 40, 1>&)’:
+--   thread
 
-/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/recursive_newton_euler_sl.cpp:64:25: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+-- +++ processing catkin package: 'ros_rt_test'
 
-   for(int i=0; i<Robot::n_dofs_; ++i)
+-- ==> add_subdirectory(catkin/ros/ros_rt_basic_example)
 
-                         ^
+-- xenomai NOT found. (/usr/local;/usr)
 
-[ 30%] Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_sl/floating_base_tools_sl_athena/CMakeFiles/floating_base_tools_sl_athena.dir/__/template/src/floating_base_tools_sl/robot_command_interface_sl.cpp.o
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
 
-/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_command_interface_sl.cpp: In member function ‘virtual void floating_base_tools::RobotCommandInterfaceSl::getDesiredFeedforwardTorque(Eigen::Matrix<double, 40, 1>&) const’:
+-- +++ processing catkin package: 'sl'
 
-/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_command_interface_sl.cpp:22:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+-- ==> add_subdirectory(catkin/core-sl/catkin-sl)
 
-     for (int i = 0; i < Robot::n_dofs_; ++i) {
+-- MACHTYPE x86_64
 
-                                ^
+Detected MACHTYPE=x86_64
 
-/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_command_interface_sl.cpp: In member function ‘virtual void floating_base_tools::RobotCommandInterfaceSl::getDesiredFeedbackTorque(Eigen::Matrix<double, 40, 1>&) const’:
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
 
-/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_command_interface_sl.cpp:28:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
 
-     for (int i = 0; i < Robot::n_dofs_; ++i) {
+Call Stack (most recent call first):
 
-                                ^
+  catkin/core-sl/catkin-sl/CMakeLists.txt:8 (include)
 
-/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_command_interface_sl.cpp: In member function ‘virtual void floating_base_tools::RobotCommandInterfaceSl::getDesiredTorque(Eigen::Matrix<double, 40, 1>&) const’:
 
-/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_command_interface_sl.cpp:34:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
 
-     for (int i = 0; i < Robot::n_dofs_; ++i) {
 
-                                ^
 
-/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_command_interface_sl.cpp: In member function ‘virtual void floating_base_tools::RobotCommandInterfaceSl::getDesiredJointPositions(Eigen::Matrix<double, 40, 1>&) const’:
+-- HOST_NAME=everest
 
-/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_command_interface_sl.cpp:41:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+-- HOST=everest
 
-     for (int i = 0; i < Robot::n_dofs_; ++i) {
+-- LAB=AMD
 
-                                ^
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
 
-/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_command_interface_sl.cpp: In member function ‘virtual void floating_base_tools::RobotCommandInterfaceSl::getDesiredJointVelocities(Eigen::Matrix<double, 40, 1>&) const’:
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
 
-/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_command_interface_sl.cpp:48:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+-- CMAKE_INCLUDE_PATH=
 
-     for (int i = 0; i < Robot::n_dofs_; ++i) {
+-- CMAKE_LIBRARY_PATH=
 
-                                ^
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
 
-/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_command_interface_sl.cpp: In member function ‘virtual void floating_base_tools::RobotCommandInterfaceSl::getDesiredJointAccelerations(Eigen::Matrix<double, 40, 1>&) const’:
+-- LAB_LIBDIR=lib/x86_64
 
-/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_command_interface_sl.cpp:55:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+-- LAB_INCLUDES=include
 
-     for (int i = 0; i < Robot::n_dofs_; ++i) {
+-- LAB_BINDIR=bin/x86_64
 
-                                ^
+-- +++ processing catkin package: 'apollo'
 
-/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_command_interface_sl.cpp: In member function ‘virtual void floating_base_tools::RobotCommandInterfaceSl::setPureReferenceTorques(const Eigen::Matrix<double, 40, 1>&)’:
+-- ==> add_subdirectory(catkin/robots/catkin-apollo)
 
-/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_command_interface_sl.cpp:83:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+-- MACHTYPE x86_64
 
-     for (int i = 0; i < Robot::n_dofs_; ++i) {
+Detected MACHTYPE=x86_64
 
-                                ^
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
 
-/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_command_interface_sl.cpp: In member function ‘virtual void floating_base_tools::RobotCommandInterfaceSl::setReferenceTorquesAndPositions(const Eigen::Matrix<double, 40, 1>&, const Eigen::Matrix<double, 40, 1>&, const Eigen::Matrix<double, 40, 1>&)’:
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
 
-/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_command_interface_sl.cpp:95:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Call Stack (most recent call first):
 
-     for (int i = 0; i < Robot::n_dofs_; ++i) {
+  catkin/robots/catkin-apollo/CMakeLists.txt:9 (include)
 
-                                ^
 
-/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_command_interface_sl.cpp: In member function ‘virtual void floating_base_tools::RobotCommandInterfaceSl::setPIDGains(const Eigen::Matrix<double, 40, 1>&, const Eigen::Matrix<double, 40, 1>&, const Eigen::Matrix<double, 40, 1>&)’:
 
-/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_command_interface_sl.cpp:110:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
 
-     for (int i = 0; i < Robot::n_dofs_; ++i) {
 
-                                ^
+-- HOST_NAME=everest
 
-[ 30%] Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_sl/floating_base_tools_sl_athena/CMakeFiles/floating_base_tools_sl_athena.dir/__/template/src/floating_base_tools_sl/sensors_sl.cpp.o
+-- HOST=everest
 
-[ 30%] Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_sl/floating_base_tools_sl_athena/CMakeFiles/floating_base_tools_sl_athena.dir/__/template/src/floating_base_tools_sl/fixed_base_inverse_dynamics_sl.cpp.o
+-- LAB=AMD
 
-Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libfloating_base_tools_sl_athena.so
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
 
-[ 30%] Built target floating_base_tools_sl_athena
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
 
-Scanning dependencies of target biped_locomotion_athena
+-- CMAKE_INCLUDE_PATH=
 
-[ 30%] Building C object catkin/humanoids/humanoid_control/biped_locomotion/biped_locomotion_athena/CMakeFiles/biped_locomotion_athena.dir/__/template/src/biped_locomotion/initUserTasks_bipedLocomotion.c.o
+-- CMAKE_LIBRARY_PATH=
 
-[ 30%] Building CXX object catkin/humanoids/humanoid_control/biped_locomotion/biped_locomotion_athena/CMakeFiles/biped_locomotion_athena.dir/__/template/src/biped_locomotion/HInvDynExample.cpp.o
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
 
-[ 30%] Building CXX object catkin/humanoids/humanoid_control/biped_locomotion/biped_locomotion_athena/CMakeFiles/biped_locomotion_athena.dir/__/template/src/biped_locomotion/HInvDynExample_task.cpp.o
+-- LAB_LIBDIR=lib/x86_64
 
-[ 30%] Building CXX object catkin/humanoids/humanoid_control/biped_locomotion/biped_locomotion_athena/CMakeFiles/biped_locomotion_athena.dir/__/template/src/biped_locomotion/contact_helper_hermes_lower.cpp.o
+-- LAB_INCLUDES=include
 
-[ 30%] Building CXX object catkin/humanoids/humanoid_control/biped_locomotion/biped_locomotion_athena/CMakeFiles/biped_locomotion_athena.dir/__/template/src/biped_locomotion/contact_helper_hermes_full.cpp.o
+-- LAB_BINDIR=bin/x86_64
 
-[ 30%] Building CXX object catkin/humanoids/humanoid_control/biped_locomotion/biped_locomotion_athena/CMakeFiles/biped_locomotion_athena.dir/__/template/src/biped_locomotion/fb_sine_task.cpp.o
+-- +++ processing catkin package: 'apollo_event_based_task'
 
-[ 31%] Building CXX object catkin/humanoids/humanoid_control/biped_locomotion/biped_locomotion_athena/CMakeFiles/biped_locomotion_athena.dir/__/template/src/biped_locomotion/gravity_compensation_task.cpp.o
+-- ==> add_subdirectory(catkin/event-based/apollo-event-based-task)
 
-[ 31%] Building CXX object catkin/humanoids/humanoid_control/biped_locomotion/biped_locomotion_athena/CMakeFiles/biped_locomotion_athena.dir/__/template/src/biped_locomotion/torque_sine_task.cpp.o
+-- MACHTYPE x86_64
 
-/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/biped_locomotion/template/src/biped_locomotion/torque_sine_task.cpp: In function ‘int init_torque_sine_task()’:
+Detected MACHTYPE=x86_64
 
-/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/biped_locomotion/template/src/biped_locomotion/torque_sine_task.cpp:75:103: warning: format ‘%s’ expects argument of type ‘char*’, but argument 4 has type ‘double’ [-Wformat=]
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
 
-     printf("running a %f Nm step test with offset %f for joint %s\n", amp, off, freq, joint_names[jid]);
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
 
-                                                                                                       ^
+Call Stack (most recent call first):
 
-/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/biped_locomotion/template/src/biped_locomotion/torque_sine_task.cpp:75:103: warning: too many arguments for format [-Wformat-extra-args]
+  catkin/event-based/apollo-event-based-task/CMakeLists.txt:9 (include)
 
-[ 31%] Building CXX object catkin/humanoids/humanoid_control/biped_locomotion/biped_locomotion_athena/CMakeFiles/biped_locomotion_athena.dir/__/template/src/biped_locomotion/joint_calibration_task.cpp.o
 
-[ 31%] Building CXX object catkin/humanoids/humanoid_control/biped_locomotion/biped_locomotion_athena/CMakeFiles/biped_locomotion_athena.dir/__/template/src/biped_locomotion/MinJerkGenerator.cpp.o
 
-[ 31%] Building CXX object catkin/humanoids/humanoid_control/biped_locomotion/biped_locomotion_athena/CMakeFiles/biped_locomotion_athena.dir/__/template/src/biped_locomotion/WaypointGenerator.cpp.o
 
-[ 31%] Building CXX object catkin/humanoids/humanoid_control/biped_locomotion/biped_locomotion_athena/CMakeFiles/biped_locomotion_athena.dir/__/template/src/biped_locomotion/kin_dyn_data_collection.cpp.o
 
-[ 31%] Building CXX object catkin/humanoids/humanoid_control/biped_locomotion/biped_locomotion_athena/CMakeFiles/biped_locomotion_athena.dir/__/template/src/biped_locomotion/JointSineTaskInterface.cpp.o
+-- HOST_NAME=everest
 
-Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libbiped_locomotion_athena.so
+-- HOST=everest
 
-[ 31%] Built target biped_locomotion_athena
+-- LAB=AMD
 
-[ 31%] Built target gtest
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
 
-Scanning dependencies of target biped_locomotion_tests_athena
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
 
-[ 31%] Building CXX object catkin/humanoids/humanoid_control/biped_locomotion/biped_locomotion_athena/CMakeFiles/biped_locomotion_tests_athena.dir/__/template/src/biped_locomotion/tests/hinvdyn_example_tester.cpp.o
+-- CMAKE_INCLUDE_PATH=
 
-[ 31%] Building CXX object catkin/humanoids/humanoid_control/biped_locomotion/biped_locomotion_athena/CMakeFiles/biped_locomotion_tests_athena.dir/__/template/src/biped_locomotion/tests/kinematics_sl_tester.cpp.o
+-- CMAKE_LIBRARY_PATH=
 
-Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libbiped_locomotion_tests_athena.so
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
 
-[ 31%] Built target biped_locomotion_tests_athena
+-- LAB_LIBDIR=lib/x86_64
 
-Scanning dependencies of target hinvdyn_dcm_time_optimization_athena
+-- LAB_INCLUDES=include
 
-[ 32%] Building CXX object catkin/humanoids/capture_point_time_optimization/capture_points_athena/CMakeFiles/hinvdyn_dcm_time_optimization_athena.dir/src/capture_points/hinvdyn_timing_optimization.cpp.o
+-- LAB_BINDIR=bin/x86_64
 
-In file included from /home/administrator/ci/ci/team/workspace/src/catkin/humanoids/capture_point_time_optimization/capture_points_athena/src/capture_points/hinvdyn_timing_optimization.cpp:20:0:
+CMake Error at catkin/third_party/catkin/cmake/catkin_package.cmake:217 (message):
 
-/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/capture_point_time_optimization/capture_points_athena/../template/include/capture_points/hinvdyn_timing_optimization.h:34:46: fatal error: geometry_utils/Transformations.hpp: No such file or directory
+  catkin_package() DEPENDS on the catkin package 'Eigen' which must therefore
 
- #include "geometry_utils/Transformations.hpp"
+  be listed as a run dependency in the package.xml
 
-                                              ^
+Call Stack (most recent call first):
 
-compilation terminated.
+  catkin/third_party/catkin/cmake/catkin_package.cmake:98 (_catkin_package)
 
-make[2]: *** [catkin/humanoids/capture_point_time_optimization/capture_points_athena/CMakeFiles/hinvdyn_dcm_time_optimization_athena.dir/src/capture_points/hinvdyn_timing_optimization.cpp.o] Error 1
+  catkin/event-based/apollo-event-based-task/CMakeLists.txt:38 (catkin_package)
 
-make[1]: *** [catkin/humanoids/capture_point_time_optimization/capture_points_athena/CMakeFiles/hinvdyn_dcm_time_optimization_athena.dir/all] Error 2
 
-make: *** [all] Error 2
+
+
+
+-- Configuring incomplete, errors occurred!
+
+See also "/home/administrator/ci/ci/team/workspace/build/CMakeFiles/CMakeOutput.log".
+
+See also "/home/administrator/ci/ci/team/workspace/build/CMakeFiles/CMakeError.log".
 
 Base path: /home/administrator/ci/ci/team/workspace
 
@@ -580,14 +558,8 @@ Install space: /home/administrator/ci/ci/team/workspace/install
 
 ####
 
-#### Running command: "make cmake_check_build_system" in "/home/administrator/ci/ci/team/workspace/build"
+#### Running command: "cmake /home/administrator/ci/ci/team/workspace/src -DCATKIN_DEVEL_PREFIX=/home/administrator/ci/ci/team/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/administrator/ci/ci/team/workspace/install -G Unix Makefiles" in "/home/administrator/ci/ci/team/workspace/build"
 
 ####
 
-####
-
-#### Running command: "make -j1" in "/home/administrator/ci/ci/team/workspace/build"
-
-####
-
-Invoking "make -j1" failed
+Invoking "cmake" failed
