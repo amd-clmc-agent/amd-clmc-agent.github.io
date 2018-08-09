@@ -1,1713 +1,1018 @@
-failed to compile unit tests:
 WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
 
--- Using CATKIN_DEVEL_PREFIX: /home/administrator/ci/ci/team/workspace/devel
+[  0%] Built target PyShell
 
--- Using CMAKE_PREFIX_PATH: /home/administrator/ci/ci/team/workspace/devel;/opt/ros/indigo
+[  0%] Built target hello_world
 
--- This workspace overlays: /home/administrator/ci/ci/team/workspace/devel;/opt/ros/indigo
+[  0%] Built target py_converter_test
 
--- Using PYTHON_EXECUTABLE: /usr/bin/python
+[  0%] Built target test_py_shell
 
--- Python version: 2.7
+[  1%] Built target rbdl
 
--- Using Debian Python package layout
+[  1%] Built target rbdl_urdfreader
 
--- Using CATKIN_ENABLE_TESTING: ON
+[  1%] Built target rbdl_urdfreader_util
 
--- Call enable_testing()
+[  1%] Built target lockfree
 
--- Using CATKIN_TEST_RESULTS_DIR: /home/administrator/ci/ci/team/workspace/build/test_results
+[  2%] Built target snopt_extern
 
--- Found gtest sources under '/usr/src/gtest': gtests will be built
+[  2%] Built target snopt_interface_extern
 
--- catkin 0.5.90
+[  2%] Built target snopt_cpp
 
--- BUILD_SHARED_LIBS is on
+[  2%] Built target sntoya
 
-WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
+[  2%] Built target testing_tools
 
-WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
+[  4%] Built target utility
 
--- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[  4%] Built target lwpr
 
--- ~~  traversing 56 packages in topological order:
+[  4%] Built target xascii2mrplot
 
--- ~~  - Eigen
+[  4%] Built target xlwpr
 
--- ~~  - apollo_robot_model
+[  4%] Built target xlwprstat
 
--- ~~  - catkin_gflags
+[  4%] Built target rosrt
 
--- ~~  - catkin_glog
+[  4%] Built target ros_rt_test_publisher
 
--- ~~  - cdlbt
+[  4%] Built target ros_rt_test_subscriber
 
--- ~~  - can_control_tools
+[  4%] Built target SLcommon
 
--- ~~  - controller_communication
+[  5%] Built target SLmotor
 
--- ~~  - conversions
+[  5%] Built target SLopenGL
 
--- ~~  - interpolation
+[  5%] Built target SLros
 
--- ~~  - inverse_dynamics_learning_apollo
+[  6%] Built target SLsimulation
 
--- ~~  - qp_oases
+[  6%] Built target SLtask
 
--- ~~  - quadprog
+[  7%] Built target SLvision
 
--- ~~  - ros_realtime (metapackage)
+[  7%] Built target _vicon_bridge_generate_messages_check_deps_viconGrabPose
 
--- ~~  - allocators
+[  7%] Built target _vicon_bridge_generate_messages_check_deps_TfDistortInfo
 
--- ~~  - rosatomic
+[  7%] Built target geometry_msgs_generate_messages_cpp
 
--- ~~  - lockfree
+[  7%] Built target _vicon_bridge_generate_messages_check_deps_viconCalibrateSegment
 
--- ~~  - rt_timer
+[  7%] Built target _vicon_bridge_generate_messages_check_deps_Markers
 
--- ~~  - rt_utils
+[  7%] Built target _vicon_bridge_generate_messages_check_deps_Marker
 
--- ~~  - dmp
+[  8%] Built target vicon_bridge_generate_messages_cpp
 
--- ~~  - splines
+[  8%] Built target vicon_bridge_gencpp
 
--- ~~  - start_robot
+[  8%] Built target calibrate
 
--- ~~  - amd_clmc_ros_messages
+[  8%] Built target msvc_bridge
 
--- ~~  - ar_track_alvar_msgs
+[  8%] Built target testclient
 
--- ~~  - custom_robot_msgs
+[  8%] Built target vicon_bridge_gencfg
 
--- ~~  - riemo_grasping_msgs
+[  8%] Built target tf_distort
 
--- ~~  - utilities
+[  8%] Built target vicon_bridge
 
--- ~~  - lwpr
+[  8%] Built target geometry_msgs_generate_messages_py
 
--- ~~  - xenomai_ros
+[  9%] Built target vicon_bridge_generate_messages_py
 
--- ~~  - constrained_inverse_kinematics_msgs
+[  9%] Built target geometry_msgs_generate_messages_lisp
 
--- ~~  - roscpp_utilities
+[  9%] Built target vicon_bridge_generate_messages_lisp
 
--- ~~  - rosrt
+[  9%] Built target vicon_bridge_generate_messages
 
--- ~~  - ros_rt_test
+[ 11%] Built target yaml-cpp
 
--- ~~  - sl
+[ 12%] Built target run-tests
 
--- ~~  - apollo
+[ 12%] Built target parse
 
--- ~~  - apollo_test_task
+[ 12%] Built target read
 
--- ~~  - sl_ros_servo
+[ 12%] Built target sandbox
 
--- ~~  - learning_control
+[ 12%] Built target _hermes_communication_tools_generate_messages_check_deps_gdc_states_vector_msg
 
--- ~~  - python_ros_utils
+[ 12%] Built target _hermes_communication_tools_generate_messages_check_deps_gdc_state_msg
 
--- ~~  - sl_conversions
+[ 12%] Built target hermes_communication_tools_generate_messages_cpp
 
--- ~~  - sl_utilities
+[ 12%] Built target hermes_communication_tools_generate_messages_lisp
 
--- ~~  - sl_controller_manager
+[ 13%] Built target hermes_communication_tools_generate_messages_py
 
--- ~~  - controller_manager_task_apollo
+[ 13%] Built target hermes_communication_tools_generate_messages
 
--- ~~  - apollo_user
+[ 14%] Built target athena
 
--- ~~  - sl_barrett_controllers
+[ 14%] Built target athena_openGL
 
--- ~~  - sl_controllers
+[ 14%] Built target athena_simulation
 
--- ~~  - ros_servo_apollo
+[ 14%] Built target athena_task
 
--- ~~  - usc_utilities
+[ 14%] Built target xathena
 
--- ~~  - learnable_cost_function
+[ 15%] Built target xmotor_athena
 
--- ~~  - robot_info
+[ 15%] Built target xpest_athena
 
--- ~~  - jacobian_utilities
+[ 15%] Built target xvision_athena
 
--- ~~  - sl_barrett_controller_interface
+[ 16%] Built target hermes_full
 
--- ~~  - sl_controller_interface
+Scanning dependencies of target hermes_full_openGL
 
--- ~~  - sl_controller_interface_test
+[ 16%] Building C object catkin/robots/hermesFull/CMakeFiles/hermes_full_openGL.dir/src/SL_user_openGL.c.o
 
--- ~~  - strain_gauge_calibration
+Linking C shared library /home/administrator/ci/ci/team/workspace/devel/lib/libhermes_full_openGL.so
 
--- ~~  - yaml_cpp
+[ 16%] Built target hermes_full_openGL
 
--- ~~  - facial_expressions
+Scanning dependencies of target hermes_full_simulation
 
--- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[ 16%] Building C object catkin/robots/hermesFull/CMakeFiles/hermes_full_simulation.dir/__/hermesCore/src/SL_user_simulation.c.o
 
--- +++ processing catkin package: 'Eigen'
+[ 16%] Building C object catkin/robots/hermesFull/CMakeFiles/hermes_full_simulation.dir/__/hermesCore/src/SL_hermes_simulation.c.o
 
--- ==> add_subdirectory(catkin/third_party/Eigen)
+Linking C shared library /home/administrator/ci/ci/team/workspace/devel/lib/libhermes_full_simulation.so
 
-WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
+[ 16%] Built target hermes_full_simulation
 
--- +++ processing catkin package: 'apollo_robot_model'
+Scanning dependencies of target hermes_full_task
 
--- ==> add_subdirectory(catkin/robots/apollo_robot_model)
+[ 16%] Building CXX object catkin/robots/hermesFull/CMakeFiles/hermes_full_task.dir/__/hermesCore/src/SL_user_task.cpp.o
 
--- +++ processing catkin package: 'catkin_gflags'
+/home/administrator/ci/ci/team/workspace/src/catkin/robots/hermesCore/src/SL_user_task.cpp: In function ‘void drawPhantomFromCurrentState()’:
 
--- ==> add_subdirectory(catkin/third_party/catkin-gflags)
+/home/administrator/ci/ci/team/workspace/src/catkin/robots/hermesCore/src/SL_user_task.cpp:410:69: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
 
--- Found gflags  (include: /usr/include, library: /usr/lib/x86_64-linux-gnu/libgflags.so)
+   sendUserGraphics("phantom",b, (N_CART+N_QUAT+N_DOFS)*sizeof(float));
 
--- +++ processing catkin package: 'catkin_glog'
+                                                                     ^
 
--- ==> add_subdirectory(catkin/third_party/catkin-glog)
+/home/administrator/ci/ci/team/workspace/src/catkin/robots/hermesCore/src/SL_user_task.cpp: In function ‘void drawPhantomFromDesiredState()’:
 
--- Found glog    (include: /usr/include, library: /usr/lib/x86_64-linux-gnu/libglog.so)
+/home/administrator/ci/ci/team/workspace/src/catkin/robots/hermesCore/src/SL_user_task.cpp:444:69: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
 
--- +++ processing catkin package: 'cdlbt'
+   sendUserGraphics("phantom",b, (N_CART+N_QUAT+N_DOFS)*sizeof(float));
 
--- ==> add_subdirectory(catkin/ros/barrett-ros/cdlbt)
+                                                                     ^
 
--- MACHTYPE x86_64
+Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libhermes_full_task.so
 
-Detected MACHTYPE=x86_64
+[ 16%] Built target hermes_full_task
 
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+[ 16%] Built target xhermes_full
 
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+Scanning dependencies of target xmotor_hermes_full
 
-Call Stack (most recent call first):
+[ 16%] Building C object catkin/robots/hermesFull/CMakeFiles/xmotor_hermes_full.dir/__/hermesCore/src/SL_user_motor.c.o
 
-  catkin/ros/barrett-ros/cdlbt/CMakeLists.txt:8 (include)
+[ 16%] Building CXX object catkin/robots/hermesFull/CMakeFiles/xmotor_hermes_full.dir/__/hermesCore/src/SL_user_sensor_proc_unix.cpp.o
 
+Linking CXX executable /home/administrator/ci/ci/team/workspace/src/catkin/robots/hermesFull/x86_64/xmotor
 
+[ 16%] Built target xmotor_hermes_full
 
+[ 16%] Generating src/SL_parm_estimate.c
 
+Scanning dependencies of target xpest_hermes_full
 
--- HOST_NAME=everest
+[ 17%] Building C object catkin/robots/hermesFull/CMakeFiles/xpest_hermes_full.dir/src/SL_parm_estimate.c.o
 
--- HOST=everest
+Linking C executable /home/administrator/ci/ci/team/workspace/src/catkin/robots/hermesFull/x86_64/xpest
 
--- LAB=AMD
+[ 17%] Built target xpest_hermes_full
 
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+Scanning dependencies of target xvision_hermes_full
 
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+[ 17%] Building C object catkin/robots/hermesFull/CMakeFiles/xvision_hermes_full.dir/__/hermesCore/src/SL_user_vision.c.o
 
--- CMAKE_INCLUDE_PATH=
+Linking C executable /home/administrator/ci/ci/team/workspace/src/catkin/robots/hermesFull/x86_64/xvision
 
--- CMAKE_LIBRARY_PATH=
+[ 17%] Built target xvision_hermes_full
 
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+[ 18%] Built target hermes_lower
 
--- LAB_LIBDIR=lib/x86_64
+[ 18%] Built target hermes_lower_openGL
 
--- LAB_INCLUDES=include
+[ 18%] Built target hermes_lower_simulation
 
--- LAB_BINDIR=bin/x86_64
+[ 18%] Built target hermes_lower_task
 
--- +++ processing catkin package: 'can_control_tools'
+[ 18%] Built target xhermes_lower
 
--- ==> add_subdirectory(catkin/ros/barrett-ros/canControlTools)
+[ 18%] Built target xmotor_hermes_lower
 
--- MACHTYPE x86_64
+[ 18%] Built target xpest_hermes_lower
 
-Detected MACHTYPE=x86_64
+[ 18%] Built target xvision_hermes_lower
 
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+[ 18%] Built target eiquadprog_tester_app
 
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+[ 19%] Built target geometry_utils
 
-Call Stack (most recent call first):
+[ 19%] Built target io_utils_lib
 
-  catkin/ros/barrett-ros/canControlTools/CMakeLists.txt:8 (include)
+[ 21%] Built target robot_math
 
+[ 21%] Built target lqr_example_app
 
+[ 22%] Built target math_utils_lib
 
+[ 22%] Built target configuration_file_loading
 
+[ 22%] Built target data_collection
 
--- HOST_NAME=everest
+[ 22%] Built target io_tools_OTHER_FILES
 
--- HOST=everest
+[ 23%] Built target yaml_example
 
--- LAB=AMD
+[ 23%] Built target capture_points
 
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+[ 23%] Built target capture_points_app
 
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+[ 25%] Built target floating_base_tools_athena
 
--- CMAKE_INCLUDE_PATH=
+[ 25%] Built target momentum_lqr_example_app
 
--- CMAKE_LIBRARY_PATH=
+[ 26%] Built target floating_base_tools_hermes_full
 
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+[ 28%] Built target floating_base_tools_hermes_lower
 
--- LAB_LIBDIR=lib/x86_64
+[ 29%] Built target floating_base_tools_hopper
 
--- LAB_INCLUDES=include
+[ 29%] Built target data_collectionSL
 
--- LAB_BINDIR=bin/x86_64
+Scanning dependencies of target floating_base_tools_sl_athena
 
--- Boost version: 1.54.0
+[ 29%] Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_sl/floating_base_tools_sl_athena/CMakeFiles/floating_base_tools_sl_athena.dir/src/floating_base_tools_sl/sensors_sl_athena.cpp.o
 
--- Found the following Boost libraries:
+[ 29%] Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_sl/floating_base_tools_sl_athena/CMakeFiles/floating_base_tools_sl_athena.dir/__/template/src/floating_base_tools_sl/sl_eigen_converters.cpp.o
 
---   thread
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/sl_eigen_converters.cpp: In static member function ‘static void floating_base_tools::SlEigenConverters::embed_desired_joint_positions(const Eigen::Matrix<double, 40, 1>&, SL_DJstate*)’:
 
--- +++ processing catkin package: 'controller_communication'
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/sl_eigen_converters.cpp:85:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
 
--- ==> add_subdirectory(catkin/controller_manager/controller_communication)
+     for(int i = 0; i < Robot::n_dofs_; ++i) {
 
--- +++ processing catkin package: 'conversions'
+                               ^
 
--- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/usc_utils/conversions)
+[ 29%] Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_sl/floating_base_tools_sl_athena/CMakeFiles/floating_base_tools_sl_athena.dir/__/template/src/floating_base_tools_sl/kinematics_sl.cpp.o
 
--- +++ processing catkin package: 'interpolation'
+[ 29%] Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_sl/floating_base_tools_sl_athena/CMakeFiles/floating_base_tools_sl_athena.dir/__/template/src/floating_base_tools_sl/robot_properties_sl.cpp.o
 
--- ==> add_subdirectory(catkin/controller_manager/core-sl-ros/interpolation)
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_properties_sl.cpp: In constructor ‘floating_base_tools::RobotPropertiesSl::RobotPropertiesSl()’:
 
--- +++ processing catkin package: 'inverse_dynamics_learning_apollo'
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_properties_sl.cpp:11:26: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
 
--- ==> add_subdirectory(catkin/learning/inverse_dynamics_learning_apollo)
+   for(int j=0; j<=Robot::n_dofs_; ++j){
 
--- +++ processing catkin package: 'qp_oases'
+                          ^
 
--- ==> add_subdirectory(catkin/third_party/qp_oases)
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_properties_sl.cpp:22:25: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
 
--- +++ processing catkin package: 'quadprog'
+   for(int j=0; j<Robot::n_dofs_; ++j){
 
--- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/usc_utils/quadprog)
+                         ^
 
--- +++ processing catkin metapackage: 'ros_realtime'
+[ 30%] Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_sl/floating_base_tools_sl_athena/CMakeFiles/floating_base_tools_sl_athena.dir/__/template/src/floating_base_tools_sl/robot_interface_sl.cpp.o
 
--- ==> add_subdirectory(catkin/ros/ros_realtime/ros_realtime)
+[ 30%] Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_sl/floating_base_tools_sl_athena/CMakeFiles/floating_base_tools_sl_athena.dir/__/template/src/floating_base_tools_sl/composite_rigid_body_sl.cpp.o
 
--- +++ processing catkin package: 'allocators'
+In file included from /home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/composite_rigid_body_sl.cpp:21:0:
 
--- ==> add_subdirectory(catkin/ros/ros_realtime/allocators)
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/composite_rigid_body_sl.cpp: In member function ‘virtual void floating_base_tools::CompositeRigidBodySl::update(const floating_base_tools::RobotPosture&, const floating_base_tools::RobotVelocity&)’:
 
--- Boost version: 1.54.0
+/home/administrator/ci/ci/team/workspace/src/catkin/core-sl/locomotion-utilities/include/utility_macros.h:58:48: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
 
--- +++ processing catkin package: 'rosatomic'
+   for (priv_i_##name=(nrl); priv_i_##name<=(nrh); ++priv_i_##name) \
 
--- ==> add_subdirectory(catkin/ros/ros_realtime/rosatomic)
+                                                ^
 
--- Boost version: 1.54.0
+/home/administrator/ci/ci/team/workspace/src/catkin/core-sl/locomotion-utilities/include/utility_macros.h:65:3: note: in expansion of macro ‘MY_MATRIX_GENERAL’
 
--- +++ processing catkin package: 'lockfree'
-
--- ==> add_subdirectory(catkin/ros/ros_realtime/lockfree)
-
--- Boost version: 1.54.0
-
--- +++ processing catkin package: 'rt_timer'
-
--- ==> add_subdirectory(catkin/ros/ros_realtime/rt_timer)
-
--- +++ processing catkin package: 'rt_utils'
-
--- ==> add_subdirectory(catkin/rt_utils)
-
--- +++ processing catkin package: 'dmp'
-
--- ==> add_subdirectory(catkin/learning/dmp)
-
--- +++ processing catkin package: 'splines'
-
--- ==> add_subdirectory(catkin/controller_manager/core-sl-ros/splines)
-
--- +++ processing catkin package: 'start_robot'
-
--- ==> add_subdirectory(catkin/robots/start_robot)
-
--- +++ processing catkin package: 'amd_clmc_ros_messages'
-
--- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/amd_clmc_ros_messages)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- amd_clmc_ros_messages: 108 messages, 10 services
-
--- +++ processing catkin package: 'ar_track_alvar_msgs'
-
--- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/ar_track_alvar_msgs)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- ar_track_alvar_msgs: 2 messages, 0 services
-
--- +++ processing catkin package: 'custom_robot_msgs'
-
--- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/custom_robot_msgs)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- custom_robot_msgs: 1 messages, 2 services
-
--- +++ processing catkin package: 'riemo_grasping_msgs'
-
--- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/riemo_grasping_msgs)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- riemo_grasping_msgs: 5 messages, 3 services
-
--- +++ processing catkin package: 'utilities'
-
--- ==> add_subdirectory(catkin/core-sl/catkin-utilities)
-
--- MACHTYPE x86_64
-
-Detected MACHTYPE=x86_64
-
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
-
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
-
-Call Stack (most recent call first):
-
-  catkin/core-sl/catkin-utilities/CMakeLists.txt:8 (include)
-
-
-
-
-
--- HOST_NAME=everest
-
--- HOST=everest
-
--- LAB=AMD
-
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_INCLUDE_PATH=
-
--- CMAKE_LIBRARY_PATH=
-
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
-
--- LAB_LIBDIR=lib/x86_64
-
--- LAB_INCLUDES=include
-
--- LAB_BINDIR=bin/x86_64
-
--- +++ processing catkin package: 'lwpr'
-
--- ==> add_subdirectory(catkin/core-sl/catkin-lwpr)
-
--- MACHTYPE x86_64
-
-Detected MACHTYPE=x86_64
-
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
-
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
-
-Call Stack (most recent call first):
-
-  catkin/core-sl/catkin-lwpr/CMakeLists.txt:5 (include)
-
-
-
-
-
--- HOST_NAME=everest
-
--- HOST=everest
-
--- LAB=AMD
-
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_INCLUDE_PATH=
-
--- CMAKE_LIBRARY_PATH=
-
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
-
--- LAB_LIBDIR=lib/x86_64
-
--- LAB_INCLUDES=include
-
--- LAB_BINDIR=bin/x86_64
-
--- +++ processing catkin package: 'xenomai_ros'
-
--- ==> add_subdirectory(catkin/ros/xenomai-ros)
-
--- +++ processing catkin package: 'constrained_inverse_kinematics_msgs'
-
--- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/planning/constrained_inverse_kinematics_msgs)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- constrained_inverse_kinematics_msgs: 1 messages, 0 services
-
--- +++ processing catkin package: 'roscpp_utilities'
-
--- ==> add_subdirectory(catkin/ros/roscpp_utilities)
-
--- +++ processing catkin package: 'rosrt'
-
--- ==> add_subdirectory(catkin/ros/ros_realtime/rosrt)
-
--- xenomai NOT found. (/usr/local;/usr)
-
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
-
--- Boost version: 1.54.0
-
--- Found the following Boost libraries:
-
---   thread
-
--- +++ processing catkin package: 'ros_rt_test'
-
--- ==> add_subdirectory(catkin/ros/ros_rt_basic_example)
-
--- xenomai NOT found. (/usr/local;/usr)
-
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
-
--- +++ processing catkin package: 'sl'
-
--- ==> add_subdirectory(catkin/core-sl/catkin-sl)
-
--- MACHTYPE x86_64
-
-Detected MACHTYPE=x86_64
-
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
-
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
-
-Call Stack (most recent call first):
-
-  catkin/core-sl/catkin-sl/CMakeLists.txt:8 (include)
-
-
-
-
-
--- HOST_NAME=everest
-
--- HOST=everest
-
--- LAB=AMD
-
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_INCLUDE_PATH=
-
--- CMAKE_LIBRARY_PATH=
-
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
-
--- LAB_LIBDIR=lib/x86_64
-
--- LAB_INCLUDES=include
-
--- LAB_BINDIR=bin/x86_64
-
--- +++ processing catkin package: 'apollo'
-
--- ==> add_subdirectory(catkin/robots/catkin-apollo)
-
--- MACHTYPE x86_64
-
-Detected MACHTYPE=x86_64
-
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
-
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
-
-Call Stack (most recent call first):
-
-  catkin/robots/catkin-apollo/CMakeLists.txt:9 (include)
-
-
-
-
-
--- HOST_NAME=everest
-
--- HOST=everest
-
--- LAB=AMD
-
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_INCLUDE_PATH=
-
--- CMAKE_LIBRARY_PATH=
-
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
-
--- LAB_LIBDIR=lib/x86_64
-
--- LAB_INCLUDES=include
-
--- LAB_BINDIR=bin/x86_64
-
--- +++ processing catkin package: 'apollo_test_task'
-
--- ==> add_subdirectory(catkin/robots/catkin-sl-apollo-task-example)
-
--- MACHTYPE x86_64
-
-Detected MACHTYPE=x86_64
-
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
-
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
-
-Call Stack (most recent call first):
-
-  catkin/robots/catkin-sl-apollo-task-example/CMakeLists.txt:8 (include)
-
-
-
-
-
--- HOST_NAME=everest
-
--- HOST=everest
-
--- LAB=AMD
-
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_INCLUDE_PATH=
-
--- CMAKE_LIBRARY_PATH=
-
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
-
--- LAB_LIBDIR=lib/x86_64
-
--- LAB_INCLUDES=include
-
--- LAB_BINDIR=bin/x86_64
-
--- +++ processing catkin package: 'sl_ros_servo'
-
--- ==> add_subdirectory(catkin/ros/sl_ros_servo)
-
--- MACHTYPE x86_64
-
-Detected MACHTYPE=x86_64
-
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
-
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
-
-Call Stack (most recent call first):
-
-  catkin/ros/sl_ros_servo/CMakeLists.txt:5 (include)
-
-
-
-
-
--- HOST_NAME=everest
-
--- HOST=everest
-
--- LAB=AMD
-
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_INCLUDE_PATH=
-
--- CMAKE_LIBRARY_PATH=
-
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
-
--- LAB_LIBDIR=lib/x86_64
-
--- LAB_INCLUDES=include
-
--- LAB_BINDIR=bin/x86_64
-
--- +++ processing catkin package: 'learning_control'
-
--- ==> add_subdirectory(catkin/learning/learning_control)
-
--- MACHTYPE x86_64
-
-Detected MACHTYPE=x86_64
-
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
-
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
-
-Call Stack (most recent call first):
-
-  catkin/learning/learning_control/CMakeLists.txt:10 (include)
-
-
-
-
-
--- HOST_NAME=everest
-
--- HOST=everest
-
--- LAB=AMD
-
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_INCLUDE_PATH=
-
--- CMAKE_LIBRARY_PATH=
-
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
-
--- LAB_LIBDIR=lib/x86_64
-
--- LAB_INCLUDES=include
-
--- LAB_BINDIR=bin/x86_64
-
--- xenomai NOT found. (/usr/local;/usr)
-
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
-
--- +++ processing catkin package: 'python_ros_utils'
-
--- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/usc_utils/python_ros_utils)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- +++ processing catkin package: 'sl_conversions'
-
--- ==> add_subdirectory(catkin/controller_manager/core-sl-ros/sl_conversions)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- +++ processing catkin package: 'sl_utilities'
-
--- ==> add_subdirectory(catkin/controller_manager/core-sl-ros/sl_utilities)
-
--- xenomai NOT found. (/usr/local;/usr)
-
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- +++ processing catkin package: 'sl_controller_manager'
-
--- ==> add_subdirectory(catkin/controller_manager/core-sl-ros/sl_controller_manager)
-
--- MACHTYPE x86_64
-
-Detected MACHTYPE=x86_64
-
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
-
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
-
-Call Stack (most recent call first):
-
-  catkin/controller_manager/core-sl-ros/sl_controller_manager/CMakeLists.txt:5 (include)
-
-
-
-
-
--- HOST_NAME=everest
-
--- HOST=everest
-
--- LAB=AMD
-
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_INCLUDE_PATH=
-
--- CMAKE_LIBRARY_PATH=
-
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
-
--- LAB_LIBDIR=lib/x86_64
-
--- LAB_INCLUDES=include
-
--- LAB_BINDIR=bin/x86_64
-
--- xenomai NOT found. (/usr/local;/usr)
-
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- +++ processing catkin package: 'controller_manager_task_apollo'
-
--- ==> add_subdirectory(catkin/controller_manager/controller_manager_apollo/controller_manager_task_apollo)
-
--- MACHTYPE x86_64
-
-Detected MACHTYPE=x86_64
-
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
-
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
-
-Call Stack (most recent call first):
-
-  catkin/controller_manager/controller_manager_apollo/controller_manager_task_apollo/CMakeLists.txt:5 (include)
-
-
-
-
-
--- HOST_NAME=everest
-
--- HOST=everest
-
--- LAB=AMD
-
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_INCLUDE_PATH=
-
--- CMAKE_LIBRARY_PATH=
-
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
-
--- LAB_LIBDIR=lib/x86_64
-
--- LAB_INCLUDES=include
-
--- LAB_BINDIR=bin/x86_64
-
--- xenomai NOT found. (/usr/local;/usr)
-
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- +++ processing catkin package: 'apollo_user'
-
--- ==> add_subdirectory(catkin/robots/catkin-apolloUser)
-
--- MACHTYPE x86_64
-
-Detected MACHTYPE=x86_64
-
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
-
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
-
-Call Stack (most recent call first):
-
-  catkin/robots/catkin-apolloUser/CMakeLists.txt:8 (include)
-
-
-
-
-
--- HOST_NAME=everest
-
--- HOST=everest
-
--- LAB=AMD
-
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_INCLUDE_PATH=
-
--- CMAKE_LIBRARY_PATH=
-
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
-
--- LAB_LIBDIR=lib/x86_64
-
--- LAB_INCLUDES=include
-
--- LAB_BINDIR=bin/x86_64
-
--- xenomai NOT found. (/usr/local;/usr)
-
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- +++ processing catkin package: 'sl_barrett_controllers'
-
--- ==> add_subdirectory(catkin/controller_manager/sl_barrett_controllers/sl_barrett_controllers)
-
--- xenomai NOT found. (/usr/local;/usr)
-
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- +++ processing catkin package: 'sl_controllers'
-
--- ==> add_subdirectory(catkin/controller_manager/core-sl-ros/sl_controllers)
-
--- xenomai NOT found. (/usr/local;/usr)
-
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- Boost version: 1.54.0
-
--- Found the following Boost libraries:
-
---   random
-
--- +++ processing catkin package: 'ros_servo_apollo'
-
--- ==> add_subdirectory(catkin/ros/ros_servo_apollo)
-
--- MACHTYPE x86_64
-
-Detected MACHTYPE=x86_64
-
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
-
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
-
-Call Stack (most recent call first):
-
-  catkin/ros/ros_servo_apollo/CMakeLists.txt:5 (include)
-
-
-
-
-
--- HOST_NAME=everest
-
--- HOST=everest
-
--- LAB=AMD
-
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_INCLUDE_PATH=
-
--- CMAKE_LIBRARY_PATH=
-
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
-
--- LAB_LIBDIR=lib/x86_64
-
--- LAB_INCLUDES=include
-
--- LAB_BINDIR=bin/x86_64
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- +++ processing catkin package: 'usc_utilities'
-
--- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/usc_utils/usc_utilities)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- usc_utilities: 1 messages, 0 services
-
--- +++ processing catkin package: 'learnable_cost_function'
-
--- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/planning/learnable_cost_function)
-
--- +++ processing catkin package: 'robot_info'
-
--- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/usc_utils/robot_info)
-
--- +++ processing catkin package: 'jacobian_utilities'
-
--- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/usc_utils/jacobian_utilities)
-
--- +++ processing catkin package: 'sl_barrett_controller_interface'
-
--- ==> add_subdirectory(catkin/controller_manager/sl_barrett_controllers/sl_barrett_controller_interface)
-
--- xenomai NOT found. (/usr/local;/usr)
-
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- +++ processing catkin package: 'sl_controller_interface'
-
--- ==> add_subdirectory(catkin/controller_manager/core-sl-ros/sl_controller_interface)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- +++ processing catkin package: 'sl_controller_interface_test'
-
--- ==> add_subdirectory(catkin/controller_manager/controller_manager_examples_apollo)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- xenomai NOT found. (/usr/local;/usr)
-
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
-
--- +++ processing catkin package: 'strain_gauge_calibration'
-
--- ==> add_subdirectory(catkin/controller_manager/core-sl-ros/strain_gauge_calibration)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- xenomai NOT found. (/usr/local;/usr)
-
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
-
--- +++ processing catkin package: 'yaml_cpp'
-
--- ==> add_subdirectory(catkin/third_party/YAML_CPP)
-
--- Boost version: 1.54.0
-
--- +++ processing catkin package: 'facial_expressions'
-
--- ==> add_subdirectory(catkin/emotions/facial_expressions)
-
--- MACHTYPE x86_64
-
-Detected MACHTYPE=x86_64
-
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
-
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
-
-Call Stack (most recent call first):
-
-  catkin/emotions/facial_expressions/CMakeLists.txt:6 (include)
-
-
-
-
-
--- HOST_NAME=everest
-
--- HOST=everest
-
--- LAB=AMD
-
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_INCLUDE_PATH=
-
--- CMAKE_LIBRARY_PATH=
-
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
-
--- LAB_LIBDIR=lib/x86_64
-
--- LAB_INCLUDES=include
-
--- LAB_BINDIR=bin/x86_64
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- facial_expressions: 0 messages, 1 services
-
--- Configuring done
-
--- Generating done
-
--- Build files have been written to: /home/administrator/ci/ci/team/workspace/build
-
-[  0%] [  0%] [  0%] Built target sensor_msgs_generate_messages_cpp
-
-Built target geometry_msgs_generate_messages_cpp
-
-Built target visualization_msgs_generate_messages_cpp
-
-[  0%] [  0%] [  0%] [  0%] [  0%] [  0%] [  0%] Built target geometry_msgs_generate_messages_lisp
-
-Built target geometry_msgs_generate_messages_py
-
-Built target std_msgs_generate_messages_cpp
-
-Built target std_msgs_generate_messages_lisp
-
-Built target actionlib_msgs_generate_messages_py
-
-Built target sensor_msgs_generate_messages_py
-
-Built target actionlib_msgs_generate_messages_lisp
-
-[  0%] [  0%] Built target std_msgs_generate_messages_py
-
-Built target roscpp_utilities
-
-[  0%] Built target _usc_utilities_generate_messages_check_deps_AccumulatedTrialStatistics
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibratePressureSensorsStatus
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerDataStatus
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Goto_command
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineLearningControl
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_AccelerationFeedbackExperimentStatus
-
-[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SwitchControllerStack
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_ResetBreakaway
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PolicyControllerParamsService
-
-[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_BoundingPoints
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspControllerStatus
-
-[  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_NavigationTarget
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_RtNetwork
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_ExperimentParams
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_BiotacData
-
-[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_AvgPressureSensors
-
-[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_QueryControllerStatus
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_Volumes
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_IncreaseMaxFingerTorque
-
-[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_UpdateStrainGagesCalibration
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_LabeledPoint
-
-[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LqrControllerDataStatus
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_PolicyControllerDataStatus
-
-[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ObstaclePoints
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_PressureSensors
-
-[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ImageCoordinates
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_Preshape
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateForceTorqueSensor
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CartesianTrajectory
-
-[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Acceleration
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerParamsService
-
-[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspPoses
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_PointArrayArray
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ExperimentGeneratorParamsService
-
-[  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CartesianTrajectoryPoint
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_TrajectoryStatus
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerStatus
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ColorRange
-
-[  0%] [  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineNetwork
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LookAtParams
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_BiotacFingerData
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CollectDataStatus
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_DMPControllerStatus
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_LookAtStatus
-
-[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibratePressureSensors
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_Extrems
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_RtNetworkLayer
-
-[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_NetworkLayer
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_DMPCommand
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ScaledLqr
-
-[  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspControllerParams
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_TrajectoryPoint
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_ViconQuery
-
-[  0%] [  0%] [  0%] [  0%] [  0%] [  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DMPControllerParams
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_UpdateStrainGagesCalibrationStatus
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_SetPoses
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_Path
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_ContinuousTrajectoryStatus
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_ContinuousTrajectoryPoint
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_SetObjectOri
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_BoundingPointsArray
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SetVisualToolTracking
-
-[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_InverseDynamicsBatchNetworkControllerStatus
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_Imu
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_EndEffectorPosition
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_FingerJointEncoderOffsetsStatus
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspStatus
-
-[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineDataStatus
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerParams
-
-[  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ChordEllipsoid
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_AffinePolicy
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateAccelerometerSensorStatus
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_LqrControllerParams
-
-[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DistanceFieldQueries
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_DistanceFieldEval
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CartesianGains
-
-[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineLearningControlService
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_FingerJointEncoderOffsets
-
-[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LinearQuadraticRegulatorParams
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_KeyPointBodyApprox
-
-[  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OnlineDataStatus
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_Grasp
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_LqrControllerParamsService
-
-[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ExtremsArray
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_FingerForceControlGains
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateBiotacSensorsStatus
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_StrainGauge
-
-[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Sphere
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_RectangularBox
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_EndEffectorState
-
-[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ViconData
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_TaskFrame
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SpeedChange
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateAccelerometerSensor
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ResetBreakawayStatus
-
-[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_RectangularBoxArray
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_ControllerStatus
-
-[  0%] [  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineParams
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_Matrix32
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_LinearQuadraticRegulatorStatus
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_EnvironmentalObject
-
-[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateBiotacSensors
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_Gains
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateForceTorqueSensorStatus
-
-[  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PointArray
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ObjectMass
-
-Built target roscpp_generate_messages_py
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Trajectory
-
-[  0%] Built target roscpp_generate_messages_cpp
-
-[  0%] Built target roscpp_generate_messages_lisp
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_ImageCoordinatesArray
-
-[  0%] [  0%] [  0%] Built target rosgraph_msgs_generate_messages_py
-
-Built target rosgraph_msgs_generate_messages_lisp
-
-Built target tf2_msgs_generate_messages_cpp
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LinearQuadraticRegulator
-
-[  0%] [  0%] [  0%] Built target rosgraph_msgs_generate_messages_cpp
-
-Built target actionlib_msgs_generate_messages_cpp
-
-[  0%] [  0%] Built target sensor_msgs_generate_messages_lisp
-
-Built target topic_tools_generate_messages_lisp
-
-Built target topic_tools_generate_messages_cpp
-
-[  0%] [  0%] [  0%] Built target tf_generate_messages_lisp
-
-Built target topic_tools_generate_messages_py
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_InverseDynamicsBatchNetworkControllerParams
-
-[  0%] [  0%] Scanning dependencies of target gtest
-
-[  0%] [  0%] [  0%] [  0%] [  0%] [  0%] [  0%] Built target tf_generate_messages_py
-
-Built target actionlib_generate_messages_cpp
-
-Built target tf2_msgs_generate_messages_py
-
-Built target actionlib_generate_messages_lisp
-
-Built target tf_generate_messages_cpp
-
-Built target tf2_msgs_generate_messages_lisp
-
-Built target actionlib_generate_messages_py
-
-Built target visualization_msgs_generate_messages_lisp
-
-Built target visualization_msgs_generate_messages_py
-
-[  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineParamsService
-
-Built target _amd_clmc_ros_messages_generate_messages_check_deps_TrackingPose
-
-[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CollectData
-
-[  0%] Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
-
-Built target _catkin_empty_exported_target
-
-[  0%] Built target lockfree
-
-[  6%] Built target yaml-cpp
-
-[  6%] Built target usc_utilities_generate_messages_lisp
-
-[  6%] [  6%] Built target usc_utilities_generate_messages_cpp
-
-Built target usc_utilities_generate_messages_py
-
-[ 14%] Built target utility
-
-[ 14%] Built target rt_utils
-
-[ 38%] Built target amd_clmc_ros_messages_generate_messages_lisp
-
-[ 61%] [ 61%] Built target amd_clmc_ros_messages_generate_messages_cpp
-
-Built target lwpr
-
-[ 63%] Built target rosrt
-
-[ 87%] Built target amd_clmc_ros_messages_generate_messages_py
-
-Scanning dependencies of target test_sl_conversions
-
-[ 88%] Built target usc_utilities
-
-[ 90%] Building CXX object catkin/controller_manager/core-sl-ros/sl_conversions/CMakeFiles/test_sl_conversions.dir/test/test_sl_conversions.cpp.o
-
-[ 92%] Built target learning_control
-
-[ 93%] Built target robot_info
-
-[ 96%] Built target sl_controller_interface
-
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/sl_conversions/test_sl_conversions
-
-[ 96%] Built target test_sl_conversions
-
-Linking CXX shared library libgtest.so
-
-[ 96%] Built target gtest
-
-Scanning dependencies of target gtest_main
-
-[ 98%] Building CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
-
-Linking CXX shared library libgtest_main.so
-
-[ 98%] Built target gtest_main
-
-Scanning dependencies of target test_aligned_alloc
-
-Scanning dependencies of target test_object_pool
-
-Scanning dependencies of target utest
-
-Scanning dependencies of target test_freelist
-
-[ 98%] Scanning dependencies of target generic_test
-
-[ 98%] [ 98%] Building CXX object catkin/ros/ros_realtime/lockfree/CMakeFiles/test_object_pool.dir/test/test_object_pool.cpp.o
-
-Building CXX object catkin/ros/ros_realtime/allocators/CMakeFiles/test_aligned_alloc.dir/test/test_aligned_alloc.cpp.o
-
-[ 98%] [ 98%] Building CXX object catkin/ros/ros_realtime/rosatomic/CMakeFiles/utest.dir/test/utest.cpp.o
-
-Building CXX object catkin/controller_manager/core-sl-ros/sl_controller_interface/CMakeFiles/generic_test.dir/test/test_main.cpp.o
-
-Building CXX object catkin/ros/ros_realtime/lockfree/CMakeFiles/test_freelist.dir/test/test_freelist.cpp.o
-
-Scanning dependencies of target utest_gp_predict
-
-Scanning dependencies of target utest_gp_predict_speed
-
-Scanning dependencies of target utest_gp_speed
-
-Scanning dependencies of target utest_gp
-
-Scanning dependencies of target utest_gp_speed_real_data
-
-Scanning dependencies of target utest_nrt_gp
-
-[ 98%] Scanning dependencies of target utest_rt_network
-
-[100%] [100%] [100%] [100%] Building CXX object catkin/learning/learning_control/CMakeFiles/utest_gp_predict.dir/test/utest_gp_predict.cpp.o
-
-[100%] Building CXX object catkin/learning/learning_control/CMakeFiles/utest_rt_network.dir/test/utest_rt_network_main.cpp.o
-
-Building CXX object catkin/learning/learning_control/CMakeFiles/utest_gp.dir/test/utest_gp_main.cpp.o
-
-[100%] Scanning dependencies of target utest_rt_network_load_msg_predict
-
-Building CXX object catkin/learning/learning_control/CMakeFiles/utest_nrt_gp.dir/test/utest_nrt_gp_main.cpp.o
-
-Building CXX object catkin/learning/learning_control/CMakeFiles/utest_gp_speed_real_data.dir/test/utest_gp_speed_real_data.cpp.o
-
-Building CXX object catkin/learning/learning_control/CMakeFiles/utest_gp_speed.dir/test/utest_gp_speed_main.cpp.o
-
-Building CXX object catkin/learning/learning_control/CMakeFiles/utest_gp_predict_speed.dir/test/utest_gp_predict_speed.cpp.o
-
-Scanning dependencies of target utest_nrt_gp_speed
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_gp_speed_real_data.cpp:6:0: warning: "EIGEN_RUNTIME_NO_MALLOC" redefined [enabled by default]
-
- #define EIGEN_RUNTIME_NO_MALLOC
-
- ^
-
-<command-line>:0:0: note: this is the location of the previous definition
-
-[100%] Building CXX object catkin/learning/learning_control/CMakeFiles/utest_rt_network_load_msg_predict.dir/test/utest_rt_network_load_msg_predict.cpp.o
-
-[100%] Building CXX object catkin/learning/learning_control/CMakeFiles/utest_nrt_gp_speed.dir/test/utest_nrt_gp_speed_main.cpp.o
-
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/allocators/test_aligned_alloc
-
-[100%] Built target test_aligned_alloc
-
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/rosatomic/utest
-
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/learning_control/utest_gp_speed_real_data
-
-[100%] Built target utest
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_gp_speed_main.cpp: In member function ‘virtual void TestSuite_TestRealTimeGPSteps_Test::TestBody()’:
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_gp_speed_main.cpp:63:3: error: ‘global_error_realtime_inactive’ was not declared in this scope
-
-   global_error_realtime_inactive = true;
+   MY_MATRIX_GENERAL(name,nrl,nrh,ncl,nch,double)
 
    ^
 
-[100%] Built target utest_gp_speed_real_data
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/composite_rigid_body_sl.cpp:35:3: note: in expansion of macro ‘MY_MATRIX’
 
-make[3]: *** [catkin/learning/learning_control/CMakeFiles/utest_gp_speed.dir/test/utest_gp_speed_main.cpp.o] Error 1
-
-make[2]: *** [catkin/learning/learning_control/CMakeFiles/utest_gp_speed.dir/all] Error 2
-
-make[2]: *** Waiting for unfinished jobs....
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_main.cpp: In member function ‘virtual void UtilitiesTest_TestValueWithDefault_Test::TestBody()’:
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_main.cpp:30:13: error: ‘class learning_control::GpParams’ has no member named ‘sigma_y_2_’
-
-   gp_params.sigma_y_2_ = 0.01;
-
-             ^
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_main.cpp:31:13: error: ‘class learning_control::GpParams’ has no member named ‘sigma_f_2_’
-
-   gp_params.sigma_f_2_ = 100.0;
-
-             ^
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_main.cpp:43:11: error: ‘class learning_control::GaussianProcess’ has no member named ‘add_data_point’
-
-   gp_test.add_data_point(x, y);
-
-           ^
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_main.cpp:47:11: error: ‘class learning_control::GaussianProcess’ has no member named ‘add_data_point’
-
-   gp_test.add_data_point(x, y);
-
-           ^
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_main.cpp:51:11: error: ‘class learning_control::GaussianProcess’ has no member named ‘add_data_point’
-
-   gp_test.add_data_point(x, y);
-
-           ^
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_main.cpp:55:11: error: ‘class learning_control::GaussianProcess’ has no member named ‘add_data_point’
-
-   gp_test.add_data_point(x, y);
-
-           ^
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_main.cpp:59:11: error: ‘class learning_control::GaussianProcess’ has no member named ‘add_data_point’
-
-   gp_test.add_data_point(x, y);
-
-           ^
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_main.cpp:63:11: error: ‘class learning_control::GaussianProcess’ has no member named ‘add_data_point’
-
-   gp_test.add_data_point(x, y);
-
-           ^
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_main.cpp:67:11: error: ‘class learning_control::GaussianProcess’ has no member named ‘add_data_point’
-
-   gp_test.add_data_point(x, y);
-
-           ^
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_main.cpp:71:11: error: ‘class learning_control::GaussianProcess’ has no member named ‘add_data_point’
-
-   gp_test.add_data_point(x, y);
-
-           ^
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_main.cpp:75:11: error: ‘class learning_control::GaussianProcess’ has no member named ‘add_data_point’
-
-   gp_test.add_data_point(x, y);
-
-           ^
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_main.cpp:79:11: error: ‘class learning_control::GaussianProcess’ has no member named ‘add_data_point’
-
-   gp_test.add_data_point(x, y);
-
-           ^
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_main.cpp:133:50: error: ‘class learning_control::GpParams’ has no member named ‘sigma_y_2_’
-
-   rt_printf("new sigmay2: %f\n", gp_test.params_.sigma_y_2_);
-
-                                                  ^
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_main.cpp:134:50: error: ‘class learning_control::GpParams’ has no member named ‘sigma_f_2_’
-
-   rt_printf("new sigmaf2: %f\n", gp_test.params_.sigma_f_2_);
-
-                                                  ^
-
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/learning_control/utest_gp
-
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/lockfree/test_object_pool
-
-make[3]: *** [catkin/learning/learning_control/CMakeFiles/utest_nrt_gp.dir/test/utest_nrt_gp_main.cpp.o] Error 1
-
-make[2]: *** [catkin/learning/learning_control/CMakeFiles/utest_nrt_gp.dir/all] Error 2
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_gp_predict.cpp: In member function ‘virtual void UtilitiesTest_TestValueWithDefault_Test::TestBody()’:
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_gp_predict.cpp:16:3: error: ‘GpSePredictMeanRT’ is not a member of ‘learning_control’
-
-   learning_control::GpSePredictMeanRT gp_predict_mean_test;
+   MY_MATRIX(mat_M, 1, Robot::n_dofs_+6, 1, Robot::n_dofs_+6);
 
    ^
 
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_gp_predict.cpp:16:39: error: expected ‘;’ before ‘gp_predict_mean_test’
+[ 30%] Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_sl/floating_base_tools_sl_athena/CMakeFiles/floating_base_tools_sl_athena.dir/__/template/src/floating_base_tools_sl/recursive_newton_euler_sl.cpp.o
 
-   learning_control::GpSePredictMeanRT gp_predict_mean_test;
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/recursive_newton_euler_sl.cpp: In member function ‘virtual void floating_base_tools::RecursiveNewtonEulerSl::InverseDynamicsBase(const floating_base_tools::RobotPosture&, const floating_base_tools::RobotVelocity&, const floating_base_tools::ContactDescritpion (&)[4], const floating_base_tools::RobotAcceleration&, Eigen::Matrix<double, 46, 1>&)’:
 
-                                       ^
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/recursive_newton_euler_sl.cpp:33:25: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
 
-In file included from /usr/include/gtest/gtest.h:1807:0,
+   for(int i=0; i<Robot::n_endeffs_; ++i)
 
-                 from /home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_gp_predict.cpp:6:
+                         ^
 
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_gp_predict.cpp:91:20: error: ‘gp_predict_mean_test’ was not declared in this scope
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/recursive_newton_euler_sl.cpp:44:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
 
-   ASSERT_NEAR(0.0, gp_predict_mean_test.predict(xtest), max_error);
+   for (int i = 0; i <= Robot::n_dofs_; ++i){
 
-                    ^
+                               ^
 
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_gp_predict.cpp:92:3: error: ‘gp_predict_mean_test’ was not declared in this scope
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/recursive_newton_euler_sl.cpp:52:25: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
 
-   gp_predict_mean_test.update_parameters(gp_test.lambda_,
+   for(int i=0; i<Robot::n_dofs_; ++i)
+
+                         ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/recursive_newton_euler_sl.cpp: In member function ‘virtual void floating_base_tools::RecursiveNewtonEulerSl::getLocalContributions(const Eigen::Matrix<double, 40, 1>&, const Eigen::Matrix<double, 40, 1>&, Eigen::Matrix<double, 40, 1>&)’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/recursive_newton_euler_sl.cpp:64:25: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+
+   for(int i=0; i<Robot::n_dofs_; ++i)
+
+                         ^
+
+[ 30%] Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_sl/floating_base_tools_sl_athena/CMakeFiles/floating_base_tools_sl_athena.dir/__/template/src/floating_base_tools_sl/robot_command_interface_sl.cpp.o
+
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_command_interface_sl.cpp: In member function ‘virtual void floating_base_tools::RobotCommandInterfaceSl::getDesiredFeedforwardTorque(Eigen::Matrix<double, 40, 1>&) const’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_command_interface_sl.cpp:22:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+
+     for (int i = 0; i < Robot::n_dofs_; ++i) {
+
+                                ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_command_interface_sl.cpp: In member function ‘virtual void floating_base_tools::RobotCommandInterfaceSl::getDesiredFeedbackTorque(Eigen::Matrix<double, 40, 1>&) const’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_command_interface_sl.cpp:28:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+
+     for (int i = 0; i < Robot::n_dofs_; ++i) {
+
+                                ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_command_interface_sl.cpp: In member function ‘virtual void floating_base_tools::RobotCommandInterfaceSl::getDesiredTorque(Eigen::Matrix<double, 40, 1>&) const’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_command_interface_sl.cpp:34:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+
+     for (int i = 0; i < Robot::n_dofs_; ++i) {
+
+                                ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_command_interface_sl.cpp: In member function ‘virtual void floating_base_tools::RobotCommandInterfaceSl::getDesiredJointPositions(Eigen::Matrix<double, 40, 1>&) const’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_command_interface_sl.cpp:41:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+
+     for (int i = 0; i < Robot::n_dofs_; ++i) {
+
+                                ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_command_interface_sl.cpp: In member function ‘virtual void floating_base_tools::RobotCommandInterfaceSl::getDesiredJointVelocities(Eigen::Matrix<double, 40, 1>&) const’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_command_interface_sl.cpp:48:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+
+     for (int i = 0; i < Robot::n_dofs_; ++i) {
+
+                                ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_command_interface_sl.cpp: In member function ‘virtual void floating_base_tools::RobotCommandInterfaceSl::getDesiredJointAccelerations(Eigen::Matrix<double, 40, 1>&) const’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_command_interface_sl.cpp:55:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+
+     for (int i = 0; i < Robot::n_dofs_; ++i) {
+
+                                ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_command_interface_sl.cpp: In member function ‘virtual void floating_base_tools::RobotCommandInterfaceSl::setPureReferenceTorques(const Eigen::Matrix<double, 40, 1>&)’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_command_interface_sl.cpp:83:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+
+     for (int i = 0; i < Robot::n_dofs_; ++i) {
+
+                                ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_command_interface_sl.cpp: In member function ‘virtual void floating_base_tools::RobotCommandInterfaceSl::setReferenceTorquesAndPositions(const Eigen::Matrix<double, 40, 1>&, const Eigen::Matrix<double, 40, 1>&, const Eigen::Matrix<double, 40, 1>&)’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_command_interface_sl.cpp:95:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+
+     for (int i = 0; i < Robot::n_dofs_; ++i) {
+
+                                ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_command_interface_sl.cpp: In member function ‘virtual void floating_base_tools::RobotCommandInterfaceSl::setPIDGains(const Eigen::Matrix<double, 40, 1>&, const Eigen::Matrix<double, 40, 1>&, const Eigen::Matrix<double, 40, 1>&)’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_command_interface_sl.cpp:110:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+
+     for (int i = 0; i < Robot::n_dofs_; ++i) {
+
+                                ^
+
+[ 30%] Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_sl/floating_base_tools_sl_athena/CMakeFiles/floating_base_tools_sl_athena.dir/__/template/src/floating_base_tools_sl/sensors_sl.cpp.o
+
+[ 30%] Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_sl/floating_base_tools_sl_athena/CMakeFiles/floating_base_tools_sl_athena.dir/__/template/src/floating_base_tools_sl/fixed_base_inverse_dynamics_sl.cpp.o
+
+Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libfloating_base_tools_sl_athena.so
+
+[ 30%] Built target floating_base_tools_sl_athena
+
+Scanning dependencies of target biped_locomotion_athena
+
+[ 30%] Building C object catkin/humanoids/humanoid_control/biped_locomotion/biped_locomotion_athena/CMakeFiles/biped_locomotion_athena.dir/__/template/src/biped_locomotion/initUserTasks_bipedLocomotion.c.o
+
+[ 30%] Building CXX object catkin/humanoids/humanoid_control/biped_locomotion/biped_locomotion_athena/CMakeFiles/biped_locomotion_athena.dir/__/template/src/biped_locomotion/HInvDynExample.cpp.o
+
+[ 30%] Building CXX object catkin/humanoids/humanoid_control/biped_locomotion/biped_locomotion_athena/CMakeFiles/biped_locomotion_athena.dir/__/template/src/biped_locomotion/HInvDynExample_task.cpp.o
+
+[ 30%] Building CXX object catkin/humanoids/humanoid_control/biped_locomotion/biped_locomotion_athena/CMakeFiles/biped_locomotion_athena.dir/__/template/src/biped_locomotion/contact_helper_hermes_lower.cpp.o
+
+[ 30%] Building CXX object catkin/humanoids/humanoid_control/biped_locomotion/biped_locomotion_athena/CMakeFiles/biped_locomotion_athena.dir/__/template/src/biped_locomotion/contact_helper_hermes_full.cpp.o
+
+[ 30%] Building CXX object catkin/humanoids/humanoid_control/biped_locomotion/biped_locomotion_athena/CMakeFiles/biped_locomotion_athena.dir/__/template/src/biped_locomotion/fb_sine_task.cpp.o
+
+[ 31%] Building CXX object catkin/humanoids/humanoid_control/biped_locomotion/biped_locomotion_athena/CMakeFiles/biped_locomotion_athena.dir/__/template/src/biped_locomotion/gravity_compensation_task.cpp.o
+
+[ 31%] Building CXX object catkin/humanoids/humanoid_control/biped_locomotion/biped_locomotion_athena/CMakeFiles/biped_locomotion_athena.dir/__/template/src/biped_locomotion/torque_sine_task.cpp.o
+
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/biped_locomotion/template/src/biped_locomotion/torque_sine_task.cpp: In function ‘int init_torque_sine_task()’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/biped_locomotion/template/src/biped_locomotion/torque_sine_task.cpp:75:103: warning: format ‘%s’ expects argument of type ‘char*’, but argument 4 has type ‘double’ [-Wformat=]
+
+     printf("running a %f Nm step test with offset %f for joint %s\n", amp, off, freq, joint_names[jid]);
+
+                                                                                                       ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/biped_locomotion/template/src/biped_locomotion/torque_sine_task.cpp:75:103: warning: too many arguments for format [-Wformat-extra-args]
+
+[ 31%] Building CXX object catkin/humanoids/humanoid_control/biped_locomotion/biped_locomotion_athena/CMakeFiles/biped_locomotion_athena.dir/__/template/src/biped_locomotion/joint_calibration_task.cpp.o
+
+[ 31%] Building CXX object catkin/humanoids/humanoid_control/biped_locomotion/biped_locomotion_athena/CMakeFiles/biped_locomotion_athena.dir/__/template/src/biped_locomotion/MinJerkGenerator.cpp.o
+
+[ 31%] Building CXX object catkin/humanoids/humanoid_control/biped_locomotion/biped_locomotion_athena/CMakeFiles/biped_locomotion_athena.dir/__/template/src/biped_locomotion/WaypointGenerator.cpp.o
+
+[ 31%] Building CXX object catkin/humanoids/humanoid_control/biped_locomotion/biped_locomotion_athena/CMakeFiles/biped_locomotion_athena.dir/__/template/src/biped_locomotion/kin_dyn_data_collection.cpp.o
+
+[ 31%] Building CXX object catkin/humanoids/humanoid_control/biped_locomotion/biped_locomotion_athena/CMakeFiles/biped_locomotion_athena.dir/__/template/src/biped_locomotion/JointSineTaskInterface.cpp.o
+
+Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libbiped_locomotion_athena.so
+
+[ 31%] Built target biped_locomotion_athena
+
+[ 31%] Built target gtest
+
+Scanning dependencies of target biped_locomotion_tests_athena
+
+[ 31%] Building CXX object catkin/humanoids/humanoid_control/biped_locomotion/biped_locomotion_athena/CMakeFiles/biped_locomotion_tests_athena.dir/__/template/src/biped_locomotion/tests/hinvdyn_example_tester.cpp.o
+
+[ 31%] Building CXX object catkin/humanoids/humanoid_control/biped_locomotion/biped_locomotion_athena/CMakeFiles/biped_locomotion_tests_athena.dir/__/template/src/biped_locomotion/tests/kinematics_sl_tester.cpp.o
+
+Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libbiped_locomotion_tests_athena.so
+
+[ 31%] Built target biped_locomotion_tests_athena
+
+Scanning dependencies of target hinvdyn_dcm_gait_athena
+
+[ 31%] Building CXX object catkin/humanoids/humanoid_control/capture_points/capture_points_athena/CMakeFiles/hinvdyn_dcm_gait_athena.dir/src/capture_points/hinvdyn_timing_optimization.cpp.o
+
+[ 31%] Building CXX object catkin/humanoids/humanoid_control/capture_points/capture_points_athena/CMakeFiles/hinvdyn_dcm_gait_athena.dir/src/capture_points/hinvdyn_timing_optimization_task.cpp.o
+
+[ 31%] Building C object catkin/humanoids/humanoid_control/capture_points/capture_points_athena/CMakeFiles/hinvdyn_dcm_gait_athena.dir/__/template/src/capture_points/initUserTasks_capturePoints.c.o
+
+Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libhinvdyn_dcm_gait_athena.so
+
+[ 31%] Built target hinvdyn_dcm_gait_athena
+
+Scanning dependencies of target floating_base_tools_sl_hermes_full
+
+[ 31%] Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_sl/floating_base_tools_sl_hermes_full/CMakeFiles/floating_base_tools_sl_hermes_full.dir/src/floating_base_tools_sl/sensors_sl_hermes_full.cpp.o
+
+[ 31%] Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_sl/floating_base_tools_sl_hermes_full/CMakeFiles/floating_base_tools_sl_hermes_full.dir/__/template/src/floating_base_tools_sl/sl_eigen_converters.cpp.o
+
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/sl_eigen_converters.cpp: In static member function ‘static void floating_base_tools::SlEigenConverters::embed_desired_joint_positions(const Eigen::Matrix<double, 50, 1>&, SL_DJstate*)’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/sl_eigen_converters.cpp:85:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+
+     for(int i = 0; i < Robot::n_dofs_; ++i) {
+
+                               ^
+
+[ 31%] Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_sl/floating_base_tools_sl_hermes_full/CMakeFiles/floating_base_tools_sl_hermes_full.dir/__/template/src/floating_base_tools_sl/kinematics_sl.cpp.o
+
+[ 31%] Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_sl/floating_base_tools_sl_hermes_full/CMakeFiles/floating_base_tools_sl_hermes_full.dir/__/template/src/floating_base_tools_sl/robot_properties_sl.cpp.o
+
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_properties_sl.cpp: In constructor ‘floating_base_tools::RobotPropertiesSl::RobotPropertiesSl()’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_properties_sl.cpp:11:26: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+
+   for(int j=0; j<=Robot::n_dofs_; ++j){
+
+                          ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_properties_sl.cpp:22:25: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+
+   for(int j=0; j<Robot::n_dofs_; ++j){
+
+                         ^
+
+[ 31%] Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_sl/floating_base_tools_sl_hermes_full/CMakeFiles/floating_base_tools_sl_hermes_full.dir/__/template/src/floating_base_tools_sl/robot_interface_sl.cpp.o
+
+[ 31%] Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_sl/floating_base_tools_sl_hermes_full/CMakeFiles/floating_base_tools_sl_hermes_full.dir/__/template/src/floating_base_tools_sl/composite_rigid_body_sl.cpp.o
+
+In file included from /home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/composite_rigid_body_sl.cpp:21:0:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/composite_rigid_body_sl.cpp: In member function ‘virtual void floating_base_tools::CompositeRigidBodySl::update(const floating_base_tools::RobotPosture&, const floating_base_tools::RobotVelocity&)’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-sl/locomotion-utilities/include/utility_macros.h:58:48: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+
+   for (priv_i_##name=(nrl); priv_i_##name<=(nrh); ++priv_i_##name) \
+
+                                                ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-sl/locomotion-utilities/include/utility_macros.h:65:3: note: in expansion of macro ‘MY_MATRIX_GENERAL’
+
+   MY_MATRIX_GENERAL(name,nrl,nrh,ncl,nch,double)
 
    ^
 
-[100%] Built target test_object_pool
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/composite_rigid_body_sl.cpp:35:3: note: in expansion of macro ‘MY_MATRIX’
 
-make[3]: *** [catkin/learning/learning_control/CMakeFiles/utest_gp_predict.dir/test/utest_gp_predict.cpp.o] Error 1
-
-make[2]: *** [catkin/learning/learning_control/CMakeFiles/utest_gp_predict.dir/all] Error 2
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_gp_predict_speed.cpp: In member function ‘virtual void TestSuite_TestRealTimeGPSteps_Test::TestBody()’:
-
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_gp_predict_speed.cpp:210:3: error: ‘GpSePredictMeanRT’ is not a member of ‘learning_control’
-
-   learning_control::GpSePredictMeanRT gp_predict_mean_test;
+   MY_MATRIX(mat_M, 1, Robot::n_dofs_+6, 1, Robot::n_dofs_+6);
 
    ^
 
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_gp_predict_speed.cpp:210:39: error: expected ‘;’ before ‘gp_predict_mean_test’
+[ 31%] Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_sl/floating_base_tools_sl_hermes_full/CMakeFiles/floating_base_tools_sl_hermes_full.dir/__/template/src/floating_base_tools_sl/recursive_newton_euler_sl.cpp.o
 
-   learning_control::GpSePredictMeanRT gp_predict_mean_test;
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/recursive_newton_euler_sl.cpp: In member function ‘virtual void floating_base_tools::RecursiveNewtonEulerSl::InverseDynamicsBase(const floating_base_tools::RobotPosture&, const floating_base_tools::RobotVelocity&, const floating_base_tools::ContactDescritpion (&)[4], const floating_base_tools::RobotAcceleration&, Eigen::Matrix<double, 56, 1>&)’:
 
-                                       ^
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/recursive_newton_euler_sl.cpp:33:25: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
 
-[100%] /home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_gp_predict_speed.cpp:271:5: error: ‘gp_predict_mean_test’ was not declared in this scope
+   for(int i=0; i<Robot::n_endeffs_; ++i)
 
-     gp_predict_mean_test.update_parameters(gp_test.lambda_,
+                         ^
 
-     ^
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/recursive_newton_euler_sl.cpp:44:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
 
-Built target utest_gp
+   for (int i = 0; i <= Robot::n_dofs_; ++i){
 
-make[3]: *** [catkin/learning/learning_control/CMakeFiles/utest_gp_predict_speed.dir/test/utest_gp_predict_speed.cpp.o] Error 1
+                               ^
 
-make[2]: *** [catkin/learning/learning_control/CMakeFiles/utest_gp_predict_speed.dir/all] Error 2
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/recursive_newton_euler_sl.cpp:52:25: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/sl_controller_interface/generic_test
+   for(int i=0; i<Robot::n_dofs_; ++i)
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/learning_control/utest_rt_network
+                         ^
 
-[100%] Built target generic_test
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/recursive_newton_euler_sl.cpp: In member function ‘virtual void floating_base_tools::RecursiveNewtonEulerSl::getLocalContributions(const Eigen::Matrix<double, 50, 1>&, const Eigen::Matrix<double, 50, 1>&, Eigen::Matrix<double, 50, 1>&)’:
 
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_speed_main.cpp: In member function ‘virtual void TestSuite_TestRealTimeGPSteps_Test::TestBody()’:
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/recursive_newton_euler_sl.cpp:64:25: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
 
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_speed_main.cpp:94:24: error: no matching function for call to ‘learning_control::NrtGpThread::start(int)’
+   for(int i=0; i<Robot::n_dofs_; ++i)
 
-   nrt_gp_thread.start(0);
+                         ^
 
-                        ^
+[ 32%] Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_sl/floating_base_tools_sl_hermes_full/CMakeFiles/floating_base_tools_sl_hermes_full.dir/__/template/src/floating_base_tools_sl/robot_command_interface_sl.cpp.o
 
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_speed_main.cpp:94:24: note: candidate is:
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_command_interface_sl.cpp: In member function ‘virtual void floating_base_tools::RobotCommandInterfaceSl::getDesiredFeedforwardTorque(Eigen::Matrix<double, 50, 1>&) const’:
 
-In file included from /home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_speed_main.cpp:14:0:
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_command_interface_sl.cpp:22:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
 
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/include/learning_control/nrt_gp_thread.h:35:8: note: bool learning_control::NrtGpThread::start()
+     for (int i = 0; i < Robot::n_dofs_; ++i) {
 
-   bool start();
+                                ^
 
-        ^
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_command_interface_sl.cpp: In member function ‘virtual void floating_base_tools::RobotCommandInterfaceSl::getDesiredFeedbackTorque(Eigen::Matrix<double, 50, 1>&) const’:
 
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/include/learning_control/nrt_gp_thread.h:35:8: note:   candidate expects 0 arguments, 1 provided
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_command_interface_sl.cpp:28:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
 
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_speed_main.cpp:95:17: error: ‘class learning_control::NrtGpThread’ has no member named ‘update_parameters_real’
+     for (int i = 0; i < Robot::n_dofs_; ++i) {
 
-   nrt_gp_thread.update_parameters_real(GP_WINDOW_SIZE, GP_INPUT_SIZE, 0.3, 0.01,
+                                ^
 
-                 ^
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_command_interface_sl.cpp: In member function ‘virtual void floating_base_tools::RobotCommandInterfaceSl::getDesiredTorque(Eigen::Matrix<double, 50, 1>&) const’:
 
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_speed_main.cpp:138:19: error: ‘class learning_control::NrtGpThread’ has no member named ‘update_data_point_real’
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_command_interface_sl.cpp:34:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
 
-     nrt_gp_thread.update_data_point_real(call_count, random_inputs,
+     for (int i = 0; i < Robot::n_dofs_; ++i) {
 
-                   ^
+                                ^
 
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_speed_main.cpp:162:19: error: ‘class learning_control::NrtGpThread’ has no member named ‘update_data_point_real’
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_command_interface_sl.cpp: In member function ‘virtual void floating_base_tools::RobotCommandInterfaceSl::getDesiredJointPositions(Eigen::Matrix<double, 50, 1>&) const’:
 
-     nrt_gp_thread.update_data_point_real(call_count, random_inputs,
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_command_interface_sl.cpp:41:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
 
-                   ^
+     for (int i = 0; i < Robot::n_dofs_; ++i) {
 
-/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_speed_main.cpp:171:19: error: ‘class learning_control::NrtGpThread’ has no member named ‘get_gp_real’
+                                ^
 
-     nrt_gp_thread.get_gp_real()->predict(random_inputs);
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_command_interface_sl.cpp: In member function ‘virtual void floating_base_tools::RobotCommandInterfaceSl::getDesiredJointVelocities(Eigen::Matrix<double, 50, 1>&) const’:
 
-                   ^
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_command_interface_sl.cpp:48:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
 
-[100%] Built target utest_rt_network
+     for (int i = 0; i < Robot::n_dofs_; ++i) {
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/lockfree/test_freelist
+                                ^
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/learning_control/utest_rt_network_load_msg_predict
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_command_interface_sl.cpp: In member function ‘virtual void floating_base_tools::RobotCommandInterfaceSl::getDesiredJointAccelerations(Eigen::Matrix<double, 50, 1>&) const’:
 
-[100%] Built target test_freelist
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_command_interface_sl.cpp:55:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
 
-[100%] Built target utest_rt_network_load_msg_predict
+     for (int i = 0; i < Robot::n_dofs_; ++i) {
 
-make[3]: *** [catkin/learning/learning_control/CMakeFiles/utest_nrt_gp_speed.dir/test/utest_nrt_gp_speed_main.cpp.o] Error 1
+                                ^
 
-make[2]: *** [catkin/learning/learning_control/CMakeFiles/utest_nrt_gp_speed.dir/all] Error 2
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_command_interface_sl.cpp: In member function ‘virtual void floating_base_tools::RobotCommandInterfaceSl::setPureReferenceTorques(const Eigen::Matrix<double, 50, 1>&)’:
 
-make[1]: *** [CMakeFiles/tests.dir/rule] Error 2
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_command_interface_sl.cpp:83:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
 
-make: *** [tests] Error 2
+     for (int i = 0; i < Robot::n_dofs_; ++i) {
+
+                                ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_command_interface_sl.cpp: In member function ‘virtual void floating_base_tools::RobotCommandInterfaceSl::setReferenceTorquesAndPositions(const Eigen::Matrix<double, 50, 1>&, const Eigen::Matrix<double, 50, 1>&, const Eigen::Matrix<double, 50, 1>&)’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_command_interface_sl.cpp:95:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+
+     for (int i = 0; i < Robot::n_dofs_; ++i) {
+
+                                ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_command_interface_sl.cpp: In member function ‘virtual void floating_base_tools::RobotCommandInterfaceSl::setPIDGains(const Eigen::Matrix<double, 50, 1>&, const Eigen::Matrix<double, 50, 1>&, const Eigen::Matrix<double, 50, 1>&)’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_command_interface_sl.cpp:110:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+
+     for (int i = 0; i < Robot::n_dofs_; ++i) {
+
+                                ^
+
+[ 32%] Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_sl/floating_base_tools_sl_hermes_full/CMakeFiles/floating_base_tools_sl_hermes_full.dir/__/template/src/floating_base_tools_sl/sensors_sl.cpp.o
+
+[ 32%] Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_sl/floating_base_tools_sl_hermes_full/CMakeFiles/floating_base_tools_sl_hermes_full.dir/__/template/src/floating_base_tools_sl/fixed_base_inverse_dynamics_sl.cpp.o
+
+Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libfloating_base_tools_sl_hermes_full.so
+
+[ 32%] Built target floating_base_tools_sl_hermes_full
+
+Scanning dependencies of target biped_locomotion_hermes_full
+
+[ 32%] Building C object catkin/humanoids/humanoid_control/biped_locomotion/biped_locomotion_hermes_full/CMakeFiles/biped_locomotion_hermes_full.dir/__/template/src/biped_locomotion/initUserTasks_bipedLocomotion.c.o
+
+[ 32%] Building CXX object catkin/humanoids/humanoid_control/biped_locomotion/biped_locomotion_hermes_full/CMakeFiles/biped_locomotion_hermes_full.dir/__/template/src/biped_locomotion/HInvDynExample.cpp.o
+
+[ 32%] Building CXX object catkin/humanoids/humanoid_control/biped_locomotion/biped_locomotion_hermes_full/CMakeFiles/biped_locomotion_hermes_full.dir/__/template/src/biped_locomotion/HInvDynExample_task.cpp.o
+
+[ 32%] Building CXX object catkin/humanoids/humanoid_control/biped_locomotion/biped_locomotion_hermes_full/CMakeFiles/biped_locomotion_hermes_full.dir/__/template/src/biped_locomotion/contact_helper_hermes_lower.cpp.o
+
+[ 32%] Building CXX object catkin/humanoids/humanoid_control/biped_locomotion/biped_locomotion_hermes_full/CMakeFiles/biped_locomotion_hermes_full.dir/__/template/src/biped_locomotion/contact_helper_hermes_full.cpp.o
+
+[ 32%] Building CXX object catkin/humanoids/humanoid_control/biped_locomotion/biped_locomotion_hermes_full/CMakeFiles/biped_locomotion_hermes_full.dir/__/template/src/biped_locomotion/fb_sine_task.cpp.o
+
+[ 33%] Building CXX object catkin/humanoids/humanoid_control/biped_locomotion/biped_locomotion_hermes_full/CMakeFiles/biped_locomotion_hermes_full.dir/__/template/src/biped_locomotion/gravity_compensation_task.cpp.o
+
+[ 33%] Building CXX object catkin/humanoids/humanoid_control/biped_locomotion/biped_locomotion_hermes_full/CMakeFiles/biped_locomotion_hermes_full.dir/__/template/src/biped_locomotion/torque_sine_task.cpp.o
+
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/biped_locomotion/template/src/biped_locomotion/torque_sine_task.cpp: In function ‘int init_torque_sine_task()’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/biped_locomotion/template/src/biped_locomotion/torque_sine_task.cpp:75:103: warning: format ‘%s’ expects argument of type ‘char*’, but argument 4 has type ‘double’ [-Wformat=]
+
+     printf("running a %f Nm step test with offset %f for joint %s\n", amp, off, freq, joint_names[jid]);
+
+                                                                                                       ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/biped_locomotion/template/src/biped_locomotion/torque_sine_task.cpp:75:103: warning: too many arguments for format [-Wformat-extra-args]
+
+[ 33%] Building CXX object catkin/humanoids/humanoid_control/biped_locomotion/biped_locomotion_hermes_full/CMakeFiles/biped_locomotion_hermes_full.dir/__/template/src/biped_locomotion/joint_calibration_task.cpp.o
+
+[ 33%] Building CXX object catkin/humanoids/humanoid_control/biped_locomotion/biped_locomotion_hermes_full/CMakeFiles/biped_locomotion_hermes_full.dir/__/template/src/biped_locomotion/MinJerkGenerator.cpp.o
+
+[ 33%] Building CXX object catkin/humanoids/humanoid_control/biped_locomotion/biped_locomotion_hermes_full/CMakeFiles/biped_locomotion_hermes_full.dir/__/template/src/biped_locomotion/WaypointGenerator.cpp.o
+
+[ 33%] Building CXX object catkin/humanoids/humanoid_control/biped_locomotion/biped_locomotion_hermes_full/CMakeFiles/biped_locomotion_hermes_full.dir/__/template/src/biped_locomotion/kin_dyn_data_collection.cpp.o
+
+[ 33%] Building CXX object catkin/humanoids/humanoid_control/biped_locomotion/biped_locomotion_hermes_full/CMakeFiles/biped_locomotion_hermes_full.dir/__/template/src/biped_locomotion/JointSineTaskInterface.cpp.o
+
+Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libbiped_locomotion_hermes_full.so
+
+[ 33%] Built target biped_locomotion_hermes_full
+
+Scanning dependencies of target biped_locomotion_tests_hermes_full
+
+[ 33%] Building CXX object catkin/humanoids/humanoid_control/biped_locomotion/biped_locomotion_hermes_full/CMakeFiles/biped_locomotion_tests_hermes_full.dir/__/template/src/biped_locomotion/tests/hinvdyn_example_tester.cpp.o
+
+[ 33%] Building CXX object catkin/humanoids/humanoid_control/biped_locomotion/biped_locomotion_hermes_full/CMakeFiles/biped_locomotion_tests_hermes_full.dir/__/template/src/biped_locomotion/tests/kinematics_sl_tester.cpp.o
+
+Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libbiped_locomotion_tests_hermes_full.so
+
+[ 33%] Built target biped_locomotion_tests_hermes_full
+
+Scanning dependencies of target floating_base_tools_sl_hermes_lower
+
+[ 33%] Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_sl/floating_base_tools_sl_hermes_lower/CMakeFiles/floating_base_tools_sl_hermes_lower.dir/src/floating_base_tools_sl/sensors_sl_hermes_lower.cpp.o
+
+[ 33%] Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_sl/floating_base_tools_sl_hermes_lower/CMakeFiles/floating_base_tools_sl_hermes_lower.dir/__/template/src/floating_base_tools_sl/sl_eigen_converters.cpp.o
+
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/sl_eigen_converters.cpp: In static member function ‘static void floating_base_tools::SlEigenConverters::embed_desired_joint_positions(const Eigen::Matrix<double, 17, 1>&, SL_DJstate*)’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/sl_eigen_converters.cpp:85:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+
+     for(int i = 0; i < Robot::n_dofs_; ++i) {
+
+                               ^
+
+[ 33%] Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_sl/floating_base_tools_sl_hermes_lower/CMakeFiles/floating_base_tools_sl_hermes_lower.dir/__/template/src/floating_base_tools_sl/kinematics_sl.cpp.o
+
+[ 33%] Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_sl/floating_base_tools_sl_hermes_lower/CMakeFiles/floating_base_tools_sl_hermes_lower.dir/__/template/src/floating_base_tools_sl/robot_properties_sl.cpp.o
+
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_properties_sl.cpp: In constructor ‘floating_base_tools::RobotPropertiesSl::RobotPropertiesSl()’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_properties_sl.cpp:11:26: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+
+   for(int j=0; j<=Robot::n_dofs_; ++j){
+
+                          ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_properties_sl.cpp:22:25: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+
+   for(int j=0; j<Robot::n_dofs_; ++j){
+
+                         ^
+
+[ 33%] Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_sl/floating_base_tools_sl_hermes_lower/CMakeFiles/floating_base_tools_sl_hermes_lower.dir/__/template/src/floating_base_tools_sl/robot_interface_sl.cpp.o
+
+[ 33%] Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_sl/floating_base_tools_sl_hermes_lower/CMakeFiles/floating_base_tools_sl_hermes_lower.dir/__/template/src/floating_base_tools_sl/composite_rigid_body_sl.cpp.o
+
+In file included from /home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/composite_rigid_body_sl.cpp:21:0:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/composite_rigid_body_sl.cpp: In member function ‘virtual void floating_base_tools::CompositeRigidBodySl::update(const floating_base_tools::RobotPosture&, const floating_base_tools::RobotVelocity&)’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-sl/locomotion-utilities/include/utility_macros.h:58:48: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+
+   for (priv_i_##name=(nrl); priv_i_##name<=(nrh); ++priv_i_##name) \
+
+                                                ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-sl/locomotion-utilities/include/utility_macros.h:65:3: note: in expansion of macro ‘MY_MATRIX_GENERAL’
+
+   MY_MATRIX_GENERAL(name,nrl,nrh,ncl,nch,double)
+
+   ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/composite_rigid_body_sl.cpp:35:3: note: in expansion of macro ‘MY_MATRIX’
+
+   MY_MATRIX(mat_M, 1, Robot::n_dofs_+6, 1, Robot::n_dofs_+6);
+
+   ^
+
+[ 33%] Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_sl/floating_base_tools_sl_hermes_lower/CMakeFiles/floating_base_tools_sl_hermes_lower.dir/__/template/src/floating_base_tools_sl/recursive_newton_euler_sl.cpp.o
+
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/recursive_newton_euler_sl.cpp: In member function ‘virtual void floating_base_tools::RecursiveNewtonEulerSl::InverseDynamicsBase(const floating_base_tools::RobotPosture&, const floating_base_tools::RobotVelocity&, const floating_base_tools::ContactDescritpion (&)[2], const floating_base_tools::RobotAcceleration&, Eigen::Matrix<double, 23, 1>&)’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/recursive_newton_euler_sl.cpp:33:25: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+
+   for(int i=0; i<Robot::n_endeffs_; ++i)
+
+                         ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/recursive_newton_euler_sl.cpp:44:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+
+   for (int i = 0; i <= Robot::n_dofs_; ++i){
+
+                               ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/recursive_newton_euler_sl.cpp:52:25: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+
+   for(int i=0; i<Robot::n_dofs_; ++i)
+
+                         ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/recursive_newton_euler_sl.cpp: In member function ‘virtual void floating_base_tools::RecursiveNewtonEulerSl::getLocalContributions(const Eigen::Matrix<double, 17, 1>&, const Eigen::Matrix<double, 17, 1>&, Eigen::Matrix<double, 17, 1>&)’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/recursive_newton_euler_sl.cpp:64:25: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+
+   for(int i=0; i<Robot::n_dofs_; ++i)
+
+                         ^
+
+[ 33%] Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_sl/floating_base_tools_sl_hermes_lower/CMakeFiles/floating_base_tools_sl_hermes_lower.dir/__/template/src/floating_base_tools_sl/robot_command_interface_sl.cpp.o
+
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_command_interface_sl.cpp: In member function ‘virtual void floating_base_tools::RobotCommandInterfaceSl::getDesiredFeedforwardTorque(Eigen::Matrix<double, 17, 1>&) const’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_command_interface_sl.cpp:22:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+
+     for (int i = 0; i < Robot::n_dofs_; ++i) {
+
+                                ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_command_interface_sl.cpp: In member function ‘virtual void floating_base_tools::RobotCommandInterfaceSl::getDesiredFeedbackTorque(Eigen::Matrix<double, 17, 1>&) const’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_command_interface_sl.cpp:28:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+
+     for (int i = 0; i < Robot::n_dofs_; ++i) {
+
+                                ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_command_interface_sl.cpp: In member function ‘virtual void floating_base_tools::RobotCommandInterfaceSl::getDesiredTorque(Eigen::Matrix<double, 17, 1>&) const’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_command_interface_sl.cpp:34:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+
+     for (int i = 0; i < Robot::n_dofs_; ++i) {
+
+                                ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_command_interface_sl.cpp: In member function ‘virtual void floating_base_tools::RobotCommandInterfaceSl::getDesiredJointPositions(Eigen::Matrix<double, 17, 1>&) const’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_command_interface_sl.cpp:41:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+
+     for (int i = 0; i < Robot::n_dofs_; ++i) {
+
+                                ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_command_interface_sl.cpp: In member function ‘virtual void floating_base_tools::RobotCommandInterfaceSl::getDesiredJointVelocities(Eigen::Matrix<double, 17, 1>&) const’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_command_interface_sl.cpp:48:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+
+     for (int i = 0; i < Robot::n_dofs_; ++i) {
+
+                                ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_command_interface_sl.cpp: In member function ‘virtual void floating_base_tools::RobotCommandInterfaceSl::getDesiredJointAccelerations(Eigen::Matrix<double, 17, 1>&) const’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_command_interface_sl.cpp:55:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+
+     for (int i = 0; i < Robot::n_dofs_; ++i) {
+
+                                ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_command_interface_sl.cpp: In member function ‘virtual void floating_base_tools::RobotCommandInterfaceSl::setPureReferenceTorques(const Eigen::Matrix<double, 17, 1>&)’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_command_interface_sl.cpp:83:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+
+     for (int i = 0; i < Robot::n_dofs_; ++i) {
+
+                                ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_command_interface_sl.cpp: In member function ‘virtual void floating_base_tools::RobotCommandInterfaceSl::setReferenceTorquesAndPositions(const Eigen::Matrix<double, 17, 1>&, const Eigen::Matrix<double, 17, 1>&, const Eigen::Matrix<double, 17, 1>&)’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_command_interface_sl.cpp:95:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+
+     for (int i = 0; i < Robot::n_dofs_; ++i) {
+
+                                ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_command_interface_sl.cpp: In member function ‘virtual void floating_base_tools::RobotCommandInterfaceSl::setPIDGains(const Eigen::Matrix<double, 17, 1>&, const Eigen::Matrix<double, 17, 1>&, const Eigen::Matrix<double, 17, 1>&)’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/floating_base_tools_sl/template/src/floating_base_tools_sl/robot_command_interface_sl.cpp:110:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+
+     for (int i = 0; i < Robot::n_dofs_; ++i) {
+
+                                ^
+
+[ 33%] Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_sl/floating_base_tools_sl_hermes_lower/CMakeFiles/floating_base_tools_sl_hermes_lower.dir/__/template/src/floating_base_tools_sl/sensors_sl.cpp.o
+
+[ 33%] Building CXX object catkin/humanoids/humanoid_control/floating_base_tools_sl/floating_base_tools_sl_hermes_lower/CMakeFiles/floating_base_tools_sl_hermes_lower.dir/__/template/src/floating_base_tools_sl/fixed_base_inverse_dynamics_sl.cpp.o
+
+Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libfloating_base_tools_sl_hermes_lower.so
+
+[ 33%] Built target floating_base_tools_sl_hermes_lower
+
+Scanning dependencies of target biped_locomotion_hermes_lower
+
+[ 33%] Building C object catkin/humanoids/humanoid_control/biped_locomotion/biped_locomotion_hermes_lower/CMakeFiles/biped_locomotion_hermes_lower.dir/__/template/src/biped_locomotion/initUserTasks_bipedLocomotion.c.o
+
+[ 33%] Building CXX object catkin/humanoids/humanoid_control/biped_locomotion/biped_locomotion_hermes_lower/CMakeFiles/biped_locomotion_hermes_lower.dir/__/template/src/biped_locomotion/HInvDynExample.cpp.o
+
+[ 33%] Building CXX object catkin/humanoids/humanoid_control/biped_locomotion/biped_locomotion_hermes_lower/CMakeFiles/biped_locomotion_hermes_lower.dir/__/template/src/biped_locomotion/HInvDynExample_task.cpp.o
+
+[ 33%] Building CXX object catkin/humanoids/humanoid_control/biped_locomotion/biped_locomotion_hermes_lower/CMakeFiles/biped_locomotion_hermes_lower.dir/__/template/src/biped_locomotion/contact_helper_hermes_lower.cpp.o
+
+[ 33%] Building CXX object catkin/humanoids/humanoid_control/biped_locomotion/biped_locomotion_hermes_lower/CMakeFiles/biped_locomotion_hermes_lower.dir/__/template/src/biped_locomotion/contact_helper_hermes_full.cpp.o
+
+[ 34%] Building CXX object catkin/humanoids/humanoid_control/biped_locomotion/biped_locomotion_hermes_lower/CMakeFiles/biped_locomotion_hermes_lower.dir/__/template/src/biped_locomotion/fb_sine_task.cpp.o
+
+[ 34%] Building CXX object catkin/humanoids/humanoid_control/biped_locomotion/biped_locomotion_hermes_lower/CMakeFiles/biped_locomotion_hermes_lower.dir/__/template/src/biped_locomotion/gravity_compensation_task.cpp.o
+
+[ 34%] Building CXX object catkin/humanoids/humanoid_control/biped_locomotion/biped_locomotion_hermes_lower/CMakeFiles/biped_locomotion_hermes_lower.dir/__/template/src/biped_locomotion/torque_sine_task.cpp.o
+
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/biped_locomotion/template/src/biped_locomotion/torque_sine_task.cpp: In function ‘int init_torque_sine_task()’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/biped_locomotion/template/src/biped_locomotion/torque_sine_task.cpp:75:103: warning: format ‘%s’ expects argument of type ‘char*’, but argument 4 has type ‘double’ [-Wformat=]
+
+     printf("running a %f Nm step test with offset %f for joint %s\n", amp, off, freq, joint_names[jid]);
+
+                                                                                                       ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/biped_locomotion/template/src/biped_locomotion/torque_sine_task.cpp:75:103: warning: too many arguments for format [-Wformat-extra-args]
+
+[ 34%] Building CXX object catkin/humanoids/humanoid_control/biped_locomotion/biped_locomotion_hermes_lower/CMakeFiles/biped_locomotion_hermes_lower.dir/__/template/src/biped_locomotion/joint_calibration_task.cpp.o
+
+[ 34%] Building CXX object catkin/humanoids/humanoid_control/biped_locomotion/biped_locomotion_hermes_lower/CMakeFiles/biped_locomotion_hermes_lower.dir/__/template/src/biped_locomotion/MinJerkGenerator.cpp.o
+
+[ 34%] Building CXX object catkin/humanoids/humanoid_control/biped_locomotion/biped_locomotion_hermes_lower/CMakeFiles/biped_locomotion_hermes_lower.dir/__/template/src/biped_locomotion/WaypointGenerator.cpp.o
+
+[ 34%] Building CXX object catkin/humanoids/humanoid_control/biped_locomotion/biped_locomotion_hermes_lower/CMakeFiles/biped_locomotion_hermes_lower.dir/__/template/src/biped_locomotion/kin_dyn_data_collection.cpp.o
+
+[ 34%] Building CXX object catkin/humanoids/humanoid_control/biped_locomotion/biped_locomotion_hermes_lower/CMakeFiles/biped_locomotion_hermes_lower.dir/__/template/src/biped_locomotion/JointSineTaskInterface.cpp.o
+
+Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libbiped_locomotion_hermes_lower.so
+
+[ 34%] Built target biped_locomotion_hermes_lower
+
+Scanning dependencies of target biped_locomotion_tests_hermes_lower
+
+[ 34%] Building CXX object catkin/humanoids/humanoid_control/biped_locomotion/biped_locomotion_hermes_lower/CMakeFiles/biped_locomotion_tests_hermes_lower.dir/__/template/src/biped_locomotion/tests/hinvdyn_example_tester.cpp.o
+
+[ 35%] Building CXX object catkin/humanoids/humanoid_control/biped_locomotion/biped_locomotion_hermes_lower/CMakeFiles/biped_locomotion_tests_hermes_lower.dir/__/template/src/biped_locomotion/tests/kinematics_sl_tester.cpp.o
+
+Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libbiped_locomotion_tests_hermes_lower.so
+
+[ 35%] Built target biped_locomotion_tests_hermes_lower
+
+Scanning dependencies of target hinvdyn_dcm_gait_hermes_lower
+
+[ 36%] Building CXX object catkin/humanoids/humanoid_control/capture_points/capture_points_hermes_lower/CMakeFiles/hinvdyn_dcm_gait_hermes_lower.dir/src/capture_points/hinvdyn_timing_optimization.cpp.o
+
+[ 36%] Building CXX object catkin/humanoids/humanoid_control/capture_points/capture_points_hermes_lower/CMakeFiles/hinvdyn_dcm_gait_hermes_lower.dir/src/capture_points/hinvdyn_timing_optimization_task.cpp.o
+
+[ 36%] Building C object catkin/humanoids/humanoid_control/capture_points/capture_points_hermes_lower/CMakeFiles/hinvdyn_dcm_gait_hermes_lower.dir/__/template/src/capture_points/initUserTasks_capturePoints.c.o
+
+Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libhinvdyn_dcm_gait_hermes_lower.so
+
+[ 36%] Built target hinvdyn_dcm_gait_hermes_lower
+
+Scanning dependencies of target lqr_hermes_lower
+
+[ 36%] Building C object catkin/humanoids/humanoid_control/lqr/lqr_hermes_lower/CMakeFiles/lqr_hermes_lower.dir/__/template/src/lqr/initUserTasks_lqr.c.o
+
+[ 36%] Building CXX object catkin/humanoids/humanoid_control/lqr/lqr_hermes_lower/CMakeFiles/lqr_hermes_lower.dir/__/template/src/lqr/constrainedSSutil.cpp.o
+
+[ 36%] Building CXX object catkin/humanoids/humanoid_control/lqr/lqr_hermes_lower/CMakeFiles/lqr_hermes_lower.dir/__/template/src/lqr/SSutil.cpp.o
+
+Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/liblqr_hermes_lower.so
+
+[ 36%] Built target lqr_hermes_lower
+
+[ 36%] Built target rigid_body_dynamics
+
+[ 36%] Built target identification_test
+
+[ 38%] Built target solver
+
+[ 38%] Built target solverlqr
+
+[ 39%] Built target momentumopt
+
+Scanning dependencies of target demoAdaptiveContacts
+
+[ 39%] Building CXX object catkin/humanoids/humanoid_control/motion_planning/momentumopt/CMakeFiles/demoAdaptiveContacts.dir/demos/DemoAdaptiveContacts.cpp.o
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/momentumopt/demoAdaptiveContacts
+
+[ 39%] Built target demoAdaptiveContacts
+
+Scanning dependencies of target demoMomentumopt
+
+[ 39%] Building CXX object catkin/humanoids/humanoid_control/motion_planning/momentumopt/CMakeFiles/demoMomentumopt.dir/demos/DemoMomentumopt.cpp.o
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/momentumopt/demoMomentumopt
+
+[ 39%] Built target demoMomentumopt
+
+Scanning dependencies of target testing_tests_athena
+
+[ 39%] Building CXX object catkin/humanoids/humanoid_control/test_utilities/testing_tests/CMakeFiles/testing_tests_athena.dir/src/testable.cpp.o
+
+Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libtesting_tests_athena.so
+
+[ 39%] Built target testing_tests_athena
+
+[ 40%] Built target testing_tests_hermes_lower
+
+[ 40%] Building CXX object catkin/humanoids/humanoid_control/vicon_kinematics/vicon_kinematics_athena/CMakeFiles/vicon_kinematics_athena.dir/__/template/src/vicon_kinematics/data_collect.cpp.o
+
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/vicon_kinematics/template/src/vicon_kinematics/data_collect.cpp: In member function ‘void vicon_kinematics::DataCollect::vicon_markers_callback(const ConstPtr&)’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/humanoid_control/vicon_kinematics/template/src/vicon_kinematics/data_collect.cpp:85:58: error: ‘const struct vicon_bridge::Marker_<std::allocator<void> >’ has no member named ‘quality’
+
+         vicon_frames_receivers_[trans_id].quality_ = it->quality;
+
+                                                          ^
+
+make[2]: *** [catkin/humanoids/humanoid_control/vicon_kinematics/vicon_kinematics_athena/CMakeFiles/vicon_kinematics_athena.dir/__/template/src/vicon_kinematics/data_collect.cpp.o] Error 1
+
+make[1]: *** [catkin/humanoids/humanoid_control/vicon_kinematics/vicon_kinematics_athena/CMakeFiles/vicon_kinematics_athena.dir/all] Error 2
+
+make: *** [all] Error 2
 
 Base path: /home/administrator/ci/ci/team/workspace
 
@@ -1721,14 +1026,14 @@ Install space: /home/administrator/ci/ci/team/workspace/install
 
 ####
 
-#### Running command: "cmake /home/administrator/ci/ci/team/workspace/src -DCATKIN_DEVEL_PREFIX=/home/administrator/ci/ci/team/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/administrator/ci/ci/team/workspace/install" in "/home/administrator/ci/ci/team/workspace/build"
+#### Running command: "make cmake_check_build_system" in "/home/administrator/ci/ci/team/workspace/build"
 
 ####
 
 ####
 
-#### Running command: "make -j16 tests" in "/home/administrator/ci/ci/team/workspace/build"
+#### Running command: "make -j1" in "/home/administrator/ci/ci/team/workspace/build"
 
 ####
 
-Invoking "make" failed
+Invoking "make -j1" failed
