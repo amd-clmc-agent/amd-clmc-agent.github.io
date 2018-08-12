@@ -1,32 +1,11 @@
+failed to compile unit tests:
 WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
-
--- The C compiler identification is GNU 4.8.4
-
--- The CXX compiler identification is GNU 4.8.4
-
--- Check for working C compiler: /usr/bin/cc
-
--- Check for working C compiler: /usr/bin/cc -- works
-
--- Detecting C compiler ABI info
-
--- Detecting C compiler ABI info - done
-
--- Check for working CXX compiler: /usr/bin/c++
-
--- Check for working CXX compiler: /usr/bin/c++ -- works
-
--- Detecting CXX compiler ABI info
-
--- Detecting CXX compiler ABI info - done
 
 -- Using CATKIN_DEVEL_PREFIX: /home/administrator/ci/ci/team/workspace/devel
 
--- Using CMAKE_PREFIX_PATH: /opt/ros/indigo
+-- Using CMAKE_PREFIX_PATH: /home/administrator/ci/ci/team/workspace/devel;/opt/ros/indigo
 
--- This workspace overlays: /opt/ros/indigo
-
--- Found PythonInterp: /usr/bin/python (found version "2.7.6") 
+-- This workspace overlays: /home/administrator/ci/ci/team/workspace/devel;/opt/ros/indigo
 
 -- Using PYTHON_EXECUTABLE: /usr/bin/python
 
@@ -40,24 +19,6 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 
 -- Using CATKIN_TEST_RESULTS_DIR: /home/administrator/ci/ci/team/workspace/build/test_results
 
--- Looking for include file pthread.h
-
--- Looking for include file pthread.h - found
-
--- Looking for pthread_create
-
--- Looking for pthread_create - not found
-
--- Looking for pthread_create in pthreads
-
--- Looking for pthread_create in pthreads - not found
-
--- Looking for pthread_create in pthread
-
--- Looking for pthread_create in pthread - found
-
--- Found Threads: TRUE  
-
 -- Found gtest sources under '/usr/src/gtest': gtests will be built
 
 -- catkin 0.5.90
@@ -66,27 +27,123 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 
 WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
 
+WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
+
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- ~~  traversing 9 packages in topological order:
+-- ~~  traversing 56 packages in topological order:
 
 -- ~~  - Eigen
 
--- ~~  - experiment_config
+-- ~~  - apollo_robot_model
 
--- ~~  - guided_policy_search
+-- ~~  - catkin_gflags
 
--- ~~  - py_cpp_interface
+-- ~~  - catkin_glog
 
--- ~~  - rbdl
+-- ~~  - cdlbt
+
+-- ~~  - can_control_tools
+
+-- ~~  - controller_communication
+
+-- ~~  - conversions
+
+-- ~~  - end_to_end_learning
+
+-- ~~  - interpolation
+
+-- ~~  - qp_oases
+
+-- ~~  - quadprog
+
+-- ~~  - ros_realtime (metapackage)
+
+-- ~~  - allocators
+
+-- ~~  - rosatomic
+
+-- ~~  - lockfree
+
+-- ~~  - rt_timer
+
+-- ~~  - rt_utils
+
+-- ~~  - dmp
+
+-- ~~  - splines
+
+-- ~~  - start_robot
+
+-- ~~  - amd_clmc_ros_messages
+
+-- ~~  - ar_track_alvar_msgs
+
+-- ~~  - custom_robot_msgs
+
+-- ~~  - riemo_grasping_msgs
+
+-- ~~  - utilities
+
+-- ~~  - lwpr
+
+-- ~~  - xenomai_ros
+
+-- ~~  - constrained_inverse_kinematics_msgs
+
+-- ~~  - roscpp_utilities
+
+-- ~~  - rosrt
+
+-- ~~  - ros_rt_test
+
+-- ~~  - sl
+
+-- ~~  - apollo
+
+-- ~~  - apollo_test_task
+
+-- ~~  - sl_ros_servo
+
+-- ~~  - learning_control
+
+-- ~~  - python_ros_utils
+
+-- ~~  - sl_conversions
+
+-- ~~  - sl_utilities
+
+-- ~~  - sl_controller_manager
+
+-- ~~  - controller_manager_task_apollo
+
+-- ~~  - apollo_user
+
+-- ~~  - sl_barrett_controllers
+
+-- ~~  - sl_controllers
+
+-- ~~  - ros_servo_apollo
+
+-- ~~  - usc_utilities
+
+-- ~~  - learnable_cost_function
+
+-- ~~  - robot_info
+
+-- ~~  - jacobian_utilities
+
+-- ~~  - sl_barrett_controller_interface
+
+-- ~~  - sl_controller_interface
+
+-- ~~  - sl_controller_interface_test
+
+-- ~~  - strain_gauge_calibration
 
 -- ~~  - yaml_cpp
 
--- ~~  - planar_finger
-
--- ~~  - toy_hoppers
-
--- ~~  - neural_feedback_controller
+-- ~~  - facial_expressions
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -96,43 +153,837 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 
 WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
 
--- +++ processing catkin package: 'experiment_config'
+-- +++ processing catkin package: 'apollo_robot_model'
 
--- ==> add_subdirectory(catkin/experiments/catkin_experiment_config)
+-- ==> add_subdirectory(catkin/robots/apollo_robot_model)
 
--- +++ processing catkin package: 'guided_policy_search'
+-- +++ processing catkin package: 'catkin_gflags'
 
--- ==> add_subdirectory(catkin/learning/guided-policy-search)
+-- ==> add_subdirectory(catkin/third_party/catkin-gflags)
 
--- +++ processing catkin package: 'py_cpp_interface'
+-- Found gflags  (include: /usr/include, library: /usr/lib/x86_64-linux-gnu/libgflags.so)
 
--- ==> add_subdirectory(catkin/utils/py_cpp_interface)
+-- +++ processing catkin package: 'catkin_glog'
+
+-- ==> add_subdirectory(catkin/third_party/catkin-glog)
+
+-- Found glog    (include: /usr/include, library: /usr/lib/x86_64-linux-gnu/libglog.so)
+
+-- +++ processing catkin package: 'cdlbt'
+
+-- ==> add_subdirectory(catkin/ros/barrett-ros/cdlbt)
+
+-- MACHTYPE x86_64
+
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+
+Call Stack (most recent call first):
+
+  catkin/ros/barrett-ros/cdlbt/CMakeLists.txt:8 (include)
+
+
+
+
+
+-- HOST_NAME=everest
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
+
+-- +++ processing catkin package: 'can_control_tools'
+
+-- ==> add_subdirectory(catkin/ros/barrett-ros/canControlTools)
+
+-- MACHTYPE x86_64
+
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+
+Call Stack (most recent call first):
+
+  catkin/ros/barrett-ros/canControlTools/CMakeLists.txt:8 (include)
+
+
+
+
+
+-- HOST_NAME=everest
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
 
 -- Boost version: 1.54.0
 
 -- Found the following Boost libraries:
 
---   system
+--   thread
+
+-- +++ processing catkin package: 'controller_communication'
+
+-- ==> add_subdirectory(catkin/controller_manager/controller_communication)
+
+-- +++ processing catkin package: 'conversions'
+
+-- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/usc_utils/conversions)
+
+-- +++ processing catkin package: 'end_to_end_learning'
+
+-- ==> add_subdirectory(catkin/learning/end_to_end_learning)
+
+-- +++ processing catkin package: 'interpolation'
+
+-- ==> add_subdirectory(catkin/controller_manager/core-sl-ros/interpolation)
+
+-- +++ processing catkin package: 'qp_oases'
+
+-- ==> add_subdirectory(catkin/third_party/qp_oases)
+
+-- +++ processing catkin package: 'quadprog'
+
+-- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/usc_utils/quadprog)
+
+-- +++ processing catkin metapackage: 'ros_realtime'
+
+-- ==> add_subdirectory(catkin/ros/ros_realtime/ros_realtime)
+
+-- +++ processing catkin package: 'allocators'
+
+-- ==> add_subdirectory(catkin/ros/ros_realtime/allocators)
+
+-- Boost version: 1.54.0
+
+-- +++ processing catkin package: 'rosatomic'
+
+-- ==> add_subdirectory(catkin/ros/ros_realtime/rosatomic)
+
+-- Boost version: 1.54.0
+
+-- +++ processing catkin package: 'lockfree'
+
+-- ==> add_subdirectory(catkin/ros/ros_realtime/lockfree)
+
+-- Boost version: 1.54.0
+
+-- +++ processing catkin package: 'rt_timer'
+
+-- ==> add_subdirectory(catkin/ros/ros_realtime/rt_timer)
+
+-- +++ processing catkin package: 'rt_utils'
+
+-- ==> add_subdirectory(catkin/rt_utils)
+
+-- +++ processing catkin package: 'dmp'
+
+-- ==> add_subdirectory(catkin/learning/dmp)
+
+-- +++ processing catkin package: 'splines'
+
+-- ==> add_subdirectory(catkin/controller_manager/core-sl-ros/splines)
+
+-- +++ processing catkin package: 'start_robot'
+
+-- ==> add_subdirectory(catkin/robots/start_robot)
+
+-- +++ processing catkin package: 'amd_clmc_ros_messages'
+
+-- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/amd_clmc_ros_messages)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- amd_clmc_ros_messages: 108 messages, 10 services
+
+-- +++ processing catkin package: 'ar_track_alvar_msgs'
+
+-- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/ar_track_alvar_msgs)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- ar_track_alvar_msgs: 2 messages, 0 services
+
+-- +++ processing catkin package: 'custom_robot_msgs'
+
+-- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/custom_robot_msgs)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- custom_robot_msgs: 1 messages, 2 services
+
+-- +++ processing catkin package: 'riemo_grasping_msgs'
+
+-- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/riemo_grasping_msgs)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- riemo_grasping_msgs: 5 messages, 3 services
+
+-- +++ processing catkin package: 'utilities'
+
+-- ==> add_subdirectory(catkin/core-sl/catkin-utilities)
+
+-- MACHTYPE x86_64
+
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+
+Call Stack (most recent call first):
+
+  catkin/core-sl/catkin-utilities/CMakeLists.txt:8 (include)
+
+
+
+
+
+-- HOST_NAME=everest
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
+
+-- +++ processing catkin package: 'lwpr'
+
+-- ==> add_subdirectory(catkin/core-sl/catkin-lwpr)
+
+-- MACHTYPE x86_64
+
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+
+Call Stack (most recent call first):
+
+  catkin/core-sl/catkin-lwpr/CMakeLists.txt:5 (include)
+
+
+
+
+
+-- HOST_NAME=everest
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
+
+-- +++ processing catkin package: 'xenomai_ros'
+
+-- ==> add_subdirectory(catkin/ros/xenomai-ros)
+
+-- +++ processing catkin package: 'constrained_inverse_kinematics_msgs'
+
+-- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/planning/constrained_inverse_kinematics_msgs)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- constrained_inverse_kinematics_msgs: 1 messages, 0 services
+
+-- +++ processing catkin package: 'roscpp_utilities'
+
+-- ==> add_subdirectory(catkin/ros/roscpp_utilities)
+
+-- +++ processing catkin package: 'rosrt'
+
+-- ==> add_subdirectory(catkin/ros/ros_realtime/rosrt)
+
+-- xenomai NOT found. (/usr/local;/usr)
+
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+
+-- Boost version: 1.54.0
+
+-- Found the following Boost libraries:
 
 --   thread
 
---   python
+-- +++ processing catkin package: 'ros_rt_test'
 
--- PYTHON_BIN_LOCATION: /usr/bin/python
+-- ==> add_subdirectory(catkin/ros/ros_rt_basic_example)
+
+-- xenomai NOT found. (/usr/local;/usr)
+
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+
+-- +++ processing catkin package: 'sl'
+
+-- ==> add_subdirectory(catkin/core-sl/catkin-sl)
+
+-- MACHTYPE x86_64
+
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+
+Call Stack (most recent call first):
+
+  catkin/core-sl/catkin-sl/CMakeLists.txt:8 (include)
 
 
 
--- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython2.7.so 
 
--- Found NumPy: version "1.14.0" /usr/local/lib/python2.7/dist-packages/numpy/core/include
 
--- +++ processing catkin package: 'rbdl'
+-- HOST_NAME=everest
 
--- ==> add_subdirectory(catkin/third_party/rbdl)
+-- HOST=everest
 
--- Setting build type to 'Release' as none was specified.
+-- LAB=AMD
 
--- ROS found: /opt/ros/indigo/share/ros
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
+
+-- +++ processing catkin package: 'apollo'
+
+-- ==> add_subdirectory(catkin/robots/catkin-apollo)
+
+-- MACHTYPE x86_64
+
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+
+Call Stack (most recent call first):
+
+  catkin/robots/catkin-apollo/CMakeLists.txt:9 (include)
+
+
+
+
+
+-- HOST_NAME=everest
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
+
+-- +++ processing catkin package: 'apollo_test_task'
+
+-- ==> add_subdirectory(catkin/robots/catkin-sl-apollo-task-example)
+
+-- MACHTYPE x86_64
+
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+
+Call Stack (most recent call first):
+
+  catkin/robots/catkin-sl-apollo-task-example/CMakeLists.txt:8 (include)
+
+
+
+
+
+-- HOST_NAME=everest
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
+
+-- +++ processing catkin package: 'sl_ros_servo'
+
+-- ==> add_subdirectory(catkin/ros/sl_ros_servo)
+
+-- MACHTYPE x86_64
+
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+
+Call Stack (most recent call first):
+
+  catkin/ros/sl_ros_servo/CMakeLists.txt:5 (include)
+
+
+
+
+
+-- HOST_NAME=everest
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
+
+-- +++ processing catkin package: 'learning_control'
+
+-- ==> add_subdirectory(catkin/learning/learning_control)
+
+-- MACHTYPE x86_64
+
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+
+Call Stack (most recent call first):
+
+  catkin/learning/learning_control/CMakeLists.txt:10 (include)
+
+
+
+
+
+-- HOST_NAME=everest
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
+
+-- xenomai NOT found. (/usr/local;/usr)
+
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+
+-- +++ processing catkin package: 'python_ros_utils'
+
+-- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/usc_utils/python_ros_utils)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- +++ processing catkin package: 'sl_conversions'
+
+-- ==> add_subdirectory(catkin/controller_manager/core-sl-ros/sl_conversions)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- +++ processing catkin package: 'sl_utilities'
+
+-- ==> add_subdirectory(catkin/controller_manager/core-sl-ros/sl_utilities)
+
+-- xenomai NOT found. (/usr/local;/usr)
+
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- +++ processing catkin package: 'sl_controller_manager'
+
+-- ==> add_subdirectory(catkin/controller_manager/core-sl-ros/sl_controller_manager)
+
+-- MACHTYPE x86_64
+
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+
+Call Stack (most recent call first):
+
+  catkin/controller_manager/core-sl-ros/sl_controller_manager/CMakeLists.txt:5 (include)
+
+
+
+
+
+-- HOST_NAME=everest
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
+
+-- xenomai NOT found. (/usr/local;/usr)
+
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- +++ processing catkin package: 'controller_manager_task_apollo'
+
+-- ==> add_subdirectory(catkin/controller_manager/controller_manager_apollo/controller_manager_task_apollo)
+
+-- MACHTYPE x86_64
+
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+
+Call Stack (most recent call first):
+
+  catkin/controller_manager/controller_manager_apollo/controller_manager_task_apollo/CMakeLists.txt:5 (include)
+
+
+
+
+
+-- HOST_NAME=everest
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
+
+-- xenomai NOT found. (/usr/local;/usr)
+
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- +++ processing catkin package: 'apollo_user'
+
+-- ==> add_subdirectory(catkin/robots/catkin-apolloUser)
+
+-- MACHTYPE x86_64
+
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+
+Call Stack (most recent call first):
+
+  catkin/robots/catkin-apolloUser/CMakeLists.txt:8 (include)
+
+
+
+
+
+-- HOST_NAME=everest
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
+
+-- xenomai NOT found. (/usr/local;/usr)
+
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- +++ processing catkin package: 'sl_barrett_controllers'
+
+-- ==> add_subdirectory(catkin/controller_manager/sl_barrett_controllers/sl_barrett_controllers)
+
+-- xenomai NOT found. (/usr/local;/usr)
+
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- +++ processing catkin package: 'sl_controllers'
+
+-- ==> add_subdirectory(catkin/controller_manager/core-sl-ros/sl_controllers)
+
+-- xenomai NOT found. (/usr/local;/usr)
+
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- Boost version: 1.54.0
+
+-- Found the following Boost libraries:
+
+--   random
+
+-- +++ processing catkin package: 'ros_servo_apollo'
+
+-- ==> add_subdirectory(catkin/ros/ros_servo_apollo)
+
+-- MACHTYPE x86_64
+
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+
+Call Stack (most recent call first):
+
+  catkin/ros/ros_servo_apollo/CMakeLists.txt:5 (include)
+
+
+
+
+
+-- HOST_NAME=everest
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- +++ processing catkin package: 'usc_utilities'
+
+-- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/usc_utils/usc_utilities)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- usc_utilities: 1 messages, 0 services
+
+-- +++ processing catkin package: 'learnable_cost_function'
+
+-- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/planning/learnable_cost_function)
+
+-- +++ processing catkin package: 'robot_info'
+
+-- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/usc_utils/robot_info)
+
+-- +++ processing catkin package: 'jacobian_utilities'
+
+-- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/usc_utils/jacobian_utilities)
+
+-- +++ processing catkin package: 'sl_barrett_controller_interface'
+
+-- ==> add_subdirectory(catkin/controller_manager/sl_barrett_controllers/sl_barrett_controller_interface)
+
+-- xenomai NOT found. (/usr/local;/usr)
+
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- +++ processing catkin package: 'sl_controller_interface'
+
+-- ==> add_subdirectory(catkin/controller_manager/core-sl-ros/sl_controller_interface)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- +++ processing catkin package: 'sl_controller_interface_test'
+
+-- ==> add_subdirectory(catkin/controller_manager/controller_manager_examples_apollo)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- xenomai NOT found. (/usr/local;/usr)
+
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+
+-- +++ processing catkin package: 'strain_gauge_calibration'
+
+-- ==> add_subdirectory(catkin/controller_manager/core-sl-ros/strain_gauge_calibration)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- xenomai NOT found. (/usr/local;/usr)
+
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
 
 -- +++ processing catkin package: 'yaml_cpp'
 
@@ -140,35 +991,51 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 
 -- Boost version: 1.54.0
 
--- Performing Test FLAG_WEXTRA
+-- +++ processing catkin package: 'facial_expressions'
 
--- Performing Test FLAG_WEXTRA - Success
+-- ==> add_subdirectory(catkin/emotions/facial_expressions)
 
--- +++ processing catkin package: 'planar_finger'
+-- MACHTYPE x86_64
 
--- ==> add_subdirectory(catkin/robots/toy_robot_barn/planar_finger)
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+
+Call Stack (most recent call first):
+
+  catkin/emotions/facial_expressions/CMakeLists.txt:6 (include)
+
+
+
+
+
+-- HOST_NAME=everest
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
 
 -- Using these message generators: gencpp;genlisp;genpy
 
--- Boost version: 1.54.0
-
--- Found the following Boost libraries:
-
---   system
-
---   program_options
-
---   filesystem
-
--- +++ processing catkin package: 'toy_hoppers'
-
--- ==> add_subdirectory(catkin/robots/toy_robot_barn/toy_hoppers)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- +++ processing catkin package: 'neural_feedback_controller'
-
--- ==> add_subdirectory(catkin/learning/neural_feedback_controller)
+-- facial_expressions: 0 messages, 1 services
 
 -- Configuring done
 
@@ -176,1391 +1043,671 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 
 -- Build files have been written to: /home/administrator/ci/ci/team/workspace/build
 
-Scanning dependencies of target hello_world
+Scanning dependencies of target gtest
 
-[  1%] Building CXX object catkin/utils/py_cpp_interface/CMakeFiles/hello_world.dir/src/hello_world.cpp.o
+[  0%] [  0%] [  0%] [  0%] [  0%] Built target geometry_msgs_generate_messages_cpp
 
-Scanning dependencies of target yaml-cpp
+Built target visualization_msgs_generate_messages_cpp
 
-[  3%] [  4%] [  6%] [  7%] [  9%] [ 10%] [ 12%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/nodebuilder.cpp.o
+Built target sensor_msgs_generate_messages_cpp
 
-Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/memory.cpp.o
+Built target std_msgs_generate_messages_py
 
-[ 14%] [ 15%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/nodeevents.cpp.o
+Built target geometry_msgs_generate_messages_py
 
-[ 17%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/scantoken.cpp.o
+[  0%] [  0%] [  0%] [  0%] [  0%] Built target std_msgs_generate_messages_lisp
 
-Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/parse.cpp.o
+Built target std_msgs_generate_messages_cpp
 
-Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/node.cpp.o
+Built target geometry_msgs_generate_messages_lisp
 
-[ 18%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/tag.cpp.o
+Built target roscpp_utilities
 
-Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/ostream_wrapper.cpp.o
+Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
 
-Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/directives.cpp.o
+[  0%] [  0%] [  0%] Built target actionlib_msgs_generate_messages_lisp
 
-Scanning dependencies of target rbdl
+Built target actionlib_msgs_generate_messages_py
 
-Scanning dependencies of target py_converter_test
+Built target tf2_msgs_generate_messages_lisp
 
-Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/scanscalar.cpp.o
+[  0%] Built target _usc_utilities_generate_messages_check_deps_AccumulatedTrialStatistics
 
-Scanning dependencies of target PyShell
+[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SwitchControllerStack
 
-[ 20%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emitterutils.cpp.o
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_NavigationTarget
 
-Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/scantag.cpp.o
+[  0%] [  0%] [  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibratePressureSensorsStatus
 
-[ 21%] [ 23%] Building CXX object catkin/utils/py_cpp_interface/CMakeFiles/py_converter_test.dir/tests/converter_test.cpp.o
+[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_AccelerationFeedbackExperimentStatus
 
-[ 25%] Building CXX object catkin/third_party/rbdl/CMakeFiles/rbdl.dir/src/rbdl_version.cc.o
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerDataStatus
 
-Building CXX object catkin/utils/py_cpp_interface/CMakeFiles/PyShell.dir/src/PyShell.cpp.o
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_BiotacData
 
-[ 26%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/scanner.cpp.o
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_Goto_command
 
-[ 28%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/parser.cpp.o
+[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PolicyControllerParamsService
 
-[ 29%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emitter.cpp.o
+[  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ResetBreakaway
 
-[ 31%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/exp.cpp.o
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_RtNetwork
 
-[ 32%] Building CXX object catkin/third_party/rbdl/CMakeFiles/rbdl.dir/src/rbdl_mathutils.cc.o
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_BoundingPoints
 
-[ 34%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/regex.cpp.o
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineLearningControl
 
-[ 37%] [ 37%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/node_data.cpp.o
+[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ExperimentParams
 
-Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/binary.cpp.o
+[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspControllerStatus
 
-[ 39%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emit.cpp.o
+[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_AvgPressureSensors
 
-[ 40%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/simplekey.cpp.o
+[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LabeledPoint
 
-[ 42%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emitterstate.cpp.o
+[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ImageCoordinates
 
-[ 43%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/convert.cpp.o
+[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Preshape
 
-[ 45%] [ 46%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/singledocparser.cpp.o
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_Volumes
 
-Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/stream.cpp.o
+[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PressureSensors
 
-[ 48%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emitfromevents.cpp.o
+[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CartesianTrajectory
 
-[ 50%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/null.cpp.o
+[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_UpdateStrainGagesCalibration
 
-[ 51%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilderadapter.cpp.o
+[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_IncreaseMaxFingerTorque
 
-[ 53%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilder.cpp.o
+[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateForceTorqueSensor
 
-[ 54%] Building CXX object catkin/third_party/rbdl/CMakeFiles/rbdl.dir/src/rbdl_utils.cc.o
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_ObstaclePoints
 
-[ 56%] Building CXX object catkin/third_party/rbdl/CMakeFiles/rbdl.dir/src/Contacts.cc.o
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_QueryControllerStatus
 
-[ 57%] Building CXX object catkin/third_party/rbdl/CMakeFiles/rbdl.dir/src/Dynamics.cc.o
+[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LqrControllerDataStatus
 
-[ 59%] Building CXX object catkin/third_party/rbdl/CMakeFiles/rbdl.dir/src/Logging.cc.o
+[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PolicyControllerDataStatus
 
-[ 60%] Building CXX object catkin/third_party/rbdl/CMakeFiles/rbdl.dir/src/Joint.cc.o
+[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Acceleration
 
-[ 62%] Building CXX object catkin/third_party/rbdl/CMakeFiles/rbdl.dir/src/Model.cc.o
+[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspPoses
 
-[ 64%] Building CXX object catkin/third_party/rbdl/CMakeFiles/rbdl.dir/src/Kinematics.cc.o
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerParamsService
 
-Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libyaml-cpp.so
+[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ExperimentGeneratorParamsService
 
-[ 64%] Built target yaml-cpp
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_TrajectoryStatus
 
-Scanning dependencies of target sandbox
+[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PointArrayArray
 
-Scanning dependencies of target parse
+[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerStatus
 
-Scanning dependencies of target run-tests
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_LookAtParams
 
-[ 67%] [ 67%] Scanning dependencies of target read
+[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CartesianTrajectoryPoint
 
-Building CXX object catkin/third_party/YAML_CPP/util/CMakeFiles/parse.dir/parse.cpp.o
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_CollectDataStatus
 
-Building CXX object catkin/third_party/YAML_CPP/util/CMakeFiles/sandbox.dir/sandbox.cpp.o
+[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_BiotacFingerData
 
-[ 68%] [ 70%] [ 71%] [ 73%] [ 75%] Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/emittertests.cpp.o
+[  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LookAtStatus
 
-Building CXX object catkin/third_party/YAML_CPP/util/CMakeFiles/read.dir/read.cpp.o
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_RtNetworkLayer
 
-Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/spectests.cpp.o
+[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ColorRange
 
-Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/tests.cpp.o
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_DMPControllerStatus
 
-Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/main.cpp.o
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineNetwork
 
-[ 76%] Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/new-api/parsertests.cpp.o
+[  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibratePressureSensors
 
-[ 78%] Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/new-api/spectests.cpp.o
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_Extrems
 
-In file included from /usr/include/python2.7/numpy/ndarraytypes.h:1761:0,
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_NetworkLayer
 
-                 from /usr/include/python2.7/numpy/ndarrayobject.h:17,
+[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ScaledLqr
 
-                 from /usr/include/python2.7/numpy/arrayobject.h:4,
+[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspControllerParams
 
-                 from /home/administrator/ci/ci/team/workspace/src/catkin/utils/py_cpp_interface/include/py_cpp_interface/eigen_converters.h:20,
+[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DMPCommand
 
-                 from /home/administrator/ci/ci/team/workspace/src/catkin/utils/py_cpp_interface/include/py_cpp_interface/PyShell.h:24,
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_ViconQuery
 
-                 from /home/administrator/ci/ci/team/workspace/src/catkin/utils/py_cpp_interface/src/PyShell.cpp:15:
+[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SetPoses
 
-/usr/include/python2.7/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_UpdateStrainGagesCalibrationStatus
 
- #warning "Using deprecated NumPy API, disable it by " \
+[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DMPControllerParams
 
-  ^
+[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ContinuousTrajectoryStatus
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/yaml_cpp/read
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_TrajectoryPoint
 
-[ 79%] Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/new-api/nodetests.cpp.o
+[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SetVisualToolTracking
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/yaml_cpp/sandbox
+[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ContinuousTrajectoryPoint
 
-[ 79%] Built target read
+[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Path
 
-In file included from /usr/include/python2.7/numpy/ndarraytypes.h:1761:0,
+[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_InverseDynamicsBatchNetworkControllerStatus
 
-                 from /usr/include/python2.7/numpy/ndarrayobject.h:17,
+[  0%] [  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_BoundingPointsArray
 
-                 from /usr/include/python2.7/numpy/arrayobject.h:4,
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_FingerJointEncoderOffsetsStatus
 
-                 from /home/administrator/ci/ci/team/workspace/src/catkin/utils/py_cpp_interface/include/py_cpp_interface/eigen_converters.h:20,
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_EndEffectorPosition
 
-                 from /home/administrator/ci/ci/team/workspace/src/catkin/utils/py_cpp_interface/tests/converter_test.cpp:21:
+[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerParams
 
-/usr/include/python2.7/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Imu
 
- #warning "Using deprecated NumPy API, disable it by " \
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_SetObjectOri
 
-  ^
+[  0%] [  0%] [  0%] [  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_AffinePolicy
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/yaml_cpp/parse
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineDataStatus
 
-[ 79%] Built target sandbox
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateAccelerometerSensorStatus
 
-[ 79%] Built target parse
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_DistanceFieldEval
 
-Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/hello_world.so
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_GraspStatus
 
-[ 79%] Built target hello_world
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_CartesianGains
 
-/home/administrator/ci/ci/team/workspace/src/catkin/utils/py_cpp_interface/src/PyShell.cpp: In member function ‘void py_cpp_interface::PyShell::initialize()’:
+[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LqrControllerParams
 
-/home/administrator/ci/ci/team/workspace/src/catkin/utils/py_cpp_interface/src/PyShell.cpp:42:31: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_OnlineDataStatus
 
-   char *argv[] = { "Py Shell" };
+[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ChordEllipsoid
 
-                               ^
+[  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LqrControllerParamsService
 
-Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libPyShell.so
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_DistanceFieldQueries
 
-[ 79%] Built target PyShell
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_KeyPointBodyApprox
 
-Scanning dependencies of target test_py_shell
+[  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_TaskFrame
 
-[ 81%] Building CXX object catkin/utils/py_cpp_interface/CMakeFiles/test_py_shell.dir/src/test_py_shell.cpp.o
+[  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LinearQuadraticRegulatorParams
 
-Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/py_converter_test.so
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineLearningControlService
 
-Copying library files to python module directory
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_FingerJointEncoderOffsets
 
-‘/home/administrator/ci/ci/team/workspace/devel/lib/py_converter_test.so’ -> ‘/home/administrator/ci/ci/team/workspace/devel/lib/python2.7/dist-packages/py_py_cpp_interface/py_converter_test.so’
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateBiotacSensorsStatus
 
-[ 81%] Built target py_converter_test
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_ExtremsArray
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/yaml_cpp/run-tests
+[  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Sphere
 
-[ 81%] Built target run-tests
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_Grasp
 
-In file included from /usr/include/python2.7/numpy/ndarraytypes.h:1761:0,
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_StrainGauge
 
-                 from /usr/include/python2.7/numpy/ndarrayobject.h:17,
+[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_EndEffectorState
 
-                 from /usr/include/python2.7/numpy/arrayobject.h:4,
+[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_FingerForceControlGains
 
-                 from /home/administrator/ci/ci/team/workspace/src/catkin/utils/py_cpp_interface/include/py_cpp_interface/eigen_converters.h:20,
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_RectangularBox
 
-                 from /home/administrator/ci/ci/team/workspace/src/catkin/utils/py_cpp_interface/include/py_cpp_interface/PyShell.h:24,
+[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SpeedChange
 
-                 from /home/administrator/ci/ci/team/workspace/src/catkin/utils/py_cpp_interface/src/test_py_shell.cpp:16:
+[  0%] [  0%] [  0%] [  0%] [  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ResetBreakawayStatus
 
-/usr/include/python2.7/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateAccelerometerSensor
 
- #warning "Using deprecated NumPy API, disable it by " \
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_ViconData
 
-  ^
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_RectangularBoxArray
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/py_cpp_interface/test_py_shell
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_Matrix32
 
-[ 81%] Built target test_py_shell
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_LinearQuadraticRegulatorStatus
 
-Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/librbdl.so
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_ControllerStatus
 
-[ 81%] Built target rbdl
+[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateBiotacSensors
 
-Scanning dependencies of target rbdl_urdfreader
+[  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_EnvironmentalObject
 
-[ 82%] Building CXX object catkin/third_party/rbdl/addons/urdfreader/CMakeFiles/rbdl_urdfreader.dir/urdfreader.cc.o
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_Gains
 
-Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/librbdl_urdfreader.so
+[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineParams
 
-[ 82%] Built target rbdl_urdfreader
+[  0%] [  0%] [  0%] Built target roscpp_generate_messages_lisp
 
-Scanning dependencies of target rbdl_urdfreader_util
+[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ObjectMass
 
-Scanning dependencies of target planar_finger
+Built target roscpp_generate_messages_py
 
-[ 84%] Scanning dependencies of target toy_hoppers
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_PointArray
 
-Building CXX object catkin/third_party/rbdl/addons/urdfreader/CMakeFiles/rbdl_urdfreader_util.dir/rbdl_urdfreader_util.cc.o
+[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Trajectory
 
-[ 85%] [ 87%] Building CXX object catkin/robots/toy_robot_barn/planar_finger/CMakeFiles/planar_finger.dir/src/finger.cpp.o
+[  0%] [  0%] [  0%] Built target roscpp_generate_messages_cpp
 
-Building CXX object catkin/robots/toy_robot_barn/planar_finger/CMakeFiles/planar_finger.dir/src/finger_simulator.cpp.o
+Built target rosgraph_msgs_generate_messages_py
 
-[ 89%] [ 90%] [ 92%] Building CXX object catkin/robots/toy_robot_barn/toy_hoppers/CMakeFiles/toy_hoppers.dir/src/hopper_c_interface.cpp.o
+Built target rosgraph_msgs_generate_messages_lisp
 
-Building CXX object catkin/robots/toy_robot_barn/toy_hoppers/CMakeFiles/toy_hoppers.dir/src/hopper.cpp.o
+[  0%] [  0%] [  0%] [  0%] Built target rosgraph_msgs_generate_messages_cpp
 
-Building CXX object catkin/robots/toy_robot_barn/toy_hoppers/CMakeFiles/toy_hoppers.dir/src/hopper_simulator.cpp.o
+Built target sensor_msgs_generate_messages_lisp
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/rbdl/rbdl_urdfreader_util
+Built target actionlib_msgs_generate_messages_cpp
 
-[ 92%] Built target rbdl_urdfreader_util
+Built target sensor_msgs_generate_messages_py
 
-Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libtoy_hoppers.so
+[  0%] Built target topic_tools_generate_messages_lisp
 
-[ 92%] Built target toy_hoppers
+[  0%] [  0%] [  0%] [  0%] [  0%] [  0%] [  0%] [  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ImageCoordinatesArray
 
-Scanning dependencies of target generate_example_rollout
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_CollectData
 
-[ 93%] Scanning dependencies of target state_publisher
+Built target topic_tools_generate_messages_py
 
-Building CXX object catkin/robots/toy_robot_barn/toy_hoppers/CMakeFiles/generate_example_rollout.dir/tests/generate_example_rollout.cpp.o
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibrateForceTorqueSensorStatus
 
-[ 95%] Building CXX object catkin/robots/toy_robot_barn/toy_hoppers/CMakeFiles/state_publisher.dir/src/state_publisher.cpp.o
+Built target topic_tools_generate_messages_cpp
 
-Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libplanar_finger.so
+Built target tf_generate_messages_cpp
 
-[ 95%] Built target planar_finger
+Built target tf_generate_messages_lisp
 
-Scanning dependencies of target generate_example_finger_rollout
+Built target tf_generate_messages_py
 
-Scanning dependencies of target py_planar_finger
+Built target actionlib_generate_messages_cpp
 
-[ 96%] Building CXX object catkin/robots/toy_robot_barn/planar_finger/CMakeFiles/generate_example_finger_rollout.dir/tests/generate_example_rollout.cpp.o
+Built target actionlib_generate_messages_lisp
 
-[ 98%] Scanning dependencies of target finger_state_publisher
+[  0%] [  0%] [  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_LinearQuadraticRegulator
 
-Building CXX object catkin/robots/toy_robot_barn/planar_finger/CMakeFiles/py_planar_finger.dir/src/py_planar_finger.cpp.o
+[  0%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_InverseDynamicsBatchNetworkControllerParams
 
-[100%] Building CXX object catkin/robots/toy_robot_barn/planar_finger/CMakeFiles/finger_state_publisher.dir/src/state_publisher.cpp.o
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineParamsService
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/toy_hoppers/generate_example_rollout
+Built target _amd_clmc_ros_messages_generate_messages_check_deps_TrackingPose
 
-[100%] Built target generate_example_rollout
+[  0%] Built target actionlib_generate_messages_py
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/planar_finger/generate_example_finger_rollout
+[  0%] [  0%] Built target visualization_msgs_generate_messages_py
 
-[100%] Built target generate_example_finger_rollout
+[  0%] Built target tf2_msgs_generate_messages_cpp
 
-In file included from /usr/include/python2.7/numpy/ndarraytypes.h:1761:0,
+[  0%] Built target tf2_msgs_generate_messages_py
 
-                 from /usr/include/python2.7/numpy/ndarrayobject.h:17,
+[  0%] Built target visualization_msgs_generate_messages_lisp
 
-                 from /usr/include/python2.7/numpy/arrayobject.h:4,
+Built target _catkin_empty_exported_target
 
-                 from /home/administrator/ci/ci/team/workspace/src/catkin/utils/py_cpp_interface/include/py_cpp_interface/eigen_converters.h:20,
+[  0%] Built target usc_utilities_generate_messages_cpp
 
-                 from /home/administrator/ci/ci/team/workspace/src/catkin/robots/toy_robot_barn/planar_finger/src/py_planar_finger.cpp:23:
+[  0%] [  7%] Built target lockfree
 
-/usr/include/python2.7/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+Built target utility
 
- #warning "Using deprecated NumPy API, disable it by " \
+[  7%] Built target usc_utilities_generate_messages_py
 
-  ^
+[ 11%] [ 14%] [ 38%] Built target usc_utilities_generate_messages_lisp
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/toy_hoppers/state_publisher
+Built target yaml-cpp
 
-[100%] Built target state_publisher
+Built target amd_clmc_ros_messages_generate_messages_cpp
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/planar_finger/finger_state_publisher
+[ 61%] Built target amd_clmc_ros_messages_generate_messages_lisp
 
-[100%] Built target finger_state_publisher
+[ 85%] [ 85%] Built target amd_clmc_ros_messages_generate_messages_py
 
-Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/py_planar_finger.so
+Built target rt_utils
 
-Copying library files to python module directory
+[ 85%] Built target lwpr
 
-‘/home/administrator/ci/ci/team/workspace/devel/lib/py_planar_finger.so’ -> ‘/home/administrator/ci/ci/team/workspace/devel/lib/python2.7/dist-packages/py_planar_finger/py_planar_finger.so’
+[ 87%] [ 88%] Built target rosrt
 
-[100%] Built target py_planar_finger
+Built target usc_utilities
 
-Install the project...
+Scanning dependencies of target test_sl_conversions
 
--- Install configuration: "Release"
+[ 90%] Building CXX object catkin/controller_manager/core-sl-ros/sl_conversions/CMakeFiles/test_sl_conversions.dir/test/test_sl_conversions.cpp.o
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/_setup_util.py
+[ 92%] Built target robot_info
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/env.sh
+[ 93%] Built target learning_control
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/setup.bash
+[ 96%] Built target sl_controller_interface
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/setup.sh
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/sl_conversions/test_sl_conversions
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/setup.zsh
+[ 96%] Built target test_sl_conversions
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/.rosinstall
+Linking CXX shared library libgtest.so
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/etc/catkin/profile.d/05.catkin_make.bash
+[ 96%] Built target gtest
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/etc/catkin/profile.d/05.catkin_make_isolated.bash
+Scanning dependencies of target gtest_main
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/catkin.pc
+[ 98%] Building CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/catkinConfig.cmake
+Linking CXX shared library libgtest_main.so
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/catkinConfig-version.cmake
+[ 98%] Built target gtest_main
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/package.xml
+Scanning dependencies of target test_aligned_alloc
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/LICENSE
+Scanning dependencies of target test_object_pool
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/eigen/cmake/eigen-config.cmake
+Scanning dependencies of target utest
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/eigen/cmake/eigen-config-version.cmake
+[ 98%] [ 98%] Scanning dependencies of target generic_test
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake
+Building CXX object catkin/ros/ros_realtime/lockfree/CMakeFiles/test_object_pool.dir/test/test_object_pool.cpp.o
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/empy.cmake
+[ 98%] Scanning dependencies of target test_freelist
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/find_program_required.cmake
+Building CXX object catkin/ros/ros_realtime/allocators/CMakeFiles/test_aligned_alloc.dir/test/test_aligned_alloc.cpp.o
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/platform
+Building CXX object catkin/ros/ros_realtime/rosatomic/CMakeFiles/utest.dir/test/utest.cpp.o
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/platform/ubuntu.cmake
+[ 98%] [ 98%] Scanning dependencies of target utest_nrt_gp
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/platform/lsb.cmake
+Building CXX object catkin/ros/ros_realtime/lockfree/CMakeFiles/test_freelist.dir/test/test_freelist.cpp.o
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/platform/windows.cmake
+Building CXX object catkin/controller_manager/core-sl-ros/sl_controller_interface/CMakeFiles/generic_test.dir/test/test_main.cpp.o
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/assert.cmake
+Scanning dependencies of target utest_gp
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/catkin_generate_environment.cmake
+Scanning dependencies of target utest_gp_speed
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/tools
+[ 98%] Scanning dependencies of target utest_rt_network_load_msg_predict
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/tools/bz2.cmake
+Scanning dependencies of target utest_rt_network
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/tools/rt.cmake
+[ 98%] [ 98%] Building CXX object catkin/learning/learning_control/CMakeFiles/utest_gp.dir/test/utest_gp_main.cpp.o
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/tools/doxygen.cmake
+Scanning dependencies of target utest_gp_speed_real_data
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/tools/threads.cmake
+Scanning dependencies of target utest_gp_predict_speed
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/tools/libraries.cmake
+Scanning dependencies of target utest_gp_predict
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/atomic_configure_file.cmake
+[ 98%] Building CXX object catkin/learning/learning_control/CMakeFiles/utest_gp_speed.dir/test/utest_gp_speed_main.cpp.o
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/test
+[ 98%] Building CXX object catkin/learning/learning_control/CMakeFiles/utest_rt_network_load_msg_predict.dir/test/utest_rt_network_load_msg_predict.cpp.o
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/test/download_test_data.cmake
+Building CXX object catkin/learning/learning_control/CMakeFiles/utest_nrt_gp.dir/test/utest_nrt_gp_main.cpp.o
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/test/catkin_download_test_data.cmake
+[ 98%] Scanning dependencies of target utest_nrt_gp_speed
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/test/download_checkmd5.py
+Building CXX object catkin/learning/learning_control/CMakeFiles/utest_rt_network.dir/test/utest_rt_network_main.cpp.o
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/test/tests.cmake
+Building CXX object catkin/learning/learning_control/CMakeFiles/utest_gp_speed_real_data.dir/test/utest_gp_speed_real_data.cpp.o
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/test/nosetests.cmake
+[ 98%] [100%] /home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_gp_speed_real_data.cpp:6:0: warning: "EIGEN_RUNTIME_NO_MALLOC" redefined [enabled by default]
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/test/gtest.cmake
+ #define EIGEN_RUNTIME_NO_MALLOC
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/test/run_tests.py
+ ^
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/string_starts_with.cmake
+<command-line>:0:0: note: this is the location of the previous definition
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/catkin_python_setup.cmake
+Building CXX object catkin/learning/learning_control/CMakeFiles/utest_gp_predict.dir/test/utest_gp_predict.cpp.o
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/shell.cmake
+Building CXX object catkin/learning/learning_control/CMakeFiles/utest_gp_predict_speed.dir/test/utest_gp_predict_speed.cpp.o
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/catkin_metapackage.cmake
+[100%] Building CXX object catkin/learning/learning_control/CMakeFiles/utest_nrt_gp_speed.dir/test/utest_nrt_gp_speed_main.cpp.o
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/catkin_libraries.cmake
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/allocators/test_aligned_alloc
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/list_append_unique.cmake
+[100%] Built target test_aligned_alloc
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/safe_execute_process.cmake
+/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_gp_speed_main.cpp: In member function ‘virtual void TestSuite_TestRealTimeGPSteps_Test::TestBody()’:
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/env-hooks
+/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_gp_speed_main.cpp:63:3: error: ‘global_error_realtime_inactive’ was not declared in this scope
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/env-hooks/05.catkin-test-results.bat.develspace.in
+   global_error_realtime_inactive = true;
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/env-hooks/05.catkin-test-results.sh.develspace.in
+   ^
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/env-hooks/05.catkin_make.bash
+make[3]: *** [catkin/learning/learning_control/CMakeFiles/utest_gp_speed.dir/test/utest_gp_speed_main.cpp.o] Error 1
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/env-hooks/05.catkin_make_isolated.bash
+make[2]: *** [catkin/learning/learning_control/CMakeFiles/utest_gp_speed.dir/all] Error 2
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/catkin_workspace.cmake
+make[2]: *** Waiting for unfinished jobs....
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/catkin_package_xml.cmake
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/lockfree/test_object_pool
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/parse_arguments.cmake
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/learning_control/utest_gp_speed_real_data
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/learning_control/utest_gp
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/python_distutils_install.bat.in
+[100%] Built target test_object_pool
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/script.sh.in
+[100%] Built target utest_gp_speed_real_data
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/python_distutils_install.sh.in
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/rosatomic/utest
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/relay.py.in
+[100%] Built target utest_gp
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/script.bash.in
+[100%] Built target utest
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/setup.sh.in
+/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_main.cpp: In member function ‘virtual void UtilitiesTest_TestValueWithDefault_Test::TestBody()’:
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/setup.bat.in
+/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_main.cpp:30:13: error: ‘class learning_control::GpParams’ has no member named ‘sigma_y_2_’
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/env.sh.in
+   gp_params.sigma_y_2_ = 0.01;
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/safe_execute_install.cmake.in
+             ^
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/pkg.context.pc.in
+/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_main.cpp:31:13: error: ‘class learning_control::GpParams’ has no member named ‘sigma_f_2_’
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/_setup_util.py
+   gp_params.sigma_f_2_ = 100.0;
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/pkgConfig-version.cmake.in
+             ^
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/__init__.py.in
+/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_main.cpp:43:11: error: ‘class learning_control::GaussianProcess’ has no member named ‘add_data_point’
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/setup.zsh.in
+   gp_test.add_data_point(x, y);
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/generate_cached_setup.py.in
+           ^
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/env.bat.in
+/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_main.cpp:47:11: error: ‘class learning_control::GaussianProcess’ has no member named ‘add_data_point’
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/rosinstall.in
+   gp_test.add_data_point(x, y);
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/script.py.in
+           ^
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/_setup_util.py.in
+/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_main.cpp:51:11: error: ‘class learning_control::GaussianProcess’ has no member named ‘add_data_point’
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/order_packages.context.py.in
+   gp_test.add_data_point(x, y);
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/pkgConfig.cmake.in
+           ^
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/Doxyfile.in
+/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_main.cpp:55:11: error: ‘class learning_control::GaussianProcess’ has no member named ‘add_data_point’
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/setup.bash.in
+   gp_test.add_data_point(x, y);
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/script.in
+           ^
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/env-hook.context.py.in
+/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_main.cpp:59:11: error: ‘class learning_control::GaussianProcess’ has no member named ‘add_data_point’
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/cfg-extras.context.py.in
+   gp_test.add_data_point(x, y);
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/debug_message.cmake
+           ^
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/parse_package_xml.py
+/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_main.cpp:63:11: error: ‘class learning_control::GaussianProcess’ has no member named ‘add_data_point’
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/catkin_install_python.cmake
+   gp_test.add_data_point(x, y);
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/list_insert_in_workspace_order.cmake
+           ^
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/legacy.cmake
+/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_main.cpp:67:11: error: ‘class learning_control::GaussianProcess’ has no member named ‘add_data_point’
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/catkin_package.cmake
+   gp_test.add_data_point(x, y);
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/catkin_destinations.cmake
+           ^
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/stamp.cmake
+/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_main.cpp:71:11: error: ‘class learning_control::GaussianProcess’ has no member named ‘add_data_point’
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/catkin_add_env_hooks.cmake
+   gp_test.add_data_point(x, y);
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/em_expand.cmake
+           ^
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/interrogate_setup_dot_py.py
+/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_main.cpp:75:11: error: ‘class learning_control::GaussianProcess’ has no member named ‘add_data_point’
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/order_paths.py
+   gp_test.add_data_point(x, y);
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/toplevel.cmake
+           ^
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/list_append_deduplicate.cmake
+/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_main.cpp:79:11: error: ‘class learning_control::GaussianProcess’ has no member named ‘add_data_point’
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/all.cmake
+   gp_test.add_data_point(x, y);
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/em
+           ^
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/em/order_packages.cmake.em
+/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_main.cpp:133:50: error: ‘class learning_control::GpParams’ has no member named ‘sigma_y_2_’
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/em/pkg.pc.em
+   rt_printf("new sigmay2: %f\n", gp_test.params_.sigma_y_2_);
 
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/python.cmake
+                                                  ^
 
-+ [ -n  ]
+/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_main.cpp:134:50: error: ‘class learning_control::GpParams’ has no member named ‘sigma_f_2_’
 
-+ cd /home/administrator/ci/ci/team/workspace/src/catkin/third_party/catkin
+   rt_printf("new sigmaf2: %f\n", gp_test.params_.sigma_f_2_);
 
-+ /usr/bin/env PYTHONPATH=/home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages:/home/administrator/ci/ci/team/workspace/build/lib/python2.7/dist-packages:/opt/ros/indigo/lib/python2.7/dist-packages CATKIN_BINARY_DIR=/home/administrator/ci/ci/team/workspace/build /usr/bin/python /home/administrator/ci/ci/team/workspace/src/catkin/third_party/catkin/setup.py build --build-base /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin install --install-layout=deb --prefix=/home/administrator/ci/ci/team/workspace/install --install-scripts=/home/administrator/ci/ci/team/workspace/install/bin
+                                                  ^
 
-running build
+/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_gp_predict.cpp: In member function ‘virtual void UtilitiesTest_TestValueWithDefault_Test::TestBody()’:
 
-running build_py
+/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_gp_predict.cpp:16:3: error: ‘GpSePredictMeanRT’ is not a member of ‘learning_control’
 
-creating /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7
+   learning_control::GpSePredictMeanRT gp_predict_mean_test;
 
-creating /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7/catkin
+   ^
 
-copying python/catkin/workspace_vcs.py -> /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7/catkin
+/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_gp_predict.cpp:16:39: error: expected ‘;’ before ‘gp_predict_mean_test’
 
-copying python/catkin/environment_cache.py -> /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7/catkin
+   learning_control::GpSePredictMeanRT gp_predict_mean_test;
 
-copying python/catkin/workspace.py -> /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7/catkin
+                                       ^
 
-copying python/catkin/__init__.py -> /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7/catkin
+/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_gp_predict_speed.cpp: In member function ‘virtual void TestSuite_TestRealTimeGPSteps_Test::TestBody()’:
 
-copying python/catkin/package_version.py -> /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7/catkin
+/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_gp_predict_speed.cpp:210:3: error: ‘GpSePredictMeanRT’ is not a member of ‘learning_control’
 
-copying python/catkin/builder.py -> /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7/catkin
+   learning_control::GpSePredictMeanRT gp_predict_mean_test;
 
-copying python/catkin/find_in_workspaces.py -> /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7/catkin
+   ^
 
-copying python/catkin/cmake.py -> /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7/catkin
+/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_gp_predict_speed.cpp:210:39: error: expected ‘;’ before ‘gp_predict_mean_test’
 
-copying python/catkin/init_workspace.py -> /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7/catkin
+   learning_control::GpSePredictMeanRT gp_predict_mean_test;
 
-copying python/catkin/terminal_color.py -> /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7/catkin
+                                       ^
 
-copying python/catkin/test_results.py -> /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7/catkin
+/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_gp_predict_speed.cpp:271:5: error: ‘gp_predict_mean_test’ was not declared in this scope
 
-copying python/catkin/tidy_xml.py -> /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7/catkin
+     gp_predict_mean_test.update_parameters(gp_test.lambda_,
 
-running build_scripts
+     ^
 
-creating /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/scripts-2.7
+In file included from /usr/include/gtest/gtest.h:1807:0,
 
-copying and adjusting bin/catkin_find -> /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/scripts-2.7
+                 from /home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_gp_predict.cpp:6:
 
-copying and adjusting bin/catkin_init_workspace -> /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/scripts-2.7
+/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_gp_predict.cpp:91:20: error: ‘gp_predict_mean_test’ was not declared in this scope
 
-copying and adjusting bin/catkin_make -> /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/scripts-2.7
+   ASSERT_NEAR(0.0, gp_predict_mean_test.predict(xtest), max_error);
 
-copying and adjusting bin/catkin_make_isolated -> /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/scripts-2.7
+                    ^
 
-copying and adjusting bin/catkin_package_version -> /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/scripts-2.7
+/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_gp_predict.cpp:92:3: error: ‘gp_predict_mean_test’ was not declared in this scope
 
-copying and adjusting bin/catkin_prepare_release -> /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/scripts-2.7
+   gp_predict_mean_test.update_parameters(gp_test.lambda_,
 
-copying and adjusting bin/catkin_test_results -> /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/scripts-2.7
+   ^
 
-copying and adjusting bin/catkin_topological_order -> /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/scripts-2.7
+make[3]: *** [catkin/learning/learning_control/CMakeFiles/utest_gp_predict_speed.dir/test/utest_gp_predict_speed.cpp.o] Error 1
 
-changing mode of /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/scripts-2.7/catkin_find from 644 to 755
+make[2]: *** [catkin/learning/learning_control/CMakeFiles/utest_gp_predict_speed.dir/all] Error 2
 
-changing mode of /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/scripts-2.7/catkin_init_workspace from 644 to 755
+make[3]: *** [catkin/learning/learning_control/CMakeFiles/utest_gp_predict.dir/test/utest_gp_predict.cpp.o] Error 1
 
-changing mode of /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/scripts-2.7/catkin_make from 644 to 755
+make[2]: *** [catkin/learning/learning_control/CMakeFiles/utest_gp_predict.dir/all] Error 2
 
-changing mode of /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/scripts-2.7/catkin_make_isolated from 644 to 755
+make[3]: *** [catkin/learning/learning_control/CMakeFiles/utest_nrt_gp.dir/test/utest_nrt_gp_main.cpp.o] Error 1
 
-changing mode of /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/scripts-2.7/catkin_package_version from 644 to 755
+make[2]: *** [catkin/learning/learning_control/CMakeFiles/utest_nrt_gp.dir/all] Error 2
 
-changing mode of /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/scripts-2.7/catkin_prepare_release from 644 to 755
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/lockfree/test_freelist
 
-changing mode of /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/scripts-2.7/catkin_test_results from 644 to 755
+[100%] Built target test_freelist
 
-changing mode of /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/scripts-2.7/catkin_topological_order from 644 to 755
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/learning_control/utest_rt_network
 
-running install
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/sl_controller_interface/generic_test
 
-running install_lib
+/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_speed_main.cpp: In member function ‘virtual void TestSuite_TestRealTimeGPSteps_Test::TestBody()’:
 
-creating /home/administrator/ci/ci/team/workspace/install/lib/python2.7
+/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_speed_main.cpp:94:24: error: no matching function for call to ‘learning_control::NrtGpThread::start(int)’
 
-creating /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages
+   nrt_gp_thread.start(0);
 
-creating /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin
+                        ^
 
-copying /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7/catkin/workspace_vcs.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin
+/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_speed_main.cpp:94:24: note: candidate is:
 
-copying /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7/catkin/environment_cache.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin
+In file included from /home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_speed_main.cpp:14:0:
 
-copying /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7/catkin/workspace.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin
+/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/include/learning_control/nrt_gp_thread.h:35:8: note: bool learning_control::NrtGpThread::start()
 
-copying /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7/catkin/__init__.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin
+   bool start();
 
-copying /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7/catkin/package_version.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin
+        ^
 
-copying /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7/catkin/builder.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin
+/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/include/learning_control/nrt_gp_thread.h:35:8: note:   candidate expects 0 arguments, 1 provided
 
-copying /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7/catkin/find_in_workspaces.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin
+/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_speed_main.cpp:95:17: error: ‘class learning_control::NrtGpThread’ has no member named ‘update_parameters_real’
 
-copying /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7/catkin/cmake.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin
+   nrt_gp_thread.update_parameters_real(GP_WINDOW_SIZE, GP_INPUT_SIZE, 0.3, 0.01,
 
-copying /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7/catkin/init_workspace.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin
+                 ^
 
-copying /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7/catkin/terminal_color.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin
+/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_speed_main.cpp:138:19: error: ‘class learning_control::NrtGpThread’ has no member named ‘update_data_point_real’
 
-copying /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7/catkin/test_results.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin
+     nrt_gp_thread.update_data_point_real(call_count, random_inputs,
 
-copying /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7/catkin/tidy_xml.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin
+                   ^
 
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin/workspace_vcs.py to workspace_vcs.pyc
+/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_speed_main.cpp:162:19: error: ‘class learning_control::NrtGpThread’ has no member named ‘update_data_point_real’
 
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin/environment_cache.py to environment_cache.pyc
+     nrt_gp_thread.update_data_point_real(call_count, random_inputs,
 
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin/workspace.py to workspace.pyc
+                   ^
 
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin/__init__.py to __init__.pyc
+/home/administrator/ci/ci/team/workspace/src/catkin/learning/learning_control/test/utest_nrt_gp_speed_main.cpp:171:19: error: ‘class learning_control::NrtGpThread’ has no member named ‘get_gp_real’
 
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin/package_version.py to package_version.pyc
+     nrt_gp_thread.get_gp_real()->predict(random_inputs);
 
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin/builder.py to builder.pyc
+                   ^
 
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin/find_in_workspaces.py to find_in_workspaces.pyc
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/learning_control/utest_rt_network_load_msg_predict
 
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin/cmake.py to cmake.pyc
+[100%] Built target utest_rt_network
 
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin/init_workspace.py to init_workspace.pyc
+[100%] Built target generic_test
 
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin/terminal_color.py to terminal_color.pyc
+[100%] Built target utest_rt_network_load_msg_predict
 
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin/test_results.py to test_results.pyc
+make[3]: *** [catkin/learning/learning_control/CMakeFiles/utest_nrt_gp_speed.dir/test/utest_nrt_gp_speed_main.cpp.o] Error 1
 
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin/tidy_xml.py to tidy_xml.pyc
+make[2]: *** [catkin/learning/learning_control/CMakeFiles/utest_nrt_gp_speed.dir/all] Error 2
 
-running install_scripts
+make[1]: *** [CMakeFiles/tests.dir/rule] Error 2
 
-creating /home/administrator/ci/ci/team/workspace/install/bin
-
-copying /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/scripts-2.7/catkin_find -> /home/administrator/ci/ci/team/workspace/install/bin
-
-copying /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/scripts-2.7/catkin_topological_order -> /home/administrator/ci/ci/team/workspace/install/bin
-
-copying /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/scripts-2.7/catkin_init_workspace -> /home/administrator/ci/ci/team/workspace/install/bin
-
-copying /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/scripts-2.7/catkin_make -> /home/administrator/ci/ci/team/workspace/install/bin
-
-copying /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/scripts-2.7/catkin_package_version -> /home/administrator/ci/ci/team/workspace/install/bin
-
-copying /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/scripts-2.7/catkin_test_results -> /home/administrator/ci/ci/team/workspace/install/bin
-
-copying /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/scripts-2.7/catkin_prepare_release -> /home/administrator/ci/ci/team/workspace/install/bin
-
-copying /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/scripts-2.7/catkin_make_isolated -> /home/administrator/ci/ci/team/workspace/install/bin
-
-changing mode of /home/administrator/ci/ci/team/workspace/install/bin/catkin_find to 755
-
-changing mode of /home/administrator/ci/ci/team/workspace/install/bin/catkin_topological_order to 755
-
-changing mode of /home/administrator/ci/ci/team/workspace/install/bin/catkin_init_workspace to 755
-
-changing mode of /home/administrator/ci/ci/team/workspace/install/bin/catkin_make to 755
-
-changing mode of /home/administrator/ci/ci/team/workspace/install/bin/catkin_package_version to 755
-
-changing mode of /home/administrator/ci/ci/team/workspace/install/bin/catkin_test_results to 755
-
-changing mode of /home/administrator/ci/ci/team/workspace/install/bin/catkin_prepare_release to 755
-
-changing mode of /home/administrator/ci/ci/team/workspace/install/bin/catkin_make_isolated to 755
-
-running install_egg_info
-
-Writing /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin-0.5.90.egg-info
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/Eigen.pc
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/Eigen/cmake/EigenConfig.cmake
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/Eigen/cmake/EigenConfig-version.cmake
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/Eigen/package.xml
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/experiment_config.pc
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/experiment_config/cmake/experiment_configConfig.cmake
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/experiment_config/cmake/experiment_configConfig-version.cmake
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/experiment_config/package.xml
-
-+ [ -n  ]
-
-+ cd /home/administrator/ci/ci/team/workspace/src/catkin/experiments/catkin_experiment_config
-
-+ /usr/bin/env PYTHONPATH=/home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages:/home/administrator/ci/ci/team/workspace/build/lib/python2.7/dist-packages:/opt/ros/indigo/lib/python2.7/dist-packages CATKIN_BINARY_DIR=/home/administrator/ci/ci/team/workspace/build /usr/bin/python /home/administrator/ci/ci/team/workspace/src/catkin/experiments/catkin_experiment_config/setup.py build --build-base /home/administrator/ci/ci/team/workspace/build/catkin/experiments/catkin_experiment_config install --install-layout=deb --prefix=/home/administrator/ci/ci/team/workspace/install --install-scripts=/home/administrator/ci/ci/team/workspace/install/bin
-
-running build
-
-running build_py
-
-creating /home/administrator/ci/ci/team/workspace/build/catkin/experiments/catkin_experiment_config/lib.linux-x86_64-2.7
-
-creating /home/administrator/ci/ci/team/workspace/build/catkin/experiments/catkin_experiment_config/lib.linux-x86_64-2.7/experiment_config
-
-copying experiment_config/experiment_config/__init__.py -> /home/administrator/ci/ci/team/workspace/build/catkin/experiments/catkin_experiment_config/lib.linux-x86_64-2.7/experiment_config
-
-copying experiment_config/experiment_config/utils.py -> /home/administrator/ci/ci/team/workspace/build/catkin/experiments/catkin_experiment_config/lib.linux-x86_64-2.7/experiment_config
-
-copying experiment_config/experiment_config/result.py -> /home/administrator/ci/ci/team/workspace/build/catkin/experiments/catkin_experiment_config/lib.linux-x86_64-2.7/experiment_config
-
-copying experiment_config/experiment_config/config.py -> /home/administrator/ci/ci/team/workspace/build/catkin/experiments/catkin_experiment_config/lib.linux-x86_64-2.7/experiment_config
-
-copying experiment_config/experiment_config/config_stage.py -> /home/administrator/ci/ci/team/workspace/build/catkin/experiments/catkin_experiment_config/lib.linux-x86_64-2.7/experiment_config
-
-copying experiment_config/experiment_config/main.py -> /home/administrator/ci/ci/team/workspace/build/catkin/experiments/catkin_experiment_config/lib.linux-x86_64-2.7/experiment_config
-
-copying experiment_config/experiment_config/factory.py -> /home/administrator/ci/ci/team/workspace/build/catkin/experiments/catkin_experiment_config/lib.linux-x86_64-2.7/experiment_config
-
-running install
-
-running install_lib
-
-creating /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/experiment_config
-
-copying /home/administrator/ci/ci/team/workspace/build/catkin/experiments/catkin_experiment_config/lib.linux-x86_64-2.7/experiment_config/__init__.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/experiment_config
-
-copying /home/administrator/ci/ci/team/workspace/build/catkin/experiments/catkin_experiment_config/lib.linux-x86_64-2.7/experiment_config/utils.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/experiment_config
-
-copying /home/administrator/ci/ci/team/workspace/build/catkin/experiments/catkin_experiment_config/lib.linux-x86_64-2.7/experiment_config/result.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/experiment_config
-
-copying /home/administrator/ci/ci/team/workspace/build/catkin/experiments/catkin_experiment_config/lib.linux-x86_64-2.7/experiment_config/config.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/experiment_config
-
-copying /home/administrator/ci/ci/team/workspace/build/catkin/experiments/catkin_experiment_config/lib.linux-x86_64-2.7/experiment_config/config_stage.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/experiment_config
-
-copying /home/administrator/ci/ci/team/workspace/build/catkin/experiments/catkin_experiment_config/lib.linux-x86_64-2.7/experiment_config/main.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/experiment_config
-
-copying /home/administrator/ci/ci/team/workspace/build/catkin/experiments/catkin_experiment_config/lib.linux-x86_64-2.7/experiment_config/factory.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/experiment_config
-
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/experiment_config/__init__.py to __init__.pyc
-
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/experiment_config/utils.py to utils.pyc
-
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/experiment_config/result.py to result.pyc
-
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/experiment_config/config.py to config.pyc
-
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/experiment_config/config_stage.py to config_stage.pyc
-
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/experiment_config/main.py to main.pyc
-
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/experiment_config/factory.py to factory.pyc
-
-running install_egg_info
-
-Writing /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/experiment_config-1.0.0.egg-info
-
-+ [ -n  ]
-
-+ cd /home/administrator/ci/ci/team/workspace/src/catkin/learning/guided-policy-search
-
-+ /usr/bin/env PYTHONPATH=/home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages:/home/administrator/ci/ci/team/workspace/build/lib/python2.7/dist-packages:/opt/ros/indigo/lib/python2.7/dist-packages CATKIN_BINARY_DIR=/home/administrator/ci/ci/team/workspace/build /usr/bin/python /home/administrator/ci/ci/team/workspace/src/catkin/learning/guided-policy-search/setup.py build --build-base /home/administrator/ci/ci/team/workspace/build/catkin/learning/guided-policy-search install --install-layout=deb --prefix=/home/administrator/ci/ci/team/workspace/install --install-scripts=/home/administrator/ci/ci/team/workspace/install/bin
-
-running build
-
-running build_py
-
-creating /home/administrator/ci/ci/team/workspace/build/catkin/learning/guided-policy-search/lib.linux-x86_64-2.7
-
-creating /home/administrator/ci/ci/team/workspace/build/catkin/learning/guided-policy-search/lib.linux-x86_64-2.7/guided_policy_search
-
-copying src/guided_policy_search/util.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/guided-policy-search/lib.linux-x86_64-2.7/guided_policy_search
-
-copying src/guided_policy_search/dynamics.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/guided-policy-search/lib.linux-x86_64-2.7/guided_policy_search
-
-copying src/guided_policy_search/__init__.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/guided-policy-search/lib.linux-x86_64-2.7/guided_policy_search
-
-copying src/guided_policy_search/policy.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/guided-policy-search/lib.linux-x86_64-2.7/guided_policy_search
-
-copying src/guided_policy_search/cost.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/guided-policy-search/lib.linux-x86_64-2.7/guided_policy_search
-
-copying src/guided_policy_search/agent.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/guided-policy-search/lib.linux-x86_64-2.7/guided_policy_search
-
-copying src/guided_policy_search/optimize.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/guided-policy-search/lib.linux-x86_64-2.7/guided_policy_search
-
-running install
-
-running install_lib
-
-creating /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/guided_policy_search
-
-copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/guided-policy-search/lib.linux-x86_64-2.7/guided_policy_search/util.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/guided_policy_search
-
-copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/guided-policy-search/lib.linux-x86_64-2.7/guided_policy_search/dynamics.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/guided_policy_search
-
-copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/guided-policy-search/lib.linux-x86_64-2.7/guided_policy_search/__init__.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/guided_policy_search
-
-copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/guided-policy-search/lib.linux-x86_64-2.7/guided_policy_search/policy.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/guided_policy_search
-
-copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/guided-policy-search/lib.linux-x86_64-2.7/guided_policy_search/cost.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/guided_policy_search
-
-copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/guided-policy-search/lib.linux-x86_64-2.7/guided_policy_search/agent.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/guided_policy_search
-
-copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/guided-policy-search/lib.linux-x86_64-2.7/guided_policy_search/optimize.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/guided_policy_search
-
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/guided_policy_search/util.py to util.pyc
-
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/guided_policy_search/dynamics.py to dynamics.pyc
-
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/guided_policy_search/__init__.py to __init__.pyc
-
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/guided_policy_search/policy.py to policy.pyc
-
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/guided_policy_search/cost.py to cost.pyc
-
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/guided_policy_search/agent.py to agent.pyc
-
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/guided_policy_search/optimize.py to optimize.pyc
-
-running install_egg_info
-
-Writing /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/guided_policy_search-0.0.0.egg-info
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/guided_policy_search.pc
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/guided_policy_search/cmake/guided_policy_searchConfig.cmake
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/guided_policy_search/cmake/guided_policy_searchConfig-version.cmake
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/guided_policy_search/package.xml
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/py_cpp_interface.pc
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/py_cpp_interface/cmake/py_cpp_interface.cmake
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/py_cpp_interface/cmake/py_cpp_interfaceConfig.cmake
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/py_cpp_interface/cmake/py_cpp_interfaceConfig-version.cmake
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/py_cpp_interface/package.xml
-
-+ [ -n  ]
-
-+ cd /home/administrator/ci/ci/team/workspace/src/catkin/utils/py_cpp_interface
-
-+ /usr/bin/env PYTHONPATH=/home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages:/home/administrator/ci/ci/team/workspace/build/lib/python2.7/dist-packages:/opt/ros/indigo/lib/python2.7/dist-packages CATKIN_BINARY_DIR=/home/administrator/ci/ci/team/workspace/build /usr/bin/python /home/administrator/ci/ci/team/workspace/src/catkin/utils/py_cpp_interface/setup.py build --build-base /home/administrator/ci/ci/team/workspace/build/catkin/utils/py_cpp_interface install --install-layout=deb --prefix=/home/administrator/ci/ci/team/workspace/install --install-scripts=/home/administrator/ci/ci/team/workspace/install/bin
-
-/usr/lib/python2.7/distutils/dist.py:267: UserWarning: Unknown distribution option: 'install_requires'
-
-  warnings.warn(msg)
-
-running build
-
-running build_py
-
-creating /home/administrator/ci/ci/team/workspace/build/catkin/utils/py_cpp_interface/lib.linux-x86_64-2.7
-
-creating /home/administrator/ci/ci/team/workspace/build/catkin/utils/py_cpp_interface/lib.linux-x86_64-2.7/py_py_cpp_interface
-
-copying src/py_py_cpp_interface/test_converters.py -> /home/administrator/ci/ci/team/workspace/build/catkin/utils/py_cpp_interface/lib.linux-x86_64-2.7/py_py_cpp_interface
-
-copying src/py_py_cpp_interface/__init__.py -> /home/administrator/ci/ci/team/workspace/build/catkin/utils/py_cpp_interface/lib.linux-x86_64-2.7/py_py_cpp_interface
-
-copying src/py_py_cpp_interface/embIPython.py -> /home/administrator/ci/ci/team/workspace/build/catkin/utils/py_cpp_interface/lib.linux-x86_64-2.7/py_py_cpp_interface
-
-running install
-
-running install_lib
-
-creating /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/py_py_cpp_interface
-
-copying /home/administrator/ci/ci/team/workspace/build/catkin/utils/py_cpp_interface/lib.linux-x86_64-2.7/py_py_cpp_interface/test_converters.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/py_py_cpp_interface
-
-copying /home/administrator/ci/ci/team/workspace/build/catkin/utils/py_cpp_interface/lib.linux-x86_64-2.7/py_py_cpp_interface/__init__.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/py_py_cpp_interface
-
-copying /home/administrator/ci/ci/team/workspace/build/catkin/utils/py_cpp_interface/lib.linux-x86_64-2.7/py_py_cpp_interface/embIPython.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/py_py_cpp_interface
-
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/py_py_cpp_interface/test_converters.py to test_converters.pyc
-
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/py_py_cpp_interface/__init__.py to __init__.pyc
-
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/py_py_cpp_interface/embIPython.py to embIPython.pyc
-
-running install_egg_info
-
-Writing /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/py_cpp_interface-1.0.0.egg-info
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/rbdl.pc
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/rbdl/cmake/rbdlConfig.cmake
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/rbdl/cmake/rbdlConfig-version.cmake
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/rbdl/package.xml
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/x86_64-linux-gnu/librbdl.so.2.5.0
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/x86_64-linux-gnu/librbdl.so
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/rbdl.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/Quaternion.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/Dynamics.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/Joint.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/rbdl_utils.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/Model.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/rbdl_math.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/rbdl_mathutils.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/Kinematics.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/rbdl_eigenmath.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/Logging.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/Body.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/SpatialAlgebraOperators.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/compileassert.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/Contacts.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/x86_64-linux-gnu/pkgconfig/rbdl.pc
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/x86_64-linux-gnu/librbdl_urdfreader.so.2.5.0
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/x86_64-linux-gnu/librbdl_urdfreader.so
-
--- Removed runtime path from "/home/administrator/ci/ci/team/workspace/install/lib/x86_64-linux-gnu/librbdl_urdfreader.so.2.5.0"
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/bin/rbdl_urdfreader_util
-
--- Removed runtime path from "/home/administrator/ci/ci/team/workspace/install/bin/rbdl_urdfreader_util"
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/rbdl/addons/urdfreader/urdfreader.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/yaml_cpp.pc
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/yaml_cpp/cmake/yaml_cppConfig.cmake
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/yaml_cpp/cmake/yaml_cppConfig-version.cmake
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/yaml_cpp/package.xml
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/libyaml-cpp.so.0.5.1
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/libyaml-cpp.so.0.5
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/libyaml-cpp.so
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/ostream_wrapper.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/anchor.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/yaml.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/exceptions.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/dll.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/mark.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/noncopyable.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/traits.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/stlemitter.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/node.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/emit.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/iterator.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/node.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/memory.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/iterator.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/bool_type.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/iterator_fwd.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/node_ref.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/node_data.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/node_iterator.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/impl.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/type.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/ptr.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/parse.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/impl.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/convert.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/emittermanip.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/eventhandler.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/binary.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/emitterdef.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/contrib
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/contrib/graphbuilder.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/contrib/anchordict.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/emitfromevents.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/parser.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/emitter.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/yaml_eigen.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/null.h
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/yaml-cpp.pc
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/planar_finger.pc
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/planar_finger/cmake/planar_fingerConfig.cmake
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/planar_finger/cmake/planar_fingerConfig-version.cmake
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/planar_finger/package.xml
-
-+ [ -n  ]
-
-+ cd /home/administrator/ci/ci/team/workspace/src/catkin/robots/toy_robot_barn/planar_finger
-
-+ /usr/bin/env PYTHONPATH=/home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages:/home/administrator/ci/ci/team/workspace/build/lib/python2.7/dist-packages:/opt/ros/indigo/lib/python2.7/dist-packages CATKIN_BINARY_DIR=/home/administrator/ci/ci/team/workspace/build /usr/bin/python /home/administrator/ci/ci/team/workspace/src/catkin/robots/toy_robot_barn/planar_finger/setup.py build --build-base /home/administrator/ci/ci/team/workspace/build/catkin/robots/toy_robot_barn/planar_finger install --install-layout=deb --prefix=/home/administrator/ci/ci/team/workspace/install --install-scripts=/home/administrator/ci/ci/team/workspace/install/bin
-
-/usr/lib/python2.7/distutils/dist.py:267: UserWarning: Unknown distribution option: 'install_requires'
-
-  warnings.warn(msg)
-
-running build
-
-running build_py
-
-creating /home/administrator/ci/ci/team/workspace/build/catkin/robots/toy_robot_barn/planar_finger/lib.linux-x86_64-2.7
-
-creating /home/administrator/ci/ci/team/workspace/build/catkin/robots/toy_robot_barn/planar_finger/lib.linux-x86_64-2.7/py_planar_finger
-
-copying src/py_planar_finger/finger_example.py -> /home/administrator/ci/ci/team/workspace/build/catkin/robots/toy_robot_barn/planar_finger/lib.linux-x86_64-2.7/py_planar_finger
-
-copying src/py_planar_finger/__init__.py -> /home/administrator/ci/ci/team/workspace/build/catkin/robots/toy_robot_barn/planar_finger/lib.linux-x86_64-2.7/py_planar_finger
-
-copying src/py_planar_finger/agent.py -> /home/administrator/ci/ci/team/workspace/build/catkin/robots/toy_robot_barn/planar_finger/lib.linux-x86_64-2.7/py_planar_finger
-
-running install
-
-running install_lib
-
-creating /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/py_planar_finger
-
-copying /home/administrator/ci/ci/team/workspace/build/catkin/robots/toy_robot_barn/planar_finger/lib.linux-x86_64-2.7/py_planar_finger/finger_example.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/py_planar_finger
-
-copying /home/administrator/ci/ci/team/workspace/build/catkin/robots/toy_robot_barn/planar_finger/lib.linux-x86_64-2.7/py_planar_finger/__init__.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/py_planar_finger
-
-copying /home/administrator/ci/ci/team/workspace/build/catkin/robots/toy_robot_barn/planar_finger/lib.linux-x86_64-2.7/py_planar_finger/agent.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/py_planar_finger
-
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/py_planar_finger/finger_example.py to finger_example.pyc
-
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/py_planar_finger/__init__.py to __init__.pyc
-
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/py_planar_finger/agent.py to agent.pyc
-
-running install_egg_info
-
-Writing /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/planar_finger-0.0.0.egg-info
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/toy_hoppers.pc
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/toy_hoppers/cmake/toy_hoppersConfig.cmake
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/toy_hoppers/cmake/toy_hoppersConfig-version.cmake
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/toy_hoppers/package.xml
-
-+ [ -n  ]
-
-+ cd /home/administrator/ci/ci/team/workspace/src/catkin/robots/toy_robot_barn/toy_hoppers
-
-+ /usr/bin/env PYTHONPATH=/home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages:/home/administrator/ci/ci/team/workspace/build/lib/python2.7/dist-packages:/opt/ros/indigo/lib/python2.7/dist-packages CATKIN_BINARY_DIR=/home/administrator/ci/ci/team/workspace/build /usr/bin/python /home/administrator/ci/ci/team/workspace/src/catkin/robots/toy_robot_barn/toy_hoppers/setup.py build --build-base /home/administrator/ci/ci/team/workspace/build/catkin/robots/toy_robot_barn/toy_hoppers install --install-layout=deb --prefix=/home/administrator/ci/ci/team/workspace/install --install-scripts=/home/administrator/ci/ci/team/workspace/install/bin
-
-/usr/lib/python2.7/distutils/dist.py:267: UserWarning: Unknown distribution option: 'install_requires'
-
-  warnings.warn(msg)
-
-running build
-
-running build_py
-
-creating /home/administrator/ci/ci/team/workspace/build/catkin/robots/toy_robot_barn/toy_hoppers/lib.linux-x86_64-2.7
-
-creating /home/administrator/ci/ci/team/workspace/build/catkin/robots/toy_robot_barn/toy_hoppers/lib.linux-x86_64-2.7/py_toy_hoppers
-
-copying src/py_toy_hoppers/__init__.py -> /home/administrator/ci/ci/team/workspace/build/catkin/robots/toy_robot_barn/toy_hoppers/lib.linux-x86_64-2.7/py_toy_hoppers
-
-copying src/py_toy_hoppers/agent.py -> /home/administrator/ci/ci/team/workspace/build/catkin/robots/toy_robot_barn/toy_hoppers/lib.linux-x86_64-2.7/py_toy_hoppers
-
-copying src/py_toy_hoppers/openai_gym.py -> /home/administrator/ci/ci/team/workspace/build/catkin/robots/toy_robot_barn/toy_hoppers/lib.linux-x86_64-2.7/py_toy_hoppers
-
-running install
-
-running install_lib
-
-creating /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/py_toy_hoppers
-
-copying /home/administrator/ci/ci/team/workspace/build/catkin/robots/toy_robot_barn/toy_hoppers/lib.linux-x86_64-2.7/py_toy_hoppers/__init__.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/py_toy_hoppers
-
-copying /home/administrator/ci/ci/team/workspace/build/catkin/robots/toy_robot_barn/toy_hoppers/lib.linux-x86_64-2.7/py_toy_hoppers/agent.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/py_toy_hoppers
-
-copying /home/administrator/ci/ci/team/workspace/build/catkin/robots/toy_robot_barn/toy_hoppers/lib.linux-x86_64-2.7/py_toy_hoppers/openai_gym.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/py_toy_hoppers
-
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/py_toy_hoppers/__init__.py to __init__.pyc
-
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/py_toy_hoppers/agent.py to agent.pyc
-
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/py_toy_hoppers/openai_gym.py to openai_gym.pyc
-
-running install_egg_info
-
-Writing /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/toy_hoppers-0.0.0.egg-info
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/neural_feedback_controller.pc
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/neural_feedback_controller/cmake/neural_feedback_controllerConfig.cmake
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/neural_feedback_controller/cmake/neural_feedback_controllerConfig-version.cmake
-
--- Installing: /home/administrator/ci/ci/team/workspace/install/share/neural_feedback_controller/package.xml
-
-+ [ -n  ]
-
-+ cd /home/administrator/ci/ci/team/workspace/src/catkin/learning/neural_feedback_controller
-
-+ /usr/bin/env PYTHONPATH=/home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages:/home/administrator/ci/ci/team/workspace/build/lib/python2.7/dist-packages:/opt/ros/indigo/lib/python2.7/dist-packages CATKIN_BINARY_DIR=/home/administrator/ci/ci/team/workspace/build /usr/bin/python /home/administrator/ci/ci/team/workspace/src/catkin/learning/neural_feedback_controller/setup.py build --build-base /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller install --install-layout=deb --prefix=/home/administrator/ci/ci/team/workspace/install --install-scripts=/home/administrator/ci/ci/team/workspace/install/bin
-
-/usr/lib/python2.7/distutils/dist.py:267: UserWarning: Unknown distribution option: 'install_requires'
-
-  warnings.warn(msg)
-
-running build
-
-running build_py
-
-creating /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7
-
-creating /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller
-
-copying scripts/neural_feedback_controller/worker_analyze_evaluation.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller
-
-copying scripts/neural_feedback_controller/worker_export_saved_model.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller
-
-copying scripts/neural_feedback_controller/nn_definition.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller
-
-copying scripts/neural_feedback_controller/eval.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller
-
-copying scripts/neural_feedback_controller/aux.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller
-
-copying scripts/neural_feedback_controller/worker_optimize_local_policy.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller
-
-copying scripts/neural_feedback_controller/__init__.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller
-
-copying scripts/neural_feedback_controller/worker_generate_nn_training_data.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller
-
-copying scripts/neural_feedback_controller/worker_optimize_ppo.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller
-
-copying scripts/neural_feedback_controller/system_init.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller
-
-copying scripts/neural_feedback_controller/worker_evaluate_marathon.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller
-
-copying scripts/neural_feedback_controller/worker_plot_dyn_learning.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller
-
-copying scripts/neural_feedback_controller/worker_train_neural_network.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller
-
-copying scripts/neural_feedback_controller/makeify.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller
-
-copying scripts/neural_feedback_controller/worker_plot_feedback_ratio.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller
-
-copying scripts/neural_feedback_controller/worker_plot_feedback_nominal.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller
-
-copying scripts/neural_feedback_controller/worker_plot_feedback_nn_only.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller
-
-copying scripts/neural_feedback_controller/generate_local_policies.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller
-
-copying scripts/neural_feedback_controller/visualize.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller
-
-copying scripts/neural_feedback_controller/trajectory_learning.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller
-
-copying scripts/neural_feedback_controller/worker_evaluate_marathon_summary.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller
-
-copying scripts/neural_feedback_controller/gps.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller
-
-copying scripts/neural_feedback_controller/nn_saved_model.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller
-
-copying scripts/neural_feedback_controller/worker_evaluate_policy.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller
-
-copying scripts/neural_feedback_controller/nn_training.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller
-
-copying scripts/neural_feedback_controller/worker_plot_feedback.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller
-
-copying scripts/neural_feedback_controller/worker_rviz_policy.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller
-
-copying scripts/neural_feedback_controller/worker_plot_evaluation.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller
-
-copying scripts/neural_feedback_controller/tmp_viz.py -> /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller
-
-running install
-
-running install_lib
-
-creating /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller
-
-copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller/worker_analyze_evaluation.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller
-
-copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller/worker_export_saved_model.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller
-
-copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller/nn_definition.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller
-
-copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller/eval.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller
-
-copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller/aux.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller
-
-copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller/worker_optimize_local_policy.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller
-
-copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller/__init__.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller
-
-copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller/worker_generate_nn_training_data.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller
-
-copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller/worker_optimize_ppo.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller
-
-copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller/system_init.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller
-
-copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller/worker_evaluate_marathon.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller
-
-copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller/worker_plot_dyn_learning.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller
-
-copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller/worker_train_neural_network.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller
-
-copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller/makeify.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller
-
-copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller/worker_plot_feedback_ratio.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller
-
-copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller/worker_plot_feedback_nominal.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller
-
-copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller/worker_plot_feedback_nn_only.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller
-
-copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller/generate_local_policies.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller
-
-copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller/visualize.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller
-
-copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller/trajectory_learning.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller
-
-copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller/worker_evaluate_marathon_summary.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller
-
-copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller/gps.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller
-
-copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller/nn_saved_model.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller
-
-copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller/worker_evaluate_policy.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller
-
-copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller/nn_training.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller
-
-copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller/worker_plot_feedback.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller
-
-copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller/worker_rviz_policy.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller
-
-copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller/worker_plot_evaluation.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller
-
-copying /home/administrator/ci/ci/team/workspace/build/catkin/learning/neural_feedback_controller/lib.linux-x86_64-2.7/neural_feedback_controller/tmp_viz.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller
-
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller/worker_analyze_evaluation.py to worker_analyze_evaluation.pyc
-
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller/worker_export_saved_model.py to worker_export_saved_model.pyc
-
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller/nn_definition.py to nn_definition.pyc
-
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller/eval.py to eval.pyc
-
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller/aux.py to aux.pyc
-
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller/worker_optimize_local_policy.py to worker_optimize_local_policy.pyc
-
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller/__init__.py to __init__.pyc
-
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller/worker_generate_nn_training_data.py to worker_generate_nn_training_data.pyc
-
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller/worker_optimize_ppo.py to worker_optimize_ppo.pyc
-
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller/system_init.py to system_init.pyc
-
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller/worker_evaluate_marathon.py to worker_evaluate_marathon.pyc
-
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller/worker_plot_dyn_learning.py to worker_plot_dyn_learning.pyc
-
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller/worker_train_neural_network.py to worker_train_neural_network.pyc
-
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller/makeify.py to makeify.pyc
-
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller/worker_plot_feedback_ratio.py to worker_plot_feedback_ratio.pyc
-
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller/worker_plot_feedback_nominal.py to worker_plot_feedback_nominal.pyc
-
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller/worker_plot_feedback_nn_only.py to worker_plot_feedback_nn_only.pyc
-
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller/generate_local_policies.py to generate_local_policies.pyc
-
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller/visualize.py to visualize.pyc
-
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller/trajectory_learning.py to trajectory_learning.pyc
-
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller/worker_evaluate_marathon_summary.py to worker_evaluate_marathon_summary.pyc
-
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller/gps.py to gps.pyc
-
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller/nn_saved_model.py to nn_saved_model.pyc
-
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller/worker_evaluate_policy.py to worker_evaluate_policy.pyc
-
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller/nn_training.py to nn_training.pyc
-
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller/worker_plot_feedback.py to worker_plot_feedback.pyc
-
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller/worker_rviz_policy.py to worker_rviz_policy.pyc
-
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller/worker_plot_evaluation.py to worker_plot_evaluation.pyc
-
-byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller/tmp_viz.py to tmp_viz.pyc
-
-running install_egg_info
-
-Writing /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/neural_feedback_controller-0.0.0.egg-info
+make: *** [tests] Error 2
 
 Base path: /home/administrator/ci/ci/team/workspace
 
@@ -1572,16 +1719,16 @@ Devel space: /home/administrator/ci/ci/team/workspace/devel
 
 Install space: /home/administrator/ci/ci/team/workspace/install
 
-Creating symlink "/home/administrator/ci/ci/team/workspace/src/CMakeLists.txt" pointing to "/opt/ros/indigo/share/catkin/cmake/toplevel.cmake"
+####
+
+#### Running command: "cmake /home/administrator/ci/ci/team/workspace/src -DCATKIN_DEVEL_PREFIX=/home/administrator/ci/ci/team/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/administrator/ci/ci/team/workspace/install" in "/home/administrator/ci/ci/team/workspace/build"
 
 ####
 
-#### Running command: "cmake /home/administrator/ci/ci/team/workspace/src -DCATKIN_DEVEL_PREFIX=/home/administrator/ci/ci/team/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/administrator/ci/ci/team/workspace/install -G Unix Makefiles" in "/home/administrator/ci/ci/team/workspace/build"
+####
+
+#### Running command: "make -j16 tests" in "/home/administrator/ci/ci/team/workspace/build"
 
 ####
 
-####
-
-#### Running command: "make -j16 install" in "/home/administrator/ci/ci/team/workspace/build"
-
-####
+Invoking "make" failed
