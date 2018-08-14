@@ -1,0 +1,1920 @@
+failed to compile unit tests:
+WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
+
+-- Using CATKIN_DEVEL_PREFIX: /home/administrator/ci/ci/team/workspace/devel
+
+-- Using CMAKE_PREFIX_PATH: /home/administrator/ci/ci/team/workspace/devel;/opt/ros/indigo
+
+-- This workspace overlays: /home/administrator/ci/ci/team/workspace/devel;/opt/ros/indigo
+
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+
+-- Python version: 2.7
+
+-- Using Debian Python package layout
+
+-- Using CATKIN_ENABLE_TESTING: ON
+
+-- Call enable_testing()
+
+-- Using CATKIN_TEST_RESULTS_DIR: /home/administrator/ci/ci/team/workspace/build/test_results
+
+-- Found gtest sources under '/usr/src/gtest': gtests will be built
+
+-- catkin 0.5.90
+
+-- BUILD_SHARED_LIBS is on
+
+WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
+
+WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
+
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-- ~~  traversing 57 packages in topological order:
+
+-- ~~  - Eigen
+
+-- ~~  - apollo_robot_model
+
+-- ~~  - catkin_gflags
+
+-- ~~  - catkin_glog
+
+-- ~~  - cdlbt
+
+-- ~~  - can_control_tools
+
+-- ~~  - conversions
+
+-- ~~  - fl
+
+-- ~~  - dbot
+
+-- ~~  - launch_xtion
+
+-- ~~  - object_meshes
+
+-- ~~  - py_cpp_interface
+
+-- ~~  - pyplot
+
+-- ~~  - qp_oases
+
+-- ~~  - quadprog
+
+-- ~~  - ros_realtime (metapackage)
+
+-- ~~  - allocators
+
+-- ~~  - rosatomic
+
+-- ~~  - lockfree
+
+-- ~~  - rt_timer
+
+-- ~~  - start_robot
+
+-- ~~  - amd_clmc_ros_messages
+
+-- ~~  - ar_track_alvar_msgs
+
+-- ~~  - custom_robot_msgs
+
+-- ~~  - dbot_ros_msgs
+
+-- ~~  - riemo_grasping_msgs
+
+-- ~~  - utilities
+
+-- ~~  - lwpr
+
+-- ~~  - vrpn_vicon_minimum
+
+-- ~~  - vrpn_vicon_objs_tracker
+
+-- ~~  - xenomai_ros
+
+-- ~~  - constrained_inverse_kinematics_msgs
+
+-- ~~  - roscpp_utilities
+
+-- ~~  - rosrt
+
+-- ~~  - ros_rt_test
+
+-- ~~  - sl
+
+-- ~~  - apollo
+
+-- ~~  - apollo_test_task
+
+-- ~~  - sl_python_core
+
+-- ~~  - sl_python_apollo
+
+-- ~~  - sl_ros_servo
+
+-- ~~  - dbot_ros
+
+-- ~~  - python_ros_utils
+
+-- ~~  - table_object_finder
+
+-- ~~  - ros_servo_apollo
+
+-- ~~  - usc_utilities
+
+-- ~~  - learnable_cost_function
+
+-- ~~  - robot_info
+
+-- ~~  - jacobian_utilities
+
+-- ~~  - vicon_bridge
+
+-- ~~  - vicon_core
+
+-- ~~  - vicon_subscriber
+
+-- ~~  - yaml_cpp
+
+-- ~~  - facial_expressions
+
+-- ~~  - pole_balancing_apollo
+
+-- ~~  - apollo_user
+
+-- ~~  - kinect_pole_balancing
+
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-- +++ processing catkin package: 'Eigen'
+
+-- ==> add_subdirectory(catkin/third_party/Eigen)
+
+WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
+
+-- +++ processing catkin package: 'apollo_robot_model'
+
+-- ==> add_subdirectory(catkin/robots/apollo_robot_model)
+
+-- +++ processing catkin package: 'catkin_gflags'
+
+-- ==> add_subdirectory(catkin/third_party/catkin-gflags)
+
+-- Found gflags  (include: /usr/include, library: /usr/lib/x86_64-linux-gnu/libgflags.so)
+
+-- +++ processing catkin package: 'catkin_glog'
+
+-- ==> add_subdirectory(catkin/third_party/catkin-glog)
+
+-- Found glog    (include: /usr/include, library: /usr/lib/x86_64-linux-gnu/libglog.so)
+
+-- +++ processing catkin package: 'cdlbt'
+
+-- ==> add_subdirectory(catkin/ros/barrett-ros/cdlbt)
+
+-- MACHTYPE x86_64
+
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+
+Call Stack (most recent call first):
+
+  catkin/ros/barrett-ros/cdlbt/CMakeLists.txt:8 (include)
+
+
+
+
+
+-- HOST_NAME=everest
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
+
+-- +++ processing catkin package: 'can_control_tools'
+
+-- ==> add_subdirectory(catkin/ros/barrett-ros/canControlTools)
+
+-- MACHTYPE x86_64
+
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+
+Call Stack (most recent call first):
+
+  catkin/ros/barrett-ros/canControlTools/CMakeLists.txt:8 (include)
+
+
+
+
+
+-- HOST_NAME=everest
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
+
+-- Boost version: 1.54.0
+
+-- Found the following Boost libraries:
+
+--   thread
+
+-- +++ processing catkin package: 'conversions'
+
+-- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/usc_utils/conversions)
+
+-- +++ processing catkin package: 'fl'
+
+-- ==> add_subdirectory(catkin/core-perception/fl)
+
+-- Eigen found (include: /usr/include/eigen3)
+
+-- Boost version: 1.54.0
+
+-- +++ processing catkin package: 'dbot'
+
+-- ==> add_subdirectory(catkin/core-perception/dbot)
+
+-- Eigen found (include: /usr/include/eigen3)
+
+-- Boost version: 1.54.0
+
+-- Found the following Boost libraries:
+
+--   system
+
+--   filesystem
+
+-- Found CUDA version 8.0
+
+-- Using catkin
+
+-- +++ processing catkin package: 'launch_xtion'
+
+-- ==> add_subdirectory(catkin/ros/launch_xtion)
+
+-- +++ processing catkin package: 'object_meshes'
+
+-- ==> add_subdirectory(catkin/ros/object_meshes)
+
+-- +++ processing catkin package: 'py_cpp_interface'
+
+-- ==> add_subdirectory(catkin/utils/py_cpp_interface)
+
+-- Boost version: 1.54.0
+
+-- Found the following Boost libraries:
+
+--   system
+
+--   thread
+
+--   python
+
+-- PYTHON_BIN_LOCATION: /usr/bin/python
+
+
+
+-- +++ processing catkin package: 'pyplot'
+
+-- ==> add_subdirectory(catkin/utilities/pyplot)
+
+-- +++ processing catkin package: 'qp_oases'
+
+-- ==> add_subdirectory(catkin/third_party/qp_oases)
+
+-- +++ processing catkin package: 'quadprog'
+
+-- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/usc_utils/quadprog)
+
+-- +++ processing catkin metapackage: 'ros_realtime'
+
+-- ==> add_subdirectory(catkin/ros/ros_realtime/ros_realtime)
+
+-- +++ processing catkin package: 'allocators'
+
+-- ==> add_subdirectory(catkin/ros/ros_realtime/allocators)
+
+-- Boost version: 1.54.0
+
+-- +++ processing catkin package: 'rosatomic'
+
+-- ==> add_subdirectory(catkin/ros/ros_realtime/rosatomic)
+
+-- Boost version: 1.54.0
+
+-- +++ processing catkin package: 'lockfree'
+
+-- ==> add_subdirectory(catkin/ros/ros_realtime/lockfree)
+
+-- Boost version: 1.54.0
+
+-- +++ processing catkin package: 'rt_timer'
+
+-- ==> add_subdirectory(catkin/ros/ros_realtime/rt_timer)
+
+-- +++ processing catkin package: 'start_robot'
+
+-- ==> add_subdirectory(catkin/robots/start_robot)
+
+-- +++ processing catkin package: 'amd_clmc_ros_messages'
+
+-- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/amd_clmc_ros_messages)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- amd_clmc_ros_messages: 108 messages, 10 services
+
+-- +++ processing catkin package: 'ar_track_alvar_msgs'
+
+-- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/ar_track_alvar_msgs)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- ar_track_alvar_msgs: 2 messages, 0 services
+
+-- +++ processing catkin package: 'custom_robot_msgs'
+
+-- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/custom_robot_msgs)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- custom_robot_msgs: 1 messages, 2 services
+
+-- +++ processing catkin package: 'dbot_ros_msgs'
+
+-- ==> add_subdirectory(catkin/ros/dbot_ros_msgs)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- dbot_ros_msgs: 3 messages, 3 services
+
+-- +++ processing catkin package: 'riemo_grasping_msgs'
+
+-- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/riemo_grasping_msgs)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- riemo_grasping_msgs: 5 messages, 3 services
+
+-- +++ processing catkin package: 'utilities'
+
+-- ==> add_subdirectory(catkin/core-sl/catkin-utilities)
+
+-- MACHTYPE x86_64
+
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+
+Call Stack (most recent call first):
+
+  catkin/core-sl/catkin-utilities/CMakeLists.txt:8 (include)
+
+
+
+
+
+-- HOST_NAME=everest
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
+
+-- +++ processing catkin package: 'lwpr'
+
+-- ==> add_subdirectory(catkin/core-sl/catkin-lwpr)
+
+-- MACHTYPE x86_64
+
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+
+Call Stack (most recent call first):
+
+  catkin/core-sl/catkin-lwpr/CMakeLists.txt:5 (include)
+
+
+
+
+
+-- HOST_NAME=everest
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
+
+-- +++ processing catkin package: 'vrpn_vicon_minimum'
+
+-- ==> add_subdirectory(catkin/perception/vrpn_vicon_minimum)
+
+-- +++ processing catkin package: 'vrpn_vicon_objs_tracker'
+
+-- ==> add_subdirectory(catkin/perception/vrpn_vicon_objs_tracker)
+
+-- +++ processing catkin package: 'xenomai_ros'
+
+-- ==> add_subdirectory(catkin/ros/xenomai-ros)
+
+-- +++ processing catkin package: 'constrained_inverse_kinematics_msgs'
+
+-- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/planning/constrained_inverse_kinematics_msgs)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- constrained_inverse_kinematics_msgs: 1 messages, 0 services
+
+-- +++ processing catkin package: 'roscpp_utilities'
+
+-- ==> add_subdirectory(catkin/ros/roscpp_utilities)
+
+-- +++ processing catkin package: 'rosrt'
+
+-- ==> add_subdirectory(catkin/ros/ros_realtime/rosrt)
+
+-- xenomai NOT found. (/usr/local;/usr)
+
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+
+-- Boost version: 1.54.0
+
+-- Found the following Boost libraries:
+
+--   thread
+
+-- +++ processing catkin package: 'ros_rt_test'
+
+-- ==> add_subdirectory(catkin/ros/ros_rt_basic_example)
+
+-- xenomai NOT found. (/usr/local;/usr)
+
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+
+-- +++ processing catkin package: 'sl'
+
+-- ==> add_subdirectory(catkin/core-sl/catkin-sl)
+
+-- MACHTYPE x86_64
+
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+
+Call Stack (most recent call first):
+
+  catkin/core-sl/catkin-sl/CMakeLists.txt:8 (include)
+
+
+
+
+
+-- HOST_NAME=everest
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
+
+-- +++ processing catkin package: 'apollo'
+
+-- ==> add_subdirectory(catkin/robots/catkin-apollo)
+
+-- MACHTYPE x86_64
+
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+
+Call Stack (most recent call first):
+
+  catkin/robots/catkin-apollo/CMakeLists.txt:9 (include)
+
+
+
+
+
+-- HOST_NAME=everest
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
+
+-- +++ processing catkin package: 'apollo_test_task'
+
+-- ==> add_subdirectory(catkin/robots/catkin-sl-apollo-task-example)
+
+-- MACHTYPE x86_64
+
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+
+Call Stack (most recent call first):
+
+  catkin/robots/catkin-sl-apollo-task-example/CMakeLists.txt:8 (include)
+
+
+
+
+
+-- HOST_NAME=everest
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
+
+-- +++ processing catkin package: 'sl_python_core'
+
+-- ==> add_subdirectory(catkin/wrappers/sl_python/sl_python_core)
+
+-- MACHTYPE x86_64
+
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+
+Call Stack (most recent call first):
+
+  catkin/wrappers/sl_python/sl_python_core/CMakeLists.txt:6 (include)
+
+
+
+
+
+-- HOST_NAME=everest
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
+
+-- xenomai NOT found. (/usr/local;/usr)
+
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+
+-- Boost version: 1.54.0
+
+-- Found the following Boost libraries:
+
+--   system
+
+-- +++ processing catkin package: 'sl_python_apollo'
+
+-- ==> add_subdirectory(catkin/wrappers/sl_python/sl_python_apollo)
+
+-- MACHTYPE x86_64
+
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+
+Call Stack (most recent call first):
+
+  catkin/wrappers/sl_python/sl_python_apollo/CMakeLists.txt:6 (include)
+
+
+
+
+
+-- HOST_NAME=everest
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
+
+-- xenomai NOT found. (/usr/local;/usr)
+
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+
+-- Boost version: 1.54.0
+
+-- Found the following Boost libraries:
+
+--   system
+
+-- +++ processing catkin package: 'sl_ros_servo'
+
+-- ==> add_subdirectory(catkin/ros/sl_ros_servo)
+
+-- MACHTYPE x86_64
+
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+
+Call Stack (most recent call first):
+
+  catkin/ros/sl_ros_servo/CMakeLists.txt:5 (include)
+
+
+
+
+
+-- HOST_NAME=everest
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
+
+-- +++ processing catkin package: 'dbot_ros'
+
+-- ==> add_subdirectory(catkin/ros/dbot_ros)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- Boost version: 1.54.0
+
+-- Eigen found (include: /usr/include/eigen3)
+
+-- +++ processing catkin package: 'python_ros_utils'
+
+-- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/usc_utils/python_ros_utils)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- +++ processing catkin package: 'table_object_finder'
+
+-- ==> add_subdirectory(catkin/ros/table_object_finder)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- Boost version: 1.54.0
+
+-- Eigen found (include: /usr/include/eigen3)
+
+-- Boost version: 1.54.0
+
+-- Found the following Boost libraries:
+
+--   system
+
+--   filesystem
+
+--   thread
+
+--   date_time
+
+--   iostreams
+
+--   serialization
+
+--   chrono
+
+-- checking for module 'openni-dev'
+
+--   package 'openni-dev' not found
+
+-- checking for module 'openni2-dev'
+
+--   package 'openni2-dev' not found
+
+** WARNING ** io features related to pcap will be disabled
+
+** WARNING ** io features related to png will be disabled
+
+-- checking for module 'openni-dev'
+
+--   package 'openni-dev' not found
+
+-- checking for module 'openni2-dev'
+
+--   package 'openni2-dev' not found
+
+-- looking for PCL_COMMON
+
+-- looking for PCL_KDTREE
+
+-- looking for PCL_OCTREE
+
+-- looking for PCL_SEARCH
+
+-- looking for PCL_SURFACE
+
+-- looking for PCL_SAMPLE_CONSENSUS
+
+-- looking for PCL_FILTERS
+
+-- looking for PCL_FEATURES
+
+-- looking for PCL_KEYPOINTS
+
+-- looking for PCL_GEOMETRY
+
+-- looking for PCL_IO
+
+-- looking for PCL_VISUALIZATION
+
+-- looking for PCL_SEGMENTATION
+
+-- looking for PCL_PEOPLE
+
+-- looking for PCL_REGISTRATION
+
+-- looking for PCL_RECOGNITION
+
+-- looking for PCL_OUTOFCORE
+
+-- looking for PCL_TRACKING
+
+-- +++ processing catkin package: 'ros_servo_apollo'
+
+-- ==> add_subdirectory(catkin/ros/ros_servo_apollo)
+
+-- MACHTYPE x86_64
+
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+
+Call Stack (most recent call first):
+
+  catkin/ros/ros_servo_apollo/CMakeLists.txt:5 (include)
+
+
+
+
+
+-- HOST_NAME=everest
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- +++ processing catkin package: 'usc_utilities'
+
+-- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/usc_utils/usc_utilities)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- usc_utilities: 1 messages, 0 services
+
+-- +++ processing catkin package: 'learnable_cost_function'
+
+-- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/planning/learnable_cost_function)
+
+-- +++ processing catkin package: 'robot_info'
+
+-- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/usc_utils/robot_info)
+
+-- +++ processing catkin package: 'jacobian_utilities'
+
+-- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/usc_utils/jacobian_utilities)
+
+-- +++ processing catkin package: 'vicon_bridge'
+
+-- ==> add_subdirectory(catkin/perception/vicon_bridge)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- Boost version: 1.54.0
+
+-- Found the following Boost libraries:
+
+--   thread
+
+-- vicon_bridge: 3 messages, 2 services
+
+-- +++ processing catkin package: 'vicon_core'
+
+-- ==> add_subdirectory(catkin/sensors/vicon-core)
+
+-- MACHTYPE x86_64
+
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+
+Call Stack (most recent call first):
+
+  catkin/sensors/vicon-core/CMakeLists.txt:8 (include)
+
+
+
+
+
+-- HOST_NAME=everest
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
+
+-- xenomai NOT found. (/usr/local;/usr)
+
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- +++ processing catkin package: 'vicon_subscriber'
+
+-- ==> add_subdirectory(catkin/perception/vicon_subscriber)
+
+-- Boost version: 1.54.0
+
+-- +++ processing catkin package: 'yaml_cpp'
+
+-- ==> add_subdirectory(catkin/third_party/YAML_CPP)
+
+-- Boost version: 1.54.0
+
+-- +++ processing catkin package: 'facial_expressions'
+
+-- ==> add_subdirectory(catkin/emotions/facial_expressions)
+
+-- MACHTYPE x86_64
+
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+
+Call Stack (most recent call first):
+
+  catkin/emotions/facial_expressions/CMakeLists.txt:6 (include)
+
+
+
+
+
+-- HOST_NAME=everest
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- facial_expressions: 0 messages, 1 services
+
+-- +++ processing catkin package: 'pole_balancing_apollo'
+
+-- ==> add_subdirectory(catkin/learning/pole_balancing_apollo)
+
+-- MACHTYPE x86_64
+
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+
+Call Stack (most recent call first):
+
+  catkin/learning/pole_balancing_apollo/CMakeLists.txt:10 (include)
+
+
+
+
+
+-- HOST_NAME=everest
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- xenomai NOT found. (/usr/local;/usr)
+
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+
+-- pole_balancing_apollo: 2 messages, 0 services
+
+-- +++ processing catkin package: 'apollo_user'
+
+-- ==> add_subdirectory(catkin/robots/catkin-apolloUser)
+
+-- MACHTYPE x86_64
+
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+
+Call Stack (most recent call first):
+
+  catkin/robots/catkin-apolloUser/CMakeLists.txt:8 (include)
+
+
+
+
+
+-- HOST_NAME=everest
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
+
+-- xenomai NOT found. (/usr/local;/usr)
+
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+
+-- +++ processing catkin package: 'kinect_pole_balancing'
+
+-- ==> add_subdirectory(catkin/ros/kinect_pole_balancing)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- Boost version: 1.54.0
+
+-- kinect_pole_balancing: 1 messages, 0 services
+
+-- Configuring done
+
+-- Generating done
+
+-- Build files have been written to: /home/administrator/ci/ci/team/workspace/build
+
+Scanning dependencies of target gtest
+
+[  0%] Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+
+[  0%] Built target lockfree
+
+Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libdbot_gpu.so
+
+[ 13%] Built target dbot
+
+[ 13%] Built target dbot_gpu
+
+Linking CXX shared library libgtest.so
+
+[ 13%] Built target gtest
+
+Scanning dependencies of target gtest_main
+
+[ 20%] Building CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+
+Linking CXX shared library libgtest_main.so
+
+[ 20%] Built target gtest_main
+
+Scanning dependencies of target options_test
+
+Scanning dependencies of target descriptor_test
+
+[ 26%] Building CXX object catkin/core-perception/fl/test/CMakeFiles/descriptor_test.dir/utils/descriptor_test.cpp.o
+
+Scanning dependencies of target join_test
+
+Scanning dependencies of target traits_test
+
+Scanning dependencies of target la_square_root_test
+
+Scanning dependencies of target scalar_matrix_test
+
+[ 26%] Scanning dependencies of target meta_test
+
+Building CXX object catkin/core-perception/fl/test/CMakeFiles/options_test.dir/utils/options_test.cpp.o
+
+Scanning dependencies of target pole_balancing_ut
+
+[ 33%] [ 33%] Scanning dependencies of target la_is_diagonal_test
+
+Scanning dependencies of target sp_normal_to_uniform_test
+
+Building CXX object catkin/core-perception/fl/test/CMakeFiles/join_test.dir/utils/join_test.cpp.o
+
+[ 33%] [ 33%] [ 33%] Building CXX object catkin/core-perception/fl/test/CMakeFiles/scalar_matrix_test.dir/utils/scalar_matrix_test.cpp.o
+
+Building CXX object catkin/core-perception/fl/test/CMakeFiles/la_square_root_test.dir/utils/linear_algebra_square_root_test.cpp.o
+
+[ 33%] Building CXX object catkin/learning/pole_balancing_apollo/CMakeFiles/pole_balancing_ut.dir/tests/main_test.cpp.o
+
+[ 33%] Scanning dependencies of target linear_gaussian_sensor_test
+
+[ 33%] [ 40%] Building CXX object catkin/core-perception/fl/test/CMakeFiles/meta_test.dir/utils/meta_test.cpp.o
+
+Scanning dependencies of target linear_uncorrelated_gaussian_sensor_test
+
+Building CXX object catkin/core-perception/fl/test/CMakeFiles/traits_test.dir/utils/traits_test.cpp.o
+
+Building CXX object catkin/core-perception/fl/test/CMakeFiles/sp_normal_to_uniform_test.dir/utils/special_functions_normal_to_uniform_test.cpp.o
+
+Scanning dependencies of target la_smw_inversion_test
+
+[ 40%] Building CXX object catkin/learning/pole_balancing_apollo/CMakeFiles/pole_balancing_ut.dir/src/pole_balancing_apollo/parameters.cpp.o
+
+Building CXX object catkin/core-perception/fl/test/CMakeFiles/la_is_diagonal_test.dir/utils/linear_algebra_is_diagonal_test.cpp.o
+
+Building CXX object catkin/core-perception/fl/test/CMakeFiles/linear_gaussian_sensor_test.dir/model/sensor/linear_gaussian_sensor_test.cpp.o
+
+[ 40%] Scanning dependencies of target body_tail_sensor_test
+
+[ 46%] Building CXX object catkin/core-perception/fl/test/CMakeFiles/linear_uncorrelated_gaussian_sensor_test.dir/model/sensor/linear_uncorrelated_gaussian_sensor_test.cpp.o
+
+[ 46%] Building CXX object catkin/core-perception/fl/test/CMakeFiles/la_smw_inversion_test.dir/utils/linear_algebra_smw_inversion_test.cpp.o
+
+Scanning dependencies of target joint_sensor_iid_test
+
+Building CXX object catkin/core-perception/fl/test/CMakeFiles/body_tail_sensor_test.dir/model/sensor/body_tail_sensor_test.cpp.o
+
+[ 46%] Building CXX object catkin/core-perception/fl/test/CMakeFiles/joint_sensor_iid_test.dir/model/sensor/joint_sensor_iid_test.cpp.o
+
+[ 46%] Building CXX object catkin/learning/pole_balancing_apollo/CMakeFiles/pole_balancing_ut.dir/tests/test_parameters.cpp.o
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/descriptor_test
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/options_test
+
+[ 46%] Built target descriptor_test
+
+[ 46%] Built target options_test
+
+Scanning dependencies of target linear_transition_test
+
+Scanning dependencies of target orientation_transition_function_test
+
+[ 46%] [ 46%] Building CXX object catkin/core-perception/fl/test/CMakeFiles/linear_transition_test.dir/model/transition/linear_transition_test.cpp.o
+
+Building CXX object catkin/core-perception/fl/test/CMakeFiles/orientation_transition_function_test.dir/model/transition/orientation_transition_function_test.cpp.o
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/join_test
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/sp_normal_to_uniform_test
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/traits_test
+
+[ 46%] [ 46%] Built target join_test
+
+Built target sp_normal_to_uniform_test
+
+Scanning dependencies of target binary_transition_density_test
+
+Scanning dependencies of target filter_interface_test
+
+[ 53%] [ 53%] Building CXX object catkin/core-perception/fl/test/CMakeFiles/binary_transition_density_test.dir/model/binary_transition_density_test.cpp.o
+
+Building CXX object catkin/core-perception/fl/test/CMakeFiles/filter_interface_test.dir/filter_interface/filter_interface_test.cpp.o
+
+[ 53%] Built target traits_test
+
+Scanning dependencies of target gaussian_distribution_test
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/meta_test
+
+[ 53%] Building CXX object catkin/core-perception/fl/test/CMakeFiles/gaussian_distribution_test.dir/distribution/gaussian_test.cpp.o
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/scalar_matrix_test
+
+[ 53%] Built target meta_test
+
+Scanning dependencies of target decorrelated_gaussian_distribution_test
+
+[ 53%] Building CXX object catkin/core-perception/fl/test/CMakeFiles/decorrelated_gaussian_distribution_test.dir/distribution/decorrelated_gaussian_test.cpp.o
+
+[ 53%] Built target scalar_matrix_test
+
+Scanning dependencies of target discrete_distribution_test
+
+[ 53%] Building CXX object catkin/core-perception/fl/test/CMakeFiles/discrete_distribution_test.dir/distribution/discrete_distribution_test.cpp.o
+
+Scanning dependencies of target chi_squared_distribution_test
+
+[ 53%] Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/la_is_diagonal_test
+
+Building CXX object catkin/core-perception/fl/test/CMakeFiles/chi_squared_distribution_test.dir/distribution/chi_squared_distribution_test.cpp.o
+
+[ 53%] Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/orientation_transition_function_test
+
+Built target la_is_diagonal_test
+
+Scanning dependencies of target t_distribution_test
+
+[ 53%] Building CXX object catkin/core-perception/fl/test/CMakeFiles/t_distribution_test.dir/distribution/t_distribution_test.cpp.o
+
+[ 53%] Built target orientation_transition_function_test
+
+Scanning dependencies of target exception_test
+
+[ 53%] Building CXX object catkin/core-perception/fl/test/CMakeFiles/exception_test.dir/exception/exception_test.cpp.o
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/binary_transition_density_test
+
+[ 53%] Built target binary_transition_density_test
+
+Scanning dependencies of target unscented_transform_test_test
+
+[ 53%] Building CXX object catkin/core-perception/fl/test/CMakeFiles/unscented_transform_test_test.dir/gaussian_filter/unscented_transform_test.cpp.o
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/filter_interface_test
+
+[ 53%] Built target filter_interface_test
+
+Scanning dependencies of target gaussian_filter_kalman_filter_test
+
+[ 53%] Building CXX object catkin/core-perception/fl/test/CMakeFiles/gaussian_filter_kalman_filter_test.dir/gaussian_filter/kalman_filter_test.cpp.o
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/la_smw_inversion_test
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/pole_balancing_apollo/pole_balancing_ut
+
+CMakeFiles/pole_balancing_ut.dir/src/pole_balancing_apollo/parameters.cpp.o: In function `parameters::YAML_pole_balancing_config::YAML_pole_balancing_config(std::string)':
+
+parameters.cpp:(.text+0x4e): undefined reference to `YAML::LoadFile(std::string const&)'
+
+CMakeFiles/pole_balancing_ut.dir/src/pole_balancing_apollo/parameters.cpp.o: In function `YAML::detail::memory_holder::create_node()':
+
+parameters.cpp:(.text._ZN4YAML6detail13memory_holder11create_nodeEv[_ZN4YAML6detail13memory_holder11create_nodeEv]+0x1c): undefined reference to `YAML::detail::memory::create_node()'
+
+CMakeFiles/pole_balancing_ut.dir/src/pole_balancing_apollo/parameters.cpp.o: In function `YAML::detail::node_ref::mark_defined()':
+
+parameters.cpp:(.text._ZN4YAML6detail8node_ref12mark_definedEv[_ZN4YAML6detail8node_ref12mark_definedEv]+0x1c): undefined reference to `YAML::detail::node_data::mark_defined()'
+
+CMakeFiles/pole_balancing_ut.dir/src/pole_balancing_apollo/parameters.cpp.o: In function `YAML::detail::node_ref::set_null()':
+
+parameters.cpp:(.text._ZN4YAML6detail8node_ref8set_nullEv[_ZN4YAML6detail8node_ref8set_nullEv]+0x1c): undefined reference to `YAML::detail::node_data::set_null()'
+
+CMakeFiles/pole_balancing_ut.dir/src/pole_balancing_apollo/parameters.cpp.o: In function `YAML::Node::AssignNode(YAML::Node const&)':
+
+parameters.cpp:(.text._ZN4YAML4Node10AssignNodeERKS0_[_ZN4YAML4Node10AssignNodeERKS0_]+0xe1): undefined reference to `YAML::detail::memory_holder::merge(YAML::detail::memory_holder&)'
+
+CMakeFiles/pole_balancing_ut.dir/tests/test_parameters.cpp.o: In function `YAML::detail::node_ref::set_scalar(std::string const&)':
+
+test_parameters.cpp:(.text._ZN4YAML6detail8node_ref10set_scalarERKSs[_ZN4YAML6detail8node_ref10set_scalarERKSs]+0x27): undefined reference to `YAML::detail::node_data::set_scalar(std::string const&)'
+
+CMakeFiles/pole_balancing_ut.dir/tests/test_parameters.cpp.o: In function `YAML::detail::node_ref::begin()':
+
+test_parameters.cpp:(.text._ZN4YAML6detail8node_ref5beginEv[_ZN4YAML6detail8node_ref5beginEv]+0x2a): undefined reference to `YAML::detail::node_data::begin()'
+
+CMakeFiles/pole_balancing_ut.dir/tests/test_parameters.cpp.o: In function `YAML::detail::node_ref::end()':
+
+test_parameters.cpp:(.text._ZN4YAML6detail8node_ref3endEv[_ZN4YAML6detail8node_ref3endEv]+0x2a): undefined reference to `YAML::detail::node_data::end()'
+
+CMakeFiles/pole_balancing_ut.dir/tests/test_parameters.cpp.o: In function `YAML::detail::node_ref::push_back(YAML::detail::node&, boost::shared_ptr<YAML::detail::memory_holder>)':
+
+test_parameters.cpp:(.text._ZN4YAML6detail8node_ref9push_backERNS0_4nodeEN5boost10shared_ptrINS0_13memory_holderEEE[_ZN4YAML6detail8node_ref9push_backERNS0_4nodeEN5boost10shared_ptrINS0_13memory_holderEEE]+0x43): undefined reference to `YAML::detail::node_data::push_back(YAML::detail::node&, boost::shared_ptr<YAML::detail::memory_holder>)'
+
+CMakeFiles/pole_balancing_ut.dir/tests/test_parameters.cpp.o: In function `YAML::Node::Scalar() const':
+
+test_parameters.cpp:(.text._ZNK4YAML4Node6ScalarEv[_ZNK4YAML4Node6ScalarEv]+0x64): undefined reference to `YAML::detail::node_data::empty_scalar'
+
+CMakeFiles/pole_balancing_ut.dir/tests/test_parameters.cpp.o: In function `YAML::Node::AssignData(YAML::Node const&)':
+
+test_parameters.cpp:(.text._ZN4YAML4Node10AssignDataERKS0_[_ZN4YAML4Node10AssignDataERKS0_]+0xb3): undefined reference to `YAML::detail::memory_holder::merge(YAML::detail::memory_holder&)'
+
+CMakeFiles/pole_balancing_ut.dir/tests/test_parameters.cpp.o: In function `YAML::Node::push_back(YAML::Node const&)':
+
+test_parameters.cpp:(.text._ZN4YAML4Node9push_backERKS0_[_ZN4YAML4Node9push_backERKS0_]+0xda): undefined reference to `YAML::detail::memory_holder::merge(YAML::detail::memory_holder&)'
+
+CMakeFiles/pole_balancing_ut.dir/tests/test_parameters.cpp.o: In function `parameters_tests::SetUp()':
+
+test_parameters.cpp:(.text._ZN16parameters_tests5SetUpEv[_ZN16parameters_tests5SetUpEv]+0x2fc): undefined reference to `YAML::operator<<(std::ostream&, YAML::Node const&)'
+
+CMakeFiles/pole_balancing_ut.dir/tests/test_parameters.cpp.o: In function `YAML::detail::node& YAML::detail::node_data::get<std::string>(std::string const&, boost::shared_ptr<YAML::detail::memory_holder>)':
+
+test_parameters.cpp:(.text._ZN4YAML6detail9node_data3getISsEERNS0_4nodeERKT_N5boost10shared_ptrINS0_13memory_holderEEE[_ZN4YAML6detail9node_data3getISsEERNS0_4nodeERKT_N5boost10shared_ptrINS0_13memory_holderEEE]+0xae): undefined reference to `YAML::detail::node_data::convert_to_map(boost::shared_ptr<YAML::detail::memory_holder>)'
+
+test_parameters.cpp:(.text._ZN4YAML6detail9node_data3getISsEERNS0_4nodeERKT_N5boost10shared_ptrINS0_13memory_holderEEE[_ZN4YAML6detail9node_data3getISsEERNS0_4nodeERKT_N5boost10shared_ptrINS0_13memory_holderEEE]+0x21c): undefined reference to `YAML::detail::node_data::insert_map_pair(YAML::detail::node&, YAML::detail::node&)'
+
+CMakeFiles/pole_balancing_ut.dir/tests/test_parameters.cpp.o: In function `YAML::as_if<bool, void>::operator()() const':
+
+test_parameters.cpp:(.text._ZNK4YAML5as_ifIbvEclEv[_ZNK4YAML5as_ifIbvEclEv]+0x58): undefined reference to `YAML::convert<bool>::decode(YAML::Node const&, bool&)'
+
+CMakeFiles/pole_balancing_ut.dir/tests/test_parameters.cpp.o: In function `YAML::detail::node& YAML::detail::node_data::convert_to_node<std::string>(std::string const&, boost::shared_ptr<YAML::detail::memory_holder>)':
+
+test_parameters.cpp:(.text._ZN4YAML6detail9node_data15convert_to_nodeISsEERNS0_4nodeERKT_N5boost10shared_ptrINS0_13memory_holderEEE[_ZN4YAML6detail9node_data15convert_to_nodeISsEERNS0_4nodeERKT_N5boost10shared_ptrINS0_13memory_holderEEE]+0x56): undefined reference to `YAML::detail::memory_holder::merge(YAML::detail::memory_holder&)'
+
+collect2: error: ld returned 1 exit status
+
+make[3]: *** [/home/administrator/ci/ci/team/workspace/devel/lib/pole_balancing_apollo/pole_balancing_ut] Error 1
+
+make[2]: *** [catkin/learning/pole_balancing_apollo/CMakeFiles/pole_balancing_ut.dir/all] Error 2
+
+make[2]: *** Waiting for unfinished jobs....
+
+[ 53%] Built target la_smw_inversion_test
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/exception_test
+
+[ 53%] Built target exception_test
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/la_square_root_test
+
+In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/kalman_filter_test.cpp:25:0:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:87:17: error: wrong number of template arguments (2, should be 3)
+
+                 > LinearTransition;
+
+                 ^
+
+In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:35:0,
+
+                 from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/kalman_filter_test.cpp:25:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/model/transition/linear_transition.hpp:42:7: error: provided for ‘template<class State_, class Noise_, class Input_> class fl::LinearTransition’
+
+ class LinearTransition
+
+       ^
+
+In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/kalman_filter_test.cpp:25:0:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp: In member function ‘GaussianFilterTest<TestType>::ModelFactory::LinearTransition GaussianFilterTest<TestType>::ModelFactory::create_linear_state_model()’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:97:28: error: request for member ‘create_dynamics_matrix’ in ‘model’, which is of non-class type ‘int’
+
+             auto A = model.create_dynamics_matrix();
+
+                            ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:98:28: error: request for member ‘create_noise_matrix’ in ‘model’, which is of non-class type ‘int’
+
+             auto Q = model.create_noise_matrix();
+
+                            ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:113:19: error: request for member ‘dynamics_matrix’ in ‘model’, which is of non-class type ‘int’
+
+             model.dynamics_matrix(A);
+
+                   ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:114:19: error: request for member ‘noise_matrix’ in ‘model’, which is of non-class type ‘int’
+
+             model.noise_matrix(Q);
+
+                   ^
+
+In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/kalman_filter_test.cpp:27:0:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_linear.hpp: In instantiation of ‘struct fl::Traits<fl::GaussianFilter<int, fl::LinearGaussianSensor<Eigen::Matrix<double, 2, 1, 0, 2, 1>, Eigen::Matrix<double, 3, 1, 0, 3, 1> > > >’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:157:40:   required from ‘class GaussianFilterTest<fl::StaticTest<KalmanFilterTestConfiguration<3, 1, 2> > >’
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:197:1:   required from ‘class gtest_case_GaussianFilterTest_::predict_then_update<fl::StaticTest<KalmanFilterTestConfiguration<3, 1, 2> > >’
+
+/usr/include/gtest/internal/gtest-internal.h:663:39:   required from ‘static bool testing::internal::TypeParameterizedTest<Fixture, TestSel, Types>::Register(const char*, const char*, const char*, int) [with Fixture = GaussianFilterTest; TestSel = testing::internal::TemplateSel<gtest_case_GaussianFilterTest_::predict_then_update>; Types = testing::internal::Types6<fl::StaticTest<KalmanFilterTestConfiguration<3, 1, 2> >, fl::StaticTest<KalmanFilterTestConfiguration<3, 3, 10> >, fl::StaticTest<KalmanFilterTestConfiguration<10, 10, 20> >, fl::DynamicTest<KalmanFilterTestConfiguration<3, 1, 2> >, fl::DynamicTest<KalmanFilterTestConfiguration<3, 3, 10> >, fl::DynamicTest<KalmanFilterTestConfiguration<10, 10, 20> > >]’
+
+/usr/include/gtest/internal/gtest-internal.h:694:41:   required from ‘static bool testing::internal::TypeParameterizedTestCase<Fixture, Tests, Types>::Register(const char*, const char*, const char*) [with Fixture = GaussianFilterTest; Tests = testing::internal::Templates2<gtest_case_GaussianFilterTest_::predict_then_update, gtest_case_GaussianFilterTest_::predict_loop>; Types = testing::internal::Types6<fl::StaticTest<KalmanFilterTestConfiguration<3, 1, 2> >, fl::StaticTest<KalmanFilterTestConfiguration<3, 3, 10> >, fl::StaticTest<KalmanFilterTestConfiguration<10, 10, 20> >, fl::DynamicTest<KalmanFilterTestConfiguration<3, 1, 2> >, fl::DynamicTest<KalmanFilterTestConfiguration<3, 3, 10> >, fl::DynamicTest<KalmanFilterTestConfiguration<10, 10, 20> > >]’
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/kalman_filter_test.cpp:74:1:   required from here
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_linear.hpp:59:46: error: ‘int’ is not a class, struct, or union type
+
+     typedef typename LinearTransition::State State;
+
+                                              ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_linear.hpp:60:46: error: ‘int’ is not a class, struct, or union type
+
+     typedef typename LinearTransition::Input Input;
+
+                                              ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_linear.hpp:62:29: error: ‘int’ is not a class, struct, or union type
+
+     typedef Gaussian<State> Belief;
+
+                             ^
+
+[ 53%] Built target la_square_root_test
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_linear.hpp: In instantiation of ‘struct fl::Traits<fl::GaussianFilter<int, fl::LinearGaussianSensor<Eigen::Matrix<double, 10, 1, 0, 10, 1>, Eigen::Matrix<double, 3, 1, 0, 3, 1> > > >’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:157:40:   required from ‘class GaussianFilterTest<fl::StaticTest<KalmanFilterTestConfiguration<3, 3, 10> > >’
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:241:1:   required from ‘class gtest_case_GaussianFilterTest_::predict_loop<fl::StaticTest<KalmanFilterTestConfiguration<3, 3, 10> > >’
+
+/usr/include/gtest/internal/gtest-internal.h:663:39:   required from ‘static bool testing::internal::TypeParameterizedTest<Fixture, TestSel, Types>::Register(const char*, const char*, const char*, int) [with Fixture = GaussianFilterTest; TestSel = testing::internal::TemplateSel<gtest_case_GaussianFilterTest_::predict_loop>; Types = testing::internal::Types5<fl::StaticTest<KalmanFilterTestConfiguration<3, 3, 10> >, fl::StaticTest<KalmanFilterTestConfiguration<10, 10, 20> >, fl::DynamicTest<KalmanFilterTestConfiguration<3, 1, 2> >, fl::DynamicTest<KalmanFilterTestConfiguration<3, 3, 10> >, fl::DynamicTest<KalmanFilterTestConfiguration<10, 10, 20> > >]’
+
+/usr/include/gtest/internal/gtest-internal.h:667:60:   required from ‘static bool testing::internal::TypeParameterizedTest<Fixture, TestSel, Types>::Register(const char*, const char*, const char*, int) [with Fixture = GaussianFilterTest; TestSel = testing::internal::TemplateSel<gtest_case_GaussianFilterTest_::predict_loop>; Types = testing::internal::Types6<fl::StaticTest<KalmanFilterTestConfiguration<3, 1, 2> >, fl::StaticTest<KalmanFilterTestConfiguration<3, 3, 10> >, fl::StaticTest<KalmanFilterTestConfiguration<10, 10, 20> >, fl::DynamicTest<KalmanFilterTestConfiguration<3, 1, 2> >, fl::DynamicTest<KalmanFilterTestConfiguration<3, 3, 10> >, fl::DynamicTest<KalmanFilterTestConfiguration<10, 10, 20> > >]’
+
+/usr/include/gtest/internal/gtest-internal.h:694:41:   required from ‘static bool testing::internal::TypeParameterizedTestCase<Fixture, Tests, Types>::Register(const char*, const char*, const char*) [with Fixture = GaussianFilterTest; Tests = testing::internal::Templates1<gtest_case_GaussianFilterTest_::predict_loop>; Types = testing::internal::Types6<fl::StaticTest<KalmanFilterTestConfiguration<3, 1, 2> >, fl::StaticTest<KalmanFilterTestConfiguration<3, 3, 10> >, fl::StaticTest<KalmanFilterTestConfiguration<10, 10, 20> >, fl::DynamicTest<KalmanFilterTestConfiguration<3, 1, 2> >, fl::DynamicTest<KalmanFilterTestConfiguration<3, 3, 10> >, fl::DynamicTest<KalmanFilterTestConfiguration<10, 10, 20> > >]’
+
+/usr/include/gtest/internal/gtest-internal.h:698:60:   required from ‘static bool testing::internal::TypeParameterizedTestCase<Fixture, Tests, Types>::Register(const char*, const char*, const char*) [with Fixture = GaussianFilterTest; Tests = testing::internal::Templates2<gtest_case_GaussianFilterTest_::predict_then_update, gtest_case_GaussianFilterTest_::predict_loop>; Types = testing::internal::Types6<fl::StaticTest<KalmanFilterTestConfiguration<3, 1, 2> >, fl::StaticTest<KalmanFilterTestConfiguration<3, 3, 10> >, fl::StaticTest<KalmanFilterTestConfiguration<10, 10, 20> >, fl::DynamicTest<KalmanFilterTestConfiguration<3, 1, 2> >, fl::DynamicTest<KalmanFilterTestConfiguration<3, 3, 10> >, fl::DynamicTest<KalmanFilterTestConfiguration<10, 10, 20> > >]’
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/kalman_filter_test.cpp:74:1:   required from here
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_linear.hpp:59:46: error: ‘int’ is not a class, struct, or union type
+
+     typedef typename LinearTransition::State State;
+
+                                              ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_linear.hpp:60:46: error: ‘int’ is not a class, struct, or union type
+
+     typedef typename LinearTransition::Input Input;
+
+                                              ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_linear.hpp:62:29: error: ‘int’ is not a class, struct, or union type
+
+     typedef Gaussian<State> Belief;
+
+                             ^
+
+In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/util/meta/size_deduction.hpp:23:0,
+
+                 from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/util/meta.hpp:23,
+
+                 from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/../typecast.hpp:23,
+
+                 from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/kalman_filter_test.cpp:21:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/util/traits.hpp: In instantiation of ‘struct fl::ForwardLinearModelOnly<int>’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_linear.hpp:82:7:   required from ‘class fl::GaussianFilter<int, fl::LinearGaussianSensor<Eigen::Matrix<double, 10, 1, 0, 10, 1>, Eigen::Matrix<double, 3, 1, 0, 3, 1> > >’
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:245:53:   required from ‘void gtest_case_GaussianFilterTest_::predict_loop<gtest_TypeParam_>::TestBody() [with gtest_TypeParam_ = fl::StaticTest<KalmanFilterTestConfiguration<3, 3, 10> >]’
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/kalman_filter_test.cpp:76:41:   required from here
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/util/traits.hpp:436:5: error: static assertion failed: The specified model is not linear!
+
+     static_assert(std::is_base_of<internal::LinearModelType, Model>::value,
+
+     ^
+
+In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/kalman_filter_test.cpp:27:0:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_linear.hpp: In instantiation of ‘class fl::GaussianFilter<int, fl::LinearGaussianSensor<Eigen::Matrix<double, 10, 1, 0, 10, 1>, Eigen::Matrix<double, 3, 1, 0, 3, 1> > >’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:245:53:   required from ‘void gtest_case_GaussianFilterTest_::predict_loop<gtest_TypeParam_>::TestBody() [with gtest_TypeParam_ = fl::StaticTest<KalmanFilterTestConfiguration<3, 3, 10> >]’
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/kalman_filter_test.cpp:76:41:   required from here
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_linear.hpp:94:46: error: ‘int’ is not a class, struct, or union type
+
+     typedef typename LinearTransition::State State;
+
+                                              ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_linear.hpp:95:46: error: ‘int’ is not a class, struct, or union type
+
+     typedef typename LinearTransition::Input Input;
+
+                                              ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_linear.hpp:103:29: error: ‘int’ is not a class, struct, or union type
+
+     typedef Gaussian<State> Belief;
+
+                             ^
+
+In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/kalman_filter_test.cpp:25:0:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp: In instantiation of ‘void gtest_case_GaussianFilterTest_::predict_loop<gtest_TypeParam_>::TestBody() [with gtest_TypeParam_ = fl::StaticTest<KalmanFilterTestConfiguration<3, 3, 10> >]’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/kalman_filter_test.cpp:76:41:   required from here
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:246:40: error: ‘class fl::GaussianFilter<int, fl::LinearGaussianSensor<Eigen::Matrix<double, 10, 1, 0, 10, 1>, Eigen::Matrix<double, 3, 1, 0, 3, 1> > >’ has no member named ‘create_belief’
+
+     auto belief = filter.create_belief();
+
+                                        ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:252:9: error: ‘class fl::GaussianFilter<int, fl::LinearGaussianSensor<Eigen::Matrix<double, 10, 1, 0, 10, 1>, Eigen::Matrix<double, 3, 1, 0, 3, 1> > >’ has no member named ‘predict’
+
+         filter.predict(belief, This::zero_input(filter), belief);
+
+         ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:252:55: error: ‘zero_input’ is not a member of ‘This {aka GaussianFilterTest<fl::StaticTest<KalmanFilterTestConfiguration<3, 3, 10> > >}’
+
+         filter.predict(belief, This::zero_input(filter), belief);
+
+                                                       ^
+
+In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/kalman_filter_test.cpp:27:0:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_linear.hpp: In instantiation of ‘class fl::GaussianFilter<int, fl::LinearGaussianSensor<Eigen::Matrix<double, 2, 1, 0, 2, 1>, Eigen::Matrix<double, 3, 1, 0, 3, 1> > >’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:245:53:   required from ‘void gtest_case_GaussianFilterTest_::predict_loop<gtest_TypeParam_>::TestBody() [with gtest_TypeParam_ = fl::StaticTest<KalmanFilterTestConfiguration<3, 1, 2> >]’
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/kalman_filter_test.cpp:76:41:   required from here
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_linear.hpp:94:46: error: ‘int’ is not a class, struct, or union type
+
+     typedef typename LinearTransition::State State;
+
+                                              ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_linear.hpp:95:46: error: ‘int’ is not a class, struct, or union type
+
+     typedef typename LinearTransition::Input Input;
+
+                                              ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_linear.hpp:103:29: error: ‘int’ is not a class, struct, or union type
+
+     typedef Gaussian<State> Belief;
+
+                             ^
+
+In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/kalman_filter_test.cpp:25:0:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp: In instantiation of ‘void gtest_case_GaussianFilterTest_::predict_loop<gtest_TypeParam_>::TestBody() [with gtest_TypeParam_ = fl::StaticTest<KalmanFilterTestConfiguration<3, 1, 2> >]’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/kalman_filter_test.cpp:76:41:   required from here
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:246:40: error: ‘class fl::GaussianFilter<int, fl::LinearGaussianSensor<Eigen::Matrix<double, 2, 1, 0, 2, 1>, Eigen::Matrix<double, 3, 1, 0, 3, 1> > >’ has no member named ‘create_belief’
+
+     auto belief = filter.create_belief();
+
+                                        ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:252:9: error: ‘class fl::GaussianFilter<int, fl::LinearGaussianSensor<Eigen::Matrix<double, 2, 1, 0, 2, 1>, Eigen::Matrix<double, 3, 1, 0, 3, 1> > >’ has no member named ‘predict’
+
+         filter.predict(belief, This::zero_input(filter), belief);
+
+         ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:252:55: error: ‘zero_input’ is not a member of ‘This {aka GaussianFilterTest<fl::StaticTest<KalmanFilterTestConfiguration<3, 1, 2> > >}’
+
+         filter.predict(belief, This::zero_input(filter), belief);
+
+                                                       ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp: In instantiation of ‘void gtest_case_GaussianFilterTest_::predict_then_update<gtest_TypeParam_>::TestBody() [with gtest_TypeParam_ = fl::StaticTest<KalmanFilterTestConfiguration<3, 1, 2> >]’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/kalman_filter_test.cpp:76:41:   required from here
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:205:40: error: ‘class fl::GaussianFilter<int, fl::LinearGaussianSensor<Eigen::Matrix<double, 2, 1, 0, 2, 1>, Eigen::Matrix<double, 3, 1, 0, 3, 1> > >’ has no member named ‘create_belief’
+
+     auto belief = filter.create_belief();
+
+                                        ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:215:9: error: ‘class fl::GaussianFilter<int, fl::LinearGaussianSensor<Eigen::Matrix<double, 2, 1, 0, 2, 1>, Eigen::Matrix<double, 3, 1, 0, 3, 1> > >’ has no member named ‘predict’
+
+         filter.predict(belief, This::zero_input(filter), belief);
+
+         ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:215:55: error: ‘zero_input’ is not a member of ‘This {aka GaussianFilterTest<fl::StaticTest<KalmanFilterTestConfiguration<3, 1, 2> > >}’
+
+         filter.predict(belief, This::zero_input(filter), belief);
+
+                                                       ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:226:9: error: ‘class fl::GaussianFilter<int, fl::LinearGaussianSensor<Eigen::Matrix<double, 2, 1, 0, 2, 1>, Eigen::Matrix<double, 3, 1, 0, 3, 1> > >’ has no member named ‘update’
+
+         filter.update(belief, This::rand_obsrv(filter), belief);
+
+         ^
+
+In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/kalman_filter_test.cpp:27:0:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_linear.hpp: In instantiation of ‘std::string fl::GaussianFilter<LinearTransition, LinearSensor>::name() const [with LinearTransition = int; LinearSensor = fl::LinearGaussianSensor<Eigen::Matrix<double, 2, 1>, Eigen::Matrix<double, 3, 1> >; std::string = std::basic_string<char>]’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:203:5:   required from ‘void gtest_case_GaussianFilterTest_::predict_then_update<gtest_TypeParam_>::TestBody() [with gtest_TypeParam_ = fl::StaticTest<KalmanFilterTestConfiguration<3, 1, 2> >]’
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/kalman_filter_test.cpp:76:41:   required from here
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_linear.hpp:204:17: error: request for member ‘name’ in ‘fl::GaussianFilter<LinearTransition, LinearSensor>::transition<int, fl::LinearGaussianSensor<Eigen::Matrix<double, 2, 1>, Eigen::Matrix<double, 3, 1> > >()’, which is of non-class type ‘const int’
+
+                 + this->list_arguments(
+
+                 ^
+
+In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/kalman_filter_test.cpp:25:0:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp: In instantiation of ‘GaussianFilterTest<TestType>::ModelFactory::LinearTransition GaussianFilterTest<TestType>::ModelFactory::create_linear_state_model() [with TestType = fl::StaticTest<KalmanFilterTestConfiguration<3, 3, 10> >; GaussianFilterTest<TestType>::ModelFactory::LinearTransition = int]’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/kalman_filter_test.cpp:60:36:   required from ‘static typename KalmanFilterTestConfiguration<StateDimension, InputDimension, ObsrvDimension, FilterIterations>::FilterDefinition<ModelFactory>::Type KalmanFilterTestConfiguration<StateDimension, InputDimension, ObsrvDimension, FilterIterations>::create_filter(ModelFactory&&) [with ModelFactory = GaussianFilterTest<fl::StaticTest<KalmanFilterTestConfiguration<3, 3, 10> > >::ModelFactory; int StateDimension = 3; int InputDimension = 3; int ObsrvDimension = 10; int FilterIterations = 100; typename KalmanFilterTestConfiguration<StateDimension, InputDimension, ObsrvDimension, FilterIterations>::FilterDefinition<ModelFactory>::Type = fl::GaussianFilter<int, fl::LinearGaussianSensor<Eigen::Matrix<double, 10, 1, 0, 10, 1>, Eigen::Matrix<double, 3, 1, 0, 3, 1> > >]’
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:154:64:   required from ‘GaussianFilterTest<TestType>::Filter GaussianFilterTest<TestType>::create_filter(GaussianFilterTest<TestType>::ModelSetup) const [with TestType = fl::StaticTest<KalmanFilterTestConfiguration<3, 3, 10> >; GaussianFilterTest<TestType>::Filter = fl::GaussianFilter<int, fl::LinearGaussianSensor<Eigen::Matrix<double, 10, 1, 0, 10, 1>, Eigen::Matrix<double, 3, 1, 0, 3, 1> > >]’
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:245:53:   required from ‘void gtest_case_GaussianFilterTest_::predict_loop<gtest_TypeParam_>::TestBody() [with gtest_TypeParam_ = fl::StaticTest<KalmanFilterTestConfiguration<3, 3, 10> >]’
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/kalman_filter_test.cpp:76:41:   required from here
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:95:61: error: expression list treated as compound expression in functional cast [-fpermissive]
+
+             auto model = LinearTransition(StateDim, InputDim);
+
+                                                             ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:95:61: warning: left operand of comma operator has no effect [-Wunused-value]
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp: In instantiation of ‘GaussianFilterTest<TestType>::ModelFactory::LinearTransition GaussianFilterTest<TestType>::ModelFactory::create_linear_state_model() [with TestType = fl::StaticTest<KalmanFilterTestConfiguration<3, 1, 2> >; GaussianFilterTest<TestType>::ModelFactory::LinearTransition = int]’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/kalman_filter_test.cpp:60:36:   required from ‘static typename KalmanFilterTestConfiguration<StateDimension, InputDimension, ObsrvDimension, FilterIterations>::FilterDefinition<ModelFactory>::Type KalmanFilterTestConfiguration<StateDimension, InputDimension, ObsrvDimension, FilterIterations>::create_filter(ModelFactory&&) [with ModelFactory = GaussianFilterTest<fl::StaticTest<KalmanFilterTestConfiguration<3, 1, 2> > >::ModelFactory; int StateDimension = 3; int InputDimension = 1; int ObsrvDimension = 2; int FilterIterations = 100; typename KalmanFilterTestConfiguration<StateDimension, InputDimension, ObsrvDimension, FilterIterations>::FilterDefinition<ModelFactory>::Type = fl::GaussianFilter<int, fl::LinearGaussianSensor<Eigen::Matrix<double, 2, 1, 0, 2, 1>, Eigen::Matrix<double, 3, 1, 0, 3, 1> > >]’
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:154:64:   required from ‘GaussianFilterTest<TestType>::Filter GaussianFilterTest<TestType>::create_filter(GaussianFilterTest<TestType>::ModelSetup) const [with TestType = fl::StaticTest<KalmanFilterTestConfiguration<3, 1, 2> >; GaussianFilterTest<TestType>::Filter = fl::GaussianFilter<int, fl::LinearGaussianSensor<Eigen::Matrix<double, 2, 1, 0, 2, 1>, Eigen::Matrix<double, 3, 1, 0, 3, 1> > >]’
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:245:53:   required from ‘void gtest_case_GaussianFilterTest_::predict_loop<gtest_TypeParam_>::TestBody() [with gtest_TypeParam_ = fl::StaticTest<KalmanFilterTestConfiguration<3, 1, 2> >]’
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/kalman_filter_test.cpp:76:41:   required from here
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:95:61: error: expression list treated as compound expression in functional cast [-fpermissive]
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/gaussian_filter_test_suite.hpp:95:61: warning: left operand of comma operator has no effect [-Wunused-value]
+
+In file included from /home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/kalman_filter_test.cpp:27:0:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_linear.hpp: In instantiation of ‘std::string fl::GaussianFilter<LinearTransition, LinearSensor>::description() const [with LinearTransition = int; LinearSensor = fl::LinearGaussianSensor<Eigen::Matrix<double, 2, 1>, Eigen::Matrix<double, 3, 1> >; std::string = std::basic_string<char>]’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/kalman_filter_test.cpp:76:41:   required from here
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_linear.hpp:213:17: error: request for member ‘description’ in ‘fl::GaussianFilter<LinearTransition, LinearSensor>::transition<int, fl::LinearGaussianSensor<Eigen::Matrix<double, 2, 1>, Eigen::Matrix<double, 3, 1> > >()’, which is of non-class type ‘const int’
+
+                 + this->list_descriptions(
+
+                 ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_linear.hpp: In instantiation of ‘std::string fl::GaussianFilter<LinearTransition, LinearSensor>::name() const [with LinearTransition = int; LinearSensor = fl::LinearGaussianSensor<Eigen::Matrix<double, 10, 1, 0, 10, 1>, Eigen::Matrix<double, 3, 1> >; std::string = std::basic_string<char>]’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/kalman_filter_test.cpp:76:41:   required from here
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_linear.hpp:204:17: error: request for member ‘name’ in ‘fl::GaussianFilter<LinearTransition, LinearSensor>::transition<int, fl::LinearGaussianSensor<Eigen::Matrix<double, 10, 1, 0, 10, 1>, Eigen::Matrix<double, 3, 1> > >()’, which is of non-class type ‘const int’
+
+                 + this->list_arguments(
+
+                 ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_linear.hpp: In instantiation of ‘std::string fl::GaussianFilter<LinearTransition, LinearSensor>::description() const [with LinearTransition = int; LinearSensor = fl::LinearGaussianSensor<Eigen::Matrix<double, 10, 1, 0, 10, 1>, Eigen::Matrix<double, 3, 1> >; std::string = std::basic_string<char>]’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/test/gaussian_filter/kalman_filter_test.cpp:76:41:   required from here
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_linear.hpp:213:17: error: request for member ‘description’ in ‘fl::GaussianFilter<LinearTransition, LinearSensor>::transition<int, fl::LinearGaussianSensor<Eigen::Matrix<double, 10, 1, 0, 10, 1>, Eigen::Matrix<double, 3, 1> > >()’, which is of non-class type ‘const int’
+
+                 + this->list_descriptions(
+
+                 ^
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/chi_squared_distribution_test
+
+[ 53%] Built target chi_squared_distribution_test
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/discrete_distribution_test
+
+[ 53%] Built target discrete_distribution_test
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/decorrelated_gaussian_distribution_test
+
+[ 53%] Built target decorrelated_gaussian_distribution_test
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_linear.hpp: In member function ‘std::string fl::GaussianFilter<LinearTransition, LinearSensor>::description() const [with LinearTransition = int; LinearSensor = fl::LinearGaussianSensor<Eigen::Matrix<double, 2, 1>, Eigen::Matrix<double, 3, 1> >; std::string = std::basic_string<char>]’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_linear.hpp:216:5: warning: control reaches end of non-void function [-Wreturn-type]
+
+     }
+
+     ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_linear.hpp: In member function ‘std::string fl::GaussianFilter<LinearTransition, LinearSensor>::name() const [with LinearTransition = int; LinearSensor = fl::LinearGaussianSensor<Eigen::Matrix<double, 2, 1>, Eigen::Matrix<double, 3, 1> >; std::string = std::basic_string<char>]’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_linear.hpp:208:5: warning: control reaches end of non-void function [-Wreturn-type]
+
+     }
+
+     ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_linear.hpp: In member function ‘std::string fl::GaussianFilter<LinearTransition, LinearSensor>::description() const [with LinearTransition = int; LinearSensor = fl::LinearGaussianSensor<Eigen::Matrix<double, 10, 1, 0, 10, 1>, Eigen::Matrix<double, 3, 1> >; std::string = std::basic_string<char>]’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_linear.hpp:216:5: warning: control reaches end of non-void function [-Wreturn-type]
+
+     }
+
+     ^
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_linear.hpp: In member function ‘std::string fl::GaussianFilter<LinearTransition, LinearSensor>::name() const [with LinearTransition = int; LinearSensor = fl::LinearGaussianSensor<Eigen::Matrix<double, 10, 1, 0, 10, 1>, Eigen::Matrix<double, 3, 1> >; std::string = std::basic_string<char>]’:
+
+/home/administrator/ci/ci/team/workspace/src/catkin/core-perception/fl/include/fl/filter/gaussian/gaussian_filter_linear.hpp:208:5: warning: control reaches end of non-void function [-Wreturn-type]
+
+     }
+
+     ^
+
+At global scope:
+
+cc1plus: warning: unrecognized command line option "-Wno-deprecated-register" [enabled by default]
+
+make[3]: *** [catkin/core-perception/fl/test/CMakeFiles/gaussian_filter_kalman_filter_test.dir/gaussian_filter/kalman_filter_test.cpp.o] Error 1
+
+make[2]: *** [catkin/core-perception/fl/test/CMakeFiles/gaussian_filter_kalman_filter_test.dir/all] Error 2
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/t_distribution_test
+
+[ 53%] Built target t_distribution_test
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/linear_uncorrelated_gaussian_sensor_test
+
+[ 53%] Built target linear_uncorrelated_gaussian_sensor_test
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/unscented_transform_test_test
+
+[ 53%] Built target unscented_transform_test_test
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/linear_gaussian_sensor_test
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/body_tail_sensor_test
+
+[ 53%] Built target linear_gaussian_sensor_test
+
+[ 53%] Built target body_tail_sensor_test
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/joint_sensor_iid_test
+
+[ 53%] Built target joint_sensor_iid_test
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/linear_transition_test
+
+[ 53%] Built target linear_transition_test
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/fl/gaussian_distribution_test
+
+[ 53%] Built target gaussian_distribution_test
+
+make[1]: *** [CMakeFiles/tests.dir/rule] Error 2
+
+make: *** [tests] Error 2
+
+Base path: /home/administrator/ci/ci/team/workspace
+
+Source space: /home/administrator/ci/ci/team/workspace/src
+
+Build space: /home/administrator/ci/ci/team/workspace/build
+
+Devel space: /home/administrator/ci/ci/team/workspace/devel
+
+Install space: /home/administrator/ci/ci/team/workspace/install
+
+####
+
+#### Running command: "cmake /home/administrator/ci/ci/team/workspace/src -DCATKIN_DEVEL_PREFIX=/home/administrator/ci/ci/team/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/administrator/ci/ci/team/workspace/install" in "/home/administrator/ci/ci/team/workspace/build"
+
+####
+
+####
+
+#### Running command: "make -j16 tests" in "/home/administrator/ci/ci/team/workspace/build"
+
+####
+
+Invoking "make" failed

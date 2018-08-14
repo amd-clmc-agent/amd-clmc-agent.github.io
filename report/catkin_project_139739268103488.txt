@@ -1,5 +1,3 @@
-WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
-
 -- Using CATKIN_DEVEL_PREFIX: /home/administrator/ci/ci/team/workspace/devel
 
 -- Using CMAKE_PREFIX_PATH: /opt/ros/indigo
@@ -24,43 +22,11 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 
 -- BUILD_SHARED_LIBS is on
 
-WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
-
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- ~~  traversing 88 packages in topological order:
+-- ~~  traversing 14 packages in topological order:
 
--- ~~  - Eigen
-
--- ~~  - amd_clmc_dmp
-
--- ~~  - arm_cdlbt
-
--- ~~  - arm_can_control_tools
-
--- ~~  - biotac_core
-
--- ~~  - catkin_gflags
-
--- ~~  - catkin_glog
-
--- ~~  - conversions
-
--- ~~  - graspit
-
--- ~~  - graspit_dbase_tasks
-
--- ~~  - dbase_grasp_planner
-
--- ~~  - graspit_simulator
-
--- ~~  - interpolation
-
--- ~~  - launch_xtion
-
--- ~~  - qp_oases
-
--- ~~  - quadprog
+-- ~~  - imu_core
 
 -- ~~  - ros_realtime (metapackage)
 
@@ -72,14 +38,6 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 
 -- ~~  - rt_timer
 
--- ~~  - rt_utils
-
--- ~~  - dmp
-
--- ~~  - splines
-
--- ~~  - start_robot
-
 -- ~~  - amd_clmc_ros_messages
 
 -- ~~  - ar_track_alvar_msgs
@@ -88,187 +46,35 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 
 -- ~~  - riemo_grasping_msgs
 
--- ~~  - graspit_ros_planning_msgs
-
--- ~~  - utilities
-
--- ~~  - lwpr
-
--- ~~  - vrpn_vicon_minimum
-
--- ~~  - vrpn_vicon_objs_tracker
-
 -- ~~  - xenomai_ros
-
--- ~~  - constrained_inverse_kinematics_msgs
-
--- ~~  - robot_planning_client
-
--- ~~  - roscpp_utilities
 
 -- ~~  - rosrt
 
+-- ~~  - imu_ros_rt
+
 -- ~~  - ros_rt_test
-
--- ~~  - sl
-
--- ~~  - arm
-
--- ~~  - arm_test_task
-
--- ~~  - sl_ros_servo
-
--- ~~  - learning_control
-
--- ~~  - ar_track_alvar
-
--- ~~  - python_ros_utils
-
--- ~~  - sl_conversions
-
--- ~~  - sl_utilities
-
--- ~~  - sl_controller_manager
-
--- ~~  - sl_barrett_controllers
-
--- ~~  - sl_biotac_controller_data
-
--- ~~  - sl_biotac_controllers
-
--- ~~  - sl_controllers
-
--- ~~  - sl_head_arm_controllers
-
--- ~~  - sl_vicon_controller_data
-
--- ~~  - sl_biotac_vicon_controller_data
-
--- ~~  - controller_manager_task_arm
-
--- ~~  - arm_user
-
--- ~~  - graspit_ros_planning
-
--- ~~  - arm_robot_model
-
--- ~~  - arm_moveit_config
-
--- ~~  - ros_servo_arm
-
--- ~~  - usc_utilities
-
--- ~~  - learnable_cost_function
-
--- ~~  - robot_info
-
--- ~~  - jacobian_utilities
-
--- ~~  - sl_barrett_controller_interface
-
--- ~~  - sl_controller_interface
-
--- ~~  - arm_learn_hand_eye_calibration
-
--- ~~  - robot_kinematics_cost_function
-
--- ~~  - robot_inverse_kinematics
-
--- ~~  - sl_biotac_controller_interface
-
--- ~~  - sl_dmp_controller_interface
-
--- ~~  - controller_manager_examples_arm
-
--- ~~  - sl_head_arm_controller_interface
-
--- ~~  - arm_verify_calibration
-
--- ~~  - extrinsic_camera_calibration
-
--- ~~  - sl_behaviors
-
--- ~~  - robot_command_line
-
--- ~~  - strain_gauge_calibration
-
--- ~~  - verify_extrinsic_camera_calibration
-
--- ~~  - vicon_calibration
-
--- ~~  - vicon_core
-
--- ~~  - sl_vicon_controllers
-
--- ~~  - sl_dmp_controllers
-
--- ~~  - robot_planning_srv
-
--- ~~  - yaml_cpp
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- +++ processing catkin package: 'Eigen'
+-- +++ processing catkin package: 'imu_core'
 
--- ==> add_subdirectory(catkin/third_party/Eigen)
+-- ==> add_subdirectory(catkin/sensors/imu-core)
 
-WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
+CMake Error at catkin/sensors/imu-core/CMakeLists.txt:4 (include):
 
--- +++ processing catkin package: 'amd_clmc_dmp'
+  include could not find load file:
 
--- ==> add_subdirectory(catkin/planning/amd_clmc_dmp)
 
--- Boost version: 1.54.0
 
--- Found the following Boost libraries:
-
---   thread
-
---   system
-
---   filesystem
-
--- +++ processing catkin package: 'arm_cdlbt'
-
--- ==> add_subdirectory(catkin/robots/arm-barrett/cdlbt)
-
--- MACHTYPE x86_64
-
-Detected MACHTYPE=x86_64
-
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
-
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
-
-Call Stack (most recent call first):
-
-  catkin/robots/arm-barrett/cdlbt/CMakeLists.txt:4 (include)
+    /home/administrator/ci/ci/team/workspace/src/cmake/sl_cmake_global/LAB.cmake
 
 
 
 
 
--- HOST_NAME=everest
+-- xenomai NOT found. (/usr/local;/usr)
 
--- HOST=everest
-
--- LAB=AMD
-
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_INCLUDE_PATH=
-
--- CMAKE_LIBRARY_PATH=
-
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
-
--- LAB_LIBDIR=lib/x86_64
-
--- LAB_INCLUDES=include
-
--- LAB_BINDIR=bin/x86_64
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
 
 -- Boost version: 1.54.0
 
@@ -276,47 +82,75 @@ Call Stack (most recent call first):
 
 --   thread
 
--- +++ processing catkin package: 'arm_can_control_tools'
+-- +++ processing catkin metapackage: 'ros_realtime'
 
--- ==> add_subdirectory(catkin/robots/arm-barrett/canControlTools)
+-- ==> add_subdirectory(catkin/ros/ros_realtime/ros_realtime)
 
--- MACHTYPE x86_64
+-- +++ processing catkin package: 'allocators'
 
-Detected MACHTYPE=x86_64
+-- ==> add_subdirectory(catkin/ros/ros_realtime/allocators)
 
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+-- Boost version: 1.54.0
 
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+-- +++ processing catkin package: 'rosatomic'
 
-Call Stack (most recent call first):
+-- ==> add_subdirectory(catkin/ros/ros_realtime/rosatomic)
 
-  catkin/robots/arm-barrett/canControlTools/CMakeLists.txt:4 (include)
+-- Boost version: 1.54.0
 
+-- +++ processing catkin package: 'lockfree'
 
+-- ==> add_subdirectory(catkin/ros/ros_realtime/lockfree)
 
+-- Boost version: 1.54.0
 
+-- +++ processing catkin package: 'rt_timer'
 
--- HOST_NAME=everest
+-- ==> add_subdirectory(catkin/ros/ros_realtime/rt_timer)
 
--- HOST=everest
+-- +++ processing catkin package: 'amd_clmc_ros_messages'
 
--- LAB=AMD
+-- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/amd_clmc_ros_messages)
 
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- Using these message generators: gencpp;genlisp;genpy
 
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- amd_clmc_ros_messages: 108 messages, 10 services
 
--- CMAKE_INCLUDE_PATH=
+-- +++ processing catkin package: 'ar_track_alvar_msgs'
 
--- CMAKE_LIBRARY_PATH=
+-- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/ar_track_alvar_msgs)
 
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+-- Using these message generators: gencpp;genlisp;genpy
 
--- LAB_LIBDIR=lib/x86_64
+-- ar_track_alvar_msgs: 2 messages, 0 services
 
--- LAB_INCLUDES=include
+-- +++ processing catkin package: 'custom_robot_msgs'
 
--- LAB_BINDIR=bin/x86_64
+-- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/custom_robot_msgs)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- custom_robot_msgs: 1 messages, 2 services
+
+-- +++ processing catkin package: 'riemo_grasping_msgs'
+
+-- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/riemo_grasping_msgs)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- riemo_grasping_msgs: 5 messages, 3 services
+
+-- +++ processing catkin package: 'xenomai_ros'
+
+-- ==> add_subdirectory(catkin/ros/xenomai-ros)
+
+-- +++ processing catkin package: 'rosrt'
+
+-- ==> add_subdirectory(catkin/ros/ros_realtime/rosrt)
+
+-- xenomai NOT found. (/usr/local;/usr)
+
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
 
 -- Boost version: 1.54.0
 
@@ -324,107 +158,49 @@ Call Stack (most recent call first):
 
 --   thread
 
---   system
+-- +++ processing catkin package: 'imu_ros_rt'
 
--- +++ processing catkin package: 'biotac_core'
+-- ==> add_subdirectory(catkin/sensors/imu-ros-rt)
 
--- ==> add_subdirectory(catkin/sensors/biotac-core)
+CMake Error at catkin/sensors/imu-ros-rt/CMakeLists.txt:4 (include):
 
--- MACHTYPE x86_64
+  include could not find load file:
 
-Detected MACHTYPE=x86_64
 
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
 
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
-
-Call Stack (most recent call first):
-
-  catkin/sensors/biotac-core/CMakeLists.txt:8 (include)
+    /home/administrator/ci/ci/team/workspace/src/cmake/sl_cmake_global/LAB.cmake
 
 
 
 
 
--- HOST_NAME=everest
+-- xenomai NOT found. (/usr/local;/usr)
 
--- HOST=everest
-
--- LAB=AMD
-
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_INCLUDE_PATH=
-
--- CMAKE_LIBRARY_PATH=
-
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
-
--- LAB_LIBDIR=lib/x86_64
-
--- LAB_INCLUDES=include
-
--- LAB_BINDIR=bin/x86_64
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
 
 -- Boost version: 1.54.0
 
 -- Found the following Boost libraries:
 
---   system
+--   thread
 
--- +++ processing catkin package: 'catkin_gflags'
+CMake Error at catkin/sensors/imu-ros-rt/CMakeLists.txt:41 (install):
 
--- ==> add_subdirectory(catkin/third_party/catkin-gflags)
+  install TARGETS given target "imu_demo" which does not exist in this
 
--- Found gflags  (include: /usr/include, library: /usr/lib/x86_64-linux-gnu/libgflags.so)
-
--- +++ processing catkin package: 'catkin_glog'
-
--- ==> add_subdirectory(catkin/third_party/catkin-glog)
-
--- Found glog    (include: /usr/include, library: /usr/lib/x86_64-linux-gnu/libglog.so)
-
--- +++ processing catkin package: 'conversions'
-
--- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/usc_utils/conversions)
-
--- +++ processing catkin package: 'graspit'
-
--- ==> add_subdirectory(catkin/third_party/ros_graspit/graspit_simulator/graspit)
-
-CMake Error at /home/administrator/ci/ci/team/workspace/devel/share/catkin/cmake/catkinConfig.cmake:75 (find_package):
-
-  Could not find a package configuration file provided by
-
-  "household_objects_database" with any of the following names:
-
-
-
-    household_objects_databaseConfig.cmake
-
-    household_objects_database-config.cmake
-
-
-
-  Add the installation prefix of "household_objects_database" to
-
-  CMAKE_PREFIX_PATH or set "household_objects_database_DIR" to a directory
-
-  containing one of the above files.  If "household_objects_database"
-
-  provides a separate development package or SDK, be sure it has been
-
-  installed.
-
-Call Stack (most recent call first):
-
-  catkin/third_party/ros_graspit/graspit_simulator/graspit/CMakeLists.txt:7 (find_package)
+  directory.
 
 
 
 
+
+-- +++ processing catkin package: 'ros_rt_test'
+
+-- ==> add_subdirectory(catkin/ros/ros_rt_basic_example)
+
+-- xenomai NOT found. (/usr/local;/usr)
+
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
 
 -- Configuring incomplete, errors occurred!
 
