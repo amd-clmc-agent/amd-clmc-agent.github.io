@@ -26,35 +26,497 @@
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- ~~  traversing 10 packages in topological order:
+-- ~~  traversing 55 packages in topological order:
 
--- ~~  - cdist_utils
+-- ~~  - baxter_common (metapackage)
 
--- ~~  - robot_model_helper
+-- ~~  - baxter_description
 
--- ~~  - compute_cdist
+-- ~~  - baxter_sdk (metapackage)
 
--- ~~  - random_forest
+-- ~~  - lula_doc
 
--- ~~  - arm_robot_model
+-- ~~  - lula_log
 
--- ~~  - cdist_py
+-- ~~  - lula_util
 
--- ~~  - test_cdist
+-- ~~  - lula_differential_geometry
 
--- ~~  - urdf_parser_py
+-- ~~  - lula_optimization
 
--- ~~  - xml_reflection
+-- ~~  - lula_motion
 
--- ~~  - arm_pose_esti
+-- ~~  - lula_workspace
+
+-- ~~  - mpi_system_data_bags
+
+-- ~~  - rethink_ee_description
+
+-- ~~  - graph_search
+
+-- ~~  - baxter_maintenance_msgs
+
+-- ~~  - amd_clmc_ros_messages
+
+-- ~~  - ar_track_alvar_msgs
+
+-- ~~  - custom_robot_msgs
+
+-- ~~  - dbot_ros_msgs
+
+-- ~~  - riemo_grasping_msgs
+
+-- ~~  - baxter_core_msgs
+
+-- ~~  - rieef_msgs
+
+-- ~~  - lula_api
+
+-- ~~  - lula_common
+
+-- ~~  - lula_controller_msgs
+
+-- ~~  - lula_ros_util
+
+-- ~~  - lula_rt
+
+-- ~~  - lula_world_msgs
+
+-- ~~  - baxter_interface
+
+-- ~~  - baxter_tools
+
+-- ~~  - lula_baxter
+
+-- ~~  - ellipsoid_msgs
+
+-- ~~  - lula_control_internal
+
+-- ~~  - lula_world
+
+-- ~~  - lula_world_internal
+
+-- ~~  - lula_plugins_interface
+
+-- ~~  - lula_kinematics
+
+-- ~~  - lula_visualization
+
+-- ~~  - lula_task
+
+-- ~~  - lula_apollo_internal
+
+-- ~~  - lula_baxter_internal
+
+-- ~~  - lula_plugins
+
+-- ~~  - lula_plugins_internal
+
+-- ~~  - lula_visualization_internal
+
+-- ~~  - lula_rviz_plugins
+
+-- ~~  - rieef_utils
+
+-- ~~  - visualization_3d
+
+-- ~~  - geodesic_flow
+
+-- ~~  - moveit_distance_field
+
+-- ~~  - sampling_based_planning
+
+-- ~~  - signed_distance_field
+
+-- ~~  - rieef_ros
+
+-- ~~  - condor_interface
+
+-- ~~  - rieef_programs
+
+-- ~~  - rieef_demos
+
+-- ~~  - baxter_examples
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- +++ processing catkin package: 'cdist_utils'
+-- +++ processing catkin metapackage: 'baxter_common'
 
--- ==> add_subdirectory(catkin/robot_pose_estimation/cdist/cdist_utils)
+-- ==> add_subdirectory(catkin/lula/third_party/baxter_common/baxter_common)
 
-CMake Error at catkin/robot_pose_estimation/cdist/cdist_utils/CMakeLists.txt:18 (find_package):
+-- +++ processing catkin package: 'baxter_description'
+
+-- ==> add_subdirectory(catkin/lula/third_party/baxter_common/baxter_description)
+
+-- +++ processing catkin metapackage: 'baxter_sdk'
+
+-- ==> add_subdirectory(catkin/lula/third_party/baxter/baxter_sdk)
+
+-- +++ processing catkin package: 'lula_doc'
+
+-- ==> add_subdirectory(catkin/lula/internal/lula_doc)
+
+-- +++ processing catkin package: 'lula_log'
+
+-- ==> add_subdirectory(catkin/lula/external/lula_log)
+
+-- Boost version: 1.54.0
+
+-- Found the following Boost libraries:
+
+--   filesystem
+
+CMake Warning at catkin/lula/external/lula_log/CMakeLists.txt:55 (message):
+
+  NO log_test
+
+
+
+
+
+-- +++ processing catkin package: 'lula_util'
+
+-- ==> add_subdirectory(catkin/lula/internal/lula_util)
+
+-- Found glog    (include: /usr/include, library: /usr/lib/x86_64-linux-gnu/libglog.so)
+
+-- Found gflags  (include: /usr/include, library: /usr/lib/x86_64-linux-gnu/libgflags.so)
+
+-- Eigen found (include: /usr/include/eigen3)
+
+CMake Warning at catkin/lula/internal/lula_util/CMakeLists.txt:147 (message):
+
+  DEACTIVATED: caching_utest
+
+
+
+
+
+CMake Warning at catkin/lula/internal/lula_util/CMakeLists.txt:174 (message):
+
+  DEACTIVATED: file_sequencer_utest
+
+
+
+
+
+-- +++ processing catkin package: 'lula_differential_geometry'
+
+-- ==> add_subdirectory(catkin/lula/internal/lula_differential_geometry)
+
+-- A library with BLAS API found.
+
+-- A library with LAPACK API found.
+
+-- Lapack: TRUE
+
+-- Lapack required dependencies: f2c atalas-base-dev lapacke-dev lapack-dev
+
+-- Lapack linker flags: 
+
+-- Lapack libraries: /usr/lib/liblapack.so;/usr/lib/libblas.so
+
+-- Lapack 95 libraries: 
+
+CMake Warning at catkin/lula/internal/lula_differential_geometry/CMakeLists.txt:137 (message):
+
+  DEACTIVATED: analytical_grid_utest
+
+
+
+
+
+CMake Warning at catkin/lula/internal/lula_differential_geometry/CMakeLists.txt:146 (message):
+
+  DEACTIVATED: differentiable_functions_tests_utest
+
+
+
+
+
+CMake Warning at catkin/lula/internal/lula_differential_geometry/CMakeLists.txt:163 (message):
+
+  DEACTIVATED: function_approximator_timing_utest
+
+
+
+
+
+CMake Warning at catkin/lula/internal/lula_differential_geometry/CMakeLists.txt:172 (message):
+
+  DEACTIVATED: geometry_utest
+
+
+
+
+
+CMake Warning at catkin/lula/internal/lula_differential_geometry/CMakeLists.txt:181 (message):
+
+  DEACTIVATED: lapack_interface_utest
+
+
+
+
+
+CMake Warning at catkin/lula/internal/lula_differential_geometry/CMakeLists.txt:190 (message):
+
+  DEACTIVATED: linear_algebra_benchmarks_utest
+
+
+
+
+
+CMake Warning at catkin/lula/internal/lula_differential_geometry/CMakeLists.txt:199 (message):
+
+  DEACTIVATED: linear_algebra_utest
+
+
+
+
+
+-- +++ processing catkin package: 'lula_optimization'
+
+-- ==> add_subdirectory(catkin/lula/internal/lula_optimization)
+
+CMake Warning at catkin/lula/internal/lula_optimization/CMakeLists.txt:86 (message):
+
+  DEACTIVATED: augmented_lagrangian_utest
+
+
+
+
+
+CMake Warning at catkin/lula/internal/lula_optimization/CMakeLists.txt:95 (message):
+
+  DEACTIVATED: objective_functions_utest
+
+
+
+
+
+CMake Warning at catkin/lula/internal/lula_optimization/CMakeLists.txt:104 (message):
+
+  DEACTIVATED: omp_parallelization_utest
+
+
+
+
+
+CMake Warning at catkin/lula/internal/lula_optimization/CMakeLists.txt:113 (message):
+
+  DEACTIVATED: optimization_test_utest
+
+
+
+
+
+-- +++ processing catkin package: 'lula_motion'
+
+-- ==> add_subdirectory(catkin/lula/internal/lula_motion)
+
+CMake Warning at catkin/lula/internal/lula_motion/CMakeLists.txt:125 (message):
+
+  DEACTIVATED: behavior_utest
+
+
+
+
+
+CMake Warning at catkin/lula/internal/lula_motion/CMakeLists.txt:139 (message):
+
+  DEACTIVATED: finite_differencing_operators_utest
+
+
+
+
+
+CMake Warning at catkin/lula/internal/lula_motion/CMakeLists.txt:152 (message):
+
+  DEACTIVATED: optimal_control_utest
+
+
+
+
+
+CMake Warning at catkin/lula/internal/lula_motion/CMakeLists.txt:184 (message):
+
+  DEACTIVATED: trajectory_function_network_utest
+
+
+
+
+
+CMake Warning at catkin/lula/internal/lula_motion/CMakeLists.txt:193 (message):
+
+  DEACTIVATED: augmented_position_velocity_map_utest
+
+
+
+
+
+-- +++ processing catkin package: 'lula_workspace'
+
+-- ==> add_subdirectory(catkin/lula/internal/lula_workspace)
+
+-- +++ processing catkin package: 'mpi_system_data_bags'
+
+-- ==> add_subdirectory(catkin/manipulation/riemo_electrical_fields/mpi_system_data_bags)
+
+-- +++ processing catkin package: 'rethink_ee_description'
+
+-- ==> add_subdirectory(catkin/lula/third_party/baxter_common/rethink_ee_description)
+
+-- +++ processing catkin package: 'graph_search'
+
+-- ==> add_subdirectory(catkin/manipulation/riemo_electrical_fields/graph_search)
+
+CMAKE_MODULE_PATH /home/administrator/ci/ci/team/workspace/src/catkin/manipulation/riemo_electrical_fields/graph_search/../cmake/Modules
+
+-- Eigen found (include: /usr/include/eigen3)
+
+GLOG include_dirs: 
+
+GLOG libraries: glog
+
+GLOG version : 0.3.3
+
+GLOG library_dirs : 
+
+catkin_INCLUDE_DIRS : /opt/ros/indigo/include/usr/include
+
+ *** CMAKE_CXX_FLAGS: -std=c++11  
+
+-- +++ processing catkin package: 'baxter_maintenance_msgs'
+
+-- ==> add_subdirectory(catkin/lula/third_party/baxter_common/baxter_maintenance_msgs)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- baxter_maintenance_msgs: 7 messages, 0 services
+
+-- +++ processing catkin package: 'amd_clmc_ros_messages'
+
+-- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/amd_clmc_ros_messages)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- amd_clmc_ros_messages: 108 messages, 10 services
+
+-- +++ processing catkin package: 'ar_track_alvar_msgs'
+
+-- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/ar_track_alvar_msgs)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- ar_track_alvar_msgs: 2 messages, 0 services
+
+-- +++ processing catkin package: 'custom_robot_msgs'
+
+-- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/custom_robot_msgs)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- custom_robot_msgs: 1 messages, 2 services
+
+-- +++ processing catkin package: 'dbot_ros_msgs'
+
+-- ==> add_subdirectory(catkin/ros/dbot_ros_msgs)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- dbot_ros_msgs: 3 messages, 3 services
+
+-- +++ processing catkin package: 'riemo_grasping_msgs'
+
+-- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/riemo_grasping_msgs)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- riemo_grasping_msgs: 5 messages, 3 services
+
+-- +++ processing catkin package: 'baxter_core_msgs'
+
+-- ==> add_subdirectory(catkin/lula/third_party/baxter_common/baxter_core_msgs)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- baxter_core_msgs: 25 messages, 4 services
+
+-- +++ processing catkin package: 'rieef_msgs'
+
+-- ==> add_subdirectory(catkin/manipulation/riemo_electrical_fields/rieef_msgs)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- rieef_msgs: 4 messages, 3 services
+
+-- +++ processing catkin package: 'lula_api'
+
+-- ==> add_subdirectory(catkin/lula/external/lula_api)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- lula_api: 1 messages, 2 services
+
+-- +++ processing catkin package: 'lula_common'
+
+-- ==> add_subdirectory(catkin/lula/external/lula_common)
+
+-- +++ processing catkin package: 'lula_controller_msgs'
+
+-- ==> add_subdirectory(catkin/lula/internal/ros/lula_controller_msgs)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- lula_controller_msgs: 39 messages, 4 services
+
+-- +++ processing catkin package: 'lula_ros_util'
+
+-- ==> add_subdirectory(catkin/lula/external/lula_ros_util)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- lula_ros_util: 1 messages, 1 services
+
+-- +++ processing catkin package: 'lula_rt'
+
+-- ==> add_subdirectory(catkin/lula/internal/ros/lula_rt)
+
+CMake Warning at catkin/lula/internal/ros/lula_rt/CMakeLists.txt:131 (message):
+
+  DEACTIVATED: time_varying_affine_policy_utest
+
+
+
+
+
+-- +++ processing catkin package: 'lula_world_msgs'
+
+-- ==> add_subdirectory(catkin/lula/external/lula_world_msgs)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- lula_world_msgs: 5 messages, 5 services
+
+-- +++ processing catkin package: 'baxter_interface'
+
+-- ==> add_subdirectory(catkin/lula/third_party/baxter_interface)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- +++ processing catkin package: 'baxter_tools'
+
+-- ==> add_subdirectory(catkin/lula/third_party/baxter_tools)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- +++ processing catkin package: 'lula_baxter'
+
+-- ==> add_subdirectory(catkin/lula/external/lula_baxter)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+CMake Error at catkin/lula/external/lula_baxter/CMakeLists.txt:31 (find_package):
 
   By not providing "FindEigen.cmake" in CMAKE_MODULE_PATH this project has
 
