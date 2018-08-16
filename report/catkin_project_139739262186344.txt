@@ -28,19 +28,17 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- ~~  traversing 31 packages in topological order:
+-- ~~  traversing 32 packages in topological order:
 
 -- ~~  - Eigen
+
+-- ~~  - amd_clmc_eigen
 
 -- ~~  - cdlbt
 
 -- ~~  - can_control_tools
 
--- ~~  - fl
-
--- ~~  - ebf
-
--- ~~  - matlab_logger
+-- ~~  - robot_math
 
 -- ~~  - ros_realtime (metapackage)
 
@@ -68,6 +66,8 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 
 -- ~~  - xenomai_ros
 
+-- ~~  - amd_clmc_log
+
 -- ~~  - roscpp_utilities
 
 -- ~~  - rosrt
@@ -78,7 +78,7 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 
 -- ~~  - apollo
 
--- ~~  - apollo_event_based_task
+-- ~~  - apollo_sl_interface
 
 -- ~~  - apollo_test_task
 
@@ -87,6 +87,8 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 -- ~~  - sl_ros_servo
 
 -- ~~  - ros_servo_apollo
+
+-- ~~  - visual_servoing
 
 -- ~~  - yaml_cpp
 
@@ -99,6 +101,10 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 -- ==> add_subdirectory(catkin/third_party/Eigen)
 
 WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
+
+-- +++ processing catkin package: 'amd_clmc_eigen'
+
+-- ==> add_subdirectory(catkin/third_party/amd-clmc-eigen)
 
 -- +++ processing catkin package: 'cdlbt'
 
@@ -190,37 +196,11 @@ Call Stack (most recent call first):
 
 --   thread
 
--- +++ processing catkin package: 'fl'
+-- +++ processing catkin package: 'robot_math'
 
--- ==> add_subdirectory(catkin/core-perception/fl)
-
--- Eigen found (include: /usr/include/eigen3)
-
--- Boost version: 1.54.0
-
--- +++ processing catkin package: 'ebf'
-
--- ==> add_subdirectory(catkin/event-based/event-based-framework)
-
-##########################################
-
-# Event-based Control Framework 
-
-# Version 0.1.267
-
-# ceec1553994354a776e9e1f573a3583f8963a720
-
-##########################################
+-- ==> add_subdirectory(catkin/utils/robot_math)
 
 -- Eigen found (include: /usr/include/eigen3)
-
--- Found Doxygen: /usr/bin/doxygen (found version "1.8.6") 
-
--- Found Doxygen: /usr/bin/doxygen (found suitable version "1.8.6", minimum required is "1.8.4") 
-
--- +++ processing catkin package: 'matlab_logger'
-
--- ==> add_subdirectory(catkin/event-based/matlab-logger)
 
 -- +++ processing catkin metapackage: 'ros_realtime'
 
@@ -372,9 +352,59 @@ Call Stack (most recent call first):
 
 -- ==> add_subdirectory(catkin/ros/xenomai-ros)
 
+-- +++ processing catkin package: 'amd_clmc_log'
+
+-- ==> add_subdirectory(catkin/utils/amd_clmc_log)
+
+-- MACHTYPE x86_64
+
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+
+Call Stack (most recent call first):
+
+  catkin/utils/amd_clmc_log/CMakeLists.txt:8 (include)
+
+
+
+
+
+-- HOST_NAME=everest
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
+
+-- xenomai NOT found. (/usr/local;/usr)
+
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+
+-- Eigen found (include: /usr/include/eigen3)
+
 -- +++ processing catkin package: 'roscpp_utilities'
 
 -- ==> add_subdirectory(catkin/ros/roscpp_utilities)
+
+-- Eigen found (include: /usr/include/eigen3)
 
 -- +++ processing catkin package: 'rosrt'
 
@@ -482,9 +512,9 @@ Call Stack (most recent call first):
 
 -- LAB_BINDIR=bin/x86_64
 
--- +++ processing catkin package: 'apollo_event_based_task'
+-- +++ processing catkin package: 'apollo_sl_interface'
 
--- ==> add_subdirectory(catkin/event-based/apollo-event-based-task)
+-- ==> add_subdirectory(catkin/robots/apollo-sl-interface)
 
 -- MACHTYPE x86_64
 
@@ -496,7 +526,7 @@ CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
 
 Call Stack (most recent call first):
 
-  catkin/event-based/apollo-event-based-task/CMakeLists.txt:9 (include)
+  catkin/robots/apollo-sl-interface/CMakeLists.txt:8 (include)
 
 
 
@@ -524,17 +554,251 @@ Call Stack (most recent call first):
 
 -- LAB_BINDIR=bin/x86_64
 
-CMake Error at catkin/third_party/catkin/cmake/catkin_package.cmake:217 (message):
+-- xenomai NOT found. (/usr/local;/usr)
 
-  catkin_package() DEPENDS on the catkin package 'Eigen' which must therefore
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
 
-  be listed as a run dependency in the package.xml
+-- +++ processing catkin package: 'apollo_test_task'
+
+-- ==> add_subdirectory(catkin/robots/catkin-sl-apollo-task-example)
+
+-- MACHTYPE x86_64
+
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
 
 Call Stack (most recent call first):
 
-  catkin/third_party/catkin/cmake/catkin_package.cmake:98 (_catkin_package)
+  catkin/robots/catkin-sl-apollo-task-example/CMakeLists.txt:8 (include)
 
-  catkin/event-based/apollo-event-based-task/CMakeLists.txt:38 (catkin_package)
+
+
+
+
+-- HOST_NAME=everest
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
+
+-- +++ processing catkin package: 'apollo_user'
+
+-- ==> add_subdirectory(catkin/robots/catkin-apolloUser)
+
+-- MACHTYPE x86_64
+
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+
+Call Stack (most recent call first):
+
+  catkin/robots/catkin-apolloUser/CMakeLists.txt:8 (include)
+
+
+
+
+
+-- HOST_NAME=everest
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
+
+-- +++ processing catkin package: 'sl_ros_servo'
+
+-- ==> add_subdirectory(catkin/ros/sl_ros_servo)
+
+-- MACHTYPE x86_64
+
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+
+Call Stack (most recent call first):
+
+  catkin/ros/sl_ros_servo/CMakeLists.txt:5 (include)
+
+
+
+
+
+-- HOST_NAME=everest
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
+
+-- +++ processing catkin package: 'ros_servo_apollo'
+
+-- ==> add_subdirectory(catkin/ros/ros_servo_apollo)
+
+-- MACHTYPE x86_64
+
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+
+Call Stack (most recent call first):
+
+  catkin/ros/ros_servo_apollo/CMakeLists.txt:5 (include)
+
+
+
+
+
+-- HOST_NAME=everest
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- +++ processing catkin package: 'visual_servoing'
+
+-- ==> add_subdirectory(catkin/manipulation/visual_servoing)
+
+-- MACHTYPE x86_64
+
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+
+Call Stack (most recent call first):
+
+  catkin/manipulation/visual_servoing/CMakeLists.txt:8 (include)
+
+
+
+
+
+-- HOST_NAME=everest
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
+
+-- xenomai NOT found. (/usr/local;/usr)
+
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+
+CMake Error at /home/administrator/ci/ci/team/workspace/devel/share/catkin/cmake/catkinConfig.cmake:75 (find_package):
+
+  Could not find a package configuration file provided by "usc_utilities"
+
+  with any of the following names:
+
+
+
+    usc_utilitiesConfig.cmake
+
+    usc_utilities-config.cmake
+
+
+
+  Add the installation prefix of "usc_utilities" to CMAKE_PREFIX_PATH or set
+
+  "usc_utilities_DIR" to a directory containing one of the above files.  If
+
+  "usc_utilities" provides a separate development package or SDK, be sure it
+
+  has been installed.
+
+Call Stack (most recent call first):
+
+  catkin/manipulation/visual_servoing/CMakeLists.txt:11 (find_package)
 
 
 
