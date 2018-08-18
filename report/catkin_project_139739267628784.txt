@@ -1,4 +1,22 @@
-WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
+-- The C compiler identification is GNU 4.8.4
+
+-- The CXX compiler identification is GNU 4.8.4
+
+-- Check for working C compiler: /usr/bin/cc
+
+-- Check for working C compiler: /usr/bin/cc -- works
+
+-- Detecting C compiler ABI info
+
+-- Detecting C compiler ABI info - done
+
+-- Check for working CXX compiler: /usr/bin/c++
+
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+
+-- Detecting CXX compiler ABI info
+
+-- Detecting CXX compiler ABI info - done
 
 -- Using CATKIN_DEVEL_PREFIX: /home/administrator/ci/ci/team/workspace/devel
 
@@ -6,11 +24,13 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 
 -- This workspace overlays: /opt/ros/indigo
 
+-- Found PythonInterp: /usr/bin/python (found version "2.7.6") 
+
 -- Using PYTHON_EXECUTABLE: /usr/bin/python
 
--- Python version: 2.7
-
 -- Using Debian Python package layout
+
+-- Using empy: /usr/bin/empy
 
 -- Using CATKIN_ENABLE_TESTING: ON
 
@@ -18,455 +38,49 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 
 -- Using CATKIN_TEST_RESULTS_DIR: /home/administrator/ci/ci/team/workspace/build/test_results
 
+-- Looking for include file pthread.h
+
+-- Looking for include file pthread.h - found
+
+-- Looking for pthread_create
+
+-- Looking for pthread_create - not found
+
+-- Looking for pthread_create in pthreads
+
+-- Looking for pthread_create in pthreads - not found
+
+-- Looking for pthread_create in pthread
+
+-- Looking for pthread_create in pthread - found
+
+-- Found Threads: TRUE  
+
 -- Found gtest sources under '/usr/src/gtest': gtests will be built
 
--- catkin 0.5.90
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+
+-- catkin 0.6.19
 
 -- BUILD_SHARED_LIBS is on
 
-WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
-
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- ~~  traversing 80 packages in topological order:
-
--- ~~  - Eigen
-
--- ~~  - amd_clmc_dmp
-
--- ~~  - arm_cdlbt
-
--- ~~  - arm_can_control_tools
-
--- ~~  - biotac_core
-
--- ~~  - catkin_gflags
-
--- ~~  - catkin_glog
-
--- ~~  - conversions
-
--- ~~  - interpolation
-
--- ~~  - launch_xtion
-
--- ~~  - qp_oases
-
--- ~~  - quadprog
-
--- ~~  - ros_realtime (metapackage)
-
--- ~~  - allocators
-
--- ~~  - rosatomic
-
--- ~~  - lockfree
-
--- ~~  - rt_timer
-
--- ~~  - rt_utils
-
--- ~~  - dmp
-
--- ~~  - splines
-
--- ~~  - start_robot
-
--- ~~  - amd_clmc_ros_messages
-
--- ~~  - ar_track_alvar_msgs
-
--- ~~  - custom_robot_msgs
-
--- ~~  - riemo_grasping_msgs
+-- ~~  traversing 6 packages in topological order:
 
 -- ~~  - utilities
 
 -- ~~  - lwpr
 
--- ~~  - vrpn_vicon_minimum
-
--- ~~  - vrpn_vicon_objs_tracker
-
--- ~~  - xenomai_ros
-
--- ~~  - constrained_inverse_kinematics_msgs
-
--- ~~  - robot_planning_client
-
--- ~~  - roscpp_utilities
-
--- ~~  - rosrt
-
--- ~~  - ros_rt_test
-
 -- ~~  - sl
 
--- ~~  - arm
+-- ~~  - master
 
--- ~~  - arm_test_task
+-- ~~  - master_test_task
 
--- ~~  - sl_ros_servo
-
--- ~~  - learning_control
-
--- ~~  - ar_track_alvar
-
--- ~~  - python_ros_utils
-
--- ~~  - sl_conversions
-
--- ~~  - sl_utilities
-
--- ~~  - sl_controller_manager
-
--- ~~  - sl_barrett_controllers
-
--- ~~  - sl_biotac_controller_data
-
--- ~~  - sl_biotac_controllers
-
--- ~~  - sl_controllers
-
--- ~~  - sl_head_arm_controllers
-
--- ~~  - sl_vicon_controller_data
-
--- ~~  - sl_biotac_vicon_controller_data
-
--- ~~  - controller_manager_task_arm
-
--- ~~  - arm_user
-
--- ~~  - arm_robot_model
-
--- ~~  - arm_moveit_config
-
--- ~~  - ros_servo_arm
-
--- ~~  - usc_utilities
-
--- ~~  - learnable_cost_function
-
--- ~~  - robot_info
-
--- ~~  - jacobian_utilities
-
--- ~~  - sl_barrett_controller_interface
-
--- ~~  - sl_controller_interface
-
--- ~~  - arm_learn_hand_eye_calibration
-
--- ~~  - robot_kinematics_cost_function
-
--- ~~  - robot_inverse_kinematics
-
--- ~~  - sl_biotac_controller_interface
-
--- ~~  - sl_dmp_controller_interface
-
--- ~~  - controller_manager_examples_arm
-
--- ~~  - sl_head_arm_controller_interface
-
--- ~~  - arm_verify_calibration
-
--- ~~  - extrinsic_camera_calibration
-
--- ~~  - strain_gauge_calibration
-
--- ~~  - verify_extrinsic_camera_calibration
-
--- ~~  - vicon_calibration
-
--- ~~  - vicon_core
-
--- ~~  - sl_vicon_controllers
-
--- ~~  - sl_dmp_controllers
-
--- ~~  - robot_planning_srv
-
--- ~~  - yaml_cpp
+-- ~~  - master_user
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
--- +++ processing catkin package: 'Eigen'
-
--- ==> add_subdirectory(catkin/third_party/Eigen)
-
-WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
-
--- +++ processing catkin package: 'amd_clmc_dmp'
-
--- ==> add_subdirectory(catkin/planning/amd_clmc_dmp)
-
--- Boost version: 1.54.0
-
--- Found the following Boost libraries:
-
---   thread
-
---   system
-
---   filesystem
-
--- +++ processing catkin package: 'arm_cdlbt'
-
--- ==> add_subdirectory(catkin/robots/arm-barrett/cdlbt)
-
--- MACHTYPE x86_64
-
-Detected MACHTYPE=x86_64
-
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
-
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
-
-Call Stack (most recent call first):
-
-  catkin/robots/arm-barrett/cdlbt/CMakeLists.txt:4 (include)
-
-
-
-
-
--- HOST_NAME=everest
-
--- HOST=everest
-
--- LAB=AMD
-
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_INCLUDE_PATH=
-
--- CMAKE_LIBRARY_PATH=
-
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
-
--- LAB_LIBDIR=lib/x86_64
-
--- LAB_INCLUDES=include
-
--- LAB_BINDIR=bin/x86_64
-
--- Boost version: 1.54.0
-
--- Found the following Boost libraries:
-
---   thread
-
--- +++ processing catkin package: 'arm_can_control_tools'
-
--- ==> add_subdirectory(catkin/robots/arm-barrett/canControlTools)
-
--- MACHTYPE x86_64
-
-Detected MACHTYPE=x86_64
-
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
-
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
-
-Call Stack (most recent call first):
-
-  catkin/robots/arm-barrett/canControlTools/CMakeLists.txt:4 (include)
-
-
-
-
-
--- HOST_NAME=everest
-
--- HOST=everest
-
--- LAB=AMD
-
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_INCLUDE_PATH=
-
--- CMAKE_LIBRARY_PATH=
-
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
-
--- LAB_LIBDIR=lib/x86_64
-
--- LAB_INCLUDES=include
-
--- LAB_BINDIR=bin/x86_64
-
--- Boost version: 1.54.0
-
--- Found the following Boost libraries:
-
---   thread
-
---   system
-
--- +++ processing catkin package: 'biotac_core'
-
--- ==> add_subdirectory(catkin/sensors/biotac-core)
-
--- MACHTYPE x86_64
-
-Detected MACHTYPE=x86_64
-
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
-
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
-
-Call Stack (most recent call first):
-
-  catkin/sensors/biotac-core/CMakeLists.txt:8 (include)
-
-
-
-
-
--- HOST_NAME=everest
-
--- HOST=everest
-
--- LAB=AMD
-
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_INCLUDE_PATH=
-
--- CMAKE_LIBRARY_PATH=
-
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
-
--- LAB_LIBDIR=lib/x86_64
-
--- LAB_INCLUDES=include
-
--- LAB_BINDIR=bin/x86_64
-
--- Boost version: 1.54.0
-
--- Found the following Boost libraries:
-
---   system
-
--- xenomai NOT found. (/usr/local;/usr)
-
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
-
--- +++ processing catkin package: 'catkin_gflags'
-
--- ==> add_subdirectory(catkin/third_party/catkin-gflags)
-
--- Found gflags  (include: /usr/include, library: /usr/lib/x86_64-linux-gnu/libgflags.so)
-
--- +++ processing catkin package: 'catkin_glog'
-
--- ==> add_subdirectory(catkin/third_party/catkin-glog)
-
--- Found glog    (include: /usr/include, library: /usr/lib/x86_64-linux-gnu/libglog.so)
-
--- +++ processing catkin package: 'conversions'
-
--- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/usc_utils/conversions)
-
--- +++ processing catkin package: 'interpolation'
-
--- ==> add_subdirectory(catkin/controller_manager/core-sl-ros/interpolation)
-
--- +++ processing catkin package: 'launch_xtion'
-
--- ==> add_subdirectory(catkin/ros/launch_xtion)
-
--- +++ processing catkin package: 'qp_oases'
-
--- ==> add_subdirectory(catkin/third_party/qp_oases)
-
--- +++ processing catkin package: 'quadprog'
-
--- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/usc_utils/quadprog)
-
--- +++ processing catkin metapackage: 'ros_realtime'
-
--- ==> add_subdirectory(catkin/ros/ros_realtime/ros_realtime)
-
--- +++ processing catkin package: 'allocators'
-
--- ==> add_subdirectory(catkin/ros/ros_realtime/allocators)
-
--- Boost version: 1.54.0
-
--- +++ processing catkin package: 'rosatomic'
-
--- ==> add_subdirectory(catkin/ros/ros_realtime/rosatomic)
-
--- Boost version: 1.54.0
-
--- +++ processing catkin package: 'lockfree'
-
--- ==> add_subdirectory(catkin/ros/ros_realtime/lockfree)
-
--- Boost version: 1.54.0
-
--- +++ processing catkin package: 'rt_timer'
-
--- ==> add_subdirectory(catkin/ros/ros_realtime/rt_timer)
-
--- +++ processing catkin package: 'rt_utils'
-
--- ==> add_subdirectory(catkin/rt_utils)
-
--- +++ processing catkin package: 'dmp'
-
--- ==> add_subdirectory(catkin/learning/dmp)
-
--- +++ processing catkin package: 'splines'
-
--- ==> add_subdirectory(catkin/controller_manager/core-sl-ros/splines)
-
--- +++ processing catkin package: 'start_robot'
-
--- ==> add_subdirectory(catkin/robots/start_robot)
-
--- +++ processing catkin package: 'amd_clmc_ros_messages'
-
--- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/amd_clmc_ros_messages)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- amd_clmc_ros_messages: 108 messages, 10 services
-
--- +++ processing catkin package: 'ar_track_alvar_msgs'
-
--- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/ar_track_alvar_msgs)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- ar_track_alvar_msgs: 2 messages, 0 services
-
--- +++ processing catkin package: 'custom_robot_msgs'
-
--- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/custom_robot_msgs)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- custom_robot_msgs: 1 messages, 2 services
-
--- +++ processing catkin package: 'riemo_grasping_msgs'
-
--- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/riemo_grasping_msgs)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- riemo_grasping_msgs: 5 messages, 3 services
 
 -- +++ processing catkin package: 'utilities'
 
@@ -552,60 +166,6 @@ Call Stack (most recent call first):
 
 -- LAB_BINDIR=bin/x86_64
 
--- +++ processing catkin package: 'vrpn_vicon_minimum'
-
--- ==> add_subdirectory(catkin/perception/vrpn_vicon_minimum)
-
--- +++ processing catkin package: 'vrpn_vicon_objs_tracker'
-
--- ==> add_subdirectory(catkin/perception/vrpn_vicon_objs_tracker)
-
--- +++ processing catkin package: 'xenomai_ros'
-
--- ==> add_subdirectory(catkin/ros/xenomai-ros)
-
--- +++ processing catkin package: 'constrained_inverse_kinematics_msgs'
-
--- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/planning/constrained_inverse_kinematics_msgs)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- constrained_inverse_kinematics_msgs: 1 messages, 0 services
-
--- +++ processing catkin package: 'robot_planning_client'
-
--- ==> add_subdirectory(catkin/planning/robot_planning_client)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- robot_planning_client: 0 messages, 1 services
-
--- +++ processing catkin package: 'roscpp_utilities'
-
--- ==> add_subdirectory(catkin/ros/roscpp_utilities)
-
--- +++ processing catkin package: 'rosrt'
-
--- ==> add_subdirectory(catkin/ros/ros_realtime/rosrt)
-
--- xenomai NOT found. (/usr/local;/usr)
-
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
-
--- Boost version: 1.54.0
-
--- Found the following Boost libraries:
-
---   thread
-
--- +++ processing catkin package: 'ros_rt_test'
-
--- ==> add_subdirectory(catkin/ros/ros_rt_basic_example)
-
--- xenomai NOT found. (/usr/local;/usr)
-
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
-
 -- +++ processing catkin package: 'sl'
 
 -- ==> add_subdirectory(catkin/core-sl/catkin-sl)
@@ -648,9 +208,9 @@ Call Stack (most recent call first):
 
 -- LAB_BINDIR=bin/x86_64
 
--- +++ processing catkin package: 'arm'
+-- +++ processing catkin package: 'master'
 
--- ==> add_subdirectory(catkin/robots/arm)
+-- ==> add_subdirectory(catkin/robots/catkin-master)
 
 -- MACHTYPE x86_64
 
@@ -662,7 +222,7 @@ CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
 
 Call Stack (most recent call first):
 
-  catkin/robots/arm/CMakeLists.txt:5 (include)
+  catkin/robots/catkin-master/CMakeLists.txt:8 (include)
 
 
 
@@ -690,31 +250,9 @@ Call Stack (most recent call first):
 
 -- LAB_BINDIR=bin/x86_64
 
--- Boost version: 1.54.0
+-- +++ processing catkin package: 'master_test_task'
 
--- Found the following Boost libraries:
-
---   thread
-
--- copying file: /home/administrator/ci/ci/team/workspace/src/cmake/sl/include/SL_dynamics.h to /home/administrator/ci/ci/team/workspace/src/catkin/robots/arm/include/SL_dynamics.h
-
--- copying file: /home/administrator/ci/ci/team/workspace/src/cmake/sl/src/SL_dynamics.c to /home/administrator/ci/ci/team/workspace/src/catkin/robots/arm/src/SL_dynamics.c
-
--- copying file: /home/administrator/ci/ci/team/workspace/src/cmake/sl/src/SL_forDynArt.c to /home/administrator/ci/ci/team/workspace/src/catkin/robots/arm/src/SL_forDynArt.c
-
--- copying file: /home/administrator/ci/ci/team/workspace/src/cmake/sl/src/SL_forDynComp.c to /home/administrator/ci/ci/team/workspace/src/catkin/robots/arm/src/SL_forDynComp.c
-
--- copying file: /home/administrator/ci/ci/team/workspace/src/cmake/sl/src/SL_invDynArt.c to /home/administrator/ci/ci/team/workspace/src/catkin/robots/arm/src/SL_invDynArt.c
-
--- copying file: /home/administrator/ci/ci/team/workspace/src/cmake/sl/src/SL_invDynNE.c to /home/administrator/ci/ci/team/workspace/src/catkin/robots/arm/src/SL_invDynNE.c
-
--- copying file: /home/administrator/ci/ci/team/workspace/src/cmake/sl/src/SL_kinematics.c to /home/administrator/ci/ci/team/workspace/src/catkin/robots/arm/src/SL_kinematics.c
-
--- copying file: /home/administrator/ci/ci/team/workspace/src/cmake/sl/src/SL_parm_estimate.c to /home/administrator/ci/ci/team/workspace/src/catkin/robots/arm/src/SL_parm_estimate.c
-
--- +++ processing catkin package: 'arm_test_task'
-
--- ==> add_subdirectory(catkin/robots/sl-arm-task-example)
+-- ==> add_subdirectory(catkin/robots/catkin-sl-master-task-example)
 
 -- MACHTYPE x86_64
 
@@ -726,7 +264,7 @@ CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
 
 Call Stack (most recent call first):
 
-  catkin/robots/sl-arm-task-example/CMakeLists.txt:8 (include)
+  catkin/robots/catkin-sl-master-task-example/CMakeLists.txt:8 (include)
 
 
 
@@ -754,9 +292,9 @@ Call Stack (most recent call first):
 
 -- LAB_BINDIR=bin/x86_64
 
--- +++ processing catkin package: 'sl_ros_servo'
+-- +++ processing catkin package: 'master_user'
 
--- ==> add_subdirectory(catkin/ros/sl_ros_servo)
+-- ==> add_subdirectory(catkin/robots/catkin-masterUser)
 
 -- MACHTYPE x86_64
 
@@ -768,7 +306,7 @@ CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
 
 Call Stack (most recent call first):
 
-  catkin/ros/sl_ros_servo/CMakeLists.txt:5 (include)
+  catkin/robots/catkin-masterUser/CMakeLists.txt:8 (include)
 
 
 
@@ -796,589 +334,795 @@ Call Stack (most recent call first):
 
 -- LAB_BINDIR=bin/x86_64
 
--- +++ processing catkin package: 'learning_control'
+The following tasks will *not* be built as they rely on rfwr and seem deprecated:
 
--- ==> add_subdirectory(catkin/learning/learning_control)
+             forcefield_B_task
 
--- MACHTYPE x86_64
+             vision_calibration_task
 
-Detected MACHTYPE=x86_64
+Building tasks:
 
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+             haptic_task
 
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+             gravityComp_task
 
-Call Stack (most recent call first):
+-- Configuring done
 
-  catkin/learning/learning_control/CMakeLists.txt:10 (include)
+-- Generating done
 
+-- Build files have been written to: /home/administrator/ci/ci/team/workspace/build
 
+Scanning dependencies of target utility
 
+Scanning dependencies of target master_simulation
 
+Scanning dependencies of target SLvision
 
--- HOST_NAME=everest
+Scanning dependencies of target master_task
 
--- HOST=everest
+Scanning dependencies of target SLopenGL
 
--- LAB=AMD
+Scanning dependencies of target master_openGL
 
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+Scanning dependencies of target SLmotor
 
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+Scanning dependencies of target SLcommon
 
--- CMAKE_INCLUDE_PATH=
+Scanning dependencies of target SLsimulation
 
--- CMAKE_LIBRARY_PATH=
+Scanning dependencies of target SLtask
 
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+[  1%] Scanning dependencies of target master
 
--- LAB_LIBDIR=lib/x86_64
+[  2%] [  4%] [  4%] [  5%] [  6%] [  7%] [  8%] [  9%] [ 10%] Building C object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/master_simulation.dir/src/SL_user_simulation.c.o
 
--- LAB_INCLUDES=include
+[ 10%] [ 11%] [ 12%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLopenGL.dir/src/SL_openGL_servo.c.o
 
--- LAB_BINDIR=bin/x86_64
+[ 13%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLopenGL.dir/src/SL_openGL_oscilloscope.c.o
 
--- xenomai NOT found. (/usr/local;/usr)
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLopenGL.dir/src/SL_openGL_servo_unix.c.o
 
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+[ 13%] [ 13%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLopenGL.dir/src/SL_openGL.c.o
 
--- +++ processing catkin package: 'ar_track_alvar'
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLvision.dir/src/SL_vision_servo_unix.c.o
 
--- ==> add_subdirectory(catkin/perception/ar_track_alvar)
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/brent.c.o
 
--- Using these message generators: gencpp;genlisp;genpy
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLvision.dir/src/SL_serial_unix.c.o
 
--- ar_track_alvar: 2 messages, 0 services
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLcommon.dir/src/SL_vx2unix_wrappers.c.o
 
--- +++ processing catkin package: 'python_ros_utils'
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLtask.dir/src/SL_task_servo_unix.c.o
 
--- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/usc_utils/python_ros_utils)
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLsimulation.dir/src/SL_simulation_servo_unix.c.o
 
--- Using these message generators: gencpp;genlisp;genpy
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLmotor.dir/src/SL_motor_servo_unix.c.o
 
--- +++ processing catkin package: 'sl_conversions'
+Building C object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/master_task.dir/src/SL_user_task.c.o
 
--- ==> add_subdirectory(catkin/controller_manager/core-sl-ros/sl_conversions)
+Building C object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/master.dir/src/SL_user_commands.c.o
 
--- Using these message generators: gencpp;genlisp;genpy
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/control.c.o
 
--- +++ processing catkin package: 'sl_utilities'
+Building C object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/master_openGL.dir/src/SL_user_openGL.c.o
 
--- ==> add_subdirectory(catkin/controller_manager/core-sl-ros/sl_utilities)
+[ 14%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLopenGL.dir/src/SL_objects.c.o
 
--- xenomai NOT found. (/usr/local;/usr)
+Linking C shared library /home/administrator/ci/ci/team/workspace/devel/lib/libmaster_task.so
 
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+Linking C shared library /home/administrator/ci/ci/team/workspace/devel/lib/libmaster_simulation.so
 
--- Using these message generators: gencpp;genlisp;genpy
+[ 14%] [ 15%] [ 16%] [ 16%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLtask.dir/src/SL_tasks.c.o
 
--- +++ processing catkin package: 'sl_controller_manager'
+[ 17%] Building C object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/master.dir/src/SL_user_common.c.o
 
--- ==> add_subdirectory(catkin/controller_manager/core-sl-ros/sl_controller_manager)
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLopenGL.dir/src/SL_userGraphics.c.o
 
--- MACHTYPE x86_64
+[ 18%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLsimulation.dir/src/SL_simulation_servo.c.o
 
-Detected MACHTYPE=x86_64
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLmotor.dir/src/SL_controller.c.o
 
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLvision.dir/src/SL_vision_servo.c.o
 
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+[ 19%] [ 20%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLsimulation.dir/src/SL_userSimulation.c.o
 
-Call Stack (most recent call first):
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/dbrent.c.o
 
-  catkin/controller_manager/core-sl-ros/sl_controller_manager/CMakeLists.txt:5 (include)
+[ 20%] [ 20%] Built target master_simulation
 
+Built target master_task
 
+[ 21%] [ 22%] [ 23%] /home/administrator/ci/ci/team/workspace/src/cmake/sl/src/SL_tasks.c: In function ‘set_args_task’:
 
+/home/administrator/ci/ci/team/workspace/src/cmake/sl/src/SL_tasks.c:482:2: warning: format not a string literal and no format arguments [-Wformat-security]
 
+  sprintf(sl_default_task,argv[i]);
 
--- HOST_NAME=everest
+  ^
 
--- HOST=everest
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/df1dim.c.o
 
--- LAB=AMD
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLcommon.dir/src/SL_common.c.o
 
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+[ 24%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/dfpmin.c.o
 
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+[ 25%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLcommon.dir/src/SL_collect_data.c.o
 
--- CMAKE_INCLUDE_PATH=
+Building C object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/master.dir/__/sl/src/SL_kinematics.c.o
 
--- CMAKE_LIBRARY_PATH=
+[ 26%] [ 28%] [ 28%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLtask.dir/src/SL_task_servo.c.o
 
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/distributions.c.o
 
--- LAB_LIBDIR=lib/x86_64
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLtask.dir/src/SL_goto_task.c.o
 
--- LAB_INCLUDES=include
+[ 29%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/dlinmin.c.o
 
--- LAB_BINDIR=bin/x86_64
+[ 29%] [ 30%] [ 31%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLmotor.dir/src/SL_motor_servo.c.o
 
--- xenomai NOT found. (/usr/local;/usr)
+Linking C shared library /home/administrator/ci/ci/team/workspace/devel/lib/libmaster_openGL.so
 
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/frprmn.c.o
 
--- Using these message generators: gencpp;genlisp;genpy
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/f1dim.c.o
 
--- +++ processing catkin package: 'sl_barrett_controllers'
+[ 32%] [ 33%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLvision.dir/src/SL_dbvision.c.o
 
--- ==> add_subdirectory(catkin/controller_manager/sl_barrett_controllers/sl_barrett_controllers)
+[ 34%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLvision.dir/src/SL_vision_proc.c.o
 
--- xenomai NOT found. (/usr/local;/usr)
+Building C object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/master.dir/__/sl/src/SL_dynamics.c.o
 
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+[ 35%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/j-fixed.c.o
 
--- Using these message generators: gencpp;genlisp;genpy
+[ 35%] Built target master_openGL
 
--- +++ processing catkin package: 'sl_biotac_controller_data'
+[ 36%] [ 37%] [ 38%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLsimulation.dir/src/SL_objects.c.o
 
--- ==> add_subdirectory(catkin/controller_manager/sl_biotac/sl_biotac_controller_data)
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLcommon.dir/src/SL_shared_memory.c.o
 
--- MACHTYPE x86_64
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/ldltinv.c.o
 
-Detected MACHTYPE=x86_64
+[ 38%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLmotor.dir/src/SL_sensor_proc.c.o
 
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+[ 39%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/linmin.c.o
 
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+[ 40%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLtask.dir/src/SL_sine_task.c.o
 
-Call Stack (most recent call first):
+[ 41%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLcommon.dir/src/SL_filters.c.o
 
-  catkin/controller_manager/sl_biotac/sl_biotac_controller_data/CMakeLists.txt:5 (include)
+[ 42%] [ 43%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/lubksb.c.o
 
+[ 44%] [ 44%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLcommon.dir/src/SL_unix_common.c.o
 
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLsimulation.dir/src/SL_integrate.c.o
 
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/ludcmp.c.o
 
+[ 45%] Building CXX object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/master.dir/__/sl/src/SL_invDynNE.cpp.o
 
--- HOST_NAME=everest
+[ 46%] Linking C shared library /home/administrator/ci/ci/team/workspace/devel/lib/libSLvision.so
 
--- HOST=everest
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLtask.dir/src/SL_go_cart_task.c.o
 
--- LAB=AMD
+[ 47%] [ 48%] Building CXX object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/master.dir/__/sl/src/SL_invDynArt.cpp.o
 
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLtask.dir/src/SL_objects.c.o
 
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+Linking C shared library /home/administrator/ci/ci/team/workspace/devel/lib/libSLmotor.so
 
--- CMAKE_INCLUDE_PATH=
+/home/administrator/ci/ci/team/workspace/src/cmake/sl/src/SL_unix_common.c: In function ‘spawnCommandFromUserTaskThread’:
 
--- CMAKE_LIBRARY_PATH=
+/home/administrator/ci/ci/team/workspace/src/cmake/sl/src/SL_unix_common.c:405:3: warning: passing argument 3 of ‘pthread_create’ from incompatible pointer type [enabled by default]
 
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+   if ((rc=pthread_create( &uthread, &pth_attr, getCommandFromUserTask, NULL)))
 
--- LAB_LIBDIR=lib/x86_64
+   ^
 
--- LAB_INCLUDES=include
+In file included from /home/administrator/ci/ci/team/workspace/src/cmake/sl/include/SL_system_headers.h:51:0,
 
--- LAB_BINDIR=bin/x86_64
+                 from /home/administrator/ci/ci/team/workspace/src/cmake/sl/src/SL_unix_common.c:20:
 
--- xenomai NOT found. (/usr/local;/usr)
+/usr/include/pthread.h:244:12: note: expected ‘void * (*)(void *)’ but argument is of type ‘void * (*)(void)’
 
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+ extern int pthread_create (pthread_t *__restrict __newthread,
 
--- Using these message generators: gencpp;genlisp;genpy
+            ^
 
--- +++ processing catkin package: 'sl_biotac_controllers'
+[ 48%] Linking C shared library /home/administrator/ci/ci/team/workspace/devel/lib/libSLopenGL.so
 
--- ==> add_subdirectory(catkin/controller_manager/sl_biotac/sl_biotac_controllers)
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLcommon.dir/src/SL_terrains.c.o
 
--- xenomai NOT found. (/usr/local;/usr)
+[ 48%] Built target SLvision
 
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+[ 50%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLcommon.dir/src/SL_oscilloscope.c.o
 
--- Using these message generators: gencpp;genlisp;genpy
+[ 50%] [ 50%] [ 51%] Built target SLmotor
 
--- +++ processing catkin package: 'sl_controllers'
+Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLtask.dir/src/SL_traj_task.c.o
 
--- ==> add_subdirectory(catkin/controller_manager/core-sl-ros/sl_controllers)
+[ 52%] Building C object catkin/core-sl/catkin-sl/tmp_catkin_sl/CMakeFiles/SLcommon.dir/src/SL_man.c.o
 
--- xenomai NOT found. (/usr/local;/usr)
+[ 52%] [ 53%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/mnbrak.c.o
 
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+Built target SLopenGL
 
--- Using these message generators: gencpp;genlisp;genpy
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/numerics_package.c.o
 
--- Boost version: 1.54.0
+[ 53%] [ 54%] Building CXX object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/master.dir/__/sl/src/SL_forDynArt.cpp.o
 
--- Found the following Boost libraries:
+[ 55%] Building CXX object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/master.dir/__/sl/src/SL_forDynComp.cpp.o
 
---   random
+[ 56%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/powell.c.o
 
--- +++ processing catkin package: 'sl_head_arm_controllers'
+[ 57%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/svbksb.c.o
 
--- ==> add_subdirectory(catkin/controller_manager/sl_head_arm/sl_head_arm_controllers)
+[ 58%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/stability.c.o
 
--- xenomai NOT found. (/usr/local;/usr)
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/svdcmp.c.o
 
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+[ 58%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/parm_opt.c.o
 
--- Using these message generators: gencpp;genlisp;genpy
+[ 59%] [ 60%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/kdtree.c.o
 
--- +++ processing catkin package: 'sl_vicon_controller_data'
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/lookup_table.c.o
 
--- ==> add_subdirectory(catkin/controller_manager/sl_vicon/sl_vicon_controller_data)
+[ 62%] [ 62%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/choldc.c.o
 
--- MACHTYPE x86_64
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/pythag.c.o
 
-Detected MACHTYPE=x86_64
+[ 63%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/statistics.c.o
 
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+[ 63%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/data_sets.c.o
 
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+[ 64%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/balanc.c.o
 
-Call Stack (most recent call first):
+Linking C shared library /home/administrator/ci/ci/team/workspace/devel/lib/libSLsimulation.so
 
-  catkin/controller_manager/sl_vicon/sl_vicon_controller_data/CMakeLists.txt:5 (include)
+[ 66%] [ 66%] [ 67%] Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/elmhes.c.o
 
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/hqr.c.o
 
+Building C object catkin/core-sl/catkin-utilities/tmp_catkin_utilities/CMakeFiles/utility.dir/src/utility.c.o
 
+[ 67%] Built target SLsimulation
 
+Linking C shared library /home/administrator/ci/ci/team/workspace/devel/lib/libSLcommon.so
 
--- HOST_NAME=everest
+Linking C shared library /home/administrator/ci/ci/team/workspace/devel/lib/libSLtask.so
 
--- HOST=everest
+[ 67%] Built target SLcommon
 
--- LAB=AMD
+[ 67%] Built target SLtask
 
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+Linking C shared library /home/administrator/ci/ci/team/workspace/devel/lib/libutility.so
 
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+[ 67%] Built target utility
 
--- CMAKE_INCLUDE_PATH=
+Scanning dependencies of target xlwprstat
 
--- CMAKE_LIBRARY_PATH=
+Scanning dependencies of target xlwpr
 
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+Scanning dependencies of target lwpr
 
--- LAB_LIBDIR=lib/x86_64
+Scanning dependencies of target xascii2clmcplot
 
--- LAB_INCLUDES=include
+Scanning dependencies of target xmaster
 
--- LAB_BINDIR=bin/x86_64
+[ 68%] [ 69%] [ 70%] [ 71%] [ 71%] [ 71%] [ 72%] Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/xlwprstat.dir/src/lwpr_stat.c.o
 
--- xenomai NOT found. (/usr/local;/usr)
+[ 73%] [ 74%] [ 76%] [ 76%] Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/xlwprstat.dir/src/lwpr_main.c.o
 
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/xlwpr.dir/src/lwpr.c.o
 
--- Using these message generators: gencpp;genlisp;genpy
+Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/lwpr.dir/src/lwpr.c.o
 
--- +++ processing catkin package: 'sl_biotac_vicon_controller_data'
+Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/xlwprstat.dir/src/lwpr.c.o
 
--- ==> add_subdirectory(catkin/controller_manager/sl_biotac_vicon/sl_biotac_vicon_controller_data)
+Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/lwpr.dir/src/lwpr_script.c.o
 
--- MACHTYPE x86_64
+Building C object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/xmaster.dir/src/SL_main.c.o
 
-Detected MACHTYPE=x86_64
+Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/xascii2clmcplot.dir/src/ascii2mrdplot.c.o
 
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/xlwprstat.dir/src/lwpr_script.c.o
 
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/xlwpr.dir/src/lwpr_main.c.o
 
-Call Stack (most recent call first):
+[ 77%] Scanning dependencies of target xpest
 
-  catkin/controller_manager/sl_biotac_vicon/sl_biotac_vicon_controller_data/CMakeLists.txt:5 (include)
+Scanning dependencies of target xmotor
 
+Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/xlwpr.dir/src/lwpr_test.c.o
 
+Building C object catkin/core-sl/catkin-lwpr/tmp_catkin_lwpr/CMakeFiles/xlwpr.dir/src/lwpr_script.c.o
 
+[ 79%] [ 79%] Building C object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/xmotor.dir/src/SL_user_motor.c.o
 
+Building C object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/xpest.dir/__/sl/src/SL_parm_estimate.c.o
 
--- HOST_NAME=everest
+[ 80%] Linking C executable xascii2clmcplot
 
--- HOST=everest
+[ 81%] Building C object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/xmaster.dir/src/SL_user_common.c.o
 
--- LAB=AMD
+Building C object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/xmotor.dir/src/SL_user_sensor_proc_unix.c.o
 
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+In file included from /home/administrator/ci/ci/team/workspace/src/cmake/master/src/SL_main.c:55:0:
 
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+/home/administrator/ci/ci/team/workspace/src/cmake/sl/include/SL_user_main_core.h: In function ‘main’:
 
--- CMAKE_INCLUDE_PATH=
+/home/administrator/ci/ci/team/workspace/src/cmake/sl/include/SL_user_main_core.h:60:7: warning: ‘return’ with no value, in function returning non-void [-Wreturn-type]
 
--- CMAKE_LIBRARY_PATH=
+       return;
 
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+       ^
 
--- LAB_LIBDIR=lib/x86_64
+/home/administrator/ci/ci/team/workspace/src/cmake/sl/include/SL_user_main_core.h:62:7: warning: format not a string literal and no format arguments [-Wformat-security]
 
--- LAB_INCLUDES=include
+       sprintf(start_task,argv[i+1]);
 
--- LAB_BINDIR=bin/x86_64
+       ^
 
--- xenomai NOT found. (/usr/local;/usr)
+/home/administrator/ci/ci/team/workspace/src/cmake/sl/include/SL_user_main_core.h:118:3: warning: format not a string literal and no format arguments [-Wformat-security]
 
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+   sprintf(argv_array[c++],start_task);
 
--- Using these message generators: gencpp;genlisp;genpy
+   ^
 
--- +++ processing catkin package: 'controller_manager_task_arm'
+[ 82%] [ 83%] Building C object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/xmotor.dir/src/SL_user_commands.c.o
 
--- ==> add_subdirectory(catkin/controller_manager/controller_manager_arm/controller_manager_task_arm)
+[ 84%] Building C object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/xpest.dir/src/SL_user_common.c.o
 
--- MACHTYPE x86_64
+Linking C executable xmaster
 
-Detected MACHTYPE=x86_64
+[ 84%] Building C object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/xpest.dir/src/SL_user_commands.c.o
 
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+Building C object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/xmotor.dir/src/SL_user_common.c.o
 
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+[ 85%] Building C object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/xmotor.dir/__/sl/src/SL_kinematics.c.o
 
-Call Stack (most recent call first):
+[ 87%] [ 87%] [ 87%] Built target xascii2clmcplot
 
-  catkin/controller_manager/controller_manager_arm/controller_manager_task_arm/CMakeLists.txt:5 (include)
+[ 87%] Building C object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/xmotor.dir/__/sl/src/SL_dynamics.c.o
 
+Building C object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/xpest.dir/__/sl/src/SL_kinematics.c.o
 
+[ 88%] [ 89%] Building CXX object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/xmotor.dir/__/sl/src/SL_invDynNE.cpp.o
 
+Building C object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/xpest.dir/__/sl/src/SL_dynamics.c.o
 
+[ 90%] Building CXX object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/xpest.dir/__/sl/src/SL_invDynNE.cpp.o
 
--- HOST_NAME=everest
+[ 91%] [ 92%] Building CXX object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/xpest.dir/__/sl/src/SL_forDynComp.cpp.o
 
--- HOST=everest
+Building CXX object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/xpest.dir/__/sl/src/SL_forDynArt.cpp.o
 
--- LAB=AMD
+Building CXX object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/xpest.dir/__/sl/src/SL_invDynArt.cpp.o
 
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+[ 93%] Building CXX object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/xmotor.dir/__/sl/src/SL_invDynArt.cpp.o
 
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+[ 93%] Built target xmaster
 
--- CMAKE_INCLUDE_PATH=
+[ 94%] Building CXX object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/xmotor.dir/__/sl/src/SL_forDynComp.cpp.o
 
--- CMAKE_LIBRARY_PATH=
+[ 94%] Building CXX object catkin/robots/catkin-master/tmp_catkin_master/CMakeFiles/xmotor.dir/__/sl/src/SL_forDynArt.cpp.o
 
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libmaster.so
 
--- LAB_LIBDIR=lib/x86_64
+[ 94%] Built target master
 
--- LAB_INCLUDES=include
+Linking C executable xlwprstat
 
--- LAB_BINDIR=bin/x86_64
+Scanning dependencies of target gravityComp_task
 
--- xenomai NOT found. (/usr/local;/usr)
+Scanning dependencies of target haptic_task
 
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+[ 94%] Scanning dependencies of target xopengl_master
 
--- Using these message generators: gencpp;genlisp;genpy
+[ 95%] Building C object catkin/robots/catkin-masterUser/tmp_catkin_master_user/CMakeFiles/gravityComp_task.dir/src/gravityComp_task.c.o
 
--- +++ processing catkin package: 'arm_user'
+Building C object catkin/robots/catkin-masterUser/tmp_catkin_master_user/CMakeFiles/haptic_task.dir/src/haptic_task.c.o
 
--- ==> add_subdirectory(catkin/robots/armUser)
+[ 96%] Building C object catkin/robots/catkin-masterUser/tmp_catkin_master_user/CMakeFiles/xopengl_master.dir/src/initUserGraphics.c.o
 
--- MACHTYPE x86_64
+Linking C shared library /home/administrator/ci/ci/team/workspace/devel/lib/liblwpr.so
 
-Detected MACHTYPE=x86_64
+Scanning dependencies of target xsimulation_master
 
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+[ 97%] Building C object catkin/robots/catkin-masterUser/tmp_catkin_master_user/CMakeFiles/xsimulation_master.dir/src/initUserSimulation.c.o
 
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+[ 97%] Built target lwpr
 
-Call Stack (most recent call first):
+Linking C executable xlwpr
 
-  catkin/robots/armUser/CMakeLists.txt:5 (include)
+Scanning dependencies of target master_test_task
 
+[ 98%] [ 98%] Built target xlwprstat
 
+Building CXX object catkin/robots/catkin-sl-master-task-example/CMakeFiles/master_test_task.dir/src/master_test_task.cpp.o
 
+Linking C shared library /home/administrator/ci/ci/team/workspace/devel/lib/libgravityComp_task.so
 
+Linking C shared library /home/administrator/ci/ci/team/workspace/devel/lib/libhaptic_task.so
 
--- HOST_NAME=everest
+Linking C executable /home/administrator/ci/ci/team/workspace/devel/lib/master_user/xopengl
 
--- HOST=everest
+Linking C executable /home/administrator/ci/ci/team/workspace/devel/lib/master_user/xsimulation
 
--- LAB=AMD
+[ 98%] Built target gravityComp_task
 
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+[ 98%] Built target haptic_task
 
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+[ 98%] Built target xlwpr
 
--- CMAKE_INCLUDE_PATH=
+Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libmaster_test_task.so
 
--- CMAKE_LIBRARY_PATH=
+[ 98%] Built target xsimulation_master
 
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+[ 98%] Built target xopengl_master
 
--- LAB_LIBDIR=lib/x86_64
+[ 98%] Built target master_test_task
 
--- LAB_INCLUDES=include
+Scanning dependencies of target xtask_master
 
--- LAB_BINDIR=bin/x86_64
+[100%] Building C object catkin/robots/catkin-masterUser/tmp_catkin_master_user/CMakeFiles/xtask_master.dir/src/initUserTasks.c.o
 
--- xenomai NOT found. (/usr/local;/usr)
+Linking C executable /home/administrator/ci/ci/team/workspace/devel/lib/master_user/xtask
 
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+[100%] Built target xtask_master
 
--- Using these message generators: gencpp;genlisp;genpy
+Linking CXX executable xpest
 
--- +++ processing catkin package: 'arm_robot_model'
+Linking CXX executable xmotor
 
--- ==> add_subdirectory(catkin/robots/arm_robot_model)
+[100%] Built target xpest
 
--- +++ processing catkin package: 'arm_moveit_config'
+[100%] Built target xmotor
 
--- ==> add_subdirectory(catkin/planning/arm_moveit_config)
+Install the project...
 
--- +++ processing catkin package: 'ros_servo_arm'
+-- Install configuration: ""
 
--- ==> add_subdirectory(catkin/ros/ros_servo_arm)
+-- Installing: /home/administrator/ci/ci/team/workspace/install/_setup_util.py
 
--- MACHTYPE x86_64
+-- Installing: /home/administrator/ci/ci/team/workspace/install/env.sh
 
-Detected MACHTYPE=x86_64
+-- Installing: /home/administrator/ci/ci/team/workspace/install/setup.bash
 
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+-- Installing: /home/administrator/ci/ci/team/workspace/install/setup.sh
 
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+-- Installing: /home/administrator/ci/ci/team/workspace/install/setup.zsh
 
-Call Stack (most recent call first):
+-- Installing: /home/administrator/ci/ci/team/workspace/install/.rosinstall
 
-  catkin/ros/ros_servo_arm/CMakeLists.txt:5 (include)
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/utilities.pc
 
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/utilities/cmake/utilities.cmake
 
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/utilities/cmake/utilitiesConfig.cmake
 
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/utilities/cmake/utilitiesConfig-version.cmake
 
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/utilities/package.xml
 
--- HOST_NAME=everest
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/utility.h
 
--- HOST=everest
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/data_sets.h
 
--- LAB=AMD
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/nrutil.h
 
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/statistics.h
 
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/utility_macros.h
 
--- CMAKE_INCLUDE_PATH=
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/mdefs.h
 
--- CMAKE_LIBRARY_PATH=
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/x86_64/libutility.so
 
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+-- Set runtime path of "/home/administrator/ci/ci/team/workspace/install/lib/x86_64/libutility.so" to "/home/administrator/ci/ci/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib"
 
--- LAB_LIBDIR=lib/x86_64
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/lwpr.pc
 
--- LAB_INCLUDES=include
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/lwpr/cmake/lwpr.cmake
 
--- LAB_BINDIR=bin/x86_64
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/lwpr/cmake/lwprConfig.cmake
 
--- Using these message generators: gencpp;genlisp;genpy
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/lwpr/cmake/lwprConfig-version.cmake
 
--- +++ processing catkin package: 'usc_utilities'
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/lwpr/package.xml
 
--- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/usc_utils/usc_utilities)
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/x86_64/liblwpr.so
 
--- Using these message generators: gencpp;genlisp;genpy
+-- Set runtime path of "/home/administrator/ci/ci/team/workspace/install/lib/x86_64/liblwpr.so" to "/home/administrator/ci/ci/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib:/home/administrator/ci/ci/team/workspace/devel/lib"
 
--- usc_utilities: 1 messages, 0 services
+-- Installing: /home/administrator/ci/ci/team/workspace/install/bin/x86_64/xlwpr
 
--- +++ processing catkin package: 'learnable_cost_function'
+-- Set runtime path of "/home/administrator/ci/ci/team/workspace/install/bin/x86_64/xlwpr" to "/home/administrator/ci/ci/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib:/home/administrator/ci/ci/team/workspace/devel/lib"
 
--- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/planning/learnable_cost_function)
+-- Installing: /home/administrator/ci/ci/team/workspace/install/bin/x86_64/xlwprstat
 
--- +++ processing catkin package: 'robot_info'
+-- Set runtime path of "/home/administrator/ci/ci/team/workspace/install/bin/x86_64/xlwprstat" to "/home/administrator/ci/ci/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib:/home/administrator/ci/ci/team/workspace/devel/lib"
 
--- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/usc_utils/robot_info)
+-- Installing: /home/administrator/ci/ci/team/workspace/install/bin/x86_64/xascii2clmcplot
 
--- +++ processing catkin package: 'jacobian_utilities'
+-- Set runtime path of "/home/administrator/ci/ci/team/workspace/install/bin/x86_64/xascii2clmcplot" to "/home/administrator/ci/ci/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib:/home/administrator/ci/ci/team/workspace/devel/lib"
 
--- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/usc_utils/jacobian_utilities)
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/lwpr.h
 
--- +++ processing catkin package: 'sl_barrett_controller_interface'
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/sl.pc
 
--- ==> add_subdirectory(catkin/controller_manager/sl_barrett_controllers/sl_barrett_controller_interface)
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/sl/cmake/sl.cmake
 
--- xenomai NOT found. (/usr/local;/usr)
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/sl/cmake/slConfig.cmake
 
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/sl/cmake/slConfig-version.cmake
 
--- Using these message generators: gencpp;genlisp;genpy
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/sl/package.xml
 
--- +++ processing catkin package: 'sl_controller_interface'
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/x86_64/libSLcommon.so
 
--- ==> add_subdirectory(catkin/controller_manager/core-sl-ros/sl_controller_interface)
+-- Set runtime path of "/home/administrator/ci/ci/team/workspace/install/lib/x86_64/libSLcommon.so" to "/home/administrator/ci/ci/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib"
 
--- Using these message generators: gencpp;genlisp;genpy
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/x86_64/libSLtask.so
 
--- +++ processing catkin package: 'arm_learn_hand_eye_calibration'
+-- Set runtime path of "/home/administrator/ci/ci/team/workspace/install/lib/x86_64/libSLtask.so" to "/home/administrator/ci/ci/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib"
 
--- ==> add_subdirectory(catkin/calibration/arm_learn_hand_eye_calibration)
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/x86_64/libSLmotor.so
 
--- MACHTYPE x86_64
+-- Set runtime path of "/home/administrator/ci/ci/team/workspace/install/lib/x86_64/libSLmotor.so" to "/home/administrator/ci/ci/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib"
 
-Detected MACHTYPE=x86_64
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/x86_64/libSLsimulation.so
 
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+-- Set runtime path of "/home/administrator/ci/ci/team/workspace/install/lib/x86_64/libSLsimulation.so" to "/home/administrator/ci/ci/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib"
 
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/x86_64/libSLopenGL.so
 
-Call Stack (most recent call first):
+-- Set runtime path of "/home/administrator/ci/ci/team/workspace/install/lib/x86_64/libSLopenGL.so" to "/home/administrator/ci/ci/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib"
 
-  catkin/calibration/arm_learn_hand_eye_calibration/CMakeLists.txt:5 (include)
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/x86_64/libSLvision.so
 
+-- Set runtime path of "/home/administrator/ci/ci/team/workspace/install/lib/x86_64/libSLvision.so" to "/home/administrator/ci/ci/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib"
 
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL.h
 
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_collect_data.h
 
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_common.h
 
--- HOST_NAME=everest
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_controller.h
 
--- HOST=everest
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_dynamics.h
 
--- LAB=AMD
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_filters.h
 
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_integrate.h
 
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_kinematics.h
 
--- CMAKE_INCLUDE_PATH=
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_man.h
 
--- CMAKE_LIBRARY_PATH=
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_motor_servo.h
 
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_objects.h
 
--- LAB_LIBDIR=lib/x86_64
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_objects_defines.h
 
--- LAB_INCLUDES=include
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_openGL.h
 
--- LAB_BINDIR=bin/x86_64
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_openGL_servo.h
 
--- Using these message generators: gencpp;genlisp;genpy
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_oscilloscope.h
 
--- +++ processing catkin package: 'robot_kinematics_cost_function'
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_rt_mutex.h
 
--- ==> add_subdirectory(catkin/planning/robot_kinematics_cost_function)
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_sensor_proc.h
 
-CMake Error at /home/administrator/ci/ci/team/workspace/devel/share/catkin/cmake/catkinConfig.cmake:75 (find_package):
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_shared_memory.h
 
-  Could not find a package configuration file provided by
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_simulation_servo.h
 
-  "constrained_inverse_kinematics" with any of the following names:
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_system_headers.h
 
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_task_servo.h
 
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_tasks.h
 
-    constrained_inverse_kinematicsConfig.cmake
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_terrains.h
 
-    constrained_inverse_kinematics-config.cmake
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_unix_common.h
 
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_userGraphics.h
 
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_userSimulation.h
 
-  Add the installation prefix of "constrained_inverse_kinematics" to
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_user_common.h
 
-  CMAKE_PREFIX_PATH or set "constrained_inverse_kinematics_DIR" to a
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_user_display_core.h
 
-  directory containing one of the above files.  If
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_user_idle_core.h
 
-  "constrained_inverse_kinematics" provides a separate development package or
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_user_main_core.h
 
-  SDK, be sure it has been installed.
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_vision_servo.h
 
-Call Stack (most recent call first):
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_serial_unix.h
 
-  catkin/planning/robot_kinematics_cost_function/CMakeLists.txt:7 (find_package)
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_serial_xeno.h
 
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_vx_wrappers.h
 
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_xeno_common.h
 
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/SL_xeno_headers.h
 
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/master.pc
 
--- Configuring incomplete, errors occurred!
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/master/cmake/master.cmake
 
-See also "/home/administrator/ci/ci/team/workspace/build/CMakeFiles/CMakeOutput.log".
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/master/cmake/masterConfig.cmake
 
-See also "/home/administrator/ci/ci/team/workspace/build/CMakeFiles/CMakeError.log".
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/master/cmake/masterConfig-version.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/master/package.xml
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/x86_64/libmaster.so
+
+-- Set runtime path of "/home/administrator/ci/ci/team/workspace/install/lib/x86_64/libmaster.so" to "/home/administrator/ci/ci/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib"
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/x86_64/libmaster_openGL.so
+
+-- Set runtime path of "/home/administrator/ci/ci/team/workspace/install/lib/x86_64/libmaster_openGL.so" to "/home/administrator/ci/ci/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib"
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/x86_64/libmaster_task.so
+
+-- Set runtime path of "/home/administrator/ci/ci/team/workspace/install/lib/x86_64/libmaster_task.so" to "/home/administrator/ci/ci/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib"
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/x86_64/libmaster_simulation.so
+
+-- Set runtime path of "/home/administrator/ci/ci/team/workspace/install/lib/x86_64/libmaster_simulation.so" to "/home/administrator/ci/ci/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib"
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/x86_64/xmaster
+
+-- Set runtime path of "/home/administrator/ci/ci/team/workspace/install/bin/master/x86_64/xmaster" to "/home/administrator/ci/ci/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib:/home/administrator/ci/ci/team/workspace/devel/lib"
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/x86_64/xmotor
+
+-- Set runtime path of "/home/administrator/ci/ci/team/workspace/install/bin/master/x86_64/xmotor" to "/home/administrator/ci/ci/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib:/home/administrator/ci/ci/team/workspace/devel/lib"
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/x86_64/xpest
+
+-- Set runtime path of "/home/administrator/ci/ci/team/workspace/install/bin/master/x86_64/xpest" to "/home/administrator/ci/ci/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib:/home/administrator/ci/ci/team/workspace/devel/lib"
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/x86_64/libmaster_test_task.so
+
+-- Set runtime path of "/home/administrator/ci/ci/team/workspace/install/lib/x86_64/libmaster_test_task.so" to "/home/administrator/ci/ci/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib:/home/administrator/ci/ci/team/workspace/devel/lib"
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/master_test_task.pc
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/master_test_task/cmake/master_test_taskConfig.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/master_test_task/cmake/master_test_taskConfig-version.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/master_test_task/package.xml
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/master_user.pc
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/master_user/cmake/master_user.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/master_user/cmake/master_userConfig.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/master_user/cmake/master_userConfig-version.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/master_user/package.xml
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/config/StereoParameters.cf
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/config/ServoParameters.cf
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/config/ServoParametersSim.cf
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/config/ConfigFilesSim.cf
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/config/Translation.cf
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/config/Gains.cf
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/config/SensorOffset.cf
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/config/Ajc.cf
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/config/SensorFilter.cf
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/config/ParameterPool.cf
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/config/SensorCalibration.cf
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/config/WhichDOFs.cf
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/config/Contacts.cf
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/config/ConfigFiles.cf
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/config/xpest_parameters.cf
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/config/LinkParameters.cf
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/config/AjcRegisters.cf
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/config/LinkParametersSim.cf
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/config/Objects.cf
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/config/butterworth_table_order_2
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/prefs/tracking_task.pp
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/prefs/vision_default.osc
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/prefs/vision_default.script
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/prefs/default.sine
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/prefs/motor_default.osc
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/prefs/one_dof.script
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/prefs/sim_default.osc
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/prefs/vision_sample.script
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/prefs/task_default.script
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/prefs/sim_default.script
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/prefs/task_sample.script
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/prefs/invdyn.script
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/prefs/invdyn2.sine
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/prefs/vision_default.pp
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/prefs/default_script
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/prefs/force_B.script
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/prefs/motor_sample.script
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/prefs/preferred_register_file
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/prefs/one_dof.sine
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/prefs/sim_sample.script
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/prefs/motor_default.script
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/prefs/invdyn.sine
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/prefs/task_default.osc
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/prefs/vision_calibration.pp
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/export_paths.sh
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/x86_64/libhaptic_task.so
+
+-- Set runtime path of "/home/administrator/ci/ci/team/workspace/install/lib/x86_64/libhaptic_task.so" to "/home/administrator/ci/ci/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib:/home/administrator/ci/ci/team/workspace/devel/lib"
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/x86_64/libgravityComp_task.so
+
+-- Set runtime path of "/home/administrator/ci/ci/team/workspace/install/lib/x86_64/libgravityComp_task.so" to "/home/administrator/ci/ci/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib:/home/administrator/ci/ci/team/workspace/devel/lib"
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/x86_64/xopengl
+
+-- Set runtime path of "/home/administrator/ci/ci/team/workspace/install/bin/master/x86_64/xopengl" to "/home/administrator/ci/ci/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib:/home/administrator/ci/ci/team/workspace/devel/lib"
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/x86_64/xsimulation
+
+-- Set runtime path of "/home/administrator/ci/ci/team/workspace/install/bin/master/x86_64/xsimulation" to "/home/administrator/ci/ci/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib:/home/administrator/ci/ci/team/workspace/devel/lib"
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/bin/master/x86_64/xtask
+
+-- Set runtime path of "/home/administrator/ci/ci/team/workspace/install/bin/master/x86_64/xtask" to "/home/administrator/ci/ci/team/workspace/install/lib:/usr/X11/lib64:/usr/X11/lib:/home/administrator/ci/ci/team/workspace/devel/lib"
 
 Base path: /home/administrator/ci/ci/team/workspace
 
@@ -1390,10 +1134,16 @@ Devel space: /home/administrator/ci/ci/team/workspace/devel
 
 Install space: /home/administrator/ci/ci/team/workspace/install
 
+Creating symlink "/home/administrator/ci/ci/team/workspace/src/CMakeLists.txt" pointing to "/opt/ros/indigo/share/catkin/cmake/toplevel.cmake"
+
 ####
 
 #### Running command: "cmake /home/administrator/ci/ci/team/workspace/src -DCATKIN_DEVEL_PREFIX=/home/administrator/ci/ci/team/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/administrator/ci/ci/team/workspace/install -G Unix Makefiles" in "/home/administrator/ci/ci/team/workspace/build"
 
 ####
 
-Invoking "cmake" failed
+####
+
+#### Running command: "make -j16 install" in "/home/administrator/ci/ci/team/workspace/build"
+
+####
