@@ -102,12 +102,18 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a2f2da94ba762573ca5cb8a4528125704"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2f2da94ba762573ca5cb8a4528125704"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>subscribe_to_data_collector</b> (data_collection::DataCollector &amp;data_collector)</td></tr>
+<tr class="separator:a2f2da94ba762573ca5cb8a4528125704"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c8d084039783b7a61caccf0916c29de"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7c8d084039783b7a61caccf0916c29de"></a>
 const <a class="el" href="classfloating__base__tools_1_1BaseState.html">BaseState</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>data</b> () const </td></tr>
 <tr class="separator:a7c8d084039783b7a61caccf0916c29de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac8b8148af979025e0b08ce1a61248240"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac8b8148af979025e0b08ce1a61248240"></a>
 const bool &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>is_new_data</b> () const </td></tr>
 <tr class="separator:ac8b8148af979025e0b08ce1a61248240"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b5dc2a035f6225fcb8f43c96c11ce42"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6b5dc2a035f6225fcb8f43c96c11ce42"></a>
+const int &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>data_quality</b> () const </td></tr>
+<tr class="separator:a6b5dc2a035f6225fcb8f43c96c11ce42"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a96f2ce24ed9f0f34d12d00eb8aa79fb2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a96f2ce24ed9f0f34d12d00eb8aa79fb2"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>acquire</b> ()=0</td></tr>
 <tr class="separator:a96f2ce24ed9f0f34d12d00eb8aa79fb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -120,6 +126,10 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a5d9caff003f018046b4e24b8c1609d47"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5d9caff003f018046b4e24b8c1609d47"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>is_new_data_</b></td></tr>
 <tr class="separator:a5d9caff003f018046b4e24b8c1609d47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf1e454803d2108eecc056e50e3998e3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acf1e454803d2108eecc056e50e3998e3"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfloating__base__tools_1_1BaseStateSensor.html#acf1e454803d2108eecc056e50e3998e3">data_quality_</a></td></tr>
+<tr class="memdesc:acf1e454803d2108eecc056e50e3998e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">is_good_data_ is an unsigned int between 0 and 100 that reflect the sanity of the sensor <br/></td></tr>
+<tr class="separator:acf1e454803d2108eecc056e50e3998e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A sensor that measures the linear and orientational state of the base. </p>
@@ -130,7 +140,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>is_new_data_</b></td>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jul 27 2018 15:53:03 for floating_base_tools_hopper by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Aug 20 2018 18:07:34 for floating_base_tools_hopper by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

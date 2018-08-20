@@ -112,12 +112,12 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>initialize</b> (Eigen
 <tr class="memitem:a9adc4f2b10a9b99ed758c076bdb15907"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9adc4f2b10a9b99ed758c076bdb15907"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>initialize</b> (Eigen::Vector3d base_pose, geometry_utils::Quaternion base_quat)</td></tr>
 <tr class="separator:a9adc4f2b10a9b99ed758c076bdb15907"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3bcb05df8935c64fe5cffd835983833a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3bcb05df8935c64fe5cffd835983833a"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>update</b> (const floating_base_tools::IMUData &amp;imu_sensor_data, const Eigen::Ref&lt; const Eigen::Matrix4d &gt; base_pose_data, const bool new_frame)</td></tr>
-<tr class="separator:a3bcb05df8935c64fe5cffd835983833a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a29e98beb8b09f2f59220bfa41bf47f8b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a29e98beb8b09f2f59220bfa41bf47f8b"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>update</b> (const floating_base_tools::IMUData &amp;imu_sensor_data, const Eigen::Ref&lt; const Eigen::Vector3d &gt; base_pose, const geometry_utils::Quaternion &amp;base_quat, const bool new_frame)</td></tr>
-<tr class="separator:a29e98beb8b09f2f59220bfa41bf47f8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d25cde512fd2a205826520c1f67ab1d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9d25cde512fd2a205826520c1f67ab1d"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>update</b> (const floating_base_tools::IMUData &amp;imu_sensor_data, const Eigen::Ref&lt; const Eigen::Matrix4d &gt; base_pose_data, const bool is_new_frame)</td></tr>
+<tr class="separator:a9d25cde512fd2a205826520c1f67ab1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab57e67b6b4f859e4444feb6485def028"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab57e67b6b4f859e4444feb6485def028"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>update</b> (const floating_base_tools::IMUData &amp;imu_sensor_data, const Eigen::Ref&lt; const Eigen::Vector3d &gt; base_pose, const geometry_utils::Quaternion &amp;base_quat, const bool is_new_frame)</td></tr>
+<tr class="separator:ab57e67b6b4f859e4444feb6485def028"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a18f6bab8805a8b78d3a553021302b8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0a18f6bab8805a8b78d3a553021302b8"></a>
 Eigen::Matrix&lt; double, <br class="typebreak"/>
 ViconIMUState::state_dim, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>getFilterState</b> (void)</td></tr>
@@ -199,7 +199,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>subscribe_to_data_col
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jul 27 2018 15:53:03 for estimator_hermes_full by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Aug 20 2018 18:07:34 for estimator_hermes_full by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
