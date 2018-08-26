@@ -1057,9 +1057,9 @@ Call Stack (most recent call first):
 
 Scanning dependencies of target gtest
 
-[  0%] Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[  0%] [  0%] Built target lockfree
 
-[  0%] Built target lockfree
+Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
 
 Linking CXX shared library libgtest.so
 
@@ -1073,27 +1073,27 @@ Linking CXX shared library libgtest_main.so
 
 [  0%] Built target gtest_main
 
-Scanning dependencies of target test_freelist
-
-Scanning dependencies of target test_object_pool
-
 Scanning dependencies of target test_aligned_alloc
 
 Scanning dependencies of target utest
 
-[  0%] [  0%] [100%] [100%] Building CXX object catkin/ros/ros_realtime/allocators/CMakeFiles/test_aligned_alloc.dir/test/test_aligned_alloc.cpp.o
+Scanning dependencies of target test_object_pool
 
-Building CXX object catkin/ros/ros_realtime/lockfree/CMakeFiles/test_freelist.dir/test/test_freelist.cpp.o
+[  0%] [100%] Scanning dependencies of target test_freelist
 
-Building CXX object catkin/ros/ros_realtime/rosatomic/CMakeFiles/utest.dir/test/utest.cpp.o
+Building CXX object catkin/ros/ros_realtime/allocators/CMakeFiles/test_aligned_alloc.dir/test/test_aligned_alloc.cpp.o
+
+[100%] Building CXX object catkin/ros/ros_realtime/rosatomic/CMakeFiles/utest.dir/test/utest.cpp.o
 
 Building CXX object catkin/ros/ros_realtime/lockfree/CMakeFiles/test_object_pool.dir/test/test_object_pool.cpp.o
 
+[100%] Building CXX object catkin/ros/ros_realtime/lockfree/CMakeFiles/test_freelist.dir/test/test_freelist.cpp.o
+
 Scanning dependencies of target pole_balancing_ut
 
-[100%] Building CXX object catkin/learning/pole_balancing_apollo/CMakeFiles/pole_balancing_ut.dir/tests/main_test.cpp.o
+[100%] [100%] [100%] Building CXX object catkin/learning/pole_balancing_apollo/CMakeFiles/pole_balancing_ut.dir/tests/main_test.cpp.o
 
-[100%] [100%] Building CXX object catkin/learning/pole_balancing_apollo/CMakeFiles/pole_balancing_ut.dir/src/pole_balancing_apollo/parameters.cpp.o
+Building CXX object catkin/learning/pole_balancing_apollo/CMakeFiles/pole_balancing_ut.dir/src/pole_balancing_apollo/parameters.cpp.o
 
 Building CXX object catkin/learning/pole_balancing_apollo/CMakeFiles/pole_balancing_ut.dir/tests/test_parameters.cpp.o
 
@@ -1103,9 +1103,9 @@ Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/alloca
 
 Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/rosatomic/utest
 
-[100%] Built target utest
-
 Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/lockfree/test_object_pool
+
+[100%] Built target utest
 
 [100%] Built target test_object_pool
 
