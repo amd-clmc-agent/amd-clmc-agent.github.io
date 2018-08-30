@@ -28,23 +28,17 @@
 
 -- ~~  traversing 2 packages in topological order:
 
--- ~~  - launch_xtion
+-- ~~  - rt_utils
 
--- ~~  - ar_track_alvar
+-- ~~  - learning_control
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- +++ processing catkin package: 'launch_xtion'
+-- +++ processing catkin package: 'rt_utils'
 
--- ==> add_subdirectory(catkin/ros/launch_xtion)
+-- ==> add_subdirectory(catkin/rt_utils)
 
--- +++ processing catkin package: 'ar_track_alvar'
-
--- ==> add_subdirectory(catkin/perception/ar_track_alvar)
-
--- Using these message generators: gencpp;genlisp;genpy
-
-CMake Error at catkin/perception/ar_track_alvar/CMakeLists.txt:22 (find_package):
+CMake Error at catkin/rt_utils/CMakeLists.txt:8 (find_package):
 
   By not providing "FindEigen.cmake" in CMAKE_MODULE_PATH this project has
 
@@ -54,9 +48,9 @@ CMake Error at catkin/perception/ar_track_alvar/CMakeLists.txt:22 (find_package)
 
 
 
-  Could not find a package configuration file provided by "Eigen" with any of
+  Could not find a package configuration file provided by "Eigen" (requested
 
-  the following names:
+  version 3.2.4) with any of the following names:
 
 
 
