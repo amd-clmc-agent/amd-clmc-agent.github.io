@@ -26,47 +26,73 @@
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- ~~  traversing 2 packages in topological order:
+-- ~~  traversing 1 packages in topological order:
 
--- ~~  - rt_utils
-
--- ~~  - learning_control
+-- ~~  - rgbd_intrinsic_calibration
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- +++ processing catkin package: 'rt_utils'
+-- +++ processing catkin package: 'rgbd_intrinsic_calibration'
 
--- ==> add_subdirectory(catkin/rt_utils)
+-- ==> add_subdirectory(catkin/core-calibration/rgbd_intrinsic_calibration)
 
-CMake Error at catkin/rt_utils/CMakeLists.txt:8 (find_package):
+CMake Warning at /opt/ros/indigo/share/catkin/cmake/catkinConfig.cmake:76 (find_package):
 
-  By not providing "FindEigen.cmake" in CMAKE_MODULE_PATH this project has
+  Could not find a package configuration file provided by "rgbd_capture" with
 
-  asked CMake to find a package configuration file provided by "Eigen", but
-
-  CMake did not find one.
+  any of the following names:
 
 
 
-  Could not find a package configuration file provided by "Eigen" (requested
+    rgbd_captureConfig.cmake
 
-  version 3.2.4) with any of the following names:
-
-
-
-    EigenConfig.cmake
-
-    eigen-config.cmake
+    rgbd_capture-config.cmake
 
 
 
-  Add the installation prefix of "Eigen" to CMAKE_PREFIX_PATH or set
+  Add the installation prefix of "rgbd_capture" to CMAKE_PREFIX_PATH or set
 
-  "Eigen_DIR" to a directory containing one of the above files.  If "Eigen"
+  "rgbd_capture_DIR" to a directory containing one of the above files.  If
 
-  provides a separate development package or SDK, be sure it has been
+  "rgbd_capture" provides a separate development package or SDK, be sure it
 
-  installed.
+  has been installed.
+
+Call Stack (most recent call first):
+
+  catkin/core-calibration/rgbd_intrinsic_calibration/CMakeLists.txt:7 (find_package)
+
+
+
+
+
+-- Could not find the required component 'rgbd_capture'. The following CMake error indicates that you either need to install the package with the same name or change your environment so that it can be found.
+
+CMake Error at /opt/ros/indigo/share/catkin/cmake/catkinConfig.cmake:83 (find_package):
+
+  Could not find a package configuration file provided by "rgbd_capture" with
+
+  any of the following names:
+
+
+
+    rgbd_captureConfig.cmake
+
+    rgbd_capture-config.cmake
+
+
+
+  Add the installation prefix of "rgbd_capture" to CMAKE_PREFIX_PATH or set
+
+  "rgbd_capture_DIR" to a directory containing one of the above files.  If
+
+  "rgbd_capture" provides a separate development package or SDK, be sure it
+
+  has been installed.
+
+Call Stack (most recent call first):
+
+  catkin/core-calibration/rgbd_intrinsic_calibration/CMakeLists.txt:7 (find_package)
 
 
 
