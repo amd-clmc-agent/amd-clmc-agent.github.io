@@ -1,438 +1,88 @@
 WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
 
--- Using CATKIN_DEVEL_PREFIX: /home/administrator/ci/ci/team/workspace/devel
+[  1%] Built target lockfree
 
--- Using CMAKE_PREFIX_PATH: /opt/ros/indigo
+[ 18%] Built target utility
 
--- This workspace overlays: /opt/ros/indigo
+[ 20%] Built target lwpr
 
--- Using PYTHON_EXECUTABLE: /usr/bin/python
+[ 20%] Built target xascii2mrplot
 
--- Python version: 2.7
+[ 22%] Built target xlwpr
 
--- Using Debian Python package layout
+[ 23%] Built target xlwprstat
 
--- Using CATKIN_ENABLE_TESTING: ON
+[ 26%] Built target rosrt
 
--- Call enable_testing()
+[ 31%] Built target SLcommon
 
--- Using CATKIN_TEST_RESULTS_DIR: /home/administrator/ci/ci/team/workspace/build/test_results
+[ 33%] Built target SLmotor
 
--- Found gtest sources under '/usr/src/gtest': gtests will be built
+[ 36%] Built target SLopenGL
 
--- catkin 0.5.90
+[ 38%] Built target SLros
 
--- BUILD_SHARED_LIBS is on
+[ 42%] Built target SLsimulation
 
-WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
+[ 46%] Built target SLtask
 
--- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[ 49%] Built target SLvision
 
--- ~~  traversing 89 packages in topological order:
+[ 55%] Built target quadruped
 
--- ~~  - Eigen
+[ 56%] Built target quadruped_openGL
 
--- ~~  - amd_clmc_dmp
+[ 56%] Built target quadruped_simulation
 
--- ~~  - arm_cdlbt
+[ 57%] Built target quadruped_task
 
--- ~~  - arm_can_control_tools
+[ 58%] Built target xmotor_quadruped
 
--- ~~  - biotac_core
+[ 61%] Built target xpest_quadruped
 
--- ~~  - catkin_gflags
+[ 62%] Built target xquadruped
 
--- ~~  - catkin_glog
+[ 63%] Built target install_machtype_xmotor_quadruped
 
--- ~~  - conversions
+[ 63%] Built target install_machtype_xquadruped
 
--- ~~  - graspit
+[ 63%] Built target _quadruped_user_generate_messages_check_deps_SimulatePolicy
 
--- ~~  - graspit_dbase_tasks
+[ 63%] Built target _quadruped_user_generate_messages_check_deps_SampledTrajectory
 
--- ~~  - dbase_grasp_planner
+[ 63%] Built target _quadruped_user_generate_messages_check_deps_DynamicsLinearizationResponse
 
--- ~~  - graspit_simulator
+[ 63%] Built target _quadruped_user_generate_messages_check_deps_NetworkPolicyParams
 
--- ~~  - interpolation
+[ 63%] Built target _quadruped_user_generate_messages_check_deps_DynamicsLinearizationRequest
 
--- ~~  - launch_xtion
+[ 63%] Built target _quadruped_user_generate_messages_check_deps_AffinePolicyParams
 
--- ~~  - qp_oases
+[ 63%] Built target _quadruped_user_generate_messages_check_deps_ResetCommand
 
--- ~~  - quadprog
+[ 67%] Built target quadruped_user_generate_messages_lisp
 
--- ~~  - ros_realtime (metapackage)
+[ 71%] Built target quadruped_user_generate_messages_cpp
 
--- ~~  - allocators
+[ 75%] Built target quadruped_user_generate_messages_py
 
--- ~~  - rosatomic
+[ 75%] Built target quadruped_user_generate_messages
 
--- ~~  - lockfree
+[ 75%] Built target xopengl_quadruped
 
--- ~~  - rt_timer
+[ 75%] Built target xsimulation_quadruped
 
--- ~~  - rt_utils
+Linking CXX executable /home/administrator/ci/ci/team/workspace/src/catkin/robots/quadrupedUser/x86_64/xtask
 
--- ~~  - dmp
+/usr/bin/ld: cannot find -ltensorflow
 
--- ~~  - splines
+collect2: error: ld returned 1 exit status
 
--- ~~  - start_robot
+make[2]: *** [/home/administrator/ci/ci/team/workspace/src/catkin/robots/quadrupedUser/x86_64/xtask] Error 1
 
--- ~~  - amd_clmc_ros_messages
+make[1]: *** [catkin/robots/quadrupedUser/CMakeFiles/xtask_quadruped.dir/all] Error 2
 
--- ~~  - ar_track_alvar_msgs
-
--- ~~  - custom_robot_msgs
-
--- ~~  - riemo_grasping_msgs
-
--- ~~  - graspit_ros_planning_msgs
-
--- ~~  - utilities
-
--- ~~  - lwpr
-
--- ~~  - vrpn_vicon_minimum
-
--- ~~  - vrpn_vicon_objs_tracker
-
--- ~~  - xenomai_ros
-
--- ~~  - constrained_inverse_kinematics_msgs
-
--- ~~  - robot_planning_client
-
--- ~~  - roscpp_utilities
-
--- ~~  - rosrt
-
--- ~~  - ros_rt_test
-
--- ~~  - sl
-
--- ~~  - arm
-
--- ~~  - arm_test_task
-
--- ~~  - sl_ros_servo
-
--- ~~  - learning_control
-
--- ~~  - ar_track_alvar
-
--- ~~  - python_ros_utils
-
--- ~~  - sl_conversions
-
--- ~~  - sl_utilities
-
--- ~~  - sl_controller_manager
-
--- ~~  - sl_barrett_controllers
-
--- ~~  - sl_biotac_controller_data
-
--- ~~  - sl_biotac_controllers
-
--- ~~  - sl_controllers
-
--- ~~  - sl_head_arm_controllers
-
--- ~~  - sl_vicon_controller_data
-
--- ~~  - sl_biotac_vicon_controller_data
-
--- ~~  - controller_manager_task_arm
-
--- ~~  - arm_user
-
--- ~~  - graspit_ros_planning
-
--- ~~  - arm_robot_model
-
--- ~~  - arm_moveit_config
-
--- ~~  - ros_servo_arm
-
--- ~~  - usc_utilities
-
--- ~~  - learnable_cost_function
-
--- ~~  - robot_info
-
--- ~~  - jacobian_utilities
-
--- ~~  - sl_barrett_controller_interface
-
--- ~~  - sl_controller_interface
-
--- ~~  - arm_learn_hand_eye_calibration
-
--- ~~  - robot_kinematics_cost_function
-
--- ~~  - robot_inverse_kinematics
-
--- ~~  - sl_biotac_controller_interface
-
--- ~~  - sl_dmp_controller_interface
-
--- ~~  - controller_manager_examples_arm
-
--- ~~  - sl_head_arm_controller_interface
-
--- ~~  - arm_verify_calibration
-
--- ~~  - extrinsic_camera_calibration
-
--- ~~  - sl_behaviors
-
--- ~~  - grasp_data_recorder
-
--- ~~  - robot_command_line
-
--- ~~  - strain_gauge_calibration
-
--- ~~  - verify_extrinsic_camera_calibration
-
--- ~~  - vicon_calibration
-
--- ~~  - vicon_core
-
--- ~~  - sl_vicon_controllers
-
--- ~~  - sl_dmp_controllers
-
--- ~~  - robot_planning_srv
-
--- ~~  - yaml_cpp
-
--- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
--- +++ processing catkin package: 'Eigen'
-
--- ==> add_subdirectory(catkin/third_party/Eigen)
-
-WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
-
--- +++ processing catkin package: 'amd_clmc_dmp'
-
--- ==> add_subdirectory(catkin/planning/amd_clmc_dmp)
-
--- Boost version: 1.54.0
-
--- Found the following Boost libraries:
-
---   thread
-
---   system
-
---   filesystem
-
--- +++ processing catkin package: 'arm_cdlbt'
-
--- ==> add_subdirectory(catkin/robots/arm-barrett/cdlbt)
-
--- MACHTYPE x86_64
-
-Detected MACHTYPE=x86_64
-
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
-
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
-
-Call Stack (most recent call first):
-
-  catkin/robots/arm-barrett/cdlbt/CMakeLists.txt:4 (include)
-
-
-
-
-
--- HOST_NAME=everest.is.localnet
-
--- HOST=everest
-
--- LAB=AMD
-
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_INCLUDE_PATH=
-
--- CMAKE_LIBRARY_PATH=
-
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
-
--- LAB_LIBDIR=lib/x86_64
-
--- LAB_INCLUDES=include
-
--- LAB_BINDIR=bin/x86_64
-
--- Boost version: 1.54.0
-
--- Found the following Boost libraries:
-
---   thread
-
--- +++ processing catkin package: 'arm_can_control_tools'
-
--- ==> add_subdirectory(catkin/robots/arm-barrett/canControlTools)
-
--- MACHTYPE x86_64
-
-Detected MACHTYPE=x86_64
-
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
-
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
-
-Call Stack (most recent call first):
-
-  catkin/robots/arm-barrett/canControlTools/CMakeLists.txt:4 (include)
-
-
-
-
-
--- HOST_NAME=everest.is.localnet
-
--- HOST=everest
-
--- LAB=AMD
-
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_INCLUDE_PATH=
-
--- CMAKE_LIBRARY_PATH=
-
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
-
--- LAB_LIBDIR=lib/x86_64
-
--- LAB_INCLUDES=include
-
--- LAB_BINDIR=bin/x86_64
-
--- Boost version: 1.54.0
-
--- Found the following Boost libraries:
-
---   thread
-
---   system
-
--- +++ processing catkin package: 'biotac_core'
-
--- ==> add_subdirectory(catkin/sensors/biotac-core)
-
--- MACHTYPE x86_64
-
-Detected MACHTYPE=x86_64
-
-CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
-
-  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
-
-Call Stack (most recent call first):
-
-  catkin/sensors/biotac-core/CMakeLists.txt:8 (include)
-
-
-
-
-
--- HOST_NAME=everest.is.localnet
-
--- HOST=everest
-
--- LAB=AMD
-
--- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
-
--- CMAKE_INCLUDE_PATH=
-
--- CMAKE_LIBRARY_PATH=
-
--- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
-
--- LAB_LIBDIR=lib/x86_64
-
--- LAB_INCLUDES=include
-
--- LAB_BINDIR=bin/x86_64
-
--- Boost version: 1.54.0
-
--- Found the following Boost libraries:
-
---   system
-
--- +++ processing catkin package: 'catkin_gflags'
-
--- ==> add_subdirectory(catkin/third_party/catkin-gflags)
-
--- Found gflags  (include: /usr/include, library: /usr/lib/x86_64-linux-gnu/libgflags.so)
-
--- +++ processing catkin package: 'catkin_glog'
-
--- ==> add_subdirectory(catkin/third_party/catkin-glog)
-
--- Found glog    (include: /usr/include, library: /usr/lib/x86_64-linux-gnu/libglog.so)
-
--- +++ processing catkin package: 'conversions'
-
--- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/usc_utils/conversions)
-
--- +++ processing catkin package: 'graspit'
-
--- ==> add_subdirectory(catkin/third_party/ros_graspit/graspit_simulator/graspit)
-
-CMake Error at /home/administrator/ci/ci/team/workspace/devel/share/catkin/cmake/catkinConfig.cmake:75 (find_package):
-
-  Could not find a package configuration file provided by
-
-  "household_objects_database" with any of the following names:
-
-
-
-    household_objects_databaseConfig.cmake
-
-    household_objects_database-config.cmake
-
-
-
-  Add the installation prefix of "household_objects_database" to
-
-  CMAKE_PREFIX_PATH or set "household_objects_database_DIR" to a directory
-
-  containing one of the above files.  If "household_objects_database"
-
-  provides a separate development package or SDK, be sure it has been
-
-  installed.
-
-Call Stack (most recent call first):
-
-  catkin/third_party/ros_graspit/graspit_simulator/graspit/CMakeLists.txt:7 (find_package)
-
-
-
-
-
--- Configuring incomplete, errors occurred!
-
-See also "/home/administrator/ci/ci/team/workspace/build/CMakeFiles/CMakeOutput.log".
-
-See also "/home/administrator/ci/ci/team/workspace/build/CMakeFiles/CMakeError.log".
+make: *** [all] Error 2
 
 Base path: /home/administrator/ci/ci/team/workspace
 
@@ -446,8 +96,14 @@ Install space: /home/administrator/ci/ci/team/workspace/install
 
 ####
 
-#### Running command: "cmake /home/administrator/ci/ci/team/workspace/src -DCATKIN_DEVEL_PREFIX=/home/administrator/ci/ci/team/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/administrator/ci/ci/team/workspace/install -G Unix Makefiles" in "/home/administrator/ci/ci/team/workspace/build"
+#### Running command: "make cmake_check_build_system" in "/home/administrator/ci/ci/team/workspace/build"
 
 ####
 
-Invoking "cmake" failed
+####
+
+#### Running command: "make -j1" in "/home/administrator/ci/ci/team/workspace/build"
+
+####
+
+Invoking "make -j1" failed
