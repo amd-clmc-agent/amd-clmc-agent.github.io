@@ -1,560 +1,290 @@
--- Using CATKIN_DEVEL_PREFIX: /home/administrator/ci/ci/team/workspace/devel
+WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
 
--- Using CMAKE_PREFIX_PATH: /opt/ros/indigo
+[  0%] Built target PyShell
 
--- This workspace overlays: /opt/ros/indigo
+[  0%] Built target hello_world
 
--- Using PYTHON_EXECUTABLE: /usr/bin/python
+[  0%] Built target py_converter_test
 
--- Using Debian Python package layout
+[  0%] Built target test_py_shell
 
--- Using empy: /usr/bin/empy
+[  1%] Built target rbdl
 
--- Using CATKIN_ENABLE_TESTING: ON
+[  1%] Built target rbdl_urdfreader
 
--- Call enable_testing()
+[  1%] Built target rbdl_urdfreader_util
 
--- Using CATKIN_TEST_RESULTS_DIR: /home/administrator/ci/ci/team/workspace/build/test_results
+[  1%] Built target lockfree
 
--- Found gtest sources under '/usr/src/gtest': gtests will be built
+[  2%] Built target snopt_extern
 
--- Using Python nosetests: /usr/bin/nosetests-2.7
+[  2%] Built target snopt_interface_extern
 
--- catkin 0.6.19
+[  2%] Built target snopt_cpp
 
--- BUILD_SHARED_LIBS is on
+[  2%] Built target sntoya
 
--- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[  2%] Built target testing_tools
 
--- ~~  traversing 55 packages in topological order:
+[  4%] Built target utility
 
--- ~~  - baxter_common (metapackage)
+[  4%] Built target lwpr
 
--- ~~  - baxter_description
+[  4%] Built target xascii2mrplot
 
--- ~~  - baxter_sdk (metapackage)
+[  4%] Built target xlwpr
 
--- ~~  - lula_doc
+[  4%] Built target xlwprstat
 
--- ~~  - lula_log
+[  4%] Built target rosrt
 
--- ~~  - lula_util
+[  4%] Built target ros_rt_test_publisher
 
--- ~~  - lula_differential_geometry
+[  4%] Built target ros_rt_test_subscriber
 
--- ~~  - lula_optimization
+[  4%] Built target SLcommon
 
--- ~~  - lula_motion
+[  5%] Built target SLmotor
 
--- ~~  - lula_workspace
+[  5%] Built target SLopenGL
 
--- ~~  - mpi_system_data_bags
+[  5%] Built target SLros
 
--- ~~  - rethink_ee_description
+[  6%] Built target SLsimulation
 
--- ~~  - graph_search
+[  6%] Built target SLtask
 
--- ~~  - baxter_maintenance_msgs
+[  7%] Built target SLvision
 
--- ~~  - amd_clmc_ros_messages
+[  7%] Built target _vicon_bridge_generate_messages_check_deps_viconCalibrateSegment
 
--- ~~  - ar_track_alvar_msgs
+[  7%] Built target _vicon_bridge_generate_messages_check_deps_Markers
 
--- ~~  - custom_robot_msgs
+[  7%] Built target geometry_msgs_generate_messages_cpp
 
--- ~~  - dbot_ros_msgs
+[  7%] Built target _vicon_bridge_generate_messages_check_deps_viconGrabPose
 
--- ~~  - riemo_grasping_msgs
+[  7%] Built target _vicon_bridge_generate_messages_check_deps_TfDistortInfo
 
--- ~~  - baxter_core_msgs
+[  7%] Built target _vicon_bridge_generate_messages_check_deps_Marker
 
--- ~~  - rieef_msgs
+[  7%] Built target vicon_bridge_generate_messages_cpp
 
--- ~~  - lula_api
+[  7%] Built target vicon_bridge_gencpp
 
--- ~~  - lula_common
+[  8%] Built target calibrate
 
--- ~~  - lula_controller_msgs
+[  8%] Built target msvc_bridge
 
--- ~~  - lula_ros_util
+[  9%] Built target testclient
 
--- ~~  - lula_rt
+[ 10%] Built target vicon_bridge_gencfg
 
--- ~~  - lula_world_msgs
+[ 10%] Built target tf_distort
 
--- ~~  - baxter_interface
+[ 10%] Built target vicon_bridge
 
--- ~~  - baxter_tools
+[ 10%] Built target geometry_msgs_generate_messages_lisp
 
--- ~~  - lula_baxter
+[ 10%] Built target vicon_bridge_generate_messages_lisp
 
--- ~~  - ellipsoid_msgs
+[ 10%] Built target geometry_msgs_generate_messages_py
 
--- ~~  - lula_control_internal
+[ 11%] Built target vicon_bridge_generate_messages_py
 
--- ~~  - lula_world
+[ 11%] Built target vicon_bridge_generate_messages
 
--- ~~  - lula_world_internal
+[ 13%] Built target yaml-cpp
 
--- ~~  - lula_plugins_interface
+[ 14%] Built target run-tests
 
--- ~~  - lula_kinematics
+[ 14%] Built target parse
 
--- ~~  - lula_visualization
+[ 14%] Built target read
 
--- ~~  - lula_task
+[ 14%] Built target sandbox
 
--- ~~  - lula_apollo_internal
+[ 14%] Built target _hermes_communication_tools_generate_messages_check_deps_gdc_states_vector_msg
 
--- ~~  - lula_baxter_internal
+[ 14%] Built target _hermes_communication_tools_generate_messages_check_deps_gdc_state_msg
 
--- ~~  - lula_plugins
+[ 14%] Built target hermes_communication_tools_generate_messages_lisp
 
--- ~~  - lula_plugins_internal
+[ 14%] Built target hermes_communication_tools_generate_messages_cpp
 
--- ~~  - lula_visualization_internal
+[ 15%] Built target hermes_communication_tools_generate_messages_py
 
--- ~~  - lula_rviz_plugins
+[ 15%] Built target hermes_communication_tools_generate_messages
 
--- ~~  - rieef_utils
+[ 16%] Built target athena
 
--- ~~  - visualization_3d
+[ 16%] Built target athena_openGL
 
--- ~~  - geodesic_flow
+[ 16%] Built target athena_simulation
 
--- ~~  - moveit_distance_field
+[ 16%] Built target athena_task
 
--- ~~  - sampling_based_planning
+[ 16%] Built target xathena
 
--- ~~  - signed_distance_field
+[ 17%] Built target xmotor_athena
 
--- ~~  - rieef_ros
+[ 17%] Built target xpest_athena
 
--- ~~  - condor_interface
+[ 17%] Built target xvision_athena
 
--- ~~  - rieef_programs
+[ 17%] Built target hermes_full
 
--- ~~  - rieef_demos
+Scanning dependencies of target hermes_full_openGL
 
--- ~~  - baxter_examples
+[ 18%] Building C object catkin/robots/hermesFull/CMakeFiles/hermes_full_openGL.dir/src/SL_user_openGL.c.o
 
--- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Linking C shared library /home/administrator/ci/ci/team/workspace/devel/lib/libhermes_full_openGL.so
 
--- +++ processing catkin metapackage: 'baxter_common'
+[ 18%] Built target hermes_full_openGL
 
--- ==> add_subdirectory(catkin/lula/third_party/baxter_common/baxter_common)
+Scanning dependencies of target hermes_full_simulation
 
--- +++ processing catkin package: 'baxter_description'
+[ 18%] Building C object catkin/robots/hermesFull/CMakeFiles/hermes_full_simulation.dir/__/hermesCore/src/SL_user_simulation.c.o
 
--- ==> add_subdirectory(catkin/lula/third_party/baxter_common/baxter_description)
+[ 18%] Building C object catkin/robots/hermesFull/CMakeFiles/hermes_full_simulation.dir/__/hermesCore/src/SL_hermes_simulation.c.o
 
--- +++ processing catkin metapackage: 'baxter_sdk'
+Linking C shared library /home/administrator/ci/ci/team/workspace/devel/lib/libhermes_full_simulation.so
 
--- ==> add_subdirectory(catkin/lula/third_party/baxter/baxter_sdk)
+[ 18%] Built target hermes_full_simulation
 
--- +++ processing catkin package: 'lula_doc'
+Scanning dependencies of target hermes_full_task
 
--- ==> add_subdirectory(catkin/lula/internal/lula_doc)
+[ 18%] Building CXX object catkin/robots/hermesFull/CMakeFiles/hermes_full_task.dir/__/hermesCore/src/SL_user_task.cpp.o
 
--- +++ processing catkin package: 'lula_log'
+/home/administrator/ci/ci/team/workspace/src/catkin/robots/hermesCore/src/SL_user_task.cpp: In function ‘void drawPhantomFromCurrentState()’:
 
--- ==> add_subdirectory(catkin/lula/external/lula_log)
+/home/administrator/ci/ci/team/workspace/src/catkin/robots/hermesCore/src/SL_user_task.cpp:410:69: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
 
--- Boost version: 1.54.0
+   sendUserGraphics("phantom",b, (N_CART+N_QUAT+N_DOFS)*sizeof(float));
 
--- Found the following Boost libraries:
+                                                                     ^
 
---   filesystem
+/home/administrator/ci/ci/team/workspace/src/catkin/robots/hermesCore/src/SL_user_task.cpp: In function ‘void drawPhantomFromDesiredState()’:
 
-CMake Warning at catkin/lula/external/lula_log/CMakeLists.txt:55 (message):
+/home/administrator/ci/ci/team/workspace/src/catkin/robots/hermesCore/src/SL_user_task.cpp:444:69: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
 
-  NO log_test
+   sendUserGraphics("phantom",b, (N_CART+N_QUAT+N_DOFS)*sizeof(float));
 
+                                                                     ^
 
+Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libhermes_full_task.so
 
+[ 18%] Built target hermes_full_task
 
+[ 18%] Built target xhermes_full
 
--- +++ processing catkin package: 'lula_util'
+Scanning dependencies of target xmotor_hermes_full
 
--- ==> add_subdirectory(catkin/lula/internal/lula_util)
+[ 18%] Building C object catkin/robots/hermesFull/CMakeFiles/xmotor_hermes_full.dir/__/hermesCore/src/SL_user_motor.c.o
 
--- Found glog    (include: /usr/include, library: /usr/lib/x86_64-linux-gnu/libglog.so)
+[ 18%] Building CXX object catkin/robots/hermesFull/CMakeFiles/xmotor_hermes_full.dir/__/hermesCore/src/SL_user_sensor_proc_unix.cpp.o
 
--- Found gflags  (include: /usr/include, library: /usr/lib/x86_64-linux-gnu/libgflags.so)
+Linking CXX executable /home/administrator/ci/ci/team/workspace/src/catkin/robots/hermesFull/x86_64/xmotor
 
--- Eigen found (include: /usr/include/eigen3)
+[ 18%] Built target xmotor_hermes_full
 
-CMake Warning at catkin/lula/internal/lula_util/CMakeLists.txt:147 (message):
+[ 18%] Generating src/SL_parm_estimate.c
 
-  DEACTIVATED: caching_utest
+Scanning dependencies of target xpest_hermes_full
 
+[ 19%] Building C object catkin/robots/hermesFull/CMakeFiles/xpest_hermes_full.dir/src/SL_parm_estimate.c.o
 
+Linking C executable /home/administrator/ci/ci/team/workspace/src/catkin/robots/hermesFull/x86_64/xpest
 
+[ 19%] Built target xpest_hermes_full
 
+Scanning dependencies of target xvision_hermes_full
 
-CMake Warning at catkin/lula/internal/lula_util/CMakeLists.txt:174 (message):
+[ 19%] Building C object catkin/robots/hermesFull/CMakeFiles/xvision_hermes_full.dir/__/hermesCore/src/SL_user_vision.c.o
 
-  DEACTIVATED: file_sequencer_utest
+Linking C executable /home/administrator/ci/ci/team/workspace/src/catkin/robots/hermesFull/x86_64/xvision
 
+[ 19%] Built target xvision_hermes_full
 
+[ 20%] Built target hermes_lower
 
+[ 20%] Built target hermes_lower_openGL
 
+[ 20%] Built target hermes_lower_simulation
 
--- +++ processing catkin package: 'lula_differential_geometry'
+[ 20%] Built target hermes_lower_task
 
--- ==> add_subdirectory(catkin/lula/internal/lula_differential_geometry)
+[ 20%] Built target xhermes_lower
 
--- A library with BLAS API found.
+[ 20%] Built target xmotor_hermes_lower
 
--- A library with LAPACK API found.
+[ 20%] Built target xpest_hermes_lower
 
--- Lapack: TRUE
+[ 20%] Built target xvision_hermes_lower
 
--- Lapack required dependencies: f2c atalas-base-dev lapacke-dev lapack-dev
+[ 20%] Built target eiquadprog_tester_app
 
--- Lapack linker flags: 
+[ 20%] Built target geometry_utils
 
--- Lapack libraries: /usr/lib/liblapack.so;/usr/lib/libblas.so
+[ 20%] Built target io_utils_lib
 
--- Lapack 95 libraries: 
+[ 21%] Built target robot_math
 
-CMake Warning at catkin/lula/internal/lula_differential_geometry/CMakeLists.txt:137 (message):
+[ 21%] Built target lqr_example_app
 
-  DEACTIVATED: analytical_grid_utest
+[ 21%] Built target math_utils_lib
 
+[ 21%] Built target configuration_file_loading
 
+[ 21%] Built target data_collection
 
+[ 21%] Built target io_tools_OTHER_FILES
 
+[ 22%] Built target yaml_example
 
-CMake Warning at catkin/lula/internal/lula_differential_geometry/CMakeLists.txt:146 (message):
+[ 22%] Built target capture_point_time_optimization
 
-  DEACTIVATED: differentiable_functions_tests_utest
+[ 22%] Built target capture_points
 
+[ 22%] Built target capture_points_app
 
+[ 24%] Built target floating_base_tools_athena
 
+[ 24%] Built target momentum_lqr_example_app
 
+[ 25%] Built target floating_base_tools_hermes_full
 
-CMake Warning at catkin/lula/internal/lula_differential_geometry/CMakeLists.txt:163 (message):
+[ 27%] Built target floating_base_tools_hermes_lower
 
-  DEACTIVATED: function_approximator_timing_utest
+[ 28%] Built target floating_base_tools_hopper
 
+[ 29%] Built target data_collectionSL
 
+[ 30%] Built target floating_base_tools_sl_athena
 
+[ 31%] Built target biped_locomotion_athena
 
+[ 31%] Built target gtest
 
-CMake Warning at catkin/lula/internal/lula_differential_geometry/CMakeLists.txt:172 (message):
+[ 31%] Built target biped_locomotion_tests_athena
 
-  DEACTIVATED: geometry_utest
+[ 32%] Building CXX object catkin/humanoids/capture_point_time_optimization/capture_points_athena/CMakeFiles/hinvdyn_dcm_time_optimization_athena.dir/src/capture_points/hinvdyn_timing_optimization.cpp.o
 
+In file included from /home/administrator/ci/ci/team/workspace/src/catkin/humanoids/capture_point_time_optimization/capture_points_athena/src/capture_points/hinvdyn_timing_optimization.cpp:20:0:
 
+/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/capture_point_time_optimization/capture_points_athena/../template/include/capture_points/hinvdyn_timing_optimization.h:34:46: fatal error: geometry_utils/Transformations.hpp: No such file or directory
 
+ #include "geometry_utils/Transformations.hpp"
 
+                                              ^
 
-CMake Warning at catkin/lula/internal/lula_differential_geometry/CMakeLists.txt:181 (message):
+compilation terminated.
 
-  DEACTIVATED: lapack_interface_utest
+make[2]: *** [catkin/humanoids/capture_point_time_optimization/capture_points_athena/CMakeFiles/hinvdyn_dcm_time_optimization_athena.dir/src/capture_points/hinvdyn_timing_optimization.cpp.o] Error 1
 
+make[1]: *** [catkin/humanoids/capture_point_time_optimization/capture_points_athena/CMakeFiles/hinvdyn_dcm_time_optimization_athena.dir/all] Error 2
 
-
-
-
-CMake Warning at catkin/lula/internal/lula_differential_geometry/CMakeLists.txt:190 (message):
-
-  DEACTIVATED: linear_algebra_benchmarks_utest
-
-
-
-
-
-CMake Warning at catkin/lula/internal/lula_differential_geometry/CMakeLists.txt:199 (message):
-
-  DEACTIVATED: linear_algebra_utest
-
-
-
-
-
--- +++ processing catkin package: 'lula_optimization'
-
--- ==> add_subdirectory(catkin/lula/internal/lula_optimization)
-
-CMake Warning at catkin/lula/internal/lula_optimization/CMakeLists.txt:86 (message):
-
-  DEACTIVATED: augmented_lagrangian_utest
-
-
-
-
-
-CMake Warning at catkin/lula/internal/lula_optimization/CMakeLists.txt:95 (message):
-
-  DEACTIVATED: objective_functions_utest
-
-
-
-
-
-CMake Warning at catkin/lula/internal/lula_optimization/CMakeLists.txt:104 (message):
-
-  DEACTIVATED: omp_parallelization_utest
-
-
-
-
-
-CMake Warning at catkin/lula/internal/lula_optimization/CMakeLists.txt:113 (message):
-
-  DEACTIVATED: optimization_test_utest
-
-
-
-
-
--- +++ processing catkin package: 'lula_motion'
-
--- ==> add_subdirectory(catkin/lula/internal/lula_motion)
-
-CMake Warning at catkin/lula/internal/lula_motion/CMakeLists.txt:125 (message):
-
-  DEACTIVATED: behavior_utest
-
-
-
-
-
-CMake Warning at catkin/lula/internal/lula_motion/CMakeLists.txt:139 (message):
-
-  DEACTIVATED: finite_differencing_operators_utest
-
-
-
-
-
-CMake Warning at catkin/lula/internal/lula_motion/CMakeLists.txt:152 (message):
-
-  DEACTIVATED: optimal_control_utest
-
-
-
-
-
-CMake Warning at catkin/lula/internal/lula_motion/CMakeLists.txt:184 (message):
-
-  DEACTIVATED: trajectory_function_network_utest
-
-
-
-
-
-CMake Warning at catkin/lula/internal/lula_motion/CMakeLists.txt:193 (message):
-
-  DEACTIVATED: augmented_position_velocity_map_utest
-
-
-
-
-
--- +++ processing catkin package: 'lula_workspace'
-
--- ==> add_subdirectory(catkin/lula/internal/lula_workspace)
-
--- +++ processing catkin package: 'mpi_system_data_bags'
-
--- ==> add_subdirectory(catkin/manipulation/riemo_electrical_fields/mpi_system_data_bags)
-
--- +++ processing catkin package: 'rethink_ee_description'
-
--- ==> add_subdirectory(catkin/lula/third_party/baxter_common/rethink_ee_description)
-
--- +++ processing catkin package: 'graph_search'
-
--- ==> add_subdirectory(catkin/manipulation/riemo_electrical_fields/graph_search)
-
-CMAKE_MODULE_PATH /home/administrator/ci/ci/team/workspace/src/catkin/manipulation/riemo_electrical_fields/graph_search/../cmake/Modules
-
--- Eigen found (include: /usr/include/eigen3)
-
-GLOG include_dirs: 
-
-GLOG libraries: glog
-
-GLOG version : 0.3.3
-
-GLOG library_dirs : 
-
-catkin_INCLUDE_DIRS : /opt/ros/indigo/include/usr/include
-
- *** CMAKE_CXX_FLAGS: -std=c++11  
-
--- +++ processing catkin package: 'baxter_maintenance_msgs'
-
--- ==> add_subdirectory(catkin/lula/third_party/baxter_common/baxter_maintenance_msgs)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- baxter_maintenance_msgs: 7 messages, 0 services
-
--- +++ processing catkin package: 'amd_clmc_ros_messages'
-
--- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/amd_clmc_ros_messages)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- amd_clmc_ros_messages: 108 messages, 10 services
-
--- +++ processing catkin package: 'ar_track_alvar_msgs'
-
--- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/ar_track_alvar_msgs)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- ar_track_alvar_msgs: 2 messages, 0 services
-
--- +++ processing catkin package: 'custom_robot_msgs'
-
--- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/custom_robot_msgs)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- custom_robot_msgs: 1 messages, 2 services
-
--- +++ processing catkin package: 'dbot_ros_msgs'
-
--- ==> add_subdirectory(catkin/ros/dbot_ros_msgs)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- dbot_ros_msgs: 3 messages, 3 services
-
--- +++ processing catkin package: 'riemo_grasping_msgs'
-
--- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/riemo_grasping_msgs)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- riemo_grasping_msgs: 5 messages, 3 services
-
--- +++ processing catkin package: 'baxter_core_msgs'
-
--- ==> add_subdirectory(catkin/lula/third_party/baxter_common/baxter_core_msgs)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- baxter_core_msgs: 25 messages, 4 services
-
--- +++ processing catkin package: 'rieef_msgs'
-
--- ==> add_subdirectory(catkin/manipulation/riemo_electrical_fields/rieef_msgs)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- rieef_msgs: 4 messages, 3 services
-
--- +++ processing catkin package: 'lula_api'
-
--- ==> add_subdirectory(catkin/lula/external/lula_api)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- lula_api: 1 messages, 2 services
-
--- +++ processing catkin package: 'lula_common'
-
--- ==> add_subdirectory(catkin/lula/external/lula_common)
-
--- +++ processing catkin package: 'lula_controller_msgs'
-
--- ==> add_subdirectory(catkin/lula/internal/ros/lula_controller_msgs)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- lula_controller_msgs: 39 messages, 4 services
-
--- +++ processing catkin package: 'lula_ros_util'
-
--- ==> add_subdirectory(catkin/lula/external/lula_ros_util)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- lula_ros_util: 1 messages, 1 services
-
--- +++ processing catkin package: 'lula_rt'
-
--- ==> add_subdirectory(catkin/lula/internal/ros/lula_rt)
-
-CMake Warning at catkin/lula/internal/ros/lula_rt/CMakeLists.txt:131 (message):
-
-  DEACTIVATED: time_varying_affine_policy_utest
-
-
-
-
-
--- +++ processing catkin package: 'lula_world_msgs'
-
--- ==> add_subdirectory(catkin/lula/external/lula_world_msgs)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- lula_world_msgs: 5 messages, 5 services
-
--- +++ processing catkin package: 'baxter_interface'
-
--- ==> add_subdirectory(catkin/lula/third_party/baxter_interface)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- +++ processing catkin package: 'baxter_tools'
-
--- ==> add_subdirectory(catkin/lula/third_party/baxter_tools)
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- +++ processing catkin package: 'lula_baxter'
-
--- ==> add_subdirectory(catkin/lula/external/lula_baxter)
-
--- Using these message generators: gencpp;genlisp;genpy
-
-CMake Error at catkin/lula/external/lula_baxter/CMakeLists.txt:31 (find_package):
-
-  By not providing "FindEigen.cmake" in CMAKE_MODULE_PATH this project has
-
-  asked CMake to find a package configuration file provided by "Eigen", but
-
-  CMake did not find one.
-
-
-
-  Could not find a package configuration file provided by "Eigen" with any of
-
-  the following names:
-
-
-
-    EigenConfig.cmake
-
-    eigen-config.cmake
-
-
-
-  Add the installation prefix of "Eigen" to CMAKE_PREFIX_PATH or set
-
-  "Eigen_DIR" to a directory containing one of the above files.  If "Eigen"
-
-  provides a separate development package or SDK, be sure it has been
-
-  installed.
-
-
-
-
-
--- Configuring incomplete, errors occurred!
-
-See also "/home/administrator/ci/ci/team/workspace/build/CMakeFiles/CMakeOutput.log".
-
-See also "/home/administrator/ci/ci/team/workspace/build/CMakeFiles/CMakeError.log".
+make: *** [all] Error 2
 
 Base path: /home/administrator/ci/ci/team/workspace
 
@@ -568,8 +298,14 @@ Install space: /home/administrator/ci/ci/team/workspace/install
 
 ####
 
-#### Running command: "cmake /home/administrator/ci/ci/team/workspace/src -DCATKIN_DEVEL_PREFIX=/home/administrator/ci/ci/team/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/administrator/ci/ci/team/workspace/install -G Unix Makefiles" in "/home/administrator/ci/ci/team/workspace/build"
+#### Running command: "make cmake_check_build_system" in "/home/administrator/ci/ci/team/workspace/build"
 
 ####
 
-Invoking "cmake" failed
+####
+
+#### Running command: "make -j1" in "/home/administrator/ci/ci/team/workspace/build"
+
+####
+
+Invoking "make -j1" failed
