@@ -1,4 +1,22 @@
-WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
+-- The C compiler identification is GNU 4.8.4
+
+-- The CXX compiler identification is GNU 4.8.4
+
+-- Check for working C compiler: /usr/bin/cc
+
+-- Check for working C compiler: /usr/bin/cc -- works
+
+-- Detecting C compiler ABI info
+
+-- Detecting C compiler ABI info - done
+
+-- Check for working CXX compiler: /usr/bin/c++
+
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+
+-- Detecting CXX compiler ABI info
+
+-- Detecting CXX compiler ABI info - done
 
 -- Using CATKIN_DEVEL_PREFIX: /home/administrator/ci/ci/team/workspace/devel
 
@@ -6,11 +24,13 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 
 -- This workspace overlays: /opt/ros/indigo
 
+-- Found PythonInterp: /usr/bin/python (found version "2.7.6") 
+
 -- Using PYTHON_EXECUTABLE: /usr/bin/python
 
--- Python version: 2.7
-
 -- Using Debian Python package layout
+
+-- Using empy: /usr/bin/empy
 
 -- Using CATKIN_ENABLE_TESTING: ON
 
@@ -18,203 +38,141 @@ WARNING: Catkin package name "Eigen" does not follow the naming conventions. It 
 
 -- Using CATKIN_TEST_RESULTS_DIR: /home/administrator/ci/ci/team/workspace/build/test_results
 
+-- Looking for include file pthread.h
+
+-- Looking for include file pthread.h - found
+
+-- Looking for pthread_create
+
+-- Looking for pthread_create - not found
+
+-- Looking for pthread_create in pthreads
+
+-- Looking for pthread_create in pthreads - not found
+
+-- Looking for pthread_create in pthread
+
+-- Looking for pthread_create in pthread - found
+
+-- Found Threads: TRUE  
+
 -- Found gtest sources under '/usr/src/gtest': gtests will be built
 
--- catkin 0.5.90
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+
+-- catkin 0.6.19
 
 -- BUILD_SHARED_LIBS is on
 
-WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-- ~~  traversing 3 packages in topological order:
+
+-- ~~  - project_management_test_1
+
+-- ~~  - project_management_test_2
+
+-- ~~  - project_management_test_3
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--- ~~  traversing 14 packages in topological order:
+-- +++ processing catkin package: 'project_management_test_1'
 
--- ~~  - Eigen
+-- ==> add_subdirectory(catkin/test/project_management_test_1)
 
--- ~~  - ros_realtime (metapackage)
+-- +++ processing catkin package: 'project_management_test_2'
 
--- ~~  - allocators
+-- ==> add_subdirectory(catkin/test/project_management_test_2)
 
--- ~~  - rosatomic
+-- +++ processing catkin package: 'project_management_test_3'
 
--- ~~  - lockfree
+-- ==> add_subdirectory(catkin/test/project_management_test_3)
 
--- ~~  - rt_timer
+-- Configuring done
 
--- ~~  - vrpn_vicon_minimum
+-- Generating done
 
--- ~~  - vrpn_vicon_objs_tracker
+-- Build files have been written to: /home/administrator/ci/ci/team/workspace/build
 
--- ~~  - xenomai_ros
+Scanning dependencies of target test_project_1_fail_demo
 
--- ~~  - rosrt
+Scanning dependencies of target test_project_1_success_demo
 
--- ~~  - ros_rt_test
+Scanning dependencies of target test_project_2_demo_success
 
--- ~~  - vicon_bridge
+Scanning dependencies of target test_project_1_ttest
 
--- ~~  - vicon_core
+Scanning dependencies of target test_project_2_demo_fail
 
--- ~~  - vicon_subscriber
+[ 20%] [ 40%] [ 60%] [ 80%] [100%] Building CXX object catkin/test/project_management_test_1/CMakeFiles/test_project_1_success_demo.dir/src/test_project_1_demo_success.cpp.o
 
--- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Building CXX object catkin/test/project_management_test_2/CMakeFiles/test_project_2_demo_success.dir/src/test_project_2_demo_success.cpp.o
 
--- +++ processing catkin package: 'Eigen'
+Building CXX object catkin/test/project_management_test_2/CMakeFiles/test_project_2_demo_fail.dir/src/test_project_2_demo_fail.cpp.o
 
--- ==> add_subdirectory(catkin/third_party/Eigen)
+Building CXX object catkin/test/project_management_test_1/CMakeFiles/test_project_1_fail_demo.dir/src/test_project_1_demo_fail.cpp.o
 
-WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
+Building CXX object catkin/test/project_management_test_1/CMakeFiles/test_project_1_ttest.dir/src/t_test.cpp.o
 
--- +++ processing catkin metapackage: 'ros_realtime'
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/project_management_test_1/test_project_1_fail_demo
 
--- ==> add_subdirectory(catkin/ros/ros_realtime/ros_realtime)
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/project_management_test_1/test_project_1_success_demo
 
--- +++ processing catkin package: 'allocators'
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/project_management_test_2/test_project_2_demo_fail
 
--- ==> add_subdirectory(catkin/ros/ros_realtime/allocators)
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/project_management_test_2/test_project_2_demo_success
 
--- Boost version: 1.54.0
+[100%] [100%] [100%] [100%] Built target test_project_1_success_demo
 
--- +++ processing catkin package: 'rosatomic'
+Built target test_project_1_fail_demo
 
--- ==> add_subdirectory(catkin/ros/ros_realtime/rosatomic)
+Built target test_project_2_demo_success
 
--- Boost version: 1.54.0
+Built target test_project_2_demo_fail
 
--- +++ processing catkin package: 'lockfree'
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/project_management_test_1/test_project_1_ttest
 
--- ==> add_subdirectory(catkin/ros/ros_realtime/lockfree)
+[100%] Built target test_project_1_ttest
 
--- Boost version: 1.54.0
+Install the project...
 
--- +++ processing catkin package: 'rt_timer'
+-- Install configuration: ""
 
--- ==> add_subdirectory(catkin/ros/ros_realtime/rt_timer)
+-- Installing: /home/administrator/ci/ci/team/workspace/install/_setup_util.py
 
--- +++ processing catkin package: 'vrpn_vicon_minimum'
+-- Installing: /home/administrator/ci/ci/team/workspace/install/env.sh
 
--- ==> add_subdirectory(catkin/perception/vrpn_vicon_minimum)
+-- Installing: /home/administrator/ci/ci/team/workspace/install/setup.bash
 
--- +++ processing catkin package: 'vrpn_vicon_objs_tracker'
+-- Installing: /home/administrator/ci/ci/team/workspace/install/setup.sh
 
--- ==> add_subdirectory(catkin/perception/vrpn_vicon_objs_tracker)
+-- Installing: /home/administrator/ci/ci/team/workspace/install/setup.zsh
 
--- +++ processing catkin package: 'xenomai_ros'
+-- Installing: /home/administrator/ci/ci/team/workspace/install/.rosinstall
 
--- ==> add_subdirectory(catkin/ros/xenomai-ros)
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/project_management_test_1.pc
 
--- +++ processing catkin package: 'rosrt'
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/project_management_test_1/cmake/project_management_test_1Config.cmake
 
--- ==> add_subdirectory(catkin/ros/ros_realtime/rosrt)
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/project_management_test_1/cmake/project_management_test_1Config-version.cmake
 
--- xenomai NOT found. (/usr/local;/usr)
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/project_management_test_1/package.xml
 
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/project_management_test_2.pc
 
--- Boost version: 1.54.0
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/project_management_test_2/cmake/project_management_test_2Config.cmake
 
--- Found the following Boost libraries:
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/project_management_test_2/cmake/project_management_test_2Config-version.cmake
 
---   thread
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/project_management_test_2/package.xml
 
--- +++ processing catkin package: 'ros_rt_test'
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/project_management_test_3.pc
 
--- ==> add_subdirectory(catkin/ros/ros_rt_basic_example)
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/project_management_test_3/cmake/project_management_test_3Config.cmake
 
--- xenomai NOT found. (/usr/local;/usr)
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/project_management_test_3/cmake/project_management_test_3Config-version.cmake
 
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
-
--- +++ processing catkin package: 'vicon_bridge'
-
--- ==> add_subdirectory(catkin/perception/vicon_bridge)
-
-CMake Warning (dev) in catkin/perception/vicon_bridge/CMakeLists.txt:
-
-  Syntax Warning in cmake code at
-
-
-
-    /home/administrator/ci/ci/team/workspace/src/catkin/perception/vicon_bridge/CMakeLists.txt:69:41
-
-
-
-  Argument not separated from preceding token by whitespace.
-
-This warning is for project developers.  Use -Wno-dev to suppress it.
-
-
-
--- Using these message generators: gencpp;genlisp;genpy
-
--- Boost version: 1.54.0
-
--- Found the following Boost libraries:
-
---   thread
-
--- vicon_bridge: 3 messages, 2 services
-
--- OS 64 bits detected
-
--- vicon sdk version is 1.7
-
--- +++ processing catkin package: 'vicon_core'
-
--- ==> add_subdirectory(catkin/sensors/vicon-core)
-
-CMake Error at catkin/sensors/vicon-core/CMakeLists.txt:8 (include):
-
-  include could not find load file:
-
-
-
-    /home/administrator/ci/ci/team/workspace/src/cmake/sl_cmake_global/LAB.cmake
-
-
-
-
-
--- xenomai NOT found. (/usr/local;/usr)
-
--- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
-
-CMake Error at /home/administrator/ci/ci/team/workspace/devel/share/catkin/cmake/catkinConfig.cmake:75 (find_package):
-
-  Could not find a package configuration file provided by
-
-  "amd_clmc_ros_messages" with any of the following names:
-
-
-
-    amd_clmc_ros_messagesConfig.cmake
-
-    amd_clmc_ros_messages-config.cmake
-
-
-
-  Add the installation prefix of "amd_clmc_ros_messages" to CMAKE_PREFIX_PATH
-
-  or set "amd_clmc_ros_messages_DIR" to a directory containing one of the
-
-  above files.  If "amd_clmc_ros_messages" provides a separate development
-
-  package or SDK, be sure it has been installed.
-
-Call Stack (most recent call first):
-
-  catkin/sensors/vicon-core/CMakeLists.txt:12 (find_package)
-
-
-
-
-
--- Configuring incomplete, errors occurred!
-
-See also "/home/administrator/ci/ci/team/workspace/build/CMakeFiles/CMakeOutput.log".
-
-See also "/home/administrator/ci/ci/team/workspace/build/CMakeFiles/CMakeError.log".
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/project_management_test_3/package.xml
 
 Base path: /home/administrator/ci/ci/team/workspace
 
@@ -226,10 +184,16 @@ Devel space: /home/administrator/ci/ci/team/workspace/devel
 
 Install space: /home/administrator/ci/ci/team/workspace/install
 
+Creating symlink "/home/administrator/ci/ci/team/workspace/src/CMakeLists.txt" pointing to "/opt/ros/indigo/share/catkin/cmake/toplevel.cmake"
+
 ####
 
 #### Running command: "cmake /home/administrator/ci/ci/team/workspace/src -DCATKIN_DEVEL_PREFIX=/home/administrator/ci/ci/team/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/administrator/ci/ci/team/workspace/install -G Unix Makefiles" in "/home/administrator/ci/ci/team/workspace/build"
 
 ####
 
-Invoking "cmake" failed
+####
+
+#### Running command: "make -j16 install" in "/home/administrator/ci/ci/team/workspace/build"
+
+####
