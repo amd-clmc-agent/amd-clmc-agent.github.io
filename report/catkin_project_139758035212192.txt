@@ -10,25 +10,25 @@
 
 [  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_AccelerationFeedbackExperimentStatus
 
-[  1%] Built target geometry_msgs_generate_messages_py
-
 [  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_DriftingControllerDataStatus
 
+[  1%] Built target geometry_msgs_generate_messages_py
+
+[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineLearningControl
+
 [  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_ResetBreakaway
-
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Goto_command
-
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PolicyControllerParamsService
-
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SwitchControllerStack
 
 [  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_BoundingPoints
 
 [  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_NavigationTarget
 
+[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_Goto_command
+
 [  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_CalibratePressureSensorsStatus
 
-[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_OfflineLearningControl
+[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_PolicyControllerParamsService
+
+[  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_SwitchControllerStack
 
 [  1%] Built target _amd_clmc_ros_messages_generate_messages_check_deps_RtNetwork
 
@@ -248,11 +248,15 @@ Scanning dependencies of target amd_clmc_ros_messages_generate_messages
 
 [ 74%] Built target amd_clmc_ros_messages_generate_messages
 
+[ 74%] Built target _ar_track_alvar_msgs_generate_messages_check_deps_AlvarMarker
+
 [ 74%] Built target _ar_track_alvar_msgs_generate_messages_check_deps_AlvarMarkers
 
-[ 74%] Built target std_msgs_generate_messages_py
+[ 74%] Built target std_msgs_generate_messages_cpp
 
-[ 74%] Built target _ar_track_alvar_msgs_generate_messages_check_deps_AlvarMarker
+[ 74%] Built target ar_track_alvar_msgs_generate_messages_cpp
+
+[ 74%] Built target std_msgs_generate_messages_py
 
 [ 75%] Built target ar_track_alvar_msgs_generate_messages_py
 
@@ -260,47 +264,43 @@ Scanning dependencies of target amd_clmc_ros_messages_generate_messages
 
 [ 76%] Built target ar_track_alvar_msgs_generate_messages_lisp
 
-[ 76%] Built target std_msgs_generate_messages_cpp
-
-[ 76%] Built target ar_track_alvar_msgs_generate_messages_cpp
-
 [ 76%] Built target ar_track_alvar_msgs_generate_messages
 
-[ 76%] Built target _custom_robot_msgs_generate_messages_check_deps_assembly_phase
+[ 76%] Built target _custom_robot_msgs_generate_messages_check_deps_PolicyInterface
 
 [ 76%] Built target _custom_robot_msgs_generate_messages_check_deps_PredictAssembly
 
-[ 76%] Built target _custom_robot_msgs_generate_messages_check_deps_PolicyInterface
+[ 76%] Built target _custom_robot_msgs_generate_messages_check_deps_assembly_phase
+
+[ 76%] Built target custom_robot_msgs_generate_messages_cpp
 
 [ 77%] Built target custom_robot_msgs_generate_messages_lisp
 
 [ 78%] Built target custom_robot_msgs_generate_messages_py
 
-[ 78%] Built target custom_robot_msgs_generate_messages_cpp
-
 [ 78%] Built target custom_robot_msgs_generate_messages
+
+[ 78%] Built target _riemo_grasping_msgs_generate_messages_check_deps_GraspProblemInfo
+
+[ 78%] Built target _riemo_grasping_msgs_generate_messages_check_deps_GraspPose
+
+[ 78%] Built target _riemo_grasping_msgs_generate_messages_check_deps_Preshape
+
+[ 78%] Built target _riemo_grasping_msgs_generate_messages_check_deps_UpdateGraspProblem
+
+[ 78%] Built target _riemo_grasping_msgs_generate_messages_check_deps_RenderGraspProblemService
+
+[ 78%] Built target _riemo_grasping_msgs_generate_messages_check_deps_GraspableObject
 
 [ 78%] Built target _riemo_grasping_msgs_generate_messages_check_deps_LatestGraspProblemInfo
 
 [ 78%] Built target _riemo_grasping_msgs_generate_messages_check_deps_MpiGraspPoses
 
-[ 78%] Built target _riemo_grasping_msgs_generate_messages_check_deps_GraspableObject
+[ 79%] Built target riemo_grasping_msgs_generate_messages_lisp
 
-[ 78%] Built target _riemo_grasping_msgs_generate_messages_check_deps_RenderGraspProblemService
+[ 82%] Built target riemo_grasping_msgs_generate_messages_py
 
-[ 78%] Built target _riemo_grasping_msgs_generate_messages_check_deps_GraspPose
-
-[ 78%] Built target _riemo_grasping_msgs_generate_messages_check_deps_UpdateGraspProblem
-
-[ 78%] Built target _riemo_grasping_msgs_generate_messages_check_deps_GraspProblemInfo
-
-[ 78%] Built target _riemo_grasping_msgs_generate_messages_check_deps_Preshape
-
-[ 80%] Built target riemo_grasping_msgs_generate_messages_cpp
-
-[ 83%] Built target riemo_grasping_msgs_generate_messages_py
-
-[ 84%] Built target riemo_grasping_msgs_generate_messages_lisp
+[ 84%] Built target riemo_grasping_msgs_generate_messages_cpp
 
 [ 84%] Built target riemo_grasping_msgs_generate_messages
 
@@ -310,19 +310,19 @@ Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/li
 
 [ 84%] Built target playful_navigation_msgs
 
-[ 84%] Built target _playful_navigation_msgs_generate_messages_check_deps_RectangularBox
-
 [ 84%] Built target _playful_navigation_msgs_generate_messages_check_deps_Move_target_out_of_obstacles
 
 [ 84%] Built target _playful_navigation_msgs_generate_messages_check_deps_RectangularBoxArray
 
 [ 84%] Built target _playful_navigation_msgs_generate_messages_check_deps_Move_robot_out_of_obstacles
 
-[ 85%] Built target playful_navigation_msgs_generate_messages_lisp
+[ 84%] Built target _playful_navigation_msgs_generate_messages_check_deps_RectangularBox
 
-[ 86%] Built target playful_navigation_msgs_generate_messages_py
+[ 85%] Built target playful_navigation_msgs_generate_messages_cpp
 
-[ 87%] Built target playful_navigation_msgs_generate_messages_cpp
+[ 86%] Built target playful_navigation_msgs_generate_messages_lisp
+
+[ 87%] Built target playful_navigation_msgs_generate_messages_py
 
 [ 87%] Built target playful_navigation_msgs_generate_messages
 
@@ -354,9 +354,9 @@ Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/playfu
 
 [ 90%] Built target playful_simplified_human_model_generate_messages_cpp
 
-[ 91%] Built target playful_simplified_human_model_generate_messages_lisp
+[ 90%] Built target playful_simplified_human_model_generate_messages_py
 
-[ 91%] Built target playful_simplified_human_model_generate_messages_py
+[ 91%] Built target playful_simplified_human_model_generate_messages_lisp
 
 [ 91%] Built target playful_simplified_human_model_generate_messages
 

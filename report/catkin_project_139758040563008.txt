@@ -1,0 +1,885 @@
+WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
+
+-- The C compiler identification is GNU 4.8.4
+
+-- The CXX compiler identification is GNU 4.8.4
+
+-- Check for working C compiler: /usr/bin/cc
+
+-- Check for working C compiler: /usr/bin/cc -- works
+
+-- Detecting C compiler ABI info
+
+-- Detecting C compiler ABI info - done
+
+-- Check for working CXX compiler: /usr/bin/c++
+
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+
+-- Detecting CXX compiler ABI info
+
+-- Detecting CXX compiler ABI info - done
+
+-- Using CATKIN_DEVEL_PREFIX: /home/administrator/ci/ci/team/workspace/devel
+
+-- Using CMAKE_PREFIX_PATH: /opt/ros/indigo
+
+-- This workspace overlays: /opt/ros/indigo
+
+-- Found PythonInterp: /usr/bin/python (found version "2.7.6") 
+
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+
+-- Python version: 2.7
+
+-- Using Debian Python package layout
+
+-- Using CATKIN_ENABLE_TESTING: ON
+
+-- Call enable_testing()
+
+-- Using CATKIN_TEST_RESULTS_DIR: /home/administrator/ci/ci/team/workspace/build/test_results
+
+-- Looking for include file pthread.h
+
+-- Looking for include file pthread.h - found
+
+-- Looking for pthread_create
+
+-- Looking for pthread_create - not found
+
+-- Looking for pthread_create in pthreads
+
+-- Looking for pthread_create in pthreads - not found
+
+-- Looking for pthread_create in pthread
+
+-- Looking for pthread_create in pthread - found
+
+-- Found Threads: TRUE  
+
+-- Found gtest sources under '/usr/src/gtest': gtests will be built
+
+-- catkin 0.5.90
+
+-- BUILD_SHARED_LIBS is on
+
+WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
+
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-- ~~  traversing 10 packages in topological order:
+
+-- ~~  - Eigen
+
+-- ~~  - ros_realtime (metapackage)
+
+-- ~~  - allocators
+
+-- ~~  - rosatomic
+
+-- ~~  - lockfree
+
+-- ~~  - rt_timer
+
+-- ~~  - xenomai_ros
+
+-- ~~  - rosrt
+
+-- ~~  - ros_rt_test
+
+-- ~~  - yaml_cpp
+
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-- +++ processing catkin package: 'Eigen'
+
+-- ==> add_subdirectory(catkin/third_party/Eigen)
+
+WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
+
+-- +++ processing catkin metapackage: 'ros_realtime'
+
+-- ==> add_subdirectory(catkin/ros/ros_realtime/ros_realtime)
+
+-- +++ processing catkin package: 'allocators'
+
+-- ==> add_subdirectory(catkin/ros/ros_realtime/allocators)
+
+-- Boost version: 1.54.0
+
+-- +++ processing catkin package: 'rosatomic'
+
+-- ==> add_subdirectory(catkin/ros/ros_realtime/rosatomic)
+
+-- Boost version: 1.54.0
+
+-- +++ processing catkin package: 'lockfree'
+
+-- ==> add_subdirectory(catkin/ros/ros_realtime/lockfree)
+
+-- Boost version: 1.54.0
+
+-- +++ processing catkin package: 'rt_timer'
+
+-- ==> add_subdirectory(catkin/ros/ros_realtime/rt_timer)
+
+-- +++ processing catkin package: 'xenomai_ros'
+
+-- ==> add_subdirectory(catkin/ros/xenomai-ros)
+
+-- +++ processing catkin package: 'rosrt'
+
+-- ==> add_subdirectory(catkin/ros/ros_realtime/rosrt)
+
+-- xenomai NOT found. (/usr/local;/usr)
+
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+
+-- Boost version: 1.54.0
+
+-- Found the following Boost libraries:
+
+--   thread
+
+-- +++ processing catkin package: 'ros_rt_test'
+
+-- ==> add_subdirectory(catkin/ros/ros_rt_basic_example)
+
+-- xenomai NOT found. (/usr/local;/usr)
+
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+
+-- +++ processing catkin package: 'yaml_cpp'
+
+-- ==> add_subdirectory(catkin/third_party/YAML_CPP)
+
+-- Boost version: 1.54.0
+
+-- Performing Test FLAG_WEXTRA
+
+-- Performing Test FLAG_WEXTRA - Success
+
+-- Configuring done
+
+-- Generating done
+
+-- Build files have been written to: /home/administrator/ci/ci/team/workspace/build
+
+Scanning dependencies of target lockfree
+
+[  2%] Building CXX object catkin/ros/ros_realtime/lockfree/CMakeFiles/lockfree.dir/src/free_list.cpp.o
+
+Scanning dependencies of target yaml-cpp
+
+[  4%] [  6%] [  8%] [ 10%] [ 12%] [ 14%] [ 17%] [ 19%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/nodebuilder.cpp.o
+
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/parse.cpp.o
+
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/nodeevents.cpp.o
+
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/memory.cpp.o
+
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/node.cpp.o
+
+[ 21%] [ 23%] [ 25%] [ 27%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/scantoken.cpp.o
+
+[ 29%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/ostream_wrapper.cpp.o
+
+[ 31%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/tag.cpp.o
+
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/directives.cpp.o
+
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emitterutils.cpp.o
+
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/scanscalar.cpp.o
+
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/scantag.cpp.o
+
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/parser.cpp.o
+
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/scanner.cpp.o
+
+[ 34%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emitter.cpp.o
+
+[ 36%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/exp.cpp.o
+
+[ 38%] [ 40%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/regex.cpp.o
+
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/binary.cpp.o
+
+[ 42%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/node_data.cpp.o
+
+[ 44%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emit.cpp.o
+
+[ 46%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/simplekey.cpp.o
+
+[ 53%] [ 53%] [ 53%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emitterstate.cpp.o
+
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/singledocparser.cpp.o
+
+Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/convert.cpp.o
+
+[ 55%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/stream.cpp.o
+
+[ 57%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/emitfromevents.cpp.o
+
+Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/liblockfree.so
+
+[ 57%] Built target lockfree
+
+[ 59%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/null.cpp.o
+
+[ 61%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilderadapter.cpp.o
+
+[ 63%] Building CXX object catkin/third_party/YAML_CPP/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilder.cpp.o
+
+Scanning dependencies of target rosrt
+
+[ 65%] Building CXX object catkin/ros/ros_realtime/rosrt/CMakeFiles/rosrt.dir/src/init.cpp.o
+
+[ 68%] Building CXX object catkin/ros/ros_realtime/rosrt/CMakeFiles/rosrt.dir/src/malloc.cpp.o
+
+[ 72%] [ 72%] Building CXX object catkin/ros/ros_realtime/rosrt/CMakeFiles/rosrt.dir/src/simple_gc.cpp.o
+
+Building CXX object catkin/ros/ros_realtime/rosrt/CMakeFiles/rosrt.dir/src/publisher.cpp.o
+
+[ 74%] Building CXX object catkin/ros/ros_realtime/rosrt/CMakeFiles/rosrt.dir/src/subscriber.cpp.o
+
+Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libyaml-cpp.so
+
+[ 74%] Built target yaml-cpp
+
+Scanning dependencies of target sandbox
+
+[ 76%] Scanning dependencies of target run-tests
+
+Scanning dependencies of target parse
+
+Scanning dependencies of target read
+
+Building CXX object catkin/third_party/YAML_CPP/util/CMakeFiles/sandbox.dir/sandbox.cpp.o
+
+[ 78%] [ 80%] [ 82%] [ 85%] [ 87%] [ 89%] Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/emittertests.cpp.o
+
+[ 91%] Building CXX object catkin/third_party/YAML_CPP/util/CMakeFiles/parse.dir/parse.cpp.o
+
+Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/spectests.cpp.o
+
+Building CXX object catkin/third_party/YAML_CPP/util/CMakeFiles/read.dir/read.cpp.o
+
+Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/main.cpp.o
+
+Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/tests.cpp.o
+
+Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/new-api/parsertests.cpp.o
+
+[ 93%] Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/new-api/spectests.cpp.o
+
+[ 95%] Building CXX object catkin/third_party/YAML_CPP/test/CMakeFiles/run-tests.dir/new-api/nodetests.cpp.o
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/yaml_cpp/sandbox
+
+[ 95%] Built target sandbox
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/yaml_cpp/parse
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/yaml_cpp/read
+
+[ 95%] Built target parse
+
+[ 95%] Built target read
+
+Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/librosrt.so
+
+[ 95%] Built target rosrt
+
+Scanning dependencies of target ros_rt_test_subscriber
+
+Scanning dependencies of target ros_rt_test_publisher
+
+[ 97%] [100%] Building CXX object catkin/ros/ros_rt_basic_example/CMakeFiles/ros_rt_test_subscriber.dir/src/ros_rt_test_subscriber.cpp.o
+
+Building CXX object catkin/ros/ros_rt_basic_example/CMakeFiles/ros_rt_test_publisher.dir/src/ros_rt_test_publisher.cpp.o
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/ros_rt_test/ros_rt_test_publisher
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/ros_rt_test/ros_rt_test_subscriber
+
+[100%] Built target ros_rt_test_publisher
+
+[100%] Built target ros_rt_test_subscriber
+
+Linking CXX executable /home/administrator/ci/ci/team/workspace/devel/lib/yaml_cpp/run-tests
+
+[100%] Built target run-tests
+
+Install the project...
+
+-- Install configuration: ""
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/_setup_util.py
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/env.sh
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/setup.bash
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/setup.sh
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/setup.zsh
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/.rosinstall
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/etc/catkin/profile.d/05.catkin_make.bash
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/etc/catkin/profile.d/05.catkin_make_isolated.bash
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/catkin.pc
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/catkinConfig.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/catkinConfig-version.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/package.xml
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/LICENSE
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/eigen/cmake/eigen-config.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/eigen/cmake/eigen-config-version.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/empy.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/find_program_required.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/platform
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/platform/ubuntu.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/platform/lsb.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/platform/windows.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/assert.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/catkin_generate_environment.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/tools
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/tools/bz2.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/tools/rt.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/tools/doxygen.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/tools/threads.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/tools/libraries.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/atomic_configure_file.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/test
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/test/download_test_data.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/test/catkin_download_test_data.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/test/download_checkmd5.py
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/test/tests.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/test/nosetests.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/test/gtest.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/test/run_tests.py
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/string_starts_with.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/catkin_python_setup.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/shell.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/catkin_metapackage.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/catkin_libraries.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/list_append_unique.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/safe_execute_process.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/env-hooks
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/env-hooks/05.catkin-test-results.bat.develspace.in
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/env-hooks/05.catkin-test-results.sh.develspace.in
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/env-hooks/05.catkin_make.bash
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/env-hooks/05.catkin_make_isolated.bash
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/catkin_workspace.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/catkin_package_xml.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/parse_arguments.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/python_distutils_install.bat.in
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/script.sh.in
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/python_distutils_install.sh.in
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/relay.py.in
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/script.bash.in
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/setup.sh.in
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/setup.bat.in
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/env.sh.in
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/safe_execute_install.cmake.in
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/pkg.context.pc.in
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/_setup_util.py
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/pkgConfig-version.cmake.in
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/__init__.py.in
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/setup.zsh.in
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/generate_cached_setup.py.in
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/env.bat.in
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/rosinstall.in
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/script.py.in
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/_setup_util.py.in
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/order_packages.context.py.in
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/pkgConfig.cmake.in
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/Doxyfile.in
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/setup.bash.in
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/script.in
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/env-hook.context.py.in
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/templates/cfg-extras.context.py.in
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/debug_message.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/parse_package_xml.py
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/catkin_install_python.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/list_insert_in_workspace_order.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/legacy.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/catkin_package.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/catkin_destinations.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/stamp.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/catkin_add_env_hooks.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/em_expand.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/interrogate_setup_dot_py.py
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/order_paths.py
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/toplevel.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/list_append_deduplicate.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/all.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/em
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/em/order_packages.cmake.em
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/em/pkg.pc.em
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/catkin/cmake/python.cmake
+
++ [ -n  ]
+
++ cd /home/administrator/ci/ci/team/workspace/src/catkin/third_party/catkin
+
++ /usr/bin/env PYTHONPATH=/home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages:/home/administrator/ci/ci/team/workspace/build/lib/python2.7/dist-packages:/opt/ros/indigo/lib/python2.7/dist-packages CATKIN_BINARY_DIR=/home/administrator/ci/ci/team/workspace/build /usr/bin/python /home/administrator/ci/ci/team/workspace/src/catkin/third_party/catkin/setup.py build --build-base /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin install --install-layout=deb --prefix=/home/administrator/ci/ci/team/workspace/install --install-scripts=/home/administrator/ci/ci/team/workspace/install/bin
+
+running build
+
+running build_py
+
+creating /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7
+
+creating /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7/catkin
+
+copying python/catkin/workspace_vcs.py -> /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7/catkin
+
+copying python/catkin/environment_cache.py -> /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7/catkin
+
+copying python/catkin/workspace.py -> /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7/catkin
+
+copying python/catkin/__init__.py -> /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7/catkin
+
+copying python/catkin/package_version.py -> /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7/catkin
+
+copying python/catkin/builder.py -> /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7/catkin
+
+copying python/catkin/find_in_workspaces.py -> /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7/catkin
+
+copying python/catkin/cmake.py -> /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7/catkin
+
+copying python/catkin/init_workspace.py -> /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7/catkin
+
+copying python/catkin/terminal_color.py -> /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7/catkin
+
+copying python/catkin/test_results.py -> /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7/catkin
+
+copying python/catkin/tidy_xml.py -> /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7/catkin
+
+running build_scripts
+
+creating /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/scripts-2.7
+
+copying and adjusting bin/catkin_find -> /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/scripts-2.7
+
+copying and adjusting bin/catkin_init_workspace -> /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/scripts-2.7
+
+copying and adjusting bin/catkin_make -> /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/scripts-2.7
+
+copying and adjusting bin/catkin_make_isolated -> /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/scripts-2.7
+
+copying and adjusting bin/catkin_package_version -> /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/scripts-2.7
+
+copying and adjusting bin/catkin_prepare_release -> /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/scripts-2.7
+
+copying and adjusting bin/catkin_test_results -> /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/scripts-2.7
+
+copying and adjusting bin/catkin_topological_order -> /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/scripts-2.7
+
+changing mode of /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/scripts-2.7/catkin_find from 664 to 775
+
+changing mode of /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/scripts-2.7/catkin_init_workspace from 664 to 775
+
+changing mode of /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/scripts-2.7/catkin_make from 664 to 775
+
+changing mode of /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/scripts-2.7/catkin_make_isolated from 664 to 775
+
+changing mode of /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/scripts-2.7/catkin_package_version from 664 to 775
+
+changing mode of /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/scripts-2.7/catkin_prepare_release from 664 to 775
+
+changing mode of /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/scripts-2.7/catkin_test_results from 664 to 775
+
+changing mode of /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/scripts-2.7/catkin_topological_order from 664 to 775
+
+running install
+
+running install_lib
+
+creating /home/administrator/ci/ci/team/workspace/install/lib/python2.7
+
+creating /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages
+
+creating /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7/catkin/workspace_vcs.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7/catkin/environment_cache.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7/catkin/workspace.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7/catkin/__init__.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7/catkin/package_version.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7/catkin/builder.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7/catkin/find_in_workspaces.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7/catkin/cmake.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7/catkin/init_workspace.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7/catkin/terminal_color.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7/catkin/test_results.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/lib.linux-x86_64-2.7/catkin/tidy_xml.py -> /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin/workspace_vcs.py to workspace_vcs.pyc
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin/environment_cache.py to environment_cache.pyc
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin/workspace.py to workspace.pyc
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin/__init__.py to __init__.pyc
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin/package_version.py to package_version.pyc
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin/builder.py to builder.pyc
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin/find_in_workspaces.py to find_in_workspaces.pyc
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin/cmake.py to cmake.pyc
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin/init_workspace.py to init_workspace.pyc
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin/terminal_color.py to terminal_color.pyc
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin/test_results.py to test_results.pyc
+
+byte-compiling /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin/tidy_xml.py to tidy_xml.pyc
+
+running install_scripts
+
+creating /home/administrator/ci/ci/team/workspace/install/bin
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/scripts-2.7/catkin_find -> /home/administrator/ci/ci/team/workspace/install/bin
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/scripts-2.7/catkin_topological_order -> /home/administrator/ci/ci/team/workspace/install/bin
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/scripts-2.7/catkin_init_workspace -> /home/administrator/ci/ci/team/workspace/install/bin
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/scripts-2.7/catkin_make -> /home/administrator/ci/ci/team/workspace/install/bin
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/scripts-2.7/catkin_package_version -> /home/administrator/ci/ci/team/workspace/install/bin
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/scripts-2.7/catkin_test_results -> /home/administrator/ci/ci/team/workspace/install/bin
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/scripts-2.7/catkin_prepare_release -> /home/administrator/ci/ci/team/workspace/install/bin
+
+copying /home/administrator/ci/ci/team/workspace/build/catkin/third_party/catkin/scripts-2.7/catkin_make_isolated -> /home/administrator/ci/ci/team/workspace/install/bin
+
+changing mode of /home/administrator/ci/ci/team/workspace/install/bin/catkin_find to 775
+
+changing mode of /home/administrator/ci/ci/team/workspace/install/bin/catkin_topological_order to 775
+
+changing mode of /home/administrator/ci/ci/team/workspace/install/bin/catkin_init_workspace to 775
+
+changing mode of /home/administrator/ci/ci/team/workspace/install/bin/catkin_make to 775
+
+changing mode of /home/administrator/ci/ci/team/workspace/install/bin/catkin_package_version to 775
+
+changing mode of /home/administrator/ci/ci/team/workspace/install/bin/catkin_test_results to 775
+
+changing mode of /home/administrator/ci/ci/team/workspace/install/bin/catkin_prepare_release to 775
+
+changing mode of /home/administrator/ci/ci/team/workspace/install/bin/catkin_make_isolated to 775
+
+running install_egg_info
+
+Writing /home/administrator/ci/ci/team/workspace/install/lib/python2.7/dist-packages/catkin-0.5.90.egg-info
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/Eigen.pc
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/Eigen/cmake/EigenConfig.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/Eigen/cmake/EigenConfig-version.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/Eigen/package.xml
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/ros_realtime/package.xml
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/allocators.pc
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/allocators/cmake/allocatorsConfig.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/allocators/cmake/allocatorsConfig-version.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/allocators/package.xml
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/rosatomic.pc
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/rosatomic/cmake/rosatomicConfig.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/rosatomic/cmake/rosatomicConfig-version.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/rosatomic/package.xml
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/lockfree.pc
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/lockfree/cmake/lockfreeConfig.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/lockfree/cmake/lockfreeConfig-version.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/lockfree/package.xml
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/rt_timer.pc
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/rt_timer/cmake/rt_timerConfig.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/rt_timer/cmake/rt_timerConfig-version.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/rt_timer/package.xml
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/xenomai_ros.pc
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/xenomai_ros/cmake/xenomai_ros-extras.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/xenomai_ros/cmake/xenomai_rosConfig.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/xenomai_ros/cmake/xenomai_rosConfig-version.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/xenomai_ros/package.xml
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/xenomai_ros/cmake/XenomaiConfig.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/rosrt.pc
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/rosrt/cmake/rosrt-extras.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/rosrt/cmake/rosrtConfig.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/rosrt/cmake/rosrtConfig-version.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/rosrt/package.xml
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/ros_rt_test.pc
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/ros_rt_test/cmake/ros_rt_testConfig.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/ros_rt_test/cmake/ros_rt_testConfig-version.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/ros_rt_test/package.xml
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/yaml_cpp.pc
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/yaml_cpp/cmake/yaml_cppConfig.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/yaml_cpp/cmake/yaml_cppConfig-version.cmake
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/share/yaml_cpp/package.xml
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/libyaml-cpp.so.0.5.1
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/libyaml-cpp.so.0.5
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/libyaml-cpp.so
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/ostream_wrapper.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/anchor.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/yaml.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/exceptions.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/dll.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/mark.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/noncopyable.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/traits.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/stlemitter.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/node.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/emit.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/iterator.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/node.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/memory.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/iterator.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/bool_type.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/iterator_fwd.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/node_ref.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/node_data.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/node_iterator.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/detail/impl.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/type.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/ptr.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/parse.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/impl.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/node/convert.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/emittermanip.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/eventhandler.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/binary.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/emitterdef.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/contrib
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/contrib/graphbuilder.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/contrib/anchordict.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/emitfromevents.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/parser.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/emitter.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/yaml_eigen.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/include/yaml-cpp/null.h
+
+-- Installing: /home/administrator/ci/ci/team/workspace/install/lib/pkgconfig/yaml-cpp.pc
+
+Base path: /home/administrator/ci/ci/team/workspace
+
+Source space: /home/administrator/ci/ci/team/workspace/src
+
+Build space: /home/administrator/ci/ci/team/workspace/build
+
+Devel space: /home/administrator/ci/ci/team/workspace/devel
+
+Install space: /home/administrator/ci/ci/team/workspace/install
+
+Creating symlink "/home/administrator/ci/ci/team/workspace/src/CMakeLists.txt" pointing to "/opt/ros/indigo/share/catkin/cmake/toplevel.cmake"
+
+####
+
+#### Running command: "cmake /home/administrator/ci/ci/team/workspace/src -DCATKIN_DEVEL_PREFIX=/home/administrator/ci/ci/team/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/administrator/ci/ci/team/workspace/install -G Unix Makefiles" in "/home/administrator/ci/ci/team/workspace/build"
+
+####
+
+####
+
+#### Running command: "make -j16 install" in "/home/administrator/ci/ci/team/workspace/build"
+
+####
