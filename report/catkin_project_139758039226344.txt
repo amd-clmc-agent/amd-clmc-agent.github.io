@@ -1,290 +1,238 @@
 WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
 
-[  0%] Built target PyShell
+-- Using CATKIN_DEVEL_PREFIX: /home/administrator/ci/ci/team/workspace/devel
 
-[  0%] Built target hello_world
+-- Using CMAKE_PREFIX_PATH: /opt/ros/indigo
 
-[  0%] Built target py_converter_test
+-- This workspace overlays: /opt/ros/indigo
 
-[  0%] Built target test_py_shell
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
 
-[  1%] Built target rbdl
+-- Python version: 2.7
 
-[  1%] Built target rbdl_urdfreader
+-- Using Debian Python package layout
 
-[  1%] Built target rbdl_urdfreader_util
+-- Using CATKIN_ENABLE_TESTING: ON
 
-[  1%] Built target lockfree
+-- Call enable_testing()
 
-[  2%] Built target snopt_extern
+-- Using CATKIN_TEST_RESULTS_DIR: /home/administrator/ci/ci/team/workspace/build/test_results
 
-[  2%] Built target snopt_interface_extern
+-- Found gtest sources under '/usr/src/gtest': gtests will be built
 
-[  2%] Built target snopt_cpp
+-- catkin 0.5.90
 
-[  2%] Built target sntoya
+-- BUILD_SHARED_LIBS is on
 
-[  2%] Built target testing_tools
+WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
 
-[  4%] Built target utility
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-[  4%] Built target lwpr
+-- ~~  traversing 14 packages in topological order:
 
-[  4%] Built target xascii2mrplot
+-- ~~  - Eigen
 
-[  4%] Built target xlwpr
+-- ~~  - ros_realtime (metapackage)
 
-[  4%] Built target xlwprstat
+-- ~~  - allocators
 
-[  4%] Built target rosrt
+-- ~~  - rosatomic
 
-[  4%] Built target ros_rt_test_publisher
+-- ~~  - lockfree
 
-[  4%] Built target ros_rt_test_subscriber
+-- ~~  - rt_timer
 
-[  4%] Built target SLcommon
+-- ~~  - xenomai_ros
 
-[  5%] Built target SLmotor
+-- ~~  - ati_ft_sensor
 
-[  5%] Built target SLopenGL
+-- ~~  - optoforce_sensor
 
-[  5%] Built target SLros
+-- ~~  - rosrt
 
-[  6%] Built target SLsimulation
+-- ~~  - ros_rt_test
 
-[  6%] Built target SLtask
+-- ~~  - vicon_bridge
 
-[  7%] Built target SLvision
+-- ~~  - yaml_cpp
 
-[  7%] Built target _vicon_bridge_generate_messages_check_deps_viconGrabPose
+-- ~~  - hermes_communication_tools
 
-[  7%] Built target _vicon_bridge_generate_messages_check_deps_viconCalibrateSegment
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-[  7%] Built target _vicon_bridge_generate_messages_check_deps_Marker
+-- +++ processing catkin package: 'Eigen'
 
-[  7%] Built target geometry_msgs_generate_messages_cpp
+-- ==> add_subdirectory(catkin/third_party/Eigen)
 
-[  7%] Built target _vicon_bridge_generate_messages_check_deps_Markers
+WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
 
-[  7%] Built target _vicon_bridge_generate_messages_check_deps_TfDistortInfo
+-- +++ processing catkin metapackage: 'ros_realtime'
 
-[  7%] Built target vicon_bridge_generate_messages_cpp
+-- ==> add_subdirectory(catkin/ros/ros_realtime/ros_realtime)
 
-[  7%] Built target vicon_bridge_gencpp
+-- +++ processing catkin package: 'allocators'
 
-[  8%] Built target calibrate
+-- ==> add_subdirectory(catkin/ros/ros_realtime/allocators)
 
-[  8%] Built target msvc_bridge
+-- Boost version: 1.54.0
 
-[  9%] Built target testclient
+-- +++ processing catkin package: 'rosatomic'
 
-[ 10%] Built target vicon_bridge_gencfg
+-- ==> add_subdirectory(catkin/ros/ros_realtime/rosatomic)
 
-[ 10%] Built target tf_distort
+-- Boost version: 1.54.0
 
-[ 10%] Built target vicon_bridge
+-- +++ processing catkin package: 'lockfree'
 
-[ 10%] Built target geometry_msgs_generate_messages_lisp
+-- ==> add_subdirectory(catkin/ros/ros_realtime/lockfree)
 
-[ 10%] Built target vicon_bridge_generate_messages_lisp
+-- Boost version: 1.54.0
 
-[ 10%] Built target geometry_msgs_generate_messages_py
+-- +++ processing catkin package: 'rt_timer'
 
-[ 11%] Built target vicon_bridge_generate_messages_py
+-- ==> add_subdirectory(catkin/ros/ros_realtime/rt_timer)
 
-[ 11%] Built target vicon_bridge_generate_messages
+-- +++ processing catkin package: 'xenomai_ros'
 
-[ 13%] Built target yaml-cpp
+-- ==> add_subdirectory(catkin/ros/xenomai-ros)
 
-[ 14%] Built target run-tests
+-- +++ processing catkin package: 'ati_ft_sensor'
 
-[ 14%] Built target parse
+-- ==> add_subdirectory(catkin/humanoids/humanoid_hardware/ati_ft_sensor)
 
-[ 14%] Built target read
+-- xenomai NOT found. (/usr/local;/usr)
 
-[ 14%] Built target sandbox
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
 
-[ 14%] Built target _hermes_communication_tools_generate_messages_check_deps_gdc_states_vector_msg
+-- Boost version: 1.54.0
 
-[ 14%] Built target _hermes_communication_tools_generate_messages_check_deps_gdc_state_msg
+-- Found the following Boost libraries:
 
-[ 14%] Built target hermes_communication_tools_generate_messages_lisp
+--   system
 
-[ 15%] Built target hermes_communication_tools_generate_messages_py
+--   filesystem
 
-[ 15%] Built target hermes_communication_tools_generate_messages_cpp
+--   thread
 
-[ 15%] Built target hermes_communication_tools_generate_messages
+-- +++ processing catkin package: 'optoforce_sensor'
 
-[ 16%] Built target athena
+-- ==> add_subdirectory(catkin/humanoids/humanoid_hardware/optoforceSensorLib)
 
-[ 16%] Built target athena_openGL
+-- xenomai NOT found. (/usr/local;/usr)
 
-[ 16%] Built target athena_simulation
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
 
-[ 16%] Built target athena_task
+-- Boost version: 1.54.0
 
-[ 16%] Built target xathena
+-- Found the following Boost libraries:
 
-[ 17%] Built target xmotor_athena
+--   system
 
-[ 17%] Built target xpest_athena
+--   filesystem
 
-[ 17%] Built target xvision_athena
+--   thread
 
-[ 17%] Built target hermes_full
+-- +++ processing catkin package: 'rosrt'
 
-Scanning dependencies of target hermes_full_openGL
+-- ==> add_subdirectory(catkin/ros/ros_realtime/rosrt)
 
-[ 18%] Building C object catkin/robots/hermesFull/CMakeFiles/hermes_full_openGL.dir/src/SL_user_openGL.c.o
+-- xenomai NOT found. (/usr/local;/usr)
 
-Linking C shared library /home/administrator/ci/ci/team/workspace/devel/lib/libhermes_full_openGL.so
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
 
-[ 18%] Built target hermes_full_openGL
+-- Boost version: 1.54.0
 
-Scanning dependencies of target hermes_full_simulation
+-- Found the following Boost libraries:
 
-[ 18%] Building C object catkin/robots/hermesFull/CMakeFiles/hermes_full_simulation.dir/__/hermesCore/src/SL_user_simulation.c.o
+--   thread
 
-[ 18%] Building C object catkin/robots/hermesFull/CMakeFiles/hermes_full_simulation.dir/__/hermesCore/src/SL_hermes_simulation.c.o
+-- +++ processing catkin package: 'ros_rt_test'
 
-Linking C shared library /home/administrator/ci/ci/team/workspace/devel/lib/libhermes_full_simulation.so
+-- ==> add_subdirectory(catkin/ros/ros_rt_basic_example)
 
-[ 18%] Built target hermes_full_simulation
+-- xenomai NOT found. (/usr/local;/usr)
 
-Scanning dependencies of target hermes_full_task
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
 
-[ 18%] Building CXX object catkin/robots/hermesFull/CMakeFiles/hermes_full_task.dir/__/hermesCore/src/SL_user_task.cpp.o
+-- +++ processing catkin package: 'vicon_bridge'
 
-/home/administrator/ci/ci/team/workspace/src/catkin/robots/hermesCore/src/SL_user_task.cpp: In function ‘void drawPhantomFromCurrentState()’:
+-- ==> add_subdirectory(catkin/perception/vicon_bridge)
 
-/home/administrator/ci/ci/team/workspace/src/catkin/robots/hermesCore/src/SL_user_task.cpp:410:69: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+CMake Warning (dev) in catkin/perception/vicon_bridge/CMakeLists.txt:
 
-   sendUserGraphics("phantom",b, (N_CART+N_QUAT+N_DOFS)*sizeof(float));
+  Syntax Warning in cmake code at
 
-                                                                     ^
 
-/home/administrator/ci/ci/team/workspace/src/catkin/robots/hermesCore/src/SL_user_task.cpp: In function ‘void drawPhantomFromDesiredState()’:
 
-/home/administrator/ci/ci/team/workspace/src/catkin/robots/hermesCore/src/SL_user_task.cpp:444:69: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    /home/administrator/ci/ci/team/workspace/src/catkin/perception/vicon_bridge/CMakeLists.txt:69:41
 
-   sendUserGraphics("phantom",b, (N_CART+N_QUAT+N_DOFS)*sizeof(float));
 
-                                                                     ^
 
-Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libhermes_full_task.so
+  Argument not separated from preceding token by whitespace.
 
-[ 18%] Built target hermes_full_task
+This warning is for project developers.  Use -Wno-dev to suppress it.
 
-[ 18%] Built target xhermes_full
 
-Scanning dependencies of target xmotor_hermes_full
 
-[ 18%] Building C object catkin/robots/hermesFull/CMakeFiles/xmotor_hermes_full.dir/__/hermesCore/src/SL_user_motor.c.o
+-- Using these message generators: gencpp;genlisp;genpy
 
-[ 18%] Building CXX object catkin/robots/hermesFull/CMakeFiles/xmotor_hermes_full.dir/__/hermesCore/src/SL_user_sensor_proc_unix.cpp.o
+-- Boost version: 1.54.0
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/src/catkin/robots/hermesFull/x86_64/xmotor
+-- Found the following Boost libraries:
 
-[ 18%] Built target xmotor_hermes_full
+--   thread
 
-[ 18%] Generating src/SL_parm_estimate.c
+-- vicon_bridge: 3 messages, 2 services
 
-Scanning dependencies of target xpest_hermes_full
+-- OS 64 bits detected
 
-[ 19%] Building C object catkin/robots/hermesFull/CMakeFiles/xpest_hermes_full.dir/src/SL_parm_estimate.c.o
+-- vicon sdk version is 1.7
 
-Linking C executable /home/administrator/ci/ci/team/workspace/src/catkin/robots/hermesFull/x86_64/xpest
+-- +++ processing catkin package: 'yaml_cpp'
 
-[ 19%] Built target xpest_hermes_full
+-- ==> add_subdirectory(catkin/third_party/YAML_CPP)
 
-Scanning dependencies of target xvision_hermes_full
+-- Boost version: 1.54.0
 
-[ 19%] Building C object catkin/robots/hermesFull/CMakeFiles/xvision_hermes_full.dir/__/hermesCore/src/SL_user_vision.c.o
+-- +++ processing catkin package: 'hermes_communication_tools'
 
-Linking C executable /home/administrator/ci/ci/team/workspace/src/catkin/robots/hermesFull/x86_64/xvision
+-- ==> add_subdirectory(catkin/humanoids/humanoid_hardware/cb_communication)
 
-[ 19%] Built target xvision_hermes_full
+CMake Error at /home/administrator/ci/ci/team/workspace/devel/share/catkin/cmake/catkinConfig.cmake:75 (find_package):
 
-[ 20%] Built target hermes_lower
+  Could not find a package configuration file provided by "sl_config" with
 
-[ 20%] Built target hermes_lower_openGL
+  any of the following names:
 
-[ 20%] Built target hermes_lower_simulation
 
-[ 20%] Built target hermes_lower_task
 
-[ 20%] Built target xhermes_lower
+    sl_configConfig.cmake
 
-[ 20%] Built target xmotor_hermes_lower
+    sl_config-config.cmake
 
-[ 20%] Built target xpest_hermes_lower
 
-[ 20%] Built target xvision_hermes_lower
 
-[ 20%] Built target eiquadprog_tester_app
+  Add the installation prefix of "sl_config" to CMAKE_PREFIX_PATH or set
 
-[ 20%] Built target geometry_utils
+  "sl_config_DIR" to a directory containing one of the above files.  If
 
-[ 20%] Built target io_utils_lib
+  "sl_config" provides a separate development package or SDK, be sure it has
 
-[ 21%] Built target robot_math
+  been installed.
 
-[ 21%] Built target lqr_example_app
+Call Stack (most recent call first):
 
-[ 21%] Built target math_utils_lib
+  catkin/humanoids/humanoid_hardware/cb_communication/CMakeLists.txt:8 (find_package)
 
-[ 21%] Built target configuration_file_loading
 
-[ 21%] Built target data_collection
 
-[ 21%] Built target io_tools_OTHER_FILES
 
-[ 22%] Built target yaml_example
 
-[ 22%] Built target capture_point_time_optimization
+-- Configuring incomplete, errors occurred!
 
-[ 22%] Built target capture_points
+See also "/home/administrator/ci/ci/team/workspace/build/CMakeFiles/CMakeOutput.log".
 
-[ 22%] Built target capture_points_app
-
-[ 24%] Built target floating_base_tools_athena
-
-[ 24%] Built target momentum_lqr_example_app
-
-[ 25%] Built target floating_base_tools_hermes_full
-
-[ 27%] Built target floating_base_tools_hermes_lower
-
-[ 28%] Built target floating_base_tools_hopper
-
-[ 29%] Built target data_collectionSL
-
-[ 30%] Built target floating_base_tools_sl_athena
-
-[ 31%] Built target biped_locomotion_athena
-
-[ 31%] Built target gtest
-
-[ 31%] Built target biped_locomotion_tests_athena
-
-[ 32%] Building CXX object catkin/humanoids/capture_point_time_optimization/capture_points_athena/CMakeFiles/hinvdyn_dcm_time_optimization_athena.dir/src/capture_points/hinvdyn_timing_optimization.cpp.o
-
-In file included from /home/administrator/ci/ci/team/workspace/src/catkin/humanoids/capture_point_time_optimization/capture_points_athena/src/capture_points/hinvdyn_timing_optimization.cpp:20:0:
-
-/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/capture_point_time_optimization/capture_points_athena/../template/include/capture_points/hinvdyn_timing_optimization.h:34:46: fatal error: geometry_utils/Transformations.hpp: No such file or directory
-
- #include "geometry_utils/Transformations.hpp"
-
-                                              ^
-
-compilation terminated.
-
-make[2]: *** [catkin/humanoids/capture_point_time_optimization/capture_points_athena/CMakeFiles/hinvdyn_dcm_time_optimization_athena.dir/src/capture_points/hinvdyn_timing_optimization.cpp.o] Error 1
-
-make[1]: *** [catkin/humanoids/capture_point_time_optimization/capture_points_athena/CMakeFiles/hinvdyn_dcm_time_optimization_athena.dir/all] Error 2
-
-make: *** [all] Error 2
+See also "/home/administrator/ci/ci/team/workspace/build/CMakeFiles/CMakeError.log".
 
 Base path: /home/administrator/ci/ci/team/workspace
 
@@ -298,14 +246,8 @@ Install space: /home/administrator/ci/ci/team/workspace/install
 
 ####
 
-#### Running command: "make cmake_check_build_system" in "/home/administrator/ci/ci/team/workspace/build"
+#### Running command: "cmake /home/administrator/ci/ci/team/workspace/src -DCATKIN_DEVEL_PREFIX=/home/administrator/ci/ci/team/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/administrator/ci/ci/team/workspace/install -G Unix Makefiles" in "/home/administrator/ci/ci/team/workspace/build"
 
 ####
 
-####
-
-#### Running command: "make -j1" in "/home/administrator/ci/ci/team/workspace/build"
-
-####
-
-Invoking "make -j1" failed
+Invoking "cmake" failed
