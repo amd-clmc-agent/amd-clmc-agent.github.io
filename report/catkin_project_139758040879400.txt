@@ -1,290 +1,1376 @@
 WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
 
-[  0%] Built target PyShell
+-- Using CATKIN_DEVEL_PREFIX: /home/administrator/ci/ci/team/workspace/devel
 
-[  0%] Built target hello_world
+-- Using CMAKE_PREFIX_PATH: /opt/ros/indigo
 
-[  0%] Built target py_converter_test
+-- This workspace overlays: /opt/ros/indigo
 
-[  0%] Built target test_py_shell
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
 
-[  1%] Built target rbdl
+-- Python version: 2.7
 
-[  1%] Built target rbdl_urdfreader
+-- Using Debian Python package layout
 
-[  1%] Built target rbdl_urdfreader_util
+-- Using CATKIN_ENABLE_TESTING: ON
 
-[  1%] Built target lockfree
+-- Call enable_testing()
 
-[  2%] Built target snopt_extern
+-- Using CATKIN_TEST_RESULTS_DIR: /home/administrator/ci/ci/team/workspace/build/test_results
 
-[  2%] Built target snopt_interface_extern
+-- Found gtest sources under '/usr/src/gtest': gtests will be built
 
-[  2%] Built target snopt_cpp
+-- catkin 0.5.90
 
-[  2%] Built target sntoya
+-- BUILD_SHARED_LIBS is on
 
-[  2%] Built target testing_tools
+WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
 
-[  4%] Built target utility
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-[  4%] Built target lwpr
+-- ~~  traversing 76 packages in topological order:
 
-[  4%] Built target xascii2mrplot
+-- ~~  - Eigen
 
-[  4%] Built target xlwpr
+-- ~~  - amd_clmc_dmp
 
-[  4%] Built target xlwprstat
+-- ~~  - arm_cdlbt
 
-[  4%] Built target rosrt
+-- ~~  - arm_can_control_tools
 
-[  4%] Built target ros_rt_test_publisher
+-- ~~  - biotac_core
 
-[  4%] Built target ros_rt_test_subscriber
+-- ~~  - catkin_gflags
 
-[  4%] Built target SLcommon
+-- ~~  - catkin_glog
 
-[  5%] Built target SLmotor
+-- ~~  - conversions
 
-[  5%] Built target SLopenGL
+-- ~~  - interpolation
 
-[  5%] Built target SLros
+-- ~~  - launch_xtion
 
-[  6%] Built target SLsimulation
+-- ~~  - qp_oases
 
-[  6%] Built target SLtask
+-- ~~  - quadprog
 
-[  7%] Built target SLvision
+-- ~~  - ros_realtime (metapackage)
 
-[  7%] Built target _vicon_bridge_generate_messages_check_deps_TfDistortInfo
+-- ~~  - allocators
 
-[  7%] Built target geometry_msgs_generate_messages_cpp
+-- ~~  - rosatomic
 
-[  7%] Built target _vicon_bridge_generate_messages_check_deps_viconCalibrateSegment
+-- ~~  - lockfree
 
-[  7%] Built target _vicon_bridge_generate_messages_check_deps_Markers
+-- ~~  - rt_timer
 
-[  7%] Built target _vicon_bridge_generate_messages_check_deps_viconGrabPose
+-- ~~  - rt_utils
 
-[  7%] Built target _vicon_bridge_generate_messages_check_deps_Marker
+-- ~~  - dmp
 
-[  7%] Built target vicon_bridge_generate_messages_cpp
+-- ~~  - splines
 
-[  7%] Built target vicon_bridge_gencpp
+-- ~~  - start_robot
 
-[  8%] Built target calibrate
+-- ~~  - amd_clmc_ros_messages
 
-[  8%] Built target msvc_bridge
+-- ~~  - ar_track_alvar_msgs
 
-[  9%] Built target testclient
+-- ~~  - custom_robot_msgs
 
-[ 10%] Built target vicon_bridge_gencfg
+-- ~~  - riemo_grasping_msgs
 
-[ 10%] Built target tf_distort
+-- ~~  - utilities
 
-[ 10%] Built target vicon_bridge
+-- ~~  - lwpr
 
-[ 10%] Built target geometry_msgs_generate_messages_py
+-- ~~  - vrpn_vicon_minimum
 
-[ 11%] Built target vicon_bridge_generate_messages_py
+-- ~~  - vrpn_vicon_objs_tracker
 
-[ 11%] Built target geometry_msgs_generate_messages_lisp
+-- ~~  - xenomai_ros
 
-[ 11%] Built target vicon_bridge_generate_messages_lisp
+-- ~~  - constrained_inverse_kinematics_msgs
 
-[ 11%] Built target vicon_bridge_generate_messages
+-- ~~  - robot_planning_client
 
-[ 13%] Built target yaml-cpp
+-- ~~  - roscpp_utilities
 
-[ 14%] Built target run-tests
+-- ~~  - rosrt
 
-[ 14%] Built target parse
+-- ~~  - ros_rt_test
 
-[ 14%] Built target read
+-- ~~  - sl
 
-[ 14%] Built target sandbox
+-- ~~  - arm
 
-[ 14%] Built target _hermes_communication_tools_generate_messages_check_deps_gdc_state_msg
+-- ~~  - arm_test_task
 
-[ 14%] Built target _hermes_communication_tools_generate_messages_check_deps_gdc_states_vector_msg
+-- ~~  - sl_ros_servo
 
-[ 14%] Built target hermes_communication_tools_generate_messages_lisp
+-- ~~  - learning_control
 
-[ 14%] Built target hermes_communication_tools_generate_messages_cpp
+-- ~~  - ar_track_alvar
 
-[ 15%] Built target hermes_communication_tools_generate_messages_py
+-- ~~  - python_ros_utils
 
-[ 15%] Built target hermes_communication_tools_generate_messages
+-- ~~  - sl_conversions
 
-[ 16%] Built target athena
+-- ~~  - sl_utilities
 
-[ 16%] Built target athena_openGL
+-- ~~  - sl_controller_manager
 
-[ 16%] Built target athena_simulation
+-- ~~  - sl_barrett_controllers
 
-[ 16%] Built target athena_task
+-- ~~  - sl_biotac_controller_data
 
-[ 16%] Built target xathena
+-- ~~  - sl_biotac_controllers
 
-[ 17%] Built target xmotor_athena
+-- ~~  - sl_controllers
 
-[ 17%] Built target xpest_athena
+-- ~~  - sl_head_arm_controllers
 
-[ 17%] Built target xvision_athena
+-- ~~  - sl_vicon_controller_data
 
-[ 17%] Built target hermes_full
+-- ~~  - sl_biotac_vicon_controller_data
 
-Scanning dependencies of target hermes_full_openGL
+-- ~~  - controller_manager_task_arm
 
-[ 18%] Building C object catkin/robots/hermesFull/CMakeFiles/hermes_full_openGL.dir/src/SL_user_openGL.c.o
+-- ~~  - arm_user
 
-Linking C shared library /home/administrator/ci/ci/team/workspace/devel/lib/libhermes_full_openGL.so
+-- ~~  - arm_robot_model
 
-[ 18%] Built target hermes_full_openGL
+-- ~~  - arm_moveit_config
 
-Scanning dependencies of target hermes_full_simulation
+-- ~~  - ros_servo_arm
 
-[ 18%] Building C object catkin/robots/hermesFull/CMakeFiles/hermes_full_simulation.dir/__/hermesCore/src/SL_user_simulation.c.o
+-- ~~  - usc_utilities
 
-[ 18%] Building C object catkin/robots/hermesFull/CMakeFiles/hermes_full_simulation.dir/__/hermesCore/src/SL_hermes_simulation.c.o
+-- ~~  - learnable_cost_function
 
-Linking C shared library /home/administrator/ci/ci/team/workspace/devel/lib/libhermes_full_simulation.so
+-- ~~  - robot_info
 
-[ 18%] Built target hermes_full_simulation
+-- ~~  - jacobian_utilities
 
-Scanning dependencies of target hermes_full_task
+-- ~~  - sl_barrett_controller_interface
 
-[ 18%] Building CXX object catkin/robots/hermesFull/CMakeFiles/hermes_full_task.dir/__/hermesCore/src/SL_user_task.cpp.o
+-- ~~  - sl_controller_interface
 
-/home/administrator/ci/ci/team/workspace/src/catkin/robots/hermesCore/src/SL_user_task.cpp: In function ‘void drawPhantomFromCurrentState()’:
+-- ~~  - arm_learn_hand_eye_calibration
 
-/home/administrator/ci/ci/team/workspace/src/catkin/robots/hermesCore/src/SL_user_task.cpp:410:69: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+-- ~~  - robot_kinematics_cost_function
 
-   sendUserGraphics("phantom",b, (N_CART+N_QUAT+N_DOFS)*sizeof(float));
+-- ~~  - robot_inverse_kinematics
 
-                                                                     ^
+-- ~~  - sl_biotac_controller_interface
 
-/home/administrator/ci/ci/team/workspace/src/catkin/robots/hermesCore/src/SL_user_task.cpp: In function ‘void drawPhantomFromDesiredState()’:
+-- ~~  - sl_dmp_controller_interface
 
-/home/administrator/ci/ci/team/workspace/src/catkin/robots/hermesCore/src/SL_user_task.cpp:444:69: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+-- ~~  - controller_manager_examples_arm
 
-   sendUserGraphics("phantom",b, (N_CART+N_QUAT+N_DOFS)*sizeof(float));
+-- ~~  - sl_head_arm_controller_interface
 
-                                                                     ^
+-- ~~  - strain_gauge_calibration
 
-Linking CXX shared library /home/administrator/ci/ci/team/workspace/devel/lib/libhermes_full_task.so
+-- ~~  - vicon_core
 
-[ 18%] Built target hermes_full_task
+-- ~~  - sl_vicon_controllers
 
-[ 18%] Built target xhermes_full
+-- ~~  - sl_dmp_controllers
 
-Scanning dependencies of target xmotor_hermes_full
+-- ~~  - robot_planning_srv
 
-[ 18%] Building C object catkin/robots/hermesFull/CMakeFiles/xmotor_hermes_full.dir/__/hermesCore/src/SL_user_motor.c.o
+-- ~~  - yaml_cpp
 
-[ 18%] Building CXX object catkin/robots/hermesFull/CMakeFiles/xmotor_hermes_full.dir/__/hermesCore/src/SL_user_sensor_proc_unix.cpp.o
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Linking CXX executable /home/administrator/ci/ci/team/workspace/src/catkin/robots/hermesFull/x86_64/xmotor
+-- +++ processing catkin package: 'Eigen'
 
-[ 18%] Built target xmotor_hermes_full
+-- ==> add_subdirectory(catkin/third_party/Eigen)
 
-[ 18%] Generating src/SL_parm_estimate.c
+WARNING: Catkin package name "Eigen" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, and underscores.
 
-Scanning dependencies of target xpest_hermes_full
+-- +++ processing catkin package: 'amd_clmc_dmp'
 
-[ 19%] Building C object catkin/robots/hermesFull/CMakeFiles/xpest_hermes_full.dir/src/SL_parm_estimate.c.o
+-- ==> add_subdirectory(catkin/planning/amd_clmc_dmp)
 
-Linking C executable /home/administrator/ci/ci/team/workspace/src/catkin/robots/hermesFull/x86_64/xpest
+-- Boost version: 1.54.0
 
-[ 19%] Built target xpest_hermes_full
+-- Found the following Boost libraries:
 
-Scanning dependencies of target xvision_hermes_full
+--   thread
 
-[ 19%] Building C object catkin/robots/hermesFull/CMakeFiles/xvision_hermes_full.dir/__/hermesCore/src/SL_user_vision.c.o
+--   system
 
-Linking C executable /home/administrator/ci/ci/team/workspace/src/catkin/robots/hermesFull/x86_64/xvision
+--   filesystem
 
-[ 19%] Built target xvision_hermes_full
+-- +++ processing catkin package: 'arm_cdlbt'
 
-[ 20%] Built target hermes_lower
+-- ==> add_subdirectory(catkin/robots/arm-barrett/cdlbt)
 
-[ 20%] Built target hermes_lower_openGL
+-- MACHTYPE x86_64
 
-[ 20%] Built target hermes_lower_simulation
+Detected MACHTYPE=x86_64
 
-[ 20%] Built target hermes_lower_task
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
 
-[ 20%] Built target xhermes_lower
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
 
-[ 20%] Built target xmotor_hermes_lower
+Call Stack (most recent call first):
 
-[ 20%] Built target xpest_hermes_lower
+  catkin/robots/arm-barrett/cdlbt/CMakeLists.txt:4 (include)
 
-[ 20%] Built target xvision_hermes_lower
 
-[ 20%] Built target eiquadprog_tester_app
 
-[ 20%] Built target geometry_utils
 
-[ 20%] Built target io_utils_lib
 
-[ 21%] Built target robot_math
+-- HOST_NAME=everest.is.localnet
 
-[ 21%] Built target lqr_example_app
+-- HOST=everest
 
-[ 21%] Built target math_utils_lib
+-- LAB=AMD
 
-[ 21%] Built target configuration_file_loading
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
 
-[ 21%] Built target data_collection
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
 
-[ 21%] Built target io_tools_OTHER_FILES
+-- CMAKE_INCLUDE_PATH=
 
-[ 22%] Built target yaml_example
+-- CMAKE_LIBRARY_PATH=
 
-[ 22%] Built target capture_point_time_optimization
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
 
-[ 22%] Built target capture_points
+-- LAB_LIBDIR=lib/x86_64
 
-[ 22%] Built target capture_points_app
+-- LAB_INCLUDES=include
 
-[ 24%] Built target floating_base_tools_athena
+-- LAB_BINDIR=bin/x86_64
 
-[ 24%] Built target momentum_lqr_example_app
+-- Boost version: 1.54.0
 
-[ 25%] Built target floating_base_tools_hermes_full
+-- Found the following Boost libraries:
 
-[ 27%] Built target floating_base_tools_hermes_lower
+--   thread
 
-[ 28%] Built target floating_base_tools_hopper
+-- +++ processing catkin package: 'arm_can_control_tools'
 
-[ 29%] Built target data_collectionSL
+-- ==> add_subdirectory(catkin/robots/arm-barrett/canControlTools)
 
-[ 30%] Built target floating_base_tools_sl_athena
+-- MACHTYPE x86_64
 
-[ 31%] Built target biped_locomotion_athena
+Detected MACHTYPE=x86_64
 
-[ 31%] Built target gtest
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
 
-[ 31%] Built target biped_locomotion_tests_athena
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
 
-[ 32%] Building CXX object catkin/humanoids/capture_point_time_optimization/capture_points_athena/CMakeFiles/hinvdyn_dcm_time_optimization_athena.dir/src/capture_points/hinvdyn_timing_optimization.cpp.o
+Call Stack (most recent call first):
 
-In file included from /home/administrator/ci/ci/team/workspace/src/catkin/humanoids/capture_point_time_optimization/capture_points_athena/src/capture_points/hinvdyn_timing_optimization.cpp:20:0:
+  catkin/robots/arm-barrett/canControlTools/CMakeLists.txt:4 (include)
 
-/home/administrator/ci/ci/team/workspace/src/catkin/humanoids/capture_point_time_optimization/capture_points_athena/../template/include/capture_points/hinvdyn_timing_optimization.h:34:46: fatal error: geometry_utils/Transformations.hpp: No such file or directory
 
- #include "geometry_utils/Transformations.hpp"
 
-                                              ^
 
-compilation terminated.
 
-make[2]: *** [catkin/humanoids/capture_point_time_optimization/capture_points_athena/CMakeFiles/hinvdyn_dcm_time_optimization_athena.dir/src/capture_points/hinvdyn_timing_optimization.cpp.o] Error 1
+-- HOST_NAME=everest.is.localnet
 
-make[1]: *** [catkin/humanoids/capture_point_time_optimization/capture_points_athena/CMakeFiles/hinvdyn_dcm_time_optimization_athena.dir/all] Error 2
+-- HOST=everest
 
-make: *** [all] Error 2
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
+
+-- Boost version: 1.54.0
+
+-- Found the following Boost libraries:
+
+--   thread
+
+--   system
+
+-- +++ processing catkin package: 'biotac_core'
+
+-- ==> add_subdirectory(catkin/sensors/biotac-core)
+
+-- MACHTYPE x86_64
+
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+
+Call Stack (most recent call first):
+
+  catkin/sensors/biotac-core/CMakeLists.txt:8 (include)
+
+
+
+
+
+-- HOST_NAME=everest.is.localnet
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
+
+-- Boost version: 1.54.0
+
+-- Found the following Boost libraries:
+
+--   system
+
+-- xenomai NOT found. (/usr/local;/usr)
+
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+
+-- +++ processing catkin package: 'catkin_gflags'
+
+-- ==> add_subdirectory(catkin/third_party/catkin-gflags)
+
+-- Found gflags  (include: /usr/include, library: /usr/lib/x86_64-linux-gnu/libgflags.so)
+
+-- +++ processing catkin package: 'catkin_glog'
+
+-- ==> add_subdirectory(catkin/third_party/catkin-glog)
+
+-- Found glog    (include: /usr/include, library: /usr/lib/x86_64-linux-gnu/libglog.so)
+
+-- +++ processing catkin package: 'conversions'
+
+-- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/usc_utils/conversions)
+
+-- +++ processing catkin package: 'interpolation'
+
+-- ==> add_subdirectory(catkin/controller_manager/core-sl-ros/interpolation)
+
+-- +++ processing catkin package: 'launch_xtion'
+
+-- ==> add_subdirectory(catkin/ros/launch_xtion)
+
+-- +++ processing catkin package: 'qp_oases'
+
+-- ==> add_subdirectory(catkin/third_party/qp_oases)
+
+-- +++ processing catkin package: 'quadprog'
+
+-- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/usc_utils/quadprog)
+
+-- +++ processing catkin metapackage: 'ros_realtime'
+
+-- ==> add_subdirectory(catkin/ros/ros_realtime/ros_realtime)
+
+-- +++ processing catkin package: 'allocators'
+
+-- ==> add_subdirectory(catkin/ros/ros_realtime/allocators)
+
+-- Boost version: 1.54.0
+
+-- +++ processing catkin package: 'rosatomic'
+
+-- ==> add_subdirectory(catkin/ros/ros_realtime/rosatomic)
+
+-- Boost version: 1.54.0
+
+-- +++ processing catkin package: 'lockfree'
+
+-- ==> add_subdirectory(catkin/ros/ros_realtime/lockfree)
+
+-- Boost version: 1.54.0
+
+-- +++ processing catkin package: 'rt_timer'
+
+-- ==> add_subdirectory(catkin/ros/ros_realtime/rt_timer)
+
+-- +++ processing catkin package: 'rt_utils'
+
+-- ==> add_subdirectory(catkin/rt_utils)
+
+-- +++ processing catkin package: 'dmp'
+
+-- ==> add_subdirectory(catkin/learning/dmp)
+
+-- +++ processing catkin package: 'splines'
+
+-- ==> add_subdirectory(catkin/controller_manager/core-sl-ros/splines)
+
+-- +++ processing catkin package: 'start_robot'
+
+-- ==> add_subdirectory(catkin/robots/start_robot)
+
+-- +++ processing catkin package: 'amd_clmc_ros_messages'
+
+-- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/amd_clmc_ros_messages)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- amd_clmc_ros_messages: 108 messages, 10 services
+
+-- +++ processing catkin package: 'ar_track_alvar_msgs'
+
+-- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/ar_track_alvar_msgs)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- ar_track_alvar_msgs: 2 messages, 0 services
+
+-- +++ processing catkin package: 'custom_robot_msgs'
+
+-- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/custom_robot_msgs)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- custom_robot_msgs: 1 messages, 2 services
+
+-- +++ processing catkin package: 'riemo_grasping_msgs'
+
+-- ==> add_subdirectory(catkin/ros/amd_clmc_ros_messages/riemo_grasping_msgs)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- riemo_grasping_msgs: 5 messages, 3 services
+
+-- +++ processing catkin package: 'utilities'
+
+-- ==> add_subdirectory(catkin/core-sl/catkin-utilities)
+
+-- MACHTYPE x86_64
+
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+
+Call Stack (most recent call first):
+
+  catkin/core-sl/catkin-utilities/CMakeLists.txt:8 (include)
+
+
+
+
+
+-- HOST_NAME=everest.is.localnet
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
+
+-- +++ processing catkin package: 'lwpr'
+
+-- ==> add_subdirectory(catkin/core-sl/catkin-lwpr)
+
+-- MACHTYPE x86_64
+
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+
+Call Stack (most recent call first):
+
+  catkin/core-sl/catkin-lwpr/CMakeLists.txt:5 (include)
+
+
+
+
+
+-- HOST_NAME=everest.is.localnet
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
+
+-- +++ processing catkin package: 'vrpn_vicon_minimum'
+
+-- ==> add_subdirectory(catkin/perception/vrpn_vicon_minimum)
+
+-- +++ processing catkin package: 'vrpn_vicon_objs_tracker'
+
+-- ==> add_subdirectory(catkin/perception/vrpn_vicon_objs_tracker)
+
+-- +++ processing catkin package: 'xenomai_ros'
+
+-- ==> add_subdirectory(catkin/ros/xenomai-ros)
+
+-- +++ processing catkin package: 'constrained_inverse_kinematics_msgs'
+
+-- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/planning/constrained_inverse_kinematics_msgs)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- constrained_inverse_kinematics_msgs: 1 messages, 0 services
+
+-- +++ processing catkin package: 'robot_planning_client'
+
+-- ==> add_subdirectory(catkin/planning/robot_planning_client)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- robot_planning_client: 0 messages, 1 services
+
+-- +++ processing catkin package: 'roscpp_utilities'
+
+-- ==> add_subdirectory(catkin/ros/roscpp_utilities)
+
+-- +++ processing catkin package: 'rosrt'
+
+-- ==> add_subdirectory(catkin/ros/ros_realtime/rosrt)
+
+-- xenomai NOT found. (/usr/local;/usr)
+
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+
+-- Boost version: 1.54.0
+
+-- Found the following Boost libraries:
+
+--   thread
+
+-- +++ processing catkin package: 'ros_rt_test'
+
+-- ==> add_subdirectory(catkin/ros/ros_rt_basic_example)
+
+-- xenomai NOT found. (/usr/local;/usr)
+
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+
+-- +++ processing catkin package: 'sl'
+
+-- ==> add_subdirectory(catkin/core-sl/catkin-sl)
+
+-- MACHTYPE x86_64
+
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+
+Call Stack (most recent call first):
+
+  catkin/core-sl/catkin-sl/CMakeLists.txt:8 (include)
+
+
+
+
+
+-- HOST_NAME=everest.is.localnet
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
+
+-- +++ processing catkin package: 'arm'
+
+-- ==> add_subdirectory(catkin/robots/arm)
+
+-- MACHTYPE x86_64
+
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+
+Call Stack (most recent call first):
+
+  catkin/robots/arm/CMakeLists.txt:5 (include)
+
+
+
+
+
+-- HOST_NAME=everest.is.localnet
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
+
+-- Boost version: 1.54.0
+
+-- Found the following Boost libraries:
+
+--   thread
+
+-- copying file: /home/administrator/ci/ci/team/workspace/src/cmake/sl/include/SL_dynamics.h to /home/administrator/ci/ci/team/workspace/src/catkin/robots/arm/include/SL_dynamics.h
+
+-- copying file: /home/administrator/ci/ci/team/workspace/src/cmake/sl/src/SL_dynamics.c to /home/administrator/ci/ci/team/workspace/src/catkin/robots/arm/src/SL_dynamics.c
+
+-- copying file: /home/administrator/ci/ci/team/workspace/src/cmake/sl/src/SL_forDynArt.c to /home/administrator/ci/ci/team/workspace/src/catkin/robots/arm/src/SL_forDynArt.c
+
+-- copying file: /home/administrator/ci/ci/team/workspace/src/cmake/sl/src/SL_forDynComp.c to /home/administrator/ci/ci/team/workspace/src/catkin/robots/arm/src/SL_forDynComp.c
+
+-- copying file: /home/administrator/ci/ci/team/workspace/src/cmake/sl/src/SL_invDynArt.c to /home/administrator/ci/ci/team/workspace/src/catkin/robots/arm/src/SL_invDynArt.c
+
+-- copying file: /home/administrator/ci/ci/team/workspace/src/cmake/sl/src/SL_invDynNE.c to /home/administrator/ci/ci/team/workspace/src/catkin/robots/arm/src/SL_invDynNE.c
+
+-- copying file: /home/administrator/ci/ci/team/workspace/src/cmake/sl/src/SL_kinematics.c to /home/administrator/ci/ci/team/workspace/src/catkin/robots/arm/src/SL_kinematics.c
+
+-- copying file: /home/administrator/ci/ci/team/workspace/src/cmake/sl/src/SL_parm_estimate.c to /home/administrator/ci/ci/team/workspace/src/catkin/robots/arm/src/SL_parm_estimate.c
+
+-- +++ processing catkin package: 'arm_test_task'
+
+-- ==> add_subdirectory(catkin/robots/sl-arm-task-example)
+
+-- MACHTYPE x86_64
+
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+
+Call Stack (most recent call first):
+
+  catkin/robots/sl-arm-task-example/CMakeLists.txt:8 (include)
+
+
+
+
+
+-- HOST_NAME=everest.is.localnet
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
+
+-- +++ processing catkin package: 'sl_ros_servo'
+
+-- ==> add_subdirectory(catkin/ros/sl_ros_servo)
+
+-- MACHTYPE x86_64
+
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+
+Call Stack (most recent call first):
+
+  catkin/ros/sl_ros_servo/CMakeLists.txt:5 (include)
+
+
+
+
+
+-- HOST_NAME=everest.is.localnet
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
+
+-- +++ processing catkin package: 'learning_control'
+
+-- ==> add_subdirectory(catkin/learning/learning_control)
+
+-- MACHTYPE x86_64
+
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+
+Call Stack (most recent call first):
+
+  catkin/learning/learning_control/CMakeLists.txt:10 (include)
+
+
+
+
+
+-- HOST_NAME=everest.is.localnet
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
+
+-- xenomai NOT found. (/usr/local;/usr)
+
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+
+-- +++ processing catkin package: 'ar_track_alvar'
+
+-- ==> add_subdirectory(catkin/perception/ar_track_alvar)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- ar_track_alvar: 2 messages, 0 services
+
+-- +++ processing catkin package: 'python_ros_utils'
+
+-- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/usc_utils/python_ros_utils)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- +++ processing catkin package: 'sl_conversions'
+
+-- ==> add_subdirectory(catkin/controller_manager/core-sl-ros/sl_conversions)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- +++ processing catkin package: 'sl_utilities'
+
+-- ==> add_subdirectory(catkin/controller_manager/core-sl-ros/sl_utilities)
+
+-- xenomai NOT found. (/usr/local;/usr)
+
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- +++ processing catkin package: 'sl_controller_manager'
+
+-- ==> add_subdirectory(catkin/controller_manager/core-sl-ros/sl_controller_manager)
+
+-- MACHTYPE x86_64
+
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+
+Call Stack (most recent call first):
+
+  catkin/controller_manager/core-sl-ros/sl_controller_manager/CMakeLists.txt:5 (include)
+
+
+
+
+
+-- HOST_NAME=everest.is.localnet
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
+
+-- xenomai NOT found. (/usr/local;/usr)
+
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- +++ processing catkin package: 'sl_barrett_controllers'
+
+-- ==> add_subdirectory(catkin/controller_manager/sl_barrett_controllers/sl_barrett_controllers)
+
+-- xenomai NOT found. (/usr/local;/usr)
+
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- +++ processing catkin package: 'sl_biotac_controller_data'
+
+-- ==> add_subdirectory(catkin/controller_manager/sl_biotac/sl_biotac_controller_data)
+
+-- MACHTYPE x86_64
+
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+
+Call Stack (most recent call first):
+
+  catkin/controller_manager/sl_biotac/sl_biotac_controller_data/CMakeLists.txt:5 (include)
+
+
+
+
+
+-- HOST_NAME=everest.is.localnet
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
+
+-- xenomai NOT found. (/usr/local;/usr)
+
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- +++ processing catkin package: 'sl_biotac_controllers'
+
+-- ==> add_subdirectory(catkin/controller_manager/sl_biotac/sl_biotac_controllers)
+
+-- xenomai NOT found. (/usr/local;/usr)
+
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- +++ processing catkin package: 'sl_controllers'
+
+-- ==> add_subdirectory(catkin/controller_manager/core-sl-ros/sl_controllers)
+
+-- xenomai NOT found. (/usr/local;/usr)
+
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- Boost version: 1.54.0
+
+-- Found the following Boost libraries:
+
+--   random
+
+-- +++ processing catkin package: 'sl_head_arm_controllers'
+
+-- ==> add_subdirectory(catkin/controller_manager/sl_head_arm/sl_head_arm_controllers)
+
+-- xenomai NOT found. (/usr/local;/usr)
+
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- +++ processing catkin package: 'sl_vicon_controller_data'
+
+-- ==> add_subdirectory(catkin/controller_manager/sl_vicon/sl_vicon_controller_data)
+
+-- MACHTYPE x86_64
+
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+
+Call Stack (most recent call first):
+
+  catkin/controller_manager/sl_vicon/sl_vicon_controller_data/CMakeLists.txt:5 (include)
+
+
+
+
+
+-- HOST_NAME=everest.is.localnet
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
+
+-- xenomai NOT found. (/usr/local;/usr)
+
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- +++ processing catkin package: 'sl_biotac_vicon_controller_data'
+
+-- ==> add_subdirectory(catkin/controller_manager/sl_biotac_vicon/sl_biotac_vicon_controller_data)
+
+-- MACHTYPE x86_64
+
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+
+Call Stack (most recent call first):
+
+  catkin/controller_manager/sl_biotac_vicon/sl_biotac_vicon_controller_data/CMakeLists.txt:5 (include)
+
+
+
+
+
+-- HOST_NAME=everest.is.localnet
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
+
+-- xenomai NOT found. (/usr/local;/usr)
+
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- +++ processing catkin package: 'controller_manager_task_arm'
+
+-- ==> add_subdirectory(catkin/controller_manager/controller_manager_arm/controller_manager_task_arm)
+
+-- MACHTYPE x86_64
+
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+
+Call Stack (most recent call first):
+
+  catkin/controller_manager/controller_manager_arm/controller_manager_task_arm/CMakeLists.txt:5 (include)
+
+
+
+
+
+-- HOST_NAME=everest.is.localnet
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
+
+-- xenomai NOT found. (/usr/local;/usr)
+
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- +++ processing catkin package: 'arm_user'
+
+-- ==> add_subdirectory(catkin/robots/armUser)
+
+-- MACHTYPE x86_64
+
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+
+Call Stack (most recent call first):
+
+  catkin/robots/armUser/CMakeLists.txt:5 (include)
+
+
+
+
+
+-- HOST_NAME=everest.is.localnet
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
+
+-- xenomai NOT found. (/usr/local;/usr)
+
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- +++ processing catkin package: 'arm_robot_model'
+
+-- ==> add_subdirectory(catkin/robots/arm_robot_model)
+
+-- +++ processing catkin package: 'arm_moveit_config'
+
+-- ==> add_subdirectory(catkin/planning/arm_moveit_config)
+
+-- +++ processing catkin package: 'ros_servo_arm'
+
+-- ==> add_subdirectory(catkin/ros/ros_servo_arm)
+
+-- MACHTYPE x86_64
+
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+
+Call Stack (most recent call first):
+
+  catkin/ros/ros_servo_arm/CMakeLists.txt:5 (include)
+
+
+
+
+
+-- HOST_NAME=everest.is.localnet
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- +++ processing catkin package: 'usc_utilities'
+
+-- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/usc_utils/usc_utilities)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- usc_utilities: 1 messages, 0 services
+
+-- +++ processing catkin package: 'learnable_cost_function'
+
+-- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/planning/learnable_cost_function)
+
+-- +++ processing catkin package: 'robot_info'
+
+-- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/usc_utils/robot_info)
+
+-- +++ processing catkin package: 'jacobian_utilities'
+
+-- ==> add_subdirectory(catkin/ros/usc-clmc-catkin-pkg/usc_utils/jacobian_utilities)
+
+-- +++ processing catkin package: 'sl_barrett_controller_interface'
+
+-- ==> add_subdirectory(catkin/controller_manager/sl_barrett_controllers/sl_barrett_controller_interface)
+
+-- xenomai NOT found. (/usr/local;/usr)
+
+-- Could NOT find Xenomai (missing:  Xenomai_ROOT_DIR Xenomai_LIBRARY_NATIVE Xenomai_LIBRARY_XENOMAI Xenomai_LIBRARY_PTHREAD_RT Xenomai_LIBRARY_RTDM Xenomai_VERSION Xenomai_LIBRARY_RTDK) 
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- +++ processing catkin package: 'sl_controller_interface'
+
+-- ==> add_subdirectory(catkin/controller_manager/core-sl-ros/sl_controller_interface)
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- +++ processing catkin package: 'arm_learn_hand_eye_calibration'
+
+-- ==> add_subdirectory(catkin/calibration/arm_learn_hand_eye_calibration)
+
+-- MACHTYPE x86_64
+
+Detected MACHTYPE=x86_64
+
+CMake Warning at cmake/sl_cmake_global/LAB.cmake:181 (message):
+
+  HERMES HOSTS SET TO ATHENA-ROBOT IN SRC/CMAKE/SL_CMAKE_GLOBAL/LAB.CMAKE
+
+Call Stack (most recent call first):
+
+  catkin/calibration/arm_learn_hand_eye_calibration/CMakeLists.txt:5 (include)
+
+
+
+
+
+-- HOST_NAME=everest.is.localnet
+
+-- HOST=everest
+
+-- LAB=AMD
+
+-- CMAKE_C_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_CPP_FLAGS=-Wall -Wno-unused -Wno-strict-aliasing 
+
+-- CMAKE_INCLUDE_PATH=
+
+-- CMAKE_LIBRARY_PATH=
+
+-- LAB_STD_LIBS=pthread;rt;edit;curses;nsl;glut;GL;GLU;X11;Xmu;m
+
+-- LAB_LIBDIR=lib/x86_64
+
+-- LAB_INCLUDES=include
+
+-- LAB_BINDIR=bin/x86_64
+
+-- Using these message generators: gencpp;genlisp;genpy
+
+-- +++ processing catkin package: 'robot_kinematics_cost_function'
+
+-- ==> add_subdirectory(catkin/planning/robot_kinematics_cost_function)
+
+CMake Error at /home/administrator/ci/ci/team/workspace/devel/share/catkin/cmake/catkinConfig.cmake:75 (find_package):
+
+  Could not find a package configuration file provided by
+
+  "constrained_inverse_kinematics" with any of the following names:
+
+
+
+    constrained_inverse_kinematicsConfig.cmake
+
+    constrained_inverse_kinematics-config.cmake
+
+
+
+  Add the installation prefix of "constrained_inverse_kinematics" to
+
+  CMAKE_PREFIX_PATH or set "constrained_inverse_kinematics_DIR" to a
+
+  directory containing one of the above files.  If
+
+  "constrained_inverse_kinematics" provides a separate development package or
+
+  SDK, be sure it has been installed.
+
+Call Stack (most recent call first):
+
+  catkin/planning/robot_kinematics_cost_function/CMakeLists.txt:7 (find_package)
+
+
+
+
+
+-- Configuring incomplete, errors occurred!
+
+See also "/home/administrator/ci/ci/team/workspace/build/CMakeFiles/CMakeOutput.log".
+
+See also "/home/administrator/ci/ci/team/workspace/build/CMakeFiles/CMakeError.log".
 
 Base path: /home/administrator/ci/ci/team/workspace
 
@@ -298,14 +1384,8 @@ Install space: /home/administrator/ci/ci/team/workspace/install
 
 ####
 
-#### Running command: "make cmake_check_build_system" in "/home/administrator/ci/ci/team/workspace/build"
+#### Running command: "cmake /home/administrator/ci/ci/team/workspace/src -DCATKIN_DEVEL_PREFIX=/home/administrator/ci/ci/team/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/administrator/ci/ci/team/workspace/install -G Unix Makefiles" in "/home/administrator/ci/ci/team/workspace/build"
 
 ####
 
-####
-
-#### Running command: "make -j1" in "/home/administrator/ci/ci/team/workspace/build"
-
-####
-
-Invoking "make -j1" failed
+Invoking "cmake" failed
